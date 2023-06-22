@@ -1,0 +1,67 @@
+---
+description: Sony
+---
+
+# PlayStation Portable
+
+<div align="left">
+
+<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/psp.svg" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Console de jeu portable - Durée de vie: 2004 - 2014
+
+{% embed url="https://fr.wikipedia.org/wiki/PlayStation_Portable" %}
+
+## Information
+
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>Libretro: ppsspp</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> psp</td></tr><tr><td><strong>Extensions</strong></td><td>.iso .cso .pbp .elf .prx</td></tr></tbody></table>
+
+## Fonctionnalités
+
+| Succès Rétro | Parties en Réseau |
+| ------------ | ----------------- |
+| OUI          | OUI               |
+
+## BIOS
+
+Aucun BIOS nécessaire.
+
+## Contrôles
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/c4dKloK.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+## Information spécifique au système
+
+### DLC
+
+Les DLC pour les jeux doivent être placés dans le dossier `\saves\psp\PSP\GAME`
+
+### Textures "custom"
+
+Les packs de textures "custom" doivent être placés dans le dossier `\saves\psp\PSP\TEXTURES\"GAMEID"`.
+
+Pour activer les textures "customs" dans Retrobat aller dans la [CONFIGURATION AVANCEE DU SYSTEME](../../../../navigation/view-options.md#configuration-avancees-du-systeme) :
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/ppkZ9bw.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/a2L91jh.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/lrKiiv4.png" alt=""><figcaption></figcaption></figure>
+
+</div>

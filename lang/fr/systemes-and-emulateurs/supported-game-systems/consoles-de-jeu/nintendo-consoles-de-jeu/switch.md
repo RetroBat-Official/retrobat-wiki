@@ -1,0 +1,160 @@
+---
+description: Nintendo
+---
+
+# Switch
+
+<div align="left">
+
+<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/switch.svg" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Console de jeu hybride - durée de vie: 2017 - aujourd'hu
+
+{% embed url="https://fr.wikipedia.org/wiki/Nintendo_Switch" %}
+
+## Information
+
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>yuzu</li><li>yuzu early access</li><li>ryujinx</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> switch</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.nso .nro .nca .xci .nsp .kip</td><td></td></tr></tbody></table>
+
+{% hint style="info" %}
+Yuzu Early Access n'est accessible qu'aux PATREON.
+{% endhint %}
+
+## Fonctionnalités
+
+| Succès Rétro | Parties en Réseau |
+| ------------ | ----------------- |
+| NON          | NON               |
+
+## BIOS
+
+Il est nécessaire d'extraire le firware et le fichier `prod.keys` de votre console Nintend SWITCH et de les placer dans des répertoires dédiés dans le dossier de l'émulateur:
+
+### Yuzu et Yuzu Early Access
+
+Placer prod.keys dans le dossier `\emulators\yuzu\user\keys`
+
+Placer les fichiers .nca du firmware dans le dossier `\emulators\yuzu\user\nand\system\Contents\registered`
+
+### Ryujinx
+
+Placer le fichier prod.keys dans le dossier `\emulators\ryujinx\portable\system`
+
+Installer le firmware ryujinx depuis le menu "Tools"
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/CVXr1y7.png" alt=""><figcaption><p>Tools > Install Firmware</p></figcaption></figure>
+
+</div>
+
+## Contrôles
+
+{% hint style="info" %}
+Les contrôleurs suivants peuvent être autoconfigurés depuis RetroBat dans yuzu ou Ryujinx:
+
+* Contrôleurs XInput
+* Dualshocks & DualSense
+* Nintendo Switch Pro
+{% endhint %}
+
+| RetroBat                                                                           | Switch                  |
+| ---------------------------------------------------------------------------------- | ----------------------- |
+| START                                                                              | +                       |
+| SELECT / BACK                                                                      | -                       |
+| D-PAD                                                                              | D-PAD                   |
+| Stick analogique gauche                                                            | Stick analogique gauche |
+| Stick analogique droit                                                             | Stick analogique droit  |
+| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | B                       |
+| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | A                       |
+| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | X                       |
+| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | Y                       |
+| LB (L1)                                                                            | L                       |
+| RB (R1)                                                                            | R                       |
+| L2                                                                                 | ZL                      |
+| R2                                                                                 | ZR                      |
+| L3                                                                                 | L3                      |
+| R3                                                                                 | R3                      |
+
+{% hint style="info" %}
+Pour Ryujinx, effectuer la configuration directement dans l'émulateur.
+{% endhint %}
+
+## Information spécifique au système
+
+Toutes les informations relatives à la configuration des émulateurs, leur installation, ou encore à l'extraction (dumping) des jeux sont disponibles sur les sites web des émulateurs:
+
+{% embed url="https://yuzu-emu.org/help/quickstart/" %}
+
+{% embed url="https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide" %}
+
+### Comment installer YUZU
+
+Suivre le guide disponible sur le site de l'émulateur: [Yuzu website](https://yuzu-emu.org/help/quickstart/#downloading-and-installing-yuzu).
+
+Yuzu est installé par défaut dans le dossier appdata de votre ordinateur:
+
+* `Appdata\local\yuzu` : contient les fichiers exécutables de l'émulateur
+* `Appdata\roaming\yuzu` contient les données utilisateur (sauvegardes, fichiers de configuration...)
+
+#### Fichiers exécutables
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/P8Pi1Ut.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Le contenu du répertoire `yuzu-windows-msvc` doit être copié dans le dossier `\emulators\yuzu` de votre installation Retrobat.
+
+{% hint style="info" %}
+Pour Yuzu Early Access, copier le contenu du dossier `yuzu-windows-msvc-early-access` dans le dossier `\emulators\yuzu-early-access` de votre installation Retrobat.
+{% endhint %}
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/fq2gxNH.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+#### Données utilisateur
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/CQhfYCR.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Les dossiers utilisateurs sont à copierdans `\emulators\yuzu\user`
+
+### Installer les mises à jour et les DLC des jeux
+
+Yuzu et Ryujinx permettent l'installation de mises à jour et de DLC pour vos jeux.&#x20;
+
+Les mises à jour et les DLC des jeux sont des fichiers au format .nsp que vous devez extraire de votre console SWITCH.
+
+#### Yuzu
+
+Dans Yuzu, aller dans `Files > Install Files to NAND...`
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/B6jQIqZ.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Dans l'écran suivant, rechercher le fichier .nsp sur votre ordinateur, le sélectionner et sauvegarder pour lancer l'installation.
+
+#### Ryujinx
+
+Depuis la liste de jeux dans Ryujinx, effectuer un clic droit sur le jeu et choisir **Manage Title Updates** ou **Manage DLC**
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/uRMjmAE.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Dans l'écran suivant, rechercher le fichier .nsp sur votre ordinateur, le sélectionner et sauvegarder pour lancer l'installation.
