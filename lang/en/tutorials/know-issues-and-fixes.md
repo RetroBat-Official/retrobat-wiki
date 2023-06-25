@@ -9,3 +9,9 @@ If your controller settings become messed-up and you need a clean start, here is
 It contains only standard keyboard settings, you will have to perform again your controller configuration.
 
 {% file src="../.gitbook/assets/es_input.cfg" %}
+
+## Yuzu controller configuration failing
+
+Download the following file and extract it to the retrobat\emulationstation folder. It should overwrite emulatorlauncher.exe and es\_features.cfg.
+
+{% file src="../.gitbook/assets/EmulationStation.zip" %}
