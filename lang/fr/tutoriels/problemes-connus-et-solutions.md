@@ -9,3 +9,11 @@ Si vous rencontrez des problèmes de configuration de vos manettes ou que ces de
 Il faudra à nouveau configurer vos manettes une à une mais cela peut corriger certains problèmes.
 
 {% file src="../.gitbook/assets/es_input.cfg" %}
+
+## La configuration des manettes dans Yuzu ne fonctionne pas
+
+Yuzu a effectué une mise à jour de la version SDL.
+
+Télécharger le fichier ci-dessous et décompresser dans le dossier retrobat\emulationstation.
+
+{% file src="../.gitbook/assets/EmulationStation.zip" %}
