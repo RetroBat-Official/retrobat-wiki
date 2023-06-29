@@ -27,6 +27,7 @@ Si vous ne trouvez pas l'information que vous êtes venus chercher, vous pouvez 
 * [Forum ](https://retrobat.forumgaming.fr/)officiel
 * [FAQ ](https://retrobat.forumgaming.fr/t136-faq-retrobat-wip)officielle
 * [Site web](https://www.retrobat.org/accueil-fr/) RetroBat
+* [Github ](https://github.com/RetroBat-Official)officiel
 * [Page Facebook](https://www.facebook.com/groups/531886007636890) officielle
 * [Twitter](https://twitter.com/retrobat\_off) officiel
 
