@@ -61,7 +61,7 @@ In the next submenu, save the remap file for the game (it will apply to this gam
 Once saved, the new remap will now be used next time you run the game.
 
 {% hint style="info" %}
-You cannot use the option to save for content directory, as this would automatically be erased by RetroBat upon next launch.
+You cannot use the option to "save for core", as this would automatically be erased by RetroBat upon next launch.
 {% endhint %}
 
 <div align="left">
