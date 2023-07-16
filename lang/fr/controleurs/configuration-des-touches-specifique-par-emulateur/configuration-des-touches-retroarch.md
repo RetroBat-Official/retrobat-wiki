@@ -61,7 +61,7 @@ Dans le sous-menu suivant, sauvegarder la configuration des touches pour le jeu 
 Une fois sauvegardé, le nouveau fichier de configuration sera utilisé au prochain lancement du jeu.
 
 {% hint style="info" %}
-Il n'est pas possible d'utiliser l'option "Sauvegarder le remappage pour le dossier", celui-ci étant utilisé par RetroBat, il sera automatiquement supprimé au démarrage suivant.
+Il n'est pas possible d'utiliser l'option "Sauvegarder le remappage pour le coeur", celui-ci étant utilisé par RetroBat, il sera automatiquement supprimé au démarrage suivant.
 {% endhint %}
 
 <div align="left">
