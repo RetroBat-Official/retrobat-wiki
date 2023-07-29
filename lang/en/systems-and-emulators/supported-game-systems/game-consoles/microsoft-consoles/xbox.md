@@ -18,6 +18,10 @@ Game Console - Lifespan: 2001 - 2006
 
 <table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>xemu</li><li>cxbx</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> xbox</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.xbe .iso</td><td></td></tr></tbody></table>
 
+{% hint style="info" %}
+iso files need to be in xiso format.
+{% endhint %}
+
 {% hint style="danger" %}
 CXBX requires "dokan" to be able to mount .iso images to a drive.\
 You can download dokan v2 from here:\
