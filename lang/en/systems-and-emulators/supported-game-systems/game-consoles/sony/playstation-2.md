@@ -16,7 +16,7 @@ Game Console - Lifespan: 2000 - 2013
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>pcsx2</li><li>pcsx2-16</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> ps2</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.iso .cso .bin .mdf .gz .chd</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>pcsx2</li><li>pcsx2-16</li><li>play</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> ps2</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.iso .cso .bin .mdf .gz .chd</td><td></td></tr></tbody></table>
 
 ## Features
 
@@ -34,13 +34,7 @@ Game Console - Lifespan: 2000 - 2013
 
 ### Logic for BIOS search
 
-RetroBat will search BIOS to use with the following logic:
-
-1. Search for existing BIOS in folder `\bios\pcsx2\bios`, use first BIOS found in this folder
-2. If no BIOS found, search for BIOS in `\bios` folder, use the first BIOS found in this folder
-3. If no BIOS found: force _SCPH30004R.bin_ in emulator configuration file
-
-This means that if you want to use a dedicated BIOS file instead of standard _SCPH30004R.bin_, the best solution is to place the BIOS you want to use in the `\bios\pcsx2\bios` directory.
+**All BIOS need to exist at the root of the `\bios` folder of the RetroBat installation**, however, it is possible to force usage of a specific bios file by copying it in the `\bios\pcsx2\bios` folder.
 
 ## Controls
 
