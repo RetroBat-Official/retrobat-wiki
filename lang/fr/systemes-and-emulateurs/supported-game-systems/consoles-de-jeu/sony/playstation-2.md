@@ -16,7 +16,7 @@ Console de jeu - Durée de jeu: 2000 - 2013
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>pcsx2</li><li>pcsx2-16</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> ps2</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.iso .cso .bin .mdf .gz .chd</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>pcsx2</li><li>pcsx2-16</li><li>play</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> ps2</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.iso .cso .bin .mdf .gz .chd</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
@@ -34,13 +34,7 @@ Console de jeu - Durée de jeu: 2000 - 2013
 
 ### Logique de détermination du BIOS
 
-RetroBat détermine le BIOS injecté dans l'émulateur selon la logique ci-dessous:
-
-1. Recherche dans le dossier `\bios\pcsx2\bios`, utiliser le premier BIOS trouvé dans le dossier
-2. Si aucun BIOS n'est trouvé, recherche dans le dossier `\bios` , utiliser le premier BIOS trouvé dans le dossier
-3. Si aucun BIOS n'est trouvé: forcer _SCPH30004R.bin_ dans le fichier de configuration de l'émulateur
-
-Cela signifie que la meilleure façon de spécifier un BIOS différent du BIOS standard _SCPH30004R.bin_ est de copier le BIOS à utiliser dans le dossier `\bios\pcsx2\bios`.
+Tous les BIOS doivent exister dans le dossier `\bios` à la racine de l'installation RetroBat, il est toutefois possible de spécifier un BIOS différent du BIOS par défaut en le copiant dans le dossier `\bios\pcsx2\bios`.
 
 ## Contrôles
 
