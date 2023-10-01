@@ -2,7 +2,7 @@
 
 <div align="left">
 
-<figure><img src="https://github.com/fabricecaruso/es-theme-carbon/blob/master/art/logos/zaccariapinball.png?raw=true" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/55ff14aa79c95ecc70133072e6ac19fed3555b56/art/logos/zaccariapinball.svg" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -30,7 +30,7 @@ Create an empty .txt file and name is with the table name:
 
 </div>
 
-Save the file with the .table extension in the :open\_file\_folder:`roms\`:open\_file\_folder:`zaccariapinball`folder of your RetroBat installation.&#x20;
+Save the file with the .table extension in the :open\_file\_folder:`roms\`:open\_file\_folder:`zaccariapinball` folder of your RetroBat installation.&#x20;
 
 {% hint style="warning" %}
 The naming of the table is "case-sensitive", the file must have the EXACT name expected by the emulator, else the table will not launch directly.
@@ -168,10 +168,8 @@ Zankor Deluxe\
 Zankor 2017\
 Zankor Retro\
 Zombie\
-Zombie Invasion (starts invasion mode table)
+Zombie Invasion
 
 </details>
-
-Then the Zaccaria Pinball system will appear when you navigate in the System View.
 
 &#x20;

@@ -16,11 +16,15 @@ Arcade - Released: 2003
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: flycast</li><li>demul</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> atomiswave</td></tr><tr><td><strong>File extension</strong></td><td>.bin .lst .zip .7z</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: flycast</li><li>flycast</li><li>demul</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> atomiswave</td></tr><tr><td><strong>File extension</strong></td><td>.bin .lst .zip .7z</td></tr></tbody></table>
 
 ## Bios Information
 
 <table><thead><tr><th width="160.55555555555557">bios file</th><th width="155">Folder</th><th>md5</th></tr></thead><tbody><tr><td>awbios.zip</td><td><code>\bios\dc</code></td><td>0ec5ae5b5a5c4959fa8b43fcf8687f7c</td></tr></tbody></table>
+
+{% hint style="info" %}
+For Flycast standalone, BIOS file must be placed in `emulators\flycast\data` folder.
+{% endhint %}
 
 ## Controls
 

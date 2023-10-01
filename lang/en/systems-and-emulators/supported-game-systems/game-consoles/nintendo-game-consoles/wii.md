@@ -66,8 +66,8 @@ The mapping hereunder is the default mapping when using **EMULATED**
 | D-PAD                                                                              | D-PAD                    |
 | Left Analog Stick                                                                  | IR control (wii pointer) |
 | Right Analog Stick                                                                 | Tilt control             |
-| ![A](<../../../../.gitbook/assets/image (25).png>)                                 | B                        |
-| ![B](<../../../../.gitbook/assets/image (11).png>)                                 | A                        |
+| ![A](<../../../../.gitbook/assets/image (25).png>)                                 | A                        |
+| ![B](<../../../../.gitbook/assets/image (11).png>)                                 | B                        |
 | <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="original"> | 2                        |
 | <img src="../../../../.gitbook/assets/image (43).png" alt="" data-size="line">     | 1                        |
 | LB (L1)                                                                            | -                        |
@@ -189,11 +189,15 @@ It used the default mapping with the following changes:
 
 | Retrobat Key                                                                       | Wiimote Key |
 | ---------------------------------------------------------------------------------- | ----------- |
-| ![A](<../../../../.gitbook/assets/image (25).png>)                                 | 1           |
-| ![B](<../../../../.gitbook/assets/image (11).png>)                                 | 2           |
-| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="original"> | B           |
-| <img src="../../../../.gitbook/assets/image (43).png" alt="" data-size="line">     | A           |
+| ![A](<../../../../.gitbook/assets/image (25).png>)                                 | 2           |
+| ![B](<../../../../.gitbook/assets/image (11).png>)                                 | B           |
+| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="original"> | A           |
+| <img src="../../../../.gitbook/assets/image (43).png" alt="" data-size="line">     | 1           |
 | L2                                                                                 | Shake       |
+| SELECT                                                                             | -           |
+| START                                                                              | +           |
+| L1                                                                                 | Tilt left   |
+| R1                                                                                 | Tilt right  |
 
 (ROM name example : `New Super Mario WII.side.iso`)
 
@@ -218,6 +222,18 @@ For example if your game requires a nunchuk and IR cursor usage (e.g. `Super Mar
 | CURSOR/NUNCHUK | IR cursor movement | Nunchuk joystick   | .in.     |
 
 (ROM name example : `Super Mario Galaxy.ni.iso` or `Super Mario Galaxy.in.iso`)
+
+#### Motion Control
+
+If you own a controller like a Dualshock or a switch Pro Controller, it is possible to use the controller Motion Control Sensor to emulate the Wiimote Gyroscope.
+
+To do this, you need to enable the MOTION CONTROL option in the advanced options:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/mbXacu8.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ## Controls (libretro core)
 

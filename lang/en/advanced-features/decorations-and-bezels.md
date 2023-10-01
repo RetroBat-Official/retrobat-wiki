@@ -120,13 +120,13 @@ The MegaBezel pack combines both Shaders and Bezels, it adds dynamic reflections
 Mega Bezels can only be used with Libretro cores, it does not work with standalone emulators.
 {% endhint %}
 
-### Downloading the MegaBezel pack
+### Downloading a MegaBezel pack
 
-From the [CONTENT DOWNLOADER](updates-and-content-download.md#download-content), select **Medias > Duimon's Mega Bezels**
+From the [CONTENT DOWNLOADER](updates-and-content-download.md#download-content), select **Megabezels**
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/N4qHo9m.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/QmWLsNg.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -134,7 +134,7 @@ The pack is downloaded in the `\emulators\retroarch\shaders` folder
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/NkcPSTu.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/z8WoJp8.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -148,14 +148,7 @@ Mega Bezels can be enabled from the [MAIN MENU](../navigation/main-menu.md#game-
 
 </div>
 
-There are 6 options available:
-
-* ADVANCED
-* ADVANCED-NIGHT
-* LITE
-* LITE-NIGHT
-* STANDARD
-* STANDARD-NIGHT
+There are multiple options available for each pack.
 
 In addition, set **DECORATIONS** to **NONE** and **GAME ASPECT RATIO** to **FULL**
 

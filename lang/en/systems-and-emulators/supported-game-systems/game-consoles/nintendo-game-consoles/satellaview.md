@@ -16,7 +16,7 @@ Game Console Extension - Lifespan: 1995 - 2000
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="260"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: snes9x</li><li>libretro: mesen-s</li></ul></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> satellaview</td></tr><tr><td><strong>File extensions</strong></td><td>.st .fig .bs .smc .sfc .zip .7z</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="260"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: snes9x</li><li>libretro: mesen-s</li><li>ares</li></ul></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> satellaview</td></tr><tr><td><strong>File extensions</strong></td><td>.st .fig .bs .smc .sfc .zip .7z</td></tr></tbody></table>
 
 ## Features
 

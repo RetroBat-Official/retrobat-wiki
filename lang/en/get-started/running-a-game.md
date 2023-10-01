@@ -10,7 +10,7 @@ In order to run a game, when in the [Game View](../navigation/system-view-and-ga
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/hJOODzs.png" alt=""><figcaption><p>Highlight the game and press "SOUTH" button</p></figcaption></figure>
+<figure><img src="https://i.imgur.com/fOt7WB7.png" alt=""><figcaption><p>Highlight the game and press "SOUTH" button</p></figcaption></figure>
 
 </div>
 

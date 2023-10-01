@@ -31,11 +31,11 @@ Each subfolder contains a `rendering-defaults.yml` file specifying:
 
 ### Retroarch
 
-Files that are used in Retroarch to enable Mega-Bezels are stored in the `emulators\retroarch\shaders\shaders_slang\Duimon-Mega-Bezel\` folder of your RetroBat installation.
+Files that are used in Retroarch to enable Mega-Bezels are stored in the `emulators\retroarch\shaders\Mega_Bezel_Packs\` folder of your RetroBat installation.
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/fgpBn8a.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/mIBS32p.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -52,7 +52,7 @@ In the example we will use for this tutorial, we will add a new preset to the Sa
 </div>
 
 Let's start by copying the existing preset files and customize them by adding the instruction to mirror the bezel.\
-First, we will need to copy the existing presets located in the `emulators\retroarch\shaders\shaders_slang\Duimon-Mega-Bezel\` folder.
+First, we will need to copy the existing presets located in the `emulators\retroarch\shaders\Mega_Bezel_Packs\Duimon-Mega-Bezel\` folder.
 
 We will copy the ones that are the most used for the SATURN system, \[Bezel] and \[Bezel]-\[Night] (advanced versions):
 

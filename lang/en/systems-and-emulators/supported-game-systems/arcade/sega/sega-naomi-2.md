@@ -16,7 +16,7 @@ Arcade - Released: 2000&#x20;
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: flycast</li><li>demul</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> naomi2</td></tr><tr><td><strong>File extension</strong></td><td>.zip .7z</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: flycast</li><li>flycast</li><li>demul</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> naomi2</td></tr><tr><td><strong>File extension</strong></td><td>.zip .7z</td></tr></tbody></table>
 
 ## Features
 
@@ -27,6 +27,10 @@ Arcade - Released: 2000&#x20;
 ## Bios Information
 
 <table><thead><tr><th width="160.55555555555557">bios file</th><th width="155">Folder</th><th>md5</th></tr></thead><tbody><tr><td>naomi2.zip</td><td><code>\bios\dc</code></td><td>See below</td></tr></tbody></table>
+
+{% hint style="info" %}
+For Flycast standalone, BIOS file must be placed in `emulators\flycast\data` folder.
+{% endhint %}
 
 ### Content of BIOS file
 

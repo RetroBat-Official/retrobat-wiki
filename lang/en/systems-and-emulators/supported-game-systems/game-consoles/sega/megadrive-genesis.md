@@ -12,10 +12,10 @@ Game Console - Lifespan: 1988 - 1997
 
 ## Information
 
-| **Emulators**       | <ul><li>libretro: genesis_plus_gx</li><li>libretro: genesis_plus_gx_wide</li><li>libretro: picodrive</li><li>libretro: fbneo</li><li>mednafen</li><li>kega-fusion</li></ul> |   |
-| ------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | - |
-| **Games Location**  | :file\_folder: roms \ :open\_file\_folder: megadrive                                                                                                                        |   |
-| **File extensions** | .68k .sgd .smd .bin .gen .md .sg .wad .zip .7z                                                                                                                              |   |
+| **Emulators**       | <ul><li>libretro: genesis_plus_gx</li><li>libretro: genesis_plus_gx_wide</li><li>libretro: picodrive</li><li>libretro: fbneo</li><li>mednafen</li><li>ares</li><li>kega-fusion</li></ul> |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Games Location**  | :file\_folder: roms \ :open\_file\_folder: megadrive                                                                                                                                     |
+| **File extensions** | .68k .sgd .smd .bin .gen .md .sg .wad .zip .7z                                                                                                                                           |
 
 ## BIOS
 

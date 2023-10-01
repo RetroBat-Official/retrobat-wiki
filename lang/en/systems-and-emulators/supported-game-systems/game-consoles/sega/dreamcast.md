@@ -16,7 +16,7 @@ Game Console - Lifespan: 1998 - 2001
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: flycast</li><li>redream</li><li>demul</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> dreamcast</td></tr><tr><td><strong>File extension</strong></td><td>.mds .mdf .cue .cdi .gdi .chd .m3u</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: flycast</li><li>flycast</li><li>redream</li><li>demul</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> dreamcast</td></tr><tr><td><strong>File extension</strong></td><td>.mds .mdf .cue .cdi .gdi .chd .m3u</td></tr></tbody></table>
 
 ## Features
 
@@ -27,6 +27,10 @@ Game Console - Lifespan: 1998 - 2001
 ## Bios Information
 
 <table><thead><tr><th width="160.55555555555557">bios file</th><th width="155">Folder</th><th>md5</th></tr></thead><tbody><tr><td>dc_boot.bin</td><td><code>\bios\dc</code></td><td>e10c53c2f8b90bab96ead2d368858623</td></tr><tr><td>dc_flash.bin</td><td><code>\bios\dc</code></td><td>0a93f7940c455905bea6e392dfde92a4</td></tr><tr><td>dc.zip</td><td><code>\bios\dc</code></td><td>See below (required for demul only)</td></tr></tbody></table>
+
+{% hint style="info" %}
+For Flycast standalone, BIOS file must be placed in `emulators\flycast\data` folder.
+{% endhint %}
 
 #### Content of BIOS file
 

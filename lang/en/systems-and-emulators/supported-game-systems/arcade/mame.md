@@ -41,7 +41,7 @@ BIOS files must be placed at the root of the `\bios` folder of your RetroBat ins
 
 ## MAME folders
 
-**Rompath**: \bios ainsi que le dossier du jeu
+**Rompath**: \bios + game rom path
 
 **Samples**: \bios\mame\samples
 
@@ -54,8 +54,6 @@ BIOS files must be placed at the root of the `\bios` folder of your RetroBat ins
 **Artworks**: \saves\mame\artwork
 
 **Cheats**: \cheats\mame
-
-**Nvram**: \saves\mame\nvram
 
 **Ctrl**: \saves\mame\ctrlr
 
@@ -110,6 +108,10 @@ Refer to the [Arcade Guide section](../../arcade-guide.md#chd-or-img-files) abou
 ### **Sample files**
 
 Refer to the [Arcade Guide "sample file" section](../../arcade-guide.md#samples).
+
+### Service Menu
+
+Press L3 and R3 buttons to access to service menu.
 
 ## Known issues & fixes
 

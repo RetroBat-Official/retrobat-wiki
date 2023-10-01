@@ -62,4 +62,6 @@ Use Pad2Key for this system if you need specific mapping, see the [Pad2Key ](../
 
 ## Specific system information
 
-There is no specific System information documented here yet.
+### IPF files support
+
+See [HERE](amiga-4000.md#specific-system-information)

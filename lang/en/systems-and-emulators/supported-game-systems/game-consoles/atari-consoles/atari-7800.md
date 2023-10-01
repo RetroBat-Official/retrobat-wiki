@@ -20,7 +20,7 @@ Game console - Lifespan: 1986 - 1992
 
 ## BIOS
 
-<table><thead><tr><th width="193">Bios file</th><th width="142.03610108303252">Folder</th><th>md5</th></tr></thead><tbody><tr><td>7800 BIOS (E).rom</td><td><code>\bios</code></td><td>397bb566584be7b9764e7a68974c4263</td></tr><tr><td>7800 BIOS (U).rom</td><td><code>\bios</code></td><td>0763f1ffb006ddbe32e52d497ee848ae</td></tr><tr><td>ProSystem.dat</td><td><code>\bios</code></td><td>ce6a86574d0c9de9075705f14e99d090</td></tr></tbody></table>
+<table><thead><tr><th width="193">Bios file</th><th width="142.03610108303252">Folder</th><th>md5</th></tr></thead><tbody><tr><td>7800 BIOS (E).rom</td><td><code>\bios</code></td><td>397bb566584be7b9764e7a68974c4263</td></tr><tr><td>7800 BIOS (U).rom</td><td><code>\bios</code></td><td>0763f1ffb006ddbe32e52d497ee848ae</td></tr><tr><td>ProSystem.dat</td><td><code>\bios</code></td><td>ce6a86574d0c9de9075705f14e99d090</td></tr><tr><td>A78_highscore.bin</td><td><code>\bios</code></td><td></td></tr></tbody></table>
 
 ## Controls
 

@@ -20,7 +20,7 @@ Game Console - Lifespan: 1994 - 1998
 
 ## Bios Information
 
-<table><thead><tr><th width="224">bios file</th><th width="169">Folder</th><th>md5</th></tr></thead><tbody><tr><td>pcfx.rom</td><td><code>\bios</code></td><td>08e36edbea28a017f79f8d4f7ff9b6d7</td></tr></tbody></table>
+<table><thead><tr><th width="224">bios file</th><th width="169">Folder</th><th>md5</th></tr></thead><tbody><tr><td>pcfx.rom</td><td><code>\bios</code></td><td>08e36edbea28a017f79f8d4f7ff9b6d7</td></tr><tr><td>fx-scsi.rom</td><td><code>\bios</code></td><td></td></tr></tbody></table>
 
 ## Controls
 

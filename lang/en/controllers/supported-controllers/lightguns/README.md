@@ -80,12 +80,6 @@ The same can be done per game from the [Game Options](../../../navigation/game-o
 For some systems the option will be directly in the **ADVANCED OPTIONS** list (e.g. 3DO), for other systems the option will be named **LIGHTGUN MODE** (e.g. MAME).
 {% endhint %}
 
-### Calibration
-
-{% hint style="danger" %}
-In construction
-{% endhint %}
-
 ## Lightgun Devices
 
 ### WiiMote & Mayflash DolphinBar
@@ -115,20 +109,33 @@ For better accuracy, it is recommended to place your Dolphinbar UNDER your scree
 For Dolphin standalone emulator, you need to set the Dolphinbar in mode 4 as this is the native Wiimote mode supported by Dolphin and allowing you to use your wiimotes as **REAL WIIMOTES** for best possible experience. See the Wii section of the wiki for more information.
 {% endhint %}
 
-### AE Lightgun
-
-TBD
+{% hint style="danger" %}
+Note that Wiimote mode 4 is not compatible with using multiple Wiimotes for multigun games.
+{% endhint %}
 
 ### Sinden Lightgun
 
-TBD
+<div align="left">
+
+<figure><img src="https://i.imgur.com/B4s3AIf.png" alt="" width="188"><figcaption></figcaption></figure>
+
+</div>
+
+The Sinden Lightgun works with RetroBat and should be automatically detected, it is however necessary to have the Sinden Software running in parallel of RetroBat.
+
+{% embed url="https://sindenlightgun.com/drivers/" %}
+
+When using Sinden Lightguns, the gun requires a white border to be displayed around the game screen. This border is necessary for the gun to detect the placement of the target on screen.&#x20;
+
+* The border should appear automatically for libretro cores (RetroArch)
+* For "standalone" emulators, RetroBat uses Reshade to manage the boder. For that select the "sindenborder" shader in the list of available shaders in the RetroBat menu:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/Tx26Eal.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ### Gun4IR
 
-TBD
-
-## Compatible LightGun Systems
-
-{% hint style="danger" %}
-Under testing and construction
-{% endhint %}
+{% embed url="https://www.gun4ir.com/" %}

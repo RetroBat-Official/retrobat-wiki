@@ -16,11 +16,11 @@ Computer - Lifespan: 1985 - 1993
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: hatari</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> atarist</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.st .msa .stx .dim .ipf .m3u .zip .7z</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: hatari</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> atarist</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.st .msa .stx .dim .ipf .m3u .gemdos .zip .7z</td><td></td></tr></tbody></table>
 
 ## BIOS
 
-<table><thead><tr><th width="193">Bios file</th><th width="142.03610108303252">Folder</th><th>md5</th></tr></thead><tbody><tr><td>tos.img</td><td><code>\bios</code></td><td>b2a8570de2e850c5acf81cb80512d9f6</td></tr></tbody></table>
+<table><thead><tr><th width="193">BIOS file</th><th width="142.03610108303252">Folder</th><th>md5 hash / remark</th></tr></thead><tbody><tr><td>tos.img</td><td><code>\bios</code></td><td>b2a8570de2e850c5acf81cb80512d9f6</td></tr><tr><td>emutos.img</td><td><code>\bios</code></td><td>For hatari standalone</td></tr><tr><td>tos102.img</td><td><code>\bios</code></td><td>TOS 1.02 (for hatari standalone)</td></tr><tr><td>tos104.img</td><td><code>\bios</code></td><td>TOS 1.04 (for hatari standalone)</td></tr><tr><td>tos206.img</td><td><code>\bios</code></td><td>TOS 2.06 (for hatari standalone)</td></tr></tbody></table>
 
 ## Controls
 
@@ -28,8 +28,49 @@ Use Pad2Key for this system if you need specific mapping, see the [Pad2Key ](../
 
 Here is the default mapping.
 
-<table><thead><tr><th width="263">Retrobat Button</th><th>Atari ST key</th></tr></thead><tbody><tr><td>START</td><td>Show/Hide virtual keyboard</td></tr><tr><td>SELECT</td><td>Toggle Mouse/Joy mode</td></tr><tr><td>D-PAD</td><td></td></tr><tr><td>Left analog stick</td><td>Directions (up, dow, left, right)</td></tr><tr><td>Right analog stick</td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (43).png" alt=""></td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (25).png" alt=""></td><td>Mouse button B</td></tr><tr><td><img src="../../../../.gitbook/assets/image (11).png" alt=""></td><td>Fire/Mouse button A / press key in virtual keyboard</td></tr><tr><td><img src="../../../../.gitbook/assets/image (45).png" alt=""></td><td>lr-hatari GUI</td></tr><tr><td>L1</td><td>Toggle Num Joy</td></tr><tr><td>R1</td><td>Change Mouse speed 1 to 6 (for gui and emu)</td></tr><tr><td>L2</td><td>Show/Hide status</td></tr><tr><td>R2</td><td>Sound on/off</td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="263">Retrobat Button</th><th>Atari ST key (libretro)</th></tr></thead><tbody><tr><td>START</td><td>Show/Hide virtual keyboard</td></tr><tr><td>SELECT</td><td>Toggle Mouse/Joy mode</td></tr><tr><td>D-PAD</td><td></td></tr><tr><td>Left analog stick</td><td>Directions (up, dow, left, right)</td></tr><tr><td>Right analog stick</td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (43).png" alt=""></td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (25).png" alt=""></td><td>Mouse button B</td></tr><tr><td><img src="../../../../.gitbook/assets/image (11).png" alt=""></td><td>Fire/Mouse button A / press key in virtual keyboard</td></tr><tr><td><img src="../../../../.gitbook/assets/image (45).png" alt=""></td><td>lr-hatari GUI</td></tr><tr><td>L1</td><td>Toggle Num Joy</td></tr><tr><td>R1</td><td>Change Mouse speed 1 to 6 (for gui and emu)</td></tr><tr><td>L2</td><td>Show/Hide status</td></tr><tr><td>R2</td><td>Sound on/off</td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
+
+### **Hatari**
+
+<table><thead><tr><th width="263">Retrobat Button</th><th>Hatari</th></tr></thead><tbody><tr><td>SELECT</td><td>Open emulator menu</td></tr><tr><td>D-PAD</td><td>Joystick - D-pad</td></tr><tr><td><img src="../../../../.gitbook/assets/image (25).png" alt=""></td><td>Joystick - FIRE</td></tr><tr><td>F11</td><td>Toggle fullscreen</td></tr><tr><td>F12</td><td>Emulator Menu</td></tr><tr><td>ALTGr + Q</td><td>Quit emulator</td></tr></tbody></table>
 
 ## Specific system information
 
-There is no specific System information documented here yet.
+### Mounting a "gemdos" hard drive image
+
+Hatari can automatically mount a "gemdos" hdd image within the emulated system, in order to do this, the hdd to mount must be stored in the roms folder with the extension .gemdos:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/NL5pfA9.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+It is also possible to make hatari automatically run one of the program stored on the mounted gemdos HDD image.
+
+To do so, create an empty text file in the roms\atarist folder that is named with the exact same name as the gemdos folder (without the .gemdos extension).&#x20;
+
+In the file, specify the path to the program to run within the mounted image, for example:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/sP51dpz.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Finally: save the text file with the ".autorun" extension and place it in the same folder as the .gemdos image folder:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/jg3Na78.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+In this example, RetroBat automatically:
+
+* Launches hatari and mounts the "The New Zealand Story.gemdos" image in the emulated device
+* Runs the program RUNME.TOS from the mounted drive (program is located in `C:\AUTO`)
+
+{% hint style="warning" %}
+Running .gemdos folders requires the TOS version 2.06 or emuTOS.
+{% endhint %}

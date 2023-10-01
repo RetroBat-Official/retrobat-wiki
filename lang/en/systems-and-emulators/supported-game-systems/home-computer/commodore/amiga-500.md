@@ -58,4 +58,13 @@ Use Pad2Key for this system if you need specific mapping, see the [Pad2Key ](../
 
 ## Specific system information
 
-There is no specific System information documented here yet.
+### IPF files support
+
+Libretro:puae and WinUAE are able to load .ipf files, provided they have access to the capsimg library.
+
+In order to add the library to RetroBat, place the 64 bits "capsimg.dll" library in the following folders:
+
+* `\emulators\winuae\plugins` - if you are using WinUAE
+* `\bios` - if you are using libretro:puae
+
+The capsimg library can be found here : [https://fs-uae.net/download#plugins](https://fs-uae.net/download#plugins)

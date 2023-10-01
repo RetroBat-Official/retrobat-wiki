@@ -13,7 +13,7 @@ For most systems, BIOS files must be placed in the `\bios` folder in your Retrob
 </div>
 
 {% hint style="info" %}
-A few systems need the bios files to be placed in subfolders. Refer to the individual system wiki page for detailed information about BIOS placement.
+A few systems need the bios files to be placed in subfolders or in other paces. Refer to the individual system wiki page for detailed information about BIOS placement.
 {% endhint %}
 
 ### Missing BIOS check

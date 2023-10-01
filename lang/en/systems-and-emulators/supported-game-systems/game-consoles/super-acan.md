@@ -20,7 +20,9 @@ Game Console - Lifespan: 1995 - 1996
 
 ## Bios Information
 
-No BIOS required.
+<table><thead><tr><th width="209.55555555555557">bios file</th><th width="189">Folder</th><th>md5</th></tr></thead><tbody><tr><td>supracan.zip</td><td><code>\bios</code></td><td>3bd04a2e4edcc77fa0e62ff79a99b569</td></tr></tbody></table>
+
+
 
 ## Controls
 

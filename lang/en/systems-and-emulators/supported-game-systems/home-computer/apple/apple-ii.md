@@ -16,7 +16,7 @@ Computer - Lifespan: 1977 - 1979
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>applewin</li><li>mednafen</li><li>libretro:mame</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> apple2</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.nib .do .po .dsk</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>applewin</li><li>mednafen</li><li>libretro:mame</li><li>mame</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> apple2</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.nib .do .po .dsk .woz .m3u</td><td></td></tr></tbody></table>
 
 ### libretro:mame information
 
@@ -24,7 +24,20 @@ Computer - Lifespan: 1977 - 1979
 
 ## BIOS
 
-No BIOS files required for Apple II.
+<table><thead><tr><th width="193">BIOS file</th><th width="142.03610108303252">Folder</th><th>md5</th></tr></thead><tbody><tr><td>apple2.zip</td><td><code>\bios</code></td><td></td></tr><tr><td>apple2e.zip</td><td><code>\bios</code></td><td></td></tr><tr><td>apple2ee.zip</td><td><code>\bios</code></td><td></td></tr><tr><td>apple2p.zip</td><td><code>\bios</code></td><td></td></tr><tr><td>a2diskiing.zip</td><td><code>\bios</code></td><td></td></tr><tr><td>votrax.zip</td><td><code>\bios</code></td><td></td></tr><tr><td>d2fdc.zip</td><td><code>\bios</code></td><td></td></tr><tr><td>AppleIIe_DiskII.rom</td><td><code>\bios</code></td><td></td></tr><tr><td>AppleIIe.rom</td><td><code>\bios</code></td><td></td></tr></tbody></table>
+
+<details>
+
+<summary>Mednafen BIOS</summary>
+
+apple2-int-auto.rom\
+apple2-asoft-auto.rom\
+disk2-13boot.rom\
+disk2-13seq.rom\
+disk2-16boot.rom\
+disk2-16seq.rom
+
+</details>
 
 ## Controls
 

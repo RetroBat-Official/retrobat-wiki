@@ -16,11 +16,11 @@ Portable Game Console - Lifespan: 1998 - 1999
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: mednafen_ngp</li><li>Libretro: race</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> ngp</td></tr><tr><td><strong>File extension</strong></td><td>.ngp .ngc .zip .7z</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: mednafen_ngp</li><li>Libretro: race</li><li>ares</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> ngp</td></tr><tr><td><strong>File extension</strong></td><td>.ngp .ngc .zip .7z</td></tr></tbody></table>
 
 ## Bios Information
 
-No BIOS required for Neo Geo Pocket.
+<table><thead><tr><th width="625">Bios file</th><th width="104">Folder</th><th data-hidden>md5</th></tr></thead><tbody><tr><td>[BIOS] SNK Neo Geo Pocket (Japan, Europe) (En,Ja).ngp</td><td><code>\bios</code></td><td></td></tr></tbody></table>
 
 ## Controls
 

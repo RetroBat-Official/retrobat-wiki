@@ -18,9 +18,15 @@ Game Console - Lifespan: 1982 - 1984
 
 <table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: vecx</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> vectrex</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.bin .gam .vec .zip .7z</td><td></td></tr></tbody></table>
 
+## Features
+
+| RetroAchievements | Netplay |
+| ----------------- | ------- |
+| YES               | NO      |
+
 ## BIOS
 
-No BIOS required.
+<table><thead><tr><th width="266">BIOS File</th><th width="140">Folder</th><th width="341">MD5</th></tr></thead><tbody><tr><td>Vectrex_Bios.bin</td><td>\bios</td><td></td></tr></tbody></table>
 
 ## Controls
 

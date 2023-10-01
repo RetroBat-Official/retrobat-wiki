@@ -18,7 +18,7 @@ Only a limited list of titles are compatible.
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: tgbdual</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> gbc2players</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.gbc .zip .7z</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: tgbdual</li><li>libretro: sameboy</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> gbc2players</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.gbc .zip .m3u .7z</td><td></td></tr></tbody></table>
 
 ## BIOS
 
@@ -54,4 +54,16 @@ Same BIOS as Game Boy Color system.
 
 ## Specific system information
 
-There is no specific System information documented here yet.
+### How to link 2 different game cartridges (Pokemon)
+
+Libretro: sameboy can simulate a cable link with 2 different cartridges. To do that, create a .m3u file that lists both game files to use (1 game file per line):
+
+
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/obmo6y9.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+The 2 game files listed in the .m3u must exist in the `roms\gb2players` folder.

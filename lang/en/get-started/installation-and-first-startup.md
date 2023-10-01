@@ -67,7 +67,7 @@ The language may vary, RetroBat detects your OS language at first start-up.
 The following list of languages are recognized : english, french, japanese, spanish, german, italian, dutch, portugese, russian, korean, chinese, polish, arab.
 {% endhint %}
 
-On this view, you can navigate with the keyboard or with a game controller.
+On this view, you can navigate with the keyboard or with a game controller. If your controller is not automatically configured by RetroBat:
 
 * Press any button and the **CONFIGURE INPUT** screen appears.
 
