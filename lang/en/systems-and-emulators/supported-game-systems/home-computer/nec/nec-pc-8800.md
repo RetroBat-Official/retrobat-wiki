@@ -32,4 +32,20 @@ In construction.
 
 ## Specific system information
 
-There is no specific System information documented here yet.
+### Multi-disc games
+
+Use an M3U playlist file
+
+Create a text file with the extension ".m3u" and write the filename of each disk on a new line like in the example below.
+
+`Ys II.m3u`
+
+```
+# Ys II (Falcom)
+Ys II (Program disk).d88
+Ys II (Disk A).d88
+Ys II (Disk B).d88
+Ys II (User disk).d88
+```
+
+If you've loaded multiple disks, you can hold one of the trigger buttons and use the D-Pad to change the disk that's loaded in each drive. Use L for Drive 1 and R for Drive 2. When the shoulder button is released, the chosen disk will be inserted.

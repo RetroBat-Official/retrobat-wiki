@@ -46,9 +46,7 @@ Use [pad2key ](../../../../controllers/pad2key.md)for this system.
 
 Use an M3U playlist file
 
-Create a text file and save it as \<game>.m3u. Then enter your game's executable files on it, one per line.&#x20;
-
-The m3u file contents should look something like this:
+Create a text file and save it as \<game>.m3u. Then enter your game's .dim files on it, one per line. The m3u file contents should look something like this:
 
 `foo.m3u`
 
@@ -57,3 +55,5 @@ foo (Disk 1).dim
 foo (Disk 2).dim
 foo (Disk 3).dim
 ```
+
+The first 2 disks listed in this file are loaded into disk drives FDD0 and FDD1 on the core, respectively. To swap disks for games that use more than 2 disks, use the standard disk swapping shortcut.
