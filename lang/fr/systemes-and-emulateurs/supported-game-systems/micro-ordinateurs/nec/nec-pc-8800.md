@@ -32,4 +32,24 @@ En construction.
 
 ## Information spécifique au système
 
-Aucune information spécifique au système.
+### Jeux Multi-disques
+
+Utiliser un fichier m3u pour les jeux multi-disques.&#x20;
+
+Créer un fichier .txt et le sauvegarder avec le nom `<jeu>.m3u`. Renseigner dans le fichier le nom des fichiers des ROMs de jeu, un fichier par ligne, dans l'ordre des disques.&#x20;
+
+Ci-dessous un exemple de fichier m3u:
+
+`Ys II.m3u`
+
+```
+# Ys II (Falcom)
+Ys II (Program disk).d88
+Ys II (Disk A).d88
+Ys II (Disk B).d88
+Ys II (User disk).d88
+```
+
+Ensuite, lorsque le prompt demandant le changement de disque apparaît dans le jeu , appuyez sur la gâchette L pour le lecteur 1 et R pour le lecteur 2.&#x20;
+
+En maintenant la gâchette, tout en appuyant sur les directions gauche et droite du D-pad, choisir chacun des volumes du lecteur. Lorsque la gâchette est relâchée, le disque choisi est inséré.
