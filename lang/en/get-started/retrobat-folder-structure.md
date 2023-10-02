@@ -110,7 +110,9 @@ The subfolder contains the standard bezels provided with RetroBat.
 
 This subfolder can be used to copy short loading videos (.mp4) that can be played by RetroBat when launching a game (instead of the standard zoom effect on the game image).
 
-You can set a video per system by naming the video file with the system name (e.g. gamecube.mp4).
+You can set a video per system by naming the video file with the system name (e.g. gamecube.mp4).\
+\
+Example of loading videos can be found in \system\templates\loadingscreen.
 
 ### padtokey subfolder
 
