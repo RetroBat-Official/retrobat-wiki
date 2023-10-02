@@ -1,4 +1,4 @@
-# TyrQuake
+# Quake
 
 <div align="left">
 
@@ -12,7 +12,7 @@ Moteur de jeu Quake 1
 
 ## Informations
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro : tyrquake</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> tyrquake</td></tr><tr><td><strong>Extension</strong></td><td>.pak</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro: tyrquake</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> tyrquake</td></tr><tr><td><strong>Extension</strong></td><td>.pak</td></tr></tbody></table>
 
 ## Bios
 

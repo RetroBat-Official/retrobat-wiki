@@ -16,7 +16,7 @@ Console de jeu - Durée de vie: 1994 - 2000
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: kronos</li><li>libretro: mednafen saturn</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> saturn</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.zip .cue .toc .m3u .ccd .chd .iso .cso .mds .chd</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: kronos</li><li>libretro: mednafen saturn</li><li>mednafen</li><li>ssf</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> saturn</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.zip .cue .toc .m3u .ccd .chd .iso .cso .mds .chd</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
@@ -26,7 +26,7 @@ Console de jeu - Durée de vie: 1994 - 2000
 
 ## BIOS
 
-<table><thead><tr><th width="266">Fichier BIOS</th><th width="140">Dossier</th><th width="341">MD5</th></tr></thead><tbody><tr><td>saturn_bios.bin</td><td>\bios</td><td>af5828fdff51384f99b3c4926be27762</td></tr><tr><td>mpr-17933.bin</td><td>\bios</td><td>3240872c70984b6cbfda1586cab68dbe</td></tr><tr><td>sega_101.bin</td><td>\bios</td><td>85ec9ca47d8f6807718151cbcca8b964</td></tr></tbody></table>
+<table><thead><tr><th width="266">Fichier BIOS</th><th width="140">Dossier</th><th width="341">MD5</th></tr></thead><tbody><tr><td>saturn_bios.bin</td><td>\bios</td><td>af5828fdff51384f99b3c4926be27762</td></tr><tr><td>mpr-17933.bin</td><td>\bios</td><td>3240872c70984b6cbfda1586cab68dbe</td></tr><tr><td>sega_101.bin</td><td>\bios</td><td>85ec9ca47d8f6807718151cbcca8b964</td></tr><tr><td>mpr-18811-mx.ic1</td><td>\bios</td><td></td></tr><tr><td>mpr-19367-mx.ic1</td><td>\bios</td><td></td></tr></tbody></table>
 
 ## Contrôles
 

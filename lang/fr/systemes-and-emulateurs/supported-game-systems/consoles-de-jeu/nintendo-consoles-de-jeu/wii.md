@@ -65,8 +65,8 @@ Le tableau ci-dessous détaille la correspondance de boutons "standard" lorsque 
 | D-PAD                                                                              | D-PAD                             |
 | Stick analogique gauche                                                            | Pointeur infrarouge de la Wiimote |
 | Stick analogique droit                                                             | Mouvement "Tilt"                  |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | B                                 |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | A                                 |
+| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | A                                 |
+| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | B                                 |
 | <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | 2                                 |
 | <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | 1                                 |
 | LB (L1)                                                                            | -                                 |
@@ -186,13 +186,17 @@ C'est le paramétrage à utiliser pour les jeux demandant de tenir la wiimote à
 
 La correspondance des touches est identique à la correspondance par défaut, avec les différences suivantes:
 
-| Retrobat                                                                           | Wiimote |
-| ---------------------------------------------------------------------------------- | ------- |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | 1       |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | 2       |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | B       |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | A       |
-| L2                                                                                 | Shake   |
+| Retrobat                                                                           | Wiimote     |
+| ---------------------------------------------------------------------------------- | ----------- |
+| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | 1           |
+| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | 2           |
+| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | B           |
+| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | A           |
+| L2                                                                                 | Shake       |
+| SELECT                                                                             | -           |
+| START                                                                              | +           |
+| L1                                                                                 | Tilt gauche |
+| R1                                                                                 | Tilt droite |
 
 (Exemple de nom de ROM si la technique du renommage de ROM est utilisé : `New Super Mario WII.side.iso`)
 
@@ -211,6 +215,18 @@ Par exemple, pour un jeu utilisant le Nunchuk et nécessitant l'utilisation du p
 <table><thead><tr><th width="210">Option</th><th width="170">Stick gauche</th><th width="194">Stick droit</th><th>Nom de la ROM</th></tr></thead><tbody><tr><td>NUNCHUK/CURSOR</td><td>Stick du nunchuk</td><td>Pointeur IR</td><td>.ni.</td></tr><tr><td>CURSOR/NUNCHUK</td><td>Pointeur IR</td><td>Stick du nunchuk</td><td>.in.</td></tr></tbody></table>
 
 (Exemple de nom de ROM si la technique du nommage de ROM est utilisée : `Super Mario Galaxy.ni.iso` ou `Super Mario Galaxy.in.iso`)
+
+#### Motion Control
+
+Si vous disposez d'une manette compatible avec le motion control (les manettes Switch Pro ou Playstation sont compatibles avec la fonction gyroscope), il est possible de l'utiliser pour simuler les mouvements de la wiimotes.
+
+Pour cela, activer l'option "MOTION CONTROL" dans les options avancées du système:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/ZZBhOLk.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ## Contrôles (Core Libretro)
 

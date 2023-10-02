@@ -16,7 +16,7 @@ Console de jeu portable - Durée de vie: 1990 - 1997
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: genesis_plus_gx</li><li>libretro: picodrive</li><li>libretro: fbneo</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> gamegear</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.gg .bin .zip .7z</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: genesis_plus_gx</li><li>libretro: picodrive</li><li>libretro: fbneo</li><li>ares</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> gamegear</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.gg .bin .zip .7z</td><td></td></tr></tbody></table>
 
 ## BIOS
 

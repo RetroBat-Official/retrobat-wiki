@@ -1,18 +1,22 @@
+---
+description: Zen Studios
+---
+
 # Pinball FX3
 
 <div align="left">
 
-<figure><img src="https://github.com/fabricecaruso/es-theme-carbon/blob/master/art/logos/pinballfx3.png?raw=true" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/55ff14aa79c95ecc70133072e6ac19fed3555b56/art/logos/pinballfx3.svg" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-Simulation de Flipper
+Simulation de Flipper sortie en 2017.
 
 {% embed url="https://fr.wikipedia.org/wiki/Pinball_FX" %}
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="197"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>Steam</li></ul></td><td></td></tr><tr><td><strong>Dossier des tables</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span>roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> pinballfx3</td><td></td></tr><tr><td><strong>Extension</strong></td><td>.pxp</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="197"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>Steam</li><li>nonSteam</li></ul></td><td></td></tr><tr><td><strong>Dossier des tables</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span>roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> pinballfx3</td><td></td></tr><tr><td><strong>Extension</strong></td><td>.pxp .table</td><td></td></tr></tbody></table>
 
 ## BIOS
 
@@ -81,3 +85,207 @@ Voici comment les trouver:&#x20;
 {% hint style="info" %}
 Par défaut, le dossier \steam contient toutes les tables existantes. Vous ne pourrez utiliser que celles pour lesquelles vous possédez une licence.
 {% endhint %}
+
+<details>
+
+<summary>Nom des tables</summary>
+
+Aliens&#x20;
+
+Alien\_Isolation&#x20;
+
+Alien\_vs\_Predator&#x20;
+
+AmericanDad&#x20;
+
+Amusement\_Park&#x20;
+
+Archer&#x20;
+
+Atlantis&#x20;
+
+BALLY\_Attack\_from\_Mars&#x20;
+
+BALLY\_BlackRose&#x20;
+
+BALLY\_Champion\_Pub&#x20;
+
+BALLY\_Cirqus\_Voltaire&#x20;
+
+BALLY\_Creature\_from\_the\_Black\_Lagoon&#x20;
+
+BALLY\_Dr\_Dude&#x20;
+
+BALLY\_Party\_Zone&#x20;
+
+BALLY\_Safe\_Cracker&#x20;
+
+BALLY\_TheatreOfMagic
+
+&#x20;BETHESDA\_Doom&#x20;
+
+BETHESDA\_Fallout&#x20;
+
+BETHESDA\_Skyrim&#x20;
+
+BioLab&#x20;
+
+BobsBurgers&#x20;
+
+CastleStorm&#x20;
+
+Citadel&#x20;
+
+EarthDefense&#x20;
+
+Eldorado&#x20;
+
+Excalibur&#x20;
+
+FamilyGuy&#x20;
+
+Hercules&#x20;
+
+Looter&#x20;
+
+Mars&#x20;
+
+MARVEL\_Age\_of\_Ultron&#x20;
+
+MARVEL\_Ant-Man&#x20;
+
+MARVEL\_Avengers&#x20;
+
+MARVEL\_Blade&#x20;
+
+MARVEL\_CaptainAmerica&#x20;
+
+MARVEL\_CivilWar&#x20;
+
+MARVEL\_Deadpool&#x20;
+
+MARVEL\_DrStrange&#x20;
+
+MARVEL\_FantasticFour&#x20;
+
+MARVEL\_FearItSelf&#x20;
+
+MARVEL\_GhostRider&#x20;
+
+MARVEL\_Guardians&#x20;
+
+MARVEL\_InfinityGauntlet&#x20;
+
+MARVEL\_IronMan&#x20;
+
+MARVEL\_MoonKnight&#x20;
+
+MARVEL\_MsMarvel&#x20;
+
+MARVEL\_SpiderMan&#x20;
+
+MARVEL\_Thor&#x20;
+
+MARVEL\_Venom&#x20;
+
+MARVEL\_Wolverine&#x20;
+
+MARVEL\_WOP\_TheNextGeneration&#x20;
+
+MARVEL\_WWH&#x20;
+
+MARVEL\_XMen
+
+Paranormal&#x20;
+
+Pasha&#x20;
+
+Portal&#x20;
+
+RedCup1&#x20;
+
+RedCup2&#x20;
+
+RedCup3&#x20;
+
+Rome&#x20;
+
+Shaman&#x20;
+
+SpaceBear1&#x20;
+
+SpaceBear2&#x20;
+
+STARWARS\_AVCO2&#x20;
+
+STARWARS\_Boba\_Fett&#x20;
+
+STARWARS\_CloneWars&#x20;
+
+STARWARS\_Darth\_Vader&#x20;
+
+STARWARS\_Droids
+
+STARWARS\_Episode7&#x20;
+
+STARWARS\_Episode\_4&#x20;
+
+STARWARS\_Episode\_5&#x20;
+
+STARWARS\_Episode\_6&#x20;
+
+STARWARS\_Han\_Solo&#x20;
+
+STARWARS\_LAPB&#x20;
+
+STARWARS\_Light\_VS\_Dark&#x20;
+
+STARWARS\_Rebels&#x20;
+
+STARWARS\_SFA&#x20;
+
+Tesla&#x20;
+
+TheWalkingDead&#x20;
+
+UNIVERSAL\_BTTF&#x20;
+
+UNIVERSAL\_ET&#x20;
+
+UNIVERSAL\_Jaws&#x20;
+
+UNIVERSAL\_Jurassic\_Park&#x20;
+
+UNIVERSAL\_Jurassic\_Theme\_Park&#x20;
+
+UNIVERSAL\_Jurassic\_World&#x20;
+
+V12&#x20;
+
+Western&#x20;
+
+WMS\_Funhouse&#x20;
+
+WMS\_Getaway&#x20;
+
+WMS\_Hurricane&#x20;
+
+WMS\_Indiana\_Jones&#x20;
+
+WMS\_Junkyard&#x20;
+
+WMS\_Medieval\_Madness&#x20;
+
+WMS\_Monster\_Bash&#x20;
+
+WMS\_No\_Good\_Gofers&#x20;
+
+WMS\_Roadshow&#x20;
+
+WMS\_Space\_Station&#x20;
+
+WMS\_Tales\_of\_the\_Arabian\_Nights&#x20;
+
+WMS\_White\_Water
+
+</details>

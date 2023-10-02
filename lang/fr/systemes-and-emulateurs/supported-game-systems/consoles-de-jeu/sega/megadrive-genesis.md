@@ -12,7 +12,7 @@ Game Console - Lifespan: 1988 - 1997
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="230"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: genesis_plus_gx</li><li>libretro: genesis_plus_gx_wide</li><li>libretro: picodrive</li><li>libretro: fbneo</li><li>mednafen</li><li>kega-fusion</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> megadrive</td></tr><tr><td><strong>Extensions</strong></td><td>.68k .sgd .smd .bin .gen .md .sg .wad .zip .7z</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="230"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: genesis_plus_gx</li><li>libretro: genesis_plus_gx_wide</li><li>libretro: picodrive</li><li>libretro: fbneo</li><li>mednafen</li><li>ares</li><li>kega-fusion</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> megadrive</td></tr><tr><td><strong>Extensions</strong></td><td>.68k .sgd .smd .bin .gen .md .sg .wad .zip .7z</td></tr></tbody></table>
 
 ## Fonctionnalités
 

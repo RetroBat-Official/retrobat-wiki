@@ -114,11 +114,11 @@ Les Mega-Bezels ne sont compatibles qu'avec les coeur libretro, ils ne fonctionn
 
 ### Télécharger le pack Mega-Bezels
 
-Depuis le menu **TÉLÉCHARGEMENT DE CONTENU** du [MENU PRINCIPAL](../navigation/main-menu.md), sélectionner l'onglet Médias, puis Duimon's Mega Bezels
+Depuis le menu **TÉLÉCHARGEMENT DE CONTENU** du [MENU PRINCIPAL](../navigation/main-menu.md), sélectionner l'onglet Bezels
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/G9GEGwh.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/QmWLsNg.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -126,7 +126,7 @@ Le pack de Bezels est téléchargé dans le dossier `\emulators\retroarch\shader
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/NkcPSTu.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/z8WoJp8.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -144,14 +144,7 @@ Pour activer les Mega-Bezels, aller:
 
 </div>
 
-Il existe 6 options pour les Mega-Bezels:
-
-* ADVANCED
-* ADVANCED-NIGHT
-* LITE
-* LITE-NIGHT
-* STANDARD
-* STANDARD-NIGHT
+Il existe plusieurs options pour chaque pack de megabezels.
 
 D'autre part, il est nécessaire de positionner le réglage des **DÉCORATIONS** sur **AUCUN** et le **FORMAT D'AFFICHAGE** sur **COMPLET**
 

@@ -1,8 +1,28 @@
 # Configuration des Contrôleurs
 
+RetroBat configure automatiquement les contrôleurs en utilisant une base de données fournies par la librairie SDL, cela signifie que, dans la plupart des cas, aucune intervention utilisateur n'est nécessaire.
+
+Dans certains cas cependant, la configuration automatique ne fonctionne pas ou effectue une assignation incorrecte de certaines touches (par exemple, pour les manettes Nintendo, les boutons A,B et X,Y sont inversés), il est alors nécessaire de faire une configuration manuelle du contrôleur. Pour cela, procéder ainsi:
+
 ## Configuration des contrôleurs
 
-Une fois le contrôleur connecté au PC, lancer Retrobat et maintenir un bouton appuyé, le menu **CONFIGURER LES MANETTES** apparaît.
+Depuis le menu RetroBat, appuyer sur "START" (ENTREE sur le clavier), puis dans le menu sélectionner "PARAMETRES DES MANETTES"
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/B6nd01B.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Dans le menu suivant, sélectionner "CONFIGURER UNE MANETTE"
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/pFxyTXF.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Confirmer pour passer à l'écran de détection de la manette
 
 <figure><img src="https://i.imgur.com/eNTHkgt.png" alt=""><figcaption></figcaption></figure>
 
@@ -91,7 +111,7 @@ Lorsque l'option AUTOCONFIGURER LES MANETTES est réglée sur NON, il est néces
 
 Pour accéder aux menus des émulateurs, naviguer dans la **Vue Système** et sélectionner le système "RETROBAT". (Il est également possible de lancer chaque émulateur depuis le dossier `\emulators` dans le répertoire d'installation de Retrobat)
 
-Pour RetroArch, il est possible de créer une configuration spécifique à chaque jeu en pressant F1 (hotkey + ![B](<../.gitbook/assets/image (6).png>)) en cours de jeu et en naviguant dans le menu RetroArch pour accéder à la configuration du contrôleur.
+Pour RetroArch, il est possible de créer une configuration spécifique à chaque jeu en pressant F1 (hotkey + ![A](<../.gitbook/assets/image (19).png>)) en cours de jeu et en naviguant dans le menu RetroArch pour accéder à la configuration du contrôleur.
 {% endhint %}
 
 ## Résolution de soucis liés aux contrôleurs

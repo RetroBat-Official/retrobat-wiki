@@ -2,12 +2,6 @@
 
 Retrobat vous permet de télécharger les Mega-Bezels, un ensemble de décorations et de filtres vidéos. Vous pouvez retrouver d'avantages d'informations dans la section [Décorations & Bezels](../utilisation-avancee/decorations-and-bezels.md#les-mega-bezels) du wiki.&#x20;
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/G9GEGwh.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
 ## Emplacement des éléments
 
 ### Retrobat
@@ -28,11 +22,11 @@ Chacun des dossiers contient un fichier `rendering-defaults.yml` qui indique : \
 
 ### RetroArch
 
-Les éléments nécessaires au fonctionnement des Mega-Bezels dans Retroarch se situent dans le répertoire `emulators\retroarch\shaders\shaders_slang\Duimon-Mega-Bezel\` de votre installation Retrobat.
+Les éléments nécessaires au fonctionnement des Mega-Bezels dans Retroarch se situent dans le répertoire `emulators\retroarch\shaders\Mega_Bezel_Packs\` de votre installation Retrobat.
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/fgpBn8a.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/mIBS32p.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -50,7 +44,7 @@ En effet, pour certains cores, le rendu hardware peut inverser le tampon d'image
 </div>
 
 Nous allons commencer par créer l'instruction permettant d'inverser l'image dans le fichier preset.\
-Pour cela, il faut commencer par copier des presets existants, qui se situent dans le répertoire `emulators\retroarch\shaders\shaders_slang\Duimon-Mega-Bezel\`. \
+Pour cela, il faut commencer par copier des presets existants, qui se situent dans le répertoire `emulators\retroarch\shaders\Mega_Bezel_Packs\Duimon-Mega-Bezel\`. \
 
 
 Dans notre exemple, nous copierons les plus couramment utilisés, a savoir \[Bezel] et \[Bezel]-\[Night], dans le système Sega Saturn en mode "Advanced" :&#x20;

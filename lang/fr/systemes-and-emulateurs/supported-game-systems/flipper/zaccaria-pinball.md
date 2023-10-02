@@ -2,7 +2,7 @@
 
 <div align="left">
 
-<figure><img src="https://github.com/fabricecaruso/es-theme-carbon/blob/master/art/logos/zaccariapinball.png?raw=true" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/55ff14aa79c95ecc70133072e6ac19fed3555b56/art/logos/zaccariapinball.svg" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -171,7 +171,7 @@ Zankor Deluxe\
 Zankor 2017\
 Zankor Retro\
 Zombie\
-Zombie Invasion (starts invasion mode table)
+Zombie Invasion
 
 </details>
 

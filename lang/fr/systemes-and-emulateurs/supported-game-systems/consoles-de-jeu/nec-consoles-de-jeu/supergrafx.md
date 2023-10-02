@@ -16,7 +16,7 @@ Console de jeu - Date de commercialisation : 1989
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro: mednafen_supergrafx</li><li>Libretro: fbneo</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> supergrafx</td></tr><tr><td><strong>Extensions</strong></td><td>.pce .zip .7z .fba</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro: mednafen_supergrafx</li><li>Libretro: fbneo</li><li>mednafen</li><li>ares</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> supergrafx</td></tr><tr><td><strong>Extensions</strong></td><td>.pce .zip .7z .fba</td></tr></tbody></table>
 
 ## Fonctionnalités
 

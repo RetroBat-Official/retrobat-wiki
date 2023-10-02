@@ -55,8 +55,6 @@ Les BIOS additionnels doivent être placés à la racine du dossier \bios de vot
 
 **Cheats**: \cheats\mame
 
-**Nvram**: \saves\mame\nvram
-
 **Ctrl**: \saves\mame\ctrlr
 
 
@@ -106,6 +104,10 @@ Se référer à la [section "CHD"](../../arcade-guide.md#fichiers-chd-ou-img) du
 ### **Fichiers samples**
 
 Se référer à la [section "samples"](../../arcade-guide.md#samples) du guide arcade.
+
+### Menu "Service"
+
+Appuyer sur L3 et R3 pour accéder au menu service.
 
 ## Problèmes connus et solutions
 

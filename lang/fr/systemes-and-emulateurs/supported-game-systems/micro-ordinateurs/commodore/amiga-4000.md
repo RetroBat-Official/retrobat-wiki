@@ -62,4 +62,6 @@ Utiliser la fonctionnalité [Pad2Key](../../../../controleurs/pad2key.md).
 
 ## Information spécifique au système
 
-Aucune information spécifique au système.
+### Support des fichiers IPF
+
+Voir [ICI](amiga-500.md#information-specifique-au-systeme)

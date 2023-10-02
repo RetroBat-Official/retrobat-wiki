@@ -12,7 +12,7 @@ Console de jeu - Durée de vie : 1983 - 2003
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro : fceumm</li><li>libretro : nestopia</li><li>libretro : mesen</li><li>mednafen</li><li>mesen</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> nes</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.fds .nes .wad .zip .7z</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro : fceumm</li><li>libretro : nestopia</li><li>libretro : mesen</li><li>mednafen</li><li>mesen</li><li>ares</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> nes</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.fds .nes .wad .zip .7z</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 

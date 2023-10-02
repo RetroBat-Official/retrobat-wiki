@@ -13,7 +13,7 @@ Console de jeu - Durée de vie: 1985 - 1996
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: genesis_plus_gx</li><li>libretro: picodrive</li><li>libretro: fbneo</li><li>kega-fusion</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> mastersystem</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.bin .sms .wad .zip .7z</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: genesis_plus_gx</li><li>libretro: picodrive</li><li>libretro: fbneo</li><li>mednafen</li><li>ares</li><li>kega-fusion</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> mastersystem</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.bin .sms .wad .zip .7z</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
@@ -23,7 +23,7 @@ Console de jeu - Durée de vie: 1985 - 1996
 
 ## BIOS
 
-Aucun BIOS nécessaire.
+<table><thead><tr><th width="518">Fichier BIOS</th><th width="149">Dossier</th></tr></thead><tbody><tr><td>[BIOS] Sega Master System (USA, Europe) (v1.3).sms</td><td><code>\bios</code></td></tr><tr><td>[BIOS] Sega Master System (Japan) (v2.1).sms</td><td><code>\bios</code></td></tr></tbody></table>
 
 ## Contrôles
 

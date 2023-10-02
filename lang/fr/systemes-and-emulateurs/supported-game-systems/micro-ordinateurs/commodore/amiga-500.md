@@ -58,4 +58,13 @@ Utiliser la fonctionnalité [Pad2Key](../../../../controleurs/pad2key.md).
 
 ## Information spécifique au système
 
-Aucune information spécifique au système.
+### Support des fichiers IPF&#x20;
+
+Les émulateurs Libretro:puae et WinUAE sont capables de charger des fichiers au format .ipf, à condition d'avoir accès à la librairie "capsimg".
+
+La librairie peut être ajoutée très simplement à RetroBat, pour cela: placer le fichier "capsimg.dll" dans le(s) répertoire(s) suivant(s):
+
+* `\emulators\winuae\plugins` - pour WinUAE
+* `\bios` - pour libretro:puae
+
+La librairie "capsimg" peut être téléchargée ici (prendre la version 64 bits) : [https://fs-uae.net/download#plugins](https://fs-uae.net/download#plugins)

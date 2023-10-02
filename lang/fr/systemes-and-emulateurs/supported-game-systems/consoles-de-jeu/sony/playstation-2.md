@@ -10,13 +10,13 @@ description: Sony
 
 </div>
 
-Console de jeu - Durée de jeu: 2000 - 2013
+Console de jeu - Durée de vie: 2000 - 2013
 
 {% embed url="https://fr.wikipedia.org/wiki/PlayStation_2" %}
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>pcsx2</li><li>pcsx2-16</li><li>play</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> ps2</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.iso .cso .bin .mdf .gz .chd</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>pcsx2</li><li>pcsx2-16</li><li>play</li><li>Libretro: pcsx2</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> ps2</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.iso .cso .bin .mdf .gz .chd</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
@@ -32,9 +32,9 @@ Console de jeu - Durée de jeu: 2000 - 2013
 
 <table><thead><tr><th width="413">Fichier BIOS</th><th width="555">Dossier</th></tr></thead><tbody><tr><td>SCPH-39004_BIOS_V7_EUR_160.BIN</td><td><code>\bios</code></td></tr><tr><td>SCPH-39001_BIOS_V7_USA_160.BIN</td><td><code>\bios</code></td></tr><tr><td>SCPH-70000_BIOS_V12_JAP_200.BIN</td><td><code>\bios</code></td></tr></tbody></table>
 
-### Logique de détermination du BIOS
-
-Tous les BIOS doivent exister dans le dossier `\bios` à la racine de l'installation RetroBat, il est toutefois possible de spécifier un BIOS différent du BIOS par défaut en le copiant dans le dossier `\bios\pcsx2\bios`.
+{% hint style="info" %}
+For Libretro:pcsx2, place the BIOS in the`\bios\pcsx2\bios` folder
+{% endhint %}
 
 ## Contrôles
 
@@ -69,6 +69,10 @@ Les contrôleurs suivants peuvent être autoconfigurés depuis RetroBat dans pcs
 <figure><img src="https://i.imgur.com/9sz2VFM.png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+{% hint style="info" %}
+RetroBat ne permet l'autoconfiguration que pour PCSX2 1.7. Si vous utilisez Play! ou PCSX2 1.6, il faudra configurer les contrôles directement dans l'émulateur.
+{% endhint %}
 
 ## Information spécifique au système
 

@@ -71,7 +71,7 @@ Les langues suivantes sont reconnues: anglais, français, japonais, espagnol, al
 
 Dans la **Vue Système**, la navigation s'effectue à l'aide d'un clavier ou d'une manette de jeu.
 
-Pour une utilisation avec une manette de jeu:
+Pour une utilisation avec une manette de jeu, si RetroBat ne parvient pas à configurer automatiquement le contrôleur:
 
 * Appuyer sur un bouton, l'écran **CONFIGURER LES MANETTES** apparaît
 

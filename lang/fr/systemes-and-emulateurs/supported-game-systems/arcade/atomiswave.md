@@ -16,7 +16,7 @@ Arcade - Date de sortie : 2003
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro : flycast</li><li>demul</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> atomiswave</td></tr><tr><td><strong>Extensions</strong></td><td>.bin .lst .zip .7z</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro : flycast</li><li>flycast</li><li>demul</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> atomiswave</td></tr><tr><td><strong>Extensions</strong></td><td>.bin .lst .zip .7z</td></tr></tbody></table>
 
 ## Fonctionnalités
 
@@ -27,6 +27,10 @@ Arcade - Date de sortie : 2003
 ## Bios
 
 <table><thead><tr><th width="160.55555555555557">Fichier BIOS</th><th width="155">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>awbios.zip</td><td><code>\bios\dc</code></td><td>0ec5ae5b5a5c4959fa8b43fcf8687f7c</td></tr></tbody></table>
+
+{% hint style="info" %}
+Pour Flycast standalone, les fichiers BIOS doivent être placés dans le dossier `emulators\flycast\data`.
+{% endhint %}
 
 ## Contrôles
 

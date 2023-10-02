@@ -80,12 +80,6 @@ Le même paramétrage peut être effectué individuellement pour un jeu dans le 
 L'option peut être nommée différemment en fonction des systèmes.
 {% endhint %}
 
-### Calibration
-
-{% hint style="danger" %}
-En construction.
-{% endhint %}
-
 ## Modèles de pistolets
 
 ### WiiMote & Mayflash DolphinBar
@@ -115,20 +109,33 @@ Afin d'améliorer la précision des Wiimotes, il est recommandé de positionner 
 Le mode 4 de la DolphinBar simule le mode natif de la Wii et est pris en charge nativement par l'émulateur Dolphin. Il est donc possible d'avoir une expérience de jeu similaire au jeu sur une console Wii  en utilisant l'émulateur Dolphin, une Mayflash Dolphinbar et en sélectionnant l'option WIIMOTE TYPE = REAL dans les options avancées du système Wii.
 {% endhint %}
 
-### AE Lightgun
-
-TBD
+{% hint style="danger" %}
+Précision: le mode 4 de la dolphinbar n'est pas compatible avec l'utilisation de plusieurs wiimotes dans le cadre de jeux "multigun".
+{% endhint %}
 
 ### Sinden Lightgun
 
-TBD
+<div align="left">
+
+<figure><img src="https://i.imgur.com/B4s3AIf.png" alt="" width="188"><figcaption></figcaption></figure>
+
+</div>
+
+Le Sinden Lightgun fonctionne et est détecté par RetroBat, il est cependant nécessaire que le logiciel Sinden soit en cours d'exécution:
+
+{% embed url="https://sindenlightgun.com/drivers/" %}
+
+Lors de l'utilisation d'un Sinden Lightgun, il est nécessaire de faire apparaître une bordure blanche autour de l'écran. Cette bordure permet à la caméra du pistolet de détecter la cible.
+
+* La bordure apparaît automatiquement pour les cores libretro (RetroArch)
+* Pour les émulateurs "standalones", il est possible de faire apparaître la bordure à l'aide de Reshade, en sélectionnant le shader "sindenborder" dans la liste de shaders disponibles
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/YccMTvk.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ### Gun4IR
 
-TBD
-
-## Système compatibles avec les pistolets
-
-{% hint style="danger" %}
-En construction.
-{% endhint %}
+{% embed url="https://www.gun4ir.com/" %}

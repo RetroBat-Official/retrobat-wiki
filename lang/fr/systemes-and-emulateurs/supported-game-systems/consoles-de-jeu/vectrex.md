@@ -26,7 +26,7 @@ Console de jeu - Durée de vie: 1982 - 1984
 
 ## BIOS
 
-Aucun BIOS nécessaire.
+<table><thead><tr><th width="266">Fichier BIOS</th><th width="140">Dossier</th><th width="341">MD5</th></tr></thead><tbody><tr><td>Vectrex_Bios.bin</td><td>\bios</td><td></td></tr></tbody></table>
 
 ## Contrôles
 

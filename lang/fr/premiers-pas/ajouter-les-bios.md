@@ -13,7 +13,7 @@ Pour la plupart des systèmes, les fichiers BIOS doivent être placés dans le d
 </div>
 
 {% hint style="info" %}
-Pour certains systèmes, les bios doivent être placés dans un sous-dossier, lorsque ceci est le cas, nous le précisons dans la page du wiki dédiée au systèmes.
+Pour certains systèmes, les bios doivent être placés dans un sous-dossier ou dans un dossier alternatif, lorsque ceci est le cas, nous le précisons dans la page du wiki dédiée au systèmes.
 {% endhint %}
 
 ### Vérification des BIOS manquants

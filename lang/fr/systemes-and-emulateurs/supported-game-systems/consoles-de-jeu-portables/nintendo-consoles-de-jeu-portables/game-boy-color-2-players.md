@@ -18,7 +18,7 @@ Ci-dessous la liste des jeux compatibles (en anglais) :
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>libretro : tgbdual</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> gbc2players</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.gbc .zip .7z</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>libretro : tgbdual</li><li>libretro: sameboy</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> gbc2players</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.gbc .zip .m3u .7z</td><td></td></tr></tbody></table>
 
 ## BIOS
 
@@ -52,4 +52,16 @@ Ci-dessous la liste des jeux compatibles (en anglais) :
 
 ## Information spécifique au système
 
-Aucune information spécifique au système.
+### Comment jouer à 2 avec 2 cartouches de jeux différentes (Pokemon)
+
+Le core libretro: sameboy permet de simuler un câble link avec 2 cartouches de jeu différentes, pour cela, il faut créer un fichier .m3u contenant le nom des 2 fichiers de jeux à utiliser (1 jeu par ligne):
+
+
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/obmo6y9.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Les 2 fichiers listés dans le .m3u doivent exister dans le dossier `roms\gb2players`

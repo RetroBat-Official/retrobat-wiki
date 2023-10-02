@@ -16,7 +16,7 @@ Extension de Console de jeu - Durée de vie: 1995 - 2000
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="260"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: snes9x</li><li>libretro: mesen-s</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> satellaview</td></tr><tr><td><strong>Extensions</strong></td><td>.st .fig .bs .smc .sfc .zip .7z</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="260"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: snes9x</li><li>libretro: mesen-s</li><li>ares</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> satellaview</td></tr><tr><td><strong>Extensions</strong></td><td>.st .fig .bs .smc .sfc .zip .7z</td></tr></tbody></table>
 
 ## Fonctionnalités
 

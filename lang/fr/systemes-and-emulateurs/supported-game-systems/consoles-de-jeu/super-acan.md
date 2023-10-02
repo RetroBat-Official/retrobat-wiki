@@ -18,9 +18,13 @@ Console de jeu - Durée de vie: 1995 - 1996
 
 <table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro: mame</li><li>mame64</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> supracan</td></tr><tr><td><strong>Extensions</strong></td><td>.bin .zip</td></tr><tr><td><strong>Groupe</strong></td><td>MESS</td></tr><tr><td><strong>Modèles émulés</strong></td><td>supracan</td></tr><tr><td><strong>Softlists</strong></td><td>supracan</td></tr><tr><td><strong>Types de média</strong></td><td>cartouche</td></tr></tbody></table>
 
-## Bios
+##
 
-Aucun BIOS nécessaire.
+## BIOS
+
+<table><thead><tr><th width="209.55555555555557">Fichier BIOS</th><th width="189">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>supracan.zip</td><td><code>\bios</code></td><td>3bd04a2e4edcc77fa0e62ff79a99b569</td></tr></tbody></table>
+
+
 
 ## Contrôles
 
