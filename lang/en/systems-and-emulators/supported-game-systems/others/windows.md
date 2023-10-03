@@ -20,7 +20,7 @@ Windows games don't need any emulator to function, they can be run natively from
 
 
 
-<table data-header-hidden><thead><tr><th width="167"></th><th></th></tr></thead><tbody><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> windows</td></tr><tr><td><strong>File extension</strong></td><td>.exe .bat .cmd .lnk .url .pc .win .windows .wine .7z .zip .rar .wsquashfs</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="167"></th><th></th></tr></thead><tbody><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> windows</td></tr><tr><td><strong>File extension</strong></td><td>.exe .bat .cmd .lnk .game .url .pc .win .windows .wine .7z .zip .rar .wsquashfs</td></tr></tbody></table>
 
 ## Controls
 
