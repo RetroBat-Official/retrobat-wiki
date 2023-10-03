@@ -70,24 +70,6 @@ Simply place the Amazon Game shortcut url file in the `roms\windows` folder of y
 
 </div>
 
-### Adding a Microsoft GamePass game
-
-Locate the game installation folder on the computer (usually in `C:\XboxGames`).
-
-Open the "**Content**" folder and find the game executable file:
-
-![](<../../../.gitbook/assets/image (46).png>)
-
-{% hint style="info" %}
-It is also possible to run the game and press CTRL+ALT+SUPPR to find the game executable through the task manager.
-{% endhint %}
-
-Create a shortcut to this executable file (_right click > send to > Desktop (shortcut)_)
-
-Cut the shortcut and paste it into the `roms\windows` folder of the RetroBat installation.
-
-You can rename the shortcut if desired.
-
 ### Adding an UBISOFT game (Ubisoft Connect)
 
 {% hint style="info" %}
