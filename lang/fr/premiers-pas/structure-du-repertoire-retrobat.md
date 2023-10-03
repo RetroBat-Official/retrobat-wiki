@@ -112,7 +112,9 @@ Ce dossier contient les décorations (bezels) fournis par défaut avec RetroBat.
 
 Ce dossier peut être utilisé pour placer des vidéos (format .mp4) qui seront lues par RetroBat lors du lancement d'un jeu, à la place du zoom sur la pochette du jeu.
 
-Il est possible de définir une vidéo par système en nommant la vidéo du nom du système (ex. gamecube.mp4).
+Il est possible de définir une vidéo par système en nommant la vidéo du nom du système (ex. gamecube.mp4).\
+\
+Des exemples de vidéos de chargement se trouvent dans le dossier system\templates\loadingscreen.
 
 ### Dossier "padtokey"
 

@@ -70,24 +70,6 @@ Copier simplement le raccourci du jeu Amazon Game (format .url) dans le dossier 
 
 </div>
 
-### Ajouter un jeu Microsoft GamePass
-
-Localiser le répertoire d'installation du jeu sur votre ordinateur (par défaut dans `C:\XboxGames`).
-
-Ouvrir le dossier "**Content**" dans le dossier du jeu et localiser l'executable du jeu:
-
-![](<../../../.gitbook/assets/image (35).png>)
-
-{% hint style="info" %}
-Il est également possible de détecter l'exécutable du jeu en lançant le jeu et en faisant CTRL+ALT+SUPPR pour afficher le gestionnaire de tâches.
-{% endhint %}
-
-Créer un raccourci vers ce fichier (_clic droit > envoyer vers > Bureau (créer un raccourci)_)
-
-Couper le raccourci créé sur le bureau et coller ce dernier dans le dossier `roms\windows` de RetroBat.
-
-Il est possible de renommer le raccourci si vous le souhaitez.
-
 ### Ajouter un jeu UBISOFT (Ubisoft Connect)
 
 {% hint style="info" %}
