@@ -20,7 +20,7 @@ Les jeux Windows ne nécessitent pas d'émulateurs pour être démarrés. Ils so
 
 
 
-<table data-header-hidden><thead><tr><th width="182"></th><th></th></tr></thead><tbody><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> windows</td></tr><tr><td><strong>Extensions</strong></td><td>.exe .bat .cmd .lnk .url .pc .win .windows .wine .7z .zip .rar .wsquashfs</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="182"></th><th></th></tr></thead><tbody><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> windows</td></tr><tr><td><strong>Extensions</strong></td><td>.exe .bat .cmd .lnk .game .url .pc .win .windows .wine .7z .zip .rar .wsquashfs</td></tr></tbody></table>
 
 ## Contrôles
 
