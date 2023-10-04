@@ -32,7 +32,11 @@ The controllers configurations are done in-game or in Steam.
 
 Create a text file with the full path to the game executable and save the file with the ".game" extension, place the file in the following folder:   `\roms\windows`
 
-![](<../../../.gitbook/assets/image (47).png>)
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ### Adding a Steam game
 
@@ -70,7 +74,11 @@ Locate the game installation folder on the computer (usually in `C:\XboxGames`).
 
 Open the "**Content**" folder and find the game executable file:
 
-![](<../../../.gitbook/assets/image (46) (1).png>)
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (46) (1).png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 {% hint style="info" %}
 It is also possible to run the game and press CTRL+ALT+SUPPR to find the game executable through the task manager.
