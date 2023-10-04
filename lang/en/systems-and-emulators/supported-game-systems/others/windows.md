@@ -81,7 +81,7 @@ Open the "**Content**" folder and find the game executable file:
 </div>
 
 {% hint style="info" %}
-It is also possible to run the game and press CTRL+ALT+SUPPR to find the game executable through the task manager.
+It is also possible to run the game and press CTRL+ALT+DEL to find the game executable through the task manager.
 {% endhint %}
 
 Create a shortcut to this executable file (_right click > send to > Desktop (shortcut)_)
