@@ -30,15 +30,15 @@ Le paramétrage des contrôleurs s'effectue dans le jeu ou dans Steam.
 
 ### Ajouter un jeu
 
-Effectuer un clic droit sur l'exécutable du jeu et sélectionner "Copier", puis aller dans le répertoire `\roms\windows`, effectuer un clic droit, et sélectionner "Coller le raccourci"
+Créer un fichier texte et renseigner le chemin vers l'exécutable du jeu.
+
+Sauvegarder le fichier avec l'extension ".game" et placer le fichier dans le dossier `\roms\windows`:
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/47WNq9D.png" alt=""><figcaption><p>Le raccourci de PROJECT CARS</p></figcaption></figure>
+<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FexdzL60ZuqPLldz2AYta%2Fuploads%2FsmgKWfLTbroDY2EHGOeg%2Fimage.png?alt=media&#x26;token=a1341c05-b022-477c-8ee3-99fc188e30fa" alt=""><figcaption></figcaption></figure>
 
 </div>
-
-
 
 ### Ajouter un jeu Steam
 
@@ -69,6 +69,28 @@ Copier simplement le raccourci du jeu Amazon Game (format .url) dans le dossier 
 <figure><img src="https://i.imgur.com/mW5Xme7.png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+### Ajouter un jeu Microsoft Gamepass
+
+Localiser le dossier d'installation du jeu (par défaut `C:\XboxGames`).
+
+Ouvrir le dossier "**Content**" et trouver l'exécutable du jeu:
+
+<div align="left">
+
+<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FexdzL60ZuqPLldz2AYta%2Fuploads%2F174BsD0BeF2I1TUidFCI%2Fimage%20(46).png?alt=media&#x26;token=48f33c86-4f76-4ab9-b524-d75287a3af4d" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+{% hint style="info" %}
+Il est possible de trouver l'exécutable du jeu en pressant CTRL+ALT+SUPPR pour accéder au gestionnaire de tâches.
+{% endhint %}
+
+Créer un raccourci vers l'exécutable du jeu (_clic droit > envoyer vers > Bureau (raccourci)_)
+
+Couper le raccourci et le coller dans le dossier `roms\windows` de l'installation RetroBat.
+
+Le raccourci peut être renommé.
 
 ### Ajouter un jeu UBISOFT (Ubisoft Connect)
 
