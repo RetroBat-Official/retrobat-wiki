@@ -16,7 +16,7 @@ Game Console - Lifespan: 1977 - 1992
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: stella</li><li>libretro: stella2014</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> atari2600</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.7z .a26 .bin .gz .rom .zip</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: stella</li><li>libretro: stella2014</li><li>stella</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> atari2600</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.7z .a26 .bin .gz .rom .zip</td><td></td></tr></tbody></table>
 
 ## BIOS
 
