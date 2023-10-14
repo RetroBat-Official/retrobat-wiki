@@ -20,7 +20,7 @@ Game Console - Lifespan: 1994 - 2000
 
 ## BIOS
 
-<table><thead><tr><th width="266">BIOS File</th><th width="140">Location</th><th width="341">MD5</th></tr></thead><tbody><tr><td>saturn_bios.bin</td><td>\bios</td><td>af5828fdff51384f99b3c4926be27762</td></tr><tr><td>mpr-17933.bin</td><td>\bios</td><td>3240872c70984b6cbfda1586cab68dbe</td></tr><tr><td>sega_101.bin</td><td>\bios</td><td>85ec9ca47d8f6807718151cbcca8b964</td></tr><tr><td>mpr-18811-mx.ic1</td><td>\bios</td><td></td></tr><tr><td>mpr-19367-mx.ic1</td><td>\bios</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="266">BIOS File</th><th width="140">Location</th><th width="341">MD5</th></tr></thead><tbody><tr><td>saturn_bios.bin</td><td>\bios</td><td>af5828fdff51384f99b3c4926be27762</td></tr><tr><td>mpr-17933.bin</td><td>\bios</td><td>3240872c70984b6cbfda1586cab68dbe</td></tr><tr><td>sega_101.bin</td><td>\bios</td><td>85ec9ca47d8f6807718151cbcca8b964</td></tr><tr><td>mpr-18811-mx.ic1</td><td>\bios</td><td></td></tr><tr><td>mpr-19367-mx.ic1</td><td>\bios</td><td></td></tr><tr><td>saturn_bios.bin</td><td>\bios\kronos</td><td>af5828fdff51384f99b3c4926be27762</td></tr></tbody></table>
 
 ## Controls
 

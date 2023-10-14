@@ -196,6 +196,7 @@
     * [Namco 246/256](systems-and-emulators/supported-game-systems/arcade/namco2x6.md)
     * [SEGA](systems-and-emulators/supported-game-systems/arcade/sega/README.md)
       * [Sega Model 2](systems-and-emulators/supported-game-systems/arcade/sega/sega-model-2.md)
+      * [Sega Titan-Video](systems-and-emulators/supported-game-systems/arcade/sega/sega-stv.md)
       * [Sega Model 3](systems-and-emulators/supported-game-systems/arcade/sega/sega-model-3.md)
       * [Sega NAOMI](systems-and-emulators/supported-game-systems/arcade/sega/sega-naomi.md)
       * [Sega NAOMI 2](systems-and-emulators/supported-game-systems/arcade/sega/sega-naomi-2.md)
