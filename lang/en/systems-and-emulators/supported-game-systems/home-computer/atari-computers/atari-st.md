@@ -16,11 +16,11 @@ Computer - Lifespan: 1985 - 1993
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: hatari</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> atarist</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.st .msa .stx .dim .ipf .m3u .gemdos .zip .7z</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: hatari</li><li>libretro: hatarib</li><li>hatari</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> atarist</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.st .msa .stx .dim .ipf .m3u .gemdos .zip .7z</td><td></td></tr></tbody></table>
 
 ## BIOS
 
-<table><thead><tr><th width="193">BIOS file</th><th width="142.03610108303252">Folder</th><th>md5 hash / remark</th></tr></thead><tbody><tr><td>tos.img</td><td><code>\bios</code></td><td>b2a8570de2e850c5acf81cb80512d9f6</td></tr><tr><td>emutos.img</td><td><code>\bios</code></td><td>For hatari standalone</td></tr><tr><td>tos102.img</td><td><code>\bios</code></td><td>TOS 1.02 (for hatari standalone)</td></tr><tr><td>tos104.img</td><td><code>\bios</code></td><td>TOS 1.04 (for hatari standalone)</td></tr><tr><td>tos206.img</td><td><code>\bios</code></td><td>TOS 2.06 (for hatari standalone)</td></tr></tbody></table>
+<table><thead><tr><th width="155">BIOS file</th><th width="207.03610108303252">Folder</th><th>md5 hash / remark</th></tr></thead><tbody><tr><td>tos.img</td><td><code>\bios</code></td><td>b2a8570de2e850c5acf81cb80512d9f6</td></tr><tr><td>emutos.img</td><td><code>\bios\hatari\tos</code><br><code>\bios\hatarib</code></td><td></td></tr><tr><td>tos102.img</td><td><code>\bios\hatari\tos</code><br><code>\bios\hatarib</code></td><td></td></tr><tr><td>tos106.img</td><td><code>\bios\hatari\tos</code><br><code>\bios\hatarib</code></td><td></td></tr><tr><td>tos104.img</td><td><code>\bios\hatari\tos</code><br><code>\bios\hatarib</code></td><td></td></tr><tr><td>tos206.img</td><td><code>\bios\hatari\tos</code><br><code>\bios\hatarib</code></td><td></td></tr></tbody></table>
 
 ## Controls
 
