@@ -226,6 +226,7 @@
     * [Doom](systemes-and-emulateurs/supported-game-systems/autres/doom.md)
     * [DOS](systemes-and-emulateurs/supported-game-systems/autres/ms-dos.md)
     * [Duke Nukem 3D](systemes-and-emulateurs/supported-game-systems/autres/duke-nukem-3d.md)
+    * [Dark Forces](systemes-and-emulateurs/supported-game-systems/autres/dark-forces.md)
     * [Flash](systemes-and-emulateurs/supported-game-systems/autres/flash.md)
     * [Jeux TV portables](systemes-and-emulateurs/supported-game-systems/autres/jeux-tv-portables.md)
     * [Pico-8](systemes-and-emulateurs/supported-game-systems/autres/pico-8.md)
