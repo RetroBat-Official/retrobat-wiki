@@ -222,6 +222,7 @@
   * [Others](systems-and-emulators/supported-game-systems/others/README.md)
     * [Cannonball](systems-and-emulators/supported-game-systems/others/cannonball.md)
     * [Cave Story](systems-and-emulators/supported-game-systems/others/cave-story.md)
+    * [Dark Forces](systems-and-emulators/supported-game-systems/others/dark-forces.md)
     * [Dinothawr](systems-and-emulators/supported-game-systems/others/dinothawr.md)
     * [Doom](systems-and-emulators/supported-game-systems/others/doom.md)
     * [DOS](systems-and-emulators/supported-game-systems/others/ms-dos.md)
