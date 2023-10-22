@@ -16,7 +16,7 @@ Console de jeu portable - Durée de vie: 2004 - 2014
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>Libretro: ppsspp</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> psp</td></tr><tr><td><strong>Extensions</strong></td><td>.iso .cso .pbp .elf .prx .zip</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>Libretro: ppsspp</li><li>ppsspp</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> psp</td></tr><tr><td><strong>Extensions</strong></td><td>.iso .cso .pbp .elf .prx .zip</td></tr></tbody></table>
 
 ## Fonctionnalités
 
@@ -35,6 +35,10 @@ Aucun BIOS nécessaire.
 <figure><img src="https://i.imgur.com/c4dKloK.png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+{% hint style="warning" %}
+Avec l'émulateur PPSSPP, si vous connectez une manette XInput, les manettes non-XInput ne sont pas utilisables dans l'émulateur.
+{% endhint %}
 
 ## Information spécifique au système
 
