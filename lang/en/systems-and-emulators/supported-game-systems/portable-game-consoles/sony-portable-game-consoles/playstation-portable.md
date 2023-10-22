@@ -36,6 +36,10 @@ No BIOS required.
 
 </div>
 
+{% hint style="warning" %}
+When using PPSSPP standalone, if both a XInput controller and a non-XInput controller are connected, the non-XInput controller will not be functional.
+{% endhint %}
+
 ## System Features
 
 ### DLC
