@@ -6,7 +6,7 @@ description: Nintendo
 
 <div align="left">
 
-<figure><img src="https://hyperspin-fe.com/siteuploads/downloads/screenshots/monthly_2018_03/5ab59a08f060d_Nintendo64dd.png.37360958cf54c2250cba823a58c0fad2.png" alt=""><figcaption></figcaption></figure>
+<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/n64dd-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/n64dd.svg" alt=""></picture><figcaption></figcaption></figure>
 
 </div>
 

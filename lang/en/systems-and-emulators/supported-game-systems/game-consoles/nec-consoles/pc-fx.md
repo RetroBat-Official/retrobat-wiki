@@ -6,7 +6,7 @@ description: NEC
 
 <div align="left">
 
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/pcfx.svg" alt=""><figcaption></figcaption></figure>
+<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/pcfx-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/pcfx.svg" alt=""></picture><figcaption></figcaption></figure>
 
 </div>
 
@@ -17,6 +17,12 @@ Game Console - Lifespan: 1994 - 1998
 ## Information
 
 <table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: mednafen_pcfx</li><li>mednafen</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> pcfx</td></tr><tr><td><strong>File extension</strong></td><td>.cue .ccd .toc .chd</td></tr></tbody></table>
+
+## System Features
+
+| RetroAchievements | Netplay |
+| ----------------- | ------- |
+| YES               | YES     |
 
 ## Bios Information
 
