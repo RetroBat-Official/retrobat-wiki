@@ -6,7 +6,7 @@ description: Camputers
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/QIX6oYa.png" alt=""><figcaption></figcaption></figure>
+<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/camplynx-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/camplynx.svg" alt=""></picture><figcaption></figcaption></figure>
 
 </div>
 

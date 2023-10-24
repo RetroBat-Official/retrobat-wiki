@@ -6,7 +6,7 @@ description: Worlds of Wonder
 
 <div align="left">
 
-<figure><img src="https://github.com/fabricecaruso/es-theme-carbon/blob/master/art/logos/actionmax.png?raw=true" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/actionmax.svg" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
