@@ -6,7 +6,7 @@ description: OpenLara
 
 <div align="left">
 
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/55ff14aa79c95ecc70133072e6ac19fed3555b56/art/logos/openlara.svg" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FCgoewyw8Sagl6SNUMrCG%2Fuploads%2FEz8si9RfyUg6Yc3vzCUS%2F1526141_794a5.png?alt=media&#x26;token=c4d72829-7e6b-49e6-80e0-d28755ed99bc" alt=""><figcaption></figcaption></figure>
 
 </div>
 

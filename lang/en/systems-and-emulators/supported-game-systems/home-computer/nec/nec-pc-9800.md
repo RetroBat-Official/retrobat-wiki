@@ -6,7 +6,7 @@ description: NEC
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/Cn9WzBZ.png" alt=""><figcaption></figcaption></figure>
+<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/pc98-w.svg" media="(prefers-color-scheme: dark)"><img src="https://i.imgur.com/Cn9WzBZ.png" alt=""></picture><figcaption></figcaption></figure>
 
 </div>
 
@@ -25,8 +25,6 @@ Computer - Release date: 1982
 ## Controls
 
 Use Pad2Key for this system if you need specific mapping, see the [Pad2Key ](../../../../controllers/pad2key.md)section of this Wiki.
-
-
 
 <table><thead><tr><th width="311">Retrobat Button</th><th>PC98 key</th></tr></thead><tbody><tr><td>START</td><td>RETURN</td></tr><tr><td>SELECT</td><td>ESCAPE</td></tr><tr><td>D-PAD</td><td>Directions</td></tr><tr><td>Left analog stick</td><td></td></tr><tr><td>Right analog stick</td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (43).png" alt=""></td><td>Left CTRL</td></tr><tr><td><img src="../../../../.gitbook/assets/image (25).png" alt=""></td><td>Z</td></tr><tr><td><img src="../../../../.gitbook/assets/image (11).png" alt=""></td><td>X</td></tr><tr><td><img src="../../../../.gitbook/assets/image (45).png" alt=""></td><td>SPACE</td></tr><tr><td>L1</td><td>Backspace</td></tr><tr><td>R1</td><td>Right Shift</td></tr><tr><td>L2</td><td></td></tr><tr><td>R2</td><td>Open the NP2 menu</td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
 

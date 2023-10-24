@@ -4,11 +4,9 @@ description: Namco
 
 # Namco 246/256
 
-<figure><img src="../../../.gitbook/assets/namco2x6.png" alt=""><figcaption></figcaption></figure>
-
 <div align="left">
 
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/0ab5d8cd36c673c827b022c2ae53042a38df33da/art/logos/namco2x6.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/namco2x6.svg" alt="" width="563"><figcaption></figcaption></figure>
 
 </div>
 

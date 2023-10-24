@@ -6,7 +6,7 @@ description: Spectravideo
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/v1P1Ezx.png" alt=""><figcaption></figcaption></figure>
+<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/spectravideo-w.svg" media="(prefers-color-scheme: dark)"><img src="https://i.imgur.com/v1P1Ezx.png" alt=""></picture><figcaption></figcaption></figure>
 
 </div>
 
