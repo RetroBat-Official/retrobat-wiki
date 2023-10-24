@@ -6,7 +6,7 @@ description: Acorn Computers
 
 <div align="left">
 
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5b2195d8cce1b44a6aadc2a43c341e7511d4b48f/art/logos/archimedes.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/archimedes.svg" alt=""><figcaption></figcaption></figure>
 
 </div>
 
