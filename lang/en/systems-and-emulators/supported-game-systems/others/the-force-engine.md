@@ -1,4 +1,4 @@
-# Dark Forces
+# The Force Engine
 
 <div align="left">
 
@@ -12,7 +12,7 @@ Game engine to play Star Wars Dark Forces game.
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>theforceengine</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> darkforces</td></tr><tr><td><strong>File extension</strong></td><td>.game</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>theforceengine</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> theforceengine</td></tr><tr><td><strong>File extension</strong></td><td>.game</td></tr></tbody></table>
 
 ## Bios Information
 
@@ -28,7 +28,7 @@ There is no automatic configuration for The Force Engine, controls can be config
 
 ### File organization
 
-Files from the original DOS version of the game (or the versions available on STEAM or GOG) must be copied to the `roms\darkforces` folder of your RetroBat installation.
+Files from the original DOS version of the game (or the versions available on STEAM or GOG) must be copied to the `roms\theforceengine` folder of your RetroBat installation.
 
 #### Example of game structure:
 
@@ -36,7 +36,7 @@ The following example contains the original DOS version of the game:
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/AuxiSxe.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/78m6LKz.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
