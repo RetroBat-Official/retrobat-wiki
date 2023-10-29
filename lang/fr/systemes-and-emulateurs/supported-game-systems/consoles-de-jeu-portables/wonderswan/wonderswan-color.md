@@ -16,7 +16,7 @@ Console de jeu portable - Durée de vie: 2000 - 2003
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>libretro: mednafen_wswan</li><li>mednafen</li><li>ares</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> wswanc</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.wsc .zip .7z</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>libretro: mednafen_wswan</li><li>mednafen</li><li>ares</li><li>bizhawk: Cygne</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> wswanc</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.wsc .zip .7z</td><td></td></tr></tbody></table>
 
 ## BIOS
 

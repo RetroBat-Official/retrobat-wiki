@@ -16,7 +16,7 @@ Console de jeu portable - Durée de vie : 1989 - 2003
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro : gambatte</li><li>libretro : mesen-s</li><li>libretro : bsnes</li><li>libretro : tgbdual</li><li>libretro: sameboy</li><li>mesen</li><li>mgba</li><li>mednafen</li><li>ares</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> gb</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.gb .zip .7z</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro : gambatte</li><li>libretro : mesen-s</li><li>libretro : bsnes</li><li>libretro : tgbdual</li><li>libretro: sameboy</li><li>mesen</li><li>mgba</li><li>mednafen</li><li>ares</li><li>bizhawk: Gambatte</li><li>bizhawk: GBHawk</li><li>bizhawk: SameBoy</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> gb</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.gb .zip .7z</td><td></td></tr></tbody></table>
 
 ## BIOS
 

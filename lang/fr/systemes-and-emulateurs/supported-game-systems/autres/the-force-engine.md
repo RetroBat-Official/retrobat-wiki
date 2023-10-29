@@ -1,4 +1,4 @@
-# Dark Forces
+# The Force Engine
 
 <div align="left">
 
@@ -12,7 +12,7 @@ Moteur de jeu permettant de jouer à Dark Forces.
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>theforceengine</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> darkforces</td></tr><tr><td><strong>Extensions</strong></td><td>.game</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>theforceengine</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> theforceengine</td></tr><tr><td><strong>Extensions</strong></td><td>.game</td></tr></tbody></table>
 
 ## Bios
 
@@ -28,7 +28,7 @@ Il n'y a pas de configuration automatique des contrôles pour Dark Forces, les t
 
 ### Organisation des fichiers
 
-Le jeu DOS original (ou une des versions disponibles sur STEAM ou GOG) doivent être copiées dans le dossier `roms\darkforces` de votre installation RetroBat.
+Le jeu DOS original (ou une des versions disponibles sur STEAM ou GOG) doivent être copiées dans le dossier `roms\theforceengine` de votre installation RetroBat.
 
 #### Exemple de structure de jeu :
 
@@ -36,7 +36,7 @@ L'exemple suivant contient la version original DOS du jeu:
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/AuxiSxe.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/78m6LKz.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

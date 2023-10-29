@@ -16,7 +16,7 @@ Accessoire de console de jeu - Année de sortie: 1994
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: mgba</li><li>libretro: mesen-s</li><li>mgba</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> sgb</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.gb .gbc .zip .7z</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: mgba</li><li>libretro: mesen-s</li><li>mgba</li><li>bizhawk: BSNES</li><li>bizhawk: Gambatte</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> sgb</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.gb .gbc .zip .7z</td><td></td></tr></tbody></table>
 
 ## BIOS
 
