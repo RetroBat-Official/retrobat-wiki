@@ -18,7 +18,7 @@ Open-source Fantasy Console - Released: 2017
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: tic80</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> tic80</td></tr><tr><td><strong>File extension</strong></td><td>.tic</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: tic80</li><li>bizhawk</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> tic80</td></tr><tr><td><strong>File extension</strong></td><td>.tic</td></tr></tbody></table>
 
 ## Bios Information
 
