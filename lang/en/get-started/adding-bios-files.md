@@ -26,7 +26,7 @@ From the [GAME SETTINGS](../navigation/main-menu.md#game-settings) in the [MAIN 
 
 </div>
 
-The missing BIOS appear with a broken chain icon. The ones where the md5 hash is not listed by Retrobat will appear with a ![](<../.gitbook/assets/image (1).png>) icon.
+The missing BIOS appear with a broken chain icon. The ones where the md5 hash is not listed by Retrobat will appear with a ![](<../.gitbook/assets/image (1) (1).png>) icon.
 
 <div align="left">
 
