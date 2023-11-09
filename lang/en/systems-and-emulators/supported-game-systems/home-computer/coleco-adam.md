@@ -20,7 +20,7 @@ Computer - Lifespan: 1983 - 1985
 
 ## Bios Information
 
-<table><thead><tr><th width="224">bios file</th><th width="169">Folder</th><th>md5</th></tr></thead><tbody><tr><td>adam.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>adam_ddp.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>adam_fdc.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>adam_kb.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>adam_prn.zip</td><td><code>\bios</code></td><td>See below</td></tr></tbody></table>
+<table><thead><tr><th width="224">bios file</th><th width="218">Folder</th><th>md5</th></tr></thead><tbody><tr><td>adam.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>adam_ddp.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>adam_fdc.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>adam_kb.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>adam_prn.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>adam_cart.xml<br>adam_cass.xml<br>adam_flop.xml</td><td><code>\bios\mame\hash</code></td><td></td></tr></tbody></table>
 
 ### Content of BIOS files
 

@@ -20,7 +20,7 @@ Computer - Lifespan: 1979 - 1982
 
 ## Bios Information
 
-<table><thead><tr><th width="257">bios file</th><th width="169">Folder</th><th>md5</th></tr></thead><tbody><tr><td>atom.zip</td><td><code>\bios</code></td><td>See below</td></tr></tbody></table>
+<table><thead><tr><th width="257">bios file</th><th width="202">Folder</th><th>md5</th></tr></thead><tbody><tr><td>atom.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>atom_cass.xml<br>atom_flop.xml<br>atom_rom.xml</td><td><code>\bios\mame\hash</code></td><td></td></tr></tbody></table>
 
 ### Content of BIOS files
 

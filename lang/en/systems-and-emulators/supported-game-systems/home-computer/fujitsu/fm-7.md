@@ -20,7 +20,7 @@ Computer - Lifespan: 1982 - 1984
 
 ## BIOS
 
-<table><thead><tr><th width="209.55555555555557">bios file</th><th width="189">Folder</th><th>md5</th></tr></thead><tbody><tr><td>fm7.zip</td><td><code>\bios</code></td><td>See below for details</td></tr><tr><td>fm77av.zip</td><td><code>\bios</code></td><td>See below for details</td></tr></tbody></table>
+<table><thead><tr><th width="209.55555555555557">bios file</th><th width="189">Folder</th><th>md5</th></tr></thead><tbody><tr><td>fm7.zip</td><td><code>\bios</code></td><td>See below for details</td></tr><tr><td>fm77av.zip</td><td><code>\bios</code></td><td>See below for details</td></tr><tr><td>fm7_cass.xml</td><td><code>\bios\mame\hash</code></td><td></td></tr><tr><td>fm7_disk.xml</td><td><code>\bios\mame\hash</code></td><td></td></tr><tr><td>fm77av.xml</td><td><code>\bios\mame\hash</code></td><td></td></tr></tbody></table>
 
 ### Content of BIOS files
 
