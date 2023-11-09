@@ -20,7 +20,7 @@ Micro-ordinateur - Durée de vie : 1979 - 1982
 
 ## BIOS
 
-<table><thead><tr><th width="257">Fichier BIOS</th><th width="169">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>atom.zip</td><td><code>\bios</code></td><td>Voir ci-dessous</td></tr></tbody></table>
+<table><thead><tr><th width="242">Fichier BIOS</th><th width="202">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>atom.zip</td><td><code>\bios</code></td><td>Voir ci-dessous</td></tr><tr><td>atom_cass.xml</td><td><code>\bios\mame\hash</code></td><td></td></tr><tr><td>atom_flop.xml</td><td><code>\bios\mame\hash</code></td><td></td></tr><tr><td>atom_rom.xml</td><td><code>\bios\mame\hash</code></td><td></td></tr></tbody></table>
 
 ### Contenu du fichier BIOS
 

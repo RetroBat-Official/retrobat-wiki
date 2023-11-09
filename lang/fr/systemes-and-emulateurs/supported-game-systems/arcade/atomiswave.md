@@ -26,7 +26,7 @@ Arcade - Date de sortie : 2003
 
 ## Bios
 
-<table><thead><tr><th width="160.55555555555557">Fichier BIOS</th><th width="155">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>awbios.zip</td><td><code>\bios\dc</code></td><td>0ec5ae5b5a5c4959fa8b43fcf8687f7c</td></tr></tbody></table>
+<table><thead><tr><th width="147.55555555555557">Fichier BIOS</th><th width="189">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>awbios.zip</td><td><code>\bios\dc</code></td><td>0ec5ae5b5a5c4959fa8b43fcf8687f7c</td></tr></tbody></table>
 
 {% hint style="info" %}
 Pour Flycast standalone, les fichiers BIOS doivent être placés dans le dossier `emulators\flycast\data`.

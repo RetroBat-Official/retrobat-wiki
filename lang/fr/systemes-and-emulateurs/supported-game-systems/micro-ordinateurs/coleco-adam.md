@@ -20,7 +20,7 @@ Micro-ordinateur - Durée de vie : 1983 - 1985
 
 ## BIOS
 
-<table><thead><tr><th width="224">Fichier BIOS</th><th width="169">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>adam.zip</td><td><code>\bios</code></td><td>Voir ci-dessous</td></tr><tr><td>adam_ddp.zip</td><td><code>\bios</code></td><td>Voir ci-dessous</td></tr><tr><td>adam_fdc.zip</td><td><code>\bios</code></td><td>Voir ci-dessous</td></tr><tr><td>adam_kb.zip</td><td><code>\bios</code></td><td>Voir ci-dessous</td></tr><tr><td>adam_prn.zip</td><td><code>\bios</code></td><td>Voir ci-dessous</td></tr></tbody></table>
+<table><thead><tr><th width="224">Fichier BIOS</th><th width="235">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>adam.zip</td><td><code>\bios</code></td><td>Voir ci-dessous</td></tr><tr><td>adam_ddp.zip</td><td><code>\bios</code></td><td>Voir ci-dessous</td></tr><tr><td>adam_fdc.zip</td><td><code>\bios</code></td><td>Voir ci-dessous</td></tr><tr><td>adam_kb.zip</td><td><code>\bios</code></td><td>Voir ci-dessous</td></tr><tr><td>adam_prn.zip</td><td><code>\bios</code></td><td>Voir ci-dessous</td></tr><tr><td>adam_cart.xml<br>adam_cass.xml<br>adam_flop.xml</td><td><code>\bios\mame\hash</code></td><td></td></tr></tbody></table>
 
 ### Contenu du fichier BIOS
 

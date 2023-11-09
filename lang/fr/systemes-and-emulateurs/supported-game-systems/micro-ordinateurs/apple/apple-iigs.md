@@ -20,7 +20,7 @@ Micro-ordinateur - Durée de vie : 1986 - 1992
 
 ## BIOS
 
-<table><thead><tr><th width="193">Fichier BIOS</th><th width="142.03610108303252">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>APPLE2GS.ROM</td><td><code>\bios</code></td><td>20a0334c447cb069a040ae5be1d938df</td></tr><tr><td>apple2gs.zip</td><td><code>\bios</code></td><td>Voir ci-dessous</td></tr></tbody></table>
+<table><thead><tr><th width="232">Fichier BIOS</th><th width="187.03610108303252">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>APPLE2GS.ROM</td><td><code>\bios</code></td><td>20a0334c447cb069a040ae5be1d938df</td></tr><tr><td>apple2gs.zip</td><td><code>\bios</code></td><td>Voir ci-dessous</td></tr><tr><td>apple2gs_flop_misc.xml</td><td><code>\bios\mame\hash</code></td><td></td></tr><tr><td>apple2gs_flop_orig.xml</td><td><code>\bios\mame\hash</code></td><td></td></tr></tbody></table>
 
 <details>
 
