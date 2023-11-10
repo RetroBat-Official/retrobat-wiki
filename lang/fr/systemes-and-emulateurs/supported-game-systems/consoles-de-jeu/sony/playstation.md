@@ -22,7 +22,7 @@ Console de jeu - Durée de jeu: 1994 - 2006
 
 | Succès Rétro               | Parties en Réseau |
 | -------------------------- | ----------------- |
-| OUI (inculant Duckstation) | NON               |
+| OUI (incluant Duckstation) | NON               |
 
 ## BIOS
 
