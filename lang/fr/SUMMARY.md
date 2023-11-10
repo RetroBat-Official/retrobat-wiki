@@ -224,6 +224,7 @@
     * [Cave Story](systemes-and-emulateurs/supported-game-systems/autres/cave-story.md)
     * [Dinothawr](systemes-and-emulateurs/supported-game-systems/autres/dinothawr.md)
     * [Doom](systemes-and-emulateurs/supported-game-systems/autres/doom.md)
+    * [Doom III](systemes-and-emulateurs/supported-game-systems/autres/doom-iii.md)
     * [DOS](systemes-and-emulateurs/supported-game-systems/autres/ms-dos.md)
     * [Duke Nukem 3D](systemes-and-emulateurs/supported-game-systems/autres/duke-nukem-3d.md)
     * [Flash](systemes-and-emulateurs/supported-game-systems/autres/flash.md)
