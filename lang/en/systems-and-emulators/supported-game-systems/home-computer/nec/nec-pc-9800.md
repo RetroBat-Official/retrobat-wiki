@@ -30,4 +30,17 @@ Use Pad2Key for this system if you need specific mapping, see the [Pad2Key ](../
 
 ## Specific system information
 
-There is no specific System information documented here yet.
+### Multi-disc games
+
+Use a .cmd file.\
+\
+Create a text file with the extension ".cmd", write the name of the core that will execute the game, then write the name of a boot disk (.hdm), the harddisk image (.hdi), and CloneCD image (.ccd/.img/.sub) like in the example below.
+
+`Policenauts.cmd`
+
+```
+np2kai "Policenauts (User boot disk) [for Neko Project II].hdm" "Policenauts [for Neko Project II].hdi" "Policenauts.ccd"
+```
+
+Seems to works with "Neko Project II Kai" core, not with "Neko Project II" core
+

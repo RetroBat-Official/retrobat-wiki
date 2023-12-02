@@ -36,6 +36,50 @@ This folder contains the main executables used for RetroBat interface and for th
 RetroBat configuration files (es\_systems.cfg, es\_input.cfg, ...) as well as program logs are located in this folder and its subfolders.
 {% endhint %}
 
+### .emulationstation subfolder
+
+#### collections
+
+Here you will find the file created by ES when you create an [editable game collection](https://wiki.retrobat.org/navigation/game-collections#editable-game-collections). This file, named as the collection created, with a `.cfg` extension, contains the differents games of the created collection, with their paths.
+
+#### music
+
+RetroBat allow the use of `.mp3` ,`.ogg` ,`.wav`and `.flac` audio files, and also some others less used format.\
+A song can be skipped by pushing the left stick`[L3]`button, or from the Quick Access menu. \
+While in the system list, press `[SELECT]` button on your controller to open the Quick Access menu, then choose **SKIP TO THE NEXT SONG**.
+
+<figure><img src="https://i.imgur.com/Bg8bGLi.png" alt=""><figcaption></figcaption></figure>
+
+Audio files added in the /music folder will be played randomly.
+
+It is also possible to use per-system folders, in order to play specific music while browsing a particular system. For this, you have to create a folder named exactly as the roms system folder (that you can find in es-systems.cfg), and put audio files in it.
+
+NB : enabling the "ONLY PLAY SYSTEM-SPECIFIC MUSIC FOLDER" option allows RetroBat to play all songs located in a system folder (eg. /music/3do/) while browing the games available in this specific system list, but not the songs located in others subfolders.
+
+The files that are present in /music/ will be picked up randomly for any system (whether you have system-specific songs option enabled or not).
+
+If you disable "ONLY PLAY SYSTEM-SPECIFIC MUSIC FOLDER", RetroBat will play randomly a song in  /music/ directory and any of its sub-folders.\
+
+
+<figure><img src="https://i.imgur.com/BRoJl1I.png" alt=""><figcaption></figcaption></figure>
+
+#### scripts
+
+EmulationStation supports calling external scripts and executables on certain program events.
+
+#### themes
+
+The themes downloaded with the content downloader are stored in this folder. You can also place themes manually there.
+
+#### themesettings
+
+Here you will find the per-theme settings. When a theme is selected, and customization are done using the theme menu, settings are saved in this folder.
+
+#### video
+
+In this folder you can place videos to be use as intro ("splash screen"), before RetroBat starts.\
+You can use [BatGui](https://wiki.retrobat.org/advanced-features/batgui#retrobat-ini) to configure these easily.
+
 ## emulators folder
 
 This is the folder where the emulators are installed.
