@@ -30,4 +30,16 @@ Utiliser la fonctionnalité [Pad2Key](../../../../controleurs/pad2key.md).
 
 ## Information spécifique au système
 
-Aucune information spécifique au système.
+### Jeux Multi-disques
+
+Utiliser un fichier .cmd.\
+\
+Créer un fichier .txt et le sauvegarder avec l'extension ".cmd". Dedans, écrire le nom du core servant à exécuter le jeu, puis le nom du disque de démarrage (.hdm), puis l'image du disque dur (.hdi), et enfin l'image du CD (.ccd/.img/.sub) comme sur l'exemple ci-dessous.
+
+`Policenauts.cmd`
+
+```
+np2kai "Policenauts (User boot disk) [for Neko Project II].hdm" "Policenauts [for Neko Project II].hdi" "Policenauts.ccd"
+```
+
+Il semble que cette méthode fonctionne avec le core "Neko Project II Kai" core, mais pas avec le core "Neko Project II"

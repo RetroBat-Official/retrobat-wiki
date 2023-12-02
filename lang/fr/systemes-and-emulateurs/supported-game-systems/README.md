@@ -4,7 +4,7 @@ description: Liste des systèmes disponibles dans Retrobat.
 
 # Systèmes compatibles
 
-[doom-iii.md](autres/doom-iii.md "mention")[doom-iii.md](autres/doom-iii.md "mention")Le tableau ci-dessous récapitule l'intégralité des systèmes et émulateurs tels que paramétrés à date dans le fichier `es_systems.cfg`.
+Le tableau ci-dessous récapitule l'intégralité des systèmes et émulateurs tels que paramétrés à date dans le fichier `es_systems.cfg`.
 
 La colonne **Système** correspond au nom du dossier dans lequel les jeux doivent être positionnés.
 
