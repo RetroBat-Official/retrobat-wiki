@@ -36,6 +36,51 @@ Ce répertoire contient les principaux exécutables utilisés par l'interface Em
 Les fichiers de configuration de RetroBat (es\_systems.cfg, es\_input.cfg, ...) ainsi que les logs se trouvent dans ce dossier et ses sous-dossiers.
 {% endhint %}
 
+### Dossier ".emulationstation"
+
+#### collections
+
+Dans le sous-dossier "collections" vous trouverez les fichiers stockés par ES lorsque vous créez une [collection éditable](https://wiki.retrobat.org/v/francais/navigation/game-collections#collections-editables). Ces fichiers, nommés à l'identique des collection avec l'extension `.cfg`, contiennent la liste des différents jeux composant chaque collection ainsi que leur emplacement.
+
+#### music
+
+RetroBat permet l'utilisation de fichier audio aux formats `.mp3` ,`.ogg` ,`.wav` et `.flac`, ainsi que d'autres formats audio.\
+Une musique peut être changée en appuyant sur le stick gauche de la manette `[L3]`, ou depuis le menu d'Accès Rapide. \
+Lors de la navigation dans la vue système, un appui sur la touche `[SELECT]` de votre manette ouvre le menu d'Accès Rapide, où il est possible de choisir l'option **PASSER A LA MUSIQUE SUIVANTE**.
+
+<figure><img src="https://i.imgur.com/EzBUwvn.png" alt=""><figcaption></figcaption></figure>
+
+Les fichiers audios ajoutés dans le dossier /music seront joués de façon aléatoire.
+
+Il est également possible d'utiliser un dossier par système, de façon à jouer une musique spécifique lors de la navigation d'un système en particulier. Pour cela, il est nécessaire de créer un sous-dossier, nommé exactement comme le dossier de la rom correspondant au système (que vous pouvez retrouver dans le fichier `es-systems.cfg`), et mettre les fichiers audios dedans.
+
+NB : en activant l'option "JOUER SEULEMENT LES MUSIQUES PAR SYSTÈMES", RetroBat jouera toutes les musiques situées dans le sous-dossier du système dans lequel vous naviguez (par exemple /music/3do/), mais pas les musiques situées dans les autres sous-dossiers.
+
+Les fichiers présents dans le dossier /music/ seront joués aléatoirement pour n'importe quel système (que vous ayez activé ou non l'option de musique par système).
+
+Si vous désactivez l'option "JOUER SEULEMENT LES MUSIQUES PAR SYSTÈMES", RetroBat jouera aléatoirement les musiques situées dans le répertoire /music/ mais également dans chacun de ses sous-dossiers.
+
+<figure><img src="https://i.imgur.com/PM1IiXI.png" alt=""><figcaption></figcaption></figure>
+
+#### scripts
+
+EmulationStation supporte l'utilisation de scripts externes et d'exécutable pour le lancement de programmes ou d'actions spécifiques, selon certains évènements.
+
+#### themes
+
+Les thèmes téléchargés via le menu TÉLÉCHARGEMENT DE CONTENU seront stockés dans ce répertoire. Vous pouvez également en placer manuellement ici.
+
+#### themesettings
+
+Ici vous trouverez les réglages des thèmes. Lorsqu'un thème est sélectionné, et que des modifications sont appliqués à celui-ci via le menu de thème, les réglages sont sauvegardés à l'intérieur de ce dossier, nommé à l'identique du thème avec l'extension `.cfg`.
+
+#### video
+
+Dans ce dossier vous pouvez placer des vidéos qui pourront être utilisés comme intro (ou "vidéo de démarrage"), avant que RetroBat ne se lance.\
+Vous pouvez utiliser [BatGui](https://wiki.retrobat.org/v/francais/utilisation-avancee/batgui#gerer-le-fichier-retrobat.ini) pour configurer ces vidéos d'intro facilement.
+
+
+
 ## Répertoire "emulators"
 
 Dans ce répertoire se trouvent tous les émulateurs utilisés.
