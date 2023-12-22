@@ -5,7 +5,7 @@ RetroAchievements is a system that allows you to earn achievements on retro game
 In order to subscribe to the service, visit the RetroAchievements website [HERE](https://retroachievements.org/) and create an account.
 
 {% hint style="info" %}
-Retroachievements in Retrobat are only available for a predefined list of libretro cores that you can find [HERE](https://docs.libretro.com/guides/retroachievements/#cores-compatibility), and for PS2 with the use of PCSX2 in 1.7QT version.
+Retroachievements in Retrobat are only available for a predefined list of libretro cores that you can find [HERE](https://docs.libretro.com/guides/retroachievements/#cores-compatibility), for Bizhawk and for few standalone emulators (pcsx2, duckstation, ppsspp).
 {% endhint %}
 
 ## Enabling RetroAchievements

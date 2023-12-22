@@ -1,10 +1,10 @@
 # Adding BIOS files
 
-BIOS files are files required for some emulators to operate correctly.&#x20;
+Some emulators require BIOS files to work correctly.&#x20;
 
 ### Location
 
-For most systems, BIOS files must be placed in the `\bios` folder in your Retrobat installation:
+As a general rule, BIOS files must be copied to the `\bios` subfolder of the Retrobat folder:
 
 <div align="left">
 
@@ -13,12 +13,12 @@ For most systems, BIOS files must be placed in the `\bios` folder in your Retrob
 </div>
 
 {% hint style="info" %}
-A few systems need the bios files to be placed in subfolders or in other paces. Refer to the individual system wiki page for detailed information about BIOS placement.
+Some systems need the bios files to be placed in subfolders or in other places. Refer to the individual system wiki page for detailed information about BIOS placement.
 {% endhint %}
 
 ### Missing BIOS check
 
-From the [GAME SETTINGS](../navigation/main-menu.md#game-settings) in the [MAIN MENU](../navigation/main-menu.md), you have the possibility to perform a check for missing BIOS:
+RetroBat has a "missing bios check" function available from the [GAME SETTINGS](../navigation/main-menu.md#game-settings) in the [MAIN MENU](../navigation/main-menu.md):
 
 <div align="left">
 
@@ -26,7 +26,7 @@ From the [GAME SETTINGS](../navigation/main-menu.md#game-settings) in the [MAIN 
 
 </div>
 
-The missing BIOS appear with a broken chain icon. The ones where the md5 hash is not listed by Retrobat will appear with a ![](<../.gitbook/assets/image (1) (1).png>) icon.
+The missing BIOS appear with a broken chain icon. The ones where the md5 hash is not listed by Retrobat will appear with a ![](<../.gitbook/assets/image (1) (1).png>) icon, however the latter still can work.
 
 <div align="left">
 
@@ -41,5 +41,5 @@ The detailed list of required BIOS for each system can be found in the individua
 {% hint style="warning" %}
 BIOS files are copyrighted and are therefore not included with Retrobat.&#x20;
 
-We can not legally distribute them, so you will need to supply your own.
+The team can not legally distribute them, so you will need to dump them from the original hardware.
 {% endhint %}

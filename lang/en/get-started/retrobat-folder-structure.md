@@ -4,7 +4,7 @@ Once RetroBat is installed, the RetroBat installation folder contains the follow
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/CRVcysX.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/7GXyEHY.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

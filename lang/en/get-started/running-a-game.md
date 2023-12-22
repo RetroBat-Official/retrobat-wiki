@@ -6,7 +6,7 @@ description: Let's play !
 
 ### Choosing a Game and starting it
 
-In order to run a game, when in the [Game View](../navigation/system-view-and-game-view.md) press the ![](<../.gitbook/assets/image (25).png>) button.
+To run a game, when in the [Game View](../navigation/system-view-and-game-view.md) press the ![](<../.gitbook/assets/image (25).png>) button.
 
 <div align="left">
 
@@ -28,21 +28,21 @@ A splash screen appears and the Emulator starts the game.
 
 </div>
 
-Once you have finished your gaming session, you can press HOTKEY + START to close the emulator and return to the [Game View](../navigation/system-view-and-game-view.md#game-view).
+Once the gaming session is finished, press HOTKEY + START to close the emulator and return to the [Game View](../navigation/system-view-and-game-view.md#game-view).
 
 
 
 ### Choosing the Emulator
 
-Usually, Retrobat defaults to the best / more stable emulator for each system. However, if the default emulator does not work for you, you can change the Emulator for a whole system or for a specific game.
+Usually, Retrobat defaults to the best & more stable emulator for each system. However, it is possible to change the emulator, either for the whole system or for a specific game.
 
 {% hint style="info" %}
 The full list of available emulators per system can be found in the [Supported Game Systems](../systems-and-emulators/supported-game-systems/) section of the wiki.
 {% endhint %}
 
-#### Changing emulator for the System
+#### How to change the emulator for the System
 
-From the Game View press **SELECT** and go to **ADVANCED SYSTEM OPTIONS**.
+In the Game View, press **SELECT** and go to **ADVANCED SYSTEM OPTIONS**.
 
 <div align="left">
 
@@ -62,7 +62,7 @@ Select the Emulator in the list.
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/yoEy4n7.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/8O4TDxI.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -85,5 +85,5 @@ Select the Emulator from the list.
 </div>
 
 {% hint style="info" %}
-**AUTO** corresponds to the Emulator selected in the system settings if specified for the system or to the first Emulator from the list if the System is also set to **AUTO**.
+**AUTO** corresponds to the Emulator selected in the system settings if specified for the system or to the first Emulator from the list if the System is set to **AUTO**.
 {% endhint %}

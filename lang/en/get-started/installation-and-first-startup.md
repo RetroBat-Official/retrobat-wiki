@@ -11,12 +11,6 @@ description: Get started !
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/lqlfFYP.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
 <figure><img src="https://i.imgur.com/aaUzZR6.png" alt=""><figcaption><p>I Agree</p></figcaption></figure>
 
 </div>
@@ -25,6 +19,10 @@ description: Get started !
 
 {% hint style="danger" %}
 Attention: an installation folder that is too long (or with too many subfolders) can cause issues with some emulators like libretro:mame.
+
+Also : do not use a folder with special characters (accents, ...).
+
+Finally : avoid folder names which include spaces.
 {% endhint %}
 
 <div align="left">
@@ -33,25 +31,20 @@ Attention: an installation folder that is too long (or with too many subfolders)
 
 </div>
 
-* Wait until the Installation is finished, then you can let it create a desktop shortcut, uncheck the box if not needed, and click **Finish**.
+* tick the option to create a desktop shortcut if needed.
+* Wait until the Installation completes,&#x20;
+
+The RetroBat folder structure looks like this:
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/coDjJwj.png" alt=""><figcaption><p>Finish !</p></figcaption></figure>
-
-</div>
-
-The Setup folder structure looks like this:
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/MwQl2t9.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/7GXyEHY.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 ## First startup
 
-You can double-click `retrobat.exe` file in your setup folder or use the desktop shortcut.
+Double-click `retrobat.exe` file in your RetroBat folder or use the desktop shortcut.
 
 After the video splash screen, the **System View** is shown.
 

@@ -1,14 +1,12 @@
 # Configuration of systems and games
 
-The main advantage of using RetroBat over other front-ends or standalone emulators, is that all configuration can be managed directly from within RetroBat.
+The main advantage of using RetroBat over other front-ends or standalone emulators, is that all configuration can be managed directly from within RetroBat, per system or individually per game.
 
 This means that, as a user, one should not have to open an emulator to access to its configuration.
 
 {% hint style="danger" %}
 Trying to manage configuration directly within the emulator will often end up with all the configuration being overwritten by RetroBat when running a game, as the default values set in RetroBat will be passed to the emulator.
 {% endhint %}
-
-
 
 The configuration elements available in RetroBat are called "features", they have the advantage that they can be set at 2 level:
 
@@ -153,7 +151,7 @@ Then change the **VIDEO DRIVER** option to "VULKAN":
 
 </div>
 
-When running a game with the duckstation emulator, RetroBat will now automatically set the following value in the Duckstation settings file before launching the game:
+When running a game with the duckstation emulator, RetroBat will automatically set the following value in the Duckstation settings file before launching the game:
 
 <div align="left">
 

@@ -90,11 +90,7 @@ Select **CONTENT DOWNLOADER**
 
 </div>
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/OusKJDE.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<figure><img src="https://i.imgur.com/PysJTCL.png" alt=""><figcaption></figcaption></figure>
 
 Use LEFT and RIGHT to change categories and UP and DOWN to navigate the list and choose the content to install, press ![](<../.gitbook/assets/image (25).png>) to install
 
