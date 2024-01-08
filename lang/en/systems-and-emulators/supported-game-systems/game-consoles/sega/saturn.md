@@ -16,7 +16,7 @@ Game Console - Lifespan: 1994 - 2000
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: kronos</li><li>libretro: mednafen saturn</li><li>mednafen</li><li>bizhawk: saturnus</li><li>ssf</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> saturn</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.zip .cue .toc .m3u .ccd .chd .iso .cso .mds .chd</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: kronos</li><li>libretro: mednafen saturn</li><li>mednafen</li><li>bizhawk: saturnus</li><li>Kronos</li><li>ssf</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> saturn</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.zip .cue .toc .m3u .ccd .chd .iso .cso .mds .chd</td><td></td></tr></tbody></table>
 
 ## BIOS
 
@@ -41,6 +41,10 @@ Game Console - Lifespan: 1994 - 2000
 <figure><img src="https://i.imgur.com/rJXxjO2.png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+{% hint style="info" %}
+Kronos and SSF do not offer controller autoconfiguration.
+{% endhint %}
 
 ## Specific System Information
 

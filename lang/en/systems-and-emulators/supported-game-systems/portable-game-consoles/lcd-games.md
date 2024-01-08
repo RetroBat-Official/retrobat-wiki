@@ -38,11 +38,11 @@ Place the rom file in .zip format in the `\roms\lcdgames` folder.
 
 </div>
 
-Place the artwork in the `\bios\mame\artwork`folder, files must have exactly the same name as the roms and also be in .zip format.&#x20;
+Place the artwork in the `\saves\mame\artwork`folder, files must have exactly the same name as the game rom file and be in .zip format.&#x20;
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/SXyo1nr.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/MwEbQkp.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
