@@ -227,6 +227,7 @@
     * [DOS](systems-and-emulators/supported-game-systems/others/ms-dos.md)
     * [Duke Nukem 3D](systems-and-emulators/supported-game-systems/others/duke-nukem-3d.md)
     * [Flash](systems-and-emulators/supported-game-systems/others/flash.md)
+    * [GzDoom](systems-and-emulators/supported-game-systems/others/gzdoom.md)
     * [Pico-8](systems-and-emulators/supported-game-systems/others/pico-8.md)
     * [Ports](systems-and-emulators/supported-game-systems/others/ports.md)
     * [PrBoom](systems-and-emulators/supported-game-systems/others/prboom.md)
@@ -241,7 +242,6 @@
     * [WASM-4](systems-and-emulators/supported-game-systems/others/wasm-4.md)
     * [Windows](systems-and-emulators/supported-game-systems/others/windows.md)
     * [Wolfenstein 3D](systems-and-emulators/supported-game-systems/others/wolfenstein-3d.md)
-    * [GzDoom](systems-and-emulators/supported-game-systems/others/gzdoom.md)
 
 ## Controllers
 
