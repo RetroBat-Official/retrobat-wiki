@@ -43,7 +43,11 @@ Game Console - Lifespan: 1994 - 2000
 </div>
 
 {% hint style="info" %}
-Kronos and SSF do not offer controller autoconfiguration.
+Kronos offers a selection of different button layouts where left shoulder and right shoulder can be mapped respectively to:
+
+* Y and Z (as per standard)
+* Z and C
+* X and Z
 {% endhint %}
 
 ## Specific System Information

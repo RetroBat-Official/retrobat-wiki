@@ -36,6 +36,10 @@ Ares uses pad2key to handle shortcuts.
 
 <table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (11).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (25).png" alt=""></td><td>Open MENU</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (45).png" alt=""></td><td>Load State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (43).png" alt=""></td><td>Save State</td></tr><tr><td>Hotkey + START</td><td>Exit DuckStation</td></tr><tr><td>Hotkey + L1</td><td>Toggle FULLSCREEN (when option 'disable fullscreen' is ON)</td></tr><tr><td>Hotkey + R1</td><td>Change Disc</td></tr><tr><td>Hotkey + R3</td><td>Screenshot</td></tr><tr><td>Hotkey + D-PAD UP</td><td>Select Save Slot Index +</td></tr><tr><td>Hotkey + D-PAD DOWN</td><td>Select Save Slot Index -</td></tr><tr><td>Hotkey + D-PAD LEFT</td><td>Rewind</td></tr><tr><td>Hotkey + D-PAD RIGHT</td><td>Fast Forward</td></tr></tbody></table>
 
+### Kronos
+
+<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (11).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (25).png" alt=""></td><td>Toggle Fullscreen</td></tr><tr><td>Hotkey + R2</td><td>Screenshot</td></tr></tbody></table>
+
 ### MAME
 
 <table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (11).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (25).png" alt=""></td><td>MAME menu</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (45).png" alt=""></td><td>Load State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (43).png" alt=""></td><td>Save State</td></tr><tr><td>Hotkey + D-PAD LEFT</td><td>Rewind</td></tr><tr><td>Hotkey + D-PAD LEFT</td><td>Fast Forward</td></tr><tr><td>L3 + R3</td><td>Service menu</td></tr></tbody></table>
