@@ -51,7 +51,11 @@ Console de jeu - Durée de vie: 1994 - 2000
 </div>
 
 {% hint style="info" %}
-Kronos et SSF ne permettent pas la configuration automatique des contrôleurs depuis RetroBat.
+Avec l'émulateur Kronos, RetroBat propose plusieurs schémas de contrôles avec un placement différent pour les boutons L1 et R1:
+
+* L1/R1 assignés à Y et Z (défaut)
+* L1/R1 assignés à Z et C
+* L1/R1 assignés à X et Z
 {% endhint %}
 
 ## Information spécifique au système

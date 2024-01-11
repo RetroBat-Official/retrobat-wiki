@@ -36,6 +36,10 @@ Ares utilise pad2key pour gérer les raccourcis.
 
 <table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (6).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (19).png" alt=""></td><td>Ouvrir MENU</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (34).png" alt=""></td><td>Charger Save State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (32).png" alt=""></td><td>Sauver Save State</td></tr><tr><td>Hotkey + START</td><td>Quitter DuckStation</td></tr><tr><td>Hotkey + L1</td><td>FULLSCREEN (si l'option 'disable fullscreen' est activée)</td></tr><tr><td>Hotkey + R1</td><td>Changer de Disque</td></tr><tr><td>Hotkey + R3</td><td>Capture d'écran</td></tr><tr><td>Hotkey + D-PAD UP</td><td>Choisir Slot de sauvegarde Index +</td></tr><tr><td>Hotkey + D-PAD DOWN</td><td>Choisir Slot de sauvegarde Index -</td></tr><tr><td>Hotkey + D-PAD LEFT</td><td>Rembobiner</td></tr><tr><td>Hotkey + D-PAD RIGHT</td><td>Avance rapide</td></tr></tbody></table>
 
+### Kronos
+
+<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (6).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (19).png" alt=""></td><td>Plein écran</td></tr><tr><td>Hotkey + R2</td><td>Capture d'écran</td></tr></tbody></table>
+
 ### MAME
 
 <table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (6).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (19).png" alt=""></td><td>MAME menu</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (34).png" alt=""></td><td>Charger Save State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (32).png" alt=""></td><td>Sauver Save State</td></tr><tr><td>Hotkey + D-PAD LEFT</td><td>Rembobiner</td></tr><tr><td>Hotkey + D-PAD RIGHT</td><td>Avance rapide</td></tr><tr><td>L3 + R3</td><td>Menu service</td></tr></tbody></table>
