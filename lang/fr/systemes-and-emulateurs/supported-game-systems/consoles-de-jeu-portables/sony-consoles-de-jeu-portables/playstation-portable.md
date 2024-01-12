@@ -44,11 +44,19 @@ Avec l'émulateur PPSSPP, si vous connectez une manette XInput, les manettes non
 
 ### DLC
 
-Les DLC pour les jeux doivent être placés dans le dossier `\saves\psp\PSP\GAME`
+Les DLC pour les jeux doivent être placés dans le dossier:
+
+* `\saves\psp\GAME` pour libretro:ppsspp
+* `\emulators\ppsspp\memstick\PSP\GAME` pour PPSSPP
+
+Le sous-dossier doit être l'ID du jeu, par exemple: `\saves\psp\GAME\ULES01372\`
 
 ### Textures "custom"
 
-Les packs de textures "custom" doivent être placés dans le dossier `\saves\psp\PSP\TEXTURES\"GAMEID"`.
+Les packs de textures "custom" doivent être placés dans le dossier:
+
+* `\saves\psp\TEXTURES\"GAMEID"` pour libretro:ppsspp
+* `\emulators\ppsspp\memstick\PSP\TEXTURE\"GAMEID"`pour PPSSPP
 
 Pour activer les textures "customs" dans Retrobat aller dans la [CONFIGURATION AVANCEE DU SYSTEME](../../../../navigation/view-options.md#configuration-avancees-du-systeme) :
 
