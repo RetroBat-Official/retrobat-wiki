@@ -44,13 +44,21 @@ When using PPSSPP standalone, if both a XInput controller and a non-XInput contr
 
 ### DLC
 
-DLCs for your games must be placed in `\saves\psp\PSP\GAME`
+DLCs for your games must be placed in:
+
+* `\saves\psp\GAME` for libretro:ppsspp
+* `\emulators\ppsspp\memstick\PSP\GAME` for PPSSPP
+
+The subfolder must be the game ID, for example: `\saves\psp\GAME\ULES01372\`
 
 ### Custom textures
 
-Custom textures must be placed in your `\saves\psp\PSP\TEXTURES\"GAMEID"` folder.
+Custom textures must be placed in:
 
-Then enable custom textures from within Retrobat:
+* `\saves\psp\TEXTURES\"GAMEID"` folder for libretro:ppsspp
+* `\emulators\ppsspp\memstick\PSP\TEXTURE\"GAMEID"`for PPSSPP
+
+Then enable custom textures in Retrobat:
 
 <div align="left">
 
