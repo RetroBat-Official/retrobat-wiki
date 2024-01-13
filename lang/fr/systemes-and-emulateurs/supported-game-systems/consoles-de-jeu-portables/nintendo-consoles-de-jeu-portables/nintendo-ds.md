@@ -16,7 +16,7 @@ Console de jeu portable - Durée de vie : 2004- 2011
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro : desmume</li><li>libretro : desmume2015</li><li>libretro : melonds</li><li>melonds</li><li>bizhawk: melonDS</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> nds</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.nds .bin .zip .7z</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: melonds DS</li><li>libretro : desmume</li><li>libretro : desmume2015</li><li>libretro : melonds</li><li>melonds</li><li>bizhawk: melonDS</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> nds</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.nds .bin .zip .7z</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
@@ -34,23 +34,7 @@ Console de jeu portable - Durée de vie : 2004- 2011
 Le stylet peut être émulé soit par la souris, soit par le stick analogique droit de la manette (le choix est disponible dans les fonctions avancées > contrôles).
 {% endhint %}
 
-| RetroBat                                                                           | Nintendo DS                                                                             |
-| ---------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
-| START                                                                              | START                                                                                   |
-| SELECT                                                                             | SELECT                                                                                  |
-| D-PAD                                                                              | D-PAD                                                                                   |
-| Left analog stick                                                                  |                                                                                         |
-| Right analog stick                                                                 | Ecran tactile (stylet)                                                                  |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | B                                                                                       |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | A                                                                                       |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | X                                                                                       |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | Y                                                                                       |
-| L1                                                                                 | L                                                                                       |
-| R1                                                                                 | R                                                                                       |
-| L2                                                                                 | DesMUme: Fermeture du couvercle                                                         |
-| R2                                                                                 | <p>DesMUme: Appui sur l'écran tactile<br>MelonDS: Changer la disposition de l'écran</p> |
-| L3                                                                                 | <p>DesMUme: Activer le Microphone<br>MelonDS: Fermeture du couvercle</p>                |
-| R3                                                                                 | DesMUme: Changer la disposition de l'écran                                              |
+<table><thead><tr><th width="302">RetroBat</th><th>Nintendo DS</th></tr></thead><tbody><tr><td>START</td><td>START</td></tr><tr><td>SELECT</td><td>SELECT</td></tr><tr><td>D-PAD</td><td>D-PAD</td></tr><tr><td>Left analog stick</td><td></td></tr><tr><td>Right analog stick</td><td>Ecran tactile (stylet)</td></tr><tr><td><img src="../../../../.gitbook/assets/image (19).png" alt="A"></td><td>B</td></tr><tr><td><img src="../../../../.gitbook/assets/image (6).png" alt="B"></td><td>A</td></tr><tr><td><img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"></td><td>X</td></tr><tr><td><img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line"></td><td>Y</td></tr><tr><td>L1</td><td>L</td></tr><tr><td>R1</td><td>R</td></tr><tr><td>L2</td><td>MelonDS_DS: microphone<br>DesMUme: Fermeture du couvercle</td></tr><tr><td>R2</td><td>MelonDS_DS: Changer la disposition de l'écran<br>DesMUme: Appui sur l'écran tactile<br>MelonDS: Changer la disposition de l'écran</td></tr><tr><td>L3</td><td>MelonDS_DS: Fermeture du couvercle<br>DesMUme: Activer le Microphone<br>MelonDS: Fermeture du couvercle</td></tr><tr><td>R3</td><td>MelonDS_DS: Appui sur l'écran tactile<br>DesMUme: Changer la disposition de l'écran</td></tr></tbody></table>
 
 <div align="left">
 
@@ -62,7 +46,9 @@ Le stylet peut être émulé soit par la souris, soit par le stick analogique dr
 
 ### Lancer des jeux DSi
 
-RetroBat permet de lancer des fichiers "nand" DSi (.bin) avec les émulateurs libretro:melonDS et melonDS (cela permet notamment de jouer à des jeux de type DSiware, qui étaient installés directement dans la mémoire de la console).
+Le core libretro melonDS\_DS permet de lancer la nativement les jeux DSiWare.
+
+Pour MelonDS et libretro:melonDS, RetroBat permet de lancer des fichiers "nand" DSi (.bin) (cela permet notamment de jouer à des jeux de type DSiware, qui étaient installés directement dans la mémoire de la console).
 
 Pour cela, il est nécessaire de disposer d'un fichier "nand" de la console et de déposer ce fichier '.bin' dans le dossier `roms\nds` de votre installation RetroBat. Lors du lancement de ce type de fichier, RetroBat va automatiquement lancer le menu d'accueil de la console et monter le fichier "nand", permettant ainsi de sélectionner les jeux installés sur cette "nand":
 
