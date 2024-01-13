@@ -16,7 +16,7 @@ Portable Game Console - Lifespan: 2004- 2011
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: desmume</li><li>libretro: desmume2015</li><li>libretro: melonds</li><li>melonds</li><li>bizhawk: melonDS</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> nds</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.nds .bin .zip .7z</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: melonds DS</li><li>libretro: desmume</li><li>libretro: desmume2015</li><li>libretro: melonds</li><li>melonds</li><li>bizhawk: melonDS</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> nds</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.nds .bin .zip .7z</td><td></td></tr></tbody></table>
 
 ## Features
 
@@ -34,23 +34,23 @@ Portable Game Console - Lifespan: 2004- 2011
 Stylus movement can be simulated with mouse or with right analog stick (if the feature is enabled).
 {% endhint %}
 
-| RetroBat key                                                                       | Nintendo DS key                                         |
-| ---------------------------------------------------------------------------------- | ------------------------------------------------------- |
-| START                                                                              | START                                                   |
-| SELECT / BACK                                                                      | SELECT                                                  |
-| D-PAD                                                                              | D-PAD                                                   |
-| Left analog stick                                                                  |                                                         |
-| Right analog stick                                                                 | Stylus (if option is set)                               |
-| ![A](<../../../../.gitbook/assets/image (25).png>)                                 | B                                                       |
-| ![B](<../../../../.gitbook/assets/image (11).png>)                                 | A                                                       |
-| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="original"> | X                                                       |
-| <img src="../../../../.gitbook/assets/image (43).png" alt="" data-size="line">     | Y                                                       |
-| L1                                                                                 | L                                                       |
-| R1                                                                                 | R                                                       |
-| L2                                                                                 | DesMUme: LID close/open                                 |
-| R2                                                                                 | <p>DesMUme: TAP Stylus<br>MelonDS: Swap Screens</p>     |
-| L3                                                                                 | <p>DesMUme: Toggle Microphone<br>MelonDS: Close LID</p> |
-| R3                                                                                 | DesMUme: Screen Swap                                    |
+| RetroBat key                                                                       | Nintendo DS key                                                                       |
+| ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| START                                                                              | START                                                                                 |
+| SELECT / BACK                                                                      | SELECT                                                                                |
+| D-PAD                                                                              | D-PAD                                                                                 |
+| Left analog stick                                                                  |                                                                                       |
+| Right analog stick                                                                 | Touchscreen joystick                                                                  |
+| ![A](<../../../../.gitbook/assets/image (25).png>)                                 | B                                                                                     |
+| ![B](<../../../../.gitbook/assets/image (11).png>)                                 | A                                                                                     |
+| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="original"> | X                                                                                     |
+| <img src="../../../../.gitbook/assets/image (43).png" alt="" data-size="line">     | Y                                                                                     |
+| L1                                                                                 | L                                                                                     |
+| R1                                                                                 | R                                                                                     |
+| L2                                                                                 | <p>MelonDS_DS: microphone<br>DesMUme: LID close/open</p>                              |
+| R2                                                                                 | <p>MelonDS_DS: next screen layout<br>DesMUme: TAP Stylus<br>MelonDS: Swap Screens</p> |
+| L3                                                                                 | <p>MelonDS_DS: close lid<br>DesMUme: Toggle Microphone<br>MelonDS: Close LID</p>      |
+| R3                                                                                 | <p>MelonDS_DS: touch joystick<br>DesMUme: Screen Swap</p>                             |
 
 <div align="left">
 
@@ -62,9 +62,11 @@ Stylus movement can be simulated with mouse or with right analog stick (if the f
 
 ### Running DSi games
 
-RetroBat allows you to run DSi nand files (.bin) with melonDS core and melonDS standalone emulators.
+RetroBat allows you to run DSi nand files (.bin) with libretro:melonDS\_ds, libretro:melonDS and melonDS standalone emulators.
 
-In order to do that, you need to place a '.bin' dsi nand file in the `roms\nds` folder, the file will be detected by RetroBat and will automatically launch to the DSi firmware when running the game, from there you will be able to select the game from the nand and run it:
+libretro:MelonDS\_ds has native support, there is nothing special to do except run the game.
+
+For libretro:melonDS and MelonDS, you need to place a '.bin' dsi nand file in the `roms\nds` folder, the file will be detected by RetroBat and will automatically launch to the DSi firmware when running the game, from there you will be able to select the game from the nand and run it:
 
 #### Example of a nand file:
 
