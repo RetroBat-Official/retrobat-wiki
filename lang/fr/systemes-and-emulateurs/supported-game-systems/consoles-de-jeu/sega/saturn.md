@@ -16,7 +16,7 @@ Console de jeu - Durée de vie: 1994 - 2000
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: kronos</li><li>libretro: mednafen saturn</li><li>mednafen</li><li>bizhawk: saturnus</li><li>Kronos</li><li>ssf</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> saturn</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.zip .cue .toc .m3u .ccd .chd .iso .cso .mds .chd</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: kronos</li><li>libretro: mednafen saturn</li><li>mednafen</li><li>bizhawk: saturnus</li><li>ssf</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> saturn</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.zip .cue .toc .m3u .ccd .chd .iso .cso .mds .chd</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
@@ -49,14 +49,6 @@ Console de jeu - Durée de vie: 1994 - 2000
 <figure><img src="https://i.imgur.com/rJXxjO2.png" alt=""><figcaption></figcaption></figure>
 
 </div>
-
-{% hint style="info" %}
-Avec l'émulateur Kronos, RetroBat propose plusieurs schémas de contrôles avec un placement différent pour les boutons L1 et R1:
-
-* L1/R1 assignés à Y et Z (défaut)
-* L1/R1 assignés à Z et C
-* L1/R1 assignés à X et Z
-{% endhint %}
 
 ## Information spécifique au système
 
