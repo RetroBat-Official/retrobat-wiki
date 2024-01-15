@@ -26,7 +26,7 @@ No BIOS required.
 
 ### Adding the game
 
-First, download the latest version (beta 1.8) of the game here : [https://github.com/mmatyas/supermariowar/releases/tag/continuous](https://github.com/mmatyas/supermariowar/releases/tag/continuous)
+First, download the latest version (beta 1.8 Custom Content Collection archive) of the game here : [https://github.com/mmatyas/supermariowar/releases/tag/continuous](https://github.com/mmatyas/supermariowar/releases/tag/continuous)
 
 Then uncompress the zip file in the `\roms\superbroswar` folder:
 
