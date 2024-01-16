@@ -28,7 +28,7 @@ Game Console - Lifespan: 2001 - 2007
 
 The BIOS files are not mandatory to launch games but some require at least one of their region for better graphic effects and font support.
 
-<table data-header-hidden><thead><tr><th width="169">File</th><th width="625">Location &#x26; MD5</th><th data-hidden>MD5 Hash</th></tr></thead><tbody><tr><td><code>IPL.bin</code><br>Europe</td><td><p>location: <code>\emulators\dolphin-emu\User\GC\EUR</code></p><p>libretro location: <code>\saves\gamecube\User\GC\EUR</code><br>md5: <code>0cdda509e2da83c85bfe423dd87346cc</code></p></td><td></td></tr><tr><td><code>IPL.bin</code><br>Japan</td><td><p>location: <code>\emulators\dolphin-emu\User\GC\JAP</code></p><p>libretro location: <code>\saves\gamecube\User\GC\JAP</code><br>md5: <code>fc924a7c879b661abc37cec4f018fdf3</code></p></td><td></td></tr><tr><td><code>IPL.bin</code><br>USA</td><td><p>location: <code>\emulators\dolphin-emu\User\GC\USA</code></p><p>libretro location: <code>\saves\gamecube\User\GC\USA</code><br>md5: <code>019e39822a9ca3029124f74dd4d55ac4</code></p></td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="169">File</th><th width="625">Location &#x26; MD5</th><th data-hidden>MD5 Hash</th></tr></thead><tbody><tr><td><code>IPL.bin</code><br>Europe</td><td><p>location: <code>\emulators\dolphin-emu\User\GC\EUR</code></p><p>libretro location: <code>\saves\dolphin\User\GC\EUR</code><br>md5: <code>0cdda509e2da83c85bfe423dd87346cc</code></p></td><td></td></tr><tr><td><code>IPL.bin</code><br>Japan</td><td><p>location: <code>\emulators\dolphin-emu\User\GC\JAP</code></p><p>libretro location: <code>\saves\dolphin\User\GC\JAP</code><br>md5: <code>fc924a7c879b661abc37cec4f018fdf3</code></p></td><td></td></tr><tr><td><code>IPL.bin</code><br>USA</td><td><p>location: <code>\emulators\dolphin-emu\User\GC\USA</code></p><p>libretro location: <code>\saves\dolphin\User\GC\USA</code><br>md5: <code>019e39822a9ca3029124f74dd4d55ac4</code></p></td><td></td></tr></tbody></table>
 
 ## Controls
 
@@ -91,11 +91,11 @@ Finally save the file as a .m3u file.
 
 It is possible to launch Custom Texture packs with the Dolphin Emulator.
 
-The texture pack needs to be placed in the `\saves\gamecube\User\Load\Textures` folder.
+The texture pack needs to be placed in the `\saves\dolphin\User\Load\Textures` folder.
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/3Zr8SS4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/jJm7Htu.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
