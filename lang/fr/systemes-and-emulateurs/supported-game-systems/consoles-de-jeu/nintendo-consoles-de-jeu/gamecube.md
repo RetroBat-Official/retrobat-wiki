@@ -28,7 +28,7 @@ Console de jeu - Durée de vie : 2001 - 2007
 
 Les BIOS ne sont pas nécessaires pour lancer des jeux Gamecube, mais certains sont requis pour améliorer le support de certains jeux au niveau graphiques ou encore des polices de caractères pour les textes des jeux.
 
-<table data-header-hidden><thead><tr><th width="169">File</th><th width="625">Location &#x26; MD5</th><th data-hidden>MD5 Hash</th></tr></thead><tbody><tr><td><code>IPL.bin</code><br>Europe</td><td><p>Emplacement: <code>\emulators\dolphin-emu\User\GC\EUR</code></p><p>Emplacement libretro: <code>\saves\gamecube\User\GC\EUR</code><br>md5: <code>0cdda509e2da83c85bfe423dd87346cc</code></p></td><td></td></tr><tr><td><code>IPL.bin</code><br>Japan</td><td><p>Emplacement: <code>\emulators\dolphin-emu\User\GC\JAP</code></p><p>Emplacement libretro: <code>\saves\gamecube\User\GC\JAP</code><br>md5: <code>fc924a7c879b661abc37cec4f018fdf3</code></p></td><td></td></tr><tr><td><code>IPL.bin</code><br>USA</td><td><p>Emplacement: <code>\emulators\dolphin-emu\User\GC\USA</code></p><p>Emplacement libretro: <code>\saves\gamecube\User\GC\USA</code><br>md5: <code>019e39822a9ca3029124f74dd4d55ac4</code></p></td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="169">File</th><th width="625">Location &#x26; MD5</th><th data-hidden>MD5 Hash</th></tr></thead><tbody><tr><td><code>IPL.bin</code><br>Europe</td><td><p>Emplacement: <code>\emulators\dolphin-emu\User\GC\EUR</code></p><p>Emplacement libretro: <code>\saves\dolphin\User\GC\EUR</code><br>md5: <code>0cdda509e2da83c85bfe423dd87346cc</code></p></td><td></td></tr><tr><td><code>IPL.bin</code><br>Japan</td><td><p>Emplacement: <code>\emulators\dolphin-emu\User\GC\JAP</code></p><p>Emplacement libretro: <code>\saves\dolphin\User\GC\JAP</code><br>md5: <code>fc924a7c879b661abc37cec4f018fdf3</code></p></td><td></td></tr><tr><td><code>IPL.bin</code><br>USA</td><td><p>Emplacement: <code>\emulators\dolphin-emu\User\GC\USA</code></p><p>Emplacement libretro: <code>\saves\dolphin\User\GC\USA</code><br>md5: <code>019e39822a9ca3029124f74dd4d55ac4</code></p></td><td></td></tr></tbody></table>
 
 ## Contrôles
 
@@ -85,11 +85,11 @@ Dans le fichier m3u, lister les noms exacts des fichiers des disques du jeu et s
 
 Il est possible d'utiliser des textures "custom" avec l'émulateur Dolphin.
 
-Les packs de textures doivent être placés dans le dossier `\saves\gamecube\User\Load\Textures`.
+Les packs de textures doivent être placés dans le dossier `\saves\dolphin\User\Load\Textures`.
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/3Zr8SS4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/jJm7Htu.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
