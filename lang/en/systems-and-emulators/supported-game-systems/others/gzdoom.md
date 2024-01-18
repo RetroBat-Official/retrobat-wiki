@@ -16,7 +16,7 @@ Game engine to play most games using the original Doom engine.
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>gzdoom</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> gzdoom</td></tr><tr><td><strong>File extension</strong></td><td>.wad .iwad .pwad .pk3 .gzdoom</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>gzdoom</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> gzdoom</td></tr><tr><td><strong>File extension</strong></td><td>.wad .iwad .pwad .pk3 .ipk3 .gzdoom</td></tr></tbody></table>
 
 ## Bios Information
 
