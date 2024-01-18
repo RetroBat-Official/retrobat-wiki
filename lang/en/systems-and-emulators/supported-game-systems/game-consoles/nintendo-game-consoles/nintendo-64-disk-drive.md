@@ -18,6 +18,10 @@ Game Console - Lifespan: 1999- 2001
 
 <table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>mupen64 (RMG)</li><li>libretro: mupen64plus next</li><li>libretro: parallel_n64 (only for full NDD games)</li><li>ares</li><li>project64</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> n64dd</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.v64 .z64 .n64 .ndd</td><td></td></tr></tbody></table>
 
+## System Features
+
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>RMG: NO<br>lr-mupen64: YES<br>lr-parallel: YES<br>Ares: NO<br>Project64: NO</td><td>RMG: NO<br>lr-mupen64: YES<br>lr-parallel: YES<br>Ares: NO<br>Project64: NO</td><td>RMG: YES<br>lr-mupen64: YES<br>lr-parallel: YES<br>Ares: YES<br>Project64: NO</td></tr></tbody></table>
+
 ## BIOS
 
 <table data-header-hidden><thead><tr><th width="206"></th><th width="533"></th><th data-hidden></th></tr></thead><tbody><tr><td>IPL_JAP.n64<br>Japan</td><td><strong>location:</strong> \bios\Mupen64plus<br><strong>md5:</strong> <code>8d3d9f294b6e174bc7b1d2fd1c727530</code></td><td></td></tr><tr><td>IPL_USA.n64<br>USA</td><td><strong>location:</strong> \bios\Mupen64plus<br><strong>md5:</strong> <code>37c36e4286d36892a9fc70eafe4104be</code></td><td></td></tr><tr><td>IPL_DEV.n64<br>Development Kit</td><td><strong>location:</strong> \bios\Mupen64plus<br><strong>md5:</strong> </td><td></td></tr></tbody></table>

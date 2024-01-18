@@ -16,16 +16,11 @@ Game Console - Lifespan: 2006 - 2017
 
 ## Information
 
-| **Emulators**       | <ul><li>dolphin</li><li>libretro: dolphin</li></ul> |   |
-| ------------------- | --------------------------------------------------- | - |
-| **Games Location**  | :file\_folder: roms \ :open\_file\_folder: wii      |   |
-| **File extensions** | .gcz .iso .ciso .wbfs .wad .rvz .wia                |   |
+<table data-header-hidden><thead><tr><th width="267"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>dolphin</li><li>libretro: dolphin</li></ul></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> wii</td></tr><tr><td><strong>File extensions</strong></td><td>.gcz .iso .ciso .wbfs .wad .rvz .wia</td></tr></tbody></table>
 
 ## Features
 
-| RetroAchievements | Netplay |
-| ----------------- | ------- |
-| NO                | NO      |
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>Dolphin: NO<br>lr-dolphin: NO</td><td>Dolphin: NO<br>lr-dolphin: NO</td><td>Dolphin: YES<br>lr-dolphin: YES</td></tr></tbody></table>
 
 ## BIOS
 

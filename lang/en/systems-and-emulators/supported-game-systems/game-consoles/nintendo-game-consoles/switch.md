@@ -24,9 +24,7 @@ You need to be a Yuzu Patreon to use Yuzu Early Access.
 
 ## Features
 
-| Retroachievements | NetPlay |
-| ----------------- | ------- |
-| NO                | NO      |
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>Yuzu: NO<br>Ryujinx: NO</td><td>Yuzu: NO<br>Ryujinx: NO</td><td>Yuzu: YES<br>Ryujinx: YES</td></tr></tbody></table>
 
 ## BIOS
 

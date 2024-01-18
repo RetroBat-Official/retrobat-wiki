@@ -20,9 +20,7 @@ Game Console - Lifespan: 2001 - 2007
 
 ## Features
 
-| RetroAchievements | Netplay |
-| ----------------- | ------- |
-| NO                | NO      |
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>Dolphin: NO<br>lr-dolphin: NO</td><td>Dolphin: NO<br>lr-dolphin: NO</td><td>Dolphin: YES<br>lr-dolphin: YES</td></tr></tbody></table>
 
 ## BIOS
 
