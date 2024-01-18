@@ -16,9 +16,7 @@ Game Console - Lifespan: 1990 - 2003
 
 ## Features
 
-| Retroachievements | Netplay |
-| ----------------- | ------- |
-| YES               | YES     |
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-snes9x: YES<br>lr-bsnes: YES<br>lr-mednafen: YES<br>lr-mesen-s: YES<br>Mednafen: NO<br>Mesen: NO<br>Snes9x: NO<br>Ares: NO<br>Bizhawk: YES</td><td>lr-snes9x: YES<br>lr-bsnes: YES<br>lr-mednafen: YES<br>lr-mesen-s: YES<br>Mednafen: NO<br>Mesen: NO<br>Snes9x: NO<br>Ares: NO<br>Bizhawk: NO</td><td>lr-snes9x: YES<br>lr-bsnes: YES<br>lr-mednafen: YES<br>lr-mesen-s: YES<br>Mednafen: YES<br>Mesen: YES<br>Snes9x: NO<br>Ares: YES<br>Bizhawk: YES</td></tr></tbody></table>
 
 ## BIOS
 

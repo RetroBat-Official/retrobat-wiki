@@ -14,6 +14,10 @@ Fantasy Console - Creation date: 2018
 
 <table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: lowresnx</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> lowresnx</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.nx</td><td></td></tr></tbody></table>
 
+## System Features
+
+<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-lowresNX: NO</td><td>lr-lowresNX: NO</td><td>lr-lr-lowresNX: YES</td></tr></tbody></table>
+
 ## BIOS
 
 No BIOS required.

@@ -28,11 +28,9 @@ You can download dokan v2 from here:\
 [https://github.com/dokan-dev/dokany/releases](https://github.com/dokan-dev/dokany/releases)
 {% endhint %}
 
-## Features
+## System Features
 
-| Retroachievements | NetPlay |
-| ----------------- | ------- |
-| NO                | NO      |
+<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>Xemu: NO<br>Cxbx: NO</td><td>Xemu: NO<br>Cxbx: NO</td><td>Xemu: NO<br>Cxbx: YES</td></tr></tbody></table>
 
 ## BIOS
 

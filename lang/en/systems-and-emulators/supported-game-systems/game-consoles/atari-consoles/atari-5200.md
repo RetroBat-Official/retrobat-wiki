@@ -18,6 +18,10 @@ Game console - Lifespan: 1982 - 1984
 
 <table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: a5200</li><li>libretro: atari800</li><li>libretro: stella2014</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> atari5200</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.rom .xfd .atr .atx .cdm .cas .bin .a52 .xex .zip .7z</td><td></td></tr></tbody></table>
 
+## System Features
+
+<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-a5200 : NO<br>lr-atari800: NO<br>lr-stella2014: YES</td><td>lr-a5200 : NO<br>lr-atari800: NO<br>lr-stella2014: YES</td><td>lr-a5200 : YES<br>lr-atari800: YES<br>lr-stella2014: YES</td></tr></tbody></table>
+
 ## BIOS
 
 <table><thead><tr><th width="193">Bios file</th><th width="142.03610108303252">Folder</th><th>md5</th></tr></thead><tbody><tr><td>ATARIXL.ROM</td><td><code>\bios</code></td><td>06daac977823773a3eea3422fd26a703</td></tr><tr><td>ATARIBAS.ROM</td><td><code>\bios</code></td><td>0bac0c6a50104045d902df4503a4c30b</td></tr><tr><td>ATARIOSA.ROM</td><td><code>\bios</code></td><td>eb1f32f5d9f382db1bbfb8d7f9cb343a</td></tr><tr><td>ATARIOSB.ROM</td><td><code>\bios</code></td><td>a3e8d617c95d08031fe1b20d541434b2</td></tr><tr><td>5200.rom</td><td><code>\bios</code></td><td>281f20ea4320404ec820fb7ec0693b38</td></tr></tbody></table>

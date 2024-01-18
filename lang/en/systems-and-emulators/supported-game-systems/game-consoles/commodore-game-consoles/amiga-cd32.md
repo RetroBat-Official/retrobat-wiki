@@ -18,6 +18,10 @@ Game Console - Lifespan: 1993 - 1994
 
 <table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: puae</li><li>amigaforever</li><li>winuae</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> amigacd32</td></tr><tr><td><strong>File extension</strong></td><td>.iso .cso .cue .zip .7z .lha .rp9 .chd .ccd .nrg .mds</td></tr></tbody></table>
 
+## System Features
+
+<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-puae: NO<br>AmigaForever: NO<br>WinUAE: NO</td><td>lr-puae: NO<br>AmigaForever: NO<br>WinUAE: NO</td><td>lr-puae: YES<br>AmigaForever: NO<br>WinUAE: NO</td></tr></tbody></table>
+
 ## Bios Information
 
 <table><thead><tr><th width="209.55555555555557">bios file</th><th width="155">Folder</th><th>md5</th></tr></thead><tbody><tr><td>kick40060.CD32.ext</td><td><code>\bios</code></td><td>bb72565701b1b6faece07d68ea5da639</td></tr><tr><td>kick40060.CD32</td><td><code>\bios</code></td><td>5f8924d013dd57a89cf349f4cdedc6b1</td></tr></tbody></table>

@@ -18,6 +18,10 @@ Game console - Lifespan: 1978 - 1983
 
 <table data-header-hidden><thead><tr><th width="198"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: mame</li><li>mame64</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> astrocade</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.bin .zip .7z</td><td></td></tr><tr><td><strong>Group</strong></td><td>MESS</td><td></td></tr><tr><td><strong>Emulated Model</strong></td><td>astrocde</td><td></td></tr><tr><td><strong>Softlists available</strong></td><td>astrocde</td><td></td></tr><tr><td><strong>Media Types</strong></td><td>cartridge</td><td></td></tr></tbody></table>
 
+## System Features
+
+<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>NO</td></tr></tbody></table>
+
 ## BIOS
 
 <table><thead><tr><th width="159">Bios file</th><th width="209.03610108303252">Folder</th><th>md5</th></tr></thead><tbody><tr><td>astrocde.xml</td><td><code>\bios\mame\hash</code></td><td></td></tr><tr><td>astrocde.zip</td><td><code>\bios</code></td><td>See below</td></tr></tbody></table>

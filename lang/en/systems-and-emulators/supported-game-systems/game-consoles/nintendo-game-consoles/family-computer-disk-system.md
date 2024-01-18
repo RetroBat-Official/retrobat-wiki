@@ -20,9 +20,7 @@ Game Console - Lifespan: 1986 - 1990
 
 ## Features
 
-| Retroachievements | Netplay |
-| ----------------- | ------- |
-| NO                | YES     |
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-fceumm: YES<br>lr-nestopia: YES<br>lr-mesen: YES<br>Mesen: NO<br>Ares: NO</td><td>lr-fceumm: YES<br>lr-nestopia: YES<br>lr-mesen: YES<br>Mesen: NO<br>Ares: NO</td><td>lr-fceumm: YES<br>lr-nestopia: YES<br>lr-mesen: YES<br>Mesen: YES<br>Ares: YES</td></tr></tbody></table>
 
 ## BIOS
 

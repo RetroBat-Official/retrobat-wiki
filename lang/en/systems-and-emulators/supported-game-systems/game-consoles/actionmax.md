@@ -20,9 +20,7 @@ Game console - Date of release: 1987
 
 ## System Features
 
-| Retroachievements | Netplay |
-| ----------------- | ------- |
-| NO                | NO      |
+<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>NO</td></tr></tbody></table>
 
 ## BIOS
 

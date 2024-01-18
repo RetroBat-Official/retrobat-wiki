@@ -18,11 +18,9 @@ Game Console - Lifespan: 1982 - 1983
 
 <table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: mame</li><li>mame64</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> advision</td></tr><tr><td><strong>File extension</strong></td><td>.bin .zip .7z</td></tr><tr><td><strong>Group</strong></td><td>MESS</td></tr><tr><td><strong>Emulated Model</strong></td><td>advision</td></tr><tr><td><strong>Softlists available</strong></td><td>advision</td></tr><tr><td><strong>Media Types</strong></td><td>cartridge</td></tr></tbody></table>
 
-## Features
+## System Features
 
-| Retroachievements | Netplay |
-| ----------------- | ------- |
-| NO                | NO      |
+<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>NO</td></tr></tbody></table>
 
 ## Bios Information
 

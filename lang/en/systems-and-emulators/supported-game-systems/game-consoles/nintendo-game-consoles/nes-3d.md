@@ -22,9 +22,7 @@ Once purchased the emulator must be installed in the \emulators\3dsen folder.&#x
 
 ## Features
 
-| Retroachievements | Netplay |
-| ----------------- | ------- |
-| NO                | NO      |
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>NO</td></tr></tbody></table>
 
 ## Bios Information
 

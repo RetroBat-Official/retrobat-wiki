@@ -18,6 +18,10 @@ Game Console - Release date: 1991
 
 <table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: puae</li><li>amigaforever</li><li>winuae</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> amigacdtv</td></tr><tr><td><strong>File extension</strong></td><td>.cue .iso .cso .rp9 .ccd .nrg .mds .zip .7z</td></tr></tbody></table>
 
+## System Features
+
+<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-puae: NO<br>AmigaForever: NO<br>WinUAE: NO</td><td>lr-puae: NO<br>AmigaForever: NO<br>WinUAE: NO</td><td>lr-puae: YES<br>AmigaForever: NO<br>WinUAE: NO</td></tr></tbody></table>
+
 ## Bios Information
 
 <table><thead><tr><th width="209.55555555555557">bios file</th><th width="155">Folder</th><th>md5</th></tr></thead><tbody><tr><td>kick34005.CDTV</td><td><code>\bios</code></td><td>89da1838a24460e4b93f4f0c5d92d48d</td></tr></tbody></table>

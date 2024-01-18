@@ -18,6 +18,10 @@ Game Console - Release year: 1978
 
 <table data-header-hidden><thead><tr><th width="199"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretroo: mame</li><li>mame64</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> apfm1000</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.bin .zip .7z</td><td></td></tr><tr><td><strong>Group</strong></td><td>MESS</td><td></td></tr><tr><td><strong>Emulated System</strong></td><td>apfm1000</td><td></td></tr><tr><td><strong>Softlists available</strong></td><td>apfm1000</td><td></td></tr><tr><td><strong>Media Types</strong></td><td>cartridge</td><td></td></tr></tbody></table>
 
+## System Features
+
+<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>NO</td></tr></tbody></table>
+
 ## BIOS
 
 <table><thead><tr><th width="209.55555555555557">bios file</th><th width="189">Folder</th><th>md5</th></tr></thead><tbody><tr><td>apfm1000.xml</td><td><code>\bios\mame\hash</code></td><td></td></tr><tr><td>apfm1000.zip</td><td><code>\bios</code></td><td>See below</td></tr></tbody></table>

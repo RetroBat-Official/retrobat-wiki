@@ -20,9 +20,7 @@ Game Console - Lifespan: 1994 - 1998
 
 ## System Features
 
-| RetroAchievements | Netplay |
-| ----------------- | ------- |
-| YES               | YES     |
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-mednafen: YES<br>Mednafen: NO<br>BizHawk: YES</td><td>lr-mednafen: YES<br>Mednafen: NO<br>BizHawk: NO</td><td>lr-mednafen: YES<br>Mednafen: YES<br>BizHawk: YES</td></tr></tbody></table>
 
 ## Bios Information
 

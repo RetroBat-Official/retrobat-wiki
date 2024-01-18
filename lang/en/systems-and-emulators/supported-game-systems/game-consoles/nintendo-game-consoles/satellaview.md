@@ -20,9 +20,7 @@ Game Console Extension - Lifespan: 1995 - 2000
 
 ## Features
 
-| Retroachievements | Netplay |
-| ----------------- | ------- |
-| NO                | YES     |
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-snes9x: YES<br>lr-mesen-s: YES<br>Ares: NO</td><td>lr-snes9x: YES<br>lr-mesen-s: YES<br>Ares: NO</td><td>lr-snes9x: YES<br>lr-mesen-s: YES<br>Ares: YES</td></tr></tbody></table>
 
 ## BIOS
 
