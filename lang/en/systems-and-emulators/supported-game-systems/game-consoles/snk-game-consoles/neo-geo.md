@@ -22,11 +22,9 @@ Game Console - Lifespan: 1990 - 2004
 
 Use fbneo 1.0.0.3 romset for the default emulator.
 
-## Features
+## System Features
 
-| RetroAchievements | NetPlay |
-| ----------------- | ------- |
-| NO                | YES     |
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-fbneo: YES<br>lr-fbalpha: YES<br>lr-fbalpha2012: YES<br>Raine: NO<br>Mame: NO</td><td>lr-fbneo: YES<br>lr-fbalpha: YES<br>lr-fbalpha2012: YES<br>Raine: NO<br>Mame: NO</td><td>lr-fbneo: YES<br>lr-fbalpha: YES<br>lr-fbalpha2012: YES<br>Raine: NO<br>Mame: NO</td></tr></tbody></table>
 
 ## BIOS
 

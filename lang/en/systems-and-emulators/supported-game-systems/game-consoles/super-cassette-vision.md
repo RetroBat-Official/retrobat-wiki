@@ -22,6 +22,10 @@ Game Console - Lifespan: 1984 - 1987
 
 <table data-header-hidden><thead><tr><th width="207"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulated Model</strong></td><td>scv</td><td></td></tr><tr><td><strong>Softlists available</strong></td><td>scv</td><td></td></tr><tr><td><strong>Media Types</strong></td><td>cartridge</td><td></td></tr></tbody></table>
 
+## System Features
+
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-emuscv: NO<br>lr-mame: NO<br>Mame: NO</td><td>lr-emuscv: NO<br>lr-mame: NO<br>Mame: NO</td><td>lr-emuscv: YES<br>lr-mame: NO<br>Mame: NO</td></tr></tbody></table>
+
 ## BIOS
 
 <table><thead><tr><th width="209.55555555555557">bios file</th><th width="189">Folder</th><th>md5</th></tr></thead><tbody><tr><td>upd7801g.s01</td><td><code>\bios</code></td><td>635a978fd40db9a18ee44eff449fc126</td></tr><tr><td>scv.xml</td><td><code>\bios\mame\hash</code></td><td></td></tr><tr><td>scv.zip</td><td><code>\bios</code></td><td>33df021613fb12abe2ad14b9eb17c7fe</td></tr></tbody></table>

@@ -24,6 +24,10 @@ Note that games requiring a digital cartdridge are not yet possible to emulate t
 This means that games like Dragon's Lair, BrainDead 13 or Mad Dog McCree will not work.
 {% endhint %}
 
+## System Features
+
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-same_CDI: NO<br>lr-mame: NO<br>mame: NO</td><td>lr-same_CDI: NO<br>lr-mame: NO<br>mame: NO</td><td>lr-same_CDI: YES<br>lr-mame: NO<br>mame: NO</td></tr></tbody></table>
+
 ## Bios Information
 
 **For same\_cdi:**

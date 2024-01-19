@@ -18,11 +18,9 @@ Game Console - Lifespan: 1982 - 1984
 
 <table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: vecx</li><li>bizhawk</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> vectrex</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.bin .gam .vec .zip .7z</td><td></td></tr></tbody></table>
 
-## Features
+## System Features
 
-| RetroAchievements | Netplay |
-| ----------------- | ------- |
-| YES               | NO      |
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-vecx: YES<br>BizHawk: YES</td><td>lr-vecx: NO<br>BizHawk: NO</td><td>lr-vecx: YES<br>BizHawk: YES</td></tr></tbody></table>
 
 ## BIOS
 

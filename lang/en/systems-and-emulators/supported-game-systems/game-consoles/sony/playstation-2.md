@@ -18,11 +18,9 @@ Game Console - Lifespan: 2000 - 2013
 
 <table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>pcsx2</li><li>pcsx2-16</li><li>play</li><li>Libretro: pcsx2</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> ps2</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.iso .cso .bin .mdf .gz .chd</td><td></td></tr></tbody></table>
 
-## Features
+## System Features
 
-| Retroachievements         | NetPlay |
-| ------------------------- | ------- |
-| YES (with PCSX2 1.7 only) | NO      |
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>Pcsx2: YES<br>Pcsx2-16: NO<br>Play: NO<br>lr-pcsx2: NO</td><td>Pcsx2: NO<br>Pcsx2-16: NO<br>Play: NO<br>lr-pcsx2: NO</td><td>Pcsx2: YES<br>Pcsx2-16: NO<br>Play: NO<br>lr-pcsx2: YES</td></tr></tbody></table>
 
 ## BIOS
 

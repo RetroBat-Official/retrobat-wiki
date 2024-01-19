@@ -18,11 +18,9 @@ Game Console - Lifespan: 1998 - 2001
 
 <table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: flycast</li><li>flycast</li><li>redream</li><li>demul</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> dreamcast</td></tr><tr><td><strong>File extension</strong></td><td>.mds .mdf .cue .cdi .gdi .chd .m3u</td></tr></tbody></table>
 
-## Features
+## System Features
 
-| Retroachievements | NetPlay                      |
-| ----------------- | ---------------------------- |
-| YES               | YES (libretro: redream only) |
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-flycast: YES<br>Flycast: NO<br>Redream: NO<br>Demul: NO</td><td>lr-flycast: NO<br>Flycast: NO<br>Redream: NO<br>Demul: NO</td><td>lr-flycast: YES<br>Flycast: YES<br>Redream: YES<br>Demul: NO</td></tr></tbody></table>
 
 ## Bios Information
 
