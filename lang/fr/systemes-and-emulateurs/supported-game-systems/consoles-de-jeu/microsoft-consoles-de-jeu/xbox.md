@@ -31,9 +31,7 @@ Vous pouvez télécharger dokan ici:\
 
 ## Fonctionnalités
 
-| Succès Rétro | Parties en Réseau |
-| ------------ | ----------------- |
-| NON          | NON               |
+<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>Xemu : NON<br>Cxbx : NON</td><td>Xemu : NON<br>Cxbx : NON</td><td>Xemu : NON<br>Cxbx : OUI</td></tr></tbody></table>
 
 ## BIOS
 

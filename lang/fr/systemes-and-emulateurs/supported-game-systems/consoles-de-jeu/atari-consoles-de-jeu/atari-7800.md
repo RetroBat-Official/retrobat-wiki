@@ -20,9 +20,7 @@ Console de jeu - Durée de vie : 1986 - 1992
 
 ## Fonctionnalités
 
-| Succès Rétro | Parties en Réseau |
-| ------------ | ----------------- |
-| OUI          | NON               |
+<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-prosystem : OUI<br>Bizhawk : OUI</td><td>lr-prosystem : NON<br>Bizhawk : NON</td><td>lr-prosystem : OUI<br>Bizhawk : OUI</td></tr></tbody></table>
 
 ## BIOS
 

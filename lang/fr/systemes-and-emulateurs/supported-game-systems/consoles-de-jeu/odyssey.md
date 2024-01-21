@@ -20,9 +20,7 @@ Console de jeu - Durée de vie: 1978 - 1984
 
 ## Fonctionnalités
 
-| Succès Rétro | Parties en Réseau |
-| ------------ | ----------------- |
-| OUI          | NON               |
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-o2em : OUI<br>BizHawk : OUI</td><td>lr-o2em : NON<br>BizHawk : NON</td><td>lr-o2em : OUI<br>BizHawk : OUI</td></tr></tbody></table>
 
 ## Bios
 

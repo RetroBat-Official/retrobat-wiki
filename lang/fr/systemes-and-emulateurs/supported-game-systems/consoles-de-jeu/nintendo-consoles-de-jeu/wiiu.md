@@ -20,9 +20,7 @@ Console de jeu hybride - Durée de vie: 2012 - 2017
 
 ## Fonctionnalités
 
-| Succès Rétro | Parties en Réseau |
-| ------------ | ----------------- |
-| NON          | NON               |
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td>OUI</td></tr></tbody></table>
 
 ## BIOS
 

@@ -20,6 +20,8 @@ Console de jeu - Durée de vie : 2001 - 2007
 
 ## Fonctionnalités
 
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>Dolphin : NON<br>lr-dolphin : NON</td><td>Dolphin : NON<br>lr-dolphin : NON</td><td>Dolphin : OUI<br>lr-dolphin : OUI</td></tr></tbody></table>
+
 | Succès Rétro | Parties en Réseau |
 | ------------ | ----------------- |
 | NON          | NON               |

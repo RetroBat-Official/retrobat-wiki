@@ -20,9 +20,7 @@ Console de jeu - Durée de vie : 1996 - 2002
 
 ## Fonctionnalités
 
-| Succès Rétro | Parties en Réseau |
-| ------------ | ----------------- |
-| OUI          | NON               |
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-mupen64 : OUI<br>lr-parallel : OUI<br>RMG : NON<br>Simple64 : NON<br>Ares : NON<br>BizHawk : OUI<br>Project64 : NON</td><td>lr-mupen64 : OUI<br>lr-parallel : OUI<br>RMG : NON<br>Simple64 : NON<br>Ares : NON<br>BizHawk : NON<br>Project64 : NON</td><td>lr-mupen64 : OUI<br>lr-parallel : OUI<br>RMG : OUI<br>Simple64 : OUI<br>Ares : OUI<br>BizHawk : OUI<br>Project64 : NON</td></tr></tbody></table>
 
 ## BIOS
 

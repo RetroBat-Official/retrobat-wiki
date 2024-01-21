@@ -24,9 +24,7 @@ Pour fbneo, les jeux doivent être au format bin+cue.
 
 ## Fonctionnalités
 
-| Succès Rétro | Parties en Réseau |
-| ------------ | ----------------- |
-| NON          | OUI               |
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-neocd : OUI<br>lr-fbneo : OUI<br>Raine : NON</td><td>lr-neocd : OUI<br>lr-fbneo : OUI<br>Raine : NON</td><td>lr-neocd : OUI<br>lr-fbneo : OUI<br>Raine : NON</td></tr></tbody></table>
 
 ## Bios
 

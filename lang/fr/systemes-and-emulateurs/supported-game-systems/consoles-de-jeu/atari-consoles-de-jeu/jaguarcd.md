@@ -20,9 +20,7 @@ Console de jeu - Durée de vie : 1995 - 1996
 
 ## Fonctionnalités
 
-| Succès Rétro | Parties en Réseau |
-| ------------ | ----------------- |
-| NON          | NON               |
+<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>BigPEmu : NON<br>Bizhawk : OUI</td><td>BigPEmu : NON<br>Bizhawk : NON</td><td>BigPEmu : NON<br>Bizhawk : OUI</td></tr></tbody></table>
 
 ## BIOS
 

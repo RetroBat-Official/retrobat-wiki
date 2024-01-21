@@ -20,9 +20,7 @@ Console de jeu - Durée de vie : 1982 - 1985
 
 ## Fonctionnalités
 
-| Succès Rétro | Parties en Réseau |
-| ------------ | ----------------- |
-| OUI          | NON               |
+<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-gearcoleco : OUI<br>lr-bluemsx : OUI<br>lr-fbneo : OUI<br>OpenMSX : NON<br>Ares : NON<br>BizHawk : OUI</td><td>lr-gearcoleco : OUI<br>lr-bluemsx : NON<br>lr-fbneo : OUI<br>OpenMSX : NON<br>Ares : NON<br>BizHawk : NON</td><td>lr-gearcoleco : OUI<br>lr-bluemsx : OUI<br>lr-fbneo : OUI<br>OpenMSX : OUI<br>Ares : OUI<br>BizHawk : OUI</td></tr></tbody></table>
 
 ## BIOS
 

@@ -20,9 +20,7 @@ Console de jeu - Durée de vie : 1977 - 1992
 
 ## Fonctionnalités
 
-| Succès Rétro | Parties en Réseau |
-| ------------ | ----------------- |
-| OUI          | OUI               |
+<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-stella : OUI<br>lr-stella2014 : OUI<br>Stella : NO<br>Bizhawk : OUI</td><td>lr-stella : OUI<br>lr-stella2014 : OUI<br>Stella : NON<br>Bizhawk : NON</td><td>lr-stella : OUI<br>lr-stella2014 : OUI<br>Stella : OUI<br>Bizhawk : OUI</td></tr></tbody></table>
 
 ## BIOS
 

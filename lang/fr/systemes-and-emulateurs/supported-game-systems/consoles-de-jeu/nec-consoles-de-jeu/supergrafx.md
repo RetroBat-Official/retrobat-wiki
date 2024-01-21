@@ -20,6 +20,8 @@ Console de jeu - Date de commercialisation : 1989
 
 ## Fonctionnalités
 
+<table><thead><tr><th width="192">Succès Rétro</th><th width="217">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-mednafen : OUI<br>lr-fbneo : OUI<br>Mednafen : NON<br>Ares : NON<br>BizHawk : OUI</td><td>lr-mednafen : OUI<br>lr-fbneo : OUI<br>Mednafen : NON<br>Ares : NON<br>BizHawk : NON</td><td>lr-mednafen : OUI<br>lr-fbneo : OUI<br>Mednafen : OUI<br>Ares : OUI<br>BizHawk : OUI</td></tr></tbody></table>
+
 | Succès Rétro | Parties en Réseau |
 | ------------ | ----------------- |
 | NON          | OUI               |

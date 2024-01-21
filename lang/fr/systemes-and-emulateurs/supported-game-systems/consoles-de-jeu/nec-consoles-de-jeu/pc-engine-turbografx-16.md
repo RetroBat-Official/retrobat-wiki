@@ -20,9 +20,7 @@ Console de jeu - Durée de vie : 1987 - 1994
 
 ## Fonctionnalités
 
-| Succès Rétro | Parties en Réseau |
-| ------------ | ----------------- |
-| OUI          | OUI               |
+<table><thead><tr><th width="246">Succès Rétro</th><th width="234">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-mednafen_pce : OUI<br>lr-mednafen_pce_fast: OUI<br>lr-fbneo : OUI<br>Mednafen: NON<br>Ares: NON<br>BizHawk : OUI</td><td>lr-mednafen_pce : OUI<br>lr-mednafen_pce_fast: OUI<br>lr-fbneo : OUI<br>Mednafen: NON<br>Ares: NON<br>BizHawk: NON</td><td>lr-mednafen_pce : OUI<br>lr-mednafen_pce_fast : OUI<br>lr-fbneo : OUI<br>Mednafen : OUI<br>Ares : OUI<br>BizHawk : OUI</td></tr></tbody></table>
 
 ## Bios
 

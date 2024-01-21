@@ -18,6 +18,10 @@ Console de jeu - Durée de vie : 1979 - 1990
 
 <table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro : freeintv</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> intellivision</td></tr><tr><td><strong>Extensions</strong></td><td>.int .bin .rom .zip .7z</td></tr></tbody></table>
 
+## Fonctionnalités
+
+<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-freeintv : OUI</td><td>lr-freeintv : NON</td><td>lr-freeintv : OUI</td></tr></tbody></table>
+
 ## Bios
 
 <table><thead><tr><th>Fichier Bios</th><th width="169">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>exec.bin</td><td><code>\bios</code></td><td>62e761035cb657903761800f4437b8af</td></tr><tr><td>grom.bin</td><td><code>\bios</code></td><td>0cd5946c6473e42e8e4c2137785e427f</td></tr></tbody></table>

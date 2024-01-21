@@ -24,6 +24,8 @@ Yuzu Early Access n'est accessible qu'aux PATREON.
 
 ## Fonctionnalités
 
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>Yuzu : NON<br>Ryujinx : NON</td><td>Yuzu : NON<br>Ryujinx : NON</td><td>Yuzu : OUI<br>Ryujinx : OUI</td></tr></tbody></table>
+
 | Succès Rétro | Parties en Réseau |
 | ------------ | ----------------- |
 | NON          | NON               |

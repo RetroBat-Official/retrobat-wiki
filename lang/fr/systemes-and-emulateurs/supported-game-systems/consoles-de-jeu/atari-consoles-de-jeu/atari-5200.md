@@ -20,9 +20,7 @@ Console de jeu - Durée de vie : 1982 - 1984
 
 ## Fonctionnalités
 
-| Succès Rétro | Parties en Réseau |
-| ------------ | ----------------- |
-| NON          | NON               |
+<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-a5200 : NON<br>lr-atari800 : NON<br>lr-stella2014 : OUI</td><td>lr-a5200 : NON<br>lr-atari800 : NON<br>lr-stella2014 : OUI</td><td>lr-a5200 : OUI<br>lr-atari800 : OUI<br>lr-stella2014 : OUI</td></tr></tbody></table>
 
 ## BIOS
 

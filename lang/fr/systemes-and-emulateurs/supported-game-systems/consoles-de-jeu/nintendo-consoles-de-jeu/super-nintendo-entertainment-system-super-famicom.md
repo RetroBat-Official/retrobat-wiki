@@ -16,9 +16,7 @@ Console de jeu - Durée de vie : 1990 - 2003
 
 ## Fonctionnalités
 
-| Succès Rétro | Parties en Réseau |
-| ------------ | ----------------- |
-| OUI          | OUI               |
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-snes9x : OUI<br>lr-bsnes : OUI<br>lr-mednafen : OUI<br>lr-mesen-s : OUI<br>Mednafen : NON<br>Mesen : NON<br>Snes9x : NON<br>Ares : NON<br>Bizhawk : OUI</td><td>lr-snes9x : OUI<br>lr-bsnes : OUI<br>lr-mednafen : OUI<br>lr-mesen-s : OUI<br>Mednafen: NON<br>Mesen : NON<br>Snes9x : NON<br>Ares : NON<br>Bizhawk : NON</td><td>lr-snes9x : OUI<br>lr-bsnes : OUI<br>lr-mednafen : OUI<br>lr-mesen-s : OUI<br>Mednafen : OUI<br>Mesen : OUI<br>Snes9x : NON<br>Ares : OUI<br>Bizhawk : OUI</td></tr></tbody></table>
 
 ## BIOS
 

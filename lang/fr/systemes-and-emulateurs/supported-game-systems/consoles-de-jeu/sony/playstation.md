@@ -20,9 +20,7 @@ Console de jeu - Durée de jeu: 1994 - 2006
 
 ## Fonctionnalités
 
-| Succès Rétro               | Parties en Réseau |
-| -------------------------- | ----------------- |
-| OUI (incluant Duckstation) | NON               |
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-mednafen : OUI<br>lr-swanstation : OUI<br>lr-pcsx-rearmed : OUI<br>Duckstation : OUI<br>Mednafen : NON<br>BizHawk : OUI</td><td>lr-mednafen : OUI<br>lr-swanstation : NON<br>lr-pcsx-rearmed : OUI<br>Duckstation : NON<br>Mednafen : NON<br>BizHawk : NON</td><td>lr-mednafen : OUI<br>lr-swanstation : OUI<br>lr-pcsx-rearmed : OUI<br>Duckstation : OUI<br>Mednafen : OUI<br>BizHawk : OUI</td></tr></tbody></table>
 
 ## BIOS
 

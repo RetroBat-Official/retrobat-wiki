@@ -20,9 +20,7 @@ Extension de console de jeu - Durée de vie : 1986 - 1990
 
 ## Fonctionnalités
 
-| Succès Rétro | Parties en Réseau |
-| ------------ | ----------------- |
-| NON          | OUI               |
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-fceumm : OUI<br>lr-nestopia : OUI<br>lr-mesen : OUI<br>Mesen : NON<br>Ares : NON</td><td>lr-fceumm : OUI<br>lr-nestopia : OUI<br>lr-mesen : OUI<br>Mesen : NON<br>Ares : NON</td><td>lr-fceumm : OUI<br>lr-nestopia : OUI<br>lr-mesen : OUI<br>Mesen : OUI<br>Ares : OUI</td></tr></tbody></table>
 
 ## Bios
 

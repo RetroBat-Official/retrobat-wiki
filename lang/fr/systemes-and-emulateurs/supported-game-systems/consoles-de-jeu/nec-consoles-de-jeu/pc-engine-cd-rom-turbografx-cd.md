@@ -20,9 +20,7 @@ Extension de console - Date de commercialisation : 1988
 
 ## Fonctionnalités
 
-| Succès Rétro | Parties en Réseau |
-| ------------ | ----------------- |
-| OUI          | OUI               |
+<table><thead><tr><th width="250">Succès Rétro</th><th width="235">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-mednafen_pce : OUI<br>lr-mednafen_pce_fast : OUI<br>lr-fbneo : OUI<br>Mednafen : NON<br>Ares : NON<br>BizHawk : OUI</td><td>lr-mednafen_pce : OUI<br>lr-mednafen_pce_fast : OUI<br>lr-fbneo : OUI<br>Mednafen : NON<br>Ares : NON<br>BizHawk : NON</td><td>lr-mednafen_pce : OUI<br>lr-mednafen_pce_fast : OUI<br>lr-fbneo : OUI<br>Mednafen : OUI<br>Ares : OUI<br>BizHawk : OUI</td></tr></tbody></table>
 
 ## Bios
 

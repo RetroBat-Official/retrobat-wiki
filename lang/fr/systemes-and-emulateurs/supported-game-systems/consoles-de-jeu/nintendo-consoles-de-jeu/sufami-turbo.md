@@ -20,9 +20,7 @@ Extension de console de jeu - Année de création: 1996
 
 ## Fonctionnalités
 
-| Succès Rétro | Parties en Réseau |
-| ------------ | ----------------- |
-| NON          | OUI               |
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-snes9x : OUI<br>lr-bsnes : OUI<br>Ares : NON</td><td>lr-snes9x : OUI<br>lr-bsnes : OUI<br>Ares : NON</td><td>lr-snes9x : OUI<br>lr-bsnes : OUI<br>Ares : OUI</td></tr></tbody></table>
 
 ## BIOS
 

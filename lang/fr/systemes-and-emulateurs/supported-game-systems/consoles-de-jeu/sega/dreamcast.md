@@ -20,9 +20,7 @@ Console de jeu - Durée de vie: 1998 - 2001
 
 ## Fonctionnalités
 
-| Succès Rétro | Parties en Réseau            |
-| ------------ | ---------------------------- |
-| OUI          | OUI (avec libretro: redream) |
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-flycast : OUI<br>Flycast : NON<br>Redream : NON<br>Demul : NON</td><td>lr-flycast : NON<br>Flycast : NON<br>Redream : NON<br>Demul : NON</td><td>lr-flycast : OUI<br>Flycast : OUI<br>Redream : OUI<br>Demul : NON</td></tr></tbody></table>
 
 ## Bios
 

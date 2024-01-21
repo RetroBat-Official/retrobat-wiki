@@ -24,6 +24,10 @@ Les jeux nécessitant une "cartouche digitale"ne sont pas encore compatibles ave
 Cela signifie que des titres comme Dragon's Lair, BrainDead 13 ou Mad Dog McCree ne fonctionnent pas.
 {% endhint %}
 
+## Fonctionnalités
+
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-same_CDI : NON<br>lr-mame : NON<br>mame : NON</td><td>lr-same_CDI : NON<br>lr-mame : NON<br>mame : NON</td><td>lr-same_CDI : OUI<br>lr-mame : NON<br>mame : NON</td></tr></tbody></table>
+
 ## Bios
 
 **Pour same\_cdi:**

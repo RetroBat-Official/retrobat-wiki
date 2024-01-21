@@ -16,9 +16,7 @@ Console de jeu - Durée de vie : 1983 - 2003
 
 ## Fonctionnalités
 
-| Succès Rétro | Parties en Réseau |
-| ------------ | ----------------- |
-| OUI          | OUI               |
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-fceumm : OUI<br>lr-nestopia : OUI<br>lr-mesen : OUI<br>Mednafen : NON<br>Mesen : NON<br>Ares : NON<br>BizHawk : OUI</td><td>lr-fceumm : OUI<br>lr-nestopia : OUI<br>lr-mesen : OUI<br>Mednafen : NON<br>Mesen : NON<br>Ares : NON<br>BizHawk : NON</td><td>lr-fceumm : OUI<br>lr-nestopia : OUI<br>lr-mesen : OUI<br>Mednafen : OUI<br>Mesen : OUI<br>Ares : OUI<br>BizHawk : OUI</td></tr></tbody></table>
 
 ## Bios
 

@@ -22,6 +22,10 @@ Console de jeu - Durée de vie: 1984 - 1987
 
 <table data-header-hidden><thead><tr><th width="207"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Modèle émulé</strong></td><td>scv</td><td></td></tr><tr><td><strong>Softlists</strong></td><td>scv</td><td></td></tr><tr><td><strong>Types de média</strong></td><td>cartouche</td><td></td></tr></tbody></table>
 
+## Fonctionnalités
+
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-emuscv : NON<br>lr-mame : NON<br>Mame : NON</td><td>lr-emuscv : NON<br>lr-mame : NON<br>Mame : NON</td><td>lr-emuscv : OUI<br>lr-mame : NON<br>Mame : NON</td></tr></tbody></table>
+
 ## BIOS
 
 <table><thead><tr><th width="209.55555555555557">Fichier BIOS</th><th width="189">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>upd7801g.s01</td><td><code>\bios</code></td><td>635a978fd40db9a18ee44eff449fc126</td></tr><tr><td>scv.xml</td><td><code>\bios\mame\hash</code></td><td></td></tr><tr><td>scv.zip</td><td><code>\bios</code></td><td>33df021613fb12abe2ad14b9eb17c7fe</td></tr></tbody></table>

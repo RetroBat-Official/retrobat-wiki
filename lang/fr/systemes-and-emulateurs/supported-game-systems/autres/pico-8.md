@@ -22,7 +22,7 @@ PICO-8 est un émulateur payant, il n'est pas fourni par les équipes Retrobat.
 
 ## Informations
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro : retro8</li><li>pico8</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> pico8</td></tr><tr><td><strong>Extensions</strong></td><td>.png .p8 .exe</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro : retro8</li><li>Libretro : fake08</li><li>pico8</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> pico8</td></tr><tr><td><strong>Extensions</strong></td><td>.png .p8 .exe</td></tr></tbody></table>
 
 ## Bios
 

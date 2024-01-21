@@ -18,11 +18,15 @@ Console de jeu - Durée de vie: 2004 - 2010
 
 <table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro: mame</li><li>mame64</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> vsmile</td></tr><tr><td><strong>Extensions</strong></td><td>.bin .zip</td></tr><tr><td><strong>Groupe</strong></td><td>MESS</td></tr><tr><td><strong>Modèles émulés</strong></td><td>vsmile, vsmilem, vsmilpro</td></tr><tr><td><strong>Softlists</strong></td><td>vsmile_cart, vsmilem_cart, vsmile_cd</td></tr><tr><td><strong>Types de média</strong></td><td>cartouche, cdrom</td></tr></tbody></table>
 
+## Fonctionnalités
+
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td>NON</td></tr></tbody></table>
+
 ## Bios
 
 <table><thead><tr><th width="184">Fichier BIOS</th><th width="202">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>vsmile.zip</td><td><code>\bios</code></td><td>Voir ci-dessous</td></tr></tbody></table>
 
-### Conteni du fichier BIOS
+### Contenu du fichier BIOS
 
 ```
 vsmile.zip
