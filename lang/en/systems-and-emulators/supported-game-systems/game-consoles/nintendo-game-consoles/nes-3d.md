@@ -38,6 +38,8 @@ Same controls as [NES system](nintendo-entertainment-system-family-computer.md#c
 
 {% hint style="info" %}
 The RetroBat team has prepared the full set of 3DSen files for you and a preconfigured json file linking game ROMs to 3DSen IDs based on the "NoIntro" romset ROM names.
+
+The method described below is based on version 0.9.5 of 3dsen.
 {% endhint %}
 
 3DSen Emulator has a fixed ID for each compatible game, in order for Retrobat to be able to launch 3DSen with a game, the game ID needs to be specified in a .3dsen file:
