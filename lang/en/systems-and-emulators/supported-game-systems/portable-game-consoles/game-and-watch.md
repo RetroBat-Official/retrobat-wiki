@@ -18,6 +18,10 @@ Portable Game Console - Lifespan: 1980 - 1991
 
 <table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: gw</li><li>libretro: mame</li><li>mame64</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span>roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> gameandwatch</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.mgw .zip .7z</td><td></td></tr></tbody></table>
 
+## System Features
+
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>NO</td></tr></tbody></table>
+
 ## BIOS
 
 No BIOS required for Game & Watch games.

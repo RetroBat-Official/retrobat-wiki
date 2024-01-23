@@ -18,6 +18,10 @@ Open-source portable Game Console - Creation date: 2015
 
 <table data-header-hidden><thead><tr><th width="195"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: arduous</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span>roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> arduboy</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.hex .zip .7z</td><td></td></tr></tbody></table>
 
+## System features
+
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>YES</td><td>NO</td><td>YES</td></tr></tbody></table>
+
 ## BIOS
 
 No BIOS required.

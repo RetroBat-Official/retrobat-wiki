@@ -22,6 +22,10 @@ Portable Game Console - Released: 1993
 
 <table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulated Model</strong></td><td>megaduck</td></tr><tr><td><strong>Softlists available</strong></td><td>megaduck</td></tr><tr><td><strong>Media Types</strong></td><td>cartridge</td></tr></tbody></table>
 
+## System Features
+
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-sameduck: YES<br>lr-mame: NO<br>Mame: NO</td><td>lr-sameduck: NO<br>lr-mame: NO<br>Mame: NO</td><td>lr-sameduck: YES<br>lr-mame: NO<br>Mame: NO</td></tr></tbody></table>
+
 ## Bios Information
 
 No BIOS required.

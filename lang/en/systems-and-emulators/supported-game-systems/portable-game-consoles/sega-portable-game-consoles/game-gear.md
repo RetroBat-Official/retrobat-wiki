@@ -18,6 +18,10 @@ Portable Game Console - Lifespan: 1990 - 1997
 
 <table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: genesis_plus_gx</li><li>libretro: picodrive</li><li>libretro: fbneo</li><li>mednafen</li><li>ares</li><li>bizhawk: SMSHawk</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> gamegear</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.gg .bin .zip .7z</td><td></td></tr></tbody></table>
 
+## System Features
+
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-genesis_plus_gx: YES<br>lr-picodrive: YES<br>lr-fbneo: YES<br>Mednafen: NO<br>Ares: NO<br>BizHawk: YES</td><td>lr-genesis_plus_gx: YES<br>lr-picodrive: YES<br>lr-fbneo: YES<br>Mednafen: NO<br>Ares: NO<br>BizHawk: NO</td><td>lr-genesis_plus_gx: YES<br>lr-picodrive: YES<br>lr-fbneo: YES<br>Mednafen: YES<br>Ares: YES<br>BizHawk: YES</td></tr></tbody></table>
+
 ## BIOS
 
 There is no BIOS files needed to run games.

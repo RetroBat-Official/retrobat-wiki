@@ -14,11 +14,9 @@ Portable Game Console - Lifespan: 2011 - 2019
 
 {% embed url="https://en.wikipedia.org/wiki/PlayStation_Vita" %}
 
-## Features
+## System Features
 
-| RetroAchievements | NetPlay |
-| ----------------- | ------- |
-| NO                | NO      |
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>NO</td></tr></tbody></table>
 
 ## Information
 

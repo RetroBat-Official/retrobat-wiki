@@ -18,6 +18,10 @@ Portable Game Console - Lifespan: 2011 - 2020
 
 <table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: citra</li><li>citra</li><li>citra-canary</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> 3ds</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.3ds .3dsx .elf .axf .cci .cxi .app .3DS .3DSX .ELF .AXF .CCI .CXI .APP</td><td></td></tr></tbody></table>
 
+## System Features
+
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-citra: NO<br>Citra (&#x26;canary): NO</td><td>lr-citra: NO<br>Citra (&#x26;canary): NO</td><td>lr-citra: YES<br>Citra (&#x26;canary): YES</td></tr></tbody></table>
+
 ## BIOS
 
 No BIOS required.

@@ -14,6 +14,10 @@ Handheld LCD Games
 
 <table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: mame</li><li>libretro: gw</li><li>mame64</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span>roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> lcdgames</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.zip</td><td></td></tr></tbody></table>
 
+## System Features
+
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>NO</td></tr></tbody></table>
+
 ## BIOS
 
 No BIOS required for LCD games.
