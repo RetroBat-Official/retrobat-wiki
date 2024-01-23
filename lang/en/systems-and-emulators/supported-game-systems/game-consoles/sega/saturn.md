@@ -20,7 +20,7 @@ Game Console - Lifespan: 1994 - 2000
 
 ## System Features
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-kronos: YES<br>lr_mednafen: YES<br>Mednafen: NO<br>BizHawk: YES<br>SSF: NO</td><td>lr-kronos: YES<br>lr_mednafen: YES<br>Mednafen: NO<br>BizHawk: NO<br>SSF: NO</td><td>lr-kronos: YES<br>lr_mednafen: YES<br>Mednafen: YES<br>BizHawk: YES<br>SSF: NO</td></tr></tbody></table>
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-kronos: YES<br>lr_mednafen: YES<br>Mednafen: NO<br>BizHawk: YES<br>SSF: NO</td><td>lr-kronos: YES<br>lr_mednafen: YES<br>Mednafen: NO<br>BizHawk: NO<br>SSF: NO</td><td>lr-kronos: YES<br>lr_mednafen: YES<br>Mednafen: YES<br>BizHawk: YES<br>SSF: YES</td></tr></tbody></table>
 
 ## BIOS
 
