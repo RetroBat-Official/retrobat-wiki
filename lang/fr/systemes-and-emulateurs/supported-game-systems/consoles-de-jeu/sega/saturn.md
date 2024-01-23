@@ -20,7 +20,7 @@ Console de jeu - Durée de vie: 1994 - 2000
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-kronos : OUI<br>lr_mednafen : OUI<br>Mednafen : NON<br>BizHawk : OUI<br>SSF : NON</td><td>lr-kronos : OUI<br>lr_mednafen : OUI<br>Mednafen : NON<br>BizHawk : NON<br>SSF : NON</td><td>lr-kronos : OUI<br>lr_mednafen : OUI<br>Mednafen : OUI<br>BizHawk : OUI<br>SSF : NON</td></tr></tbody></table>
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-kronos : OUI<br>lr_mednafen : OUI<br>Mednafen : NON<br>BizHawk : OUI<br>SSF : NON</td><td>lr-kronos : OUI<br>lr_mednafen : OUI<br>Mednafen : NON<br>BizHawk : NON<br>SSF : NON</td><td>lr-kronos : OUI<br>lr_mednafen : OUI<br>Mednafen : OUI<br>BizHawk : OUI<br>SSF : OUI</td></tr></tbody></table>
 
 ## BIOS
 
