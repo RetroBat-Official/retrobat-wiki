@@ -39,7 +39,9 @@ Identique au système [NES](nintendo-entertainment-system-family-computer.md#con
 {% hint style="info" %}
 L'équipe RetroBat a préparé un set de fichiers 3Dsen pour tous les titres compatibles actuellement (01/10/2022) ainsi qu'un fichier de configuration JSON faisant le lien entre les titres et les ROMs (basé sur le nom des ROMs du set "No-Intro").
 
-Le set est à disposition dans la section TELECHARGEMENTS de Retrobat.
+Le set est à disposition dans la section TELECHARGEMENTS de Retrobat.\
+\
+La méthode décrite ci-dessous est basée sur la version 0.9.5 de 3dsen.
 {% endhint %}
 
 La liste des jeux compatibles avec 3DSen est limitée, chaque titre compatible est identifié par un ID unique.&#x20;
