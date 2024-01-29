@@ -18,6 +18,10 @@ Console de jeu portable - Durée de vie : 1995 - 1996
 
 <table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>libretro : mednafen_vb</li><li>bizhawk: VirtualBoyee</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> virtualboy</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.vb .vboy .bin .zip .7z</td><td></td></tr></tbody></table>
 
+## Fonctionnalités
+
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-mednafen : OUI<br>BizHawk : OUI</td><td>lr-mednafen : OUI<br>BizHawk : NON</td><td>lr-mednafen : OUI<br>BizHawk : OUI</td></tr></tbody></table>
+
 ## BIOS
 
 Aucun BIOS nécessaire.

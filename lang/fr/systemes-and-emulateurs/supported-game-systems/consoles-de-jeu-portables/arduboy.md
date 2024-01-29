@@ -18,6 +18,10 @@ Console de jeu portable open-source - Date de création : 2015
 
 <table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: arduous</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span>roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> arduboy</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.hex .zip .7z</td><td></td></tr></tbody></table>
 
+## Fonctionnalités
+
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>OUI</td><td>NON</td><td>OUI</td></tr></tbody></table>
+
 ## BIOS
 
 No BIOS required.

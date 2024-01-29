@@ -20,9 +20,7 @@ Console de jeu portable - Durée de vie: 2004 - 2014
 
 ## Fonctionnalités
 
-| Succès Rétro | Parties en Réseau |
-| ------------ | ----------------- |
-| OUI          | OUI               |
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-ppsspp : OUI<br>PPSSPP : OUI</td><td>lr-ppsspp : OUI<br>PPSSPP : NON</td><td>lr-ppsspp : OUI<br>PPSSPP : OUI</td></tr></tbody></table>
 
 ## BIOS
 

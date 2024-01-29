@@ -20,9 +20,7 @@ Console de jeu portable - Durée de vie : 2004- 2011
 
 ## Fonctionnalités
 
-| Retroachievements | NetPlay                  |
-| ----------------- | ------------------------ |
-| OUI               | OUI (uniquement DesMUme) |
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-melondsds : OUI<br>lr-desmume : OUI<br>lr-desmume2015 : OUI<br>lr-melonds : OUI<br>MelonDS : NON<br>Ares : NON<br>BizHawk : OUI</td><td>lr-melondsds : NON<br>lr-desmume : OUI<br>lr-desmume2015 : OUI<br>lr-melonds : NON<br>MelonDS : NON<br>Ares : NON<br>BizHawk : NON</td><td>lr-melondsds : OUI<br>lr-desmume : OUI<br>lr-desmume2015 : OUI<br>lr-melonds : OUI<br>MelonDS : OUI<br>Ares : OUI<br>BizHawk : OUI</td></tr></tbody></table>
 
 ## BIOS
 

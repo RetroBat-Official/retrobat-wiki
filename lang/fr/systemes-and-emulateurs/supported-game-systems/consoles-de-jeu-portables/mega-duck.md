@@ -22,6 +22,10 @@ Console de jeu portable - Année de sortie : 1993
 
 <table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Modèle émulé</strong></td><td>megaduck</td></tr><tr><td><strong>Softlists</strong></td><td>megaduck</td></tr><tr><td><strong>Types de média</strong></td><td>cartouche</td></tr></tbody></table>
 
+## Fonctionnalités
+
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-sameduck : OUI<br>lr-mame : NON<br>Mame : NON</td><td>lr-sameduck : NON<br>lr-mame : NON<br>Mame : NON</td><td>lr-sameduck : OUI<br>lr-mame : NON<br>Mame : NON</td></tr></tbody></table>
+
 ## BIOS
 
 Aucun BIOS nécessaire.
