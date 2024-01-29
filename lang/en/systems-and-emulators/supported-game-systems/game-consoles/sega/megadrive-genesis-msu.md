@@ -58,4 +58,8 @@ Same controls as Megadrive - Genesis.
 
 ## Specific System Information
 
-There is no specific System information documented here yet.
+### Running MSU games
+
+MSU games must be unzipped to work correctly.
+
+To avoid games appearing multiple times in RetroBat gamelist, it is possible to [hide unwanted extensions](../../../../navigation/view-options.md#view-options) from the gamelist for the system (e.g. .zip or .bin).
