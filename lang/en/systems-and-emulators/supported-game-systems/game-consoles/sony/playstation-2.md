@@ -20,7 +20,7 @@ Game Console - Lifespan: 2000 - 2013
 
 ## System Features
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>Pcsx2: YES<br>Pcsx2-16: NO<br>Play: NO<br>lr-pcsx2: NO</td><td>Pcsx2: NO<br>Pcsx2-16: NO<br>Play: NO<br>lr-pcsx2: NO</td><td>Pcsx2: YES<br>Pcsx2-16: NO<br>Play: NO<br>lr-pcsx2: YES</td></tr></tbody></table>
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>Pcsx2: YES<br>Pcsx2-16: NO<br>Play: NO<br>lr-pcsx2: NO</td><td>Pcsx2: NO<br>Pcsx2-16: NO<br>Play: NO<br>lr-pcsx2: NO</td><td>Pcsx2: YES<br>Pcsx2-16: NO<br>Play: YES<br>lr-pcsx2: YES</td></tr></tbody></table>
 
 ## BIOS
 

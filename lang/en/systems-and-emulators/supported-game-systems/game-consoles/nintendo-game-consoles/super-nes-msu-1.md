@@ -18,7 +18,7 @@ description: Nintendo Hack
 
 ## System Features
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-snes9x: YES<br>lr-bsnes: YES<br>Snes9X: NO</td><td>lr-snes9x: YES<br>lr-bsnes: YES<br>Snes9X: NO</td><td>lr-snes9x: YES<br>lr-bsnes: YES<br>Snes9X: NO</td></tr></tbody></table>
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-snes9x: YES<br>lr-bsnes: YES<br>Snes9X: NO</td><td>lr-snes9x: YES<br>lr-bsnes: YES<br>Snes9X: NO</td><td>lr-snes9x: YES<br>lr-bsnes: YES<br>Snes9X: YES</td></tr></tbody></table>
 
 ## BIOS
 
