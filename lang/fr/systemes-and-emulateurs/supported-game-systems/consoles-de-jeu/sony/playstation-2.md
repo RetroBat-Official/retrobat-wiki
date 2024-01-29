@@ -20,7 +20,7 @@ Console de jeu - Durée de vie: 2000 - 2013
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>Pcsx2 : OUI<br>Pcsx2-16 : NON<br>Play : NON<br>lr-pcsx2 : NON</td><td>Pcsx2 : NON<br>Pcsx2-16 : NON<br>Play : NON<br>lr-pcsx2 : NON</td><td>Pcsx2 : OUI<br>Pcsx2-16 : NON<br>Play : NON<br>lr-pcsx2 : OUI</td></tr></tbody></table>
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>Pcsx2 : OUI<br>Pcsx2-16 : NON<br>Play : NON<br>lr-pcsx2 : NON</td><td>Pcsx2 : NON<br>Pcsx2-16 : NON<br>Play : NON<br>lr-pcsx2 : NON</td><td>Pcsx2 : OUI<br>Pcsx2-16 : NON<br>Play : OUI<br>lr-pcsx2 : OUI</td></tr></tbody></table>
 
 | Succès Rétro                    | Parties en Réseau |
 | ------------------------------- | ----------------- |

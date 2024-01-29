@@ -18,7 +18,7 @@ description: Nintendo Hack
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-snes9x : OUI<br>lr-bsnes : OUI<br>Snes9X : NON</td><td>lr-snes9x : OUI<br>lr-bsnes : OUI<br>Snes9X : NON</td><td>lr-snes9x : OUI<br>lr-bsnes : OUI<br>Snes9X : NON</td></tr></tbody></table>
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-snes9x : OUI<br>lr-bsnes : OUI<br>Snes9X : NON</td><td>lr-snes9x : OUI<br>lr-bsnes : OUI<br>Snes9X : NON</td><td>lr-snes9x : OUI<br>lr-bsnes : OUI<br>Snes9X : OUI</td></tr></tbody></table>
 
 ## BIOS
 
