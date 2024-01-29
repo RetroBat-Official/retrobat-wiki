@@ -18,6 +18,10 @@ Computer - Lifespan: 1983 - 1985
 
 <table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: mame</li><li>mame64</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> adam</td></tr><tr><td><strong>File extension</strong></td><td>.wav .ddp .mfi .dfi .hfe .mfm .td0 .imd .d77 .d88 .1dd .cqm .cqi .dsk .rom .col .bin .zip .7z</td></tr><tr><td><strong>Group</strong></td><td>MESS</td></tr><tr><td><strong>Emulated Model</strong></td><td>adam</td></tr><tr><td><strong>Softlists available</strong></td><td>adam_cart, adam_cass, adam_flop</td></tr><tr><td><strong>Media Types</strong></td><td>cassette, floppy, cartridge</td></tr></tbody></table>
 
+## System Features
+
+<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>NO</td></tr></tbody></table>
+
 ## Bios Information
 
 <table><thead><tr><th width="224">bios file</th><th width="218">Folder</th><th>md5</th></tr></thead><tbody><tr><td>adam.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>adam_ddp.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>adam_fdc.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>adam_kb.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>adam_prn.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>adam_cart.xml<br>adam_cass.xml<br>adam_flop.xml</td><td><code>\bios\mame\hash</code></td><td></td></tr></tbody></table>

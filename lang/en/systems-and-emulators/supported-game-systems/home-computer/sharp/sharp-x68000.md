@@ -18,6 +18,10 @@ Home Computer - Lifespan: 1987 - 1993
 
 <table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: px68k</li><li>xm6pro</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> x68000</td></tr><tr><td><strong>File extension</strong></td><td>.dim .img .d88 .88d .hdm .dup .2hd .xdf .hdf .cmd .m3u .zip .7z</td></tr></tbody></table>
 
+## System Features
+
+<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-px68k: NO<br>XM6Pro: NO</td><td>lr-px68k: YES<br>XM6Pro: NO</td><td>lr-px68k: YES<br>XM6Pro: NO</td></tr></tbody></table>
+
 ## Bios Information
 
 <table><thead><tr><th width="224">bios file</th><th width="169">Folder</th><th>md5</th></tr></thead><tbody><tr><td>iplrom.dat</td><td><code>\bios\keropi</code></td><td>7fd4caabac1d9169e289f0f7bbf71d8e</td></tr><tr><td>cgrom.dat</td><td><code>\bios\keropi</code></td><td>cb0a5cfcf7247a7eab74bb2716260269</td></tr></tbody></table>

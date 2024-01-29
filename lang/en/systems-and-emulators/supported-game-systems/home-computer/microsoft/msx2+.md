@@ -18,6 +18,10 @@ Home Computer - Released: 1988
 
 <table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: bluemsx</li><li>Libretro: fbneo</li><li>openmsx</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> msx2+</td></tr><tr><td><strong>File extension</strong></td><td>.zip .7z .rom .ri .mx1 .mx2 .col .dsk .cas .wav .ogv .sg .sc .m3u</td></tr></tbody></table>
 
+## System Features
+
+<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-bluemsx: YES<br>lr-fbneo: YES<br>OpenMSX: NO</td><td>lr-bluemsx: NO<br>lr-fbneo: YES<br>OpenMSX: NO</td><td>lr-bluemsx: YES<br>lr-fbneo: YES<br>OpenMSX: YES</td></tr></tbody></table>
+
 ## Bios Information
 
 <table><thead><tr><th width="224">bios file</th><th width="169">Folder</th><th>md5</th></tr></thead><tbody><tr><td>MSX.ROM</td><td><code>\bios</code></td><td>364a1a579fe5cb8dba54519bcfcdac0d</td></tr><tr><td>MSX2.ROM</td><td><code>\bios</code></td><td>ec3a01c91f24fbddcbcab0ad301bc9ef</td></tr><tr><td>MSX2EXT.ROM</td><td><code>\bios</code></td><td>2183c2aff17cf4297bdb496de78c2e8a</td></tr><tr><td>MSX2P.ROM</td><td><code>\bios</code></td><td>847cc025ffae665487940ff2639540e5</td></tr><tr><td>MSX2PEXT.ROM</td><td><code>\bios</code></td><td>7c8243c71d8f143b2531f01afa6a05dc</td></tr><tr><td>DISK.ROM</td><td><code>\bios</code></td><td>80dcd1ad1a4cf65d64b7ba10504e8190</td></tr><tr><td>FMPAC.ROM</td><td><code>\bios</code></td><td>6f69cc8b5ed761b03afd78000dfb0e19</td></tr><tr><td>MSXDOS2.ROM</td><td><code>\bios</code></td><td>6418d091cd6907bbcf940324339e43bb</td></tr><tr><td>PAINTER.ROM</td><td><code>\bios</code></td><td>403cdea1cbd2bb24fae506941f8f655e</td></tr><tr><td>KANJI.ROM</td><td><code>\bios</code></td><td>febe8782b466d7c3b16de6d104826b34</td></tr></tbody></table>

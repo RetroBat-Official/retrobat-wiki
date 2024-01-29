@@ -18,6 +18,10 @@ Computer - Lifespan: 1986 - 1992
 
 <table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>gsplus</li><li>libretro:mame</li><li>mame</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> apple2gs</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.2mg .woz .m3u .zip</td><td></td></tr></tbody></table>
 
+## System Features
+
+<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>GSPlus: NO<br>lr-mame: NO<br>Mame: NO</td><td>GSPlus: NO<br>lr-mame: NO<br>Mame: NO</td><td>GSPlus: NO<br>lr-mame: NO<br>Mame: NO</td></tr></tbody></table>
+
 ## BIOS
 
 <table><thead><tr><th width="236">bios file</th><th width="192">Folder</th><th>md5</th></tr></thead><tbody><tr><td>APPLE2GS.ROM</td><td><code>\bios</code></td><td>20a0334c447cb069a040ae5be1d938df</td></tr><tr><td>apple2gs.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>apple2gs_flop_misc.xml</td><td><code>\bios\mame\hash</code></td><td></td></tr><tr><td>apple2gs_flop_orig.xml</td><td><code>\bios\mame\hash</code></td><td></td></tr></tbody></table>

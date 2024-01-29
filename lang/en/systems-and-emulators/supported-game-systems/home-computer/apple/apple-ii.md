@@ -22,6 +22,10 @@ Computer - Lifespan: 1977 - 1979
 
 <table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulated Model</strong></td><td>apple2ee, apple2e, apple2p</td></tr><tr><td><strong>Softlists available</strong></td><td>apple2_cass, apple2_flop_clcracked, apple2_flop_misc, apple2_flop_orig</td></tr><tr><td><strong>Media Types</strong></td><td>cassette, floppy</td></tr></tbody></table>
 
+## System Features
+
+<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>AppleWin: NO<br>Mednafen: NO<br>BizHawk: YES<br>lr-mame: NO<br>Mame: NO</td><td>AppleWin: NO<br>Mednafen: NO<br>BizHawk: NO<br>lr-mame: NO<br>Mame: NO</td><td>AppleWin: NO<br>Mednafen: YES<br>BizHawk: YES<br>lr-mame: NO<br>Mame: NO</td></tr></tbody></table>
+
 ## BIOS
 
 <table><thead><tr><th width="275">BIOS file</th><th width="258.0361010830325">Folder</th><th>md5</th></tr></thead><tbody><tr><td>apple2.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>apple2e.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>apple2ee.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>apple2p.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>a2diskiing.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>votrsc01a.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>votrsc01.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>d2fdc.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>AppleIIe_DiskII.rom</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>AppleIIe.rom</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>apple2_cass.xml<br>apple2_flop_clcracked.xml<br>apple2_flop_misc.xml<br>apple2_flop_orig.xml</td><td><code>\bios\mame\hash</code></td><td></td></tr></tbody></table>

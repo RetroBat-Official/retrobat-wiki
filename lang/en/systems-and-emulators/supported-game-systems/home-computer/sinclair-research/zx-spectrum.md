@@ -18,6 +18,10 @@ Computer - Lifespan: 1982 - 1992
 
 <table data-header-hidden><thead><tr><th width="172"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: fuse</li><li>libretro: fbneo</li><li>zesarux</li><li>bizhawk</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> zxspectrum</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.tzx .tap .z80 .rzx .scl .trd .zip .7z</td><td></td></tr></tbody></table>
 
+## System Features
+
+<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-fuse: NO<br>lr-fbneo: YES<br>ZesarUX: NO<br>BizHawk: YES</td><td>lr-fuse: NO<br>lr-fbneo: YES<br>ZesarUX: NO<br>BizHawk: NO</td><td>lr-fuse: YES<br>lr-fbneo: YES<br>ZesarUX: YES<br>BizHawk: YES</td></tr></tbody></table>
+
 ## BIOS
 
 No BIOS required for ZX Spectrum.

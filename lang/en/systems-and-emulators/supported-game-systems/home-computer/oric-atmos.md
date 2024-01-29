@@ -22,6 +22,10 @@ Computer - Lifespan: 1984 - 1985
 
 <table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulated Model</strong></td><td>orica</td></tr><tr><td><strong>Media Types</strong></td><td>cassette</td></tr></tbody></table>
 
+## System Features
+
+<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>Oricutrion: NO<br>lr-mame: NO</td><td>Oricutrion: NO<br>lr-mame: NO</td><td>Oricutrion: NO<br>lr-mame: NO</td></tr></tbody></table>
+
 ## Bios Information
 
 No BIOS required.

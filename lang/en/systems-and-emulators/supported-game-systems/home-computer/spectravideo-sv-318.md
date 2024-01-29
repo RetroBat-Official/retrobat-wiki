@@ -18,6 +18,10 @@ Home Computer - Released: 1981
 
 <table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: bluemsx</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> spectravideo</td></tr><tr><td><strong>File extension</strong></td><td>.cas .bin .zip .7z</td></tr></tbody></table>
 
+## System Features
+
+<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>YES</td><td>NO</td><td>YES</td></tr></tbody></table>
+
 ## Features
 
 | RetroAchievements | Parties en Réseau |

@@ -22,6 +22,10 @@ Computer - Lifespan: 1992 - 1994
 The amiga4000 rom folder is not created during installation. You can add it manually, should you need it.
 {% endhint %}
 
+## System Features
+
+<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-puae: NO<br>AmigaForever: NO<br>WinUAE: NO</td><td>lr-puae: NO<br>AmigaForever: NO<br>WinUAE: NO</td><td>lr-puae: YES<br>AmigaForever: NO<br>WinUAE: NO</td></tr></tbody></table>
+
 ## BIOS
 
 <table><thead><tr><th width="193">Bios file</th><th width="142.03610108303252">Folder</th><th>md5</th></tr></thead><tbody><tr><td>kick40068.A4000</td><td><code>\bios</code></td><td>9bdedde6a4f33555b4a270c8ca53297d</td></tr></tbody></table>

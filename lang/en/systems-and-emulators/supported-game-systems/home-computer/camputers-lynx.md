@@ -18,6 +18,10 @@ Computer - Lifespan: 1983 - 1984
 
 <table data-header-hidden><thead><tr><th width="197"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>jynx</li><li>libretro: mame</li><li>mame64</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> camplynx</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.bin .tap .zip</td><td></td></tr><tr><td><strong>Group</strong></td><td>MESS</td><td></td></tr><tr><td><strong>Emulated Model</strong></td><td>lynx48k, lynx96k, lynx128k (MAME only)</td><td></td></tr><tr><td><strong>Softlists available</strong></td><td>camplynx_cass, camplynx_flop</td><td></td></tr><tr><td><strong>Media Types</strong></td><td>cassette, floppy</td><td></td></tr></tbody></table>
 
+## System Features
+
+<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>Jynx: NO<br>lr-mame: NO<br>Mame: NO</td><td>Jynx: NO<br>lr-mame: NO<br>Mame: NO</td><td>Jynx: NO<br>lr-mame: NO<br>Mame: NO</td></tr></tbody></table>
+
 ## BIOS
 
 <table><thead><tr><th width="253">Bios file</th><th width="229.03610108303252">Folder</th><th>md5 / remark</th></tr></thead><tbody><tr><td>lynx48k.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>lynx96k.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>lynx128k.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>lynx48-1.rom</td><td><code>\emulators\jynx</code></td><td>For Jynx</td></tr><tr><td>lynx48-2.rom</td><td><code>\emulators\jynx</code></td><td>For Jynx</td></tr><tr><td>lynx96-1.rom</td><td><code>\emulators\jynx</code></td><td>For Jynx</td></tr><tr><td>lynx96-2.rom</td><td><code>\emulators\jynx</code></td><td>For Jynx</td></tr><tr><td>lynx96-3.rom</td><td><code>\emulators\jynx</code></td><td>For Jynx</td></tr><tr><td>lynx96-3-scorpion.rom</td><td><code>\emulators\jynx</code></td><td>For Jynx</td></tr></tbody></table>

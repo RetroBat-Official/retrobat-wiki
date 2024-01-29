@@ -18,6 +18,10 @@ Computer - Lifespan: 1987 - mid 90's
 
 <table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: mame</li><li>mame64</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> archimedes</td></tr><tr><td><strong>File extension</strong></td><td>.mfi .dfi .hfe .mfm .td0 .imd .d77 .d88 .1dd .cqm .cqi .dsk .ima .img .ufi .360 .ipf .adf .apd .jfd .ads .adm .adl .ssd .bbc .dsd .st .msa .zip .7z</td></tr><tr><td><strong>Group</strong></td><td>MESS</td></tr><tr><td><strong>Model emulated</strong></td><td>aa4401, aa310, aa3000, aa540</td></tr><tr><td><strong>Softlists available</strong></td><td>archimedes</td></tr><tr><td><strong>Media Types</strong></td><td>floppy</td></tr></tbody></table>
 
+## System Features
+
+<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>NO</td></tr></tbody></table>
+
 ## Bios Information
 
 <table><thead><tr><th width="257">bios file</th><th width="203">Folder</th><th>md5</th></tr></thead><tbody><tr><td>aa310.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>archimedes_keyboard.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>archimedes.xml</td><td><code>\bios\mame\hash</code></td><td></td></tr></tbody></table>
