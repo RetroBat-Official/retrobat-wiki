@@ -22,12 +22,6 @@ Portable Game Console - Lifespan: 2004- 2011
 
 <table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-melondsds: YES<br>lr-desmume: YES<br>lr-desmume2015: YES<br>lr-melonds: YES<br>MelonDS: NO<br>Ares: NO<br>BizHawk: YES</td><td>lr-melondsds: NO<br>lr-desmume: YES<br>lr-desmume2015: YES<br>lr-melonds: NO<br>MelonDS: NO<br>Ares: NO<br>BizHawk: NO</td><td>lr-melondsds: YES<br>lr-desmume: YES<br>lr-desmume2015: YES<br>lr-melonds: YES<br>MelonDS: YES<br>Ares: YES<br>BizHawk: YES</td></tr></tbody></table>
 
-## Features
-
-| Retroachievements | NetPlay            |
-| ----------------- | ------------------ |
-| YES               | YES (only DesMUme) |
-
 ## BIOS
 
 <table><thead><tr><th width="187">Bios file</th><th width="98">Folder</th><th>md5</th></tr></thead><tbody><tr><td>firmware.bin</td><td><code>\bios</code></td><td>145eaef5bd3037cbc247c213bb3da1b3</td></tr><tr><td>bios7.bin</td><td><code>\bios</code></td><td>df692a80a5b1bc90728bc3dfc76cd948</td></tr><tr><td>bios9.bin</td><td><code>\bios</code></td><td>a392174eb3e572fed6447e956bde4b25</td></tr><tr><td>dsi_bios9.bin</td><td><code>\bios</code></td><td></td></tr><tr><td>dsi_bios7.bin</td><td><code>\bios</code></td><td></td></tr><tr><td>dsi_firmware.bin</td><td><code>\bios</code></td><td></td></tr><tr><td>dsi_nand.bin</td><td><code>\bios</code></td><td></td></tr></tbody></table>
