@@ -46,4 +46,8 @@ Similaire au système [Megadrive - Genesis](megadrive-genesis.md).
 
 ## Information spécifique au système
 
-Aucune information spécifique.
+### Lancement des jeux MSU
+
+Les jeux MSU doivent être dézippés pour fonctionner.
+
+Pour éviter que les jeux apparaissent plusieurs fois dans l'interface RetroBat, il est possible de [masquer les extensions de fichiers](../../../../navigation/view-options.md#options-daffichage) (notamment .zip ou .bin).
