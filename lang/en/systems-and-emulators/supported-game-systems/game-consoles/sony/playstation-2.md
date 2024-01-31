@@ -68,13 +68,7 @@ The following controllers can be autoconfigured from Retrobat to PCSX2:
 
 </div>
 
-
-
-{% hint style="warning" %}
-Only PCSX2 1.7 offers autoconfiguration, for Play! and pcsx2 1.6, you need to configure controls directly within the emulator.
-{% endhint %}
-
-## System Features
+## Specific System Features
 
 ### Custom textures
 

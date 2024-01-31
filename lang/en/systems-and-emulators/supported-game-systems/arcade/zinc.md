@@ -14,14 +14,40 @@ Playstation hardware arcade games emulator
 
 <table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>zinc</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> zinc</td></tr><tr><td><strong>File extension</strong></td><td>.zip</td></tr></tbody></table>
 
+## System Features
+
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>YES</td></tr></tbody></table>
+
 ## Bios Information
 
 No BIOS required.
 
 ## Controls
 
-{% hint style="warning" %}
-Automatic controller configuration for Zinc is not fully reliable (yet), there might be cases (depending on game and type of Gamepad) where you will need to disable automatic controller configuration in RetroBat and configure controls directly in Zinc.
+### Automatic configuration
+
+Select option "DYNAMIC" in the advanced system settings to enable automatic configuration (CONTROLS submenu).
+
+3 profiles are available :
+
+* Street Fighter
+* Soul Edge
+* Tekken
+
+### Configuration based on pre-defined files
+
+Select option "PRE-DEFINED" in the advanced system settings to enable automatic configuration (CONTROLS submenu).
+
+A profile .cfg file can be created for each individual game, to do so, you can either modify the existing profile file for the game or delete it and create a new file (files are located in the  `\emulators\zinc\cfg` folder)&#x20;
+
+Ensure the .cfg file name starts with the game ID.
+
+RetroBat automatically uses the first .cfg file found for which the name starts with the game ID.
+
+
+
+{% hint style="danger" %}
+L'émulateur zinc ne supporte pas le pad directionnel, les mouvements s'effectuent à l'aide du stick gauche de la manette.
 {% endhint %}
 
 ## Specific system information

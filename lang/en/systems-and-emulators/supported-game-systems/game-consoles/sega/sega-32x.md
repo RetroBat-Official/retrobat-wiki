@@ -17,7 +17,7 @@ Game Console - Lifespan: 1994 - 1996
 
 ## System Features
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-picodrive: YES<br>Ares: NO<br>Kega-Fusion: NO<br>BizHawk: YES</td><td>lr-picodrive: YES<br>Ares: NO<br>Kega-Fusion: NO<br>BizHawk: NO</td><td>lr-picodrive: YES<br>Ares: YES<br>Kega-Fusion: NO<br>BizHawk: YES</td></tr></tbody></table>
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-picodrive: YES<br>Ares: NO<br>Kega-Fusion: NO<br>BizHawk: YES</td><td>lr-picodrive: YES<br>Ares: NO<br>Kega-Fusion: NO<br>BizHawk: NO</td><td>lr-picodrive: YES<br>Ares: YES<br>Kega-Fusion: YES<br>BizHawk: YES</td></tr></tbody></table>
 
 ## BIOS
 

@@ -24,15 +24,15 @@ The list of compatible games can be found in the following folder: `\emulators\p
 Do not rename zip files, the name of the file must be exactly the name expected by the emulator.
 {% endhint %}
 
+## System Features
+
+<table><thead><tr><th width="212">Retroachievements</th><th width="210">Netplay</th><th>Controller autoconfiguration</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>YES</td></tr></tbody></table>
+
 ## Bios Information
 
 No BIOS required.
 
 ## Controls
-
-{% hint style="warning" %}
-There is no automatic control configuration for namco2x6 with Play! emulator.
-{% endhint %}
 
 You can create your own .xml input profile file (for each game) and name it like the game file, RetroBat will then automatically load the file when loading the game.
 
@@ -45,7 +45,7 @@ Input profiles are stored in the following folder: `\emulators\play\Play Data Fi
 </div>
 
 {% hint style="info" %}
-If no input profile exists for the game, RetroBat will launch the default profile.
+If no input profile exists for the game, RetroBat will configure a default profile (Retrobat.xml) similar to a PS2 layout.
 {% endhint %}
 
 ## Specific system information

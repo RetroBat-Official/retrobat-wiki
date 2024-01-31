@@ -18,6 +18,10 @@ Arcade - Released: 2002
 
 <table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>dolphin-triforce</li><li>dolphin</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> triforce</td></tr><tr><td><strong>File extension</strong></td><td>.iso .zip .cue</td></tr></tbody></table>
 
+## System Features
+
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>YES</td></tr></tbody></table>
+
 ## Bios Information
 
 No BIOS required for Triforce.
@@ -44,9 +48,5 @@ You can create your own mapping directly in the dolphin-triforce emulator.
 
 ## Specific system information
 
-Triforce emulation is not perfect, the Dolphin Triforce branch has not been updated for many years. RetroBat provide a dolphin-triforce emulator version to play Mario Kart GP2 very smoothly. You can also use the current dolphin emulators to play F-Zero AX with Gecko codes.
-
-### Games compatibility
-
-<table><thead><tr><th width="194">Game</th><th width="138.33333333333331">Status</th><th>Remark</th></tr></thead><tbody><tr><td>Mario Kart GP1</td><td>Working*</td><td>*Need a StateSave to be loaded : GGPE01.s01 file to be placed in <code>\emulators\dolphin-triforce\user\StateSaves</code></td></tr><tr><td>Mario Kart GP2</td><td>Working</td><td></td></tr><tr><td>F-ZERO AX</td><td>Not working</td><td></td></tr></tbody></table>
+No specific information.
 

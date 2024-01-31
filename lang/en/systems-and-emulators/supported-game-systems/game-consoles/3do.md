@@ -20,7 +20,7 @@ Game Console - Lifespan: 1993 - 1999
 
 ## System Features
 
-<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-opera : YES<br>Phoenix : NO</td><td>lr-opera : YES<br>Phoenix : NO</td><td>lr-opera : YES<br>Phoenix : NO</td></tr></tbody></table>
+<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-opera : YES<br>Phoenix : NO</td><td>lr-opera : YES<br>Phoenix : NO</td><td>lr-opera : YES<br>Phoenix : YES</td></tr></tbody></table>
 
 ## Bios Information
 

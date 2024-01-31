@@ -17,7 +17,7 @@ Game Console - Lifespan: 1991 - 1996
 
 ## System Features
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-genesis_plus_gx: YES<br>lr-picodrive: YES<br>Ares: NO<br>Kega-Fusion: NO</td><td>lr-genesis_plus_gx: YES<br>lr-picodrive: YES<br>Ares: NO<br>Kega-Fusion: NO</td><td>lr-genesis_plus_gx: YES<br>lr-picodrive: YES<br>Ares: YES<br>Kega-Fusion: NO</td></tr></tbody></table>
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-genesis_plus_gx: YES<br>lr-picodrive: YES<br>Ares: NO<br>Kega-Fusion: NO</td><td>lr-genesis_plus_gx: YES<br>lr-picodrive: YES<br>Ares: NO<br>Kega-Fusion: NO</td><td>lr-genesis_plus_gx: YES<br>lr-picodrive: YES<br>Ares: YES<br>Kega-Fusion: YES</td></tr></tbody></table>
 
 ## BIOS
 

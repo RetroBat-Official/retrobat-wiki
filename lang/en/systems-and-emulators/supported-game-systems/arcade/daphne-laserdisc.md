@@ -16,7 +16,7 @@ Arcade - First LaserDisc game release : 1983
 
 ## System Features
 
-<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>YES</td></tr></tbody></table>
+<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>hypseus: YES<br>daphne: NO</td></tr></tbody></table>
 
 ## BIOS
 
@@ -25,8 +25,6 @@ No BIOS required to play DAPHNE or SINGE games.
 ## Controls
 
 ### Gamepad controls&#x20;
-
-Gamepad controls are enabled through pad2key files provided with Retrobat installation:
 
 <table><thead><tr><th width="311">Action</th><th>Gamepad Button</th></tr></thead><tbody><tr><td>Directional movement</td><td>D-PAD or Left analog stick</td></tr><tr><td>COIN 1</td><td>SELECT</td></tr><tr><td>START 1</td><td>START</td></tr><tr><td>Button 1</td><td>A (SOUTH)</td></tr><tr><td>Button 2</td><td>B (EAST)</td></tr><tr><td>Button 3</td><td>R1 (RIGHT SHOULDER)</td></tr><tr><td>Skill 1</td><td>Y (WEST)</td></tr><tr><td>Skill 2</td><td>X (NORTH)</td></tr><tr><td>Skill 3</td><td>L1 (LEFT SHOULDER)</td></tr><tr><td>SERVICE</td><td>L3 (LEFT STICK)</td></tr><tr><td>TEST</td><td>R3 (RIGHT STICK)</td></tr></tbody></table>
 
