@@ -215,6 +215,7 @@
   * [Flipper](systemes-and-emulateurs/supported-game-systems/flipper/README.md)
     * [Future Pinball](systemes-and-emulateurs/supported-game-systems/flipper/future-pinball.md)
     * [Pinball FX](systemes-and-emulateurs/supported-game-systems/flipper/pinball-fx.md)
+    * [Pinball M](systemes-and-emulateurs/supported-game-systems/flipper/pinball-m.md)
     * [Pinball FX2](systemes-and-emulateurs/supported-game-systems/flipper/pinball-fx2.md)
     * [Pinball FX3](systemes-and-emulateurs/supported-game-systems/flipper/pinball-fx3.md)
     * [Visual Pinball](systemes-and-emulateurs/supported-game-systems/flipper/visual-pinball.md)
