@@ -10,13 +10,17 @@ description: MAME Team
 
 </div>
 
-Émulateur multi-arcade - Année de création: 1997
+[configuration-des-touches-mame64.md](../../../controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-mame64.md "mention")configur[configuration-des-touches-mame64.md](../../../controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-mame64.md "mention")Émulateur multi-arcade - Année de création: 1997
 
 {% embed url="https://fr.wikipedia.org/wiki/MAME" %}
 
 ## Information
 
 <table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro: mame</li><li>Libretro: mame2016</li><li>Libretro: mame2010</li><li>Libretro: mame2003_plus</li><li>Libretro: mame2003</li><li>Libretro: mame2003_midway</li><li>Libretro: mame2000</li><li>mame64</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> mame</td></tr><tr><td><strong>Extensions</strong></td><td>.zip .7z</td></tr></tbody></table>
+
+## Fonctionnalités
+
+<table><thead><tr><th width="245">Succès rétro</th><th width="200">Netplay</th><th>Autoconfiguration contrôleurs</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td>lr-mame: NON<br>Mame64: OUI</td></tr></tbody></table>
 
 ## Bios
 
@@ -41,7 +45,7 @@ Les BIOS additionnels doivent être placés à la racine du dossier \bios de vot
 
 ## Emplacement des dossiers utilisés par MAME
 
-**Rompath**: \bios ainsi que le dossier du jeu
+**Rompath**: \bios ainsi que \roms\mame
 
 **Samples**: \bios\mame\samples
 
@@ -61,35 +65,29 @@ Les BIOS additionnels doivent être placés à la racine du dossier \bios de vot
 
 ## Contrôles
 
-### Sticks Arcade
-
-La correspondance des boutons est disponible dans la [notice](http://retrobat.ovh/notice/notice.pdf).
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/kXBcdsB.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
 ### Correspondance des touches
 
-| Retrobat                                       | Arcade |
-| ---------------------------------------------- | ------ |
-| START                                          | START  |
-| SELECT                                         | COIN   |
-| Stick analogique gauche                        | Stick  |
-| Stick analogique droit                         |        |
-| D-PAD                                          | Stick  |
-| ![](<../../../.gitbook/assets/image (32).png>) | 3      |
-| ![](<../../../.gitbook/assets/image (19).png>) | 1      |
-| ![](<../../../.gitbook/assets/image (6).png>)  | 2      |
-| ![](<../../../.gitbook/assets/image (34).png>) | 4      |
-| L1                                             | 5      |
-| R1                                             | 6      |
-| L2                                             |        |
-| R2                                             |        |
-| L3                                             |        |
-| R3                                             |        |
+| Retrobat                                       | MAME                                                                                   |
+| ---------------------------------------------- | -------------------------------------------------------------------------------------- |
+| START                                          | START                                                                                  |
+| SELECT                                         | COIN                                                                                   |
+| Left analog stick                              | <p>Joystick gauche<br>Paddle<br>Positional device<br>Dial<br>Trackball<br>Ad_Stick</p> |
+| Right analog stick                             | Joystick droit                                                                         |
+| D-PAD                                          | Directions                                                                             |
+| ![](<../../../.gitbook/assets/image (32).png>) | 3                                                                                      |
+| ![](<../../../.gitbook/assets/image (19).png>) | 1                                                                                      |
+| ![](<../../../.gitbook/assets/image (6).png>)  | 2                                                                                      |
+| ![](<../../../.gitbook/assets/image (34).png>) | 4                                                                                      |
+| L1                                             | 5                                                                                      |
+| R1                                             | 6                                                                                      |
+| L2                                             | Pedal 2                                                                                |
+| R2                                             | Pedal 1                                                                                |
+| L3                                             | 7                                                                                      |
+| R3                                             | 8                                                                                      |
+
+{% hint style="info" %}
+Se référer à ce guide pour effectuer une configuration personnalisée des contrôleurs pour MAME64.
+{% endhint %}
 
 ## Informations spécifiques au système
 

@@ -106,8 +106,8 @@ Procéder comme expliqué à l'étape 1, puis renommer le fichier selon l'une de
 
 * custom1.cfg
 * custom2.cfg
-* custom3.cfg
-* custom4.cfg
+* ...
+* custom8.cfg
 
 Déplacer le fichier dans le répertoire `\saves\mame\ctrlr` de votre installation RetroBat :
 
@@ -146,14 +146,14 @@ S'assurer que MAME64 soit défini comme émulateur par défaut et naviguer jusqu
 Sélectionner l'option "CONTROLLER PROFILE" et choisir dans la liste le profil correspondant au fichier que vous avez créé :
 
 {% hint style="info" %}
-RetroBat propose 4 profiles personnalisés ainsi que la possibilité d'utiliser un fichier de profil par jeu.
+RetroBat propose 8 profils personnalisés ainsi que la possibilité d'utiliser un fichier de profil par jeu.
 
 Pour utiliser le profil par jeu, le nom du fichier doit correspondre au nom du jeu (sans l'extension), par exemple il faut appeler le fichier de configuration "wjammers.cfg" pour le jeu "wjammers.zip" (WindJammers).
 {% endhint %}
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/GFOlbA4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/SzXa5UY.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
