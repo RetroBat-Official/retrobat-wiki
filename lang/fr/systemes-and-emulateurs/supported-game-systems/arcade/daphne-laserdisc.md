@@ -14,6 +14,10 @@ Arcade - Date de sortie du premier jeu LaserDisc : 1983
 
 <table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>hypseus</li><li>daphne</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> daphne</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.daphne .actionmax .7z .zip .rar .squashfs</td><td></td></tr></tbody></table>
 
+## Fonctionnalités
+
+<table><thead><tr><th width="245">Succès rétro</th><th width="200">Netplay</th><th>Autoconfiguration contrôleurs</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td>hypseus: OUI<br>daphne: NON</td></tr></tbody></table>
+
 ## BIOS
 
 Aucun BIOS nécessaire pour les jeux DAPHNE ou SINGE.
@@ -22,13 +26,7 @@ Aucun BIOS nécessaire pour les jeux DAPHNE ou SINGE.
 
 ### Manettes de jeux&#x20;
 
-Le contrôle avec une manette de jeux est possible par l'utilisation de fichiers pad2key (fournis avec l'installation de Retrobat):
-
-<table><thead><tr><th width="311">Action</th><th>Bouton Manette</th></tr></thead><tbody><tr><td>Mouvement directionnel</td><td>D-PAD ou Stick analogique gauche</td></tr><tr><td>COIN 1</td><td>SELECT</td></tr><tr><td>START 1</td><td>START</td></tr><tr><td>Bouton 1</td><td>A</td></tr><tr><td>Bouton 2</td><td>B</td></tr><tr><td>Bouton 3</td><td>R2</td></tr><tr><td>Skill 1</td><td>Y</td></tr><tr><td>Skill 2</td><td>X</td></tr><tr><td>Skill 3</td><td>L2</td></tr><tr><td>SERVICE</td><td>HOTKEY + B</td></tr><tr><td>TEST</td><td></td></tr><tr><td>RESET</td><td>HOTKEY + X</td></tr><tr><td>Capture d'écran</td><td></td></tr><tr><td>Quitter</td><td>HOTKEY + START</td></tr><tr><td>Pause</td><td>HOTKEY + A</td></tr><tr><td>Console</td><td></td></tr><tr><td>Ecran titre</td><td>HOTKEY + Y</td></tr></tbody></table>
-
-**NOTE :** le stick analogique droit émule les mouvements de la souris.
-
-
+<table><thead><tr><th width="311">Action</th><th>Bouton Manette</th></tr></thead><tbody><tr><td>Mouvement directionnel</td><td>D-PAD ou Stick analogique gauche</td></tr><tr><td>COIN 1</td><td>SELECT</td></tr><tr><td>START 1</td><td>START</td></tr><tr><td>Bouton 1</td><td>A (SUD)</td></tr><tr><td>Bouton 2</td><td>B (EST)</td></tr><tr><td>Bouton 3</td><td>R1 (EPAULE DROITE)</td></tr><tr><td>Skill 1</td><td>Y (OUEST)</td></tr><tr><td>Skill 2</td><td>X (NORD)</td></tr><tr><td>Skill 3</td><td>L1 (EPAULE GAUCHE)</td></tr><tr><td>SERVICE</td><td>L3 (STICK GAUCHE)</td></tr><tr><td>TEST</td><td>R3 (STICK DROIT)</td></tr></tbody></table>
 
 ### Clavier
 

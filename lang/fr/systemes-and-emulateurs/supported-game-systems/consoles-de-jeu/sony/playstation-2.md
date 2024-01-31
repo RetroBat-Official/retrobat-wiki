@@ -22,10 +22,6 @@ Console de jeu - Durée de vie: 2000 - 2013
 
 <table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>Pcsx2 : OUI<br>Pcsx2-16 : NON<br>Play : NON<br>lr-pcsx2 : NON</td><td>Pcsx2 : NON<br>Pcsx2-16 : NON<br>Play : NON<br>lr-pcsx2 : NON</td><td>Pcsx2 : OUI<br>Pcsx2-16 : NON<br>Play : OUI<br>lr-pcsx2 : OUI</td></tr></tbody></table>
 
-| Succès Rétro                    | Parties en Réseau |
-| ------------------------------- | ----------------- |
-| OUI (uniquement avec PCSX2 1.7) | NON               |
-
 ## BIOS
 
 <table><thead><tr><th width="196">Fichier BIOS</th><th width="113">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>SCPH30004R.bin</td><td><code>\bios</code></td><td>28922c703cc7d2cf856f177f2985b3a9</td></tr><tr><td>SCPH30004R.MEC</td><td><code>\bios</code></td><td>3faf7c064a4984f53e2ef5e80ed543bc</td></tr><tr><td>scph39001.bin</td><td><code>\bios</code></td><td>d5ce2c7d119f563ce04bc04dbc3a323e</td></tr><tr><td>scph39001.MEC</td><td><code>\bios</code></td><td>3faf7c064a4984f53e2ef5e80ed543bc</td></tr><tr><td>EROM.BIN</td><td><code>\bios</code></td><td>9a9e8ed7668e6adfc8f7766c08ab9cd0</td></tr><tr><td>rom1.bin</td><td><code>\bios</code></td><td>44552702b05697a14ccbe2ca22ee7139</td></tr><tr><td>ROM2.BIN</td><td><code>\bios</code></td><td>b406d05922dac2eaf3c2e68157b1b468</td></tr></tbody></table>
@@ -71,10 +67,6 @@ Les contrôleurs suivants peuvent être autoconfigurés depuis RetroBat dans pcs
 <figure><img src="https://i.imgur.com/9sz2VFM.png" alt=""><figcaption></figcaption></figure>
 
 </div>
-
-{% hint style="info" %}
-RetroBat ne permet l'autoconfiguration que pour PCSX2 1.7. Si vous utilisez Play! ou PCSX2 1.6, il faudra configurer les contrôles directement dans l'émulateur.
-{% endhint %}
 
 ## Information spécifique au système
 

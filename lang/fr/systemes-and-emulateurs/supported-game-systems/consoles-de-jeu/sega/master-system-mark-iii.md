@@ -17,7 +17,7 @@ Console de jeu - Durée de vie: 1985 - 1996
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-genesis_plus_gx : OUI<br>lr-picodrive : OUI<br>lr-fbneo : OUI<br>Mednafen : NON<br>Ares : NON<br>Kega-Fusion : NON<br>BizHawk : OUI</td><td>lr-genesis_plus_gx : OUI<br>lr-picodrive : OUI<br>lr-fbneo : OUI<br>Mednafen : NON<br>Ares : NON<br>Kega-Fusion : NON<br>BizHawk : NON</td><td>lr-genesis_plus_gx : OUI<br>lr-picodrive : OUI<br>lr-fbneo : OUI<br>Mednafen : OUI<br>Ares : OUI<br>Kega-Fusion : NON<br>BizHawk : OUI</td></tr></tbody></table>
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-genesis_plus_gx : OUI<br>lr-picodrive : OUI<br>lr-fbneo : OUI<br>Mednafen : NON<br>Ares : NON<br>Kega-Fusion : NON<br>BizHawk : OUI</td><td>lr-genesis_plus_gx : OUI<br>lr-picodrive : OUI<br>lr-fbneo : OUI<br>Mednafen : NON<br>Ares : NON<br>Kega-Fusion : NON<br>BizHawk : NON</td><td>lr-genesis_plus_gx : OUI<br>lr-picodrive : OUI<br>lr-fbneo : OUI<br>Mednafen : OUI<br>Ares : OUI<br>Kega-Fusion : OUI<br>BizHawk : OUI</td></tr></tbody></table>
 
 ## BIOS
 

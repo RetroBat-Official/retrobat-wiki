@@ -20,7 +20,7 @@ Console de jeu - Durée de vie : 1993 - 1996
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-opera : OUI<br>Phoenix : NON</td><td>lr-opera : OUI<br>Phoenix : NON</td><td>lr-opera : OUI<br>Phoenix : NON</td></tr></tbody></table>
+<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-opera : OUI<br>Phoenix : NON</td><td>lr-opera : OUI<br>Phoenix : NON</td><td>lr-opera : OUI<br>Phoenix : OUI</td></tr></tbody></table>
 
 ## Bios
 
