@@ -10,8 +10,6 @@ description: MAME Team
 
 </div>
 
-[configuration-des-touches-mame64.md](../../../controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-mame64.md "mention")configur[configuration-des-touches-mame64.md](../../../controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-mame64.md "mention")Émulateur multi-arcade - Année de création: 1997
-
 {% embed url="https://fr.wikipedia.org/wiki/MAME" %}
 
 ## Information
@@ -86,7 +84,7 @@ Les BIOS additionnels doivent être placés à la racine du dossier \bios de vot
 | R3                                             | 8                                                                                      |
 
 {% hint style="info" %}
-Se référer à ce guide pour effectuer une configuration personnalisée des contrôleurs pour MAME64.
+Se référer à [ce guide](../../../controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-mame64.md) pour effectuer une configuration personnalisée des contrôleurs pour MAME64.
 {% endhint %}
 
 ## Informations spécifiques au système
