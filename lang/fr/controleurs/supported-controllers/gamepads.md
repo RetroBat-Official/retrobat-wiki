@@ -44,6 +44,10 @@ Les modèles de manettes produits avant le modèle Xbox One S (par exemple Xbox 
 
 La manette Switch Pro est idéale pour les émulateurs CEMU (WiiU) ou Yuzu (Switch),étant nativement reconnue par ces derniers. De plus la fonctionnalité gyroscope sera reconnue automatiquement par ces émulateurs.
 
+{% hint style="danger" %}
+Certains émulateurs ne permettent pas d'utiliser une manette Switch Pro lorsque RetroBat est activé !
+{% endhint %}
+
 ### Manette Playstation 5 (DualSense)
 
 ![](<../../.gitbook/assets/image (25).png>)
