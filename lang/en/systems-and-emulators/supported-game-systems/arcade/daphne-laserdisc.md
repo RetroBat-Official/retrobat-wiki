@@ -14,6 +14,10 @@ Arcade - First LaserDisc game release : 1983
 
 <table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>hypseus</li><li>daphne</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> daphne</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.daphne .actionmax .7z .zip .rar .squashfs</td><td></td></tr></tbody></table>
 
+## System Features
+
+<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>YES</td></tr></tbody></table>
+
 ## BIOS
 
 No BIOS required to play DAPHNE or SINGE games.
@@ -24,9 +28,7 @@ No BIOS required to play DAPHNE or SINGE games.
 
 Gamepad controls are enabled through pad2key files provided with Retrobat installation:
 
-<table><thead><tr><th width="311">Action</th><th>Gamepad Button</th></tr></thead><tbody><tr><td>Directional movement</td><td>D-PAD or Left analog stick</td></tr><tr><td>COIN 1</td><td>SELECT</td></tr><tr><td>START 1</td><td>START</td></tr><tr><td>Button 1</td><td>A</td></tr><tr><td>Button 2</td><td>B</td></tr><tr><td>Button 3</td><td>R2</td></tr><tr><td>Skill 1</td><td>Y</td></tr><tr><td>Skill 2</td><td>X</td></tr><tr><td>Skill 3</td><td>L2</td></tr><tr><td>SERVICE</td><td>HOTKEY + B</td></tr><tr><td>TEST</td><td></td></tr><tr><td>RESET</td><td>HOTKEY + X</td></tr><tr><td>Screenshot</td><td></td></tr><tr><td>Quit</td><td>HOTKEY + START</td></tr><tr><td>Pause</td><td>HOTKEY + A</td></tr><tr><td>Console</td><td></td></tr><tr><td>Title</td><td>HOTKEY + Y</td></tr></tbody></table>
-
-**NOTE:** Right Analog stick simulates mouse
+<table><thead><tr><th width="311">Action</th><th>Gamepad Button</th></tr></thead><tbody><tr><td>Directional movement</td><td>D-PAD or Left analog stick</td></tr><tr><td>COIN 1</td><td>SELECT</td></tr><tr><td>START 1</td><td>START</td></tr><tr><td>Button 1</td><td>A (SOUTH)</td></tr><tr><td>Button 2</td><td>B (EAST)</td></tr><tr><td>Button 3</td><td>R1 (RIGHT SHOULDER)</td></tr><tr><td>Skill 1</td><td>Y (WEST)</td></tr><tr><td>Skill 2</td><td>X (NORTH)</td></tr><tr><td>Skill 3</td><td>L1 (LEFT SHOULDER)</td></tr><tr><td>SERVICE</td><td>L3 (LEFT STICK)</td></tr><tr><td>TEST</td><td>R3 (RIGHT STICK)</td></tr></tbody></table>
 
 
 
