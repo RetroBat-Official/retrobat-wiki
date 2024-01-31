@@ -217,6 +217,7 @@
     * [Pinball FX](systems-and-emulators/supported-game-systems/pinball/pinball-fx.md)
     * [Pinball FX2](systems-and-emulators/supported-game-systems/pinball/pinball-fx2.md)
     * [Pinball FX3](systems-and-emulators/supported-game-systems/pinball/pinball-fx3.md)
+    * [Pinball M](systems-and-emulators/supported-game-systems/pinball/pinball-m.md)
     * [Visual Pinball](systems-and-emulators/supported-game-systems/pinball/visual-pinball.md)
     * [Zaccaria Pinball](systems-and-emulators/supported-game-systems/pinball/zaccaria-pinball.md)
   * [Others](systems-and-emulators/supported-game-systems/others/README.md)
