@@ -42,6 +42,10 @@ All controllers introduced before the Xbox One S (Xbox 360, Xbox One controllers
 
 The Switch Pro controller will be ideal for use in CEMU (WiiU emulator) or Yuzu (Switch emulator) as it is natively compatible with these emulators and it will support motion control for games that require motion.
 
+{% hint style="danger" %}
+Some emulators are reported to not record correctly the inputs with this controller when RetroBat interface is running.
+{% endhint %}
+
 ### Playstation 5 controller (DualSense)
 
 ![](<../../.gitbook/assets/image (36).png>)
