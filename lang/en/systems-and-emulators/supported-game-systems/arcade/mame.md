@@ -12,6 +12,10 @@ Multi-Arcade Emulator - Release year: 1997
 
 <table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: mame</li><li>Libretro: mame2016</li><li>Libretro: mame2010</li><li>Libretro: mame2003_plus</li><li>Libretro: mame2003</li><li>Libretro: mame2003_midway</li><li>Libretro: mame2000</li><li>mame64</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> mame</td></tr><tr><td><strong>File extension</strong></td><td>.zip .7z</td></tr></tbody></table>
 
+## System Features
+
+<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>lr-mame: NO<br>Mame64: YES</td></tr></tbody></table>
+
 ## Bios Information
 
 Depending on the [romset type](../../arcade-guide.md#romsets), a BIOS can be required or not to play some games:
@@ -76,7 +80,7 @@ BIOS files must be placed at the root of the `\bios` folder of your RetroBat ins
 | R3                                             | 8                                                                                    |
 
 {% hint style="info" %}
-Follow this guide to perform specific controller mapping ([refer to this guide](../../../controllers/specific\_mapping/mame64-controller-mapping.md)).
+Follow this guide to perform specific controller mapping for MAME64 ([refer to this guide](../../../controllers/specific\_mapping/mame64-controller-mapping.md)).
 {% endhint %}
 
 ## Specific system information
