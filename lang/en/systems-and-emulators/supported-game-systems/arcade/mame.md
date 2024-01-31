@@ -4,12 +4,6 @@ description: MAME Team
 
 # MAME
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/mame-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/mame.svg" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
-
 Multi-Arcade Emulator - Release year: 1997
 
 {% embed url="https://en.wikipedia.org/wiki/MAME" %}
@@ -37,11 +31,11 @@ Refer to the [Arcade page for more information about ROM set types](../../arcade
 
 BIOS files must be placed at the root of the `\bios` folder of your RetroBat installation.
 
-##
+
 
 ## MAME folders
 
-**Rompath**: \bios + game rom path
+**Rompath**: \bios & \roms\mame
 
 **Samples**: \bios\mame\samples
 
@@ -61,38 +55,28 @@ BIOS files must be placed at the root of the `\bios` folder of your RetroBat ins
 
 ## Controls
 
-### Arcade stick mapping
-
-Mapping can be found in the [notice](http://retrobat.ovh/notice/notice.pdf).
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/kXBcdsB.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
 ### Controller mapping
 
-| Retrobat Button                                | Arcade Key |
-| ---------------------------------------------- | ---------- |
-| START                                          | START      |
-| SELECT                                         | COIN       |
-| Left analog stick                              | Stick      |
-| Right analog stick                             |            |
-| D-PAD                                          | Stick      |
-| ![](<../../../.gitbook/assets/image (43).png>) | 3          |
-| ![](<../../../.gitbook/assets/image (25).png>) | 1          |
-| ![](<../../../.gitbook/assets/image (11).png>) | 2          |
-| ![](<../../../.gitbook/assets/image (45).png>) | 4          |
-| L1                                             | 5          |
-| R1                                             | 6          |
-| L2                                             |            |
-| R2                                             |            |
-| L3                                             |            |
-| R3                                             |            |
+| Retrobat Button                                | Arcade Key                                                                           |
+| ---------------------------------------------- | ------------------------------------------------------------------------------------ |
+| START                                          | START                                                                                |
+| SELECT                                         | COIN                                                                                 |
+| Left analog stick                              | <p>Left Joystick<br>Paddle<br>Positional device<br>Dial<br>Trackball<br>Ad_Stick</p> |
+| Right analog stick                             | Right Joystick                                                                       |
+| D-PAD                                          | Directions                                                                           |
+| ![](<../../../.gitbook/assets/image (43).png>) | 3                                                                                    |
+| ![](<../../../.gitbook/assets/image (25).png>) | 1                                                                                    |
+| ![](<../../../.gitbook/assets/image (11).png>) | 2                                                                                    |
+| ![](<../../../.gitbook/assets/image (45).png>) | 4                                                                                    |
+| L1                                             | 5                                                                                    |
+| R1                                             | 6                                                                                    |
+| L2                                             | Pedal 2                                                                              |
+| R2                                             | Pedal 1                                                                              |
+| L3                                             | 7                                                                                    |
+| R3                                             | 8                                                                                    |
 
 {% hint style="info" %}
-MAME64 Emulator natively accepts Xinput controllers, other controllers will require dedicated mapping ([refer to this guide](../../../controllers/specific\_mapping/mame64-controller-mapping.md)).
+Follow this guide to perform specific controller mapping ([refer to this guide](../../../controllers/specific\_mapping/mame64-controller-mapping.md)).
 {% endhint %}
 
 ## Specific system information
