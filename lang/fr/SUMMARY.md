@@ -250,6 +250,7 @@
   * [🎮 Manettes de Jeu](controleurs/supported-controllers/gamepads.md)
   * [🕹 Sticks Arcade](controleurs/supported-controllers/arcade-sticks.md)
   * [🔫 Pistolets](controleurs/supported-controllers/lightguns/README.md)
+    * [Liste des émulateurs compatibles pistolets](controleurs/supported-controllers/lightguns/emu\_guns.md)
     * [WiimoteGun](controleurs/supported-controllers/lightguns/wiimotegun.md)
   * [⌨ Clavier](controleurs/supported-controllers/keyboard.md)
 * [Configuration des Contrôleurs](controleurs/controller-configuration.md)
