@@ -73,18 +73,18 @@ Liste de jeux: `Dead or Alive`, `Fighting Vipers`, `Last Bronx`, `Sonic Champion
 
 Liste de jeux: `Daytona USA`, `Indianapolis 500`, `ManxTT Superbike`, `Motor Raid`, `Over Rev`, `Sega Rally`, `Sega Touring Car Championship`, `Super GT 24H`.
 
-| Model 2                                                                                                  | RetroBat                                                                                        |
-| -------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| DIRECTION                                                                                                | Stick analogique gauche                                                                         |
-| START                                                                                                    | START                                                                                           |
-| CREDIT                                                                                                   | SELECT                                                                                          |
-| FREIN                                                                                                    | L2 - gâchette gauche                                                                            |
-| ACCELERATEUR                                                                                             | R2 - gâchette droite                                                                            |
-| <p>VITESSE -<br>motoraid: N/A<br>srallyc: N/A<br>daytona: VR4 / VERT</p>                                 | ![B](<../../../../.gitbook/assets/image (6).png>)                                               |
-| <p>VITESSE +<br>motoraid: COUP DE POING<br>srallyc: N/A<br>daytona: VR3 / JAUNE</p>                      | <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">                  |
-| <p>LEVIER DE VITESSE<br>(Daytona USA &#x26; Sega Rally)</p>                                              | <p><strong>Stick analogique droite:</strong><br>HAUT: 1<br>BAS: 2<br>GAUCHE: 3<br>DROITE: 4</p> |
-| <p>VUE (Zoom loin)<br>manxtt: N/A<br>motoraid: N/A<br>daytona: VR1 / ROUGE</p>                           | <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original">              |
-| <p>VUE (Zoom proche)<br>manxtt: N/A<br>srallyc: N/A<br>motoraid: COUP DE PIED<br>daytona: VR2 / BLEU</p> | ![A](<../../../../.gitbook/assets/image (19).png>)                                              |
+| Model 2                                                                                    | RetroBat                                                                                        |
+| ------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
+| DIRECTION                                                                                  | Stick analogique gauche                                                                         |
+| START                                                                                      | START                                                                                           |
+| CREDIT                                                                                     | SELECT                                                                                          |
+| FREIN                                                                                      | L2 - gâchette gauche                                                                            |
+| ACCELERATEUR                                                                               | R2 - gâchette droite                                                                            |
+| <p>CHANGER VUE<br>motoraid: N/A<br>manxtt: N/A<br>srallyc: N/A<br>daytona: VR4 / VERT</p>  | ![B](<../../../../.gitbook/assets/image (6).png>)                                               |
+| <p>VITESSE +<br>motoraid: COUP DE POING<br>srallyc: N/A<br>daytona: VR3 / JAUNE</p>        | <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">                  |
+| <p>LEVIER DE VITESSE<br>(Daytona USA &#x26; Sega Rally)</p>                                | <p><strong>Stick analogique droite:</strong><br>HAUT: 1<br>BAS: 2<br>GAUCHE: 3<br>DROITE: 4</p> |
+| <p>CHANGER VUE<br>manxtt: N/A<br>motoraid: N/A<br>overrev: N/A<br>daytona: VR1 / ROUGE</p> | <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original">              |
+| <p>VITESSE -<br>srallyc: N/A<br>motoraid: COUP DE PIED<br>daytona: VR2 / BLEU</p>          | ![A](<../../../../.gitbook/assets/image (19).png>)                                              |
 
 #### Standard:
 
