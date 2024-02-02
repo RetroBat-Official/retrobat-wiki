@@ -80,3 +80,59 @@ Se référer à la [section "CHD"](../../arcade-guide.md#fichiers-chd-ou-img) du
 ### **Fichiers samples**
 
 Se référer à la [section "samples"](../../arcade-guide.md#samples) du guide arcade.
+
+### Accès au menu diagnostique
+
+{% hint style="info" %}
+Le menu diagnostique n'est pas disponible pour tous les jeux
+{% endhint %}
+
+L'accès au menu diagnostique se fait en pressant simultanément START + L1 + R1 en cours de jeu.
+
+La combinaison de boutons peut être modifiée dans les menus avancés du système depuis l'interface RetroBat:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/sE6pDwI.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+En cours de jeu, presser la combinaison de boutons pour ouvrir le menu:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/7eunvAL.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+### Accès aux "dip switches"
+
+Les "Dip Switches" permettent d'effectuer certains réglages sur le fonctionnement du jeu(difficulté, tir automatique, jeu gratuit...).
+
+Chaque jeu possède ses propres "switchs".
+
+Pour accéder aux "dip switchs", depuis une partie, accéder au menu rapide RetroArch en pressant SELECT + ![](<../../../.gitbook/assets/image (19).png>)
+
+Aller dans **Options de coeur**:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/0d18gYM.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Puis choisir **DIP SWITCHES**:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/NQ7DlYZ.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+La liste des "switchs" disponibles est affichée:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/qy7ldAL.png" alt=""><figcaption></figcaption></figure>
+
+</div>

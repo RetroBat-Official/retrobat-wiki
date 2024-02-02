@@ -57,4 +57,12 @@ Les cores FBNEO et FBALPHA offrent le choix entre 2 schémas de contrôle:
 
 ## Information spécifique au système
 
-Aucune information spécifique.
+### Accéder aux paramètres du BIOS Unibios
+
+La combinaison de touches ![](<../../../../.gitbook/assets/image (32).png>) + ![](<../../../../.gitbook/assets/image (19).png>) + ![](<../../../../.gitbook/assets/image (6).png>) , lorsque utilisée au démarrage, permet d'accéder aux paramètres du BIOS universel:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/zdbCnw5.png" alt=""><figcaption></figcaption></figure>
+
+</div>
