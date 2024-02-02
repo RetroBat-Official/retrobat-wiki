@@ -53,4 +53,12 @@ For FBNEO and FBALPHA cores, 2 controller layouts are available:
 
 ## System Features
 
-There is no specific System information documented here yet.
+## Accessing UNIBIOS settings
+
+When using the universal BIOS, the combination ![](<../../../../.gitbook/assets/image (43).png>) + ![](<../../../../.gitbook/assets/image (25).png>) + ![](<../../../../.gitbook/assets/image (11).png>) at startup will give you access to the UNIBIOS settings:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/zdbCnw5.png" alt=""><figcaption></figcaption></figure>
+
+</div>
