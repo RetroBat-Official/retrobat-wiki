@@ -43,7 +43,7 @@ For FBNEO and FBALPHA cores, 2 controller layouts are available:
 * CLASSIC
 * MODERN
 
-<table><thead><tr><th width="228">Retrobat Button</th><th>CLASSIC</th><th>MODERN</th></tr></thead><tbody><tr><td>START</td><td>START</td><td>START</td></tr><tr><td>SELECT</td><td>SELECT</td><td>SELECT</td></tr><tr><td>Left analog stick</td><td></td><td></td></tr><tr><td>Right analog stick</td><td></td><td></td></tr><tr><td>D-PAD</td><td>D-PAD</td><td>D-PAD</td></tr><tr><td><img src="../../../../.gitbook/assets/image (43).png" alt=""></td><td>C / Green</td><td>C / Green</td></tr><tr><td><img src="../../../../.gitbook/assets/image (25).png" alt=""></td><td>A / Red</td><td>A / Red</td></tr><tr><td><img src="../../../../.gitbook/assets/image (11).png" alt=""></td><td>B / Yellow</td><td>B / Yellow</td></tr><tr><td><img src="../../../../.gitbook/assets/image (45).png" alt=""></td><td>D / Blue</td><td>D / Blue</td></tr><tr><td>L1</td><td>5th button</td><td></td></tr><tr><td>R1</td><td>6th button</td><td>5th button</td></tr><tr><td>L2</td><td></td><td></td></tr><tr><td>R2</td><td></td><td>6th button</td></tr><tr><td>L3</td><td></td><td></td></tr><tr><td>R3</td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="263">Retrobat Button</th><th>CLASSIC</th><th>MODERN</th></tr></thead><tbody><tr><td>START</td><td>START</td><td>START</td></tr><tr><td>SELECT</td><td>SELECT</td><td>SELECT</td></tr><tr><td>Left analog stick</td><td></td><td></td></tr><tr><td>Right analog stick</td><td></td><td></td></tr><tr><td>D-PAD</td><td>D-PAD</td><td>D-PAD</td></tr><tr><td><img src="../../../../.gitbook/assets/image (43).png" alt=""></td><td>C / Green</td><td>C / Green</td></tr><tr><td><img src="../../../../.gitbook/assets/image (25).png" alt=""></td><td>A / Red</td><td>A / Red</td></tr><tr><td><img src="../../../../.gitbook/assets/image (11).png" alt=""></td><td>B / Yellow</td><td>B / Yellow</td></tr><tr><td><img src="../../../../.gitbook/assets/image (45).png" alt=""></td><td>D / Blue</td><td>D / Blue</td></tr><tr><td>L1</td><td>5th button</td><td></td></tr><tr><td>R1</td><td>6th button</td><td>5th button</td></tr><tr><td>L2</td><td></td><td></td></tr><tr><td>R2</td><td></td><td>6th button</td></tr><tr><td>L3</td><td></td><td></td></tr><tr><td>R3</td><td></td><td></td></tr></tbody></table>
 
 <div align="left">
 
@@ -60,5 +60,15 @@ When using the universal BIOS, the combination ![](<../../../../.gitbook/assets/
 <div align="left">
 
 <figure><img src="https://i.imgur.com/zdbCnw5.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+## Accessing in-game menu
+
+When using the universal BIOS, the combination START + ![](<../../../../.gitbook/assets/image (43).png>) + ![](<../../../../.gitbook/assets/image (25).png>) + ![](<../../../../.gitbook/assets/image (11).png>) during the game will give you access to the in-game menu:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/7SlsT4U.png" alt=""><figcaption></figcaption></figure>
 
 </div>
