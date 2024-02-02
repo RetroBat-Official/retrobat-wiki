@@ -64,3 +64,59 @@ Refer to the [Arcade Guide section](../../arcade-guide.md#chd-or-img-files) abou
 ### **Sample files**
 
 Refer to the [Arcade Guide "sample file" section](../../arcade-guide.md#samples).
+
+### Access to diagnostic menu
+
+{% hint style="info" %}
+Not all game have a diagnostic menu
+{% endhint %}
+
+The diagnostic menu can be accessed by pressing START + L1 + R1 (default setting).
+
+The button key can be changed in the advanced system options:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/sE6pDwI.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+While in game, press the button combination to access the diagnostic menu:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/7eunvAL.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+### Access to dip switches
+
+Dip Switches allow to change game specific settings, for example difficulty, autofire, free-to-play...
+
+They may differ game by game.
+
+The dip switches can be accessed from the RetroArch quick menu, while in game, press SELECT + ![](<../../../.gitbook/assets/image (25).png>)
+
+Go to **CORE OPTIONS**:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/pusMLzv.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Then select **DIP SWITCHES**:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/SQAmuJl.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+The list of options available for the game are displayed:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/AaRPp19.png" alt=""><figcaption></figcaption></figure>
+
+</div>
