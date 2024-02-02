@@ -66,3 +66,13 @@ La combinaison de touches ![](<../../../../.gitbook/assets/image (32).png>) + ![
 <figure><img src="https://i.imgur.com/zdbCnw5.png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+## Accéder au menu "in-game"
+
+En cours de jeu, la combinaison de touches **START** + ![](<../../../../.gitbook/assets/image (32).png>) + ![](<../../../../.gitbook/assets/image (19).png>) + ![](<../../../../.gitbook/assets/image (6).png>) permet d'accéder au menu "in-game":
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/7SlsT4U.png" alt=""><figcaption></figcaption></figure>
+
+</div>
