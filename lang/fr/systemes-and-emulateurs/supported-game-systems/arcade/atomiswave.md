@@ -20,9 +20,7 @@ Arcade - Date de sortie : 2003
 
 ## Fonctionnalités
 
-| Succès Rétro | Parties en Réseau |
-| ------------ | ----------------- |
-| NON          | NON               |
+<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td>lr-flycast: OUI<br>Flycast: OUI<br>Demul: OUI</td></tr></tbody></table>
 
 ## Bios
 
