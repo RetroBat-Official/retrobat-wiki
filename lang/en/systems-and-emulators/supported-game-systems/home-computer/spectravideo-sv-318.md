@@ -22,12 +22,6 @@ Home Computer - Released: 1981
 
 <table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>YES</td><td>NO</td><td>YES</td></tr></tbody></table>
 
-## Features
-
-| RetroAchievements | Parties en Réseau |
-| ----------------- | ----------------- |
-| NO                | NO                |
-
 ## Bios Information
 
 No BIOS required.
