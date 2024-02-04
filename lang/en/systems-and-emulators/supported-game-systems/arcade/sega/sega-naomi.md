@@ -18,11 +18,9 @@ Arcade - Released: 1998&#x20;
 
 <table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: flycast</li><li>flycast</li><li>demul</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> naomi</td></tr><tr><td><strong>File extension</strong></td><td>.bin .dat .lst .zip .7z</td></tr></tbody></table>
 
-## Features
+## System Features
 
-| Retroachievements | NetPlay |
-| ----------------- | ------- |
-| NO                | NO      |
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>lr-flycast: YES<br>Flycast: YES<br>Demul: YES</td></tr></tbody></table>
 
 ## Bios Information
 

@@ -18,6 +18,10 @@ Arcade - Released: 2003
 
 <table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: flycast</li><li>flycast</li><li>demul</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> atomiswave</td></tr><tr><td><strong>File extension</strong></td><td>.bin .lst .zip .7z</td></tr></tbody></table>
 
+## System Features
+
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>lr-flycast: YES<br>Flycast: YES<br>Demul: YES</td></tr></tbody></table>
+
 ## Bios Information
 
 <table><thead><tr><th width="160.55555555555557">bios file</th><th width="155">Folder</th><th>md5</th></tr></thead><tbody><tr><td>awbios.zip</td><td><code>\bios\dc</code></td><td>0ec5ae5b5a5c4959fa8b43fcf8687f7c</td></tr></tbody></table>
