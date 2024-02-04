@@ -22,6 +22,10 @@ Micro-ordinateur - Durée de vie : 1984 - 1985
 
 <table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Modèle émulé</strong></td><td>orica</td></tr><tr><td><strong>Types de média</strong></td><td>cassette</td></tr></tbody></table>
 
+## Fonctionnalités
+
+<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>Oricutrion : NON<br>lr-mame : NON</td><td>Oricutrion : NON<br>lr-mame : NON</td><td>Oricutrion : NON<br>lr-mame : NON</td></tr></tbody></table>
+
 ## Bios
 
 Aucun BIOS nécessaire.

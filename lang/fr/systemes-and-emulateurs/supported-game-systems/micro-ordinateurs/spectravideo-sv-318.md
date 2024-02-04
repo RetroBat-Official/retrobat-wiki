@@ -20,9 +20,7 @@ Micro-ordinateur - Date de sortie : 1981
 
 ## Fonctionnalités
 
-| Succès Rétro | Parties en Réseau |
-| ------------ | ----------------- |
-| NON          | NON               |
+<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>OUI</td><td>NON</td><td>OUI</td></tr></tbody></table>
 
 ## Bios
 

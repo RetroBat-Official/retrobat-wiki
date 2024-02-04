@@ -20,9 +20,7 @@ Micro-ordinateurs - durée de vie : 1984 - 1990
 
 ## Fonctionnalités
 
-| Succès Rétro | Parties en Réseau |
-| ------------ | ----------------- |
-| OUI          | OUI               |
+<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-cap32 : OUI<br>lr-crocods : NON</td><td>lr-cap32 : OUI<br>lr-crocods : OUI</td><td>lr-cap32 : OUI<br>lr-crocods : OUI</td></tr></tbody></table>
 
 ## BIOS
 

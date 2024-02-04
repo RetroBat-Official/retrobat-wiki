@@ -20,6 +20,10 @@ Micro-ordinateur - Durée de vie : 1992 - 1996
 
 <table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro : puae</li><li>amigaforever</li><li>winuae</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> amiga1200</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.adf .uae .ipf .dms .adz .lha .rp9 .uae .hdf .m3u .zip .7z</td><td></td></tr></tbody></table>
 
+## Fonctionnalités
+
+<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-puae : NON<br>AmigaForever : NON<br>WinUAE : NON</td><td>lr-puae : NON<br>AmigaForever : NON<br>WinUAE : NON</td><td>lr-puae : OUI<br>AmigaForever : NON<br>WinUAE : NON</td></tr></tbody></table>
+
 ## BIOS
 
 <table><thead><tr><th width="193">Fichier BIOS</th><th width="142.03610108303252">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>kick40068.A1200</td><td><code>\bios</code></td><td>646773759326fbac3b2311fd8c8793ee</td></tr></tbody></table>

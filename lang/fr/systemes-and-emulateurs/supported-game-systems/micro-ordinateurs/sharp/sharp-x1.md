@@ -18,6 +18,10 @@ Micro-ordinateur - Date de sortie : 1982
 
 <table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro: x1</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> x1</td></tr><tr><td><strong>Extensions</strong></td><td>.dx1 .zip .2d .2hd .tfd .d88 .88d .hdm .xdf .dup .cmd .7z</td></tr></tbody></table>
 
+## Fonctionnalités
+
+<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-x1 : NON</td><td>lr-x1 : NON</td><td>lr-x1 : NON</td></tr></tbody></table>
+
 ## Bios
 
 <table><thead><tr><th width="224">Fichier BIOS</th><th width="169">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>IPLROM.X1</td><td><code>\bios\xmil</code></td><td>eeeea1cd29c6e0e8b094790ae969bfa7</td></tr><tr><td>iplrom.x1t</td><td><code>\bios\xmil</code></td><td>56c28adcf1f3a2f87cf3d57c378013f5</td></tr></tbody></table>

@@ -18,6 +18,10 @@ Micro-ordinateur - Date de sortie : 1982
 
 <table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro : np2kai</li><li>libretro : nekop2</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> pc98</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.d98 .zip .98d .fdi .fdd .2hd .tfd .d88 .88d .hdm .xdf .dup .cmd .hdi .thd .nhd .hdd .hdn</td><td></td></tr></tbody></table>
 
+## Fonctionnalités
+
+<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-np2kai : NON<br>lr-nekop2 : NON</td><td>lr-np2kai : OUI<br>lr-nekop2 : NON</td><td>lr-np2kai : OUI<br>lr-nekop2 : OUI</td></tr></tbody></table>
+
 ## BIOS
 
 <table><thead><tr><th width="193">Fichier BIOS</th><th width="173.03610108303252">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>BIOS.ROM</td><td><code>\bios\np2kai</code></td><td>e246140dec5124c5e404869a84caefce</td></tr><tr><td>FONT.ROM</td><td><code>\bios\np2kai</code></td><td>2af6179d7de4893ea0b705c00e9a98d6</td></tr><tr><td>SOUND.ROM</td><td><code>\bios\np2kai</code></td><td>caf90f22197aed6f14c471c21e64658d</td></tr><tr><td>ITF.ROM</td><td><code>\bios\np2kai</code></td><td>e9fc3890963b12cf15d0a2eea5815b72</td></tr><tr><td>font.bmp</td><td><code>\bios\np2kai</code></td><td>7da1e5b7c482d4108d22a5b09631d967</td></tr></tbody></table>

@@ -18,6 +18,10 @@ Micro-ordinateur - Durée de vie : 1982 - 1994
 
 <table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro : vice_x64</li><li>libretro : vice_x64sc</li><li>libretro : frodo</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> c64</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.crt .d64 .g64 .nib .prg .t64 .m3u .zip .7z</td><td></td></tr></tbody></table>
 
+## Fonctionnalités
+
+<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-vicex64 : NON<br>lr-frodo : NON</td><td>lr-vicex64 : NON<br>lr-frodo : NON</td><td>lr-vicex64 : OUI<br>lr-frodo : NON</td></tr></tbody></table>
+
 ## BIOS
 
 Aucun BIOS nécessaire.

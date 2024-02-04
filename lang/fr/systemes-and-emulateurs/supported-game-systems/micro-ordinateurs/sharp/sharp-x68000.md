@@ -18,6 +18,10 @@ Micro-ordinateur - Durée de vie : 1987 - 1993
 
 <table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro : px68k</li><li>xm6pro</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> x68000</td></tr><tr><td><strong>Extensions</strong></td><td>.dim .img .d88 .88d .hdm .dup .2hd .xdf .hdf .cmd .m3u .zip .7z</td></tr></tbody></table>
 
+## Fonctionnalités
+
+<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-px68k : NON<br>XM6Pro : NON</td><td>lr-px68k : OUI<br>XM6Pro : NON</td><td>lr-px68k : OUI<br>XM6Pro : NON</td></tr></tbody></table>
+
 ## Bios
 
 <table><thead><tr><th width="224">Fichier BIOS</th><th width="169">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>iplrom.dat</td><td><code>\bios\keropi</code></td><td>7fd4caabac1d9169e289f0f7bbf71d8e</td></tr><tr><td>cgrom.dat</td><td><code>\bios\keropi</code></td><td>cb0a5cfcf7247a7eab74bb2716260269</td></tr></tbody></table>

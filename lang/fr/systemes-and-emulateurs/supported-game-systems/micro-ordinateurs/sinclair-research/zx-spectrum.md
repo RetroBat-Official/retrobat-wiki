@@ -18,6 +18,10 @@ Micro-ordinateur - Durée de vie : 1982 - 1992
 
 <table data-header-hidden><thead><tr><th width="200"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro : fuse</li><li>libretro : fbneo</li><li>zesarux</li><li>bizhawk</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> zxspectrum</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.tzx .tap .z80 .rzx .scl .trd .zip .7z</td><td></td></tr></tbody></table>
 
+## Fonctionnalités
+
+<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-fuse : NON<br>lr-fbneo : OUI<br>ZesarUX : NON<br>BizHawk : OUI</td><td>lr-fuse : NON<br>lr-fbneo : OUI<br>ZesarUX : NON<br>BizHawk : NON</td><td>lr-fuse : OUI<br>lr-fbneo : OUI<br>ZesarUX : OUI<br>BizHawk : OUI</td></tr></tbody></table>
+
 ## BIOS
 
 Aucun BIOS nécessaire.

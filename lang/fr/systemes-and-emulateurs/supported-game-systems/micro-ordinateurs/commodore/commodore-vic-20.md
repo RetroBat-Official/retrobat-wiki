@@ -18,6 +18,10 @@ Micro-ordinateur - Durée de vie: 1980 - 1985
 
 <table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>libretro : vice_xvic</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> c20</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.nib .a0 .b0 .crt .d64 .d81 .prg .tap .t64 .zip</td><td></td></tr></tbody></table>
 
+## Fonctionnalités
+
+<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td>OUI</td></tr></tbody></table>
+
 ## BIOS
 
 Aucun BIOS nécessaire.

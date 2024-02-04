@@ -22,6 +22,10 @@ Micro-ordinateur - Durée de vie  : 1992 - 1994
 Le dossier \roms\amiga4000 n'est pas créé automatiquement durant l'installation. Si nécessaire il faut l'ajouter manuellement.
 {% endhint %}
 
+## Fonctionnalités
+
+<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-puae : NON<br>AmigaForever : NON<br>WinUAE : NON</td><td>lr-puae : NON<br>AmigaForever : NON<br>WinUAE : NON</td><td>lr-puae : OUI<br>AmigaForever : NON<br>WinUAE : NON</td></tr></tbody></table>
+
 ## BIOS
 
 <table><thead><tr><th width="193">Fichier BIOS</th><th width="142.03610108303252">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>kick40068.A4000</td><td><code>\bios</code></td><td>9bdedde6a4f33555b4a270c8ca53297d</td></tr></tbody></table>
