@@ -20,7 +20,7 @@ Game Console - Released : 1989
 
 ## System Features
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-mednafen: YES<br>lr-fbneo: YES<br>Mednafen: NO<br>Ares: NO<br>BizHawk: YES<br>Magic Engine: NO</td><td>lr-mednafen: YES<br>lr-fbneo: YES<br>Mednafen: NO<br>Ares: NO<br>BizHawk: NO<br>Magic Engine: NO</td><td>lr-mednafen: YES<br>lr-fbneo: YES<br>Mednafen: YES<br>Ares: YES<br>BizHawk: YES<br>Magic Engine: YES</td></tr></tbody></table>
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-mednafen: YES<br>lr-fbneo: YES<br>Mednafen: NO<br>Ares: NO<br>BizHawk: YES<br>Magic Engine: NO</td><td>lr-mednafen: YES<br>lr-fbneo: YES<br>Mednafen: NO<br>Ares: NO<br>BizHawk: NO<br>Magic Engine: NO</td><td>lr-mednafen: YES<br>lr-fbneo: YES<br>Mednafen: YES<br>Ares: YES<br>BizHawk: YES<br>Magic Engine: NO</td></tr></tbody></table>
 
 ## Bios Information
 
