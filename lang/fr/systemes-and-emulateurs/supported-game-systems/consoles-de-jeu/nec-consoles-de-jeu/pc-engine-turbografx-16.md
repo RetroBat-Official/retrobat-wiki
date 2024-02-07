@@ -16,11 +16,11 @@ Console de jeu - Durée de vie : 1987 - 1994
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro : mednafen_pce</li><li>Libretro : mednafen_pce_fast</li><li>Libretro : fbneo</li><li>mednafen</li><li>ares</li><li>bizhawk: HyperNyma</li><li>bizhawk: PCEHawk</li><li>bizhawk: TurboNyma</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> pcengine</td></tr><tr><td><strong>Extensions</strong></td><td>.pce .bin .zip .7z .wad</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro : mednafen_pce</li><li>Libretro : mednafen_pce_fast</li><li>Libretro : fbneo</li><li>mednafen</li><li>ares</li><li>bizhawk: HyperNyma</li><li>bizhawk: PCEHawk</li><li>bizhawk: TurboNyma</li><li>magicengine</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> pcengine</td></tr><tr><td><strong>Extensions</strong></td><td>.pce .bin .zip .7z .wad</td></tr></tbody></table>
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="246">Succès Rétro</th><th width="234">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-mednafen_pce : OUI<br>lr-mednafen_pce_fast: OUI<br>lr-fbneo : OUI<br>Mednafen: NON<br>Ares: NON<br>BizHawk : OUI</td><td>lr-mednafen_pce : OUI<br>lr-mednafen_pce_fast: OUI<br>lr-fbneo : OUI<br>Mednafen: NON<br>Ares: NON<br>BizHawk: NON</td><td>lr-mednafen_pce : OUI<br>lr-mednafen_pce_fast : OUI<br>lr-fbneo : OUI<br>Mednafen : OUI<br>Ares : OUI<br>BizHawk : OUI</td></tr></tbody></table>
+<table><thead><tr><th width="246">Succès Rétro</th><th width="234">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-mednafen_pce : OUI<br>lr-mednafen_pce_fast: OUI<br>lr-fbneo : OUI<br>Mednafen: NON<br>Ares: NON<br>BizHawk : OUI<br>Magic Engine: NON</td><td>lr-mednafen_pce : OUI<br>lr-mednafen_pce_fast: OUI<br>lr-fbneo : OUI<br>Mednafen: NON<br>Ares: NON<br>BizHawk: NON<br>Magic Engine: NON</td><td>lr-mednafen_pce : OUI<br>lr-mednafen_pce_fast : OUI<br>lr-fbneo : OUI<br>Mednafen : OUI<br>Ares : OUI<br>BizHawk : OUI<br>Magic Engine: OUI</td></tr></tbody></table>
 
 ## Bios
 
