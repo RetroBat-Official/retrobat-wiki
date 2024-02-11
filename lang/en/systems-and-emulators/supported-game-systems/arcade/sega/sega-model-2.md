@@ -73,18 +73,20 @@ List of games: `Dead or Alive`, `Fighting Vipers`, `Last Bronx`, `Sonic Champion
 
 List of games: `Daytona USA`, `Indianapolis 500`, `ManxTT Superbike`, `Motor Raid`, `Over Rev`, `Sega Rally`, `Sega Touring Car Championship`, `Super GT 24H`.
 
-| Model 2 key                                                                                | RetroBat key                                                                       |
-| ------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------- |
-| TURN (Steering)                                                                            | Left analog stick                                                                  |
-| START                                                                                      | START                                                                              |
-| COIN                                                                                       | SELECT                                                                             |
-| BRAKE                                                                                      | Left Trigger (L2)                                                                  |
-| ACCELERATE                                                                                 | Right Trigger (R2)                                                                 |
-| <p>VIEW CHANGE<br>motoraid: N/A<br>manxtt: N/A<br>srallyc: N/A<br>daytona: VR4 / GREEN</p> | ![B](<../../../../.gitbook/assets/image (11).png>)                                 |
-| <p>SHIFT UP<br>motoraid: PUNCH<br>srallyc: N/A<br>daytona: VR3 / YELLOW</p>                | <img src="../../../../.gitbook/assets/image (43).png" alt="" data-size="line">     |
-| <p>SHIFT LEVER<br>(Daytona USA &#x26; Sega Rally)</p>                                      | <p>Right Analog Stick<br>UP: 1st<br>DOWN: 2nd<br>LEFT: 3rd<br>RIGHT: 4th</p>       |
-| <p>VIEW CHANGE<br>manxtt: N/A<br>motoraid: N/A<br>overrev: N/A<br>daytona: VR1 / RED</p>   | <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="original"> |
-| <p>SHIFT DOWN<br>srallyc: N/A<br>motoraid: KICK<br>daytona: VR2 / BLUE</p>                 | ![A](<../../../../.gitbook/assets/image (25).png>)                                 |
+| Model 2 key                                                               | RetroBat key                                                                                                                                   |
+| ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| TURN (Steering)                                                           | Left analog stick                                                                                                                              |
+| START                                                                     | START                                                                                                                                          |
+| COIN                                                                      | SELECT                                                                                                                                         |
+| BRAKE                                                                     | Left Trigger (L2)                                                                                                                              |
+| ACCELERATE                                                                | Right Trigger (R2)                                                                                                                             |
+| Motoraid: kick                                                            | R1                                                                                                                                             |
+| Motoraid: punch                                                           | L1                                                                                                                                             |
+| <p>VIEW CHANGE<br>manxtt: N/A<br>srallyc: N/A<br>daytona: VR4 / GREEN</p> | ![B](<../../../../.gitbook/assets/image (11).png>)                                                                                             |
+| <p>SHIFT UP<br>srallyc: N/A<br>daytona: VR3 / YELLOW</p>                  | <img src="../../../../.gitbook/assets/image (43).png" alt="" data-size="line">                                                                 |
+| <p>SHIFT LEVER<br>(Daytona USA &#x26; Sega Rally)</p>                     | <p><strong>Right Analog Stick</strong><br>UP: 1st<br>DOWN: 2nd<br>LEFT: 3rd<br>RIGHT: 4th<br><br>When using wheel without gear-stick: DPAD</p> |
+| <p>VIEW CHANGE<br>manxtt: N/A<br>overrev: N/A<br>daytona: VR1 / RED</p>   | <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="original">                                                             |
+| <p>SHIFT DOWN<br>srallyc: N/A<br>daytona: VR2 / BLUE</p>                  | ![A](<../../../../.gitbook/assets/image (25).png>)                                                                                             |
 
 #### Standard Games:
 
