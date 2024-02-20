@@ -10,10 +10,9 @@ BatGui is a software provided with Retrobat and available at the root of your Re
 
 **The tool allows you to:**
 
-* Help managing [retrobat.ini](retrobat.ini.md) config file
+* Manage [retrobat.ini](retrobat.ini.md) config file
 * Manage System List
 * Edit Gamelists (update game metadata)
-* Generate windows game .bat files for [STEAM ](../systems-and-emulators/supported-game-systems/others/windows.md#adding-a-steam-game)games from your library
 * Generate .m3u file for [Xbox360 ](../systems-and-emulators/supported-game-systems/game-consoles/microsoft-consoles/xbox-360.md#adding-xbla-xbox-live-arcade-games)and [PS3 ](../systems-and-emulators/supported-game-systems/game-consoles/sony/playstation-3.md#adding-ps3-games)emulators
 * Convert iso/cue format into CHD format
 * Change the version of the SDL library and reset controller configuration
@@ -22,7 +21,7 @@ BatGui is a software provided with Retrobat and available at the root of your Re
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/5xMsnHr.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-02-18_08h02_01.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -32,7 +31,7 @@ With BatGui.exe, you can edit the settings of your retrobat.ini file
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/bQBN1Ux.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-02-18_08h06_55.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -42,7 +41,7 @@ In this menu it is possible to update `es_systems.cfg` file, for example it is p
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/HfiG9lD.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-02-18_08h09_57.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -52,17 +51,7 @@ In this menu it is possible to update `gamelist.xml` file for a system, metadata
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/Mjir7uB.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-### Add Steam Library
-
-In this menu it is possible to generate automatically the .bat file in your `\roms\windows` folder in order to [add your STEAM games to Retrobat](../systems-and-emulators/supported-game-systems/others/windows.md#adding-a-steam-game).
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/w4IotL3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-02-18_08h11_39.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -72,7 +61,7 @@ In this menu it is possible to generate automatically the .m3u file in your [`\r
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/cs7oKVW.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-02-18_08h20_00.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -82,7 +71,7 @@ In this menu it is possible to convert a ISO/CUE rom format into CHD format for 
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/B9Qz6bc.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-02-18_08h24_48.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -94,7 +83,7 @@ Thie action performs a reinitialization of the **es\_input.cfg** file located in
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/uHLuZaf.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-02-18_08h25_29.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -103,6 +92,6 @@ To do so, choose a DLL from the dropdown list, and click "Close". Then click "Re
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/tw0aDbr.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-02-18_08h26_14.png" alt=""><figcaption></figcaption></figure>
 
 </div>
