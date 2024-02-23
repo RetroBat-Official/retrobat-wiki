@@ -28,6 +28,40 @@ The BIOS files are not mandatory to launch games but some require at least one o
 
 <table data-header-hidden><thead><tr><th width="169">File</th><th width="625">Location &#x26; MD5</th><th data-hidden>MD5 Hash</th></tr></thead><tbody><tr><td><code>IPL.bin</code><br>Europe</td><td><p>location: <code>\emulators\dolphin-emu\User\GC\EUR</code></p><p>libretro location: <code>\saves\dolphin\User\GC\EUR</code><br>md5: <code>0cdda509e2da83c85bfe423dd87346cc</code></p></td><td></td></tr><tr><td><code>IPL.bin</code><br>Japan</td><td><p>location: <code>\emulators\dolphin-emu\User\GC\JAP</code></p><p>libretro location: <code>\saves\dolphin\User\GC\JAP</code><br>md5: <code>fc924a7c879b661abc37cec4f018fdf3</code></p></td><td></td></tr><tr><td><code>IPL.bin</code><br>USA</td><td><p>location: <code>\emulators\dolphin-emu\User\GC\USA</code></p><p>libretro location: <code>\saves\dolphin\User\GC\USA</code><br>md5: <code>019e39822a9ca3029124f74dd4d55ac4</code></p></td><td></td></tr></tbody></table>
 
+## Folders
+
+### Saves
+
+By default, Dolphin stores saves as GCI folders in the following location:
+
+`saves\dolphin\User\GC\EUR`
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/EGlIpe4.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+The region subfolder can be amended with the following [RetroBat setting](../../../../navigation/configuration-of-systems-and-games.md):
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/Hg5Kwy8.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+It is possible to use classic memcard SRAM files instead of CGI folders by enabling the following option:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/XHG2UiZ.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+In that case, the save file will be located in the following folder:
+
+`saves\dolphin\User\GC\`
+
 ## Controls
 
 {% hint style="info" %}
