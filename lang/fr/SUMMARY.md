@@ -248,10 +248,10 @@
 
 * [Contrôleurs compatibles](controleurs/supported-controllers/README.md)
   * [🎮 Manettes de Jeu](controleurs/supported-controllers/gamepads.md)
-  * [🕹 Sticks Arcade](controleurs/supported-controllers/arcade-sticks.md)
+  * [🕹️ Sticks Arcade](controleurs/supported-controllers/arcade-sticks.md)
   * [🔫 Pistolets](controleurs/supported-controllers/lightguns/README.md)
     * [WiimoteGun](controleurs/supported-controllers/lightguns/wiimotegun.md)
-  * [⌨ Clavier](controleurs/supported-controllers/keyboard.md)
+  * [⌨️ Clavier](controleurs/supported-controllers/keyboard.md)
 * [Configuration des Contrôleurs](controleurs/controller-configuration.md)
 * [Contrôle des pistolets](controleurs/pistolets\_controles.md)
 * [Configuration des touches spécifique par émulateur](controleurs/configuration-des-touches-specifique-par-emulateur/README.md)

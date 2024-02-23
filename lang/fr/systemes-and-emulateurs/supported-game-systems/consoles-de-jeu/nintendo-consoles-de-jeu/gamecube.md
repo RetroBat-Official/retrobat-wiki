@@ -32,6 +32,40 @@ Les BIOS ne sont pas nécessaires pour lancer des jeux Gamecube, mais certains s
 
 <table data-header-hidden><thead><tr><th width="169">File</th><th width="625">Location &#x26; MD5</th><th data-hidden>MD5 Hash</th></tr></thead><tbody><tr><td><code>IPL.bin</code><br>Europe</td><td><p>Emplacement: <code>\emulators\dolphin-emu\User\GC\EUR</code></p><p>Emplacement libretro: <code>\saves\dolphin\User\GC\EUR</code><br>md5: <code>0cdda509e2da83c85bfe423dd87346cc</code></p></td><td></td></tr><tr><td><code>IPL.bin</code><br>Japan</td><td><p>Emplacement: <code>\emulators\dolphin-emu\User\GC\JAP</code></p><p>Emplacement libretro: <code>\saves\dolphin\User\GC\JAP</code><br>md5: <code>fc924a7c879b661abc37cec4f018fdf3</code></p></td><td></td></tr><tr><td><code>IPL.bin</code><br>USA</td><td><p>Emplacement: <code>\emulators\dolphin-emu\User\GC\USA</code></p><p>Emplacement libretro: <code>\saves\dolphin\User\GC\USA</code><br>md5: <code>019e39822a9ca3029124f74dd4d55ac4</code></p></td><td></td></tr></tbody></table>
 
+## Dossiers
+
+### Sauvegardes
+
+Par défaut, Dolphin génère des sauvegardes au format "dossier CGI" à l'emplacement suivant:
+
+`saves\dolphin\User\GC\EUR`
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/EGlIpe4.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Le sous-dossier de la région peut être modifié avec [le paramétrage](../../../../navigation/configuration-des-systemes-et-des-jeux.md) ci-dessous:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/GuYVNfl.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Il est possible également de configurer Dolphin afin d'utiliser des fichiers SRAM (ancienne méthode, un fichier correspond à une carte mémoire de Gamecube) plutôt que des dossiers CGI:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/lHnvqau.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Dans ce cas, le fichier de sauvegarde sera stocké dans le dossier :
+
+`saves\dolphin\User\GC\`
+
 ## Contrôles
 
 {% hint style="info" %}
