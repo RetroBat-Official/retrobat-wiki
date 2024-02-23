@@ -32,7 +32,7 @@ Utiliser le romset fbneo 1.0.0.3 pour l'émulateur fbneo.
 
 ## BIOS
 
-<table><thead><tr><th width="161">Fichier BIOS</th><th width="179">Dossier</th><th>md5</th><th data-hidden>md5</th></tr></thead><tbody><tr><td>neogeo.zip</td><td><code>\bios</code></td><td>dffb72f116d36d025068b23970a4f6df</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="161">Fichier BIOS</th><th width="179">Dossier</th><th>md5</th><th data-hidden>md5</th></tr></thead><tbody><tr><td>neogeo.zip</td><td><code>\bios</code></td><td>dffb72f116d36d025068b23970a4f6df</td><td></td></tr><tr><td>aes.zip</td><td><code>\bios</code></td><td></td><td></td></tr></tbody></table>
 
 {% hint style="info" %}
 Si vous utilisez le core libretro fbalpha2012\_neogeo core, placez les bios dans le dossier  `\roms\neogeo`.
