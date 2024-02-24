@@ -50,10 +50,10 @@ This means that if the player 1 uses a XBOX controller, player 2 will also need 
 | Retrobat button                                                                    | Game control                                                     |
 | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | Left stick                                                                         | Steering                                                         |
-| ![A](<../../../../.gitbook/assets/image (25).png>)                                 | VR2 (blue)                                                       |
-| ![B](<../../../../.gitbook/assets/image (11).png>)                                 | VR4 (green)                                                      |
-| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="original"> | VR1 (red)                                                        |
-| <img src="../../../../.gitbook/assets/image (43).png" alt="" data-size="line">     | VR3 (yellow)                                                     |
+| ![A](<../../../../.gitbook/assets/image (27).png>)                                 | VR2 (blue)                                                       |
+| ![B](<../../../../.gitbook/assets/image (13).png>)                                 | VR4 (green)                                                      |
+| <img src="../../../../.gitbook/assets/image (47).png" alt="" data-size="original"> | VR1 (red)                                                        |
+| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="line">     | VR3 (yellow)                                                     |
 | Right stick                                                                        | <p>Gear stick<br>UP = 1<br>DOWN = 2<br>LEFT = 3<br>RIGHT = 4</p> |
 | L1                                                                                 | Shift down                                                       |
 | R1                                                                                 | Shift up                                                         |
@@ -65,10 +65,10 @@ This means that if the player 1 uses a XBOX controller, player 2 will also need 
 | Retrobat button                                                                    | Game control |
 | ---------------------------------------------------------------------------------- | ------------ |
 | Left stick                                                                         | Steering     |
-| ![A](<../../../../.gitbook/assets/image (25).png>)                                 | VR2 (blue)   |
-| ![B](<../../../../.gitbook/assets/image (11).png>)                                 | VR4 (green)  |
-| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="original"> | VR1 (red)    |
-| <img src="../../../../.gitbook/assets/image (43).png" alt="" data-size="line">     | VR3 (yellow) |
+| ![A](<../../../../.gitbook/assets/image (27).png>)                                 | VR2 (blue)   |
+| ![B](<../../../../.gitbook/assets/image (13).png>)                                 | VR4 (green)  |
+| <img src="../../../../.gitbook/assets/image (47).png" alt="" data-size="original"> | VR1 (red)    |
+| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="line">     | VR3 (yellow) |
 | L1                                                                                 | Shift down   |
 | R1                                                                                 | Shift up     |
 | L2                                                                                 | Brake        |
@@ -79,8 +79,8 @@ This means that if the player 1 uses a XBOX controller, player 2 will also need 
 | Retrobat button                                                                    | Game control |
 | ---------------------------------------------------------------------------------- | ------------ |
 | Left stick                                                                         | Steering     |
-| ![A](<../../../../.gitbook/assets/image (25).png>)                                 | Handbrake    |
-| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="original"> | View Change  |
+| ![A](<../../../../.gitbook/assets/image (27).png>)                                 | Handbrake    |
+| <img src="../../../../.gitbook/assets/image (47).png" alt="" data-size="original"> | View Change  |
 | L1                                                                                 | Shift down   |
 | R1                                                                                 | Shift up     |
 | L2                                                                                 | Brake        |
@@ -91,7 +91,7 @@ This means that if the player 1 uses a XBOX controller, player 2 will also need 
 | Retrobat button                                                                    | Game control |
 | ---------------------------------------------------------------------------------- | ------------ |
 | Left stick                                                                         | Steering     |
-| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="original"> | View Change  |
+| <img src="../../../../.gitbook/assets/image (47).png" alt="" data-size="original"> | View Change  |
 | L1                                                                                 | Shift down   |
 | R1                                                                                 | Shift up     |
 | L2                                                                                 | Brake        |
@@ -102,9 +102,9 @@ This means that if the player 1 uses a XBOX controller, player 2 will also need 
 | Retrobat button                                                                    | Game control |
 | ---------------------------------------------------------------------------------- | ------------ |
 | Left stick                                                                         | Steering     |
-| ![A](<../../../../.gitbook/assets/image (25).png>)                                 | Rear brake   |
-| ![B](<../../../../.gitbook/assets/image (11).png>)                                 | Music change |
-| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="original"> | View change  |
+| ![A](<../../../../.gitbook/assets/image (27).png>)                                 | Rear brake   |
+| ![B](<../../../../.gitbook/assets/image (13).png>)                                 | Music change |
+| <img src="../../../../.gitbook/assets/image (47).png" alt="" data-size="original"> | View change  |
 | L1                                                                                 | Shift down   |
 | R1                                                                                 | Shift up     |
 | L2                                                                                 | Front brake  |
@@ -115,17 +115,17 @@ This means that if the player 1 uses a XBOX controller, player 2 will also need 
 | Retrobat button                                                                    | Game control |
 | ---------------------------------------------------------------------------------- | ------------ |
 | Left stick, D-PAD                                                                  | Move         |
-| ![A](<../../../../.gitbook/assets/image (25).png>)                                 | Guard        |
-| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="original"> | Kick         |
-| <img src="../../../../.gitbook/assets/image (43).png" alt="" data-size="line">     | Punch        |
+| ![A](<../../../../.gitbook/assets/image (27).png>)                                 | Guard        |
+| <img src="../../../../.gitbook/assets/image (47).png" alt="" data-size="original"> | Kick         |
+| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="line">     | Punch        |
 
 ### Get Bass: Sega Bass Fishing
 
 | Retrobat button                                                                | Game control      |
 | ------------------------------------------------------------------------------ | ----------------- |
 | Left stick                                                                     | Fishing rod       |
-| ![A](<../../../../.gitbook/assets/image (25).png>)                             | Lure menu / start |
-| <img src="../../../../.gitbook/assets/image (43).png" alt="" data-size="line"> | Cast              |
+| ![A](<../../../../.gitbook/assets/image (27).png>)                             | Lure menu / start |
+| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="line"> | Cast              |
 | Right stick                                                                    | Menu navigation   |
 | R2                                                                             | Reel speed        |
 
@@ -156,16 +156,16 @@ This means that if the player 1 uses a XBOX controller, player 2 will also need 
 | Retrobat button                                    | Game control         |
 | -------------------------------------------------- | -------------------- |
 | Left stick                                         | Lever Up/Down        |
-| ![A](<../../../../.gitbook/assets/image (25).png>) | Pedal / Jump / Dodge |
+| ![A](<../../../../.gitbook/assets/image (27).png>) | Pedal / Jump / Dodge |
 
 ### Ski Champ
 
 | Retrobat button                                                                | Game control   |
 | ------------------------------------------------------------------------------ | -------------- |
 | Left stick                                                                     | Turn           |
-| ![A](<../../../../.gitbook/assets/image (25).png>)                             | Red            |
-| ![B](<../../../../.gitbook/assets/image (11).png>)                             | Green          |
-| <img src="../../../../.gitbook/assets/image (43).png" alt="" data-size="line"> | Blue           |
+| ![A](<../../../../.gitbook/assets/image (27).png>)                             | Red            |
+| ![B](<../../../../.gitbook/assets/image (13).png>)                             | Green          |
+| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="line"> | Blue           |
 | Right stick                                                                    | Turn harder    |
 | L2                                                                             | Left ski pole  |
 | R2                                                                             | Right ski pole |
@@ -175,10 +175,10 @@ This means that if the player 1 uses a XBOX controller, player 2 will also need 
 | Retrobat button                                                                    | Game control   |
 | ---------------------------------------------------------------------------------- | -------------- |
 | Left stick                                                                         | Move           |
-| ![A](<../../../../.gitbook/assets/image (25).png>)                                 | Beat           |
-| ![B](<../../../../.gitbook/assets/image (11).png>)                                 | Shift / Strafe |
-| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="original"> | Jump           |
-| <img src="../../../../.gitbook/assets/image (43).png" alt="" data-size="line">     | Charge         |
+| ![A](<../../../../.gitbook/assets/image (27).png>)                                 | Beat           |
+| ![B](<../../../../.gitbook/assets/image (13).png>)                                 | Shift / Strafe |
+| <img src="../../../../.gitbook/assets/image (47).png" alt="" data-size="original"> | Jump           |
+| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="line">     | Charge         |
 | R1                                                                                 | Shift / Strafe |
 
 ### Sega Rally 2
@@ -186,8 +186,8 @@ This means that if the player 1 uses a XBOX controller, player 2 will also need 
 | Retrobat button                                                                    | Game control                                                     |
 | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | Left stick                                                                         | Steering                                                         |
-| ![A](<../../../../.gitbook/assets/image (25).png>)                                 | Handbrake                                                        |
-| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="original"> | View change                                                      |
+| ![A](<../../../../.gitbook/assets/image (27).png>)                                 | Handbrake                                                        |
+| <img src="../../../../.gitbook/assets/image (47).png" alt="" data-size="original"> | View change                                                      |
 | Right stick                                                                        | <p>Gear stick<br>UP = 1<br>DOWN = 2<br>LEFT = 3<br>RIGHT = 4</p> |
 | L1                                                                                 | Shift down                                                       |
 | R1                                                                                 | Shift up                                                         |
@@ -210,20 +210,20 @@ This means that if the player 1 uses a XBOX controller, player 2 will also need 
 | Retrobat button                                                                    | Game control |
 | ---------------------------------------------------------------------------------- | ------------ |
 | Left stick, D-PAD                                                                  | Move         |
-| ![A](<../../../../.gitbook/assets/image (25).png>)                                 | Guard        |
-| ![B](<../../../../.gitbook/assets/image (11).png>)                                 | Escape       |
-| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="original"> | Kick         |
-| <img src="../../../../.gitbook/assets/image (43).png" alt="" data-size="line">     | Punch        |
+| ![A](<../../../../.gitbook/assets/image (27).png>)                                 | Guard        |
+| ![B](<../../../../.gitbook/assets/image (13).png>)                                 | Escape       |
+| <img src="../../../../.gitbook/assets/image (47).png" alt="" data-size="original"> | Kick         |
+| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="line">     | Punch        |
 
 ### Virtual On 2
 
 | Retrobat button                                                                    | Game control |
 | ---------------------------------------------------------------------------------- | ------------ |
 | Left stick                                                                         | Move         |
-| ![A](<../../../../.gitbook/assets/image (25).png>)                                 | Crouch       |
-| ![B](<../../../../.gitbook/assets/image (11).png>)                                 | Right Turbo  |
-| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="original"> | Jump         |
-| <img src="../../../../.gitbook/assets/image (43).png" alt="" data-size="line">     | Left Turbo   |
+| ![A](<../../../../.gitbook/assets/image (27).png>)                                 | Crouch       |
+| ![B](<../../../../.gitbook/assets/image (13).png>)                                 | Right Turbo  |
+| <img src="../../../../.gitbook/assets/image (47).png" alt="" data-size="original"> | Jump         |
+| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="line">     | Left Turbo   |
 | Right stick                                                                        | Turn         |
 | L1                                                                                 | Left Turbo   |
 | R1                                                                                 | Right Turbo  |
@@ -235,9 +235,9 @@ This means that if the player 1 uses a XBOX controller, player 2 will also need 
 | Retrobat button                                                                | Game control |
 | ------------------------------------------------------------------------------ | ------------ |
 | Left stick                                                                     | Move         |
-| ![A](<../../../../.gitbook/assets/image (25).png>)                             | Long pass    |
-| ![B](<../../../../.gitbook/assets/image (11).png>)                             | Shoot        |
-| <img src="../../../../.gitbook/assets/image (43).png" alt="" data-size="line"> | Short pass   |
+| ![A](<../../../../.gitbook/assets/image (27).png>)                             | Long pass    |
+| ![B](<../../../../.gitbook/assets/image (13).png>)                             | Shoot        |
+| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="line"> | Short pass   |
 
 ## Specific system information
 

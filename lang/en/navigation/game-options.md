@@ -1,6 +1,6 @@
 # Game Options
 
-**Game Options** menu is accessible from the **Game View** by long-press of ![](<../.gitbook/assets/image (25).png>) when a game is highlighted.
+**Game Options** menu is accessible from the **Game View** by long-press of ![](<../.gitbook/assets/image (27).png>) when a game is highlighted.
 
 <div align="left">
 

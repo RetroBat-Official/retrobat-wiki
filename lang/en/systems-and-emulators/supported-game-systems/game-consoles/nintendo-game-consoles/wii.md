@@ -61,10 +61,10 @@ The mapping hereunder is the default mapping when using **EMULATED**
 | D-PAD                                                                              | D-PAD                    |
 | Left Analog Stick                                                                  | IR control (wii pointer) |
 | Right Analog Stick                                                                 | Tilt control             |
-| ![A](<../../../../.gitbook/assets/image (25).png>)                                 | A                        |
-| ![B](<../../../../.gitbook/assets/image (11).png>)                                 | B                        |
-| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="original"> | 2                        |
-| <img src="../../../../.gitbook/assets/image (43).png" alt="" data-size="line">     | 1                        |
+| ![A](<../../../../.gitbook/assets/image (27).png>)                                 | A                        |
+| ![B](<../../../../.gitbook/assets/image (13).png>)                                 | B                        |
+| <img src="../../../../.gitbook/assets/image (47).png" alt="" data-size="original"> | 2                        |
+| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="line">     | 1                        |
 | LB (L1)                                                                            | -                        |
 | RB (R1)                                                                            | +                        |
 
@@ -93,10 +93,10 @@ The is the Classic Controller mapping
 | D-PAD                                                                              | D-PAD                  |
 | Left analog stick                                                                  | Left stick             |
 | Right analog stick                                                                 | Right stick            |
-| ![A](<../../../../.gitbook/assets/image (25).png>)                                 | B                      |
-| ![B](<../../../../.gitbook/assets/image (11).png>)                                 | A                      |
-| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="original"> | X                      |
-| <img src="../../../../.gitbook/assets/image (43).png" alt="" data-size="line">     | Y                      |
+| ![A](<../../../../.gitbook/assets/image (27).png>)                                 | B                      |
+| ![B](<../../../../.gitbook/assets/image (13).png>)                                 | A                      |
+| <img src="../../../../.gitbook/assets/image (47).png" alt="" data-size="original"> | X                      |
+| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="line">     | Y                      |
 | L1                                                                                 | L                      |
 | R1                                                                                 | R                      |
 | L2                                                                                 | ZL                     |
@@ -184,10 +184,10 @@ It used the default mapping with the following changes:
 
 | Retrobat Key                                                                       | Wiimote Key |
 | ---------------------------------------------------------------------------------- | ----------- |
-| ![A](<../../../../.gitbook/assets/image (25).png>)                                 | 2           |
-| ![B](<../../../../.gitbook/assets/image (11).png>)                                 | B           |
-| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="original"> | A           |
-| <img src="../../../../.gitbook/assets/image (43).png" alt="" data-size="line">     | 1           |
+| ![A](<../../../../.gitbook/assets/image (27).png>)                                 | 2           |
+| ![B](<../../../../.gitbook/assets/image (13).png>)                                 | B           |
+| <img src="../../../../.gitbook/assets/image (47).png" alt="" data-size="original"> | A           |
+| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="line">     | 1           |
 | L2                                                                                 | Shake       |
 | SELECT                                                                             | -           |
 | START                                                                              | +           |
@@ -242,7 +242,7 @@ The following list of emulated devices is available in the advanced options:
 * REAL WIIMOTE
 * GAMECUBE CONTROLLER ([see Gamecube mapping](gamecube.md#controls))
 
-<table><thead><tr><th width="192">Retrobat key</th><th width="102">WIIMOTE</th><th width="88">SIDE</th><th width="145">NUNCHUK</th><th>CLASSIC CONTROLLER</th></tr></thead><tbody><tr><td>START</td><td>+</td><td>+</td><td>1</td><td>+</td></tr><tr><td>SELECT</td><td>-</td><td>-</td><td>2</td><td>-</td></tr><tr><td>D-PAD</td><td>D-PAD</td><td>D-PAD</td><td>D-PAD</td><td>D-PAD</td></tr><tr><td>Left analog stick</td><td>Tilt</td><td>Tilt</td><td>Nunchuk<br>Stick</td><td>Left stick</td></tr><tr><td>Right analog stick</td><td></td><td></td><td>Tilt</td><td>Right stick</td></tr><tr><td><img src="../../../../.gitbook/assets/image (25).png" alt="A"></td><td>B</td><td>1</td><td>B</td><td>B</td></tr><tr><td><img src="../../../../.gitbook/assets/image (11).png" alt="B"></td><td>A</td><td>2</td><td>A</td><td>A</td></tr><tr><td><img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="original"></td><td>1</td><td>A</td><td>C</td><td>X</td></tr><tr><td><img src="../../../../.gitbook/assets/image (43).png" alt="" data-size="line"></td><td>2</td><td>B</td><td>Z</td><td>Y</td></tr><tr><td>L1</td><td></td><td></td><td>-</td><td>ZL<br>PRO: L</td></tr><tr><td>R1</td><td></td><td></td><td>+</td><td>ZR<br>PRO: R</td></tr><tr><td>L2</td><td></td><td></td><td>Shake <br>Nunchuk</td><td>L<br>PRO: ZL</td></tr><tr><td>R2</td><td>Shake</td><td>Shake</td><td>Shake<br>Wiimote</td><td>R<br>PRO: ZR</td></tr><tr><td>L3</td><td></td><td></td><td></td><td></td></tr><tr><td>R3</td><td>Home</td><td>Home</td><td>Home</td><td>Home</td></tr></tbody></table>
+<table><thead><tr><th width="192">Retrobat key</th><th width="102">WIIMOTE</th><th width="88">SIDE</th><th width="145">NUNCHUK</th><th>CLASSIC CONTROLLER</th></tr></thead><tbody><tr><td>START</td><td>+</td><td>+</td><td>1</td><td>+</td></tr><tr><td>SELECT</td><td>-</td><td>-</td><td>2</td><td>-</td></tr><tr><td>D-PAD</td><td>D-PAD</td><td>D-PAD</td><td>D-PAD</td><td>D-PAD</td></tr><tr><td>Left analog stick</td><td>Tilt</td><td>Tilt</td><td>Nunchuk<br>Stick</td><td>Left stick</td></tr><tr><td>Right analog stick</td><td></td><td></td><td>Tilt</td><td>Right stick</td></tr><tr><td><img src="../../../../.gitbook/assets/image (27).png" alt="A"></td><td>B</td><td>1</td><td>B</td><td>B</td></tr><tr><td><img src="../../../../.gitbook/assets/image (13).png" alt="B"></td><td>A</td><td>2</td><td>A</td><td>A</td></tr><tr><td><img src="../../../../.gitbook/assets/image (47).png" alt="" data-size="original"></td><td>1</td><td>A</td><td>C</td><td>X</td></tr><tr><td><img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="line"></td><td>2</td><td>B</td><td>Z</td><td>Y</td></tr><tr><td>L1</td><td></td><td></td><td>-</td><td>ZL<br>PRO: L</td></tr><tr><td>R1</td><td></td><td></td><td>+</td><td>ZR<br>PRO: R</td></tr><tr><td>L2</td><td></td><td></td><td>Shake <br>Nunchuk</td><td>L<br>PRO: ZL</td></tr><tr><td>R2</td><td>Shake</td><td>Shake</td><td>Shake<br>Wiimote</td><td>R<br>PRO: ZR</td></tr><tr><td>L3</td><td></td><td></td><td></td><td></td></tr><tr><td>R3</td><td>Home</td><td>Home</td><td>Home</td><td>Home</td></tr></tbody></table>
 
 ## Specific system information
 

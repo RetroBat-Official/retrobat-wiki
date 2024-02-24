@@ -35,10 +35,10 @@ Game console - Lifespan: 1982 - 1984
 | D-PAD                                             | D-PAD                   |
 | Left analog stick                                 |                         |
 | Right analog stick                                |                         |
-| ![](<../../../../.gitbook/assets/image (43).png>) | Virtual keyboard on/off |
-| ![](<../../../../.gitbook/assets/image (25).png>) | Return key              |
-| ![](<../../../../.gitbook/assets/image (11).png>) | FIRE 1                  |
-| ![](<../../../../.gitbook/assets/image (45).png>) | FIRE 2                  |
+| ![](<../../../../.gitbook/assets/image (45).png>) | Virtual keyboard on/off |
+| ![](<../../../../.gitbook/assets/image (27).png>) | Return key              |
+| ![](<../../../../.gitbook/assets/image (13).png>) | FIRE 1                  |
+| ![](<../../../../.gitbook/assets/image (47).png>) | FIRE 2                  |
 | L1                                                | Option key              |
 | R1                                                | Open emulator menu      |
 | L2                                                | Space key               |

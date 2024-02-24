@@ -31,10 +31,10 @@ There is no BIOS files needed to run games.
 | D-PAD                                                                              | D-PAD   |
 | Left analog stick                                                                  | D-PAD   |
 | Right analog stick                                                                 |         |
-| ![A](<../../../../.gitbook/assets/image (25).png>)                                 | B       |
-| ![B](<../../../../.gitbook/assets/image (11).png>)                                 | A       |
-| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="original"> | A       |
-| <img src="../../../../.gitbook/assets/image (43).png" alt="" data-size="line">     | B       |
+| ![A](<../../../../.gitbook/assets/image (27).png>)                                 | B       |
+| ![B](<../../../../.gitbook/assets/image (13).png>)                                 | A       |
+| <img src="../../../../.gitbook/assets/image (47).png" alt="" data-size="original"> | A       |
+| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="line">     | B       |
 
 <div align="left">
 

@@ -8,7 +8,7 @@ Here is how to proceed.
 
 Open RetroBat and launch the game for which you require a specific remapping.
 
-Once in the game, press SELECT + ![](<../../.gitbook/assets/image (25).png>) buttons simultaneously to open the RetroArch menu, and select **Quick Menu**:
+Once in the game, press SELECT + ![](<../../.gitbook/assets/image (27).png>) buttons simultaneously to open the RetroArch menu, and select **Quick Menu**:
 
 <div align="left">
 

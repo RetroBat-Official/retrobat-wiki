@@ -104,13 +104,13 @@ Game information is now available in the [Game View](../navigation/system-view-a
 
 ### Per game scraping
 
-In order to scrape only a single game, select the game and long-press ![](<../.gitbook/assets/image (25).png>) to open the [game options](../navigation/game-options.md).&#x20;
+In order to scrape only a single game, select the game and long-press ![](<../.gitbook/assets/image (27).png>) to open the [game options](../navigation/game-options.md).&#x20;
 
 Select **SCRAPE.**
 
 <figure><img src="https://i.imgur.com/gjGEejQ.png" alt=""><figcaption><p>From the game view, highlight a game and long-press SOUTH button</p></figcaption></figure>
 
-A list of possible matches is displayed, select the appropriate game and confirm with ![](<../.gitbook/assets/image (25).png>).
+A list of possible matches is displayed, select the appropriate game and confirm with ![](<../.gitbook/assets/image (27).png>).
 
 {% hint style="info" %}
 The default search string is based on the ROM filename, to change the search string use the **INPUT** button at the bottom.

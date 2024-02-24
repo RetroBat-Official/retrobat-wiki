@@ -27,10 +27,10 @@ Arcade - Released: 1994
 | Retrobat button                                                                    | Game control |
 | ---------------------------------------------------------------------------------- | ------------ |
 | D-PAD                                                                              | Directions   |
-| ![A](<../../../../.gitbook/assets/image (25).png>)                                 | Button 1     |
-| ![B](<../../../../.gitbook/assets/image (11).png>)                                 | Button 2     |
-| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="original"> | Button 4     |
-| <img src="../../../../.gitbook/assets/image (43).png" alt="" data-size="line">     | Button 3     |
+| ![A](<../../../../.gitbook/assets/image (27).png>)                                 | Button 1     |
+| ![B](<../../../../.gitbook/assets/image (13).png>)                                 | Button 2     |
+| <img src="../../../../.gitbook/assets/image (47).png" alt="" data-size="original"> | Button 4     |
+| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="line">     | Button 3     |
 | SELECT                                                                             | Coin         |
 | START                                                                              | Start        |
 | L2                                                                                 | Test         |

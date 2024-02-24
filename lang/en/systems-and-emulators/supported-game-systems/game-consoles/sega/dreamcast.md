@@ -48,10 +48,10 @@ dc.zip
 | D-PAD                                             | D-PAD         |
 | Left analog stick                                 | Analog stick  |
 | Right analog stick                                |               |
-| ![](<../../../../.gitbook/assets/image (43).png>) | X             |
-| ![](<../../../../.gitbook/assets/image (25).png>) | A             |
-| ![](<../../../../.gitbook/assets/image (11).png>) | B             |
-| ![](<../../../../.gitbook/assets/image (45).png>) | Y             |
+| ![](<../../../../.gitbook/assets/image (45).png>) | X             |
+| ![](<../../../../.gitbook/assets/image (27).png>) | A             |
+| ![](<../../../../.gitbook/assets/image (13).png>) | B             |
+| ![](<../../../../.gitbook/assets/image (47).png>) | Y             |
 | L1                                                |               |
 | R1                                                |               |
 | L2                                                | L1            |

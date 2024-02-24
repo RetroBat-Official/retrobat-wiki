@@ -43,10 +43,10 @@ gamecom.zip
 | D-PAD                                          | D-PAD       |
 | Left analog stick                              | D-PAD       |
 | Right analog stick                             |             |
-| ![](<../../../.gitbook/assets/image (43).png>) | A           |
-| ![](<../../../.gitbook/assets/image (25).png>) | C           |
-| ![](<../../../.gitbook/assets/image (11).png>) | D           |
-| ![](<../../../.gitbook/assets/image (45).png>) | B           |
+| ![](<../../../.gitbook/assets/image (45).png>) | A           |
+| ![](<../../../.gitbook/assets/image (27).png>) | C           |
+| ![](<../../../.gitbook/assets/image (13).png>) | D           |
+| ![](<../../../.gitbook/assets/image (47).png>) | B           |
 | L1                                             | L1          |
 | R1                                             | R1          |
 | L2                                             |             |

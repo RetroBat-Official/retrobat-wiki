@@ -14,7 +14,7 @@ No BIOS required.
 
 ## Controls
 
-<table><thead><tr><th width="205">Retrobat Button</th><th>Dinothawr</th></tr></thead><tbody><tr><td>START</td><td></td></tr><tr><td>SELECT</td><td></td></tr><tr><td>D-PAD</td><td>D-PAD</td></tr><tr><td>Left analog stick</td><td></td></tr><tr><td>Reft analog stick</td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (43).png" alt=""></td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (25).png" alt=""></td><td>Push</td></tr><tr><td><img src="../../../.gitbook/assets/image (11).png" alt=""></td><td>Menu</td></tr><tr><td><img src="../../../.gitbook/assets/image (45).png" alt=""></td><td>Reset</td></tr><tr><td>L1</td><td></td></tr><tr><td>R1</td><td></td></tr><tr><td>L2</td><td></td></tr><tr><td>R2</td><td></td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="205">Retrobat Button</th><th>Dinothawr</th></tr></thead><tbody><tr><td>START</td><td></td></tr><tr><td>SELECT</td><td></td></tr><tr><td>D-PAD</td><td>D-PAD</td></tr><tr><td>Left analog stick</td><td></td></tr><tr><td>Reft analog stick</td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (45).png" alt=""></td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (27).png" alt=""></td><td>Push</td></tr><tr><td><img src="../../../.gitbook/assets/image (13).png" alt=""></td><td>Menu</td></tr><tr><td><img src="../../../.gitbook/assets/image (47).png" alt=""></td><td>Reset</td></tr><tr><td>L1</td><td></td></tr><tr><td>R1</td><td></td></tr><tr><td>L2</td><td></td></tr><tr><td>R2</td><td></td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
 
 ## Specific system information
 

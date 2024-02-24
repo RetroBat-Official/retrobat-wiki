@@ -68,10 +68,10 @@ BIOS files must be placed at the root of the `\bios` folder of your RetroBat ins
 | Left analog stick                              | <p>Left Joystick<br>Paddle<br>Positional device<br>Dial<br>Trackball<br>Ad_Stick</p> |
 | Right analog stick                             | Right Joystick                                                                       |
 | D-PAD                                          | Directions                                                                           |
-| ![](<../../../.gitbook/assets/image (43).png>) | 3                                                                                    |
-| ![](<../../../.gitbook/assets/image (25).png>) | 1                                                                                    |
-| ![](<../../../.gitbook/assets/image (11).png>) | 2                                                                                    |
-| ![](<../../../.gitbook/assets/image (45).png>) | 4                                                                                    |
+| ![](<../../../.gitbook/assets/image (45).png>) | 3                                                                                    |
+| ![](<../../../.gitbook/assets/image (27).png>) | 1                                                                                    |
+| ![](<../../../.gitbook/assets/image (13).png>) | 2                                                                                    |
+| ![](<../../../.gitbook/assets/image (47).png>) | 4                                                                                    |
 | L1                                             | 5                                                                                    |
 | R1                                             | 6                                                                                    |
 | L2                                             | Pedal 2                                                                              |

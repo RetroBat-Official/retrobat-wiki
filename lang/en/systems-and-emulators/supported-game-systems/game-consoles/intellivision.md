@@ -35,10 +35,10 @@ Game Console - Lifespan: 1979 - 1990
 | D-PAD                                          | 8-way movement                                     |
 | Left analog stick                              | 16-way disc                                        |
 | Right analog stick                             |                                                    |
-| ![](<../../../.gitbook/assets/image (43).png>) | Top Action Button                                  |
-| ![](<../../../.gitbook/assets/image (25).png>) | Left Action Button                                 |
-| ![](<../../../.gitbook/assets/image (11).png>) | Right Action Button                                |
-| ![](<../../../.gitbook/assets/image (45).png>) | Use the Last Selected Intellivision Keypad Button. |
+| ![](<../../../.gitbook/assets/image (45).png>) | Top Action Button                                  |
+| ![](<../../../.gitbook/assets/image (27).png>) | Left Action Button                                 |
+| ![](<../../../.gitbook/assets/image (13).png>) | Right Action Button                                |
+| ![](<../../../.gitbook/assets/image (47).png>) | Use the Last Selected Intellivision Keypad Button. |
 | L1                                             | Activate the Mini-Keypad                           |
 | R1                                             | Activate the Mini-Keypad                           |
 | L2                                             |                                                    |

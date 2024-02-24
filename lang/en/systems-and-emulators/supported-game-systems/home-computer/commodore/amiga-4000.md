@@ -53,10 +53,10 @@ Use Pad2Key for this system if you need specific mapping, see the [Pad2Key ](../
 | D-PAD                                             | Joystick                                   |
 | Left analog stick                                 | Mouse                                      |
 | Right analog stick                                | Mouse                                      |
-| ![](<../../../../.gitbook/assets/image (43).png>) | Space                                      |
-| ![](<../../../../.gitbook/assets/image (25).png>) | Fire button 1 / Red                        |
-| ![](<../../../../.gitbook/assets/image (11).png>) | Fire button 2 / Blue                       |
-| ![](<../../../../.gitbook/assets/image (45).png>) |                                            |
+| ![](<../../../../.gitbook/assets/image (45).png>) | Space                                      |
+| ![](<../../../../.gitbook/assets/image (27).png>) | Fire button 1 / Red                        |
+| ![](<../../../../.gitbook/assets/image (13).png>) | Fire button 2 / Blue                       |
+| ![](<../../../../.gitbook/assets/image (47).png>) |                                            |
 | L1                                                |                                            |
 | R1                                                |                                            |
 | L2                                                | Left mouse button                          |

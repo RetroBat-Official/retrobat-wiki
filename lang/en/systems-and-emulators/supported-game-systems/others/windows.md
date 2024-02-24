@@ -34,7 +34,7 @@ Create a text file with the full path to the game executable and save the file w
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

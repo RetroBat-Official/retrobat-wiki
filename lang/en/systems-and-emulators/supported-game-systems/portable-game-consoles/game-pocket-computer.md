@@ -42,10 +42,10 @@ gamepock.zip
 | D-PAD                                          | D-PAD           |
 | Left analog stick                              |                 |
 | Right analog stick                             |                 |
-| ![](<../../../.gitbook/assets/image (43).png>) | Top left        |
-| ![](<../../../.gitbook/assets/image (25).png>) | Bottom left     |
-| ![](<../../../.gitbook/assets/image (11).png>) | Bottom right    |
-| ![](<../../../.gitbook/assets/image (45).png>) | Top right       |
+| ![](<../../../.gitbook/assets/image (45).png>) | Top left        |
+| ![](<../../../.gitbook/assets/image (27).png>) | Bottom left     |
+| ![](<../../../.gitbook/assets/image (13).png>) | Bottom right    |
+| ![](<../../../.gitbook/assets/image (47).png>) | Top right       |
 | L1                                             |                 |
 | R1                                             |                 |
 | L2                                             |                 |

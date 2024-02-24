@@ -31,10 +31,10 @@ Same controls as Megadrive - Genesis.
 | START                                                                              | START                 |
 | SELECT / BACK                                                                      | SELECT                |
 | D-PAD, left stick                                                                  | D-PAD                 |
-| ![A](<../../../../.gitbook/assets/image (25).png>)                                 | B (bottom middle)     |
-| ![B](<../../../../.gitbook/assets/image (11).png>)                                 | C (bottom right)      |
-| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="original"> | Y (top middle)        |
-| <img src="../../../../.gitbook/assets/image (43).png" alt="" data-size="line">     | A (bottom left)       |
+| ![A](<../../../../.gitbook/assets/image (27).png>)                                 | B (bottom middle)     |
+| ![B](<../../../../.gitbook/assets/image (13).png>)                                 | C (bottom right)      |
+| <img src="../../../../.gitbook/assets/image (47).png" alt="" data-size="original"> | Y (top middle)        |
+| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="line">     | A (bottom left)       |
 | LB (L1)                                                                            | X (top left)          |
 | RB (R1)                                                                            | Z (top right)         |
 

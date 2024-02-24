@@ -16,7 +16,7 @@ The Subpages of the wiki contain information on controllers that have been teste
 {% tab title="GAMEPADS" %}
 The best way to play Game Console games.
 
-![](<../../.gitbook/assets/image (21).png>)
+![](<../../.gitbook/assets/image (23).png>)
 
 [GAMEPADS PAGE](gamepads.md)
 {% endtab %}
@@ -24,7 +24,7 @@ The best way to play Game Console games.
 {% tab title="ARACADE STICKS" %}
 The best way to play Arcade games, even more so when you are building a Gaming Cabinet.
 
-![](<../../.gitbook/assets/image (44).png>)
+![](<../../.gitbook/assets/image (46).png>)
 
 [ARCADE STICKS PAGE](arcade-sticks.md)
 {% endtab %}
@@ -32,7 +32,7 @@ The best way to play Arcade games, even more so when you are building a Gaming C
 {% tab title="LIGHTGUNS" %}
 The best way to play Shooting games.
 
-![](<../../.gitbook/assets/image (5).png>)
+![](<../../.gitbook/assets/image (7).png>)
 
 [LIGHTGUNS PAGE](lightguns/)
 {% endtab %}
@@ -40,7 +40,7 @@ The best way to play Shooting games.
 {% tab title="KEYBOARD" %}
 The best way to play old computer games & Click'n'play games.
 
-![](<../../.gitbook/assets/image (27).png>)
+![](<../../.gitbook/assets/image (29).png>)
 
 [KEYBOARD PAGE](keyboard.md)
 {% endtab %}

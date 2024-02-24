@@ -100,7 +100,7 @@ For the FAVORITE collection, you need to flage your favorite games, this can be 
 </div>
 
 {% hint style="info" %}
-You can also add a game to the Favorites list by highlighting the game in the Game View and long-press ![](<../.gitbook/assets/image (45).png>)
+You can also add a game to the Favorites list by highlighting the game in the Game View and long-press ![](<../.gitbook/assets/image (47).png>)
 {% endhint %}
 
 In addition, Favorite games can also be displayed at the top of the list in the [Game View](system-view-and-game-view.md).
@@ -159,7 +159,7 @@ The **COLLECTIONS** item contains the list of your collections, including the on
 
 </div>
 
-The next step is to add games to the newly created collection, to do so, highlight a game in the [Game View](system-view-and-game-view.md) and long-press ![](<../.gitbook/assets/image (25).png>) to show the [Game Options](game-options.md) menu and in the **COLLECTIONS** part select the collections in which the game must be added.
+The next step is to add games to the newly created collection, to do so, highlight a game in the [Game View](system-view-and-game-view.md) and long-press ![](<../.gitbook/assets/image (27).png>) to show the [Game Options](game-options.md) menu and in the **COLLECTIONS** part select the collections in which the game must be added.
 
 <div align="left">
 

@@ -29,8 +29,8 @@ Game Console - Lifespan: 1985 - 1996
 | -------------------------------------------------- | ----------------------------- |
 | SELECT / BACK                                      | PAUSE (button on the console) |
 | D-PAD, left stick                                  | D-PAD                         |
-| ![A](<../../../../.gitbook/assets/image (25).png>) | 1 / START                     |
-| ![B](<../../../../.gitbook/assets/image (11).png>) | 2                             |
+| ![A](<../../../../.gitbook/assets/image (27).png>) | 1 / START                     |
+| ![B](<../../../../.gitbook/assets/image (13).png>) | 2                             |
 
 <div align="left">
 

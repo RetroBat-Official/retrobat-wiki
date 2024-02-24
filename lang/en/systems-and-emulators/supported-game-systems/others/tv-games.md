@@ -29,10 +29,10 @@ TV Games controls are specific to each game, no standard mapping is possible, MA
 | D-PAD                                          | Stick        |
 | Left analog stick                              | Stick        |
 | Reft analog stick                              |              |
-| ![](<../../../.gitbook/assets/image (43).png>) | 3            |
-| ![](<../../../.gitbook/assets/image (25).png>) | 1            |
-| ![](<../../../.gitbook/assets/image (11).png>) | 2            |
-| ![](<../../../.gitbook/assets/image (45).png>) | 4            |
+| ![](<../../../.gitbook/assets/image (45).png>) | 3            |
+| ![](<../../../.gitbook/assets/image (27).png>) | 1            |
+| ![](<../../../.gitbook/assets/image (13).png>) | 2            |
+| ![](<../../../.gitbook/assets/image (47).png>) | 4            |
 | L1                                             | 5            |
 | R1                                             | 6            |
 | L2                                             |              |

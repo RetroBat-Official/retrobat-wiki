@@ -73,10 +73,10 @@ The following controllers can be autoconfigured from Retrobat to RPCS3:
 | D-PAD                                                                              | D-PAD              |
 | Left analog stick                                                                  | Left analog stick  |
 | Right analog stick                                                                 | Right analog stick |
-| ![A](<../../../../.gitbook/assets/image (25).png>)                                 | Cross              |
-| ![B](<../../../../.gitbook/assets/image (11).png>)                                 | Circle             |
-| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="original"> | Triangle           |
-| <img src="../../../../.gitbook/assets/image (43).png" alt="" data-size="line">     | Square             |
+| ![A](<../../../../.gitbook/assets/image (27).png>)                                 | Cross              |
+| ![B](<../../../../.gitbook/assets/image (13).png>)                                 | Circle             |
+| <img src="../../../../.gitbook/assets/image (47).png" alt="" data-size="original"> | Triangle           |
+| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="line">     | Square             |
 | L1                                                                                 | L1                 |
 | R1                                                                                 | R1                 |
 | L2                                                                                 | L2                 |

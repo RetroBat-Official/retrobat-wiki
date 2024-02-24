@@ -38,10 +38,10 @@ You can create your own mapping directly in the dolphin-triforce emulator.
 | D-PAD                                                                              | D-PAD                    |
 | Analog Stick - Left                                                                | Analog Stick - Left      |
 | Analog Stick - Right                                                               | Analog Stick  - C-Stick  |
-| ![A](<../../../../.gitbook/assets/image (25).png>)                                 | A                        |
-| ![B](<../../../../.gitbook/assets/image (11).png>)                                 | X                        |
-| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="original"> | Y (RESET)                |
-| <img src="../../../../.gitbook/assets/image (43).png" alt="" data-size="line">     | B                        |
+| ![A](<../../../../.gitbook/assets/image (27).png>)                                 | A                        |
+| ![B](<../../../../.gitbook/assets/image (13).png>)                                 | X                        |
+| <img src="../../../../.gitbook/assets/image (47).png" alt="" data-size="original"> | Y (RESET)                |
+| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="line">     | B                        |
 | RB (R1)                                                                            | Z (extra credit)         |
 | LT (L2)                                                                            | L                        |
 | RT (R2)                                                                            | R                        |

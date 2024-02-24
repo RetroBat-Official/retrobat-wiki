@@ -27,7 +27,7 @@ The game options menu is disabled as is the ability to flag and unflag games as 
 ### Return to Full mode
 
 You can disable the kiosk or kid mode by entering the following pad sentence :\
-A A A B A ![](<../.gitbook/assets/image (11).png>) ![](<../.gitbook/assets/image (11).png>) ![](<../.gitbook/assets/image (11).png>) ![](<../.gitbook/assets/image (25).png>) ![](<../.gitbook/assets/image (11).png>)
+A A A B A ![](<../.gitbook/assets/image (13).png>) ![](<../.gitbook/assets/image (13).png>) ![](<../.gitbook/assets/image (13).png>) ![](<../.gitbook/assets/image (27).png>) ![](<../.gitbook/assets/image (13).png>)
 
 Alternatively, you can edit the `retrobat.ini` file located in your retrobat folder and set the value "**InterfaceMode**" to 0:
 

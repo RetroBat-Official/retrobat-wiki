@@ -12,7 +12,7 @@ You can test you Gamepad [HERE](https://gamepad-tester.com/) to check if it is d
 
 ### 8bitdo controllers <a href="#bitdo_controllers" id="bitdo_controllers"></a>
 
-![](<../../.gitbook/assets/image (9).png>)
+![](<../../.gitbook/assets/image (11).png>)
 
 8bitdo Bluetooth controllers have been reported to work perfectly with Retrobat.
 
@@ -28,7 +28,7 @@ When using a wired 8bitdo controller, the switch between XInput and sdl is done 
 
 ### XBox controllers (or any XInput controller)
 
-![](<../../.gitbook/assets/image (3).png>)![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (5).png>)![](<../../.gitbook/assets/image (3).png>)
 
 For wired Xbox controllers, the connection to windows and setup in Retrobat will be plug'n'play.
 
@@ -38,7 +38,7 @@ All controllers introduced before the Xbox One S (Xbox 360, Xbox One controllers
 
 ### Nintendo Switch Pro controller
 
-![](<../../.gitbook/assets/image (13).png>)
+![](<../../.gitbook/assets/image (15).png>)
 
 The Switch Pro controller will be ideal for use in CEMU (WiiU emulator) or Yuzu (Switch emulator) as it is natively compatible with these emulators and it will support motion control for games that require motion.
 
@@ -48,12 +48,12 @@ Some emulators are reported to not record correctly the inputs with this control
 
 ### Playstation 5 controller (DualSense)
 
-![](<../../.gitbook/assets/image (36).png>)
+![](<../../.gitbook/assets/image (38).png>)
 
 DualSense controllers supports motion and is reported to work natively with Retrobat.
 
 ### Playstation 4 controller (DualShock 4)
 
-![](<../../.gitbook/assets/image (35).png>)
+![](<../../.gitbook/assets/image (37).png>)
 
 DS4 controllers supports motion and is reported to work natively with Retrobat.

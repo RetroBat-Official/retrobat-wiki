@@ -31,10 +31,10 @@ No BIOS required.
 | D-PAD                                          | D-PAD       |
 | Left analog stick                              | DIRECTIONS  |
 | Right analog stick                             |             |
-| ![](<../../../.gitbook/assets/image (43).png>) | Attack      |
-| ![](<../../../.gitbook/assets/image (25).png>) | Jump        |
-| ![](<../../../.gitbook/assets/image (11).png>) | Attack 2    |
-| ![](<../../../.gitbook/assets/image (45).png>) | Special     |
+| ![](<../../../.gitbook/assets/image (45).png>) | Attack      |
+| ![](<../../../.gitbook/assets/image (27).png>) | Jump        |
+| ![](<../../../.gitbook/assets/image (13).png>) | Attack 2    |
+| ![](<../../../.gitbook/assets/image (47).png>) | Special     |
 | L1                                             | Attack 4    |
 | R1                                             | Attack 3    |
 | L2                                             |             |

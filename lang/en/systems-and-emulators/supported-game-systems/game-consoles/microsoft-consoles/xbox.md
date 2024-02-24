@@ -45,10 +45,10 @@ You can download dokan v2 from here:\
 | D-PAD                                                                              | D-PAD              |
 | Left analog stick                                                                  | Left analog stick  |
 | Right analog stick                                                                 | Right analog stick |
-| ![A](<../../../../.gitbook/assets/image (25).png>)                                 | A                  |
-| ![B](<../../../../.gitbook/assets/image (11).png>)                                 | B                  |
-| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="original"> | Y                  |
-| <img src="../../../../.gitbook/assets/image (43).png" alt="" data-size="line">     | X                  |
+| ![A](<../../../../.gitbook/assets/image (27).png>)                                 | A                  |
+| ![B](<../../../../.gitbook/assets/image (13).png>)                                 | B                  |
+| <img src="../../../../.gitbook/assets/image (47).png" alt="" data-size="original"> | Y                  |
+| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="line">     | X                  |
 | L1                                                                                 | L1 (White)         |
 | R1                                                                                 | R1 (Black)         |
 | L2                                                                                 | LT                 |

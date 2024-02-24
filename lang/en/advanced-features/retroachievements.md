@@ -60,7 +60,7 @@ You can rerun the indexing process from this menu or let the system perform the 
 
 ## Games Retroachievements information
 
-Games that support RetroAchievements have a small trophy icon ![](<../.gitbook/assets/image (16).png>) in the Game View
+Games that support RetroAchievements have a small trophy icon ![](<../.gitbook/assets/image (19).png>) in the Game View
 
 <div align="left">
 
@@ -68,7 +68,7 @@ Games that support RetroAchievements have a small trophy icon ![](<../.gitbook/a
 
 </div>
 
-To display the list of RetroAchievements available for a game, select it and hold the ![A](<../.gitbook/assets/image (25).png>) button, then choose **View this game's Achievements** in the [game options](../navigation/game-options.md) menu
+To display the list of RetroAchievements available for a game, select it and hold the ![A](<../.gitbook/assets/image (27).png>) button, then choose **View this game's Achievements** in the [game options](../navigation/game-options.md) menu
 
 <div align="left">
 

@@ -92,7 +92,7 @@ Select **CONTENT DOWNLOADER**
 
 <figure><img src="https://i.imgur.com/PysJTCL.png" alt=""><figcaption></figcaption></figure>
 
-Use LEFT and RIGHT to change categories and UP and DOWN to navigate the list and choose the content to install, press ![](<../.gitbook/assets/image (25).png>) to install
+Use LEFT and RIGHT to change categories and UP and DOWN to navigate the list and choose the content to install, press ![](<../.gitbook/assets/image (27).png>) to install
 
 <div align="left">
 
@@ -124,7 +124,7 @@ Select **THEMES** to access the **THEME DOWNLOADER**
 
 </div>
 
-Navigate to the theme you want to install and press ![](<../.gitbook/assets/image (25).png>) to install
+Navigate to the theme you want to install and press ![](<../.gitbook/assets/image (27).png>) to install
 
 <div align="left">
 

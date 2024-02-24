@@ -33,10 +33,10 @@ Game Console - Lifespan: 1994 - 1998
 | START                                             | RUN       |
 | SELECT                                            | SELECT    |
 | D-PAD, Left analog stick                          | D-PAD     |
-| ![](<../../../../.gitbook/assets/image (43).png>) | III       |
-| ![](<../../../../.gitbook/assets/image (25).png>) | II        |
-| ![](<../../../../.gitbook/assets/image (11).png>) | I         |
-| ![](<../../../../.gitbook/assets/image (45).png>) | V         |
+| ![](<../../../../.gitbook/assets/image (45).png>) | III       |
+| ![](<../../../../.gitbook/assets/image (27).png>) | II        |
+| ![](<../../../../.gitbook/assets/image (13).png>) | I         |
+| ![](<../../../../.gitbook/assets/image (47).png>) | V         |
 | L1                                                | IV        |
 | R1                                                | VI        |
 

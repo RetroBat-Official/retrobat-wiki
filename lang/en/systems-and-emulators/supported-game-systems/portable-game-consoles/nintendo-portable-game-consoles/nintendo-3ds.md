@@ -49,10 +49,10 @@ Libretro core can also be set to use the right joystick for the touchpad screen.
 | D-PAD                                                                              | D-PAD                              |
 | Left analog stick                                                                  | Left stick                         |
 | Right analog stick                                                                 | touchscreen cursor or c-stick      |
-| ![A](<../../../../.gitbook/assets/image (25).png>)                                 | B                                  |
-| ![B](<../../../../.gitbook/assets/image (11).png>)                                 | A                                  |
-| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="original"> | X                                  |
-| <img src="../../../../.gitbook/assets/image (43).png" alt="" data-size="line">     | Y                                  |
+| ![A](<../../../../.gitbook/assets/image (27).png>)                                 | B                                  |
+| ![B](<../../../../.gitbook/assets/image (13).png>)                                 | A                                  |
+| <img src="../../../../.gitbook/assets/image (47).png" alt="" data-size="original"> | X                                  |
+| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="line">     | Y                                  |
 | L1                                                                                 | L                                  |
 | R1                                                                                 | R                                  |
 | L2                                                                                 | ZL                                 |

@@ -79,10 +79,10 @@ The following controllers can be autoconfigured from RetroBat to Dolphin:
 | D-PAD                                                                              | D-PAD                    |
 | Analog Stick - Left                                                                | Analog Stick - Left      |
 | Analog Stick - Right                                                               | Analog Stick  - C-Stick  |
-| ![A](<../../../../.gitbook/assets/image (25).png>)                                 | B                        |
-| ![B](<../../../../.gitbook/assets/image (11).png>)                                 | A                        |
-| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="original"> | X                        |
-| <img src="../../../../.gitbook/assets/image (43).png" alt="" data-size="line">     | Y                        |
+| ![A](<../../../../.gitbook/assets/image (27).png>)                                 | B                        |
+| ![B](<../../../../.gitbook/assets/image (13).png>)                                 | A                        |
+| <img src="../../../../.gitbook/assets/image (47).png" alt="" data-size="original"> | X                        |
+| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="line">     | Y                        |
 | RB (R1)                                                                            | Z                        |
 | LT (L2)                                                                            | L                        |
 | RT (R2)                                                                            | R                        |

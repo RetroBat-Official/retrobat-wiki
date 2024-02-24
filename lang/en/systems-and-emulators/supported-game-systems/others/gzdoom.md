@@ -50,7 +50,7 @@ To do so, precise which game the mod will use (the mian iwad file), and which mo
 \
 An exemple, using "10 sectors" mod :\
 \
-![](<../../../.gitbook/assets/image (49).png>)\
+![](<../../../.gitbook/assets/image (51).png>)\
 \
 then, starting the games using the file `"10sector.gzdoom"` will start the according mod.
 
