@@ -84,7 +84,7 @@ L'option peut être nommée différemment en fonction des systèmes.
 
 ### WiiMote & Mayflash DolphinBar
 
-![](<../../../.gitbook/assets/image (30).png>)![](<../../../.gitbook/assets/image (17).png>)
+![](<../../../.gitbook/assets/image (29).png>)![](<../../../.gitbook/assets/image (17).png>)
 
 Il est possible de profiter de ses jeux de tirs avec une Wiimote associée à une Mayflash Dolphinbar.
 
