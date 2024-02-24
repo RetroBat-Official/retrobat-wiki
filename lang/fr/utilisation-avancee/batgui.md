@@ -13,14 +13,13 @@ BatGui est un utilitaire disponible dans le dossier d'installation de Retrobat.
 * de gérer les paramètres disponibles dans le fichier [retrobat.ini](retrobat.ini.md)
 * de gérer la liste des systèmes (fichier es\_systems\*)
 * de gérer la gamelist d'un système et les métadatas des jeux
-* d'ajouter automatiquement vos jeux [Steam](../systemes-and-emulateurs/supported-game-systems/autres/windows.md#ajouter-un-jeu-steam) à Retrobat
 * de créer automatiquement les fichiers m3u pour [PS3](../systemes-and-emulateurs/supported-game-systems/consoles-de-jeu/sony/playstation-3.md#ajouter-les-jeux) et les jeux [Xbox Live Arcade](../systemes-and-emulateurs/supported-game-systems/consoles-de-jeu/microsoft-consoles-de-jeu/xbox-360.md#ajout-dun-jeu-xbla-xbox-live-arcade)
 * de convertir vos jeux aux formats ISO/CUE vers le format CHD
 * de gérer la bibliothèque SDL (liés aux controlleurs) et de réinitialiser la configuration des manettes
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/n1GeedG.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-02-18_08h02_01.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -30,7 +29,7 @@ Depuis BatGui.exe, il est possible de paramétrer les mêmes éléments que dans
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/bQBN1Ux.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-02-18_08h06_55.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -40,7 +39,7 @@ Depuis ce menu il est possible de modifier le fichier `es_systems.cfg` ou de gé
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/HfiG9lD.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-02-18_08h09_57.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -50,17 +49,7 @@ Depuis ce menu il est possible de mettre à jour le fichier `gamelist.xml` pour 
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/Mjir7uB.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-### Ajouter les jeux de la librairie STEAM
-
-Ce menu permet de générer automatiquement le fichier .bat dans le dossier `\roms\windows` pour [ajouter les jeux de votre librairie STEAM à Retrobat](../systemes-and-emulateurs/supported-game-systems/autres/windows.md#ajouter-un-jeu-steam).
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/w4IotL3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-02-18_08h11_39.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -70,7 +59,7 @@ Ce menu permet la création automatique de fichiers .m3udans les dossiers [`\rom
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/cs7oKVW.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-02-18_08h20_00.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -80,7 +69,7 @@ Cette fonctionnalité permet de convertir les fichiers ISO/CUE au format CHD.
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/B9Qz6bc.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-02-18_08h24_48.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -91,7 +80,7 @@ Il suffit de cliquer sur le bouton "Reset GamePad config", et la configuration n
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/uHLuZaf.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-02-18_08h25_29.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -101,7 +90,7 @@ Si l'essai n'est pas concluant, recommencer avec une autre DLL. &#x20;
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/tw0aDbr.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2024-02-18_08h26_14.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
