@@ -66,11 +66,11 @@ UltraDMD folders need to be placed in the `\roms\vpinball\` folder, do not chang
 
 Tables that are run with the VPinMAME version of the program require an additional .zip file called ROM.
 
-These files need to be placed in the `\emulators\vpinball\VPinMAME\roms` folder :&#x20;
+These files need to be placed in the `\roms\vpinball\roms` folder :&#x20;
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/TpXP6dI.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/kdtB5z4.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
