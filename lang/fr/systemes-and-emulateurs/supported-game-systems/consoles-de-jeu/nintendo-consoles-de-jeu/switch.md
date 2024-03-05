@@ -18,10 +18,6 @@ Console de jeu hybride - durée de vie: 2017 - aujourd'hu
 
 <table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>yuzu</li><li>yuzu early access</li><li>ryujinx</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> switch</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.nso .nro .nca .xci .nsp .kip</td><td></td></tr></tbody></table>
 
-{% hint style="info" %}
-Yuzu Early Access n'est accessible qu'aux PATREON.
-{% endhint %}
-
 ## Fonctionnalités
 
 <table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>Yuzu : NON<br>Ryujinx : NON</td><td>Yuzu : NON<br>Ryujinx : NON</td><td>Yuzu : OUI<br>Ryujinx : OUI</td></tr></tbody></table>
@@ -88,13 +84,13 @@ Pour Ryujinx, effectuer la configuration directement dans l'émulateur.
 
 Toutes les informations relatives à la configuration des émulateurs, leur installation, ou encore à l'extraction (dumping) des jeux sont disponibles sur les sites web des émulateurs:
 
-{% embed url="https://yuzu-emu.org/help/quickstart/" %}
+{% hint style="info" %}
+L'émulateur YUZU n'est plus maintenu par ses créateurs, le site Web n'est plus accessible.
+{% endhint %}
 
 {% embed url="https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide" %}
 
 ### Comment installer YUZU
-
-Suivre le guide disponible sur le site de l'émulateur: [Yuzu website](https://yuzu-emu.org/help/quickstart/#downloading-and-installing-yuzu).
 
 Yuzu est installé par défaut dans le dossier appdata de votre ordinateur:
 
