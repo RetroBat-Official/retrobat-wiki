@@ -18,10 +18,6 @@ Hybrid Game Console - Lifespan: 2017 - present
 
 <table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>yuzu</li><li>yuzu early access</li><li>ryujinx</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> switch</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.nso .nro .nca .xci .nsp .kip</td><td></td></tr></tbody></table>
 
-{% hint style="info" %}
-You need to be a Yuzu Patreon to use Yuzu Early Access.
-{% endhint %}
-
 ## Features
 
 <table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>Yuzu: NO<br>Ryujinx: NO</td><td>Yuzu: NO<br>Ryujinx: NO</td><td>Yuzu: YES<br>Ryujinx: YES</td></tr></tbody></table>
@@ -84,15 +80,15 @@ For Ryujinx, the controller is done directly in the emulator.
 
 All information related to emulator setup, install guide, game dumping guides can be found on the emulator websites.
 
-{% embed url="https://yuzu-emu.org/help/quickstart/" %}
+{% hint style="info" %}
+Yuzu emulator is not maintained anymore.
+{% endhint %}
 
 {% embed url="https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide" %}
 
 ### How-to install Yuzu
 
-To install Yuzu, follow the guide on the [Yuzu website](https://yuzu-emu.org/help/quickstart/#downloading-and-installing-yuzu).
-
-Yuzu will be installed by default in the appdata folder on your computer:
+Yuzu is installed by default in the appdata folder on your computer:
 
 * `Appdata\local\yuzu` for yuzu program executable files
 * `Appdata\roaming\yuzu` for yuzu user data (game saves, settings...)
