@@ -40,4 +40,29 @@ L'exemple suivant contient la version original DOS du jeu:
 
 </div>
 
-Créer un fichier texte dans le même dossier que l'exécutable du jeu puis renommer le fichier avec l'extension ".game".
+Créer un fichier texte dans le même dossier que l'exécutable du jeu puis renommer le fichier avec l'extension ".game".\
+\
+
+
+### Lancer des mods
+
+RetroBat permet le lancement de mods pour TheForceEngine.\
+Les mods doivent être placés dans le dossier `roms\theforceengine\Mods` de RetroBat.
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/2024-03-10_21h13_26.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Pour activer le mod dans RetroBat, créer un fichier texte avec un nom facilement identifiable (ce nom sera affiché dans la liste de jeux RetroBat).
+
+A l'intérieur du fichier .txt, indiquer le nom complet du mod (avec son extension).
+
+Sauvegarder le fichier, et renommer l'extension `.txt` en `.game`
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/2024-03-10_21h36_04.png" alt=""><figcaption></figcaption></figure>
+
+</div>
