@@ -26,6 +26,21 @@ Game Console - Released : 1989
 
 <table><thead><tr><th width="224">bios file</th><th width="169">Folder</th><th>md5</th></tr></thead><tbody><tr><td>syscard3.pce</td><td><code>\bios</code></td><td>38179df8f4ac870017db21ebcbf53114</td></tr></tbody></table>
 
+<details>
+
+<summary>Magic Engine bios list</summary>
+
+To be placed in `emulators\magicengine\cards` folder
+
+* CD-ROM System V1.00 (J).pce
+* CD-ROM System V2.01 (U).pce
+* CD-ROM System V2.10 (J).pce
+* Games Express CD Card 1993 (J).pce
+* Super CD-ROM2 System V3.00 (J).pce
+* Super CD-ROM2 System V3.01 (U).pce
+
+</details>
+
 ## Controls
 
 | Retrobat Button                                   | SuperGrafx key  |
