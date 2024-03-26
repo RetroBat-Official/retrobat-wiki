@@ -16,7 +16,7 @@ description: Elecbyte
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>mugen</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> mugen</td></tr><tr><td><strong>File extension</strong></td><td>.exe .bat .cmd .lnk .url .7z .zip .rar .pc .win .squashfs</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>mugen</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> mugen</td></tr><tr><td><strong>File extension</strong></td><td>.game .pc .win .mugen</td></tr></tbody></table>
 
 ## Bios Information
 
