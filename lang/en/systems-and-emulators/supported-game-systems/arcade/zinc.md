@@ -12,7 +12,7 @@ Playstation hardware arcade games emulator
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>zinc</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> zinc</td></tr><tr><td><strong>File extension</strong></td><td>.zip</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>PSXMame</li><li>Zinc</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> zinc</td></tr><tr><td><strong>File extension</strong></td><td>.zip</td></tr></tbody></table>
 
 ## System Features
 
@@ -22,7 +22,11 @@ Playstation hardware arcade games emulator
 
 No BIOS required.
 
-## Controls
+## Controls - PSXMame
+
+<table><thead><tr><th width="266">Retrobat Button</th><th>PSXMame key</th></tr></thead><tbody><tr><td>START</td><td>Start</td></tr><tr><td>SELECT</td><td>Select / COIN</td></tr><tr><td>D-PAD</td><td>D-PAD</td></tr><tr><td>Left analog stick</td><td>Joystick Left</td></tr><tr><td>Right analog stick</td><td>Joystick Right</td></tr><tr><td><img src="../../../.gitbook/assets/image (45).png" alt=""></td><td>Button 4</td></tr><tr><td><img src="../../../.gitbook/assets/image (27).png" alt=""></td><td>Button 1</td></tr><tr><td><img src="../../../.gitbook/assets/image (13).png" alt=""></td><td>Button 2</td></tr><tr><td><img src="../../../.gitbook/assets/image (47).png" alt=""></td><td>Button 3</td></tr><tr><td>L1</td><td>Button 5</td></tr><tr><td>R1</td><td>Button 6</td></tr><tr><td>L2</td><td></td></tr><tr><td>R2</td><td></td></tr><tr><td>L3 + R3</td><td>Service Menu (player 1 only)</td></tr></tbody></table>
+
+## Controls - ZINC
 
 ### Automatic configuration
 
@@ -47,12 +51,16 @@ RetroBat automatically uses the first .cfg file found for which the name starts 
 
 
 {% hint style="danger" %}
-L'émulateur zinc ne supporte pas le pad directionnel, les mouvements s'effectuent à l'aide du stick gauche de la manette.
+Zinc emulator does not support the d-pad, only axis are recognized on modern gamepads.
 {% endhint %}
 
 ## Specific system information
 
 ### ROMs
+
+{% hint style="danger" %}
+PSXMame and Zinc emulator do not use the same ROMset, games working fine with Zinc might not work with PSXMame and vice-versa.
+{% endhint %}
 
 The list of compatible games can be found [HERE](https://emulation.gametechwiki.com/index.php/ZiNc).
 
