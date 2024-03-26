@@ -74,6 +74,7 @@
       * [Switch](systems-and-emulators/supported-game-systems/game-consoles/nintendo-game-consoles/switch.md)
     * [Philips CD-i](systems-and-emulators/supported-game-systems/game-consoles/philips-cd-i.md)
     * [Odyssey²](systems-and-emulators/supported-game-systems/game-consoles/odyssey.md)
+    * [Othello Multivision](systems-and-emulators/supported-game-systems/game-consoles/multivision.md)
     * [PV-1000](systems-and-emulators/supported-game-systems/game-consoles/pv-1000.md)
     * [Sega (game consoles)](systems-and-emulators/supported-game-systems/game-consoles/sega/README.md)
       * [SG-1000](systems-and-emulators/supported-game-systems/game-consoles/sega/sg-1000.md)
