@@ -210,6 +210,7 @@
     * [Zinc](systems-and-emulators/supported-game-systems/arcade/zinc.md)
   * [Game Engines](systems-and-emulators/supported-game-systems/game-engines/README.md)
     * [EasyRPG](systems-and-emulators/supported-game-systems/game-engines/easyrpg.md)
+    * [GemRB](systems-and-emulators/supported-game-systems/game-engines/gemrb.md)
     * [IKEMEN](systems-and-emulators/supported-game-systems/game-engines/ikemen.md)
     * [Löve](systems-and-emulators/supported-game-systems/game-engines/loeve.md)
     * [Lutro](systems-and-emulators/supported-game-systems/game-engines/lutro.md)
