@@ -230,6 +230,18 @@ To do this, you need to enable the MOTION CONTROL option in the advanced options
 
 </div>
 
+### Gamecube adapter
+
+It is possible to enable the use of a Gamecube controller adapter for the Wii system in Dolphin.
+
+To do so, [follow the procedure described for the GameCube system](gamecube.md#using-a-gamecube-adapter), the option to enable the adapter in RetroBat can be found here:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/Do58907.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 ## Controls (libretro core)
 
 The following list of emulated devices is available in the advanced options:

@@ -91,6 +91,40 @@ The following controllers can be autoconfigured from RetroBat to Dolphin:
 Rumble can be activated in the advanced options.
 {% endhint %}
 
+### Using a Gamecube adapter
+
+Dolphin can be set to use a genuine GameCube controller, to do so, it is necessary to install "Zadig" drivers for the adapter used to connect the GameCube pad:
+
+**1.** Download Zadig here: [https://zadig.akeo.ie/](https://zadig.akeo.ie/)&#x20;
+
+**2.** Run Zadig. Go to `Options`, select `List All Devices`.&#x20;
+
+**3.** Find the relevant device in the device list (e.g. GC adapter - **WUP-028**, Bluetooth adapter - **CSR-XXXX**).&#x20;
+
+**4.** Select the correct driver to replace. **libusbK** is recommended.&#x20;
+
+**5.** Use the down and up **arrows** in the right-hand section to select a driver.&#x20;
+
+**6.** Click `Replace Driver`. This can take a bit, at most 5 minutes. Be patient!&#x20;
+
+**7.** Configure RetroBat to use the Adapter:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/i9238LM.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+If the adapter does not work, it might mean that Dolphin does not currently support the model.
+
+{% hint style="info" %}
+RetroBat is also able to automatically detect the Raphnet and Mayflash adapters.&#x20;
+
+They should ideally be configured with the procedure described above.&#x20;
+
+However, they can be configured by RetroBat without updating the Zadig drivers, in such case, the feature "**USE GAMECUBE ADAPTER**" should **not** be switched ON.
+{% endhint %}
+
 ### Creating a game-specific control profile
 
 It is possible to create a custom controller profile in Dolphin and assign it to a specific game, [follow this guide if required](../../../../controllers/specific\_mapping/dolphin-controller-mapping.md).
