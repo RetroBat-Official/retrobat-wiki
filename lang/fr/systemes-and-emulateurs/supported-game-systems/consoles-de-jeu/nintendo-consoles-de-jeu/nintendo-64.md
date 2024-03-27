@@ -52,6 +52,26 @@ Aucun BIOS nécessaire.
 
 </div>
 
+### Utiliser une manette N64
+
+RetroBat détecte et configure automatiquement les manettes N64 suivantes:
+
+* Manette originale avecadaptateur Raphnet
+* Manette originale avecadaptateur Mayflash
+* Manette N64 Nintendo Switch Online (incompatible avec RetroArch, fonctionne uniquement sur les émulateurs "standalone")
+
+De plus, RMG Mupen64 et Simple64 permettent d'utiliser la fonctionnalité d'accès direct au contrôleur pour l'adaptateur Raphnet, pour cela il est nécessaire de modifier le pilote des manettes dans RetroBat:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/6ZCeSOE.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+{% hint style="info" %}
+Il est important de connecter les manettes de droite à gauche sur l'adaptateur Mayflash, la manette 1 étant celle connectée au port 4 (ou 2 pour les adaptateurs 2 manettes) de l'adaptateur.
+{% endhint %}
+
 ## Information spécifique au système
 
 ### Textures custom
