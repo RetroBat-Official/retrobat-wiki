@@ -30,13 +30,14 @@ Les jeux de tir sont identifiés à l'aide d'une icône "pistolet" apparaissant 
 
 La liste des jeux compatibles est maintenue dans un fichier .xml localisé dans le répertoire d'installation de Retrobat. Il est possible de modifier la liste directement dans le fichier xml si des jeux sont manquants ou identifiés par erreur.
 
-{% hint style="info" %}
+{% hint style="warning" %}
+L'équipe RetroBat ne recommande pas de modifier ce fichier.\
 Conserver une version du fichier modifié afin d'éviter de le perdre lors d'une mise à jour de Retrobat.
 {% endhint %}
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/WrtdDbz.png" alt=""><figcaption><p>le fichier gungames.xml</p></figcaption></figure>
+<figure><img src="https://i.imgur.com/2wr4B4z.png" alt=""><figcaption><p>le fichier gungames.xml</p></figcaption></figure>
 
 </div>
 
@@ -58,19 +59,19 @@ Depuis la **Vue Jeux** ouvrir les [**options d'affichage**](../../../navigation/
 
 </div>
 
-Choisir ensuite **CONTROLS**
+Choisir ensuite **PISTOLETS**
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/PPNKc4V.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/WhOqC4X.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-Puis activer l'option **PISTOLET**
+Puis activer l'option **PISTOLETS**
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/QLc8N1q.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/0oVtDWf.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -127,8 +128,8 @@ Le Sinden Lightgun fonctionne et est détecté par RetroBat, il est cependant n�
 
 Lors de l'utilisation d'un Sinden Lightgun, il est nécessaire de faire apparaître une bordure blanche autour de l'écran. Cette bordure permet à la caméra du pistolet de détecter la cible.
 
-* La bordure apparaît automatiquement pour les cores libretro (RetroArch)
-* Pour les émulateurs "standalones", il est possible de faire apparaître la bordure à l'aide de Reshade, en sélectionnant le shader "sindenborder" dans la liste de shaders disponibles
+* La bordure apparaît automatiquement dans la plupart des cas
+* Pour certains émulateurs "standalones", il est possible de faire apparaître la bordure à l'aide de Reshade, en sélectionnant le shader "sindenborder" dans la liste de shaders disponibles
 
 <div align="left">
 
