@@ -58,6 +58,26 @@ There is no BIOS files needed to run games.
 
 </div>
 
+### Using a N64 controller
+
+RetroBat will automatically detect and configure the following N64 controllers:
+
+* Original N64 pad with Raphnet adapter
+* Original N64 pad with Mayflash adapter
+* Nintendo Switch Online N64 Gamepad (only on standalone emulators, not with RetroArch)
+
+Additionaly, RMG Mupen64 and Simple64 can leverage the Raphnet direct access feature with a dedicated plugin, this can be enabled in RetroBat features:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/q5F7GM3.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+{% hint style="info" %}
+When using Mayflash adapter, controllers must be plugged in reverse order, meaning player 1 will be assigned to the last port of the adapter.
+{% endhint %}
+
 ## Specific System Information
 
 ### Custom textures
