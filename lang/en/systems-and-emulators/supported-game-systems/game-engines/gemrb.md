@@ -2,7 +2,7 @@
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/gemrb.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><picture><source srcset="../../../.gitbook/assets/gemrb.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/gemrb (1).png" alt="GemRB" width="375"></picture><figcaption></figcaption></figure>
 
 </div>
 
