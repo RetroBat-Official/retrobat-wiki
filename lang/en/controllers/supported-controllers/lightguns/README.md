@@ -30,13 +30,15 @@ LightGun compatible games will have a specific icon next to their name in the **
 
 The list of LightGun games is stored in an .xml file inside your Retrobat folder, if you find that some games appear in the list but are not LightGun games, you can remove them from the file and manage your own list
 
-{% hint style="info" %}
+{% hint style="warning" %}
+Edit this file at your own risk.&#x20;
+
 Be sure to save your file version as it might be overwritten by a Retrobat update.
 {% endhint %}
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/WrtdDbz.png" alt=""><figcaption><p>gungames.xml folder</p></figcaption></figure>
+<figure><img src="https://i.imgur.com/2wr4B4z.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -58,11 +60,11 @@ To activate Lightguns for a system, from the **Game View**, open the [View Optio
 
 </div>
 
-Navigate to **CONTROLS**
+Navigate to **GUNS**
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/lbqvjVS.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/0J8HuT2.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -70,15 +72,11 @@ Switch **LIGHTUN** to **ON**
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/rpt8cBZ.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/8jcksZ3.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 The same can be done per game from the [Game Options](../../../navigation/game-options.md) menu and **ADVANCED GAME OPTIONS**
-
-{% hint style="info" %}
-For some systems the option will be directly in the **ADVANCED OPTIONS** list (e.g. 3DO), for other systems the option will be named **LIGHTGUN MODE** (e.g. MAME).
-{% endhint %}
 
 ## Lightgun Devices
 
@@ -127,8 +125,8 @@ The Sinden Lightgun works with RetroBat and should be automatically detected, it
 
 When using Sinden Lightguns, the gun requires a white border to be displayed around the game screen. This border is necessary for the gun to detect the placement of the target on screen.&#x20;
 
-* The border should appear automatically for libretro cores (RetroArch)
-* For "standalone" emulators, RetroBat uses Reshade to manage the boder. For that select the "sindenborder" shader in the list of available shaders in the RetroBat menu:
+* The border should appear automatically for most emulators
+* In some cases, for "standalone" emulators, RetroBat uses Reshade to manage the boder. For that select the "sindenborder" shader in the list of available shaders in the RetroBat menu:
 
 <div align="left">
 
