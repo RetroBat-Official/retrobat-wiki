@@ -95,6 +95,40 @@ Les contrôleurs suivants peuvent être autoconfigurés depuis RetroBat dans Dol
 Il est possible d'activer la fonction "RUMBLE" dans les options avancées.
 {% endhint %}
 
+### Utilisation d'un adaptateur Gamecube
+
+Dolphin permet l'utilisation d'une manette GameCube originale, pour ce faire il est nécessaire d'installer les pilotes "Zadig":
+
+**1.** Télécharge Zadig ici: [https://zadig.akeo.ie/](https://zadig.akeo.ie/)&#x20;
+
+**2.** Lancer Zadig, aller dans `Options`, choisir`List All Devices`.&#x20;
+
+**3.** Trouver l'adapteur GameCub dans la liste des périphériques (exemple: GC adapter - **WUP-028**, Bluetooth adapter - **CSR-XXXX**).&#x20;
+
+**4.** Sélectionner le bon driver à remplacer. **libusbK** est recommandé.&#x20;
+
+**5.** Utiliser les flèches haut/bas sur la droite pour sélectionner le driver.&#x20;
+
+**6.** Cliquer sur`Replace Driver`. Patienter (cela peut prendre 5 minutes).
+
+&#x20;**7.** Paramétrer RetroBat pour utiliser l'adaptateur Gamecube.
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/hz0VYH2.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Si l'adaptateur ne fonctionne pas, il est possible qu'il ne soit pas pris en charge par Dolphin.
+
+{% hint style="info" %}
+RetroBat détecte actuellement de façon automatique les adaptateurs Raphnet et Mayflash, ceux-ci fonctionneront de façon idéale en suivant les étapes précédentes, mais peuvent également être configurés sans utiliser les pilotes zadig par RetroBat, dans ce cas il faut veiller à ne pas activer l'option "**ADAPTATEUR GAMECUBE**".
+{% endhint %}
+
+### Création d'un profil de contrôle spécifique pour un jeu
+
+Il est possible de créer un profil de contrôle spécifique pour un jeu et de l'assigner automatiquement à chaque démarrage, [suivre ce lien pour connaître la procédure.](../../../../controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-dolphin.md)
+
 ## Information spécifique au système
 
 ### Jeux multi-disques

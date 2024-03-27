@@ -230,6 +230,16 @@ Pour cela, activer l'option "MOTION CONTROL" dans les options avancées du syst�
 
 </div>
 
+### Adaptateur Gamecube
+
+L'utilisation d'un adaptateur est possible pour la console Wii, pour cela il faut suivre la [même procédure que pour la Gamecube (ici)](gamecube.md#utilisation-dun-adaptateur-gamecube), l'option pour activer l'adaptateur depuis RetroBat se trouve ici:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/QlxyNja.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 ## Contrôles (Core Libretro)
 
 Le core libretro Dolphin permet de sélectionner parmi les types de contrôleurs suivants:
