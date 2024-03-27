@@ -16,7 +16,7 @@ Portable Game Console - Lifespan: 2004 - 2014
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: ppsspp</li><li>ppsspp</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> psp</td></tr><tr><td><strong>File extension</strong></td><td>.iso .cso .pbp .elf .prx .zip</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: ppsspp</li><li>ppsspp</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> psp</td></tr><tr><td><strong>File extension</strong></td><td>.iso .cso .pbp .elf .prx .chd .zip</td></tr></tbody></table>
 
 ## System Features
 
