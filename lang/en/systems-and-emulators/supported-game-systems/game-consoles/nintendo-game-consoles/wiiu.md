@@ -56,6 +56,18 @@ The following controllers can be autoconfigured from Retrobat to Cemu:
 | L3                                                                                 | Left Thumb  |
 | R3                                                                                 | Right Thumb |
 
+### Playing with Wiimotes
+
+Cemu allows playing with real wiimotes when they are paired with your computer.
+
+To play with wiimote, select the "**REAL WIIMOTES**" option in RetroBat advanced configuration:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/UH3Acs9.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 ### Motion controls
 
 Some Games do require motion control to play in some levels (e.g. Zelda Breath of The Wild contains dungeons which can only be beaten using motion).

@@ -242,6 +242,20 @@ To do so, [follow the procedure described for the GameCube system](gamecube.md#u
 
 </div>
 
+### Lightgun
+
+IIt is possible to play WII games with a lightgun, activate the following option:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/P5JDxup.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+These are the gun controls:
+
+<table><thead><tr><th width="176.33333333333331">Wiimote button</th><th width="220">Gun button</th><th>Keyboard key</th></tr></thead><tbody><tr><td>B</td><td>Trigger</td><td>Mouse left click</td></tr><tr><td>A</td><td></td><td>Mouse right click</td></tr><tr><td>-</td><td></td><td>BACKSPACE</td></tr><tr><td>+</td><td></td><td>RETURN</td></tr><tr><td>D-PAD</td><td></td><td>ARROW KEYS</td></tr><tr><td>1</td><td></td><td>Mouse middle click</td></tr><tr><td>2</td><td></td><td>2</td></tr><tr><td>Shake</td><td></td><td>Mouse middle click</td></tr><tr><td>Nunchuk C</td><td></td><td>Left CTRL</td></tr><tr><td>Nunchuk Z</td><td></td><td>Left SHIFT</td></tr><tr><td>Nunchuk stick</td><td></td><td>WASD</td></tr><tr><td>Nunchuk Shake</td><td></td><td>Mouse middle click</td></tr></tbody></table>
+
 ## Controls (libretro core)
 
 The following list of emulated devices is available in the advanced options:
