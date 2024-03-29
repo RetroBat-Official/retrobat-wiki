@@ -54,7 +54,9 @@ Upon first startup, the emulator will need to be setup, first step is to select 
 
 </div>
 
-**Very important step**, set the pref-path to the `\emulators\vita3k` folder of your RetroBat installation:
+**Important step. The pref path is the location where games will be installed.**&#x20;
+
+Set the pref-path to the path of your choice,  RetroBat will not erase it upon future launch:
 
 <div align="left">
 
@@ -106,7 +108,7 @@ Vita3K currently supports .pkg, NoNpDrm, FAGDec, or manually decrypted games.&#x
 2. The game is in your roms\psvita folder and is not yet installed in vita3k emulator
 
 {% hint style="info" %}
-Games are installed in the `emulators\vita3k\ux0\app` folder of your RetroBat installation.
+Games are installed in the `ux0\app` folder inside the directory that was defined as "pref path".
 {% endhint %}
 
 #### Case 1 : game is already installed in vita3k
