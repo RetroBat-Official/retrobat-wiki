@@ -10,13 +10,13 @@ Arcade
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro : fbneo</li><li>Libretro : fbalpha</li><li>Libretro : fbalpha2012</li><li>Libretro : fbalpha2012_neogeo</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> fbneo</td></tr><tr><td><strong>Extensions</strong></td><td>.fba .zip .chd .7z .bin</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro : fbneo</li><li>Libretro : fbalpha</li><li>Libretro : fbalpha2012</li><li>Libretro : fbalpha2012_neogeo</li><li>FBNeo</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> fbneo</td></tr><tr><td><strong>Extensions</strong></td><td>.fba .zip .chd .7z .bin</td></tr></tbody></table>
 
 ## Fonctionnalités
 
-| Succès Rétro | Parties en Réseau |
-| ------------ | ----------------- |
-| OUI          | OUI               |
+| Succès Rétro                       | Parties en Réseau                  |
+| ---------------------------------- | ---------------------------------- |
+| <p>libretro: OUI<br>FBNeo: NON</p> | <p>libretro: OUI<br>FBNeo: NON</p> |
 
 ## Bios
 
@@ -66,6 +66,32 @@ FBNEO offre le choix entre 2 schémas de contrôle:
 | R2                                             |         | 6      |
 | L3                                             |         |        |
 | R3                                             |         |        |
+
+### Contrôles pour l'émulateur FBNeo standalone
+
+RetroBat permet une configuration des contrôles pour chaque jeu avec l'émulateur FBNEO.
+
+Le fichier contenant les informations pour la configuration des contrôles est disponible dans le dossier `\system\resources\inputmapping`de votre installation RetroBat, il est nommé **fbneo.yml**
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/ueupwNl.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Une explication détaillée de l'utilisation de ce fichier est détaillée en commentaire dans la première partie du fichier.
+
+Voici un exemple de configuration pour le(s) jeu(x) Street Fighter III
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/xqMoXSB.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+La section du fichier .yml est composée des éléments suivants:
+
+<table><thead><tr><th width="208">Valeur</th><th>Description</th></tr></thead><tbody><tr><td>Nom du jeu</td><td>Doit être identique au nom du fichier .zip du jeu (ou aux premiers caractères du fichier du jeu). <br>(exemple. sfiii sera valide pour tous les fichiers de jeux commençant par sfiii, sauf si un mapping a été créé spécifiquement pour une variante du jeu, avec le nom exact du fichier de jeu)</td></tr><tr><td>Nom du contrôle</td><td>Chaque jeu possède des noms de contrôles différents. Ceux-ci peuvent être récupérés dans le fichier .ini du jeu créé dans le dossier<code>\emulators\fbneo\config\games</code> de votre installation RetroBat suite à un premier lancement d'un jeu.<br><br>Ci-dessous un exemple pour sfiii3.ini:<br><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FexdzL60ZuqPLldz2AYta%2Fuploads%2FrqTK9u1NFUsCNZNwMC7H%2Fimage.png?alt=media&#x26;token=4da07df0-ae60-4904-bacf-2aa2d541c0cc" alt=""><br><br>Le nom du contrôle à reporter dans le fichier .yml de RetroBat correspond au nom du contrôle entre guillemets sans l'identifiant du numéro de joueur : par exemple <strong>Weak Punch</strong></td></tr><tr><td>Bouton de la manette</td><td>Le bouton à assigner au contrôle correspond au bouton de votre manette .<br>Les valeurs suivantes sont disponibles:<br><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FexdzL60ZuqPLldz2AYta%2Fuploads%2FR4r9Yf2VktNp57xmY9XG%2Fimage.png?alt=media&#x26;token=3c59b028-2fad-4d82-a0fd-4a1f03d57e6d" alt=""><br>Ces boutons correspondent aux valeurs du fichier gamecontrolledb.txt, ce fichier peut être trouvé dans le dossier <code>\system\tools</code> de votre installation RetroBat.</td></tr></tbody></table>
 
 ## Informations spécifiques au système
 
