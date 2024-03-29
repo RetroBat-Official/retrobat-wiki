@@ -30,10 +30,6 @@ Game Console - Lifespan: 2000 - 2013
 
 <table><thead><tr><th width="379">Bios file</th><th width="347">Folder</th></tr></thead><tbody><tr><td>SCPH-39004_BIOS_V7_EUR_160.BIN</td><td><code>\bios</code></td></tr><tr><td>SCPH-39001_BIOS_V7_USA_160.BIN</td><td><code>\bios</code></td></tr><tr><td>SCPH-70000_BIOS_V12_JAP_200.BIN</td><td><code>\bios</code></td></tr></tbody></table>
 
-{% hint style="info" %}
-For lr-pcsx2, bios files need to be placed in `\bios\pcsx2\bios` folder.
-{% endhint %}
-
 ## Controls
 
 {% hint style="info" %}
