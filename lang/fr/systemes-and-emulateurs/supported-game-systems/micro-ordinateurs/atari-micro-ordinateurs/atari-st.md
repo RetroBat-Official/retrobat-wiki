@@ -42,37 +42,52 @@ Le mapping par défaut est le suivant:
 
 ### Lancer une image disque dur "gemdos"
 
-Hatari permet de charger une image disque dur au format "gemdos", pour cela le fichier de jeu doit être un dossier nommé avec l'extension .gemdos:
+Le coeur libretro Hatari-B permet de charger une image disque dur au format "gemdos", pour cela le fichier de jeu doit être un dossier d'image de disque:
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/NL5pfA9.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/RscLeZw.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Ensuite,créer dans le même dossier un fichier texte vide du même nom que le dossier gemdos, puis sauvegarder le fichier avec l'extension .GEM:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/VAu6Ce9.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 Il est également possible d'automatiquement lancer un programme se trouvant sur le disque dur qui a été monté.
 
-Pour cela, créer un fichier texte nommé de la même façon que le dossier gemdos (sans l'extension gemdos), puis à l'intérieur de ce fichier, spécifier le chemin vers le programme a lancer automatiquement une fois le disque dur monté dans l'émulateur, par exemple:
+Pour cela, créer un fichier texte nommé de la même façon que le dossier gemdos, puis à l'intérieur de ce fichier, spécifier les informations suivantes:
+
+<pre><code>#EXTM3U
+#AUTO:<a data-footnote-ref href="#user-content-fn-1">&#x3C;nom du programme à lancer></a>
+&#x3C;nom du fichier .GEM>
+</code></pre>
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/sP51dpz.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/SvXLkHs.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-Enfin: sauvegarder le fichier avec l'extension ".autorun", dans le même dossier que le gemdos:
+Enfin: sauvegarder le fichier avec l'extension ".m3u", dans le même dossier que le gemdos:
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/jg3Na78.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/03PB7np.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 Dans l'exemple ci-dessus, RetroBat va automatiquement:
 
-* Lancer l'émulateur hatari en montant le disque dur "The New Zealand Story.gemdos" dans l'émulateur
+* Lancer l'émulateur lr-hatarib en montant le disque dur "The New Zealand Story" dans l'émulateur
 * Lancé le programme RUNME.TOS depuis le disque dur (emplacement `C:\AUTO`)
 
 {% hint style="warning" %}
 Les images gemdos nécessitent l'utilisation d'un TOS 2.06 ou de emuTOS pour fonctionner correctement.
 {% endhint %}
+
+[^1]: 
