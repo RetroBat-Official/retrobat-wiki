@@ -1,0 +1,117 @@
+---
+description: Nokia
+---
+
+# N-Gage
+
+<div align="left">
+
+<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/db9685d44d41fa27f869daaba3ab446395ff3485/art/logos/ngage-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/db9685d44d41fa27f869daaba3ab446395ff3485/art/logos/ngage.svg" alt="" width="563"></picture><figcaption></figcaption></figure>
+
+</div>
+
+Console de jeu portable - Durée de vie : 2003 - 2006
+
+{% embed url="https://en.wikipedia.org/wiki/N-Gage_(device)" fullWidth="false" %}
+
+## Information
+
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>eka2l1</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> ngage</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.ngage (format dossier de jeu)</td><td></td></tr></tbody></table>
+
+## Fonctionnalités
+
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td>OUI</td></tr></tbody></table>
+
+## BIOS
+
+<table><thead><tr><th width="187">Fichier BIOS</th><th width="327">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>SYM.ROM</td><td><code>bios\eka2l1\data\roms\NEM-4</code></td><td></td></tr></tbody></table>
+
+## Contrôles
+
+| RetroBat                                                                           | N-Gage                                                 |
+| ---------------------------------------------------------------------------------- | ------------------------------------------------------ |
+| START                                                                              | Touche programmable droite                             |
+| SELECT / BACK                                                                      | Touche programmable gauche                             |
+| D-PAD                                                                              | D-PAD                                                  |
+| Stick analogique gauche                                                            |                                                        |
+| Stick analogique droit                                                             | <p>Haut : 0<br>Gauche : 7<br>Bas : 8<br>Droite : 9</p> |
+| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | 4                                                      |
+| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | 5                                                      |
+| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | 2                                                      |
+| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | 1                                                      |
+| L1                                                                                 | 3                                                      |
+| R1                                                                                 | 6                                                      |
+| L2                                                                                 | Etoile (\*)                                            |
+| R2                                                                                 | Diese (#)                                              |
+| L3                                                                                 | Touche programmable centrale                           |
+| R3                                                                                 | Touche programmable verte                              |
+
+## Information spécifique au système
+
+### Premier démarrage / configuration de l'émulateur
+
+Avant de commencer à utiliser l'émulateur, il est nécessaire de paramétrer le Nokia N-Gage depuis l'émulateur.
+
+{% hint style="info" %}
+Une copie du jeu N-Gage NEM-4 est nécessaire pour réaliser cette étape, RetroBat ne fourni pas ce fichier.
+{% endhint %}
+
+Depuis le menu RetroBat lancez l'émulateur EKA2L1 :
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/8uq6sZD.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Depuis l'émulateur, cliquez sur le menu "paramètres", et dans l'onglet Général du nouveau menu, renseignez le dossier `\bios\eka2l1\data` comme chemin pour les dossiers de données **:**
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/PVxvecz.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Fermer la fenêtre des paramètres et sélectionnez Fichier > installer > Appareil :
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/4YTH5N7.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Naviguez jusqu'a l'emplacement du fichier **SYM.ROM** qui doit être placé dans le dossier `\bios\eka2l1\data\roms\NEM-4` de votre installation RetroBat :
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/mChh9GO.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Cliquez sur "installer" :
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/tI2Pcds.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Vous pouvez désormais quitter l'émulateur.
+
+
+
+### Formats de fichiers acceptés
+
+Jusqu'à maintenant, seuls les vrais jeux N-Gage au format "dossier" (contenant un sous-dossier System > Apps) sont compatibles.
+
+Voici un exemple d'un dossier de jeu tel qu'il doit se présenter dans le dossier  `\roms\ngage` de votre installation RetroBat :
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/wUcyu53.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+{% hint style="info" %}
+N'oubliez pas de renommer le dossier de jeu de façon à ce qu'il finisse par ".ngage" a la fin, dans le cas contraire, il ne serait pas reconnu par RetroBat.
+{% endhint %}
