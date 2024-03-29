@@ -42,39 +42,56 @@ Here is the default mapping.
 
 ### Mounting a "gemdos" hard drive image
 
-Hatari can automatically mount a "gemdos" hdd image within the emulated system, in order to do this, the hdd to mount must be stored in the roms folder with the extension .gemdos:
+Libretro Hatari-B core can automatically mount a "gemdos" hdd image within the emulated system.
+
+In order to do this, the hdd to mount must be stored in the roms folder :
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/NL5pfA9.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/RscLeZw.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-It is also possible to make hatari automatically run one of the program stored on the mounted gemdos HDD image.
-
-To do so, create an empty text file in the roms\atarist folder that is named with the exact same name as the gemdos folder (without the .gemdos extension).&#x20;
-
-In the file, specify the path to the program to run within the mounted image, for example:
+Next, create an empty text file in the same folder, name it with the exact same name as the folder and save it with the .GEM extension:
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/sP51dpz.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/VAu6Ce9.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-Finally: save the text file with the ".autorun" extension and place it in the same folder as the .gemdos image folder:
+Additionnaly, it is possible to make lr-hatarib automatically run one of the program stored on the mounted gemdos HDD image.
+
+To do so, create an empty text file in the roms\atarist folder that is named with the exact same name as the gemdos folder.
+
+In the file, specify the following information:
+
+<pre><code>#EXTM3U
+#AUTO:<a data-footnote-ref href="#user-content-fn-1">&#x3C;name of the program to autorun></a>
+&#x3C;name of the GEM file>
+</code></pre>
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/jg3Na78.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/SvXLkHs.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Finally: save the text file with the ".m3u" extension and place it in the same folder as the image folder and the GEM file:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/03PB7np.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 In this example, RetroBat automatically:
 
-* Launches hatari and mounts the "The New Zealand Story.gemdos" image in the emulated device
+* Launches hatarib and mounts the "The New Zealand Story" image in the emulated device
 * Runs the program RUNME.TOS from the mounted drive (program is located in `C:\AUTO`)
 
 {% hint style="warning" %}
 Running .gemdos folders requires the TOS version 2.06 or emuTOS.
 {% endhint %}
+
+[^1]: 
