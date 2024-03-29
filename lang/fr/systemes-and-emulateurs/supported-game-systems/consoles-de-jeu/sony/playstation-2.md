@@ -30,10 +30,6 @@ Console de jeu - Durée de vie: 2000 - 2013
 
 <table><thead><tr><th width="413">Fichier BIOS</th><th width="555">Dossier</th></tr></thead><tbody><tr><td>SCPH-39004_BIOS_V7_EUR_160.BIN</td><td><code>\bios</code></td></tr><tr><td>SCPH-39001_BIOS_V7_USA_160.BIN</td><td><code>\bios</code></td></tr><tr><td>SCPH-70000_BIOS_V12_JAP_200.BIN</td><td><code>\bios</code></td></tr></tbody></table>
 
-{% hint style="info" %}
-For Libretro:pcsx2, place the BIOS in the`\bios\pcsx2\bios` folder
-{% endhint %}
-
 ## Contrôles
 
 {% hint style="info" %}
