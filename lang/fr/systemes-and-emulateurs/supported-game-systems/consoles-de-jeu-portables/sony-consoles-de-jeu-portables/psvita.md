@@ -54,7 +54,9 @@ Au premier démarrage, l'émulateur a besoin d'être paramétré, la première �
 
 </div>
 
-**Étape très importante,** choisir l'emplacement du répertoire de l'émulateur `\emulators\vita3k` de votre installation RetroBat :
+**Étape importante, définir le "pref-path" : il s'agit de l'emplacement dans lequel les jeux seront installés.**&#x20;
+
+L'emplacement sélectionné à cette étape ne sera pas remplacé ou modifié par RetroBat.
 
 <div align="left">
 
@@ -108,7 +110,7 @@ Le jeu doit être au format .zip ou .vpk pour être installé dans l'émulateur,
 2. Le jeu est dans votre répertoire `roms\psvita` est n'est pas encore installé dans Vita3k
 
 {% hint style="info" %}
-Les jeux sont installés dans le dossier `emulators\vita3k\ux0\app` de votre installation RetroBat.
+Les jeux sont installés dans le dossier`\ux0\app` de l'emplacement "pref-path" défini lors de la configuration initiale de l'émulateur.
 {% endhint %}
 
 #### Cas 1 : Le jeu est déjà installé dans Vita3k
