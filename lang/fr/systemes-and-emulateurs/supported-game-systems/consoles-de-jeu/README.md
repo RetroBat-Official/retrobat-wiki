@@ -1,2 +1,3 @@
 # Consoles de Jeu
 
+Othello

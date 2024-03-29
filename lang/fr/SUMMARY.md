@@ -72,6 +72,7 @@
       * [Wii](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu/nintendo-consoles-de-jeu/wii.md)
       * [WiiU](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu/nintendo-consoles-de-jeu/wiiu.md)
       * [Switch](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu/nintendo-consoles-de-jeu/switch.md)
+    * [Othello Multivision](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu/othello-multivision.md)
     * [Philips CD-i](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu/philips-cd-i.md)
     * [Videopac (Odyssey²)](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu/odyssey.md)
     * [PV-1000](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu/pv-1000.md)

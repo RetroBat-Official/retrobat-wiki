@@ -12,7 +12,7 @@ Emulateur des systèmes arcade Playstation.
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>PSXMame</li><li>zinc</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span>zinc</td></tr><tr><td><strong>Extensions</strong></td><td>.zip</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>zinc</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span>zinc</td></tr><tr><td><strong>Extensions</strong></td><td>.zip</td></tr></tbody></table>
 
 ## Fonctionnalités
 
@@ -22,11 +22,7 @@ Emulateur des systèmes arcade Playstation.
 
 Pas de BIOS requis.
 
-## Contrôles - PSXMame
-
-<table><thead><tr><th width="266">Retrobat</th><th>PSXMame</th></tr></thead><tbody><tr><td>START</td><td>Start</td></tr><tr><td>SELECT</td><td>Select / COIN</td></tr><tr><td>D-PAD</td><td>D-PAD</td></tr><tr><td>Stick analogique gauche</td><td>Joystick gauche</td></tr><tr><td>Stick analogique droit</td><td>Joystick droit</td></tr><tr><td><img src="../../../.gitbook/assets/image (32).png" alt=""></td><td>Bouton 4</td></tr><tr><td><img src="../../../.gitbook/assets/image (19).png" alt=""></td><td>Bouton 1</td></tr><tr><td><img src="../../../.gitbook/assets/image (6).png" alt=""></td><td>Bouton 2</td></tr><tr><td><img src="../../../.gitbook/assets/image (34).png" alt=""></td><td>Bouton 3</td></tr><tr><td>L1</td><td>Bouton 5</td></tr><tr><td>R1</td><td>Bouton 6</td></tr><tr><td>L2</td><td></td></tr><tr><td>R2</td><td></td></tr><tr><td>L3 + R3</td><td>Menu Service (joueur 1 seulement)</td></tr></tbody></table>
-
-## Contrôles - ZINC
+## Contrôles
 
 Il existe 2 possibilités pour la configuration des contrôleurs ZINC.
 
@@ -48,6 +44,8 @@ Il est possible d'utiliser un profil de contrôleur pour chaque jeu, pour cela, 
 
 RetroBat sélectionne automatiquement le premier fichier présent et commençant par l'ID du jeu.
 
+
+
 {% hint style="danger" %}
 L'émulateur zinc ne supporte pas le pad directionnel, les mouvements s'effectuent à l'aide du stick gauche de la manette.
 {% endhint %}
@@ -55,10 +53,6 @@ L'émulateur zinc ne supporte pas le pad directionnel, les mouvements s'effectue
 ## Informations spécifiques au système
 
 ### ROMs
-
-{% hint style="danger" %}
-PSXMame et Zinc n'utilisent pas le même ROMset, les jeux fonctionannt avec Zinc ne fonctionnent pas avec PSXMame et vice-versa.
-{% endhint %}
 
 La liste des jeux compatibles est disponible [ICI](https://emulation.gametechwiki.com/index.php/ZiNc).
 
