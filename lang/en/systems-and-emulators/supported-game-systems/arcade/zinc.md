@@ -28,6 +28,8 @@ No BIOS required.
 
 ## Controls - ZINC
 
+There are 2 ways to configure Zinc controls with zinc emulator.
+
 ### Automatic configuration
 
 Select option "DYNAMIC" in the advanced system settings to enable automatic configuration (CONTROLS submenu).
