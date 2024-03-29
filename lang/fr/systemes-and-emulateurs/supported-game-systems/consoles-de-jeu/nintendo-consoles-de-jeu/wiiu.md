@@ -56,6 +56,18 @@ Les contrôleurs suivants peuvent être autoconfigurés depuis RetroBat dans Dol
 | L3                                                                                 | L3                      |
 | R3                                                                                 | R3                      |
 
+### Jouer avec des wiimotes
+
+Cemu permet de jouer avec de vraies wiimotes si celles-ci sont connectées au PC.
+
+Pour cela, sélectionner l'option "**REAL WIIMOTES**" dans les options avancées du système ou du jeu:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/gKJnnvO.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 ### Contrôle des mouvements (motion control)
 
 Dans certains jeux, il est indispensable d'avoir accès au gyroscope de la manette pour pouvoir avancer (par exemple certains donjons de Zelda Breath of The Wild nécessitent d'effectuer des mouvements avec la manette).

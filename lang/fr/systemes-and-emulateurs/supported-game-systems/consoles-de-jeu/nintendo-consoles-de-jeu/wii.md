@@ -240,6 +240,20 @@ L'utilisation d'un adaptateur est possible pour la console Wii, pour cela il fau
 
 </div>
 
+### Lightgun (pistolet)
+
+Il est possible de jouer au pistolet en activant l'option suivante :
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/llDVUl7.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Les contrôles au gun sont les suivants:
+
+<table><thead><tr><th width="176.33333333333331">Bouton Wiimote</th><th width="220">Bouton gun</th><th>Bouton clavier</th></tr></thead><tbody><tr><td>B</td><td>Gâchette</td><td>Souris gauche</td></tr><tr><td>A</td><td></td><td>Souris droite</td></tr><tr><td>-</td><td></td><td>Retour arrière</td></tr><tr><td>+</td><td></td><td>ENTREE</td></tr><tr><td>D-PAD</td><td></td><td>FLECHES</td></tr><tr><td>1</td><td></td><td>Souris milieu</td></tr><tr><td>2</td><td></td><td>2</td></tr><tr><td>Shake</td><td></td><td>Souris milieu</td></tr><tr><td>Nunchuk C</td><td></td><td>CTRL gauche</td></tr><tr><td>Nunchuk Z</td><td></td><td>MAJ gauche</td></tr><tr><td>Nunchuk stick</td><td></td><td>WASD</td></tr><tr><td>Nunchuk Shake</td><td></td><td>Souris milieu</td></tr></tbody></table>
+
 ## Contrôles (Core Libretro)
 
 Le core libretro Dolphin permet de sélectionner parmi les types de contrôleurs suivants:
