@@ -24,11 +24,9 @@ Game Console - Lifespan: 1994 - 2006
 
 ## BIOS
 
-<table><thead><tr><th width="165">Bios file</th><th width="162">Folder</th><th>md5</th></tr></thead><tbody><tr><td>scph1001.bin</td><td><code>\bios</code></td><td>dc2b9bf8da62ec93e868cfd29f0d067d</td></tr><tr><td>scph5500.bin</td><td><code>\bios</code></td><td>8dd7d5296a650fac7319bce665a6a53c</td></tr><tr><td>scph5501.bin</td><td><code>\bios</code></td><td>490f666e1afb15b7362b406ed1cea246</td></tr><tr><td>scph5502.bin</td><td><code>\bios</code></td><td>32736f17079d0b2b7024407c39bd3050</td></tr><tr><td>scph7001.bin</td><td><code>\bios</code></td><td>1e68c231d0896b7eadcad1d7d8e76129</td></tr></tbody></table>
+<table><thead><tr><th width="177">Bios file</th><th width="162">Folder</th><th>md5</th></tr></thead><tbody><tr><td>psxonpsp660.bin</td><td><code>\bios</code></td><td>c53ca5908936d412331790f4426c6c33</td></tr><tr><td>scph5500.bin</td><td><code>\bios</code></td><td>8dd7d5296a650fac7319bce665a6a53c</td></tr><tr><td>scph5501.bin</td><td><code>\bios</code></td><td>490f666e1afb15b7362b406ed1cea246</td></tr><tr><td>scph5502.bin</td><td><code>\bios</code></td><td>32736f17079d0b2b7024407c39bd3050</td></tr><tr><td>scph7001.bin</td><td><code>\bios</code></td><td>1e68c231d0896b7eadcad1d7d8e76129</td></tr></tbody></table>
 
 ## Controls
-
-RetroBat does support controller auto-configuration for all PSX emulators, libretro cores & Duckstation.
 
 | RetroBat key                                                                       | Playstation key    |
 | ---------------------------------------------------------------------------------- | ------------------ |
