@@ -46,5 +46,17 @@ L'idéal pour les jeux PCs, Click'n'Play, etc.
 
 [La page des Claviers](./#keyboard)
 {% endtab %}
+
+{% tab title="VOLANTS" %}
+L'idéal pour les jeux de course.
+
+<div align="left">
+
+<figure><img src="../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
+
+</div>
+
+[La page sur les volants.](volants.md)
+{% endtab %}
 {% endtabs %}
 
