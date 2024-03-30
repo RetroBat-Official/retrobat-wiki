@@ -100,8 +100,11 @@ For a more modern widescreen resolution you will need to apply a widescreen patc
 
 You can download the widescreen mods [here](https://www.gibberlings3.net/mods/tools/widescreen/).
 
-Follow the instruction of the mod then repeat the step above to change the resolution to the one you specified when applying the widescreen mod. If this resolution is the same than the one of your desktop, you can simply type "desktop" instead of the full resolution.\
+Follow the instruction of the mod then repeat the step above to change the resolution to the one you specified when applying the widescreen mod.
 
+{% hint style="info" %}
+If this resolution is the same than your desktop's, simply type "desktop" instead of the full resolution.
+{% endhint %}
 
 <div align="left">
 
