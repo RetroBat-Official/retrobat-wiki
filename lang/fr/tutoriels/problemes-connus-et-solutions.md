@@ -9,3 +9,13 @@ Si vous rencontrez des problèmes de configuration de vos manettes ou que ces de
 Il faudra à nouveau configurer vos manettes une à une mais cela peut corriger certains problèmes.
 
 {% file src="../.gitbook/assets/es_input.cfg" %}
+
+## PSP: écran noir au démarrage des jeux avec lr-ppsspp
+
+Le core libretro ppsspp n'est pas compatible avec la fonctionnalité de rembobinage, désactiver la fonction pour que les jeux fonctionnent correctement.
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/1r60ZlG.png" alt=""><figcaption></figcaption></figure>
+
+</div>
