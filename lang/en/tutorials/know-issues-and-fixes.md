@@ -9,3 +9,13 @@ If your controller settings become messed-up and you need a clean start, here is
 It contains only standard keyboard settings, you will have to perform again your controller configuration.
 
 {% file src="../.gitbook/assets/es_input.cfg" %}
+
+## PSP black screen when loading content with lr-ppsspp
+
+The Libretro-ppsspp core for PSP is not compatible with the rewind functionality, disable "REWIND" and it should function properly.
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/f5hdMPJ.png" alt=""><figcaption></figcaption></figure>
+
+</div>

@@ -38,7 +38,7 @@ The .boom3 must point to the subfolder and pak000.pk4 file:
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
