@@ -19,3 +19,9 @@ The Libretro-ppsspp core for PSP is not compatible with the rewind functionality
 <figure><img src="https://i.imgur.com/f5hdMPJ.png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+## openBor path error on exit
+
+Unzip the following file in the emulationstation\ folder of your RetroBat installation:
+
+{% file src="../.gitbook/assets/EmulationStation (2).zip" %}
