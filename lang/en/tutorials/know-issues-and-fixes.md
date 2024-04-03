@@ -22,6 +22,14 @@ The Libretro-ppsspp core for PSP is not compatible with the rewind functionality
 
 ## openBor path error on exit
 
-Unzip the following file in the emulationstation\ folder of your RetroBat installation:
+Unzip the emulationstation.zip file below in the emulationstation\ folder of your RetroBat installation.
 
-{% file src="../.gitbook/assets/EmulationStation (2).zip" %}
+## Mame64 controller order error
+
+Unzip the emulationstation.zip file below in the emulationstation\ folder of your RetroBat installation.
+
+## XBox Controller not working in Cemu or Ryujinx
+
+Unzip the emulationstation.zip file below in the emulationstation\ folder of your RetroBat installation.
+
+{% file src="../.gitbook/assets/EmulationStation (3).zip" %}
