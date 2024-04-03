@@ -19,3 +19,17 @@ Le core libretro ppsspp n'est pas compatible avec la fonctionnalité de rembobin
 <figure><img src="https://i.imgur.com/1r60ZlG.png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+## Erreur de "path" en quittant OpenBor
+
+Dézipper le fichier emulationstation.zip ci-dessous dans le dossier emulationstation\ de votre dossier RetroBat.
+
+## Mauvais index contrôleurs dans MAME64
+
+Dézipper le fichier emulationstation.zip ci-dessous dans le dossier emulationstation\ de votre dossier RetroBat.
+
+## Contrôleur Xbox inactif dans Ryujinx et Cemu
+
+Dézipper le fichier emulationstation.zip ci-dessous dans le dossier emulationstation\ de votre dossier RetroBat.
+
+{% file src="../.gitbook/assets/EmulationStation (2).zip" %}
