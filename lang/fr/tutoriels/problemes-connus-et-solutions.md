@@ -2,6 +2,10 @@
 
 Cette section est mise à jour fréquemment, elle contient des solutions / fix temporaires pour les problèmes particuliers en attendant une mise à jour de version RetroBat.
 
+{% hint style="danger" %}
+Attention, les solutions ci-dessous ne sont compatibles uniquement avec la dernière version de RetroBat.
+{% endhint %}
+
 ## Fichier es\_input "propre"
 
 Si vous rencontrez des problèmes de configuration de vos manettes ou que ces dernières fonctionnent bizaremment, vous pouvez copier le fichier ci-dessous dans le dossier `retrobat\emulationstation\.emulationstation` afin de réinitialiser la configuration de vos manettes.
@@ -20,16 +24,14 @@ Le core libretro ppsspp n'est pas compatible avec la fonctionnalité de rembobin
 
 </div>
 
-## Erreur de "path" en quittant OpenBor
+## Autres problèmes connus
 
-Dézipper le fichier emulationstation.zip ci-dessous dans le dossier emulationstation\ de votre dossier RetroBat.
+Pour résoudre tous les problèmes ci-dessou, téléchargez le fichier emulationstation.zip disponible en fin de page et le dézippez-le dans le dossier emulationstation\ de votre dossier RetroBat.
 
-## Mauvais index contrôleurs dans MAME64
-
-Dézipper le fichier emulationstation.zip ci-dessous dans le dossier emulationstation\ de votre dossier RetroBat.
-
-## Contrôleur Xbox inactif dans Ryujinx et Cemu
-
-Dézipper le fichier emulationstation.zip ci-dessous dans le dossier emulationstation\ de votre dossier RetroBat.
+* Erreur de "path" en quittant OpenBOR
+* Mauvais index des contrôleurs dans MAME64
+* Features Chihiro manquantes
+* Contrôle XBOX inactif dans Ryujinx ou Cemu
+* Options Future Pinball ne fonctionnent pas
 
 {% file src="../.gitbook/assets/EmulationStation (2).zip" %}
