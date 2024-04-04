@@ -33,5 +33,6 @@ For all the issues below, download the emulationstation.zip file at the end of t
 * Incorrect MAME64 controller order
 * New XBOX controllers (or ones with new firmware) not working correctly (specifically in Ryujinx or Cemu)
 * Non-working Future Pinball features
+* FBNEO error message
 
 {% file src="../.gitbook/assets/EmulationStation (2).zip" %}
