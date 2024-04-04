@@ -2,6 +2,10 @@
 
 This section is constantly updated with official fixes provided by the Team for specific issues raised by users in our official support channels.
 
+{% hint style="danger" %}
+These fixes are only compatible with the latest version of RetroBat, it might brake old versions.
+{% endhint %}
+
 ## Clean es\_input file
 
 If your controller settings become messed-up and you need a clean start, here is a `es_input.cfg` file that you can copy in your `retrobat\emulationstation\.emulationstation` folder.
@@ -20,16 +24,14 @@ The Libretro-ppsspp core for PSP is not compatible with the rewind functionality
 
 </div>
 
-## openBor path error on exit
+## Other miscellaneous fixes
 
-Unzip the emulationstation.zip file below in the emulationstation\ folder of your RetroBat installation.
+For all the issues below, download the emulationstation.zip file at the end of this page and unzip the full content in the emulationstation\ folder of your RetroBat installation.
 
-## Mame64 controller order error
+* OpenBOR path error on exit
+* Chihiro missing features (with Chihiro emulator)
+* Incorrect MAME64 controller order
+* New XBOX controllers (or ones with new firmware) not working correctly (specifically in Ryujinx or Cemu)
+* Non-working Future Pinball features
 
-Unzip the emulationstation.zip file below in the emulationstation\ folder of your RetroBat installation.
-
-## XBox Controller not working in Cemu or Ryujinx
-
-Unzip the emulationstation.zip file below in the emulationstation\ folder of your RetroBat installation.
-
-{% file src="../.gitbook/assets/EmulationStation (3).zip" %}
+{% file src="../.gitbook/assets/EmulationStation (2).zip" %}
