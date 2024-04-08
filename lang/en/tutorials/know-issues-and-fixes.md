@@ -34,5 +34,6 @@ For all the issues below, download the emulationstation.zip file at the end of t
 * New XBOX controllers (or ones with new firmware) not working correctly (specifically in Ryujinx or Cemu)
 * Non-working Future Pinball features
 * FBNEO error message
+* Ares : controls & shaders not working with v137
 
 {% file src="../.gitbook/assets/EmulationStation (2).zip" %}
