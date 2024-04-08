@@ -33,5 +33,6 @@ Pour résoudre tous les problèmes ci-dessou, téléchargez le fichier emulation
 * Features Chihiro manquantes
 * Contrôle XBOX inactif dans Ryujinx ou Cemu
 * Options Future Pinball ne fonctionnent pas
+* Ares - contrôles et shaders ne fonctionnent pas avec la version 137
 
 {% file src="../.gitbook/assets/EmulationStation (2).zip" %}
