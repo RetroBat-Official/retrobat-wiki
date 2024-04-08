@@ -35,5 +35,6 @@ For all the issues below, download the emulationstation.zip file at the end of t
 * Non-working Future Pinball features
 * FBNEO error message
 * Ares : controls & shaders not working with v137
+* Citra controllers not working with autoconfiguration
 
 {% file src="../.gitbook/assets/EmulationStation (2).zip" %}
