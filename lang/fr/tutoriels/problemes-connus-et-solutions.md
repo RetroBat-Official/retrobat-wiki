@@ -34,5 +34,6 @@ Pour résoudre tous les problèmes ci-dessou, téléchargez le fichier emulation
 * Contrôle XBOX inactif dans Ryujinx ou Cemu
 * Options Future Pinball ne fonctionnent pas
 * Ares - contrôles et shaders ne fonctionnent pas avec la version 137
+* Citra - controllers not working with autoconfiguration
 
 {% file src="../.gitbook/assets/EmulationStation (2).zip" %}
