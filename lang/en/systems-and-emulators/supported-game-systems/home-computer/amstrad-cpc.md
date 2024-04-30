@@ -58,6 +58,10 @@ Cap32 & crocods cores allow you to choose between the following controller types
 | L3                                             |                 |
 | R3                                             |                 |
 
+### Visual keyboard
+
+**cap32** : Press START + ![](<../../../.gitbook/assets/image (45).png>) to display the visual keyboard while running the game.
+
 ## Specific system information
 
 ### Force Cap32 core to use a specific command line when running a game
