@@ -52,6 +52,10 @@ Les cores crocods et cap32 permettent de sélectionner les types de contrôleurs
 | L3                                             |              |
 | R3                                             |              |
 
+### Clavier virtuel
+
+**cap32** : Preser START + ![](<../../../.gitbook/assets/image (32).png>) pour afficher le clavier virtuel.
+
 ## Information spécifique au système
 
 ### Modifier la ligne de commande pour Cap32
