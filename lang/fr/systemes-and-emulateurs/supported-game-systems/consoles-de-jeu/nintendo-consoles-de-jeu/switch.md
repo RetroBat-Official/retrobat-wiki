@@ -16,25 +16,15 @@ Console de jeu hybride - durée de vie: 2017 - aujourd'hu
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>yuzu</li><li>yuzu early access</li><li>ryujinx</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> switch</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.nso .nro .nca .xci .nsp .kip</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>ryujinx</li><li>sudachi</li><li>suyu</li><li>yuzu</li><li>yuzu early access</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> switch</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.nso .nro .nca .xci .nsp .kip</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>Yuzu : NON<br>Ryujinx : NON</td><td>Yuzu : NON<br>Ryujinx : NON</td><td>Yuzu : OUI<br>Ryujinx : OUI</td></tr></tbody></table>
-
-| Succès Rétro | Parties en Réseau |
-| ------------ | ----------------- |
-| NON          | NON               |
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td>Ryujinx: OUI<br>Sudachi: OUI<br>Suyu: OUI<br>Yuzu: OUI</td></tr></tbody></table>
 
 ## BIOS
 
 Il est nécessaire d'extraire le firware et le fichier `prod.keys` de votre console Nintend SWITCH et de les placer dans des répertoires dédiés dans le dossier de l'émulateur:
-
-### Yuzu et Yuzu Early Access
-
-Placer prod.keys dans le dossier `\emulators\yuzu\user\keys`
-
-Placer les fichiers .nca du firmware dans le dossier `\emulators\yuzu\user\nand\system\Contents\registered`
 
 ### Ryujinx
 
@@ -48,10 +38,16 @@ Installer le firmware ryujinx depuis le menu "Tools"
 
 </div>
 
+### Sudachi, Suyu, Yuzu et Yuzu Early Access
+
+Placer prod.keys dans le dossier `\emulators\`<mark style="color:purple;">`<émulateur>`</mark>`\user\keys`
+
+Placer les fichiers .nca du firmware dans le dossier `\emulators\`<mark style="color:purple;">`<émulateur>`</mark>`\user\nand\system\Contents\registered`
+
 ## Contrôles
 
 {% hint style="info" %}
-Les contrôleurs suivants peuvent être autoconfigurés depuis RetroBat dans yuzu ou Ryujinx:
+Les contrôleurs suivants peuvent être autoconfigurés depuis RetroBat dans les émulateurs Switch:
 
 * Contrôleurs XInput
 * Dualshocks & DualSense
@@ -90,60 +86,11 @@ L'émulateur YUZU n'est plus maintenu par ses créateurs, le site Web n'est plus
 
 {% embed url="https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide" %}
 
-### Comment installer YUZU
-
-Yuzu est installé par défaut dans le dossier appdata de votre ordinateur:
-
-* `Appdata\local\yuzu` : contient les fichiers exécutables de l'émulateur
-* `Appdata\roaming\yuzu` contient les données utilisateur (sauvegardes, fichiers de configuration...)
-
-#### Fichiers exécutables
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/P8Pi1Ut.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-Le contenu du répertoire `yuzu-windows-msvc` doit être copié dans le dossier `\emulators\yuzu` de votre installation Retrobat.
-
-{% hint style="info" %}
-Pour Yuzu Early Access, copier le contenu du dossier `yuzu-windows-msvc-early-access` dans le dossier `\emulators\yuzu-early-access` de votre installation Retrobat.
-{% endhint %}
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/fq2gxNH.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-#### Données utilisateur
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/CQhfYCR.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-Les dossiers utilisateurs sont à copierdans `\emulators\yuzu\user`
-
 ### Installer les mises à jour et les DLC des jeux
 
 Yuzu et Ryujinx permettent l'installation de mises à jour et de DLC pour vos jeux.&#x20;
 
 Les mises à jour et les DLC des jeux sont des fichiers au format .nsp que vous devez extraire de votre console SWITCH.
-
-#### Yuzu
-
-Dans Yuzu, aller dans `Files > Install Files to NAND...`
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/B6jQIqZ.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-Dans l'écran suivant, rechercher le fichier .nsp sur votre ordinateur, le sélectionner et sauvegarder pour lancer l'installation.
 
 #### Ryujinx
 
@@ -152,6 +99,18 @@ Depuis la liste de jeux dans Ryujinx, effectuer un clic droit sur le jeu et choi
 <div align="left">
 
 <figure><img src="https://i.imgur.com/uRMjmAE.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Dans l'écran suivant, rechercher le fichier .nsp sur votre ordinateur, le sélectionner et sauvegarder pour lancer l'installation.
+
+#### Sudachi, Suyu, Yuzu
+
+Aller dans `Files > Install Files to NAND...`
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/B6jQIqZ.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
