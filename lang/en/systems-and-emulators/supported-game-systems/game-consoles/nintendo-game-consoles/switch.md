@@ -16,21 +16,15 @@ Hybrid Game Console - Lifespan: 2017 - present
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>yuzu</li><li>yuzu early access</li><li>ryujinx</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> switch</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.nso .nro .nca .xci .nsp .kip</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>ryujinx</li><li>sudachi</li><li>suyu</li><li>yuzu</li><li>yuzu early access</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> switch</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.nso .nro .nca .xci .nsp .kip</td><td></td></tr></tbody></table>
 
 ## Features
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>Yuzu: NO<br>Ryujinx: NO</td><td>Yuzu: NO<br>Ryujinx: NO</td><td>Yuzu: YES<br>Ryujinx: YES</td></tr></tbody></table>
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>Ryujinx: YES<br>Sudachi: YES<br>Suyu: YES<br>Yuzu: YES</td></tr></tbody></table>
 
 ## BIOS
 
 Switch firmware files and prod.keys need to be dumped from your console and placed in dedicated directories in the emulator folders:
-
-### Yuzu and Yuzu Early Access
-
-Place prod.keys file in `\emulators\yuzu\user\keys`
-
-Place firmware .nca files in `\emulators\yuzu\user\nand\system\Contents\registered`
 
 ### Ryujinx
 
@@ -44,10 +38,16 @@ Install firmware directly in the emulator
 
 </div>
 
+### Sudachi, Suyu, Yuzu and Yuzu Early Access
+
+Place prod.keys file in `\emulators\`<mark style="color:purple;">`<emulator>`</mark>`\user\keys`
+
+Place firmware .nca files in `\emulators\`<mark style="color:purple;">`<emulator>`</mark>`\user\nand\system\Contents\registered`
+
 ## Controls
 
 {% hint style="info" %}
-The following controllers can be autoconfigured from Retrobat to Yuzu/Ryujinx:
+The following controllers can be autoconfigured from Retrobat to Switch emulators:
 
 * XInput controllers
 * Dualshock & DualSense controllers
@@ -72,10 +72,6 @@ The following controllers can be autoconfigured from Retrobat to Yuzu/Ryujinx:
 | L3                                                                                 | Left Thumb  |
 | R3                                                                                 | Right Thumb |
 
-{% hint style="info" %}
-For Ryujinx, the controller is done directly in the emulator.
-{% endhint %}
-
 ## Specific system information
 
 All information related to emulator setup, install guide, game dumping guides can be found on the emulator websites.
@@ -86,56 +82,9 @@ Yuzu emulator is not maintained anymore.
 
 {% embed url="https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide" %}
 
-### How-to install Yuzu
-
-Yuzu is installed by default in the appdata folder on your computer:
-
-* `Appdata\local\yuzu` for yuzu program executable files
-* `Appdata\roaming\yuzu` for yuzu user data (game saves, settings...)
-
-#### Program executable files
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/P8Pi1Ut.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-The content of the `yuzu-windows-msvc` folder must be copied to the `\emulators\yuzu` directory in your Retrobat folder.
-
-For Early Access, copy the content of the `yuzu-windows-msvc-early-access` must be copied to the `\emulators\yuzu-early-access` directory in your Retrobat folder.
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/fq2gxNH.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-#### User data
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/CQhfYCR.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-User data must be copied to the `\emulators\yuzu\user` folder of your RetroBat installation.
-
 ### Installing game updates
 
 Game updates can be installed both in Yuzu and Ryujinx. They are dumped from your Switch in the format of .nsp files.
-
-#### Yuzu
-
-In Yuzu, go to `Files > Install Files to NAND...`
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/B6jQIqZ.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-The next screen will invite you to search for your update or DLC .nsp file on your computer, just select it and save.
 
 #### Ryujinx
 
@@ -148,3 +97,15 @@ In Ryujinx Game list, right-click the game line and select **Manage Title Update
 </div>
 
 The next screen will invite you to select your update or DLC .nsp file, search for it on your computer, add it and save.
+
+#### Sudachi, Suyu, Yuzu
+
+Go to `Files > Install Files to NAND...`
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/B6jQIqZ.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+The next screen will invite you to search for your update or DLC .nsp file on your computer, just select it and save.
