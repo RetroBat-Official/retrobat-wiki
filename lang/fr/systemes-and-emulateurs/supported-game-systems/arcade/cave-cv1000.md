@@ -16,7 +16,7 @@ Arcade
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro : fbneo</li><li>Libretro : fbalpha</li><li>Libretro : fbalpha2012</li><li>Libretro : mame2003_plus</li><li>Libretro : mame2016</li><li>Libretro : mame</li><li>mame64</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> cave</td></tr><tr><td><strong>Extensions</strong></td><td>.fba .zip .7z</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro : fbneo</li><li>Libretro : fbalpha</li><li>Libretro : fbalpha2012</li><li>Libretro : mame2003_plus</li><li>Libretro : mame2016</li><li>Libretro : mame</li><li>mame64</li><li>demul</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> cave</td></tr><tr><td><strong>Extensions</strong></td><td>.fba .zip .7z</td></tr></tbody></table>
 
 ## Bios
 
