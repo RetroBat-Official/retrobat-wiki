@@ -43,10 +43,10 @@ advision.zip
 | D-PAD                                          | D'PAD                |
 | Left analog stick                              |                      |
 | Right analog stick                             |                      |
-| ![](<../../../.gitbook/assets/image (45).png>) | Y                    |
-| ![](<../../../.gitbook/assets/image (27).png>) | B                    |
-| ![](<../../../.gitbook/assets/image (13).png>) | A                    |
-| ![](<../../../.gitbook/assets/image (47).png>) | X                    |
+| ![](<../../../.gitbook/assets/image (48).png>) | Y                    |
+| ![](<../../../.gitbook/assets/image (30).png>) | B                    |
+| ![](<../../../.gitbook/assets/image (16).png>) | A                    |
+| ![](<../../../.gitbook/assets/image (50).png>) | X                    |
 | L1                                             | L1                   |
 | R1                                             | R1                   |
 | L2                                             | L2                   |

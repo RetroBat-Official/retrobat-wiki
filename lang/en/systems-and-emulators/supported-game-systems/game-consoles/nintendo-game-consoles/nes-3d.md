@@ -4,7 +4,7 @@ description: Nintendo / GeoStudio
 
 # NES 3D
 
-![](<../../../../.gitbook/assets/image (40).png>)
+![](<../../../../.gitbook/assets/image (43).png>)
 
 Emulator
 

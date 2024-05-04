@@ -37,10 +37,10 @@ Use Pad2Key for this system if you need specific mapping, see the [Pad2Key ](../
 | D-PAD                                             | Joystick                                   |
 | Left analog stick                                 | Mouse/paddles                              |
 | Right analog stick                                |                                            |
-| ![](<../../../../.gitbook/assets/image (45).png>) |                                            |
-| ![](<../../../../.gitbook/assets/image (27).png>) | Fire button                                |
-| ![](<../../../../.gitbook/assets/image (13).png>) |                                            |
-| ![](<../../../../.gitbook/assets/image (47).png>) | Space                                      |
+| ![](<../../../../.gitbook/assets/image (48).png>) |                                            |
+| ![](<../../../../.gitbook/assets/image (30).png>) | Fire button                                |
+| ![](<../../../../.gitbook/assets/image (16).png>) |                                            |
+| ![](<../../../../.gitbook/assets/image (50).png>) | Space                                      |
 | L1                                                |                                            |
 | R1                                                |                                            |
 | L2                                                | Escape (RUN/STOP)                          |

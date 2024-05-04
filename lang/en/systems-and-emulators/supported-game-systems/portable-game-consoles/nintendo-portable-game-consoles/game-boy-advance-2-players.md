@@ -33,10 +33,10 @@ Same BIOS as Game Boy Advance system.
 | D-PAD                                                                              | D-PAD                 |
 | Left analog stick                                                                  | D-PAD                 |
 | Right analog stick                                                                 |                       |
-| ![A](<../../../../.gitbook/assets/image (27).png>)                                 | B                     |
-| ![B](<../../../../.gitbook/assets/image (13).png>)                                 | A                     |
-| <img src="../../../../.gitbook/assets/image (47).png" alt="" data-size="original"> | Turbo A               |
-| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="line">     | Turbo B               |
+| ![A](<../../../../.gitbook/assets/image (30).png>)                                 | B                     |
+| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | A                     |
+| <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | Turbo A               |
+| <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | Turbo B               |
 | L1                                                                                 | L                     |
 | R1                                                                                 | R                     |
 | L2                                                                                 | Turbo L               |

@@ -50,7 +50,7 @@ Mods must be copied to the `roms\theforceengine\Mods` folder of your RetroBat in
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

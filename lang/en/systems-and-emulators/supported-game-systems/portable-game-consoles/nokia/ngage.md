@@ -39,10 +39,10 @@ ROM must installed in the emulator first in order to be able to launch a game fr
 | D-PAD                                                                              | D-PAD                                              |
 | Left analog stick                                                                  |                                                    |
 | Right analog stick                                                                 | <p>Up : 0<br>Left : 7<br>Down : 8<br>Right : 9</p> |
-| ![A](<../../../../.gitbook/assets/image (27).png>)                                 | 4                                                  |
-| ![B](<../../../../.gitbook/assets/image (13).png>)                                 | 5                                                  |
-| <img src="../../../../.gitbook/assets/image (47).png" alt="" data-size="original"> | 2                                                  |
-| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="line">     | 1                                                  |
+| ![A](<../../../../.gitbook/assets/image (30).png>)                                 | 4                                                  |
+| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | 5                                                  |
+| <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | 2                                                  |
+| <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | 1                                                  |
 | L1                                                                                 | 3                                                  |
 | R1                                                                                 | 6                                                  |
 | L2                                                                                 | Star (\*)                                          |

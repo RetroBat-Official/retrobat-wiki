@@ -39,10 +39,10 @@ Stylus movement can be simulated with mouse or with right analog stick (if the f
 | D-PAD                                                                              | D-PAD                                                                                 |
 | Left analog stick                                                                  |                                                                                       |
 | Right analog stick                                                                 | Touchscreen joystick                                                                  |
-| ![A](<../../../../.gitbook/assets/image (27).png>)                                 | B                                                                                     |
-| ![B](<../../../../.gitbook/assets/image (13).png>)                                 | A                                                                                     |
-| <img src="../../../../.gitbook/assets/image (47).png" alt="" data-size="original"> | X                                                                                     |
-| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="line">     | Y                                                                                     |
+| ![A](<../../../../.gitbook/assets/image (30).png>)                                 | B                                                                                     |
+| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | A                                                                                     |
+| <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | X                                                                                     |
+| <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | Y                                                                                     |
 | L1                                                                                 | L                                                                                     |
 | R1                                                                                 | R                                                                                     |
 | L2                                                                                 | <p>MelonDS_DS: microphone<br>DesMUme: LID close/open</p>                              |

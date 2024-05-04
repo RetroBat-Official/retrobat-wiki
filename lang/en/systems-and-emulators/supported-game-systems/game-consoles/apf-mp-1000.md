@@ -44,10 +44,10 @@ apfm1000.zip
 | D-PAD                                          | Stick         |
 | Left analog stick                              |               |
 | Right analog stick                             |               |
-| ![](<../../../.gitbook/assets/image (45).png>) | 2             |
-| ![](<../../../.gitbook/assets/image (27).png>) | En            |
-| ![](<../../../.gitbook/assets/image (13).png>) | Cl            |
-| ![](<../../../.gitbook/assets/image (47).png>) | l             |
+| ![](<../../../.gitbook/assets/image (48).png>) | 2             |
+| ![](<../../../.gitbook/assets/image (30).png>) | En            |
+| ![](<../../../.gitbook/assets/image (16).png>) | Cl            |
+| ![](<../../../.gitbook/assets/image (50).png>) | l             |
 | L1                                             | 4             |
 | R1                                             | 3             |
 | L2                                             | 6             |

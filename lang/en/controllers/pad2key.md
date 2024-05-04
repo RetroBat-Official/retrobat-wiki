@@ -28,7 +28,7 @@ Select **EDIT PADTOKEY PROFILE.**
 
 </div>
 
-Select the keys from your controller to assign to a keyboard button and press ![A](<../.gitbook/assets/image (27).png>), a virtual keyboard will appear.&#x20;
+Select the keys from your controller to assign to a keyboard button and press ![A](<../.gitbook/assets/image (30).png>), a virtual keyboard will appear.&#x20;
 
 Select the keyboard key to affect to the pad button and repeat for all required buttons
 
@@ -42,7 +42,7 @@ Once done, **SAVE.**
 
 ### Create a pad2key profile for a **game**
 
-From the Game View long-press ![A](<../.gitbook/assets/image (27).png>) to access the [Game Options](../navigation/game-options.md) menu and select **CREATE PADTOKEY PROFILE.**
+From the Game View long-press ![A](<../.gitbook/assets/image (30).png>) to access the [Game Options](../navigation/game-options.md) menu and select **CREATE PADTOKEY PROFILE.**
 
 <div align="left">
 

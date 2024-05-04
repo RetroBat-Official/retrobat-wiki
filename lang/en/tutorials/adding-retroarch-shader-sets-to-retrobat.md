@@ -51,7 +51,7 @@ Example of shader folders for GLSL:
 
 Let's say you want to add the Shader "advcartoon" to Retrobat, the shader is available both for GLSL and SLANG:
 
-| ![](<../.gitbook/assets/image (18).png>) | ![](<../.gitbook/assets/image (44).png>) |
+| ![](<../.gitbook/assets/image (21).png>) | ![](<../.gitbook/assets/image (47).png>) |
 | ---------------------------------------- | ---------------------------------------- |
 
 The shader is located in the `\retroarch\shaders\shaders_xxxx\cel` folder and is named "advcartoon.glslp".

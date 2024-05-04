@@ -42,10 +42,10 @@ gmaster.zip
 | D-PAD                                          | D-PAD           |
 | Left analog stick                              |                 |
 | Right analog stick                             |                 |
-| ![](<../../../.gitbook/assets/image (45).png>) |                 |
-| ![](<../../../.gitbook/assets/image (27).png>) | A               |
-| ![](<../../../.gitbook/assets/image (13).png>) | B               |
-| ![](<../../../.gitbook/assets/image (47).png>) |                 |
+| ![](<../../../.gitbook/assets/image (48).png>) |                 |
+| ![](<../../../.gitbook/assets/image (30).png>) | A               |
+| ![](<../../../.gitbook/assets/image (16).png>) | B               |
+| ![](<../../../.gitbook/assets/image (50).png>) |                 |
 | L1                                             |                 |
 | R1                                             |                 |
 | L2                                             |                 |

@@ -45,10 +45,10 @@ The following controllers can be autoconfigured from Retrobat to Cemu:
 | D-PAD                                                                              | D-PAD       |
 | Left Analog Stick                                                                  | Left stick  |
 | Right Analog Stick                                                                 | Right stick |
-| ![A](<../../../../.gitbook/assets/image (27).png>)                                 | B           |
-| ![B](<../../../../.gitbook/assets/image (13).png>)                                 | A           |
-| <img src="../../../../.gitbook/assets/image (47).png" alt="" data-size="original"> | X           |
-| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="line">     | Y           |
+| ![A](<../../../../.gitbook/assets/image (30).png>)                                 | B           |
+| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | A           |
+| <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | X           |
+| <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | Y           |
 | LB (L1)                                                                            | L           |
 | RB (R1)                                                                            | R           |
 | L2                                                                                 | ZL          |

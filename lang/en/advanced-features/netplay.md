@@ -38,7 +38,7 @@ Retrobat will need to index games with NetPlay capabilities, this is done from t
 
 ## Joining a NetPlay game
 
-Once NetPlay is activated, when in the System View, use the ![](<../.gitbook/assets/image (47).png>)  button to display NetPlay Games
+Once NetPlay is activated, when in the System View, use the ![](<../.gitbook/assets/image (50).png>)  button to display NetPlay Games
 
 <div align="left">
 

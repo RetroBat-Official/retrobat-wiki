@@ -35,10 +35,10 @@ Game Console - Lifespan: 1976 - 1983
 | D-PAD                                          | <p>UP: forward<br>DOWN: Backward</p>                                              |
 | Left analog stick                              | <p>UP: forward<br>DOWN: Backward</p>                                              |
 | Right analog stick                             | <p>LEFT: Rotate Left<br>RIGHT: Rotate Right<br>UP: Pull Up<br>DOWN: Push Down</p> |
-| ![](<../../../.gitbook/assets/image (45).png>) | Rotate Left                                                                       |
-| ![](<../../../.gitbook/assets/image (27).png>) | Push Down                                                                         |
-| ![](<../../../.gitbook/assets/image (13).png>) | Rotate Right                                                                      |
-| ![](<../../../.gitbook/assets/image (47).png>) | Pull Up                                                                           |
+| ![](<../../../.gitbook/assets/image (48).png>) | Rotate Left                                                                       |
+| ![](<../../../.gitbook/assets/image (30).png>) | Push Down                                                                         |
+| ![](<../../../.gitbook/assets/image (16).png>) | Rotate Right                                                                      |
+| ![](<../../../.gitbook/assets/image (50).png>) | Pull Up                                                                           |
 | L1                                             | Rotate Left                                                                       |
 | R1                                             | Rotate Right                                                                      |
 | L2                                             |                                                                                   |

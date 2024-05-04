@@ -26,7 +26,7 @@ RetroBat has a "missing bios check" function available from the [GAME SETTINGS](
 
 </div>
 
-The missing BIOS appear with a broken chain icon. The ones where the md5 hash is not listed by Retrobat will appear with a ![](<../.gitbook/assets/image (2) (1).png>) icon, however the latter still can work.
+The missing BIOS appear with a broken chain icon. The ones where the md5 hash is not listed by Retrobat will appear with a ![](<../.gitbook/assets/image (5).png>) icon, however the latter still can work.
 
 <div align="left">
 

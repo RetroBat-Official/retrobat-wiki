@@ -32,10 +32,10 @@ There is no BIOS files needed to run games.
 | START                                                                              | START                 |
 | SELECT / BACK                                                                      | SELECT                |
 | D-PAD, left stick                                                                  | D-PAD                 |
-| ![A](<../../../../.gitbook/assets/image (27).png>)                                 | B (bottom middle)     |
-| ![B](<../../../../.gitbook/assets/image (13).png>)                                 | C (bottom right)      |
-| <img src="../../../../.gitbook/assets/image (47).png" alt="" data-size="original"> | Y (top middle)        |
-| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="line">     | A (bottom left)       |
+| ![A](<../../../../.gitbook/assets/image (30).png>)                                 | B (bottom middle)     |
+| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | C (bottom right)      |
+| <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | Y (top middle)        |
+| <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | A (bottom left)       |
 | LB (L1)                                                                            | X (top left)          |
 | RB (R1)                                                                            | Z (top right)         |
 

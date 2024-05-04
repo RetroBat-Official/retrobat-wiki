@@ -50,7 +50,7 @@ Select THE BEZEL PROJECT and choose the system for which you want to download be
 
 </div>
 
-Press ![](<../.gitbook/assets/image (27).png>) and confirm installation.
+Press ![](<../.gitbook/assets/image (30).png>) and confirm installation.
 
 <div align="left">
 

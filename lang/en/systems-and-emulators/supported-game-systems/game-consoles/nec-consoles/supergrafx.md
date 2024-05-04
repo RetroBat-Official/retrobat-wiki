@@ -50,10 +50,10 @@ To be placed in `emulators\magicengine\cards` folder
 | D-PAD                                             | D-PAD           |
 | Left analog stick                                 |                 |
 | Right analog stick                                |                 |
-| ![](<../../../../.gitbook/assets/image (45).png>) | III / II turbo  |
-| ![](<../../../../.gitbook/assets/image (27).png>) | II              |
-| ![](<../../../../.gitbook/assets/image (13).png>) | I               |
-| ![](<../../../../.gitbook/assets/image (47).png>) | IV / I turbo    |
+| ![](<../../../../.gitbook/assets/image (48).png>) | III / II turbo  |
+| ![](<../../../../.gitbook/assets/image (30).png>) | II              |
+| ![](<../../../../.gitbook/assets/image (16).png>) | I               |
+| ![](<../../../../.gitbook/assets/image (50).png>) | IV / I turbo    |
 | L1                                                | V               |
 | R1                                                | VI              |
 | L2                                                |                 |

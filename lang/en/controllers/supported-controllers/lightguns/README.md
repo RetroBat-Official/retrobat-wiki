@@ -10,7 +10,7 @@ There are several lightguns on the market, however, only a few have been tested 
 
 ## Lightgun detection
 
-When a lightgun is connected to the system, a small gun icon appears on the top left corner near the Gamepad icon : ![](<../../../.gitbook/assets/image (10).png>)
+When a lightgun is connected to the system, a small gun icon appears on the top left corner near the Gamepad icon : ![](<../../../.gitbook/assets/image (13).png>)
 
 Also, a crosshair will appear on the screen as well as a collection called **LIGHT GUN** in the **System View**.
 
@@ -82,7 +82,7 @@ The same can be done per game from the [Game Options](../../../navigation/game-o
 
 ### WiiMote & Mayflash DolphinBar
 
-![](<../../../.gitbook/assets/image (41).png>)![](<../../../.gitbook/assets/image (25).png>)
+![](<../../../.gitbook/assets/image (44).png>)![](<../../../.gitbook/assets/image (28).png>)
 
 The Wiimote and DolphinBar is actually a great way to enjoy your Lightgun game library.
 

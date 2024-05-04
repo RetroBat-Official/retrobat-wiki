@@ -37,10 +37,10 @@ Use Pad2Key for this system if you need specific mapping, see the [Pad2Key ](../
 | D-PAD                                             | D-PAD                   |
 | Left analog stick                                 |                         |
 | Right analog stick                                |                         |
-| ![](<../../../../.gitbook/assets/image (45).png>) | Virtual keyboard on/off |
-| ![](<../../../../.gitbook/assets/image (27).png>) | Return key              |
-| ![](<../../../../.gitbook/assets/image (13).png>) | Joystick button         |
-| ![](<../../../../.gitbook/assets/image (47).png>) |                         |
+| ![](<../../../../.gitbook/assets/image (48).png>) | Virtual keyboard on/off |
+| ![](<../../../../.gitbook/assets/image (30).png>) | Return key              |
+| ![](<../../../../.gitbook/assets/image (16).png>) | Joystick button         |
+| ![](<../../../../.gitbook/assets/image (50).png>) |                         |
 | L1                                                | Option key              |
 | R1                                                | Open emulator menu      |
 | L2                                                | Space key               |

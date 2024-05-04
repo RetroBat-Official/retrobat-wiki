@@ -35,10 +35,10 @@ Game Console - Lifespan: 1982 - 1984
 | D-PAD                                          | Stick            |
 | Left analog stick                              | Stick            |
 | Right analog stick                             |                  |
-| ![](<../../../.gitbook/assets/image (45).png>) | 4                |
-| ![](<../../../.gitbook/assets/image (27).png>) | 2                |
-| ![](<../../../.gitbook/assets/image (13).png>) | 1                |
-| ![](<../../../.gitbook/assets/image (47).png>) | 3                |
+| ![](<../../../.gitbook/assets/image (48).png>) | 4                |
+| ![](<../../../.gitbook/assets/image (30).png>) | 2                |
+| ![](<../../../.gitbook/assets/image (16).png>) | 1                |
+| ![](<../../../.gitbook/assets/image (50).png>) | 3                |
 | L1                                             | 6                |
 | R1                                             | 5                |
 | L2                                             | 8                |

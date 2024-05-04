@@ -28,7 +28,7 @@ From the **System View**, different screens can be accessed.
 
 ### Quick Search&#x20;
 
-The quick search menu is displayed by pressing ![](<../.gitbook/assets/image (45).png>). It allows you to search for games.
+The quick search menu is displayed by pressing ![](<../.gitbook/assets/image (48).png>). It allows you to search for games.
 
 <div align="left">
 
@@ -38,7 +38,7 @@ The quick search menu is displayed by pressing ![](<../.gitbook/assets/image (45
 
 ### Navigation bar
 
-The navigation bar is displayed by pressing ![](<../.gitbook/assets/image (13).png>).
+The navigation bar is displayed by pressing ![](<../.gitbook/assets/image (16).png>).
 
 <div align="left">
 
@@ -143,7 +143,7 @@ Now these systems appear individually in the System View.
 
 The **Game View** is where you browse your games and launch them.
 
-To enter **Game View**, select a System or a Collection in the **System View** by using left and right buttons, and press ![](<../.gitbook/assets/image (27).png>).
+To enter **Game View**, select a System or a Collection in the **System View** by using left and right buttons, and press ![](<../.gitbook/assets/image (30).png>).
 
 <div align="left">
 
@@ -153,8 +153,8 @@ To enter **Game View**, select a System or a Collection in the **System View** b
 
 Navigate your games using the Directional PAD.
 
-* Press ![](<../.gitbook/assets/image (27).png>) to run the game (long-press to display [Game Options](game-options.md)).
-* Press ![](<../.gitbook/assets/image (13).png>)to navigate back to the **System View**.
+* Press ![](<../.gitbook/assets/image (30).png>) to run the game (long-press to display [Game Options](game-options.md)).
+* Press ![](<../.gitbook/assets/image (16).png>)to navigate back to the **System View**.
 
 The Gamelist can be displayed in multiple ways, this can be configured from the [VIEW OPTIONS](view-options.md) (press SELECT):
 

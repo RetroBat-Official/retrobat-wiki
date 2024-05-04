@@ -32,8 +32,8 @@ No BIOS required.
 | ----------------------------------------------- | ----------------------------- |
 | SELECT / BACK                                   | PAUSE (button on the console) |
 | D-PAD, left stick                               | D-PAD                         |
-| ![A](<../../../.gitbook/assets/image (27).png>) | B                             |
-| ![B](<../../../.gitbook/assets/image (13).png>) | A                             |
+| ![A](<../../../.gitbook/assets/image (30).png>) | B                             |
+| ![B](<../../../.gitbook/assets/image (16).png>) | A                             |
 
 <div align="left">
 

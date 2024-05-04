@@ -100,10 +100,10 @@ Bluemsx core allows you to choose between the following controller types:
 | D-PAD                                             | D-PAD     |
 | Left analog stick                                 | D-PAD     |
 | Right analog stick                                |           |
-| ![](<../../../../.gitbook/assets/image (45).png>) | Button 3  |
-| ![](<../../../../.gitbook/assets/image (27).png>) | Button 2  |
-| ![](<../../../../.gitbook/assets/image (13).png>) | Button 1  |
-| ![](<../../../../.gitbook/assets/image (47).png>) | Button 4  |
+| ![](<../../../../.gitbook/assets/image (48).png>) | Button 3  |
+| ![](<../../../../.gitbook/assets/image (30).png>) | Button 2  |
+| ![](<../../../../.gitbook/assets/image (16).png>) | Button 1  |
+| ![](<../../../../.gitbook/assets/image (50).png>) | Button 4  |
 | L1                                                | Button 5  |
 | R1                                                | Button 6  |
 | L2                                                | Button 7  |

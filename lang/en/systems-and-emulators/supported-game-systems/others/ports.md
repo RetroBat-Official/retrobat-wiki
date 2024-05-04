@@ -48,7 +48,7 @@ A simple Minecraft clone written in C using modern OpenGL (shaders).
 
 #### Controls
 
-<table><thead><tr><th width="227">Retrobat Button</th><th>craft key</th></tr></thead><tbody><tr><td>SELECT</td><td>Zoom OUT</td></tr><tr><td>D-PAD - UP</td><td>Move forwards</td></tr><tr><td>D-PAD - DOWN</td><td>Move backwards</td></tr><tr><td>D-PAD - LEFT</td><td>Move crosshair left</td></tr><tr><td>D-PAD - RIGHT</td><td>Move crosshair right</td></tr><tr><td>Left analog stick</td><td>Move</td></tr><tr><td>Right analog stick</td><td>Move crosshair</td></tr><tr><td><img src="../../../.gitbook/assets/image (45).png" alt=""></td><td>Destroy Block</td></tr><tr><td><img src="../../../.gitbook/assets/image (47).png" alt=""></td><td>Place Block</td></tr><tr><td><img src="../../../.gitbook/assets/image (13).png" alt=""></td><td>Next Block</td></tr><tr><td><img src="../../../.gitbook/assets/image (27).png" alt=""></td><td>Jump</td></tr><tr><td>L1</td><td>Move left</td></tr><tr><td>R1</td><td>Move right</td></tr><tr><td>L2</td><td>Move crosshair up</td></tr><tr><td>R2</td><td>Move crosshair down</td></tr></tbody></table>
+<table><thead><tr><th width="227">Retrobat Button</th><th>craft key</th></tr></thead><tbody><tr><td>SELECT</td><td>Zoom OUT</td></tr><tr><td>D-PAD - UP</td><td>Move forwards</td></tr><tr><td>D-PAD - DOWN</td><td>Move backwards</td></tr><tr><td>D-PAD - LEFT</td><td>Move crosshair left</td></tr><tr><td>D-PAD - RIGHT</td><td>Move crosshair right</td></tr><tr><td>Left analog stick</td><td>Move</td></tr><tr><td>Right analog stick</td><td>Move crosshair</td></tr><tr><td><img src="../../../.gitbook/assets/image (48).png" alt=""></td><td>Destroy Block</td></tr><tr><td><img src="../../../.gitbook/assets/image (50).png" alt=""></td><td>Place Block</td></tr><tr><td><img src="../../../.gitbook/assets/image (16).png" alt=""></td><td>Next Block</td></tr><tr><td><img src="../../../.gitbook/assets/image (30).png" alt=""></td><td>Jump</td></tr><tr><td>L1</td><td>Move left</td></tr><tr><td>R1</td><td>Move right</td></tr><tr><td>L2</td><td>Move crosshair up</td></tr><tr><td>R2</td><td>Move crosshair down</td></tr></tbody></table>
 
 ### Gong
 
@@ -64,7 +64,7 @@ Mr.Boom is an up to 8 player Bomberman clone ported to the libretro API.
 
 #### Controls
 
-<table><thead><tr><th width="227">Retrobat Button</th><th>mrboom key</th></tr></thead><tbody><tr><td>SELECT</td><td>Add a bomberman bot</td></tr><tr><td>START</td><td>Start game</td></tr><tr><td>D-PAD</td><td>Move</td></tr><tr><td><img src="../../../.gitbook/assets/image (47).png" alt=""></td><td>Jump (while on kangaroo) / join game</td></tr><tr><td><img src="../../../.gitbook/assets/image (13).png" alt=""></td><td>Detonate Bomb / join game</td></tr><tr><td><img src="../../../.gitbook/assets/image (27).png" alt=""></td><td>Drop Bomb / join game</td></tr></tbody></table>
+<table><thead><tr><th width="227">Retrobat Button</th><th>mrboom key</th></tr></thead><tbody><tr><td>SELECT</td><td>Add a bomberman bot</td></tr><tr><td>START</td><td>Start game</td></tr><tr><td>D-PAD</td><td>Move</td></tr><tr><td><img src="../../../.gitbook/assets/image (50).png" alt=""></td><td>Jump (while on kangaroo) / join game</td></tr><tr><td><img src="../../../.gitbook/assets/image (16).png" alt=""></td><td>Detonate Bomb / join game</td></tr><tr><td><img src="../../../.gitbook/assets/image (30).png" alt=""></td><td>Drop Bomb / join game</td></tr></tbody></table>
 
 ### xRick
 
@@ -78,4 +78,4 @@ XRick is an open source implementation of the game "Rick Dangerous".
 
 #### Controls
 
-<table><thead><tr><th width="227">Retrobat</th><th>xRick</th></tr></thead><tbody><tr><td>D-PAD</td><td>Left / Right / Jump / Crouch</td></tr><tr><td><img src="../../../.gitbook/assets/image (13).png" alt=""></td><td>Attack</td></tr></tbody></table>
+<table><thead><tr><th width="227">Retrobat</th><th>xRick</th></tr></thead><tbody><tr><td>D-PAD</td><td>Left / Right / Jump / Crouch</td></tr><tr><td><img src="../../../.gitbook/assets/image (16).png" alt=""></td><td>Attack</td></tr></tbody></table>

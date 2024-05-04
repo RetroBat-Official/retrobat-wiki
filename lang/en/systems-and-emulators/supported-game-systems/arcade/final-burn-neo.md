@@ -49,7 +49,7 @@ For FBNEO and FBALPHA cores, 2 controller layouts are available:
 * CLASSIC
 * MODERN
 
-<table><thead><tr><th width="219">Retrobat Button</th><th>CLASSIC</th><th>MODERN</th></tr></thead><tbody><tr><td>START</td><td>START</td><td>START</td></tr><tr><td>SELECT</td><td>COIN</td><td>COIN</td></tr><tr><td>Left analog stick</td><td>Stick</td><td>Stick</td></tr><tr><td>Right analog stick</td><td></td><td></td></tr><tr><td>D-PAD</td><td>Stick</td><td>Stick</td></tr><tr><td><img src="../../../.gitbook/assets/image (45).png" alt=""></td><td>3</td><td>3</td></tr><tr><td><img src="../../../.gitbook/assets/image (27).png" alt=""></td><td>1</td><td>1</td></tr><tr><td><img src="../../../.gitbook/assets/image (13).png" alt=""></td><td>2</td><td>2</td></tr><tr><td><img src="../../../.gitbook/assets/image (47).png" alt=""></td><td>4</td><td>4</td></tr><tr><td>L1</td><td>5</td><td></td></tr><tr><td>R1</td><td>6</td><td>5</td></tr><tr><td>L2</td><td></td><td></td></tr><tr><td>R2</td><td></td><td>6</td></tr><tr><td>L3</td><td></td><td></td></tr><tr><td>R3</td><td></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="219">Retrobat Button</th><th>CLASSIC</th><th>MODERN</th></tr></thead><tbody><tr><td>START</td><td>START</td><td>START</td></tr><tr><td>SELECT</td><td>COIN</td><td>COIN</td></tr><tr><td>Left analog stick</td><td>Stick</td><td>Stick</td></tr><tr><td>Right analog stick</td><td></td><td></td></tr><tr><td>D-PAD</td><td>Stick</td><td>Stick</td></tr><tr><td><img src="../../../.gitbook/assets/image (48).png" alt=""></td><td>3</td><td>3</td></tr><tr><td><img src="../../../.gitbook/assets/image (30).png" alt=""></td><td>1</td><td>1</td></tr><tr><td><img src="../../../.gitbook/assets/image (16).png" alt=""></td><td>2</td><td>2</td></tr><tr><td><img src="../../../.gitbook/assets/image (50).png" alt=""></td><td>4</td><td>4</td></tr><tr><td>L1</td><td>5</td><td></td></tr><tr><td>R1</td><td>6</td><td>5</td></tr><tr><td>L2</td><td></td><td></td></tr><tr><td>R2</td><td></td><td>6</td></tr><tr><td>L3</td><td></td><td></td></tr><tr><td>R3</td><td></td><td></td></tr></tbody></table>
 
 ### FBNEO standalone controls
 
@@ -75,7 +75,7 @@ Here is an example of mapping provided for Street Fighter III games:
 
 The yml section for a game is structured with the following information:
 
-<table><thead><tr><th width="208">Value</th><th>Description</th></tr></thead><tbody><tr><td>game name</td><td>Must be the name (or beginning of the name) of the game zip file <br>(e.g. sfiii will cover all roms starting with sfiii unless a specific mapping section has been created for the exact game file name)</td></tr><tr><td>Game control label</td><td>Each game has different control name labels. These can be found in the game config .ini file created in the <code>\emulators\fbneo\config\games</code> folder of your RetroBat installation.<br><br>Here is an example for sfiii3.ini:<br><img src="../../../.gitbook/assets/image (1).png" alt=""><br><br>The control names to specify within RetroBat .yml file is the input label without the player ID : for example <strong>Weak Punch</strong></td></tr><tr><td>Gamepad button</td><td>The gamepad button value needs to be the button for which to assign the control on your gamepad.<br>The following values are available:<br><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><br>These button names refer to the gamecontrolledb.txt official names, as reported in the file located in the file located in the <code>\system\tools</code> folder of your RetroBat installation.</td></tr></tbody></table>
+<table><thead><tr><th width="208">Value</th><th>Description</th></tr></thead><tbody><tr><td>game name</td><td>Must be the name (or beginning of the name) of the game zip file <br>(e.g. sfiii will cover all roms starting with sfiii unless a specific mapping section has been created for the exact game file name)</td></tr><tr><td>Game control label</td><td>Each game has different control name labels. These can be found in the game config .ini file created in the <code>\emulators\fbneo\config\games</code> folder of your RetroBat installation.<br><br>Here is an example for sfiii3.ini:<br><img src="../../../.gitbook/assets/image (1).png" alt=""><br><br>The control names to specify within RetroBat .yml file is the input label without the player ID : for example <strong>Weak Punch</strong></td></tr><tr><td>Gamepad button</td><td>The gamepad button value needs to be the button for which to assign the control on your gamepad.<br>The following values are available:<br><img src="../../../.gitbook/assets/image (2).png" alt=""><br>These button names refer to the gamecontrolledb.txt official names, as reported in the file located in the file located in the <code>\system\tools</code> folder of your RetroBat installation.</td></tr></tbody></table>
 
 ## Specific system information
 
@@ -121,7 +121,7 @@ Dip Switches allow to change game specific settings, for example difficulty, aut
 
 They may differ game by game.
 
-The dip switches can be accessed from the RetroArch quick menu, while in game, press SELECT + ![](<../../../.gitbook/assets/image (27).png>)
+The dip switches can be accessed from the RetroArch quick menu, while in game, press SELECT + ![](<../../../.gitbook/assets/image (30).png>)
 
 Go to **CORE OPTIONS**:
 

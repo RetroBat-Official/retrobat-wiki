@@ -31,10 +31,10 @@ No BIOS required.
 | D-PAD                                          | D-PAD                  |
 | Left analog stick                              |                        |
 | Right analog stick                             |                        |
-| ![](<../../../.gitbook/assets/image (45).png>) | Jump                   |
-| ![](<../../../.gitbook/assets/image (27).png>) | Action : shoot / catch |
-| ![](<../../../.gitbook/assets/image (13).png>) | Roll                   |
-| ![](<../../../.gitbook/assets/image (47).png>) | Draw weapon            |
+| ![](<../../../.gitbook/assets/image (48).png>) | Jump                   |
+| ![](<../../../.gitbook/assets/image (30).png>) | Action : shoot / catch |
+| ![](<../../../.gitbook/assets/image (16).png>) | Roll                   |
+| ![](<../../../.gitbook/assets/image (50).png>) | Draw weapon            |
 | L1                                             |                        |
 | R1                                             | Walk                   |
 | L2                                             | Crouch                 |

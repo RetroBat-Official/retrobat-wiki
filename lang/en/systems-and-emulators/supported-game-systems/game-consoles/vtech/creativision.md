@@ -46,10 +46,10 @@ The layout would is unique to each game.
 | D-PAD                                             | Stick        |
 | Left analog stick                                 | Stick        |
 | Right analog stick                                |              |
-| ![](<../../../../.gitbook/assets/image (45).png>) | 2            |
-| ![](<../../../../.gitbook/assets/image (27).png>) | 0            |
-| ![](<../../../../.gitbook/assets/image (13).png>) | 6            |
-| ![](<../../../../.gitbook/assets/image (47).png>) | 1            |
+| ![](<../../../../.gitbook/assets/image (48).png>) | 2            |
+| ![](<../../../../.gitbook/assets/image (30).png>) | 0            |
+| ![](<../../../../.gitbook/assets/image (16).png>) | 6            |
+| ![](<../../../../.gitbook/assets/image (50).png>) | 1            |
 | L1                                                |              |
 | R1                                                | 3            |
 | L2                                                |              |

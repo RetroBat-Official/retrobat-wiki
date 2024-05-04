@@ -16,7 +16,7 @@ Game Console - Lifespan: 2001 - 2007
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>dolphin</li><li>libretro: dolphin</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> gamecube</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.gcz .iso .ciso .wbfs .wad .rvz .wia .m3u</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>dolphin</li><li>libretro: dolphin</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> gamecube</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.gcz .iso .ciso .wbfs .wad .rvz .wia .m3u .zip .7z</td><td></td></tr></tbody></table>
 
 ## Features
 
@@ -79,10 +79,10 @@ The following controllers can be autoconfigured from RetroBat to Dolphin:
 | D-PAD                                                                              | D-PAD                    |
 | Analog Stick - Left                                                                | Analog Stick - Left      |
 | Analog Stick - Right                                                               | Analog Stick  - C-Stick  |
-| ![A](<../../../../.gitbook/assets/image (27).png>)                                 | B                        |
-| ![B](<../../../../.gitbook/assets/image (13).png>)                                 | A                        |
-| <img src="../../../../.gitbook/assets/image (47).png" alt="" data-size="original"> | X                        |
-| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="line">     | Y                        |
+| ![A](<../../../../.gitbook/assets/image (30).png>)                                 | B                        |
+| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | A                        |
+| <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | X                        |
+| <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | Y                        |
 | RB (R1)                                                                            | Z                        |
 | LT (L2)                                                                            | L                        |
 | RT (R2)                                                                            | R                        |

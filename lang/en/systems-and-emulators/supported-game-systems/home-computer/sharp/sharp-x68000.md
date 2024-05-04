@@ -35,10 +35,10 @@ Use [pad2key ](../../../../controllers/pad2key.md)for this system.
 | START                                             | JOY\_TRG6  |
 | SELECT                                            | JOY\_TRG7  |
 | D-PAD, Left analog stick                          | D-PAD      |
-| ![](<../../../../.gitbook/assets/image (45).png>) | JOY\_TRG3  |
-| ![](<../../../../.gitbook/assets/image (27).png>) | JOY\_TRG2  |
-| ![](<../../../../.gitbook/assets/image (13).png>) | JOY\_TRG1  |
-| ![](<../../../../.gitbook/assets/image (47).png>) | JOY\_TRG4  |
+| ![](<../../../../.gitbook/assets/image (48).png>) | JOY\_TRG3  |
+| ![](<../../../../.gitbook/assets/image (30).png>) | JOY\_TRG2  |
+| ![](<../../../../.gitbook/assets/image (16).png>) | JOY\_TRG1  |
+| ![](<../../../../.gitbook/assets/image (50).png>) | JOY\_TRG4  |
 | L1                                                | JOY\_TRG5  |
 | R1                                                | JOY\_TRG8  |
 | L2                                                | Menu       |

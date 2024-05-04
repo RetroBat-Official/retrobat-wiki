@@ -35,10 +35,10 @@ No BIOS required for ATARI 2600.
 | D-PAD                                             | Joystick movement               |
 | Left analog stick                                 |                                 |
 | Right analog stick                                |                                 |
-| ![](<../../../../.gitbook/assets/image (45).png>) |                                 |
-| ![](<../../../../.gitbook/assets/image (27).png>) | Joystick button                 |
-| ![](<../../../../.gitbook/assets/image (13).png>) |                                 |
-| ![](<../../../../.gitbook/assets/image (47).png>) |                                 |
+| ![](<../../../../.gitbook/assets/image (48).png>) |                                 |
+| ![](<../../../../.gitbook/assets/image (30).png>) | Joystick button                 |
+| ![](<../../../../.gitbook/assets/image (16).png>) |                                 |
+| ![](<../../../../.gitbook/assets/image (50).png>) |                                 |
 | L1                                                | Left difficulty b (on console)  |
 | R1                                                | Right difficulty b (on console) |
 | L2                                                | Left difficulty a (on console)  |

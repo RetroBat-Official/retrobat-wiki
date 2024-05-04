@@ -37,10 +37,10 @@ Use Pad2Key for this system if you need specific mapping, see the [Pad2Key ](../
 | D-PAD                                             | Joystick                                                                                                          |
 | Left analog stick                                 | Joystick                                                                                                          |
 | Right analog stick                                | <p>F Keys (keyboard) </p><p>Up: F1 </p><p>Left: F3 </p><p>Right: F5 </p><p>Down: F7</p>                           |
-| ![](<../../../../.gitbook/assets/image (45).png>) | Space (keyboard)                                                                                                  |
-| ![](<../../../../.gitbook/assets/image (27).png>) | Joystick Fire                                                                                                     |
-| ![](<../../../../.gitbook/assets/image (13).png>) | Up or Button 2                                                                                                    |
-| ![](<../../../../.gitbook/assets/image (47).png>) | Turbo Fire Toggle                                                                                                 |
+| ![](<../../../../.gitbook/assets/image (48).png>) | Space (keyboard)                                                                                                  |
+| ![](<../../../../.gitbook/assets/image (30).png>) | Joystick Fire                                                                                                     |
+| ![](<../../../../.gitbook/assets/image (16).png>) | Up or Button 2                                                                                                    |
+| ![](<../../../../.gitbook/assets/image (50).png>) | Turbo Fire Toggle                                                                                                 |
 | L1                                                | Run/Stop (keyboard)                                                                                               |
 | R1                                                | Restore (keyboard)                                                                                                |
 | L2                                                | Warp Speed                                                                                                        |

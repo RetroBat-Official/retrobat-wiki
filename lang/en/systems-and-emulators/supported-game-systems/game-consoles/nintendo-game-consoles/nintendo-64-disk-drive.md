@@ -16,7 +16,7 @@ Game Console - Lifespan: 1999- 2001
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>mupen64 (RMG)</li><li>libretro: mupen64plus next</li><li>libretro: parallel_n64 (only for full NDD games)</li><li>ares</li><li>project64</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> n64dd</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.v64 .z64 .n64 .ndd</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>mupen64 (RMG)</li><li>libretro: mupen64plus next</li><li>libretro: parallel_n64 (only for full NDD games)</li><li>ares</li><li>project64</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> n64dd</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.v64 .z64 .n64 .zip .7z .ndd</td><td></td></tr></tbody></table>
 
 ## System Features
 

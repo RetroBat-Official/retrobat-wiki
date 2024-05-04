@@ -47,10 +47,10 @@ Cap32 & crocods cores allow you to choose between the following controller types
 | D-PAD                                          | D-PAD           |
 | Left analog stick                              | D-PAD           |
 | Right analog stick                             |                 |
-| ![](<../../../.gitbook/assets/image (45).png>) |                 |
-| ![](<../../../.gitbook/assets/image (27).png>) | Fire 2          |
-| ![](<../../../.gitbook/assets/image (13).png>) | Fire 1          |
-| ![](<../../../.gitbook/assets/image (47).png>) |                 |
+| ![](<../../../.gitbook/assets/image (48).png>) |                 |
+| ![](<../../../.gitbook/assets/image (30).png>) | Fire 2          |
+| ![](<../../../.gitbook/assets/image (16).png>) | Fire 1          |
+| ![](<../../../.gitbook/assets/image (50).png>) |                 |
 | L1                                             | cap32: CTRL     |
 | R1                                             | cap32: INTRO    |
 | L2                                             | cap32: F1       |
@@ -60,7 +60,7 @@ Cap32 & crocods cores allow you to choose between the following controller types
 
 ### Visual keyboard
 
-**cap32** : Press START + ![](<../../../.gitbook/assets/image (45).png>) to display the visual keyboard while running the game.
+**cap32** : Press START + ![](<../../../.gitbook/assets/image (48).png>) to display the visual keyboard while running the game.
 
 ## Specific system information
 

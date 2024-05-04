@@ -41,10 +41,10 @@ There is no BIOS files needed to run games.
 | D-PAD                                                                              | D-PAD                       |
 | Analog Stick - Left                                                                | Analog Stick                |
 | Analog Stick - Right                                                               | C-Buttons                   |
-| ![A](<../../../../.gitbook/assets/image (27).png>)                                 | <p>A<br>C-mode: c-down</p>  |
-| ![B](<../../../../.gitbook/assets/image (13).png>)                                 | <p>B<br>C-mode: c-right</p> |
-| <img src="../../../../.gitbook/assets/image (47).png" alt="" data-size="original"> | C-mode: c-up                |
-| <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="line">     | C-mode: c-left              |
+| ![A](<../../../../.gitbook/assets/image (30).png>)                                 | <p>A<br>C-mode: c-down</p>  |
+| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | <p>B<br>C-mode: c-right</p> |
+| <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | C-mode: c-up                |
+| <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | C-mode: c-left              |
 | LB (L1)                                                                            | L                           |
 | RB (R1)                                                                            | R                           |
 | LT (L2)                                                                            | Z                           |

@@ -47,10 +47,10 @@ For FBNEO core:
 | Left analog stick                                 |                |
 | Right analog stick                                |                |
 | D-PAD                                             | D-PAD          |
-| ![](<../../../../.gitbook/assets/image (45).png>) | C              |
-| ![](<../../../../.gitbook/assets/image (27).png>) | A              |
-| ![](<../../../../.gitbook/assets/image (13).png>) | B              |
-| ![](<../../../../.gitbook/assets/image (47).png>) | D              |
+| ![](<../../../../.gitbook/assets/image (48).png>) | C              |
+| ![](<../../../../.gitbook/assets/image (30).png>) | A              |
+| ![](<../../../../.gitbook/assets/image (16).png>) | B              |
+| ![](<../../../../.gitbook/assets/image (50).png>) | D              |
 | L1                                                |                |
 | R1                                                |                |
 | L2                                                |                |

@@ -35,10 +35,10 @@ Automatic controller configuration for Teknoparrot is not fully reliable (yet), 
 | Left analog stick                              | Directions (If analog)   |
 | Right analog stick                             |                          |
 | D-PAD                                          | Directions               |
-| ![](<../../../.gitbook/assets/image (45).png>) | Button 4                 |
-| ![](<../../../.gitbook/assets/image (27).png>) | Button 2 / ExtensionOne2 |
-| ![](<../../../.gitbook/assets/image (13).png>) | Button 1                 |
-| ![](<../../../.gitbook/assets/image (47).png>) | Button 3                 |
+| ![](<../../../.gitbook/assets/image (48).png>) | Button 4                 |
+| ![](<../../../.gitbook/assets/image (30).png>) | Button 2 / ExtensionOne2 |
+| ![](<../../../.gitbook/assets/image (16).png>) | Button 1                 |
+| ![](<../../../.gitbook/assets/image (50).png>) | Button 3                 |
 | L1                                             | Button 5                 |
 | R1                                             | Button 6                 |
 
@@ -60,9 +60,9 @@ Automatic controller configuration for Teknoparrot is not fully reliable (yet), 
 | RightR3 (Right Thumb)                          | Analog 2       |
 | Up                                             | Up             |
 | Down                                           | Down           |
-| ![](<../../../.gitbook/assets/image (13).png>) | Button 1       |
-| ![](<../../../.gitbook/assets/image (27).png>) | ExtensionOne12 |
-| ![](<../../../.gitbook/assets/image (47).png>) | ExtensionOne11 |
+| ![](<../../../.gitbook/assets/image (16).png>) | Button 1       |
+| ![](<../../../.gitbook/assets/image (30).png>) | ExtensionOne12 |
+| ![](<../../../.gitbook/assets/image (50).png>) | ExtensionOne11 |
 
 ## Specific system information
 

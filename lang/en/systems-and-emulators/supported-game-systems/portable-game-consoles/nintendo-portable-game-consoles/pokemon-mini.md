@@ -35,10 +35,10 @@ Game Console - Released: 2001
 | D-PAD                                             | D-PAD        |
 | Left analog stick                                 | D-PAD        |
 | Right analog stick                                |              |
-| ![](<../../../../.gitbook/assets/image (45).png>) |              |
-| ![](<../../../../.gitbook/assets/image (27).png>) | B            |
-| ![](<../../../../.gitbook/assets/image (13).png>) | A            |
-| ![](<../../../../.gitbook/assets/image (47).png>) |              |
+| ![](<../../../../.gitbook/assets/image (48).png>) |              |
+| ![](<../../../../.gitbook/assets/image (30).png>) | B            |
+| ![](<../../../../.gitbook/assets/image (16).png>) | A            |
+| ![](<../../../../.gitbook/assets/image (50).png>) |              |
 | L1                                                |              |
 | R1                                                |              |
 

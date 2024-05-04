@@ -66,10 +66,10 @@ cdibios.zip
 | START                                          | START      |
 | SELECT                                         | SELECT     |
 | D-PAD, Left analog stick                       | D-PAD      |
-| ![](<../../../.gitbook/assets/image (45).png>) | ./..       |
-| ![](<../../../.gitbook/assets/image (27).png>) | . (bottom) |
-| ![](<../../../.gitbook/assets/image (13).png>) | ..         |
-| ![](<../../../.gitbook/assets/image (47).png>) | . (top)    |
+| ![](<../../../.gitbook/assets/image (48).png>) | ./..       |
+| ![](<../../../.gitbook/assets/image (30).png>) | . (bottom) |
+| ![](<../../../.gitbook/assets/image (16).png>) | ..         |
+| ![](<../../../.gitbook/assets/image (50).png>) | . (top)    |
 | L1                                             |            |
 | R1                                             |            |
 
