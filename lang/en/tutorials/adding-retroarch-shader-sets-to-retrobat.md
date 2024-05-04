@@ -99,3 +99,13 @@ The shader set will now appear in Retrobat:
 <figure><img src="https://i.imgur.com/J6fPEFF.png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+Some shaders can be adapted for specific systems, trying to reproduce in a more precise way their effects. It's possible to use different shaders per-systems on the same **rendering-defaults.yml** file**.**\
+For this, adding the name of the system for which the shader should be different from the default one.
+
+<figure><img src="https://i.imgur.com/knv5MPm.png" alt=""><figcaption></figcaption></figure>
+
+Finally, some standalone emulators can also use the retroarch shaders. In this case, the name of the emulator should be add as an additionnal line.\
+
+
+<figure><img src="https://i.imgur.com/AC6PXNK.png" alt=""><figcaption></figcaption></figure>
