@@ -16,7 +16,7 @@ Console de jeu portable - Durée de vie : 2003 - 2006
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>eka2l1</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> ngage</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.ngage (format dossier de jeu)</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>eka2l1</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> ngage</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.ngage .symbian</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
@@ -25,6 +25,10 @@ Console de jeu portable - Durée de vie : 2003 - 2006
 ## BIOS
 
 <table><thead><tr><th width="187">Fichier BIOS</th><th width="327">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>SYM.ROM</td><td><code>bios\eka2l1\data\roms\NEM-4</code></td><td></td></tr></tbody></table>
+
+{% hint style="info" %}
+La ROM doit être installée dans l'émulateur avant de pouvoir lancer un jeu depuis RetroBat.
+{% endhint %}
 
 ## Contrôles
 
@@ -53,7 +57,7 @@ Console de jeu portable - Durée de vie : 2003 - 2006
 Avant de commencer à utiliser l'émulateur, il est nécessaire de paramétrer le Nokia N-Gage depuis l'émulateur.
 
 {% hint style="info" %}
-Une copie du jeu N-Gage NEM-4 est nécessaire pour réaliser cette étape, RetroBat ne fourni pas ce fichier.
+Une copie de la rom N-Gage NEM-4 est nécessaire pour réaliser cette étape, RetroBat ne fournit pas ce fichier.
 {% endhint %}
 
 Depuis le menu RetroBat lancez l'émulateur EKA2L1 :
@@ -114,4 +118,16 @@ Voici un exemple d'un dossier de jeu tel qu'il doit se présenter dans le dossie
 
 {% hint style="info" %}
 N'oubliez pas de renommer le dossier de jeu de façon à ce qu'il finisse par ".ngage" a la fin, dans le cas contraire, il ne serait pas reconnu par RetroBat.
+{% endhint %}
+
+
+
+### Systèmes émulés
+
+Les systèmes suivants peuvent être sélectionnés depuis RetroBat:
+
+<figure><img src="https://i.imgur.com/OENxwSZ.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="warning" %}
+Chaque système nécessite au préalable l'installation de son firmware dans l'émulateur.
 {% endhint %}
