@@ -16,7 +16,7 @@ Portable Game Console - Lifespan: 2003 - 2006
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>eka2l1</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> ngage</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.ngage (must be a game app folder)</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>eka2l1</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> ngage</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.ngage .symbian</td><td></td></tr></tbody></table>
 
 ## System Features
 
@@ -25,6 +25,10 @@ Portable Game Console - Lifespan: 2003 - 2006
 ## BIOS
 
 <table><thead><tr><th width="187">Bios file</th><th width="327">Folder</th><th>md5</th></tr></thead><tbody><tr><td>SYM.ROM</td><td><code>bios\eka2l1\data\roms\NEM-4</code></td><td></td></tr></tbody></table>
+
+{% hint style="info" %}
+ROM must installed in the emulator first in order to be able to launch a game from RetroBat.
+{% endhint %}
 
 ## Controls
 
@@ -114,4 +118,14 @@ Here is an example of game format the way it needs to appear in the `\roms\ngage
 
 {% hint style="info" %}
 Do not forget to rename the game folder to make it end with ".ngage", else it will not be recognized by RetroBat.
+{% endhint %}
+
+### Emulated devices
+
+The following devices / Symbian OS can be selected from RetroBat:
+
+<figure><img src="https://i.imgur.com/OENxwSZ.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="warning" %}
+Before using a device, you need to install the firmware of the selected device in the emulator.
 {% endhint %}
