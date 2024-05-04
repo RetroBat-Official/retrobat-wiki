@@ -16,11 +16,11 @@ Console de jeu portable - Durée de vie : 2011 - 2020
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro : citra</li><li>citra</li><li>citra-canary</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> 3ds</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.3ds .3dsx .elf .axf .cci .cxi .app .3DS .3DSX .ELF .AXF .CCI .CXI .APP</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro : citra</li><li>lime3ds</li><li>citra</li><li>citra-canary</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> 3ds</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.3ds .3dsx .elf .axf .cci .cxi .app .3DS .3DSX .ELF .AXF .CCI .CXI .APP</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-citra : NON<br>Citra (&#x26;canary) : NON</td><td>lr-citra : NON<br>Citra (&#x26;canary) : NON</td><td>lr-citra : OUI<br>Citra (&#x26;canary) : OUI</td></tr></tbody></table>
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td>lr-citra : OUI<br>Lime3DS: OUI<br>Citra (&#x26;canary) : OUI</td></tr></tbody></table>
 
 ## BIOS
 
@@ -29,7 +29,7 @@ Aucun BIOS nécessaire.
 ## Contrôles
 
 {% hint style="info" %}
-Les contrôleurs suivants peuvent être autoconfigurés depuis RetroBat dans citra standalone:
+Les contrôleurs suivants peuvent être autoconfigurés depuis RetroBat dans limes3ds/citra standalone:
 
 * Contrôleurs XInput
 * Dualshocks & DualSense
@@ -65,9 +65,9 @@ Le core libretro peut simuler l'utilisation du touchscreen avec le stick droit d
 
 ### Textures personnalisées
 
-L'émulateur Citra permet l'utilisation de packs de textures personnalisés.
+Les émulateurs Lime3DS et Citra permet l'utilisation de packs de textures personnalisés.
 
-Les textures doivent être copiées dans le dossier `\emulators\citra\User\Load\Textures\<gameID>`, par exemple pour le jeu Super Mario 3D Land:
+Les textures doivent être copiées dans le dossier `\emulators\`<mark style="color:purple;">`<émulateur>`</mark>`\User\Load\Textures\<gameID>`, par exemple pour le jeu Super Mario 3D Land:
 
 <div align="left">
 
@@ -81,7 +81,7 @@ Pour le core libretro, les textures sont à positionner dans le dossier:
 `\saves\3ds\citra\Load\Textures\<gameID>`
 {% endhint %}
 
-Le nom du dossier dans lequel il faut copier les textures peut être retrouvé en effectuant un clic-droit sur le jeu dans l'interface de Citra-QT, puis en sélectionnant l'option "Ouvrir l'emplacement personnalisé des textures".
+Le nom du dossier dans lequel il faut copier les textures peut être retrouvé en effectuant un clic-droit sur le jeu dans l'interface de l'émulateur, puis en sélectionnant l'option "Ouvrir l'emplacement personnalisé des textures".
 
 <div align="left">
 
