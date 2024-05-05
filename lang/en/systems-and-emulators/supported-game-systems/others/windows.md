@@ -90,6 +90,52 @@ Cut the shortcut and paste it into the `roms\windows` folder of the RetroBat ins
 
 You can rename the shortcut if desired.
 
+### Adding a Microsoft Gamepass game (UWP format)
+
+From the XBOX app, create a desktop shortcut:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/ZHP8OUv.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Cut and paste the folder into the `roms\windows` folder:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/CTOgYjI.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Then, right-click on the shortcut and retrieve the UWP application name:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/SQzxKUS.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Next : create a text file with your favorite text editor and write the app name inside the file:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/bly0vZ8.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Finally, save the save in the same folder as the game shortcut with the '.uwp' file extension:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/iWX2oXO.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+{% hint style="info" %}
+This second part (the uwp file) is necessary, else RetroBat will not wait for the game to finish and the music from the front-end will be heard during the game.
+{% endhint %}
+
 ### Adding an UBISOFT game (Ubisoft Connect)
 
 {% hint style="info" %}
