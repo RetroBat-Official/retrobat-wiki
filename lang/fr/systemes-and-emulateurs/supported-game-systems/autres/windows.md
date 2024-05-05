@@ -90,7 +90,34 @@ Créer un raccourci vers l'exécutable du jeu (_clic droit > envoyer vers > Bure
 
 Couper le raccourci et le coller dans le dossier `roms\windows` de l'installation RetroBat.
 
-Le raccourci peut être renommé.
+Le raccourci peut être renommé.\
+
+
+### Ajouter un jeu Microsoft Gamepass (format WUP)
+
+Depuis l'application XBOX, créer un raccourci sur le bureau :
+
+![](https://wiki.retrobat.org/\~gitbook/image?url=https%3A%2F%2Fi.imgur.com%2FZHP8OUv.png\&width=768\&dpr=4\&quality=100\&sign=482e96af1b7cdf4b7e38ec8ea1b2c4ea54b424de0bfe768fcd3e449dfe78c085)
+
+Couper et coller le raccourci à l'interieur du dossier `roms\windows` :
+
+![](https://wiki.retrobat.org/\~gitbook/image?url=https%3A%2F%2Fi.imgur.com%2FCTOgYjI.png\&width=768\&dpr=4\&quality=100\&sign=91be061016a458541d1bfd98079fb73f22f336514adb5c3b5e451bc00ff3c2a9)
+
+Ensuite, faire un clique droit sur le raccourci, et retrouvez le nom de l'application UWP :
+
+![](https://wiki.retrobat.org/\~gitbook/image?url=https%3A%2F%2Fi.imgur.com%2FSQzxKUS.png\&width=768\&dpr=4\&quality=100\&sign=8e0b74d419f8f83688d81474ecffd70cca1448a47293dd8812f7e33e43c6b615)
+
+Puis, créer un fichier texte, et à l'aide d'un éditeur de texte, renseigner le nom de l'application UWP à l'interieur du fichier :
+
+![](https://wiki.retrobat.org/\~gitbook/image?url=https%3A%2F%2Fi.imgur.com%2Fbly0vZ8.png\&width=768\&dpr=4\&quality=100\&sign=ce359e0b7666c19d44a26ce80a3bb2cf3f1a68852b0d3be9919dd509f55ff222)
+
+Pour finir, enregistrer le fichier dans le même dossier que le raccourci du jeu, en remplaçant l'extension `.txt` par `.uwp` :
+
+![](https://wiki.retrobat.org/\~gitbook/image?url=https%3A%2F%2Fi.imgur.com%2FiWX2oXO.png\&width=768\&dpr=4\&quality=100\&sign=9efd47eecf4d442f4a5570f715cbe04f2a21b31d5ec02df082d45519099370c0)
+
+{% hint style="info" %}
+Cette seconde partie (la création du fichier uwp) est nécessaire : sans ce fichier, RetroBat n'attendra pas la fermeture du jeu et la musique du menu ES se fera entendre en arrière-plan.
+{% endhint %}
 
 ### Ajouter un jeu UBISOFT (Ubisoft Connect)
 
