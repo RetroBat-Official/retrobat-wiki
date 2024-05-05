@@ -20,7 +20,7 @@ Game Console - Lifespan: 1998 - 2001
 
 ## System Features
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-flycast: YES<br>Flycast: NO<br>Redream: NO<br>Demul: NO</td><td>lr-flycast: NO<br>Flycast: NO<br>Redream: NO<br>Demul: NO</td><td>lr-flycast: YES<br>Flycast: YES<br>Redream: YES<br>Demul: YES</td></tr></tbody></table>
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-flycast: YES<br>Flycast: YES<br>Redream: NO<br>Demul: NO</td><td>lr-flycast: NO<br>Flycast: NO<br>Redream: NO<br>Demul: NO</td><td>lr-flycast: YES<br>Flycast: YES<br>Redream: YES<br>Demul: YES</td></tr></tbody></table>
 
 ## Bios Information
 

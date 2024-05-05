@@ -20,7 +20,7 @@ Arcade - Released: 2003
 
 ## System Features
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>lr-flycast: YES<br>Flycast: YES<br>Demul: YES</td></tr></tbody></table>
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-flycast: YES<br>Flycast: YES<br>Demul: NO</td><td>NO</td><td>lr-flycast: YES<br>Flycast: YES<br>Demul: YES</td></tr></tbody></table>
 
 ## Bios Information
 

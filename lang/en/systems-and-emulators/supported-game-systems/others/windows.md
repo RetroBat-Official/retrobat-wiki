@@ -100,7 +100,7 @@ From the XBOX app, create a desktop shortcut:
 
 </div>
 
-Cut and paste the folder into the `roms\windows` folder:
+Cut and paste the shortcut into the `roms\windows` folder:
 
 <div align="left">
 
@@ -124,7 +124,7 @@ Next : create a text file with your favorite text editor and write the app name 
 
 </div>
 
-Finally, save the save in the same folder as the game shortcut with the '.uwp' file extension:
+Finally, save the file in the same folder as the game shortcut with the '.uwp' file extension:
 
 <div align="left">
 
