@@ -2,7 +2,7 @@
 
 
 
-<div align="left" data-full-width="true">
+<div align="center" data-full-width="true">
 
 <figure><img src="../../../.gitbook/assets/reminiscence.png" alt="" width="563"><figcaption></figcaption></figure>
 
