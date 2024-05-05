@@ -13,11 +13,11 @@ Extension de console de jeu - Durée de vie: 1991 - 1996
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: genesis_plus_gx</li><li>libretro: genesis_plus_gx_wide</li><li>libretro: picodrive</li><li>ares</li><li>kega-fusion</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> segacd</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.cue .iso .cso .zip .7z .chd .m3u</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: genesis_plus_gx</li><li>libretro: genesis_plus_gx_wide</li><li>libretro: picodrive</li><li>ares</li><li>kega-fusion</li><li>jgenesis</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> segacd</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.cue .iso .cso .zip .7z .chd .m3u</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-genesis_plus_gx : OUI<br>lr-picodrive : OUI<br>Ares : NON<br>Kega-Fusion : NON</td><td>lr-genesis_plus_gx : OUI<br>lr-picodrive : OUI<br>Ares : NON<br>Kega-Fusion : NON</td><td>lr-genesis_plus_gx : OUI<br>lr-picodrive : OUI<br>Ares : OUI<br>Kega-Fusion : OUI</td></tr></tbody></table>
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-genesis_plus_gx : OUI<br>lr-picodrive : OUI<br>Ares : NON<br>Kega-Fusion : NON<br>Jgenesis: NON</td><td>lr-genesis_plus_gx : OUI<br>lr-picodrive : OUI<br>Ares : NON<br>Kega-Fusion : NON<br>Jgenesis: NON</td><td>lr-genesis_plus_gx : OUI<br>lr-picodrive : OUI<br>Ares : OUI<br>Kega-Fusion : OUI<br>Jgenesis: OUI</td></tr></tbody></table>
 
 ## BIOS
 
