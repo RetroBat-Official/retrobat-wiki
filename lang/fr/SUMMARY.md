@@ -95,7 +95,7 @@
     * [Super Cassette Vision](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu/super-cassette-vision.md)
     * [Super A'Can](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu/super-acan.md)
     * [Uzebox](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu/uzebox.md)
-    * [VC4000](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu/creativision.md)
+    * [VC4000](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu/vc4000.md)
     * [Vectrex](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu/vectrex.md)
     * [VTech](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu/vtech/README.md)
       * [CreatiVision](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu/vtech/creativision.md)
