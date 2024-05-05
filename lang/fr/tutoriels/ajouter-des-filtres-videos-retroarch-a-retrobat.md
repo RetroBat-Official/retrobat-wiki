@@ -97,3 +97,11 @@ Le nouveau filtre vidéo apparait désormais dans Retrobat :
 <figure><img src="https://i.imgur.com/2ZKdvDC.png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+Certains shaders peuvent être adaptés de façon spécifiques à certains systèmes, pour reproduire avec plus de fidélité le rendu visuel de ceux-ci. C'est pour cela qu'il est possible d'utiliser différents shaders par système, au sein du même fichier **rendering-defaults.yml**; il faut ajouter le nom du système pour lequel le shader doit être différent de celui par défaut (NB : il s'agit des noms présent dans le fichier **es\_systems.cfg** entre les balises \<name>).
+
+<figure><img src="https://wiki.retrobat.org/~gitbook/image?url=https%3A%2F%2Fi.imgur.com%2Fknv5MPm.png&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=5f17ffec1819c7a71815ffdb0284bb3a95fbf3a948337f7919faba860567b7b9" alt=""><figcaption></figcaption></figure>
+
+Enfin, certains émulateurs standalone peuvent également utiliser les shaders retroarch. Il faut alors rajouter le nom de l'émulateur sur une seconde ligne, suivi par le shader a utiliser.
+
+<figure><img src="https://wiki.retrobat.org/~gitbook/image?url=https%3A%2F%2Fi.imgur.com%2FAC6PXNK.png&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=03948f3d221a0e075ba53bda6267f34f1c22158f4341db3aa1b837d479b94147" alt=""><figcaption></figcaption></figure>

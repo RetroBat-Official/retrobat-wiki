@@ -20,7 +20,7 @@ Arcade - Date de création : 2000&#x20;
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td>lr-flycast: OUI<br>Flycast: OUI<br>Demul: OUI</td></tr></tbody></table>
+<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-flycast: OUI<br>Flycast: OUI<br>Demul: NON</td><td>NON</td><td>lr-flycast: OUI<br>Flycast: OUI<br>Demul: OUI</td></tr></tbody></table>
 
 ## Bios
 
