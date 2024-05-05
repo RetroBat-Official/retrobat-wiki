@@ -13,28 +13,3 @@ If your controller settings become messed-up and you need a clean start, here is
 It contains only standard keyboard settings, you will have to perform again your controller configuration.
 
 {% file src="../.gitbook/assets/es_input.cfg" %}
-
-## PSP black screen when loading content with lr-ppsspp
-
-The Libretro-ppsspp core for PSP is not compatible with the rewind functionality, disable "REWIND" and it should function properly.
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/f5hdMPJ.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-## Other miscellaneous fixes
-
-For all the issues below, download the emulationstation.zip file at the end of this page and unzip the full content in the emulationstation\ folder of your RetroBat installation.
-
-* OpenBOR path error on exit
-* Chihiro missing features (with Chihiro emulator)
-* Incorrect MAME64 controller order
-* New XBOX controllers (or ones with new firmware) not working correctly (specifically in Ryujinx or Cemu)
-* Non-working Future Pinball features
-* FBNEO error message
-* Ares : controls & shaders not working with v137
-* Citra controllers not working with autoconfiguration
-
-{% file src="../.gitbook/assets/EmulationStation (2).zip" %}
