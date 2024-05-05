@@ -24,7 +24,7 @@ Game Console - Lifespan: 1993 - 1999
 
 ## Bios Information
 
-<table><thead><tr><th width="224">bios file</th><th width="169">Folder</th><th>md5</th></tr></thead><tbody><tr><td>panafz1.bin</td><td><code>\bios</code></td><td>f47264dd47fe30f73ab3c010015c155b</td></tr><tr><td>panafz10.bin</td><td><code>\bios</code></td><td>51f2f43ae2f3508a14d9f56597e2d3ce</td></tr><tr><td>goldstar.bin</td><td><code>\bios</code></td><td>8639fd5e549bd6238cfee79e3e749114</td></tr></tbody></table>
+<table><thead><tr><th width="243">bios file</th><th width="135">Folder</th><th>md5</th></tr></thead><tbody><tr><td>panafz1.bin</td><td><code>\bios</code></td><td>f47264dd47fe30f73ab3c010015c155b</td></tr><tr><td>panafz10.bin</td><td><code>\bios</code></td><td>51f2f43ae2f3508a14d9f56597e2d3ce</td></tr><tr><td>panafz10-norsa.bin</td><td><code>\bios</code></td><td>1477bda80dc33731a65468c1f5bcbee9</td></tr><tr><td>panafz10e-anvil.bin</td><td><code>\bios</code></td><td>a48e6746bd7edec0f40cff078f0bb19f</td></tr><tr><td>panafz10e-anvil-norsa.bin</td><td><code>\bios</code></td><td>cf11bbb5a16d7af9875cca9de9a15e09</td></tr><tr><td>panafz1j.bin</td><td><code>\bios</code></td><td>a496cfdded3da562759be3561317b605</td></tr><tr><td>panafz1j-norsa.bin</td><td><code>\bios</code></td><td>f6c71de7470d16abe4f71b1444883dc8</td></tr><tr><td>goldstar.bin</td><td><code>\bios</code></td><td>8639fd5e549bd6238cfee79e3e749114</td></tr><tr><td>sanyotry.bin</td><td><code>\bios</code></td><td>35fa1a1ebaaeea286dc5cd15487c13ea</td></tr><tr><td>3do_arcade_saot.bin</td><td><code>\bios</code></td><td>8970fc987ab89a7f64da9f8a8c4333ff</td></tr></tbody></table>
 
 ## Controls
 
