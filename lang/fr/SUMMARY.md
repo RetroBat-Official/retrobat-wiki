@@ -227,6 +227,7 @@
     * [Zaccaria Pinball](systemes-and-emulateurs/supported-game-systems/flipper/zaccaria-pinball.md)
   * [Autres](systemes-and-emulateurs/supported-game-systems/autres/README.md)
     * [Cannonball](systemes-and-emulateurs/supported-game-systems/autres/cannonball.md)
+    * [REminiscence](systemes-and-emulateurs/supported-game-systems/autres/reminiscence.md)
     * [Cave Story](systemes-and-emulateurs/supported-game-systems/autres/cave-story.md)
     * [Dinothawr](systemes-and-emulateurs/supported-game-systems/autres/dinothawr.md)
     * [Doom III](systemes-and-emulateurs/supported-game-systems/autres/doom-iii.md)
