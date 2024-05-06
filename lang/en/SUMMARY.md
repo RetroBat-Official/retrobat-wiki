@@ -241,6 +241,7 @@
     * [Quake](systems-and-emulators/supported-game-systems/others/quake.md)
     * [Quake 2](systems-and-emulators/supported-game-systems/others/quake-2.md)
     * [REminiscence](systems-and-emulators/supported-game-systems/others/reminiscence.md)
+    * [Sonic 3 AIR](systems-and-emulators/supported-game-systems/others/sonic3air.md)
     * [Super Mario War](systems-and-emulators/supported-game-systems/others/superbroswar.md)
     * [ScummVM](systems-and-emulators/supported-game-systems/others/scummvm.md)
     * [The Force Engine](systems-and-emulators/supported-game-systems/others/the-force-engine.md)
