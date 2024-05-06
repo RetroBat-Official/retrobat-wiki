@@ -152,6 +152,7 @@
       * [Atari ST](systems-and-emulators/supported-game-systems/home-computer/atari-computers/atari-st.md)
     * [Camputers Lynx](systems-and-emulators/supported-game-systems/home-computer/camputers-lynx.md)
     * [Coleco Adam](systems-and-emulators/supported-game-systems/home-computer/coleco-adam.md)
+    * [Pegasus](systems-and-emulators/supported-game-systems/home-computer/pegasus.md)
     * [Commodore (computers)](systems-and-emulators/supported-game-systems/home-computer/commodore/README.md)
       * [Commodore PET](systems-and-emulators/supported-game-systems/home-computer/commodore/commodore-pet.md)
       * [Commodore VIC-20](systems-and-emulators/supported-game-systems/home-computer/commodore/commodore-vic-20.md)
