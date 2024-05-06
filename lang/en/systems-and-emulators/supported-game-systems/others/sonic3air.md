@@ -33,6 +33,10 @@ No BIOS required.
 * Y = Restart in Time Attack mode
 * Start, select= Pause game
 
+{% hint style="danger" %}
+The SONIC 3 AIR engine does not currently allow to play 2-player with the same model of controller.
+{% endhint %}
+
 ## System Features
 
 ### Game files organization
