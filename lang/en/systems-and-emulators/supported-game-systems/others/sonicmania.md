@@ -28,7 +28,14 @@ To be added.
 
 The engine requires the file "Data.rsdk" from the Sonic Mania game to work.
 
-The file can be found in the Steam version of the game for example (usually in `C:\Program Files (x86)\Steam\ steamapps\common\Sonic Mania`)
+The file can be retrieved from the following sources:
+
+* Windows
+  * [Via Steam](https://store.steampowered.com/app/584400/Sonic\_Mania/)
+  * [Via The Epic Games Store](https://www.epicgames.com/store/en-US/p/sonic-mania)
+* [Switch, via the eShop](https://www.nintendo.com/games/detail/sonic-mania-switch/)
+* [PS4, via the Store](https://store.playstation.com/en-us/product/UP0177-CUSA07023\_00-SONICMANIA000000)
+* [Xbox One, via the Store](https://www.xbox.com/en-US/games/store/sonic-mania/BXH46NQT9W4Q/0001)
 
 Copy the `Data.rsdk` file in the `roms\sonicmania folder`.
 
