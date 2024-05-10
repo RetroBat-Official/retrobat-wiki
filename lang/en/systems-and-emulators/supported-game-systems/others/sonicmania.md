@@ -2,7 +2,7 @@
 
 <div align="left">
 
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5e8d8070cabfa15865e3d2a2b873bb55ec1e1768/art/logos/sonic-mania.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/sonic-mania.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -37,7 +37,7 @@ The file can be retrieved from the following sources:
 * [PS4, via the Store](https://store.playstation.com/en-us/product/UP0177-CUSA07023\_00-SONICMANIA000000)
 * [Xbox One, via the Store](https://www.xbox.com/en-US/games/store/sonic-mania/BXH46NQT9W4Q/0001)
 
-Copy the `Data.rsdk` file in the `roms\sonicmania folder`.
+Copy the `Data.rsdk` file in the `roms\sonicmania` folder.
 
 <div align="left">
 
