@@ -28,7 +28,7 @@ To be completed
 
 DevilutionX requires original Diablo (and Hellfire) game files to work.&#x20;
 
-You can extract the file from the original CD, or purchase the game on [GOG](https://www.gog.com/game/diablo) or [Battle.net](https://eu.shop.battle.net/fr-fr/family/diablo) then you can, or [GOG ](https://www.gog.com/game/flashback)or [STEAM](https://store.steampowered.com/app/961620/Flashback/) versions can be used.
+You can extract the file from the original CD, or purchase the game on [GOG](https://www.gog.com/game/diablo), [Battle.net](https://eu.shop.battle.net/fr-fr/family/diablo)[ ](https://www.gog.com/game/flashback)or [STEAM](https://store.steampowered.com/app/961620/Flashback/).
 
 Inside the `roms\devilutionx` folder, create a folder named `diablo.game`.&#x20;
 
@@ -48,7 +48,7 @@ To run the Diablo: Hellfire expansion you will need to also copy `hellfire.mpq`,
 
 </div>
 
-Alternately you can use `spawn.mpq` from the [shareware](https://github.com/diasurgical/devilutionx-assets/releases/latest/download/spawn.mpq) [\[2\]](http://ftp.blizzard.com/pub/demos/diablosw.exe) version, in place of `diabdat.mpq`, to play the shareware portion of the game.\
+Alternately you can use `spawn.mpq` from the [shareware](https://github.com/diasurgical/devilutionx-assets/releases/latest/download/spawn.mpq) [\[2\]](http://ftp.blizzard.com/pub/demos/diablosw.exe) version, in place of `diabdat.mpq`, to play the shareware version of the game.\
 
 
 ### Mods
