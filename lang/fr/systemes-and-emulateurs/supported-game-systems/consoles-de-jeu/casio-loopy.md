@@ -2,7 +2,7 @@
 
 <div align="left">
 
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5e8d8070cabfa15865e3d2a2b873bb55ec1e1768/art/logos/loopy.svg" media="(prefers-color-scheme: dark)"><img src="broken-reference" alt="" width="375"></picture><figcaption></figcaption></figure>
+<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5e8d8070cabfa15865e3d2a2b873bb55ec1e1768/art/logos/loopy.svg" media="(prefers-color-scheme: dark)"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FexdzL60ZuqPLldz2AYta%2Fuploads%2F75QXi63FqDAAjUDOVmKG%2Floopy.png?alt=media&#x26;token=887bfc7c-354b-4052-81bb-16589d731676" alt=""></picture><figcaption></figcaption></figure>
 
 </div>
 
