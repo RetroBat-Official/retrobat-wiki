@@ -231,6 +231,7 @@
   * [Autres](systemes-and-emulateurs/supported-game-systems/autres/README.md)
     * [Cannonball](systemes-and-emulateurs/supported-game-systems/autres/cannonball.md)
     * [Cave Story](systemes-and-emulateurs/supported-game-systems/autres/cave-story.md)
+    * [DevilutionX](systemes-and-emulateurs/supported-game-systems/autres/devilutionx.md)
     * [Dinothawr](systemes-and-emulateurs/supported-game-systems/autres/dinothawr.md)
     * [Doom III](systemes-and-emulateurs/supported-game-systems/autres/doom-iii.md)
     * [DOS](systemes-and-emulateurs/supported-game-systems/autres/ms-dos.md)
