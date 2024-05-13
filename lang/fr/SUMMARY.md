@@ -238,6 +238,7 @@
     * [Flash](systemes-and-emulateurs/supported-game-systems/autres/flash.md)
     * [GZDoom](systemes-and-emulateurs/supported-game-systems/autres/gzdoom.md)
     * [Jeux TV portables](systemes-and-emulateurs/supported-game-systems/autres/jeux-tv-portables.md)
+    * [Karaoke](systemes-and-emulateurs/supported-game-systems/autres/karaoke.md)
     * [Pico-8](systemes-and-emulateurs/supported-game-systems/autres/pico-8.md)
     * [Ports](systemes-and-emulateurs/supported-game-systems/autres/ports.md)
     * [PrBoom](systemes-and-emulateurs/supported-game-systems/autres/prboom.md)
