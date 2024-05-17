@@ -106,7 +106,9 @@ You can now quit the emulator.
 
 ### Accepted game formats
 
-So far, only true N-Gage games in "folder" format (containing System > Apps subfolder) are compatible.
+#### N-GAGE games
+
+True N-Gage games in "folder" format (containing System > Apps subfolder) are compatible.
 
 Here is an example of game format the way it needs to appear in the `\roms\ngage` folder of your RetroBat installation:
 
@@ -118,6 +120,40 @@ Here is an example of game format the way it needs to appear in the `\roms\ngage
 
 {% hint style="info" %}
 Do not forget to rename the game folder to make it end with ".ngage", else it will not be recognized by RetroBat.
+{% endhint %}
+
+#### Other symbian games
+
+Symbian games need to be installed first within the emulator:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/cPdweb3.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Once the game is installed for the correct device, retrieve the "Application Name" from the emulator:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/ZHR11OX.png" alt=""><figcaption><p>The app name here is "cakarting"</p></figcaption></figure>
+
+</div>
+
+Finally, create a .txt file with notepad and paste the application name inside the file:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/9YkL68x.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Save the file with the `.symbian` extension.
+
+{% hint style="danger" %}
+In some cases, the application name is different from the name displayed in EKA2L1 main window.
+
+In such cases, a deep dive in the `retrobat\bios\eka2l1\data\drives\e` folder is required to find the application name.
 {% endhint %}
 
 ### Emulated devices
