@@ -93,7 +93,7 @@ Untick .zip extension
 
 ### Adding SINGE Games
 
-SINGE games include the famous AMERICAN LASR GAMES and a few other titles.
+SINGE games include the famous AMERICAN LASER GAMES and a few other titles.
 
 The process is similar as for Daphne games but there is no zip file to place in the roms folder. In addition, 2 files need to be present in your `<game>.daphne` folder:
 
@@ -105,5 +105,47 @@ The process is similar as for Daphne games but there is no zip file to place in 
 <div align="left">
 
 <figure><img src="https://i.imgur.com/QPFt4jZ.jpg" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+### Simple games folders structure
+
+To make things easier, you can use the assets available on the Hypseus Github.
+
+{% embed url="https://github.com/DirtBagXon/hypseus_singe_data/" %}
+
+At first, download the content of the repository above,
+
+<figure><img src="https://i.imgur.com/dEGyFs9.gif" alt=""><figcaption></figcaption></figure>
+
+&#x20;and extract the zip on a temporary folder.
+
+<div align="left">
+
+<figure><img src="../../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+For the exemple, we will use the game Astroboy, in 00-singe2 sub-folder :
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/cbDJNRN.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Inside the game folder, you will find a text file that contain the information about which file is missing, and where it have to be place. In this exemple, you have to place the file `astroboy.m2v` in the folder `Video`.
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/gobNmnZ.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+After adding the required files (could be `.m2v` file, or `.ogg` and `.m2v` files), you must rename your folder by adding .daphne at the end of the folder name (in our exemple : `Astroboy.daphne`) and move this folder to the `/roms/daphne/` folder
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/AcTA2z0.png" alt=""><figcaption></figcaption></figure>
 
 </div>
