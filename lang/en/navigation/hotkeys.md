@@ -40,6 +40,10 @@ Ares uses pad2key to handle shortcuts.
 
 <table><thead><tr><th width="269">Hotkeys (keyboard)</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (16).png" alt="">  (F6)</td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (30).png" alt="">  (TAB)</td><td>Toggle fullscreen</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (50).png" alt="">   (F2)</td><td>Load State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (48).png" alt="">   (F1)</td><td>Save State</td></tr><tr><td>Hotkey + START  (F12)</td><td>Exit Jgenesis</td></tr><tr><td>Hotkey + D-PAD UP  (F11)</td><td>Step frame</td></tr><tr><td>Hotkey + D-PAD DOWN  (F3)</td><td>Soft reset</td></tr><tr><td>Hotkey + D-PAD LEFT  (F8)</td><td>Rewind</td></tr><tr><td>Hotkey + D-PAD RIGHT  (F9)</td><td>Fast Forward</td></tr></tbody></table>
 
+{% hint style="info" %}
+JGenesis uses pad2key to handle shortcuts.
+{% endhint %}
+
 ### MAME
 
 <table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (16).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (30).png" alt=""></td><td>MAME menu</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (50).png" alt=""></td><td>Load State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (48).png" alt=""></td><td>Save State</td></tr><tr><td>Hotkey + D-PAD LEFT</td><td>Rewind</td></tr><tr><td>Hotkey + D-PAD LEFT</td><td>Fast Forward</td></tr><tr><td>L3 + R3</td><td>Service menu</td></tr></tbody></table>
