@@ -20,7 +20,7 @@ Game Console - Lifespan: 1993 - 1996
 
 ## System Features
 
-<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-virtualjaguar: YES<br>BigPEmu: NO<br>Bizhawk: YES<br>Phoenix: NO</td><td>lr-virtualjaguar: NO<br>BigPEmu: NO<br>Bizhawk: NO<br>Phoenix: NO</td><td>lr-virtualjaguar: YES<br>BigPEmu: NO<br>Bizhawk: YES<br>Phoenix: NO</td></tr></tbody></table>
+<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-virtualjaguar: YES<br>BigPEmu: NO<br>Bizhawk: YES<br>Phoenix: NO</td><td>lr-virtualjaguar: NO<br>BigPEmu: NO<br>Bizhawk: NO<br>Phoenix: NO</td><td>lr-virtualjaguar: YES<br>BigPEmu: YES<br>Bizhawk: YES<br>Phoenix: NO</td></tr></tbody></table>
 
 ## BIOS
 
@@ -38,14 +38,30 @@ Game Console - Lifespan: 1993 - 1996
 
 ### BigPEmu
 
-Controls have to be configured directly in the emulator.
+| Retrobat                                          | Jaguar                                         |
+| ------------------------------------------------- | ---------------------------------------------- |
+| START                                             | option                                         |
+| SELECT                                            | pause                                          |
+| D-PAD                                             | D-PAD                                          |
+| Left analog stick                                 | <p>Up: 2<br>Down: 8<br>Left: 4<br>Right: 6</p> |
+| Right analog stick                                | <p>Up: 5<br>Down: 0<br>Left: 7<br>Right: 9</p> |
+| ![](<../../../../.gitbook/assets/image (48).png>) | C                                              |
+| ![](<../../../../.gitbook/assets/image (30).png>) | B                                              |
+| ![](<../../../../.gitbook/assets/image (16).png>) | A                                              |
+| ![](<../../../../.gitbook/assets/image (50).png>) |                                                |
+| L1                                                | 1                                              |
+| R1                                                | 3                                              |
+| L2                                                | hotkey                                         |
+| R2                                                |                                                |
+| L3                                                | asterisk                                       |
+| R3                                                | hash                                           |
+
+## Specific system information
+
+There is no specific System information documented here yet.
 
 {% hint style="warning" %}
 You need to use the _**Configure BigPEmu.bat**_ file to run BigPEmu or run it from within RetroBat for the configuration to be correctly saved.
 
 All configuration done by launching directly _**BigPEmu.exe**_ will be ignored by RetroBat.
 {% endhint %}
-
-## Specific system information
-
-There is no specific System information documented here yet.

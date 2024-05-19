@@ -28,6 +28,14 @@ Reach out to the RetroBat team if this is the case, we'll perform the correction
 Ares uses pad2key to handle shortcuts.
 {% endhint %}
 
+### BigPEmu
+
+{% hint style="info" %}
+Hotkey is equal to left trigger (L2), except to quit
+{% endhint %}
+
+<table><thead><tr><th width="269">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>L2 + <img src="../.gitbook/assets/image (30).png" alt=""> </td><td>Menu</td></tr><tr><td>L2 + <img src="../.gitbook/assets/image (50).png" alt=""></td><td>Load State</td></tr><tr><td>L2 + <img src="../.gitbook/assets/image (48).png" alt=""> </td><td>Save State</td></tr><tr><td>L2 + D-PAD LEFT</td><td>Rewind</td></tr><tr><td>L2 + D-PAD RIGHT</td><td>Fast Forward</td></tr><tr><td>L2 + R3</td><td>Screenshot</td></tr></tbody></table>
+
 ### Dolphin
 
 <table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (16).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (30).png" alt=""></td><td>FULLSCREEN</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (50).png" alt=""></td><td>Load State 1</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (48).png" alt=""></td><td>Save State 1 &#x26; Screenshot</td></tr><tr><td>Hotkey + START</td><td>Exit DOLPHIN</td></tr><tr><td>Hotkey + L1</td><td>Eject Disc</td></tr><tr><td>Hotkey + R1</td><td>Change Disc</td></tr></tbody></table>
@@ -50,7 +58,7 @@ JGenesis uses pad2key to handle shortcuts.
 
 ### Mesen
 
-<table><thead><tr><th width="282">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (16).png" alt=""></td><td>Pause</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (50).png" alt=""></td><td>Load State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (48).png" alt=""></td><td>Save State</td></tr><tr><td>Hotkey + START</td><td>Exit Emulator</td></tr><tr><td>Hotkey + L1</td><td>Toggle Rewind</td></tr><tr><td>Hotkey + R1</td><td>Toggle Fast Forward</td></tr><tr><td>Hotkey + R2</td><td>Take Screenshot</td></tr><tr><td>Hotkey + D-PAD HAUT</td><td>Move To Next State Slot</td></tr><tr><td>Hotkey + D-PAD BAS</td><td>Move To Previous State Slot</td></tr><tr><td>Hotkey + D-PAD GAUCHE</td><td>Rewind</td></tr><tr><td>Hotkey + D-PAD DROITE</td><td>Fast Forward</td></tr></tbody></table>
+<table><thead><tr><th width="282">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (16).png" alt=""></td><td>Pause</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (50).png" alt=""></td><td>Load State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (48).png" alt=""></td><td>Save State</td></tr><tr><td>Hotkey + START</td><td>Exit Emulator</td></tr><tr><td>Hotkey + L1</td><td>Toggle Rewind</td></tr><tr><td>Hotkey + R1</td><td>Toggle Fast Forward</td></tr><tr><td>Hotkey + R3</td><td>Take Screenshot</td></tr><tr><td>Hotkey + D-PAD HAUT</td><td>Move To Next State Slot</td></tr><tr><td>Hotkey + D-PAD BAS</td><td>Move To Previous State Slot</td></tr><tr><td>Hotkey + D-PAD GAUCHE</td><td>Rewind</td></tr><tr><td>Hotkey + D-PAD DROITE</td><td>Fast Forward</td></tr></tbody></table>
 
 ### Mupen64 (RMG)
 
