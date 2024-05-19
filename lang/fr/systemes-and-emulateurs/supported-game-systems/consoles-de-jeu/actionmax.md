@@ -16,11 +16,11 @@ Console de jeu - Date de sortie : 1987
 
 ## Informations
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulateurs</strong></td><td><ul><li>hypseus</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> actionmax</td></tr><tr><td><strong>Extensions</strong></td><td>.actionmax</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulateurs</strong></td><td><ul><li>hypseus</li><li>singe2</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> actionmax</td></tr><tr><td><strong>Extensions</strong></td><td>.actionmax</td></tr></tbody></table>
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td>NON</td></tr></tbody></table>
+<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td>Hypseus: OUI<br>Singe2: OUI</td></tr></tbody></table>
 
 ## Bios
 
@@ -32,7 +32,7 @@ TBD
 
 ## Information spécifique du système
 
-### Ajout des jeux
+### Ajout des jeux sur Hypseus
 
 Les jeux ActionMax sont compatibles avec l'émulateur Hypseus, ils doivent suivre une structure de dossier très spécifique.
 
