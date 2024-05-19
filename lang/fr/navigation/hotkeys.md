@@ -28,6 +28,14 @@ Prévenez les équipes RetroBat si c'est le cas, nous apporterons les correction
 Ares utilise pad2key pour gérer les raccourcis.
 {% endhint %}
 
+### BigPEmu
+
+{% hint style="info" %}
+La touche de raccourci est L2 (sauf pour quitter)
+{% endhint %}
+
+<table><thead><tr><th width="269">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>L2 + <img src="../.gitbook/assets/image (19).png" alt=""> </td><td>Menu</td></tr><tr><td>L2 + <img src="../.gitbook/assets/image (34).png" alt=""></td><td>Charger Save State</td></tr><tr><td>L2 + <img src="../.gitbook/assets/image (32).png" alt=""> </td><td>Sauver Save State</td></tr><tr><td>L2 + D-PAD LEFT</td><td>Rembobiner</td></tr><tr><td>L2 + D-PAD RIGHT</td><td>Avance rapide</td></tr><tr><td>L2 + R3</td><td>Capture d'écran</td></tr></tbody></table>
+
 ### Dolphin
 
 <table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (6).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (19).png" alt=""></td><td>FULLSCREEN</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (34).png" alt=""></td><td>Charger Save State 1</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (32).png" alt=""></td><td>Sauver Save State 1 + capture d'écran</td></tr><tr><td>Hotkey + START</td><td>Quitter DOLPHIN</td></tr><tr><td>Hotkey + L1</td><td>Ejecter Disque</td></tr><tr><td>Hotkey + R1</td><td>Changer de Disque</td></tr></tbody></table>
