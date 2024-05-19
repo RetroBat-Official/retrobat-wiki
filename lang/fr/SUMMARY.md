@@ -125,7 +125,7 @@
       * [Pokémon Mini](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu-portables/nintendo-consoles-de-jeu-portables/pokemon-mini.md)
       * [Nintendo 3DS](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu-portables/nintendo-consoles-de-jeu-portables/nintendo-3ds.md)
     * [Nokia](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu-portables/nokia/README.md)
-      * [N-Gage](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu-portables/nokia/n-gage.md)
+      * [N-Gage & Symbian](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu-portables/nokia/n-gage-and-symbian.md)
     * [Sega (Consoles de jeu portables)](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu-portables/sega-consoles-de-jeu-portables/README.md)
       * [Game Gear](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu-portables/sega-consoles-de-jeu-portables/game-gear.md)
     * [SNK (Consoles de jeu portables)](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu-portables/snk/README.md)

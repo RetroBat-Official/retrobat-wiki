@@ -2,7 +2,7 @@
 description: Nokia
 ---
 
-# N-Gage
+# N-Gage & Symbian
 
 <div align="left">
 
@@ -20,11 +20,11 @@ Console de jeu portable - Durée de vie : 2003 - 2006
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td>OUI</td></tr></tbody></table>
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td>OUI (incomplet)</td></tr></tbody></table>
 
 ## BIOS
 
-<table><thead><tr><th width="187">Fichier BIOS</th><th width="327">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>SYM.ROM</td><td><code>bios\eka2l1\data\roms\NEM-4</code></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="187">Bios </th><th width="327">Dossier</th><th>remark</th></tr></thead><tbody><tr><td>SYM.ROM</td><td><code>bios\eka2l1\data\roms\NEM-4</code></td><td>ngage</td></tr><tr><td>SYM.ROM</td><td><code>bios\eka2l1\data\roms\rae-6</code></td><td>9300</td></tr><tr><td>SYM.ROM</td><td><code>bios\eka2l1\data\roms\rh-29</code></td><td>N-GAGE QD</td></tr><tr><td>SYM.ROM</td><td><code>bios\eka2l1\data\roms\rm-84</code></td><td>N70</td></tr><tr><td>SYM.ROM</td><td><code>bios\eka2l1\data\roms\rm-320</code></td><td>N95</td></tr><tr><td>SYM.ROM</td><td><code>bios\eka2l1\data\roms\rm-409</code></td><td>XPress Music 5320d-1</td></tr><tr><td>SYM.ROM</td><td><code>bios\eka2l1\data\roms\rm-588</code></td><td>5230</td></tr><tr><td>SYM.ROM</td><td><code>bios\eka2l1\data\roms\rm-707</code></td><td>X7-00</td></tr></tbody></table>
 
 {% hint style="info" %}
 La ROM doit être installée dans l'émulateur avant de pouvoir lancer un jeu depuis RetroBat.
@@ -120,7 +120,43 @@ Voici un exemple d'un dossier de jeu tel qu'il doit se présenter dans le dossie
 N'oubliez pas de renommer le dossier de jeu de façon à ce qu'il finisse par ".ngage" a la fin, dans le cas contraire, il ne serait pas reconnu par RetroBat.
 {% endhint %}
 
+#### Autres jeux symbian
 
+Les jeux symbian doivent au préalable être installés dans l'émulateur EKA2L1.
+
+{% hint style="warning" %}
+Les jeux installés ne seront visible que pour le modèle de NOKIA pour lequel ils ont été installés.
+{% endhint %}
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/cPdweb3.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Une fois le jeu installé, récupérer l'"Application Name" dans l'émulateur:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/ZHR11OX.png" alt=""><figcaption><p>Le nom de l'application est "cakarting"</p></figcaption></figure>
+
+</div>
+
+Enfin, créer un fichier .txt et y copier le nom exact de l'application:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/9YkL68x.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Sauvegarder le fichier avec l'extension `.symbian` dans le dossier `roms\ngage`.
+
+{% hint style="danger" %}
+Dans certains cas le nom de l'application est différent du titre affiché sous l'application dans l'émulateur.
+
+Pour ces rares cas, il sera nécessaire de trouver le nom de l'application dans le dossier `retrobat\bios\eka2l1\data\drives\e`.
+{% endhint %}
 
 ### Systèmes émulés
 
