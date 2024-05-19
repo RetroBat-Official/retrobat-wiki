@@ -2,7 +2,7 @@
 description: Nokia
 ---
 
-# N-Gage
+# N-Gage & Symbian
 
 <div align="left">
 
@@ -20,11 +20,11 @@ Portable Game Console - Lifespan: 2003 - 2006
 
 ## System Features
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>YES</td></tr></tbody></table>
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>YES (incomplete)</td></tr></tbody></table>
 
 ## BIOS
 
-<table><thead><tr><th width="187">Bios file</th><th width="327">Folder</th><th>md5</th></tr></thead><tbody><tr><td>SYM.ROM</td><td><code>bios\eka2l1\data\roms\NEM-4</code></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="187">Bios file</th><th width="327">Folder</th><th>remark</th></tr></thead><tbody><tr><td>SYM.ROM</td><td><code>bios\eka2l1\data\roms\NEM-4</code></td><td>for ngage</td></tr><tr><td>SYM.ROM</td><td><code>bios\eka2l1\data\roms\rae-6</code></td><td>for 9300</td></tr><tr><td>SYM.ROM</td><td><code>bios\eka2l1\data\roms\rh-29</code></td><td>for N-GAGE QD</td></tr><tr><td>SYM.ROM</td><td><code>bios\eka2l1\data\roms\rm-84</code></td><td>for N70</td></tr><tr><td>SYM.ROM</td><td><code>bios\eka2l1\data\roms\rm-320</code></td><td>for N95</td></tr><tr><td>SYM.ROM</td><td><code>bios\eka2l1\data\roms\rm-409</code></td><td>for XPress Music 5320d-1</td></tr><tr><td>SYM.ROM</td><td><code>bios\eka2l1\data\roms\rm-588</code></td><td>for 5230</td></tr><tr><td>SYM.ROM</td><td><code>bios\eka2l1\data\roms\rm-707</code></td><td>for X7-00</td></tr></tbody></table>
 
 {% hint style="info" %}
 ROM must installed in the emulator first in order to be able to launch a game from RetroBat.
@@ -148,7 +148,7 @@ Finally, create a .txt file with notepad and paste the application name inside t
 
 </div>
 
-Save the file with the `.symbian` extension.
+Save the file with the `.symbian` extension in the `roms\ngage` folder.
 
 {% hint style="danger" %}
 In some cases, the application name is different from the name displayed in EKA2L1 main window.
