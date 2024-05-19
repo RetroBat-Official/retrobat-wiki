@@ -111,3 +111,46 @@ Un dossier de jeu SINGE doit avoir une structure similaire à celle-ci:
 <figure><img src="https://i.imgur.com/QPFt4jZ.jpg" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+### Structure de fichier simplifiée
+
+Pour faciliter le mise en place du système Singe, il est possible d'utiliser les ressources disponibles sur le Github d'Hypseus.
+
+{% embed url="https://github.com/DirtBagXon/hypseus_singe_data/" %}
+
+Pour commencer, télécharger le contenu du repo ci-dessous,
+
+<figure><img src="https://i.imgur.com/dEGyFs9.gif" alt=""><figcaption></figcaption></figure>
+
+&#x20;extraire le contenu de l'archive dans un répertoire temporaire.
+
+<div align="left">
+
+<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FexdzL60ZuqPLldz2AYta%2Fuploads%2FRUpdMz97dRcfxyZVG0qp%2Fimage.png?alt=media&#x26;token=3b1ac82f-38a1-4379-ab7e-9d94b7f84e5e" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Pour l'exemple, nous allons utiliser le jeu Astroboy, qui se situe dans le sous-dossier 00-singe2 de l'archive précédente :
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/cbDJNRN.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+A l'interieur de ce dossier de jeu, vous trouverez un fichier texte qui contient des précisions concernant les fichiers manquants pour que le jeu soit fonctionnel, et à quel endroit ils doivent être placés. Dans notre exemple, il faut ajouter le fichier`astroboy.m2v` dans le dossier `Video`.
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/gobNmnZ.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Après avoir ajouté les fichiers nécessaires (cela peut être des fichiers`.m2v`, ou bien des fichiers`.ogg` et`.m2v`), il est nécessaire de renommer le dossier de jeux avec .daphne à la fin du nom du dossier (dans notre exemple : `Astroboy.daphne`) et déplacer ce dossier dans le répertoire `/roms/daphne/` folder.
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/AcTA2z0.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
