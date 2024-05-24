@@ -12,7 +12,7 @@ Arcade - Date de sortie du premier jeu LaserDisc : 1983
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>hypseus</li><li>daphne</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> daphne</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.daphne .singe .7z .zip .rar .squashfs</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>hypseus</li><li>daphne</li><li>singe2</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> daphne</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.daphne .singe .7z .zip .rar .squashfs</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
@@ -93,7 +93,7 @@ Décocher l'extension .zip.
 
 </div>
 
-### Ajout de jeux SINGE
+### Ajout de jeux SINGE/SINGE2 (Hypseus)
 
 Les jeux SINGE incluent les jeux AMERICAN LASER GAMES.
 
@@ -112,7 +112,7 @@ Un dossier de jeu SINGE doit avoir une structure similaire à celle-ci:
 
 </div>
 
-### Structure de fichier simplifiée
+### Structure de fichier pour Hypseus
 
 Pour faciliter le mise en place du système Singe, il est possible d'utiliser les ressources disponibles sur le Github d'Hypseus.
 
@@ -154,3 +154,28 @@ Après avoir ajouté les fichiers nécessaires (cela peut être des fichiers`.m2
 
 </div>
 
+### Ajout de jeux SINGE2 (émulateur singe2)
+
+L'émulateur singe2 ne fonctionne pas avec le même format de jeux que Hypseus.
+
+Seuls les jeux fournis sur le site web de l'émulateur fonctionnent avec l'émulateur:
+
+{% embed url="https://kangaroopunch.com/view/ShowSoftware?id=7" %}
+
+Télécharger le jeu, ajouter les fichiers requis (vidéo/son), puis renomme le dossier de jeu avec l'extension .singe pour utiliser les jeux avec l'émulateur singe2 depuis RetroBat:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/0iDxyWG.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/7dDJtAe.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+{% hint style="warning" %}
+Le nom du dossier doit être parfaitement identique au nom du dossier du jeu téléchargé sur le site de l'émulateur.
+{% endhint %}
