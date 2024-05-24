@@ -78,7 +78,7 @@ Dézipper l'émulateur dans le dossier **\emulators\teknoparrot**
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/fAk6RTy.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/rQlbFKQ.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -100,7 +100,7 @@ Placer les jeux TeknoParrot dans le dossier **\roms\teknoparrot**
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/rjJ3XuI.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/wqTsWOQ.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -108,15 +108,15 @@ Le dossier de jeu TeknoParrot doit être renommé en ajoutant **.teknoparrot** *
 
 Par exemple, le dossier du jeu _Mario Kart : Arcade GP DX_ doit être nommé**:**&#x20;
 
-* `Mario Kart Arcade GP DX.teknoparrot`,&#x20;
-* ou `Mario Kart Arcade GP DX.parrot`
-* ou `Mario Kart Arcade GP DX.game`
+* `MKDX.teknoparrot`,&#x20;
+* ou `MKDX.parrot`
+* ou `MKDX.game`
 
-**IMPORTANT**, le nom du dossier du jeu doit correspondre EXACTEMENT au nom visible dans le tag **"GameName"** (sans les caractères spéciaux ![\[FAQ\] Retrobat \[WIP\] 584DwC5](https://i.imgur.com/584DwC5.png)) du fichier .xml qui se trouve dans le dossier  **\emulators\teknoparrot\GameProfiles**
+**IMPORTANT**, le nom du dossier du jeu doit correspondre EXACTEMENT au nom visible pour le fichier json correspondant au jeu dans le dossier **\emulators\teknoparrot\Metadata** ou au fichier .xml du profil du jeu dans le dossier **\emulators\teknoparrot\GameProfiles**
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/wKid67O.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/6BBrvM8.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
