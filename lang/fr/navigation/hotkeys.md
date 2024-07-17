@@ -76,6 +76,14 @@ Avec une manette non XInput, il n'est pas possible de naviguer dans le menu Open
 
 <table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (6).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (19).png" alt=""></td><td>Ouvrir MENU</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (34).png" alt=""></td><td>Charger sauvegarde</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (32).png" alt=""></td><td>Sauver</td></tr><tr><td>Hotkey + START</td><td>Quitter PCSX2</td></tr><tr><td>Hotkey + L1</td><td>FULLSCREEN (si l'option 'disable fullscreen' est activée)</td></tr><tr><td>Hotkey + R3</td><td>Capture d'écran</td></tr><tr><td>Hotkey + D-PAD UP</td><td>Choisir Slot de sauvegarde Index +</td></tr><tr><td>Hotkey + D-PAD DOWN</td><td>Choisir Slot de sauvegarde Index -</td></tr><tr><td>Hotkey + D-PAD LEFT</td><td>Ralenti</td></tr><tr><td>Hotkey + D-PAD RIGHT</td><td>Turbo</td></tr></tbody></table>
 
+### Raine
+
+<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + L1</td><td>Menu</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (32).png" alt=""></td><td>Sauver</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (34).png" alt=""></td><td>Charger sauvegarde</td></tr><tr><td>Hotkey + D-PAD UP</td><td>Changer slot de sauvegarde</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (6).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + R3</td><td>Capture d'écran</td></tr></tbody></table>
+
+{% hint style="info" %}
+Raine utilise pad2key pour gérer les raccourcis.
+{% endhint %}
+
 ### YUZU, SUYU, SUDACHI
 
 <table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (6).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + START</td><td>Quitter YUZU</td></tr></tbody></table>

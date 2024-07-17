@@ -24,7 +24,7 @@ Utiliser le romset fbneo 1.0.0.3 pour l'émulateur fbneo.
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-fbneo : OUI<br>lr-fbalpha : OUI<br>lr-fbalpha2012 : OUI<br>lr-geolith: NON<br>Raine : NON<br>Mame : NON</td><td>lr-fbneo : OUI<br>lr-fbalpha : OUI<br>lr-fbalpha2012 : OUI<br>lr-geolith: NON<br>Raine : NON<br>Mame : NON</td><td>lr-fbneo : OUI<br>lr-fbalpha : OUI<br>lr-fbalpha2012 : OUI<br>lr-geolith: OUI<br>Raine : NON<br>Mame : NON</td></tr></tbody></table>
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-fbneo : OUI<br>lr-fbalpha : OUI<br>lr-fbalpha2012 : OUI<br>lr-geolith: NON<br>Raine : NON<br>Mame : NON</td><td>lr-fbneo : OUI<br>lr-fbalpha : OUI<br>lr-fbalpha2012 : OUI<br>lr-geolith: NON<br>Raine : NON<br>Mame : NON</td><td>lr-fbneo : OUI<br>lr-fbalpha : OUI<br>lr-fbalpha2012 : OUI<br>lr-geolith: OUI<br>Raine : OUI<br>Mame : NON</td></tr></tbody></table>
 
 | Succès Rétro | Parties en Réseau |
 | ------------ | ----------------- |
