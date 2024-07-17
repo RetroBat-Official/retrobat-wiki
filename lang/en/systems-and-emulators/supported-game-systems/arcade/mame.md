@@ -109,4 +109,4 @@ Libretro:Mame has a limitation in the length of the paths it uses when launching
 
 In order to be able to fix this issue, ensure that your RetroBat folder path does is not installed in a path that is too long.
 
-For example the path `C:\Emulation\Multi Emulators\FrontEnd\All-in-one\This is top\RetroBat version 5.3` is too long and will result in the issue.
+For example the path `C:\Emulation\Multi Emulators\FrontEnd\All-in-one\This is top\RetroBat version 6.3` is too long and will result in the issue.
