@@ -16,7 +16,7 @@ Arcade - Released: 2002
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>chihiro (CXBX-Reloaded)</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> chihiro</td></tr><tr><td><strong>File extension</strong></td><td>.xbe .iso</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>chihiro (CXBX-Reloaded)</li><li>xemu</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> chihiro</td></tr><tr><td><strong>File extension</strong></td><td>.xbe .iso</td></tr></tbody></table>
 
 ## Bios Information
 
@@ -60,3 +60,14 @@ Run the .xbe file ending with "t" to enter the test menu.
 
 </div>
 
+### Use Cerbios firmware
+
+Download the Cerbios firmware and rename it 'Cerbios.bin', place it in the retrobat\bios folder.
+
+In RetroBat advanced options for xemu, select the firmware:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/WYDyd9G.png" alt=""><figcaption></figcaption></figure>
+
+</div>
