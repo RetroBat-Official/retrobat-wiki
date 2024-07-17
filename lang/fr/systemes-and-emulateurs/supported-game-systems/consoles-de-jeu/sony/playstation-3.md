@@ -24,7 +24,7 @@ Console de jeu - Durée de jeu: 2006 - 2017
 
 ## BIOS
 
-<table><thead><tr><th width="187">Fichier BIOS</th><th width="109">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>PS3UPDAT.PUP</td><td><code>\bios</code></td><td>95307e1b51d3bcc33a274db91488d29f</td></tr></tbody></table>
+<table><thead><tr><th width="187">Fichier BIOS</th><th width="109">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>PS3UPDAT.PUP</td><td><code>\bios</code></td><td>3694eb3fb8d9915c112e6ab41a60c69f</td></tr></tbody></table>
 
 #### Installation automatique du firmware
 
