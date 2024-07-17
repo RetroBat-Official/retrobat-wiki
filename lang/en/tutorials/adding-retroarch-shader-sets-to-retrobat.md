@@ -109,3 +109,7 @@ Finally, some standalone emulators can also use the retroarch shaders. In this c
 
 
 <figure><img src="https://i.imgur.com/AC6PXNK.png" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+To avoid risk of loosing his homemade presets within RetroBat update, consider saving your new configs folders aside, to replace them easily if needed.
+{% endhint %}
