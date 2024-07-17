@@ -66,3 +66,7 @@ Si vos jeux sont tous en allemand ou en anglais, il est possible que ce soit li�
 Il est recommandé de définir correctement la langue sur votre Xbox originale et ensuite d'extraire à nouveau le BIOS.&#x20;
 
 Une autre solution consiste à éditer le fichier eeprom situé dans le répertoire `/saves/xbox/` du dossier Retrobat avec l'outil disponible [ici (Original Xbox EEPROM Editor crée par Ernegien)](https://github.com/Ernegien/XboxEepromEditor) pour changer les réglages de l'eeprom Xbox.
+
+### Utiliser le bios Cerbios
+
+[Suivre ce guide.](../../arcade/sega/sega-chihiro.md#utiliser-le-bios-cerbios)

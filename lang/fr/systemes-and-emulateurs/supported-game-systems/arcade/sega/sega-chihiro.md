@@ -16,7 +16,7 @@ Arcade - Année de création : 2002
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>chihiro (CXBX-Reloaded)</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> chihiro</td></tr><tr><td><strong>Extensions</strong></td><td>.xbe .iso</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>chihiro (CXBX-Reloaded)</li><li>xemu</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> chihiro</td></tr><tr><td><strong>Extensions</strong></td><td>.xbe .iso</td></tr></tbody></table>
 
 ## Bios
 
@@ -60,3 +60,14 @@ Démarrer le fichier .xbe terminant par "\_t" pour accéder au menu TEST.
 
 </div>
 
+### Utiliser le bios Cerbios
+
+Télécharger le firmware cerbios et renommez-le en _Cerbios.bin_, puis placez-le dans le dossier `retrobat\bios`.
+
+Sélectionnez ensuite le bios Cerbios dans les options RetroBat:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/1WzUULh.png" alt=""><figcaption></figcaption></figure>
+
+</div>
