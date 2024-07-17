@@ -24,7 +24,7 @@ When using fbneo, your games must be in bin+cue format.
 
 ## System Features
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-neocd: YES<br>lr-fbneo: YES<br>Raine: NO</td><td>lr-neocd: YES<br>lr-fbneo: YES<br>Raine: NO</td><td>lr-neocd: YES<br>lr-fbneo: YES<br>Raine: NO</td></tr></tbody></table>
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-neocd: YES<br>lr-fbneo: YES<br>Raine: NO</td><td>lr-neocd: YES<br>lr-fbneo: YES<br>Raine: NO</td><td>lr-neocd: YES<br>lr-fbneo: YES<br>Raine: YES</td></tr></tbody></table>
 
 ## Bios Information
 

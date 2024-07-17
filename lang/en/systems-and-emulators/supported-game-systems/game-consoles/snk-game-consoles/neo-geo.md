@@ -24,7 +24,7 @@ Use fbneo 1.0.0.3 romset for the default emulator.
 
 ## System Features
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-fbneo: YES<br>lr-fbalpha: YES<br>lr-fbalpha2012: YES<br>lr-geolith: NO<br>Raine: NO<br>Mame: NO</td><td>lr-fbneo: YES<br>lr-fbalpha: YES<br>lr-fbalpha2012: YES<br>lr-geolith: NO<br>Raine: NO<br>Mame: NO</td><td>lr-fbneo: YES<br>lr-fbalpha: YES<br>lr-fbalpha2012: YES<br>lr-geolith: YES<br>Raine: NO<br>Mame: NO</td></tr></tbody></table>
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-fbneo: YES<br>lr-fbalpha: YES<br>lr-fbalpha2012: YES<br>lr-geolith: NO<br>Raine: NO<br>Mame: NO</td><td>lr-fbneo: YES<br>lr-fbalpha: YES<br>lr-fbalpha2012: YES<br>lr-geolith: NO<br>Raine: NO<br>Mame: NO</td><td>lr-fbneo: YES<br>lr-fbalpha: YES<br>lr-fbalpha2012: YES<br>lr-geolith: YES<br>Raine: YES<br>Mame: NO</td></tr></tbody></table>
 
 ## BIOS
 

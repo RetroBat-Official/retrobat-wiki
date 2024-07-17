@@ -76,6 +76,14 @@ OpenMSX MENU cannot be navigated with the D-PAD, use the analog stick.
 
 <table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (16).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (30).png" alt=""></td><td>Open MENU</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (50).png" alt=""></td><td>Load from slot</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (48).png" alt=""></td><td>Save to slot</td></tr><tr><td>Hotkey + START</td><td>Exit PCSX2</td></tr><tr><td>Hotkey + L1</td><td>Toggle FULLSCREEN (when option 'disable fullscreen' is ON)</td></tr><tr><td>Hotkey + R3</td><td>Screenshot</td></tr><tr><td>Hotkey + D-PAD UP</td><td>Select Save Slot Index +</td></tr><tr><td>Hotkey + D-PAD DOWN</td><td>Select Save Slot Index -</td></tr><tr><td>Hotkey + D-PAD LEFT</td><td>Toggle Slow Motion</td></tr><tr><td>Hotkey + D-PAD RIGHT</td><td>Toggle Turbo</td></tr></tbody></table>
 
+### Raine
+
+<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + L1</td><td>Menu</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (48).png" alt=""></td><td>Save to slot</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (50).png" alt=""></td><td>Load from slot</td></tr><tr><td>Hotkey + D-PAD UP</td><td>Switch save slot</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (16).png" alt=""></td><td>Pause game</td></tr><tr><td>Hotkey + R3</td><td>Screenshot</td></tr></tbody></table>
+
+{% hint style="info" %}
+Raine uses pad2key to handle shortcuts.
+{% endhint %}
+
 ### YUZU, SUYU, SUDACHI
 
 <table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (16).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + START</td><td>Exit YUZU</td></tr></tbody></table>
