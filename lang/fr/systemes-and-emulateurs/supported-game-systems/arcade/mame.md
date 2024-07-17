@@ -113,4 +113,4 @@ Le core libretro:mame est limité dans le nombre de caractères utilisable pour 
 
 Afin de corriger le problème, assurez-vous que le chemin d'installation de RetroBat n'est pas trop "long".
 
-Par exemple le chemin `C:\Emulation\Multi Emulators\FrontEnd\Tout-en-un\This is top\RetroBat version 5.3` est beaucoup trop long.
+Par exemple le chemin `C:\Emulation\Multi Emulators\FrontEnd\Tout-en-un\This is top\RetroBat version 6.3` est beaucoup trop long.
