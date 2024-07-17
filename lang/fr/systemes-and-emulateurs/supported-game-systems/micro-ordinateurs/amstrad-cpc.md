@@ -16,11 +16,11 @@ Micro-ordinateurs - durée de vie : 1984 - 1990
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro : cap32</li><li>libretro : crocods</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> amstradcpc</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.dsk .sna .tap .cdt .voc .m3u .zip .7z</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro : cap32</li><li>libretro : crocods</li><li>capriceforever</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> amstradcpc</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.dsk .sna .tap .cdt .voc .m3u .zip .7z</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-cap32 : OUI<br>lr-crocods : NON</td><td>lr-cap32 : OUI<br>lr-crocods : OUI</td><td>lr-cap32 : OUI<br>lr-crocods : OUI</td></tr></tbody></table>
+<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-cap32 : OUI<br>lr-crocods : NON<br>capriceforever : NON</td><td>lr-cap32 : OUI<br>lr-crocods : OUI<br>capriceforever : NON</td><td>lr-cap32 : OUI<br>lr-crocods : OUI<br>capriceforever : OUI</td></tr></tbody></table>
 
 ## BIOS
 
