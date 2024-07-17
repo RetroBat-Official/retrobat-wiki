@@ -91,7 +91,7 @@ Untick .zip extension
 
 </div>
 
-### Adding SINGE Games
+### Adding SINGE Games (with Hypseus)
 
 SINGE games include the famous AMERICAN LASER GAMES and a few other titles.
 
@@ -108,7 +108,7 @@ The process is similar as for Daphne games but there is no zip file to place in 
 
 </div>
 
-### Simple games folders structure
+### Simple games folders structure (Hypseus)
 
 To make things easier, you can use the assets available on the Hypseus Github.
 
@@ -149,3 +149,29 @@ After adding the required files (could be `.m2v` file, or `.ogg` and `.m2v` file
 <figure><img src="https://i.imgur.com/AcTA2z0.png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+### Adding SINGE2 games (singe2 emulator)
+
+Singe2 emulator does not support games in the same format as hypseus format.
+
+Only games listed on the emulator webpage can be used:
+
+{% embed url="https://kangaroopunch.com/view/ShowSoftware?id=7" %}
+
+You can download these games, add the video/sound files required, and rename the folder with a .singe extension to use these games with the SINGE2 emulator:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/0iDxyWG.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/7dDJtAe.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+{% hint style="warning" %}
+It is very important to KEEP the game folder name as downloaded from the website !
+{% endhint %}

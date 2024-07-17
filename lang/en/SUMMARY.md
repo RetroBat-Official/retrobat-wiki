@@ -239,6 +239,7 @@
     * [Flash](systems-and-emulators/supported-game-systems/others/flash.md)
     * [GzDoom](systems-and-emulators/supported-game-systems/others/gzdoom.md)
     * [Karaoke](systems-and-emulators/supported-game-systems/others/karaoke.md)
+    * [OpenGOAL](systems-and-emulators/supported-game-systems/others/opengoal.md)
     * [Pico-8](systems-and-emulators/supported-game-systems/others/pico-8.md)
     * [Ports](systems-and-emulators/supported-game-systems/others/ports.md)
     * [PrBoom](systems-and-emulators/supported-game-systems/others/prboom.md)

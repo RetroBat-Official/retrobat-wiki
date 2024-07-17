@@ -74,11 +74,11 @@ The list of compatible games can be found [HERE](https://teknogods.github.io/com
 
 To add **Teknoparrot** games, you must first download the Teknoparrot "emulator" from its official website (and not elsewhere): [https://teknoparrot.com/](https://teknoparrot.com/)
 
-Then, unzip the file you just downloaded in **\emulators\teknoparrot**
+Then, unzip the file you just downloaded in **\emulators\teknoparrot:**
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/fAk6RTy.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/rQlbFKQ.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -98,7 +98,7 @@ Place your Teknoparrot games in **\roms\teknoparrot**
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/rjJ3XuI.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/wqTsWOQ.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -106,15 +106,18 @@ The folders name of your Teknoparrot games must be renamed to **.teknoparrot** *
 
 For example, the game folder of _Mario Kart: Arcade GP DX_ must be renamed**:**&#x20;
 
-* `Mario Kart Arcade GP DX.teknoparrot`,&#x20;
-* or `Mario Kart Arcade GP DX.parrot`
-* or `Mario Kart Arcade GP DX.game`
+* `MKDX.teknoparrot`,&#x20;
+* or `MKDX.parrot`
+* or `MKDX.game`
 
-**Important detail**, the folders name must correspond to the name of the **"GameName"** (without special characters ![\[FAQ\] Retrobat \[WIP\] 584DwC5](https://i.imgur.com/584DwC5.png)) present in the .xml file that you will find in the folder **\emulators\teknoparrot\GameProfiles**
+**Important detail**, the folders name must correspond to the name of the json file for the game in the Teknoparrot "**Metadata**" folder located in **\emulators\teknoparrot\Metadata**
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/wKid67O.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/6BBrvM8.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
+{% hint style="info" %}
+You can also use the .xml game profile file name in the **\emulators\teknoparrot\GameProfiles** folder.
+{% endhint %}
