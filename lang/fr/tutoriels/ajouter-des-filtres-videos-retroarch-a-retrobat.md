@@ -105,3 +105,7 @@ Certains shaders peuvent être adaptés de façon spécifiques à certains syst�
 Enfin, certains émulateurs standalone peuvent également utiliser les shaders retroarch. Il faut alors rajouter le nom de l'émulateur sur une seconde ligne, suivi par le shader a utiliser.
 
 <figure><img src="https://wiki.retrobat.org/~gitbook/image?url=https%3A%2F%2Fi.imgur.com%2FAC6PXNK.png&#x26;width=768&#x26;dpr=4&#x26;quality=100&#x26;sign=03948f3d221a0e075ba53bda6267f34f1c22158f4341db3aa1b837d479b94147" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Pour éviter tout risque de voir disparaitre ses fichiers de configuration lors d'une mise à jour de RetroBat, il est recommandé de sauvegarder les dossiers de config crées manuellement, de façon a pouvoir les remettre en place rapidement si nécessaire.
+{% endhint %}
