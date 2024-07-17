@@ -16,11 +16,11 @@ Computer - Lifespan: 1984 - 1990
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: cap32</li><li>libretro: crocods</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> amstradcpc</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.dsk .sna .tap .cdt .voc .m3u .zip .7z</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: cap32</li><li>libretro: crocods</li><li>capriceforever</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> amstradcpc</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.dsk .sna .tap .cdt .voc .m3u .zip .7z</td><td></td></tr></tbody></table>
 
 ## System Features
 
-<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-cap32: YES<br>lr-crocods: NO</td><td>lr-cap32: YES<br>lr-crocods: YES</td><td>lr-cap32: YES<br>lr-crocods:YES</td></tr></tbody></table>
+<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-cap32: YES<br>lr-crocods: NO<br>capriceforever: NO</td><td>lr-cap32: YES<br>lr-crocods: YES<br>capriceforever: NO</td><td>lr-cap32: YES<br>lr-crocods:YES<br>capriceforever: YES</td></tr></tbody></table>
 
 ## Features
 
