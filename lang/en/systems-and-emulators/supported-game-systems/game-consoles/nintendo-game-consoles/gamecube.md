@@ -192,3 +192,51 @@ Once the custom texture pack is correctly named and placed, activate the **CUSTO
 <figure><img src="https://i.imgur.com/UPixWDa.png" alt=""><figcaption><p>Set Custom Textures to YES</p></figcaption></figure>
 
 </div>
+
+### Adding cheevos trophy indicator when missing (retroachievements)
+
+For some file extensions (like .gcz or .rvz), RetroBat does not recognize games as compatible with retroachievements, whereas Dolphin displays a prompt saying that you got achievement available for this game.&#x20;
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/ThQfwGy.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+As a result, the trophy indicator is missing in RetroBat in the system view for this particular game.
+
+If you want to force the display of the trophy indicator, you can edit the file `gamelist.xml` available in the `roms\<system>` folder, and add the following line :&#x20;
+
+```
+<cheevosId>XXXXX</cheevosId>
+```
+
+The ID `XXXXX` above must be replaced by the corresponding game ID that you can retrieve on [https://retroachievements.org](https://retroachievements.org), while browsing the game. It appears in the address bar of the browser.
+
+In our exemple :
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/t1Vyf3Y.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Example of the gamelist.xml file after editing it to add the correct cheevos ID :
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/CuTRBNH.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+The trophy icon will now appear next to the name of the game :&#x20;
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/81lKuBq.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+{% hint style="danger" %}
+The `gamelist.xml` file is a sensible document. Don't hesitate to create a backup before doing some change on it.
+{% endhint %}
