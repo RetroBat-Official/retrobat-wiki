@@ -190,3 +190,50 @@ Une fois le pack de textures correctement nommé et placé dans le bon dossier, 
 <figure><img src="https://i.imgur.com/UPixWDa.png" alt=""><figcaption><p>Custom Textures</p></figcaption></figure>
 
 </div>
+
+### Ajouter l'icône trophée manquante sur un jeu compatible retroachievements
+
+Il est possible que pour certaines extensions de fichiers (par exemple .gcz ou .rvz), l'indexation RetroBat ne reconnaît pas un jeu pourtant compatible avec les succès rétro, quand bien même Dolphin fait apparaître au lancement un message vous alertant de la disponibilité de succès pour ce même jeu.&#x20;
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/ThQfwGy.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Pour faire apparaitre l'indicateur de trophées, il faut éditer le fichier `gamelist.xml` disponible dans le répertoire `roms\<system>` pour y ajouter la ligne suivante :&#x20;
+
+```
+<cheevosId>XXXXX</cheevosId>
+```
+
+L' ID `XXXXX` ci-dessus doit être remplacé par l'identifiant du jeu, que vous pouvez retrouver à l'adresse [https://retroachievements.org](https://retroachievements.org). L'ID apparaît dans la barre d'adresse du navigateur quand vous consultez la page du jeu.
+
+Dans notre exemple :
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/t1Vyf3Y.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Ci-dessous l'exemple d'un fichier gamelist.xml file après l'avoir édité et ajouté l'identifiant cheevos correspondant :
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/sh46QjQ.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Après avoir actualisé la liste de jeux, l'icône trophée apparaît à côté du jeu:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/81lKuBq.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+{% hint style="danger" %}
+Le fichier`gamelist.xml` est un document sensible. Pensez a faire une sauvegarde de votre fichier avant toute modification.
+{% endhint %}
+
