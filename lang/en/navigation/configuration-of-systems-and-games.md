@@ -17,7 +17,7 @@ The configuration elements available in RetroBat are called "features", they hav
 
 ## How to access the configuration screen:
 
-The features menu is available from the "[View Options](view-options.md)" menu or from the "[Game Options](game-options.md)" menu:
+The features menu is available from the "[View Options](view-options.md)" (SELECT) menu or from the "[Game Options](game-options.md)" menu (LONG PRESS "SOUTH" on the game):
 
 #### when selecting the **ADVANCED SYSTEM OPTIONS** submenu:
 
