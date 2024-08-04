@@ -150,7 +150,7 @@ Dans l'écran suivant, sélectionner le disque suivant et confirmer avec ![A](<.
 
 La langue de la console ne peut être modifié que dans le BIOS de la console, voici comment procéder.
 
-Aller dans les options avancées du système et passer le paramètre "LANCER LE BIOS" à OUI:
+Aller dans les [options avancées du système](../../../../navigation/configuration-des-systemes-et-des-jeux.md#comment-acceder-au-menu-de-configuration) et passer le paramètre "LANCER LE BIOS" à OUI:
 
 <div align="left">
 
