@@ -225,7 +225,7 @@ Example of the gamelist.xml file after editing it to add the correct cheevos ID 
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/CuTRBNH.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/sh46QjQ.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -240,3 +240,4 @@ The trophy icon will now appear next to the name of the game :&#x20;
 {% hint style="danger" %}
 The `gamelist.xml` file is a sensible document. Don't hesitate to create a backup before doing some change on it.
 {% endhint %}
+
