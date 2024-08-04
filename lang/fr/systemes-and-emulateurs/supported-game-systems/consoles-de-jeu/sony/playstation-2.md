@@ -145,3 +145,10 @@ Dans l'écran suivant, sélectionner le disque suivant et confirmer avec ![A](<.
 <figure><img src="https://i.imgur.com/leMX1Ob.png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+### Modifier la langue du système
+
+La langue de la console ne peut être modifié que dans le BIOS de la console, voici comment procéder.
+
+Aller dans les options avancées du système et passer le paramétrage , turn ON the option to boot to BIOS:
+
