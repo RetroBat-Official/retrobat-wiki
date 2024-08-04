@@ -30,6 +30,22 @@ If you are using fbalpha2012\_neogeo core, you will need to place your bios file
 The core does not search the `\bios` folder.
 {% endhint %}
 
+## FBNeo folders
+
+**Roms**: \roms\fbneo
+
+**Bios**: \bios or \bios
+
+**Samples**: \bios\fbneo\samples
+
+**Hiscore.dat**: \bios\fbneo
+
+**Cheats**: \bios\fbneo\cheats
+
+**Blend files**: \saves\fbneo\blend
+
+
+
 ## Controls
 
 ### Arcade stick mapping

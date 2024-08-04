@@ -118,12 +118,6 @@ Place the rom file in .zip format in the `\roms\gameandwatch` folder.
 
 </div>
 
-Place the artwork in the `\bios\mame\artwork`folder, files must have exactly the same name as the roms and also be in .zip format.&#x20;
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/H39e9W9.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+Place the artwork in the `\saves\mame\artwork`folder, files must have exactly the same name as the roms and also be in .zip format.&#x20;
 
 Then, in Retrobat, go to the **Game & Watch** system and [change the emulator for the game](../../../get-started/running-a-game.md#choosing-the-emulator).

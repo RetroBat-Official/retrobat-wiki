@@ -55,7 +55,7 @@ BIOS files must be placed at the root of the `\bios` folder of your RetroBat ins
 
 **Ctrl**: \saves\mame\ctrlr
 
-##
+
 
 ## Controls
 
