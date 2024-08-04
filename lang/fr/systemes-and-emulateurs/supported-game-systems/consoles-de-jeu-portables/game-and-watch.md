@@ -120,12 +120,6 @@ Le fichier ROM au format zip doit être placé dans le dossier `\roms\gameandwat
 
 </div>
 
-Le fichier artwork (également au format zip) doit être placé dans le dossier `\bios\mame\artwork`, le nom du fichier doit être exactement identique au fichier de jeu ROM.
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/H39e9W9.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+Le fichier artwork (également au format zip) doit être placé dans le dossier `\saves\mame\artwork`, le nom du fichier doit être exactement identique au fichier de jeu ROM.
 
 Enfin, dans Retrobat, aller dans le système **Game & Watch** et [modifier l'émulateur pour le jeu](../../../premiers-pas/running-a-game.md#selectionner-un-emulateur-different).

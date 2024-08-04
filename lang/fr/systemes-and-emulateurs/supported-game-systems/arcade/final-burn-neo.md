@@ -30,6 +30,22 @@ Si vous utilisez le core libretro fbalpha2012\_neogeo core, placez les bios dans
 Le core ne permet pas l'utilisation du dossier `\bios`.
 {% endhint %}
 
+## Dossiers FBNeo
+
+**Roms**: \roms\fbneo
+
+**Bios**: \bios or \bios
+
+**Samples**: \bios\fbneo\samples
+
+**Hiscore.dat**: \bios\fbneo
+
+**Cheats**: \bios\fbneo\cheats
+
+**Blend files**: \saves\fbneo\blend
+
+
+
 ## Contrôles
 
 ### Stick Arcade
