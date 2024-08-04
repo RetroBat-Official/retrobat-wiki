@@ -150,5 +150,32 @@ Dans l'écran suivant, sélectionner le disque suivant et confirmer avec ![A](<.
 
 La langue de la console ne peut être modifié que dans le BIOS de la console, voici comment procéder.
 
-Aller dans les options avancées du système et passer le paramétrage , turn ON the option to boot to BIOS:
+Aller dans les options avancées du système et passer le paramètre "LANCER LE BIOS" à OUI:
 
+<div align="left">
+
+<figure><img src="https://i.imgur.com/XfJiN73.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Démarrer n'importe quel jeu de votre librairie, le système démarre sur le BIOS et non le jeu:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/zGInZDf.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Naviguer vers "system configuration" et sélectionner l'option "language":
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/4yZDjwt.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Choisir la langue et quitter.
+
+{% hint style="info" %}
+Ce paramétrage est sauvegardé directement dans le fichier BIOS. En cas d'utilisation d'un bios différent ou d'un nouveau fichier, il est nécessaire de reproduire ces étapes.
+{% endhint %}
