@@ -143,3 +143,37 @@ In the next screen, choose the right disc image and press ![A](<../../../../.git
 <figure><img src="https://i.imgur.com/leMX1Ob.png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+### Change PS2 language
+
+The language of the system must be changed in the console BIOS settings, this can be achieved by following these steps.
+
+In RetroBat [advanced system settings](../../../../navigation/view-options.md#advanced-system-options), turn ON the option to boot to BIOS:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/6W3NTaK.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Launch any game from the library, this will bring you to the BIOS settings instead of the game:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/zGInZDf.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Navigate to "system configuration" and to the language option:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/4yZDjwt.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Select the language and exit.
+
+{% hint style="info" %}
+This setting is stored in the BIOS file, when changing the BIOS to another version, this needs to be done again.
+{% endhint %}
