@@ -115,6 +115,7 @@
     * [Mega Duck](systems-and-emulators/supported-game-systems/portable-game-consoles/mega-duck.md)
     * [Nintendo (portable game consoles)](systems-and-emulators/supported-game-systems/portable-game-consoles/nintendo-portable-game-consoles/README.md)
       * [Game Boy](systems-and-emulators/supported-game-systems/portable-game-consoles/nintendo-portable-game-consoles/game-boy.md)
+      * [Game Boy MSU](systems-and-emulators/supported-game-systems/portable-game-consoles/nintendo-portable-game-consoles/gameboy-msu.md)
       * [Game Boy 2 players](systems-and-emulators/supported-game-systems/portable-game-consoles/nintendo-portable-game-consoles/game-boy-2-players.md)
       * [Virtual Boy](systems-and-emulators/supported-game-systems/portable-game-consoles/nintendo-portable-game-consoles/virtual-boy.md)
       * [Game Boy Color](systems-and-emulators/supported-game-systems/portable-game-consoles/nintendo-portable-game-consoles/game-boy-color.md)
