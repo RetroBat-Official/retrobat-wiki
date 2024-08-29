@@ -16,7 +16,7 @@ Portable Game Console - Lifespan: 2004 - 2014
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>ppsspp</li><li>Libretro: ppsspp</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> psp</td></tr><tr><td><strong>File extension</strong></td><td>.iso .cso .pbp .elf .prx .chd .zip .7z</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>ppsspp</li><li>Libretro: ppsspp</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> psp</td></tr><tr><td><strong>File extension</strong></td><td>.iso .cso .pbp .elf .prx .chd .zip .7z .squashfs</td></tr></tbody></table>
 
 ## System Features
 
@@ -30,7 +30,7 @@ No BIOS required.
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/c4dKloK.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/psp.png?raw=true" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -40,21 +40,23 @@ When using PPSSPP standalone, if both a XInput controller and a non-XInput contr
 
 ## System Features
 
+### File locations
+
+<table><thead><tr><th width="254">Data</th><th>Path (relative to retrobat root path)</th></tr></thead><tbody><tr><td>memstick path</td><td>saves\psp\PSP</td></tr><tr><td>Save states</td><td>PPSSPP: saves\psp\PPSSPP_STATE<br>libretro-ppsspp: saves\psp\libretro.ppsspp</td></tr><tr><td>config file</td><td>saves\psp\PSP\SYSTEM\ppsspp.ini</td></tr><tr><td>Controller configuration file</td><td>saves\psp\PSP\SYSTEM\controls.ini</td></tr></tbody></table>
+
 ### DLC
 
 DLCs for your games must be placed in:
 
-* `\saves\psp\GAME` for libretro:ppsspp
-* `\emulators\ppsspp\memstick\PSP\GAME` for PPSSPP
+* `\saves\psp\PSP\GAME`
 
-The subfolder must be the game ID, for example: `\saves\psp\GAME\ULES01372\`
+The subfolder must be the game ID, for example: `\saves\psp\PSP\GAME\ULES01372\`
 
 ### Custom textures
 
 Custom textures must be placed in:
 
-* `\saves\psp\TEXTURES\"GAMEID"` folder for libretro:ppsspp
-* `\emulators\ppsspp\memstick\PSP\TEXTURE\"GAMEID"`for PPSSPP
+* `\saves\psp\PSP\TEXTURES\"GAMEID"`
 
 Then enable custom textures in Retrobat:
 
