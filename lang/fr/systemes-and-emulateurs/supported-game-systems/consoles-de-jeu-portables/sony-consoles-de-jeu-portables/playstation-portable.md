@@ -16,7 +16,7 @@ Console de jeu portable - Durée de vie: 2004 - 2014
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>ppsspp</li><li>Libretro: ppsspp</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> psp</td></tr><tr><td><strong>Extensions</strong></td><td>.iso .cso .pbp .elf .prx .chd .zip .7z</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>ppsspp</li><li>Libretro: ppsspp</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> psp</td></tr><tr><td><strong>Extensions</strong></td><td>.iso .cso .pbp .elf .prx .chd .zip .7z .squashfs</td></tr></tbody></table>
 
 ## Fonctionnalités
 
@@ -30,7 +30,7 @@ Aucun BIOS nécessaire.
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/c4dKloK.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/psp.png?raw=true" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -40,21 +40,23 @@ Avec l'émulateur PPSSPP, si vous connectez une manette XInput, les manettes non
 
 ## Information spécifique au système
 
+### Emplacement des fichiers
+
+<table><thead><tr><th width="254">Fichier(s)</th><th>Chemin (relatif au dossier RetroBat)</th></tr></thead><tbody><tr><td>memstick</td><td>saves\psp\PSP</td></tr><tr><td>Sauvegardes d'état</td><td>PPSSPP: saves\psp\PPSSPP_STATE<br>libretro-ppsspp: saves\psp\libretro.ppsspp</td></tr><tr><td>Fichier de configuration</td><td>saves\psp\PSP\SYSTEM\ppsspp.ini</td></tr><tr><td>Configuration des contrôles</td><td>saves\psp\PSP\SYSTEM\controls.ini</td></tr></tbody></table>
+
 ### DLC
 
 Les DLC pour les jeux doivent être placés dans le dossier:
 
-* `\saves\psp\GAME` pour libretro:ppsspp
-* `\emulators\ppsspp\memstick\PSP\GAME` pour PPSSPP
+* `\saves\psp\PSP\GAME`
 
-Le sous-dossier doit être l'ID du jeu, par exemple: `\saves\psp\GAME\ULES01372\`
+Le sous-dossier doit être l'ID du jeu, par exemple: `\saves\psp\PSP\GAME\ULES01372\`
 
 ### Textures "custom"
 
 Les packs de textures "custom" doivent être placés dans le dossier:
 
-* `\saves\psp\TEXTURES\"GAMEID"` pour libretro:ppsspp
-* `\emulators\ppsspp\memstick\PSP\TEXTURE\"GAMEID"`pour PPSSPP
+* `\saves\psp\PSP\TEXTURES\"GAMEID"`
 
 Pour activer les textures "customs" dans Retrobat aller dans la [CONFIGURATION AVANCEE DU SYSTEME](../../../../navigation/view-options.md#configuration-avancees-du-systeme) :
 

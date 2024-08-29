@@ -16,11 +16,11 @@ Console de jeu - Durée de vie : 1993 - 1996
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>libretro : virtualjaguar</li><li>BigPEmu</li><li>bizhawk</li><li>phoenix</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> jaguar</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.zip .7z .j64 .jag .rom .abs .cof .bin .prg</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>libretro : virtualjaguar</li><li>BigPEmu</li><li>bizhawk</li><li>phoenix</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> jaguar</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.zip .7z .cue .cdi .j64 .jag .rom .abs .cof .bin .prg .squashfs</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-virtualjaguar : OUI<br>BigPEmu : NON<br>Bizhawk : OUI<br>Phoenix : NON</td><td>lr-virtualjaguar : NON<br>BigPEmu : NON<br>Bizhawk : NON<br>Phoenix : NON</td><td>lr-virtualjaguar : OUI<br>BigPEmu : OUI<br>Bizhawk : OUI<br>Phoenix : NON</td></tr></tbody></table>
+<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-virtualjaguar : OUI<br>BigPEmu : NON<br>Bizhawk : OUI<br>Phoenix : NON</td><td>lr-virtualjaguar : NON<br>BigPEmu : NON<br>Bizhawk : NON<br>Phoenix : NON</td><td>lr-virtualjaguar : OUI<br>BigPEmu : OUI<br>Bizhawk : OUI<br>Phoenix : OUI</td></tr></tbody></table>
 
 ## BIOS
 
@@ -28,33 +28,21 @@ Console de jeu - Durée de vie : 1993 - 1996
 
 ## Contrôles
 
-### VirtualJaguar
+### VirtualJaguar, Bizhawk and Phoenix
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/dOWkQMI.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/jaguar.png?raw=true" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 ### BigPEmu
 
-| Retrobat                                          | Jaguar                                             |
-| ------------------------------------------------- | -------------------------------------------------- |
-| START                                             | option                                             |
-| SELECT                                            | pause                                              |
-| D-PAD                                             | D-PAD                                              |
-| Stick analogique gauche                           | <p>Haut: 2<br>Bas: 8<br>Gauche: 4<br>Droite: 6</p> |
-| Stick analogique droit                            | <p>Haut: 5<br>Bas: 0<br>Gauche: 7<br>Droite: 9</p> |
-| ![](<../../../../.gitbook/assets/image (32).png>) | C                                                  |
-| ![](<../../../../.gitbook/assets/image (19).png>) | B                                                  |
-| ![](<../../../../.gitbook/assets/image (6).png>)  | A                                                  |
-| ![](<../../../../.gitbook/assets/image (34).png>) |                                                    |
-| L1                                                | 1                                                  |
-| R1                                                | 3                                                  |
-| L2                                                | hotkey                                             |
-| R2                                                |                                                    |
-| L3                                                | asterisk                                           |
-| R3                                                | dièse                                              |
+<div align="left">
+
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/jaguar_bigpemu.png?raw=true" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ## Information spécifique au système
 

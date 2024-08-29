@@ -145,13 +145,17 @@ Ce dossier contient plusieurs fichiers de configuration RetroBat ainsi que des "
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/PfED98M.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/aQODkzO.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 ### Dossier "decorations"
 
 Ce dossier contient les décorations (bezels) fournis par défaut avec RetroBat.
+
+### Dossier "es\_menu"
+
+Ce dossier contient les raccourcis vers les exécutables des émulateurs utilisés dans le système "RetroBat" du menu principal.
 
 ### Dossier "loadingscreens"
 
@@ -165,9 +169,23 @@ Des exemples de vidéos de chargement se trouvent dans le dossier system\templat
 
 Ce dossier contient les fichier [padtokey ](../controleurs/pad2key.md#fichier-pad2key)fournis par défaut avec RetroBat.
 
+### Dossier "resource"
+
+Dans le sous-dossier "inputmapping", il est possible de trouver les fichiers d'autoconfiguration utilisés par RetroBat pour certains systèmes:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/cxjYSok.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 ### Dossier "shaders"
 
 Ce dossier contient les shaders (filtres vidéos) fournis par défaut avec RetroBat.
+
+### Dossier "tattos"
+
+Ce dossier contient les "tatouages", schémas de contrôles pour différents systèmes.
 
 ### Dossier "templates"
 

@@ -66,25 +66,23 @@ Les contrôleurs suivants peuvent être autoconfigurés depuis RetroBat dans rpc
 * Nintendo Switch Pro
 {% endhint %}
 
-| RetroBat                                                                           | Playstation 3           |
-| ---------------------------------------------------------------------------------- | ----------------------- |
-| START                                                                              | START                   |
-| SELECT                                                                             | SELECT                  |
-| D-PAD                                                                              | D-PAD                   |
-| Stick analogique gauche                                                            | Stick analogique gauche |
-| Stick analogique droit                                                             | Stick analogique droit  |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | Croix                   |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | Rond                    |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | Triangle                |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | Carré                   |
-| L1                                                                                 | L1                      |
-| R1                                                                                 | R1                      |
-| L2                                                                                 | L2                      |
-| R2                                                                                 | R2                      |
-| L3                                                                                 | L3                      |
-| R3                                                                                 | R3                      |
+<div align="left">
+
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/psx.png?raw=true" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ## Information spécifique au système
+
+### Emplacement des fichiers
+
+<table><thead><tr><th width="254">Data</th><th>Chemin (relatif au dossier RetroBat)</th></tr></thead><tbody><tr><td>dev_hdd0</td><td>saves\ps3\rpcs3\dev_hdd0</td></tr><tr><td>config file</td><td>emulators\rpcs3\config.yml</td></tr><tr><td>gui config file</td><td>emulators\rpcs3\GuiConfigs\CurrentSettings.ini</td></tr><tr><td>Controller configuration file</td><td>emulators\rpcs3\config\input_configs\global\Default.yml</td></tr></tbody></table>
+
+{% hint style="info" %}
+Il est possible d'utiliser le dossier `emulators\rpcs3\dev_hdd0` au lieu de saves.
+
+Pour cela il suffit de supprimer le dossier `saves\ps3\rpcs3`.
+{% endhint %}
 
 ### Ajouter les jeux
 
@@ -99,7 +97,7 @@ Il existe 2 formats de jeux pour la PS3: les disques Blu-Ray et les jeux PSN (Pl
 
 </div>
 
-Les jeux au format Blu-ray disc peuvent être placés directement dans le dossier  `\roms\ps3`, les jeux dématérialisés doivent être placés dans le dossier `\emulators\rpcs3\dev_hdd0\game` de votre installation RetroBat.
+Les jeux au format Blu-ray disc peuvent être placés directement dans le dossier  `\roms\ps3`, les jeux dématérialisés doivent être placés dans le dossier `\saves\ps3\rpcs3\dev_hdd0\game` de votre installation RetroBat.
 
 {% hint style="danger" %}
 Les jeux PSN doivent être décryptés pour pouvoir être lus par RPCS3.
@@ -121,11 +119,11 @@ Le jeu sera directement disponible dans RetroBat.
 
 Une fois que l'émulateur est configuré, que le jeu est ajouté et qu'il fonctionne correctement lorsqu'il est lancé depuis l'émulateur, créer un fichier m3u et le placer dans le dossier `\roms\ps3` .
 
-Le fichier m3u doit pointer vers le fichier **EBOOT.BIN** se trouvant dans le dossier du jeu dans le répertoire `\emulators\rpcs3\dev_hdd0\game`, ci-dessous un exemple pour le jeu BulletStorm:
+Le fichier m3u doit pointer vers le fichier **EBOOT.BIN** se trouvant dans le dossier du jeu dans le répertoire `\saves\ps3\rpcs3\dev_hdd0\game`, ci-dessous un exemple pour le jeu BulletStorm:
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/E1igTL6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/qV3GMuC.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

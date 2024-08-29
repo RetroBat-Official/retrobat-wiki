@@ -32,19 +32,19 @@ Les contrôles sont similaires à ceux utilisés par Dolphin pour la Gamecube.
 
 Il est possible de paramétrer les contrôles directement dans l'émulateur dolphin-triforce.
 
-| RetroBat                                                                           | TriForce                     |
-| ---------------------------------------------------------------------------------- | ---------------------------- |
-| START                                                                              | START                        |
-| D-PAD                                                                              | D-PAD                        |
-| Stick analogique gauche                                                            | Stick analogique gauche      |
-| Stick analogique droit                                                             | Stick analogique  - C-Stick  |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | A                            |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | X                            |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | Y (RESET)                    |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | B                            |
-| RB (R1)                                                                            | Z (extra credit)             |
-| LT (L2)                                                                            | L                            |
-| RT (R2)                                                                            | R                            |
+| RetroBat                                                                       | TriForce                     |
+| ------------------------------------------------------------------------------ | ---------------------------- |
+| START                                                                          | START                        |
+| SELECT                                                                         | X                            |
+| D-PAD                                                                          | D-PAD                        |
+| Stick analogique gauche                                                        | Stick analogique gauche      |
+| Stick analogique droit                                                         | Stick analogique  - C-Stick  |
+| ![A](<../../../../.gitbook/assets/image (19).png>)                             | A                            |
+| ![B](<../../../../.gitbook/assets/image (6).png>)                              | B                            |
+| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line"> | Y                            |
+| LT (L2)                                                                        | L                            |
+| RT (R2)                                                                        | R                            |
+| R3 (Thumbstick press)                                                          | Z (test menu)                |
 
 ## Information spécifiques au système
 
