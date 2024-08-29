@@ -28,7 +28,7 @@ Switch firmware files and prod.keys need to be dumped from your console and plac
 
 ### Ryujinx
 
-Place prod.keys file in `\emulators\ryujinx\portable\system`
+Place prod.keys file in `\saves\switch\ryujinx\portable\system`
 
 Install firmware directly in the emulator
 
@@ -54,23 +54,31 @@ The following controllers can be autoconfigured from Retrobat to Switch emulator
 * Nintendo Switch Pro controller
 {% endhint %}
 
-| RetroBat key                                                                       | Switch Key  |
-| ---------------------------------------------------------------------------------- | ----------- |
-| START                                                                              | +           |
-| SELECT / BACK                                                                      | -           |
-| D-PAD                                                                              | D-PAD       |
-| Left Analog Stick                                                                  | Left stick  |
-| Right Analog Stick                                                                 | Right stick |
-| ![A](<../../../../.gitbook/assets/image (30).png>)                                 | B           |
-| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | A           |
-| <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | X           |
-| <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | Y           |
-| LB (L1)                                                                            | L           |
-| RB (R1)                                                                            | R           |
-| L2                                                                                 | ZL          |
-| R2                                                                                 | ZR          |
-| L3                                                                                 | Left Thumb  |
-| R3                                                                                 | Right Thumb |
+| RetroBat key                                                                       | Switch Key                     |
+| ---------------------------------------------------------------------------------- | ------------------------------ |
+| START                                                                              | +                              |
+| SELECT / BACK                                                                      | -                              |
+| D-PAD                                                                              | D-PAD                          |
+| Left Analog Stick                                                                  | Left stick                     |
+| Right Analog Stick                                                                 | Right stick                    |
+| ![A](<../../../../.gitbook/assets/image (30).png>)                                 | <p>B<br>Or A when inverted</p> |
+| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | <p>A<br>Or B when inverted</p> |
+| <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | <p>X<br>Or Y when inverted</p> |
+| <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | <p>Y<br>Or X when inverted</p> |
+| LB (L1)                                                                            | L                              |
+| RB (R1)                                                                            | R                              |
+| L2                                                                                 | ZL                             |
+| R2                                                                                 | ZR                             |
+| L3                                                                                 | Left Thumb                     |
+| R3                                                                                 | Right Thumb                    |
+
+Use the following option to invert face buttons (to match xbox controllers):
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/tFOOo3r.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ## Specific system information
 
@@ -82,7 +90,11 @@ Yuzu emulator is not maintained anymore.
 
 {% embed url="https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide" %}
 
-### Installing game updates
+### Files location
+
+<table><thead><tr><th width="276">Files</th><th>Path (relative to the RetroBat root folder)</th></tr></thead><tbody><tr><td>Emulator content</td><td><strong>Ryujinx</strong>: saves\switch\ryujinx\portable<br><strong>Yuzu, Suyu, Sudachi:</strong> <br>emulators\&#x3C;emulator name>\user</td></tr><tr><td>Config file</td><td><strong>Ryujinx</strong>: saves\switch\ryujinx\portable\Config.json<br><strong>Yuzu, Suyu, Sudachi:</strong> <br>emulators\&#x3C;emulator name>\user\config\qt-config.ini</td></tr></tbody></table>
+
+### Installing game updates & DLC
 
 Game updates can be installed both in Yuzu and Ryujinx. They are dumped from your Switch in the format of .nsp files.
 
@@ -97,6 +109,12 @@ In Ryujinx Game list, right-click the game line and select **Manage Title Update
 </div>
 
 The next screen will invite you to select your update or DLC .nsp file, search for it on your computer, add it and save.
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/Vk2lwA3.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 #### Sudachi, Suyu, Yuzu
 
