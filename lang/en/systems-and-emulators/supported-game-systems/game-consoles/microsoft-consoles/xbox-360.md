@@ -16,7 +16,7 @@ Game Console - Lifespan: 2005 - 2016
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>xenia-canary</li><li>xenia</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> xbox360</td></tr><tr><td><strong>File extension</strong></td><td>.iso .xex .xcp .zar .m3u</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>xenia</li><li>xenia-canary</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> xbox360</td></tr><tr><td><strong>File extension</strong></td><td>.iso .xex .xcp .zar .m3u .xbox360</td></tr></tbody></table>
 
 ## System Features
 
@@ -37,6 +37,10 @@ From Retrobat System Options you can select the type of controller to use, selec
 * OTHER for all other type of controllers (NINTENDO, DualShocks, etc.)
 
 ## Specific system information
+
+### Content folders
+
+<table><thead><tr><th width="254">Data</th><th>Path (relative to retrobat root path)</th></tr></thead><tbody><tr><td>Content path</td><td>saves\xbox360\xenia</td></tr></tbody></table>
 
 ### Adding XBLA (Xbox Live Arcade) games
 
@@ -62,4 +66,28 @@ The content of the .m3u file is the following:
 
 {% hint style="info" %}
 BATGUI tool offers an automatic m3u creation tool. Refer to the [BATGUI ](../../../../advanced-features/batgui.md)section of the wiki.
+{% endhint %}
+
+### Xenia Manager
+
+RetroBat allows running the Xenia-Manager, to do that you need to download the Xenia-Manager from [RetroBat's content manager](../../../../advanced-features/updates-and-content-download.md#download-content):
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/NftT8E2.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Once downloaded, refresh the gamelist, now Xenia Manager is available from the RetroBat menu:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/G4xuhPy.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+{% hint style="warning" %}
+Do not use another version of Xenia-Manager fournie as the one provided by RetroBat is the only one with the right paths to the xenia emulators.
+
+If you install it outside of RetroBat, the emulators will be in a subpath of the manager and will not work with RetroBat.
 {% endhint %}
