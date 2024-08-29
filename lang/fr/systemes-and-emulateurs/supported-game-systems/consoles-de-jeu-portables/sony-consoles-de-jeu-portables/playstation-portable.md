@@ -42,21 +42,21 @@ Avec l'émulateur PPSSPP, si vous connectez une manette XInput, les manettes non
 
 ### Emplacement des fichiers
 
-<table><thead><tr><th width="254">Fichier(s)</th><th>Chemin (relatif au dossier RetroBat)</th></tr></thead><tbody><tr><td>memstick</td><td>saves\psp\PSP</td></tr><tr><td>Sauvegardes d'état</td><td>PPSSPP: saves\psp\PPSSPP_STATE<br>libretro-ppsspp: saves\psp\libretro.ppsspp</td></tr><tr><td>Fichier de configuration</td><td>saves\psp\PSP\SYSTEM\ppsspp.ini</td></tr><tr><td>Configuration des contrôles</td><td>saves\psp\PSP\SYSTEM\controls.ini</td></tr></tbody></table>
+<table><thead><tr><th width="254">Fichier(s)</th><th>Chemin (relatif au dossier RetroBat)</th></tr></thead><tbody><tr><td>memstick</td><td>saves\psp</td></tr><tr><td>Sauvegardes d'état</td><td>PPSSPP: saves\psp\PPSSPP_STATE<br>libretro-ppsspp: saves\psp\libretro.ppsspp</td></tr><tr><td>Fichier de configuration</td><td>saves\psp\SYSTEM\ppsspp.ini</td></tr><tr><td>Configuration des contrôles</td><td>saves\psp\SYSTEM\controls.ini</td></tr></tbody></table>
 
 ### DLC
 
 Les DLC pour les jeux doivent être placés dans le dossier:
 
-* `\saves\psp\PSP\GAME`
+* `\saves\psp\GAME`
 
-Le sous-dossier doit être l'ID du jeu, par exemple: `\saves\psp\PSP\GAME\ULES01372\`
+Le sous-dossier doit être l'ID du jeu, par exemple: `\saves\psp\GAME\ULES01372\`
 
 ### Textures "custom"
 
 Les packs de textures "custom" doivent être placés dans le dossier:
 
-* `\saves\psp\PSP\TEXTURES\"GAMEID"`
+* `\saves\psp\TEXTURES\"GAMEID"`
 
 Pour activer les textures "customs" dans Retrobat aller dans la [CONFIGURATION AVANCEE DU SYSTEME](../../../../navigation/view-options.md#configuration-avancees-du-systeme) :
 

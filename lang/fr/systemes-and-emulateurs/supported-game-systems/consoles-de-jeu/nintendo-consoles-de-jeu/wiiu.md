@@ -38,35 +38,45 @@ Les contrôleurs suivants peuvent être autoconfigurés depuis RetroBat dans Dol
 * Nintendo Switch Pro
 {% endhint %}
 
-| RetroBat                                                                           | WiiU                    |
-| ---------------------------------------------------------------------------------- | ----------------------- |
-| START                                                                              | +                       |
-| SELECT / BACK                                                                      | -                       |
-| D-PAD                                                                              | D-PAD                   |
-| Stick analogique gauche                                                            | Stick analogique gauche |
-| Stick analogique droit                                                             | Stick analogique droit  |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | B                       |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | A                       |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | X                       |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | Y                       |
-| LB (L1)                                                                            | L                       |
-| RB (R1)                                                                            | R                       |
-| L2                                                                                 | ZL                      |
-| R2                                                                                 | ZR                      |
-| L3                                                                                 | L3                      |
-| R3                                                                                 | R3                      |
+| RetroBat                                                                           | WiiU                               |
+| ---------------------------------------------------------------------------------- | ---------------------------------- |
+| START                                                                              | +                                  |
+| SELECT / BACK                                                                      | -                                  |
+| D-PAD                                                                              | D-PAD                              |
+| Stick analogique gauche                                                            | Stick analogique gauche            |
+| Stick analogique droit                                                             | Stick analogique droit             |
+| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | <p>B<br>ou A si option inversé</p> |
+| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | <p>A<br>ou B si option inversé</p> |
+| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | <p>X<br>ou Y si option inversé</p> |
+| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | <p>Y<br>ou X si option inversé</p> |
+| LB (L1)                                                                            | L                                  |
+| RB (R1)                                                                            | R                                  |
+| L2                                                                                 | ZL                                 |
+| R2                                                                                 | ZR                                 |
+| L3                                                                                 | L3                                 |
+| R3                                                                                 | R3                                 |
 
-### Jouer avec des wiimotes
-
-Cemu permet de jouer avec de vraies wiimotes si celles-ci sont connectées au PC.
-
-Pour cela, sélectionner l'option "**REAL WIIMOTES**" dans les options avancées du système ou du jeu:
+L'option pour inverser les boutons est disponible ici:
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/gKJnnvO.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/d4TjkSo.png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+### Jouer avec des wiimotes
+
+Cemu permet de jouer avec de vraies wiimotes si celles-ci sont connectées au PC (DolphinBar ou via Bluetooth).
+
+Pour cela, sélectionner l'option "**UTILISER DES WIIMOTES**" dans les options avancées du système ou du jeu:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/SzW25zx.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Il est possible pour chaque joueur de définir le type de wiimote connectée.
 
 ### Contrôle des mouvements (motion control)
 
@@ -76,11 +86,11 @@ Le [wiki CEMU](https://wiki.cemu.info/wiki/Motion\_controls) contient toutes les
 
 Les contrôleurs compatibles à l'heure actuelle sont les manettes Switch Pro, 8Bitdo (en mode Pro Controller) et DualSense.
 
-{% hint style="danger" %}
-En construction
-{% endhint %}
-
 ## Information spécifique au système
+
+### Emplacement des fichiers
+
+<table><thead><tr><th width="276">Fichier(s)</th><th>Chemin (relatif au dossier RetroBat)</th></tr></thead><tbody><tr><td>mlc01</td><td>saves\wiiu\cemu\mlc01</td></tr><tr><td>Fichier de configuration</td><td>emulators\cemu\portable\settings.xml</td></tr><tr><td>Configuration des contrôleurs</td><td>emulators\cemu\portable\controllerProfiles<br>Chaque contrôleur dans un fichier .xml</td></tr></tbody></table>
 
 ### Ajouter des jeux
 
@@ -152,13 +162,13 @@ L'explorateur windows ouvre le répertoire du jeu dans lequel se trouve le fichi
 
 Quitter Cemu et ouvrir le dossier `\roms\wiiu`, puis créer un fichier `<nom du jeu>.m3u` dont le contenu est le suivant:
 
-`\..\..\emulators\cemu\mlc01\usr\title\`<mark style="color:red;">`<chemin du jeu>`</mark>`\`<mark style="color:red;">`*`</mark>`.rpx`
+`\..\..\saves\wiiu\cemu\mlc01\usr\title\`<mark style="color:red;">`<chemin du jeu>`</mark>`\`<mark style="color:red;">`*`</mark>`.rpx`
 
 Par exemple pour le jeu Zelda Breath of the Wild:
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/DjHV0Gt.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/UWMM1eX.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
