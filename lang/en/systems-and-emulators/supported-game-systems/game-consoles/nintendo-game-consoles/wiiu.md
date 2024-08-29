@@ -38,23 +38,31 @@ The following controllers can be autoconfigured from Retrobat to Cemu:
 * Nintendo Switch Pro controller
 {% endhint %}
 
-| RetroBat key                                                                       | WiiU Key    |
-| ---------------------------------------------------------------------------------- | ----------- |
-| START                                                                              | +           |
-| SELECT / BACK                                                                      | -           |
-| D-PAD                                                                              | D-PAD       |
-| Left Analog Stick                                                                  | Left stick  |
-| Right Analog Stick                                                                 | Right stick |
-| ![A](<../../../../.gitbook/assets/image (30).png>)                                 | B           |
-| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | A           |
-| <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | X           |
-| <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | Y           |
-| LB (L1)                                                                            | L           |
-| RB (R1)                                                                            | R           |
-| L2                                                                                 | ZL          |
-| R2                                                                                 | ZR          |
-| L3                                                                                 | Left Thumb  |
-| R3                                                                                 | Right Thumb |
+| RetroBat key                                                                       | WiiU Key                              |
+| ---------------------------------------------------------------------------------- | ------------------------------------- |
+| START                                                                              | +                                     |
+| SELECT / BACK                                                                      | -                                     |
+| D-PAD                                                                              | D-PAD                                 |
+| Left Analog Stick                                                                  | Left stick                            |
+| Right Analog Stick                                                                 | Right stick                           |
+| ![A](<../../../../.gitbook/assets/image (30).png>)                                 | <p>B<br>Or A with inverted option</p> |
+| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | <p>A<br>Or B with inverted option</p> |
+| <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | <p>X<br>Or Y with inverted option</p> |
+| <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | <p>Y<br>Or X with inverted option</p> |
+| LB (L1)                                                                            | L                                     |
+| RB (R1)                                                                            | R                                     |
+| L2                                                                                 | ZL                                    |
+| R2                                                                                 | ZR                                    |
+| L3                                                                                 | Left Thumb                            |
+| R3                                                                                 | Right Thumb                           |
+
+The option to invert face buttons can be found here:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/BstocFZ.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ### Playing with Wiimotes
 
@@ -67,6 +75,8 @@ To play with wiimote, select the "**REAL WIIMOTES**" option in RetroBat advanced
 <figure><img src="https://i.imgur.com/UH3Acs9.png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+Each player can define the type of wiimote that is connected.
 
 ### Motion controls
 
@@ -81,6 +91,10 @@ If you own a controller that supports motion control, you can activate motion co
 {% endhint %}
 
 ## Specific system information
+
+### Files location
+
+<table><thead><tr><th width="276">Files</th><th>Path (relative to the RetroBat root folder)</th></tr></thead><tbody><tr><td>mlc01</td><td>saves\wiiu\cemu\mlc01</td></tr><tr><td>Config file</td><td>emulators\cemu\portable\settings.xml</td></tr><tr><td>Controller config file</td><td>emulators\cemu\portable\controllerProfiles<br>Each controller in its own .xml file</td></tr></tbody></table>
 
 ### Adding Games in Loadiine format
 
@@ -150,13 +164,13 @@ This will show you the path of the game executable .rpx file
 
 Exit Cemu and open you `\roms\wiiu` folder and create a `zelda breath of the wild.m3u` file with the following content
 
-`\..\..\emulators\cemu\mlc01\usr\title\`<mark style="color:red;">`<path to the game>`</mark>`\`<mark style="color:red;">`*`</mark>`.rpx`
+`\..\..\saves\wiiu\cemu\mlc01\usr\title\`<mark style="color:red;">`<path to the game>`</mark>`\`<mark style="color:red;">`*`</mark>`.rpx`
 
 For example for Zelda Breath of the Wild:
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/DjHV0Gt.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/UWMM1eX.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

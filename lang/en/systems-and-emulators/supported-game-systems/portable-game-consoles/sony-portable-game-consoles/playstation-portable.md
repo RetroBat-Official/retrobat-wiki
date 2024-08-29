@@ -42,21 +42,21 @@ When using PPSSPP standalone, if both a XInput controller and a non-XInput contr
 
 ### File locations
 
-<table><thead><tr><th width="254">Data</th><th>Path (relative to retrobat root path)</th></tr></thead><tbody><tr><td>memstick path</td><td>saves\psp\PSP</td></tr><tr><td>Save states</td><td>PPSSPP: saves\psp\PPSSPP_STATE<br>libretro-ppsspp: saves\psp\libretro.ppsspp</td></tr><tr><td>config file</td><td>saves\psp\PSP\SYSTEM\ppsspp.ini</td></tr><tr><td>Controller configuration file</td><td>saves\psp\PSP\SYSTEM\controls.ini</td></tr></tbody></table>
+<table><thead><tr><th width="254">Data</th><th>Path (relative to retrobat root path)</th></tr></thead><tbody><tr><td>memstick path</td><td>saves\psp</td></tr><tr><td>Save states</td><td>PPSSPP: saves\psp\PPSSPP_STATE<br>libretro-ppsspp: saves\psp\libretro.ppsspp</td></tr><tr><td>config file</td><td>saves\psp\SYSTEM\ppsspp.ini</td></tr><tr><td>Controller configuration file</td><td>saves\psp\SYSTEM\controls.ini</td></tr></tbody></table>
 
 ### DLC
 
 DLCs for your games must be placed in:
 
-* `\saves\psp\PSP\GAME`
+* `\saves\psp\GAME`
 
-The subfolder must be the game ID, for example: `\saves\psp\PSP\GAME\ULES01372\`
+The subfolder must be the game ID, for example: `\saves\psp\GAME\ULES01372\`
 
 ### Custom textures
 
 Custom textures must be placed in:
 
-* `\saves\psp\PSP\TEXTURES\"GAMEID"`
+* `\saves\psp\TEXTURES\"GAMEID"`
 
 Then enable custom textures in Retrobat:
 
