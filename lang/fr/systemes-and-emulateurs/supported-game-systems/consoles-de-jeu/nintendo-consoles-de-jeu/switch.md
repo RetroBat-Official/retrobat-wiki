@@ -28,7 +28,7 @@ Il est nécessaire d'extraire le firware et le fichier `prod.keys` de votre cons
 
 ### Ryujinx
 
-Placer le fichier prod.keys dans le dossier `\emulators\ryujinx\portable\system`
+Placer le fichier prod.keys dans le dossier `\saves\switch\ryujinx\portable\system`
 
 Installer le firmware ryujinx depuis le menu "Tools"
 
@@ -54,27 +54,31 @@ Les contrôleurs suivants peuvent être autoconfigurés depuis RetroBat dans les
 * Nintendo Switch Pro
 {% endhint %}
 
-| RetroBat                                                                           | Switch                  |
-| ---------------------------------------------------------------------------------- | ----------------------- |
-| START                                                                              | +                       |
-| SELECT / BACK                                                                      | -                       |
-| D-PAD                                                                              | D-PAD                   |
-| Stick analogique gauche                                                            | Stick analogique gauche |
-| Stick analogique droit                                                             | Stick analogique droit  |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | B                       |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | A                       |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | X                       |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | Y                       |
-| LB (L1)                                                                            | L                       |
-| RB (R1)                                                                            | R                       |
-| L2                                                                                 | ZL                      |
-| R2                                                                                 | ZR                      |
-| L3                                                                                 | L3                      |
-| R3                                                                                 | R3                      |
+| RetroBat                                                                           | Switch                      |
+| ---------------------------------------------------------------------------------- | --------------------------- |
+| START                                                                              | +                           |
+| SELECT / BACK                                                                      | -                           |
+| D-PAD                                                                              | D-PAD                       |
+| Stick analogique gauche                                                            | Stick analogique gauche     |
+| Stick analogique droit                                                             | Stick analogique droit      |
+| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | <p>B<br>Ou A si inversé</p> |
+| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | <p>A<br>Ou B si inversé</p> |
+| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | <p>X<br>Ou Y si inversé</p> |
+| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | <p>Y<br>Ou X si inversé</p> |
+| LB (L1)                                                                            | L                           |
+| RB (R1)                                                                            | R                           |
+| L2                                                                                 | ZL                          |
+| R2                                                                                 | ZR                          |
+| L3                                                                                 | L3                          |
+| R3                                                                                 | R3                          |
 
-{% hint style="info" %}
-Pour Ryujinx, effectuer la configuration directement dans l'émulateur.
-{% endhint %}
+L'option pour inverser les boutons se trouve ici:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/vy1VRvy.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ## Information spécifique au système
 
@@ -86,9 +90,13 @@ L'émulateur YUZU n'est plus maintenu par ses créateurs, le site Web n'est plus
 
 {% embed url="https://github.com/Ryujinx/Ryujinx/wiki/Ryujinx-Setup-&-Configuration-Guide" %}
 
+### Emplacement des fichiers
+
+<table><thead><tr><th width="276">Données</th><th>Chemin (relatif au dossier RetroBat)</th></tr></thead><tbody><tr><td>Données de l'émulateur</td><td><strong>Ryujinx</strong>: saves\switch\ryujinx\portable<br><strong>Yuzu, Suyu, Sudachi:</strong> <br>emulators\&#x3C;emulator name>\user</td></tr><tr><td>Fichier de configuration</td><td><strong>Ryujinx</strong>: saves\switch\ryujinx\portable\Config.json<br><strong>Yuzu, Suyu, Sudachi:</strong> <br>emulators\&#x3C;emulator name>\user\config\qt-config.ini</td></tr></tbody></table>
+
 ### Installer les mises à jour et les DLC des jeux
 
-Yuzu et Ryujinx permettent l'installation de mises à jour et de DLC pour vos jeux.&#x20;
+Tous les émulateurs permettent l'installation de mises à jour et de DLC pour vos jeux.&#x20;
 
 Les mises à jour et les DLC des jeux sont des fichiers au format .nsp que vous devez extraire de votre console SWITCH.
 
@@ -102,7 +110,13 @@ Depuis la liste de jeux dans Ryujinx, effectuer un clic droit sur le jeu et choi
 
 </div>
 
-Dans l'écran suivant, rechercher le fichier .nsp sur votre ordinateur, le sélectionner et sauvegarder pour lancer l'installation.
+Dans l'écran suivant, rechercher le fichier .nsp sur votre ordinateur, le sélectionner et sauvegarder pour lancer l'installation:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/Vk2lwA3.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 #### Sudachi, Suyu, Yuzu
 
