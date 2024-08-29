@@ -32,19 +32,19 @@ Controls are similar to Gamecube mapping for Dolphin.
 
 You can create your own mapping directly in the dolphin-triforce emulator.
 
-| RetroBat key                                                                       | Triforce key             |
-| ---------------------------------------------------------------------------------- | ------------------------ |
-| START                                                                              | START                    |
-| D-PAD                                                                              | D-PAD                    |
-| Analog Stick - Left                                                                | Analog Stick - Left      |
-| Analog Stick - Right                                                               | Analog Stick  - C-Stick  |
-| ![A](<../../../../.gitbook/assets/image (30).png>)                                 | A                        |
-| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | X                        |
-| <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | Y (RESET)                |
-| <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | B                        |
-| RB (R1)                                                                            | Z (extra credit)         |
-| LT (L2)                                                                            | L                        |
-| RT (R2)                                                                            | R                        |
+| RetroBat                                                                       | TriForce          |
+| ------------------------------------------------------------------------------ | ----------------- |
+| START                                                                          | START             |
+| SELECT                                                                         | X                 |
+| D-PAD                                                                          | D-PAD             |
+| Left analog stick                                                              | Left analog stick |
+| Right analog stick                                                             | C-Stick           |
+| ![A](<../../../../.gitbook/assets/image (30).png>)                             | A                 |
+| ![B](<../../../../.gitbook/assets/image (16).png>)                             | B                 |
+| <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line"> | Y                 |
+| LT (L2)                                                                        | L                 |
+| RT (R2)                                                                        | R                 |
+| R3 (Thumbstick press)                                                          | Z (test menu)     |
 
 ## Specific system information
 

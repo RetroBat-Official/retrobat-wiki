@@ -66,25 +66,21 @@ The following controllers can be autoconfigured from Retrobat to RPCS3:
 * Nintendo Switch Pro controller
 {% endhint %}
 
-| RetroBat key                                                                       | Playstation 3 key  |
-| ---------------------------------------------------------------------------------- | ------------------ |
-| START                                                                              | START              |
-| SELECT / BACK                                                                      | SELECT             |
-| D-PAD                                                                              | D-PAD              |
-| Left analog stick                                                                  | Left analog stick  |
-| Right analog stick                                                                 | Right analog stick |
-| ![A](<../../../../.gitbook/assets/image (30).png>)                                 | Cross              |
-| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | Circle             |
-| <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | Triangle           |
-| <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | Square             |
-| L1                                                                                 | L1                 |
-| R1                                                                                 | R1                 |
-| L2                                                                                 | L2                 |
-| R2                                                                                 | R2                 |
-| L3                                                                                 | L3                 |
-| R3                                                                                 | R3                 |
+<div align="left">
+
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/psx.png?raw=true" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ## System Features
+
+### File locations
+
+<table><thead><tr><th width="254">Data</th><th>Path (relative to retrobat root path)</th></tr></thead><tbody><tr><td>dev_hdd0</td><td>saves\ps3\rpcs3\dev_hdd0</td></tr><tr><td>config file</td><td>emulators\rpcs3\config.yml</td></tr><tr><td>gui config file</td><td>emulators\rpcs3\GuiConfigs\CurrentSettings.ini</td></tr><tr><td>Controller configuration file</td><td>emulators\rpcs3\config\input_configs\global\Default.yml</td></tr></tbody></table>
+
+{% hint style="info" %}
+To use the `emulators\rpcs3\dev_hdd0` folder instead of the one in "saves", delete the `saves\ps3\rpcs3`folder. This will tell RetroBat to keep dev\_hdd0 inside emulator folder.
+{% endhint %}
 
 ### Adding PS3 games
 
@@ -99,7 +95,7 @@ There are 2 types of PS3 games available: Blu-Ray discs and PlayStation Network 
 
 </div>
 
-Blu-ray disc titles can be copied directly in the  `\roms\ps3` folder while PSN titles need to be added in the `\emulators\rpcs3\dev_hdd0\game` folder of your RetroBat installation.
+Blu-ray disc titles can be copied directly in the  `\roms\ps3` folder while PSN titles need to be added in the `\saves\ps3\rpcs3\dev_hdd0\game` folder of your RetroBat installation.
 
 {% hint style="danger" %}
 PSN titles need to be decrypted to be used with RPCS3 emulator.
@@ -120,13 +116,13 @@ The game will directly be available in RetroBat.
 #### Adding PSN titles
 
 \
-Once the game has been added to the emulator from the "**Install package**" or/and "**Add games**" menu and the game is working succesfully from the emulator, create a m3u file in the `\roms\ps3` folder that points to the **EBOOT.BIN** file of the game in the `\emulators\rpcs3\dev_hdd0\game` game folder:
+Once the game has been added to the emulator from the "**Install package**" or/and "**Add games**" menu and the game is working succesfully from the emulator, create a m3u file in the `\roms\ps3` folder that points to the **EBOOT.BIN** file of the game in the `\saves\ps3\rpcs3\dev_hdd0\game` game folder:
 
 
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/E1igTL6.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/qV3GMuC.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 

@@ -142,13 +142,17 @@ This folder contains several RetroBat configuration files as well as default "as
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/PfED98M.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/aQODkzO.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
 ### decorations subfolder
 
 The subfolder contains the standard bezels provided with RetroBat.
+
+### es\_menu subfolder
+
+The subfolder contains the different links to the emulators that are used in the "RetroBat" systems.
 
 ### loadingscreens subfolder
 
@@ -162,9 +166,23 @@ Example of loading videos can be found in \system\templates\loadingscreen.
 
 The subfolder contains the standard [padtokey ](../controllers/pad2key.md#pad2key-file)files provided with RetroBat.
 
+### resources subfolder
+
+The "inputmapping" subfolder contains files used to autoconfigure games for few emulators.
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/cxjYSok.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 ### shaders subfolder
 
 The subfolder contains the standard shaders provided with RetroBat.
+
+### tattoos subfolder
+
+The subfolder contains the controller layout images for several systems.
 
 ### templates subfolder
 
