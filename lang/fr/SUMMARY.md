@@ -144,6 +144,7 @@
       * [Archimedes](systemes-and-emulateurs/supported-game-systems/micro-ordinateurs/acorn-computers/archimedes.md)
       * [ATOM](systemes-and-emulateurs/supported-game-systems/micro-ordinateurs/acorn-computers/atom.md)
       * [BBC Micro](systemes-and-emulateurs/supported-game-systems/micro-ordinateurs/acorn-computers/bbc-micro.md)
+      * [Electron](systemes-and-emulateurs/supported-game-systems/micro-ordinateurs/acorn-computers/electron.md)
     * [Amstrad CPC](systemes-and-emulateurs/supported-game-systems/micro-ordinateurs/amstrad-cpc.md)
     * [Apple](systemes-and-emulateurs/supported-game-systems/micro-ordinateurs/apple/README.md)
       * [Apple II](systemes-and-emulateurs/supported-game-systems/micro-ordinateurs/apple/apple-ii.md)
