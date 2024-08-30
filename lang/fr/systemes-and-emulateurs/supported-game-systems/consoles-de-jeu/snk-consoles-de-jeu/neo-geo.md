@@ -42,18 +42,25 @@ Le core ne permet pas l'utilisation du dossier `\bios`.
 
 ## Contrôles
 
-Les cores FBNEO et FBALPHA offrent le choix entre 2 schémas de contrôle:
-
-* CLASSIC
-* MODERN
-
-<table><thead><tr><th width="263">Retrobat</th><th>CLASSIC</th><th>MODERN</th></tr></thead><tbody><tr><td>START</td><td>START</td><td>START</td></tr><tr><td>SELECT</td><td>SELECT</td><td>SELECT</td></tr><tr><td>Stick analogique gauche</td><td></td><td></td></tr><tr><td>Stick analogique droit</td><td></td><td></td></tr><tr><td>D-PAD</td><td>D-PAD</td><td>D-PAD</td></tr><tr><td><img src="../../../../.gitbook/assets/image (32).png" alt=""></td><td>C / vert</td><td>C / vert</td></tr><tr><td><img src="../../../../.gitbook/assets/image (19).png" alt=""></td><td>A / rouge</td><td>A / rouge</td></tr><tr><td><img src="../../../../.gitbook/assets/image (6).png" alt=""></td><td>B / jaune</td><td>B / jaune</td></tr><tr><td><img src="../../../../.gitbook/assets/image (34).png" alt=""></td><td>D / bleu</td><td>D / bleu</td></tr><tr><td>L1</td><td>5e bouton</td><td></td></tr><tr><td>R1</td><td>6e bouton</td><td>5e bouton</td></tr><tr><td>L2</td><td></td><td></td></tr><tr><td>R2</td><td></td><td>6e bouton</td></tr><tr><td>L3</td><td></td><td></td></tr><tr><td>R3</td><td></td><td></td></tr></tbody></table>
+Les émulateurs Neo-Geo ont tous des schémas de contrôles différents qui dépendent également des options de contrôles sélectionnés dans RetroBat:
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/6BAcHeJ.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/lYwSjkO.png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+| Option \ émulateur          | Schéma de contrôles                                                                                                                                |
+| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| FBNEO - CLASSIC (default)   | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/neogeo_classic.png?raw=true" alt="" data-size="original">        |
+| FBNEO - MODERN              | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/neogeo_modern.png?raw=true" alt="" data-size="original">         |
+| FBNEO - 6BUTTONS            | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/neogeo_6buttonpad.png?raw=true" alt="" data-size="original">     |
+| FBALPHA - CLASSIC (default) | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/neogeo_fbalpha.png?raw=true" alt="" data-size="original">        |
+| FBALPHA - MODERN            | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/neogeo_fbalpha_modern.png?raw=true" alt="" data-size="original"> |
+| FBALPHA\_2012               | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/fbalpha2012_neogeo.png?raw=true" alt="" data-size="original">    |
+| GEOLITH                     | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/neogeo_geolith.png?raw=true" alt="" data-size="original">        |
+| RAINE                       | TBD                                                                                                                                                |
+| MAME64                      | TBD                                                                                                                                                |
 
 ## Information spécifique au système
 
