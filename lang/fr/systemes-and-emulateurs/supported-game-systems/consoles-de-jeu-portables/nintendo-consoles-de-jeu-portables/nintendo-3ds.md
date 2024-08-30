@@ -16,11 +16,11 @@ Console de jeu portable - Durée de vie : 2011 - 2020
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro : citra</li><li>lime3ds</li><li>citra</li><li>citra-canary</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> 3ds</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.3ds .3dsx .elf .axf .cci .cxi .app .3DS .3DSX .ELF .AXF .CCI .CXI .APP</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>citra</li><li>lime3ds</li><li>libretro-citra</li><li>citra-canary</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> 3ds</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.3ds .3dsx .elf .axf .cci .cxi .app .m3u .zip .7z .squashfs</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td>lr-citra : OUI<br>Lime3DS: OUI<br>Citra (&#x26;canary) : OUI</td></tr></tbody></table>
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td>Citra (et canary) : OUI<br>lr-citra : OUI<br>Lime3DS: OUI</td></tr></tbody></table>
 
 ## BIOS
 
@@ -39,29 +39,109 @@ Les contrôleurs suivants peuvent être autoconfigurés depuis RetroBat dans lim
 {% hint style="info" %}
 L'écran tactile de la 3DS est difficilement émulable, la meilleure solution est de connecter une souris.
 
-Le core libretro peut simuler l'utilisation du touchscreen avec le stick droit de la manette, mais le mouvement n'est pas optimisé.
+Il est possible de simuler l'utilisation du touchscreen avec le stick droit de la manette, mais le mouvement n'est pas optimisé.
 {% endhint %}
 
-| RetroBat                                                                           | 3DS                    |
-| ---------------------------------------------------------------------------------- | ---------------------- |
-| START                                                                              | START                  |
-| SELECT                                                                             | SELECT                 |
-| D-PAD                                                                              | D-PAD                  |
-| Stick analogique gauche                                                            | Stick gauche           |
-| Stick analogique droit                                                             | touchscreen ou c-stick |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | B                      |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | A                      |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | X                      |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | Y                      |
-| L1                                                                                 | L                      |
-| R1                                                                                 | R                      |
-| L2                                                                                 | ZL                     |
-| R2                                                                                 | ZR                     |
-| L3                                                                                 | Home                   |
-| R3                                                                                 | Clic sur le curseur    |
-| SOURIS                                                                             | Touch Screen et appui  |
+### Schéma de contrôle standard
+
+<div align="left">
+
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/3ds.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
+
+</div>
+
+L'option ci-dessous permet d'inverser les boutons pour correspondre au schéma XBOX:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/AKH8PsS.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/3ds_revert.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
+
+</div>
+
+### Gestion de l'écran tactile:
+
+Selon l'émulateur, les options ci-dessous permettent de modifier le schéma de contrôle pour simuler les mouvements sur l'écran tactile à l'aide du stick analogique de droite.
+
+#### Citra, Lime3DS et Citra-canary
+
+Utiliser l'option ci-dessous:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/nMNPq87.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+| Option                     | Schéma de contrôles                                                                                                                                   |
+| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Sans inversion des boutons | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/3ds_stylus_cstick.png?raw=true" alt="" data-size="original">        |
+| Avec inversion des boutons | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/3ds_stylus_cstick_revert.png?raw=true" alt="" data-size="original"> |
+
+#### Libretro-citra
+
+Utiliser l'option ci-dessous:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/QR10lnB.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+| Option                                         | Schéma de contrôle                                                                                                                                    |
+| ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p>C-STICK ET POINTEUR<br>(sans inversion)</p> | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/3ds_stylus_cstick.png?raw=true" alt="" data-size="original">        |
+| <p>C-STICK ET POINTEUR<br>(avec inversion)</p> | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/3ds_stylus_cstick_revert.png?raw=true" alt="" data-size="original"> |
+| <p>POINTEUR<br>(sans inversion)</p>            | <img src="../../../../.gitbook/assets/3ds_stylus.png" alt="" data-size="original">                                                                    |
+| <p>POINTEUR<br>(avec inversion)</p>            | <img src="../../../../.gitbook/assets/3ds_stylus_cstick.png" alt="" data-size="original">                                                             |
+| C-STICK                                        | Identique au schéma standard                                                                                                                          |
 
 ## Information spécifique au système
+
+### Emplacement des données
+
+<table><thead><tr><th width="254">Données</th><th>Chemin (relatif au dossier RetroBat)</th></tr></thead><tbody><tr><td>nand path</td><td>saves\3ds\&#x3C;emulator>\nand</td></tr><tr><td>sdmc path</td><td>saves\3ds\&#x3C;emulator>\sdmc</td></tr><tr><td>config file</td><td>emulators\&#x3C;emulator>\user\config\qt-config.ini</td></tr></tbody></table>
+
+### Lancer des applications installées dans la NAND
+
+Pour lancer un jeu qui a été installé dans la mémoire de la NAND de la console, il est possible d'utiliser un fichier .m3u pointant vers le fichier .app du jeu.
+
+Exemple de jeu installé dans la NAND:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/QTV0dld.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Créer un raccourci en cliquant avec le bouton droit sur le jeu depuis l'émulateur:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/rTA8IEw.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Depuis le bureau Windows, effectuer un clic droit > propriétés, puis copier le contenu du raccourci dans un fichier .txt (ne garder que la dernière partie du chemin de l'application, sans les ""):
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/o7E5uFQ.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Sauvegarder le fichier avec l'extension .m3u et le placer dans roms\3ds:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/g2xUhcm.png" alt=""><figcaption></figcaption></figure>
+
+</div>
 
 ### Textures personnalisées
 
