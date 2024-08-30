@@ -42,26 +42,27 @@ dc.zip
 
 ## Contrôles
 
-| Retrobat                                          | Dreamcast        |
-| ------------------------------------------------- | ---------------- |
-| START                                             | START            |
-| D-PAD                                             | D-PAD            |
-| Stick analogique gauche                           | Stick analogique |
-| Stick analogique droit                            |                  |
-| ![](<../../../../.gitbook/assets/image (32).png>) | X                |
-| ![](<../../../../.gitbook/assets/image (19).png>) | A                |
-| ![](<../../../../.gitbook/assets/image (6).png>)  | B                |
-| ![](<../../../../.gitbook/assets/image (34).png>) | Y                |
-| L1                                                |                  |
-| R1                                                |                  |
-| L2                                                | L1               |
-| R2                                                | R1               |
-| L3                                                |                  |
-| R3                                                |                  |
+### Schéma par défaut
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/g71xmgZ.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/dreamcast.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
+
+</div>
+
+### Schéma alternatif
+
+Il est possible d'utiliser les boutons "épaules" pour L et R au lieu des gâchettes:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/lPuYVkJ.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/dreamcast_lr.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 

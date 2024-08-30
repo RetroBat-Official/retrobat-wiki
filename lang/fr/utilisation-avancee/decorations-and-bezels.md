@@ -1,4 +1,4 @@
-# Décorations & Bezels
+# Décorations (bezels)
 
 La majorité des écrans TV et moniteurs d'ordinateurs étaient au format 4:3 jusqu'à la fin des années 90. Cela signifie que les jeux de cette époque seront affichés non pas sur la totalité des écrans 16:9 actuels, mais avec des bandes noires des deux côtés de l'image.
 
@@ -9,6 +9,8 @@ Il existe 3 types de bezels dans Retrobat:
 * Décorations
 * Le Bezel Project
 * Mega-Bezels
+
+Il est également possible d'activer les "**tattoos**" (tatouages) : ces derniers affichent les contrôles du système émulé en surimpression de la décoration.
 
 ## Décorations
 
@@ -195,3 +197,41 @@ Quelques illustrations avec les mega-bezels:
 ### Personnaliser les Mega-bezels
 
 Voir la [section "Tutoriels" du wiki](../tutoriels/adapter-et-personnaliser-les-mega-bezels.md#ajout-dune-nouvelle-entree-de-preselection-dans-le-menu-retrobat)
+
+## Tattoos (tatouages)
+
+Les tatouages sont une surimpression sur le bezel qui permettent d'afficher le schéma de contrôle de la machine émulée:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/0kO2KQv.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Pour activer les tattoos, aller dans le **MENU PRINCIPAL** > **PARAMETRES DES JEUX**:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/TZxu8R5.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Puis **OPTIONS GENERALES** > **TATOUAGE**:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/OVxPrGg.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/jnkGFCn.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Il est possible de modifier le coin dans lequel afficher le tatouage.
+
+{% hint style="info" %}
+Les tatouages ne peuvent utiliser que lorsque les bezels (décorations) sont activés.
+{% endhint %}

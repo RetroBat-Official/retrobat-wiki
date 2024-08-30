@@ -28,27 +28,9 @@ Console de jeu - Durée de vie : 1993 - 1996
 
 ## Contrôles
 
-| Retrobat                                       | 3do    |
-| ---------------------------------------------- | ------ |
-| START                                          | START  |
-| SELECT                                         | SELECT |
-| D-PAD                                          | D-PAD  |
-| Stick analogique gauche                        | D-PAD  |
-| Stick analogique droit                         |        |
-| ![](<../../../.gitbook/assets/image (32).png>) | A      |
-| ![](<../../../.gitbook/assets/image (19).png>) | B      |
-| ![](<../../../.gitbook/assets/image (6).png>)  | C      |
-| ![](<../../../.gitbook/assets/image (34).png>) |        |
-| L1                                             | L1     |
-| R1                                             | R1     |
-| L2                                             |        |
-| R2                                             |        |
-| L3                                             |        |
-| R3                                             |        |
-
 <div align="left">
 
-<figure><img src="https://i.imgur.com/lyIP3ja.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/3do.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 

@@ -281,7 +281,7 @@
 
 ## Utilisation avancée
 
-* [Décorations & Bezels](utilisation-avancee/decorations-and-bezels.md)
+* [Décorations (bezels)](utilisation-avancee/decorations-and-bezels.md)
 * [Mises à Jour et Téléchargements](utilisation-avancee/updates-and-content-download.md)
 * [Mode Kiosque et Mode Enfant](utilisation-avancee/kiosk-and-kid-mode.md)
 * [Succès Rétro](utilisation-avancee/retroachievements.md)
