@@ -272,6 +272,30 @@ The following list of emulated devices is available in the advanced options:
 
 ## Specific system information
 
+### Running Wii Menu
+
+If the Wii Menu is installed, RetroBat allows you to run it with the following option:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/FEfgUdS.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/aGImoS5.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+To check if the wii menu is correctly installed, try to run it directly from dolphin executable:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/JrCsINV.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 ### Custom Textures
 
 The procedure for custom textures for Wii is similar to the one for Gamecube, refer to the [Gamecube section of the wiki](gamecube.md#custom-textures).

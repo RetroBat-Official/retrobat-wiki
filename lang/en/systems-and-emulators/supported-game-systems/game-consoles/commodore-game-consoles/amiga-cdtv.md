@@ -16,7 +16,7 @@ Game Console - Release date: 1991
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: puae</li><li>amigaforever</li><li>winuae</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> amigacdtv</td></tr><tr><td><strong>File extension</strong></td><td>.cue .iso .cso .rp9 .ccd .nrg .mds .chd .zip .7z</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: puae</li><li>amigaforever</li><li>winuae</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> amigacdtv</td></tr><tr><td><strong>File extension</strong></td><td>.cue .iso .cso .rp9 .ccd .nrg .mds .chd .m3u .zip .7z</td></tr></tbody></table>
 
 ## System Features
 

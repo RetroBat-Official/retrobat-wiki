@@ -14,7 +14,7 @@ From the [MAIN MENU](../navigation/main-menu.md#system-settings) > System Settin
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/YzDNvgT.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/9tRmji0.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -22,7 +22,7 @@ Enable Netplay and enter a **NICKNAME**
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/fHM5DdV.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/hkoc7m7.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -32,7 +32,7 @@ Retrobat will need to index games with NetPlay capabilities, this is done from t
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/UDjXs0o.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/vn2KSWB.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
