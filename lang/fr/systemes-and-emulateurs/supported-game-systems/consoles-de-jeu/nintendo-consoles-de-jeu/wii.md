@@ -270,6 +270,30 @@ Le core libretro Dolphin permet de sélectionner parmi les types de contrôleurs
 
 ## Information spécifique au système
 
+### Charger le menu Wii
+
+Si le menu Wii est installé dans Dolphin, il est possible de le lancer directement avec l'option suivante:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/G4tfNHl.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/aGImoS5.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Pour vérifier si le menu Wii est bien installé dans Dolphin, tenter de le lancer directement depuis l'émulateur:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/g1UJjln.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
 ### Textures personalisées
 
 La procédure est similaire à la [procédure décrite pour les jeux Gamecube](gamecube.md#textures-custom).

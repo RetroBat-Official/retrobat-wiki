@@ -14,7 +14,7 @@ Depuis les [PARAMETRES DES JEUX du MENU PRINCIPAL](../navigation/main-menu.md#pa
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/Bc24Z3F.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/Gl5mNpO.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -22,7 +22,7 @@ Depuis les [PARAMETRES DES JEUX du MENU PRINCIPAL](../navigation/main-menu.md#pa
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/d2z3s2T.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/dGZ5xtX.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -32,7 +32,7 @@ Retrobat doit désormais indexer les jeux compatibles avec les parties en résea
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/d2z3s2T.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/KRvgCxd.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
