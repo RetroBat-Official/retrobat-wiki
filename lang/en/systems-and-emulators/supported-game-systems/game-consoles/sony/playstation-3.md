@@ -68,9 +68,17 @@ The following controllers can be autoconfigured from Retrobat to RPCS3:
 
 <div align="left">
 
-<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/psx.png?raw=true" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/psx.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
+
+### Pressure sensitivity
+
+RPCS3 can manage pressure sensitivity only with a genuine Dualshock (or sisaxis) controller.
+
+You need to install DsHidMini drivers to handle PS3 controller, as described here:
+
+{% embed url="https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration#Using_Nefarius'_DsHidMini" %}
 
 ## System Features
 

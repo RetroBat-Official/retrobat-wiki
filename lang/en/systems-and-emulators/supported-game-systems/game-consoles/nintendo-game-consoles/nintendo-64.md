@@ -16,7 +16,7 @@ Game Console - Lifespan: 1996 - 2002
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: mupen64plus next</li><li>libretro: parallel</li><li>mupen64 (RMG)</li><li>simple64</li><li>ares</li><li>bizhawk: Ares64</li><li>bizhawk: Mupen64Plus</li><li>project64</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> n64</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.v64 .z64 .n64 .wad .zip .7z </td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: mupen64plus next</li><li>libretro: parallel</li><li>mupen64 (RMG)</li><li>simple64</li><li>ares</li><li>bizhawk: Ares64</li><li>bizhawk: Mupen64Plus</li><li>project64</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> n64</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.v64 .z64 .n64 .wad .zip .7z</td><td></td></tr></tbody></table>
 
 ## System Features
 
@@ -34,29 +34,40 @@ There is no BIOS files needed to run games.
 
 ## Controls
 
-| RetroBat key                                                                       | Nintendo 64 key             |
-| ---------------------------------------------------------------------------------- | --------------------------- |
-| START                                                                              | START                       |
-| SELECT / BACK                                                                      |                             |
-| D-PAD                                                                              | D-PAD                       |
-| Analog Stick - Left                                                                | Analog Stick                |
-| Analog Stick - Right                                                               | C-Buttons                   |
-| ![A](<../../../../.gitbook/assets/image (30).png>)                                 | <p>A<br>C-mode: c-down</p>  |
-| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | <p>B<br>C-mode: c-right</p> |
-| <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | C-mode: c-up                |
-| <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | C-mode: c-left              |
-| LB (L1)                                                                            | L                           |
-| RB (R1)                                                                            | R                           |
-| LT (L2)                                                                            | Z                           |
-| RT (R2)                                                                            | Enable C-mode               |
-| L-Click (L3)                                                                       |                             |
-| R-Click (R3)                                                                       |                             |
+### Libretro (Mupen64plus\_next and parallel)
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/NZ91mQ9.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
+
+### Mupen64 (RMG), Simple64, Ares and Bizhawk
+
+Standalone emulators (Mupen64 RMG & Simple64) have 4 different layouts available that can be switched through this option:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/QgyGghe.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Ares and Bizhawk have 2 layout options:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/A15fcOj.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Details of the 4 layouts:
+
+| Option                                                                                                            | Layout                                                                                                                                              |
+| ----------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p>Default<br><br>C-BUTTONS=RIGHT-STICK Z=LEFT-TRIGGER<br><br><strong>Ares/Bizhawk</strong><br>Z=LEFT-TRIGGER</p> | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone.png?raw=true" alt="" data-size="original">         |
+| C-BUTTONS=FACE Z=LEFT-TRIGGER                                                                                     | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone_face_zl.png?raw=true" alt="" data-size="original"> |
+| <p>C-BUTTONS=RIGHT-STICK Z=RIGHT-TRIGGER<br><br><strong>Ares/Bizhawk</strong><br>Z=RIGHT-TRIGGER</p>              | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone_zr.png?raw=true" alt="" data-size="original">      |
+| C-BUTTONS=FACE Z=RIGHT-TRIGGER                                                                                    | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone_face_zr.png?raw=true" alt="" data-size="original"> |
 
 ### Using a N64 controller
 
@@ -78,6 +89,8 @@ Additionaly, RMG Mupen64 and Simple64 can leverage the Raphnet direct access fea
 When using Mayflash adapter, controllers must be plugged in reverse order, meaning player 1 will be assigned to the last port of the adapter.
 {% endhint %}
 
+The mapping for N64 controllers can be found in the file "**n64Controllers.json**" that is located in the `\system\resources\inputmapping` folder of the RetroBat installation, it is possible to add your own controller mapping within this file.
+
 ## Specific System Information
 
 ### Custom textures
@@ -88,7 +101,7 @@ The texture pack must be placed in the `bios\Mupen64Plus\cache\` folder if the p
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/H878WjR.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/H878WjR.png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -96,7 +109,7 @@ If it comes as a uncompressed pack (folder with .png files), it must be placed i
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/1sqG9H4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/1sqG9H4.png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
