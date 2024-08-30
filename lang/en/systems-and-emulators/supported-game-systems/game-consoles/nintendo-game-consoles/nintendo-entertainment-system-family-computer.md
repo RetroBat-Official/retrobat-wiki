@@ -24,23 +24,22 @@ There is no BIOS files needed to run games.
 
 ## Controls
 
-| RetroBat key                                                                       | NES key |
-| ---------------------------------------------------------------------------------- | ------- |
-| START                                                                              | START   |
-| SELECT / BACK                                                                      | SELECT  |
-| D-PAD                                                                              | D-PAD   |
-| Left analog stick                                                                  | D-PAD   |
-| Right analog stick                                                                 |         |
-| ![A](<../../../../.gitbook/assets/image (30).png>)                                 | B       |
-| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | A       |
-| <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | A       |
-| <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | B       |
+Some emulators allow to rotate face buttons and/or to enable the turbo function:
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/ulQC9m2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/2zxeeZ9.png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+### Available control layouts:
+
+| Option / emulator                                                           | Control layout                                                                                                                                |
+| --------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p>Défaut <br>(tous les émulateurs)</p>                                     | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nes.png?raw=true" alt="" data-size="original">              |
+| <p>TURBO<br>- libretro (retroarch)<br>- mesen<br>- mednafen</p>             | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nes_turbo.png?raw=true" alt="" data-size="original">        |
+| <p>ROTATION<br>(tous les émulateurs)</p>                                    | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nes_rotate.png?raw=true" alt="" data-size="original">       |
+| <p>ROTATION et TURBO<br>- libretro (retroarch)<br>- mesen<br>- mednafen</p> | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nes_rotate_turbo.png?raw=true" alt="" data-size="original"> |
 
 ## Specific System Information
 

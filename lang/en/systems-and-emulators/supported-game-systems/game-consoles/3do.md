@@ -28,27 +28,9 @@ Game Console - Lifespan: 1993 - 1999
 
 ## Controls
 
-| Retrobat Button                                | 3do key |
-| ---------------------------------------------- | ------- |
-| START                                          | START   |
-| SELECT                                         | SELECT  |
-| D-PAD                                          | D-PAD   |
-| Left analog stick                              | D-PAD   |
-| Right analog stick                             |         |
-| ![](<../../../.gitbook/assets/image (48).png>) | A       |
-| ![](<../../../.gitbook/assets/image (30).png>) | B       |
-| ![](<../../../.gitbook/assets/image (16).png>) | C       |
-| ![](<../../../.gitbook/assets/image (50).png>) |         |
-| L1                                             | L1      |
-| R1                                             | R1      |
-| L2                                             |         |
-| R2                                             |         |
-| L3                                             |         |
-| R3                                             |         |
-
 <div align="left">
 
-<figure><img src="https://i.imgur.com/lyIP3ja.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/3do.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 

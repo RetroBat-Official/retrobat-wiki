@@ -1,4 +1,4 @@
-# Decorations & Bezels
+# Decorations (bezels)
 
 Most of the TVs and computer screens in the 80s and 90s were 4:3. When you run them today on a 16:9 format monitor, there will be empty space on both sides.
 
@@ -9,6 +9,8 @@ Retrobat offers 3 types of decorations:
 * Decorations
 * The Bezel Project
 * Mega-Bezels
+
+It is also possible for some systems to enable "**tattoos**", which are overlays that show the control layout for the emulated machine.
 
 ## Decorations
 
@@ -199,3 +201,41 @@ Here are some examples of Mega Bezel:
 ### Customize Mega-bezels
 
 Refer to [section "Customize Mega-bezels"](../tutorials/customize-mega-bezels.md#adding-a-new-mega-bezel-preset-entry-to-retrobat)
+
+## Tattoos
+
+Tattoos are a bezel overlay that can help with identifying the controls for the emulated system:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/0kO2KQv.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+To enable tattoos,open the **MAIN MENU** > **GAME SETTINGS**:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/fIip7cs.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+then **GLOBAL OPTIONS** > **TATTOO**:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/dIv1Ety.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/GgZipNc.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+It is possible to configure the corner in which the tattoo will be displayed.
+
+{% hint style="info" %}
+Tattoos will only work in combination with bezels : no bezels, no tattoos.
+{% endhint %}

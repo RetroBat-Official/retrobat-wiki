@@ -42,26 +42,27 @@ dc.zip
 
 ## Controls
 
-| Retrobat Button                                   | Dreamcast key |
-| ------------------------------------------------- | ------------- |
-| START                                             | START         |
-| D-PAD                                             | D-PAD         |
-| Left analog stick                                 | Analog stick  |
-| Right analog stick                                |               |
-| ![](<../../../../.gitbook/assets/image (48).png>) | X             |
-| ![](<../../../../.gitbook/assets/image (30).png>) | A             |
-| ![](<../../../../.gitbook/assets/image (16).png>) | B             |
-| ![](<../../../../.gitbook/assets/image (50).png>) | Y             |
-| L1                                                |               |
-| R1                                                |               |
-| L2                                                | L1            |
-| R2                                                | R1            |
-| L3                                                |               |
-| R3                                                |               |
+### Default layout:
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/g71xmgZ.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/dreamcast.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
+
+</div>
+
+### Alternative layout:
+
+It is possible to use shoulder buttons for L and R instead of triggers:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/Tl4yCcP.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/dreamcast_lr.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 

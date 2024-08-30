@@ -281,7 +281,7 @@
 
 ## Advanced Features
 
-* [Decorations & Bezels](advanced-features/decorations-and-bezels.md)
+* [Decorations (bezels)](advanced-features/decorations-and-bezels.md)
 * [Updates & Content Download](advanced-features/updates-and-content-download.md)
 * [Kiosk and Kid mode](advanced-features/kiosk-and-kid-mode.md)
 * [Retroachievements](advanced-features/retroachievements.md)
