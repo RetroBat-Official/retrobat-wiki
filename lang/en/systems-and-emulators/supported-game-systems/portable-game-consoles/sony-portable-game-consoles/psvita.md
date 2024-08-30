@@ -32,6 +32,10 @@ Vita3K auto-detects connected controllers, there is no configuration required.
 
 ## System Features
 
+### Data location
+
+<table><thead><tr><th width="254">Data</th><th>Path (relative to RetroBat root folder)</th></tr></thead><tbody><tr><td>pref-path</td><td>saves\psvita\vita3k*<br><br>*The folder is defined by the user during installation, RetroBat will not change it.</td></tr></tbody></table>
+
 ### Installation & first setup
 
 Use Retrobat Menu to download Vita3k or download the latest build of Vita3K emulator on the vita3k website : [https://vita3k.org/#download](https://vita3k.org/#download)
@@ -60,7 +64,7 @@ Set the pref-path to the path of your choice,  RetroBat will not erase it upon f
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/e5JxlMn.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/bKZh9Ap.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
