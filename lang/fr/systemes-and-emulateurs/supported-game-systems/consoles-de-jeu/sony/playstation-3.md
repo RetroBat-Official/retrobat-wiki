@@ -68,9 +68,17 @@ Les contrôleurs suivants peuvent être autoconfigurés depuis RetroBat dans rpc
 
 <div align="left">
 
-<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/psx.png?raw=true" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/psx.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
+
+### Boutons sensitifs
+
+La manette originale de la PS3 possède des "boutons sensitifs", RPCS3 permet d'utiliser cette fonction utile pour des jeux tel que Gran Turismo.
+
+Pour cela, il est nécéssaire de posséder un contrôleur Dualshock 3 ou Sisaxis et d'installer le pilote DsHidMini comme décrit ici:
+
+{% embed url="https://wiki.rpcs3.net/index.php?title=Help:Controller_Configuration#Using_Nefarius'_DsHidMini" %}
 
 ## Information spécifique au système
 

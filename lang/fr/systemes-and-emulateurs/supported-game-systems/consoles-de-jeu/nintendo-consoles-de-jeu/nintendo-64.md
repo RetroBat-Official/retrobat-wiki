@@ -16,7 +16,7 @@ Console de jeu - Durée de vie : 1996 - 2002
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: mupen64plus next</li><li>libretro: parallel</li><li>mupen64 (RMG)</li><li>simple64</li><li>ares</li><li>bizhawk: Ares64</li><li>bizhawk: Mupen64Plus</li><li>project64</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> n64</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.v64 .z64 .n64 .wad .zip .7z </td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: mupen64plus next</li><li>libretro: parallel</li><li>mupen64 (RMG)</li><li>simple64</li><li>ares</li><li>bizhawk: Ares64</li><li>bizhawk: Mupen64Plus</li><li>project64</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> n64</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.v64 .z64 .n64 .wad .zip .7z</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
@@ -28,36 +28,47 @@ Aucun BIOS nécessaire.
 
 ## Contrôles
 
-| RetroBat                                                                           | Nintendo 64                                                |
-| ---------------------------------------------------------------------------------- | ---------------------------------------------------------- |
-| START                                                                              | START                                                      |
-| SELECT / BACK                                                                      |                                                            |
-| D-PAD                                                                              | D-PAD                                                      |
-| Stick analogique gauche                                                            | Stick analogique                                           |
-| Stick analogique droit                                                             | C-Boutons                                                  |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | <p>A<br>Mode C: c-bas</p>                                  |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | Mode C: c-droite                                           |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | Mode C: c-haut                                             |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | <p>B<br>Mode C: c-gauche</p>                               |
-| LB (L1)                                                                            | L                                                          |
-| RB (R1)                                                                            | R                                                          |
-| LT (L2)                                                                            | Z                                                          |
-| RT (R2)                                                                            | Mode C (remplace les boutons A, B, X, Y par les boutons C) |
-| L-Click (L3)                                                                       |                                                            |
-| R-Click (R3)                                                                       |                                                            |
+### Libretro (Mupen64plus\_next et parallel)
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/NZ91mQ9.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
+
+### Mupen64 (RMG), Simple64, Ares etBizhawk
+
+Pour Mupen64 RMG et Simple64, il existe 4 schémas de contrôle en fonction des options sélectionnées ici:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/DkLUs4h.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Ares et Bizhawk en proposent 2:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/HKiieSd.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Les quatre schémas sont:
+
+| Option                                                                                                          | Schéma                                                                                                                                              |
+| --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p>Default<br>(C-BUTTONS=RIGHT-STICK Z=LEFT-TRIGGER)<br><br><strong>Ares/Bizhawk</strong><br>Z=LEFT-TRIGGER</p> | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone.png?raw=true" alt="" data-size="original">         |
+| C-BUTTONS=FACE Z=LEFT-TRIGGER                                                                                   | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone_face_zl.png?raw=true" alt="" data-size="original"> |
+| <p>C-BUTTONS=RIGHT-STICK Z=RIGHT-TRIGGER<br><br><strong>Ares/Bizhawk</strong><br>Z=RIGHT-TRIGGER</p>            | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone_zr.png?raw=true" alt="" data-size="original">      |
+| C-BUTTONS=FACE Z=RIGHT-TRIGGER                                                                                  | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone_face_zr.png?raw=true" alt="" data-size="original"> |
 
 ### Utiliser une manette N64
 
 RetroBat détecte et configure automatiquement les manettes N64 suivantes:
 
-* Manette originale avecadaptateur Raphnet
-* Manette originale avecadaptateur Mayflash
+* Manette originale avec adaptateur Raphnet
+* Manette originale avec adaptateur Mayflash
 * Manette N64 Nintendo Switch Online (incompatible avec RetroArch, fonctionne uniquement sur les émulateurs "standalone")
 
 De plus, RMG Mupen64 et Simple64 permettent d'utiliser la fonctionnalité d'accès direct au contrôleur pour l'adaptateur Raphnet, pour cela il est nécessaire de modifier le pilote des manettes dans RetroBat:
@@ -72,6 +83,8 @@ De plus, RMG Mupen64 et Simple64 permettent d'utiliser la fonctionnalité d'acc�
 Il est important de connecter les manettes de droite à gauche sur l'adaptateur Mayflash, la manette 1 étant celle connectée au port 4 (ou 2 pour les adaptateurs 2 manettes) de l'adaptateur.
 {% endhint %}
 
+Le mapping des manettes N64 est géré par le fichier "**n64Controllers.json**" situé dans le répertoire `\system\resources\inputmapping` de l'installation RetroBat, il est possible d'ajouter d'autres manettes dans ce fichier pour automatiquement configurer votre contrôleur.
+
 ## Information spécifique au système
 
 ### Textures custom
@@ -82,7 +95,7 @@ Le pack de textures "custom" doit être placé dans le dossier `bios\Mupen64Plus
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/H878WjR.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/H878WjR.png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -90,7 +103,7 @@ Si le pack de textures est au format décompressé (dossier contenant des fichie
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/1sqG9H4.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/1sqG9H4.png" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
@@ -102,19 +115,19 @@ Une fois le pack placé dans le bon dossier, activer **CUSTOM TEXTURES** dans Re
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/jBt3sjA.png" alt=""><figcaption><p>Configuration avancée du système</p></figcaption></figure>
+<figure><img src="https://i.imgur.com/63zt74D.png" alt=""><figcaption><p>Configuration avancée du système</p></figcaption></figure>
 
 </div>
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/hzikBUa.png" alt=""><figcaption><p>Visual Rendering</p></figcaption></figure>
+<figure><img src="https://i.imgur.com/h5dF0BV.png" alt=""><figcaption><p>Visual Rendering</p></figcaption></figure>
 
 </div>
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/TXJ3fti.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/po34PIR.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
