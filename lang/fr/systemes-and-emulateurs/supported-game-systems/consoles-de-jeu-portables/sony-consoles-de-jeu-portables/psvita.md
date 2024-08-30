@@ -16,7 +16,7 @@ Console de jeu portable - Durée de vie : 2011 - 2019
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>vita3k</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> psvita</td></tr><tr><td><strong>Extensions</strong></td><td>.m3u .psvita .v</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>vita3k</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> psvita</td></tr><tr><td><strong>Extensions</strong></td><td>.m3u .psvita .vpk</td></tr></tbody></table>
 
 ## Fonctionnalités
 
@@ -24,13 +24,17 @@ Console de jeu portable - Durée de vie : 2011 - 2019
 
 ## BIOS
 
-<table><thead><tr><th width="193">Fichier BIOS</th><th width="142.03610108303252">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>PSP2UPDAT.PUP</td><td><code>\bios</code></td><td>8B5F60B56C3DA8365B973DBA570C53A5</td></tr><tr><td>PSVUPDAT.PUP</td><td><code>\bios</code></td><td>F2C7B12FE85496EC88A0391B514D6E3B</td></tr></tbody></table>
+<table><thead><tr><th width="182">Fichier BIOS</th><th width="198.03610108303252">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>PSP2UPDAT.PUP</td><td><code>install in emukator</code></td><td>8B5F60B56C3DA8365B973DBA570C53A5</td></tr><tr><td>PSVUPDAT.PUP</td><td><code>install in emukator</code></td><td>F2C7B12FE85496EC88A0391B514D6E3B</td></tr></tbody></table>
 
 ## Contrôles
 
 Vita3K reconnaît automatiquement le contrôleur connecté, aucune configuration n'est requise.
 
 ## Information spécifique au système
+
+### Emplacement des fichiers
+
+<table><thead><tr><th width="254">Fichier(s)</th><th>Chemin (relatif au dossier RetroBat)</th></tr></thead><tbody><tr><td>pref-path</td><td>saves\psvita\vita3k*<br><br>*Le dossier est défini par l'utilisateur lors de l'installation, RetroBat ne le modifie pas.</td></tr></tbody></table>
 
 ### Installation & premier démarrage
 
@@ -60,7 +64,7 @@ L'emplacement sélectionné à cette étape ne sera pas remplacé ou modifié pa
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/JJeCuLc.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/bKZh9Ap.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
