@@ -30,29 +30,7 @@ Ci-dessous la liste des jeux compatibles (en anglais) :
 
 ## Contrôles
 
-| RetroBat                                                                           | Game Boy Color |
-| ---------------------------------------------------------------------------------- | -------------- |
-| START                                                                              | START          |
-| SELECT                                                                             | SELECT         |
-| D-PAD                                                                              | D-PAD          |
-| Stick analogique gauche                                                            | D-PAD          |
-| Stick analogique droit                                                             |                |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | B              |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | A              |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> |                |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     |                |
-| L1                                                                                 |                |
-| R1                                                                                 |                |
-| L2                                                                                 |                |
-| R2                                                                                 |                |
-| L3                                                                                 |                |
-| R3                                                                                 |                |
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/ptx8LTP.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+[Voir Game Boy](game-boy.md#controles)
 
 ## Information spécifique au système
 

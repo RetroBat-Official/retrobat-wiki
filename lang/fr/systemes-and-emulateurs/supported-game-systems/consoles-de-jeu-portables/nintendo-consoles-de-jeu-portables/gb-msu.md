@@ -18,19 +18,7 @@ description: Nintendo Hack
 
 ## Contrôles
 
-| RetroBat                                                                           | Game Boy |
-| ---------------------------------------------------------------------------------- | -------- |
-| START                                                                              | START    |
-| SELECT                                                                             | SELECT   |
-| D-PAD                                                                              | D-PAD    |
-| Stick analogique gauche                                                            | D-PAD    |
-| Stick analogique droit                                                             |          |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | B        |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | A        |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | X        |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | Y        |
-| L1                                                                                 | L        |
-| R1                                                                                 | R        |
+[Voir Super Nintendo](../../consoles-de-jeu/nintendo-consoles-de-jeu/super-nintendo-entertainment-system-super-famicom.md#controles)
 
 ## Information spécifique au système
 

@@ -30,29 +30,11 @@ Les fichiers sgb\* sont requis pour le coeur mesen-s, celui-ci utilise la Super 
 
 ## Contrôles
 
-| RetroBat                                                                           | Game Boy |
-| ---------------------------------------------------------------------------------- | -------- |
-| START                                                                              | START    |
-| SELECT                                                                             | SELECT   |
-| D-PAD                                                                              | D-PAD    |
-| Stick analogique gauche                                                            | D-PAD    |
-| Stick analogique droit                                                             |          |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | B        |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | A        |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> |          |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     |          |
-| L1                                                                                 |          |
-| R1                                                                                 |          |
-| L2                                                                                 |          |
-| R2                                                                                 |          |
-| L3                                                                                 |          |
-| R3                                                                                 |          |
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/yDQp2P6.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+| Option / émulateur                                     | Schéma de contrôles                                                                                                                      |
+| ------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| <p>Défaut<br>(hors lr-gambatte, mesen et mednafen)</p> | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gb.png?raw=true" alt="" data-size="original">          |
+| lr-gambatte                                            | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gb_gambatte.png?raw=true" alt="" data-size="original"> |
+| <p>Mesen<br>Mednafen</p>                               | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gb_turbo.png?raw=true" alt="" data-size="original">    |
 
 ## Information spécifique au système
 
