@@ -77,19 +77,22 @@ Les contrôleurs suivants peuvent être autoconfigurés depuis RetroBat dans Dol
 * Contrôleur original Gamecube avec un adaptateur Gamecube
 {% endhint %}
 
-| RetroBat key                                                                       | GameCube key             |
-| ---------------------------------------------------------------------------------- | ------------------------ |
-| START                                                                              | START                    |
-| D-PAD                                                                              | D-PAD                    |
-| Analog Stick - Left                                                                | Analog Stick - Left      |
-| Analog Stick - Right                                                               | Analog Stick  - C-Stick  |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | B                        |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | A                        |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | X                        |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | Y                        |
-| RB (R1)                                                                            | Z                        |
-| LT (L2)                                                                            | L                        |
-| RT (R2)                                                                            | R                        |
+### Schémas de contrôles
+
+Plusieurs schémas de contrôles sont disponibles dans RetroBat, pour les sélectionner, utiliser l'option ci-dessous dans [**options avancées du système**](../../../../navigation/view-options.md#configuration-avancee-du-systeme) **> contrôles**:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/npyMOTH.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+| Option                                  | Schéma de contrôle                                                                                                                             |
+| --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p>DISPOSITION NINTENDO<br>(défaut)</p> | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gamecube.png?raw=true" alt="" data-size="original">          |
+| POSITIONNEL                             | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gamecube_position.png?raw=true" alt="" data-size="original"> |
+| DISPOSITION XBOX                        | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gamecube_xbox.png?raw=true" alt="" data-size="original">     |
+| MIX                                     | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gamecube_xy.png?raw=true" alt="" data-size="original">       |
 
 {% hint style="info" %}
 Il est possible d'activer la fonction "RUMBLE" dans les options avancées.
