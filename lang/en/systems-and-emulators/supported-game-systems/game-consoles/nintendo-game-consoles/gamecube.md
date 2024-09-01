@@ -73,19 +73,22 @@ The following controllers can be autoconfigured from RetroBat to Dolphin:
 * Original Gamecube controller through Gamecube Adapter
 {% endhint %}
 
-| RetroBat key                                                                       | GameCube key             |
-| ---------------------------------------------------------------------------------- | ------------------------ |
-| START                                                                              | START                    |
-| D-PAD                                                                              | D-PAD                    |
-| Analog Stick - Left                                                                | Analog Stick - Left      |
-| Analog Stick - Right                                                               | Analog Stick  - C-Stick  |
-| ![A](<../../../../.gitbook/assets/image (30).png>)                                 | B                        |
-| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | A                        |
-| <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | X                        |
-| <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | Y                        |
-| RB (R1)                                                                            | Z                        |
-| LT (L2)                                                                            | L                        |
-| RT (R2)                                                                            | R                        |
+### Control layouts
+
+RetroBat offers multiple control layouts, they can be switched in [**advanced system options**](../../../../navigation/view-options.md#advanced-system-options) **> controls**:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/bJxzFof.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+| Option                              | Layout                                                                                                                                         |
+| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p>NINTENDO LAYOUT<br>(default)</p> | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gamecube.png?raw=true" alt="" data-size="original">          |
+| POSITIONAL                          | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gamecube_position.png?raw=true" alt="" data-size="original"> |
+| XBOX LAYOUT                         | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gamecube_xbox.png?raw=true" alt="" data-size="original">     |
+| MIX                                 | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gamecube_xy.png?raw=true" alt="" data-size="original">       |
 
 {% hint style="info" %}
 Rumble can be activated in the advanced options.

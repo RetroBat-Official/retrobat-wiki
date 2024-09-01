@@ -78,7 +78,7 @@ Use the following option:
 
 </div>
 
-| Option                       | Layout                                                                                                                                                |
+| Option                       | Control layout                                                                                                                                        |
 | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Without face button inverted | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/3ds_stylus_cstick.png?raw=true" alt="" data-size="original">        |
 | With face button inverted    | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/3ds_stylus_cstick_revert.png?raw=true" alt="" data-size="original"> |
@@ -93,7 +93,7 @@ Use the following option:
 
 </div>
 
-| Option                                                   | Schéma de contrôle                                                                                                                                    |
+| Option                                                   | Control layout                                                                                                                                        |
 | -------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <p>C-STICK AND TOUCHSCREEN POINTER<br>(no inversion)</p> | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/3ds_stylus_cstick.png?raw=true" alt="" data-size="original">        |
 | <p>C-STICK AND TOUCHSCREEN POINTER<br>(inversion)</p>    | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/3ds_stylus_cstick_revert.png?raw=true" alt="" data-size="original"> |
