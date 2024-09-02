@@ -32,19 +32,10 @@ Console de jeu - Durée de vie : 1994 - 1998
 
 ## Contrôles
 
-| Retrobat                                          | PC-FX  |
-| ------------------------------------------------- | ------ |
-| START                                             | RUN    |
-| SELECT                                            | SELECT |
-| D-PAD                                             | D-PAD  |
-| Stick analogique gauche                           | D-PAD  |
-| Stick analogique droit                            |        |
-| ![](<../../../../.gitbook/assets/image (32).png>) | III    |
-| ![](<../../../../.gitbook/assets/image (19).png>) | II     |
-| ![](<../../../../.gitbook/assets/image (6).png>)  | I      |
-| ![](<../../../../.gitbook/assets/image (34).png>) | V      |
-| L1                                                | IV     |
-| R1                                                | VI     |
+| Option \ émulateur | Schéma de contrôles                                                                                                                       |
+| ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| Défaut             | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/pcfx.png?raw=true" alt="" data-size="original">         |
+| BizHawk            | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/pcfx_bizhawk.png?raw=true" alt="" data-size="original"> |
 
 ## Information spécifique au système
 

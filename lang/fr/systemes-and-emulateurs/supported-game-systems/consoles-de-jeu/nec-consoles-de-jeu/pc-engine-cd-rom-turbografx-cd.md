@@ -28,25 +28,7 @@ Extension de console - Date de commercialisation : 1988
 
 ## Contrôles
 
-| Retrobat                                          | PC Engine |
-| ------------------------------------------------- | --------- |
-| START                                             | START     |
-| SELECT                                            | SELECT    |
-| D-PAD                                             | D-PAD     |
-| Stick analogique gauche                           | D-PAD     |
-| Stick analogique droit                            |           |
-| ![](<../../../../.gitbook/assets/image (32).png>) |           |
-| ![](<../../../../.gitbook/assets/image (19).png>) | B         |
-| ![](<../../../../.gitbook/assets/image (6).png>)  | A         |
-| ![](<../../../../.gitbook/assets/image (34).png>) |           |
-| L1                                                |           |
-| R1                                                |           |
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/rKnEZ9C.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+[Identique à la PC-Engine.](pc-engine-turbografx-16.md#controles)
 
 ## Information spécifique au système
 

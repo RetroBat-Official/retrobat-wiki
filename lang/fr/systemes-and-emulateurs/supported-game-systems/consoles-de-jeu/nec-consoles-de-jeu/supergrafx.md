@@ -47,23 +47,23 @@ A placer dans `emulators\magicengine\cards`
 
 ## Contrôles
 
-| Retrobat                                          | SuperGrafx      |
-| ------------------------------------------------- | --------------- |
-| START                                             | RUN             |
-| SELECT                                            | SELECT          |
-| D-PAD                                             | D-PAD           |
-| Stick analogique gauche                           |                 |
-| Stick analogique droit                            |                 |
-| ![](<../../../../.gitbook/assets/image (32).png>) | III / II turbo  |
-| ![](<../../../../.gitbook/assets/image (19).png>) | II              |
-| ![](<../../../../.gitbook/assets/image (6).png>)  | I               |
-| ![](<../../../../.gitbook/assets/image (34).png>) | IV / I turbo    |
-| L1                                                | V               |
-| R1                                                | VI              |
-| L2                                                |                 |
-| R2                                                | Mode Switch     |
-| L3                                                | II Turbo On/Off |
-| R3                                                | I Turbo On/Off  |
+Libretro-mednafen\_supergrafx et mesen permettent d'activer/désactiver le Gamepad 6-boutons avec l'option ci-dessous:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/pbQFZnS.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+### Schémas de contrôles
+
+| Option \ émulateur                                           | Schéma de contrôles                                                                                                                                   |
+| ------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p>lr-mednafen_supergrafx<br>(Défaut)</p>                    | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/pcengine.png?raw=true" alt="" data-size="original">                 |
+| <p>lr-mednafen_supergrafx<br>(6 boutons)<br><br>Mednafen</p> | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/pcengine_6buttons.png?raw=true" alt="" data-size="original">        |
+| <p>lr-fbneo<br>Ares<br>Mesen (Défaut)</p>                    | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/pcengine_simple.png?raw=true" alt="" data-size="original">          |
+| <p>Magic Engine<br>Mesen (6-boutons)</p>                     | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/pcengine_simple_6buttons.png?raw=true" alt="" data-size="original"> |
+| BizHawk                                                      | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/pcengine_bizhawk.png?raw=true" alt="" data-size="original">         |
 
 ## Information spécifique au système
 

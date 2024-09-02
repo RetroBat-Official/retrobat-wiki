@@ -43,25 +43,23 @@ A placer dans `emulators\magicengine\cards`
 
 ## Contrôles
 
-| Retrobat                                          | PC Engine   |
-| ------------------------------------------------- | ----------- |
-| START                                             | START / RUN |
-| SELECT                                            | SELECT      |
-| D-PAD                                             | D-PAD       |
-| Stick analogique gauche                           | D-PAD       |
-| Stick analogique droit                            |             |
-| ![](<../../../../.gitbook/assets/image (32).png>) |             |
-| ![](<../../../../.gitbook/assets/image (19).png>) | B / II      |
-| ![](<../../../../.gitbook/assets/image (6).png>)  | A / I       |
-| ![](<../../../../.gitbook/assets/image (34).png>) |             |
-| L1                                                |             |
-| R1                                                |             |
+Libretro-mednafen et mesen permettent d'activer/désactiver le Gamepad 6-boutons avec l'option ci-dessous:
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/rKnEZ9C.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/4uGxLkC.png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+### Schémas de contrôles
+
+| Option \ émulateur                                                            | Schéma de contrôles                                                                                                                                   |
+| ----------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p>lr-mednafen_pce<br>lr-mednafen_pce_fast<br>(Défaut)</p>                    | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/pcengine.png?raw=true" alt="" data-size="original">                 |
+| <p>lr-mednafen_pce<br>lr-mednafen_pce_fast<br>(6 boutons)<br><br>Mednafen</p> | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/pcengine_6buttons.png?raw=true" alt="" data-size="original">        |
+| <p>lr-fbneo<br>Ares<br>Mesen (Défaut)</p>                                     | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/pcengine_simple.png?raw=true" alt="" data-size="original">          |
+| <p>Magic Engine<br>Mesen (6-boutons)</p>                                      | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/pcengine_simple_6buttons.png?raw=true" alt="" data-size="original"> |
+| BizHawk                                                                       | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/pcengine_bizhawk.png?raw=true" alt="" data-size="original">         |
 
 ## Information spécifique au système
 
