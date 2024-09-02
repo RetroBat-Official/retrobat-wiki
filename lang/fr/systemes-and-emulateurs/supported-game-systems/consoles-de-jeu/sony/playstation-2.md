@@ -40,29 +40,33 @@ Les contrôleurs suivants peuvent être autoconfigurés depuis RetroBat dans pcs
 * Nintendo Switch Pro
 {% endhint %}
 
-| RetroBat                                                                           | Playstation 2           |
-| ---------------------------------------------------------------------------------- | ----------------------- |
-| START                                                                              | START                   |
-| SELECT                                                                             | SELECT                  |
-| D-PAD                                                                              | D-PAD                   |
-| Stick analogique gauche                                                            | Stick analogique gauche |
-| Stick analogique droit                                                             | Stick analogique droit  |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | Croix                   |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | Rond                    |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | Triangle                |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | Carré                   |
-| L1                                                                                 | L1                      |
-| R1                                                                                 | R1                      |
-| L2                                                                                 | L2                      |
-| R2                                                                                 | R2                      |
-| L3                                                                                 | L3                      |
-| R3                                                                                 | R3                      |
+### Schéma de contrôles:
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/9sz2VFM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/psx.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
+
+### Schémas alternatifs:
+
+Afin de pouvoir utiliser les gâchettes analogiques pour les jeux de course, il est possible d'utiliser un des schémas de contrôles alternatifs en activant cette option:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/rYhzVoc.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+| Option                  | Schéma de contrôles                                                                                                                                    |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| SIMULER CARRE ET CROIX  | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/psx_triggers_square_cross.png?raw=true" alt="" data-size="original"> |
+| SIMULER LE STICK DROIT  | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/psx_triggers_rstick.png?raw=true" alt="" data-size="original">       |
+| SIMULER LE STICK GAUCHE | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/psx_triggers_lstick.png?raw=true" alt="" data-size="original">       |
+
+{% hint style="info" %}
+Afin de pouvoir utiliser les gâchettes, il est nécessaire de changer le schéma de contrôle dans le jeu, en passant l'accélération et le freinage sur les bons boutons/sticks.
+{% endhint %}
 
 ## Information spécifique au système
 
