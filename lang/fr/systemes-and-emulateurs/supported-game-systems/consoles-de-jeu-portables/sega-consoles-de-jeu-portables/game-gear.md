@@ -28,19 +28,9 @@ Aucun BIOS nécessaire.
 
 ## Contrôles
 
-| RetroBat                                                                           | Game Gear |
-| ---------------------------------------------------------------------------------- | --------- |
-| START                                                                              | START     |
-| SELECT                                                                             |           |
-| D-PAD                                                                              | D-PAD     |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | 1         |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | 2         |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> |           |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     |           |
-
 <div align="left">
 
-<figure><img src="https://i.imgur.com/d31al0e.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/mastersystem.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
