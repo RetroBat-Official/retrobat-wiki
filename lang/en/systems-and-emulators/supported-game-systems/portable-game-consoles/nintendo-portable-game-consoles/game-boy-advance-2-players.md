@@ -26,29 +26,7 @@ Same BIOS as Game Boy Advance system.
 
 ## Controls
 
-| RetroBat key                                                                       | Game Boy Advance key  |
-| ---------------------------------------------------------------------------------- | --------------------- |
-| START                                                                              | START                 |
-| SELECT / BACK                                                                      | SELECT                |
-| D-PAD                                                                              | D-PAD                 |
-| Left analog stick                                                                  | D-PAD                 |
-| Right analog stick                                                                 |                       |
-| ![A](<../../../../.gitbook/assets/image (30).png>)                                 | B                     |
-| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | A                     |
-| <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | Turbo A               |
-| <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | Turbo B               |
-| L1                                                                                 | L                     |
-| R1                                                                                 | R                     |
-| L2                                                                                 | Turbo L               |
-| R2                                                                                 | Turbo R               |
-| L3                                                                                 | Darken Solar Sensor   |
-| R3                                                                                 | Brighten Solar Sensor |
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/hYkmLg3.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+No automatic configuration
 
 ## Specific system information
 

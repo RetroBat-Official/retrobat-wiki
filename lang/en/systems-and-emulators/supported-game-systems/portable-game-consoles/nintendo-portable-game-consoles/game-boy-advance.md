@@ -34,29 +34,11 @@ Portable Game Console - Lifespan: 2001 - 2008
 
 ## Controls
 
-| RetroBat key                                                                       | Game Boy Advance key                 |
-| ---------------------------------------------------------------------------------- | ------------------------------------ |
-| START                                                                              | START                                |
-| SELECT / BACK                                                                      | SELECT                               |
-| D-PAD                                                                              | D-PAD                                |
-| Left analog stick                                                                  |                                      |
-| Right analog stick                                                                 |                                      |
-| ![A](<../../../../.gitbook/assets/image (30).png>)                                 | B                                    |
-| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | A                                    |
-| <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | libretro mGBA: Turbo A               |
-| <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | libretro mGBA: Turbo B               |
-| L1                                                                                 | L                                    |
-| R1                                                                                 | R                                    |
-| L2                                                                                 | libretro mGBA: Turbo L               |
-| R2                                                                                 | libretro mGBA: Turbo R               |
-| L3                                                                                 | libretro mGBA: Darken Solar Sensor   |
-| R3                                                                                 | libretro mGBA: Brighten Solar Sensor |
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/hYkmLg3.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+| Option / emulator                                       | Control Layout                                                                                                                         |
+| ------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| lr-mgba                                                 | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gba_turbo.png?raw=true" alt="" data-size="original"> |
+| lr-mednafen\_gba                                        | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gba_solar.png?raw=true" alt="" data-size="original"> |
+| <p>Standalone:<br>- Mednafen<br>- Ares<br>- Bizhawk</p> | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gba.png?raw=true" alt="" data-size="original">       |
 
 {% hint style="info" %}
 Rumble option is available for libretro: mGBA.
