@@ -40,23 +40,12 @@ For FBNEO core:
 
 ## Controls
 
-| Retrobat Button                                   | Neo Geo CD Key |
-| ------------------------------------------------- | -------------- |
-| START                                             | START          |
-| SELECT                                            | SELECT         |
-| Left analog stick                                 |                |
-| Right analog stick                                |                |
-| D-PAD                                             | D-PAD          |
-| ![](<../../../../.gitbook/assets/image (48).png>) | C              |
-| ![](<../../../../.gitbook/assets/image (30).png>) | A              |
-| ![](<../../../../.gitbook/assets/image (16).png>) | B              |
-| ![](<../../../../.gitbook/assets/image (50).png>) | D              |
-| L1                                                |                |
-| R1                                                |                |
-| L2                                                |                |
-| R2                                                |                |
-| L3                                                |                |
-| R3                                                |                |
+| Option \ emulator               | Control layout                                                                                                                                   |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| lr-neocd et lr-fbneo (standard) | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/neogeocd.png?raw=true" alt="" data-size="original">            |
+| lr-fbneo (modern)               | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/neogeocd_modern.png?raw=true" alt="" data-size="original">     |
+| lr-fbneo (6-button)             | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/neogeocd_6buttonpad.png?raw=true" alt="" data-size="original"> |
+| RAINE                           | TBD                                                                                                                                              |
 
 ## Specific system information
 
