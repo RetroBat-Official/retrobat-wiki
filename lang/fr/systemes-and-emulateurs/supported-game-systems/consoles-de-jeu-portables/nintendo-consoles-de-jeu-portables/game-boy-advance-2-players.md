@@ -24,29 +24,7 @@ Ci-dessous la liste des jeux compatibles (en anglais) :
 
 ## Contrôles
 
-| RetroBat                                                                           | Game Boy Advance  |
-| ---------------------------------------------------------------------------------- | ----------------- |
-| START                                                                              | START             |
-| SELECT                                                                             | SELECT            |
-| D-PAD                                                                              | D-PAD             |
-| Stick analogique gauche                                                            | D-PAD             |
-| Stick analogique droit                                                             |                   |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | B                 |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | A                 |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | Turbo A           |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | Turbo B           |
-| L1                                                                                 | L                 |
-| R1                                                                                 | R                 |
-| L2                                                                                 | Turbo L           |
-| R2                                                                                 | Turbo R           |
-| L3                                                                                 | Assombrir l'écran |
-| R3                                                                                 | Eclaircir l'écran |
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/hYkmLg3.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+Pas de configuration automatique
 
 ## Information spécifique au système
 

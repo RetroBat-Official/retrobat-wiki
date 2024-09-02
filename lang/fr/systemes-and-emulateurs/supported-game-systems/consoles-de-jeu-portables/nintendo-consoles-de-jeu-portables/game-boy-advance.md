@@ -28,29 +28,11 @@ Console de jeu portable - Durée de vie : 2001 - 2008
 
 ## Contrôles
 
-| RetroBat                                                                           | Game Boy Advance                 |
-| ---------------------------------------------------------------------------------- | -------------------------------- |
-| START                                                                              | START                            |
-| SELECT                                                                             | SELECT                           |
-| D-PAD                                                                              | D-PAD                            |
-| Stick analogique gauche                                                            |                                  |
-| Stick analogique droit                                                             |                                  |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | B                                |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | A                                |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | libretro mGBA: Turbo A           |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | libretro mGBA: Turbo B           |
-| L1                                                                                 | L                                |
-| R1                                                                                 | R                                |
-| L2                                                                                 | libretro mGBA: Turbo L           |
-| R2                                                                                 | libretro mGBA: Turbo R           |
-| L3                                                                                 | libretro mGBA: Assombrir l'écran |
-| R3                                                                                 | libretro mGBA: Eclaircir l'écran |
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/hYkmLg3.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+| Option / émulateur                                      | Schéma de contrôles                                                                                                                    |
+| ------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
+| lr-mgba                                                 | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gba_turbo.png?raw=true" alt="" data-size="original"> |
+| lr-mednafen\_gba                                        | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gba_solar.png?raw=true" alt="" data-size="original"> |
+| <p>Standalone:<br>- Mednafen<br>- Ares<br>- Bizhawk</p> | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gba.png?raw=true" alt="" data-size="original">       |
 
 {% hint style="info" %}
 Le core libretro: mGBA permet d'utiliser la fonction "rumble".
