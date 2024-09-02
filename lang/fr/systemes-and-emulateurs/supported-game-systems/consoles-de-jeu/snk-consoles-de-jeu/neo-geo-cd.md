@@ -40,23 +40,12 @@ Pour le core libretro fbneo:
 
 ## Contrôles
 
-| Retrobat                                          | Neo Geo CD |
-| ------------------------------------------------- | ---------- |
-| START                                             | START      |
-| SELECT                                            | SELECT     |
-| Stick analogique gauche                           |            |
-| Stick analogique droit                            |            |
-| D-PAD                                             | D-PAD      |
-| ![](<../../../../.gitbook/assets/image (32).png>) | C          |
-| ![](<../../../../.gitbook/assets/image (19).png>) | A          |
-| ![](<../../../../.gitbook/assets/image (6).png>)  | B          |
-| ![](<../../../../.gitbook/assets/image (34).png>) | D          |
-| L1                                                |            |
-| R1                                                |            |
-| L2                                                |            |
-| R2                                                |            |
-| L3                                                |            |
-| R3                                                |            |
+| Option \ émulateur              | Schéma de contrôles                                                                                                                              |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| lr-neocd et lr-fbneo (standard) | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/neogeocd.png?raw=true" alt="" data-size="original">            |
+| lr-fbneo (modern)               | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/neogeocd_modern.png?raw=true" alt="" data-size="original">     |
+| lr-fbneo (6-button)             | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/neogeocd_6buttonpad.png?raw=true" alt="" data-size="original"> |
+| RAINE                           | TBD                                                                                                                                              |
 
 ## Information spécifique au système
 
