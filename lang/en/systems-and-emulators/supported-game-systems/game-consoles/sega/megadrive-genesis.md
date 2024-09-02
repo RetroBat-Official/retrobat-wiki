@@ -27,23 +27,44 @@ There is no BIOS files needed to run games.
 
 ## Controls
 
-| RetroBat key                                                                       | Megadrive/Genesis key |
-| ---------------------------------------------------------------------------------- | --------------------- |
-| START                                                                              | START                 |
-| SELECT / BACK                                                                      | SELECT                |
-| D-PAD, left stick                                                                  | D-PAD                 |
-| ![A](<../../../../.gitbook/assets/image (30).png>)                                 | B (bottom middle)     |
-| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | C (bottom right)      |
-| <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | Y (top middle)        |
-| <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | A (bottom left)       |
-| LB (L1)                                                                            | X (top left)          |
-| RB (R1)                                                                            | Z (top right)         |
+### Standard layout:
 
-<figure><img src="https://i.imgur.com/N5Cxt6b.png" alt=""><figcaption></figcaption></figure>
+<div align="left">
 
-<figure><img src="https://i.imgur.com/S7Z90HH.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/megadrive.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
 
-<figure><img src="https://i.imgur.com/spafoAq.png" alt=""><figcaption></figcaption></figure>
+</div>
+
+### 3-button pad layout:
+
+3-button pad can be switched ON with the following option:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/a4rUe5g.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/megadrive_3buttons.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
+
+</div>
+
+### Alternative layouts:
+
+Alternative layouts are available with this option:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/pt5KFr8.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+| Option / emulator | Control layout                                                                                                                               |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| L/R as Z/C        | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/megadrive_lr_zc.png?raw=true" alt="" data-size="original"> |
+| L/R as Y/Z        | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/megadrive_lr_yz.png?raw=true" alt="" data-size="original"> |
 
 ## Specific System Information
 

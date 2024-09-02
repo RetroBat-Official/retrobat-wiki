@@ -24,37 +24,7 @@ There is no BIOS files needed to run games.
 
 ## Controls
 
-Same controls as Megadrive - Genesis.
-
-| RetroBat key                                                                       | Megadrive/Genesis key |
-| ---------------------------------------------------------------------------------- | --------------------- |
-| START                                                                              | START                 |
-| SELECT / BACK                                                                      | SELECT                |
-| D-PAD, left stick                                                                  | D-PAD                 |
-| ![A](<../../../../.gitbook/assets/image (30).png>)                                 | B (bottom middle)     |
-| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | C (bottom right)      |
-| <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | Y (top middle)        |
-| <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | A (bottom left)       |
-| LB (L1)                                                                            | X (top left)          |
-| RB (R1)                                                                            | Z (top right)         |
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/N5Cxt6b.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/S7Z90HH.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/spafoAq.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+[Same controls as Megadrive - Genesis.](megadrive-genesis.md#controls)
 
 ## Specific System Information
 

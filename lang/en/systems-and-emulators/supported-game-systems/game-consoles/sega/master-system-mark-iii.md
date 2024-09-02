@@ -25,16 +25,25 @@ Game Console - Lifespan: 1985 - 1996
 
 ## Controls
 
-| RetroBat key                                       | Master system key             |
-| -------------------------------------------------- | ----------------------------- |
-| SELECT / BACK                                      | PAUSE (button on the console) |
-| D-PAD, left stick                                  | D-PAD                         |
-| ![A](<../../../../.gitbook/assets/image (30).png>) | 1 / START                     |
-| ![B](<../../../../.gitbook/assets/image (16).png>) | 2                             |
+Master System control layout:
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/IY6vs5g.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/mastersystem.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
+
+</div>
+
+A different layout is available when switching ON the following option:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/6LY1Atx.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/mastersystem_rotate.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
