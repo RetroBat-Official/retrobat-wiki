@@ -28,17 +28,23 @@ Console de jeu portable - Durée de vie : 2004- 2011
 
 ## Contrôles
 
-{% hint style="info" %}
-Le stylet peut être émulé soit par la souris, soit par le stick analogique droit de la manette (le choix est disponible dans les fonctions avancées > contrôles).
-{% endhint %}
-
-<table><thead><tr><th width="302">RetroBat</th><th>Nintendo DS</th></tr></thead><tbody><tr><td>START</td><td>START</td></tr><tr><td>SELECT</td><td>SELECT</td></tr><tr><td>D-PAD</td><td>D-PAD</td></tr><tr><td>Left analog stick</td><td></td></tr><tr><td>Right analog stick</td><td>Ecran tactile (stylet)</td></tr><tr><td><img src="../../../../.gitbook/assets/image (19).png" alt="A"></td><td>B</td></tr><tr><td><img src="../../../../.gitbook/assets/image (6).png" alt="B"></td><td>A</td></tr><tr><td><img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"></td><td>X</td></tr><tr><td><img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line"></td><td>Y</td></tr><tr><td>L1</td><td>L</td></tr><tr><td>R1</td><td>R</td></tr><tr><td>L2</td><td>MelonDS_DS: microphone<br>DesMUme: Fermeture du couvercle</td></tr><tr><td>R2</td><td>MelonDS_DS: Changer la disposition de l'écran<br>DesMUme: Appui sur l'écran tactile<br>MelonDS: Changer la disposition de l'écran</td></tr><tr><td>L3</td><td>MelonDS_DS: Fermeture du couvercle<br>DesMUme: Activer le Microphone<br>MelonDS: Fermeture du couvercle</td></tr><tr><td>R3</td><td>MelonDS_DS: Appui sur l'écran tactile<br>DesMUme: Changer la disposition de l'écran</td></tr></tbody></table>
+En dehors de l'émulateur standalone MelonDS, tous les émulateurs permettent de simuler l'écran tactile avec le joystick droit, cette option doit être activée dans les options avancées du système > contrôles:
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/5Fa7LxI.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/3SNiUdQ.png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+| Option / émulateur                  | Schéma de contrôles                                                                                                                                    |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| lr-melondsds                        | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_melondsds.png?raw=true" alt="" data-size="original">             |
+| <p>lr-desmume<br>lr-desmume2015</p> | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds.png?raw=true" alt="" data-size="original">                       |
+| lr-melonds                          | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_melonds.png?raw=true" alt="" data-size="original">               |
+| MelonDS standard                    | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_melonds_standalone.png?raw=true" alt="" data-size="original">    |
+| MelonDS (stick gauche)              | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_melonds_standalone_ls.png?raw=true" alt="" data-size="original"> |
+| BizHawk standard                    | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_bizhawk.png?raw=true" alt="" data-size="original">               |
+| BizHawk (souris)                    | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_bizhawk_mouse.png?raw=true" alt="" data-size="original">         |
 
 ## Information spécifique au système
 
