@@ -28,23 +28,7 @@ Game Console extension - Released: 1988
 
 ## Controls
 
-| Retrobat Button                                   | PC Engine key |
-| ------------------------------------------------- | ------------- |
-| START                                             | START         |
-| SELECT                                            | SELECT        |
-| D-PAD, Left analog stick                          | D-PAD         |
-| ![](<../../../../.gitbook/assets/image (48).png>) |               |
-| ![](<../../../../.gitbook/assets/image (30).png>) | B             |
-| ![](<../../../../.gitbook/assets/image (16).png>) | A             |
-| ![](<../../../../.gitbook/assets/image (50).png>) |               |
-| L1                                                |               |
-| R1                                                |               |
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/rKnEZ9C.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+[Similar to PC-Engine/TurboGrafx-16.](pc-engine-turbografx-16.md#controls)
 
 ## Specific system information
 

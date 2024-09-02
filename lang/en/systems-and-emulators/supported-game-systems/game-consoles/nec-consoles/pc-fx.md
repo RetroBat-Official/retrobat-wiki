@@ -28,17 +28,10 @@ Game Console - Lifespan: 1994 - 1998
 
 ## Controls
 
-| Retrobat Button                                   | PC-FX key |
-| ------------------------------------------------- | --------- |
-| START                                             | RUN       |
-| SELECT                                            | SELECT    |
-| D-PAD, Left analog stick                          | D-PAD     |
-| ![](<../../../../.gitbook/assets/image (48).png>) | III       |
-| ![](<../../../../.gitbook/assets/image (30).png>) | II        |
-| ![](<../../../../.gitbook/assets/image (16).png>) | I         |
-| ![](<../../../../.gitbook/assets/image (50).png>) | V         |
-| L1                                                | IV        |
-| R1                                                | VI        |
+| Option \ emulator | Control layout                                                                                                                            |
+| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| Default           | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/pcfx.png?raw=true" alt="" data-size="original">         |
+| BizHawk           | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/pcfx_bizhawk.png?raw=true" alt="" data-size="original"> |
 
 ## Specific system information
 
