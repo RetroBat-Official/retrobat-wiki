@@ -28,19 +28,9 @@ There is no BIOS files needed to run games.
 
 ## Controls
 
-| RetroBat key                                                                       | Game Gear key |
-| ---------------------------------------------------------------------------------- | ------------- |
-| START                                                                              | START         |
-| SELECT                                                                             |               |
-| D-PAD                                                                              | D-PAD         |
-| ![A](<../../../../.gitbook/assets/image (30).png>)                                 | 1             |
-| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | 2             |
-| <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> |               |
-| <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     |               |
-
 <div align="left">
 
-<figure><img src="https://i.imgur.com/d31al0e.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/mastersystem.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 
