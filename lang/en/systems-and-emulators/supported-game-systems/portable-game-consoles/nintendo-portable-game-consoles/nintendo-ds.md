@@ -28,33 +28,23 @@ Portable Game Console - Lifespan: 2004- 2011
 
 ## Controls
 
-{% hint style="info" %}
-Stylus movement can be simulated with mouse or with right analog stick (if the feature is enabled).
-{% endhint %}
-
-| RetroBat key                                                                       | Nintendo DS key                                                                       |
-| ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
-| START                                                                              | START                                                                                 |
-| SELECT / BACK                                                                      | SELECT                                                                                |
-| D-PAD                                                                              | D-PAD                                                                                 |
-| Left analog stick                                                                  |                                                                                       |
-| Right analog stick                                                                 | Touchscreen joystick                                                                  |
-| ![A](<../../../../.gitbook/assets/image (30).png>)                                 | B                                                                                     |
-| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | A                                                                                     |
-| <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | X                                                                                     |
-| <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | Y                                                                                     |
-| L1                                                                                 | L                                                                                     |
-| R1                                                                                 | R                                                                                     |
-| L2                                                                                 | <p>MelonDS_DS: microphone<br>DesMUme: LID close/open</p>                              |
-| R2                                                                                 | <p>MelonDS_DS: next screen layout<br>DesMUme: TAP Stylus<br>MelonDS: Swap Screens</p> |
-| L3                                                                                 | <p>MelonDS_DS: close lid<br>DesMUme: Toggle Microphone<br>MelonDS: Close LID</p>      |
-| R3                                                                                 | <p>MelonDS_DS: touch joystick<br>DesMUme: Screen Swap</p>                             |
+Except standalone MelonDS emulator, all emulators can simulate touchscreen with the joystick, this can usually be enabled in the advanced options > controls:
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/5Fa7LxI.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/2BUwdga.png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+| Option / emulator                   | Control layout                                                                                                                                         |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| lr-melondsds                        | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_melondsds.png?raw=true" alt="" data-size="original">             |
+| <p>lr-desmume<br>lr-desmume2015</p> | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds.png?raw=true" alt="" data-size="original">                       |
+| lr-melonds                          | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_melonds.png?raw=true" alt="" data-size="original">               |
+| MelonDS standard                    | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_melonds_standalone.png?raw=true" alt="" data-size="original">    |
+| MelonDS (left stick)                | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_melonds_standalone_ls.png?raw=true" alt="" data-size="original"> |
+| BizHawk standard                    | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_bizhawk.png?raw=true" alt="" data-size="original">               |
+| BizHawk (mouse)                     | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_bizhawk_mouse.png?raw=true" alt="" data-size="original">         |
 
 ## Specific System Information
 
