@@ -28,25 +28,46 @@ Console de jeu - Durée de vie: 1994 - 2000
 
 ## Contrôles
 
-| RetroBat                                                                           | Saturn          |
-| ---------------------------------------------------------------------------------- | --------------- |
-| START                                                                              | START           |
-| SELECT                                                                             | SELECT          |
-| D-PAD                                                                              | D-PAD           |
-| Stick analogique gauche                                                            | D-PAD           |
-| Stick analogique droit                                                             |                 |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | B (milieu bas)  |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | C (droit bas)   |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | Y (milieu haut) |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | A (gauche bas)  |
-| LB (L1)                                                                            | X (gauche haut) |
-| RB (R1)                                                                            | Z (droit haut)  |
+### Schéma de contrôles standard:
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/rJXxjO2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/saturn.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
+
+### Inversion des gâchettes:
+
+Il est possible d'inverser les gâchettes et les boutons L/R avec l'option suivante:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/lpAcAex.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/saturn_invert_triggers.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
+
+</div>
+
+### Autres schémas de contrôles:
+
+Des schémas de contrôles alernatifs sont disponibles avec l'option suivante:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/Ui2uKWH.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+| Option                 | Schéma de contrôle                                                                                                                                        |
+| ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| L/R pour Y/Z           | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/saturn_lr_yz.png?raw=true" alt="" data-size="original">                 |
+| L/R pour Y/Z (inversé) | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/saturn_lr_yz_invert_triggers.png?raw=true" alt="" data-size="original"> |
+| L/R pour X/Z           | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/saturn_lr_xz.png?raw=true" alt="" data-size="original">                 |
+| L/R pour X/Z (inversé) | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/saturn_lr_xz_invert_triggers.png?raw=true" alt="" data-size="original"> |
 
 ## Information spécifique au système
 

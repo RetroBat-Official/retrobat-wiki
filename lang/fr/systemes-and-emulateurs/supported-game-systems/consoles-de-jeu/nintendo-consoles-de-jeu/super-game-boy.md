@@ -28,31 +28,7 @@ Accessoire de console de jeu - Année de sortie: 1994
 
 ## Contrôles
 
-Identique au système Game Boy.
-
-| RetroBat                                                                           | Super Game Boy |
-| ---------------------------------------------------------------------------------- | -------------- |
-| START                                                                              | START          |
-| SELECT / BACK                                                                      | SELECT         |
-| D-PAD                                                                              | D-PAD          |
-| Stick analogique gauche                                                            | D-PAD          |
-| Stick analogique droit                                                             |                |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | B              |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | A              |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> |                |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     |                |
-| L1                                                                                 |                |
-| R1                                                                                 |                |
-| L2                                                                                 |                |
-| R2                                                                                 |                |
-| L3                                                                                 |                |
-| R3                                                                                 |                |
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/yDQp2P6.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+Identique au système [Super Nintendo](super-nintendo-entertainment-system-super-famicom.md#controls)
 
 ## Information spécifique au système
 

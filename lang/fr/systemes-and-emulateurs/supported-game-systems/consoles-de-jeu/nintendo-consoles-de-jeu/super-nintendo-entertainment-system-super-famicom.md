@@ -24,19 +24,27 @@ Aucun BIOS nécessaire..
 
 ## Contrôles
 
-| RetroBat                                                                           | Super Nintendo |
-| ---------------------------------------------------------------------------------- | -------------- |
-| START                                                                              | START          |
-| SELECT / BACK                                                                      | SELECT         |
-| D-PAD                                                                              | D-PAD          |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | B              |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | A              |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | X              |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | Y              |
-| LB (L1)                                                                            | L              |
-| RB (R1)                                                                            | R              |
+### Schémas de contrôles
 
-<figure><img src="https://i.imgur.com/bJOE7jD.png" alt=""><figcaption></figcaption></figure>
+<div align="left">
+
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/snes.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
+
+</div>
+
+Un schéma de contrôle alternatif est disponible, il permet d'aligner les boutons avec les boutons des manettes XBOX:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/Rq6eu0r.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/snes_invert.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
+
+</div>
 
 ### Libretro cores : type de contôleurs
 
