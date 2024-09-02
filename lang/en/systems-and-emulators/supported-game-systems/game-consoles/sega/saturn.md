@@ -28,23 +28,46 @@ Game Console - Lifespan: 1994 - 2000
 
 ## Controls
 
-| RetroBat key                                                                       | Saturn key        |
-| ---------------------------------------------------------------------------------- | ----------------- |
-| START                                                                              | START             |
-| SELECT / BACK                                                                      | SELECT            |
-| D-PAD, left stick                                                                  | D-PAD             |
-| ![A](<../../../../.gitbook/assets/image (30).png>)                                 | B (bottom middle) |
-| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | C (bottom right)  |
-| <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | Y (top middle)    |
-| <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | A (bottom left)   |
-| LB (L1)                                                                            | X (top left)      |
-| RB (R1)                                                                            | Z (top right)     |
+### Standard control layout:
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/rJXxjO2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/saturn.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
+
+### Trigger inversion:
+
+It is possible to invert triggers and shoulder buttons with the following option:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/X1fv94k.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/saturn_invert_triggers.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
+
+</div>
+
+### Alternative control layouts:
+
+Alternative control layouts can be enabled with the following option:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/W7qP14u.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+| Option                | Control layout                                                                                                                                            |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| L/R AS Y/Z            | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/saturn_lr_yz.png?raw=true" alt="" data-size="original">                 |
+| L/R AS Y/Z (inverted) | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/saturn_lr_yz_invert_triggers.png?raw=true" alt="" data-size="original"> |
+| L/R AS X/Z            | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/saturn_lr_xz.png?raw=true" alt="" data-size="original">                 |
+| L/R AS X/Z (inverted) | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/saturn_lr_xz_invert_triggers.png?raw=true" alt="" data-size="original"> |
 
 ## Specific System Information
 

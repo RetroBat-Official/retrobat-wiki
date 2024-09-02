@@ -24,19 +24,27 @@ There is no BIOS files needed to run games.
 
 ## Controls
 
-| RetroBat key                                                                       | Super Nintendo key |
-| ---------------------------------------------------------------------------------- | ------------------ |
-| START                                                                              | START              |
-| SELECT / BACK                                                                      | SELECT             |
-| D-PAD                                                                              | D-PAD              |
-| ![A](<../../../../.gitbook/assets/image (30).png>)                                 | B                  |
-| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | A                  |
-| <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | X                  |
-| <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | Y                  |
-| LB (L1)                                                                            | L                  |
-| RB (R1)                                                                            | R                  |
+### Control layouts
 
-<figure><img src="https://i.imgur.com/bJOE7jD.png" alt=""><figcaption></figcaption></figure>
+<div align="left">
+
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/snes.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
+
+</div>
+
+An alternative layout is available, it allows to match button names with XBOX layout:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/QOOwTEI.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/snes_invert.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
+
+</div>
 
 ### Libretro cores controller types
 

@@ -28,31 +28,7 @@ Game Console accessory - Release date: 1994
 
 ## Controls
 
-Same mapping as Game Boy system.
-
-| RetroBat key                                                                       | Super Game Boy key |
-| ---------------------------------------------------------------------------------- | ------------------ |
-| START                                                                              | START              |
-| SELECT / BACK                                                                      | SELECT             |
-| D-PAD                                                                              | D-PAD              |
-| Left analog stick                                                                  | D-PAD              |
-| Right analog stick                                                                 |                    |
-| ![A](<../../../../.gitbook/assets/image (30).png>)                                 | B                  |
-| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | A                  |
-| <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> |                    |
-| <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     |                    |
-| L1                                                                                 |                    |
-| R1                                                                                 |                    |
-| L2                                                                                 |                    |
-| R2                                                                                 |                    |
-| L3                                                                                 |                    |
-| R3                                                                                 |                    |
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/yDQp2P6.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+Same as [Super Nintendo](super-nintendo-entertainment-system-super-famicom.md#controls)
 
 ## Specific system information
 
