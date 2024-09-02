@@ -42,7 +42,7 @@ An alternative layout has been created in order to be able to use analog trigger
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/7W6Gw0r.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/bb3oWIA.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -53,9 +53,9 @@ An alternative layout has been created in order to be able to use analog trigger
 </div>
 
 {% hint style="info" %}
-In order to use analog triggers, you need to change the controls in-game in order to map throttle and brake to right analog stick.
+In order to use analog triggers, you need to change the controls in-game in order to map throttle and brake to the right analog stick.
 
-Only the analog controller is compatible with this layout.
+This layout is only compatible with the analog gamepad.
 {% endhint %}
 
 ## System Features

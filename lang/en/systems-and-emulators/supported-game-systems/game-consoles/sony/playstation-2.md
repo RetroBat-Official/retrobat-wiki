@@ -40,29 +40,33 @@ The following controllers can be autoconfigured from Retrobat to PCSX2:
 * Nintendo Switch Pro controller
 {% endhint %}
 
-| RetroBat key                                                                       | Playstation 2 key  |
-| ---------------------------------------------------------------------------------- | ------------------ |
-| START                                                                              | START              |
-| SELECT / BACK                                                                      | SELECT             |
-| D-PAD                                                                              | D-PAD              |
-| Left analog stick                                                                  | Left analog stick  |
-| Right analog stick                                                                 | Right analog stick |
-| ![A](<../../../../.gitbook/assets/image (30).png>)                                 | Cross              |
-| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | Circle             |
-| <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | Triangle           |
-| <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | Square             |
-| L1                                                                                 | L1                 |
-| R1                                                                                 | R1                 |
-| L2                                                                                 | L2                 |
-| R2                                                                                 | R2                 |
-| L3                                                                                 | L3                 |
-| R3                                                                                 | R3                 |
+### Control layout
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/9sz2VFM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/psx.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
+
+### Alternative layouts:
+
+Alternative layouts have been created in order to be able to use analog triggers to throttle and brake in driving games, the layouts can be enabled with the following option:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/5TFeO14.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+| Option                       | Control layout                                                                                                                                         |
+| ---------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| TRIGGERS AS SQUARE AND CROSS | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/psx_triggers_square_cross.png?raw=true" alt="" data-size="original"> |
+| TRIGGERS AS RIGHT STICK      | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/psx_triggers_rstick.png?raw=true" alt="" data-size="original">       |
+| TRIGGERS AS LEFT STICK       | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/psx_triggers_lstick.png?raw=true" alt="" data-size="original">       |
+
+{% hint style="info" %}
+In order to use analog triggers, you need to change the controls in-game in order to map throttle and brake to the right buttons/axis.
+{% endhint %}
 
 ## Specific System Features
 
