@@ -48,17 +48,17 @@ Neo-Geo emulators all have different control layouts, they can vary based ont th
 
 
 
-| Option \ emulator           | Control layout                                                                                                                                     |
-| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
-| FBNEO - CLASSIC (default)   | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/neogeo_classic.png?raw=true" alt="" data-size="original">        |
-| FBNEO - MODERN              | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/neogeo_modern.png?raw=true" alt="" data-size="original">         |
-| FBNEO - 6BUTTONS            | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/neogeo_6buttonpad.png?raw=true" alt="" data-size="original">     |
-| FBALPHA - CLASSIC (default) | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/neogeo_fbalpha.png?raw=true" alt="" data-size="original">        |
-| FBALPHA - MODERN            | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/neogeo_fbalpha_modern.png?raw=true" alt="" data-size="original"> |
-| FBALPHA\_2012               | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/fbalpha2012_neogeo.png?raw=true" alt="" data-size="original">    |
-| GEOLITH                     | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/neogeo_geolith.png?raw=true" alt="" data-size="original">        |
-| RAINE                       | TBD                                                                                                                                                |
-| MAME64                      | TBD                                                                                                                                                |
+| Option \ emulator              | Control layout                                                                                                                                     |
+| ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| lr-fbneo - CLASSIC (default)   | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/neogeo_classic.png?raw=true" alt="" data-size="original">        |
+| lr-fbneo - MODERN              | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/neogeo_modern.png?raw=true" alt="" data-size="original">         |
+| lr-fbneo - 6BUTTONS            | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/neogeo_6buttonpad.png?raw=true" alt="" data-size="original">     |
+| lr-fbalpha - CLASSIC (default) | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/neogeo_fbalpha.png?raw=true" alt="" data-size="original">        |
+| lr-fbalpha - MODERN            | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/neogeo_fbalpha_modern.png?raw=true" alt="" data-size="original"> |
+| lr-fbalpha\_2012               | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/fbalpha2012_neogeo.png?raw=true" alt="" data-size="original">    |
+| lr-geolith                     | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/neogeo_geolith.png?raw=true" alt="" data-size="original">        |
+| RAINE                          | TBD                                                                                                                                                |
+| MAME64                         | TBD                                                                                                                                                |
 
 ## System Features
 
