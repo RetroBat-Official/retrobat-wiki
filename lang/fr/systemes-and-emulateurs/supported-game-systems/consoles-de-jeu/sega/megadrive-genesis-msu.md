@@ -26,24 +26,6 @@ Aucun BIOS nécessaire.
 
 Similaire au système [Megadrive - Genesis](megadrive-genesis.md).
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/N5Cxt6b.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/S7Z90HH.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/spafoAq.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
 ## Information spécifique au système
 
 ### Lancement des jeux MSU

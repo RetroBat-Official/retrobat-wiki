@@ -25,18 +25,25 @@ Console de jeu - Durée de vie: 1985 - 1996
 
 ## Contrôles
 
-| RetroBat                                           | Master system                 |
-| -------------------------------------------------- | ----------------------------- |
-| SELECT / BACK                                      | PAUSE (bouton sur la console) |
-| D-PAD                                              | D-PAD                         |
-| Stick analogique gauche                            | D-PAD                         |
-| Stick analogique droit                             |                               |
-| ![A](<../../../../.gitbook/assets/image (19).png>) | 1 / START                     |
-| ![B](<../../../../.gitbook/assets/image (6).png>)  | 2                             |
+Le schéma de contrôle pour la Master System est le suivant:
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/IY6vs5g.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/mastersystem.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
+
+</div>
+
+Il est possible d'utiliser un schéma différent en activant l'option suivante:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/JaDKLtl.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/mastersystem_rotate.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
 
 </div>
 

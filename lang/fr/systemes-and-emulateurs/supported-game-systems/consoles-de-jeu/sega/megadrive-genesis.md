@@ -28,15 +28,44 @@ Aucun BIOS nécessaire.
 
 ## Contrôles
 
-<table><thead><tr><th width="282">RetroBat</th><th>Megadrive/Genesis</th></tr></thead><tbody><tr><td>START</td><td>START</td></tr><tr><td>SELECT / BACK</td><td>SELECT</td></tr><tr><td>D-PAD</td><td>D-PAD</td></tr><tr><td>Stick analogique gauche</td><td>D-PAD</td></tr><tr><td>Stick analogique droit</td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (19).png" alt="A"></td><td>B (milieu bas)</td></tr><tr><td><img src="../../../../.gitbook/assets/image (6).png" alt="B"></td><td>C (droite bas)</td></tr><tr><td><img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"></td><td>Y (millieu haut)</td></tr><tr><td><img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line"></td><td>A (gauche bas)</td></tr><tr><td>LB (L1)</td><td>X (gauche haut)</td></tr><tr><td>RB (R1)</td><td>Z (droite haut)</td></tr></tbody></table>
+### Schéma de contrôles standard:
 
+<div align="left">
 
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/megadrive.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
 
-<figure><img src="https://i.imgur.com/N5Cxt6b.png" alt=""><figcaption></figcaption></figure>
+</div>
 
-<figure><img src="https://i.imgur.com/S7Z90HH.png" alt=""><figcaption></figcaption></figure>
+### Contrôleur 3 boutons:
 
-<figure><img src="https://i.imgur.com/spafoAq.png" alt=""><figcaption></figcaption></figure>
+L'utilisation d'un contrôleur 3-boutons peut être activée avec l'option suivante:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/y8F0PEM.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+<div align="left">
+
+<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/megadrive_3buttons.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
+
+</div>
+
+### Autres schémas de contrôles:
+
+Des schémas de contrôles alernatifs sont disponible avec l'option suivante:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/WEnL6F1.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+| Option / émulateurs | Schéma de contrôle                                                                                                                           |
+| ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| L/R pour Z/C        | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/megadrive_lr_zc.png?raw=true" alt="" data-size="original"> |
+| L/R pour Y/Z        | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/megadrive_lr_yz.png?raw=true" alt="" data-size="original"> |
 
 ## Information spécifique au système
 
