@@ -40,6 +40,22 @@ Le mapping par défaut est le suivant:
 
 ## Information spécifique au système
 
+### Configuration de l'émulateur hatari
+
+RetroBat force l'émulateur standalone hatari à utiliser le fichier de configuration situé dans le dossier `\emulators\hatari` de l'installation RetroBat.
+
+Pour configurer hatari hors RetroBat, utiliser le fichier "Configure hatari.bat":
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/gMsQpbA.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+{% hint style="warning" %}
+Par défaut, hatari.exe sauvegarde la configuration dans les dossiers utilisateurs de windows, les modifications effectuées dans ce fichier ne sont pas prises en compte lors du lancement d'un jeu depuis RetroBat.
+{% endhint %}
+
 ### Lancer une image disque dur "gemdos"
 
 Le coeur libretro Hatari-B permet de charger une image disque dur au format "gemdos", pour cela le fichier de jeu doit être un dossier d'image de disque:
