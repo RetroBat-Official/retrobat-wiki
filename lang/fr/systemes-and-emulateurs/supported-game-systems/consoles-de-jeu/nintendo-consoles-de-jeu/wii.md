@@ -67,10 +67,10 @@ Le tableau ci-dessous détaille la correspondance de boutons "standard" lorsque 
 | D-PAD                                                                              | D-PAD                             |
 | Stick analogique gauche                                                            | Pointeur infrarouge de la Wiimote |
 | Stick analogique droit                                                             | Mouvement "Tilt"                  |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | A                                 |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | B                                 |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | 2                                 |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | 1                                 |
+| ![A](<../../../../.gitbook/assets/image (20).png>)                                 | A                                 |
+| ![B](<../../../../.gitbook/assets/image (7).png>)                                  | B                                 |
+| <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | 2                                 |
+| <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     | 1                                 |
 | LB (L1)                                                                            | -                                 |
 | RB (R1)                                                                            | +                                 |
 
@@ -99,10 +99,10 @@ Correspondance des boutons pour le mode Classic Controller:
 | D-PAD                                                                              | D-PAD              |
 | Stick analogique gauche                                                            | Stick gauche       |
 | Stick analogique droit                                                             | Stick droit        |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | B                  |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | A                  |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | X                  |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | Y                  |
+| ![A](<../../../../.gitbook/assets/image (20).png>)                                 | B                  |
+| ![B](<../../../../.gitbook/assets/image (7).png>)                                  | A                  |
+| <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | X                  |
+| <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     | Y                  |
 | L1                                                                                 | L                  |
 | R1                                                                                 | R                  |
 | L2                                                                                 | ZL                 |
@@ -190,10 +190,10 @@ La correspondance des touches est identique à la correspondance par défaut, av
 
 | Retrobat                                                                           | Wiimote     |
 | ---------------------------------------------------------------------------------- | ----------- |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | 1           |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | 2           |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | B           |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | A           |
+| ![A](<../../../../.gitbook/assets/image (20).png>)                                 | 1           |
+| ![B](<../../../../.gitbook/assets/image (7).png>)                                  | 2           |
+| <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | B           |
+| <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     | A           |
 | L2                                                                                 | Shake       |
 | SELECT                                                                             | -           |
 | START                                                                              | +           |
@@ -266,7 +266,7 @@ Le core libretro Dolphin permet de sélectionner parmi les types de contrôleurs
 * REAL WIIMOTE
 * GAMECUBE CONTROLLER ([Voir le mapping Gamecube](gamecube.md#controles))
 
-<table><thead><tr><th width="192">Retrobat</th><th width="102">WIIMOTE</th><th width="98">SIDE</th><th width="130">NUNCHUK</th><th>CLASSIC CONTROLLER</th></tr></thead><tbody><tr><td>START</td><td>+</td><td>+</td><td>1</td><td>+</td></tr><tr><td>SELECT</td><td>-</td><td>-</td><td>2</td><td>-</td></tr><tr><td>D-PAD</td><td>D-PAD</td><td>D-PAD</td><td>D-PAD</td><td>D-PAD</td></tr><tr><td>Stick analogique gauche</td><td>Tilt</td><td>Tilt</td><td>Nunchuk<br>Stick</td><td>Stick gauche</td></tr><tr><td>Stick analogique droite</td><td></td><td></td><td>Tilt</td><td>Stick droit</td></tr><tr><td><img src="../../../../.gitbook/assets/image (19).png" alt="A"></td><td>B</td><td>1</td><td>B</td><td>B</td></tr><tr><td><img src="../../../../.gitbook/assets/image (6).png" alt="B"></td><td>A</td><td>2</td><td>A</td><td>A</td></tr><tr><td><img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"></td><td>1</td><td>A</td><td>C</td><td>X</td></tr><tr><td><img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line"></td><td>2</td><td>B</td><td>Z</td><td>Y</td></tr><tr><td>L1</td><td></td><td></td><td>-</td><td>ZL<br>PRO: L</td></tr><tr><td>R1</td><td></td><td></td><td>+</td><td>ZR<br>PRO: R</td></tr><tr><td>L2</td><td></td><td></td><td>Secouer<br>Nunchuk</td><td>L<br>PRO: ZL</td></tr><tr><td>R2</td><td>Secouer</td><td>Secouer</td><td>Secouer<br>Wiimote</td><td>R<br>PRO: ZR</td></tr><tr><td>L3</td><td></td><td></td><td></td><td></td></tr><tr><td>R3</td><td>Home</td><td>Home</td><td>Home</td><td>Home</td></tr></tbody></table>
+<table><thead><tr><th width="192">Retrobat</th><th width="102">WIIMOTE</th><th width="98">SIDE</th><th width="130">NUNCHUK</th><th>CLASSIC CONTROLLER</th></tr></thead><tbody><tr><td>START</td><td>+</td><td>+</td><td>1</td><td>+</td></tr><tr><td>SELECT</td><td>-</td><td>-</td><td>2</td><td>-</td></tr><tr><td>D-PAD</td><td>D-PAD</td><td>D-PAD</td><td>D-PAD</td><td>D-PAD</td></tr><tr><td>Stick analogique gauche</td><td>Tilt</td><td>Tilt</td><td>Nunchuk<br>Stick</td><td>Stick gauche</td></tr><tr><td>Stick analogique droite</td><td></td><td></td><td>Tilt</td><td>Stick droit</td></tr><tr><td><img src="../../../../.gitbook/assets/image (20).png" alt="A"></td><td>B</td><td>1</td><td>B</td><td>B</td></tr><tr><td><img src="../../../../.gitbook/assets/image (7).png" alt="B"></td><td>A</td><td>2</td><td>A</td><td>A</td></tr><tr><td><img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"></td><td>1</td><td>A</td><td>C</td><td>X</td></tr><tr><td><img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line"></td><td>2</td><td>B</td><td>Z</td><td>Y</td></tr><tr><td>L1</td><td></td><td></td><td>-</td><td>ZL<br>PRO: L</td></tr><tr><td>R1</td><td></td><td></td><td>+</td><td>ZR<br>PRO: R</td></tr><tr><td>L2</td><td></td><td></td><td>Secouer<br>Nunchuk</td><td>L<br>PRO: ZL</td></tr><tr><td>R2</td><td>Secouer</td><td>Secouer</td><td>Secouer<br>Wiimote</td><td>R<br>PRO: ZR</td></tr><tr><td>L3</td><td></td><td></td><td></td><td></td></tr><tr><td>R3</td><td>Home</td><td>Home</td><td>Home</td><td>Home</td></tr></tbody></table>
 
 ## Information spécifique au système
 

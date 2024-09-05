@@ -27,7 +27,7 @@ Il est possible de **VÉRIFIER LES BIOS MANQUANTS** depuis le menu [PARAMÈTRES 
 </div>
 
 Les BIOS manquants sont représentés avec une icône de chaîne brisée.\
-les BIOS dont les hash MD5 ne correspondent pas a ceux prédéfinis par Retrobat apparaissent avec une icône <img src="../.gitbook/assets/image (27).png" alt="" data-size="line">.\
+les BIOS dont les hash MD5 ne correspondent pas a ceux prédéfinis par Retrobat apparaissent avec une icône <img src="../.gitbook/assets/image (28).png" alt="" data-size="line">.\
 Toutefois, cela ne signifie pas nécessairement que les BIOS ne sont pas valides. Il peut être nécessaire de tester la bonne exécution du système pour ces BIOS.\
 
 

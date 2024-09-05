@@ -31,10 +31,10 @@ Aucun BIOS nécessaire.
 | D-PAD                                          | D-PAD      |
 | Stick analogique gauche                        | Directions |
 | Stick analogique droit                         |            |
-| ![](<../../../.gitbook/assets/image (32).png>) | Attaque    |
-| ![](<../../../.gitbook/assets/image (19).png>) | Sauter     |
-| ![](<../../../.gitbook/assets/image (6).png>)  | Attaque 2  |
-| ![](<../../../.gitbook/assets/image (34).png>) | Special    |
+| ![](<../../../.gitbook/assets/image (33).png>) | Attaque    |
+| ![](<../../../.gitbook/assets/image (20).png>) | Sauter     |
+| ![](<../../../.gitbook/assets/image (7).png>)  | Attaque 2  |
+| ![](<../../../.gitbook/assets/image (35).png>) | Special    |
 | L1                                             | Attaque 4  |
 | R1                                             | Attaque 3  |
 | L2                                             |            |

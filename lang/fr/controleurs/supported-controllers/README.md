@@ -18,7 +18,7 @@ La liste est amenée à évoluer avec le temps.
 {% tab title="MANETTES DE JEU" %}
 L'idéal pour les jeux consoles.
 
-![](<../../.gitbook/assets/image (15).png>)
+![](<../../.gitbook/assets/image (16).png>)
 
 [La page des Manettes de Jeu](gamepads.md)
 {% endtab %}
@@ -26,7 +26,7 @@ L'idéal pour les jeux consoles.
 {% tab title="STICKS ARCADE" %}
 Le contrôleur idéal pour les jeux d'arcade.
 
-![](<../../.gitbook/assets/image (33).png>)
+![](<../../.gitbook/assets/image (34).png>)
 
 [La page des Sticks Arcade](./#aracade-sticks)
 {% endtab %}
@@ -34,7 +34,7 @@ Le contrôleur idéal pour les jeux d'arcade.
 {% tab title="PISTOLETS" %}
 L'idéal pour les jeux de tirs.
 
-![](<../../.gitbook/assets/image (2).png>)
+![](<../../.gitbook/assets/image (3).png>)
 
 [La page des Lightguns](./#lightguns)
 {% endtab %}
@@ -42,7 +42,7 @@ L'idéal pour les jeux de tirs.
 {% tab title="CLAVIER" %}
 L'idéal pour les jeux PCs, Click'n'Play, etc.
 
-![](<../../.gitbook/assets/image (21).png>)
+![](<../../.gitbook/assets/image (22).png>)
 
 [La page des Claviers](./#keyboard)
 {% endtab %}

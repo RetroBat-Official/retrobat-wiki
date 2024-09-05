@@ -38,7 +38,7 @@ Retrobat doit désormais indexer les jeux compatibles avec les parties en résea
 
 ## Rejoindre une partie en réseau
 
-Lorsque la fonctionnalité Parties en Réseau est activée, le bouton ![](<../.gitbook/assets/image (34).png>)  est réservé pour accéder à cette fonctionnalité (il n'est plus utilisé pour la sélection aléatoire, comme précédemment)
+Lorsque la fonctionnalité Parties en Réseau est activée, le bouton ![](<../.gitbook/assets/image (35).png>)  est réservé pour accéder à cette fonctionnalité (il n'est plus utilisé pour la sélection aléatoire, comme précédemment)
 
 <div align="left">
 
@@ -46,7 +46,7 @@ Lorsque la fonctionnalité Parties en Réseau est activée, le bouton ![](<../.g
 
 </div>
 
-Presser le bouton ![](<../.gitbook/assets/image (34).png>) pour faire apparaître la liste des parties en réseau actuellement disponibles
+Presser le bouton ![](<../.gitbook/assets/image (35).png>) pour faire apparaître la liste des parties en réseau actuellement disponibles
 
 <div align="left">
 

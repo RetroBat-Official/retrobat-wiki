@@ -72,10 +72,10 @@ Les BIOS additionnels doivent être placés à la racine du dossier \bios de vot
 | Left analog stick                              | <p>Joystick gauche<br>Paddle<br>Positional device<br>Dial<br>Trackball<br>Ad_Stick</p> |
 | Right analog stick                             | Joystick droit                                                                         |
 | D-PAD                                          | Directions                                                                             |
-| ![](<../../../.gitbook/assets/image (32).png>) | 3                                                                                      |
-| ![](<../../../.gitbook/assets/image (19).png>) | 1                                                                                      |
-| ![](<../../../.gitbook/assets/image (6).png>)  | 2                                                                                      |
-| ![](<../../../.gitbook/assets/image (34).png>) | 4                                                                                      |
+| ![](<../../../.gitbook/assets/image (33).png>) | 3                                                                                      |
+| ![](<../../../.gitbook/assets/image (20).png>) | 1                                                                                      |
+| ![](<../../../.gitbook/assets/image (7).png>)  | 2                                                                                      |
+| ![](<../../../.gitbook/assets/image (35).png>) | 4                                                                                      |
 | L1                                             | 5                                                                                      |
 | R1                                             | 6                                                                                      |
 | L2                                             | Pedal 2                                                                                |

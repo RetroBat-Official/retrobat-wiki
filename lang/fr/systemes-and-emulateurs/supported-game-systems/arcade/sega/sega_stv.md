@@ -31,10 +31,10 @@ Arcade - Date de création : 1994
 | Retrobat                                                                           | Sega ST-V                            |
 | ---------------------------------------------------------------------------------- | ------------------------------------ |
 | D-PAD                                                                              | Directions                           |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | Bouton 1                             |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | Bouton 2                             |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | Bouton 4                             |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | Bouton 3                             |
+| ![A](<../../../../.gitbook/assets/image (20).png>)                                 | Bouton 1                             |
+| ![B](<../../../../.gitbook/assets/image (7).png>)                                  | Bouton 2                             |
+| <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | Bouton 4                             |
+| <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     | Bouton 3                             |
 | SELECT                                                                             | Credit                               |
 | START                                                                              | Start                                |
 | L2                                                                                 | Test (si activé dans les options)    |

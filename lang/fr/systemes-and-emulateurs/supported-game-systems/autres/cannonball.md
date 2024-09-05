@@ -27,10 +27,10 @@ Aucun BIOS nécessaire.
 | D-PAD                                          | D-PAD             |
 | Left analog stick                              | Directions        |
 | Right analog stick                             |                   |
-| ![](<../../../.gitbook/assets/image (32).png>) | Freiner           |
-| ![](<../../../.gitbook/assets/image (19).png>) | Accélerer         |
-| ![](<../../../.gitbook/assets/image (6).png>)  |                   |
-| ![](<../../../.gitbook/assets/image (34).png>) |                   |
+| ![](<../../../.gitbook/assets/image (33).png>) | Freiner           |
+| ![](<../../../.gitbook/assets/image (20).png>) | Accélerer         |
+| ![](<../../../.gitbook/assets/image (7).png>)  |                   |
+| ![](<../../../.gitbook/assets/image (35).png>) |                   |
 | L1                                             | Changer de vue    |
 | R1                                             | Retourner au menu |
 | L2                                             |                   |

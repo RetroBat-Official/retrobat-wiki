@@ -1,6 +1,6 @@
 # Options du Jeu
 
-Le menu **Options du jeu** est accessible depuis la **Vue Jeux** en restant appuyé sur le bouton ![](<../.gitbook/assets/image (19).png>) .
+Le menu **Options du jeu** est accessible depuis la **Vue Jeux** en restant appuyé sur le bouton ![](<../.gitbook/assets/image (20).png>) .
 
 <div align="left">
 

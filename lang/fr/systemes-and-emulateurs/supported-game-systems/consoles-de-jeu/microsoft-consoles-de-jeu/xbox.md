@@ -46,10 +46,10 @@ Vous pouvez télécharger dokan ici:\
 | D-PAD                                                                              | D-PAD                          |
 | Stick analogique gauche                                                            | Stick analogique gauche        |
 | Stick analogique droit                                                             | Stick analogique droit         |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | A                              |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | B                              |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | Y                              |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | X                              |
+| ![A](<../../../../.gitbook/assets/image (20).png>)                                 | A                              |
+| ![B](<../../../../.gitbook/assets/image (7).png>)                                  | B                              |
+| <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | Y                              |
+| <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     | X                              |
 | L1                                                                                 | L1 (blanc)                     |
 | R1                                                                                 | R1 (noir)                      |
 | L2                                                                                 | LT                             |

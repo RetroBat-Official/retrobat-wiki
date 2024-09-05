@@ -35,10 +35,10 @@ Console de jeu - Durée de vie : 1982 - 1984
 | D-PAD                                             | D-PAD                         |
 | Stick analogique gauche                           |                               |
 | Stick analogique droit                            |                               |
-| ![](<../../../../.gitbook/assets/image (32).png>) | Clavier virtuel on/off        |
-| ![](<../../../../.gitbook/assets/image (19).png>) | Bouton RETOUR                 |
-| ![](<../../../../.gitbook/assets/image (6).png>)  | FIRE 1                        |
-| ![](<../../../../.gitbook/assets/image (34).png>) | FIRE 2                        |
+| ![](<../../../../.gitbook/assets/image (33).png>) | Clavier virtuel on/off        |
+| ![](<../../../../.gitbook/assets/image (20).png>) | Bouton RETOUR                 |
+| ![](<../../../../.gitbook/assets/image (7).png>)  | FIRE 1                        |
+| ![](<../../../../.gitbook/assets/image (35).png>) | FIRE 2                        |
 | L1                                                | Bouton Option                 |
 | R1                                                | Ouvrir le menu de l'émulateur |
 | L2                                                | bouton ESPACE                 |

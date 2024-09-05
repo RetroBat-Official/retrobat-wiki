@@ -43,10 +43,10 @@ La correspondance des boutons est disponible dans la [notice](http://retrobat.ov
 | Stick analogique gauche                        | Stick  |
 | Stick analogique droit                         |        |
 | D-PAD                                          | Stick  |
-| ![](<../../../.gitbook/assets/image (32).png>) | 3      |
-| ![](<../../../.gitbook/assets/image (19).png>) | 1      |
-| ![](<../../../.gitbook/assets/image (6).png>)  | 2      |
-| ![](<../../../.gitbook/assets/image (34).png>) | 4      |
+| ![](<../../../.gitbook/assets/image (33).png>) | 3      |
+| ![](<../../../.gitbook/assets/image (20).png>) | 1      |
+| ![](<../../../.gitbook/assets/image (7).png>)  | 2      |
+| ![](<../../../.gitbook/assets/image (35).png>) | 4      |
 | L1                                             | 5      |
 | R1                                             | 6      |
 | L2                                             |        |

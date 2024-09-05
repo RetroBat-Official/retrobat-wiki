@@ -72,10 +72,10 @@ FBNEO offre le choix entre 2 schémas de contrôle:
 | Stick analogique gauche                        | Stick   | Stick  |
 | Stick analogique droit                         |         |        |
 | D-PAD                                          | Stick   | Stick  |
-| ![](<../../../.gitbook/assets/image (32).png>) | 3       | 3      |
-| ![](<../../../.gitbook/assets/image (19).png>) | 1       | 1      |
-| ![](<../../../.gitbook/assets/image (6).png>)  | 2       | 2      |
-| ![](<../../../.gitbook/assets/image (34).png>) | 4       | 4      |
+| ![](<../../../.gitbook/assets/image (33).png>) | 3       | 3      |
+| ![](<../../../.gitbook/assets/image (20).png>) | 1       | 1      |
+| ![](<../../../.gitbook/assets/image (7).png>)  | 2       | 2      |
+| ![](<../../../.gitbook/assets/image (35).png>) | 4       | 4      |
 | L1                                             | 5       |        |
 | R1                                             | 6       | 5      |
 | L2                                             |         |        |
@@ -153,7 +153,7 @@ Les "Dip Switches" permettent d'effectuer certains réglages sur le fonctionneme
 
 Chaque jeu possède ses propres "switchs".
 
-Pour accéder aux "dip switchs", depuis une partie, accéder au menu rapide RetroArch en pressant SELECT + ![](<../../../.gitbook/assets/image (19).png>)
+Pour accéder aux "dip switchs", depuis une partie, accéder au menu rapide RetroArch en pressant SELECT + ![](<../../../.gitbook/assets/image (20).png>)
 
 Aller dans **Options de coeur**:
 

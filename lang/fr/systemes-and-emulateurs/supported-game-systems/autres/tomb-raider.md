@@ -31,10 +31,10 @@ Aucun BIOS nécessaire.
 | D-PAD                                          | D-PAD                     |
 | Left analog stick                              |                           |
 | Right analog stick                             |                           |
-| ![](<../../../.gitbook/assets/image (32).png>) | Sauter                    |
-| ![](<../../../.gitbook/assets/image (19).png>) | Action : tirer / attraper |
-| ![](<../../../.gitbook/assets/image (6).png>)  | Rouler                    |
-| ![](<../../../.gitbook/assets/image (34).png>) | Sortir arme               |
+| ![](<../../../.gitbook/assets/image (33).png>) | Sauter                    |
+| ![](<../../../.gitbook/assets/image (20).png>) | Action : tirer / attraper |
+| ![](<../../../.gitbook/assets/image (7).png>)  | Rouler                    |
+| ![](<../../../.gitbook/assets/image (35).png>) | Sortir arme               |
 | L1                                             |                           |
 | R1                                             | Marcher (garder enfoncé)  |
 | L2                                             | S'accroupir               |

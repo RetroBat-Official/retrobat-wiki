@@ -24,7 +24,7 @@ Depuis la Vue Système, il est possible d'accéder à différents menus.
 
 ### Recherche rapide
 
-Le menu de recherche rapide est disponible en appuyant sur ![](<../.gitbook/assets/image (32).png>). Il permet de rechercher rapidement un jeu.
+Le menu de recherche rapide est disponible en appuyant sur ![](<../.gitbook/assets/image (33).png>). Il permet de rechercher rapidement un jeu.
 
 <div align="left">
 
@@ -34,7 +34,7 @@ Le menu de recherche rapide est disponible en appuyant sur ![](<../.gitbook/asse
 
 ### Barre de Navigation Constructeur
 
-La barre de navigation constructeur est disponible en appuyant sur ![](<../.gitbook/assets/image (6).png>), elle permet d'accéder rapidement aux systèmes du constructeur sélectionné.
+La barre de navigation constructeur est disponible en appuyant sur ![](<../.gitbook/assets/image (7).png>), elle permet d'accéder rapidement aux systèmes du constructeur sélectionné.
 
 <div align="left">
 
@@ -137,7 +137,7 @@ Désormais, les systèmes apparaissent individuellement dans la **Vue Système**
 
 La **Vue Jeux** est l'écran à partir duquel il est possible de consulter la liste des jeux pour un système et de démarrer un jeu.
 
-Pour accéder à la **Vue Jeux**, choisir un système depuis la **Vue Système** et appuyer sur le bouton  ![](<../.gitbook/assets/image (19).png>).
+Pour accéder à la **Vue Jeux**, choisir un système depuis la **Vue Système** et appuyer sur le bouton  ![](<../.gitbook/assets/image (20).png>).
 
 <div align="left">
 
@@ -147,8 +147,8 @@ Pour accéder à la **Vue Jeux**, choisir un système depuis la **Vue Système**
 
 Naviguer dans la liste des jeux en utilisant la croix directionnel
 
-* Appuyer ![](<../.gitbook/assets/image (19).png>) pour démarrer un jeu (ou maintenir le bouton pour accéder aux [Options du Jeu](game-options.md)).
-* Appuyer ![](<../.gitbook/assets/image (6).png>) pour retourner à la **Vue Système**.
+* Appuyer ![](<../.gitbook/assets/image (20).png>) pour démarrer un jeu (ou maintenir le bouton pour accéder aux [Options du Jeu](game-options.md)).
+* Appuyer ![](<../.gitbook/assets/image (7).png>) pour retourner à la **Vue Système**.
 
 Il existe plusieurs "types" d'affichage pour la liste de jeux, les différentes options sont disponibles depuis les [Options d'Affichage](view-options.md) (touche **SELECT**):
 

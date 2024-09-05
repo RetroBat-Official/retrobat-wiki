@@ -53,10 +53,10 @@ Utiliser la fonctionnalité [Pad2Key](../../../../controleurs/pad2key.md).
 | D-PAD                                             | Joystick                              |
 | Stick analogique gauche                           | Souris                                |
 | Stick analogique droit                            | Souris                                |
-| ![](<../../../../.gitbook/assets/image (32).png>) | ESPACE                                |
-| ![](<../../../../.gitbook/assets/image (19).png>) | Bouton 1 / rouge                      |
-| ![](<../../../../.gitbook/assets/image (6).png>)  | Bouton 2 / bleu                       |
-| ![](<../../../../.gitbook/assets/image (34).png>) |                                       |
+| ![](<../../../../.gitbook/assets/image (33).png>) | ESPACE                                |
+| ![](<../../../../.gitbook/assets/image (20).png>) | Bouton 1 / rouge                      |
+| ![](<../../../../.gitbook/assets/image (7).png>)  | Bouton 2 / bleu                       |
+| ![](<../../../../.gitbook/assets/image (35).png>) |                                       |
 | L1                                                |                                       |
 | R1                                                |                                       |
 | L2                                                | Souris bouton gauche                  |

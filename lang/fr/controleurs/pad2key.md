@@ -28,7 +28,7 @@ Sélectionner **ÉDITER UN PROFIL PADTOKEY.**
 
 </div>
 
-Sélectionner la touche de votre manette qui devra être assignée a une touche de clavier, et appuyer sur ![A](<../.gitbook/assets/image (19).png>), un clavier virtuel apparaîtra.&#x20;
+Sélectionner la touche de votre manette qui devra être assignée a une touche de clavier, et appuyer sur ![A](<../.gitbook/assets/image (20).png>), un clavier virtuel apparaîtra.&#x20;
 
 Sélectionner la touche du clavier a assigner au bouton de la manette, et répéter l'opération pour tous les boutons souhaitées.
 
@@ -42,7 +42,7 @@ Une fois cela fait, **SAUVEGARDER.**
 
 ### Création d'un profil pad2key pour un jeu
 
-Depuis la **Vue Jeux** faire un appui long sur ![A](<../.gitbook/assets/image (19).png>) pour accéder au menu [Option de Jeu](../navigation/game-options.md) et sélectionner **CRÉER UN PROFIL PADTOKEY.**
+Depuis la **Vue Jeux** faire un appui long sur ![A](<../.gitbook/assets/image (20).png>) pour accéder au menu [Option de Jeu](../navigation/game-options.md) et sélectionner **CRÉER UN PROFIL PADTOKEY.**
 
 <div align="left">
 

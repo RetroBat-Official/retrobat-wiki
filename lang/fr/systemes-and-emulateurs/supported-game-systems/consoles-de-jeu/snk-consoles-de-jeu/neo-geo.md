@@ -66,7 +66,7 @@ Les émulateurs Neo-Geo ont tous des schémas de contrôles différents qui dép
 
 ### Accéder aux paramètres du BIOS Unibios
 
-La combinaison de touches ![](<../../../../.gitbook/assets/image (32).png>) + ![](<../../../../.gitbook/assets/image (19).png>) + ![](<../../../../.gitbook/assets/image (6).png>) , lorsque utilisée au démarrage, permet d'accéder aux paramètres du BIOS universel:
+La combinaison de touches ![](<../../../../.gitbook/assets/image (33).png>) + ![](<../../../../.gitbook/assets/image (20).png>) + ![](<../../../../.gitbook/assets/image (7).png>) , lorsque utilisée au démarrage, permet d'accéder aux paramètres du BIOS universel:
 
 <div align="left">
 
@@ -76,7 +76,7 @@ La combinaison de touches ![](<../../../../.gitbook/assets/image (32).png>) + ![
 
 ## Accéder au menu "in-game"
 
-En cours de jeu, la combinaison de touches **START** + ![](<../../../../.gitbook/assets/image (32).png>) + ![](<../../../../.gitbook/assets/image (19).png>) + ![](<../../../../.gitbook/assets/image (6).png>) permet d'accéder au menu "in-game":
+En cours de jeu, la combinaison de touches **START** + ![](<../../../../.gitbook/assets/image (33).png>) + ![](<../../../../.gitbook/assets/image (20).png>) + ![](<../../../../.gitbook/assets/image (7).png>) permet d'accéder au menu "in-game":
 
 <div align="left">
 

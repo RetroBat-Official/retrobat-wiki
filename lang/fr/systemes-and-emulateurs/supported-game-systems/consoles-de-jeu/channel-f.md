@@ -35,10 +35,10 @@ Console de jeu - Durée de vie : 1976 - 1983
 | D-PAD                                          | <p>HAUT: avancer<br>BAS: reculer</p>                                                  |
 | Stick analogique gauche                        | <p>HAUT: avancer<br>BAS: reculer</p>                                                  |
 | Stick analogique droit                         | <p>GAUCHE: Tourner à gauche<br>DROITE: Tourner à droite<br>HAUT: Haut<br>BAS: Bas</p> |
-| ![](<../../../.gitbook/assets/image (32).png>) | Tourner à gauche                                                                      |
-| ![](<../../../.gitbook/assets/image (19).png>) | Pousser vers le bas                                                                   |
-| ![](<../../../.gitbook/assets/image (6).png>)  | Tourner à droite                                                                      |
-| ![](<../../../.gitbook/assets/image (34).png>) | Pousser vers le haut                                                                  |
+| ![](<../../../.gitbook/assets/image (33).png>) | Tourner à gauche                                                                      |
+| ![](<../../../.gitbook/assets/image (20).png>) | Pousser vers le bas                                                                   |
+| ![](<../../../.gitbook/assets/image (7).png>)  | Tourner à droite                                                                      |
+| ![](<../../../.gitbook/assets/image (35).png>) | Pousser vers le haut                                                                  |
 | L1                                             | Tourner à gauche                                                                      |
 | R1                                             | Tourner à droite                                                                      |
 | L2                                             |                                                                                       |

@@ -52,10 +52,10 @@ Si le joueur 1 utilise une manette non-xinput, la manette du joueur 2 doit égal
 | Retrobat                                                                           | Contrôle                                                                     |
 | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | Stick gauche                                                                       | Direction                                                                    |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | VR2 (bleu)                                                                   |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | VR4 (vert)                                                                   |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | VR1 (rouge)                                                                  |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | VR3 (jaune)                                                                  |
+| ![A](<../../../../.gitbook/assets/image (20).png>)                                 | VR2 (bleu)                                                                   |
+| ![B](<../../../../.gitbook/assets/image (7).png>)                                  | VR4 (vert)                                                                   |
+| <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | VR1 (rouge)                                                                  |
+| <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     | VR3 (jaune)                                                                  |
 | Stick droit                                                                        | <p>Levier de vitesse:<br>HAUT = 1<br>BAS = 2<br>GAUCHE = 3<br>DROITE = 4</p> |
 | L1                                                                                 | Retrograder                                                                  |
 | R1                                                                                 | Vitesse supérieure                                                           |
@@ -67,10 +67,10 @@ Si le joueur 1 utilise une manette non-xinput, la manette du joueur 2 doit égal
 | Retrobat                                                                           | Contrôle           |
 | ---------------------------------------------------------------------------------- | ------------------ |
 | Stick gauche                                                                       | Direction          |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | VR2 (bleu)         |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | VR4 (vert)         |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | VR1 (rouge)        |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | VR3 (jaune)        |
+| ![A](<../../../../.gitbook/assets/image (20).png>)                                 | VR2 (bleu)         |
+| ![B](<../../../../.gitbook/assets/image (7).png>)                                  | VR4 (vert)         |
+| <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | VR1 (rouge)        |
+| <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     | VR3 (jaune)        |
 | L1                                                                                 | Retrograder        |
 | R1                                                                                 | Vitesse supérieure |
 | L2                                                                                 | Freiner            |
@@ -81,8 +81,8 @@ Si le joueur 1 utilise une manette non-xinput, la manette du joueur 2 doit égal
 | Retrobat                                                                           | Contrôle           |
 | ---------------------------------------------------------------------------------- | ------------------ |
 | Stick gauche                                                                       | Direction          |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | Frein à main       |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | Changer la vue     |
+| ![A](<../../../../.gitbook/assets/image (20).png>)                                 | Frein à main       |
+| <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | Changer la vue     |
 | L1                                                                                 | Retrograder        |
 | R1                                                                                 | Vitesse supérieure |
 | L2                                                                                 | Freiner            |
@@ -93,7 +93,7 @@ Si le joueur 1 utilise une manette non-xinput, la manette du joueur 2 doit égal
 | Retrobat                                                                           | Contrôle           |
 | ---------------------------------------------------------------------------------- | ------------------ |
 | Stick gauche                                                                       | Direction          |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | Changer la vue     |
+| <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | Changer la vue     |
 | L1                                                                                 | Retrograder        |
 | R1                                                                                 | Vitesse supérieure |
 | L2                                                                                 | Freiner            |
@@ -104,9 +104,9 @@ Si le joueur 1 utilise une manette non-xinput, la manette du joueur 2 doit égal
 | Retrobat                                                                           | Contrôle           |
 | ---------------------------------------------------------------------------------- | ------------------ |
 | Stick gauche                                                                       | Direction          |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | Frein arrière      |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | Changer la musique |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | Changer la vue     |
+| ![A](<../../../../.gitbook/assets/image (20).png>)                                 | Frein arrière      |
+| ![B](<../../../../.gitbook/assets/image (7).png>)                                  | Changer la musique |
+| <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | Changer la vue     |
 | L1                                                                                 | Rétrograder        |
 | R1                                                                                 | Vitesse supérieure |
 | L2                                                                                 | Frein avant        |
@@ -117,17 +117,17 @@ Si le joueur 1 utilise une manette non-xinput, la manette du joueur 2 doit égal
 | Retrobat                                                                           | Contrôle      |
 | ---------------------------------------------------------------------------------- | ------------- |
 | Stick gauche, D-PAD                                                                | Bouger        |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | Guarde        |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | Coup de pied  |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | Coup de poing |
+| ![A](<../../../../.gitbook/assets/image (20).png>)                                 | Guarde        |
+| <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | Coup de pied  |
+| <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     | Coup de poing |
 
 ### Get Bass: Sega Bass Fishing
 
 | Retrobat                                                                       | Contrôle             |
 | ------------------------------------------------------------------------------ | -------------------- |
 | Stick gauche                                                                   | Canne à pêche        |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                             | menu leurres / start |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line"> | Jeter                |
+| ![A](<../../../../.gitbook/assets/image (20).png>)                             | menu leurres / start |
+| <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line"> | Jeter                |
 | Stick droit                                                                    | Menu navigation      |
 | R2                                                                             | Vitesse de la bobine |
 
@@ -158,16 +158,16 @@ Si le joueur 1 utilise une manette non-xinput, la manette du joueur 2 doit égal
 | Retrobat                                           | Contrôle                    |
 | -------------------------------------------------- | --------------------------- |
 | Stick gauche                                       | Levier haut / bas           |
-| ![A](<../../../../.gitbook/assets/image (19).png>) | Pédaler / Sauter / Esquiver |
+| ![A](<../../../../.gitbook/assets/image (20).png>) | Pédaler / Sauter / Esquiver |
 
 ### Ski Champ
 
 | Retrobat                                                                       | Contrôle       |
 | ------------------------------------------------------------------------------ | -------------- |
 | Stick gauche                                                                   | Tourner        |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                             | Rouge          |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                              | Vert           |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line"> | Bleu           |
+| ![A](<../../../../.gitbook/assets/image (20).png>)                             | Rouge          |
+| ![B](<../../../../.gitbook/assets/image (7).png>)                              | Vert           |
+| <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line"> | Bleu           |
 | Stick droit                                                                    | Tourner + fort |
 | L2                                                                             | Bâton gauche   |
 | R2                                                                             | Bâton droit    |
@@ -177,10 +177,10 @@ Si le joueur 1 utilise une manette non-xinput, la manette du joueur 2 doit égal
 | Retrobat                                                                           | Contrôle   |
 | ---------------------------------------------------------------------------------- | ---------- |
 | Stick gauche                                                                       | Bouger     |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | Taper      |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | Mitrailler |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | Sauter     |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | Charger    |
+| ![A](<../../../../.gitbook/assets/image (20).png>)                                 | Taper      |
+| ![B](<../../../../.gitbook/assets/image (7).png>)                                  | Mitrailler |
+| <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | Sauter     |
+| <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     | Charger    |
 | R1                                                                                 | Mitrailler |
 
 ### Sega Rally 2
@@ -188,8 +188,8 @@ Si le joueur 1 utilise une manette non-xinput, la manette du joueur 2 doit égal
 | Retrobat                                                                           | Contrôle                                                                     |
 | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | Stick gauche                                                                       | Direction                                                                    |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | Frein à main                                                                 |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | Changer la vue                                                               |
+| ![A](<../../../../.gitbook/assets/image (20).png>)                                 | Frein à main                                                                 |
+| <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | Changer la vue                                                               |
 | Stick droit                                                                        | <p>Levier de vitesse:<br>HAUT = 1<br>BAS = 2<br>GAUCHE = 3<br>DROITE = 4</p> |
 | L1                                                                                 | Retrograder                                                                  |
 | R1                                                                                 | Vitesse supérieure                                                           |
@@ -214,20 +214,20 @@ Si le joueur 1 utilise une manette non-xinput, la manette du joueur 2 doit égal
 | Retrobat                                                                           | Contrôle      |
 | ---------------------------------------------------------------------------------- | ------------- |
 | Stick gauche, D-PAD                                                                | Bouger        |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | Guarde        |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | S'échapper    |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | Coup de pied  |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | Coup de poing |
+| ![A](<../../../../.gitbook/assets/image (20).png>)                                 | Guarde        |
+| ![B](<../../../../.gitbook/assets/image (7).png>)                                  | S'échapper    |
+| <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | Coup de pied  |
+| <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     | Coup de poing |
 
 ### Virtual On 2
 
 | Retrobat                                                                           | Contrôle       |
 | ---------------------------------------------------------------------------------- | -------------- |
 | Stick gauche                                                                       | Bouger         |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | S'accroupir    |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | Turbo droite   |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | Sauter         |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | Turbo gauche   |
+| ![A](<../../../../.gitbook/assets/image (20).png>)                                 | S'accroupir    |
+| ![B](<../../../../.gitbook/assets/image (7).png>)                                  | Turbo droite   |
+| <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | Sauter         |
+| <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     | Turbo gauche   |
 | Stick droit                                                                        | Tourner        |
 | L1                                                                                 | Turbo gauche   |
 | R1                                                                                 | Turbo droite   |
@@ -239,9 +239,9 @@ Si le joueur 1 utilise une manette non-xinput, la manette du joueur 2 doit égal
 | Retrobat                                                                       | Contrôle     |
 | ------------------------------------------------------------------------------ | ------------ |
 | Stick gauche                                                                   | Bouger       |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                             | Passe longue |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                              | Tirer        |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line"> | Passe courte |
+| ![A](<../../../../.gitbook/assets/image (20).png>)                             | Passe longue |
+| ![B](<../../../../.gitbook/assets/image (7).png>)                              | Tirer        |
+| <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line"> | Passe courte |
 
 ## Informations spécifiques au système
 

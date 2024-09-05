@@ -37,10 +37,10 @@ Utiliser la fonctionnalité [Pad2Key](../../../../controleurs/pad2key.md).
 | D-PAD                                             | D-PAD     |
 | Stick analogique gauche                           | D-PAD     |
 | Stick analogique droit                            |           |
-| ![](<../../../../.gitbook/assets/image (32).png>) | JOY\_TRG3 |
-| ![](<../../../../.gitbook/assets/image (19).png>) | JOY\_TRG2 |
-| ![](<../../../../.gitbook/assets/image (6).png>)  | JOY\_TRG1 |
-| ![](<../../../../.gitbook/assets/image (34).png>) | JOY\_TRG4 |
+| ![](<../../../../.gitbook/assets/image (33).png>) | JOY\_TRG3 |
+| ![](<../../../../.gitbook/assets/image (20).png>) | JOY\_TRG2 |
+| ![](<../../../../.gitbook/assets/image (7).png>)  | JOY\_TRG1 |
+| ![](<../../../../.gitbook/assets/image (35).png>) | JOY\_TRG4 |
 | L1                                                | JOY\_TRG5 |
 | R1                                                | JOY\_TRG8 |
 | L2                                                | Menu      |

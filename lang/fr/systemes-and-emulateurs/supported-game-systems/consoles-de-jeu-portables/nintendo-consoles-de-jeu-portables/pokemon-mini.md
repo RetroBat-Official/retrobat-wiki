@@ -28,7 +28,7 @@ Console de jeu portable - Année de sortie : 2001
 
 ## Contrôles
 
-<table><thead><tr><th width="311">Retrobat</th><th>Pokemini</th></tr></thead><tbody><tr><td>START</td><td>START</td></tr><tr><td>SELECT</td><td>SELECT</td></tr><tr><td>D-PAD</td><td>D-PAD</td></tr><tr><td>Stick analogique gauche</td><td>D-PAD</td></tr><tr><td>Stick analogique droit</td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (32).png" alt=""></td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (19).png" alt=""></td><td>B</td></tr><tr><td><img src="../../../../.gitbook/assets/image (6).png" alt=""></td><td>A</td></tr><tr><td><img src="../../../../.gitbook/assets/image (34).png" alt=""></td><td></td></tr><tr><td>L1</td><td></td></tr><tr><td>R1</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="311">Retrobat</th><th>Pokemini</th></tr></thead><tbody><tr><td>START</td><td>START</td></tr><tr><td>SELECT</td><td>SELECT</td></tr><tr><td>D-PAD</td><td>D-PAD</td></tr><tr><td>Stick analogique gauche</td><td>D-PAD</td></tr><tr><td>Stick analogique droit</td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (33).png" alt=""></td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (20).png" alt=""></td><td>B</td></tr><tr><td><img src="../../../../.gitbook/assets/image (7).png" alt=""></td><td>A</td></tr><tr><td><img src="../../../../.gitbook/assets/image (35).png" alt=""></td><td></td></tr><tr><td>L1</td><td></td></tr><tr><td>R1</td><td></td></tr></tbody></table>
 
 ## Information spécifique au système
 

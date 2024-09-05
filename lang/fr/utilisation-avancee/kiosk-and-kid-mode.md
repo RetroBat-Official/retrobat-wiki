@@ -25,7 +25,7 @@ Les restrictions sont identiques à celles du mode Kiosque, de plus seuls les je
 ### Retour au mode Complet
 
 Il est possible de retourner au mode complet en utilisant la combinaison suivante au pad :\
-A A A B A ![](<../.gitbook/assets/image (6).png>) ![](<../.gitbook/assets/image (6).png>) ![](<../.gitbook/assets/image (6).png>) ![](<../.gitbook/assets/image (19).png>) ![](<../.gitbook/assets/image (6).png>)
+A A A B A ![](<../.gitbook/assets/image (7).png>) ![](<../.gitbook/assets/image (7).png>) ![](<../.gitbook/assets/image (7).png>) ![](<../.gitbook/assets/image (20).png>) ![](<../.gitbook/assets/image (7).png>)
 
 Il est également possible d'éditer le fichier `retrobat.ini` situé dans votre dossier retrobat en mettant la valeur "**InterfaceMode**" à 0:
 

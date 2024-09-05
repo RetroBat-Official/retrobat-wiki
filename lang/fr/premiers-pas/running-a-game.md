@@ -2,7 +2,7 @@
 
 ### Sélectionner un jeu et démarrer une partie
 
-Depuis la Vue Jeux, sélectionner le jeu à démarrer et presser ![](<../.gitbook/assets/image (19).png>).
+Depuis la Vue Jeux, sélectionner le jeu à démarrer et presser ![](<../.gitbook/assets/image (20).png>).
 
 <div align="left">
 
@@ -66,7 +66,7 @@ Choisir l'émulateur à utiliser parmi la liste des émulateurs disponibles.
 
 #### Modifier l'émulateur pour un jeu
 
-Depuis la Vue Jeux, sélectionner un jeu et rester appuyé sur ![](<../.gitbook/assets/image (19).png>), puis choisir **CONFIGURATION AVANCEE DU JEU**
+Depuis la Vue Jeux, sélectionner un jeu et rester appuyé sur ![](<../.gitbook/assets/image (20).png>), puis choisir **CONFIGURATION AVANCEE DU JEU**
 
 <div align="left">
 

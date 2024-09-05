@@ -35,10 +35,10 @@ Aucun BIOS nécessaire.
 | D-PAD                                                                              | D-PAD                               |
 | Stick analogique gauche                                                            |                                     |
 | Stick analogique droit                                                             |                                     |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | B                                   |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | A                                   |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> |                                     |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     |                                     |
+| ![A](<../../../../.gitbook/assets/image (20).png>)                                 | B                                   |
+| ![B](<../../../../.gitbook/assets/image (7).png>)                                  | A                                   |
+| <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> |                                     |
+| <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     |                                     |
 | L1                                                                                 | Deuxième D-PAD gauche               |
 | R1                                                                                 | Deuxième D-PAD droite               |
 | L2                                                                                 | Deuxième D-PAD bas                  |

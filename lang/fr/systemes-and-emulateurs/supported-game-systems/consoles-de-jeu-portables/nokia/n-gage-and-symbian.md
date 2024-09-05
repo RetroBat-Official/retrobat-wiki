@@ -39,10 +39,10 @@ La ROM doit être installée dans l'émulateur avant de pouvoir lancer un jeu de
 | D-PAD                                                                              | D-PAD                                                  |
 | Stick analogique gauche                                                            |                                                        |
 | Stick analogique droit                                                             | <p>Haut : 0<br>Gauche : 7<br>Bas : 8<br>Droite : 9</p> |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | 4                                                      |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | 5                                                      |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | 2                                                      |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | 1                                                      |
+| ![A](<../../../../.gitbook/assets/image (20).png>)                                 | 4                                                      |
+| ![B](<../../../../.gitbook/assets/image (7).png>)                                  | 5                                                      |
+| <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | 2                                                      |
+| <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     | 1                                                      |
 | L1                                                                                 | 3                                                      |
 | R1                                                                                 | 6                                                      |
 | L2                                                                                 | Etoile (\*)                                            |

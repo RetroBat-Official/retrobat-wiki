@@ -37,10 +37,10 @@ Le clavier est mappé avec le clavier, voici la correspondance pour les manettes
 | D-PAD                                          | D-PAD    |
 | Stick analogique gauche                        |          |
 | Stick analogique droit                         |          |
-| ![](<../../../.gitbook/assets/image (32).png>) |          |
-| ![](<../../../.gitbook/assets/image (19).png>) | Button   |
-| ![](<../../../.gitbook/assets/image (6).png>)  |          |
-| ![](<../../../.gitbook/assets/image (34).png>) |          |
+| ![](<../../../.gitbook/assets/image (33).png>) |          |
+| ![](<../../../.gitbook/assets/image (20).png>) | Button   |
+| ![](<../../../.gitbook/assets/image (7).png>)  |          |
+| ![](<../../../.gitbook/assets/image (35).png>) |          |
 | L1                                             |          |
 | R1                                             |          |
 

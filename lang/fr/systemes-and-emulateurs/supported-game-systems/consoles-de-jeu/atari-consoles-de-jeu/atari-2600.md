@@ -35,10 +35,10 @@ Aucun BIOS nécessaire.
 | D-PAD                                             | Joystick (mouvements)                      |
 | Stick analogique gauche                           |                                            |
 | Stick analogique droit                            |                                            |
-| ![](<../../../../.gitbook/assets/image (32).png>) |                                            |
-| ![](<../../../../.gitbook/assets/image (19).png>) | Bouton du joystick                         |
-| ![](<../../../../.gitbook/assets/image (6).png>)  |                                            |
-| ![](<../../../../.gitbook/assets/image (34).png>) |                                            |
+| ![](<../../../../.gitbook/assets/image (33).png>) |                                            |
+| ![](<../../../../.gitbook/assets/image (20).png>) | Bouton du joystick                         |
+| ![](<../../../../.gitbook/assets/image (7).png>)  |                                            |
+| ![](<../../../../.gitbook/assets/image (35).png>) |                                            |
 | L1                                                | Left difficulty b (bouton sur la console)  |
 | R1                                                | Right difficulty b (bouton sur la console) |
 | L2                                                | Left difficulty a (bouton sur la console)  |

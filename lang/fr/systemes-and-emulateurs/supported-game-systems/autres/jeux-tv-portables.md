@@ -29,10 +29,10 @@ Les contrôles sont spécifiques à chaque jeu, une correspondance standard univ
 | D-PAD                                          | Stick            |
 | Left analog stick                              | Stick            |
 | Reft analog stick                              |                  |
-| ![](<../../../.gitbook/assets/image (32).png>) | 3                |
-| ![](<../../../.gitbook/assets/image (19).png>) | 1                |
-| ![](<../../../.gitbook/assets/image (6).png>)  | 2                |
-| ![](<../../../.gitbook/assets/image (34).png>) | 4                |
+| ![](<../../../.gitbook/assets/image (33).png>) | 3                |
+| ![](<../../../.gitbook/assets/image (20).png>) | 1                |
+| ![](<../../../.gitbook/assets/image (7).png>)  | 2                |
+| ![](<../../../.gitbook/assets/image (35).png>) | 4                |
 | L1                                             | 5                |
 | R1                                             | 6                |
 | L2                                             |                  |

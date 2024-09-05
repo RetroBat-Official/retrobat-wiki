@@ -102,7 +102,7 @@ Pour ajouter des jeux en favoris, depuis le menu [Options du Jeu](game-options.m
 </div>
 
 {% hint style="info" %}
-Il est également possible d'ajouter un jeu aux favoris en maintenant le bouton ![](<../.gitbook/assets/image (34).png>) appuyé lorsqu'un jeu est sélectionné.
+Il est également possible d'ajouter un jeu aux favoris en maintenant le bouton ![](<../.gitbook/assets/image (35).png>) appuyé lorsqu'un jeu est sélectionné.
 {% endhint %}
 
 Il est en outre possible d'afficher les jeux favoris en haut de la liste de jeux dans la [Vue Jeux](system-view-and-game-view.md#vue-jeux).
@@ -161,7 +161,7 @@ Le dossier **COLLECTIONS** contient la liste de toutes les collections éditable
 
 </div>
 
-La prochaine étape consiste à ajouter un jeu à votre collection, pour cela, sélectionner un jeu que vous souhaitez ajouter à votre collection et effectuez un appui long sur la touche ![](<../.gitbook/assets/image (19).png>) afin d'afficher les [options du jeu](game-options.md), puis dans la section **COLLECTIONS** choisissez la collection à laquelle le jeu doit être ajouté.
+La prochaine étape consiste à ajouter un jeu à votre collection, pour cela, sélectionner un jeu que vous souhaitez ajouter à votre collection et effectuez un appui long sur la touche ![](<../.gitbook/assets/image (20).png>) afin d'afficher les [options du jeu](game-options.md), puis dans la section **COLLECTIONS** choisissez la collection à laquelle le jeu doit être ajouté.
 
 <div align="left">
 

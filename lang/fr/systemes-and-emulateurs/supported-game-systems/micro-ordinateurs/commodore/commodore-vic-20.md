@@ -37,10 +37,10 @@ Utiliser la fonctionnalité [Pad2Key](../../../../controleurs/pad2key.md).
 | D-PAD                                             | Joystick                              |
 | Stick analogique gauche                           | Souris                                |
 | Stick analogique droit                            |                                       |
-| ![](<../../../../.gitbook/assets/image (32).png>) |                                       |
-| ![](<../../../../.gitbook/assets/image (19).png>) | Fire                                  |
-| ![](<../../../../.gitbook/assets/image (6).png>)  |                                       |
-| ![](<../../../../.gitbook/assets/image (34).png>) | ESPACE                                |
+| ![](<../../../../.gitbook/assets/image (33).png>) |                                       |
+| ![](<../../../../.gitbook/assets/image (20).png>) | Fire                                  |
+| ![](<../../../../.gitbook/assets/image (7).png>)  |                                       |
+| ![](<../../../../.gitbook/assets/image (35).png>) | ESPACE                                |
 | L1                                                |                                       |
 | R1                                                |                                       |
 | L2                                                | ECHAP (RUN/STOP)                      |

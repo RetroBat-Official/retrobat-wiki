@@ -35,10 +35,10 @@ Console de jeu portable - Durée de vie: 1998 - 1999
 | Stick analogique gauche                           | D-PAD          |
 | Stick analogique droit                            |                |
 | D-PAD                                             | D-PAD          |
-| ![](<../../../../.gitbook/assets/image (32).png>) |                |
-| ![](<../../../../.gitbook/assets/image (19).png>) | B              |
-| ![](<../../../../.gitbook/assets/image (6).png>)  | A              |
-| ![](<../../../../.gitbook/assets/image (34).png>) |                |
+| ![](<../../../../.gitbook/assets/image (33).png>) |                |
+| ![](<../../../../.gitbook/assets/image (20).png>) | B              |
+| ![](<../../../../.gitbook/assets/image (7).png>)  | A              |
+| ![](<../../../../.gitbook/assets/image (35).png>) |                |
 | L1                                                |                |
 | R1                                                |                |
 | L2                                                |                |

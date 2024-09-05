@@ -75,7 +75,7 @@ Choisir **LE BEZEL PROJECT**, puis sur l'écran suivant sélectionner le systèm
 
 </div>
 
-Appuyer sur ![A](<../.gitbook/assets/image (19).png>) puis confirmer l'installation à nouveau avec ![A](<../.gitbook/assets/image (19).png>).
+Appuyer sur ![A](<../.gitbook/assets/image (20).png>) puis confirmer l'installation à nouveau avec ![A](<../.gitbook/assets/image (20).png>).
 
 Le téléchargement démarre.
 

@@ -39,9 +39,9 @@ Il est possible de paramétrer les contrôles directement dans l'émulateur dolp
 | D-PAD                                                                          | D-PAD                        |
 | Stick analogique gauche                                                        | Stick analogique gauche      |
 | Stick analogique droit                                                         | Stick analogique  - C-Stick  |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                             | A                            |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                              | B                            |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line"> | Y                            |
+| ![A](<../../../../.gitbook/assets/image (20).png>)                             | A                            |
+| ![B](<../../../../.gitbook/assets/image (7).png>)                              | B                            |
+| <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line"> | Y                            |
 | LT (L2)                                                                        | L                            |
 | RT (R2)                                                                        | R                            |
 | R3 (Thumbstick press)                                                          | Z (test menu)                |

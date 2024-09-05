@@ -10,7 +10,7 @@ Il existe plusieurs modèles de pistolets sur le marché, seuls quelques-uns ont
 
 ## Détection du pistolet
 
-Lorsqu'un pistolet est connecté, une icône représentant un pistolet apparaît dans le coin supérieur gauche de l'écran, à l'emplacement des icônes des manettes : ![](<../../../.gitbook/assets/image (3).png>)
+Lorsqu'un pistolet est connecté, une icône représentant un pistolet apparaît dans le coin supérieur gauche de l'écran, à l'emplacement des icônes des manettes : ![](<../../../.gitbook/assets/image (4).png>)
 
 Une cible est également visible à l'écran, et une nouvelle collection "JEUX DE TIR" est disponible dans la **Vue Système**
 
@@ -85,7 +85,7 @@ L'option peut être nommée différemment en fonction des systèmes.
 
 ### WiiMote & Mayflash DolphinBar
 
-![](<../../../.gitbook/assets/image (29).png>)![](<../../../.gitbook/assets/image (17).png>)
+![](<../../../.gitbook/assets/image (30).png>)![](<../../../.gitbook/assets/image (18).png>)
 
 Il est possible de profiter de ses jeux de tirs avec une Wiimote associée à une Mayflash Dolphinbar.
 

@@ -32,8 +32,8 @@ Aucun BIOS nécessaire.
 | ----------------------------------------------- | ------------------------------------ |
 | SELECT / BACK                                   | PAUSE (bouton sur la console de jeu) |
 | D-PAD, stick analogique gauche                  | D-PAD                                |
-| ![A](<../../../.gitbook/assets/image (19).png>) | B                                    |
-| ![B](<../../../.gitbook/assets/image (6).png>)  | A                                    |
+| ![A](<../../../.gitbook/assets/image (20).png>) | B                                    |
+| ![B](<../../../.gitbook/assets/image (7).png>)  | A                                    |
 
 <div align="left">
 

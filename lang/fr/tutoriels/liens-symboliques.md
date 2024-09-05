@@ -61,7 +61,7 @@ Dans l'exemple ci-dessous, nous assumons que les jeux 3do sont stockés dans le 
 2. Supprimez le dossier `C:\Retrobat\roms\3do`
 3. Effectuez un clic droit sur le dossier `D:\Retrobat\3do` et sélectionnez "**Prendre comme cible du lien**"
 4. Allez dans le dossier `C:\Retrobat\roms` , effectuez un clic droit à l'intérieur du dossier et sélectionnez "**Coller... > un lien symbolique**"
-5. Le dossier `C:\Retrobat\roms` contient désormais un dossier 3do contenant une petite icône de raccourci: ![](<../.gitbook/assets/image (31).png>)&#x20;
+5. Le dossier `C:\Retrobat\roms` contient désormais un dossier 3do contenant une petite icône de raccourci: ![](<../.gitbook/assets/image (32).png>)&#x20;
 
 **FÉLICITATIONS**: vous venez de créer votre premier lien symbolique !
 
@@ -74,7 +74,7 @@ Reprenons l'exemple ci-dessus.
 1. Assurez-vous que tous les jeux et fichiers annexes (gamelist, images, vidéos...) ont bien été copiés dans `D:\Retrobat\3do` et que le dossier `C:\Retrobat\roms\3do` ne contient plus aucun fichier que vous souhaitez conserver
 2. Supprimez le dossier `C:\Retrobat\roms\3do`
 3. Ouvrir l'invitation de commande Windows et taper: `mklink /D "C:\Retrobat\roms\3do" "D:\Retrobat\3do`
-4. Le dossier `C:\Retrobat\roms` contient désormais un dossier 3do contenant une petite icône de raccourci: ![](<../.gitbook/assets/image (31).png>)&#x20;
+4. Le dossier `C:\Retrobat\roms` contient désormais un dossier 3do contenant une petite icône de raccourci: ![](<../.gitbook/assets/image (32).png>)&#x20;
 
 <div align="left">
 

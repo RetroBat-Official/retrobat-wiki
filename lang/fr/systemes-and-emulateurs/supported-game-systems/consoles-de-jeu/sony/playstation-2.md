@@ -134,7 +134,7 @@ PCSX2 ne supporte pas l'utilisation de fichiers m3u pour les jeux multi-disques.
 
 Pour changer de disques dans PCSX2, il est nécessaire de procéder comme suit dans l'interface de PCSX2:
 
-Lorsque le jeu demande de changer de disque, accéder au menu PCSX2 avec la combinaison SELECT + ![A](<../../../../.gitbook/assets/image (19).png>) de votre manette, et sélectionner "**Change Disc**"
+Lorsque le jeu demande de changer de disque, accéder au menu PCSX2 avec la combinaison SELECT + ![A](<../../../../.gitbook/assets/image (20).png>) de votre manette, et sélectionner "**Change Disc**"
 
 <div align="left">
 
@@ -142,7 +142,7 @@ Lorsque le jeu demande de changer de disque, accéder au menu PCSX2 avec la comb
 
 </div>
 
-Dans l'écran suivant, sélectionner le disque suivant et confirmer avec ![A](<../../../../.gitbook/assets/image (19).png>)
+Dans l'écran suivant, sélectionner le disque suivant et confirmer avec ![A](<../../../../.gitbook/assets/image (20).png>)
 
 <div align="left">
 

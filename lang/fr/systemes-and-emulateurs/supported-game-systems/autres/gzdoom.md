@@ -50,6 +50,6 @@ Pour cela, indiquer sur quel jeu principal (iwad) le mod est basé, puis le mod 
 \
 Un exemple, avec le mod "10 sectors" :\
 \
-![](<../../../.gitbook/assets/image (37).png>)\
+![](<../../../.gitbook/assets/image (38).png>)\
 \
 Il ne reste plus qu'à démarrer le jeu en sélectionnant le jeu `"10sector.gzdoom"` depuis RetroBat.

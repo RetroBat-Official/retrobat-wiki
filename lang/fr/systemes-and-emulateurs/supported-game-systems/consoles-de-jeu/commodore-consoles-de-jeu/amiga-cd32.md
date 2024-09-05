@@ -38,10 +38,10 @@ Console de jeu - Durée de vie : 1993 - 1994
 | D-PAD                                             | D-PAD        |
 | Stick analogique gauche                           | D-PAD        |
 | Stick analogique droit                            |              |
-| ![](<../../../../.gitbook/assets/image (32).png>) | Vert         |
-| ![](<../../../../.gitbook/assets/image (19).png>) | Rouge        |
-| ![](<../../../../.gitbook/assets/image (6).png>)  | Bleu         |
-| ![](<../../../../.gitbook/assets/image (34).png>) | Jaune        |
+| ![](<../../../../.gitbook/assets/image (33).png>) | Vert         |
+| ![](<../../../../.gitbook/assets/image (20).png>) | Rouge        |
+| ![](<../../../../.gitbook/assets/image (7).png>)  | Bleu         |
+| ![](<../../../../.gitbook/assets/image (35).png>) | Jaune        |
 | L1                                                | Reverse      |
 | R1                                                | Forward      |
 | L2                                                |              |

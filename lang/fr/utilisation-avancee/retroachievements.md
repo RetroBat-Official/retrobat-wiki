@@ -60,7 +60,7 @@ Il est possible de relancer l'indexation des jeux ou de paramétrer l'indexation
 
 ## Information des succès rétro du jeu
 
-Les jeux compatibles avec les Succès Rétro sont identifiés par une icône Trophée ![](<../.gitbook/assets/image (11).png>) dans la liste des jeux
+Les jeux compatibles avec les Succès Rétro sont identifiés par une icône Trophée ![](<../.gitbook/assets/image (12).png>) dans la liste des jeux
 
 <div align="left">
 
@@ -68,7 +68,7 @@ Les jeux compatibles avec les Succès Rétro sont identifiés par une icône Tro
 
 </div>
 
-Il est possible d'afficher la liste des Trophées disponibles pour un jeu à partir des [**Options du Jeu**](../navigation/game-options.md) (maintenir ![A](<../.gitbook/assets/image (19).png>) après avoir sélectionné le jeu), en choisissant **VOIR LES SUCCÈS DU JEU**
+Il est possible d'afficher la liste des Trophées disponibles pour un jeu à partir des [**Options du Jeu**](../navigation/game-options.md) (maintenir ![A](<../.gitbook/assets/image (20).png>) après avoir sélectionné le jeu), en choisissant **VOIR LES SUCCÈS DU JEU**
 
 <div align="left">
 

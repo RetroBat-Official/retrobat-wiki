@@ -20,7 +20,7 @@ Aucun BIOS nécessaire.
 
 ## Contrôles
 
-<table><thead><tr><th width="246">Retrobat</th><th>Super Mario War</th></tr></thead><tbody><tr><td>START</td><td>Pause</td></tr><tr><td>SELECT</td><td>Sortie</td></tr><tr><td>D-PAD</td><td>Directions</td></tr><tr><td><img src="../../../.gitbook/assets/image (32).png" alt=""></td><td>Power Up</td></tr><tr><td><img src="../../../.gitbook/assets/image (19).png" alt=""></td><td>Turbo</td></tr><tr><td><img src="../../../.gitbook/assets/image (6).png" alt=""></td><td>Saut</td></tr><tr><td><img src="../../../.gitbook/assets/image (34).png" alt=""></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="246">Retrobat</th><th>Super Mario War</th></tr></thead><tbody><tr><td>START</td><td>Pause</td></tr><tr><td>SELECT</td><td>Sortie</td></tr><tr><td>D-PAD</td><td>Directions</td></tr><tr><td><img src="../../../.gitbook/assets/image (33).png" alt=""></td><td>Power Up</td></tr><tr><td><img src="../../../.gitbook/assets/image (20).png" alt=""></td><td>Turbo</td></tr><tr><td><img src="../../../.gitbook/assets/image (7).png" alt=""></td><td>Saut</td></tr><tr><td><img src="../../../.gitbook/assets/image (35).png" alt=""></td><td></td></tr></tbody></table>
 
 ## Information spécifique au système
 

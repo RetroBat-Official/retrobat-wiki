@@ -37,10 +37,10 @@ Aucun BIOS nécessaire
 | D-PAD                                          | D-PAD  |
 | Left analog stick                              | D-PAD  |
 | Reft analog stick                              |        |
-| ![](<../../../.gitbook/assets/image (32).png>) | O      |
-| ![](<../../../.gitbook/assets/image (19).png>) | X      |
-| ![](<../../../.gitbook/assets/image (6).png>)  | O      |
-| ![](<../../../.gitbook/assets/image (34).png>) | X      |
+| ![](<../../../.gitbook/assets/image (33).png>) | O      |
+| ![](<../../../.gitbook/assets/image (20).png>) | X      |
+| ![](<../../../.gitbook/assets/image (7).png>)  | O      |
+| ![](<../../../.gitbook/assets/image (35).png>) | X      |
 | L1                                             |        |
 | R1                                             |        |
 

@@ -44,10 +44,10 @@ Les jeux CreatiVision sont fournis avec une carte qui se glisse sur le contrôle
 | D-PAD                                             | Stick    |
 | Left analog stick                                 | Stick    |
 | Right analog stick                                |          |
-| ![](<../../../../.gitbook/assets/image (32).png>) | 2        |
-| ![](<../../../../.gitbook/assets/image (19).png>) | 0        |
-| ![](<../../../../.gitbook/assets/image (6).png>)  | 6        |
-| ![](<../../../../.gitbook/assets/image (34).png>) | 1        |
+| ![](<../../../../.gitbook/assets/image (33).png>) | 2        |
+| ![](<../../../../.gitbook/assets/image (20).png>) | 0        |
+| ![](<../../../../.gitbook/assets/image (7).png>)  | 6        |
+| ![](<../../../../.gitbook/assets/image (35).png>) | 1        |
 | L1                                                |          |
 | R1                                                | 3        |
 | L2                                                |          |

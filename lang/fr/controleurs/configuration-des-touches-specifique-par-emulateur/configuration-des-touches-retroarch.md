@@ -7,7 +7,7 @@ Voici comment procéder.\
 
 Ouvrir RetroBat et démarrer un jeu pour lequel il est nécessaire de créer un paramétrage spécifique des touches.\
 \
-Une fois dans le jeu, appuyer sur les touches SELECT + ![](<../../.gitbook/assets/image (19).png>) simultanément pour ouvrir le menu  RetroArch, et choisir **Menu rapide**&#x20;
+Une fois dans le jeu, appuyer sur les touches SELECT + ![](<../../.gitbook/assets/image (20).png>) simultanément pour ouvrir le menu  RetroArch, et choisir **Menu rapide**&#x20;
 
 <div align="left">
 

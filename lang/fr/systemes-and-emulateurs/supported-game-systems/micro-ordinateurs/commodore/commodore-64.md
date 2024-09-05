@@ -37,10 +37,10 @@ Utiliser la fonctionnalité [Pad2Key](../../../../controleurs/pad2key.md).
 | D-PAD                                             | Joystick                                                                                                              |
 | Stick analogique gauche                           | Joystick                                                                                                              |
 | Stick analogique droit                            | <p>Touches Fonctions (clavier) </p><p>Haut: F1 </p><p>Gauche: F3 </p><p>Droite: F5 </p><p>Bas: F7</p>                 |
-| ![](<../../../../.gitbook/assets/image (32).png>) | ESPACE (clavier)                                                                                                      |
-| ![](<../../../../.gitbook/assets/image (19).png>) | Joystick Fire                                                                                                         |
-| ![](<../../../../.gitbook/assets/image (6).png>)  | Bouton 2                                                                                                              |
-| ![](<../../../../.gitbook/assets/image (34).png>) | Activer le turbo FIRE                                                                                                 |
+| ![](<../../../../.gitbook/assets/image (33).png>) | ESPACE (clavier)                                                                                                      |
+| ![](<../../../../.gitbook/assets/image (20).png>) | Joystick Fire                                                                                                         |
+| ![](<../../../../.gitbook/assets/image (7).png>)  | Bouton 2                                                                                                              |
+| ![](<../../../../.gitbook/assets/image (35).png>) | Activer le turbo FIRE                                                                                                 |
 | L1                                                | Run/Stop (clavier)                                                                                                    |
 | R1                                                | Restore (clavier)                                                                                                     |
 | L2                                                | Warp Speed                                                                                                            |

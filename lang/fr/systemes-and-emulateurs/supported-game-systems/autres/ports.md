@@ -48,7 +48,7 @@ Un clone de Minecraft écrit en C et utilisant des filtres OpenGL modernes.
 
 #### Contrôles
 
-<table><thead><tr><th width="227">Retrobat</th><th>craft</th></tr></thead><tbody><tr><td>SELECT</td><td>Zoom arrière</td></tr><tr><td>D-PAD - UP</td><td>Avancer</td></tr><tr><td>D-PAD - DOWN</td><td>Reculer</td></tr><tr><td>D-PAD - LEFT</td><td>Bouger la cible vers la gauche</td></tr><tr><td>D-PAD - RIGHT</td><td>Bouger la cible vers la droite</td></tr><tr><td>Left analog stick</td><td>Se déplacer</td></tr><tr><td>Right analog stick</td><td>Bouger la cible</td></tr><tr><td><img src="../../../.gitbook/assets/image (32).png" alt=""></td><td>Détruire le bloc</td></tr><tr><td><img src="../../../.gitbook/assets/image (34).png" alt=""></td><td>Placer le bloc</td></tr><tr><td><img src="../../../.gitbook/assets/image (6).png" alt=""></td><td>Bloc suivant</td></tr><tr><td><img src="../../../.gitbook/assets/image (19).png" alt=""></td><td>Sauter</td></tr><tr><td>L1</td><td>Bouger à gauche</td></tr><tr><td>R1</td><td>Bouger à droite</td></tr><tr><td>L2</td><td>Bouger la cible vers le haut</td></tr><tr><td>R2</td><td>Bouger la cible vers le bas</td></tr></tbody></table>
+<table><thead><tr><th width="227">Retrobat</th><th>craft</th></tr></thead><tbody><tr><td>SELECT</td><td>Zoom arrière</td></tr><tr><td>D-PAD - UP</td><td>Avancer</td></tr><tr><td>D-PAD - DOWN</td><td>Reculer</td></tr><tr><td>D-PAD - LEFT</td><td>Bouger la cible vers la gauche</td></tr><tr><td>D-PAD - RIGHT</td><td>Bouger la cible vers la droite</td></tr><tr><td>Left analog stick</td><td>Se déplacer</td></tr><tr><td>Right analog stick</td><td>Bouger la cible</td></tr><tr><td><img src="../../../.gitbook/assets/image (33).png" alt=""></td><td>Détruire le bloc</td></tr><tr><td><img src="../../../.gitbook/assets/image (35).png" alt=""></td><td>Placer le bloc</td></tr><tr><td><img src="../../../.gitbook/assets/image (7).png" alt=""></td><td>Bloc suivant</td></tr><tr><td><img src="../../../.gitbook/assets/image (20).png" alt=""></td><td>Sauter</td></tr><tr><td>L1</td><td>Bouger à gauche</td></tr><tr><td>R1</td><td>Bouger à droite</td></tr><tr><td>L2</td><td>Bouger la cible vers le haut</td></tr><tr><td>R2</td><td>Bouger la cible vers le bas</td></tr></tbody></table>
 
 ### Gong
 
@@ -64,7 +64,7 @@ Mr.Boom est un clone de Bomberman permettant de jouer jusqu'à 8 joueurs.
 
 #### Contrôles
 
-<table><thead><tr><th width="227">Retrobat</th><th>mrboom</th></tr></thead><tbody><tr><td>SELECT</td><td>Ajouter un bot</td></tr><tr><td>START</td><td>Démarrer le jeu</td></tr><tr><td>D-PAD</td><td>Se déplacer</td></tr><tr><td><img src="../../../.gitbook/assets/image (34).png" alt=""></td><td>Sauter (lorsque sur un kangourou) / rejoindre une partie</td></tr><tr><td><img src="../../../.gitbook/assets/image (6).png" alt=""></td><td>Détonateur / rejoindre une partie</td></tr><tr><td><img src="../../../.gitbook/assets/image (19).png" alt=""></td><td>Poser une bombe / rejoindre une partie</td></tr></tbody></table>
+<table><thead><tr><th width="227">Retrobat</th><th>mrboom</th></tr></thead><tbody><tr><td>SELECT</td><td>Ajouter un bot</td></tr><tr><td>START</td><td>Démarrer le jeu</td></tr><tr><td>D-PAD</td><td>Se déplacer</td></tr><tr><td><img src="../../../.gitbook/assets/image (35).png" alt=""></td><td>Sauter (lorsque sur un kangourou) / rejoindre une partie</td></tr><tr><td><img src="../../../.gitbook/assets/image (7).png" alt=""></td><td>Détonateur / rejoindre une partie</td></tr><tr><td><img src="../../../.gitbook/assets/image (20).png" alt=""></td><td>Poser une bombe / rejoindre une partie</td></tr></tbody></table>
 
 ### xRick
 
@@ -78,4 +78,4 @@ xRick est une version open-source du jeu Rick Dangerous.
 
 #### Contrôles
 
-<table><thead><tr><th width="227">Retrobat</th><th>xRick</th></tr></thead><tbody><tr><td>D-PAD</td><td>Gauche / Droite / Sauter / Se baisser</td></tr><tr><td><img src="../../../.gitbook/assets/image (6).png" alt=""></td><td>Attaquer</td></tr></tbody></table>
+<table><thead><tr><th width="227">Retrobat</th><th>xRick</th></tr></thead><tbody><tr><td>D-PAD</td><td>Gauche / Droite / Sauter / Se baisser</td></tr><tr><td><img src="../../../.gitbook/assets/image (7).png" alt=""></td><td>Attaquer</td></tr></tbody></table>

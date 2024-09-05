@@ -41,10 +41,10 @@ Les cores crocods et cap32 permettent de sélectionner les types de contrôleurs
 | D-PAD                                          | D-PAD        |
 | Stick analogique gauche                        | D-PAD        |
 | Stick analogique droit                         |              |
-| ![](<../../../.gitbook/assets/image (32).png>) |              |
-| ![](<../../../.gitbook/assets/image (19).png>) | Fire 2       |
-| ![](<../../../.gitbook/assets/image (6).png>)  | Fire 1       |
-| ![](<../../../.gitbook/assets/image (34).png>) |              |
+| ![](<../../../.gitbook/assets/image (33).png>) |              |
+| ![](<../../../.gitbook/assets/image (20).png>) | Fire 2       |
+| ![](<../../../.gitbook/assets/image (7).png>)  | Fire 1       |
+| ![](<../../../.gitbook/assets/image (35).png>) |              |
 | L1                                             | cap32: CTRL  |
 | R1                                             | cap32: INTRO |
 | L2                                             | cap32: F1    |
@@ -54,7 +54,7 @@ Les cores crocods et cap32 permettent de sélectionner les types de contrôleurs
 
 ### Clavier virtuel
 
-**cap32** : Preser START + ![](<../../../.gitbook/assets/image (32).png>) pour afficher le clavier virtuel.
+**cap32** : Preser START + ![](<../../../.gitbook/assets/image (33).png>) pour afficher le clavier virtuel.
 
 ## Information spécifique au système
 

@@ -35,10 +35,10 @@ La configuration automatique des contrôles pour Teknoparrot n'est pas toujours 
 | Stick analogique gauche                        | Directions (si analogique) |
 | Stick analogique droit                         |                            |
 | D-PAD                                          | Directions                 |
-| ![](<../../../.gitbook/assets/image (32).png>) | Bouton 4                   |
-| ![](<../../../.gitbook/assets/image (19).png>) | Bouton 2 / ExtensionOne2   |
-| ![](<../../../.gitbook/assets/image (6).png>)  | Bouton 1                   |
-| ![](<../../../.gitbook/assets/image (34).png>) | Bouton 3                   |
+| ![](<../../../.gitbook/assets/image (33).png>) | Bouton 4                   |
+| ![](<../../../.gitbook/assets/image (20).png>) | Bouton 2 / ExtensionOne2   |
+| ![](<../../../.gitbook/assets/image (7).png>)  | Bouton 1                   |
+| ![](<../../../.gitbook/assets/image (35).png>) | Bouton 3                   |
 | L1                                             | Bouton 5                   |
 | R1                                             | Bouton 6                   |
 
@@ -60,9 +60,9 @@ La configuration automatique des contrôles pour Teknoparrot n'est pas toujours 
 | R3 (Right Thumb)                               | Analog 2                 |
 | D-PAD : HAUT                                   | Haut                     |
 | D-PAD : BAS                                    | Bas                      |
-| ![](<../../../.gitbook/assets/image (6).png>)  | BoutonÉmulateur Arcade 1 |
-| ![](<../../../.gitbook/assets/image (19).png>) | ExtensionOne12           |
-| ![](<../../../.gitbook/assets/image (34).png>) | ExtensionOne11           |
+| ![](<../../../.gitbook/assets/image (7).png>)  | BoutonÉmulateur Arcade 1 |
+| ![](<../../../.gitbook/assets/image (20).png>) | ExtensionOne12           |
+| ![](<../../../.gitbook/assets/image (35).png>) | ExtensionOne11           |
 
 ## Informations spécifiques au système
 

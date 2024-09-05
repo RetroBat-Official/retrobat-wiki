@@ -100,10 +100,10 @@ Le core bluemsx permet de sélectionner les types de contrôleurs suivants:
 | D-PAD                                             | D-PAD     |
 | Stick analogique gauche                           | D-PAD     |
 | Stick analogique droit                            |           |
-| ![](<../../../../.gitbook/assets/image (32).png>) | Bouton 3  |
-| ![](<../../../../.gitbook/assets/image (19).png>) | Bouton 2  |
-| ![](<../../../../.gitbook/assets/image (6).png>)  | Bouton 1  |
-| ![](<../../../../.gitbook/assets/image (34).png>) | Bouton 4  |
+| ![](<../../../../.gitbook/assets/image (33).png>) | Bouton 3  |
+| ![](<../../../../.gitbook/assets/image (20).png>) | Bouton 2  |
+| ![](<../../../../.gitbook/assets/image (7).png>)  | Bouton 1  |
+| ![](<../../../../.gitbook/assets/image (35).png>) | Bouton 4  |
 | L1                                                | Bouton 5  |
 | R1                                                | Bouton 6  |
 | L2                                                | Bouton 7  |

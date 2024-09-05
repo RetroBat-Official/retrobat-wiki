@@ -37,10 +37,10 @@ Utiliser la fonctionnalité [Pad2Key](../../../../controleurs/pad2key.md).
 | D-PAD                                             | D-PAD                                 |
 | Stick analogique gauche                           |                                       |
 | Stick analogique droit                            |                                       |
-| ![](<../../../../.gitbook/assets/image (32).png>) | Activer/désactiver le clavier virtuel |
-| ![](<../../../../.gitbook/assets/image (19).png>) | ENTREE                                |
-| ![](<../../../../.gitbook/assets/image (6).png>)  | Bouton du joystick                    |
-| ![](<../../../../.gitbook/assets/image (34).png>) |                                       |
+| ![](<../../../../.gitbook/assets/image (33).png>) | Activer/désactiver le clavier virtuel |
+| ![](<../../../../.gitbook/assets/image (20).png>) | ENTREE                                |
+| ![](<../../../../.gitbook/assets/image (7).png>)  | Bouton du joystick                    |
+| ![](<../../../../.gitbook/assets/image (35).png>) |                                       |
 | L1                                                | Option                                |
 | R1                                                | Ouvrir le menu de l'émulateur         |
 | L2                                                | ESPACE                                |

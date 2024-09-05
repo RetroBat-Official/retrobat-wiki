@@ -61,10 +61,10 @@ Les contrôleurs suivants peuvent être autoconfigurés depuis RetroBat dans les
 | D-PAD                                                                              | D-PAD                       |
 | Stick analogique gauche                                                            | Stick analogique gauche     |
 | Stick analogique droit                                                             | Stick analogique droit      |
-| ![A](<../../../../.gitbook/assets/image (19).png>)                                 | <p>B<br>Ou A si inversé</p> |
-| ![B](<../../../../.gitbook/assets/image (6).png>)                                  | <p>A<br>Ou B si inversé</p> |
-| <img src="../../../../.gitbook/assets/image (34).png" alt="" data-size="original"> | <p>X<br>Ou Y si inversé</p> |
-| <img src="../../../../.gitbook/assets/image (32).png" alt="" data-size="line">     | <p>Y<br>Ou X si inversé</p> |
+| ![A](<../../../../.gitbook/assets/image (20).png>)                                 | <p>B<br>Ou A si inversé</p> |
+| ![B](<../../../../.gitbook/assets/image (7).png>)                                  | <p>A<br>Ou B si inversé</p> |
+| <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | <p>X<br>Ou Y si inversé</p> |
+| <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     | <p>Y<br>Ou X si inversé</p> |
 | LB (L1)                                                                            | L                           |
 | RB (R1)                                                                            | R                           |
 | L2                                                                                 | ZL                          |

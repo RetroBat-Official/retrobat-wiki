@@ -100,7 +100,7 @@ Sélectionner **TÉLÉCHARGEMENT DE CONTENU**
 
 Naviguer entre les onglets avec les boutons GAUCHE et DROITE, puis utiliser HAUT et BAS pour naviguer dans la liste de contenu disponible.&#x20;
 
-Appuyer sur la touche ![](<../.gitbook/assets/image (19).png>) pour lancer le téléchargement et l'installation du contenu.
+Appuyer sur la touche ![](<../.gitbook/assets/image (20).png>) pour lancer le téléchargement et l'installation du contenu.
 
 <div align="left">
 
@@ -136,7 +136,7 @@ Sélectionner **THÈMES** pour accéder à la liste des thèmes disponibles au t
 
 </div>
 
-Naviguer parmi les thèmes disponibles à l'aide des touches HAUT et BAS, appuyer sur la touche ![](<../.gitbook/assets/image (19).png>) pour démarrer le téléchargement et l'installation du thème
+Naviguer parmi les thèmes disponibles à l'aide des touches HAUT et BAS, appuyer sur la touche ![](<../.gitbook/assets/image (20).png>) pour démarrer le téléchargement et l'installation du thème
 
 <div align="left">
 
