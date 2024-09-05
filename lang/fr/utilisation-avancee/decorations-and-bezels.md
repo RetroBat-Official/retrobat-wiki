@@ -24,7 +24,7 @@ Pour activer les Décorations, aller :
 
 Les options suivantes sont disponibles:
 
-<table><thead><tr><th width="272">Option</th><th>Remarque</th></tr></thead><tbody><tr><td>AUTO</td><td>Décoration représentant la console de jeu ou la borne d'arcade</td></tr><tr><td>AUCUN</td><td>Pas de décoration</td></tr><tr><td>AMBIANCE BROADCAST</td><td></td></tr><tr><td>AMBIANCE GAMEROOM</td><td></td></tr><tr><td>AMBIANCE MONITOR 1084S</td><td></td></tr><tr><td>AMBIANCE NIGHT</td><td></td></tr><tr><td>AMBIANCE VINTAGE TV</td><td></td></tr><tr><td>ARCADE 1980S</td><td></td></tr><tr><td>ARCADE 1980S VERTICAL</td><td></td></tr><tr><td>ARCADE VERTICAL DEFAULT</td><td></td></tr><tr><td>DEFAULT UNGLAZED</td><td></td></tr><tr><td>THEBEZELPROJECT</td><td>Voir la section ci-dessous</td></tr></tbody></table>
+<table><thead><tr><th width="272">Option</th><th>Remarque</th></tr></thead><tbody><tr><td>AUTO</td><td><a href="decorations-and-bezels.md#logique-de-recherche-par-defaut">Logique de recherche par défaut</a></td></tr><tr><td>AUCUN</td><td>Pas de décoration</td></tr><tr><td>AMBIANCE BROADCAST</td><td></td></tr><tr><td>AMBIANCE GAMEROOM</td><td></td></tr><tr><td>AMBIANCE MONITOR 1084S</td><td></td></tr><tr><td>AMBIANCE NIGHT</td><td></td></tr><tr><td>AMBIANCE VINTAGE TV</td><td></td></tr><tr><td>ARCADE 1980S</td><td></td></tr><tr><td>ARCADE 1980S VERTICAL</td><td></td></tr><tr><td>ARCADE VERTICAL DEFAULT</td><td></td></tr><tr><td>DEFAULT CURVE</td><td></td></tr><tr><td>DEFAULT CURVE NIGHT</td><td></td></tr><tr><td>DEFAULT NOCURVE</td><td></td></tr><tr><td>DEFAULT NOCURVE NIGHT</td><td></td></tr><tr><td>DEFAULT UNGLAZED</td><td></td></tr><tr><td>THEBEZELPROJECT</td><td>Voir la section ci-dessous</td></tr></tbody></table>
 
 Ci-dessous un exemple de Décorations AUTO pour la Super Nintendo:
 
@@ -33,6 +33,25 @@ Ci-dessous un exemple de Décorations AUTO pour la Super Nintendo:
 <figure><img src="https://i.imgur.com/Ew1Ax7s.png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+### Logique de recherche par défaut:
+
+* retrobat\decorations\\\<bezel type>\games\\\<system>\\\<rom>.png
+* retrobat\system\decorations\\\<bezel type>\games\\\<system>\\\<rom>.png
+* retrobat\decorations\\\<bezel type>\games\\\<rom>.png
+* retrobat\system\decorations\\\<bezel type>\games\\\<rom>.png
+* retrobat\decorations\\\<bezel type>\games\\\<system>\\\<indexedRomName>.png
+* retrobat\system\decorations\\\<bezel type>\games\\\<system>\\\<indexedRomName>.png
+* retrobat\decorations\\\<bezel type>\games\\\<indexedRomName>.png
+* retrobat\system\decorations\\\<bezel type>\games\\\<indexedRomName>.png
+* retrobat\decorations\\\<bezel type>\\\<system>\\\<system>.png
+* retrobat\system\decorations\\\<bezel type>\\\<system>\\\<system>.png
+* retrobat\decorations\\\<bezel type>\default.png
+* retrobat\system\decorations\\\<bezel type>\default.png
+* retrobat\decorations\default\_unglazed\\\<system>\\\<system>.png
+* retrobat\system\decorations\default\_unglazed\\\<system>\\\<system>.png
+* retrobat\decorations\default\\\<system>\\\<system>.png
+* retrobat\system\decorations\default\\\<system>\\\<system>.png
 
 ## Le Bezel Project
 
