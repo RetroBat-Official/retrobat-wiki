@@ -40,6 +40,22 @@ Here is the default mapping.
 
 ## Specific system information
 
+### Hatari emulator configuration
+
+RetroBat forces Hatari standalone to use the configuration file located in `\emulators\hatari` folder of the RetroBat installation.
+
+When making configuration directly within the emulator, ensure to configure it by using the .bat file provided:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/gMsQpbA.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+{% hint style="warning" %}
+Standard hatari.exe stores the config file in "userdata" folder of windows, changes done in this file will not work when running from RetroBat.
+{% endhint %}
+
 ### Mounting a "gemdos" hard drive image
 
 Libretro Hatari-B core can automatically mount a "gemdos" hdd image within the emulated system.
