@@ -24,7 +24,7 @@ Game Console - Lifespan: 1982 - 1984
 
 ## BIOS
 
-<table><thead><tr><th width="266">BIOS File</th><th width="140">Folder</th><th width="341">MD5</th></tr></thead><tbody><tr><td>Vectrex_Bios.bin</td><td>\bios</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="206">BIOS File</th><th width="83">Folder</th><th width="458">SHA1</th></tr></thead><tbody><tr><td>Vectrex_Bios.bin</td><td>\bios</td><td>B9BBF5BB0EAC52D039A4A993A2D8064B862C9E28</td></tr><tr><td>VEC_MineStorm.vec</td><td>\bios</td><td>65D07426B520DDD3115D40F255511E0FD2E20AE7</td></tr></tbody></table>
 
 ## Controls
 
