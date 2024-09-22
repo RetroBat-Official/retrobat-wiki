@@ -24,7 +24,7 @@ Hybrid Game Console - Lifespan: 2017 - present
 
 ## BIOS
 
-Switch firmware files and prod.keys need to be dumped from your console and placed in dedicated directories in the emulator folders:
+Switch firmware files and prod.keys need to be dumped from your console and placed in dedicated directories depending on the emulator:
 
 ### Ryujinx
 
