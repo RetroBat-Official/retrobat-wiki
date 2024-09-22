@@ -24,7 +24,7 @@ Console de jeu hybride - durée de vie: 2017 - aujourd'hu
 
 ## BIOS
 
-Il est nécessaire d'extraire le firware et le fichier `prod.keys` de votre console Nintend SWITCH et de les placer dans des répertoires dédiés dans le dossier de l'émulateur:
+Il est nécessaire d'extraire le firmware et le fichier `prod.keys` de votre console Nintendo SWITCH et de les placer dans des répertoires dédiés selon l'émulateur:
 
 ### Ryujinx
 
