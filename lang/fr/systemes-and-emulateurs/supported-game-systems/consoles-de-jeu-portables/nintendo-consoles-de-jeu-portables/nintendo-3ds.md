@@ -16,11 +16,11 @@ Console de jeu portable - Durée de vie : 2011 - 2020
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>citra</li><li>lime3ds</li><li>libretro-citra</li><li>citra-canary</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> 3ds</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.3ds .3dsx .elf .axf .cci .cxi .app .m3u .zip .7z .squashfs</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>citra</li><li>lime3ds</li><li>libretro-citra</li><li>bizhawk: Encore</li><li>citra-canary</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> 3ds</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.3ds .3dsx .elf .axf .cci .cxi .app .m3u .zip .7z .squashfs</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td>Citra (et canary) : OUI<br>lr-citra : OUI<br>Lime3DS: OUI</td></tr></tbody></table>
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td>Citra (et canary) : OUI<br>Lime3DS: OUI<br>lr-citra : OUI<br>BizHawk: OUI</td></tr></tbody></table>
 
 ## BIOS
 
@@ -83,7 +83,7 @@ Utiliser l'option ci-dessous:
 | Sans inversion des boutons | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/3ds_stylus_cstick.png?raw=true" alt="" data-size="original">        |
 | Avec inversion des boutons | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/3ds_stylus_cstick_revert.png?raw=true" alt="" data-size="original"> |
 
-#### Libretro-citra
+#### Libretro-citra et Bizhawk
 
 Utiliser l'option ci-dessous:
 
