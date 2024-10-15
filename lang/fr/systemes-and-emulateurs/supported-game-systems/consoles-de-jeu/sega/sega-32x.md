@@ -13,11 +13,11 @@ Extension de console de jeu - Durée de vie: 1994 - 1996
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: picodrive</li><li>ares</li><li>kega-fusion</li><li>bizhawk: Picodrive</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> sega32x</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.32x .smd .bin .md .zip .7z</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: picodrive</li><li>ares</li><li>kega-fusion</li><li>bizhawk: Picodrive</li><li>jgenesis</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> sega32x</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.32x .smd .bin .md .zip .7z</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-picodrive : OUI<br>Ares : NON<br>Kega-Fusion : NON<br>BizHawk : OUI</td><td>lr-picodrive : OUI<br>Ares : NON<br>Kega-Fusion : NON<br>BizHawk : NON</td><td>lr-picodrive : OUI<br>Ares : OUI<br>Kega-Fusion : OUI<br>BizHawk : OUI</td></tr></tbody></table>
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-picodrive : OUI<br>Ares : NON<br>Kega-Fusion : NON<br>BizHawk : OUI<br>JGenesis: NON</td><td>lr-picodrive : OUI<br>Ares : NON<br>Kega-Fusion : NON<br>BizHawk : NON<br>JGenesis: NON</td><td>lr-picodrive : OUI<br>Ares : OUI<br>Kega-Fusion : OUI<br>BizHawk : OUI<br>JGenesis: OUI</td></tr></tbody></table>
 
 ## BIOS
 
