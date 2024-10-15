@@ -28,6 +28,12 @@ Controls must be configured within the emulator.
 
 ## Specific system information
 
+### List of supported games
+
+The list of games supported by GZDoom can be found here:
+
+{% embed url="https://zdoom.org/wiki/IWAD" %}
+
 ### Using your own command line arguments
 
 RetroBat allows for using your own command line arguments with the emulator.
