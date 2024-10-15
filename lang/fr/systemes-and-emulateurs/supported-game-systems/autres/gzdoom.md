@@ -28,6 +28,12 @@ Les contrôles sont à configurer directement dans l'émulateur.
 
 ## Information spécifique au système
 
+### Jeux pris en charge
+
+La liste des jeux compatibles avec GZDoom est disponible ici:
+
+{% embed url="https://zdoom.org/wiki/IWAD" %}
+
 ### Modifier les lignes de commande de lancement
 
 RetroBat vous permet de lancer un jeu avec une ligne de commande personnalisée.
