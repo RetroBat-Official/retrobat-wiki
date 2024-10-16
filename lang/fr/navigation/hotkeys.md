@@ -70,11 +70,7 @@ JGenesis utilise pad2key pour gérer les raccourcis.
 
 ### OpenMSX
 
-<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (7).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (20).png" alt=""></td><td>Ouvrir MENU</td></tr><tr><td>Hotkey + L1</td><td>Rembobiner</td></tr><tr><td>Hotkey + R1</td><td>Avance rapide</td></tr></tbody></table>
-
-{% hint style="danger" %}
-Avec une manette non XInput, il n'est pas possible de naviguer dans le menu OpenMSX avec le D-PAD, utiliser le stick analogique.
-{% endhint %}
+<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (7).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt=""></td><td>Sauver Save State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt=""></td><td>Charger Save State</td></tr><tr><td>Hotkey + L1</td><td>Rembobiner</td></tr><tr><td>Hotkey + R1</td><td>Avance rapide</td></tr></tbody></table>
 
 ### PCSX2
 
