@@ -88,28 +88,7 @@ yrw801.rom "42af93619160ef2116416f74a6cb12f2" (Sunrise MoonSound)
 
 ## Controls
 
-Bluemsx core allows you to choose between the following controller types:
-
-* RETROPAD
-* KEYBOARD
-
-| Retrobat Button                                   | MSX key   |
-| ------------------------------------------------- | --------- |
-| START                                             | START     |
-| SELECT                                            | SELECT    |
-| D-PAD                                             | D-PAD     |
-| Left analog stick                                 | D-PAD     |
-| Right analog stick                                |           |
-| ![](<../../../../.gitbook/assets/image (48).png>) | Button 3  |
-| ![](<../../../../.gitbook/assets/image (30).png>) | Button 2  |
-| ![](<../../../../.gitbook/assets/image (16).png>) | Button 1  |
-| ![](<../../../../.gitbook/assets/image (50).png>) | Button 4  |
-| L1                                                | Button 5  |
-| R1                                                | Button 6  |
-| L2                                                | Button 7  |
-| R2                                                | Button 8  |
-| L3                                                | Button 9  |
-| R3                                                | Button 10 |
+[See MSX](msx.md#controls)
 
 ## Specific system information
 

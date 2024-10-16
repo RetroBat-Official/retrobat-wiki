@@ -88,6 +88,8 @@ yrw801.rom "42af93619160ef2116416f74a6cb12f2" (Sunrise MoonSound)
 
 ## Controls
 
+### BlueMSX
+
 Bluemsx core allows you to choose between the following controller types:
 
 * RETROPAD
@@ -98,8 +100,6 @@ Bluemsx core allows you to choose between the following controller types:
 | START                                             | START     |
 | SELECT                                            | SELECT    |
 | D-PAD                                             | D-PAD     |
-| Left analog stick                                 | D-PAD     |
-| Right analog stick                                |           |
 | ![](<../../../../.gitbook/assets/image (48).png>) | Button 3  |
 | ![](<../../../../.gitbook/assets/image (30).png>) | Button 2  |
 | ![](<../../../../.gitbook/assets/image (16).png>) | Button 1  |
@@ -110,6 +110,25 @@ Bluemsx core allows you to choose between the following controller types:
 | R2                                                | Button 8  |
 | L3                                                | Button 9  |
 | R3                                                | Button 10 |
+
+### OpenMSX
+
+OpenMSX allows you to choose between the following controller types:
+
+* MSX Joystick
+* Megadrive Joystick
+
+| Retrobat                                          | MSX                                   |
+| ------------------------------------------------- | ------------------------------------- |
+| START                                             | MegaDrive Joy: START                  |
+| SELECT                                            | MegaDrive Joy: SELECT                 |
+| D-PAD                                             | D-PAD                                 |
+| ![](<../../../../.gitbook/assets/image (48).png>) | MegaDrive Joy: X                      |
+| ![](<../../../../.gitbook/assets/image (30).png>) | <p>MSX Joy: A<br>MegaDrive Joy: A</p> |
+| ![](<../../../../.gitbook/assets/image (16).png>) | <p>MSX Joy: B<br>MegaDrive Joy: B</p> |
+| ![](<../../../../.gitbook/assets/image (50).png>) | MegaDrive Joy: Y                      |
+| L1                                                | MegaDrive Joy: Z                      |
+| R1                                                | MegaDrive Joy: C                      |
 
 ## Specific system information
 
