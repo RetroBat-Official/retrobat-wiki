@@ -36,6 +36,14 @@ Hotkey is equal to left trigger (L2), except to quit
 
 <table><thead><tr><th width="269">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>L2 + <img src="../.gitbook/assets/image (30).png" alt=""> </td><td>Menu</td></tr><tr><td>L2 + <img src="../.gitbook/assets/image (50).png" alt=""></td><td>Load State</td></tr><tr><td>L2 + <img src="../.gitbook/assets/image (48).png" alt=""> </td><td>Save State</td></tr><tr><td>L2 + D-PAD LEFT</td><td>Rewind</td></tr><tr><td>L2 + D-PAD RIGHT</td><td>Fast Forward</td></tr><tr><td>L2 + R3</td><td>Screenshot</td></tr></tbody></table>
 
+### BizHawk
+
+<table><thead><tr><th width="269">Hotkeys (keyboard)</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (16).png" alt="">  (F9)</td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (50).png" alt="">   (F3)</td><td>Load State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (48).png" alt="">   (F4)</td><td>Save State</td></tr><tr><td>Hotkey + START</td><td>Exit</td></tr><tr><td>Hotkey + D-PAD UP  (F6)</td><td>Select Save Slot Index +</td></tr><tr><td>Hotkey + D-PAD DOWN  (F5)</td><td>Select Save Slot Index -</td></tr><tr><td>Hotkey + D-PAD LEFT  (F1)</td><td>Rewind</td></tr><tr><td>Hotkey + D-PAD RIGHT  (F2)</td><td>Fast Forward</td></tr><tr><td>Hotkey + R3 (F12)</td><td>Screenshot</td></tr></tbody></table>
+
+{% hint style="info" %}
+BizHawk uses pad2key to handle shortcuts.
+{% endhint %}
+
 ### Dolphin
 
 <table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (16).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (30).png" alt=""></td><td>FULLSCREEN</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (50).png" alt=""></td><td>Load State 1</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (48).png" alt=""></td><td>Save State 1 &#x26; Screenshot</td></tr><tr><td>Hotkey + START</td><td>Exit DOLPHIN</td></tr><tr><td>Hotkey + L1</td><td>Eject Disc</td></tr><tr><td>Hotkey + R1</td><td>Change Disc</td></tr></tbody></table>
