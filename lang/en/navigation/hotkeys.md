@@ -70,11 +70,7 @@ JGenesis uses pad2key to handle shortcuts.
 
 ### OpenMSX
 
-<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (16).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (30).png" alt=""></td><td>Main Menu Toggle</td></tr><tr><td>Hotkey + L1</td><td>Rewind</td></tr><tr><td>Hotkey + R1</td><td>Fast Forward</td></tr></tbody></table>
-
-{% hint style="danger" %}
-OpenMSX MENU cannot be navigated with the D-PAD, use the analog stick.
-{% endhint %}
+<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (16).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey +  <img src="../.gitbook/assets/image (48).png" alt=""></td><td>Save State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (50).png" alt=""></td><td>Load State</td></tr><tr><td>Hotkey + L1</td><td>Rewind</td></tr><tr><td>Hotkey + R1</td><td>Fast Forward</td></tr></tbody></table>
 
 ### PCSX2
 
