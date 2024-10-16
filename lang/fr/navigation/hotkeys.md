@@ -22,7 +22,7 @@ Prévenez les équipes RetroBat si c'est le cas, nous apporterons les correction
 
 ### Ares
 
-<table><thead><tr><th width="269">Hotkeys (clavier)</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (7).png" alt="">  (TAB)</td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (20).png" alt="">  (F6)</td><td>Fullscreen</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt="">   (F2)</td><td>Charger Save State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt="">   (F1)</td><td>Sauver Save State</td></tr><tr><td>Hotkey + START  (F12)</td><td>Quitter ARES</td></tr><tr><td>Hotkey + D-PAD UP  (F4)</td><td>Choisir Slot de sauvegarde Index +</td></tr><tr><td>Hotkey + D-PAD DOWN  (F3)</td><td>Choisir Slot de sauvegarde Index -</td></tr><tr><td>Hotkey + D-PAD LEFT  (F8)</td><td>Rembobiner</td></tr><tr><td>Hotkey + D-PAD RIGHT  (F9)</td><td>Avance rapide</td></tr><tr><td>Hotkey + R3</td><td>Capture d'écran</td></tr></tbody></table>
+<table><thead><tr><th width="290">Hotkeys (clavier)</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (7).png" alt="">  (TAB)</td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (20).png" alt="">  (F6)</td><td>Fullscreen</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt="">   (F2)</td><td>Charger Save State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt="">   (F1)</td><td>Sauver Save State</td></tr><tr><td>Hotkey + START  (F12)</td><td>Quitter ARES</td></tr><tr><td>Hotkey + D-PAD UP  (F4)</td><td>Choisir Slot de sauvegarde Index +</td></tr><tr><td>Hotkey + D-PAD DOWN  (F3)</td><td>Choisir Slot de sauvegarde Index -</td></tr><tr><td>Hotkey + D-PAD LEFT  (F8)</td><td>Rembobiner</td></tr><tr><td>Hotkey + D-PAD RIGHT  (F9)</td><td>Avance rapide</td></tr><tr><td>Hotkey + R3</td><td>Capture d'écran</td></tr></tbody></table>
 
 {% hint style="info" %}
 Ares utilise pad2key pour gérer les raccourcis.
@@ -35,6 +35,14 @@ La touche de raccourci est L2 (sauf pour quitter)
 {% endhint %}
 
 <table><thead><tr><th width="269">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>L2 + <img src="../.gitbook/assets/image (20).png" alt=""> </td><td>Menu</td></tr><tr><td>L2 + <img src="../.gitbook/assets/image (35).png" alt=""></td><td>Charger Save State</td></tr><tr><td>L2 + <img src="../.gitbook/assets/image (33).png" alt=""> </td><td>Sauver Save State</td></tr><tr><td>L2 + D-PAD LEFT</td><td>Rembobiner</td></tr><tr><td>L2 + D-PAD RIGHT</td><td>Avance rapide</td></tr><tr><td>L2 + R3</td><td>Capture d'écran</td></tr></tbody></table>
+
+### BizHawk
+
+<table><thead><tr><th width="290">Hotkeys (clavier)</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (7).png" alt="">  (F9)</td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt="">   (F3)</td><td>Charger Save State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt="">   (F4)</td><td>Sauver Save State</td></tr><tr><td>Hotkey + START</td><td>Quitter</td></tr><tr><td>Hotkey + D-PAD UP  (F6)</td><td>Choisir Slot de sauvegarde Index +</td></tr><tr><td>Hotkey + D-PAD DOWN  (F5)</td><td>Choisir Slot de sauvegarde Index -</td></tr><tr><td>Hotkey + D-PAD LEFT  (F1)</td><td>Rembobiner</td></tr><tr><td>Hotkey + D-PAD RIGHT  (F2)</td><td>Avance rapide</td></tr><tr><td>Hotkey + R3 (F12)</td><td>Capture d'écran</td></tr></tbody></table>
+
+{% hint style="info" %}
+BizHawk utilise pad2key pour gérer les raccourcis.
+{% endhint %}
 
 ### Dolphin
 
