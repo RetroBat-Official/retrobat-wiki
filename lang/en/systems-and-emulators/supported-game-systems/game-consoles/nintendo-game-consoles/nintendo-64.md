@@ -44,7 +44,7 @@ There is no BIOS files needed to run games.
 
 ### Mupen64 (RMG), Simple64, Ares and Bizhawk
 
-Standalone emulators (Mupen64 RMG & Simple64) have 4 different layouts available that can be switched through this option:
+Standalone emulators (Mupen64 RMG & Simple64) have 5 different layouts available that can be switched through this option:
 
 <div align="left">
 
@@ -52,7 +52,7 @@ Standalone emulators (Mupen64 RMG & Simple64) have 4 different layouts available
 
 </div>
 
-Ares and Bizhawk have 2 layout options:
+Ares and Bizhawk have 3 layout options:
 
 <div align="left">
 
@@ -60,7 +60,7 @@ Ares and Bizhawk have 2 layout options:
 
 </div>
 
-Details of the 4 layouts:
+Details of the 5 layouts:
 
 | Option                                                                                                            | Layout                                                                                                                                              |
 | ----------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -68,6 +68,7 @@ Details of the 4 layouts:
 | C-BUTTONS=FACE Z=LEFT-TRIGGER                                                                                     | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone_face_zl.png?raw=true" alt="" data-size="original"> |
 | <p>C-BUTTONS=RIGHT-STICK Z=RIGHT-TRIGGER<br><br><strong>Ares/Bizhawk</strong><br>Z=RIGHT-TRIGGER</p>              | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone_zr.png?raw=true" alt="" data-size="original">      |
 | C-BUTTONS=FACE Z=RIGHT-TRIGGER                                                                                    | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone_face_zr.png?raw=true" alt="" data-size="original"> |
+| XBOX                                                                                                              | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64_xbox.png?raw=true" alt="" data-size="original">               |
 
 ### Using a N64 controller
 
