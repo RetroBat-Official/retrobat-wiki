@@ -38,7 +38,7 @@ Aucun BIOS nécessaire.
 
 ### Mupen64 (RMG), Simple64, Ares etBizhawk
 
-Pour Mupen64 RMG et Simple64, il existe 4 schémas de contrôle en fonction des options sélectionnées ici:
+Pour Mupen64 RMG et Simple64, il existe 5 schémas de contrôle en fonction des options sélectionnées ici:
 
 <div align="left">
 
@@ -46,7 +46,7 @@ Pour Mupen64 RMG et Simple64, il existe 4 schémas de contrôle en fonction des 
 
 </div>
 
-Ares et Bizhawk en proposent 2:
+Ares et Bizhawk en proposent 3:
 
 <div align="left">
 
@@ -54,7 +54,7 @@ Ares et Bizhawk en proposent 2:
 
 </div>
 
-Les quatre schémas sont:
+Les cinq schémas sont:
 
 | Option                                                                                                          | Schéma                                                                                                                                              |
 | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -62,6 +62,7 @@ Les quatre schémas sont:
 | C-BUTTONS=FACE Z=LEFT-TRIGGER                                                                                   | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone_face_zl.png?raw=true" alt="" data-size="original"> |
 | <p>C-BUTTONS=RIGHT-STICK Z=RIGHT-TRIGGER<br><br><strong>Ares/Bizhawk</strong><br>Z=RIGHT-TRIGGER</p>            | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone_zr.png?raw=true" alt="" data-size="original">      |
 | C-BUTTONS=FACE Z=RIGHT-TRIGGER                                                                                  | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone_face_zr.png?raw=true" alt="" data-size="original"> |
+| XBOX                                                                                                            | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64_xbox.png?raw=true" alt="" data-size="original">               |
 
 ### Utiliser une manette N64
 
