@@ -260,7 +260,7 @@ Dans ce cas, la procédure ci-dessous permet de résoudre le problème:
 
 <div align="left">
 
-<figure><img src="https://wiki.retrobat.org/~gitbook/image?url=https%3A%2F%2Fi.imgur.com%2FXXTVidn.png&#x26;width=768&#x26;dpr=1&#x26;quality=100&#x26;sign=326f93f1&#x26;sv=1" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/XXTVidn.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -268,7 +268,7 @@ Créer un fichier dans le même dossier que le raccourci du jeu (généralement 
 
 <div align="left">
 
-<figure><img src="https://wiki.retrobat.org/~gitbook/image?url=https%3A%2F%2Fi.imgur.com%2FgWOi36k.png&#x26;width=768&#x26;dpr=1&#x26;quality=100&#x26;sign=fb838b38&#x26;sv=1" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/gWOi36k.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
@@ -276,11 +276,11 @@ Sauvegarder le fichier et le nommer exactement comme le raccourci du jeu, change
 
 <div align="left">
 
-<figure><img src="https://wiki.retrobat.org/~gitbook/image?url=https%3A%2F%2Fi.imgur.com%2FWr1vqVP.png&#x26;width=768&#x26;dpr=1&#x26;quality=100&#x26;sign=a568c105&#x26;sv=1" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://i.imgur.com/Wr1vqVP.png" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-RetroBat va dorénavant attendre la fin du process défini dans le fichier pour revenir à la liste de jeux !
+RetroBat attend dorénavant la fin du process défini dans le fichier pour revenir à la liste de jeux !
 
 {% hint style="info" %}
 Cette méthode est compatible avec les jeux au format raccourcis (.lnk) et.url.
