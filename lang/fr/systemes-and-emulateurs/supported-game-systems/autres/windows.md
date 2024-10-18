@@ -50,6 +50,10 @@ Copier simplement le raccourci du jeu Steam (format .url) dans le dossier `roms\
 
 </div>
 
+{% hint style="warning" %}
+Si la musique du menu RetroBat est audible lors du jeu, appliquer [la méthode suivante](windows.md#what-to-do-if-retrobat-music-is-heard-in-the-background) pour corriger le problème.
+{% endhint %}
+
 ### Ajouter un jeu EPIC Game Store
 
 Copier simplement le raccourci du jeu EPIC (format .url) dans le dossier `roms\windows` de votre installation RetroBat:
@@ -60,6 +64,10 @@ Copier simplement le raccourci du jeu EPIC (format .url) dans le dossier `roms\w
 
 </div>
 
+{% hint style="warning" %}
+Si la musique du menu RetroBat est audible lors du jeu, appliquer [la méthode suivante](windows.md#what-to-do-if-retrobat-music-is-heard-in-the-background) pour corriger le problème.
+{% endhint %}
+
 ### Ajouter un jeu Amazon Game Store
 
 Copier simplement le raccourci du jeu Amazon Game (format .url) dans le dossier `roms\windows` de votre installation RetroBat:
@@ -69,6 +77,10 @@ Copier simplement le raccourci du jeu Amazon Game (format .url) dans le dossier 
 <figure><img src="https://i.imgur.com/mW5Xme7.png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+{% hint style="warning" %}
+Si la musique du menu RetroBat est audible lors du jeu, appliquer [la méthode suivante](windows.md#what-to-do-if-retrobat-music-is-heard-in-the-background) pour corriger le problème.
+{% endhint %}
 
 ### Ajouter un jeu Microsoft Gamepass
 
@@ -92,6 +104,10 @@ Couper le raccourci et le coller dans le dossier `roms\windows` de l'installatio
 
 Le raccourci peut être renommé.\
 
+
+{% hint style="warning" %}
+Si la musique du menu RetroBat est audible lors du jeu, appliquer [la méthode suivante](windows.md#what-to-do-if-retrobat-music-is-heard-in-the-background) pour corriger le problème.
+{% endhint %}
 
 ### Ajouter un jeu Microsoft Gamepass (format WUP)
 
@@ -227,3 +243,45 @@ Ensuite, copier ces deux informations dans le fichier .bat comme suit:
 </div>
 
 Enfin sauvegarder le fichier bat dans le dossier `roms\windows` de votre installation RetroBat.
+
+### Que faire si la musique du menu RetroBat est audible ? <a href="#what-to-do-if-retrobat-music-is-heard-in-the-background" id="what-to-do-if-retrobat-music-is-heard-in-the-background"></a>
+
+Ce symptôme est généralement causé par le fait que RetroBatn'a pas réussi à détecter le process du jeu (l'éxecutable), les raisons peuvent être:
+
+* un jeu avec un "launcher" qui est exécuté avant le jeu en lui-même
+* une mauvaise détection de l'éxecutable dans les librairies Steam, Epic, Amazon...
+
+Dans ce cas, la procédure ci-dessous permet de résoudre le problème:
+
+* Lancer le jeu en dehors de RetroBat
+* Attendre d'atteindre le jeu (la partie jouable du jeu)
+* Appuyer sur CTRL + ALT + SUPPR pour ouvrir l'explorateur de tâches
+* Repérer le nom du process du jeu (l'éxecutable du jeu):
+
+<div align="left">
+
+<figure><img src="https://wiki.retrobat.org/~gitbook/image?url=https%3A%2F%2Fi.imgur.com%2FXXTVidn.png&#x26;width=768&#x26;dpr=1&#x26;quality=100&#x26;sign=326f93f1&#x26;sv=1" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Créer un fichier dans le même dossier que le raccourci du jeu (généralement roms\windows) et préciser dans le fichier le nom exact du process du jeu (sans l'extension .exe):
+
+<div align="left">
+
+<figure><img src="https://wiki.retrobat.org/~gitbook/image?url=https%3A%2F%2Fi.imgur.com%2FgWOi36k.png&#x26;width=768&#x26;dpr=1&#x26;quality=100&#x26;sign=fb838b38&#x26;sv=1" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Sauvegarder le fichier et le nommer exactement comme le raccourci du jeu, changer l'extension par ".gameexe":
+
+<div align="left">
+
+<figure><img src="https://wiki.retrobat.org/~gitbook/image?url=https%3A%2F%2Fi.imgur.com%2FWr1vqVP.png&#x26;width=768&#x26;dpr=1&#x26;quality=100&#x26;sign=a568c105&#x26;sv=1" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+RetroBat va dorénavant attendre la fin du process défini dans le fichier pour revenir à la liste de jeux !
+
+{% hint style="info" %}
+Cette méthode est compatible avec les jeux au format raccourcis (.lnk) et.url.
+{% endhint %}
