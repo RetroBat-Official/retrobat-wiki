@@ -48,6 +48,10 @@ Simply place the Steam Game shortcut url file in the `roms\windows` folder of yo
 
 </div>
 
+{% hint style="warning" %}
+If RetroBat menu music is playing while the game is still running, apply the method described [here](windows.md#what-to-do-if-retrobat-music-is-heard-in-the-background)
+{% endhint %}
+
 ### Adding a game from EPIC Game Store
 
 Simply place the EPIC Game shortcut url file in the `roms\windows` folder of your RetroBat installation:
@@ -58,6 +62,10 @@ Simply place the EPIC Game shortcut url file in the `roms\windows` folder of you
 
 </div>
 
+{% hint style="warning" %}
+If RetroBat menu music is playing while the game is still running, apply the method described [here](windows.md#what-to-do-if-retrobat-music-is-heard-in-the-background)
+{% endhint %}
+
 ### Adding an Amazon Game
 
 Simply place the Amazon Game shortcut url file in the `roms\windows` folder of your RetroBat installation:
@@ -67,6 +75,10 @@ Simply place the Amazon Game shortcut url file in the `roms\windows` folder of y
 <figure><img src="https://i.imgur.com/mW5Xme7.png" alt=""><figcaption></figcaption></figure>
 
 </div>
+
+{% hint style="warning" %}
+If RetroBat menu music is playing while the game is still running, apply the method described [here](windows.md#what-to-do-if-retrobat-music-is-heard-in-the-background)
+{% endhint %}
 
 ### Adding a Microsoft Gamepass game
 
@@ -89,6 +101,10 @@ Create a shortcut to this executable file (_right click > send to > Desktop (sho
 Cut the shortcut and paste it into the `roms\windows` folder of the RetroBat installation.
 
 You can rename the shortcut if desired.
+
+{% hint style="warning" %}
+If RetroBat menu music is playing while the game is still running, apply the method described [here](windows.md#what-to-do-if-retrobat-music-is-heard-in-the-background)
+{% endhint %}
 
 ### Adding a Microsoft Gamepass game (UWP format)
 
@@ -239,3 +255,43 @@ Next, report these two pieces of information in your.bat file as follows:
 Finally save the bat file in the `roms\windows` folder of your RetroBat installation.
 
 ### What to do if RetroBat music is heard in the background ?
+
+This usually happens when RetroBat was not able to detect the actual game process (executable) of the game, it might be caused by:
+
+* the game having a launcher before the actual game process starts
+* RetroBat not being able to find the executable in Steam, Epic or Amazon databases
+
+In such case, the solution is to detect the actual game executable by running the game outside of RetroBat:
+
+* Run the game
+* Wait to be actually in-game
+* Press CTRL + ALT + DEL to open task explorer
+* Find the actual executable name of the game process:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/XXTVidn.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* Create a text file near the game shortcut (in roms\windows folder) and paste the process name inside the file (without the .exe extension):
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/gWOi36k.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+* Save the file and name it exactly the same as the game shortcut, change the extension to ".gameexe":
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/Wr1vqVP.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+RetroBat will now wait for the process specified within the file to stop to return to the gamelist !
+
+{% hint style="info" %}
+The .gameexe file method is compatible with shortcuts (.lnk) and .url files.
+{% endhint %}
