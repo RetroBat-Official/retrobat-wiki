@@ -244,7 +244,7 @@ Ensuite, copier ces deux informations dans le fichier .bat comme suit:
 
 Enfin sauvegarder le fichier bat dans le dossier `roms\windows` de votre installation RetroBat.
 
-### Que faire si la musique du menu RetroBat est audible ? <a href="#what-to-do-if-retrobat-music-is-heard-in-the-background" id="what-to-do-if-retrobat-music-is-heard-in-the-background"></a>
+### Que faire si la musique du menu RetroBat est audible en jeu ? <a href="#what-to-do-if-retrobat-music-is-heard-in-the-background" id="what-to-do-if-retrobat-music-is-heard-in-the-background"></a>
 
 Ce symptôme est généralement causé par le fait que RetroBatn'a pas réussi à détecter le process du jeu (l'éxecutable), les raisons peuvent être:
 
