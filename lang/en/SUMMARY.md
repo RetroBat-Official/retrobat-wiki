@@ -233,6 +233,7 @@
   * [Others](systems-and-emulators/supported-game-systems/others/README.md)
     * [Cannonball](systems-and-emulators/supported-game-systems/others/cannonball.md)
     * [Cave Story](systems-and-emulators/supported-game-systems/others/cave-story.md)
+    * [Commander Genius](systems-and-emulators/supported-game-systems/others/cgenius.md)
     * [DevilutionX](systems-and-emulators/supported-game-systems/others/devilutionx.md)
     * [Dinothawr](systems-and-emulators/supported-game-systems/others/dinothawr.md)
     * [Doom III](systems-and-emulators/supported-game-systems/others/doom-iii.md)
