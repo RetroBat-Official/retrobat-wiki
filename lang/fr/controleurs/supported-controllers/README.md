@@ -28,7 +28,7 @@ Le contrôleur idéal pour les jeux d'arcade.
 
 ![](<../../.gitbook/assets/image (34).png>)
 
-[La page des Sticks Arcade](./#aracade-sticks)
+[La page des Sticks Arcade](arcade-sticks.md)
 {% endtab %}
 
 {% tab title="PISTOLETS" %}
