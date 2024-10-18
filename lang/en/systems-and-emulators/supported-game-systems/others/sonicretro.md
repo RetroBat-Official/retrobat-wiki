@@ -14,7 +14,7 @@ Game engine to play Sonic 1, Sonic 2 and Sonic CD.
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="240"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>sonicretro</li><li>sonicretrocd</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> sonicretro</td></tr><tr><td><strong>File extension</strong></td><td>.rsdk</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="240"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>sonicretro</li><li>sonicretrocd</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> sonicretro</td></tr><tr><td><strong>File extension</strong></td><td>.rsdk</td></tr><tr><td><strong>Saves location</strong></td><td><em>rom folder</em><br>Copied to <em>saves\sonicretro\&#x3C;game folder></em></td></tr></tbody></table>
 
 ## BIOS
 

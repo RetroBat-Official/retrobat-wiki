@@ -12,7 +12,7 @@ Game engine to play Sonic Mania.
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="240"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>sonicmania</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> sonicmania</td></tr><tr><td><strong>File extension</strong></td><td>.rsdk</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="240"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>sonicmania</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> sonicmania</td></tr><tr><td><strong>File extension</strong></td><td>.rsdk</td></tr><tr><td><strong>Saves location</strong></td><td><em>roms\sonicmania</em><br>Copied to <em>saves\sonicmania</em></td></tr></tbody></table>
 
 ## BIOS
 

@@ -286,6 +286,7 @@
 * [Decorations (bezels)](advanced-features/decorations-and-bezels.md)
 * [Updates & Content Download](advanced-features/updates-and-content-download.md)
 * [Kiosk and Kid mode](advanced-features/kiosk-and-kid-mode.md)
+* [Save States](advanced-features/save-states.md)
 * [Retroachievements](advanced-features/retroachievements.md)
 * [Netplay](advanced-features/netplay.md)
 * [AI Translation Service](advanced-features/ai-translation-service.md)
