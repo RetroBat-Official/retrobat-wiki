@@ -69,6 +69,22 @@ Alternative control layouts can be enabled with the following option:
 | L/R AS X/Z            | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/saturn_lr_xz.png?raw=true" alt="" data-size="original">                 |
 | L/R AS X/Z (inverted) | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/saturn_lr_xz_invert_triggers.png?raw=true" alt="" data-size="original"> |
 
+### Using a Saturn-like controller
+
+RetroBat can be used to automatically configure the following type of "Saturn-like" controllers:
+
+* 8Bitdo M30
+
+To do so, use the following option:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/NFa4xEU.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Saturn-like controller configuration is managed within the "**saturnControllers.json**" file located in the `\system\resources\inputmapping` folder of the RetroBat installation, it is possible to extend this file to configure automatically additional controllers.
+
 ## Specific System Information
 
 ### Multi-disc games

@@ -66,6 +66,22 @@ Alternative layouts are available with this option:
 | L/R as Z/C        | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/megadrive_lr_zc.png?raw=true" alt="" data-size="original"> |
 | L/R as Y/Z        | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/megadrive_lr_yz.png?raw=true" alt="" data-size="original"> |
 
+### Using a Megadrive-like controller
+
+RetroBat can be used to automatically configure the following type of "Megadrive-like" controllers:
+
+* 8Bitdo M30
+
+To do so, use the following option:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/FMG6qiI.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Megadrive-like controller configuration is managed within the "**mdControllers.json**" file located in the `\system\resources\inputmapping` folder of the RetroBat installation, it is possible to extend this file to configure automatically additional controllers.
+
 ## Specific System Information
 
 There is no specific System information documented here yet.
