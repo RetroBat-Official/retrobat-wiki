@@ -69,6 +69,22 @@ Des schémas de contrôles alernatifs sont disponibles avec l'option suivante:
 | L/R pour X/Z           | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/saturn_lr_xz.png?raw=true" alt="" data-size="original">                 |
 | L/R pour X/Z (inversé) | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/saturn_lr_xz_invert_triggers.png?raw=true" alt="" data-size="original"> |
 
+### Utiliser une manette de type Saturn
+
+RetroBat détecte et configure automatiquement les manettes de type "Saturn" suivantes:
+
+* 8Bitdo M30
+
+Pour cela, activer l'option suivante:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/1KFcEBs.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Le mapping des manettes Saturn est géré par le fichier "**saturnControllers.json**" situé dans le répertoire `\system\resources\inputmapping` de l'installation RetroBat, il est possible d'ajouter d'autres manettes dans ce fichier pour automatiquement configurer votre contrôleur.
+
 ## Information spécifique au système
 
 ### Jeux multi-disques

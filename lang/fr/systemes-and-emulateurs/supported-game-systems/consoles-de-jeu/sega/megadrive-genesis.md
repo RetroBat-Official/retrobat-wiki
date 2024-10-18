@@ -67,6 +67,22 @@ Des schémas de contrôles alernatifs sont disponible avec l'option suivante:
 | L/R pour Z/C        | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/megadrive_lr_zc.png?raw=true" alt="" data-size="original"> |
 | L/R pour Y/Z        | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/megadrive_lr_yz.png?raw=true" alt="" data-size="original"> |
 
+### Utiliser une manette de type Megadrive
+
+RetroBat détecte et configure automatiquement les manettes de type "Megadrive" suivantes:
+
+* 8Bitdo M30
+
+Pour cela, activer l'option suivante:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/HYBXlgR.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Le mapping des manettes Megadrive est géré par le fichier "**mdControllers.json**" situé dans le répertoire `\system\resources\inputmapping` de l'installation RetroBat, il est possible d'ajouter d'autres manettes dans ce fichier pour automatiquement configurer votre contrôleur.
+
 ## Information spécifique au système
 
 Aucune information spécifique.
