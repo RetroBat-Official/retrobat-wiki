@@ -248,6 +248,7 @@
     * [PrBoom](systems-and-emulators/supported-game-systems/others/prboom.md)
     * [Quake](systems-and-emulators/supported-game-systems/others/quake.md)
     * [Quake 2](systems-and-emulators/supported-game-systems/others/quake-2.md)
+    * [Raze](systems-and-emulators/supported-game-systems/others/raze.md)
     * [REminiscence](systems-and-emulators/supported-game-systems/others/reminiscence.md)
     * [Sonic 3 AIR](systems-and-emulators/supported-game-systems/others/sonic3air.md)
     * [Sonic Mania](systems-and-emulators/supported-game-systems/others/sonicmania.md)
