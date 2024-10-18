@@ -237,3 +237,5 @@ Next, report these two pieces of information in your.bat file as follows:
 </div>
 
 Finally save the bat file in the `roms\windows` folder of your RetroBat installation.
+
+### What to do if RetroBat music is heard in the background ?
