@@ -254,7 +254,7 @@ Next, report these two pieces of information in your.bat file as follows:
 
 Finally save the bat file in the `roms\windows` folder of your RetroBat installation.
 
-### What to do if RetroBat music is heard in the background ?
+### What to do if RetroBat music is heard in the background while playing ?
 
 This usually happens when RetroBat was not able to detect the actual game process (executable) of the game, it might be caused by:
 
