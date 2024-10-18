@@ -18,7 +18,7 @@ Reach out to the RetroBat team if this is the case, we'll perform the correction
 
 ### RetroArch
 
-<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (16).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (30).png" alt=""></td><td>RetroArch MENU</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (50).png" alt=""></td><td>Load Save State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (48).png" alt=""></td><td>Save State</td></tr><tr><td>Hotkey + START</td><td>Quit RetroArch</td></tr><tr><td>Hotkey + L1</td><td>Eject Disc</td></tr><tr><td>Hotkey + R1</td><td>AI Service</td></tr><tr><td>Hotkey + L2</td><td>Select Disc Index -</td></tr><tr><td>Hotkey + R2</td><td>Select Disc Index +</td></tr><tr><td>Hotkey + D-PAD UP</td><td>Select Save Slot Index +</td></tr><tr><td>Hotkey + D-PAD DOWN</td><td>Select Save Slot Index -</td></tr><tr><td>Hotkey + D-PAD LEFT</td><td>Rewind</td></tr><tr><td>Hotkey + D-PAD RIGHT</td><td>Fast Forward</td></tr><tr><td>Hotkey + R3</td><td>Screenshot</td></tr></tbody></table>
+<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (16).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (30).png" alt=""></td><td>RetroArch MENU</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (50).png" alt=""></td><td>Load Save State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (48).png" alt=""></td><td>Save State</td></tr><tr><td>Hotkey + START</td><td>Quit RetroArch</td></tr><tr><td>Hotkey + L1</td><td>Eject Disc</td></tr><tr><td>Hotkey + R1</td><td>AI Service</td></tr><tr><td>Hotkey + L2</td><td>Select Disc Index -</td></tr><tr><td>Hotkey + R2</td><td>Select Disc Index +</td></tr><tr><td>Hotkey + D-PAD UP</td><td>Select Save Slot Index +</td></tr><tr><td>Hotkey + D-PAD DOWN</td><td>Select Save Slot Index -</td></tr><tr><td>Hotkey + D-PAD LEFT</td><td>Rewind</td></tr><tr><td>Hotkey + D-PAD RIGHT</td><td>Fast Forward (can be changed from Hold to Toggle)</td></tr><tr><td>Hotkey + R3</td><td>Screenshot</td></tr></tbody></table>
 
 ### Ares
 
@@ -51,6 +51,14 @@ BizHawk uses pad2key to handle shortcuts.
 ### DuckStation
 
 <table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (16).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (30).png" alt=""></td><td>Open MENU</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (50).png" alt=""></td><td>Load State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (48).png" alt=""></td><td>Save State</td></tr><tr><td>Hotkey + START</td><td>Exit DuckStation</td></tr><tr><td>Hotkey + L1</td><td>Toggle FULLSCREEN (when option 'disable fullscreen' is ON)</td></tr><tr><td>Hotkey + R1</td><td>Change Disc</td></tr><tr><td>Hotkey + R3</td><td>Screenshot</td></tr><tr><td>Hotkey + D-PAD UP</td><td>Select Save Slot Index +</td></tr><tr><td>Hotkey + D-PAD DOWN</td><td>Select Save Slot Index -</td></tr><tr><td>Hotkey + D-PAD LEFT</td><td>Rewind</td></tr><tr><td>Hotkey + D-PAD RIGHT</td><td>Fast Forward</td></tr></tbody></table>
+
+### Flycast
+
+<table><thead><tr><th width="269">Hotkeys (keyboard)</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (30).png" alt="">  (TAB)</td><td>Menu</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (50).png" alt="">   (F2)</td><td>Load State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (48).png" alt="">   (F1)</td><td>Save State</td></tr><tr><td>Hotkey + START  (ESCAPE)</td><td>Exit Flycast</td></tr><tr><td>Hotkey + R3  (F9)</td><td>Screenshot</td></tr><tr><td>Hotkey + D-PAD RIGHT  (F4)</td><td>Fast Forward</td></tr></tbody></table>
+
+{% hint style="info" %}
+Flycast uses pad2key to handle shortcuts.
+{% endhint %}
 
 ### Jgenesis
 
