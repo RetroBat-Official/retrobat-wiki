@@ -1,18 +1,18 @@
-# Ship Of Harkinian
+# Super Mario War
 
 <div align="left">
 
-<figure><img src="https://i.imgur.com/vPpkx02.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/0ab5d8cd36c673c827b022c2ae53042a38df33da/art/logos/superbroswar.svg" alt=""><figcaption></figcaption></figure>
 
 </div>
 
-Game engine to play Ocarina Of Time.
+Open-Source Game - Creation year: 2004
 
-{% embed url="https://www.shipofharkinian.com" %}
+{% embed url="https://en.wikipedia.org/wiki/Super_Mario_War" %}
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="240"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>soh</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> soh</td></tr><tr><td><strong>File extension</strong></td><td>.z64 .n64</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="240"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: superbroswar</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> superbroswar</td></tr><tr><td><strong>File extension</strong></td><td>.sbw</td></tr></tbody></table>
 
 ## BIOS
 
@@ -20,32 +20,26 @@ No BIOS required.
 
 ## Controls
 
-<div align="left">
-
-<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone.png?raw=true" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-### Using a N64 controller
-
-RetroBat will automatically detect and configure the following N64 controllers:
-
-* Original N64 pad with Raphnet adapter
-* Original N64 pad with Mayflash adapter
-* Nintendo Switch Online N64 Gamepad
-
-{% hint style="info" %}
-When using Mayflash adapter, controllers must be plugged in reverse order, meaning player 1 will be assigned to the last port of the adapter.
-{% endhint %}
-
-The mapping for N64 controllers can be found in the file "**n64Controllers.json**" that is located in the `\system\resources\inputmapping` folder of the RetroBat installation, it is possible to add your own controller mapping within this file.
+<table><thead><tr><th width="246">Retrobat</th><th>Super Mario War</th></tr></thead><tbody><tr><td>START</td><td>Pause</td></tr><tr><td>SELECT</td><td>exit</td></tr><tr><td>D-PAD</td><td>Directions</td></tr><tr><td><img src="../../../.gitbook/assets/image (48).png" alt=""></td><td>Power Up</td></tr><tr><td><img src="../../../.gitbook/assets/image (30).png" alt=""></td><td>Turbo</td></tr><tr><td><img src="../../../.gitbook/assets/image (16).png" alt=""></td><td>Jump</td></tr><tr><td><img src="../../../.gitbook/assets/image (50).png" alt=""></td><td></td></tr></tbody></table>
 
 ## System Features
 
 ### Adding the game
 
-Place any Zelda Ocarina Of Time compatible game file in roms\soh folder.
+First, download the latest version (beta 1.8 Custom Content Collection archive) of the game here : [https://github.com/mmatyas/supermariowar/releases/tag/continuous](https://github.com/mmatyas/supermariowar/releases/tag/continuous)
 
-The list of compatible roms can be found here:
+Then uncompress the zip file in the `\roms\superbroswar` folder:
 
-{% embed url="https://ship.equipment/" %}
+<div align="left">
+
+<figure><img src="https://i.imgur.com/J5hvgIf.png" alt=""><figcaption></figcaption></figure>
+
+</div>
+
+Finally, create an empty text file inside this folder and change the extension to .sbw:
+
+<div align="left">
+
+<figure><img src="https://i.imgur.com/HkofXzH.png" alt=""><figcaption></figcaption></figure>
+
+</div>
