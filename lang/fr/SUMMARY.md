@@ -252,6 +252,7 @@
     * [Raze](systemes-and-emulateurs/supported-game-systems/autres/raze.md)
     * [REminiscence](systemes-and-emulateurs/supported-game-systems/autres/reminiscence.md)
     * [ScummVM](systemes-and-emulateurs/supported-game-systems/autres/scummvm.md)
+    * [Ship Of Harkinian](systemes-and-emulateurs/supported-game-systems/autres/ship-of-harkinian.md)
     * [Sonic 3 AIR](systemes-and-emulateurs/supported-game-systems/autres/sonic-3-air.md)
     * [Sonic Mania](systemes-and-emulateurs/supported-game-systems/autres/sonic-mania.md)
     * [Sonic Retro](systemes-and-emulateurs/supported-game-systems/autres/sonic-retro.md)
