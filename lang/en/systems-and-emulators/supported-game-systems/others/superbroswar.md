@@ -8,7 +8,7 @@
 
 Game engine to play Ocarina Of Time.
 
-{% embed url="https://en.wikipedia.org/wiki/Super_Mario_War" %}
+{% embed url="https://www.shipofharkinian.com" %}
 
 ## Information
 
