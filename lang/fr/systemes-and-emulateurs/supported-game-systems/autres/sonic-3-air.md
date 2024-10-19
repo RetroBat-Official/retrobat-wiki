@@ -12,7 +12,7 @@ Moteur de jeu permettant de jouer à Sonic 3.
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="240"></th><th></th></tr></thead><tbody><tr><td><strong>Emulateurs</strong></td><td><ul><li>sonic3air</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> sonic3air</td></tr><tr><td><strong>Extensions</strong></td><td>.bin</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="292"></th><th></th></tr></thead><tbody><tr><td><strong>Emulateurs</strong></td><td><ul><li>sonic3air</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> sonic3air</td></tr><tr><td><strong>Extensions</strong></td><td>.bin</td></tr><tr><td><strong>Emplacement des sauvegardes</strong></td><td><em>emulators\sonic3air\savedata</em><br>Copié dans <em>saves\sonic3air</em></td></tr></tbody></table>
 
 ## Bios
 

@@ -14,7 +14,7 @@ Moteur de jeu permettant de jouer à Sonic 1, Sonic 2 et Sonic CD.
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="240"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>sonicretro</li><li>sonicretrocd</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> sonicretro</td></tr><tr><td><strong>Extensions</strong></td><td>.rsdk</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="286"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>sonicretro</li><li>sonicretrocd</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> sonicretro</td></tr><tr><td><strong>Extensions</strong></td><td>.rsdk</td></tr><tr><td><strong>Emplacement des sauvegardes</strong></td><td><p><em>Dossier du jeu</em></p><p>Copié dans <em>saves\sonicretro\&#x3C;dossier du jeu></em></p></td></tr></tbody></table>
 
 ## BIOS
 

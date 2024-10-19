@@ -12,7 +12,7 @@ Moteur de jeu permettant de jouer à Sonic Mania.
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="240"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>sonicmania</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> sonicmania</td></tr><tr><td><strong>Extensions</strong></td><td>.rsdk</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="305"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>sonicmania</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> sonicmania</td></tr><tr><td><strong>Extensions</strong></td><td>.rsdk</td></tr><tr><td><strong>Emplacement des sauvegardes</strong></td><td><em>roms\sonicmania</em><br>Copié dans <em>saves\sonicmania</em></td></tr></tbody></table>
 
 ## BIOS
 

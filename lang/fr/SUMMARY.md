@@ -286,6 +286,7 @@
 * [Décorations (bezels)](utilisation-avancee/decorations-and-bezels.md)
 * [Mises à Jour et Téléchargements](utilisation-avancee/updates-and-content-download.md)
 * [Mode Kiosque et Mode Enfant](utilisation-avancee/kiosk-and-kid-mode.md)
+* [Sauvegardes d'état](utilisation-avancee/sauvegardes-detat.md)
 * [Succès Rétro](utilisation-avancee/retroachievements.md)
 * [Parties en Réseau](utilisation-avancee/netplay.md)
 * [IA de Traduction](utilisation-avancee/ai-translation-service.md)
