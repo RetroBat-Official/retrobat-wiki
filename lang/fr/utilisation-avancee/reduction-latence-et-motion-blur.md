@@ -9,7 +9,7 @@ Pour réduire le décalage au minimum, on peut mettre l'émulation en pause, app
 Le nombre d'images de décalage correspond au nombre d'images avancées - 1.
 Attention, **plus le nombre d'images en avance sur l'émulation est élevé, plus le processeur est sollicité**.
 
-De nombreux cœurs ne laissent pas l'émulation audio dans un état propre après le chargement nécessaire à cette fontion, ce qui peut provoquer des bourdonnements. 
+De nombreux cœurs ne laissent pas l'émulation audio dans un état propre après le chargement d'état nécessaire à cette fontion, ce qui peut provoquer des bourdonnements. 
 L'utilisation du **Mode à deux instances** fait en sorte que le noyau principal n'effectue aucun chargement, ce qui permet d'éviter ce problème.
 
 **Preemptive Frames** est un moyen plus moderne d'obtenir le même résultat que Run-ahead avec moins de puissance de calcul.
