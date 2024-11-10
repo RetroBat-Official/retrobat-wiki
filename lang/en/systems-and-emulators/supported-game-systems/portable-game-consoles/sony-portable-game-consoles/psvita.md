@@ -143,6 +143,8 @@ The title ID can be retrieved by running directly the Vita3k emulator.
 
 </div>
 
+It's also possible to use a .psvita file instead of .m3u, but in this case the file must contain the game ID inside square brackets.
+
 #### Case 2 : game is in your roms folder and not yet installed in the emulator
 
 RetroBat will automatically take care of the installation when you run the game for the first time, provided that the games are in the correct format.
