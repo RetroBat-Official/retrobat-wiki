@@ -141,6 +141,8 @@ L'ID de jeu peut être trouvé en lançant directement l'émulateur Vita3k.
 
 <figure><img src="https://i.imgur.com/XFt1Iop.png" alt=""><figcaption></figcaption></figure>
 
+Il est également possible d'utiliser un fichier .psvita à la place du .m3u mais dans ce cas le fichier doit contenir l'ID de jeu entre crochets.
+
 #### Cas 2 : Le jeu se trouve dans votre répertoire roms et n'est pas encore installé dans l'émulateur
 
 RetroBat prend en charge automatiquement l'installation du jeu lorsque vous le lancez pour la 1ère fois, sous réserve que le jeu soit dans le bon format.
