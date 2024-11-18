@@ -293,6 +293,7 @@
 * [IA de Traduction](utilisation-avancee/ai-translation-service.md)
 * [Batgui](utilisation-avancee/batgui.md)
 * [retrobat.ini](utilisation-avancee/retrobat.ini.md)
+* [Softpatching](utilisation-avancee/softpatching.md)
 
 ## Tutoriels
 
