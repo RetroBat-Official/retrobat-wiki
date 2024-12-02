@@ -204,7 +204,7 @@
     * [Namco 246/256](systemes-and-emulateurs/supported-game-systems/arcade/namco-246-256.md)
     * [Sega](systemes-and-emulateurs/supported-game-systems/arcade/sega/README.md)
       * [Sega Model 2](systemes-and-emulateurs/supported-game-systems/arcade/sega/sega-model-2.md)
-      * [Sega Titan-Video](systemes-and-emulateurs/supported-game-systems/arcade/sega/sega\_stv.md)
+      * [Sega Titan-Video](systemes-and-emulateurs/supported-game-systems/arcade/sega/sega_stv.md)
       * [Sega Model 3](systemes-and-emulateurs/supported-game-systems/arcade/sega/sega-model-3.md)
       * [Sega NAOMI](systemes-and-emulateurs/supported-game-systems/arcade/sega/sega-naomi.md)
       * [Sega NAOMI 2](systemes-and-emulateurs/supported-game-systems/arcade/sega/sega-naomi-2.md)
@@ -274,7 +274,7 @@
   * [⌨️ Clavier](controleurs/supported-controllers/keyboard.md)
   * [🛞 Volants](controleurs/supported-controllers/volants.md)
 * [Configuration des Contrôleurs](controleurs/controller-configuration.md)
-* [Contrôle des pistolets](controleurs/pistolets\_controles.md)
+* [Contrôle des pistolets](controleurs/pistolets_controles.md)
 * [Configuration des touches spécifique par émulateur](controleurs/configuration-des-touches-specifique-par-emulateur/README.md)
   * [Configuration des touches Dolphin](controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-dolphin.md)
   * [Configuration des touches Model2](controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-model2.md)
@@ -294,6 +294,7 @@
 * [Batgui](utilisation-avancee/batgui.md)
 * [retrobat.ini](utilisation-avancee/retrobat.ini.md)
 * [Softpatching](utilisation-avancee/softpatching.md)
+* [Réduction de la latence / flou de mouvement](utilisation-avancee/reduction-de-la-latence-flou-de-mouvement.md)
 
 ## Tutoriels
 
