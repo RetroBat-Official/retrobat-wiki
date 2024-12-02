@@ -2,6 +2,8 @@
 
 ### Latency Reduction settings
 
+<div align="left"><figure><img src="https://i.imgur.com/lncJa6R.png" alt=""><figcaption></figcaption></figure></div>
+
 This function can be used to reduce the inherent built-in amount of lag that each game has and can also help to compensate fore input display lag. It's a function that **only applies to Retroarch systems**.
 
 To reduce the lag to its minimum, one can pause emulation, press and hold a direction on the controller and advance emulation frame by frame until the character moves. The frames of lag are the amount of frames advanced - 1. Beware that **the higher the number of frames you are going to run ahead of emulation, the higher demand it places on your CPU**.
