@@ -6,11 +6,7 @@ Retrobat comes bundled with a set of shaders, however it does not include all sh
 
 You can manually add new Shader Sets to the Retrobat menu for libretro cores, here is the procedure.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/XR6pMX0.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/XR6pMX0.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Location of Shaders
 
@@ -18,11 +14,7 @@ You can manually add new Shader Sets to the Retrobat menu for libretro cores, he
 
 Shaders available in Retrobat are located in the `\system\shaders\configs` folder of your Retrobat installation.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/ChxJMdd.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/ChxJMdd.png" alt=""><figcaption></figcaption></figure></div>
 
 ### RetroArch
 
@@ -39,11 +31,7 @@ Retrobat will automatically search in the right folder based on the video driver
 
 Example of shader folders for GLSL:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/ijn2wYK.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/ijn2wYK.png" alt=""><figcaption></figcaption></figure></div>
 
 
 
@@ -58,19 +46,11 @@ The shader is located in the `\retroarch\shaders\shaders_xxxx\cel` folder and is
 
 To add it to Retrobat, go to the `\system\shaders\configs` folder and create a new folder, name it for example "advcartoon":
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/xkrY1en.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/xkrY1en.png" alt=""><figcaption></figcaption></figure></div>
 
 Inside this folder, create a file called "**rendering-defaults.yml**":
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/oNGcd2L.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/oNGcd2L.png" alt=""><figcaption></figcaption></figure></div>
 
 Open the file with your notepad and add the following text:
 
@@ -86,21 +66,13 @@ default:
   shader: cel/advcartoon
 ```
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/uKOVcK3.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/uKOVcK3.png" alt=""><figcaption></figcaption></figure></div>
 
 The shader set will now appear in Retrobat:
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/J6fPEFF.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/J6fPEFF.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-Some shaders can be adapted for specific systems, trying to reproduce in a more precise way their effects. It's possible to use different shaders per-systems on the same **rendering-defaults.yml** file**.**\
+Some shaders can be adapted for specific systems, trying to reproduce in a more precise way their effects. It's possible to use different shaders per-systems on the same **rendering-defaults.yml** fil&#x65;**.**\
 For this, adding the name of the system for which the shader should be different from the default one.
 
 <figure><img src="https://i.imgur.com/knv5MPm.png" alt=""><figcaption></figcaption></figure>

@@ -294,6 +294,7 @@
 * [Batgui](advanced-features/batgui.md)
 * [retrobat.ini](advanced-features/retrobat.ini.md)
 * [Latency and blur reduction](advanced-features/latency-and-blur-reduction.md)
+* [Softpatching](advanced-features/softpatching.md)
 
 ## TUTORIALS
 

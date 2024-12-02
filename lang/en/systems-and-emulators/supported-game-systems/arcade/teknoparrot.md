@@ -4,11 +4,7 @@ description: TeknoGods
 
 # TeknoParrot
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/teknoparrot.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/teknoparrot.svg" alt=""><figcaption></figcaption></figure></div>
 
 PC-based arcade games emulator
 
@@ -76,11 +72,7 @@ To add **Teknoparrot** games, you must first download the Teknoparrot "emulator"
 
 Then, unzip the file you just downloaded in **\emulators\teknoparrot:**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/rQlbFKQ.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/rQlbFKQ.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
 Your antivirus will surely panic, keep cool, these are false positives, so make sure that your antivirus authorizes the detected files.
@@ -88,23 +80,15 @@ Your antivirus will surely panic, keep cool, these are false positives, so make 
 
 Launch the TeknoParrotUi.exe for the first time, it will most certainly ask for several updates: do them, **all.**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/liUVclK.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/liUVclK.png" alt=""><figcaption></figcaption></figure></div>
 
 Place your Teknoparrot games in **\roms\teknoparrot**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/wqTsWOQ.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/wqTsWOQ.png" alt=""><figcaption></figcaption></figure></div>
 
 The folders name of your Teknoparrot games must be renamed to **.teknoparrot** **.parrot** or **.game**
 
-For example, the game folder of _Mario Kart: Arcade GP DX_ must be renamed**:**&#x20;
+For example, the game folder of _Mario Kart: Arcade GP DX_ must be rename&#x64;**:**&#x20;
 
 * `MKDX.teknoparrot`,&#x20;
 * or `MKDX.parrot`
@@ -112,11 +96,7 @@ For example, the game folder of _Mario Kart: Arcade GP DX_ must be renamed**:**&
 
 **Important detail**, the folders name must correspond to the name of the json file for the game in the Teknoparrot "**Metadata**" folder located in **\emulators\teknoparrot\Metadata**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/6BBrvM8.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/6BBrvM8.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 You can also use the .xml game profile file name in the **\emulators\teknoparrot\GameProfiles** folder.

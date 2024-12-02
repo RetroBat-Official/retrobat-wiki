@@ -4,11 +4,7 @@ description: Senile Team
 
 # Open Beats Of Rage
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/openbor.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/openbor.svg" alt=""><figcaption></figcaption></figure></div>
 
 Fighting Game Engine - Released: 2003
 
@@ -50,31 +46,19 @@ RetroBat lets users run a dedicated OpenBOR version for a specific game, any ver
 
 To do so, you need first to download the required OpenBOR version you want to run and place it within the `emulators\openbor` directory, in a subfolder identified by the version number (maximum 4 digits):
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/Qun9nDy.png" alt=""><figcaption><p>In this example, versions 4153 and 7533 are custom versions</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/Qun9nDy.png" alt=""><figcaption><p>In this example, versions 4153 and 7533 are custom versions</p></figcaption></figure></div>
 
 Then, the next step is to assign the game to the specific version you want to run when launching the game, to do so, specify the name of the openBOR version to use between brackets ( "\[" and "]" )in the game filename:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/vVLQjYk.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/vVLQjYk.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 The version number located at the very end of the bracket must match the name of the openBOR version subfolder in the `\emulators\openbor` folder.
 {% endhint %}
 
-Finally, in RetroBat, select the emulator called "**openbor-specific-version"**, and run the game**:**
+Finally, in RetroBat, select the emulator called "**openbor-specific-version"**, and run the gam&#x65;**:**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/W0Gkhrz.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/W0Gkhrz.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 RetroBat does not perform any configuration for specific versions of OpenBOR : controls and configuration must be performed directly within OpenBOR.
