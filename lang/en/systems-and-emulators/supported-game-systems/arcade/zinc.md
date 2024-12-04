@@ -2,11 +2,7 @@
 
 
 
-<div align="left">
-
-<figure><img src="https://github.com/fabricecaruso/es-theme-carbon/blob/master/art/logos/zinc.png?raw=true" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/fabricecaruso/es-theme-carbon/blob/master/art/logos/zinc.png?raw=true" alt=""><figcaption></figcaption></figure></div>
 
 Playstation hardware arcade games emulator
 
@@ -70,9 +66,156 @@ DO NOT UNZIP or RENAME the game files.
 
 Some games require CHD files, these must be placed in a subfolder that has the same name as the gamezip:
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/w68hUHc.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/w68hUHc.png" alt=""><figcaption></figcaption></figure>
+### Zinc emulator romset
 
-</div>
+Zinc emulator is only compatible with the following roms, the name must match exactly the list:
 
+<details>
+
+<summary>ZINC romset</summary>
+
+·         starglad
+
+·         sfex
+
+·         sfexj
+
+·         sfexa
+
+·         sfexp
+
+·         sfexpu
+
+·         sfexpj
+
+·         sfex
+
+·         sfexj
+
+·         sfexp
+
+·         sfexpj
+
+·         sfexpa
+
+·         plsmaswd
+
+·         stargld
+
+·         rvschola
+
+·         jgakuen
+
+·         rvschool
+
+·         shiryu
+
+·         strider
+
+·         kikaioh
+
+·         techromn
+
+·         ts
+
+·         tsj
+
+·         tgmj
+
+·         sncwgltd
+
+·         beastrzb
+
+·         beastrzr
+
+·         bldyror
+
+·         brvblade
+
+·         psyforcj
+
+·         psyforce
+
+·         psyfrcex
+
+·         mgcldtex
+
+·         raystorj
+
+·         raystorm
+
+·         ftimpcta
+
+·         gdarius
+
+·         gdarius
+
+·         danceyes
+
+·         xevidg
+
+·         starswep
+
+·         myangel
+
+·         tekkenb
+
+·         tekkena
+
+·         tekken
+
+·         tekkena
+
+·         tekkenb
+
+·         tekken
+
+·         souledga
+
+·         souledgb
+
+·         souledge
+
+·         dunkmnia
+
+·         dunkmnic
+
+·         primglex
+
+·         weddingr
+
+·         hyperath
+
+·         pbball
+
+·         susume
+
+·         fgtlayer
+
+·         ehrgeiz
+
+·         tekken
+
+·         mrdrillr
+
+·         aquarush
+
+·         pacapp
+
+·         glpracr
+
+·         shngmtkb
+
+·         cbaj
+
+·         doapp
+
+·         tondemo
+
+·         mfjump
+
+·         hvnsgate
+
+</details>
