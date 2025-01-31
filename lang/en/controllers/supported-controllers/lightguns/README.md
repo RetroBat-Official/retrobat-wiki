@@ -14,19 +14,11 @@ When a lightgun is connected to the system, a small gun icon appears on the top 
 
 Also, a crosshair will appear on the screen as well as a collection called **LIGHT GUN** in the **System View**.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/YDBWOrd.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/YDBWOrd.png" alt=""><figcaption></figcaption></figure></div>
 
 LightGun compatible games will have a specific icon next to their name in the **Game View**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/rbFVyjA.png" alt=""><figcaption><p>Duck Hunt is compatible</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/rbFVyjA.png" alt=""><figcaption><p>Duck Hunt is compatible</p></figcaption></figure></div>
 
 The list of LightGun games is stored in an .xml file inside your Retrobat folder, if you find that some games appear in the list but are not LightGun games, you can remove them from the file and manage your own list
 
@@ -36,11 +28,7 @@ Edit this file at your own risk.&#x20;
 Be sure to save your file version as it might be overwritten by a Retrobat update.
 {% endhint %}
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/2wr4B4z.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/2wr4B4z.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Some games appear in the list but the LightGun functionality is available only in some levels or some mini-games.
@@ -54,27 +42,15 @@ Lightguns can be activated for a system or for a game.
 
 To activate Lightguns for a system, from the **Game View**, open the [View Options](../../../navigation/view-options.md) and select **ADVANCED SYSTEM OPTIONS**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/rfmZxeu.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/rfmZxeu.png" alt=""><figcaption></figcaption></figure></div>
 
 Navigate to **GUNS**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/0J8HuT2.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/0J8HuT2.png" alt=""><figcaption></figcaption></figure></div>
 
 Switch **LIGHTUN** to **ON**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/8jcksZ3.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/8jcksZ3.png" alt=""><figcaption></figcaption></figure></div>
 
 The same can be done per game from the [Game Options](../../../navigation/game-options.md) menu and **ADVANCED GAME OPTIONS**
 
@@ -113,11 +89,7 @@ Note that Wiimote mode 4 is not compatible with using multiple Wiimotes for mult
 
 ### Sinden Lightgun
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/B4s3AIf.png" alt="" width="188"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/B4s3AIf.png" alt="" width="188"><figcaption></figcaption></figure></div>
 
 The Sinden Lightgun works with RetroBat and should be automatically detected, it is however necessary to have the Sinden Software running in parallel of RetroBat.
 
@@ -128,12 +100,22 @@ When using Sinden Lightguns, the gun requires a white border to be displayed aro
 * The border should appear automatically for most emulators
 * In some cases, for "standalone" emulators, RetroBat uses Reshade to manage the boder. For that select the "sindenborder" shader in the list of available shaders in the RetroBat menu:
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/Tx26Eal.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/Tx26Eal.png" alt=""><figcaption></figcaption></figure>
+RetroBat can autolaunch the sinden lightgun software when a Sinden gun is detected, you can either put the sinden software within the **system\tools\sinden** folder of the retrobat installation...
 
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/5cAaTW4.png" alt=""><figcaption></figcaption></figure></div>
+
+... or specify where the executable is located in the settings:
+
+<div align="left"><figure><img src="https://i.imgur.com/cjofFh6.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Gun4IR
 
 {% embed url="https://www.gun4ir.com/" %}
+
+### RetroShooters
+
+<div align="left"><figure><img src="https://i.imgur.com/qkz0rwl.png" alt="" width="188"><figcaption></figcaption></figure></div>
+
+{% embed url="https://retroshooter.com/" %}

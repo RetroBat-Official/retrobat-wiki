@@ -57,3 +57,7 @@ DualSense controllers supports motion and is reported to work natively with Retr
 ![](<../../.gitbook/assets/image (40).png>)
 
 DS4 controllers supports motion and is reported to work natively with Retrobat.
+
+{% hint style="danger" %}
+Some emulators do not detect DS4 inputs
+{% endhint %}
