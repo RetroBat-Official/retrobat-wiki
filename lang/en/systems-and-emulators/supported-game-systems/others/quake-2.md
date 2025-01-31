@@ -6,11 +6,7 @@ description: vitaQuake II
 
 
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/55ff14aa79c95ecc70133072e6ac19fed3555b56/art/logos/vitaquake2.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/55ff14aa79c95ecc70133072e6ac19fed3555b56/art/logos/vitaquake2.svg" alt=""><figcaption></figcaption></figure></div>
 
 Game engine to play Quake 2.
 
@@ -18,7 +14,7 @@ Game engine to play Quake 2.
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: vitaquake2</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> vitaquake2</td></tr><tr><td><strong>File extension</strong></td><td>.pak</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: vitaquake2</li><li>Libretro: vitaquake2-zaero</li><li>Libretro: vitaquake2-rogue</li><li>Libretro: vitaquake2-xatrix</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> vitaquake2</td></tr><tr><td><strong>File extension</strong></td><td>.pak</td></tr></tbody></table>
 
 ## Bios Information
 

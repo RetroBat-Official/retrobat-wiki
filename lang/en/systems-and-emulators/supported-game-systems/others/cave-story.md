@@ -4,11 +4,7 @@ description: Studio Pixel
 
 # Cave Story
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/KwOXBWx.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/KwOXBWx.png" alt=""><figcaption></figcaption></figure></div>
 
 Video game - Released: 2004
 
@@ -18,7 +14,7 @@ Download the game from the [Content Downloader](../../../advanced-features/updat
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: nxengine</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> cavestory</td></tr><tr><td><strong>File extension</strong></td><td>.libretro .exe</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: nxengine</li><li>Libretro: doukutsu_rs</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> cavestory</td></tr><tr><td><strong>File extension</strong></td><td>.libretro .exe</td></tr></tbody></table>
 
 ## Bios Information
 

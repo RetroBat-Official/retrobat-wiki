@@ -4,11 +4,7 @@ description: Nintendo
 
 # Game Boy 2 players
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/gb2players.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/gb2players.svg" alt=""><figcaption></figcaption></figure></div>
 
 This system is used to emulate the use of the link cable that allows two people to play two-player games on 2 Game Boys connected with the cable.
 
@@ -18,11 +14,11 @@ Only a limited list of titles are compatible.
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: tgbdual</li><li>libretro: sameboy</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> gb2players</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.gb .zip .m3u .7z</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: tgbdual</li><li>libretro: sameboy</li><li>libretro: DoubleCherryGB</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> gb2players</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.gb .zip .m3u .7z</td><td></td></tr></tbody></table>
 
 ## System Features
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-tgbdual: NO<br>lr-sameboy: NO</td><td>lr-tgbdual: NO<br>lr-sameboy: NO</td><td>lr-tgbdual: YES<br>lr-sameboy: YES</td></tr></tbody></table>
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-tgbdual: NO<br>lr-sameboy: NO<br>lr-DoubleCherryGB: NO</td><td>lr-tgbdual: NO<br>lr-sameboy: NO<br>lr-DoubleCherryGB: NO</td><td>lr-tgbdual: YES<br>lr-sameboy: YES<br>lr-DoubleCherryGB: YES</td></tr></tbody></table>
 
 ## BIOS
 
@@ -42,10 +38,6 @@ Libretro: sameboy can simulate a cable link with 2 different cartridges. To do t
 
 
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/obmo6y9.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/obmo6y9.png" alt=""><figcaption></figcaption></figure></div>
 
 The 2 game files listed in the .m3u must exist in the `roms\gb2players` folder.

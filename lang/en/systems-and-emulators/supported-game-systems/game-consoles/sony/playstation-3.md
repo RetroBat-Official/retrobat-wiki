@@ -4,11 +4,7 @@ description: Sony
 
 # Playstation 3
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/ps3-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/ps3.svg" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/ps3-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/ps3.svg" alt=""></picture><figcaption></figcaption></figure></div>
 
 Game Console - Lifespan: 2006 - 2017
 
@@ -16,7 +12,7 @@ Game Console - Lifespan: 2006 - 2017
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>rpcs3</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> ps3</td></tr><tr><td><strong>File extension</strong></td><td>.m3u .ps3 .iso .7z .zip .rar .squashfs</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>rpcs3</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> ps3</td></tr><tr><td><strong>File extension</strong></td><td>.m3u .lnk .ps3 .iso .7z .zip .rar .squashfs</td></tr></tbody></table>
 
 ## System Features
 
@@ -30,31 +26,19 @@ Game Console - Lifespan: 2006 - 2017
 
 The first time the rpcs3 emulator is launched, if the PS3UPDAT.PUP file is present in you \bios folder, the emulator will automatically prompt to install the firmware, once the firmware installed you can close and relaunch the game.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/1ovzizA.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/1ovzizA.png" alt=""><figcaption></figcaption></figure></div>
 
 #### Manual firmware installation
 
 Run rpcs3.exe file in `\emulators\rpcs3` folder and **install firmware**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/18HE0DC.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/18HE0DC.png" alt=""><figcaption></figcaption></figure></div>
 
 Select the **PS3UPDAT.PUP** and run firmware installation.
 
 Firmware will appear at the bottom of the emulator:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/JFjxamH.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/JFjxamH.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Controls
 
@@ -66,11 +50,7 @@ The following controllers can be autoconfigured from Retrobat to RPCS3:
 * Nintendo Switch Pro controller
 {% endhint %}
 
-<div align="left">
-
-<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/psx.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/psx.png?raw=true" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ### Pressure sensitivity
 
@@ -97,11 +77,7 @@ There are 2 types of PS3 games available: Blu-Ray discs and PlayStation Network 
 * Title IDs that start with a B are Blu-Ray disc titles.
 * Title IDs that start with a N are PSN titles.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/EsmEoB4.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/EsmEoB4.png" alt=""><figcaption></figcaption></figure></div>
 
 Blu-ray disc titles can be copied directly in the  `\roms\ps3` folder while PSN titles need to be added in the `\saves\ps3\rpcs3\dev_hdd0\game` folder of your RetroBat installation.
 
@@ -113,11 +89,7 @@ PSN titles need to be decrypted to be used with RPCS3 emulator.
 
 Simply copy the game folder to the `\roms\ps3` folder of your RetroBat installation and rename the folder with a .ps3 extension:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/E98BUs9.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/E98BUs9.png" alt=""><figcaption></figcaption></figure></div>
 
 The game will directly be available in RetroBat.
 
@@ -128,18 +100,18 @@ Once the game has been added to the emulator from the "**Install package**" or/a
 
 
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/qV3GMuC.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/qV3GMuC.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/LmL6NUh.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/LmL6NUh.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 BATGUI tool offers an automatic m3u creation tool. Refer to the [BATGUI ](../../../../advanced-features/batgui.md)section of the wiki.
 {% endhint %}
+
+### Use emulator game configuration
+
+By default, RetroBat runs games with the RetroBat features defined within RetroBat advanced options menu, thus ignoring any game specific configuration performed directly in RPCS3 emulator.
+
+If you want RetroBat to use a specific game configuration saved directly in rpcs3, enable the following option in RetroBat advanced options: "**USE CUSTOM CONFIG**"
+
+<div align="left"><figure><img src="https://i.imgur.com/8PSzWko.png" alt=""><figcaption></figcaption></figure></div>

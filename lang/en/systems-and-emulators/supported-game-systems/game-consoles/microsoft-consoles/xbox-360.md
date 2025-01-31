@@ -4,11 +4,7 @@ description: Microsoft
 
 # Xbox 360
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/xbox360.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/xbox360.svg" alt=""><figcaption></figcaption></figure></div>
 
 Game Console - Lifespan: 2005 - 2016
 
@@ -16,7 +12,7 @@ Game Console - Lifespan: 2005 - 2016
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>xenia</li><li>xenia-canary</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> xbox360</td></tr><tr><td><strong>File extension</strong></td><td>.iso .xex .xcp .zar .m3u .xbox360</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>xenia-canary</li><li>xenia</li><li>xenia-manager</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> xbox360</td></tr><tr><td><strong>File extension</strong></td><td>.iso .xex .xcp .zar .m3u .xbox360</td></tr></tbody></table>
 
 ## System Features
 
@@ -52,42 +48,10 @@ For example for _Banjo Tooie_ game, the filepath is the following:
 
 For Retrobat to be able to launch the game, you must create a **\*.m3u** file to be placed at the root of the `\roms\xbox360` folder.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/tfzS8Rt.png" alt=""><figcaption><p>Example for Banjo Tooie</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/tfzS8Rt.png" alt=""><figcaption><p>Example for Banjo Tooie</p></figcaption></figure></div>
 
 The content of the .m3u file is the following:
 
 ```
 \Banjo Tooie\58410955\000D0000\ABB9CAB336175357D09F2D922735D23C62F90DDD
 ```
-
-{% hint style="info" %}
-BATGUI tool offers an automatic m3u creation tool. Refer to the [BATGUI ](../../../../advanced-features/batgui.md)section of the wiki.
-{% endhint %}
-
-### Xenia Manager
-
-RetroBat allows running the Xenia-Manager, to do that you need to download the Xenia-Manager from [RetroBat's content manager](../../../../advanced-features/updates-and-content-download.md#download-content):
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/NftT8E2.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-Once downloaded, refresh the gamelist, now Xenia Manager is available from the RetroBat menu:
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/G4xuhPy.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-{% hint style="warning" %}
-Do not use another version of Xenia-Manager fournie as the one provided by RetroBat is the only one with the right paths to the xenia emulators.
-
-If you install it outside of RetroBat, the emulators will be in a subpath of the manager and will not work with RetroBat.
-{% endhint %}

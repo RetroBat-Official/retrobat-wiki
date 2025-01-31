@@ -1,10 +1,6 @@
 # LaserDisc
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/daphne.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/daphne.svg" alt=""><figcaption></figcaption></figure></div>
 
 Arcade - First LaserDisc game release : 1983
 
@@ -61,35 +57,19 @@ roms\
 
 Once the game added, it is listed twice in Retrobat, as both the zip and the .daphne folder are detected.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/crqriZ1.png" alt=""><figcaption><p>lair appears twice</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/crqriZ1.png" alt=""><figcaption><p>lair appears twice</p></figcaption></figure></div>
 
 You can use use the [**VIEW OPTIONS**](../../../navigation/view-options.md) to hide the `.zip` extension for the system by pressing **SELECT**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/dQngpx5.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/dQngpx5.png" alt=""><figcaption></figcaption></figure></div>
 
 Navigate to [**VIEW CUSTOMIZATION**](../../../navigation/view-options.md#view-options) and FILE EXTENSIONS
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/JT7AqDc.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/JT7AqDc.png" alt=""><figcaption></figcaption></figure></div>
 
 Untick .zip extension
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/B38zdIa.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/B38zdIa.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Adding SINGE Games (with Hypseus)
 
@@ -102,11 +82,7 @@ The process is similar as for Daphne games but there is no zip file to place in 
 
 **T**he structure of the game folder should look like this:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/QPFt4jZ.jpg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/QPFt4jZ.jpg" alt=""><figcaption></figcaption></figure></div>
 
 ### Simple games folders structure (Hypseus)
 
@@ -120,35 +96,29 @@ At first, download the content of the repository above,
 
 &#x20;and extract the zip on a temporary folder.
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure></div>
 
 For the exemple, we will use the game Astroboy, in 00-singe2 sub-folder :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/cbDJNRN.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/cbDJNRN.png" alt=""><figcaption></figcaption></figure></div>
 
 Inside the game folder, you will find a text file that contain the information about which file is missing, and where it have to be place. In this exemple, you have to place the file `astroboy.m2v` in the folder `Video`.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/gobNmnZ.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/gobNmnZ.png" alt=""><figcaption></figcaption></figure></div>
 
 After adding the required files (could be `.m2v` file, or `.ogg` and `.m2v` files), you must rename your folder by adding .daphne at the end of the folder name (in our exemple : `Astroboy.daphne`) and move this folder to the `/roms/daphne/` folder
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/AcTA2z0.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/AcTA2z0.png" alt=""><figcaption></figcaption></figure>
+### Use custom command lines (Hypseus)
 
-</div>
+It is possible to use a custom command file to force command line to hypseus emulator, to do so, create a text file in the rom folder and add all command lines required within the file:
+
+<div align="left"><figure><img src="https://i.imgur.com/lVcsfdd.png" alt=""><figcaption></figcaption></figure></div>
+
+<div align="left"><figure><img src="https://i.imgur.com/5ctmvZB.png" alt=""><figcaption></figcaption></figure></div>
+
+Finally: rename the file with the .commands extension, the name of the file must match exactly the name of the game folder (without the .singe or .daphne extension).
 
 ### Adding SINGE2 games (singe2 emulator)
 
@@ -160,17 +130,9 @@ Only games listed on the emulator webpage can be used:
 
 You can download these games, add the video/sound files required, and rename the folder with a .singe extension to use these games with the SINGE2 emulator:
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/0iDxyWG.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/0iDxyWG.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/7dDJtAe.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/7dDJtAe.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
 It is very important to KEEP the game folder name as downloaded from the website !

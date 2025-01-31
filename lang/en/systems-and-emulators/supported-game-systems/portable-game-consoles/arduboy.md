@@ -4,11 +4,7 @@ description: Kevin Bates
 
 # Arduboy
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/78a0a78ab8f5e6a606f63833349382908d01d8af/art/logos/arduboy.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/78a0a78ab8f5e6a606f63833349382908d01d8af/art/logos/arduboy.svg" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Open-source portable Game Console - Creation date: 2015
 
@@ -16,7 +12,7 @@ Open-source portable Game Console - Creation date: 2015
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="195"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: arduous</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span>roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> arduboy</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.hex .zip .7z</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="195"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: arduous</li><li>libretro: ardens</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span>roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> arduboy</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.hex .zip .7z</td><td></td></tr></tbody></table>
 
 ## System features
 

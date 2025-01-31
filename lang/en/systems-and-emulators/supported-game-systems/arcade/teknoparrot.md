@@ -20,45 +20,63 @@ No BIOS required.
 
 ## Controls
 
-{% hint style="warning" %}
-Automatic controller configuration for Teknoparrot is not fully reliable (yet), there might be cases (depending on game and type of Gamepad) where you will need to disable automatic controller configuration in RetroBat and configure controls directly in TeknoParrot.
-{% endhint %}
+Controls are automatically configured since RetroBat version 7.0.0.0 for gamepads and guns.
 
-| Retrobat Button                                | Arcade Key               |
-| ---------------------------------------------- | ------------------------ |
-| START                                          | START                    |
-| SELECT                                         | COIN                     |
-| Left analog stick                              | Directions (If analog)   |
-| Right analog stick                             |                          |
-| D-PAD                                          | Directions               |
-| ![](<../../../.gitbook/assets/image (48).png>) | Button 4                 |
-| ![](<../../../.gitbook/assets/image (30).png>) | Button 2 / ExtensionOne2 |
-| ![](<../../../.gitbook/assets/image (16).png>) | Button 1                 |
-| ![](<../../../.gitbook/assets/image (50).png>) | Button 3                 |
-| L1                                             | Button 5                 |
-| R1                                             | Button 6                 |
+The file **teknoparrot.yml** located in `system\resources\inputmapping` is the file providing the default mapping for each game, it can be updated if you need a different mapping for a game.
 
-### Driving Games:
 
-| Retrobat Button   | Arcade Key |
-| ----------------- | ---------- |
-| Left analog stick | Wheel      |
-| R3 (Right Thumb)  | Gas        |
-| L3 (Left Thumb)   | Brake      |
 
-### MachStorm controls
+Example for spiderman:
 
-| Retrobat Button                                | Arcade Key     |
-| ---------------------------------------------- | -------------- |
-| SELECT                                         | Service 1      |
-| Left analog up                                 | Analog 6       |
-| Left analog left                               | Analog 4       |
-| RightR3 (Right Thumb)                          | Analog 2       |
-| Up                                             | Up             |
-| Down                                           | Down           |
-| ![](<../../../.gitbook/assets/image (16).png>) | Button 1       |
-| ![](<../../../.gitbook/assets/image (30).png>) | ExtensionOne12 |
-| ![](<../../../.gitbook/assets/image (50).png>) | ExtensionOne11 |
+```
+spiderman:
+  Coin1: select # P2 COINS
+  P1Button6: leftshoulder # P1 COINS
+  P1ButtonStart: start # P1 START / ACTION
+  P2ButtonStart: start # P2 START / ACTION
+  Service1: r3 # Test Select
+  Test: l3 # Test Menu
+```
+
+Gun games can have 2 mappings, one to play with the gamepad and one for using mouse/lightgun:
+
+```
+hotd4:
+  Analog0: rightstickleft # Player 1 Gun X
+  Analog2: rightstickup # Player 1 Gun Y
+  Analog4: rightstickleft # Player 2 Gun X
+  Analog6: rightstickup # Player 2 Gun Y
+  Coin1: select # Coin 1
+  Coin2: select # Coin 2
+  P1Button1: righttrigger # Player 1 Gun Trigger
+  P1Button2: lefttrigger # Player 1 Reload
+  P1Button3: leftshoulder # Player 1 Grenade
+  P1ButtonStart: start # Player 1 Start
+  P2Button1: righttrigger # Player 2 Gun Trigger
+  P2Button2: lefttrigger # Player 2 Reload
+  P2Button3: leftshoulder # Player 2 Grenade
+  P2ButtonStart: start # Player 2 Start
+  Service1: r3 # Service 1
+  Test: l3 # Test
+
+hotd4_gun:
+  Coin1: kb_5 # Coin 1
+  Coin2: kb_6 # Coin 2
+  mouseleft_1: P1Button1 # P1 Left Trigger
+  mouseleft_2: P2Button1 # P2 Left Trigger
+  mousemiddle_1: P1Button3 # P1 Grenades
+  mousemiddle_2: P2Button3 # P2 Grenades
+  mouseright_1: P1Button2 # P1 Right Trigger
+  mouseright_2: P2Button2 # P2 Right Trigger
+  P1ButtonStart: kb_1 # P1 Start
+  P2ButtonStart: kb_2 # P2 Start
+  Service1: kb_S # Service
+  Test: kb_T # Test
+```
+
+The id to use for the controls can be found in the game profile file in `emulators\teknoparrot\GameProfiles` folder:
+
+<div align="left"><figure><img src="https://i.imgur.com/c9Vtv43.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Specific system information
 

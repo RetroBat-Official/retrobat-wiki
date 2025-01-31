@@ -4,11 +4,7 @@ description: Nintendo
 
 # Nintendo 64 Disk Drive
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/n64dd-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/n64dd.svg" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/n64dd-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/n64dd.svg" alt=""></picture><figcaption></figcaption></figure></div>
 
 Game Console - Lifespan: 1999- 2001
 
@@ -20,7 +16,7 @@ Game Console - Lifespan: 1999- 2001
 
 ## System Features
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>RMG: NO<br>lr-mupen64: YES<br>lr-parallel: YES<br>Ares: NO<br>Project64: NO</td><td>RMG: NO<br>lr-mupen64: YES<br>lr-parallel: YES<br>Ares: NO<br>Project64: NO</td><td>RMG: YES<br>lr-mupen64: YES<br>lr-parallel: YES<br>Ares: YES<br>Project64: NO</td></tr></tbody></table>
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>RMG: NO<br>lr-mupen64: YES<br>lr-parallel: YES<br>Ares: NO<br>Project64: NO</td><td>RMG: NO<br>lr-mupen64: YES<br>lr-parallel: YES<br>Ares: NO<br>Project64: NO</td><td>RMG: YES<br>lr-mupen64: YES<br>lr-parallel: YES<br>Ares: YES<br>Project64: YES</td></tr></tbody></table>
 
 ## BIOS
 
@@ -65,11 +61,7 @@ Now from RetroBat:&#x20;
 * [Select the right BIOS](nintendo-64-disk-drive.md#bios-selection)
 * Launch the .n64 (or .z64) file, not the .ndd file:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/dlLRJ9Q.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/dlLRJ9Q.png" alt=""><figcaption></figcaption></figure></div>
 
 #### Running a n64dd full game
 
@@ -87,11 +79,7 @@ Now from RetroBat:&#x20;
 * [Select the right BIOS](nintendo-64-disk-drive.md#bios-selection)
 * Launch the .n64 (or .z64) file, not the .ndd file:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/PaYnyTC.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/PaYnyTC.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
 WARNING: the core is very picky with the .ndd dump used.
@@ -111,8 +99,4 @@ Althrough only commercialized in Japan, US games are available for the n64dd sys
 
 The right BIOS can be selected directly in Retrobat Games Options menu, per game.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/htqkK3Q.png" alt=""><figcaption><p>Advanced System Options / Emulation / BIOS</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/htqkK3Q.png" alt=""><figcaption><p>Advanced System Options / Emulation / BIOS</p></figcaption></figure></div>

@@ -44,6 +44,14 @@ Hotkey is equal to left trigger (L2), except to quit
 BizHawk uses pad2key to handle shortcuts.
 {% endhint %}
 
+### Demul
+
+<table><thead><tr><th width="269">Hotkeys (keyboard)</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + START</td><td>Exit</td></tr><tr><td>Hotkey + Leftshoulder</td><td>Fullscreen (ALT+ENTER)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (50).png" alt=""></td><td>Load State (F12)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (48).png" alt=""></td><td>Save State (F11)</td></tr></tbody></table>
+
+{% hint style="info" %}
+Demul uses pad2key to handle shortcuts.
+{% endhint %}
+
 ### Dolphin
 
 <table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (16).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (30).png" alt=""></td><td>FULLSCREEN</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (50).png" alt=""></td><td>Load State 1</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (48).png" alt=""></td><td>Save State 1 &#x26; Screenshot</td></tr><tr><td>Hotkey + START</td><td>Exit DOLPHIN</td></tr><tr><td>Hotkey + L1</td><td>Eject Disc</td></tr><tr><td>Hotkey + R1</td><td>Change Disc</td></tr></tbody></table>
@@ -76,6 +84,14 @@ JGenesis uses pad2key to handle shortcuts.
 
 <table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (16).png" alt=""></td><td>PAUSE (Pause)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (30).png" alt=""></td><td>Toggle in-game quick help screen (F1)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (50).png" alt=""></td><td>Load Save State (F7)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (48).png" alt=""></td><td>Save State (F5)</td></tr><tr><td>Hotkey + START</td><td>Quit (F12)</td></tr><tr><td>Hotkey + R2</td><td>Select Disc (F6)</td></tr><tr><td>Hotkey + D-PAD UP</td><td>Select Save Slot Index + (=)</td></tr><tr><td>Hotkey + D-PAD DOWN</td><td>Select Save Slot Index - (-)</td></tr><tr><td>Hotkey + D-PAD LEFT</td><td>Rewind (Backspace) : only if save-state rewinding is enabled)</td></tr><tr><td>Hotkey + D-PAD RIGHT</td><td>Fast Forward (`)</td></tr><tr><td>Hotkey + R3</td><td>Screenshot (F9)</td></tr></tbody></table>
 
+### MelonDS
+
+<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (16).png" alt=""></td><td>PAUSE (F10)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (50).png" alt=""></td><td>Load Save State (F1)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (48).png" alt=""></td><td>Save State (CTRL+F1)</td></tr><tr><td>Hotkey + START</td><td>Quit (ALT+F4)</td></tr><tr><td>Hotkey + D-PAD LEFT</td><td>Slow-motion (F11)</td></tr><tr><td>Hotkey + D-PAD RIGHT</td><td>Fast Forward (`F12)</td></tr></tbody></table>
+
+{% hint style="info" %}
+MelonDS uses pad2key to handle shortcuts.
+{% endhint %}
+
 ### Mesen
 
 <table><thead><tr><th width="282">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (16).png" alt=""></td><td>Pause</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (50).png" alt=""></td><td>Load State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (48).png" alt=""></td><td>Save State</td></tr><tr><td>Hotkey + START</td><td>Exit Emulator</td></tr><tr><td>Hotkey + L1</td><td>Toggle Rewind</td></tr><tr><td>Hotkey + R1</td><td>Toggle Fast Forward</td></tr><tr><td>Hotkey + R3</td><td>Take Screenshot</td></tr><tr><td>Hotkey + D-PAD HAUT</td><td>Move To Next State Slot</td></tr><tr><td>Hotkey + D-PAD BAS</td><td>Move To Previous State Slot</td></tr><tr><td>Hotkey + D-PAD GAUCHE</td><td>Rewind</td></tr><tr><td>Hotkey + D-PAD DROITE</td><td>Fast Forward</td></tr></tbody></table>
@@ -92,12 +108,24 @@ JGenesis uses pad2key to handle shortcuts.
 
 <table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (16).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (30).png" alt=""></td><td>Open MENU</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (50).png" alt=""></td><td>Load from slot</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (48).png" alt=""></td><td>Save to slot</td></tr><tr><td>Hotkey + START</td><td>Exit PCSX2</td></tr><tr><td>Hotkey + L1</td><td>Toggle FULLSCREEN (when option 'disable fullscreen' is ON)</td></tr><tr><td>Hotkey + R3</td><td>Screenshot</td></tr><tr><td>Hotkey + D-PAD UP</td><td>Select Save Slot Index +</td></tr><tr><td>Hotkey + D-PAD DOWN</td><td>Select Save Slot Index -</td></tr><tr><td>Hotkey + D-PAD LEFT</td><td>Toggle Slow Motion</td></tr><tr><td>Hotkey + D-PAD RIGHT</td><td>Toggle Turbo</td></tr></tbody></table>
 
+### PPSSPP
+
+<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + D-PAD LEFT</td><td>Rewind</td></tr><tr><td>Hotkey + D-PAD RIGHT</td><td>Fast forward</td></tr><tr><td>Hotkey + D-PAD UP</td><td>Previous slot</td></tr><tr><td>Hotkey + D-PAD DOWN</td><td>Next slot</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (50).png" alt=""></td><td>Load state</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (48).png" alt=""></td><td>Save State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (16).png" alt=""></td><td>Pause game</td></tr><tr><td>Hotkey + Rightshoulder</td><td>Screenshot</td></tr></tbody></table>
+
 ### Raine
 
 <table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + L1</td><td>Menu</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (48).png" alt=""></td><td>Save to slot</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (50).png" alt=""></td><td>Load from slot</td></tr><tr><td>Hotkey + D-PAD UP</td><td>Switch save slot</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (16).png" alt=""></td><td>Pause game</td></tr><tr><td>Hotkey + R3</td><td>Screenshot</td></tr></tbody></table>
 
 {% hint style="info" %}
 Raine uses pad2key to handle shortcuts.
+{% endhint %}
+
+### SNES9X
+
+<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + START</td><td>Quit (CLOSE)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (48).png" alt=""></td><td>Save State (F5)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (50).png" alt=""></td><td>Load State (F6)</td></tr><tr><td>Hotkey + D-PAD UP</td><td>Next slot (F4)</td></tr><tr><td>Hotkey + D-PAD DOWN</td><td>Previous slot (F3)</td></tr><tr><td>Hotkey + D-PAD LEFT</td><td>Rewind (F7)</td></tr><tr><td>Hotkey + D-PAD RIGHT</td><td>Fast Forward (F8)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (16).png" alt=""></td><td>Pause (F9)</td></tr><tr><td>Hotkey + R2</td><td>Screenshot (F12)</td></tr></tbody></table>
+
+{% hint style="info" %}
+Snes9x uses pad2key to handle shortcuts.
 {% endhint %}
 
 ### YUZU, SUYU, SUDACHI

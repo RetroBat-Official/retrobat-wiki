@@ -4,11 +4,7 @@ description: Nintendo
 
 # Nintendo 64
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/master/art/logos/n64.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/master/art/logos/n64.svg" alt=""><figcaption></figcaption></figure></div>
 
 Game Console - Lifespan: 1996 - 2002
 
@@ -20,7 +16,7 @@ Game Console - Lifespan: 1996 - 2002
 
 ## System Features
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-mupen64: YES<br>lr-parallel: YES<br>RMG: NO<br>Simple64: NO<br>Ares: NO<br>BizHawk: YES<br>Project64: NO</td><td>lr-mupen64: YES<br>lr-parallel: YES<br>RMG: NO<br>Simple64: NO<br>Ares: NO<br>BizHawk: NO<br>Project64: NO</td><td>lr-mupen64: YES<br>lr-parallel: YES<br>RMG: YES<br>Simple64: YES<br>Ares: YES<br>BizHawk: YES<br>Project64: NO</td></tr></tbody></table>
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-mupen64: YES<br>lr-parallel: YES<br>RMG: NO<br>Simple64: NO<br>Ares: NO<br>BizHawk: YES<br>Project64: NO</td><td>lr-mupen64: YES<br>lr-parallel: YES<br>RMG: NO<br>Simple64: NO<br>Ares: NO<br>BizHawk: NO<br>Project64: NO</td><td>lr-mupen64: YES<br>lr-parallel: YES<br>RMG: YES<br>Simple64: YES<br>Ares: YES<br>BizHawk: YES<br>Project64: YES</td></tr></tbody></table>
 
 ## Features
 
@@ -36,29 +32,17 @@ There is no BIOS files needed to run games.
 
 ### Libretro (Mupen64plus\_next and parallel)
 
-<div align="left">
-
-<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64.png?raw=true" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ### Mupen64 (RMG), Simple64, Ares and Bizhawk
 
 Standalone emulators (Mupen64 RMG & Simple64) have 5 different layouts available that can be switched through this option:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/QgyGghe.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/QgyGghe.png" alt=""><figcaption></figcaption></figure></div>
 
 Ares and Bizhawk have 3 layout options:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/A15fcOj.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/A15fcOj.png" alt=""><figcaption></figcaption></figure></div>
 
 Details of the 5 layouts:
 
@@ -80,11 +64,7 @@ RetroBat will automatically detect and configure the following N64 controllers:
 
 Additionaly, RMG Mupen64 and Simple64 can leverage the Raphnet direct access feature with a dedicated plugin, this can be enabled in RetroBat features:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/q5F7GM3.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/q5F7GM3.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 When using Mayflash adapter, controllers must be plugged in reverse order, meaning player 1 will be assigned to the last port of the adapter.
@@ -100,19 +80,11 @@ mupen64plus next core allows the use of custom textures.
 
 The texture pack must be placed in the `bios\Mupen64Plus\cache\` folder if the pack comes as a .hts or .htc file.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/H878WjR.png" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/H878WjR.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 If it comes as a uncompressed pack (folder with .png files), it must be placed in the `bios\Mupen64Plus\hires_texture\` folder.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/1sqG9H4.png" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/1sqG9H4.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 For htc or hts files, the file name must be `GAMEID"__HIRESTEXTURES.hts` or .htc (for example : `MARIOKART64_HIRESTEXTURES.htc`).
 
@@ -120,23 +92,11 @@ For uncompressed folder, the folder name must be similar to the gameID (for exam
 
 Once the texture pack in the right folder, enable **CUSTOM TEXTURES** in Retrobat.
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/jBt3sjA.png" alt=""><figcaption><p>Advanced System Options (can also be done per game)</p></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/jBt3sjA.png" alt=""><figcaption><p>Advanced System Options (can also be done per game)</p></figcaption></figure>
+<div align="left"><figure><img src="https://i.imgur.com/hzikBUa.png" alt=""><figcaption><p>Visual Rendering</p></figcaption></figure></div>
 
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/hzikBUa.png" alt=""><figcaption><p>Visual Rendering</p></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/TXJ3fti.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/TXJ3fti.png" alt=""><figcaption></figcaption></figure></div>
 
 Select RICE if the texture pack is compressed (htc or hts).&#x20;
 

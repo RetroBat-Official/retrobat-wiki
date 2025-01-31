@@ -4,11 +4,7 @@ description: Fairchild
 
 # Channel F
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/channelf-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/channelf.svg" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/channelf-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/channelf.svg" alt=""></picture><figcaption></figcaption></figure></div>
 
 Game Console - Lifespan: 1976 - 1983
 
@@ -16,11 +12,11 @@ Game Console - Lifespan: 1976 - 1983
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretroo: freechaf</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> channelf</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.bin .rom .zip .7z</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretroo: freechaf</li><li>bizhawk</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> channelf</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.bin .rom .zip .7z</td><td></td></tr></tbody></table>
 
 ## System Features
 
-<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>NO</td></tr></tbody></table>
+<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-freechaf: NO<br>bizhawk: NO</td><td>lr-freechaf: NO<br>bizhawk: NO</td><td>lr-freechaf: NO<br>bizhawk: YES</td></tr></tbody></table>
 
 ## BIOS
 
@@ -28,23 +24,7 @@ Game Console - Lifespan: 1976 - 1983
 
 ## Controls
 
-| Retrobat Button                                | Channel F key                                                                     |
-| ---------------------------------------------- | --------------------------------------------------------------------------------- |
-| START                                          | Show/Hide Console Overlay                                                         |
-| SELECT                                         | Controller Swap                                                                   |
-| D-PAD                                          | <p>UP: forward<br>DOWN: Backward</p>                                              |
-| Left analog stick                              | <p>UP: forward<br>DOWN: Backward</p>                                              |
-| Right analog stick                             | <p>LEFT: Rotate Left<br>RIGHT: Rotate Right<br>UP: Pull Up<br>DOWN: Push Down</p> |
-| ![](<../../../.gitbook/assets/image (48).png>) | Rotate Left                                                                       |
-| ![](<../../../.gitbook/assets/image (30).png>) | Push Down                                                                         |
-| ![](<../../../.gitbook/assets/image (16).png>) | Rotate Right                                                                      |
-| ![](<../../../.gitbook/assets/image (50).png>) | Pull Up                                                                           |
-| L1                                             | Rotate Left                                                                       |
-| R1                                             | Rotate Right                                                                      |
-| L2                                             |                                                                                   |
-| R2                                             |                                                                                   |
-| L3                                             |                                                                                   |
-| R3                                             |                                                                                   |
+<table><thead><tr><th width="247">Retrobat Button</th><th>Channel F key</th></tr></thead><tbody><tr><td>START</td><td>Show/Hide Console Overlay</td></tr><tr><td>SELECT</td><td>Controller Swap</td></tr><tr><td>D-PAD</td><td>UP: forward<br>DOWN: Backward</td></tr><tr><td>Left analog stick</td><td>UP: forward<br>DOWN: Backward</td></tr><tr><td>Right analog stick</td><td>LEFT: Rotate Left<br>RIGHT: Rotate Right<br>UP: Pull Up<br>DOWN: Push Down</td></tr><tr><td><img src="../../../.gitbook/assets/image (48).png" alt=""></td><td>Rotate Left</td></tr><tr><td><img src="../../../.gitbook/assets/image (30).png" alt=""></td><td>Push Down</td></tr><tr><td><img src="../../../.gitbook/assets/image (16).png" alt=""></td><td>Rotate Right</td></tr><tr><td><img src="../../../.gitbook/assets/image (50).png" alt=""></td><td>Pull Up</td></tr><tr><td>L1</td><td>Rotate Left</td></tr><tr><td>R1</td><td>Rotate Right</td></tr><tr><td>L2</td><td></td></tr><tr><td>R2</td><td></td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
 
 ## Specific system information
 

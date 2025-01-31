@@ -1,10 +1,6 @@
 # Arcade Guide
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/arcade.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/arcade.svg" alt=""><figcaption></figcaption></figure></div>
 
 ## Introduction
 
@@ -27,7 +23,7 @@ These emulators are available in multiple versions to allow users to best match 
 
 ### Available Multi-Machine Arcade emulators in Retrobat
 
-<table><thead><tr><th width="259">Emulator/core</th><th width="160">ROMs folder</th><th>ROM set version</th></tr></thead><tbody><tr><td>libretro: mame (current)</td><td><code>\roms\mame</code></td><td>0.267</td></tr><tr><td>libretro: mame2016</td><td><code>\roms\mame</code></td><td>0.174</td></tr><tr><td>libretro: mame2014</td><td><code>\roms\mame</code></td><td>0.159</td></tr><tr><td>libretro: mame2010</td><td><code>\roms\mame</code></td><td>0.139</td></tr><tr><td>Libretro: mame2003_plus</td><td><code>\roms\mame</code></td><td>0.78plus</td></tr><tr><td>Libretro: mame2003</td><td><code>\roms\mame</code></td><td>0.78</td></tr><tr><td>Libretro: mame2000</td><td><code>\roms\mame</code></td><td>0.37b5</td></tr><tr><td>mame (standalone)</td><td><code>\roms\mame</code></td><td>0.267</td></tr><tr><td>Libretro: fbneo</td><td><code>\roms\fbneo</code></td><td>latest MAME romset</td></tr><tr><td>Libretro: fbalpha</td><td><code>\roms\fbneo</code></td><td>0.2.97.44</td></tr><tr><td>Libretro: fbalpha2012</td><td><code>\roms\fbneo</code></td><td>0.2.97.29</td></tr><tr><td>FBNEO</td><td><code>\roms\fbneo</code></td><td>latest MAME romset</td></tr></tbody></table>
+<table><thead><tr><th width="259">Emulator/core</th><th width="160">ROMs folder</th><th>ROM set version</th></tr></thead><tbody><tr><td>libretro: mame (current)</td><td><code>\roms\mame</code></td><td>0.273</td></tr><tr><td>libretro: mame2016</td><td><code>\roms\mame</code></td><td>0.174</td></tr><tr><td>libretro: mame2014</td><td><code>\roms\mame</code></td><td>0.159</td></tr><tr><td>libretro: mame2010</td><td><code>\roms\mame</code></td><td>0.139</td></tr><tr><td>Libretro: mame2003_plus</td><td><code>\roms\mame</code></td><td>0.78plus</td></tr><tr><td>Libretro: mame2003</td><td><code>\roms\mame</code></td><td>0.78</td></tr><tr><td>Libretro: mame2000</td><td><code>\roms\mame</code></td><td>0.37b5</td></tr><tr><td>mame (standalone)</td><td><code>\roms\mame</code></td><td>0.273</td></tr><tr><td>Libretro: fbneo</td><td><code>\roms\fbneo</code></td><td>latest MAME romset is usually safe</td></tr><tr><td>Libretro: fbalpha</td><td><code>\roms\fbneo</code></td><td>0.2.97.44</td></tr><tr><td>Libretro: fbalpha2012</td><td><code>\roms\fbneo</code></td><td>0.2.97.29</td></tr><tr><td>FBNEO</td><td><code>\roms\fbneo</code></td><td>latest MAME romset is usually safe</td></tr></tbody></table>
 
 MAME is the usual emulator used for common Arcade games (the likes of Pac-Man, Asteroids, etc.)
 
@@ -95,11 +91,7 @@ The CHD folder must be placed in the rom folder and must have the same name as t
 
 For example, for `kinst.zip` the game will be looking for `kinst\kinst.chd`.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/xl9iImN.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/xl9iImN.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Links and references
 
