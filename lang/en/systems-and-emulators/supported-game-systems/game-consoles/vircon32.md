@@ -24,17 +24,17 @@ No BIOS file required
 
 ## Controls
 
-| RetroBat key                                                                    | Vectrex key |
-| ------------------------------------------------------------------------------- | ----------- |
-| START                                                                           | START       |
-| SELECT                                                                          | SEL         |
-| D-PAD                                                                           | D-PAD       |
-| ![A](<../../../.gitbook/assets/image (30).png>)                                 | B           |
-| ![B](<../../../.gitbook/assets/image (16).png>)                                 | A           |
-| <img src="../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | X           |
-| <img src="../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | Y           |
-| L1                                                                              | L1          |
-| R1                                                                              | R1          |
+| RetroBat key                                                                    | Vircon32 key |
+| ------------------------------------------------------------------------------- | ------------ |
+| START                                                                           | START        |
+| SELECT                                                                          | SEL          |
+| D-PAD                                                                           | D-PAD        |
+| ![A](<../../../.gitbook/assets/image (30).png>)                                 | B            |
+| ![B](<../../../.gitbook/assets/image (16).png>)                                 | A            |
+| <img src="../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | X            |
+| <img src="../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | Y            |
+| L1                                                                              | L1           |
+| R1                                                                              | R1           |
 
 ## Specific system information
 

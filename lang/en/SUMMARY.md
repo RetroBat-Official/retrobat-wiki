@@ -261,6 +261,7 @@
     * [Raze](systems-and-emulators/supported-game-systems/others/raze.md)
     * [REminiscence](systems-and-emulators/supported-game-systems/others/reminiscence.md)
     * [Ship Of Harkinian](systems-and-emulators/supported-game-systems/others/soh.md)
+    * [Starship](systems-and-emulators/supported-game-systems/others/starship.md)
     * [Sonic 3 AIR](systems-and-emulators/supported-game-systems/others/sonic3air.md)
     * [Sonic Mania](systems-and-emulators/supported-game-systems/others/sonicmania.md)
     * [Sonic Retro](systems-and-emulators/supported-game-systems/others/sonicretro.md)
