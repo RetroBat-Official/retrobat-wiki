@@ -34,7 +34,7 @@ boom3 allows you to choose between 2 controller layouts from RetroBat menu.
 
 ## Specific system information
 
-### File organization
+### Dhewm3File organization
 
 Boom3 and Dhewm3 need a file with the extension .boom3 to be placed in the `roms\doom3` folder of your RetroBat installation. (dhewm3 also accepts .game extension)
 
@@ -65,3 +65,16 @@ Boom3 and dhewm3 require original .pk4 files from the Doom3 game and the Resurre
             ├── pak000.pk4 
             └── pak001.pk4
 ```
+
+### Dhewm3: run custom command lines
+
+With dhewm3 emulator, it is possible to run specific user-defined command lines, to do so, open the rom file with a txt editor and add the command lines to be added in a second line:
+
+<div align="left"><figure><img src="https://i.imgur.com/Q5kMZIt.png" alt=""><figcaption></figcaption></figure></div>
+
+In the example above, RetroBat will run the bloodmod and add the following commands:
+
+```
++set com_allowconsole 1 +set g_gib_power 100 +set g_gib_shadows 1
+```
+

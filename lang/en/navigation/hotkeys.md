@@ -76,6 +76,14 @@ Flycast uses pad2key to handle shortcuts.
 JGenesis uses pad2key to handle shortcuts.
 {% endhint %}
 
+### Kronos
+
+<table><thead><tr><th width="269">Hotkeys (keyboard)</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (16).png" alt="">  (F2)</td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (30).png" alt="">  (F1)</td><td>Launch game</td></tr><tr><td>Hotkey + R2  (F8)</td><td>Screenshot</td></tr><tr><td>Hotkey + L1  (ALT+ENTER)</td><td>Fullscreen</td></tr><tr><td>Hotkey + START  (ESCAPE)</td><td>Exit Kronos</td></tr></tbody></table>
+
+{% hint style="info" %}
+Kronos uses pad2key to handle shortcuts.
+{% endhint %}
+
 ### MAME
 
 <table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (16).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (30).png" alt=""></td><td>MAME menu</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (50).png" alt=""></td><td>Load State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (48).png" alt=""></td><td>Save State</td></tr><tr><td>Hotkey + D-PAD LEFT</td><td>Rewind</td></tr><tr><td>Hotkey + D-PAD LEFT</td><td>Fast Forward</td></tr><tr><td>L3 + R3</td><td>Service menu</td></tr></tbody></table>
@@ -128,6 +136,14 @@ Raine uses pad2key to handle shortcuts.
 Snes9x uses pad2key to handle shortcuts.
 {% endhint %}
 
-### YUZU, SUYU, SUDACHI
+### Yabasanshiro
 
-<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (16).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + START</td><td>Exit YUZU</td></tr></tbody></table>
+<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + START</td><td>Quit (CLOSE)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (48).png" alt=""></td><td>Save State 1 (CTRL+1)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (50).png" alt=""></td><td>Load State 1 (ALT+1)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (30).png" alt=""></td><td>Run Game (F1)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (16).png" alt=""></td><td>Pause (F10)</td></tr><tr><td>Hotkey + R2</td><td>Screenshot (F8)</td></tr><tr><td>Hotkey + L1</td><td>Fullscreen (ALT+ENTER)</td></tr></tbody></table>
+
+{% hint style="info" %}
+Yabasanshiro uses pad2key to handle shortcuts.
+{% endhint %}
+
+### YUZU, SUYU, SUDACHI, CITRON
+
+<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (16).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + START</td><td>Exit Emulator</td></tr></tbody></table>
