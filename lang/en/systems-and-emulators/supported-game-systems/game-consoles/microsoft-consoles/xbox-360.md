@@ -55,3 +55,15 @@ The content of the .m3u file is the following:
 ```
 \Banjo Tooie\58410955\000D0000\ABB9CAB336175357D09F2D922735D23C62F90DDD
 ```
+
+### Use Xenia-Manager
+
+In order to use Xenia-Manager with Retrobat, you need to select Xenia-Manager as an emulator in RetroBat:
+
+<div align="left"><figure><img src="https://i.imgur.com/hfZW6gy.png" alt=""><figcaption></figcaption></figure></div>
+
+When using Xenia-Manager, RetroBat will check for an existing config for the game, the search is done in the "games.json" file located in the folder `emulators\xenia-manager\Config` folder of your RetroBat installation:
+
+<div align="left"><figure><img src="https://i.imgur.com/aT4Hy35.png" alt=""><figcaption></figcaption></figure></div>
+
+If a config file exists for the game, RetroBat will force Xenia to use this config file instead of the settings done within RetroBat.
