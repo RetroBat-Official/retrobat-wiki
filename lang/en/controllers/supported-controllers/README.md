@@ -18,7 +18,7 @@ The best way to play Game Console games.
 
 ![](<../../.gitbook/assets/image (26).png>)
 
-[GAMEPADS PAGE](gamepads.md)
+[GAMEPADS PAGE](gamepads/)
 {% endtab %}
 
 {% tab title="ARACADE STICKS" %}
