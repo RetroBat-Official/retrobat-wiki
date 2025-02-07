@@ -2,11 +2,7 @@
 
 
 
-<div align="left">
-
-<figure><img src="https://github.com/fabricecaruso/es-theme-carbon/blob/master/art/logos/zinc.png?raw=true" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/fabricecaruso/es-theme-carbon/blob/master/art/logos/zinc.png?raw=true" alt=""><figcaption></figcaption></figure></div>
 
 Emulateur des systèmes arcade Playstation.
 
@@ -70,8 +66,156 @@ Les fichiers de jeu (.zip) ne doivent être ni dézippés, ni renommés.
 
 Certains jeux nécessitent des fichiers CHD, ils doivent être placés dans un sous-dossier du dossier des roms et nommés comme le fichier zip du jeu:
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/w68hUHc.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/w68hUHc.png" alt=""><figcaption></figcaption></figure>
+### Romset pour l'émulateur Zinc
 
-</div>
+L'émulateur Zinc est uniquement compatible avec les jeux suivants, le nom du fichier .zip doit respecter le nom du jeu dans la liste ci-dessous:
+
+<details>
+
+<summary>Romset ZINC</summary>
+
+·         starglad
+
+·         sfex
+
+·         sfexj
+
+·         sfexa
+
+·         sfexp
+
+·         sfexpu
+
+·         sfexpj
+
+·         sfex
+
+·         sfexj
+
+·         sfexp
+
+·         sfexpj
+
+·         sfexpa
+
+·         plsmaswd
+
+·         stargld
+
+·         rvschola
+
+·         jgakuen
+
+·         rvschool
+
+·         shiryu
+
+·         strider
+
+·         kikaioh
+
+·         techromn
+
+·         ts
+
+·         tsj
+
+·         tgmj
+
+·         sncwgltd
+
+·         beastrzb
+
+·         beastrzr
+
+·         bldyror
+
+·         brvblade
+
+·         psyforcj
+
+·         psyforce
+
+·         psyfrcex
+
+·         mgcldtex
+
+·         raystorj
+
+·         raystorm
+
+·         ftimpcta
+
+·         gdarius
+
+·         gdarius
+
+·         danceyes
+
+·         xevidg
+
+·         starswep
+
+·         myangel
+
+·         tekkenb
+
+·         tekkena
+
+·         tekken
+
+·         tekkena
+
+·         tekkenb
+
+·         tekken
+
+·         souledga
+
+·         souledgb
+
+·         souledge
+
+·         dunkmnia
+
+·         dunkmnic
+
+·         primglex
+
+·         weddingr
+
+·         hyperath
+
+·         pbball
+
+·         susume
+
+·         fgtlayer
+
+·         ehrgeiz
+
+·         tekken
+
+·         mrdrillr
+
+·         aquarush
+
+·         pacapp
+
+·         glpracr
+
+·         shngmtkb
+
+·         cbaj
+
+·         doapp
+
+·         tondemo
+
+·         mfjump
+
+·         hvnsgate
+
+</details>

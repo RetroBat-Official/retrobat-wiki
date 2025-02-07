@@ -4,11 +4,7 @@ description: Sony
 
 # PlayStation Vita
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/psvita-w.svg" media="(prefers-color-scheme: dark)"><img src="https://i.imgur.com/as0rgjr.png" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/psvita-w.svg" media="(prefers-color-scheme: dark)"><img src="https://i.imgur.com/as0rgjr.png" alt=""></picture><figcaption></figcaption></figure></div>
 
 Console de jeu portable - Durée de vie : 2011 - 2019
 
@@ -44,67 +40,39 @@ Utiliser le menu RetroBat pour télécharger Vita3k ou télécharger la dernièr
 Ne démarrez pas de jeu avant d'avoir installer et configurer vita3k depuis le menu retrobat, cette étape est nécessaire pour initialiser l'utilisateur de la PSVita et pour installer les firmwares.
 {% endhint %}
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/k9c9vpN.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/k9c9vpN.png" alt=""><figcaption></figcaption></figure></div>
 
 Au premier démarrage, l'émulateur a besoin d'être paramétré, la première étape est de choisir la langue :
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/8MeZjaA.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/8MeZjaA.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-**Étape importante, définir le "pref-path" : il s'agit de l'emplacement dans lequel les jeux seront installés.**&#x20;
+**Étape importante, définir le "pref-path" : il s'agit de l'emplacement dans lequel les jeux seront installés.**
 
 L'emplacement sélectionné à cette étape ne sera pas remplacé ou modifié par RetroBat.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/bKZh9Ap.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/bKZh9Ap.png" alt=""><figcaption></figcaption></figure></div>
 
 Télécharger aussi bien le _Firmware_ et le _Font Package_ depuis le site de Sony et installer les à l'aide du bouton **INSTALL FIRMWARE FILE** :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/7kfwreX.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/7kfwreX.png" alt=""><figcaption></figcaption></figure></div>
 
 Le statut de l'installation changera (V)
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/JmQbJpH.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/JmQbJpH.png" alt=""><figcaption></figcaption></figure></div>
 
 Cliquer sur le bouton "SUIVANT" jusqu'à la fin du paramétrage :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/SS4fC7b.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/SS4fC7b.png" alt=""><figcaption></figcaption></figure></div>
 
 FÉLICITATIONS : L'émulateur Vita3k a été initialisé avec succès :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/y9Abjp5.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/y9Abjp5.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Ajouter les jeux
 
 Les jeux PS Vita doivent dans un premier temps être installés via l'émulateur, un guide détaillé est disponible pour cela sur le site Vita3K : [https://vita3k.org/quickstart.html](https://vita3k.org/quickstart.html)
 
-Vita3K supporte actuellement les fichiers .pkg, NoNpDrm, FAGDec, ou les jeux décryptés manuellement.&#x20;
+Vita3K supporte actuellement les fichiers .pkg, NoNpDrm, FAGDec, ou les jeux décryptés manuellement.
 
 Le jeu doit être au format .zip ou .vpk pour être installé dans l'émulateur, il est également possible de faire un glisser - déposer du répertoire de jeu dans le dossier `emulators\vita3k\ux0\app` (cette méthode n'est pas valable pour les dumps NoNpDrm ni les fichier .pkg).
 
@@ -121,19 +89,16 @@ Les jeux sont installés dans le dossier`\ux0\app` de l'emplacement "pref-path" 
 
 Créer un fichier .m3u portant le nom du jeu dans le répertoire`\roms\psvita` de votre installation RetroBat :
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/tfILs19.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/tfILs19.png" alt=""><figcaption></figcaption></figure>
+{% hint style="info" %}
+&#x20;le fichier .m3u est un fichier texte .txt dont l'extension a été renommée
+{% endhint %}
 
-</div>
-
+\
 A l'intérieur du fichier, renseigner l'**ID de jeu** et sauvegarder :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/Fs8a98E.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/Fs8a98E.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 L'ID de jeu peut être trouvé en lançant directement l'émulateur Vita3k.
@@ -158,11 +123,7 @@ Il est obligatoire que le nom de votre répertoire .psvita ou le nom du fichier 
 
 Si vous utilisez un jeu au format "dossier", le répertoire doit être renommé avec ".psvita" à la fin. Il est également nécessaire de s'assurer qu'un fichier eboot.bin se trouve à l'intérieur du répertoire. Voici un exemple d'une structure de fichier correcte :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/Anjm21x.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/Anjm21x.png" alt=""><figcaption></figcaption></figure></div>
 
 Si vous utilisez un fichier .vpk, il faut s'assurer que le fichier soit correctement nommé, avec l'ID de jeu entre crochets :
 
@@ -172,10 +133,6 @@ Street fighter [PCSE00005].vpk
 
 Lors du premier lancement du jeu au format .vpk, Retrobat l'installera automatiquement dans l'émulateur. Il faudra patienter jusqu'à ce que l'opération s'achève (cela peut prendre un certain temps) :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/bYSh81f.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/bYSh81f.png" alt=""><figcaption></figcaption></figure></div>
 
 Une fois l'installation effectuée, le prochain démarrage sera plus rapide.
