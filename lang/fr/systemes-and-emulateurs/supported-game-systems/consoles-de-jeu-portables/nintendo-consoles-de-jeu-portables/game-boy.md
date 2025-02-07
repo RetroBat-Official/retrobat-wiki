@@ -4,11 +4,7 @@ description: Nintendo
 
 # Game Boy
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/gb.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/gb.svg" alt=""><figcaption></figcaption></figure></div>
 
 Console de jeu portable - Durée de vie : 1989 - 2003
 
@@ -16,11 +12,11 @@ Console de jeu portable - Durée de vie : 1989 - 2003
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro : gambatte</li><li>libretro : mesen-s</li><li>libretro : bsnes</li><li>libretro : tgbdual</li><li>libretro: sameboy</li><li>mesen</li><li>mgba</li><li>mednafen</li><li>ares</li><li>bizhawk: Gambatte</li><li>bizhawk: GBHawk</li><li>bizhawk: SameBoy</li><li>jgenesis</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> gb</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.gb .zip .7z</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: gambatte</li><li>libretro: mesen-s</li><li>libretro: bsnes</li><li>libretro: tgbdual</li><li>libretro: sameboy</li><li>libretro: DoubleCherryGB</li><li>mesen</li><li>mgba</li><li>mednafen</li><li>ares</li><li>bizhawk: Gambatte</li><li>bizhawk: GBHawk</li><li>bizhawk: SameBoy</li><li>jgenesis</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> gb</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.gb .zip .7z</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-gambatte : OUI<br>lr-mesen-s : OUI<br>lr-bsnes : OUI<br>lr-tgbdual : NON<br>lr-sameboy : OUI<br>Mesen : NON<br>mGBA : NON<br>Mednafen : NON<br>Ares : NON<br>Bizhawk : OUI<br>Jgenesis: NON</td><td>lr-gambatte : OUI<br>lr-mesen-s : OUI<br>lr-bsnes : OUI<br>lr-tgbdual : OUI<br>lr-sameboy : OUI<br>Mesen : NON<br>mGBA : NON<br>Mednafen : NON<br>Ares : NON<br>Bizhawk : NON<br>Jgenesis: NON</td><td>lr-gambatte : OUI<br>lr-mesen-s : OUI<br>lr-bsnes : OUI<br>lr-tgbdual : OUI<br>lr-sameboy : OUI<br>Mesen : OUI<br>mGBA : NON<br>Mednafen : OUI<br>Ares : OUI<br>Bizhawk : OUI<br>Jgenesis: OUI</td></tr></tbody></table>
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td><p>lr-gambatte : OUI<br>lr-mesen-s : OUI<br>lr-bsnes : OUI<br>lr-tgbdual : NON<br>lr-sameboy : OUI</p><p>lr-DoubleCherryGB : ?<br>Mesen : NON<br>mGBA : NON<br>Mednafen : NON<br>Ares : NON<br>Bizhawk : OUI<br>Jgenesis: NON</p></td><td><p>lr-gambatte : OUI<br>lr-mesen-s : OUI<br>lr-bsnes : OUI<br>lr-tgbdual : OUI<br>lr-sameboy : OUI</p><p>lr-DoubleCherryGB : ?<br>Mesen : NON<br>mGBA : NON<br>Mednafen : NON<br>Ares : NON<br>Bizhawk : NON<br>Jgenesis: NON</p></td><td><p>lr-gambatte : OUI<br>lr-mesen-s : OUI<br>lr-bsnes : OUI<br>lr-tgbdual : OUI<br>lr-sameboy : OUI</p><p>lr-DoubleCherryGB : OUI<br>Mesen : OUI<br>mGBA : NON<br>Mednafen : OUI<br>Ares : OUI<br>Bizhawk : OUI<br>Jgenesis: OUI</p></td></tr></tbody></table>
 
 ## BIOS
 

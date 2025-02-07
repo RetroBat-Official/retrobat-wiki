@@ -1,6 +1,6 @@
 # Raccourcis
 
-Le détail des Raccourcis ("hotkeys" en anglais) est disponible dans la notice pdf [ici](http://retrobat.ovh/notice/notice\_fr.pdf).
+Le détail des Raccourcis ("hotkeys" en anglais) est disponible dans la notice pdf [ici](http://retrobat.ovh/notice/notice_fr.pdf).
 
 Les "hotkeys" sont des combinaisons de touches/boutons permettant d'effectuer certaines actions durant les jeux. Il est par exemple possible de quitter une partie en cours en appuyant simultanément sur les boutons **HOTKEY** + **START**&#x20;
 
@@ -44,6 +44,14 @@ La touche de raccourci est L2 (sauf pour quitter)
 BizHawk utilise pad2key pour gérer les raccourcis.
 {% endhint %}
 
+### Demul <a href="#dolphindemul" id="dolphindemul"></a>
+
+<table><thead><tr><th width="298">Hotkeys (clavier)</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + START</td><td>Quitter</td></tr><tr><td>Hotkey + L1</td><td>Fullscreen (ALT + ENTER)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt=""></td><td>Charger Save State (F12)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt=""></td><td>Sauver Save State (F11)</td></tr></tbody></table>
+
+{% hint style="info" %}
+Demul utilise pad2key pour gérer les raccourcis.
+{% endhint %}
+
 ### Dolphin
 
 <table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (7).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (20).png" alt=""></td><td>FULLSCREEN</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt=""></td><td>Charger Save State 1</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt=""></td><td>Sauver Save State 1 + capture d'écran</td></tr><tr><td>Hotkey + START</td><td>Quitter DOLPHIN</td></tr><tr><td>Hotkey + L1</td><td>Ejecter Disque</td></tr><tr><td>Hotkey + R1</td><td>Changer de Disque</td></tr></tbody></table>
@@ -76,6 +84,21 @@ JGenesis utilise pad2key pour gérer les raccourcis.
 
 <table><thead><tr><th width="282">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (7).png" alt=""></td><td>PAUSE (Pause)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (20).png" alt=""></td><td>Ecran d'aide (F1)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt=""></td><td>Charger Save State (F7)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt=""></td><td>Sauver Save State (F5)</td></tr><tr><td>Hotkey + START</td><td>Quitter (F12)</td></tr><tr><td>Hotkey + R2</td><td>Change de disque (F6)</td></tr><tr><td>Hotkey + D-PAD HAUT</td><td>Choisir Slot de sauvegarde Index + (=)</td></tr><tr><td>Hotkey + D-PAD BAS</td><td>Choisir Slot de sauvegarde Index - (-)</td></tr><tr><td>Hotkey + D-PAD GAUCHE</td><td>Rembobiner (Retour arrière) : uniquement si la fonction de rembobinage save-state est activée</td></tr><tr><td>Hotkey + D-PAD DROITE</td><td>Avance rapide (`)</td></tr><tr><td>Hotkey + R3</td><td>Capture d'écran (F9)</td></tr></tbody></table>
 
+### MelonDS
+
+| Hotkeys                                           | Action                      |
+| ------------------------------------------------- | --------------------------- |
+| Hotkey + ![](<../.gitbook/assets/image (7).png>)  | PAUSE (F10)                 |
+| Hotkey + ![](<../.gitbook/assets/image (35).png>) | Charger Save State (F1)     |
+| Hotkey + ![](<../.gitbook/assets/image (33).png>) | Sauver Save State (CTRL+F1) |
+| Hotkey + START                                    | Quitter (ALT+F4)            |
+| Hotkey + D-PAD GAUCHE                             | Ralenti (F11)               |
+| Hotkey + D-PAD DROITE                             | Avance rapide (\`F12)       |
+
+{% hint style="info" %}
+MelonDS utilise pad2key pour gérer les raccourcis.
+{% endhint %}
+
 ### Mesen
 
 <table><thead><tr><th width="282">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (7).png" alt=""></td><td>Pause</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt=""></td><td>Charger Save State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt=""></td><td>Sauver Save State</td></tr><tr><td>Hotkey + START</td><td>Quitter</td></tr><tr><td>Hotkey + L1</td><td>Activer rembobinage</td></tr><tr><td>Hotkey + R1</td><td>Activer avance rapide</td></tr><tr><td>Hotkey + R3</td><td>Capture d'écran</td></tr><tr><td>Hotkey + D-PAD HAUT</td><td>Choisir Slot de sauvegarde Index +</td></tr><tr><td>Hotkey + D-PAD BAS</td><td>Choisir Slot de sauvegarde Index -</td></tr><tr><td>Hotkey + D-PAD GAUCHE</td><td>Rembobiner</td></tr><tr><td>Hotkey + D-PAD DROITE</td><td>Avance rapide</td></tr></tbody></table>
@@ -91,6 +114,10 @@ JGenesis utilise pad2key pour gérer les raccourcis.
 ### PCSX2
 
 <table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (7).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (20).png" alt=""></td><td>Ouvrir MENU</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt=""></td><td>Charger sauvegarde</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt=""></td><td>Sauver</td></tr><tr><td>Hotkey + START</td><td>Quitter PCSX2</td></tr><tr><td>Hotkey + L1</td><td>FULLSCREEN (si l'option 'disable fullscreen' est activée)</td></tr><tr><td>Hotkey + R3</td><td>Capture d'écran</td></tr><tr><td>Hotkey + D-PAD UP</td><td>Choisir Slot de sauvegarde Index +</td></tr><tr><td>Hotkey + D-PAD DOWN</td><td>Choisir Slot de sauvegarde Index -</td></tr><tr><td>Hotkey + D-PAD LEFT</td><td>Ralenti</td></tr><tr><td>Hotkey + D-PAD RIGHT</td><td>Turbo</td></tr></tbody></table>
+
+### PPSSPP
+
+<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + D-PAD GAUCHE</td><td>Rembobiner</td></tr><tr><td>Hotkey + D-PAD RIGHT</td><td>Avance rapide</td></tr><tr><td>Hotkey + D-PAD UP</td><td>Choisir Slot de sauvegarde précédent</td></tr><tr><td>Hotkey + D-PAD DOWN</td><td>Choisir Slot de sauvegarde suivant</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt=""></td><td>Charger Save State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt=""></td><td>Sauver Save State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (7).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + R1</td><td>Capture d'écran</td></tr></tbody></table>
 
 ### Raine
 

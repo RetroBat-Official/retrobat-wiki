@@ -4,11 +4,7 @@ description: TeknoGods
 
 # TeknoParrot
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/teknoparrot.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/teknoparrot.svg" alt=""><figcaption></figcaption></figure></div>
 
 Emulateur d'arcade basé sur l'architecture PC
 
@@ -76,11 +72,7 @@ Télécharger l'émulateur depuis le site officiel : [https://teknoparrot.com/](
 
 Dézipper l'émulateur dans le dossier **\emulators\teknoparrot**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/rQlbFKQ.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/rQlbFKQ.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
 Il est possible que votre antivirus s'emballe, restez calme, il s'agit de faux-positifs.&#x20;
@@ -90,23 +82,15 @@ Configurez une exception pour le dossier TeknoParrot.
 
 Démarrer **TeknoParrotUi.exe** une première fois, effectuer toutes les mises à jour demandées:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/liUVclK.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/liUVclK.png" alt=""><figcaption></figcaption></figure></div>
 
 Placer les jeux TeknoParrot dans le dossier **\roms\teknoparrot**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/wqTsWOQ.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/wqTsWOQ.png" alt=""><figcaption></figcaption></figure></div>
 
 Le dossier de jeu TeknoParrot doit être renommé en ajoutant **.teknoparrot** **.parrot** or **.game**
 
-Par exemple, le dossier du jeu _Mario Kart : Arcade GP DX_ doit être nommé**:**&#x20;
+Par exemple, le dossier du jeu _Mario Kart : Arcade GP DX_ doit être nomm&#xE9;**:**&#x20;
 
 * `MKDX.teknoparrot`,&#x20;
 * ou `MKDX.parrot`
@@ -114,9 +98,5 @@ Par exemple, le dossier du jeu _Mario Kart : Arcade GP DX_ doit être nommé**:*
 
 **IMPORTANT**, le nom du dossier du jeu doit correspondre EXACTEMENT au nom visible pour le fichier json correspondant au jeu dans le dossier **\emulators\teknoparrot\Metadata** ou au fichier .xml du profil du jeu dans le dossier **\emulators\teknoparrot\GameProfiles**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/6BBrvM8.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/6BBrvM8.png" alt=""><figcaption></figcaption></figure></div>
 

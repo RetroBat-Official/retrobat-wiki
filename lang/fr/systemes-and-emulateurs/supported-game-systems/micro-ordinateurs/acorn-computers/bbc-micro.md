@@ -4,11 +4,7 @@ description: Acorn Computers
 
 # BBC Micro
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/bbcmicro-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/bbc.svg" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/bbcmicro-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/bbc.svg" alt=""></picture><figcaption></figcaption></figure></div>
 
 Micro-ordinateur - Durée de vie : 1981 - 1994
 
@@ -16,7 +12,7 @@ Micro-ordinateur - Durée de vie : 1981 - 1994
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro : mame</li><li>mame64</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> bbcmicro</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.zip .7zip</td><td></td></tr><tr><td><strong>Group</strong></td><td>MESS</td><td></td></tr><tr><td><strong>Modèles émulés</strong></td><td>bbcb, bbcm, bbcm512, bbcmc</td><td></td></tr><tr><td><strong>Softlists</strong></td><td>bbc_cass, bbc_rom, bbcb_flop, bbcb_flop_orig, bbcb_flop_us, bbcm_cart, bbcm_flop, bbcmc_flop</td><td></td></tr><tr><td><strong>Types de média</strong></td><td>cassette, rom, disquette, cartouche</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro : mame</li><li>libretro: b2</li><li>mame64</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> bbcmicro</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.zip .7zip</td><td></td></tr><tr><td><strong>Group</strong></td><td>MESS</td><td></td></tr><tr><td><strong>Modèles émulés</strong></td><td>bbcb, bbcm, bbcm512, bbcmc</td><td></td></tr><tr><td><strong>Softlists</strong></td><td>bbc_cass, bbc_rom, bbcb_flop, bbcb_flop_orig, bbcb_flop_us, bbcm_cart, bbcm_flop, bbcmc_flop</td><td></td></tr><tr><td><strong>Types de média</strong></td><td>cassette, rom, disquette, cartouche</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 

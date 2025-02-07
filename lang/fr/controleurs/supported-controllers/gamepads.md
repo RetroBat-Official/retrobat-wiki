@@ -59,3 +59,9 @@ La manette DualSense est compatible avec la fonctionnalité gyroscope et fonctio
 ![](<../../.gitbook/assets/image (10).png>)
 
 La manette DS4 est compatible avec la fonctionnalité gyroscope et fonctionne nativement avec Retrobat.
+
+
+
+{% hint style="danger" %}
+Certains émulateurs ne détectent pas les touches DS4
+{% endhint %}

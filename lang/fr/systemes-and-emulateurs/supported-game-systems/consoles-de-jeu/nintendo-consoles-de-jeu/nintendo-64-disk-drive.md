@@ -4,11 +4,7 @@ description: Nintendo
 
 # Nintendo 64 Disk Drive
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/n64dd-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/n64dd.svg" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/n64dd-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/n64dd.svg" alt=""></picture><figcaption></figcaption></figure></div>
 
 Extension de console de jeu - Durée de vie : 1999- 2001
 
@@ -20,7 +16,7 @@ Extension de console de jeu - Durée de vie : 1999- 2001
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>RMG : NON<br>lr-mupen64 : OUI<br>lr-parallel : OUI<br>Ares : NON<br>Project64 : NON</td><td>RMG : NON<br>lr-mupen64 : OUI<br>lr-parallel : OUI<br>Ares : NON<br>Project64: NO</td><td>RMG : OUI<br>lr-mupen64 : OUI<br>lr-parallel : OUI<br>Ares : OUI<br>Project64 : NON</td></tr></tbody></table>
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>RMG : NON<br>lr-mupen64 : OUI<br>lr-parallel : OUI<br>Ares : NON<br>Project64 : NON</td><td>RMG : NON<br>lr-mupen64 : OUI<br>lr-parallel : OUI<br>Ares : NON<br>Project64: NO</td><td>RMG : OUI<br>lr-mupen64 : OUI<br>lr-parallel : OUI<br>Ares : OUI<br>Project64 : OUI</td></tr></tbody></table>
 
 ## BIOS
 
@@ -65,11 +61,7 @@ Depuis RetroBat:&#x20;
 * [Sélectionner le BIOS approprié](nintendo-64-disk-drive.md#selection-du-bios)
 * Lancer le jeu au format .n64 (ou .z64), pas le fichier .ndd :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/9oo9rAy.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/9oo9rAy.png" alt=""><figcaption></figcaption></figure></div>
 
 #### Lancer un jeu complet Nintendo 64 DD
 
@@ -86,11 +78,7 @@ Depuis RetroBat:&#x20;
 * [Sélectionner le BIOS approprié](nintendo-64-disk-drive.md#selection-du-bios)
 * Lancer le jeu au format .n64 (ou .z64), pas le fichier .ndd :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/zc3ex6s.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/zc3ex6s.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
 ATTENTION: le core est très sensible à la version de la rom .ndd utilisée, seul les dumps légitimes fonctionnent correctement.
@@ -104,8 +92,4 @@ Bien que le système ait été disponible uniquement au Japon, il existe des jeu
 
 Le BIOS à utiliser pour chaque jeu peut être spécifié directement dans les options avancées du jeu.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/htqkK3Q.png" alt=""><figcaption><p>Advanced System Options / Emulation / BIOS</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/htqkK3Q.png" alt=""><figcaption><p>Advanced System Options / Emulation / BIOS</p></figcaption></figure></div>

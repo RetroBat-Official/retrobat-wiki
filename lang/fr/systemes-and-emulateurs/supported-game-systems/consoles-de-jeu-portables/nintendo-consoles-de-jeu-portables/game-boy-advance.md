@@ -4,11 +4,7 @@ description: Nintendo
 
 # Game Boy Advance
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/master/art/logos/gba.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/master/art/logos/gba.svg" alt=""><figcaption></figcaption></figure></div>
 
 Console de jeu portable - Durée de vie : 2001 - 2008
 
@@ -16,11 +12,11 @@ Console de jeu portable - Durée de vie : 2001 - 2008
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro : mgba</li><li>libretro : mednafen_gba</li><li>mgba</li><li>no$gba</li><li>mednafen</li><li>ares</li><li>bizhawk: mGBA</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> gba</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.gba .zip .7z</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro : mgba</li><li>libretro : mednafen_gba</li><li>libretro: gpsp</li><li>mgba</li><li>no$gba</li><li>mednafen</li><li>ares</li><li>bizhawk: mGBA</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> gba</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.gba .zip .7z</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-mgba : OUI<br>lr-mednafen : OUI<br>mGBA : NON<br>no$gba : NON<br>Mednafen : NON<br>Ares : NON<br>BizHawk : OUI</td><td>lr-mgba : OUI<br>lr-mednafen : OUI<br>mGBA : NON<br>no$gba : NON<br>Mednafen : NON<br>Ares : NON<br>BizHawk : NON</td><td>lr-mgba : OUI<br>lr-mednafen : OUI<br>mGBA : NON<br>no$gba : NON<br>Mednafen : OUI<br>Ares : OUI<br>BizHawk : OUI</td></tr></tbody></table>
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td><p>lr-mgba : OUI<br>lr-mednafen : OUI</p><p>lr-gpsp : OUI<br>mGBA : NON<br>no$gba : NON<br>Mednafen : NON<br>Ares : NON<br>BizHawk : OUI</p></td><td><p>lr-mgba : OUI<br>lr-mednafen : OUI</p><p>lr-gpsp : NON<br>mGBA : NON<br>no$gba : NON<br>Mednafen : NON<br>Ares : NON<br>BizHawk : NON</p></td><td><p>lr-mgba : OUI<br>lr-mednafen : OUI</p><p>lr-gpsp : OUI<br>mGBA : NON<br>no$gba : NON<br>Mednafen : OUI<br>Ares : OUI<br>BizHawk : OUI</p></td></tr></tbody></table>
 
 ## BIOS
 

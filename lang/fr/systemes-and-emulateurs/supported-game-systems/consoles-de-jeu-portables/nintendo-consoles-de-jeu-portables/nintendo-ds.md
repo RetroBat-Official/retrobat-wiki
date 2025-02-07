@@ -4,11 +4,7 @@ description: Nintendo
 
 # Nintendo DS
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/master/art/logos/nds.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/master/art/logos/nds.svg" alt=""><figcaption></figcaption></figure></div>
 
 Console de jeu portable - Durée de vie : 2004- 2011
 
@@ -16,11 +12,11 @@ Console de jeu portable - Durée de vie : 2004- 2011
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: melonds DS</li><li>libretro : desmume</li><li>libretro : desmume2015</li><li>libretro : melonds</li><li>melonds</li><li>bizhawk: melonDS</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> nds</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.nds .bin .zip .7z</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: melonds DS</li><li>libretro : desmume</li><li>libretro : desmume2015</li><li>libretro : melonds</li><li>libretro: noods</li><li>melonds</li><li>bizhawk: melonDS</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> nds</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.nds .bin .zip .7z</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-melondsds : OUI<br>lr-desmume : OUI<br>lr-desmume2015 : OUI<br>lr-melonds : OUI<br>MelonDS : NON<br>Ares : NON<br>BizHawk : OUI</td><td>lr-melondsds : NON<br>lr-desmume : OUI<br>lr-desmume2015 : OUI<br>lr-melonds : NON<br>MelonDS : NON<br>Ares : NON<br>BizHawk : NON</td><td>lr-melondsds : OUI<br>lr-desmume : OUI<br>lr-desmume2015 : OUI<br>lr-melonds : OUI<br>MelonDS : OUI<br>Ares : OUI<br>BizHawk : OUI</td></tr></tbody></table>
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td><p>lr-melondsds : OUI<br>lr-desmume : OUI<br>lr-desmume2015 : OUI<br>lr-melonds : OUI</p><p>lr-noods : OUI<br>MelonDS : NON<br>Ares : NON<br>BizHawk : OUI</p></td><td><p>lr-melondsds : NON<br>lr-desmume : OUI<br>lr-desmume2015 : OUI<br>lr-melonds : NON</p><p>lr-noods : NON<br>MelonDS : NON<br>Ares : NON<br>BizHawk : NON</p></td><td><p>lr-melondsds : OUI<br>lr-desmume : OUI<br>lr-desmume2015 : OUI<br>lr-melonds : OUI</p><p>lr-noods : OUI<br>MelonDS : OUI<br>Ares : OUI<br>BizHawk : OUI</p></td></tr></tbody></table>
 
 ## BIOS
 
@@ -30,11 +26,7 @@ Console de jeu portable - Durée de vie : 2004- 2011
 
 En dehors de l'émulateur standalone MelonDS, tous les émulateurs permettent de simuler l'écran tactile avec le joystick droit, cette option doit être activée dans les options avancées du système > contrôles:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/3SNiUdQ.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/3SNiUdQ.png" alt=""><figcaption></figcaption></figure></div>
 
 | Option / émulateur                  | Schéma de contrôles                                                                                                                                    |
 | ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -58,31 +50,15 @@ Pour cela, il est nécessaire de disposer d'un fichier "nand" de la console et d
 
 #### Exemple d'un fichier "NAND":
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/gzpnw8S.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/gzpnw8S.png" alt=""><figcaption></figcaption></figure></div>
 
 Lors du lancement depuis RetroBat, l'émulateur charge directement le menu de la console:
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/m2XG9ZQ.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/m2XG9ZQ.png" alt=""><figcaption></figcaption></figure>
+<div align="left"><figure><img src="https://i.imgur.com/CUHgynR.png" alt=""><figcaption></figcaption></figure></div>
 
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/CUHgynR.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/sPQNh6q.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/sPQNh6q.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Noter que melonDS permet le lancement direct d'un fichier "nand" sans aucun prérequis,  libretro:melonds par contre, nécessite la présence d'au moins 1 fichier de jeu .nds dans le dossier `roms\nds` (la présence d'un jeu est nécessaire pour permettre à RetroArch de charger le core libretro).
@@ -95,36 +71,20 @@ Seul l'émulateur melonDS permet de modifier un fichier "nand" en ajoutant ou su
 * Exécuter melonDS (`emulators\melonds`)
 * Naviguer dans config > emu settings, puis dans l'onglet DSi-mode :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/KlcN2nS.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/KlcN2nS.png" alt=""><figcaption></figcaption></figure></div>
 
 * Cliquer sur "Browse..." et sélectionner le chemin vers le fichier "nand" à modifier, puis cliquer sur "OK"
 * Fermer le menu et naviguer vers system > Manage DSi titles
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/z8t4zHy.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/z8t4zHy.png" alt=""><figcaption></figcaption></figure></div>
 
 * Dans le prochain écran, il est possible de supprimer ou d'ajouter des titres sur la "nand"
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/1Y5RUtd.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/1Y5RUtd.png" alt=""><figcaption></figcaption></figure></div>
 
 * Presser "import title..." puis, dans l'écran suivant, sélectionner le jeu à installer sur la "nand"
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/tGcMnSu.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/tGcMnSu.png" alt=""><figcaption></figcaption></figure></div>
 
 * Confirmer en pressant "OK", le jeu est désormais installé dans la "nand" et est disponible lorsque la "nand" est chargée depuis RetroBat
 

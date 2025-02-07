@@ -14,19 +14,11 @@ Lorsqu'un pistolet est connecté, une icône représentant un pistolet apparaît
 
 Une cible est également visible à l'écran, et une nouvelle collection "JEUX DE TIR" est disponible dans la **Vue Système**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/5gj5x6L.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/5gj5x6L.png" alt=""><figcaption></figcaption></figure></div>
 
 Les jeux de tir sont identifiés à l'aide d'une icône "pistolet" apparaissant après leur nom.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/rbFVyjA.png" alt=""><figcaption><p>Duck Hunt est compatible</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/rbFVyjA.png" alt=""><figcaption><p>Duck Hunt est compatible</p></figcaption></figure></div>
 
 La liste des jeux compatibles est maintenue dans un fichier .xml localisé dans le répertoire d'installation de Retrobat. Il est possible de modifier la liste directement dans le fichier xml si des jeux sont manquants ou identifiés par erreur.
 
@@ -35,11 +27,7 @@ L'équipe RetroBat ne recommande pas de modifier ce fichier.\
 Conserver une version du fichier modifié afin d'éviter de le perdre lors d'une mise à jour de Retrobat.
 {% endhint %}
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/2wr4B4z.png" alt=""><figcaption><p>le fichier gungames.xml</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/2wr4B4z.png" alt=""><figcaption><p>le fichier gungames.xml</p></figcaption></figure></div>
 
 {% hint style="info" %}
 Certains jeux listés ne sont pas des jeux jouables entièrement au pistolet, il est possible que la fonctionnalité soit réduite à un mini-jeu ou à un seul niveau du jeu.
@@ -53,27 +41,15 @@ Les pistolets peuvent être activé dans les fonctionnalités avancées du syst�
 
 Depuis la **Vue Jeux** ouvrir les [**options d'affichage**](../../../navigation/view-options.md) et sélectionner **CONFIGURATION AVANCÉE DU SYSTEME**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/NBikXXF.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/NBikXXF.png" alt=""><figcaption></figcaption></figure></div>
 
 Choisir ensuite **PISTOLETS**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/WhOqC4X.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/WhOqC4X.png" alt=""><figcaption></figcaption></figure></div>
 
 Puis activer l'option **PISTOLETS**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/0oVtDWf.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/0oVtDWf.png" alt=""><figcaption></figcaption></figure></div>
 
 Le même paramétrage peut être effectué individuellement pour un jeu dans le menu [Options du Jeu](../../../navigation/game-options.md#configuration-avancee-du-jeu) puis **CONFIGURATION AVANCÉE DU JEU**.
 
@@ -116,11 +92,7 @@ Précision: le mode 4 de la dolphinbar n'est pas compatible avec l'utilisation d
 
 ### Sinden Lightgun
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/B4s3AIf.png" alt="" width="188"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/B4s3AIf.png" alt="" width="188"><figcaption></figcaption></figure></div>
 
 Le Sinden Lightgun fonctionne et est détecté par RetroBat, il est cependant nécessaire que le logiciel Sinden soit en cours d'exécution:
 
@@ -131,12 +103,22 @@ Lors de l'utilisation d'un Sinden Lightgun, il est nécessaire de faire apparaî
 * La bordure apparaît automatiquement dans la plupart des cas
 * Pour certains émulateurs "standalones", il est possible de faire apparaître la bordure à l'aide de Reshade, en sélectionnant le shader "sindenborder" dans la liste de shaders disponibles
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/YccMTvk.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/YccMTvk.png" alt=""><figcaption></figcaption></figure>
+RetroBat peut lancer automatiquement le logiciel Sinden Lightgun quand un pistolet Sinden est détecté, vous pouvez également l'ajouter dans le dossier **system\tools\sinden** de votre installation Retrobat...&#x20;
 
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/5cAaTW4.png" alt=""><figcaption></figcaption></figure></div>
 
-### Gun4IR
+...ou spécifier où trouver le logiciel depuis les réglages :
+
+<div align="left"><figure><img src="../../../.gitbook/assets/cjofFh6.png" alt=""><figcaption></figcaption></figure></div>
+
+## Gun4IR
 
 {% embed url="https://www.gun4ir.com/" %}
+
+## RetroShooters <a href="#retroshooters" id="retroshooters"></a>
+
+<div align="left"><figure><img src="../../../.gitbook/assets/qkz0rwl.png" alt="" width="188"><figcaption></figcaption></figure></div>
+
+{% embed url="https://retroshooter.com/" %}

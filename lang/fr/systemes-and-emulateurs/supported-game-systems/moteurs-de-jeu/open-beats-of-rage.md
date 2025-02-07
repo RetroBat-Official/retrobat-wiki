@@ -4,11 +4,7 @@ description: Senile Team
 
 # Open Beats Of Rage
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/openbor.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/openbor.svg" alt=""><figcaption></figcaption></figure></div>
 
 Moteur de jeu de combat - Créé en 2003
 
@@ -50,31 +46,19 @@ RetroBat permet de lancer un jeu avec n'importe quelle version de OpenBOR.
 
 Pour cela, télécharger la version spécifique de OpenBOR et copier le dossier dans  `emulators\openbor`, le sous-dossier doit être nommé par le numéro de version (maximum 4 digits):
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/Qun9nDy.png" alt=""><figcaption><p>Dans cet exemple, les versions 4153 et 7533 sont disponibles</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/Qun9nDy.png" alt=""><figcaption><p>Dans cet exemple, les versions 4153 et 7533 sont disponibles</p></figcaption></figure></div>
 
 Ensuite, modifier le nom du jeu en y ajoutant la version de OpenBOR à utiliser entre des crochets ( "\[" et "]") :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/vVLQjYk.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/vVLQjYk.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Le numéro de version spécifié entre les crochets doit être strictement identique au numéro de version spécifié dans le dossier `\emulators\openbor`.
 {% endhint %}
 
-Enfin, dans RetroBat, sélectionné l'émulateur "**openbor-specific-version"**, puis lancer le jeu**:**
+Enfin, dans RetroBat, sélectionné l'émulateur "**openbor-specific-version"**, puis lancer le je&#x75;**:**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/B1eHqFm.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/B1eHqFm.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 RetroBat ne génère aucune configuration pour les version spécifiques d'OpenBOR, les personnalisations et commandes doivent être configurées manuellement dans OpenBOR.&#x20;

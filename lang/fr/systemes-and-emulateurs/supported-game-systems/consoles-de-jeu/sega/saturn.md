@@ -4,11 +4,7 @@ description: Sega
 
 # Saturn
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/master/art/logos/saturn.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/master/art/logos/saturn.svg" alt=""><figcaption></figcaption></figure></div>
 
 Console de jeu - Durée de vie: 1994 - 2000
 
@@ -16,11 +12,11 @@ Console de jeu - Durée de vie: 1994 - 2000
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: kronos</li><li>libretro: mednafen saturn</li><li>mednafen</li><li>bizhawk: saturnus</li><li>ssf</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> saturn</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.zip .cue .toc .m3u .ccd .chd .iso .cso .mds .chd</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>libretro: kronos</li><li>libretro: mednafen saturn</li><li>libretro: yabasanshiro</li><li>mednafen</li><li>bizhawk: saturnus</li><li>yabasanshiro</li><li>kronos</li><li>ssf</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> saturn</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.zip .cue .toc .m3u .ccd .chd .iso .cso .mds .chd .squashfs</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-kronos : OUI<br>lr_mednafen : OUI<br>Mednafen : NON<br>BizHawk : OUI<br>SSF : NON</td><td>lr-kronos : OUI<br>lr_mednafen : OUI<br>Mednafen : NON<br>BizHawk : NON<br>SSF : NON</td><td>lr-kronos : OUI<br>lr_mednafen : OUI<br>Mednafen : OUI<br>BizHawk : OUI<br>SSF : OUI</td></tr></tbody></table>
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-kronos : OUI<br>lr_mednafen : OUI<br>lr-yabasanshiro : OUI<br>Mednafen : NON<br>BizHawk : OUI<br>Yabasanshiro : NON<br>Kronos : NON<br>SSF : NON</td><td>lr-kronos : OUI<br>lr_mednafen : OUI<br>lr-yabasanshiro : NON<br>Mednafen : NON<br>BizHawk : NON<br>Yabasanshiro : NON<br>Kronos : NON<br>SSF : NON</td><td>lr-kronos : OUI<br>lr_mednafen : OUI<br>lr-yabasanshiro : OUI<br>Mednafen : OUI<br>BizHawk : OUI<br>Yabasanshiro : OUI<br>Kronos : OUI<br>SSF : OUI</td></tr></tbody></table>
 
 ## BIOS
 
@@ -30,37 +26,21 @@ Console de jeu - Durée de vie: 1994 - 2000
 
 ### Schéma de contrôles standard:
 
-<div align="left">
-
-<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/saturn.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/saturn.png?raw=true" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ### Inversion des gâchettes:
 
 Il est possible d'inverser les gâchettes et les boutons L/R avec l'option suivante:
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/lpAcAex.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/lpAcAex.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/saturn_invert_triggers.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/saturn_invert_triggers.png?raw=true" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ### Autres schémas de contrôles:
 
 Des schémas de contrôles alernatifs sont disponibles avec l'option suivante:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/Ui2uKWH.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/Ui2uKWH.png" alt=""><figcaption></figcaption></figure></div>
 
 | Option                 | Schéma de contrôle                                                                                                                                        |
 | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -77,11 +57,7 @@ RetroBat détecte et configure automatiquement les manettes de type "Saturn" sui
 
 Pour cela, activer l'option suivante:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/1KFcEBs.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/1KFcEBs.png" alt=""><figcaption></figcaption></figure></div>
 
 Le mapping des manettes Saturn est géré par le fichier "**saturnControllers.json**" situé dans le répertoire `\system\resources\inputmapping` de l'installation RetroBat, il est possible d'ajouter d'autres manettes dans ce fichier pour automatiquement configurer votre contrôleur.
 
@@ -93,16 +69,8 @@ Utiliser un fichier m3u pour gérer les jeux multi-disques.
 
 Ci-dessous un exemple pour le jeu _Panzer Dragoon Saga_:&#x20;
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/o3QZPs0.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/o3QZPs0.png" alt=""><figcaption></figcaption></figure></div>
 
 Créer le fichier `Panzer Dragoon Saga.m3u` avec le contenu suivant et sauvegarder le fichier m3u dans le dossier `/roms/saturn` :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/gy9LuLH.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/gy9LuLH.png" alt=""><figcaption></figcaption></figure></div>

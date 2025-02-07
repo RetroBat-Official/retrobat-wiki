@@ -1,10 +1,6 @@
 # LaserDisc
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/daphne.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/daphne.svg" alt=""><figcaption></figcaption></figure></div>
 
 Arcade - Date de sortie du premier jeu LaserDisc : 1983
 
@@ -61,37 +57,21 @@ Une fois le jeu ajouté à la bibliothèque, il apparaît dans Retrobat en doubl
 
 En effet le système détecte le répertoire .daphne mais également le fichier .zip.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/crqriZ1.png" alt=""><figcaption><p>lair appears twice</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/crqriZ1.png" alt=""><figcaption><p>lair appears twice</p></figcaption></figure></div>
 
 Il est possible de masquer l'affichage du fichier zip depuis les [**OPTIONS D'AFFICHAGE**](../../../navigation/view-options.md#options-daffichage).&#x20;
 
 Pour cela appuyer sur **SELECT**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/Orvrz9Z.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/Orvrz9Z.png" alt=""><figcaption></figcaption></figure></div>
 
 Sélectionner [**PERSONNALISER LA VUE**](../../../navigation/view-options.md#options-daffichage) puis EXTENSIONS
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/4qx30od.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/4qx30od.png" alt=""><figcaption></figcaption></figure></div>
 
 Décocher l'extension .zip.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/QQwL8qq.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/QQwL8qq.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Ajout de jeux SINGE/SINGE2 (Hypseus)
 
@@ -106,11 +86,7 @@ De plus 2 fichiers supplémentaires doivent être présents dans le dossier de j
 
 Un dossier de jeu SINGE doit avoir une structure similaire à celle-ci:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/QPFt4jZ.jpg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/QPFt4jZ.jpg" alt=""><figcaption></figcaption></figure></div>
 
 ### Structure de fichier pour Hypseus
 
@@ -124,35 +100,29 @@ Pour commencer, télécharger le contenu du repo ci-dessous,
 
 &#x20;extraire le contenu de l'archive dans un répertoire temporaire.
 
-<div align="left">
-
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FexdzL60ZuqPLldz2AYta%2Fuploads%2FRUpdMz97dRcfxyZVG0qp%2Fimage.png?alt=media&#x26;token=3b1ac82f-38a1-4379-ab7e-9d94b7f84e5e" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FexdzL60ZuqPLldz2AYta%2Fuploads%2FRUpdMz97dRcfxyZVG0qp%2Fimage.png?alt=media&#x26;token=3b1ac82f-38a1-4379-ab7e-9d94b7f84e5e" alt=""><figcaption></figcaption></figure></div>
 
 Pour l'exemple, nous allons utiliser le jeu Astroboy, qui se situe dans le sous-dossier 00-singe2 de l'archive précédente :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/cbDJNRN.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/cbDJNRN.png" alt=""><figcaption></figcaption></figure></div>
 
 A l'interieur de ce dossier de jeu, vous trouverez un fichier texte qui contient des précisions concernant les fichiers manquants pour que le jeu soit fonctionnel, et à quel endroit ils doivent être placés. Dans notre exemple, il faut ajouter le fichier`astroboy.m2v` dans le dossier `Video`.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/gobNmnZ.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/gobNmnZ.png" alt=""><figcaption></figcaption></figure></div>
 
 Après avoir ajouté les fichiers nécessaires (cela peut être des fichiers`.m2v`, ou bien des fichiers`.ogg` et`.m2v`), il est nécessaire de renommer le dossier de jeux avec .daphne à la fin du nom du dossier (dans notre exemple : `Astroboy.daphne`) et déplacer ce dossier dans le répertoire `/roms/daphne/` folder.
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/AcTA2z0.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/AcTA2z0.png" alt=""><figcaption></figcaption></figure>
+### Utiliser des lignes de commandes personnalisées (Hypseus)
 
-</div>
+Il est possible d'utiliser un fichier de commandes personnalisées pour envoyer des requêtes à l'émulateur Hypseus. Pour cela, créer un fichier texte dans le dossier du jeu, et renseigner toutes les commandes voulues à l’intérieur du fichier :
+
+<div align="left"><figure><img src="https://i.imgur.com/lVcsfdd.png" alt=""><figcaption></figcaption></figure></div>
+
+<div align="left"><figure><img src="https://i.imgur.com/5ctmvZB.png" alt=""><figcaption></figcaption></figure></div>
+
+Enfin : renommer le fichier avec l'extension .commands, le nom du fichier doit être strictement identique au nom du dossier de jeu (sans l'extension .singe ou .daphne).
 
 ### Ajout de jeux SINGE2 (émulateur singe2)
 
@@ -164,17 +134,9 @@ Seuls les jeux fournis sur le site web de l'émulateur fonctionnent avec l'émul
 
 Télécharger le jeu, ajouter les fichiers requis (vidéo/son), puis renomme le dossier de jeu avec l'extension .singe pour utiliser les jeux avec l'émulateur singe2 depuis RetroBat:
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/0iDxyWG.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/0iDxyWG.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/7dDJtAe.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/7dDJtAe.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
 Le nom du dossier doit être parfaitement identique au nom du dossier du jeu téléchargé sur le site de l'émulateur.

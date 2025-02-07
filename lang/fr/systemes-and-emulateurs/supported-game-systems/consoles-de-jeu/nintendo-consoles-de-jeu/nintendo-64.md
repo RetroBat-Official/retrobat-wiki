@@ -4,11 +4,7 @@ description: Nintendo
 
 # Nintendo 64
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/master/art/logos/n64.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/master/art/logos/n64.svg" alt=""><figcaption></figcaption></figure></div>
 
 Console de jeu - Durée de vie : 1996 - 2002
 
@@ -20,7 +16,7 @@ Console de jeu - Durée de vie : 1996 - 2002
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-mupen64 : OUI<br>lr-parallel : OUI<br>RMG : NON<br>Simple64 : NON<br>Ares : NON<br>BizHawk : OUI<br>Project64 : NON</td><td>lr-mupen64 : OUI<br>lr-parallel : OUI<br>RMG : NON<br>Simple64 : NON<br>Ares : NON<br>BizHawk : NON<br>Project64 : NON</td><td>lr-mupen64 : OUI<br>lr-parallel : OUI<br>RMG : OUI<br>Simple64 : OUI<br>Ares : OUI<br>BizHawk : OUI<br>Project64 : NON</td></tr></tbody></table>
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-mupen64 : OUI<br>lr-parallel : OUI<br>RMG : NON<br>Simple64 : NON<br>Ares : NON<br>BizHawk : OUI<br>Project64 : NON</td><td>lr-mupen64 : OUI<br>lr-parallel : OUI<br>RMG : NON<br>Simple64 : NON<br>Ares : NON<br>BizHawk : NON<br>Project64 : NON</td><td>lr-mupen64 : OUI<br>lr-parallel : OUI<br>RMG : OUI<br>Simple64 : OUI<br>Ares : OUI<br>BizHawk : OUI<br>Project64 : OUI</td></tr></tbody></table>
 
 ## BIOS
 
@@ -30,29 +26,17 @@ Aucun BIOS nécessaire.
 
 ### Libretro (Mupen64plus\_next et parallel)
 
-<div align="left">
-
-<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64.png?raw=true" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ### Mupen64 (RMG), Simple64, Ares etBizhawk
 
 Pour Mupen64 RMG et Simple64, il existe 5 schémas de contrôle en fonction des options sélectionnées ici:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/DkLUs4h.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/DkLUs4h.png" alt=""><figcaption></figcaption></figure></div>
 
 Ares et Bizhawk en proposent 3:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/HKiieSd.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/HKiieSd.png" alt=""><figcaption></figcaption></figure></div>
 
 Les cinq schémas sont:
 
@@ -74,11 +58,7 @@ RetroBat détecte et configure automatiquement les manettes N64 suivantes:
 
 De plus, RMG Mupen64 et Simple64 permettent d'utiliser la fonctionnalité d'accès direct au contrôleur pour l'adaptateur Raphnet, pour cela il est nécessaire de modifier le pilote des manettes dans RetroBat:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/6ZCeSOE.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/6ZCeSOE.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Il est important de connecter les manettes de droite à gauche sur l'adaptateur Mayflash, la manette 1 étant celle connectée au port 4 (ou 2 pour les adaptateurs 2 manettes) de l'adaptateur.
@@ -94,19 +74,11 @@ Le coeur mupen64plus next permet l'utilisation de textures "custom".
 
 Le pack de textures "custom" doit être placé dans le dossier `bios\Mupen64Plus\cache\` si le pack est au format .htc ou .hts.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/H878WjR.png" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/H878WjR.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Si le pack de textures est au format décompressé (dossier contenant des fichiers .png), il doit être placé dans le dossier `bios\Mupen64Plus\hires_texture\`.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/1sqG9H4.png" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/1sqG9H4.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Les packs de textures au format htc ou hts doivent être nommés `GAMEID"__HIRESTEXTURES.hts` ou .htc (par exemple: `MARIOKART64_HIRESTEXTURES.htc`).
 
@@ -114,23 +86,11 @@ Les dossiers des packs de textures décompressés doivent être nommés comme le
 
 Une fois le pack placé dans le bon dossier, activer **CUSTOM TEXTURES** dans Retrobat.
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/63zt74D.png" alt=""><figcaption><p>Configuration avancée du système</p></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/63zt74D.png" alt=""><figcaption><p>Configuration avancée du système</p></figcaption></figure>
+<div align="left"><figure><img src="https://i.imgur.com/h5dF0BV.png" alt=""><figcaption><p>Visual Rendering</p></figcaption></figure></div>
 
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/h5dF0BV.png" alt=""><figcaption><p>Visual Rendering</p></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/po34PIR.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/po34PIR.png" alt=""><figcaption></figcaption></figure></div>
 
 Choisir RICE pour les packs au formats htc ou hts.&#x20;
 
