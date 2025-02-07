@@ -95,7 +95,7 @@ Copier simplement le dossier du jeu dans le dossier `\roms\ps3` de votre install
 
 Le jeu sera directement disponible dans RetroBat.
 
-#### Ajouter un jeu PSN
+#### Ajouter un jeu PSN - option 1
 
 Une fois que l'émulateur est configuré, que le jeu est ajouté et qu'il fonctionne correctement lorsqu'il est lancé depuis l'émulateur, créer un fichier m3u et le placer dans le dossier `\roms\ps3` .
 
@@ -108,6 +108,18 @@ Le fichier m3u doit pointer vers le fichier **EBOOT.BIN** se trouvant dans le do
 {% hint style="info" %}
 L'outil BATGUI permet la création automatique des m3u. Se référer à la section [BATGUI ](../../../../utilisation-avancee/batgui.md)du wiki.
 {% endhint %}
+
+#### Ajouter un jeu PSN - option 2
+
+Créer un fichier m3u et le placer dans le dossier `\roms\ps3` .
+
+Le fichier doit contenir l'ID du jeu précédé de GAMEID:
+
+<div align="left"><figure><img src="https://i.imgur.com/DanYmrt.png" alt=""><figcaption></figcaption></figure></div>
+
+L'ID du jeu peut être récupérée dans l'émulateur:
+
+<div align="left"><figure><img src="https://i.imgur.com/2dAJlIN.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Utiliser les configurations par jeu de l'émulateur
 

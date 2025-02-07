@@ -26,10 +26,12 @@ Il est nécessaire d'extraire le firmware et le fichier `prod.keys` de votre con
 
 Placer le fichier prod.keys dans le dossier `\saves\switch\ryujinx\portable\system`
 
-Installer le firmware directement depuis l'émulateur, en utilisant le fichier "Configure Ryujinx.bat" pour lancer Ryujinx.
+Installer le firmware directement depuis l'émulateur, en utilisant le fichier "Configure Ryujinx.bat" pour lancer Ryujinx ou en lançant Ryujinx depuis le menu RetroBat.
 
 {% hint style="danger" %}
-Cette étape est impérative pour le bon fonctionnement de l'émulateur
+Cette étape est impérative pour le bon fonctionnement de l'émulateur.
+
+Si le fichier "Configure Ryujinx.bat" n'existe pas dans le dossier emulators\ryujinx, vous pouvez le retrouver dans le dossier system\templates\ryujinx et le copier dans le dossier de l'émulateur.
 {% endhint %}
 
 <div align="left"><figure><img src="https://i.imgur.com/CVXr1y7.png" alt=""><figcaption><p>Tools > Install Firmware</p></figcaption></figure></div>
