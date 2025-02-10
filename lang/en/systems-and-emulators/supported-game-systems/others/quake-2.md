@@ -64,3 +64,7 @@ Here is the structure organization for your tyrquake rom files:
         |   └── sprites\
                 └── various files
 ```
+
+{% hint style="info" %}
+RetroBat will automatically select the appropriate libretro core depending on the name of the subfolder.
+{% endhint %}

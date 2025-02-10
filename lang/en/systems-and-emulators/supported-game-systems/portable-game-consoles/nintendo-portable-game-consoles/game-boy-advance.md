@@ -18,12 +18,6 @@ Portable Game Console - Lifespan: 2001 - 2008
 
 <table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-mgba: YES<br>lr-mednafen: YES<br>lr-gpsp: YES<br>mGBA: NO<br>no$gba: NO<br>Mednafen: NO<br>Ares: NO<br>BizHawk: YES</td><td>lr-mgba: YES<br>lr-mednafen: YES<br>lr-gpsp: NO<br>mGBA: NO<br>no$gba: NO<br>Mednafen: NO<br>Ares: NO<br>BizHawk: NO</td><td>lr-mgba: YES<br>lr-mednafen: YES<br>lr-gpsp: YES<br>mGBA: NO<br>no$gba: NO<br>Mednafen: YES<br>Ares: YES<br>BizHawk: YES</td></tr></tbody></table>
 
-## Features
-
-| Retroachievements         | NetPlay |
-| ------------------------- | ------- |
-| YES (with libretro cores) | NO      |
-
 ## BIOS
 
 <table><thead><tr><th width="187">Bios file</th><th width="108">Folder</th><th>md5</th></tr></thead><tbody><tr><td>gba_bios.bin</td><td><code>\bios</code></td><td>a860e8c0b6d573d191e4ec7db1b1e4f6</td></tr></tbody></table>

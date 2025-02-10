@@ -6,16 +6,6 @@ Hotkeys are used to perform several operations while in-game, the more frequent 
 
 ## **In-Game Hotkeys**
 
-{% hint style="info" %}
-For some Emulators, hotkeys for face buttons will be reversed for NINTENDO controllers based on the NINTENDO layout (Switch Pro controllers for example):
-
-![](<../.gitbook/assets/image (16).png>) becomes ![](<../.gitbook/assets/image (30).png>)
-
-![](<../.gitbook/assets/image (50).png>) becomes ![](<../.gitbook/assets/image (48).png>)
-
-Reach out to the RetroBat team if this is the case, we'll perform the correction to align all emulators to the standard layout.
-{% endhint %}
-
 ### RetroArch
 
 <table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (16).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (30).png" alt=""></td><td>RetroArch MENU</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (50).png" alt=""></td><td>Load Save State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (48).png" alt=""></td><td>Save State</td></tr><tr><td>Hotkey + START</td><td>Quit RetroArch</td></tr><tr><td>Hotkey + L1</td><td>Eject Disc</td></tr><tr><td>Hotkey + R1</td><td>AI Service</td></tr><tr><td>Hotkey + L2</td><td>Select Disc Index -</td></tr><tr><td>Hotkey + R2</td><td>Select Disc Index +</td></tr><tr><td>Hotkey + D-PAD UP</td><td>Select Save Slot Index +</td></tr><tr><td>Hotkey + D-PAD DOWN</td><td>Select Save Slot Index -</td></tr><tr><td>Hotkey + D-PAD LEFT</td><td>Rewind</td></tr><tr><td>Hotkey + D-PAD RIGHT</td><td>Fast Forward (can be changed from Hold to Toggle)</td></tr><tr><td>Hotkey + R3</td><td>Screenshot</td></tr></tbody></table>

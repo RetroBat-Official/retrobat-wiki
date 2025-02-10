@@ -25,7 +25,7 @@ No BIOS required.
 ## Controls
 
 {% hint style="info" %}
-The following controllers can be autoconfigured from RetroBat in lime3ds/citra standalone:
+The following controllers can be autoconfigured from RetroBat in lime3ds/citra/mandarine standalone:
 
 * XInput controllers
 * Dualshock 4 and Dualsense controllers

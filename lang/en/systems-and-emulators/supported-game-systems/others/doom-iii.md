@@ -34,7 +34,7 @@ boom3 allows you to choose between 2 controller layouts from RetroBat menu.
 
 ## Specific system information
 
-### Dhewm3File organization
+### File organization
 
 Boom3 and Dhewm3 need a file with the extension .boom3 to be placed in the `roms\doom3` folder of your RetroBat installation. (dhewm3 also accepts .game extension)
 
@@ -78,3 +78,6 @@ In the example above, RetroBat will run the bloodmod and add the following comma
 +set com_allowconsole 1 +set g_gib_power 100 +set g_gib_shadows 1
 ```
 
+### Mods
+
+Dhewm3 can run mods. The list of mods can be found on the [game engine webpage](https://dhewm3.org/mods.html).

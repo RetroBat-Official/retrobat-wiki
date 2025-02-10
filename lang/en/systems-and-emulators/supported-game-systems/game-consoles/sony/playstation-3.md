@@ -93,7 +93,7 @@ Simply copy the game folder to the `\roms\ps3` folder of your RetroBat installat
 
 The game will directly be available in RetroBat.
 
-#### Adding PSN titles
+#### Adding PSN titles - option 1
 
 \
 Once the game has been added to the emulator from the "**Install package**" or/and "**Add games**" menu and the game is working succesfully from the emulator, create a m3u file in the `\roms\ps3` folder that points to the **EBOOT.BIN** file of the game in the `\saves\ps3\rpcs3\dev_hdd0\game` game folder:
@@ -107,6 +107,18 @@ Once the game has been added to the emulator from the "**Install package**" or/a
 {% hint style="info" %}
 BATGUI tool offers an automatic m3u creation tool. Refer to the [BATGUI ](../../../../advanced-features/batgui.md)section of the wiki.
 {% endhint %}
+
+#### Adding PSN titles - option 2
+
+Create a m3u file and place it in the `\roms\ps3` folder.
+
+The m3u file must contain "GAMEID:" followed by the game ID :
+
+<div align="left"><figure><img src="https://i.imgur.com/DanYmrt.png" alt=""><figcaption></figcaption></figure></div>
+
+The game ID can be found in the emulator game list:
+
+<div align="left"><figure><img src="https://i.imgur.com/2dAJlIN.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Use emulator game configuration
 

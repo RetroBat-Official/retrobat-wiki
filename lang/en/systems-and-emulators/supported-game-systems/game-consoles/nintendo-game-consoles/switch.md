@@ -30,6 +30,12 @@ Install firmware directly in the emulator, using the "**Configure Ryujinx.bat**"
 
 <div align="left"><figure><img src="https://i.imgur.com/CVXr1y7.png" alt=""><figcaption><p>Tools > Install Firmware</p></figcaption></figure></div>
 
+{% hint style="danger" %}
+This step is mandatory for Ryujinx to work properly with RetroBat.
+
+If the "Configure Ryujinx.bat" does not exist in the `emulators\ryujinx` folder, you can find it in the `system\templates\ryujinx` folder and copy it in the emulator folder.
+{% endhint %}
+
 ### Sudachi, Suyu, Yuzu and Citron
 
 Place prod.keys file in `\emulators\`<mark style="color:purple;">`<emulator>`</mark>`\user\keys`
