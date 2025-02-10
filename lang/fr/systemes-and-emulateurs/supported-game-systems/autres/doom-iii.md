@@ -14,7 +14,7 @@ Moteurs de jeu permettant de jouer à Doom 3 et son extension Resurrection of Ev
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>Libretro: boom3</li><li>Libretro: boom3_xp</li><li>dhewm3</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> boom3</td></tr><tr><td><strong>Extensions</strong></td><td>.boom3</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>Libretro: boom3</li><li>Libretro: boom3_xp</li><li>dhewm3</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> doom3</td></tr><tr><td><strong>Extensions</strong></td><td>.boom3 .game</td></tr></tbody></table>
 
 ## Bios
 
@@ -80,6 +80,18 @@ Boom3 et Dhewm3 nécessite les fichiers .pk4 originaux issus du jeu Doom3 et de 
         └── d3xp/
             ├── pak000.pk4 
             └── pak001.pk4
+```
+
+### Dhewm3: lancer avec des lignes de commandes personnalisées
+
+L'émulateur dhewm3 permet de lancer des lignes de commandes personnalisées, pour cela, ouvrez le fichier rom (.game ou .boom3) avec un éditeur de texte et ajoutez les lignes de commande souhaitées dans la 2e ligne du fichier:
+
+<div align="left"><figure><img src="https://i.imgur.com/Q5kMZIt.png" alt=""><figcaption></figcaption></figure></div>
+
+L'exemple ci-dessuslancera le mod bloodmod avec les lignes de commande suivantes:
+
+```
++set com_allowconsole 1 +set g_gib_power 100 +set g_gib_shadows 1
 ```
 
 ### Mods

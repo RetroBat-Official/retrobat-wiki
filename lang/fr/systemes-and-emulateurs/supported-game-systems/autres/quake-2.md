@@ -59,3 +59,7 @@ Ci-dessous la structure recommandée pour l'organisation du dossier des jeux:
         |   └── sprites\
                 └── various files
 </code></pre>
+
+{% hint style="info" %}
+RetroBat sélectionne automatiquement le con core libretro en fonction du nom du sous-dossier.
+{% endhint %}

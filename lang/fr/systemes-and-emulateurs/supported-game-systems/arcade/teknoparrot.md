@@ -20,45 +20,61 @@ Aucune BIOS nécessaire.
 
 ## Contrôles
 
-{% hint style="warning" %}
-La configuration automatique des contrôles pour Teknoparrot n'est pas toujours fiable, il est possible qu'en fonction du jeu ou du contrôleur il soit nécessaire de désactiver la configuration automatique dans RetroBat et de configurer les contrôles directement dans Teknoparrot.
-{% endhint %}
+La configuration automatique des contrôles pour les manettes et les pistolets est possible depuis la version 7.0.0.0 de RetroBat.
 
-| Retrobat                                       | Arcade                     |
-| ---------------------------------------------- | -------------------------- |
-| START                                          | START                      |
-| SELECT                                         | COIN (Monnaie)             |
-| Stick analogique gauche                        | Directions (si analogique) |
-| Stick analogique droit                         |                            |
-| D-PAD                                          | Directions                 |
-| ![](<../../../.gitbook/assets/image (33).png>) | Bouton 4                   |
-| ![](<../../../.gitbook/assets/image (20).png>) | Bouton 2 / ExtensionOne2   |
-| ![](<../../../.gitbook/assets/image (7).png>)  | Bouton 1                   |
-| ![](<../../../.gitbook/assets/image (35).png>) | Bouton 3                   |
-| L1                                             | Bouton 5                   |
-| R1                                             | Bouton 6                   |
+Le fichier **teknoparrot.yml** situé dans le dossier `system\resources\inputmapping` contient les règles de mapping pour chaque jeu, il peut être mis à jour si vous souhaitez modifier le mapping pour un jeu.
 
-### Jeux de course
+Exemple pour spiderman:
 
-| Retrobat                | Arcade    |
-| ----------------------- | --------- |
-| Stick analogique gauche | Volant    |
-| R3 (Right Thumb)        | Accélerer |
-| L3 (Left Thumb)         | Freiner   |
+```
+spiderman:
+  Coin1: select # P2 COINS
+  P1Button6: leftshoulder # P1 COINS
+  P1ButtonStart: start # P1 START / ACTION
+  P2ButtonStart: start # P2 START / ACTION
+  Service1: r3 # Test Select
+  Test: l3 # Test Menu
+```
 
-### MachStorm
+Les jeux de tir peuvent avoir 2 mappings, un premier pour jouer à la manette et un second pour jouer au pistolet ou à la souris:
 
-| Retrobat                                       | Arcade                   |
-| ---------------------------------------------- | ------------------------ |
-| SELECT                                         | Service 1                |
-| Stick analogique gauche : HAUT                 | Analog 6                 |
-| Stick analogique gauche : GAUCHE               | Analog 4                 |
-| R3 (Right Thumb)                               | Analog 2                 |
-| D-PAD : HAUT                                   | Haut                     |
-| D-PAD : BAS                                    | Bas                      |
-| ![](<../../../.gitbook/assets/image (7).png>)  | BoutonÉmulateur Arcade 1 |
-| ![](<../../../.gitbook/assets/image (20).png>) | ExtensionOne12           |
-| ![](<../../../.gitbook/assets/image (35).png>) | ExtensionOne11           |
+```
+hotd4:
+  Analog0: rightstickleft # Player 1 Gun X
+  Analog2: rightstickup # Player 1 Gun Y
+  Analog4: rightstickleft # Player 2 Gun X
+  Analog6: rightstickup # Player 2 Gun Y
+  Coin1: select # Coin 1
+  Coin2: select # Coin 2
+  P1Button1: righttrigger # Player 1 Gun Trigger
+  P1Button2: lefttrigger # Player 1 Reload
+  P1Button3: leftshoulder # Player 1 Grenade
+  P1ButtonStart: start # Player 1 Start
+  P2Button1: righttrigger # Player 2 Gun Trigger
+  P2Button2: lefttrigger # Player 2 Reload
+  P2Button3: leftshoulder # Player 2 Grenade
+  P2ButtonStart: start # Player 2 Start
+  Service1: r3 # Service 1
+  Test: l3 # Test
+
+hotd4_gun:
+  Coin1: kb_5 # Coin 1
+  Coin2: kb_6 # Coin 2
+  mouseleft_1: P1Button1 # P1 Left Trigger
+  mouseleft_2: P2Button1 # P2 Left Trigger
+  mousemiddle_1: P1Button3 # P1 Grenades
+  mousemiddle_2: P2Button3 # P2 Grenades
+  mouseright_1: P1Button2 # P1 Right Trigger
+  mouseright_2: P2Button2 # P2 Right Trigger
+  P1ButtonStart: kb_1 # P1 Start
+  P2ButtonStart: kb_2 # P2 Start
+  Service1: kb_S # Service
+  Test: kb_T # Test
+```
+
+L'ID de bouton à utiliser pour le mapping peut être récupéré dans le fichier de profil du jeu dans le dossier `emulators\teknoparrot\GameProfiles` folder:
+
+<div align="left"><figure><img src="https://i.imgur.com/c9Vtv43.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Informations spécifiques au système
 

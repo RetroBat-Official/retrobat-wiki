@@ -55,3 +55,15 @@ Le contenu du fichier .m3u doit être le suivant :
 ```
 \Banjo Tooie\58410955\000D0000\ABB9CAB336175357D09F2D922735D23C62F90DDD
 ```
+
+### Utiliser Xenia Manager
+
+Pour utiliser Xenia Manager, sélectionner "xenia-manager" comme émulateur dans les options avancées du système:
+
+<div align="left"><figure><img src="https://i.imgur.com/3m5DSxP.png" alt=""><figcaption></figcaption></figure></div>
+
+Lorsque xenia manager est utilisé, RetroBat va automatiquement vérifier si il existe un fichier de configuration spécifique pour le jeu, la recherche s'effectue dans le fichier "games.json" qui se situe dans le dossier `emulators\xenia-manager\Config` de l'installation RetroBat:
+
+<div align="left"><figure><img src="https://i.imgur.com/aT4Hy35.png" alt=""><figcaption></figcaption></figure></div>
+
+Si le fichier de configuration existe pour le jeu, RetroBat utilisera la configuration personnalisée du jeu plutôt que les options définies dans l'interface RetroBat.

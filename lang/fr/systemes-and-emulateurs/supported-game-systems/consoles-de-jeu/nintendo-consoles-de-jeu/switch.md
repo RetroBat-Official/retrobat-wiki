@@ -31,7 +31,7 @@ Installer le firmware directement depuis l'émulateur, en utilisant le fichier "
 {% hint style="danger" %}
 Cette étape est impérative pour le bon fonctionnement de l'émulateur.
 
-Si le fichier "Configure Ryujinx.bat" n'existe pas dans le dossier emulators\ryujinx, vous pouvez le retrouver dans le dossier system\templates\ryujinx et le copier dans le dossier de l'émulateur.
+Si le fichier "Configure Ryujinx.bat" n'existe pas dans le dossier `emulators\ryujinx`, vous pouvez le retrouver dans le dossier `system\templates\ryujinx` et le copier dans le dossier de l'émulateur.
 {% endhint %}
 
 <div align="left"><figure><img src="https://i.imgur.com/CVXr1y7.png" alt=""><figcaption><p>Tools > Install Firmware</p></figcaption></figure></div>

@@ -49,10 +49,6 @@ aquarius_ar.zip
 
 Utiliser la fonctionnalité [Pad2Key](../../../../controleurs/pad2key.md).
 
-{% hint style="danger" %}
-En construction
-{% endhint %}
-
 ## Information spécifique au système
 
 Aucune information spécifique au système.

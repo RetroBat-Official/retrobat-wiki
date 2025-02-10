@@ -6,16 +6,6 @@ Les "hotkeys" sont des combinaisons de touches/boutons permettant d'effectuer ce
 
 ## **Liste des Raccourcis**
 
-{% hint style="info" %}
-Pour certains émulateurs, les raccourcis liés aux boutons seront inversés sur les manettes NINTENDO (Switch Pro par exemple):
-
-![](<../.gitbook/assets/image (7).png>) devient ![](<../.gitbook/assets/image (20).png>)
-
-![](<../.gitbook/assets/image (35).png>) devient ![](<../.gitbook/assets/image (33).png>)
-
-Prévenez les équipes RetroBat si c'est le cas, nous apporterons les corrections pour aligner en fonction de la localisation du bouton.
-{% endhint %}
-
 ### RetroArch
 
 <table><thead><tr><th width="282">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (7).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (20).png" alt=""></td><td>RetroArch MENU</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt=""></td><td>Charger Save State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt=""></td><td>Sauver Save State</td></tr><tr><td>Hotkey + START</td><td>Quitter RetroArch</td></tr><tr><td>Hotkey + L1</td><td>Ejecter Disque</td></tr><tr><td>Hotkey + R1</td><td>Service de traduction IA</td></tr><tr><td>Hotkey + L2</td><td>Disque Index -</td></tr><tr><td>Hotkey + R2</td><td>Disque Index +</td></tr><tr><td>Hotkey + D-PAD HAUT</td><td>Choisir Slot de sauvegarde Index +</td></tr><tr><td>Hotkey + D-PAD BAS</td><td>Choisir Slot de sauvegarde Index -</td></tr><tr><td>Hotkey + D-PAD GAUCHE</td><td>Rembobiner</td></tr><tr><td>Hotkey + D-PAD DROITE</td><td>Avance rapide (Choix possible entre maintenir et basculer)</td></tr><tr><td>Hotkey + R3</td><td>Capture d'écran</td></tr></tbody></table>
@@ -76,6 +66,14 @@ Flycast utilise pad2key pour gérer les raccourcis.
 JGenesis utilise pad2key pour gérer les raccourcis.
 {% endhint %}
 
+### Kronos
+
+<table><thead><tr><th width="269">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (7).png" alt="">  (F2)</td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (20).png" alt="">  (F1)</td><td>Lancer le jeu</td></tr><tr><td>Hotkey + R2  (F8)</td><td>Capture d'écran</td></tr><tr><td>Hotkey + L1  (ALT+ENTREE)</td><td>Plein écran</td></tr><tr><td>Hotkey + START  (ECHAP)</td><td>Quitter Kronos</td></tr></tbody></table>
+
+{% hint style="info" %}
+Kronos utilise pad2key pour gérer les raccourcis.
+{% endhint %}
+
 ### MAME
 
 <table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (7).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (20).png" alt=""></td><td>MAME menu</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt=""></td><td>Charger Save State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt=""></td><td>Sauver Save State</td></tr><tr><td>Hotkey + D-PAD LEFT</td><td>Rembobiner</td></tr><tr><td>Hotkey + D-PAD RIGHT</td><td>Avance rapide</td></tr><tr><td>L3 + R3</td><td>Menu service</td></tr></tbody></table>
@@ -125,6 +123,22 @@ MelonDS utilise pad2key pour gérer les raccourcis.
 
 {% hint style="info" %}
 Raine utilise pad2key pour gérer les raccourcis.
+{% endhint %}
+
+### SNES9X
+
+<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + START</td><td>Quitter (FERMER)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt=""></td><td>Sauvegarde d'état (F5)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt=""></td><td>Charger sauvegarde d'état (F6)</td></tr><tr><td>Hotkey + D-PAD HAUT</td><td>Slot de sauvegarde suivant (F4)</td></tr><tr><td>Hotkey + D-PAD BAS</td><td>Slot de sauvegarde précédent(F3)</td></tr><tr><td>Hotkey + D-PAD GAUCHE</td><td>Rembobiner (F7)</td></tr><tr><td>Hotkey + D-PAD DROITE</td><td>Avance rapide (F8)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (7).png" alt=""></td><td>Pause (F9)</td></tr><tr><td>Hotkey + R2</td><td>Capture d'écran (F12)</td></tr></tbody></table>
+
+{% hint style="info" %}
+Snes9X utilise pad2key pour gérer les raccourcis.
+{% endhint %}
+
+### Yabasanshiro
+
+<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + START</td><td>Quitter (FERMER)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt=""></td><td>Sauvegarde d'état 1 (CTRL+1)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt=""></td><td>Charger sauvegarde d'état 1 (ALT+1)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (20).png" alt=""></td><td>Lancer le jeu (F1)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (7).png" alt=""></td><td>Pause (F10)</td></tr><tr><td>Hotkey + R2</td><td>Capture d'écran (F8)</td></tr><tr><td>Hotkey + L1</td><td>Plein écran (ALT+ENTREE)</td></tr></tbody></table>
+
+{% hint style="info" %}
+Yabasanshiro utilise pad2key pour gérer les raccourcis.
 {% endhint %}
 
 ### YUZU, SUYU, SUDACHI

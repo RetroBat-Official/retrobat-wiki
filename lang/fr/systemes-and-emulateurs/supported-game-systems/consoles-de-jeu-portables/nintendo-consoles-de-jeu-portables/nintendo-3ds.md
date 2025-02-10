@@ -25,7 +25,7 @@ Aucun BIOS nécessaire.
 ## Contrôles
 
 {% hint style="info" %}
-Les contrôleurs suivants peuvent être autoconfigurés depuis RetroBat dans limes3ds/citra standalone:
+Les contrôleurs suivants peuvent être autoconfigurés depuis RetroBat dans limes3ds/citra/mandarine standalone:
 
 * Contrôleurs XInput
 * Dualshocks & DualSense
