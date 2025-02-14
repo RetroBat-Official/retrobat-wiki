@@ -113,6 +113,10 @@ RetroBat peut lancer automatiquement le logiciel Sinden Lightgun quand un pistol
 
 <div align="left"><figure><img src="../../../.gitbook/assets/cjofFh6.png" alt=""><figcaption></figcaption></figure></div>
 
+Il est important de s'assurer que le logiciel Sinden est configuré pour démarrer automatiquement :&#x20;
+
+<figure><img src="https://i.imgur.com/IPlhZkI.png" alt=""><figcaption></figcaption></figure>
+
 ## Gun4IR
 
 {% embed url="https://www.gun4ir.com/" %}

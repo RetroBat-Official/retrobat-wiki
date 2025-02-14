@@ -141,6 +141,6 @@ Snes9X utilise pad2key pour gérer les raccourcis.
 Yabasanshiro utilise pad2key pour gérer les raccourcis.
 {% endhint %}
 
-### YUZU, SUYU, SUDACHI
+### YUZU, SUYU, SUDACHI, CITRON
 
-<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (7).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + START</td><td>Quitter YUZU</td></tr></tbody></table>
+<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (7).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + START</td><td>Quitter émulateurs</td></tr></tbody></table>

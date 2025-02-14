@@ -88,7 +88,7 @@ L'émulateur dhewm3 permet de lancer des lignes de commandes personnalisées, po
 
 <div align="left"><figure><img src="https://i.imgur.com/Q5kMZIt.png" alt=""><figcaption></figcaption></figure></div>
 
-L'exemple ci-dessuslancera le mod bloodmod avec les lignes de commande suivantes:
+L'exemple ci-dessus lancera le mod bloodmod avec les lignes de commande suivantes :
 
 ```
 +set com_allowconsole 1 +set g_gib_power 100 +set g_gib_shadows 1
