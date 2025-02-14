@@ -12,7 +12,7 @@ Il est possible de tester une manette de jeu [ICI ](https://gamepad-tester.com/)
 
 ### Manettes 8bitdo <a href="#bitdo_controllers" id="bitdo_controllers"></a>
 
-![](<../../.gitbook/assets/image (5).png>)
+![](<../../../.gitbook/assets/image (5).png>)
 
 Les manettes de jeu 8bitdo fonctionnent parfaitement avec Windows et Retrobat.
 
@@ -30,7 +30,7 @@ Pour les manettes filaires, le passage de XInput à sdl s'effectue en maintenant
 
 ### Manettes XBox (ou tout autre contrôleur XInput)
 
-![](<../../.gitbook/assets/image (2).png>)![](<../../.gitbook/assets/image (1).png>)
+![](<../../../.gitbook/assets/image (2).png>)![](<../../../.gitbook/assets/image (1).png>)
 
 Les manettes filaires sont plug'n'play.
 
@@ -40,7 +40,7 @@ Les modèles de manettes produits avant le modèle Xbox One S (par exemple Xbox 
 
 ### Manette Nintendo Switch Pro
 
-![](<../../.gitbook/assets/image (9).png>)
+![](<../../../.gitbook/assets/image (9).png>)
 
 La manette Switch Pro est idéale pour les émulateurs CEMU (WiiU) ou Yuzu (Switch),étant nativement reconnue par ces derniers. De plus la fonctionnalité gyroscope sera reconnue automatiquement par ces émulateurs.
 
@@ -50,13 +50,13 @@ Certains émulateurs ne permettent pas d'utiliser une manette Switch Pro lorsque
 
 ### Manette Playstation 5 (DualSense)
 
-![](<../../.gitbook/assets/image (26).png>)
+![](<../../../.gitbook/assets/image (26).png>)
 
 La manette DualSense est compatible avec la fonctionnalité gyroscope et fonctionne nativement avec Retrobat.
 
 ### Manette Playstation 4 (DualShock 4)
 
-![](<../../.gitbook/assets/image (10).png>)
+![](<../../../.gitbook/assets/image (10).png>)
 
 La manette DS4 est compatible avec la fonctionnalité gyroscope et fonctionne nativement avec Retrobat.
 
@@ -65,3 +65,9 @@ La manette DS4 est compatible avec la fonctionnalité gyroscope et fonctionne na
 {% hint style="danger" %}
 Certains émulateurs ne détectent pas les touches DS4
 {% endhint %}
+
+### Contrôleurs spéciaux
+
+RetroBat prend également en charge le mapping automatique de certains contrôleurs spéciaux (N64, contrôleurs type Genesis, contrôleurs type Saturn, etc.).
+
+Vous pouvez trouver plus d'informations [ici](controleurs-speciaux.md).

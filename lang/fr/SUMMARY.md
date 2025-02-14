@@ -278,7 +278,8 @@
 ## Contrôleurs
 
 * [Contrôleurs compatibles](controleurs/supported-controllers/README.md)
-  * [🎮 Manettes de Jeu](controleurs/supported-controllers/gamepads.md)
+  * [🎮 Manettes de Jeu](controleurs/supported-controllers/gamepads/README.md)
+    * [Contrôleurs spéciaux](controleurs/supported-controllers/gamepads/controleurs-speciaux.md)
   * [🕹️ Sticks Arcade](controleurs/supported-controllers/arcade-sticks.md)
   * [🔫 Pistolets](controleurs/supported-controllers/lightguns/README.md)
     * [WiimoteGun](controleurs/supported-controllers/lightguns/wiimotegun.md)

@@ -20,7 +20,7 @@ L'idéal pour les jeux consoles.
 
 ![](<../../.gitbook/assets/image (16).png>)
 
-[La page des Manettes de Jeu](gamepads.md)
+[La page des Manettes de Jeu](gamepads/)
 {% endtab %}
 
 {% tab title="STICKS ARCADE" %}
@@ -50,11 +50,7 @@ L'idéal pour les jeux PCs, Click'n'Play, etc.
 {% tab title="VOLANTS" %}
 L'idéal pour les jeux de course.
 
-<div align="left">
-
-<figure><img src="../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 [La page sur les volants.](volants.md)
 {% endtab %}
