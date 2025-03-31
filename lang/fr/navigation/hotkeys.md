@@ -92,6 +92,7 @@ Kronos utilise pad2key pour gérer les raccourcis.
 | Hotkey + START                                    | Quitter (ALT+F4)            |
 | Hotkey + D-PAD GAUCHE                             | Ralenti (F11)               |
 | Hotkey + D-PAD DROITE                             | Avance rapide (\`F12)       |
+| Hotkey + L1                                       | Plein écran (F9)            |
 
 {% hint style="info" %}
 MelonDS utilise pad2key pour gérer les raccourcis.

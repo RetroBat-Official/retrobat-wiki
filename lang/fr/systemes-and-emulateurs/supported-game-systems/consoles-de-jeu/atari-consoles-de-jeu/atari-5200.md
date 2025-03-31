@@ -4,11 +4,7 @@ description: Atari
 
 # Atari 5200
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/atari5200.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/atari5200.svg" alt=""><figcaption></figcaption></figure></div>
 
 Console de jeu - Durée de vie : 1982 - 1984
 
@@ -16,11 +12,11 @@ Console de jeu - Durée de vie : 1982 - 1984
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro : a5200</li><li>libretro : atari800</li><li>libretro : stella2014</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> atari5200</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.rom .xfd .atr .atx .cdm .cas .bin .a52 .xex .zip .7z</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro : a5200</li><li>libretro : atari800</li><li>libretro : stella2014</li><li>altirra</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> atari5200</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.rom .xfd .atr .atx .cdm .cas .bin .a52 .xex .zip .7z</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-a5200 : NON<br>lr-atari800 : NON<br>lr-stella2014 : OUI</td><td>lr-a5200 : NON<br>lr-atari800 : NON<br>lr-stella2014 : OUI</td><td>lr-a5200 : OUI<br>lr-atari800 : OUI<br>lr-stella2014 : OUI</td></tr></tbody></table>
+<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-a5200 : NON<br>lr-atari800 : NON<br>lr-stella2014 : OUI<br>altirra: NON</td><td>lr-a5200 : NON<br>lr-atari800 : NON<br>lr-stella2014 : OUI<br>altirra: NON</td><td>lr-a5200 : OUI<br>lr-atari800 : OUI<br>lr-stella2014 : OUI<br>altirra: OUI</td></tr></tbody></table>
 
 ## BIOS
 

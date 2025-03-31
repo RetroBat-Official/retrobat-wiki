@@ -4,11 +4,7 @@ description: Nintendo
 
 # GameCube
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/gc-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/gc.svg" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/gc-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/gc.svg" alt=""></picture><figcaption></figcaption></figure></div>
 
 Console de jeu - Durée de vie : 2001 - 2007
 
@@ -38,29 +34,17 @@ Les BIOS ne sont pas nécessaires pour lancer des jeux Gamecube, mais certains s
 
 Par défaut, Dolphin génère des sauvegardes au format "dossier CGI" à l'emplacement suivant:
 
-`saves\dolphin\User\GC\EUR`
+`saves\dolphin\User\GC\EUR\Card A`
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/EGlIpe4.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/EGlIpe4.png" alt=""><figcaption></figcaption></figure></div>
 
 Le sous-dossier de la région peut être modifié avec [le paramétrage](../../../../navigation/configuration-des-systemes-et-des-jeux.md) ci-dessous:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/GuYVNfl.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/GuYVNfl.png" alt=""><figcaption></figcaption></figure></div>
 
 Il est possible également de configurer Dolphin afin d'utiliser des fichiers SRAM (ancienne méthode, un fichier correspond à une carte mémoire de Gamecube) plutôt que des dossiers CGI:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/lHnvqau.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/lHnvqau.png" alt=""><figcaption></figcaption></figure></div>
 
 Dans ce cas, le fichier de sauvegarde sera stocké dans le dossier :
 
@@ -81,11 +65,7 @@ Les contrôleurs suivants peuvent être autoconfigurés depuis RetroBat dans Dol
 
 Plusieurs schémas de contrôles sont disponibles dans RetroBat, pour les sélectionner, utiliser l'option ci-dessous dans [**options avancées du système**](../../../../navigation/view-options.md#configuration-avancee-du-systeme) **> contrôles**:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/npyMOTH.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/npyMOTH.png" alt=""><figcaption></figcaption></figure></div>
 
 | Option                                  | Schéma de contrôle                                                                                                                             |
 | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -116,11 +96,7 @@ Dolphin permet l'utilisation d'une manette GameCube originale, pour ce faire il 
 
 &#x20;**7.** Paramétrer RetroBat pour utiliser l'adaptateur Gamecube.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/hz0VYH2.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/hz0VYH2.png" alt=""><figcaption></figcaption></figure></div>
 
 Si l'adaptateur ne fonctionne pas, il est possible qu'il ne soit pas pris en charge par Dolphin.
 
@@ -140,19 +116,11 @@ Utiliser un fichier `.m3u` pour les jeux multi-disques.&#x20;
 
 Le fichier m3u doit contenir une ligne par disque du jeu, par exemple pour le jeu Baten Kaitos:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/Hh12kWj.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/Hh12kWj.png" alt=""><figcaption></figcaption></figure></div>
 
 Dans le fichier m3u, lister les noms exacts des fichiers des disques du jeu et sauvegarder:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/aBZpJ4W.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/aBZpJ4W.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Textures "custom"
 
@@ -160,49 +128,25 @@ Il est possible d'utiliser des textures "custom" avec l'émulateur Dolphin.
 
 Les packs de textures doivent être placés dans le dossier `\saves\dolphin\User\Load\Textures`.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/jJm7Htu.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/jJm7Htu.png" alt=""><figcaption></figcaption></figure></div>
 
 Le nom du dossier du pack de textures doit être strictement identique au **Game ID** du jeu, le Game ID est disponible depuis Dolphin en affichant les propriétés du jeu.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/wWaNFxC.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/wWaNFxC.png" alt=""><figcaption></figcaption></figure></div>
 
 Une fois le pack de textures correctement nommé et placé dans le bon dossier, activer les  **CUSTOM TEXTURES** dans Retrobat.
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/R5SWtvS.png" alt=""><figcaption><p>Options d'affichage > Configuration avancée du système</p></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/R5SWtvS.png" alt=""><figcaption><p>Options d'affichage > Configuration avancée du système</p></figcaption></figure>
+<div align="left"><figure><img src="https://i.imgur.com/K5NInuR.png" alt=""><figcaption><p>Visual Rendering</p></figcaption></figure></div>
 
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/K5NInuR.png" alt=""><figcaption><p>Visual Rendering</p></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/UPixWDa.png" alt=""><figcaption><p>Custom Textures</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/UPixWDa.png" alt=""><figcaption><p>Custom Textures</p></figcaption></figure></div>
 
 ### Ajouter l'icône trophée manquante sur un jeu compatible retroachievements
 
 Il est possible que pour certaines extensions de fichiers (par exemple .gcz ou .rvz), l'indexation RetroBat ne reconnaît pas un jeu pourtant compatible avec les succès rétro, quand bien même Dolphin fait apparaître au lancement un message vous alertant de la disponibilité de succès pour ce même jeu.&#x20;
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/ThQfwGy.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/ThQfwGy.png" alt=""><figcaption></figcaption></figure></div>
 
 Pour faire apparaitre l'indicateur de trophées, il faut éditer le fichier `gamelist.xml` disponible dans le répertoire `roms\<system>` pour y ajouter la ligne suivante :&#x20;
 
@@ -214,27 +158,15 @@ L' ID `XXXXX` ci-dessus doit être remplacé par l'identifiant du jeu, que vous 
 
 Dans notre exemple :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/t1Vyf3Y.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/t1Vyf3Y.png" alt=""><figcaption></figcaption></figure></div>
 
 Ci-dessous l'exemple d'un fichier gamelist.xml file après l'avoir édité et ajouté l'identifiant cheevos correspondant :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/sh46QjQ.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/sh46QjQ.png" alt=""><figcaption></figcaption></figure></div>
 
 Après avoir actualisé la liste de jeux, l'icône trophée apparaît à côté du jeu:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/81lKuBq.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/81lKuBq.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="danger" %}
 Le fichier`gamelist.xml` est un document sensible. Pensez a faire une sauvegarde de votre fichier avant toute modification.

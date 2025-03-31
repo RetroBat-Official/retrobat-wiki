@@ -1,10 +1,6 @@
 # Visual Pinball
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/vpinball.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/vpinball.svg" alt=""><figcaption></figcaption></figure></div>
 
 Simulation de Flipper
 
@@ -35,6 +31,7 @@ Visual Pinball est complexe, chaque table peut nécessiter plusieurs types de fi
 * .UltraDMD (panneau d'information sous la vitre)
 * fichier rom
 * fichiers sons
+* fichier PUPVideos
 
 Certaines tables fonctionnent avec uniquement un fichier .vpx, d'autres avec plusieurs des fichiers listés précédemment.
 
@@ -46,21 +43,13 @@ Les fichiers vpx doivent être placés dans le dossier `\roms\vpinball\`.
 
 Les fichiers directb2s doivent être placés dans le dossier `\roms\vpinball\`, le nom doit être identique au fichier vpx:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/muDyjzI.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/muDyjzI.png" alt=""><figcaption></figcaption></figure></div>
 
 #### Dossiers UltraDMD&#x20;
 
 Les dossiers UltraDMD doivent être placés dans le dossier `\roms\vpinball\`, ne pas modifier le nom du dossier fourni avec la table:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/LIDc6B0.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/LIDc6B0.png" alt=""><figcaption></figcaption></figure></div>
 
 #### Fichiers ROM&#x20;
 
@@ -68,26 +57,20 @@ Les tables utilisant VPinMAME nécessitent l'ajout d'un fichier ROM au format .z
 
 Ce fichier doit être placé dans le dossier `\roms\vpinball\roms` :&#x20;
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/kdtB5z4.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/kdtB5z4.png" alt=""><figcaption></figcaption></figure></div>
 
 Lancer le programme **PinMAME32.exe** se trouvant dans le dossier `\emulators\vpinball\VPinMAME` pour connaître le nom du fichier ROM pour la table:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/FMuBSQ3.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/FMuBSQ3.png" alt=""><figcaption></figcaption></figure></div>
 
 #### Fichiers audio
 
 Des fichiers audio aux formats mp3 ou ogg sont requis pour certaines tables, ils doivent être placés dans le répertoire `\emulators\vpinball\Music` :
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/V3nna49.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/V3nna49.png" alt=""><figcaption></figcaption></figure>
+#### Fichiers PupVideos
 
-</div>
+Les fichiers PupVideos doivent être placés dans le dossier `\emulators\vpinball\PinUPSystem\PUPVideos`:
+
+<div align="left"><figure><img src="https://i.imgur.com/lbT4uWK.png" alt=""><figcaption></figcaption></figure></div>

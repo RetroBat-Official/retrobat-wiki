@@ -12,11 +12,11 @@ Console de jeu - Durée de vie : 1996 - 2002
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: mupen64plus next</li><li>libretro: parallel</li><li>mupen64 (RMG)</li><li>simple64</li><li>ares</li><li>bizhawk: Ares64</li><li>bizhawk: Mupen64Plus</li><li>project64</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> n64</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.v64 .z64 .n64 .wad .zip .7z</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: mupen64plus next</li><li>libretro: parallel</li><li>mupen64 (RMG)</li><li>simple64</li><li>ares</li><li>bizhawk: Ares64</li><li>bizhawk: Mupen64Plus</li><li>project64</li><li>gopher64</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> n64</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.v64 .z64 .n64 .wad .zip .7z</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-mupen64 : OUI<br>lr-parallel : OUI<br>RMG : NON<br>Simple64 : NON<br>Ares : NON<br>BizHawk : OUI<br>Project64 : NON</td><td>lr-mupen64 : OUI<br>lr-parallel : OUI<br>RMG : NON<br>Simple64 : NON<br>Ares : NON<br>BizHawk : NON<br>Project64 : NON</td><td>lr-mupen64 : OUI<br>lr-parallel : OUI<br>RMG : OUI<br>Simple64 : OUI<br>Ares : OUI<br>BizHawk : OUI<br>Project64 : OUI</td></tr></tbody></table>
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-mupen64 : OUI<br>lr-parallel : OUI<br>RMG : NON<br>Simple64 : NON<br>Ares : NON<br>BizHawk : OUI<br>Project64 : NON<br>Gopher64: NON</td><td>lr-mupen64 : OUI<br>lr-parallel : OUI<br>RMG : NON<br>Simple64 : NON<br>Ares : NON<br>BizHawk : NON<br>Project64 : NON<br>Gopher64: NON</td><td>lr-mupen64 : OUI<br>lr-parallel : OUI<br>RMG : OUI<br>Simple64 : OUI<br>Ares : OUI<br>BizHawk : OUI<br>Project64 : OUI<br>Gopher64: OUI</td></tr></tbody></table>
 
 ## BIOS
 
