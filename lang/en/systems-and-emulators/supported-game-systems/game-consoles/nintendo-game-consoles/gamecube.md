@@ -4,11 +4,7 @@ description: Nintendo
 
 # GameCube
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/gc-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/gc.svg" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/gc-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/gc.svg" alt=""></picture><figcaption></figcaption></figure></div>
 
 Game Console - Lifespan: 2001 - 2007
 
@@ -34,29 +30,17 @@ The BIOS files are not mandatory to launch games but some require at least one o
 
 By default, Dolphin stores saves as GCI folders in the following location:
 
-`saves\dolphin\User\GC\EUR`
+`saves\dolphin\User\GC\EUR\Card A`
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/EGlIpe4.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/EGlIpe4.png" alt=""><figcaption></figcaption></figure></div>
 
 The region subfolder can be amended with the following [RetroBat setting](../../../../navigation/configuration-of-systems-and-games.md):
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/Hg5Kwy8.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/Hg5Kwy8.png" alt=""><figcaption></figcaption></figure></div>
 
 It is possible to use classic memcard SRAM files instead of CGI folders by enabling the following option:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/XHG2UiZ.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/XHG2UiZ.png" alt=""><figcaption></figcaption></figure></div>
 
 In that case, the save file will be located in the following folder:
 
@@ -77,11 +61,7 @@ The following controllers can be autoconfigured from RetroBat to Dolphin:
 
 RetroBat offers multiple control layouts, they can be switched in [**advanced system options**](../../../../navigation/view-options.md#advanced-system-options) **> controls**:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/bJxzFof.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/bJxzFof.png" alt=""><figcaption></figcaption></figure></div>
 
 | Option                              | Layout                                                                                                                                         |
 | ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -112,11 +92,7 @@ Dolphin can be set to use a genuine GameCube controller, to do so, it is necessa
 
 **7.** Configure RetroBat to use the Adapter:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/i9238LM.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/i9238LM.png" alt=""><figcaption></figcaption></figure></div>
 
 If the adapter does not work, it might mean that Dolphin does not currently support the model.
 
@@ -130,7 +106,7 @@ However, they can be configured by RetroBat without updating the Zadig drivers, 
 
 ### Creating a game-specific control profile
 
-It is possible to create a custom controller profile in Dolphin and assign it to a specific game, [follow this guide if required](../../../../controllers/specific\_mapping/dolphin-controller-mapping.md).
+It is possible to create a custom controller profile in Dolphin and assign it to a specific game, [follow this guide if required](../../../../controllers/specific_mapping/dolphin-controller-mapping.md).
 
 ## Specific system information
 
@@ -140,19 +116,11 @@ To automatically load the next disc of a game, you can use a `.m3u` playlist fil
 
 In the m3u file, list all game discs from your game:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/Hh12kWj.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/Hh12kWj.png" alt=""><figcaption></figcaption></figure></div>
 
 Within that text file, write the names of the game files for your game discs:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/aBZpJ4W.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/aBZpJ4W.png" alt=""><figcaption></figcaption></figure></div>
 
 Finally save the file as a .m3u file.
 
@@ -162,49 +130,25 @@ It is possible to launch Custom Texture packs with the Dolphin Emulator.
 
 The texture pack needs to be placed in the `\saves\dolphin\User\Load\Textures` folder.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/jJm7Htu.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/jJm7Htu.png" alt=""><figcaption></figcaption></figure></div>
 
 The name of the custom texture folder must be strictly identical to the **Game ID** that can be found in the game properties inside Dolphin.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/wWaNFxC.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/wWaNFxC.png" alt=""><figcaption></figcaption></figure></div>
 
 Once the custom texture pack is correctly named and placed, activate the **CUSTOM TEXTURES** setting.
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/R5SWtvS.png" alt=""><figcaption><p>Go to the View Options from the Gamecube System</p></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/R5SWtvS.png" alt=""><figcaption><p>Go to the View Options from the Gamecube System</p></figcaption></figure>
+<div align="left"><figure><img src="https://i.imgur.com/K5NInuR.png" alt=""><figcaption><p>Select "Visual Rendering"</p></figcaption></figure></div>
 
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/K5NInuR.png" alt=""><figcaption><p>Select "Visual Rendering"</p></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/UPixWDa.png" alt=""><figcaption><p>Set Custom Textures to YES</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/UPixWDa.png" alt=""><figcaption><p>Set Custom Textures to YES</p></figcaption></figure></div>
 
 ### Adding cheevos trophy indicator when missing (retroachievements)
 
 For some file extensions (like .gcz or .rvz), RetroBat does not recognize games as compatible with retroachievements, whereas Dolphin displays a prompt saying that you got achievement available for this game.&#x20;
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/ThQfwGy.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/ThQfwGy.png" alt=""><figcaption></figcaption></figure></div>
 
 As a result, the trophy indicator is missing in RetroBat in the system view for this particular game.
 
@@ -218,27 +162,15 @@ The ID `XXXXX` above must be replaced by the corresponding game ID that you can 
 
 In our exemple :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/t1Vyf3Y.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/t1Vyf3Y.png" alt=""><figcaption></figcaption></figure></div>
 
 Example of the gamelist.xml file after editing it to add the correct cheevos ID :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/sh46QjQ.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/sh46QjQ.png" alt=""><figcaption></figcaption></figure></div>
 
 The trophy icon will now appear next to the name of the game :&#x20;
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/81lKuBq.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/81lKuBq.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="danger" %}
 The `gamelist.xml` file is a sensible document. Don't hesitate to create a backup before doing some change on it.

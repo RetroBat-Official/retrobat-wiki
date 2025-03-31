@@ -12,11 +12,11 @@ Portable Game Console - Lifespan: 2011 - 2020
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>citra</li><li>lime3ds</li><li>mandarine</li><li>libretro-citra</li><li>bizhawk: encore</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> 3ds</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.3ds .3dsx .elf .axf .cci .cxi .app .m3u .zip .7z .squashfs</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>citra</li><li>azahar</li><li>lime3ds</li><li>mandarine</li><li>libretro-citra</li><li>bizhawk: encore</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> 3ds</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.3ds .3dsx .elf .axf .cci .cxi .app .m3u .zip .7z .squashfs</td><td></td></tr></tbody></table>
 
 ## System Features
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>Citra: YES<br>Lime3DS: YES<br>Mandarine: YES<br>lr-citra: YES<br>BizHawk: YES</td></tr></tbody></table>
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>Citra: YES<br>Azahar: YES<br>Lime3DS: YES<br>Mandarine: YES<br>lr-citra: YES<br>BizHawk: YES</td></tr></tbody></table>
 
 ## BIOS
 
