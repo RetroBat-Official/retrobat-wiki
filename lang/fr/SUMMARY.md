@@ -228,6 +228,7 @@
     * [Lutro](systemes-and-emulateurs/supported-game-systems/moteurs-de-jeu/lutro.md)
     * [MUGEN](systemes-and-emulateurs/supported-game-systems/moteurs-de-jeu/mugen.md)
     * [Open Beats Of Rage](systemes-and-emulateurs/supported-game-systems/moteurs-de-jeu/open-beats-of-rage.md)
+    * [Singe](systemes-and-emulateurs/supported-game-systems/moteurs-de-jeu/singe.md)
     * [Solarus](systemes-and-emulateurs/supported-game-systems/moteurs-de-jeu/solarus.md)
   * [Flipper](systemes-and-emulateurs/supported-game-systems/flipper/README.md)
     * [Future Pinball](systemes-and-emulateurs/supported-game-systems/flipper/future-pinball.md)
