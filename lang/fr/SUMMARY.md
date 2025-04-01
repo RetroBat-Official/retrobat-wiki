@@ -250,6 +250,7 @@
     * [Duke Nukem 3D](systemes-and-emulateurs/supported-game-systems/autres/duke-nukem-3d.md)
     * [Flash](systemes-and-emulateurs/supported-game-systems/autres/flash.md)
     * [GZDoom](systemes-and-emulateurs/supported-game-systems/autres/gzdoom.md)
+    * [Java ME](systemes-and-emulateurs/supported-game-systems/autres/java.md)
     * [Jeux TV portables](systemes-and-emulateurs/supported-game-systems/autres/jeux-tv-portables.md)
     * [Karaoke](systemes-and-emulateurs/supported-game-systems/autres/karaoke.md)
     * [OpenGOAL](systemes-and-emulateurs/supported-game-systems/autres/opengoal.md)
