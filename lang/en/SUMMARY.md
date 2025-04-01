@@ -228,6 +228,7 @@
     * [Lutro](systems-and-emulators/supported-game-systems/game-engines/lutro.md)
     * [MUGEN](systems-and-emulators/supported-game-systems/game-engines/mugen.md)
     * [Open Beats Of Rage](systems-and-emulators/supported-game-systems/game-engines/open-beats-of-rage.md)
+    * [Singe](systems-and-emulators/supported-game-systems/game-engines/singe.md)
     * [Solarus](systems-and-emulators/supported-game-systems/game-engines/solarus.md)
   * [Pinball](systems-and-emulators/supported-game-systems/pinball/README.md)
     * [Future Pinball](systems-and-emulators/supported-game-systems/pinball/future-pinball.md)

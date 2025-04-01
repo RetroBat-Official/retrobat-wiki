@@ -4,11 +4,7 @@ description: Worlds of Wonder
 
 # Actionmax
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/actionmax.svg" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/actionmax.svg" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Game console - Date of release: 1987
 
@@ -32,7 +28,38 @@ TBD
 
 ## Specific system information
 
-### Add Actionmax games to Hypseus
+### Add Actionmax games to Hypseus - zip method
+
+Get the latest zip roms here:\
+[https://github.com/DirtBagXon/hypseus\_singe\_data/tree/master/00-zip-roms](https://github.com/DirtBagXon/hypseus_singe_data/tree/master/00-zip-roms)
+
+Use the following folder structure (example for 38ambushalley):
+
+```
+└── roms/
+    └── actionmax/
+        ├── roms/
+        │   └── actionmax.zip
+        └── vldp/
+            └── actionmax/
+                ├── 38ambushalley.actionmax
+                ├── 38ambushalley.dat
+                ├── 38ambushalley.m2v
+                ├── 38ambushalley.ogg
+                ├── 38ambushalley.txt
+                ├── video_actionmaxintro.dat
+                ├── video_actionmaxintro.m2v
+                ├── video_menu.dat
+                └── video_menu.m2v
+```
+
+Place the game video and audio files in the `vdlp\actionmax` subfolder.
+
+Create an empty file and name it with the name of the game and the extension .actionmax in the `roms\actionmax\vldp\actionmax` folder (here `38ambushalley.actionmax`).
+
+<div align="left"><figure><img src="https://i.imgur.com/4qrVoz7.png" alt=""><figcaption></figcaption></figure></div>
+
+### Add Actionmax games to Hypseus - old method
 
 ActionMax games are compatible with Hypseus emulator but they require a very specific folder structure.
 
@@ -103,8 +130,4 @@ All Actionmax games must be located inside `roms\actionmax\actionmax` folder wit
 
 Create an empty file and name it with the name of the game and the extension .actionmax in the `roms\actionmax` folder (eg. `38ambushalley.actionmax`).
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/8fjPzCf.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/8fjPzCf.png" alt=""><figcaption></figcaption></figure></div>
