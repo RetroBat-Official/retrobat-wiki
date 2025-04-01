@@ -34,9 +34,9 @@ There is no BIOS files needed to run games.
 
 <div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64.png?raw=true" alt="" width="375"><figcaption></figcaption></figure></div>
 
-### Mupen64 (RMG), Simple64, Ares and Bizhawk
+### Mupen64 (RMG), Simple64, Project64, Ares and Bizhawk
 
-Standalone emulators (Mupen64 RMG & Simple64) have 5 different layouts available that can be switched through this option:
+Mupen64 RMG, Simple64 and Project64 have 5 different layouts available that can be switched through this option:
 
 <div align="left"><figure><img src="https://i.imgur.com/QgyGghe.png" alt=""><figcaption></figcaption></figure></div>
 
@@ -53,6 +53,10 @@ Details of the 5 layouts:
 | <p>C-BUTTONS=RIGHT-STICK Z=RIGHT-TRIGGER<br><br><strong>Ares/Bizhawk</strong><br>Z=RIGHT-TRIGGER</p>              | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone_zr.png?raw=true" alt="" data-size="original">      |
 | C-BUTTONS=FACE Z=RIGHT-TRIGGER                                                                                    | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone_face_zr.png?raw=true" alt="" data-size="original"> |
 | XBOX                                                                                                              | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64_xbox.png?raw=true" alt="" data-size="original">               |
+
+### Gopher64
+
+Gopher64 only has one default layout provided with the emulator.
 
 ### Using a N64 controller
 

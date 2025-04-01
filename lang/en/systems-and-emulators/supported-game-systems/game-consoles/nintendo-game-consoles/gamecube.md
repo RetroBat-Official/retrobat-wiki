@@ -30,9 +30,13 @@ The BIOS files are not mandatory to launch games but some require at least one o
 
 By default, Dolphin stores saves as GCI folders in the following location:
 
-`saves\dolphin\User\GC\EUR\Card A`
+`saves\dolphin\User\GC\<region>\Card A`
 
 <div align="left"><figure><img src="https://i.imgur.com/EGlIpe4.png" alt=""><figcaption></figcaption></figure></div>
+
+{% hint style="info" %}
+Libretro dolphin uses the region USA
+{% endhint %}
 
 The region subfolder can be amended with the following [RetroBat setting](../../../../navigation/configuration-of-systems-and-games.md):
 
@@ -45,6 +49,10 @@ It is possible to use classic memcard SRAM files instead of CGI folders by enabl
 In that case, the save file will be located in the following folder:
 
 `saves\dolphin\User\GC\`
+
+### Save States
+
+<table><thead><tr><th width="133.20001220703125">Emulator</th><th>Location</th></tr></thead><tbody><tr><td>Dolphin</td><td>saves\gamecube\dolphin</td></tr><tr><td>Retroarch</td><td>saves\gamecube\libretro.dolphin</td></tr></tbody></table>
 
 ## Controls
 
