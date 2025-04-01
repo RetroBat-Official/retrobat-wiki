@@ -14,6 +14,16 @@ Console de jeu - Durée de vie : 1990 - 2003
 
 <table data-header-hidden><thead><tr><th width="245"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: snes9x</li><li>libretro: bsnes-jg</li><li>libretro: bsnes</li><li>libretro: bsnes_hd_beta</li><li>libretro: mednafen_snes</li><li>libretro: mesen-s</li><li>libretro: snes9x2005</li><li>mednafen</li><li>mesen</li><li>snes9x</li><li>ares</li><li>bizhawk: BSNES</li><li>bizhawk: Faust</li><li>bizhawk: Snes9x</li><li>jgenesis</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> snes</td></tr><tr><td><strong>Extensions</strong></td><td>.smc .fig .sfc .gd3 .gd7 .dx2 .bsx .swc .rom .wad .zip .7z</td></tr></tbody></table>
 
+## Emplacement des fichiers
+
+### Sauvegardes:
+
+<table><thead><tr><th width="133.20001220703125">Emulateur</th><th>Emplacement</th></tr></thead><tbody><tr><td>Retroarch</td><td>saves\snes</td></tr><tr><td>Ares</td><td>saves\snes\ares\Super Famicom</td></tr><tr><td>Bizhawk</td><td>saves\snes\bizhawk</td></tr><tr><td>Jgenesis</td><td>saves\snes\jgenesis\sfc</td></tr></tbody></table>
+
+### Sauvegardes d'état
+
+<table><thead><tr><th width="133.20001220703125">Emulateur</th><th>Emplacement</th></tr></thead><tbody><tr><td>Retroarch</td><td>saves\snes\libretro.&#x3C;nom du core></td></tr><tr><td>Ares</td><td>saves\snes\ares\Super Famicom</td></tr><tr><td>Mednafen</td><td>saves\snes\mednafen\sstates</td></tr><tr><td>Mesen</td><td>saves\snes\mesen\SaveStates</td></tr><tr><td>Bizhawk</td><td>saves\snes\bizhawk\sstates\&#x3C;nom du core></td></tr><tr><td>Jgenesis</td><td>saves\snes\jgenesis\states</td></tr><tr><td>Snes9X</td><td>saves\snes\snes9x\sstates</td></tr></tbody></table>
+
 ## Fonctionnalités
 
 <table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-snes9x : OUI<br>lr-bsnes-jg : OUI<br>lr-bsnes : OUI<br>lr-mednafen : OUI<br>lr-mesen-s : OUI<br>lr-snes9x2005 : OUI<br>Mednafen : NON<br>Mesen : NON<br>Snes9x : NON<br>Ares : NON<br>Bizhawk : OUI<br>Jgenesis: NON</td><td>lr-snes9x : OUI<br>lr-bsnes-jg : OUI<br>lr-bsnes : OUI<br>lr-mednafen : OUI<br>lr-mesen-s : OUI<br>lr-snes9x2005 : OUI<br>Mednafen: NON<br>Mesen : NON<br>Snes9x : NON<br>Ares : NON<br>Bizhawk : NON<br>Jgenesis: NON</td><td>lr-snes9x : OUI<br>lr-bsnes-jg : OUI<br>lr-bsnes : OUI<br>lr-mednafen : OUI<br>lr-mesen-s : OUI<br>lr-snes9x2005 : OUI<br>Mednafen : OUI<br>Mesen : OUI<br>Snes9x : OUI<br>Ares : OUI<br>Bizhawk : OUI<br>Jgenesis: OUI</td></tr></tbody></table>
@@ -26,25 +36,13 @@ Aucun BIOS nécessaire..
 
 ### Schémas de contrôles
 
-<div align="left">
-
-<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/snes.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/snes.png?raw=true" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Un schéma de contrôle alternatif est disponible, il permet d'aligner les boutons avec les boutons des manettes XBOX:
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/Rq6eu0r.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/Rq6eu0r.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/snes_invert.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/snes_invert.png?raw=true" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ### Libretro cores : type de contôleurs
 

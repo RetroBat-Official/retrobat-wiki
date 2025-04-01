@@ -28,9 +28,9 @@ Aucun BIOS nécessaire.
 
 <div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64.png?raw=true" alt="" width="375"><figcaption></figcaption></figure></div>
 
-### Mupen64 (RMG), Simple64, Ares etBizhawk
+### Mupen64 (RMG), Simple64, Project64, Ares etBizhawk
 
-Pour Mupen64 RMG et Simple64, il existe 5 schémas de contrôle en fonction des options sélectionnées ici:
+Pour Mupen64 RMG, Simple64 et Project64, il existe 5 schémas de contrôle en fonction des options sélectionnées ici:
 
 <div align="left"><figure><img src="https://i.imgur.com/DkLUs4h.png" alt=""><figcaption></figcaption></figure></div>
 
@@ -47,6 +47,10 @@ Les cinq schémas sont:
 | <p>C-BUTTONS=RIGHT-STICK Z=RIGHT-TRIGGER<br><br><strong>Ares/Bizhawk</strong><br>Z=RIGHT-TRIGGER</p>            | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone_zr.png?raw=true" alt="" data-size="original">      |
 | C-BUTTONS=FACE Z=RIGHT-TRIGGER                                                                                  | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone_face_zr.png?raw=true" alt="" data-size="original"> |
 | XBOX                                                                                                            | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64_xbox.png?raw=true" alt="" data-size="original">               |
+
+### Gopher64
+
+Gopher64 ne propose que le schéma par défaut assigné automatiquement par l'émulateur.
 
 ### Utiliser une manette N64
 

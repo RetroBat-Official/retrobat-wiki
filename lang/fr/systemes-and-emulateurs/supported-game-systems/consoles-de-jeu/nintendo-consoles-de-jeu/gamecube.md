@@ -34,9 +34,13 @@ Les BIOS ne sont pas nécessaires pour lancer des jeux Gamecube, mais certains s
 
 Par défaut, Dolphin génère des sauvegardes au format "dossier CGI" à l'emplacement suivant:
 
-`saves\dolphin\User\GC\EUR\Card A`
+`saves\dolphin\User\GC\<region>\Card A`
 
 <div align="left"><figure><img src="https://i.imgur.com/EGlIpe4.png" alt=""><figcaption></figcaption></figure></div>
+
+{% hint style="info" %}
+Libretro Dolphin utilise la région USA
+{% endhint %}
 
 Le sous-dossier de la région peut être modifié avec [le paramétrage](../../../../navigation/configuration-des-systemes-et-des-jeux.md) ci-dessous:
 
@@ -49,6 +53,10 @@ Il est possible également de configurer Dolphin afin d'utiliser des fichiers SR
 Dans ce cas, le fichier de sauvegarde sera stocké dans le dossier :
 
 `saves\dolphin\User\GC\`
+
+### Sauvegardes d'état
+
+<table><thead><tr><th width="133.20001220703125">Emulateur</th><th>Emplacement</th></tr></thead><tbody><tr><td>Dolphin</td><td>saves\gamecube\dolphin</td></tr><tr><td>Retroarch</td><td>saves\gamecube\libretro.dolphin</td></tr></tbody></table>
 
 ## Contrôles
 
