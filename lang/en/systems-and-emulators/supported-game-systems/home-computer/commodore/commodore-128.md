@@ -4,11 +4,7 @@ description: Commodore
 
 # Commodore 128
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/c128.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/c128.svg" alt=""><figcaption></figcaption></figure></div>
 
 Computer - Lifespan: 1985 - 1989
 
@@ -28,11 +24,7 @@ No BIOS required.
 
 ## Controls
 
-Use Pad2Key for this system if you need specific mapping, see the [Pad2Key ](../../../../controllers/pad2key.md)section of this Wiki.
-
-{% hint style="danger" %}
-In construction.
-{% endhint %}
+[Identical to Commodore 64.](commodore-64.md#controls)
 
 ## Specific system information
 
