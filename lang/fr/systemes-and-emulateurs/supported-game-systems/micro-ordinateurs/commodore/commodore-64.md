@@ -4,11 +4,7 @@ description: Commodore
 
 # Commodore 64
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/c64.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/c64.svg" alt=""><figcaption></figcaption></figure></div>
 
 Micro-ordinateur - Durée de vie : 1982 - 1994
 
@@ -35,18 +31,22 @@ Utiliser la fonctionnalité [Pad2Key](../../../../controleurs/pad2key.md).
 | START                                             | ENTREE (clavier)                                                                                                      |
 | SELECT                                            | <p>Appui court: Clavier virtuel </p><p>Appui long: Barre de statut (on/off) </p><p>Appui très long: Avance rapide</p> |
 | D-PAD                                             | Joystick                                                                                                              |
-| Stick analogique gauche                           | Joystick                                                                                                              |
-| Stick analogique droit                            | <p>Touches Fonctions (clavier) </p><p>Haut: F1 </p><p>Gauche: F3 </p><p>Droite: F5 </p><p>Bas: F7</p>                 |
-| ![](<../../../../.gitbook/assets/image (33).png>) | ESPACE (clavier)                                                                                                      |
+| Stick analogique gauche                           | N/A                                                                                                                   |
+| Stick analogique droit                            | N/A                                                                                                                   |
+| ![](<../../../../.gitbook/assets/image (33).png>) | Shiftlock (clavier)                                                                                                   |
 | ![](<../../../../.gitbook/assets/image (20).png>) | Joystick Fire                                                                                                         |
 | ![](<../../../../.gitbook/assets/image (7).png>)  | Bouton 2                                                                                                              |
-| ![](<../../../../.gitbook/assets/image (35).png>) | Activer le turbo FIRE                                                                                                 |
-| L1                                                | Run/Stop (clavier)                                                                                                    |
-| R1                                                | Restore (clavier)                                                                                                     |
-| L2                                                | Warp Speed                                                                                                            |
-| R2                                                | MAJ (Shift)                                                                                                           |
-| L3                                                | Changer de port joystick                                                                                              |
-| R3                                                | Clavier virtuel                                                                                                       |
+| ![](<../../../../.gitbook/assets/image (35).png>) | ESPACE (clavier)                                                                                                      |
+| L1                                                |                                                                                                                       |
+| R1                                                |                                                                                                                       |
+| L2                                                | ECHAP (clavier)                                                                                                       |
+| R2                                                | ENTREE (clavier)                                                                                                      |
+| L3                                                |                                                                                                                       |
+| R3                                                |                                                                                                                       |
+
+Il est possible de réaliser des assignations de touches additionnelles en passant par le menu RetroArch:
+
+<div align="left"><figure><img src="https://i.imgur.com/NvmGc0W.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Information spécifique au système
 

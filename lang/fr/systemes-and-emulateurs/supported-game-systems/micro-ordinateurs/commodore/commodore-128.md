@@ -4,11 +4,7 @@ description: Commodore
 
 # Commodore 128
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/c128.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/c128.svg" alt=""><figcaption></figcaption></figure></div>
 
 Micro-ordinateur - Durée de vie : 1985 - 1989
 
@@ -28,11 +24,7 @@ Aucun BIOS nécessaire.
 
 ## Contrôles
 
-Utiliser la fonctionnalité [Pad2Key](../../../../controleurs/pad2key.md).
-
-{% hint style="danger" %}
-En construction.
-{% endhint %}
+[Identique au Commodore c64](commodore-64.md#controles)
 
 ## Information spécifique au système
 

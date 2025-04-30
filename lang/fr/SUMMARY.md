@@ -295,6 +295,7 @@
   * [Configuration des touches Model2](controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-model2.md)
   * [Configuration des touches MAME64](controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-mame64.md)
   * [Configuration des touches RetroArch](controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-retroarch.md)
+  * [Configuration des touches Teknoparrot](controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-teknoparrot.md)
 * [Pad2Key](controleurs/pad2key.md)
 
 ## Utilisation avancée
