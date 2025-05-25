@@ -18,6 +18,18 @@ Hybrid Game Console - Lifespan: 2017 - present
 
 <table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>Ryujinx: YES<br>Citron: YES<br>Sudachi: YES<br>Suyu: YES<br>Yuzu: YES</td></tr></tbody></table>
 
+## Emulators
+
+### Ryujinx
+
+Copy Ryujinx emulator files in the `emulators\ryujinx` folder of your RetroBat installation:
+
+<div align="left"><figure><img src="https://i.imgur.com/KSvr9sk.png" alt=""><figcaption></figcaption></figure></div>
+
+### Files location
+
+<table><thead><tr><th width="276">Files</th><th>Path (relative to the RetroBat root folder)</th></tr></thead><tbody><tr><td>Emulator user content</td><td><strong>Ryujinx</strong>: saves\switch\ryujinx\portable<br><strong>Yuzu, Suyu, Sudachi, Citron:</strong> <br>emulators\&#x3C;emulator name>\user</td></tr><tr><td>Config file</td><td><strong>Ryujinx</strong>: saves\switch\ryujinx\portable\Config.json<br><strong>Yuzu, Suyu, Sudachi, Citron:</strong> <br>emulators\&#x3C;emulator name>\user\config\qt-config.ini</td></tr></tbody></table>
+
 ## BIOS
 
 Switch firmware files and prod.keys need to be dumped from your console and placed in dedicated directories depending on the emulator:
@@ -75,10 +87,6 @@ Use the following option to invert face buttons (to match xbox controllers):
 <div align="left"><figure><img src="https://i.imgur.com/tFOOo3r.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Specific system information
-
-### Files location
-
-<table><thead><tr><th width="276">Files</th><th>Path (relative to the RetroBat root folder)</th></tr></thead><tbody><tr><td>Emulator content</td><td><strong>Ryujinx</strong>: saves\switch\ryujinx\portable<br><strong>Yuzu, Suyu, Sudachi, Citron:</strong> <br>emulators\&#x3C;emulator name>\user</td></tr><tr><td>Config file</td><td><strong>Ryujinx</strong>: saves\switch\ryujinx\portable\Config.json<br><strong>Yuzu, Suyu, Sudachi, Citron:</strong> <br>emulators\&#x3C;emulator name>\user\config\qt-config.ini</td></tr></tbody></table>
 
 ### Installing game updates & DLC
 
