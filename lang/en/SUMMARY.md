@@ -296,6 +296,7 @@
   * [MAME64 controller mapping](controllers/specific_mapping/mame64-controller-mapping.md)
   * [Model2 controller mapping](controllers/specific_mapping/model2-controller-mapping.md)
   * [RetroArch controller mapping](controllers/specific_mapping/retroarch-controller-mapping.md)
+  * [Teknoparrot controller mapping](controllers/specific_mapping/teknoparrot-controller-mapping.md)
 * [Pad2Key](controllers/pad2key.md)
 
 ## Advanced Features
