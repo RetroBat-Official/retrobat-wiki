@@ -46,3 +46,8 @@ Ce qui donne, en prenant l'exemple de hotd4 :&#x20;
 Les autres boutons pour les lightguns sont habituellement identifiés comme des touches de clavier. Dans ce cas, utilisez les valeurs suivantes : \
 kb\_x ou x équivaut à la touche du clavier\
 kb\_dy ou y équivaut à un nombre du clavier
+
+{% hint style="info" %}
+Si vous modifiez le fichier teknoparrot.yml, sauvegardez votre version dans le dossier `user\inputmapping` à la racine de RetroBat, cela évitera que vos modifications ne soient effacées suite à une mise à jour de RetroBat.
+{% endhint %}
+
