@@ -18,6 +18,18 @@ Console de jeu hybride - durée de vie: 2017 - aujourd'hu
 
 <table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td><p>Ryujinx : OUI<br>Citron : OUI</p><p>Sudachi : OUI<br>Suyu : OUI<br>Yuzu : OUI</p></td></tr></tbody></table>
 
+## Emulateur
+
+### Ryujinx
+
+Copier les fichiers de l'émulateur Ryujinx dans le dossier `emulators\ryujinx` de l'installation RetroBat:
+
+<div align="left"><figure><img src="https://i.imgur.com/KSvr9sk.png" alt=""><figcaption></figcaption></figure></div>
+
+### Emplacement des fichiers
+
+<table><thead><tr><th width="276">Données</th><th>Chemin (relatif au dossier RetroBat)</th></tr></thead><tbody><tr><td>Données utilisateur de l'émulateur</td><td><strong>Ryujinx</strong>: saves\switch\ryujinx\portable<br><strong>Yuzu, Suyu, Sudachi, Citron :</strong> <br>emulators\&#x3C;emulator name>\user</td></tr><tr><td>Fichier de configuration</td><td><strong>Ryujinx</strong>: saves\switch\ryujinx\portable\Config.json<br><strong>Yuzu, Suyu, Sudachi, Citron :</strong> <br>emulators\&#x3C;emulator name>\user\config\qt-config.ini</td></tr></tbody></table>
+
 ## BIOS
 
 Il est nécessaire d'extraire le firmware et le fichier `prod.keys` de votre console Nintendo SWITCH et de les placer dans des répertoires dédiés selon l'émulateur:
@@ -73,10 +85,6 @@ Les contrôleurs suivants peuvent être autoconfigurés depuis RetroBat dans les
 L'option pour inverser les boutons se trouve ici:
 
 <div align="left"><figure><img src="https://i.imgur.com/vy1VRvy.png" alt=""><figcaption></figcaption></figure></div>
-
-### Emplacement des fichiers
-
-<table><thead><tr><th width="276">Données</th><th>Chemin (relatif au dossier RetroBat)</th></tr></thead><tbody><tr><td>Données de l'émulateur</td><td><strong>Ryujinx</strong>: saves\switch\ryujinx\portable<br><strong>Yuzu, Suyu, Sudachi, Citron :</strong> <br>emulators\&#x3C;emulator name>\user</td></tr><tr><td>Fichier de configuration</td><td><strong>Ryujinx</strong>: saves\switch\ryujinx\portable\Config.json<br><strong>Yuzu, Suyu, Sudachi, Citron :</strong> <br>emulators\&#x3C;emulator name>\user\config\qt-config.ini</td></tr></tbody></table>
 
 ### Installer les mises à jour et les DLC des jeux
 
