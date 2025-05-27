@@ -13,3 +13,19 @@ Si vous rencontrez des problèmes de configuration de vos manettes ou que ces de
 Il faudra à nouveau configurer vos manettes une à une mais cela peut corriger certains problèmes.
 
 {% file src="../.gitbook/assets/es_input.cfg" %}
+
+## Problèmes graphiques dans l'interface RetroBat
+
+Si vous disposez d'une ancienne carte graphique non compatible avec les dernières version de OpenGL, il est possible que l'interface RetroBat soit corrompue ou que celle-ci ne démarre pas.
+
+Pour résoudre ce problème, il est possible de forcer RetroBat à utiliser un affichage compatible avec la version OpenGL 2.1.
+
+Ouvrir le fichier **es\_settings.cfg** situé dans le dossier `emulationstation\.emulationstation` de votre installation RetroBat et insérer la valeur suivante:
+
+```
+<string name="Renderer" value="OPENGL 2.1" />
+```
+
+<div align="left"><figure><img src="https://i.imgur.com/ue2QKDv.png" alt=""><figcaption></figcaption></figure></div>
+
+Sauvegarder le fichier et démarrer RetroBat.
