@@ -13,3 +13,19 @@ If your controller settings become messed-up and you need a clean start, here is
 It contains only standard keyboard settings, you will have to perform again your controller configuration.
 
 {% file src="../.gitbook/assets/es_input.cfg" %}
+
+## Graphical issues in RetroBat interface
+
+If you own a GPU that is old and not compatible with latest OpenGL versions, it is possible that some rendering effects will not work and glitch or totally crash RetroBat.
+
+To fix this issue, it is possible to force RetroBat interface to use OpenGL 2.1 compatible renderer.
+
+Open the **es\_settings.cfg** file that is found in the `emulationstation\.emulationstation` folder of your RetroBat installation and insert the following value:
+
+```
+<string name="Renderer" value="OPENGL 2.1" />
+```
+
+<div align="left"><figure><img src="https://i.imgur.com/ue2QKDv.png" alt=""><figcaption></figcaption></figure></div>
+
+Save the file and run RetroBat.
