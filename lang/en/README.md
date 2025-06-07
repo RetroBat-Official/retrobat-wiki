@@ -37,7 +37,7 @@ The RetroBat team has also included some specific [TUTORIALS](broken-reference) 
 
 If the information you are looking for does not exist (yet), you can reach out to the Team through the following channels:
 
-* Official [Discord channel](https://discord.gg/ZZMCVpfn)
+* Official [Discord channel](https://discord.gg/GVcPNxwzuT)
 * Official [Forum](https://retrobat.forumgaming.fr/)
 * Official [FAQ](https://retrobat.forumgaming.fr/t135-faq-retrobat-wip)
 * RetroBat [website](https://www.retrobat.org)
