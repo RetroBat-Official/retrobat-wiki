@@ -37,7 +37,7 @@ L'équipe RetroBat a également inclut dans le wiki des [TUTORIELS](broken-refer
 
 Si vous ne trouvez pas l'information que vous êtes venus chercher, vous pouvez contacter l'équipe RetroBat par les canaux suivants:
 
-* [Discord](https://discord.gg/ZZMCVpfn) officiel
+* [Discord](https://discord.gg/GVcPNxwzuT) officiel
 * [Forum ](https://retrobat.forumgaming.fr/)officiel
 * [FAQ ](https://retrobat.forumgaming.fr/t136-faq-retrobat-wip)officielle
 * [Site web](https://www.retrobat.org/accueil-fr/) RetroBat
