@@ -4,11 +4,7 @@ description: NEC
 
 # NEC PC-9800
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/pc98-w.svg" media="(prefers-color-scheme: dark)"><img src="https://i.imgur.com/Cn9WzBZ.png" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/pc98-w.svg" media="(prefers-color-scheme: dark)"><img src="https://i.imgur.com/Cn9WzBZ.png" alt=""></picture><figcaption></figcaption></figure></div>
 
 Computer - Release date: 1982
 
@@ -46,5 +42,14 @@ Create a text file with the extension ".cmd", write the name of the core that wi
 np2kai "Policenauts (User boot disk) [for Neko Project II].hdm" "Policenauts [for Neko Project II].hdi" "Policenauts.ccd"
 ```
 
-Seems to works with "Neko Project II Kai" core, not with "Neko Project II" core
+This work also while using different .hdm files
+
+`Lam-Mal.cmd`
+
+```
+np2kai "Lam-Mal (Disk 1 - I).hdm" "Lam-Mal (Disk 2 - Ro).hdm" "Lam-Mal (Disk 3 - Ha).hdm" "Lam-Mal (Disk 4 - Ni).hdm"
+```
+
+\
+This method seems to works with "Neko Project II Kai" core, not with "Neko Project II" core.
 
