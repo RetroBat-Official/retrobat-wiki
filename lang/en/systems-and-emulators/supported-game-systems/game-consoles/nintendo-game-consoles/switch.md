@@ -12,11 +12,11 @@ Hybrid Game Console - Lifespan: 2017 - present
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>ryujinx</li><li>citron</li><li>sudachi</li><li>suyu</li><li>yuzu</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> switch</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.nso .nro .nca .xci .nsp .kip</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>ryujinx</li><li>eden</li><li>sudachi</li><li>citron</li></ul><ul><li>suyu</li><li>yuzu</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> switch</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.nso .nro .nca .xci .nsp .kip</td><td></td></tr></tbody></table>
 
 ## Features
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>Ryujinx: YES<br>Citron: YES<br>Sudachi: YES<br>Suyu: YES<br>Yuzu: YES</td></tr></tbody></table>
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>Ryujinx: YES<br>Eden: YES<br>Sudachi: YES<br>Citron: YES<br>Suyu: YES<br>Yuzu: YES</td></tr></tbody></table>
 
 ## Emulators
 
@@ -28,7 +28,7 @@ Copy Ryujinx emulator files in the `emulators\ryujinx` folder of your RetroBat i
 
 ### Files location
 
-<table><thead><tr><th width="276">Files</th><th>Path (relative to the RetroBat root folder)</th></tr></thead><tbody><tr><td>Emulator user content</td><td><strong>Ryujinx</strong>: saves\switch\ryujinx\portable<br><strong>Yuzu, Suyu, Sudachi, Citron:</strong> <br>emulators\&#x3C;emulator name>\user</td></tr><tr><td>Config file</td><td><strong>Ryujinx</strong>: saves\switch\ryujinx\portable\Config.json<br><strong>Yuzu, Suyu, Sudachi, Citron:</strong> <br>emulators\&#x3C;emulator name>\user\config\qt-config.ini</td></tr></tbody></table>
+<table><thead><tr><th width="276">Files</th><th>Path (relative to the RetroBat root folder)</th></tr></thead><tbody><tr><td>Emulator user content</td><td><strong>Ryujinx</strong>: saves\switch\ryujinx\portable<br><strong>Eden, Yuzu, Suyu, Sudachi, Citron:</strong> <br>emulators\&#x3C;emulator name>\user</td></tr><tr><td>Config file</td><td><strong>Ryujinx</strong>: saves\switch\ryujinx\portable\Config.json<br><strong>Eden, Yuzu, Suyu, Sudachi, Citron:</strong> <br>emulators\&#x3C;emulator name>\user\config\qt-config.ini</td></tr></tbody></table>
 
 ## BIOS
 
@@ -48,7 +48,7 @@ This step is mandatory for Ryujinx to work properly with RetroBat.
 If the "Configure Ryujinx.bat" does not exist in the `emulators\ryujinx` folder, you can find it in the `system\templates\ryujinx` folder and copy it in the emulator folder.
 {% endhint %}
 
-### Sudachi, Suyu, Yuzu and Citron
+### Eden, Sudachi, Suyu, Yuzu and Citron
 
 Place prod.keys file in `\emulators\`<mark style="color:purple;">`<emulator>`</mark>`\user\keys`
 
@@ -102,7 +102,7 @@ The next screen will invite you to select your update or DLC .nsp file, search f
 
 <div align="left"><figure><img src="https://i.imgur.com/Vk2lwA3.png" alt=""><figcaption></figcaption></figure></div>
 
-#### Citron, Sudachi, Suyu, Yuzu
+#### Eden, Citron, Sudachi, Suyu, Yuzu
 
 Go to `Files > Install Files to NAND...`
 
