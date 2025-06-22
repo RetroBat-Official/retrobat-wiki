@@ -4,11 +4,7 @@ description: MAME Team
 
 # MAME
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/mame-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/mame.svg" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/mame-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/mame.svg" alt=""></picture><figcaption></figcaption></figure></div>
 
 {% embed url="https://fr.wikipedia.org/wiki/MAME" %}
 
@@ -78,10 +74,10 @@ Les BIOS additionnels doivent être placés à la racine du dossier \bios de vot
 | ![](<../../../.gitbook/assets/image (35).png>) | 4                                                                                      |
 | L1                                             | 5                                                                                      |
 | R1                                             | 6                                                                                      |
-| L2                                             | Pedal 2                                                                                |
-| R2                                             | Pedal 1                                                                                |
-| L3                                             | 7                                                                                      |
-| R3                                             | 8                                                                                      |
+| L2                                             | Pedal 2 / 7                                                                            |
+| R2                                             | Pedal 1 / 8                                                                            |
+| L3                                             | 9                                                                                      |
+| R3                                             | 10                                                                                     |
 
 {% hint style="info" %}
 Se référer à [ce guide](../../../controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-mame64.md) pour effectuer une configuration personnalisée des contrôleurs pour MAME64.
