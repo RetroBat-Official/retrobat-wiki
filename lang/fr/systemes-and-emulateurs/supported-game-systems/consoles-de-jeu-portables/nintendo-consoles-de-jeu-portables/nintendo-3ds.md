@@ -12,11 +12,11 @@ Console de jeu portable - Durée de vie : 2011 - 2020
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>citra</li><li>azahar</li><li>lime3ds</li><li>mandarine</li><li>libretro-citra</li><li>bizhawk: encore</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> 3ds</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.3ds .3dsx .elf .axf .cci .cxi .app .m3u .zip .7z .squashfs</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>azahar</li><li>citra</li><li>mandarine</li></ul><ul><li>libretro-citra</li><li>bizhawk: encore</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> 3ds</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.3ds .3dsx .elf .axf .cci .cxi .app .m3u .zip .7z .squashfs</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="210">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td>Citra : OUI<br>Azahar: OUI<br>Lime3DS : OUI<br>Mandarine : OUI<br>lr-citra : OUI<br>BizHawk : OUI</td></tr></tbody></table>
+<table><thead><tr><th width="210">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td>Azahar: OUI<br>Citra: OUI<br>Mandarine : OUI<br>lr-citra : OUI<br>BizHawk : OUI</td></tr></tbody></table>
 
 ## BIOS
 
@@ -25,7 +25,7 @@ Aucun BIOS nécessaire.
 ## Contrôles
 
 {% hint style="info" %}
-Les contrôleurs suivants peuvent être autoconfigurés depuis RetroBat dans limes3ds/citra/mandarine standalone :
+Les contrôleurs suivants peuvent être autoconfigurés depuis RetroBat dans azahar/citra/mandarine standalone :
 
 * Contrôleurs XInput
 * Dualshocks & DualSense
@@ -52,7 +52,7 @@ L'option ci-dessous permet d'inverser les boutons pour correspondre au schéma X
 
 Selon l'émulateur, les options ci-dessous permettent de modifier le schéma de contrôle pour simuler les mouvements sur l'écran tactile à l'aide du stick analogique de droite.
 
-#### Citra, Lime3DS et Mandarine
+#### Azahar, Citra et Mandarine
 
 Utiliser l'option ci-dessous:
 
