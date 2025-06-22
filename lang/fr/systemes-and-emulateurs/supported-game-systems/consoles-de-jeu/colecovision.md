@@ -4,11 +4,7 @@ description: Coleco
 
 # ColecoVision
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/colecovision.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/colecovision.svg" alt=""><figcaption></figcaption></figure></div>
 
 Console de jeu - Durée de vie : 1982 - 1985
 
@@ -16,11 +12,11 @@ Console de jeu - Durée de vie : 1982 - 1985
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: gearcoleco</li><li>libretro : bluemsx</li><li>libretro : fbneo</li><li>openmsx</li><li>ares</li><li>bizhawk</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> colecovision</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.rom .ri .mx1 .mx2 .col .dsk .cas .sg .sc .m3u .zip</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: gearcoleco</li><li>libretro : bluemsx</li><li>libretro : fbneo</li><li>openmsx</li><li>ares</li><li>bizhawk</li><li>mesen</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> colecovision</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.rom .ri .mx1 .mx2 .col .dsk .cas .sg .sc .m3u .zip .7z</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-gearcoleco : OUI<br>lr-bluemsx : OUI<br>lr-fbneo : OUI<br>OpenMSX : NON<br>Ares : NON<br>BizHawk : OUI</td><td>lr-gearcoleco : OUI<br>lr-bluemsx : NON<br>lr-fbneo : OUI<br>OpenMSX : NON<br>Ares : NON<br>BizHawk : NON</td><td>lr-gearcoleco : OUI<br>lr-bluemsx : OUI<br>lr-fbneo : OUI<br>OpenMSX : OUI<br>Ares : OUI<br>BizHawk : OUI</td></tr></tbody></table>
+<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-gearcoleco : OUI<br>lr-bluemsx : OUI<br>lr-fbneo : OUI<br>OpenMSX : NON<br>Ares : NON<br>BizHawk : OUI<br>Mesen : NON</td><td>lr-gearcoleco : OUI<br>lr-bluemsx : NON<br>lr-fbneo : OUI<br>OpenMSX : NON<br>Ares : NON<br>BizHawk : NON<br>Mesen : NON</td><td>lr-gearcoleco : OUI<br>lr-bluemsx : OUI<br>lr-fbneo : OUI<br>OpenMSX : OUI<br>Ares : OUI<br>BizHawk : OUI<br>Mesen : OUI</td></tr></tbody></table>
 
 ## BIOS
 
