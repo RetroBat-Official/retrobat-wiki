@@ -74,13 +74,13 @@ BIOS files must be placed at the root of the `\bios` folder of your RetroBat ins
 | ![](<../../../.gitbook/assets/image (50).png>) | 4                                                                                    |
 | L1                                             | 5                                                                                    |
 | R1                                             | 6                                                                                    |
-| L2                                             | Pedal 2                                                                              |
-| R2                                             | Pedal 1                                                                              |
-| L3                                             | 7                                                                                    |
-| R3                                             | 8                                                                                    |
+| L2                                             | Pedal 2 / 7                                                                          |
+| R2                                             | Pedal 1 / 8                                                                          |
+| L3                                             | 9                                                                                    |
+| R3                                             | 10                                                                                   |
 
 {% hint style="info" %}
-Follow this guide to perform specific controller mapping for MAME64 ([refer to this guide](../../../controllers/specific\_mapping/mame64-controller-mapping.md)).
+Follow this guide to perform specific controller mapping for MAME64 ([refer to this guide](../../../controllers/specific_mapping/mame64-controller-mapping.md)).
 {% endhint %}
 
 ## Specific system information
