@@ -88,7 +88,7 @@ Kronos uses pad2key to handle shortcuts.
 
 ### MelonDS
 
-<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (16).png" alt=""></td><td>PAUSE (F10)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (50).png" alt=""></td><td>Load Save State (F1)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (48).png" alt=""></td><td>Save State (CTRL+F1)</td></tr><tr><td>Hotkey + START</td><td>Quit (ALT+F4)</td></tr><tr><td>Hotkey + D-PAD LEFT</td><td>Slow-motion (F11)</td></tr><tr><td>Hotkey + D-PAD RIGHT</td><td>Fast Forward (`F12)</td></tr><tr><td>Hotkey + L1</td><td>Toggle Fullscreen (F9)</td></tr></tbody></table>
+<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (16).png" alt=""></td><td>PAUSE (F10)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (50).png" alt=""></td><td>Load Save State (F1)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (48).png" alt=""></td><td>Save State (CTRL+F1)</td></tr><tr><td>Hotkey + START</td><td>Quit (ALT+F4)</td></tr><tr><td>Hotkey + D-PAD LEFT</td><td>Slow-motion (F11)</td></tr><tr><td>Hotkey + D-PAD RIGHT</td><td>Fast Forward (`F12)</td></tr><tr><td>Hotkey + L1</td><td>Toggle Fullscreen (TAB)</td></tr></tbody></table>
 
 {% hint style="info" %}
 MelonDS uses pad2key to handle shortcuts.
