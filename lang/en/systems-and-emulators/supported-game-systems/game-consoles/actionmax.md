@@ -63,7 +63,7 @@ Create an empty file and name it with the name of the game and the extension .ac
 
 ActionMax games are compatible with Hypseus emulator but they require a very specific folder structure.
 
-All Actionmax games must be located inside `roms\actionmax\actionmax.daphne` folder with the following content:
+All Actionmax games must be located inside `roms\actionmax\actionmax.hypseus` folder with the following content:
 
 ```
 +---38ambushalley
@@ -130,4 +130,4 @@ All Actionmax games must be located inside `roms\actionmax\actionmax.daphne` fol
 
 Create an empty file and name it with the name of the game and the extension .actionmax in the `roms\actionmax` folder (eg. `38ambushalley.actionmax`).
 
-<div align="left"><figure><img src="https://i.imgur.com/O2iMMLc.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="https://i.imgur.com/5k9KBcS.png" alt=""><figcaption></figcaption></figure></div>

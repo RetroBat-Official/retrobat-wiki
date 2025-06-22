@@ -8,7 +8,7 @@ Arcade - First LaserDisc game release : 1983
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>hypseus</li><li>daphne</li><li>singe2</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> daphne</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.daphne .7z .rar .squashfs</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>hypseus</li><li>daphne</li><li>singe2</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> daphne</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.daphne .hypseus .7z .rar .squashfs</td><td></td></tr></tbody></table>
 
 ## System Features
 
@@ -75,14 +75,14 @@ Untick .zip extension
 
 SINGE games include the famous AMERICAN LASER GAMES and a few other titles.
 
-The process is similar as for Daphne games but there is no zip file to place in the roms folder. In addition, 2 files need to be present in your `<game>.daphne` folder:
+The process is similar as for Daphne games but there is no zip file to place in the roms folder and the folder extension must be _.hypseus_. In addition, 2 files need to be present in your `<game>.hypseus` folder:
 
 * `<game>.singe`
 * `<game>.txt`
 
 **T**he structure of the game folder should look like this:
 
-<div align="left"><figure><img src="https://i.imgur.com/QPFt4jZ.jpg" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="https://i.imgur.com/VDq2Pc8.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Simple games folders structure (Hypseus)
 
@@ -106,9 +106,9 @@ Inside the game folder, you will find a text file that contain the information a
 
 <div align="left"><figure><img src="https://i.imgur.com/gobNmnZ.png" alt=""><figcaption></figcaption></figure></div>
 
-After adding the required files (could be `.m2v` file, or `.ogg` and `.m2v` files), you must rename your folder by adding .daphne at the end of the folder name (in our exemple : `Astroboy.daphne`) and move this folder to the `/roms/daphne/` folder
+After adding the required files (could be `.m2v` file, or `.ogg` and `.m2v` files), you must rename your folder by adding .daphne at the end of the folder name (in our exemple : `Astroboy.hypseus`) and move this folder to the `/roms/daphne/` folder
 
-<div align="left"><figure><img src="https://i.imgur.com/AcTA2z0.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="https://i.imgur.com/50BvfM1.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Use custom command lines (Hypseus)
 
