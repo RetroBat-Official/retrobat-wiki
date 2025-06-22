@@ -8,7 +8,7 @@ Arcade - Date de sortie du premier jeu LaserDisc : 1983
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>hypseus</li><li>daphne</li><li>singe2</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> daphne</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.daphne .7z .rar .squashfs</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>hypseus</li><li>daphne</li><li>singe2</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> daphne</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.daphne .hypseus .7z .rar .squashfs</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
@@ -77,16 +77,16 @@ Décocher l'extension .zip.
 
 Les jeux SINGE incluent les jeux AMERICAN LASER GAMES.
 
-L'ajout de jeux SINGE est similaire à l'ajout de jeux Daphne sauf qu'aucun fichier zip n'est requis.&#x20;
+L'ajout de jeux SINGE est similaire à l'ajout de jeux Daphne sauf qu'aucun fichier zip n'est requis et que l'extension de dossier doit être _.hypseus_.&#x20;
 
-De plus 2 fichiers supplémentaires doivent être présents dans le dossier de jeu `<game>.daphne`:
+De plus 2 fichiers supplémentaires doivent être présents dans le dossier de jeu `<game>.hypseus`:
 
 * `<game>.singe`
 * `<game>.txt`
 
 Un dossier de jeu SINGE doit avoir une structure similaire à celle-ci:
 
-<div align="left"><figure><img src="https://i.imgur.com/QPFt4jZ.jpg" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="https://i.imgur.com/VDq2Pc8.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Structure de fichier pour Hypseus
 
@@ -110,9 +110,9 @@ A l'interieur de ce dossier de jeu, vous trouverez un fichier texte qui contient
 
 <div align="left"><figure><img src="https://i.imgur.com/gobNmnZ.png" alt=""><figcaption></figcaption></figure></div>
 
-Après avoir ajouté les fichiers nécessaires (cela peut être des fichiers`.m2v`, ou bien des fichiers`.ogg` et`.m2v`), il est nécessaire de renommer le dossier de jeux avec .daphne à la fin du nom du dossier (dans notre exemple : `Astroboy.daphne`) et déplacer ce dossier dans le répertoire `/roms/daphne/` folder.
+Après avoir ajouté les fichiers nécessaires (cela peut être des fichiers`.m2v`, ou bien des fichiers`.ogg` et`.m2v`), il est nécessaire de renommer le dossier de jeux avec .daphne à la fin du nom du dossier (dans notre exemple : `Astroboy.hypseus`) et déplacer ce dossier dans le répertoire `/roms/daphne/` folder.
 
-<div align="left"><figure><img src="https://i.imgur.com/AcTA2z0.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="https://i.imgur.com/50BvfM1.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Utiliser des lignes de commandes personnalisées (Hypseus)
 

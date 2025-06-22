@@ -63,7 +63,7 @@ Créer un fichier vide et le nommer du nom du jeu avec l'extension .actionmax, l
 
 Les jeux ActionMax sont compatibles avec l'émulateur Hypseus, ils doivent suivre une structure de dossier très spécifique.
 
-Le dossier de jeux actionmax doit être placé dans le dossier `roms\actionmax\actionmax.daphne`et doit contenir exactement les dossiers et fichiers suivants:
+Le dossier de jeux actionmax doit être placé dans le dossier `roms\actionmax\actionmax.hypseus`et doit contenir exactement les dossiers et fichiers suivants:
 
 ```
 +---38ambushalley
@@ -130,4 +130,4 @@ Le dossier de jeux actionmax doit être placé dans le dossier `roms\actionmax\a
 
 Créer ensuite un fichier vide du nom du jeu, et le sauver avec l'extension .actionmax, le fichier doit être sauvegardé dans le dossier `roms\actionmax`. (par exemple `38ambushalley.actionmax`):
 
-<div align="left"><figure><img src="https://i.imgur.com/O2iMMLc.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="https://i.imgur.com/5k9KBcS.png" alt=""><figcaption></figcaption></figure></div>
