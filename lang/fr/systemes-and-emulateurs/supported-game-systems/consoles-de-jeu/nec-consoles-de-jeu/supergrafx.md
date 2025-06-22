@@ -4,11 +4,7 @@ description: NEC
 
 # SuperGrafx
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/supergrafx.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/supergrafx.svg" alt=""><figcaption></figcaption></figure></div>
 
 Console de jeu - Date de commercialisation : 1989
 
@@ -16,19 +12,15 @@ Console de jeu - Date de commercialisation : 1989
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro: mednafen_supergrafx</li><li>Libretro: fbneo</li><li>mednafen</li><li>ares</li><li>bizhawk: HyperNyma</li><li>bizhawk: PCEHawk</li><li>bizhawk: TurboNyma</li><li>mesen</li><li>magicengine</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> supergrafx</td></tr><tr><td><strong>Extensions</strong></td><td>.pce .zip .7z .fba</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro: mednafen_supergrafx</li><li>Libretro: geargrafx</li><li>Libretro: fbneo</li><li>mednafen</li><li>ares</li><li>bizhawk: HyperNyma</li><li>bizhawk: PCEHawk</li><li>bizhawk: TurboNyma</li><li>mesen</li><li>magicengine</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> supergrafx</td></tr><tr><td><strong>Extensions</strong></td><td>.pce .zip .7z .fba</td></tr></tbody></table>
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="210">Succès Rétro</th><th width="225">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-mednafen : OUI<br>lr-fbneo : OUI<br>Mednafen : NON<br>Ares : NON<br>BizHawk : OUI<br>Mesen: NON<br>Magic Engine: NON</td><td>lr-mednafen : OUI<br>lr-fbneo : OUI<br>Mednafen : NON<br>Ares : NON<br>BizHawk : NON<br>Mesen: NON<br>Magic Engine: NON</td><td>lr-mednafen : OUI<br>lr-fbneo : OUI<br>Mednafen : OUI<br>Ares : OUI<br>BizHawk : OUI<br>Mesen: OUI<br>Magic Engine: OUI</td></tr></tbody></table>
-
-| Succès Rétro | Parties en Réseau |
-| ------------ | ----------------- |
-| NON          | OUI               |
+<table><thead><tr><th width="210">Succès Rétro</th><th width="225">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-mednafen : OUI<br>lr-geargraxf: OUI<br>lr-fbneo : OUI<br>Mednafen : NON<br>Ares : NON<br>BizHawk : OUI<br>Mesen: NON<br>Magic Engine: NON</td><td>lr-mednafen : OUI<br>lr-geargraxf: NON<br>lr-fbneo : OUI<br>Mednafen : NON<br>Ares : NON<br>BizHawk : NON<br>Mesen: NON<br>Magic Engine: NON</td><td>lr-mednafen : OUI<br>lr-geargraxf: OUI<br>lr-fbneo : OUI<br>Mednafen : OUI<br>Ares : OUI<br>BizHawk : OUI<br>Mesen: OUI<br>Magic Engine: OUI</td></tr></tbody></table>
 
 ## Bios
 
-<table><thead><tr><th width="224">Fichier BIOS</th><th width="169">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>syscard3.pce</td><td><code>\bios</code></td><td>38179df8f4ac870017db21ebcbf53114</td></tr></tbody></table>
+<table><thead><tr><th width="224">Fichier BIOS</th><th width="169">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>syscard3.pce</td><td><code>\bios</code></td><td>38179df8f4ac870017db21ebcbf53114</td></tr><tr><td>syscard2.pce</td><td><code>\bios</code></td><td></td></tr><tr><td>syscard1.pce</td><td><code>\bios</code></td><td></td></tr><tr><td>gexpress.pce</td><td><code>\bios</code></td><td></td></tr></tbody></table>
 
 <details>
 
@@ -49,11 +41,7 @@ A placer dans `emulators\magicengine\cards`
 
 Libretro-mednafen\_supergrafx et mesen permettent d'activer/désactiver le Gamepad 6-boutons avec l'option ci-dessous:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/pbQFZnS.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/pbQFZnS.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Schémas de contrôles
 
