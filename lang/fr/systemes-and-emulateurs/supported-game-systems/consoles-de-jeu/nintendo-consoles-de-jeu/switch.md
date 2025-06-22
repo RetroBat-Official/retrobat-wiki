@@ -12,11 +12,11 @@ Console de jeu hybride - durée de vie: 2017 - aujourd'hu
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>ryujinx</li><li>citron</li><li>sudachi</li><li>suyu</li><li>yuzu</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> switch</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.nso .nro .nca .xci .nsp .kip</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>ryujinx</li><li>eden</li><li>sudachi</li><li>citron</li><li>suyu</li><li>yuzu</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> switch</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.nso .nro .nca .xci .nsp .kip</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td><p>Ryujinx : OUI<br>Citron : OUI</p><p>Sudachi : OUI<br>Suyu : OUI<br>Yuzu : OUI</p></td></tr></tbody></table>
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td><p>Ryujinx : OUI</p><p>Eden : OUI<br>Citron : OUI</p><p>Sudachi : OUI<br>Suyu : OUI<br>Yuzu : OUI</p></td></tr></tbody></table>
 
 ## Emulateur
 
@@ -28,7 +28,7 @@ Copier les fichiers de l'émulateur Ryujinx dans le dossier `emulators\ryujinx` 
 
 ### Emplacement des fichiers
 
-<table><thead><tr><th width="276">Données</th><th>Chemin (relatif au dossier RetroBat)</th></tr></thead><tbody><tr><td>Données utilisateur de l'émulateur</td><td><strong>Ryujinx</strong>: saves\switch\ryujinx\portable<br><strong>Yuzu, Suyu, Sudachi, Citron :</strong> <br>emulators\&#x3C;emulator name>\user</td></tr><tr><td>Fichier de configuration</td><td><strong>Ryujinx</strong>: saves\switch\ryujinx\portable\Config.json<br><strong>Yuzu, Suyu, Sudachi, Citron :</strong> <br>emulators\&#x3C;emulator name>\user\config\qt-config.ini</td></tr></tbody></table>
+<table><thead><tr><th width="276">Données</th><th>Chemin (relatif au dossier RetroBat)</th></tr></thead><tbody><tr><td>Données utilisateur de l'émulateur</td><td><strong>Ryujinx</strong>: saves\switch\ryujinx\portable<br><strong>Eden, Yuzu, Suyu, Sudachi, Citron :</strong> <br>emulators\&#x3C;emulator name>\user</td></tr><tr><td>Fichier de configuration</td><td><strong>Ryujinx</strong>: saves\switch\ryujinx\portable\Config.json<br><strong>Eden, Yuzu, Suyu, Sudachi, Citron :</strong> <br>emulators\&#x3C;emulator name>\user\config\qt-config.ini</td></tr></tbody></table>
 
 ## BIOS
 
@@ -48,7 +48,7 @@ Si le fichier "Configure Ryujinx.bat" n'existe pas dans le dossier `emulators\ry
 
 <div align="left"><figure><img src="https://i.imgur.com/CVXr1y7.png" alt=""><figcaption><p>Tools > Install Firmware</p></figcaption></figure></div>
 
-### Sudachi, Suyu, Yuzu et Citron
+### Eden, Sudachi, Suyu, Yuzu et Citron
 
 Placer prod.keys dans le dossier `\emulators\`<mark style="color:purple;">`<émulateur>`</mark>`\user\keys`
 
@@ -102,7 +102,7 @@ Dans l'écran suivant, rechercher le fichier .nsp sur votre ordinateur, le séle
 
 <div align="left"><figure><img src="https://i.imgur.com/Vk2lwA3.png" alt=""><figcaption></figcaption></figure></div>
 
-#### Citron, Sudachi, Suyu, Yuzu
+#### Eden, Citron, Sudachi, Suyu, Yuzu
 
 Aller dans `Files > Install Files to NAND...`
 

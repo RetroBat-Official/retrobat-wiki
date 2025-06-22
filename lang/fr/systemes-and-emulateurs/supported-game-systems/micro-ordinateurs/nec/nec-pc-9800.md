@@ -4,11 +4,7 @@ description: NEC
 
 # NEC PC-9800
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/pc98-w.svg" media="(prefers-color-scheme: dark)"><img src="https://i.imgur.com/Cn9WzBZ.png" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/pc98-w.svg" media="(prefers-color-scheme: dark)"><img src="https://i.imgur.com/Cn9WzBZ.png" alt=""></picture><figcaption></figcaption></figure></div>
 
 Micro-ordinateur - Date de sortie : 1982
 
@@ -44,6 +40,14 @@ Créer un fichier .txt et le sauvegarder avec l'extension ".cmd". Dedans, écrir
 
 ```
 np2kai "Policenauts (User boot disk) [for Neko Project II].hdm" "Policenauts [for Neko Project II].hdi" "Policenauts.ccd"
+```
+
+La même procédure peut être utilisée pour les jeux comportants différents fichiers .hdm
+
+`Lam-Mal.cmd`
+
+```
+np2kai "Lam-Mal (Disk 1 - I).hdm" "Lam-Mal (Disk 2 - Ro).hdm" "Lam-Mal (Disk 3 - Ha).hdm" "Lam-Mal (Disk 4 - Ni).hdm"
 ```
 
 Il semble que cette méthode fonctionne avec le core "Neko Project II Kai" core, mais pas avec le core "Neko Project II"
