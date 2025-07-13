@@ -203,6 +203,7 @@
       * [CPS II](systemes-and-emulateurs/supported-game-systems/arcade/capcom-cp-systems/cp-system-ii.md)
       * [CPS III](systemes-and-emulateurs/supported-game-systems/arcade/capcom-cp-systems/cp-system-iii.md)
     * [Cave CV1000](systemes-and-emulateurs/supported-game-systems/arcade/cave-cv1000.md)
+    * [Dice](systemes-and-emulateurs/supported-game-systems/arcade/dice.md)
     * [Final Burn Neo](systemes-and-emulateurs/supported-game-systems/arcade/final-burn-neo.md)
     * [Gaelco](systemes-and-emulateurs/supported-game-systems/arcade/gaelco.md)
     * [HomeBrew MAME](systemes-and-emulateurs/supported-game-systems/arcade/homebrew-mame.md)

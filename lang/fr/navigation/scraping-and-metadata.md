@@ -7,7 +7,6 @@ Le scrape permet de récupérer les informations et les médias des jeux de votr
 * ScreenScraper (par défaut) : inscription requise sur le site web [screenscraper](https://www.screenscraper.fr/)
 * [TheGamesDB](https://thegamesdb.net/)
 * [HFSDB](https://db.hfsplay.fr/)
-* ArcadeDB
 
 ### **Informations scrapées**
 
@@ -41,11 +40,7 @@ Aller à la [section dédiée du wiki](../premiers-pas/adding-a-game.md#scrape-i
 
 Les options de scrape sont accessibles dans le [**MENU PRINCIPAL**](main-menu.md#parametres-des-jeux) en sélectionnant **SCRAPEUR:**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/9CFSkvg.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/9CFSkvg.png" alt=""><figcaption></figcaption></figure></div>
 
 Avant de démarrer le scrape, il est possible de:
 
@@ -56,11 +51,7 @@ Avant de démarrer le scrape, il est possible de:
 
 Chaque scrapeur possède également des réglages qui lui sont propre:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/aGCeQUh.jpg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/aGCeQUh.jpg" alt=""><figcaption></figcaption></figure></div>
 
 Il est notamment possible de définir:
 
@@ -76,11 +67,7 @@ Les paramètres de connexion au service Screenscraper doivent être renseigné d
 
 Tous les médias téléchargés sont stockés dans le dossier des jeux (répertoire `\roms`)
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/XlUVX8L.png" alt=""><figcaption><p>Exemple</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/XlUVX8L.png" alt=""><figcaption><p>Exemple</p></figcaption></figure></div>
 
 <table><thead><tr><th width="199">Répertoire</th><th>Média stocké</th></tr></thead><tbody><tr><td>images</td><td>boîtier (thumb), fanart, dos du boîtier (boxback), image, logo (marquee), carte (map)</td></tr><tr><td>manuals</td><td>Manuel utilisateur</td></tr><tr><td>videos</td><td>Vidéo mp4</td></tr></tbody></table>
 
@@ -109,11 +96,7 @@ Pour cela, il faudra :
 
 Le menu [Options du Jeu](game-options.md) permet également de modifier manuellement les métadonnées des jeux:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/PfePfik.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/PfePfik.png" alt=""><figcaption></figcaption></figure></div>
 
 **Il est possible de :**
 
