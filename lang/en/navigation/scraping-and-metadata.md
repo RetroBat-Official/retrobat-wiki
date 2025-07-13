@@ -8,6 +8,7 @@ Retrobat supports 4 scraping services:
 * [TheGamesDB](https://thegamesdb.net/)
 * [HFSDB](https://db.hfsplay.fr/)
 * ArcadeDB
+* [IGDB](https://www.igdb.com/) : require to enter IGDB clientid and secret on scraper menu (see how-to get on [IGDB api](https://api-docs.igdb.com/#getting-started))
 
 ### **Information that can be scraped**
 
@@ -41,11 +42,7 @@ Refer to the[ following section of the wiki](../get-started/adding-a-game.md#per
 
 Scraping options are available from the [Main Menu](main-menu.md).
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/NBYGcPe.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/NBYGcPe.png" alt=""><figcaption></figcaption></figure></div>
 
 Before running the scraper you can:
 
@@ -56,11 +53,7 @@ Before running the scraper you can:
 
 Additionaly, each scraper has its own settings.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/wjGjPxy.png" alt=""><figcaption><p>Example of available settings for ScreenScraper</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/wjGjPxy.png" alt=""><figcaption><p>Example of available settings for ScreenScraper</p></figcaption></figure></div>
 
 From here you can select which data to scrape, but also define:
 
@@ -76,11 +69,7 @@ The Scraper settings screen is also where you can enter your credentials for Scr
 
 All scraped medias will be stored in the rom folder.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/XlUVX8L.png" alt=""><figcaption><p>Example of media folders</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/XlUVX8L.png" alt=""><figcaption><p>Example of media folders</p></figcaption></figure></div>
 
 <table><thead><tr><th width="199">Folder</th><th>Media stored</th></tr></thead><tbody><tr><td>images</td><td>box (thumb), fanart, boxback, image, marquee, map</td></tr><tr><td>manuals</td><td>pdf manual</td></tr><tr><td>videos</td><td>mp4 videos</td></tr></tbody></table>
 
@@ -99,21 +88,13 @@ To do so, you have to :
 * place the media files in the "**images**" folders for images and "**videos**" folder for videos
 * From the [**SYSTEM SETTINGS**](main-menu.md#system-settings), in "**frontend developer options**", enable "**Search for local art**"
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/dy6VEGP.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/dy6VEGP.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Manual modification of Game Metadata
 
 The [Game Option](game-options.md) menu offers the possibility to manually edit/complete metadata for a game
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/80l5jWw.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/80l5jWw.png" alt=""><figcaption></figcaption></figure></div>
 
 **From there you can:**
 
