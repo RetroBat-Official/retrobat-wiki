@@ -50,7 +50,11 @@ Some emulators are reported to not record correctly the inputs with this control
 
 ![](<../../../.gitbook/assets/image (41).png>)
 
-DualSense controllers supports motion and is reported to work natively with Retrobat.
+DualSense controllers supports motion.
+
+{% hint style="danger" %}
+There is currently an issue with RetroBat and this controller, it works fine in USB but does spam messages in bluetooth.
+{% endhint %}
 
 ### Playstation 4 controller (DualShock 4)
 
