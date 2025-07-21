@@ -52,7 +52,11 @@ Certains émulateurs ne permettent pas d'utiliser une manette Switch Pro lorsque
 
 ![](<../../../.gitbook/assets/image (26).png>)
 
-La manette DualSense est compatible avec la fonctionnalité gyroscope et fonctionne nativement avec Retrobat.
+La manette DualSense est compatible avec la fonctionnalité gyroscope.
+
+{% hint style="danger" %}
+La manette DualSense fonctionne parfaitement en USB mais peut poser des problèmes de spam de messages en bluetooth.
+{% endhint %}
 
 ### Manette Playstation 4 (DualShock 4)
 
