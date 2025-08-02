@@ -4,11 +4,7 @@ description: Capcom
 
 # CPS I
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/cps1.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/cps1.svg" alt=""><figcaption></figcaption></figure></div>
 
 Arcade - Lifespan: 1988 - 1995
 
@@ -16,7 +12,7 @@ Arcade - Lifespan: 1988 - 1995
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: fbalpha2012_cps1</li><li>Libretro: fbneo</li><li>Libretro: fbalpha</li><li>Libretro: fbalpha2012</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> cps1</td></tr><tr><td><strong>File extension</strong></td><td>.fba .zip .7z</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: fbneo</li><li>Libretro: fbalpha2012_cps1</li></ul><ul><li>Libretro: fbalpha</li><li>Libretro: fbalpha2012</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> cps1</td></tr><tr><td><strong>File extension</strong></td><td>.fba .zip .7z</td></tr></tbody></table>
 
 ## Bios Information
 
@@ -28,11 +24,7 @@ No BIOS necessary for CPS systems.
 
 Mapping can be found in the [notice](http://retrobat.ovh/notice/notice.pdf).
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/kXBcdsB.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/kXBcdsB.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Controller mapping
 
