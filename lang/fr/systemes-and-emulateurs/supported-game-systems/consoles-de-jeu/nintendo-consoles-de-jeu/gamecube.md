@@ -16,7 +16,7 @@ Console de jeu - Durée de vie : 2001 - 2007
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>Dolphin : OUI<br>lr-dolphin : NON</td><td>Dolphin : NON<br>lr-dolphin : NON</td><td>Dolphin : OUI<br>lr-dolphin : OUI</td></tr></tbody></table>
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>Dolphin : OUI<br>lr-dolphin : OUI</td><td>Dolphin : NON<br>lr-dolphin : NON</td><td>Dolphin : OUI<br>lr-dolphin : OUI</td></tr></tbody></table>
 
 | Succès Rétro | Parties en Réseau |
 | ------------ | ----------------- |
@@ -34,25 +34,23 @@ Les BIOS ne sont pas nécessaires pour lancer des jeux Gamecube, mais certains s
 
 Par défaut, Dolphin génère des sauvegardes au format "dossier CGI" à l'emplacement suivant:
 
-`saves\dolphin\User\GC\<region>\Card A`
-
-<div align="left"><figure><img src="https://i.imgur.com/EGlIpe4.png" alt=""><figcaption></figcaption></figure></div>
+`saves\gamecube\dolphin-emu\User\GC\<region>`
 
 {% hint style="info" %}
-Libretro Dolphin utilise la région USA
+Libretro Dolphin utilise un sous-dossier "Card A"
 {% endhint %}
 
 Le sous-dossier de la région peut être modifié avec [le paramétrage](../../../../navigation/configuration-des-systemes-et-des-jeux.md) ci-dessous:
 
-<div align="left"><figure><img src="https://i.imgur.com/GuYVNfl.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="https://i.imgur.com/A6MVJmv.png" alt=""><figcaption></figcaption></figure></div>
 
 Il est possible également de configurer Dolphin afin d'utiliser des fichiers SRAM (ancienne méthode, un fichier correspond à une carte mémoire de Gamecube) plutôt que des dossiers CGI:
 
-<div align="left"><figure><img src="https://i.imgur.com/lHnvqau.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="https://i.imgur.com/GoF2dWZ.png" alt=""><figcaption></figcaption></figure></div>
 
 Dans ce cas, le fichier de sauvegarde sera stocké dans le dossier :
 
-`saves\dolphin\User\GC\`
+`saves\gamecube\dolphin-emu\User\GC\`
 
 ### Sauvegardes d'état
 

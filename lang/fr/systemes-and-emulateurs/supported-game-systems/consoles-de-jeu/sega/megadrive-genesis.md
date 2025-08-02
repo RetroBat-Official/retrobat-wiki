@@ -30,42 +30,27 @@ Aucun BIOS nécessaire.
 
 ### Schéma de contrôles standard:
 
-<div align="left">
-
-<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/megadrive.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/megadrive.png?raw=true" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ### Contrôleur 3 boutons:
 
 L'utilisation d'un contrôleur 3-boutons peut être activée avec l'option suivante:
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/y8F0PEM.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/y8F0PEM.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/megadrive_3buttons.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/megadrive_3buttons.png?raw=true" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ### Autres schémas de contrôles:
 
 Des schémas de contrôles alernatifs sont disponible avec l'option suivante:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/WEnL6F1.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/WEnL6F1.png" alt=""><figcaption></figcaption></figure></div>
 
 | Option / émulateurs | Schéma de contrôle                                                                                                                           |
 | ------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | L/R pour Z/C        | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/megadrive_lr_zc.png?raw=true" alt="" data-size="original"> |
 | L/R pour Y/Z        | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/megadrive_lr_yz.png?raw=true" alt="" data-size="original"> |
+| L/R pour Y/B        | <img src="https://i.imgur.com/oVvkazt.png" alt="" data-size="original">                                                                      |
 
 ### Utiliser une manette de type Megadrive
 
@@ -75,11 +60,7 @@ RetroBat détecte et configure automatiquement les manettes de type "Megadrive" 
 
 Pour cela, activer l'option suivante:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/HYBXlgR.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/HYBXlgR.png" alt=""><figcaption></figcaption></figure></div>
 
 Le mapping des manettes Megadrive est géré par le fichier "**mdControllers.json**" situé dans le répertoire `\system\resources\inputmapping` de l'installation RetroBat, il est possible d'ajouter d'autres manettes dans ce fichier pour automatiquement configurer votre contrôleur.
 

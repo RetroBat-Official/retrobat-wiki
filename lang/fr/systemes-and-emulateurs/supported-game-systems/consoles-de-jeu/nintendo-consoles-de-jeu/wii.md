@@ -4,11 +4,7 @@ description: Nintendo
 
 # Wii
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/wii-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/wii.svg" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/wii-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/wii.svg" alt=""></picture><figcaption></figcaption></figure></div>
 
 Console de jeu - Durée de vie : 2006 - 2017
 
@@ -29,6 +25,14 @@ Console de jeu - Durée de vie : 2006 - 2017
 ## BIOS
 
 Aucun BIOS nécessaire.
+
+## Dossiers
+
+### NAND
+
+Les fichiers de la NAND Wii sont sauvegardés à l'emplacement:
+
+`saves\wii\dolphin-emu\User\Wii\`
 
 ## Contrôles (Dolphin émulateur)
 
@@ -224,31 +228,19 @@ Si vous disposez d'une manette compatible avec le motion control (les manettes S
 
 Pour cela, activer l'option "MOTION CONTROL" dans les options avancées du système:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/ZZBhOLk.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/ZZBhOLk.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Adaptateur Gamecube
 
 L'utilisation d'un adaptateur est possible pour la console Wii, pour cela il faut suivre la [même procédure que pour la Gamecube (ici)](gamecube.md#utilisation-dun-adaptateur-gamecube), l'option pour activer l'adaptateur depuis RetroBat se trouve ici:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/QlxyNja.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/QlxyNja.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Lightgun (pistolet)
 
 Il est possible de jouer au pistolet en activant l'option suivante :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/llDVUl7.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/llDVUl7.png" alt=""><figcaption></figcaption></figure></div>
 
 Les contrôles au gun sont les suivants:
 
@@ -274,25 +266,13 @@ Le core libretro Dolphin permet de sélectionner parmi les types de contrôleurs
 
 Si le menu Wii est installé dans Dolphin, il est possible de le lancer directement avec l'option suivante:
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/G4tfNHl.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/G4tfNHl.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/aGImoS5.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/aGImoS5.png" alt=""><figcaption></figcaption></figure></div>
 
 Pour vérifier si le menu Wii est bien installé dans Dolphin, tenter de le lancer directement depuis l'émulateur:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/g1UJjln.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/g1UJjln.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Textures personalisées
 
