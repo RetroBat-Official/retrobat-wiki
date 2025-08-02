@@ -16,7 +16,7 @@ Game Console - Lifespan: 2001 - 2007
 
 ## Features
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>Dolphin: YES<br>lr-dolphin: NO</td><td>Dolphin: NO<br>lr-dolphin: NO</td><td>Dolphin: YES<br>lr-dolphin: YES</td></tr></tbody></table>
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>Dolphin: YES<br>lr-dolphin: YES</td><td>Dolphin: NO<br>lr-dolphin: NO</td><td>Dolphin: YES<br>lr-dolphin: YES</td></tr></tbody></table>
 
 ## BIOS
 
@@ -30,12 +30,10 @@ The BIOS files are not mandatory to launch games but some require at least one o
 
 By default, Dolphin stores saves as GCI folders in the following location:
 
-`saves\dolphin\User\GC\<region>\Card A`
-
-<div align="left"><figure><img src="https://i.imgur.com/EGlIpe4.png" alt=""><figcaption></figcaption></figure></div>
+`saves\gamecube\dolphin-emu\User\GC\<region>`
 
 {% hint style="info" %}
-Libretro dolphin uses the region USA
+Libretro dolphin uses a "Card A" subfolder
 {% endhint %}
 
 The region subfolder can be amended with the following [RetroBat setting](../../../../navigation/configuration-of-systems-and-games.md):
@@ -44,11 +42,11 @@ The region subfolder can be amended with the following [RetroBat setting](../../
 
 It is possible to use classic memcard SRAM files instead of CGI folders by enabling the following option:
 
-<div align="left"><figure><img src="https://i.imgur.com/XHG2UiZ.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="https://i.imgur.com/rz8bEV8.png" alt=""><figcaption></figcaption></figure></div>
 
 In that case, the save file will be located in the following folder:
 
-`saves\dolphin\User\GC\`
+`saves\gamecube\dolphin-emu\User\GC\`
 
 ### Save States
 

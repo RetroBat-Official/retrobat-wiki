@@ -4,11 +4,7 @@ description: Nintendo
 
 # Wii
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/wii-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/wii.svg" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/wii-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/wii.svg" alt=""></picture><figcaption></figcaption></figure></div>
 
 Game Console - Lifespan: 2006 - 2017
 
@@ -25,6 +21,14 @@ Game Console - Lifespan: 2006 - 2017
 ## BIOS
 
 There is no BIOS files needed to run games.
+
+## FOLDERS
+
+### NAND
+
+The Wii NAND files are saved in the following folder:
+
+`saves\wii\dolphin-emu\User\Wii\`
 
 ## Controls (Dolphin standalone)
 
@@ -224,11 +228,7 @@ If you own a controller like a Dualshock or a switch Pro Controller, it is possi
 
 To do this, you need to enable the MOTION CONTROL option in the advanced options:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/mbXacu8.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/mbXacu8.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Gamecube adapter
 
@@ -236,21 +236,13 @@ It is possible to enable the use of a Gamecube controller adapter for the Wii sy
 
 To do so, [follow the procedure described for the GameCube system](gamecube.md#using-a-gamecube-adapter), the option to enable the adapter in RetroBat can be found here:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/Do58907.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/Do58907.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Lightgun
 
 IIt is possible to play WII games with a lightgun, activate the following option:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/P5JDxup.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/P5JDxup.png" alt=""><figcaption></figcaption></figure></div>
 
 These are the gun controls:
 
@@ -276,25 +268,13 @@ The following list of emulated devices is available in the advanced options:
 
 If the Wii Menu is installed, RetroBat allows you to run it with the following option:
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/FEfgUdS.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/FEfgUdS.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/aGImoS5.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/aGImoS5.png" alt=""><figcaption></figcaption></figure></div>
 
 To check if the wii menu is correctly installed, try to run it directly from dolphin executable:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/JrCsINV.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/JrCsINV.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Custom Textures
 

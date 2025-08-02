@@ -14,9 +14,13 @@ Computer Operating System - Lifespan: 1992 - now
 
 Windows games don't need any emulator to function, they can be run natively from the RetroBat interface.
 
+<table data-header-hidden><thead><tr><th width="167"></th><th></th></tr></thead><tbody><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> windows<br><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> amazon (for amazon store games)<br><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> eagames (for EA store EA games)<br><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> epic (for EPIC store games)<br><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> gog (for GOG games)<br><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> steam (for Steam games)</td></tr><tr><td><strong>File extension</strong></td><td>.exe .bat .cmd .lnk .game .url .pc .win .windows .wine .7z .zip .rar .wsquashfs</td></tr></tbody></table>
 
+## Special note for Store games
 
-<table data-header-hidden><thead><tr><th width="167"></th><th></th></tr></thead><tbody><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> windows</td></tr><tr><td><strong>File extension</strong></td><td>.exe .bat .cmd .lnk .game .url .pc .win .windows .wine .7z .zip .rar .wsquashfs</td></tr></tbody></table>
+RetroBat automatically scans installed games from amazon, eagames (only EA games), epic, gog and steam with every launch, this feature can be disabled with this setting in the MAIN MENU > GAME SETTINGS > WINDOWS GAMES:
+
+<div align="left"><figure><img src="https://i.imgur.com/WPf3Bqg.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Controls
 

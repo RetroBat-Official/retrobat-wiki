@@ -12,7 +12,7 @@ Playstation-based hardware arcade games emulator
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>play</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> namco2x6</td></tr><tr><td><strong>File extension</strong></td><td>.zip .m3u</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>play</li><li>teknoparrot</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> namco2x6</td></tr><tr><td><strong>File extension</strong></td><td>.zip .m3u</td></tr></tbody></table>
 
 The list of compatible games can be found in the following folder: `\emulators\play\arcadedefs`
 

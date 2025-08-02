@@ -29,42 +29,27 @@ There is no BIOS files needed to run games.
 
 ### Standard layout:
 
-<div align="left">
-
-<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/megadrive.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/megadrive.png?raw=true" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ### 3-button pad layout:
 
 3-button pad can be switched ON with the following option:
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/a4rUe5g.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/a4rUe5g.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/megadrive_3buttons.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/megadrive_3buttons.png?raw=true" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ### Alternative layouts:
 
 Alternative layouts are available with this option:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/pt5KFr8.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/pt5KFr8.png" alt=""><figcaption></figcaption></figure></div>
 
 | Option / emulator | Control layout                                                                                                                               |
 | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
 | L/R as Z/C        | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/megadrive_lr_zc.png?raw=true" alt="" data-size="original"> |
 | L/R as Y/Z        | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/megadrive_lr_yz.png?raw=true" alt="" data-size="original"> |
+| L/R as Y/B        | <div><figure><img src="https://i.imgur.com/oVvkazt.png" alt=""><figcaption></figcaption></figure></div>                                      |
 
 ### Using a Megadrive-like controller
 
@@ -74,11 +59,7 @@ RetroBat can be used to automatically configure the following type of "Megadrive
 
 To do so, use the following option:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/FMG6qiI.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/FMG6qiI.png" alt=""><figcaption></figcaption></figure></div>
 
 Megadrive-like controller configuration is managed within the "**mdControllers.json**" file located in the `\system\resources\inputmapping` folder of the RetroBat installation, it is possible to extend this file to configure automatically additional controllers.
 
