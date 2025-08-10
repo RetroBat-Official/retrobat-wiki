@@ -12,7 +12,7 @@ Arcade - Released: 2002
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>chihiro (old CXBX-Reloaded version)</li><li>cxbx</li><li>xemu</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> chihiro</td></tr><tr><td><strong>File extension</strong></td><td>.xbe .iso</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>chihiro (old CXBX-Reloaded version)</li><li>chihiro-gun (chihiro-ds 1.0)</li><li>cxbx</li><li>xemu</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> chihiro</td></tr><tr><td><strong>File extension</strong></td><td>.xbe .iso</td></tr></tbody></table>
 
 ## Bios Information
 
@@ -44,7 +44,7 @@ Run the .xbe file ending with "t" to enter the test menu.
 
 <div align="left"><figure><img src="https://i.imgur.com/V1mJQyY.png" alt=""><figcaption></figcaption></figure></div>
 
-### Use Cerbios firmware
+### Use Cerbios firmware (XEMU)
 
 Download the Cerbios firmware and rename it 'Cerbios.bin', place it in the retrobat\bios folder.
 

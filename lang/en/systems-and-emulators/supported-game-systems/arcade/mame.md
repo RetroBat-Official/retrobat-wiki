@@ -43,7 +43,7 @@ BIOS files must be placed at the root of the `\bios` folder of your RetroBat ins
 
 **Samples**: \bios\mame\samples
 
-**Cfg**: \bios\mame\cfg
+**Cfg**: \saves\mame\cfg
 
 **Ini**: \bios\mame\ini
 
