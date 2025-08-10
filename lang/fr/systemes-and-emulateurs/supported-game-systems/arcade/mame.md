@@ -43,7 +43,7 @@ Les BIOS additionnels doivent être placés à la racine du dossier \bios de vot
 
 **Samples**: \bios\mame\samples
 
-**Cfg**: \bios\mame\cfg
+**Cfg**: \saves\mame\cfg
 
 **Ini**: \bios\mame\ini
 
