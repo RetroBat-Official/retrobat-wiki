@@ -4,11 +4,7 @@ description: Apple
 
 # Apple IIGS
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/apple2gs-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/apple2gs.svg" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/apple2gs-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/apple2gs.svg" alt=""></picture><figcaption></figcaption></figure></div>
 
 Computer - Lifespan: 1986 - 1992
 
@@ -36,7 +32,7 @@ Computer - Lifespan: 1986 - 1992
 - "341-0728" size="131072" crc="8d410067" sha1="c0f4704233ead14cb8e1e8a68fbd7063c56afd27"
 - "341-0748" size="131072" crc="18190283" sha1="c70576869deec92ca82c78438b1d5c686eac7480"
 - "341s0632-2.bin" size="4096" crc="e1c11fb0" sha1="141d18c36a617ab9dce668445440d34354be0672"
-<strong>- "apple2gs.chr" size="4096" crc="91e53cd8" sha1="34e2443e2ef960a36c047a09ed5a93f471797f89"
+<strong>- "megaii.chr" size="16384" crc="ef0bfc11" sha1="c068f3d02d442a8a38121d42318e9a962ee8913e"
 </strong></code></pre>
 
 </details>
@@ -55,10 +51,6 @@ It is better to use keyboard & Mouse for personal computers.
 
 Use a m3u file to run multi-disc games, hereunder an example for Silpheed:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/6dRmeLY.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/6dRmeLY.png" alt=""><figcaption></figcaption></figure></div>
 
 .2mg files must be in the same folder as the .m3u file.
