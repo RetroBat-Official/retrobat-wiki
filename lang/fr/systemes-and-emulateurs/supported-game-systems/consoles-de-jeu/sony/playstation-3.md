@@ -105,9 +105,15 @@ Le fichier m3u doit pointer vers le fichier **EBOOT.BIN** se trouvant dans le do
 
 <div align="left"><figure><img src="https://i.imgur.com/LmL6NUh.png" alt=""><figcaption></figcaption></figure></div>
 
-{% hint style="info" %}
-L'outil BATGUI permet la création automatique des m3u. Se référer à la section [BATGUI ](../../../../utilisation-avancee/batgui.md)du wiki.
-{% endhint %}
+**NOTE**: il est possible de pointer vers d'autres dossiers en utilisant des alias au début de la ligne de contenu du fichier .m3u:
+
+* EMULATORPATH : pointe vers le dossier de l'émulateur
+* SAVESPATH : pointe vers le dossier saves\ps3\rpcs3
+* ROMPATH :pointe vers le dossier roms\ps3
+
+Par exemple, le fichier ci-dessous pointe vers:`emulators\rpcs3\dev_hdd0\game\NPEB00411\USRDIR\EBOOT.BIN`
+
+<div align="left"><figure><img src="https://i.imgur.com/jRH0tBz.png" alt=""><figcaption></figcaption></figure></div>
 
 #### Ajouter un jeu PSN - option 2
 

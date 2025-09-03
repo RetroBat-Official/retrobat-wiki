@@ -4,11 +4,7 @@ description: The 3do Company
 
 # 3DO
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/3do.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/3do.svg" alt=""><figcaption></figcaption></figure></div>
 
 Console de jeu - Durée de vie : 1993 - 1996
 
@@ -16,7 +12,7 @@ Console de jeu - Durée de vie : 1993 - 1996
 
 ## Informations
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro : 4do</li><li>Libretro : opera</li><li>phoenix</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> 3do</td></tr><tr><td><strong>Extensions</strong></td><td>.cue .iso .chd .m3u</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro : 4do</li><li>Libretro : opera</li><li>phoenix</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> 3do</td></tr><tr><td><strong>Extensions</strong></td><td>.cue .iso .chd</td></tr></tbody></table>
 
 ## Fonctionnalités
 
@@ -28,11 +24,7 @@ Console de jeu - Durée de vie : 1993 - 1996
 
 ## Contrôles
 
-<div align="left">
-
-<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/3do.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/3do.png?raw=true" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ## Information spécifique au système
 
