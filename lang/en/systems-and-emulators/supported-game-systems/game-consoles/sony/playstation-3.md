@@ -98,15 +98,19 @@ The game will directly be available in RetroBat.
 \
 Once the game has been added to the emulator from the "**Install package**" or/and "**Add games**" menu and the game is working succesfully from the emulator, create a m3u file in the `\roms\ps3` folder that points to the **EBOOT.BIN** file of the game in the `\saves\ps3\rpcs3\dev_hdd0\game` game folder:
 
-
-
 <div align="left"><figure><img src="https://i.imgur.com/qV3GMuC.png" alt=""><figcaption></figcaption></figure></div>
 
 <div align="left"><figure><img src="https://i.imgur.com/LmL6NUh.png" alt=""><figcaption></figcaption></figure></div>
 
-{% hint style="info" %}
-BATGUI tool offers an automatic m3u creation tool. Refer to the [BATGUI ](../../../../advanced-features/batgui.md)section of the wiki.
-{% endhint %}
+**NOTE**: it is possible to point RetroBat to look in other folders than the saves folder by using aliases at the start of the .m3u file content:
+
+* EMULATORPATH : points to the folder where rpcs3.exe is located
+* SAVESPATH : points to the saves\ps3\rpcs3 folder
+* ROMPATH : points to the roms\ps3 path
+
+For example, the following file points to the `emulators\rpcs3\dev_hdd0\game\NPEB00411\USRDIR\EBOOT.BIN` folder of the RetroBat installation.
+
+<div align="left"><figure><img src="https://i.imgur.com/jRH0tBz.png" alt=""><figcaption></figcaption></figure></div>
 
 #### Adding PSN titles - option 2
 
