@@ -4,11 +4,7 @@ description: Sega
 
 # Sega Model 2
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/model2.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/model2.svg" alt=""><figcaption></figcaption></figure></div>
 
 Arcade - Date de création : 1994
 
@@ -16,7 +12,7 @@ Arcade - Date de création : 1994
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>model2emu</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> model2</td></tr><tr><td><strong>Extensions</strong></td><td>.zip</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>model2emu</li><li>libretro:mame</li><li>MAME</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> model2</td></tr><tr><td><strong>Extensions</strong></td><td>.zip</td></tr></tbody></table>
 
 ## Fonctionnalités
 
@@ -32,11 +28,7 @@ Aucun BIOS nécessaire.
 
 Par défaut, RetroBat force l'émulateur à utiliser le pilote XINPUT, toutefois, si vous utilisez une manette qui n'est pas compatible avec le protocole XINPUT, il vous faudra selectionner le pilote DINPUT depuis le menu des options avancées :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/0joCHBX.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/0joCHBX.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Contrôles par défaut des jeux:
 
@@ -211,11 +203,7 @@ Le menu TEST permet d'accéder à diverses options de paramétrages propres au j
 
 Accéder au menu TEST soit à l'aide du clavier ou de la manette selon l'option sélectionnée dans le menu RetroBat:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/4loHwL5.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/4loHwL5.png" alt=""><figcaption></figcaption></figure></div>
 
 Activer l'option pour utiliser la manette (R3 pour enter dans le menu et L3 pour naviguer).&#x20;
 
@@ -231,14 +219,6 @@ Pour calibrer le pistolet, accéder au menu TEST puis sélectionner **GUN SETTIN
 
 Si un message d'erreur “Network Board Not Present” apparaît, aller dans le menu TEST et sélectionner **Game System** → **Link ID** puis modifier l'option à **Single**.&#x20;
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/LnXZBzo.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/LnXZBzo.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/0TBBbJT.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/0TBBbJT.png" alt=""><figcaption></figcaption></figure></div>

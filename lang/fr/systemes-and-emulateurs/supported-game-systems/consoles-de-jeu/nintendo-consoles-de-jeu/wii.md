@@ -222,6 +222,12 @@ Par exemple, pour un jeu utilisant le Nunchuk et nécessitant l'utilisation du p
 
 (Exemple de nom de ROM si la technique du nommage de ROM est utilisée : `Super Mario Galaxy.ni.iso` ou `Super Mario Galaxy.in.iso`)
 
+#### Autres extensions
+
+D'autres options sont disponibles pour configurer certaines extensions:
+
+<div align="left"><figure><img src="https://i.imgur.com/zJzeH8F.png" alt=""><figcaption></figcaption></figure></div>
+
 #### Motion Control
 
 Si vous disposez d'une manette compatible avec le motion control (les manettes Switch Pro ou Playstation sont compatibles avec la fonction gyroscope), il est possible de l'utiliser pour simuler les mouvements de la wiimotes.

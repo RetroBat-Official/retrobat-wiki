@@ -4,11 +4,7 @@ description: Tandy Radio Shack
 
 # TRS-80 Color Computer
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/trs-80.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/trs-80.svg" alt=""><figcaption></figcaption></figure></div>
 
 Micro-ordinateur - Durée de vie : 1980 - 1991
 
@@ -16,11 +12,11 @@ Micro-ordinateur - Durée de vie : 1980 - 1991
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro : mame</li><li>mame64</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> coco</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.wav .cas .ccc .dsk .rom .zip .7z</td><td></td></tr><tr><td><strong>Group</strong></td><td>MESS</td><td></td></tr><tr><td><strong>Modèle émulé</strong></td><td>coco3, coco3p, coco, coco2, coco2b</td><td></td></tr><tr><td><strong>Softlists</strong></td><td>coco_cart, coco_flop</td><td></td></tr><tr><td><strong>Types de média</strong></td><td>cassette, cartouche, disquette, disque dur</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro : mame</li><li>mame64</li><li>XRoar</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> coco</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.wav .cas .ccc .dsk .rom .zip .7z</td><td></td></tr><tr><td><strong>Group</strong></td><td>MESS</td><td></td></tr><tr><td><strong>Modèle émulé</strong></td><td>coco3, coco3p, coco, coco2, coco2b</td><td></td></tr><tr><td><strong>Softlists</strong></td><td>coco_cart, coco_flop</td><td></td></tr><tr><td><strong>Types de média</strong></td><td>cassette, cartouche, disquette, disque dur</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td>NON</td></tr></tbody></table>
+<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td>mame: NON<br>xroar: OUI</td></tr></tbody></table>
 
 ## BIOS
 

@@ -16,7 +16,7 @@ Console de jeu portable - Durée de vie : 2004- 2011
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td><p>lr-melondsds : OUI<br>lr-desmume : OUI<br>lr-desmume2015 : OUI<br>lr-melonds : OUI</p><p>lr-noods : OUI<br>MelonDS : NON<br>Ares : NON<br>BizHawk : OUI</p></td><td><p>lr-melondsds : NON<br>lr-desmume : OUI<br>lr-desmume2015 : OUI<br>lr-melonds : NON</p><p>lr-noods : NON<br>MelonDS : NON<br>Ares : NON<br>BizHawk : NON</p></td><td><p>lr-melondsds : OUI<br>lr-desmume : OUI<br>lr-desmume2015 : OUI<br>lr-melonds : OUI</p><p>lr-noods : OUI<br>MelonDS : OUI<br>Ares : OUI<br>BizHawk : OUI</p></td></tr></tbody></table>
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td><p>lr-melondsds : OUI<br>lr-desmume : OUI<br>lr-desmume2015 : OUI<br>lr-melonds : OUI</p><p>lr-noods : OUI<br>MelonDS : NON<br>DesMume: NON<br>BizHawk : OUI</p></td><td><p>lr-melondsds : NON<br>lr-desmume : OUI<br>lr-desmume2015 : OUI<br>lr-melonds : NON</p><p>lr-noods : NON<br>MelonDS : NON<br>DesMume: NON<br>BizHawk : NON</p></td><td><p>lr-melondsds : OUI<br>lr-desmume : OUI<br>lr-desmume2015 : OUI<br>lr-melonds : OUI</p><p>lr-noods : OUI<br>MelonDS : OUI<br>DesMume: OUI<br>BizHawk : OUI</p></td></tr></tbody></table>
 
 ## BIOS
 
