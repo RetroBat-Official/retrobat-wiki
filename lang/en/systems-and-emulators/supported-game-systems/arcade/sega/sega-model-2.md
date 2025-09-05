@@ -4,11 +4,7 @@ description: Sega
 
 # Sega Model 2
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/model2.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/model2.svg" alt=""><figcaption></figcaption></figure></div>
 
 Arcade - Released: 1994
 
@@ -16,7 +12,7 @@ Arcade - Released: 1994
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>model2emu</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> model2</td></tr><tr><td><strong>File extension</strong></td><td>.zip</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>model2emu</li><li>libretro:mame</li><li>MAME</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> model2</td></tr><tr><td><strong>File extension</strong></td><td>.zip</td></tr></tbody></table>
 
 ## System Features
 
@@ -32,11 +28,7 @@ No BIOS required for Model 2.
 
 By default, RetroBat forces the emulator to use the XINPUT driver, however, if you are using a controller that is not compatible with the XInput protocol, you will need to select the DINPUT driver in the advanced options of the system:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/0joCHBX.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/0joCHBX.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Default controls for each game:
 
@@ -202,7 +194,7 @@ Wave Runner:
 | VIEW CHANGE | <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> |
 
 {% hint style="info" %}
-RetroBat also offers a way to use your own controller mappings on a per-game basis, refer to [this page](../../../../controllers/specific\_mapping/model2-controller-mapping.md).
+RetroBat also offers a way to use your own controller mappings on a per-game basis, refer to [this page](../../../../controllers/specific_mapping/model2-controller-mapping.md).
 {% endhint %}
 
 ## Specific system information
@@ -213,11 +205,7 @@ The Service menu contains options that can be adjusted within the game itself, s
 
 The service menu can be accessed either by keyboard or with the right stick button (R3) of your controller, based on the option in the service menu:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/4loHwL5.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/4loHwL5.png" alt=""><figcaption></figcaption></figure></div>
 
 Turn the option ON to use controller (R3 to enter service menu and L3 to navigate).
 
@@ -233,14 +221,6 @@ While in game, navigate the Test menu to the **GUN SETTINGS** option to perform 
 
 If you receive the error “Network Board Not Present”, go to the service menu and navigate to **Games System** → **Link ID** and change the option to **Single**.&#x20;
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/LnXZBzo.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/LnXZBzo.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/0TBBbJT.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/0TBBbJT.png" alt=""><figcaption></figcaption></figure></div>

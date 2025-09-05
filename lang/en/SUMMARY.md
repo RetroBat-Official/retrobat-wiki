@@ -259,6 +259,7 @@
     * [Perfect Dark](systems-and-emulators/supported-game-systems/others/pdark.md)
     * [Pico-8](systems-and-emulators/supported-game-systems/others/pico-8.md)
     * [Ports](systems-and-emulators/supported-game-systems/others/ports.md)
+    * [Power Bomberman](systems-and-emulators/supported-game-systems/others/powerbomberman.md)
     * [PrBoom](systems-and-emulators/supported-game-systems/others/prboom.md)
     * [Quake](systems-and-emulators/supported-game-systems/others/quake.md)
     * [Quake 2](systems-and-emulators/supported-game-systems/others/quake-2.md)

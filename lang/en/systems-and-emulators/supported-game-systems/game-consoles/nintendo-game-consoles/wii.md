@@ -222,6 +222,12 @@ For example if your game requires a nunchuk and IR cursor usage (e.g. `Super Mar
 
 (ROM name example : `Super Mario Galaxy.ni.iso` or `Super Mario Galaxy.in.iso`)
 
+#### Additional extensions
+
+There are also additional options to autoconfigure few connected extensions:
+
+<div align="left"><figure><img src="https://i.imgur.com/zJzeH8F.png" alt=""><figcaption></figcaption></figure></div>
+
 #### Motion Control
 
 If you own a controller like a Dualshock or a switch Pro Controller, it is possible to use the controller Motion Control Sensor to emulate the Wiimote Gyroscope.

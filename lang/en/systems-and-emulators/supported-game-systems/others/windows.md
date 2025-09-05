@@ -18,9 +18,9 @@ Windows games don't need any emulator to function, they can be run natively from
 
 ## Special note for Store games
 
-RetroBat automatically scans installed games from amazon, eagames (only EA games), epic, gog and steam with every launch, this feature can be disabled with this setting in the MAIN MENU > GAME SETTINGS > WINDOWS GAMES:
+RetroBat can be set up to automatically scan games from amazon, eagames (only EA games), epic, gog and steam with every launch, this feature can be enabled with this setting in the MAIN MENU > GAME SETTINGS > WINDOWS GAMES:
 
-<div align="left"><figure><img src="https://i.imgur.com/WPf3Bqg.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="https://i.imgur.com/VCjHT62.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Controls
 

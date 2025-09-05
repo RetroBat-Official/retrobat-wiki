@@ -8,7 +8,7 @@ Playstation hardware arcade games emulator
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>PSXMame</li><li>Zinc</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> zinc</td></tr><tr><td><strong>File extension</strong></td><td>.zip</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>PSXMame</li><li>Zinc</li><li>libretro:mame</li><li>MAME</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> zinc</td></tr><tr><td><strong>File extension</strong></td><td>.zip</td></tr></tbody></table>
 
 ## System Features
 
