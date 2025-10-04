@@ -4,11 +4,7 @@ description: SNK
 
 # Hyper Neo Geo 64
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/neogeo64.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/neogeo64.svg" alt=""><figcaption></figcaption></figure></div>
 
 Arcade - Released: 1997
 
@@ -44,7 +40,7 @@ _Xtreme Rally_
 
 ## Bios Information
 
-<table><thead><tr><th width="154">Bios file</th><th width="108">Folder</th><th>md5</th></tr></thead><tbody><tr><td>neogeo.zip</td><td><code>\bios</code></td><td>dffb72f116d36d025068b23970a4f6df</td></tr></tbody></table>
+<table><thead><tr><th width="154">Bios file</th><th width="108">Folder</th><th>md5</th></tr></thead><tbody><tr><td>hng64.zip</td><td><code>\bios</code></td><td></td></tr></tbody></table>
 
 ## Controls
 
