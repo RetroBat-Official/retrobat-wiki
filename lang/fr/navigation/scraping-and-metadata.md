@@ -7,6 +7,8 @@ Le scrape permet de récupérer les informations et les médias des jeux de votr
 * ScreenScraper (par défaut) : inscription requise sur le site web [screenscraper](https://www.screenscraper.fr/)
 * [TheGamesDB](https://thegamesdb.net/)
 * [HFSDB](https://db.hfsplay.fr/)
+* ArcadeDB
+* [IGDB](https://www.igdb.com/) : Nécessite de renseigner manuellement le clientid IGDB ainsi que le secret depuis le menu scrapeur de RetroBat (voir la méthode sur la page de l'api [IGDB](https://api-docs.igdb.com/#getting-started))
 
 ### **Informations scrapées**
 
