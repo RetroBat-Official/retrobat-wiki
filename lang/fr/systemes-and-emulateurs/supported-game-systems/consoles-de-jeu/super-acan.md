@@ -4,11 +4,7 @@ description: Funtech
 
 # Super A'Can
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/supracan.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/supracan.svg" alt=""><figcaption></figcaption></figure></div>
 
 Console de jeu - Durée de vie: 1995 - 1996
 
@@ -24,14 +20,18 @@ Console de jeu - Durée de vie: 1995 - 1996
 
 ## BIOS
 
-<table><thead><tr><th width="209.55555555555557">Fichier BIOS</th><th width="189">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>supracan.zip</td><td><code>\bios</code></td><td>f6f0b2ccbbeb2e1d6e843acb145490f8</td></tr></tbody></table>
+<table><thead><tr><th width="209.55555555555557">Fichier BIOS</th><th width="189">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>umc6650.zip</td><td><code>\bios</code></td><td>da6cebe6b22a91a34a67074adbbec3a3</td></tr><tr><td>supracan.zip</td><td><code>\bios</code></td><td>f8fb3fac59db534a3ba099a9f232e733</td></tr></tbody></table>
 
 ### Contenu du fichier BIOS
 
 ```
+umc6650.zip
+- umc6650.bin
+
 supracan.zip
 - internal_68k.bin
-- umc6650.bin
+- internal_6502_1.bin
+- internal_6502_2.bin
 ```
 
 ## Contrôles
