@@ -2,11 +2,7 @@
 
 Une fois RetroBat installé, le répertoire contient les dossiers et fichiers suivants  :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/CRVcysX.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/12l87Hk.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Répertoire "bios"&#x20;
 
@@ -26,11 +22,7 @@ Ce répertoire est vide par défaut. Il permet de stocker des fichiers "décorat
 
 Ce répertoire contient les principaux exécutables utilisés par l'interface EmulationStation de RetroBat ainsi que l'exécutable utilisé pour lancer les émulateurs. La structure est la suivante:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/vAXEckR.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/vAXEckR.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Les fichiers de configuration de RetroBat (es\_systems.cfg, es\_input.cfg, ...) ainsi que les logs se trouvent dans ce dossier et ses sous-dossiers.
@@ -129,11 +121,7 @@ Si vous constatez qu'une sauvegarde ou une capture d'écran ne s'enregistre pas 
 
 Ce répertoire est utilisé pour y stocker les sons qui pourront être utilisés pour le déblocage des RetroAchievements, les fichiers présents dans ce dossier sont automatiquement listés dans l'interface RetroBat :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/JRHEcpL.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/JRHEcpL.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Les fichiers sonores doivent être au format .ogg pour pouvoir être utilisés par RetroArch.
@@ -143,11 +131,7 @@ Les fichiers sonores doivent être au format .ogg pour pouvoir être utilisés p
 
 Ce dossier contient plusieurs fichiers de configuration RetroBat ainsi que des "assets" fournies par défaut avec RetroBat (shaders, decorations...), la structure est la suivante:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/aQODkzO.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/aQODkzO.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Dossier "decorations"
 
@@ -173,11 +157,7 @@ Ce dossier contient les fichier [padtokey ](../controleurs/pad2key.md#fichier-pa
 
 Dans le sous-dossier "inputmapping", il est possible de trouver les fichiers d'autoconfiguration utilisés par RetroBat pour certains systèmes:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/cxjYSok.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/cxjYSok.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Dossier "shaders"
 
@@ -190,3 +170,7 @@ Ce dossier contient les "tatouages", schémas de contrôles pour différents sys
 ### Dossier "templates"
 
 Ce dossier contient les fichiers d'origine de RetroBat tels qu'ils sont à l'installation, si un fichier a été modifié ou effacé par erreur, il peut être récupéré dans ce dossier.
+
+## Répertoire "user"
+
+Ce dossier peut être utilisé pour stocker les tattoos, fichiers inputmapping et la clé APIkey Steam.
