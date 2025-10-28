@@ -2,11 +2,7 @@
 
 Once RetroBat is installed, the RetroBat installation folder contains the following folders & files:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/7GXyEHY.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/12l87Hk.png" alt=""><figcaption></figcaption></figure></div>
 
 ## bios folder
 
@@ -26,11 +22,7 @@ This folder comes empty. It can be used to add bezel files to RetroBat, these be
 
 This folder contains the main executables used for RetroBat interface and for the executable used to configure and run emulators. The structure is the following:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/vAXEckR.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/vAXEckR.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 RetroBat configuration files (es\_systems.cfg, es\_input.cfg, ...) as well as program logs are located in this folder and its subfolders.
@@ -126,11 +118,7 @@ If you notice that a save or a screenshot is not recorded in the right folder, p
 
 Copy in this folder the .ogg sound files to be used as RetroAchievements unlock sound. They will be picked up by RetroBat and appear as a choice in the Retroachievement sound unlock feature:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/Bh6NTTG.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/Bh6NTTG.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Sound files need to be in .ogg format.
@@ -140,11 +128,7 @@ Sound files need to be in .ogg format.
 
 This folder contains several RetroBat configuration files as well as default "assets" provided with RetroBat (shaders, bezels, ...), the subfolder structure is as follows:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/aQODkzO.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/aQODkzO.png" alt=""><figcaption></figcaption></figure></div>
 
 ### decorations subfolder
 
@@ -170,11 +154,7 @@ The subfolder contains the standard [padtokey ](../controllers/pad2key.md#pad2ke
 
 The "inputmapping" subfolder contains files used to autoconfigure games for few emulators.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/cxjYSok.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/cxjYSok.png" alt=""><figcaption></figcaption></figure></div>
 
 ### shaders subfolder
 
@@ -187,3 +167,7 @@ The subfolder contains the controller layout images for several systems.
 ### templates subfolder
 
 This folder contains all RetroBat template files as they are upon RetroBat installation, if a file has been deleted or altered, the original version of the file can be found here and copied again in the destination folder of the file to replace.
+
+## user folder
+
+This folder can be used to store your own tattoos, inputmapping files (for some systems) and your steam APIkey.
