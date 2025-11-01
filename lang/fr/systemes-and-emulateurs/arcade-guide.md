@@ -19,13 +19,13 @@ Dans ce court guide, nous nous pencherons sur les deux familles d'émulateurs ci
 
 Il existe deux familles d'émulateurs Multi-Systèmes Arcade: FinalBurn et MAME.&#x20;
 
-Ces émulateurs sont disponibles dans de multiples versions et il est nécessaire d'associer les bons fichiers de jeux (ROM set) à chaque émulateur.
+Ces émulateurs sont disponibles dans de multiples versions et il est nécessaire d'associer les bons fichiers de jeux (ROMset) à chaque émulateur.
 
 
 
 ### Liste des émulateurs Multi-ARCADE disponibles
 
-<table><thead><tr><th width="259">Emulator/core</th><th width="160">ROMs folder</th><th>ROM set version</th></tr></thead><tbody><tr><td>libretro: mame (current)</td><td><code>\roms\mame</code></td><td>0.281</td></tr><tr><td>libretro: mame2016</td><td><code>\roms\mame</code></td><td>0.174</td></tr><tr><td>libretro: mame2014</td><td><code>\roms\mame</code></td><td>0.159</td></tr><tr><td>libretro: mame2010</td><td><code>\roms\mame</code></td><td>0.139</td></tr><tr><td>Libretro: mame2003_plus</td><td><code>\roms\mame</code></td><td>0.78plus</td></tr><tr><td>Libretro: mame2003</td><td><code>\roms\mame</code></td><td>0.78</td></tr><tr><td>Libretro: mame2000</td><td><code>\roms\mame</code></td><td>0.37b5</td></tr><tr><td>mame (standalone)</td><td><code>\roms\mame</code></td><td>0.280</td></tr><tr><td>Libretro: fbneo</td><td><code>\roms\fbneo</code></td><td>dernier romset FBNEO</td></tr><tr><td>Libretro: fbalpha</td><td><code>\roms\fbneo</code></td><td>0.2.97.44</td></tr><tr><td>Libretro: fbalpha2012</td><td><code>\roms\fbneo</code></td><td>0.2.97.29</td></tr><tr><td>FBNEO</td><td><code>\roms\fbneo</code></td><td>dernier romset FBNEO</td></tr></tbody></table>
+<table><thead><tr><th width="259">Emulateur/core</th><th width="160">Dossier ROMs</th><th>Version du ROMset</th></tr></thead><tbody><tr><td>libretro: mame (current)</td><td><code>\roms\mame</code></td><td>0.281</td></tr><tr><td>libretro: mame2016</td><td><code>\roms\mame</code></td><td>0.174</td></tr><tr><td>libretro: mame2014</td><td><code>\roms\mame</code></td><td>0.159</td></tr><tr><td>libretro: mame2010</td><td><code>\roms\mame</code></td><td>0.139</td></tr><tr><td>Libretro: mame2003_plus</td><td><code>\roms\mame</code></td><td>0.78plus</td></tr><tr><td>Libretro: mame2003</td><td><code>\roms\mame</code></td><td>0.78</td></tr><tr><td>Libretro: mame2000</td><td><code>\roms\mame</code></td><td>0.37b5</td></tr><tr><td>mame (standalone)</td><td><code>\roms\mame</code></td><td>0.281</td></tr><tr><td>Libretro: fbneo</td><td><code>\roms\fbneo</code></td><td>dernier romset FBNEO</td></tr><tr><td>Libretro: fbalpha</td><td><code>\roms\fbneo</code></td><td>0.2.97.44</td></tr><tr><td>Libretro: fbalpha2012</td><td><code>\roms\fbneo</code></td><td>0.2.97.29</td></tr><tr><td>FBNEO</td><td><code>\roms\fbneo</code></td><td>dernier romset FBNEO</td></tr></tbody></table>
 
 MAME est généralement utilisé pour les jeux Arcade de type "classiques" (tels Pac-Man, Asteroids, etc.).
 
