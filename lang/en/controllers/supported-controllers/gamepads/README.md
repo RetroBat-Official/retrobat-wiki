@@ -52,10 +52,6 @@ Some emulators are reported to not record correctly the inputs with this control
 
 DualSense controllers supports motion.
 
-{% hint style="danger" %}
-There is currently an issue with RetroBat and this controller, it works fine in USB but does spam messages in bluetooth.
-{% endhint %}
-
 ### Playstation 4 controller (DualShock 4)
 
 ![](<../../../.gitbook/assets/image (40).png>)

@@ -12,9 +12,11 @@ Game engine to play Quake 2.
 
 {% embed url="https://github.com/libretro/vitaquake2" %}
 
+{% embed url="https://github.com/kondrak/vkQuake2" %}
+
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: vitaquake2</li><li>Libretro: vitaquake2-zaero</li><li>Libretro: vitaquake2-rogue</li><li>Libretro: vitaquake2-xatrix</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> vitaquake2</td></tr><tr><td><strong>File extension</strong></td><td>.pak</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: vitaquake2</li><li>Libretro: vitaquake2-zaero</li><li>Libretro: vitaquake2-rogue</li><li>Libretro: vitaquake2-xatrix</li><li>vkquake2</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> quake2</td></tr><tr><td><strong>File extension</strong></td><td>.pak .quake2</td></tr></tbody></table>
 
 ## Bios Information
 
@@ -28,11 +30,11 @@ TBD
 
 ### File organization
 
-Here is the structure organization for your tyrquake rom files:
+Here is the structure organization for quake 2 rom files:
 
 ```
 └── roms\
-    └── vitaquake2\
+    └── quake2\
         ├── baseq2\
         │   └── pak0.pak
         │   └── pak1.pak
@@ -66,5 +68,5 @@ Here is the structure organization for your tyrquake rom files:
 ```
 
 {% hint style="info" %}
-RetroBat will automatically select the appropriate libretro core depending on the name of the subfolder.
+For Libretro, RetroBat will automatically select the appropriate libretro core depending on the name of the subfolder.
 {% endhint %}
