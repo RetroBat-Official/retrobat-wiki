@@ -1,18 +1,16 @@
 # Quake
 
-<div align="left">
-
-<figure><img src="https://github.com/fabricecaruso/es-theme-carbon/blob/master/art/logos/tyrquake.png?raw=true" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/fabricecaruso/es-theme-carbon/blob/master/art/logos/tyrquake.png?raw=true" alt=""><figcaption></figcaption></figure></div>
 
 Moteur de jeu Quake 1
 
 {% embed url="https://docs.libretro.com/library/tyrquake/" %}
 
+{% embed url="https://github.com/Novum/vkQuake" %}
+
 ## Informations
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro: tyrquake</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> tyrquake</td></tr><tr><td><strong>Extension</strong></td><td>.pak</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro: tyrquake</li><li>vkquake</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> quake</td></tr><tr><td><strong>Extension</strong></td><td>.pak .quake</td></tr></tbody></table>
 
 ## Bios
 
@@ -31,7 +29,7 @@ Tyrquake permet de sélectionner 3 schémas de contrôles.
 Ci-dessous la structure recommandée pour l'organisation du dossier des jeux:
 
 <pre><code>└── roms\
-    └── tyrquake\
+    └── quake\
         ├── id1\
 <strong>        │   └── pak0.pak
 </strong><strong>        │   └── pak1.pak

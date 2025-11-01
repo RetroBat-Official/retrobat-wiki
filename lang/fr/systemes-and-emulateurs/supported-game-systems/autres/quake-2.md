@@ -8,9 +8,11 @@ Moteur de jeu Quake 2
 
 {% embed url="https://github.com/libretro/vitaquake2" %}
 
+{% embed url="https://github.com/kondrak/vkQuake2" %}
+
 ## Informations
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro: vitaquake2</li><li>Libretro: vitaquake2-zaero</li><li>Libretro: vitaquake2-rogue</li><li>Libretro: vitaquake2-xatrix</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> vitaquake2</td></tr><tr><td><strong>Extension</strong></td><td>.pak</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro: vitaquake2</li><li>Libretro: vitaquake2-zaero</li><li>Libretro: vitaquake2-rogue</li><li>Libretro: vitaquake2-xatrix</li><li>vkquake2</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> quake2</td></tr><tr><td><strong>Extension</strong></td><td>.pak .quake2</td></tr></tbody></table>
 
 ## Bios
 
@@ -27,7 +29,7 @@ TBD
 Ci-dessous la structure recommandée pour l'organisation du dossier des jeux:
 
 <pre><code>└── roms\
-    └── vitaquake2\
+    └── quake2\
         ├── baseq2\
 <strong>        │   └── pak0.pak
 </strong><strong>        │   └── pak1.pak
@@ -61,5 +63,5 @@ Ci-dessous la structure recommandée pour l'organisation du dossier des jeux:
 </code></pre>
 
 {% hint style="info" %}
-RetroBat sélectionne automatiquement le con core libretro en fonction du nom du sous-dossier.
+RetroBat sélectionne automatiquement le bon core libretro en fonction du nom du sous-dossier.
 {% endhint %}

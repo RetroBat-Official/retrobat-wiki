@@ -54,10 +54,6 @@ Certains émulateurs ne permettent pas d'utiliser une manette Switch Pro lorsque
 
 La manette DualSense est compatible avec la fonctionnalité gyroscope.
 
-{% hint style="danger" %}
-La manette DualSense fonctionne parfaitement en USB mais peut poser des problèmes de spam de messages en bluetooth.
-{% endhint %}
-
 ### Manette Playstation 4 (DualShock 4)
 
 ![](<../../../.gitbook/assets/image (10).png>)
