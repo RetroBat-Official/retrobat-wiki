@@ -12,7 +12,7 @@ Console de jeu hybride - durée de vie: 2017 - aujourd'hu
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>ryujinx</li><li>eden</li><li>sudachi</li><li>citron</li><li>suyu</li><li>yuzu</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> switch</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.nso .nro .nca .xci .nsp .kip</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>citron</li><li>ryujinx</li><li>eden</li><li>sudachi</li><li>suyu</li><li>yuzu</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> switch</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.nso .nro .nca .xci .nsp .kip</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
@@ -26,9 +26,25 @@ Copier les fichiers de l'émulateur Ryujinx dans le dossier `emulators\ryujinx` 
 
 <div align="left"><figure><img src="https://i.imgur.com/KSvr9sk.png" alt=""><figcaption></figcaption></figure></div>
 
+### Citron, Eden, Sudachi, Yuzu, Suyu
+
+Copier les fichiers de l'émulateur dans le dossier `emulators\citron` (ou eden, suyu, yuzu, sudachi), puis créer le sous-dossier "user":
+
+<div align="left"><figure><img src="https://i.imgur.com/h7HVNfj.png" alt=""><figcaption></figcaption></figure></div>
+
+
+
 ### Emplacement des fichiers
 
 <table><thead><tr><th width="276">Données</th><th>Chemin (relatif au dossier RetroBat)</th></tr></thead><tbody><tr><td>Données utilisateur de l'émulateur</td><td><strong>Ryujinx</strong>: saves\switch\ryujinx\portable<br><strong>Eden, Yuzu, Suyu, Sudachi, Citron :</strong> <br>emulators\&#x3C;emulator name>\user</td></tr><tr><td>Fichier de configuration</td><td><strong>Ryujinx</strong>: saves\switch\ryujinx\portable\Config.json<br><strong>Eden, Yuzu, Suyu, Sudachi, Citron :</strong> <br>emulators\&#x3C;emulator name>\user\config\qt-config.ini</td></tr></tbody></table>
+
+Pour les émulateurs Citron, Sudachi, Eden, Yuzu et Suyu, il est possible de mettre en commun les dossiers SDMC, LOAD, NAND dans le dossier `saves\switch` de l'installation RetroBat.
+
+Pour cela, activer l'option suivante:
+
+<div align="left"><figure><img src="https://i.imgur.com/0BBXub2.png" alt=""><figcaption></figcaption></figure></div>
+
+
 
 ## BIOS
 
