@@ -241,6 +241,7 @@
     * [Visual Pinball](systems-and-emulators/supported-game-systems/pinball/visual-pinball.md)
     * [Zaccaria Pinball](systems-and-emulators/supported-game-systems/pinball/zaccaria-pinball.md)
   * [Others](systems-and-emulators/supported-game-systems/others/README.md)
+    * [Blake Stone](systems-and-emulators/supported-game-systems/others/bstone.md)
     * [Cannonball](systems-and-emulators/supported-game-systems/others/cannonball.md)
     * [Cave Story](systems-and-emulators/supported-game-systems/others/cave-story.md)
     * [CDogs](systems-and-emulators/supported-game-systems/others/cdogs.md)
