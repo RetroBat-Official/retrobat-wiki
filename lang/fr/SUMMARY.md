@@ -241,6 +241,7 @@
     * [Visual Pinball](systemes-and-emulateurs/supported-game-systems/flipper/visual-pinball.md)
     * [Zaccaria Pinball](systemes-and-emulateurs/supported-game-systems/flipper/zaccaria-pinball.md)
   * [Autres](systemes-and-emulateurs/supported-game-systems/autres/README.md)
+    * [Blake Stone](systemes-and-emulateurs/supported-game-systems/autres/bstone.md)
     * [Cannonball](systemes-and-emulateurs/supported-game-systems/autres/cannonball.md)
     * [Cave Story](systemes-and-emulateurs/supported-game-systems/autres/cave-story.md)
     * [CDogs](systemes-and-emulateurs/supported-game-systems/autres/cdogs.md)

@@ -1,10 +1,6 @@
 # Cannonball
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5b2195d8cce1b44a6aadc2a43c341e7511d4b48f/art/logos/cannonball.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/RetroBat-Official/es-theme-carbon/545a1cc682836ea1e0e5e1ff9b8b9f9874367159/art/logos/cannonball.svg" alt=""><figcaption></figcaption></figure></div>
 
 Moteur de jeu permettant de jouer à Outrun.
 
@@ -44,8 +40,4 @@ Cannonball fonctionne avec une rom du jeu Outrun (Rev. B) du romset Mame.&#x20;
 
 Décompresser le fichier outrun.zip dans le dossier `roms\cannonball` de votre installation RetroBat et créez un fichier vide nommé _**CannonBall.game**_ dans le même dossier:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/vGBwlYm.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/vGBwlYm.png" alt=""><figcaption></figcaption></figure></div>
