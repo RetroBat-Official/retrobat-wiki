@@ -20,7 +20,7 @@ Console de jeu - Durée de vie: 1995 - 1996
 
 ## BIOS
 
-<table><thead><tr><th width="209.55555555555557">Fichier BIOS</th><th width="189">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>umc6650.zip</td><td><code>\bios</code></td><td>da6cebe6b22a91a34a67074adbbec3a3</td></tr><tr><td>supracan.zip</td><td><code>\bios</code></td><td>f8fb3fac59db534a3ba099a9f232e733</td></tr></tbody></table>
+<table><thead><tr><th width="209.55555555555557">Fichier BIOS</th><th width="189">Dossier</th><th>Contenu</th></tr></thead><tbody><tr><td>umc6650.zip</td><td><code>\bios</code></td><td>Voir ci-dessous</td></tr><tr><td>supracan.zip</td><td><code>\bios</code></td><td>Voir ci-dessous</td></tr></tbody></table>
 
 ### Contenu du fichier BIOS
 
