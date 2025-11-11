@@ -2,13 +2,9 @@
 description: Nintendo
 ---
 
-# Family Computer Disk System
+# Family Computer Disk Systems
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/fds-w.svg" media="(prefers-color-scheme: dark)"><img src="https://i.imgur.com/qb2Zji2.png" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/fds-w.svg" media="(prefers-color-scheme: dark)"><img src="https://i.imgur.com/qb2Zji2.png" alt=""></picture><figcaption></figcaption></figure></div>
 
 Game Console - Lifespan: 1986 - 1990
 
@@ -24,7 +20,7 @@ Game Console - Lifespan: 1986 - 1990
 
 ## BIOS
 
-<table><thead><tr><th width="187">Bios file</th><th width="108">Folder</th><th>md5</th></tr></thead><tbody><tr><td>NstDatabase.xml</td><td><code>\bios</code></td><td>7bfe8c0540ed4bd6a0f1e2a0f0118ced</td></tr><tr><td>disksys.rom</td><td><code>\bios</code></td><td>ca30b50f880eb660a320674ed365ef7a</td></tr></tbody></table>
+<table><thead><tr><th width="187">Bios file</th><th width="108">Folder</th><th>md5</th></tr></thead><tbody><tr><td>disksys.rom</td><td><code>\bios</code></td><td>ca30b50f880eb660a320674ed365ef7a</td></tr></tbody></table>
 
 ## Controls
 

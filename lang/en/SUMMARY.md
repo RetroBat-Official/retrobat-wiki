@@ -60,7 +60,7 @@
       * [PC-FX](systems-and-emulators/supported-game-systems/game-consoles/nec-consoles/pc-fx.md)
     * [Nintendo (game consoles)](systems-and-emulators/supported-game-systems/game-consoles/nintendo-game-consoles/README.md)
       * [Nintendo Entertainment System - Family Computer](systems-and-emulators/supported-game-systems/game-consoles/nintendo-game-consoles/nintendo-entertainment-system-family-computer.md)
-      * [Family Computer Disk System](systems-and-emulators/supported-game-systems/game-consoles/nintendo-game-consoles/family-computer-disk-system.md)
+      * [Family Computer Disk Systems](systems-and-emulators/supported-game-systems/game-consoles/nintendo-game-consoles/family-computer-disk-system.md)
       * [NES 3D](systems-and-emulators/supported-game-systems/game-consoles/nintendo-game-consoles/nes-3d.md)
       * [Super Nintendo Entertainment System - Super Famicom](systems-and-emulators/supported-game-systems/game-consoles/nintendo-game-consoles/super-nintendo-entertainment-system-super-famicom.md)
       * [Satellaview](systems-and-emulators/supported-game-systems/game-consoles/nintendo-game-consoles/satellaview.md)
