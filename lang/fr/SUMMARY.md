@@ -211,6 +211,7 @@
     * [LaserDisc](systemes-and-emulateurs/supported-game-systems/arcade/daphne-laserdisc.md)
     * [MAME](systemes-and-emulateurs/supported-game-systems/arcade/mame.md)
     * [Namco 246/256](systemes-and-emulateurs/supported-game-systems/arcade/namco-246-256.md)
+    * [Namco 357/369](systemes-and-emulateurs/supported-game-systems/arcade/namco-357-369.md)
     * [Sega](systemes-and-emulateurs/supported-game-systems/arcade/sega/README.md)
       * [Sega Model 2](systemes-and-emulateurs/supported-game-systems/arcade/sega/sega-model-2.md)
       * [Sega Titan-Video](systemes-and-emulateurs/supported-game-systems/arcade/sega/sega_stv.md)
