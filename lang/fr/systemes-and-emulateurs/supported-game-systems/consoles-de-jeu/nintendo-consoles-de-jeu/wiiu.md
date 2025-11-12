@@ -4,11 +4,7 @@ description: Nintendo
 
 # WiiU
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/wiiu-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/wiiu.svg" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/wiiu-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/wiiu.svg" alt=""></picture><figcaption></figcaption></figure></div>
 
 Console de jeu hybride - Durée de vie: 2012 - 2017
 
@@ -26,7 +22,7 @@ Console de jeu hybride - Durée de vie: 2012 - 2017
 
 Aucun BIOS n'est nécessaire pour jouer, cependant, si vous utilisez des fichiers .wud ou .wux pour vos jeux, il est nécessaire de placer un fichier `keys.txt` comprenant les clés de décryptage de vos jeux dans un dossier de l'émulateur.
 
-Le fichier keys.txt peut être extrait de votre console de jeu WiiU, voir le [guide CEMU ](https://wiki.cemu.info/wiki/Obtaining\_Keys\_for\_Keys.txt)pour plus d'informations.
+Le fichier keys.txt peut être extrait de votre console de jeu WiiU, voir le [guide CEMU ](https://wiki.cemu.info/wiki/Obtaining_Keys_for_Keys.txt)pour plus d'informations.
 
 ## Contrôles
 
@@ -58,11 +54,7 @@ Les contrôleurs suivants peuvent être autoconfigurés depuis RetroBat dans Dol
 
 L'option pour inverser les boutons est disponible ici:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/d4TjkSo.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/d4TjkSo.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Jouer avec des wiimotes
 
@@ -70,11 +62,7 @@ Cemu permet de jouer avec de vraies wiimotes si celles-ci sont connectées au PC
 
 Pour cela, sélectionner l'option "**UTILISER DES WIIMOTES**" dans les options avancées du système ou du jeu:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/SzW25zx.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/SzW25zx.png" alt=""><figcaption></figcaption></figure></div>
 
 Il est possible pour chaque joueur de définir le type de wiimote connectée.
 
@@ -82,9 +70,29 @@ Il est possible pour chaque joueur de définir le type de wiimote connectée.
 
 Dans certains jeux, il est indispensable d'avoir accès au gyroscope de la manette pour pouvoir avancer (par exemple certains donjons de Zelda Breath of The Wild nécessitent d'effectuer des mouvements avec la manette).
 
-Le [wiki CEMU](https://wiki.cemu.info/wiki/Motion\_controls) contient toutes les informations nécessaires pour gérer cela.
+Le [wiki CEMU](https://wiki.cemu.info/wiki/Motion_controls) contient toutes les informations nécessaires pour gérer cela.
 
 Les contrôleurs compatibles à l'heure actuelle sont les manettes Switch Pro, 8Bitdo (en mode Pro Controller) et DualSense.
+
+### Microphone
+
+Cemu permet le paramétrage d'une touche en tant que bouton du microphone. Il peut être configuré dans les options avancées de RetroBat pour le système :
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/2025-11-11_19h58_47.png" alt=""><figcaption></figcaption></figure></div>
+
+{% hint style="info" %}
+L'option est seulement disponible lors de l'utilisation du WiiU Gamepad en tant que manette émulée.
+{% endhint %}
+
+### Afficher l'écran du Gamepad&#x20;
+
+Cemu permet de configurer un bouton pour basculer entre l'affichage principal et l'écran du WiiU Gamepad. Il peut être configuré dans les options avancées de RetroBat pour le système, et il est également possible de choisir si le bouton doit être pressé ou maintenu :
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/2025-11-11_19h59_06.png" alt=""><figcaption></figcaption></figure></div>
+
+{% hint style="info" %}
+L'option est seulement disponible lors de l'utilisation du WiiU Gamepad en tant que manette émulée.
+{% endhint %}
 
 ## Information spécifique au système
 
@@ -100,11 +108,7 @@ Il s'agit du format utilisé lorsque vous extrayez (dumpez) des jeux de votre co
 
 Dans ce format, les jeux sont extraits dans un dossier comrpenant 3 sous-dossiers, par exemple:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/CIYaICX.png" alt=""><figcaption><p>Example of dumped Zelda game</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/CIYaICX.png" alt=""><figcaption><p>Example of dumped Zelda game</p></figcaption></figure></div>
 
 Il existe 2 méthodes pour ajouter les jeux au format "BootLoader" dans Retrobat.
 
@@ -116,49 +120,25 @@ Depuis Retrobat (ou depuis le dossier `\emulators\cemu`), lancer l'émulateur Ce
 
 
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/rdJUos9.png" alt=""><figcaption><p>File > Install</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/rdJUos9.png" alt=""><figcaption><p>File > Install</p></figcaption></figure></div>
 
 Chercher le fichier "meta.xml" qui se trouve dans le dossier `\meta` du jeu et lancer l'installation
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/C1KGhKQ.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/C1KGhKQ.png" alt=""><figcaption></figcaption></figure></div>
 
 Attendre la fin de l'installation du jeu, le jeu est désormais listé dans l'émulateur
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/rG2IJvR.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/rG2IJvR.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/9ygBgJP.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/9ygBgJP.png" alt=""><figcaption></figcaption></figure></div>
 
 Effectuer un clic droit sur le jeu et choisir "Dossier du jeu"
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/6ALGNnR.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/6ALGNnR.png" alt=""><figcaption></figcaption></figure></div>
 
 L'explorateur windows ouvre le répertoire du jeu dans lequel se trouve le fichier .rpx
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/EN9JEKf.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/EN9JEKf.png" alt=""><figcaption></figcaption></figure></div>
 
 Quitter Cemu et ouvrir le dossier `\roms\wiiu`, puis créer un fichier `<nom du jeu>.m3u` dont le contenu est le suivant:
 
@@ -166,11 +146,7 @@ Quitter Cemu et ouvrir le dossier `\roms\wiiu`, puis créer un fichier `<nom du 
 
 Par exemple pour le jeu Zelda Breath of the Wild:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/UWMM1eX.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/UWMM1eX.png" alt=""><figcaption></figcaption></figure></div>
 
 Sauvegarder le fichier .m3u, le jeu est désormais disponible dans Retrobat et peut être scrapé et lancé.
 
@@ -180,29 +156,17 @@ Cette méthode simule la présence d'une cartouche de jeu WiiU.&#x20;
 
 Placer le dossier au format "BootLoader" dans le répertoire `\roms\wiiu`&#x20;
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/8BsrI9F.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/8BsrI9F.png" alt=""><figcaption></figcaption></figure></div>
 
 Le jeu sera disponible dans Retrobat pour être scrapé et lancé.
 
 Retrobat détecte la présence du fichier **.rpx** dans le dossier `\code` du jeu
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/iSQdk4o.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/iSQdk4o.png" alt=""><figcaption></figcaption></figure></div>
 
 Screenscraper reconnaît automatiquement U-King comme étant le jeu Zelda Breath of the Wild
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/9srVWOF.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/9srVWOF.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Mises à jour et DLC
 
@@ -210,35 +174,19 @@ Les mises à jour et DLC de vos jeux doivent être installés directement dans l
 
 Ouvrir Cemu et choisir **install game title, update or DLC**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/Y53KGT4.png" alt=""><figcaption><p>Select the install option</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/Y53KGT4.png" alt=""><figcaption><p>Select the install option</p></figcaption></figure></div>
 
 Aller au répertoire \meta dans le dossier de la mise à jour ou du DLC et sélectionner le fichier meta.xml pour lancer l'installation:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/Y6adbtz.png" alt=""><figcaption><p>search for the meta.xml file in the meta folder</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/Y6adbtz.png" alt=""><figcaption><p>search for the meta.xml file in the meta folder</p></figcaption></figure></div>
 
 Attendre la fin de l'installation.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/8U7YvAk.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/8U7YvAk.png" alt=""><figcaption></figcaption></figure></div>
 
 Cemu affiche la version ou le niveau du DLC dans les colonnes "Version" et "DLC".
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/OY3g3cd.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/OY3g3cd.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Packs graphiques
 
@@ -250,29 +198,17 @@ Procéder comme suit pour utiliser les packs graphiques.
 
 * Ouvrir CEMU et sélectionner "Options > Packs graphiques":
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/YyvoMHd.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/YyvoMHd.png" alt=""><figcaption></figcaption></figure></div>
 
 * Cliquer sur "Télécharger les derniers packs graphiques de la communauté" (coin bas droit de l'écran)
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/jYY1cmt.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/jYY1cmt.png" alt=""><figcaption></figcaption></figure></div>
 
 Attendre la fin du téléchargement.
 
 * Consulter la liste des options disponibles pour votre jeu et activer les options nécessaires
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/cmwdS6m.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/cmwdS6m.png" alt=""><figcaption></figcaption></figure></div>
 
 Dans cet exemple, l'option sélectionnée "Title Screen Crash Fix" est indispensable pour éviter un crash à l'écran titre du jeu "New Super Mario Bros WiiU"
 
