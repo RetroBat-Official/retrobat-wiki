@@ -44,6 +44,10 @@ The last step required is to download the following pack of files:
 
 {% embed url="https://www.retrobat.org/repo/downloads/rtcw_pack.7z" %}
 
+{% hint style="info" %}
+This pack can also be downloaded from RetroBat content downloader.
+{% endhint %}
+
 Extract the files in the same folder.
 
 Your folder should contain the following files:
