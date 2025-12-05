@@ -272,6 +272,7 @@
     * [REminiscence](systems-and-emulators/supported-game-systems/others/reminiscence.md)
     * [Return To Castle Wolfenstein](systems-and-emulators/supported-game-systems/others/rtcw.md)
     * [Ship Of Harkinian](systems-and-emulators/supported-game-systems/others/soh.md)
+    * [2 Ship 2 Harkinian](systems-and-emulators/supported-game-systems/others/2ship.md)
     * [Starship](systems-and-emulators/supported-game-systems/others/starship.md)
     * [Sonic 3 AIR](systems-and-emulators/supported-game-systems/others/sonic3air.md)
     * [Sonic Mania](systems-and-emulators/supported-game-systems/others/sonicmania.md)
