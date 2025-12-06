@@ -8,11 +8,7 @@ Retrobat vous permet de télécharger les Mega-Bezels, un ensemble de décoratio
 
 Les éléments permettant de faire apparaitre les Mega-Bezels dans les menus jeux de Retrobat se trouvent dans le dossier`system\shaders\configs` de votre installation.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/7SEscUi.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/7SEscUi.png" alt=""><figcaption></figcaption></figure></div>
 
 Chacun des dossiers contient un fichier `rendering-defaults.yml` qui indique : \
 \- en premier le système concerné, \
@@ -24,11 +20,7 @@ Chacun des dossiers contient un fichier `rendering-defaults.yml` qui indique : \
 
 Les éléments nécessaires au fonctionnement des Mega-Bezels dans Retroarch se situent dans le répertoire `emulators\retroarch\shaders\Mega_Bezel_Packs\` de votre installation Retrobat.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/mIBS32p.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/mIBS32p.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Ajout d'une nouvelle entrée de présélection dans le menu Retrobat
 
@@ -37,15 +29,10 @@ Les éléments nécessaires au fonctionnement des Mega-Bezels dans Retroarch se 
 Pour l'exemple, nous allons ajouter une option dans le preset qui permet de "retourner" l'image.\
 En effet, pour certains cores, le rendu hardware peut inverser le tampon d'image, ce qui fait que certains utilisateurs se retrouvent avec une décoration inversée
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/c0QPInK.png" alt=""><figcaption><p>Décoration inversée pour SEGA Saturn</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/c0QPInK.png" alt=""><figcaption><p>Décoration inversée pour SEGA Saturn</p></figcaption></figure></div>
 
 Nous allons commencer par créer l'instruction permettant d'inverser l'image dans le fichier preset.\
-Pour cela, il faut commencer par copier des presets existants, qui se situent dans le répertoire `emulators\retroarch\shaders\Mega_Bezel_Packs\Duimon-Mega-Bezel\`. \
-
+Pour cela, il faut commencer par copier des presets existants, qui se situent dans le répertoire `emulators\retroarch\shaders\Mega_Bezel_Packs\Duimon-Mega-Bezel\`. <br>
 
 Dans notre exemple, nous copierons les plus couramment utilisés, a savoir \[Bezel] et \[Bezel]-\[Night], dans le système Sega Saturn en mode "Advanced" :&#x20;
 
@@ -94,7 +81,6 @@ Le Mega-Bezel apparaitra alors inversé par rapport a son positionnement initial
 {% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FCgoewyw8Sagl6SNUMrCG%2Fuploads%2F6i5dHhfTffjYicfwkM7C%2FVerticalFlip-Shaders3.mp4?alt=media&token=ecd83899-152f-452d-b5c6-fefd52fd3f94" %}
 
 D'autres réglages sont également possibles, chaque système possédant plusieurs presets selon ses caractéristiques (vertical, cabinet...).\
-N'hésitez pas à consulter le GitHub de Duimon pour plus d'infos : [https://github.com/Duimon/Duimon-Mega-Bezel](https://github.com/Duimon/Duimon-Mega-Bezel)\
-
+N'hésitez pas à consulter le GitHub de Duimon pour plus d'infos : [https://github.com/Duimon/Duimon-Mega-Bezel](https://github.com/Duimon/Duimon-Mega-Bezel)<br>
 
 {% embed url="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FCgoewyw8Sagl6SNUMrCG%2Fuploads%2F4GBUEMCfoEYBAeER58HG%2FEdit%20Shaders%20Presets.mp4?alt=media&token=ae36a62c-76b7-4e24-a0b3-86581f79cba9" %}

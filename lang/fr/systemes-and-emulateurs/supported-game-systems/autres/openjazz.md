@@ -25,8 +25,7 @@ Les contrôles sont gérés dans le jeu.
 
 #### Installation du jeu dans l'émulateur <a href="#install-game-in-the-emulator" id="install-game-in-the-emulator"></a>
 
-OpenJazz nécessite une copie du jeu original Jazz Jackrabbit (1994/1995), celui-ci peut être obtenu via [GOG](https://www.gog.com/fr/game/jazz_jackrabbit_collection) ou depuis le tiroir contenant vos vieux CDRom DOS.\
-
+OpenJazz nécessite une copie du jeu original Jazz Jackrabbit (1994/1995), celui-ci peut être obtenu via [GOG](https://www.gog.com/fr/game/jazz_jackrabbit_collection) ou depuis le tiroir contenant vos vieux CDRom DOS.<br>
 
 **Étape 1 : Installer les fichiers nécessaire au jeu**
 

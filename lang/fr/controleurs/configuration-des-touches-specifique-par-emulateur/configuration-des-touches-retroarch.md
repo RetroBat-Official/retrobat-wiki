@@ -2,8 +2,7 @@
 
 Si la configuration des boutons ne vous convient pas pour un jeu ou un système complet géré par Retroarch (cores libretro), il est possible de créer une configuration spécifique pour un jeu.\
 \
-Voici comment procéder.\
-
+Voici comment procéder.<br>
 
 Ouvrir RetroBat et démarrer un jeu pour lequel il est nécessaire de créer un paramétrage spécifique des touches.\
 \

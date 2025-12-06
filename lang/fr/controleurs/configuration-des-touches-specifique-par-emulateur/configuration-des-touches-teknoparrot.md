@@ -18,8 +18,7 @@ Il contient tout d'abord :&#x20;
 * s'en suit, dans l'ordre et "par colonne" :&#x20;
   * la valeur présente dans le gameprofil, entre les balises \<InputMapping>
   * le bouton qui effectue l'action sur le contrôleur
-  * l'action correspondante dans le jeu\
-
+  * l'action correspondante dans le jeu<br>
 
 <div align="left"><figure><img src="../../.gitbook/assets/2025-04-12_19h31_22.png" alt=""><figcaption></figcaption></figure></div>
 

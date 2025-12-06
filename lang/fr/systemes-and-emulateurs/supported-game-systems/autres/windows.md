@@ -84,8 +84,7 @@ Créer un raccourci vers l'exécutable du jeu (_clic droit > envoyer vers > Bure
 
 Couper le raccourci et le coller dans le dossier `roms\windows` de l'installation RetroBat.
 
-Le raccourci peut être renommé.\
-
+Le raccourci peut être renommé.<br>
 
 {% hint style="warning" %}
 Si la musique du menu RetroBat est audible lors du jeu, appliquer [la méthode suivante](windows.md#what-to-do-if-retrobat-music-is-heard-in-the-background) pour corriger le problème.

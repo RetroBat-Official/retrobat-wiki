@@ -40,8 +40,7 @@ Basculez **ENABLE WHEELS** sur **ACTIVÉ**&#x20;
 
 <div align="left"><figure><img src="https://i.imgur.com/Si72acl.png" alt=""><figcaption></figcaption></figure></div>
 
-La même option peut être activé par jeu depuis le menu [Option du Jeu](../../navigation/game-options.md) puis **CONFIGURATION AVANCÉE DU JEU**.\
-
+La même option peut être activé par jeu depuis le menu [Option du Jeu](../../navigation/game-options.md) puis **CONFIGURATION AVANCÉE DU JEU**.<br>
 
 ## Volants compatibles avec RetroBat
 

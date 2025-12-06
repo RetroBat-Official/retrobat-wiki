@@ -12,13 +12,11 @@ Cyberdogs SDL game.
 
 ## BIOS
 
-Aucun BIOS nécessaire.\
-
+Aucun BIOS nécessaire.<br>
 
 ## Contrôles
 
-Les contrôles sont gérés directement dans le jeu.\
-
+Les contrôles sont gérés directement dans le jeu.<br>
 
 ## Information spécifique au système
 

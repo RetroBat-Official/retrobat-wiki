@@ -8,8 +8,7 @@ Si vous paramétrez un émulateur directement depuis l'interface de ce dernier, 
 
 
 
-Les éléments de configuration disponibles dans RetroBat sont appelés "fonctionnalités" (features); elles ont l'avantage de pouvoir être paramétrées à 2 niveaux : \
-
+Les éléments de configuration disponibles dans RetroBat sont appelés "fonctionnalités" (features); elles ont l'avantage de pouvoir être paramétrées à 2 niveaux : <br>
 
 * Globalement pour tout un système,
 * Par jeu.
@@ -22,11 +21,7 @@ Le menu des fonctionnalités est disponible depuis le menu "[Options d'Affichage
 
 #### En sélectionnant le sous-menu **CONFIGURATION AVANCÉE DU SYSTÈME** :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/sj9Pu6j.png" alt=""><figcaption><p>Accéder aux fonctionnalités depuis les OPTIONS D'AFFICHAGE</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/sj9Pu6j.png" alt=""><figcaption><p>Accéder aux fonctionnalités depuis les OPTIONS D'AFFICHAGE</p></figcaption></figure></div>
 
 \==> Les changements s'appliqueront à tous les jeux du système sélectionné.
 
@@ -34,11 +29,7 @@ Le menu des fonctionnalités est disponible depuis le menu "[Options d'Affichage
 
 #### En sélectionnant le sous-menu CONFIGURATION AVANCÉE DU JEU :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/zrzRAf4.png" alt=""><figcaption><p>Accéder aux fonctionnalités depuis les OPTIONS DU JEU</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/zrzRAf4.png" alt=""><figcaption><p>Accéder aux fonctionnalités depuis les OPTIONS DU JEU</p></figcaption></figure></div>
 
 \==> Les changements s'appliqueront uniquement à ce jeu.
 
@@ -59,11 +50,7 @@ Dans la plupart des cas, les fonctionnalités sont catégorisées en 2 sous-grou
 * General Settings (réglages généraux)
 * Advanced Settings (réglages avancés)
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/ITxbL6Q.png" alt=""><figcaption><p>Exemple de réglages pour NES avec le core FCEUMM (core par défaut)</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/ITxbL6Q.png" alt=""><figcaption><p>Exemple de réglages pour NES avec le core FCEUMM (core par défaut)</p></figcaption></figure></div>
 
 ### Réglages généraux
 
@@ -92,29 +79,17 @@ Ces réglages sont plus spécifiques, ils sont organisés en sous-menus, se déc
 * DRIVERS : les options permettant de changer les pilotes vidéos, audios, les pilotes des manettes utilisées par les émulateurs
 * CONTROLS : les options liées aux contrôleurs : type de manettes, options des lightguns...
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/xmWmV4E.png" alt=""><figcaption><p>Exemple des fonctionnalités du sous-menu EMULATION pour le core FCEUMM</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/xmWmV4E.png" alt=""><figcaption><p>Exemple des fonctionnalités du sous-menu EMULATION pour le core FCEUMM</p></figcaption></figure></div>
 
 
 
 De plus, certains émulateurs possèdent des sous-menus spécifiques, c'est le cas par exemple pour pcsx2, qui est pourvu d'un sous-menu MANUAL HACKS et GAME FIXES :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/FHWmxWa.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/FHWmxWa.png" alt=""><figcaption></figcaption></figure></div>
 
 ou pour les PORTS qui ont des réglages dédiés par jeu :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/nCX1t0V.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/nCX1t0V.png" alt=""><figcaption></figcaption></figure></div>
 
 
 
@@ -128,37 +103,21 @@ Prenons par exemple le cas d'un utilisateur qui souhaite changer le pilote graph
 
 Depuis le menu de configuration du système,
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/HOticd8.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/HOticd8.png" alt=""><figcaption></figcaption></figure></div>
 
 Sélectionner le sous-menu **DRIVERS** dans la catégorie **ADVANCED SETTINGS** :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/A45rj72.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/A45rj72.png" alt=""><figcaption></figcaption></figure></div>
 
 
 
 Puis modifier l'option **VIDEO** en "VULKAN" :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/xaeKGGB.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/xaeKGGB.png" alt=""><figcaption></figcaption></figure></div>
 
 Lors du lancementdu jeu, RetroBat va automatiquement définir la valeur suivante dans le fichier de configuration de Duckstation avant de démarrer le jeu :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/yYUfic3.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/yYUfic3.png" alt=""><figcaption></figcaption></figure></div>
 
 Et voilà !
 

@@ -4,11 +4,7 @@ description: G&W
 
 # Game & Watch
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/gameandwatch.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/gameandwatch.svg" alt=""><figcaption></figcaption></figure></div>
 
 Console de jeu portable - Durée de vie : 1980 - 1991
 
@@ -107,18 +103,13 @@ L'émulateur (le cœur Retroarch) "**Handheld Electronic (GW)**" est utilisé po
 </details>
 
 Beaucoup d'autres jeux LCD ne sont pas compatibles avec le cœur "gw".\
-Pour jouer à ces jeux il faut utiliser le coeur **MAME**.\
-
+Pour jouer à ces jeux il faut utiliser le coeur **MAME**.<br>
 
 Ces jeux nécessitent deux fichiers pour fonctionner correctement: un fichier de jeu "_**rom**"_ et un fichier "_**artwork**"_.\
 \
 Le fichier ROM au format zip doit être placé dans le dossier `\roms\gameandwatch`.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/ALEygG9.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/ALEygG9.png" alt=""><figcaption></figcaption></figure></div>
 
 Le fichier artwork (également au format zip) doit être placé dans le dossier `\saves\mame\artwork`, le nom du fichier doit être exactement identique au fichier de jeu ROM.
 

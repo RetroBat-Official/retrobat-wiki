@@ -1,10 +1,6 @@
 # The Force Engine
 
-<div align="left">
-
-<figure><img src="https://github.com/fabricecaruso/es-theme-carbon/blob/master/art/logos/darkforces.png?raw=true" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/fabricecaruso/es-theme-carbon/blob/master/art/logos/darkforces.png?raw=true" alt=""><figcaption></figcaption></figure></div>
 
 Moteur de jeu permettant de jouer à Dark Forces.
 
@@ -34,26 +30,17 @@ Le jeu DOS original (ou une des versions disponibles sur STEAM ou GOG) doivent �
 
 L'exemple suivant contient la version original DOS du jeu:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/78m6LKz.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/78m6LKz.png" alt=""><figcaption></figcaption></figure></div>
 
 Créer un fichier texte dans le même dossier que l'exécutable du jeu puis renommer le fichier avec l'extension ".game".\
-\
-
+<br>
 
 ### Lancer des mods
 
 RetroBat permet le lancement de mods pour TheForceEngine.\
 Les mods doivent être placés dans le dossier `roms\theforceengine\Mods` de RetroBat.
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/2024-03-10_21h13_26.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/2024-03-10_21h13_26.png" alt=""><figcaption></figcaption></figure></div>
 
 Pour activer le mod dans RetroBat, créer un fichier texte avec un nom facilement identifiable (ce nom sera affiché dans la liste de jeux RetroBat).
 
@@ -61,8 +48,4 @@ A l'intérieur du fichier .txt, indiquer le nom complet du mod (avec son extensi
 
 Sauvegarder le fichier, et renommer l'extension `.txt` en `.game`
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/2024-03-10_21h36_04.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/2024-03-10_21h36_04.png" alt=""><figcaption></figcaption></figure></div>

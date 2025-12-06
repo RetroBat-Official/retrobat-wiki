@@ -44,25 +44,19 @@ FBNEO est spécialisé dans les jeux de combats, il est compatible avec moins de
 ### Terminologie
 
 * **ROM, ROM set, et romset**: les jeux Arcade sont contenus dans des fichiers .zip qui peuvent être composés d'un ou plusieurs fichiers ROM(s). \
-  C'est pour cette raison que les fichiers de jeux Arcade peuvent être désignés par les termes ROM, ROM set ou encore romset.\
-
+  C'est pour cette raison que les fichiers de jeux Arcade peuvent être désignés par les termes ROM, ROM set ou encore romset.<br>
 * **Version de ROM (ou romset)**: Chaque version d'un émulateur Arcade est prévu pour fonctionner un un romset particulier.\
-  Par exemple  l'émulateur MAME 2000 fonctionne avec le romset MAME 0.37b5 alors que l'émulateur MAME 2010 nécessite le romset MAME 0.139.\
-
+  Par exemple  l'émulateur MAME 2000 fonctionne avec le romset MAME 0.37b5 alors que l'émulateur MAME 2010 nécessite le romset MAME 0.139.<br>
 
 ### Type de romset
 
 Il existe 4 formats de romset:
 
-* **Full Non-merged**: chaque fichier de jeu (ROM) est "autosuffisant", le zip inclut tout le nécessaire pour lancer le jeu (les bios, les rom parents, etc.).\
-
-* **Non-merged ROM**: identique au "Full Non-merged" à l'exception de certains BIOS communs à plusieurs ROMs qui doivent être placés dans le dossier des jeux et sont partagés entre plusieurs fichiers roms.\
-
+* **Full Non-merged**: chaque fichier de jeu (ROM) est "autosuffisant", le zip inclut tout le nécessaire pour lancer le jeu (les bios, les rom parents, etc.).<br>
+* **Non-merged ROM**: identique au "Full Non-merged" à l'exception de certains BIOS communs à plusieurs ROMs qui doivent être placés dans le dossier des jeux et sont partagés entre plusieurs fichiers roms.<br>
 * **Split**: chaque version d'un jeu est dans un fichier séparé, certains jeux (clônes, traductions, versions différentes) ne fonctionnent pas sans la présence des roms "parents". \
-  Par exemple, le jeu `pacman.zip` (un clône) ne fonctionnera pas sans le jeu `puckman.zip` (le 'parent').\
-
-* **Merged**: les clônes et versions alternatives d'un jeu sont contenues dans le même zip que la rom 'parent'. Cela signifie qu'un fichier zip contiendra plusieurs jeux.\
-
+  Par exemple, le jeu `pacman.zip` (un clône) ne fonctionnera pas sans le jeu `puckman.zip` (le 'parent').<br>
+* **Merged**: les clônes et versions alternatives d'un jeu sont contenues dans le même zip que la rom 'parent'. Cela signifie qu'un fichier zip contiendra plusieurs jeux.<br>
 
 {% hint style="warning" %}
 Retrobat et le core libretro:mame ne sont pas compatibles avec les romsets de type 'merged', seule le jeu principal sera vu dans l'interface et pourra être lancé.

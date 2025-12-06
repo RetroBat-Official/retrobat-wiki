@@ -6,11 +6,8 @@ Au notice détaillée au format pdf est disponible [ici](http://retrobat.ovh/not
 
 ### **Navigation avec une manette de jeu**
 
-![](https://i.imgur.com/Rs1OOFO.png)
-
-
+<figure><img src="../.gitbook/assets/a_fr.png" alt=""><figcaption></figcaption></figure>
 
 ### **Navigation au clavier**
 
-![](https://i.imgur.com/wFOTSLo.png)
-
+<figure><img src="../.gitbook/assets/b_fr.png" alt=""><figcaption></figcaption></figure>
