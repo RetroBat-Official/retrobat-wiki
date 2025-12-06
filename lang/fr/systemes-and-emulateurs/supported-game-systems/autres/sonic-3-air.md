@@ -1,10 +1,6 @@
 # Sonic 3 AIR
 
-<div align="left">
-
-<figure><img src="https://github.com/fabricecaruso/es-theme-carbon/blob/master/art/logos/sonic3-air.png?raw=true" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/fabricecaruso/es-theme-carbon/blob/master/art/logos/sonic3-air.png?raw=true" alt=""><figcaption></figcaption></figure></div>
 
 Moteur de jeu permettant de jouer à Sonic 3.
 
@@ -12,7 +8,7 @@ Moteur de jeu permettant de jouer à Sonic 3.
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="292"></th><th></th></tr></thead><tbody><tr><td><strong>Emulateurs</strong></td><td><ul><li>sonic3air</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> sonic3air</td></tr><tr><td><strong>Extensions</strong></td><td>.bin</td></tr><tr><td><strong>Emplacement des sauvegardes</strong></td><td><em>emulators\sonic3air\savedata</em><br>Copié dans <em>saves\sonic3air</em></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="292"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>sonic3air</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> sonic3air</td></tr><tr><td><strong>Extensions</strong></td><td>.bin</td></tr><tr><td><strong>Emplacement des sauvegardes</strong></td><td><em>emulators\sonic3air\savedata</em><br>Copié dans <em>saves\sonic3air</em></td></tr></tbody></table>
 
 ## Bios
 
@@ -45,8 +41,4 @@ Les différentes méthodes pour se procurer les données de jeu sont décrites s
 
 Placer seulement le fichier `Sonic_Knuckles_wSonic3.bin` dans le dossier roms\sonic3air.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/GulEov8.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/GulEov8.png" alt=""><figcaption></figcaption></figure></div>
