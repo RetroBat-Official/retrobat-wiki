@@ -18,8 +18,7 @@ First, it contains :
 * then follows, in order and “by column” :&#x20;
   * the value present in the gameprofile, between the \<InputMapping> tags
   * lthe button that performs the action on the controller
-  * the corresponding action in the game\
-
+  * the corresponding action in the game<br>
 
 <div align="left"><figure><img src="../../.gitbook/assets/2025-04-12_19h31_22.png" alt=""><figcaption></figcaption></figure></div>
 

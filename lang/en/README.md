@@ -13,11 +13,11 @@ You can use the main menu on the left hand side to navigate through the sections
 
 * If you are a beginner with RetroBat, you can head to the [GET STARTED](get-started/prerequisites.md) section and let it guide you through the installation and first setup steps.
 * If you are an advanced user and you are looking for information about a specific Game System, you can head over to the [SUPPORTED GAME SYSTEMS](systems-and-emulators/supported-game-systems/) section, which will provide information about available emulators, BIOS requirements and detailed per-system features.
-* The [ADVANCED FEATURES](broken-reference) section contains information about specific functionalities provided with RetroBat
+* The [ADVANCED FEATURES](/broken/pages/R3KDnGDjHvbgcjweXz2Y) section contains information about specific functionalities provided with RetroBat
 
 
 
-The RetroBat team has also included some specific [TUTORIALS](broken-reference) that will be enhanced by the Team based on common support requirements.
+The RetroBat team has also included some specific [TUTORIALS](/broken/pages/hTwrynMMEozT5zXX85cF) that will be enhanced by the Team based on common support requirements.
 
 
 

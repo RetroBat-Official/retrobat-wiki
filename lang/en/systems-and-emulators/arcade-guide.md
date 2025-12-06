@@ -40,26 +40,20 @@ FBNeo is specialized in Fighting Games and Beat-them-up.
 ### Terminology
 
 * **ROM, ROM set, and romset**: Arcade games are packaged as zip files, most of which are composed of more than one individual 'ROM' file. \
-  That is why some resources refer to an individual arcade game as a ROM while other resources refer to an individual game as a ROM set or romset.\
-
+  That is why some resources refer to an individual arcade game as a ROM while other resources refer to an individual game as a ROM set or romset.<br>
 * **ROM version or romset version**: Each version of an arcade emulator must be used with ROMs that have the same exact version number. \
-  For example, MAME 0.37b5 ROMs are required by the MAME 2000 emulator, but will not work correctly with the MAME 2010 emulator, which requires MAME 0.139 ROMs.\
-
+  For example, MAME 0.37b5 ROMs are required by the MAME 2000 emulator, but will not work correctly with the MAME 2010 emulator, which requires MAME 0.139 ROMs.<br>
 
 ### ROM set types
 
 Arcade ROMs can be formatted four ways:
 
-* **Full Non-merged**: All romsets can be used standalone because each zip contains all the files needed to run that game, including any ROMs from 'parent' ROM sets and BIOS sets.\
-
+* **Full Non-merged**: All romsets can be used standalone because each zip contains all the files needed to run that game, including any ROMs from 'parent' ROM sets and BIOS sets.<br>
 * **Non-merged ROM**: All romsets can be used standalone because each zip contains all the files needed to run that game, including any files from 'parent romsets'. \
-  The only exceptions are games which use BIOS ROMs, which are formatted as 'Split' and must be kept in the same folder as the game romset which uses it.\
-
+  The only exceptions are games which use BIOS ROMs, which are formatted as 'Split' and must be kept in the same folder as the game romset which uses it.<br>
 * **Split**: Some romsets that are considered clones, translations, or bootlegs also require a "parent" romset to run. In some cases the parent is not the most popular or best working version of the game, however. \
-  For example, in a Split set `pacman.zip` (a clone), will not work without `puckman.zip` (its parent).\
-
-* **Merged**: Clones are merged into the parent romset zip, meaning that more than one game is stored per file. \
-
+  For example, in a Split set `pacman.zip` (a clone), will not work without `puckman.zip` (its parent).<br>
+* **Merged**: Clones are merged into the parent romset zip, meaning that more than one game is stored per file. <br>
 
 {% hint style="warning" %}
 Merged rom sets are not supported, as only the main game will be seen in RetroBat and launched by Mame core.&#x20;

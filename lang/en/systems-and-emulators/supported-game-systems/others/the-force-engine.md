@@ -1,10 +1,6 @@
 # The Force Engine
 
-<div align="left">
-
-<figure><img src="https://github.com/fabricecaruso/es-theme-carbon/blob/master/art/logos/darkforces.png?raw=true" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/fabricecaruso/es-theme-carbon/blob/master/art/logos/darkforces.png?raw=true" alt=""><figcaption></figcaption></figure></div>
 
 Game engine to play Star Wars Dark Forces game.
 
@@ -34,25 +30,16 @@ Files from the original DOS version of the game (or the versions available on ST
 
 The following example contains the original DOS version of the game:
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/78m6LKz.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/78m6LKz.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-Create an empty text file in the same folder as the game executable and rename it with the ".game" extension.\
-
+Create an empty text file in the same folder as the game executable and rename it with the ".game" extension.<br>
 
 ### Running mods
 
 RetroBat enables to run mods for TheForceEngine.\
 Mods must be copied to the `roms\theforceengine\Mods` folder of your RetroBat installation.
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (55).png" alt=""><figcaption></figcaption></figure></div>
 
 To enable the mod in RetroBat, create a text file with a recognizable name for the mod (this name will appear in the RetroBat gamelist).
 
@@ -60,8 +47,4 @@ Inside the .txt file, write the name of the mod file with the extension.
 
 Save the file, and rename the `.txt` extension into `.game`
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/2024-03-10_21h36_04.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/2024-03-10_21h36_04.png" alt=""><figcaption></figcaption></figure></div>

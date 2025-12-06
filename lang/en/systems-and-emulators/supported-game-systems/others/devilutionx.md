@@ -1,10 +1,6 @@
 # DevilutionX
 
-<div align="left">
-
-<figure><picture><source srcset="../../../.gitbook/assets/devilutionX_W.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/devilutionX_B.png" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="../../../.gitbook/assets/devilutionX_W.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/devilutionX_B.png" alt=""></picture><figcaption></figcaption></figure></div>
 
 Game engine to play Diablo and Hellfire game.
 
@@ -32,24 +28,15 @@ You can extract the file from the original CD, or purchase the game on [GOG](htt
 
 Inside the `roms\devilutionx` folder, create a folder named `diablo.game`.&#x20;
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/OG2qShd.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/OG2qShd.png" alt=""><figcaption></figcaption></figure></div>
 
 Inside this folder, copy `diabdat.mpq` from the CD or Diablo-installation (or [extract it from the GoG installer](https://github.com/diasurgical/devilutionX/wiki/Extracting-the-.MPQs-from-the-GoG-installer)) to the `devilutionx` folder.
 
 To run the Diablo: Hellfire expansion you will need to also copy `hellfire.mpq`, `hfmonk.mpq`, `hfmusic.mpq`, `hfvoice.mpq`.
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/ePQsgna.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/ePQsgna.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-Alternately you can use `spawn.mpq` from the [shareware](https://github.com/diasurgical/devilutionx-assets/releases/latest/download/spawn.mpq) [\[2\]](http://ftp.blizzard.com/pub/demos/diablosw.exe) version, in place of `diabdat.mpq`, to play the shareware version of the game.\
-
+Alternately you can use `spawn.mpq` from the [shareware](https://github.com/diasurgical/devilutionx-assets/releases/latest/download/spawn.mpq) [\[2\]](http://ftp.blizzard.com/pub/demos/diablosw.exe) version, in place of `diabdat.mpq`, to play the shareware version of the game.<br>
 
 ### Mods
 

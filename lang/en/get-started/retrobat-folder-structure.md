@@ -50,8 +50,7 @@ NB : enabling the "ONLY PLAY SYSTEM-SPECIFIC MUSIC FOLDER" option allows RetroBa
 
 The files that are present in /music/ will be picked up randomly for any system (whether you have system-specific songs option enabled or not).
 
-If you disable "ONLY PLAY SYSTEM-SPECIFIC MUSIC FOLDER", RetroBat will play randomly a song in  /music/ directory and any of its sub-folders.\
-
+If you disable "ONLY PLAY SYSTEM-SPECIFIC MUSIC FOLDER", RetroBat will play randomly a song in  /music/ directory and any of its sub-folders.<br>
 
 <figure><img src="https://i.imgur.com/BRoJl1I.png" alt=""><figcaption></figcaption></figure>
 

@@ -65,8 +65,7 @@ Now from RetroBat:&#x20;
 
 #### Running a n64dd full game
 
-For the full games, you also always need two files, so the n64dd .ndd file of the full game and another n64 rom of any title that you just need to rename (pick any game from the same region as the full ndd game).\
-
+For the full games, you also always need two files, so the n64dd .ndd file of the full game and another n64 rom of any title that you just need to rename (pick any game from the same region as the full ndd game).<br>
 
 Example with the full game "SimCity 64":
 

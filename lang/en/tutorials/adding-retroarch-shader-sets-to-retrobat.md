@@ -77,8 +77,7 @@ For this, adding the name of the system for which the shader should be different
 
 <figure><img src="https://i.imgur.com/knv5MPm.png" alt=""><figcaption></figcaption></figure>
 
-Finally, some standalone emulators can also use the retroarch shaders. In this case, the name of the emulator should be add as an additionnal line.\
-
+Finally, some standalone emulators can also use the retroarch shaders. In this case, the name of the emulator should be add as an additionnal line.<br>
 
 <figure><img src="https://i.imgur.com/AC6PXNK.png" alt=""><figcaption></figcaption></figure>
 

@@ -6,13 +6,8 @@ A detailed pdf notice can be found [here](http://retrobat.ovh/notice/notice.pdf)
 
 ### **Controller navigation keys**
 
-![](<../.gitbook/assets/image (20).png>)
-
-
+<figure><img src="../.gitbook/assets/a_eng.png" alt=""><figcaption></figcaption></figure>
 
 ### **Keyboard navigation keys**
 
-![](<../.gitbook/assets/image (29).png>)
-
-
-
+<figure><img src="../.gitbook/assets/b_eng (1).png" alt=""><figcaption></figcaption></figure>

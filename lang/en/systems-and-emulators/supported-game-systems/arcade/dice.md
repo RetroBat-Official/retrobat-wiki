@@ -24,8 +24,7 @@ List of Dice games:
 
 ## Bios Information
 
-No BIOS required to play DICE games.\
-
+No BIOS required to play DICE games.<br>
 
 ## Controls
 
