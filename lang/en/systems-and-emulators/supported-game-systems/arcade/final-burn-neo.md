@@ -1,10 +1,6 @@
 # Final Burn Neo
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/fbneo.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/fbneo.svg" alt=""><figcaption></figcaption></figure></div>
 
 Arcade
 
@@ -52,11 +48,7 @@ The core does not search the `\bios` folder.
 
 Mapping can be found in the [notice](http://retrobat.ovh/notice/notice.pdf).
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/kXBcdsB.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/c_eng.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Controller mapping
 
@@ -73,21 +65,13 @@ RetroBat offers per-game fonctionnality for FBNEO standalone emulator.
 
 The file containing the mapping information is available in the `\system\resources\inputmapping` folder of your RetroBat installation, it is named **fbneo.yml**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/ueupwNl.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/ueupwNl.png" alt=""><figcaption></figcaption></figure></div>
 
 An explanation of how to perform the mapping is available as introduction comment within the file.
 
 Here is an example of mapping provided for Street Fighter III games:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/xqMoXSB.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/xqMoXSB.png" alt=""><figcaption></figcaption></figure></div>
 
 The yml section for a game is structured with the following information:
 
@@ -117,19 +101,11 @@ The diagnostic menu can be accessed by pressing START + L1 + R1 (default setting
 
 The button key can be changed in the advanced system options:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/sE6pDwI.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/sE6pDwI.png" alt=""><figcaption></figcaption></figure></div>
 
 While in game, press the button combination to access the diagnostic menu:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/7eunvAL.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/7eunvAL.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Access to dip switches
 
@@ -141,24 +117,12 @@ The dip switches can be accessed from the RetroArch quick menu, while in game, p
 
 Go to **CORE OPTIONS**:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/pusMLzv.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/pusMLzv.png" alt=""><figcaption></figcaption></figure></div>
 
 Then select **DIP SWITCHES**:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/SQAmuJl.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/SQAmuJl.png" alt=""><figcaption></figcaption></figure></div>
 
 The list of options available for the game are displayed:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/AaRPp19.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/AaRPp19.png" alt=""><figcaption></figcaption></figure></div>

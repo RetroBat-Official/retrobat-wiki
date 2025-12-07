@@ -32,7 +32,7 @@ No BIOS required to play DICE games.<br>
 
 Mapping can be found in the [notice](http://retrobat.ovh/notice/notice.pdf).
 
-<div align="left"><figure><img src="https://i.imgur.com/kXBcdsB.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/c_eng.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Controller mapping
 
