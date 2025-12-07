@@ -1,9 +1,5 @@
-# 🕹 Sticks Arcade
+# 🕹️ Sticks Arcade
 
-Les sticks Arcade ont un fonctionnement similaires aux Manettes de Jeu, la correspondance des touches est disponible dans la [notice](http://retrobat.ovh/notice/notice\_fr.pdf).
+Les sticks Arcade ont un fonctionnement similaires aux Manettes de Jeu, la correspondance des touches est disponible dans la [notice](http://retrobat.ovh/notice/notice_fr.pdf).
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/lHLGaV0.png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../.gitbook/assets/c_fr.png" alt=""><figcaption></figcaption></figure></div>

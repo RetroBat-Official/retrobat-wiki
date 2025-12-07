@@ -30,7 +30,7 @@ Aucun BIOS nécessaire.
 
 La correspondance des boutons est disponible dans la [notice](http://retrobat.ovh/notice/notice_fr.pdf).
 
-<div align="left"><figure><img src="https://i.imgur.com/kXBcdsB.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/c_fr.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Manette de jeu
 

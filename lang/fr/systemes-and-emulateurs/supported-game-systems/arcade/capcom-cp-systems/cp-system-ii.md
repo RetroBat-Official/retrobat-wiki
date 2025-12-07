@@ -12,7 +12,7 @@ Arcade - Durée de vie : 1993 - 2003
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro : fbneo</li><li>Libretro : fbalpha2012_cps2</li></ul><ul><li>Libretro : fbalpha</li><li>Libretro : fbalpha2012</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> cps2</td></tr><tr><td><strong>Extensions</strong></td><td>.fba .zip .7z</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro : fbneo</li><li>Libretro : fbalpha2012_cps2</li><li>Libretro : fbalpha</li><li>Libretro : fbalpha2012</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> cps2</td></tr><tr><td><strong>Extensions</strong></td><td>.fba .zip .7z</td></tr></tbody></table>
 
 ## Bios
 
@@ -24,7 +24,7 @@ Aucun BIOS nécessaire.
 
 La correspondance des boutons est disponible dans la [notice](http://retrobat.ovh/notice/notice.pdf).
 
-<div align="left"><figure><img src="https://i.imgur.com/kXBcdsB.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/c_fr.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Manette de jeu
 

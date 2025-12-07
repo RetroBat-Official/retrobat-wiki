@@ -1,10 +1,6 @@
 # Final Burn Neo
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/fbneo.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/fbneo.svg" alt=""><figcaption></figcaption></figure></div>
 
 Arcade
 
@@ -52,11 +48,7 @@ Le core ne permet pas l'utilisation du dossier `\bios`.
 
 La correspondance des boutons est disponible dans la [notice](http://retrobat.ovh/notice/notice.pdf).
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/kXBcdsB.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/c_fr.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Manette de jeu
 
@@ -89,21 +81,13 @@ RetroBat permet une configuration des contrôles pour chaque jeu avec l'émulate
 
 Le fichier contenant les informations pour la configuration des contrôles est disponible dans le dossier `\system\resources\inputmapping`de votre installation RetroBat, il est nommé **fbneo.yml**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/ueupwNl.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/ueupwNl.png" alt=""><figcaption></figcaption></figure></div>
 
 Une explication détaillée de l'utilisation de ce fichier est détaillée en commentaire dans la première partie du fichier.
 
 Voici un exemple de configuration pour le(s) jeu(x) Street Fighter III
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/xqMoXSB.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/xqMoXSB.png" alt=""><figcaption></figcaption></figure></div>
 
 La section du fichier .yml est composée des éléments suivants:
 
@@ -133,19 +117,11 @@ L'accès au menu diagnostique se fait en pressant simultanément START + L1 + R1
 
 La combinaison de boutons peut être modifiée dans les menus avancés du système depuis l'interface RetroBat:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/sE6pDwI.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/sE6pDwI.png" alt=""><figcaption></figcaption></figure></div>
 
 En cours de jeu, presser la combinaison de boutons pour ouvrir le menu:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/7eunvAL.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/7eunvAL.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Accès aux "dip switches"
 
@@ -157,24 +133,12 @@ Pour accéder aux "dip switchs", depuis une partie, accéder au menu rapide Retr
 
 Aller dans **Options de coeur**:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/0d18gYM.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/0d18gYM.png" alt=""><figcaption></figcaption></figure></div>
 
 Puis choisir **DIP SWITCHES**:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/NQ7DlYZ.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/NQ7DlYZ.png" alt=""><figcaption></figcaption></figure></div>
 
 La liste des "switchs" disponibles est affichée:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/qy7ldAL.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/qy7ldAL.png" alt=""><figcaption></figcaption></figure></div>
