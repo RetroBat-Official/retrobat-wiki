@@ -320,6 +320,7 @@
 * [retrobat.ini](utilisation-avancee/retrobat.ini.md)
 * [Softpatching](utilisation-avancee/softpatching.md)
 * [Réduction de la latence / flou de mouvement](utilisation-avancee/reduction-de-la-latence-flou-de-mouvement.md)
+* [Utiliser les overrides Retroarch](utilisation-avancee/utiliser-les-overrides-retroarch.md)
 
 ## Tutoriels
 

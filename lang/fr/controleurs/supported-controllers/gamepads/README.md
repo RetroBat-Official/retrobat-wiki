@@ -30,7 +30,7 @@ Pour les manettes filaires, le passage de XInput à sdl s'effectue en maintenant
 
 ### Manettes XBox (ou tout autre contrôleur XInput)
 
-![](<../../../.gitbook/assets/image (2).png>)![](<../../../.gitbook/assets/image (1).png>)
+![](<../../../.gitbook/assets/image (2).png>)![](<../../../.gitbook/assets/image (1) (1).png>)
 
 Les manettes filaires sont plug'n'play.
 
