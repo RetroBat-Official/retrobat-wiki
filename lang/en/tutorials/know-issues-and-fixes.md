@@ -20,12 +20,12 @@ If you own a GPU that is old and not compatible with latest OpenGL versions, it 
 
 To fix this issue, it is possible to force RetroBat interface to use OpenGL 2.1 compatible renderer.
 
-Open the **es\_settings.cfg** file that is found in the `emulationstation\.emulationstation` folder of your RetroBat installation and insert the following value:
+Open the **retrobat.ini** file that is found in the root folder of your RetroBat installation and set the following value to 1:
 
-```
-<string name="Renderer" value="OPENGL 2.1" />
-```
-
-<div align="left"><figure><img src="https://i.imgur.com/ue2QKDv.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="https://i.imgur.com/fqv5SM1.png" alt=""><figcaption></figcaption></figure></div>
 
 Save the file and run RetroBat.
+
+This setting is also available from BatGui:
+
+<div align="left"><figure><img src="https://i.imgur.com/5aJ94sX.png" alt=""><figcaption></figcaption></figure></div>
