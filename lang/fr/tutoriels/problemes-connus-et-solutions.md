@@ -1,4 +1,4 @@
-# Problèmes connus et solutions
+# Problèmes connus et solutionsChange opengl2.1
 
 Cette section est mise à jour fréquemment, elle contient des solutions / fix temporaires pour les problèmes particuliers en attendant une mise à jour de version RetroBat.
 
@@ -20,12 +20,12 @@ Si vous disposez d'une ancienne carte graphique non compatible avec les dernièr
 
 Pour résoudre ce problème, il est possible de forcer RetroBat à utiliser un affichage compatible avec la version OpenGL 2.1.
 
-Ouvrir le fichier **es\_settings.cfg** situé dans le dossier `emulationstation\.emulationstation` de votre installation RetroBat et insérer la valeur suivante:
+Ouvrir le fichier **retrobat.ini** situé à la racine de votre installation RetroBat et mettre la valeur suivante à 1:
 
-```
-<string name="Renderer" value="OPENGL 2.1" />
-```
-
-<div align="left"><figure><img src="https://i.imgur.com/ue2QKDv.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="https://i.imgur.com/fqv5SM1.png" alt=""><figcaption></figcaption></figure></div>
 
 Sauvegarder le fichier et démarrer RetroBat.
+
+Ce paramétrage est également accessible dans **BatGUI**:
+
+<div align="left"><figure><img src="https://i.imgur.com/5aJ94sX.png" alt=""><figcaption></figcaption></figure></div>
