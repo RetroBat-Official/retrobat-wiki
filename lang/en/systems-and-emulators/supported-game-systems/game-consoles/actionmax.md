@@ -53,7 +53,7 @@ Use the following folder structure (example for 38ambushalley):
                 └── video_menu.m2v
 ```
 
-Place the game video and audio files in the `vdlp\actionmax` subfolder.
+Place the game video and audio files in the `vldp\actionmax` subfolder.
 
 Create an empty file and name it with the name of the game and the extension .actionmax in the `roms\actionmax\vldp\actionmax` folder (here `38ambushalley.actionmax`).
 
