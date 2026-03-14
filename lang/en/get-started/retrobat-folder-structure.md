@@ -2,13 +2,17 @@
 
 Once RetroBat is installed, the RetroBat installation folder contains the following folders & files:
 
-<div align="left"><figure><img src="https://i.imgur.com/12l87Hk.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
 
 ## bios folder
 
 This folder is where (with few exceptions) all system bios & firmwares will need to be placed.
 
 More on bios files can be found in each [system individual pages](../systems-and-emulators/supported-game-systems/).
+
+{% hint style="info" %}
+Except if specified otherwise, bios files can be placed directly at the root of the `bios\` folder.
+{% endhint %}
 
 ## cheats folder
 
@@ -80,8 +84,7 @@ Retroarch is provided by default when installing RetroBat, all other standalone 
 {% hint style="info" %}
 Some emulators are not automatically provided with RetroBat automatic download capability, the following list of emulators have to be downloaded manually:
 
-* Yuzu (& early-access)
-* Ryujinx
+* Switch emulators
 * PICO-8
 * 3DSen
 * TeknoParrot
@@ -151,9 +154,13 @@ The subfolder contains the standard [padtokey ](../controllers/pad2key.md#pad2ke
 
 ### resources subfolder
 
-The "inputmapping" subfolder contains files used to autoconfigure games for few emulators.
+The "inputmapping" subfolder contains files used to autoconfigure games for few emulators or specific controller types.
 
 <div align="left"><figure><img src="https://i.imgur.com/cxjYSok.png" alt=""><figcaption></figcaption></figure></div>
+
+{% hint style="info" %}
+These files will be overriden when upgrading RetroBat, to keep your modified version of inputmapping files, copy them to the `user\inputmapping` subfolder of the installation.
+{% endhint %}
 
 ### shaders subfolder
 
