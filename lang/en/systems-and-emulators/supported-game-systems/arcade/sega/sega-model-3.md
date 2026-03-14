@@ -4,11 +4,7 @@ description: Sega
 
 # Sega Model 3
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/model3.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/model3.svg" alt=""><figcaption></figcaption></figure></div>
 
 Arcade - Released: 1996
 
@@ -16,11 +12,11 @@ Arcade - Released: 1996
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>supermodel</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> model3</td></tr><tr><td><strong>File extension</strong></td><td>.zip</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>supermodel</li><li>libretro: supermodel</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> model3</td></tr><tr><td><strong>File extension</strong></td><td>.zip</td></tr></tbody></table>
 
 ## System Features
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>YES</td></tr></tbody></table>
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>supermodel: NO<br>libretro: NO</td><td>supermodel: NO<br>libretro: NO</td><td>supermodel: YES<br>libretro: YES</td></tr></tbody></table>
 
 ## Bios Information
 
@@ -30,7 +26,11 @@ No BIOS required for Model 3.
 
 Model3 controls are game-specific, RetroBat is provided with a default configuration that is explained hereafter for each game.
 
+Controls can be overriden with the files supermodel.yml and libretro-supermodel.yml located in the `system\resources\inputmapping` folder of the RetroBat installation.
+
 {% hint style="warning" %}
+**SUPERMODEL:**
+
 For 2 players, it is mandatory that the 2 controllers use the same technology, based on the controller of the player 1.
 
 This means that if the player 1 uses a XBOX controller, player 2 will also need a Xinput controller, and if player 1 uses a non-xinput controller, player 2 also needs a non-xinput controller.
@@ -38,12 +38,12 @@ This means that if the player 1 uses a XBOX controller, player 2 will also need 
 
 ### Common mapping
 
-| Arcade button | Controller button |
-| ------------- | ----------------- |
-| START         | START             |
-| COIN          | SELECT            |
-| SERVICE       | R3                |
-| TEST          | L3                |
+| Arcade button | Controller button      |
+| ------------- | ---------------------- |
+| START         | START (1 on keyboard)  |
+| COIN          | SELECT (5 on keyboard) |
+| SERVICE       | R3 (9 on keyboard)     |
+| TEST          | L3 (0 on keyboard)     |
 
 ### Daytona 2, Scud Race / Sega Super GT, Scud Race Plus / Sega Super GT Plus
 
@@ -135,10 +135,14 @@ This means that if the player 1 uses a XBOX controller, player 2 will also need 
 | ------------------ | ------------- |
 | KEY 1              | P1 Start      |
 | KEY 2              | P2 Start      |
-| KEY 3              | P1 Credit     |
-| KEY 4              | P2 Credit     |
+| KEY 5              | P1 Credit     |
+| KEY 6              | P2 Credit     |
 | Mouse left button  | Left Trigger  |
 | Mouse right button | Right Trigger |
+
+{% hint style="info" %}
+The aim will not work if the aim settings is not performed in the service menu for gun games.
+{% endhint %}
 
 ### The Lost World
 
@@ -146,8 +150,8 @@ This means that if the player 1 uses a XBOX controller, player 2 will also need 
 | ------------------ | ------------ |
 | KEY 1              | P1 Start     |
 | KEY 2              | P2 Start     |
-| KEY 3              | P1 Credit    |
-| KEY 4              | P2 Credit    |
+| KEY 5              | P1 Credit    |
+| KEY 6              | P2 Credit    |
 | Mouse left button  | Shoot        |
 | Mouse right button | Reload       |
 
@@ -200,8 +204,8 @@ This means that if the player 1 uses a XBOX controller, player 2 will also need 
 | ------------------ | ------------ |
 | KEY 1              | P1 Start     |
 | KEY 2              | P2 Start     |
-| KEY 3              | P1 Credit    |
-| KEY 4              | P2 Credit    |
+| KEY 5              | P1 Credit    |
+| KEY 6              | P2 Credit    |
 | Mouse left button  | Shoot        |
 | Mouse right button | Event button |
 
@@ -241,26 +245,22 @@ This means that if the player 1 uses a XBOX controller, player 2 will also need 
 
 ## Specific system information
 
-### Test Menu
+### Service Menu
 
 The Test menu contains options that can be adjusted within the game itself, such as aligning the crosshair for lightgun games and changing the difficulty.&#x20;
 
-The Test menu is accessed by pressing `[6]` on your keyboard or L3 on your gamepad during gameplay.&#x20;
+The Test menu is accessed by pressing `[9]` or `[0]` on your keyboard or L3 on your gamepad during gameplay.&#x20;
 
-Press `[5]` on your keyboard or R3 on your gamepad to navigate and `[6]` on the keyboard or L3 on the gamepad to confirm.
+Press `[0]` or `[9]` on your keyboard or L3/R3 on your gamepad to navigate and confirm.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/HoQr2H8.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/HoQr2H8.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Lightgun calibration
 
-Model 3 lightgun games require per-game calibration.
+Model3 lightgun games require per-game calibration.
 
-While in game, navigate the Test menu to the **GUN SETTINGS** option to perform the calibration.
+While in game, navigate the [Service menu](sega-model-3.md#service-menu) to the **GUN SETTINGS** option to perform the calibration.
 
 ### Network Board message
 
-If you receive the error “Network Board Not Present”, go to the Test menu and navigate to **Game Assignments** → **Link ID** and change the option to **Single**.&#x20;
+If you receive the error “Network Board Not Present”, go to the [Service menu](sega-model-3.md#service-menu) and navigate to **Game Assignments** → **Link ID** and change the option to **Single**.&#x20;

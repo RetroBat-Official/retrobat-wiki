@@ -12,11 +12,11 @@ Game Console - Lifespan: 1979 - 1990
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: freeintv</li><li>bizhawk</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> intellivision</td></tr><tr><td><strong>File extension</strong></td><td>.int .bin .rom .zip .7z</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: freeintv</li><li>jzIntv</li><li>bizhawk</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> intellivision</td></tr><tr><td><strong>File extension</strong></td><td>.int .bin .rom .zip .7z</td></tr></tbody></table>
 
 ## System Features
 
-<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-freeintv: YES<br>bizhawk: YES</td><td>lr-freeintv: NO<br>bizhawk: NO</td><td>lr-freeintv: YES<br>bizhawk: YES</td></tr></tbody></table>
+<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-freeintv: YES<br>jzIntv: NO<br>bizhawk: YES</td><td>lr-freeintv: NO<br>jzIntv: NO<br>bizhawk: NO</td><td>lr-freeintv: YES<br>jzIntv: YES<br>bizhawk: YES</td></tr></tbody></table>
 
 ## Bios Information
 
@@ -24,23 +24,29 @@ Game Console - Lifespan: 1979 - 1990
 
 ## Controls
 
+### Libretro:
+
 | Retrobat Button                                | Intellivision key                                  |
 | ---------------------------------------------- | -------------------------------------------------- |
 | START                                          | Pause Game                                         |
-| SELECT                                         | SELECT                                             |
+| SELECT                                         | Controller Swap                                    |
 | D-PAD                                          | 8-way movement                                     |
 | Left analog stick                              | 16-way disc                                        |
-| Right analog stick                             |                                                    |
+| Right analog stick                             | Keypad 1-9                                         |
 | ![](<../../../.gitbook/assets/image (48).png>) | Top Action Button                                  |
 | ![](<../../../.gitbook/assets/image (30).png>) | Left Action Button                                 |
 | ![](<../../../.gitbook/assets/image (16).png>) | Right Action Button                                |
 | ![](<../../../.gitbook/assets/image (50).png>) | Use the Last Selected Intellivision Keypad Button. |
 | L1                                             | Activate the Mini-Keypad                           |
 | R1                                             | Activate the Mini-Keypad                           |
-| L2                                             |                                                    |
-| R2                                             |                                                    |
-| L3                                             |                                                    |
-| R3                                             |                                                    |
+| L2                                             | Keypad Clear                                       |
+| R2                                             | Keypad Enter                                       |
+| L3                                             | Keypad 0                                           |
+| R3                                             | Keypad 5                                           |
+
+### Standalone emulators:
+
+<table><thead><tr><th width="251.5"></th><th></th></tr></thead><tbody><tr><td>jzIntv</td><td><img src="../../../.gitbook/assets/intellivision_jzintv.png" alt="" data-size="original"></td></tr><tr><td>BizHawk</td><td><img src="../../../.gitbook/assets/intellivision_bizhawk (1).png" alt="" data-size="original"></td></tr></tbody></table>
 
 ## Specific system information
 
