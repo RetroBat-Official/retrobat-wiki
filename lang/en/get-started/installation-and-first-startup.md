@@ -9,15 +9,19 @@ description: Get started !
 * Download the latest Retrobat Setup on the [Retrobat Website](https://www.retrobat.org/download/).
 * Run the Setup program and click **Next**
 
-<div align="left"><figure><img src="https://i.imgur.com/vBMqtvl.png" alt=""><figcaption><p>I Agree</p></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (60).png" alt=""><figcaption><p>I Agree</p></figcaption></figure></div>
 
 * Read the licence agreement and accept it, click **Next**
 
-<div align="left"><figure><img src="https://i.imgur.com/muqASqy.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (61).png" alt=""><figcaption></figcaption></figure></div>
 
 * Select the prerequisites to install and click **Next**
 
-<div align="left"><figure><img src="https://i.imgur.com/9XxaOLo.png" alt=""><figcaption></figcaption></figure></div>
+{% hint style="info" %}
+RetroBat will detect if the prerequisites are already installed, this page might not appear.
+{% endhint %}
+
+<div align="left"><figure><img src="../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure></div>
 
 * Browse to the destination folder and select **Install**.
 
@@ -29,15 +33,15 @@ Also : do not use a folder with special characters (accents, ...).
 Finally : avoid folder names which include spaces.
 {% endhint %}
 
-<div align="left"><figure><img src="https://i.imgur.com/xhhs7zk.png" alt=""><figcaption><p>Select installation folder</p></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (62).png" alt=""><figcaption><p>Select installation folder</p></figcaption></figure></div>
 
 * Wait until the Installation completes, then click **Finish**
 
-<div align="left"><figure><img src="https://i.imgur.com/hCyYtmG.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure></div>
 
 The RetroBat folder structure looks like this:
 
-<div align="left"><figure><img src="https://i.imgur.com/OpwSxz7.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (65).png" alt=""><figcaption></figcaption></figure></div>
 
 ## First startup
 
@@ -45,7 +49,7 @@ Double-click `RetroBat.exe` file in your RetroBat folder or use the desktop shor
 
 After the video splash screen, the **System View** is shown.
 
-<div align="left"><figure><img src="https://i.imgur.com/uHrlw90.png" alt=""><figcaption><p>System View</p></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (66).png" alt=""><figcaption><p>System View</p></figcaption></figure></div>
 
 {% hint style="info" %}
 The language may vary, RetroBat detects your OS language at first start-up.
