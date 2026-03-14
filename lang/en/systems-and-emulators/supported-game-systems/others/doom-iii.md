@@ -40,9 +40,9 @@ Boom3 and Dhewm3 need a file with the extension .boom3 to be placed in the `roms
 
 The .boom3 (or .game) must point to the subfolder and pak000.pk4 file:
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Boom3 and dhewm3 require original .pk4 files from the Doom3 game and the Resurrection of Evil addon, you'll need the game data from a Doom3 installation patched to 1.3.1. Specifically, you'll need the following .pk4 files (base folder contains the original game data, d3xp contains the Resurrection of Evil game data):
 

@@ -42,7 +42,7 @@ Refer to the[ following section of the wiki](../get-started/adding-a-game.md#per
 
 Scraping options are available from the [Main Menu](main-menu.md).
 
-<div align="left"><figure><img src="https://i.imgur.com/NBYGcPe.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
 
 Before running the scraper you can:
 
@@ -50,10 +50,11 @@ Before running the scraper you can:
 * Limit the scraper to only games missing all medias or games missing any media
 * Ignore games scraped recently
 * Include/exclude systems
+* Include/exclude scraping services
 
 Additionaly, each scraper has its own settings.
 
-<div align="left"><figure><img src="https://i.imgur.com/wjGjPxy.png" alt=""><figcaption><p>Example of available settings for ScreenScraper</p></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption><p>Example of available settings for ScreenScraper</p></figcaption></figure></div>
 
 From here you can select which data to scrape, but also define:
 
@@ -64,6 +65,18 @@ From here you can select which data to scrape, but also define:
 {% hint style="info" %}
 The Scraper settings screen is also where you can enter your credentials for ScreenScaper service.
 {% endhint %}
+
+### Scraping accounts
+
+Screenscraper and IGDB require an account creation, they can be entered in the ACCOUNTS tab:
+
+<div align="left"><figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
+
+### Disable scraping services
+
+At the bottom of the OPTIONS tab, it is possible to select which scraping services are activated in RetroBat:
+
+<div align="left"><figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Storage of scraped medias
 
