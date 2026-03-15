@@ -2,13 +2,17 @@
 
 Une fois RetroBat installé, le répertoire contient les dossiers et fichiers suivants  :
 
-<div align="left"><figure><img src="https://i.imgur.com/12l87Hk.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/2026-03-15_11h46_07.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Répertoire "bios"&#x20;
 
 Ce répertoire est celui où doivent être placés (à de rares exceptions près) les bios et firmware de tous les systèmes.
 
 Vous trouverez plus de précisions sur les fichiers de bios sur chaque [page individuelle de système](https://wiki.retrobat.org/v/francais/systemes-and-emulateurs/supported-game-systems).&#x20;
+
+{% hint style="info" %}
+A part si un emplacement spécifique est précisé, les fichiers de BIOS peuvent être placés directement à la racine du dossier `bios\` .
+{% endhint %}
 
 ## Répertoire "cheats"
 
@@ -84,8 +88,7 @@ Certains émulateurs ne sont pas fournis automatiquement par Retrobat.&#x20;
 
 Les émulateurs suivants doivent être téléchargés par vos soins et placés dans les dossiers correspondants :
 
-* Yuzu (& early-access)
-* Ryujinx
+* Émulateurs Switch
 * PICO-8
 * 3DSen
 * TeknoParrot
@@ -155,9 +158,13 @@ Ce dossier contient les fichier [padtokey ](../controleurs/pad2key.md#fichier-pa
 
 ### Dossier "resource"
 
-Dans le sous-dossier "inputmapping", il est possible de trouver les fichiers d'autoconfiguration utilisés par RetroBat pour certains systèmes:
+Dans le sous-dossier "inputmapping", il est possible de trouver les fichiers d'autoconfiguration utilisés par RetroBat pour certains systèmes, ou pour certains contrôleurs spécifiques :
 
 <div align="left"><figure><img src="https://i.imgur.com/cxjYSok.png" alt=""><figcaption></figcaption></figure></div>
+
+{% hint style="info" %}
+Ces fichiers seront écrasés lors des mises à jour de RetroBat. Pour conserver vos versions modifiées de ces fichiers, copier les dans le sous-dossier `user\inputmapping` de votre installation.
+{% endhint %}
 
 ### Dossier "shaders"
 

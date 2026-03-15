@@ -4,11 +4,7 @@ description: Sega
 
 # Sega Model 3
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/model3.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/model3.svg" alt=""><figcaption></figcaption></figure></div>
 
 Arcade - Date de création : 1996
 
@@ -16,11 +12,11 @@ Arcade - Date de création : 1996
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>supermodel</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> model3</td></tr><tr><td><strong>Extensions</strong></td><td>.zip</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>supermodel</li><li>libretro : supermodel</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> model3</td></tr><tr><td><strong>Extensions</strong></td><td>.zip</td></tr></tbody></table>
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td>OUI</td></tr></tbody></table>
+<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>supermodel : NON<br>libretro : NON</td><td>supermodel : NON<br>libretro : NON</td><td>supermodel : OUI<br>libretro : OUI</td></tr></tbody></table>
 
 ## Bios
 
@@ -30,8 +26,11 @@ Aucun BIOS nécessaire.
 
 Les contrôles Model3 sont spécifiques à chaque jeu, RetroBat est livré avec une configuration par défaut expliquée ci-dessous.
 
+Les contrôles peuvent être adaptés à l'aide des fichiers supermodel.yml et libretro-supermodel.yml situés dans le dossier <kbd>system\resources\inputmapping</kbd> de votre installation RetroBat.
+
 {% hint style="danger" %}
-Pour jouer à 2, il est nécessaire que les 2 contrôleurs utilisent la même technologie que le contrôleur du premier joueur.
+**SUPERMODEL :** \
+Pour jouer à 2 joueurs, il est obligatoire que les 2 contrôleurs utilisent la même technologie, basé sur celle du contrôleur du joueur 1.
 
 Par exemple si le joueur 1 utilise une manette XBOX, il faut que la manette du joueur 2 soit également une manette XInput.&#x20;
 
@@ -40,12 +39,12 @@ Si le joueur 1 utilise une manette non-xinput, la manette du joueur 2 doit égal
 
 ### Commun
 
-| Bouton Arcade | Retrobat |
-| ------------- | -------- |
-| START         | START    |
-| COIN          | SELECT   |
-| SERVICE       | R3       |
-| TEST          | L3       |
+| Bouton Arcade | Retrobat                  |
+| ------------- | ------------------------- |
+| START         | START (1 sur le clavier)  |
+| COIN          | SELECT (5 sur le clavier) |
+| SERVICE       | R3 (9 sur le clavier)     |
+| TEST          | L3 (0 sur le clavier)     |
 
 ### Daytona 2, Scud Race / Sega Super GT, Scud Race Plus / Sega Super GT Plus
 
@@ -137,10 +136,14 @@ Si le joueur 1 utilise une manette non-xinput, la manette du joueur 2 doit égal
 | ------------------ | --------------- |
 | CLAVIER 1          | P1 Start        |
 | CLAVIER 2          | P2 Start        |
-| CLAVIER 3          | P1 Credit       |
-| CLAVIER 4          | P2 Credit       |
+| CLAVIER 5          | P1 Credit       |
+| CLAVIER 6          | P2 Credit       |
 | Souris clic gauche | Gâchette gauche |
 | Souris clic droit  | Gâchette droite |
+
+{% hint style="info" %}
+La cible ne fonctionnera pas si les réglages de la cible ne sont pas effectués depuis le menu service, pour les jeux de tir.
+{% endhint %}
 
 ### The Lost World
 
@@ -148,8 +151,8 @@ Si le joueur 1 utilise une manette non-xinput, la manette du joueur 2 doit égal
 | ------------------ | --------- |
 | CLAVIER 1          | P1 Start  |
 | CLAVIER 2          | P2 Start  |
-| CLAVIER 3          | P1 Credit |
-| CLAVIER 4          | P2 Credit |
+| CLAVIER 5          | P1 Credit |
+| CLAVIER 6          | P2 Credit |
 | Souris clic gauche | Tirer     |
 | Souris clic droit  | Recharger |
 
@@ -202,12 +205,10 @@ Si le joueur 1 utilise une manette non-xinput, la manette du joueur 2 doit égal
 | ------------------ | ---------------- |
 | CLAVIER 1          | P1 Start         |
 | CLAVIER 2          | P2 Start         |
-| CLAVIER 3          | P1 Credit        |
-| CLAVIER 4          | P2 Credit        |
+| CLAVIER 5          | P1 Credit        |
+| CLAVIER 6          | P2 Credit        |
 | Souris clic gauche | Tirer            |
 | Souris clic droit  | Bouton évènement |
-
-###
 
 ### Virtua Fighter 3, Virtua Fighter 3 Team Battle
 
@@ -245,26 +246,22 @@ Si le joueur 1 utilise une manette non-xinput, la manette du joueur 2 doit égal
 
 ## Informations spécifiques au système
 
-### Menu TEST
+### Menu SERVICE
 
 Le menu TEST permet d'accéder à diverses options de paramétrages propres au jeu, telles que la calibration du lightGun ou encore le niveau de difficulté.
 
-Accéder au menu TEST en appuyant sur la touche `[6]` du clavier ou L3 de la manette lorsque dans le jeu.&#x20;
+Accéder au menu TEST en appuyant sur la touche `[9]` ou `[0]` du clavier ou L3 de la manette lorsque dans le jeu.&#x20;
 
-Appuyer sur `[5]` au clavier ou R3 à la manette pour naviguer dans le menu et sur la touche `[6]` du clavier ou L3 de la manette pour valider.
+Appuyer sur `[0]` ou `[9]` au clavier ou L3/R3 à la manette pour naviguer et valider.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/HoQr2H8.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/HoQr2H8.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Calibration des pistolets
 
-Les jeux au pistolet nécessitent une calibration propre au jeu.
+Les jeux Model3 au pistolet nécessitent une calibration propre au jeu.
 
-Pour calibrer le pistolet, accéder au menu TEST puis sélectionner **GUN SETTINGS**.
+Pour calibrer le pistolet, accéder au menu [SERVICE](sega-model-3.md#menu-service) puis sélectionner **GUN SETTINGS**.
 
 ### Message d'erreur "Network Board"
 
-Si un message d'erreur “Network Board Not Present” apparaît, aller dans le menu TEST et sélectionner **Game Assignments** → **Link ID** puis modifier l'option à **Single**.&#x20;
+Si un message d'erreur “Network Board Not Present” apparaît, aller dans le menu SERVICE et sélectionner **Game Assignments** → **Link ID** puis modifier l'option à **Single**.&#x20;
