@@ -4,11 +4,7 @@ description: Epoch Co.
 
 # Super Cassette Vision
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/scv.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/scv.svg" alt=""><figcaption></figcaption></figure></div>
 
 Console de jeu - Durée de vie: 1984 - 1987
 
