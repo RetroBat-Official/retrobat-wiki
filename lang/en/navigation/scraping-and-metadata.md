@@ -42,7 +42,7 @@ Refer to the[ following section of the wiki](../get-started/adding-a-game.md#per
 
 Scraping options are available from the [Main Menu](main-menu.md).
 
-<div align="left"><figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Before running the scraper you can:
 
@@ -54,7 +54,7 @@ Before running the scraper you can:
 
 Additionaly, each scraper has its own settings.
 
-<div align="left"><figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Example of available settings for ScreenScraper</p></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption><p>Example of available settings for ScreenScraper</p></figcaption></figure></div>
 
 From here you can select which data to scrape, but also define:
 

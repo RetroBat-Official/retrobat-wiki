@@ -10,11 +10,11 @@ Multi-Arcade Emulator - Release year: 1997
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: mame</li><li>Libretro: mame2016</li><li>Libretro: mame2010</li><li>Libretro: mame2003_plus</li><li>Libretro: mame2003</li><li>Libretro: mame2003_midway</li><li>Libretro: mame2000</li><li>mame64</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> mame</td></tr><tr><td><strong>File extension</strong></td><td>.zip .7z</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: mame</li><li>Libretro: mame2016</li><li>Libretro: mame2010</li><li>Libretro: mame2003_plus</li><li>Libretro: mame2003</li><li>Libretro: mame2003_midway</li><li>Libretro: mame2000</li><li>mame64</li><li>GroovyMame</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> mame</td></tr><tr><td><strong>File extension</strong></td><td>.zip .7z</td></tr></tbody></table>
 
 ## System Features
 
-<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>lr-mame: NO<br>Mame64: YES</td></tr></tbody></table>
+<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>lr-mame: YES<br>Mame64: YES<br>GroovyMame: YES</td></tr></tbody></table>
 
 ## Bios Information
 
@@ -55,7 +55,9 @@ BIOS files must be placed at the root of the `\bios` folder of your RetroBat ins
 
 **Ctrl**: \saves\mame\ctrlr
 
-
+{% hint style="info" %}
+RetroBat is using the folder \bios\mame\artwork to store artworks created to display bezels. Artworks stored there will be overriden.
+{% endhint %}
 
 ## Controls
 
@@ -76,8 +78,8 @@ BIOS files must be placed at the root of the `\bios` folder of your RetroBat ins
 | R1                                             | 6                                                                                    |
 | L2                                             | Pedal 2 / 7                                                                          |
 | R2                                             | Pedal 1 / 8                                                                          |
-| L3                                             | 9                                                                                    |
-| R3                                             | 10                                                                                   |
+| L3                                             | Test                                                                                 |
+| R3                                             | Service                                                                              |
 
 {% hint style="info" %}
 Follow this guide to perform specific controller mapping for MAME64 ([refer to this guide](../../../controllers/specific_mapping/mame64-controller-mapping.md)).
@@ -99,7 +101,8 @@ Refer to the [Arcade Guide "sample file" section](../../arcade-guide.md#samples)
 
 ### Service Menu
 
-Press L3 and R3 buttons to access to service menu.
+Press L3 and R3 buttons to access to service menu.\
+You can also use 0 and 9 on the keyboard.
 
 ## Known issues & fixes
 
@@ -110,3 +113,11 @@ Libretro:Mame has a limitation in the length of the paths it uses when launching
 In order to be able to fix this issue, ensure that your RetroBat folder path does is not installed in a path that is too long.
 
 For example the path `C:\Emulation\Multi Emulators\FrontEnd\All-in-one\This is top\RetroBat version 7.5.3` is too long and will result in the issue.
+
+### Using a CRT screen: GroovyMAME specifics
+
+When using a CRT screen, it is possible to use GroovyMAME to automatically switch to a specific screen profile that matches the screen resolution and refresh rate.
+
+The RetroBat team has created a list of profiles available in the advanced settings > video section:
+
+<div align="left"><figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
