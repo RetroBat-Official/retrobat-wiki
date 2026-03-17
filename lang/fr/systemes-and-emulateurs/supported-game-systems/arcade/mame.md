@@ -10,11 +10,11 @@ description: MAME Team
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro: mame</li><li>Libretro: mame2016</li><li>Libretro: mame2010</li><li>Libretro: mame2003_plus</li><li>Libretro: mame2003</li><li>Libretro: mame2003_midway</li><li>Libretro: mame2000</li><li>mame64</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> mame</td></tr><tr><td><strong>Extensions</strong></td><td>.zip .7z</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro: mame</li><li>Libretro: mame2016</li><li>Libretro: mame2010</li><li>Libretro: mame2003_plus</li><li>Libretro: mame2003</li><li>Libretro: mame2003_midway</li><li>Libretro: mame2000</li><li>mame64</li><li>GroovyMame</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> mame</td></tr><tr><td><strong>Extensions</strong></td><td>.zip .7z</td></tr></tbody></table>
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="245">Succès rétro</th><th width="200">Netplay</th><th>Autoconfiguration contrôleurs</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td>lr-mame: NON<br>Mame64: OUI</td></tr></tbody></table>
+<table><thead><tr><th width="245">Succès rétro</th><th width="200">Netplay</th><th>Autoconfiguration contrôleurs</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td>lr-mame : NON<br>Mame64 : OUI<br>GroovyMame : OUI</td></tr></tbody></table>
 
 ## Bios
 
@@ -55,7 +55,9 @@ Les BIOS additionnels doivent être placés à la racine du dossier \bios de vot
 
 **Ctrl**: \saves\mame\ctrlr
 
-
+{% hint style="info" %}
+Le dossier `\bios\mame\artwork` est utilisé pour stocker les fichiers permettant d'afficher les décorations inclues avec RetroBat. Il n'est pas possible d'utiliser ce dossier car les éventuels fichiers placés dedans seront écrasés.
+{% endhint %}
 
 ## Contrôles
 
@@ -76,8 +78,8 @@ Les BIOS additionnels doivent être placés à la racine du dossier \bios de vot
 | R1                                             | 6                                                                                      |
 | L2                                             | Pedal 2 / 7                                                                            |
 | R2                                             | Pedal 1 / 8                                                                            |
-| L3                                             | 9                                                                                      |
-| R3                                             | 10                                                                                     |
+| L3                                             | Test                                                                                   |
+| R3                                             | Service                                                                                |
 
 {% hint style="info" %}
 Se référer à [ce guide](../../../controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-mame64.md) pour effectuer une configuration personnalisée des contrôleurs pour MAME64.
@@ -99,7 +101,8 @@ Se référer à la [section "samples"](../../arcade-guide.md#samples) du guide a
 
 ### Menu "Service"
 
-Appuyer sur L3 et R3 pour accéder au menu service.
+Appuyer sur L3 et R3 pour accéder au menu service.\
+Vous pouvez également utiliser 0 et 9 sur le clavier.
 
 ## Problèmes connus et solutions
 
@@ -109,4 +112,14 @@ Le core libretro:mame est limité dans le nombre de caractères utilisable pour 
 
 Afin de corriger le problème, assurez-vous que le chemin d'installation de RetroBat n'est pas trop "long".
 
-Par exemple le chemin `C:\Emulation\Multi Emulators\FrontEnd\Tout-en-un\This is top\RetroBat version 7.5.3` est beaucoup trop long.
+Par exemple le chemin `C:\Emulation\Multi Emulators\FrontEnd\Tout-en-un\This is top\RetroBat version 7.5.3` est beaucoup trop long.<br>
+
+### Utilisation d'un écran CRT : profils spécifiques GroovyMAME <a href="#using-a-crt-screen-groovymame-specifics" id="using-a-crt-screen-groovymame-specifics"></a>
+
+Lors de l'utilisation d'un écran CRT, il est possible d'utiliser GroovyMAME pour automatiquement basculer sur un profil spécifique d'écran, correspondant à la résolution et au taux de rafraîchissement de votre écran. L'équipe RetroBat a crée une liste de profils disponibles dans la section **réglages avancées** > **vidéo** :
+
+<figure><img src="../../../.gitbook/assets/image.avif" alt=""><figcaption></figcaption></figure>
+
+{% hint style="info" %}
+Pour que ce menu apparaisse, GroovyMAME doit être sélectionné en tant qu’émulateur.
+{% endhint %}
