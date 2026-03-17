@@ -48,7 +48,7 @@ Demul uses pad2key to handle shortcuts.
 
 ### Dolphin
 
-<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (16).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (30).png" alt=""></td><td>FULLSCREEN</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (50).png" alt=""></td><td>Load State 1</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (48).png" alt=""></td><td>Save State 1 &#x26; Screenshot</td></tr><tr><td>Hotkey + START</td><td>Exit DOLPHIN</td></tr><tr><td>Hotkey + L1</td><td>Eject Disc</td></tr><tr><td>Hotkey + R1</td><td>Change Disc</td></tr></tbody></table>
+<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (16).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (30).png" alt=""></td><td>FULLSCREEN</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (50).png" alt=""></td><td>Load State 1</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (48).png" alt=""></td><td>Save State 1 &#x26; Screenshot</td></tr><tr><td>Hotkey + START</td><td>Exit DOLPHIN</td></tr><tr><td>Hotkey + L1</td><td>Eject Disc</td></tr><tr><td>Hotkey + R1</td><td>Change Disc</td></tr><tr><tr><td>Hotkey + D-PAD UP</td><td>Select Save Slot Index +</td></tr><tr><td>Hotkey + D-PAD DOWN</td><td>Select Save Slot Index -</td></tr></tbody></table>
 
 ### DuckStation
 
