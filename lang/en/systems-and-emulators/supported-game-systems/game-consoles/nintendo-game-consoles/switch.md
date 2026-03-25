@@ -12,33 +12,35 @@ Hybrid Game Console - Lifespan: 2017 - present
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>citron</li><li>ryujinx</li><li>eden</li><li>sudachi</li><li>suyu</li><li>yuzu</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> switch</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.nso .nro .nca .xci .nsp .kip</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>eden</li><li>ryujinx</li><li>citron</li><li>sudachi</li><li>yuzu</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> switch</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.nso .nro .nca .xci .nsp .kip</td><td></td></tr></tbody></table>
 
 ## Features
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>Ryujinx: YES<br>Eden: YES<br>Sudachi: YES<br>Citron: YES<br>Suyu: YES<br>Yuzu: YES</td></tr></tbody></table>
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>Ryujinx: YES<br>Eden: YES<br>Sudachi: YES<br>Citron: YES<br>Yuzu: YES</td></tr></tbody></table>
 
 ## Emulators
 
 ### Ryujinx
 
+RetroBat is compatible with the Ryubing version of Ryujinx.
+
 Copy Ryujinx emulator files in the `emulators\ryujinx` folder of your RetroBat installation:
 
 <div align="left"><figure><img src="https://i.imgur.com/KSvr9sk.png" alt=""><figcaption></figcaption></figure></div>
 
-### Citron, Eden, Sudachi, Yuzu, Suyu
+### Eden, Citron, Sudachi, Yuzu
 
-Copy emulator data in the `emulators\citron` (or eden, suyu, yuzu, sudachi) folder of your RetroBat installation, then create the "user" subfolder:
+Copy emulator data in the `emulators\<name of the emulator>` (eden, citron, yuzu, sudachi) folder of your RetroBat installation, then create the "user" subfolder:
 
 ### Files location
 
-<table><thead><tr><th width="276">Files</th><th>Path (relative to the RetroBat root folder)</th></tr></thead><tbody><tr><td>Emulator user content</td><td><strong>Ryujinx</strong>: saves\switch\ryujinx\portable<br><strong>Eden, Yuzu, Suyu, Sudachi, Citron:</strong> <br>emulators\&#x3C;emulator name>\user</td></tr><tr><td>Config file</td><td><strong>Ryujinx</strong>: saves\switch\ryujinx\portable\Config.json<br><strong>Eden, Yuzu, Suyu, Sudachi, Citron:</strong> <br>emulators\&#x3C;emulator name>\user\config\qt-config.ini</td></tr></tbody></table>
+<table><thead><tr><th width="276">Files</th><th>Path (relative to the RetroBat root folder)</th></tr></thead><tbody><tr><td>Emulator user content</td><td><strong>Ryujinx</strong>: saves\switch\ryujinx\portable<br><strong>Eden, Yuzu, Sudachi, Citron:</strong> <br>emulators\&#x3C;emulator name>\user</td></tr><tr><td>Config file</td><td><strong>Ryujinx</strong>: saves\switch\ryujinx\portable\Config.json<br><strong>Eden, Yuzu, Sudachi, Citron:</strong> <br>emulators\&#x3C;emulator name>\user\config\qt-config.ini</td></tr></tbody></table>
 
-For Citron, Sudachi, Eden, Yuzu and Suyu emulators, SDMC, LOAD, NAND folders can be merged in the`saves\switch` folder of your RetroBat installation.
+For Citron & Eden emulators, SAVE folder can be moved to the`saves\switch` folder of your RetroBat installation. By default they will be forced to the emulator folder.
 
-To merge, switch on the following option:
+To do this, switch on the following option located in the **MAIN MENU > GAME SETTINGS**:
 
-<div align="left"><figure><img src="https://i.imgur.com/tyMuoRl.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ## BIOS
 
@@ -58,21 +60,13 @@ This step is mandatory for Ryujinx to work properly with RetroBat.
 If the "Configure Ryujinx.bat" does not exist in the `emulators\ryujinx` folder, you can find it in the `system\templates\ryujinx` folder and copy it in the emulator folder.
 {% endhint %}
 
-### Eden, Sudachi, Suyu, Yuzu and Citron
+### Eden, Sudachi, Yuzu and Citron
 
 Place prod.keys file in `\emulators\`<mark style="color:purple;">`<emulator>`</mark>`\user\keys`
 
 Place firmware .nca files in `\emulators\`<mark style="color:purple;">`<emulator>`</mark>`\user\nand\system\Contents\registered`
 
 ## Controls
-
-{% hint style="info" %}
-The following controllers can be autoconfigured from Retrobat to Switch emulators:
-
-* XInput controllers
-* Dualshock & DualSense controllers
-* Nintendo Switch Pro controller
-{% endhint %}
 
 | RetroBat key                                                                       | Switch Key                     |
 | ---------------------------------------------------------------------------------- | ------------------------------ |
@@ -100,7 +94,7 @@ Use the following option to invert face buttons (to match xbox controllers):
 
 ### Installing game updates & DLC
 
-Game updates can be installed both in Yuzu and Ryujinx. They are dumped from your Switch in the format of .nsp files.
+Game updates can be installed both in Yuzu & forks (Eden, Citron...) and Ryujinx. They are dumped from your Switch in the format of .nsp files.
 
 #### Ryujinx
 
@@ -112,10 +106,14 @@ The next screen will invite you to select your update or DLC .nsp file, search f
 
 <div align="left"><figure><img src="https://i.imgur.com/Vk2lwA3.png" alt=""><figcaption></figcaption></figure></div>
 
-#### Eden, Citron, Sudachi, Suyu, Yuzu
+#### Eden, Citron, Sudachi, Yuzu
 
 Go to `Files > Install Files to NAND...`
 
 <div align="left"><figure><img src="https://i.imgur.com/B6jQIqZ.png" alt=""><figcaption></figcaption></figure></div>
 
 The next screen will invite you to search for your update or DLC .nsp file on your computer, just select it and save.
+
+Eden and Citron also allow to load update and DLC content from another folder, RetroBat will by default define the folder `roms\switchupdates` to enable load of external content.
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>

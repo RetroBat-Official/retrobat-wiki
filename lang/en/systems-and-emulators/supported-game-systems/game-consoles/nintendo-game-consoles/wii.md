@@ -12,11 +12,11 @@ Game Console - Lifespan: 2006 - 2017
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="267"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>dolphin</li><li>libretro: dolphin</li></ul></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> wii</td></tr><tr><td><strong>File extensions</strong></td><td>.gcz .iso .ciso .wbfs .wad .rvz .wia .zip .7z .json</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="267"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>dolphin</li><li>libretro: dolphin</li></ul></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> wii</td></tr><tr><td><strong>File extensions</strong></td><td>.gcz .iso .ciso .dol .wbfs .wad .rvz .wia .zip .7z .squashfs .json</td></tr></tbody></table>
 
 ## Features
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>Dolphin: NO<br>lr-dolphin: NO</td><td>Dolphin: NO<br>lr-dolphin: NO</td><td>Dolphin: YES<br>lr-dolphin: YES</td></tr></tbody></table>
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>Dolphin: YES<br>lr-dolphin: YES</td><td>Dolphin: NO<br>lr-dolphin: NO</td><td>Dolphin: YES<br>lr-dolphin: YES</td></tr></tbody></table>
 
 ## BIOS
 
@@ -285,3 +285,5 @@ To check if the wii menu is correctly installed, try to run it directly from dol
 ### Custom Textures
 
 The procedure for custom textures for Wii is similar to the one for Gamecube, refer to the [Gamecube section of the wiki](gamecube.md#custom-textures).
+
+The texture pack needs to be placed in the `\saves\wii\dolphin-emu\User\Load\Textures` folder.

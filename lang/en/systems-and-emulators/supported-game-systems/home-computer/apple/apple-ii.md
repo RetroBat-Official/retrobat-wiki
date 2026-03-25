@@ -4,11 +4,7 @@ description: Apple
 
 # Apple II
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/apple2-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/apple2.svg" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/apple2-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/apple2.svg" alt=""></picture><figcaption></figcaption></figure></div>
 
 Computer - Lifespan: 1977 - 1979
 
@@ -16,7 +12,7 @@ Computer - Lifespan: 1977 - 1979
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>applewin</li><li>mednafen</li><li>bizhawk</li><li>libretro:mame</li><li>mame</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> apple2</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.nib .do .po .dsk .woz .m3u .zip</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>applewin</li><li>mednafen</li><li>bizhawk</li><li>libretro:mame</li><li>mame</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> apple2</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.nib .do .po .dsk .woz .m3u .hdv .zip</td><td></td></tr></tbody></table>
 
 ### libretro:mame information
 
