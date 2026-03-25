@@ -4,11 +4,7 @@ description: Amstrad
 
 # Amstrad CPC
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/amstradcpc-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/amstradcpc.svg" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/amstradcpc-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/amstradcpc.svg" alt=""></picture><figcaption></figcaption></figure></div>
 
 Computer - Lifespan: 1984 - 1990
 
@@ -57,6 +53,26 @@ Cap32 & crocods cores allow you to choose between the following controller types
 | R2                                             | cap32: F2       |
 | L3                                             |                 |
 | R3                                             |                 |
+
+### Libretro-Cap32 remap override
+
+RetroBat has setup a specific capability to automate libretro-cap32 remapping from a json file.
+
+The JSON file is located in the folder `system\resources\inputmapping` of the RetroBat installation and is named **libretro\_cap32.json.**
+
+Inside this file, it is possible to force a remap for specific games, which will be automatically identified by RetroBat based on the filenames listed in the json "Roms" section, or with the normalization of the filename and the json "Name" value:
+
+<div align="left"><figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+
+In the above example, if the BombJack game is launched with RetroBat, the buttons L2, R2 and select from the gamepad will automatically be assigned to keyboard keys 1, 2 and J of the keyboard:
+
+<div align="left"><figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
+
+{% hint style="info" %}
+Do not hesitate to share your own game remaps with the RetroBat team.
+
+In case you update this file, place your version in the user\inputmapping folder of your RetroBat installation, else it might be overwritten with a RetroBat update.
+{% endhint %}
 
 ### Visual keyboard
 
