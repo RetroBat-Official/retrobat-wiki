@@ -16,7 +16,7 @@ Portable Game Console - Lifespan: 1989 - 2003
 
 ## System Features
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-gambatte: YES<br>lr-mesen-s: YES<br>lr-bsnes: YES<br>lr-tgbdual: NO<br>lr-sameboy: YES<br>lr-DoubleCherryGB: ?<br>Mesen: NO<br>mGBA: NO<br>Mednafen: NO<br>Ares: NO<br>Bizhawk: YES<br>Jgenesis: NO</td><td>lr-gambatte: YES<br>lr-mesen-s: YES<br>lr-bsnes: YES<br>lr-tgbdual: YES<br>lr-sameboy: YES<br>lr-DoubleCherryGB: ?<br>Mesen: NO<br>mGBA: NO<br>Mednafen: NO<br>Ares: NO<br>Bizhawk: NO<br>Jgenesis: NO</td><td>lr-gambatte: YES<br>lr-mesen-s: YES<br>lr-bsnes: YES<br>lr-tgbdual: YES<br>lr-sameboy: YES<br>lr-DoubleCherryGB: YES<br>Mesen: YES<br>mGBA: NO<br>Mednafen: YES<br>Ares: YES<br>Bizhawk: YES<br>Jgenesis: YES</td></tr></tbody></table>
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-gambatte: YES<br>lr-mesen-s: YES<br>lr-bsnes: YES<br>lr-tgbdual: NO<br>lr-sameboy: YES<br>lr-DoubleCherryGB: YES<br>Mesen: NO<br>mGBA: NO<br>Mednafen: NO<br>Ares: NO<br>Bizhawk: YES<br>Jgenesis: NO</td><td>lr-gambatte: YES<br>lr-mesen-s: YES<br>lr-bsnes: YES<br>lr-tgbdual: YES<br>lr-sameboy: YES<br>lr-DoubleCherryGB: YES<br>Mesen: NO<br>mGBA: NO<br>Mednafen: NO<br>Ares: NO<br>Bizhawk: NO<br>Jgenesis: NO</td><td>lr-gambatte: YES<br>lr-mesen-s: YES<br>lr-bsnes: YES<br>lr-tgbdual: YES<br>lr-sameboy: YES<br>lr-DoubleCherryGB: YES<br>Mesen: YES<br>mGBA: YES<br>Mednafen: YES<br>Ares: YES<br>Bizhawk: YES<br>Jgenesis: YES</td></tr></tbody></table>
 
 ## BIOS
 
@@ -31,6 +31,10 @@ sgb\* files are required for mesen-s core, as it uses Super Game Boy to emulate 
 | <p>Default<br>(except lr-gambatte, mesen &#x26; mednafen)</p> | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gb.png?raw=true" alt="" data-size="original">          |
 | lr-gambatte                                                   | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gb_gambatte.png?raw=true" alt="" data-size="original"> |
 | <p>Mesen<br>Mednafen</p>                                      | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gb_turbo.png?raw=true" alt="" data-size="original">    |
+
+It is also possible to invert A and B buttons (as well as turbo buttons if enabled) when using the following option:
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure></div>
 
 ## Specific system information
 

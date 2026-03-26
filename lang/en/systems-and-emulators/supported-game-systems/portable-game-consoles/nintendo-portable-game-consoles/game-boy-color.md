@@ -16,7 +16,7 @@ Portable Game Console - Lifespan: 1998 - 2003
 
 ## System Features
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-gambatte: YES<br>lr-tgbdual: NO<br>lr-sameboy: YES<br>lr-DoubleCherryGB: ?<br>Mesen: NO<br>mGBA: NO<br>Mednafen: NO<br>Ares: NO<br>Bizhawk: YES<br>Jgenesis: NO</td><td>lr-gambatte: YES<br>lr-tgbdual: YES<br>lr-sameboy: YES<br>lr-DoubleCherryGB: ?<br>Mesen: NO<br>mGBA: NO<br>Mednafen: NO<br>Ares: NO<br>Bizhawk: NO<br>Jgenesis: NO</td><td>lr-gambatte: YES<br>lr-tgbdual: YES<br>lr-sameboy: YES<br>lr-DoubleCherryGB: YES<br>Mesen: YES<br>mGBA: NO<br>Mednafen: YES<br>Ares: YES<br>Bizhawk: YES<br>Jgenesis: YES</td></tr></tbody></table>
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-gambatte: YES<br>lr-tgbdual: NO<br>lr-sameboy: YES<br>lr-DoubleCherryGB: YES<br>Mesen: NO<br>mGBA: NO<br>Mednafen: NO<br>Ares: NO<br>Bizhawk: YES<br>Jgenesis: NO</td><td>lr-gambatte: YES<br>lr-tgbdual: YES<br>lr-sameboy: YES<br>lr-DoubleCherryGB: YES<br>Mesen: NO<br>mGBA: NO<br>Mednafen: NO<br>Ares: NO<br>Bizhawk: NO<br>Jgenesis: NO</td><td>lr-gambatte: YES<br>lr-tgbdual: YES<br>lr-sameboy: YES<br>lr-DoubleCherryGB: YES<br>Mesen: YES<br>mGBA: YES<br>Mednafen: YES<br>Ares: YES<br>Bizhawk: YES<br>Jgenesis: YES</td></tr></tbody></table>
 
 ## BIOS
 

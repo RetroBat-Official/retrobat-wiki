@@ -12,11 +12,11 @@ Portable Game Console - Lifespan: 2001 - 2008
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: mgba</li><li>libretro: mednafen_gba</li><li>libretro: gpsp</li></ul><ul><li>mgba</li><li>no$gba</li><li>mednafen</li><li>ares</li><li>bizhawk: mGBA</li><li>mesen</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> gba</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.gba .zip .7z</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: mgba</li><li>libretro: mednafen_gba</li><li>libretro: gpsp</li><li>mgba</li><li>no$gba</li><li>mednafen</li><li>ares</li><li>bizhawk: mGBA</li><li>jgenesis</li><li>mesen</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> gba</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.gba .zip .7z</td><td></td></tr></tbody></table>
 
 ## System Features
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-mgba: YES<br>lr-mednafen: YES<br>lr-gpsp: YES<br>mGBA: NO<br>no$gba: NO<br>Mednafen: NO<br>Ares: NO<br>BizHawk: YES<br>Mesen: NO</td><td>lr-mgba: YES<br>lr-mednafen: YES<br>lr-gpsp: NO<br>mGBA: NO<br>no$gba: NO<br>Mednafen: NO<br>Ares: NO<br>BizHawk: NO<br>Mesen: NO</td><td>lr-mgba: YES<br>lr-mednafen: YES<br>lr-gpsp: YES<br>mGBA: NO<br>no$gba: NO<br>Mednafen: YES<br>Ares: YES<br>BizHawk: YES<br>Mesen: YES</td></tr></tbody></table>
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-mgba: YES<br>lr-mednafen: YES<br>lr-gpsp: YES<br>mGBA: NO<br>no$gba: NO<br>Mednafen: NO<br>Ares: NO<br>BizHawk: YES<br>JGenesis: NO<br>Mesen: NO</td><td>lr-mgba: YES<br>lr-mednafen: YES<br>lr-gpsp: YES<br>mGBA: NO<br>no$gba: NO<br>Mednafen: NO<br>Ares: NO<br>BizHawk: NO<br>JGenesis: NO<br>Mesen: NO</td><td>lr-mgba: YES<br>lr-mednafen: YES<br>lr-gpsp: YES<br>mGBA: YES<br>no$gba: NO<br>Mednafen: YES<br>Ares: YES<br>BizHawk: YES<br>JGenesis: YES<br>Mesen: YES</td></tr></tbody></table>
 
 ## BIOS
 
@@ -24,15 +24,17 @@ Portable Game Console - Lifespan: 2001 - 2008
 
 ## Controls
 
-| Option / emulator                                       | Control Layout                                                                                                                         |
-| ------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| <p>lr-mgba<br>Mesen</p>                                 | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gba_turbo.png?raw=true" alt="" data-size="original"> |
-| lr-mednafen\_gba                                        | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gba_solar.png?raw=true" alt="" data-size="original"> |
-| <p>Standalone:<br>- Mednafen<br>- Ares<br>- Bizhawk</p> | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gba.png?raw=true" alt="" data-size="original">       |
+| Option / emulator                                                              | Control Layout                                                                                                                         |
+| ------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------- |
+| <p>lr-mgba<br>Mesen</p>                                                        | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gba_turbo.png?raw=true" alt="" data-size="original"> |
+| lr-mednafen\_gba                                                               | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gba_solar.png?raw=true" alt="" data-size="original"> |
+| <p><br>- Ares<br>- Bizhawk (option to enable turbo is available)<br>- mGBA</p> | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gba.png?raw=true" alt="" data-size="original">       |
+| lr-gpsp                                                                        | <img src="../../../../.gitbook/assets/gba_gpsp.png" alt="" data-size="original">                                                       |
+| Mednafen standalone                                                            | <p><img src="../../../../.gitbook/assets/gba_turboface.png" alt="" data-size="original"></p><p></p>                                    |
 
-{% hint style="info" %}
-Rumble option is available for libretro: mGBA.
-{% endhint %}
+Some cores and emulators offer option to invert face buttons and to enable rumble, the option can be found in **ADVANCED SETTINGS > CONTROLS**:
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure></div>
 
 ## Specific system information
 
