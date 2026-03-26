@@ -4,11 +4,7 @@ description: Sony
 
 # PlayStation
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/psx-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/psx.svg" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/psx-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/psx.svg" alt=""></picture><figcaption></figcaption></figure></div>
 
 Game Console - Lifespan: 1994 - 2006
 
@@ -30,27 +26,15 @@ Game Console - Lifespan: 1994 - 2006
 
 ### Control layout
 
-<div align="left">
-
-<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/psx.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/psx.png?raw=true" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ### Alternative layout:
 
 An alternative layout has been created in order to be able to use analog triggers to throttle and brake in driving games, the layout can be enabled with the following option:
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/bb3oWIA.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/bb3oWIA.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/psx_triggers_rstick.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/psx_triggers_rstick.png?raw=true" alt="" width="375"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 In order to use analog triggers, you need to change the controls in-game in order to map throttle and brake to the right analog stick.
@@ -66,23 +50,17 @@ To automatically load the next disc of a game, you can use a `.m3u` playlist fil
 
 In the m3u file, list all game discs from your game:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/GGRxCI4.png" alt=""><figcaption><p>List of files</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/GGRxCI4.png" alt=""><figcaption><p>List of files</p></figcaption></figure></div>
 
 Within that text file, write the names of the `.cue` sheets or `.chd` files for your game discs:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/ZzJ7Ldj.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/ZzJ7Ldj.png" alt=""><figcaption></figcaption></figure></div>
 
 Finally save the file as a .m3u file.
 
 ### Custom textures
+
+#### libretro-mednafen\_psx\_hw
 
 The mednafen\_psx\_hw core allows to load custom texture packs.
 
@@ -91,36 +69,28 @@ To do so you need to place the custom texture pack in the `\roms\psx` folder in 
 * If your game name is `Final Fantasy VII (USA).iso`, the texture pack folder must be named `Final Fantasy VII (USA)-texture-replacements`
 * If your game name is `Chrono Cross.fr.m3u`, the texture pack folder must be named `Chrono Cross.fr-texture-replacements`
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/GdXSRWK.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/GdXSRWK.png" alt=""><figcaption></figcaption></figure></div>
 
 Once the texture pack in place, just enable the option within Retrobat:
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/WzHZPKq.png" alt=""><figcaption><p>Advanced options > Visual Rendering</p></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/WzHZPKq.png" alt=""><figcaption><p>Advanced options > Visual Rendering</p></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/8yktncM.png" alt=""><figcaption><p>Custom Textures = YES</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/8yktncM.png" alt=""><figcaption><p>Custom Textures = YES</p></figcaption></figure></div>
 
 Finally, ensure that you use VULKAN video driver and that you set the resolution above 1X:
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/9hKDYKQ.png" alt=""><figcaption><p>Advanced options > Drivers</p></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/9hKDYKQ.png" alt=""><figcaption><p>Advanced options > Drivers</p></figcaption></figure>
+<div align="left"><figure><img src="https://i.imgur.com/sJgZ14E.png" alt=""><figcaption><p>Advance Options, set internal resolution abov 1X</p></figcaption></figure></div>
 
-</div>
+#### Duckstation
 
-<div align="left">
+Duckstation emulator allows to load custom textures.
 
-<figure><img src="https://i.imgur.com/sJgZ14E.png" alt=""><figcaption><p>Advance Options, set internal resolution abov 1X</p></figcaption></figure>
+RetroBat does not force a folder for the placement of custom texture packs for Duckstation, the default placement is `\emulators\duckstation\textures`, but the folder can be changed in the emulator's settings:
 
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
+
+Once the texture pack in place, just enable the option within Retrobat **ADVANCED SETTINGS > VISUAL RENDERING**:
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
