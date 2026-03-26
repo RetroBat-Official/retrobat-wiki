@@ -52,7 +52,7 @@ You can create your own mapping directly in the dolphin-triforce emulator, using
 
 RetroBat provides a set of patches for some games, they can be accessed through the **advanced settings > Game Patches** menu:
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Service Menu
 

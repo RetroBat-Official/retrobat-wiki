@@ -12,11 +12,7 @@ The whole point of this feature is to allow you to physically store your roms in
 
 **Example:**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/xDr4OsT.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/xDr4OsT.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Creating a symbolic link
 
@@ -34,19 +30,11 @@ Once done, new options will appear in the right-click context menu:
 
 * Pick Link Source
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/i6NrZGJ.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/i6NrZGJ.png" alt=""><figcaption></figcaption></figure></div>
 
 * Drop As...
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/TMwcODp.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/TMwcODp.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Create a symbolic link with Link Shell Extension
 
@@ -56,7 +44,7 @@ In the next example, we will suppose that you are storing your 3do game ROMs in 
 2. Delete the `C:\Retrobat\roms\3do` folder
 3. Right-click on the `D:\Retrobat\3do` folder and select "**Pick Link Source**"
 4. Go to the `C:\Retrobat\roms` folder, right-click anywhere inside the folder and select "**Drop As... > Symbolic Link**"
-5. Your `C:\Retrobat\roms` folder will now show a 3do folder icon with a small arrow ![](<../.gitbook/assets/image (7).png>)&#x20;
+5. Your `C:\Retrobat\roms` folder will now show a 3do folder icon with a small arrow ![](<../.gitbook/assets/image (7) (1).png>)&#x20;
 
 **CONGRATULATIONS** : you have just created a symbolic link !
 
@@ -71,10 +59,6 @@ Let's use the same example as before and try to perform the Symlink creation man
 1. sure all your roms are properly copied to `D:\Retrobat\3do` and that your `C:\Retrobat\roms\3do` does not contain any important data you need to keep
 2. Delete the `C:\Retrobat\roms\3do` folder
 3. Open Windows command and type the following command: `mklink /D "C:\Retrobat\roms\3do" "D:\Retrobat\3do`
-4. Your `C:\Retrobat\roms` folder will now show a 3do folder icon with a small arrow ![](<../.gitbook/assets/image (7).png>)&#x20;
+4. Your `C:\Retrobat\roms` folder will now show a 3do folder icon with a small arrow ![](<../.gitbook/assets/image (7) (1).png>)&#x20;
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/wgrK31v.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/wgrK31v.png" alt=""><figcaption></figcaption></figure></div>

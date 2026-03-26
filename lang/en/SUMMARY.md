@@ -325,6 +325,7 @@
 * [retrobat.ini](advanced-features/retrobat.ini.md)
 * [Latency and blur reduction](advanced-features/latency-and-blur-reduction.md)
 * [Softpatching](advanced-features/softpatching.md)
+* [Old computers - MAME/MESS - launch arguments](advanced-features/old-computers-mame-mess-launch-arguments.md)
 * [Using RetroArch overrides](advanced-features/using-retroarch-overrides.md)
 
 ## TUTORIALS

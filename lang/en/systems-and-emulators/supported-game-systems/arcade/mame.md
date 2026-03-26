@@ -120,4 +120,4 @@ When using a CRT screen, it is possible to use GroovyMAME to automatically switc
 
 The RetroBat team has created a list of profiles available in the advanced settings > video section:
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
