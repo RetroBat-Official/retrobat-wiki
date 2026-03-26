@@ -24,7 +24,7 @@ Portable Game Console - Lifespan: 2004- 2011
 
 ## Controls
 
-Except standalone MelonDS emulator, all emulators can simulate touchscreen with the joystick, this can usually be enabled in the advanced options > controls:
+Except standalone MelonDS emulator, most emulators can simulate touchscreen with the joystick, this can usually be enabled in the advanced options > controls:
 
 <div align="left"><figure><img src="https://i.imgur.com/2BUwdga.png" alt=""><figcaption></figcaption></figure></div>
 
@@ -33,10 +33,15 @@ Except standalone MelonDS emulator, all emulators can simulate touchscreen with 
 | lr-melondsds                                               | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_melondsds.png?raw=true" alt="" data-size="original">             |
 | <p>lr-desmume<br>lr-desmume2015</p>                        | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds.png?raw=true" alt="" data-size="original">                       |
 | lr-melonds                                                 | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_melonds.png?raw=true" alt="" data-size="original">               |
-| MelonDS standard                                           | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_melonds_standalone.png?raw=true" alt="" data-size="original">    |
+| MelonDS                                                    | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_melonds_standalone.png?raw=true" alt="" data-size="original">    |
 | MelonDS (left stick)                                       | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_melonds_standalone_ls.png?raw=true" alt="" data-size="original"> |
 | <p>BizHawk standard<br>(L2 can be used for Microphone)</p> | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_bizhawk.png?raw=true" alt="" data-size="original">               |
 | <p>BizHawk (mouse)<br>(L2 can be used for Microphone)</p>  | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_bizhawk_mouse.png?raw=true" alt="" data-size="original">         |
+| lr-noods                                                   | <p></p><p><img src="../../../../.gitbook/assets/nds_noods.png" alt="" data-size="original"></p>                                                        |
+
+MelonDS also offers the option to invert face buttons in order to match an XBOX controller layout, this can be enabled with the following option in **ADVANCED SETTINGS > CONTROLS**:
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure></div>
 
 ## Specific System Information
 
@@ -91,8 +96,6 @@ Only the standalone melonDS emulator allows to install games to a nand, in order
 <div align="left"><figure><img src="https://i.imgur.com/goIa0vj.png" alt=""><figcaption></figcaption></figure></div>
 
 Next time you run the .bin nand file from RetroBat, the added title will be available in the nand menu for you to play.
-
-
 
 {% hint style="danger" %}
 DS nand files have a limited size, running nand files that are heavier than the maximum authorized number of blocks will lead to a black screen.
