@@ -30,33 +30,20 @@ There is no BIOS files needed to run games.
 
 ## Controls
 
-### Libretro (Mupen64plus\_next and parallel)
+### Control layouts
 
-<div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64.png?raw=true" alt="" width="375"><figcaption></figcaption></figure></div>
-
-### Mupen64 (RMG), Simple64, Project64, Ares and Bizhawk
-
-Mupen64 RMG, Simple64 and Project64 have 5 different layouts available that can be switched through this option:
+RetroBat offers multiple controller layouts for N64.
 
 <div align="left"><figure><img src="https://i.imgur.com/QgyGghe.png" alt=""><figcaption></figcaption></figure></div>
 
-Ares and Bizhawk have 3 layout options:
-
-<div align="left"><figure><img src="https://i.imgur.com/A15fcOj.png" alt=""><figcaption></figcaption></figure></div>
-
-Details of the 5 layouts:
-
-| Option                                                                                                            | Layout                                                                                                                                              |
-| ----------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p>Default<br><br>C-BUTTONS=RIGHT-STICK Z=LEFT-TRIGGER<br><br><strong>Ares/Bizhawk</strong><br>Z=LEFT-TRIGGER</p> | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone.png?raw=true" alt="" data-size="original">         |
-| C-BUTTONS=FACE Z=LEFT-TRIGGER                                                                                     | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone_face_zl.png?raw=true" alt="" data-size="original"> |
-| <p>C-BUTTONS=RIGHT-STICK Z=RIGHT-TRIGGER<br><br><strong>Ares/Bizhawk</strong><br>Z=RIGHT-TRIGGER</p>              | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone_zr.png?raw=true" alt="" data-size="original">      |
-| C-BUTTONS=FACE Z=RIGHT-TRIGGER                                                                                    | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone_face_zr.png?raw=true" alt="" data-size="original"> |
-| XBOX                                                                                                              | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64_xbox.png?raw=true" alt="" data-size="original">               |
-
-### Gopher64
-
-Gopher64 only has one default layout provided with the emulator.
+| Option                                                                      | Layout                                                                                                                                              |
+| --------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Default for Retroarch / Libretro                                            | <img src="../../../../.gitbook/assets/image (79).png" alt="" data-size="original">                                                                  |
+| Default for non-Retroarch                                                   | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone.png?raw=true" alt="" data-size="original">         |
+| <p>C-BUTTONS=FACE Z=LEFT-TRIGGER<br>Project64, RMG, Simple64, Gopher64</p>  | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone_face_zl.png?raw=true" alt="" data-size="original"> |
+| <p>Z=RIGHT-TRIGGER<br>All emulators except Retroarch/Libretro</p>           | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone_zr.png?raw=true" alt="" data-size="original">      |
+| <p>C-BUTTONS=FACE Z=RIGHT-TRIGGER<br>Project64, RMG, Simple64, Gopher64</p> | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone_face_zr.png?raw=true" alt="" data-size="original"> |
+| <p>XBOX<br>All emulators</p>                                                | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64_xbox.png?raw=true" alt="" data-size="original">               |
 
 ### Using a N64 controller
 
@@ -66,19 +53,21 @@ RetroBat will automatically detect and configure the following N64 controllers:
 * Original N64 pad with Mayflash adapter
 * Nintendo Switch Online N64 Gamepad (only on standalone emulators, not with RetroArch)
 
-Additionaly, RMG Mupen64 and Simple64 can leverage the Raphnet direct access feature with a dedicated plugin, this can be enabled in RetroBat features:
-
-<div align="left"><figure><img src="https://i.imgur.com/q5F7GM3.png" alt=""><figcaption></figcaption></figure></div>
-
 {% hint style="info" %}
 When using Mayflash adapter, controllers must be plugged in reverse order, meaning player 1 will be assigned to the last port of the adapter.
 {% endhint %}
 
 The mapping for N64 controllers can be found in the file "**n64Controllers.json**" that is located in the `\system\resources\inputmapping` folder of the RetroBat installation, it is possible to add your own controller mapping within this file.
 
+### Raphnet adapter
+
+RMG Mupen64, Project64 and Simple64 can leverage the Raphnet direct access feature with a dedicated plugin, this can be enabled in RetroBat features:
+
+<div align="left"><figure><img src="https://i.imgur.com/q5F7GM3.png" alt=""><figcaption></figcaption></figure></div>
+
 ## Specific System Information
 
-### Custom textures
+### Custom textures - libretro\_mupen64plus\_next
 
 mupen64plus next core allows the use of custom textures.
 
@@ -109,3 +98,11 @@ Select CACHE if the texture pack is uncompressed (folder).
 {% hint style="info" %}
 At first launch of a game with an uncompressed texture pack, Mupen64Plus-next will generate a .hts file in `CACHE` folder, upon next launch of the game, it is possible to use RICE instead of CACHE.
 {% endhint %}
+
+### Custom textures - Project64
+
+Project64 also offers custom textures loading option.
+
+To enable custom textures, place them within the `saves\n64\project64\hires_texture` folder of your RetroBat installation, then enable the option in RetroBat:
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure></div>
