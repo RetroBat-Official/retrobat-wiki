@@ -22,20 +22,13 @@ Game Console - Lifespan: 1993 - 1996
 
 **For Mega-LD pack:**
 
-| Bios file (in /bios folder)                                                       |
-| --------------------------------------------------------------------------------- |
-| Pioneer LaserActive Sega PAC Boot ROM v1.02 (1993)(Pioneer - Sega)(JP)(en-ja).bin |
-| Pioneer LaserActive Sega PAC Boot ROM v1.04 (1993)(Pioneer - Sega)(US).bin        |
+\[BIOS] LaserActive PAC-S1 (Japan) (v1.05).bin
+
+<table><thead><tr><th width="432.75">Bios file</th><th>Folder</th></tr></thead><tbody><tr><td>[BIOS] LaserActive PAC-S10 (US) (v1.04).bin</td><td><code>\bios\laseractive</code></td></tr><tr><td>[BIOS] LaserActive PAC-S1 (Japan) (v1.05).bin</td><td><code>\bios\laseractive</code></td></tr></tbody></table>
 
 **For LD-ROM² pack:**
 
-| Bios file (in /bios folder)                     |
-| ----------------------------------------------- |
-| \[BIOS] LaserActive PAC-N10 (US) (v1.02).bin    |
-| \[BIOS] LaserActive PAC-N1 (Japan) (v1.02).bin  |
-| \[BIOS] LaserActive PCE-LP1 (Japan) (v1.02).bin |
-| gexpress.pce                                    |
-| syscard1.pce                                    |
+<table><thead><tr><th width="414">Bios file (in /bios folder)</th><th>Folder</th></tr></thead><tbody><tr><td>[BIOS] LaserActive PAC-N10 (US) (v1.02).bin</td><td><code>\bios\laseractive</code></td></tr><tr><td>[BIOS] LaserActive PAC-N1 (Japan) (v1.02).bin</td><td><code>\bios\laseractive</code></td></tr><tr><td>[BIOS] LaserActive PCE-LP1 (Japan) (v1.02).bin</td><td><code>\bios\laseractive</code></td></tr><tr><td>gexpress.pce</td><td><code>\bios</code></td></tr><tr><td>syscard1.pce</td><td><code>\bios</code></td></tr></tbody></table>
 
 ## Controls
 
