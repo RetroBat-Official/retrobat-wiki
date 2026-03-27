@@ -12,7 +12,7 @@ Game Console - Lifespan: 1978 - 1984
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: o2em</li><li>Libretro: mame</li><li>Mame64</li><li>bizhawk</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> o2em</td></tr><tr><td><strong>File extension</strong></td><td>.bin .zip .7z</td></tr><tr><td><strong>Model Emulated</strong></td><td>videopac, videopacp, videopacf, odyssey2, odyssey3, jopac</td></tr><tr><td><strong>Softlists available</strong></td><td>videopac</td></tr><tr><td><strong>Media Types</strong></td><td>Cartridge</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: o2em</li><li>Libretro: mame</li><li>Mame64</li><li>bizhawk</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> odyssey2</td></tr><tr><td><strong>File extension</strong></td><td>.bin .zip .7z</td></tr><tr><td><strong>Model Emulated</strong></td><td>videopac, videopacp, videopacf, odyssey2, odyssey3, jopac</td></tr><tr><td><strong>Softlists available</strong></td><td>videopac</td></tr><tr><td><strong>Media Types</strong></td><td>Cartridge</td></tr></tbody></table>
 
 ## System Features
 
