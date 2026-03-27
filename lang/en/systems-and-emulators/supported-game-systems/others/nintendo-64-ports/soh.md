@@ -1,10 +1,6 @@
 # Ship Of Harkinian
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/vPpkx02.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/vPpkx02.png" alt=""><figcaption></figcaption></figure></div>
 
 Game engine to play Ocarina Of Time.
 
@@ -20,11 +16,11 @@ No BIOS required.
 
 ## Controls
 
-<div align="left">
+<div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone.png?raw=true" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone.png?raw=true" alt=""><figcaption></figcaption></figure>
+An alternative control layout is available, with Z on the right trigger, use this option to enable it:
 
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Using a N64 controller
 

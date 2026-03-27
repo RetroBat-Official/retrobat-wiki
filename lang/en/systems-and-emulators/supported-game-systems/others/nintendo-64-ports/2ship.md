@@ -18,6 +18,10 @@ No BIOS required.
 
 <div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone.png?raw=true" alt=""><figcaption></figcaption></figure></div>
 
+An alternative control layout is available, with Z on the right trigger, use this option to enable it:<br>
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure></div>
+
 ### Using a N64 controller
 
 RetroBat will automatically detect and configure the following N64 controllers:
