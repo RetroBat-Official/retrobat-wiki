@@ -40,7 +40,7 @@ For Citron & Eden emulators, SAVE folder can be moved to the`saves\switch` folde
 
 To do this, switch on the following option located in the **MAIN MENU > GAME SETTINGS**:
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ## BIOS
 
@@ -116,4 +116,4 @@ The next screen will invite you to search for your update or DLC .nsp file on yo
 
 Eden and Citron also allow to load update and DLC content from another folder, RetroBat will by default define the folder `roms\switchupdates` to enable load of external content.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>

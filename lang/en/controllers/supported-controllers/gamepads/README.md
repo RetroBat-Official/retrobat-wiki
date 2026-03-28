@@ -28,7 +28,7 @@ When using a wired 8bitdo controller, the switch between XInput and sdl is done 
 
 ### XBox controllers (or any XInput controller)
 
-![](<../../../.gitbook/assets/image (8) (1).png>)![](<../../../.gitbook/assets/image (6) (1).png>)
+![](<../../../.gitbook/assets/image (8) (1) (1).png>)![](<../../../.gitbook/assets/image (6) (1) (1).png>)
 
 For wired Xbox controllers, the connection to windows and setup in Retrobat will be plug'n'play.
 

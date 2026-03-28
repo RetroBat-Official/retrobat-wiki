@@ -62,11 +62,11 @@ The JSON file is located in the folder `system\resources\inputmapping` of the Re
 
 Inside this file, it is possible to force a remap for specific games, which will be automatically identified by RetroBat based on the filenames listed in the json "Roms" section, or with the normalization of the filename and the json "Name" value:
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 In the above example, if the BombJack game is launched with RetroBat, the buttons L2, R2 and select from the gamepad will automatically be assigned to keyboard keys 1, 2 and J of the keyboard:
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Do not hesitate to share your own game remaps with the RetroBat team.
