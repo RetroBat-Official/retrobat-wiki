@@ -22,6 +22,7 @@
 * [Configuration of systems and games](navigation/configuration-of-systems-and-games.md)
 * [Scraping & Metadata](navigation/scraping-and-metadata.md)
 * [Game Collections](navigation/game-collections.md)
+* [Game Center](navigation/game-center.md)
 
 ## Systems & Emulators
 
