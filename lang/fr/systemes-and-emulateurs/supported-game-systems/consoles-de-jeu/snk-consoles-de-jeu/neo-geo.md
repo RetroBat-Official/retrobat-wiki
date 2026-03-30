@@ -4,11 +4,7 @@ description: SNK
 
 # Neo Geo
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/neogeo.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/neogeo.svg" alt=""><figcaption></figcaption></figure></div>
 
 Console de jeu - Durée de vie: 1990 - 2004
 
@@ -44,11 +40,7 @@ Le core ne permet pas l'utilisation du dossier `\bios`.
 
 Les émulateurs Neo-Geo ont tous des schémas de contrôles différents qui dépendent également des options de contrôles sélectionnés dans RetroBat:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/lYwSjkO.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/lYwSjkO.png" alt=""><figcaption></figcaption></figure></div>
 
 | Option \ émulateur             | Schéma de contrôles                                                                                                                                |
 | ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -66,20 +58,12 @@ Les émulateurs Neo-Geo ont tous des schémas de contrôles différents qui dép
 
 ### Accéder aux paramètres du BIOS Unibios
 
-La combinaison de touches ![](<../../../../.gitbook/assets/image (33).png>) + ![](<../../../../.gitbook/assets/image (20).png>) + ![](<../../../../.gitbook/assets/image (7).png>) , lorsque utilisée au démarrage, permet d'accéder aux paramètres du BIOS universel:
+La combinaison de touches ![](<../../../../.gitbook/assets/image (33).png>) + ![](<../../../../.gitbook/assets/image (20) (1).png>) + ![](<../../../../.gitbook/assets/image (7) (1).png>) , lorsque utilisée au démarrage, permet d'accéder aux paramètres du BIOS universel:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/zdbCnw5.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/zdbCnw5.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Accéder au menu "in-game"
 
-En cours de jeu, la combinaison de touches **START** + ![](<../../../../.gitbook/assets/image (33).png>) + ![](<../../../../.gitbook/assets/image (20).png>) + ![](<../../../../.gitbook/assets/image (7).png>) permet d'accéder au menu "in-game":
+En cours de jeu, la combinaison de touches **START** + ![](<../../../../.gitbook/assets/image (33).png>) + ![](<../../../../.gitbook/assets/image (20) (1).png>) + ![](<../../../../.gitbook/assets/image (7) (1).png>) permet d'accéder au menu "in-game":
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/7SlsT4U.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/7SlsT4U.png" alt=""><figcaption></figcaption></figure></div>

@@ -26,11 +26,7 @@ Aucun BIOS nécessaire.
 
 Certains émulateurs permettent de modifier le positionnement des boutons ou d'activer des boutons "turbo" :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/mvHL7wT.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/mvHL7wT.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Schémas de contrôles:
 
@@ -40,6 +36,8 @@ Certains émulateurs permettent de modifier le positionnement des boutons ou d'a
 | <p>TURBO<br>- libretro (retroarch)<br>- mesen<br>- mednafen</p>             | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nes_turbo.png?raw=true" alt="" data-size="original">        |
 | <p>ROTATION<br>(tous les émulateurs)</p>                                    | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nes_rotate.png?raw=true" alt="" data-size="original">       |
 | <p>ROTATION et TURBO<br>- libretro (retroarch)<br>- mesen<br>- mednafen</p> | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nes_rotate_turbo.png?raw=true" alt="" data-size="original"> |
+| <p>XBOX<br>- libretro (retroarch)</p>                                       | <img src="../../../../.gitbook/assets/image (58).png" alt="" data-size="original">                                                            |
+| <p></p><p>XBOX TURBO<br>- libretro (retroarch)</p>                          | <img src="../../../../.gitbook/assets/image (59).png" alt="" data-size="original">                                                            |
 
 ## Information spécifique au système
 
@@ -49,40 +47,20 @@ L'émulateur libretro:mesen permet l'utilisation de packs de textures personnali
 
 Placer le pack de textures dans le dossier `\bios\HdPacks` dans un sous-dossier portant un nom identique à celui du fichier du jeu. Par exemple si votre jeu est nommé `Mega Man (USA).nes`, le dossier du pack de textures doit être nommé `Mega Man (USA).`
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/0t1gw0h.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/0t1gw0h.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Assurez-vous que le hash sha1 du fichier de jeu est identique au sha1 listé dans le fichier "hires.txt" se trouvant dans le dossier du pack de textures:
 {% endhint %}
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/KAQVQlV.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/KAQVQlV.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/b04EdoH.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/b04EdoH.png" alt=""><figcaption></figcaption></figure></div>
 
 Ensuite, sélectionner l'émulateur **Libretro: mesen** pour le jeu ou pour le système nes dans Retrobat:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/VejzZpo.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/VejzZpo.png" alt=""><figcaption></figcaption></figure></div>
 
 Enfin, activer l'option "**Custom Textures**" dans Configuration avancée du système > Visual Rendering:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/VhTLGy1.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/VhTLGy1.png" alt=""><figcaption></figcaption></figure></div>

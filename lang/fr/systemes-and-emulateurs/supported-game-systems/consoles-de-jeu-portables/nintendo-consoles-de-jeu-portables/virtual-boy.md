@@ -4,11 +4,7 @@ description: Nintendo
 
 # Virtual Boy
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/virtualboy.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/virtualboy.svg" alt=""><figcaption></figcaption></figure></div>
 
 Console de jeu portable - Durée de vie : 1995 - 1996
 
@@ -35,8 +31,8 @@ Aucun BIOS nécessaire.
 | D-PAD                                                                              | D-PAD gauche |
 | Stick analogique gauche                                                            | D-PAD gauche |
 | Stick analogique droit                                                             | D-PAD droite |
-| ![A](<../../../../.gitbook/assets/image (20).png>)                                 | B            |
-| ![B](<../../../../.gitbook/assets/image (7).png>)                                  | A            |
+| ![A](<../../../../.gitbook/assets/image (20) (1).png>)                             | B            |
+| ![B](<../../../../.gitbook/assets/image (7) (1).png>)                              | A            |
 | <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> |              |
 | <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     |              |
 | L1                                                                                 | L1           |
@@ -46,11 +42,7 @@ Aucun BIOS nécessaire.
 | L3                                                                                 |              |
 | R3                                                                                 |              |
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/L8Na7Mq.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/L8Na7Mq.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Information spécifique au système
 

@@ -26,27 +26,27 @@ Aucun BIOS nécessaire
 
 boom3 permet de sélectionner 2 schémas de contrôles, accessibles depuis le menu RetroBat.
 
-| Retrobat                                       | Classic                     | Modern                                                      |
-| ---------------------------------------------- | --------------------------- | ----------------------------------------------------------- |
-| START                                          | Afficher / masquer le menu  | Afficher / masquer le menu                                  |
-| SELECT                                         | Afficher / masquer la carte | Afficher / masquer la carte                                 |
-| D-PAD                                          | D-PAD                       | D-PAD                                                       |
-| Left analog stick                              |                             | <p>X-axe: déplacement latéral<br>Y-axe: Avancer/reculer</p> |
-| Right analog stick                             |                             | X-axe: regarder à gauche et droite                          |
-| ![](<../../../.gitbook/assets/image (33).png>) | Courir                      | Sauvegarde rapide                                           |
-| ![](<../../../.gitbook/assets/image (20).png>) | Utiliser                    | Menu : annuler                                              |
-| ![](<../../../.gitbook/assets/image (7).png>)  | Tirer                       | Menu : sélectionner                                         |
-| ![](<../../../.gitbook/assets/image (35).png>) | Mitrailler                  | Chargement rapide                                           |
-| L1                                             | Mitrailler à gauche         | Arme précédente                                             |
-| R1                                             | Mitrailler à droite         | Arme suivante                                               |
-| L2                                             | Arme précédente             | Utiliser                                                    |
-| R2                                             | Arme suivante               | Tirer                                                       |
-| L3                                             |                             | Courir                                                      |
-| R3                                             |                             | Se retourner (180°)                                         |
+| Retrobat                                           | Classic                     | Modern                                                      |
+| -------------------------------------------------- | --------------------------- | ----------------------------------------------------------- |
+| START                                              | Afficher / masquer le menu  | Afficher / masquer le menu                                  |
+| SELECT                                             | Afficher / masquer la carte | Afficher / masquer la carte                                 |
+| D-PAD                                              | D-PAD                       | D-PAD                                                       |
+| Left analog stick                                  |                             | <p>X-axe: déplacement latéral<br>Y-axe: Avancer/reculer</p> |
+| Right analog stick                                 |                             | X-axe: regarder à gauche et droite                          |
+| ![](<../../../.gitbook/assets/image (33).png>)     | Courir                      | Sauvegarde rapide                                           |
+| ![](<../../../.gitbook/assets/image (20) (1).png>) | Utiliser                    | Menu : annuler                                              |
+| ![](<../../../.gitbook/assets/image (7) (1).png>)  | Tirer                       | Menu : sélectionner                                         |
+| ![](<../../../.gitbook/assets/image (35).png>)     | Mitrailler                  | Chargement rapide                                           |
+| L1                                                 | Mitrailler à gauche         | Arme précédente                                             |
+| R1                                                 | Mitrailler à droite         | Arme suivante                                               |
+| L2                                                 | Arme précédente             | Utiliser                                                    |
+| R2                                                 | Arme suivante               | Tirer                                                       |
+| L3                                                 |                             | Courir                                                      |
+| R3                                                 |                             | Se retourner (180°)                                         |
 
 ### Dhewm3 :
 
-<table><thead><tr><th width="205">Retrobat</th><th>Action</th></tr></thead><tbody><tr><td>D-PAD</td><td>Avancer<br>Reculer<br>Se déplacer à gaucher et à droite</td></tr><tr><td>Left analog stick</td><td>Avancer<br>Reculer<br>Se déplacer à gaucher et à droite</td></tr><tr><td>Reft analog stick</td><td><p>Regarder en haut / en bas</p><p>A gauche/ à droite</p></td></tr><tr><td><img src="../../../.gitbook/assets/image (33).png" alt=""></td><td>Courir</td></tr><tr><td><img src="../../../.gitbook/assets/image (20).png" alt=""></td><td>Monter</td></tr><tr><td><img src="../../../.gitbook/assets/image (7).png" alt=""></td><td>Descendre</td></tr><tr><td><img src="../../../.gitbook/assets/image (35).png" alt=""></td><td>Zoom</td></tr><tr><td>L1</td><td>Impulse 13</td></tr><tr><td>R1</td><td>Tirer</td></tr><tr><td>L2</td><td>Impulse 15</td></tr><tr><td>R2</td><td>Impulse 14</td></tr></tbody></table>
+<table><thead><tr><th width="205">Retrobat</th><th>Action</th></tr></thead><tbody><tr><td>D-PAD</td><td>Avancer<br>Reculer<br>Se déplacer à gaucher et à droite</td></tr><tr><td>Left analog stick</td><td>Avancer<br>Reculer<br>Se déplacer à gaucher et à droite</td></tr><tr><td>Reft analog stick</td><td><p>Regarder en haut / en bas</p><p>A gauche/ à droite</p></td></tr><tr><td><img src="../../../.gitbook/assets/image (33).png" alt=""></td><td>Courir</td></tr><tr><td><img src="../../../.gitbook/assets/image (20) (1).png" alt=""></td><td>Monter</td></tr><tr><td><img src="../../../.gitbook/assets/image (7) (1).png" alt=""></td><td>Descendre</td></tr><tr><td><img src="../../../.gitbook/assets/image (35).png" alt=""></td><td>Zoom</td></tr><tr><td>L1</td><td>Impulse 13</td></tr><tr><td>R1</td><td>Tirer</td></tr><tr><td>L2</td><td>Impulse 15</td></tr><tr><td>R2</td><td>Impulse 14</td></tr></tbody></table>
 
 ## Information spécifique au système
 

@@ -4,11 +4,7 @@ description: APF Electronics Inc.
 
 # APF MP-1000
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/apfm1000.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/apfm1000.svg" alt=""><figcaption></figcaption></figure></div>
 
 Console de jeu - Durée de vie : 1978
 
@@ -37,23 +33,23 @@ apfm1000.zip
 
 ## Contrôles
 
-| Retrobat                                       | APF-M1000 |
-| ---------------------------------------------- | --------- |
-| START                                          | 0         |
-| SELECT                                         | 9         |
-| D-PAD                                          | Stick     |
-| Stick analogique gauche                        |           |
-| Stick analogique droit                         |           |
-| ![](<../../../.gitbook/assets/image (33).png>) | 2         |
-| ![](<../../../.gitbook/assets/image (20).png>) | En        |
-| ![](<../../../.gitbook/assets/image (7).png>)  | Cl        |
-| ![](<../../../.gitbook/assets/image (35).png>) | l         |
-| L1                                             | 4         |
-| R1                                             | 3         |
-| L2                                             | 6         |
-| R2                                             | 5         |
-| L3                                             | 8         |
-| R3                                             | 7         |
+| Retrobat                                           | APF-M1000 |
+| -------------------------------------------------- | --------- |
+| START                                              | 0         |
+| SELECT                                             | 9         |
+| D-PAD                                              | Stick     |
+| Stick analogique gauche                            |           |
+| Stick analogique droit                             |           |
+| ![](<../../../.gitbook/assets/image (33).png>)     | 2         |
+| ![](<../../../.gitbook/assets/image (20) (1).png>) | En        |
+| ![](<../../../.gitbook/assets/image (7) (1).png>)  | Cl        |
+| ![](<../../../.gitbook/assets/image (35).png>)     | l         |
+| L1                                                 | 4         |
+| R1                                                 | 3         |
+| L2                                                 | 6         |
+| R2                                                 | 5         |
+| L3                                                 | 8         |
+| R3                                                 | 7         |
 
 ## Information spécifique du système
 

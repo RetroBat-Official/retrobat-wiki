@@ -12,7 +12,7 @@ Console de jeu - Durée de vie : 2001 - 2007
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>dolphin</li><li>libretro: dolphin</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> gamecube</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.gcz .iso .ciso .wbfs .wad .rvz .wia .m3u .zip .7z .json</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>dolphin</li><li>libretro: dolphin</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> gamecube</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.dol .gcz .iso .ciso .wbfs .wad .rvz .wia .m3u .zip .7z .squashfs .json</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
@@ -132,7 +132,7 @@ Dans le fichier m3u, lister les noms exacts des fichiers des disques du jeu et s
 
 Il est possible d'utiliser des textures "custom" avec l'émulateur Dolphin.
 
-Les packs de textures doivent être placés dans le dossier `\saves\dolphin\User\Load\Textures`.
+Les packs de textures doivent être placés dans le dossier `\saves\gamecube\dolphin-emu\User\Load\Textures`.
 
 <div align="left"><figure><img src="https://i.imgur.com/jJm7Htu.png" alt=""><figcaption></figcaption></figure></div>
 

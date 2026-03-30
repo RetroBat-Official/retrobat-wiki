@@ -4,11 +4,7 @@ description: Zen Studios
 
 # Pinball FX2
 
-<div align="left">
-
-<figure><img src="https://github.com/fabricecaruso/es-theme-carbon/blob/master/art/logos/pinballfx2.png?raw=true" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/fabricecaruso/es-theme-carbon/blob/master/art/logos/pinballfx2.png?raw=true" alt=""><figcaption></figcaption></figure></div>
 
 Simulation de Flipper sortie en 2010.
 
@@ -24,7 +20,7 @@ Aucun BIOS nécessaire
 
 ## Contrôles
 
-<table><thead><tr><th width="258">RetroBat</th><th width="443">Pinball FX2</th></tr></thead><tbody><tr><td>START</td><td>Ouvrir menu</td></tr><tr><td>SELECT</td><td>Ouvrir menu</td></tr><tr><td>D-PAD</td><td></td></tr><tr><td>Left Analog stick</td><td>Bousculer le flipper</td></tr><tr><td>Right Analog stick</td><td>Haut: Vue back box / Bas: Lancer la bille</td></tr><tr><td><img src="../../../.gitbook/assets/image (20).png" alt="A"></td><td>Lancement automatique de la bille</td></tr><tr><td><img src="../../../.gitbook/assets/image (7).png" alt="B"></td><td>Extras visuels</td></tr><tr><td><img src="../../../.gitbook/assets/image (35).png" alt="" data-size="original"></td><td>Pouvoir de magicien</td></tr><tr><td><img src="../../../.gitbook/assets/image (33).png" alt="" data-size="line"></td><td>Modifier la vue</td></tr><tr><td>L1</td><td>Flipper gauche</td></tr><tr><td>R1</td><td>Flipper droit</td></tr><tr><td>L2</td><td>Flipper gauche</td></tr><tr><td>R2</td><td>Flipper droit</td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="258">RetroBat</th><th width="443">Pinball FX2</th></tr></thead><tbody><tr><td>START</td><td>Ouvrir menu</td></tr><tr><td>SELECT</td><td>Ouvrir menu</td></tr><tr><td>D-PAD</td><td></td></tr><tr><td>Left Analog stick</td><td>Bousculer le flipper</td></tr><tr><td>Right Analog stick</td><td>Haut: Vue back box / Bas: Lancer la bille</td></tr><tr><td><img src="../../../.gitbook/assets/image (20) (1).png" alt="A"></td><td>Lancement automatique de la bille</td></tr><tr><td><img src="../../../.gitbook/assets/image (7) (1).png" alt="B"></td><td>Extras visuels</td></tr><tr><td><img src="../../../.gitbook/assets/image (35).png" alt="" data-size="original"></td><td>Pouvoir de magicien</td></tr><tr><td><img src="../../../.gitbook/assets/image (33).png" alt="" data-size="line"></td><td>Modifier la vue</td></tr><tr><td>L1</td><td>Flipper gauche</td></tr><tr><td>R1</td><td>Flipper droit</td></tr><tr><td>L2</td><td>Flipper gauche</td></tr><tr><td>R2</td><td>Flipper droit</td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
 
 ## Information spécifique au système
 
@@ -45,7 +41,7 @@ Pour obtenir un code d'activation, effectuer une demande auprès de Zen Studios:
 {% hint style="info" %}
 Plus d'information sur le mode "Cabinet" disponible ici:
 
-[https://www.pinballfx.com/?page\_id=7754#end-anchor](https://www.pinballfx.com/?page\_id=7754#end-anchor)
+[https://www.pinballfx.com/?page\_id=7754#end-anchor](https://www.pinballfx.com/?page_id=7754#end-anchor)
 {% endhint %}
 
 ### Tables

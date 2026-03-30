@@ -12,7 +12,7 @@ Console de jeu - Durée de vie: 1978 - 1984
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro: o2em</li><li>Libretro: mame</li><li>Mame64</li><li>bizhawk</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> o2em</td></tr><tr><td><strong>Extensions</strong></td><td>.bin .zip .7z</td></tr><tr><td><strong>Modèles émulés</strong></td><td>videopac, videopacp, videopacf, odyssey2, odyssey3, jopac</td></tr><tr><td><strong>Softlists disponibles</strong></td><td>videopac</td></tr><tr><td><strong>Types de média</strong></td><td>Cartouche</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro: o2em</li><li>Libretro: mame</li><li>Mame64</li><li>bizhawk</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> odyssey2</td></tr><tr><td><strong>Extensions</strong></td><td>.bin .zip .7z</td></tr><tr><td><strong>Modèles émulés</strong></td><td>videopac, videopacp, videopacf, odyssey2, odyssey3, jopac</td></tr><tr><td><strong>Softlists disponibles</strong></td><td>videopac</td></tr><tr><td><strong>Types de média</strong></td><td>Cartouche</td></tr></tbody></table>
 
 ## Fonctionnalités
 
@@ -77,19 +77,19 @@ voice.zip
 
 Le clavier est mappé avec le clavier, voici la correspondance pour les manettes:
 
-| Retrobat                                       | Videopac |
-| ---------------------------------------------- | -------- |
-| START                                          |          |
-| SELECT                                         |          |
-| D-PAD                                          | D-PAD    |
-| Stick analogique gauche                        |          |
-| Stick analogique droit                         |          |
-| ![](<../../../.gitbook/assets/image (33).png>) |          |
-| ![](<../../../.gitbook/assets/image (20).png>) | Button   |
-| ![](<../../../.gitbook/assets/image (7).png>)  |          |
-| ![](<../../../.gitbook/assets/image (35).png>) |          |
-| L1                                             |          |
-| R1                                             |          |
+| Retrobat                                           | Videopac |
+| -------------------------------------------------- | -------- |
+| START                                              |          |
+| SELECT                                             |          |
+| D-PAD                                              | D-PAD    |
+| Stick analogique gauche                            |          |
+| Stick analogique droit                             |          |
+| ![](<../../../.gitbook/assets/image (33).png>)     |          |
+| ![](<../../../.gitbook/assets/image (20) (1).png>) | Button   |
+| ![](<../../../.gitbook/assets/image (7) (1).png>)  |          |
+| ![](<../../../.gitbook/assets/image (35).png>)     |          |
+| L1                                                 |          |
+| R1                                                 |          |
 
 <div align="left"><figure><img src="https://i.imgur.com/1eW9xUn.png" alt=""><figcaption></figcaption></figure></div>
 

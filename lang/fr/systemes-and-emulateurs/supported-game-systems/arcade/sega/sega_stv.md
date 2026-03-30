@@ -4,11 +4,7 @@ description: Sega
 
 # Sega Titan-Video
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/0ab5d8cd36c673c827b022c2ae53042a38df33da/art/logos/segastv.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/0ab5d8cd36c673c827b022c2ae53042a38df33da/art/logos/segastv.svg" alt=""><figcaption></figcaption></figure></div>
 
 Arcade - Date de création : 1994
 
@@ -31,8 +27,8 @@ Arcade - Date de création : 1994
 | Retrobat                                                                           | Sega ST-V                            |
 | ---------------------------------------------------------------------------------- | ------------------------------------ |
 | D-PAD                                                                              | Directions                           |
-| ![A](<../../../../.gitbook/assets/image (20).png>)                                 | Bouton 1                             |
-| ![B](<../../../../.gitbook/assets/image (7).png>)                                  | Bouton 2                             |
+| ![A](<../../../../.gitbook/assets/image (20) (1).png>)                             | Bouton 1                             |
+| ![B](<../../../../.gitbook/assets/image (7) (1).png>)                              | Bouton 2                             |
 | <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | Bouton 4                             |
 | <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     | Bouton 3                             |
 | SELECT                                                                             | Credit                               |

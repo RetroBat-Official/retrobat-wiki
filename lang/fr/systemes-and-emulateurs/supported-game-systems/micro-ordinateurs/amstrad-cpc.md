@@ -4,11 +4,7 @@ description: Amstrad
 
 # Amstrad CPC
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/amstradcpc-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/amstradcpc.svg" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/amstradcpc-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/amstradcpc.svg" alt=""></picture><figcaption></figcaption></figure></div>
 
 Micro-ordinateurs - durée de vie : 1984 - 1990
 
@@ -34,23 +30,43 @@ Les cores crocods et cap32 permettent de sélectionner les types de contrôleurs
 * KEYBOARD (utiliser la fonction Game Focus en complément)
 * LIGHTGUN (cap32 uniquement)
 
-| Retrobat                                       | Amstrad CPC  |
-| ---------------------------------------------- | ------------ |
-| START                                          | RETURN       |
-| SELECT                                         | SPARE        |
-| D-PAD                                          | D-PAD        |
-| Stick analogique gauche                        | D-PAD        |
-| Stick analogique droit                         |              |
-| ![](<../../../.gitbook/assets/image (33).png>) |              |
-| ![](<../../../.gitbook/assets/image (20).png>) | Fire 2       |
-| ![](<../../../.gitbook/assets/image (7).png>)  | Fire 1       |
-| ![](<../../../.gitbook/assets/image (35).png>) |              |
-| L1                                             | cap32: CTRL  |
-| R1                                             | cap32: INTRO |
-| L2                                             | cap32: F1    |
-| R2                                             | cap32: F2    |
-| L3                                             |              |
-| R3                                             |              |
+| Retrobat                                           | Amstrad CPC  |
+| -------------------------------------------------- | ------------ |
+| START                                              | RETURN       |
+| SELECT                                             | SPARE        |
+| D-PAD                                              | D-PAD        |
+| Stick analogique gauche                            | D-PAD        |
+| Stick analogique droit                             |              |
+| ![](<../../../.gitbook/assets/image (33).png>)     |              |
+| ![](<../../../.gitbook/assets/image (20) (1).png>) | Fire 2       |
+| ![](<../../../.gitbook/assets/image (7) (1).png>)  | Fire 1       |
+| ![](<../../../.gitbook/assets/image (35).png>)     |              |
+| L1                                                 | cap32: CTRL  |
+| R1                                                 | cap32: INTRO |
+| L2                                                 | cap32: F1    |
+| R2                                                 | cap32: F2    |
+| L3                                                 |              |
+| R3                                                 |              |
+
+### Remplacement de la configuration Libretro-Cap32
+
+RetroBat permet d'automatiser le remap des touches pour libretro-Cap32 à partir d'un fichier JSON.
+
+Le fichier JSON est situé dans le dossier `system\resources\inputmapping` de votre installation RetroBat et est nommé **libretro\_cap32.json.**
+
+A l’intérieur de ce fichier, il est possible de forcer une configuration de touches spécifique par jeu, qui sera automatiquement identifié par RetroBat en fonction des noms de fichiers répertoriés dans la section « Roms » du fichier JSON, ou grâce à la normalisation du nom de fichier et de la valeur « Name » du fichier JSON :\
+\
+![](<../../../.gitbook/assets/image (7).png>)
+
+Dans l'exemple ci-dessus, si le jeu BombJack est lancé depuis RetroBat, les boutons L2, R2 et Select de la manette seront automatiquement assignés aux touches 1, 2 et J du clavier:
+
+<div align="left"><figure><img src="../../../.gitbook/assets/image (43).png" alt=""><figcaption></figcaption></figure></div>
+
+{% hint style="info" %}
+N'hesitez pas à partager votre propre fichier de reconfiguration avec la team RetroBat.
+
+Au cas ou vous mettez a jour ce fichier avec vos propres réglages, placez votre version du fichier dans le répertoire <kbd>user\inputmapping</kbd> de votre installation RetroBat, sino il sera écrasé à la mise a jour suivante.
+{% endhint %}
 
 ### Clavier virtuel
 
@@ -58,9 +74,9 @@ Les cores crocods et cap32 permettent de sélectionner les types de contrôleurs
 
 ## Information spécifique au système
 
-### Modifier la ligne de commande pour Cap32
+### Forcer des arguments de ligne de commande pour Cap32
 
-Le core Cap32 possède une fonctionnalité "autorun" qui permet d'entrer automatiquement la ligne de commande de lancement du jeu lors du démarrage. Il est toutefois possible, dans certains cas, que la mauvaise ligne de commande soit envoyée par le core.&#x20;
+Le core Cap32 possède une fonctionnalité "autorun" qui permet d'entrer automatiquement des arguments de ligne de commande lors du démarrage. Il est toutefois possible, dans certains cas, que la mauvaise ligne de commande soit envoyée par le core.&#x20;
 
 Pour palier ce problème, il est possible de forcer l'utilisation d'une ligne de commande spécifique dans un fichier m3u:
 

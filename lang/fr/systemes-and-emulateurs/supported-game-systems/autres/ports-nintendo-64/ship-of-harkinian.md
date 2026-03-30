@@ -1,10 +1,6 @@
 # Ship Of Harkinian
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/vPpkx02.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/vPpkx02.png" alt=""><figcaption></figcaption></figure></div>
 
 Moteur de jeu pour Ocarina Of Time
 
@@ -20,11 +16,11 @@ Aucun BIOS nécessaire.
 
 ## Contrôles
 
-<div align="left">
+<div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone.png?raw=true" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone.png?raw=true" alt=""><figcaption></figcaption></figure>
+Une disposition alternative de touche est disponible, avec le bouton Z sur la gâchette droite, l'option peut être activée via le menu disponible dans **OPTIONS AVANCÉES DU SYSTÈME > CONTRÔLES** :&#x20;
 
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Utiliser une manette N64
 
@@ -38,7 +34,7 @@ RetroBat détecte et configure automatiquement les manettes N64 suivantes:
 Il est important de connecter les manettes de droite à gauche sur l'adaptateur Mayflash, la manette 1 étant celle connectée au port 4 (ou 2 pour les adaptateurs 2 manettes) de l'adaptateur.
 {% endhint %}
 
-Le mapping des manettes N64 est géré par le fichier "**n64Controllers.json**" situé dans le répertoire `\system\resources\inputmapping` de l'installation RetroBat, il est possible d'ajouter d'autres manettes dans ce fichier pour automatiquement configurer votre contrôleur.
+Le mapping des manettes N64 est géré par le fichier "**n64Controllers.json**" situé dans le répertoire `\system\resources\inputmapping` de l'installation RetroBat, il est possible de rajouter votre propre paramétrage pour une manette dans ce fichier et de le sauvegarder dans le dossier `user\inputmapping`.
 
 ## Information spécifique au système
 

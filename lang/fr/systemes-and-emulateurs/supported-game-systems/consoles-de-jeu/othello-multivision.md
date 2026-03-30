@@ -4,11 +4,7 @@ description: Othello
 
 # Othello Multivision
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/db9685d44d41fa27f869daaba3ab446395ff3485/art/logos/multivision.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/db9685d44d41fa27f869daaba3ab446395ff3485/art/logos/multivision.svg" alt=""><figcaption></figcaption></figure></div>
 
 Console de jeu, clone de la SEGA SG-1000 - Durée de vie : 1983 - 1985
 
@@ -28,18 +24,14 @@ Aucun BIOS nécessaire.
 
 ### &#x20;Controls <a href="#controles" id="controles"></a>
 
-| RetroBat                                        | SG-1000                              |
-| ----------------------------------------------- | ------------------------------------ |
-| SELECT / BACK                                   | PAUSE (bouton sur la console de jeu) |
-| D-PAD, stick analogique gauche                  | D-PAD                                |
-| ![A](<../../../.gitbook/assets/image (20).png>) | B                                    |
-| ![B](<../../../.gitbook/assets/image (7).png>)  | A                                    |
+| RetroBat                                            | SG-1000                              |
+| --------------------------------------------------- | ------------------------------------ |
+| SELECT / BACK                                       | PAUSE (bouton sur la console de jeu) |
+| D-PAD, stick analogique gauche                      | D-PAD                                |
+| ![A](<../../../.gitbook/assets/image (20) (1).png>) | B                                    |
+| ![B](<../../../.gitbook/assets/image (7) (1).png>)  | A                                    |
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/diLUXXB.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/diLUXXB.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Information spécifique au système
 

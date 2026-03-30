@@ -4,11 +4,7 @@ description: Bitcorp.
 
 # Gamate
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/gamate.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/gamate.svg" alt=""><figcaption></figcaption></figure></div>
 
 Console de jeu portable - Durée de vie : 1990 - 1994
 
@@ -36,7 +32,7 @@ gamate.zip
 
 ## Contrôles
 
-<table><thead><tr><th width="258">RetroBat</th><th width="443">Gamate</th></tr></thead><tbody><tr><td>START</td><td>START</td></tr><tr><td>SELECT</td><td>SELECT</td></tr><tr><td>D-PAD</td><td>D-PAD</td></tr><tr><td>Stick analogique gauche</td><td></td></tr><tr><td>Stick analogique droit</td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (20).png" alt="A"></td><td>B</td></tr><tr><td><img src="../../../.gitbook/assets/image (7).png" alt="B"></td><td>A</td></tr><tr><td><img src="../../../.gitbook/assets/image (35).png" alt="" data-size="original"></td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (33).png" alt="" data-size="line"></td><td></td></tr><tr><td>L1</td><td></td></tr><tr><td>R1</td><td></td></tr><tr><td>L2</td><td></td></tr><tr><td>R2</td><td></td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="258">RetroBat</th><th width="443">Gamate</th></tr></thead><tbody><tr><td>START</td><td>START</td></tr><tr><td>SELECT</td><td>SELECT</td></tr><tr><td>D-PAD</td><td>D-PAD</td></tr><tr><td>Stick analogique gauche</td><td></td></tr><tr><td>Stick analogique droit</td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (20) (1).png" alt="A"></td><td>B</td></tr><tr><td><img src="../../../.gitbook/assets/image (7) (1).png" alt="B"></td><td>A</td></tr><tr><td><img src="../../../.gitbook/assets/image (35).png" alt="" data-size="original"></td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (33).png" alt="" data-size="line"></td><td></td></tr><tr><td>L1</td><td></td></tr><tr><td>R1</td><td></td></tr><tr><td>L2</td><td></td></tr><tr><td>R2</td><td></td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
 
 ## Information spécifique au système
 

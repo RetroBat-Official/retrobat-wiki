@@ -26,23 +26,23 @@ Console de jeu - Durée de vie : 1979 - 1990
 
 ### Libretro :
 
-| Retrobat                                       | Intellivision              |
-| ---------------------------------------------- | -------------------------- |
-| START                                          | Pause                      |
-| SELECT                                         | Changement de contrôleur   |
-| D-PAD                                          | Mouvement (8 directions)   |
-| Stick analogique gauche                        | Mouvement (16 directions)  |
-| Stick analogique droit                         | Keypad 1-9                 |
-| ![](<../../../.gitbook/assets/image (33).png>) | Bouton action haut         |
-| ![](<../../../.gitbook/assets/image (20).png>) | Bouton action gauche       |
-| ![](<../../../.gitbook/assets/image (7).png>)  | Bouton action droit        |
-| ![](<../../../.gitbook/assets/image (35).png>) | Utiliser le dernier bouton |
-| L1                                             | Activer le Mini-Keypad     |
-| R1                                             | Activer le Mini-Keypad     |
-| L2                                             | Keypad Clear               |
-| R2                                             | Keypad Enter               |
-| L3                                             | Keypad 0                   |
-| R3                                             | Keypad 5                   |
+| Retrobat                                           | Intellivision              |
+| -------------------------------------------------- | -------------------------- |
+| START                                              | Pause                      |
+| SELECT                                             | Changement de contrôleur   |
+| D-PAD                                              | Mouvement (8 directions)   |
+| Stick analogique gauche                            | Mouvement (16 directions)  |
+| Stick analogique droit                             | Keypad 1-9                 |
+| ![](<../../../.gitbook/assets/image (33).png>)     | Bouton action haut         |
+| ![](<../../../.gitbook/assets/image (20) (1).png>) | Bouton action gauche       |
+| ![](<../../../.gitbook/assets/image (7) (1).png>)  | Bouton action droit        |
+| ![](<../../../.gitbook/assets/image (35).png>)     | Utiliser le dernier bouton |
+| L1                                                 | Activer le Mini-Keypad     |
+| R1                                                 | Activer le Mini-Keypad     |
+| L2                                                 | Keypad Clear               |
+| R2                                                 | Keypad Enter               |
+| L3                                                 | Keypad 0                   |
+| R3                                                 | Keypad 5                   |
 
 ### Émulateurs standalone :
 

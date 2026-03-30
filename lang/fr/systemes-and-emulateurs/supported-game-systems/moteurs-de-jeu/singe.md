@@ -14,20 +14,20 @@ Aucun BIOS nécessaire.
 
 ## Contrôles
 
-| Retrobat                                       | Hypseus    |
-| ---------------------------------------------- | ---------- |
-| START                                          | START 1    |
-| SELECT                                         | COIN 1     |
-| D-PAD                                          | DIRECTIONS |
-| Left analog stick                              | DIRECTIONS |
-| ![](<../../../.gitbook/assets/image (33).png>) | SKILL 1    |
-| ![](<../../../.gitbook/assets/image (20).png>) | BUTTON 1   |
-| ![](<../../../.gitbook/assets/image (7).png>)  | BUTTON 2   |
-| ![](<../../../.gitbook/assets/image (35).png>) | SKILL 2    |
-| L1                                             | SKILL 3    |
-| R1                                             | BUTTON 3   |
-| L3                                             | SERVICE    |
-| R3                                             | TEST       |
+| Retrobat                                           | Hypseus    |
+| -------------------------------------------------- | ---------- |
+| START                                              | START 1    |
+| SELECT                                             | COIN 1     |
+| D-PAD                                              | DIRECTIONS |
+| Left analog stick                                  | DIRECTIONS |
+| ![](<../../../.gitbook/assets/image (33).png>)     | SKILL 1    |
+| ![](<../../../.gitbook/assets/image (20) (1).png>) | BUTTON 1   |
+| ![](<../../../.gitbook/assets/image (7) (1).png>)  | BUTTON 2   |
+| ![](<../../../.gitbook/assets/image (35).png>)     | SKILL 2    |
+| L1                                                 | SKILL 3    |
+| R1                                                 | BUTTON 3   |
+| L3                                                 | SERVICE    |
+| R3                                                 | TEST       |
 
 ## Information spécifique au système
 

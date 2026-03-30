@@ -1,12 +1,8 @@
 # Options du Jeu
 
-Le menu **Options du jeu** est accessible depuis la **Vue Jeux** en restant appuyé sur le bouton ![](<../.gitbook/assets/image (20).png>) .
+Le menu **Options du jeu** est accessible depuis la **Vue Jeux** en restant appuyé sur le bouton ![](<../.gitbook/assets/image (20) (1).png>) .
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/HA7QBdX.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/HA7QBdX.png" alt=""><figcaption></figcaption></figure></div>
 
 Dans ce menu, il est possible:
 

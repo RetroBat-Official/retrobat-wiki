@@ -4,11 +4,7 @@ description: Sony
 
 # PlayStation
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/psx-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/psx.svg" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/psx-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/psx.svg" alt=""></picture><figcaption></figcaption></figure></div>
 
 Console de jeu - Durée de jeu: 1994 - 2006
 
@@ -16,7 +12,7 @@ Console de jeu - Durée de jeu: 1994 - 2006
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: mednafen_psx_hw</li><li>libretro: swanstation</li><li>libretro: pcsx_rearmed</li><li>duckstation</li><li>mednafen</li><li>bizhawk: Nymashock</li><li>bizhawk: Octoshock</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> psx</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.cue .img .mdf .pbp .toc .cbn .m3u .ccd .chd .zip .7z .iso .cso</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: mednafen_psx_hw</li><li>libretro: swanstation</li><li>libretro: pcsx_rearmed</li><li>duckstation</li><li>mednafen</li><li>bizhawk: Nymashock</li><li>bizhawk: Octoshock</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> psx</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.cue .img .mdf .pbp .toc .cbn .m3u .ccd .chd .zip .7z .iso .cso .squashfs</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
@@ -30,27 +26,15 @@ Console de jeu - Durée de jeu: 1994 - 2006
 
 ### Schéma de contrôles:
 
-<div align="left">
-
-<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/psx.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/psx.png?raw=true" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ### Schéma alternatif:
 
 Afin de pouvoir utiliser les gâchettes analogiques pour les jeux de course, il est possible d'utiliser un schéma de contrôles alternatif en activant cette option:
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/vD1Jcqk.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/vD1Jcqk.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/psx_triggers_rstick.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/psx_triggers_rstick.png?raw=true" alt="" width="375"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Afin de pouvoir utiliser les gâchettes, il est nécessaire de changer le schéma de contrôle dans le jeu, en passant l'accélération et le freinage sur le stick analogique droit.
@@ -66,53 +50,45 @@ Utiliser un fichier `.m3u` pour les jeux multi-disques.&#x20;
 
 Le fichier m3u doit contenir une ligne par disque du jeu, par exemple pour le jeu Chrono Cross:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/GGRxCI4.png" alt=""><figcaption><p>List of files</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/GGRxCI4.png" alt=""><figcaption><p>List of files</p></figcaption></figure></div>
 
 Dans le fichier m3u, lister les noms exacts des fichiers `.cue`  des disques du jeu:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/ZzJ7Ldj.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/ZzJ7Ldj.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Textures personnalisées
 
-Le coeur mednafen\_psx\_hw permet l'utilisation de packs de textures "customs" pour remplacer les textures originales du jeu.
+#### Libretro-mednafen\_psx\_hw
+
+Le cœur mednafen\_psx\_hw permet l'utilisation de packs de textures "customs" pour remplacer les textures originales du jeu.
 
 Pour utiliser un pack de textures, placer le pack dans le dosisier `\roms\psx` dans un sous-dossier portant le même nom que le fichier du jeu suivi de "-texture-replacements", par exemple:
 
 * Pour le fichier de jeu `Final Fantasy VII (USA).iso`, le dossier du pack de texture doit être nommé `Final Fantasy VII (USA)-texture-replacements`
 * Pour le fichier de jeu `Chrono Cross.fr.m3u`, le dossier du pack de texture doit être nommé  `Chrono Cross.fr-texture-replacements`
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/GdXSRWK.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/GdXSRWK.png" alt=""><figcaption></figcaption></figure>
+Une fois le dossier du pack de textures correctement nommé et positionné, activer l'option dans Retrobat :
 
-</div>
+<figure><img src="../../../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Configuration avancée du système > rendu visuel</p></figcaption></figure>
 
-Une fois le dossier du pack de textures correctement nommé et positionné, activer l'option dans Retrobat:
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/aYOKr3Y.png" alt=""><figcaption><p>Configuration avancée > Visual Rendering > Custom textures</p></figcaption></figure>
-
-</div>
+<figure><img src="../../../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Textures personnalisées activées</p></figcaption></figure>
 
 Il est également nécessaire d'utiliser le driver vidéo VULKAN et de définir une résolution supérieure à la résolution native 1X:
 
-<div align="left">
+<figure><img src="../../../../.gitbook/assets/image (11).png" alt=""><figcaption><p>options avancés > Pilotes</p></figcaption></figure>
 
-<figure><img src="https://i.imgur.com/zrGr0gu.png" alt=""><figcaption><p>Configuration avancée > Drivers, sélectionner VULKAN</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
-</div>
+#### **Duckstation**
 
-<div align="left">
+L'émulateur Duckstation permet de charger des textures personnalisées.
 
-<figure><img src="https://i.imgur.com/IAXDrdW.png" alt=""><figcaption><p>Configuration avancée > Résolution Interne supérieure à 1X</p></figcaption></figure>
+RetroBat n'impose pas d'emplacement pour le placement des packs de textures pour Duckstation, l'emplacement par défaut est dans le dossier `\emulators\duckstation\textures`, mais le répertoire peux être modifié depuis les paramètres de l'émulateur :
 
-</div>
+<figure><img src="../../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+
+Une fois que le pack de textures est placé, activer l'option dans RetroBat dans le menu **OPTIONS AVANCÉES > RENDU VISUEL** :
+
+<figure><img src="../../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>

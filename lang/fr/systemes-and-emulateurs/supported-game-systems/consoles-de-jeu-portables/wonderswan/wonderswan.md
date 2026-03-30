@@ -4,11 +4,7 @@ description: Bandai
 
 # WonderSwan
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/wonderswan.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/wonderswan.svg" alt=""><figcaption></figcaption></figure></div>
 
 Console de jeu portable - Durée de vie: 1999 - 2003
 
@@ -35,8 +31,8 @@ Aucun BIOS nécessaire.
 | D-PAD                                                                              | D-PAD                               |
 | Stick analogique gauche                                                            |                                     |
 | Stick analogique droit                                                             |                                     |
-| ![A](<../../../../.gitbook/assets/image (20).png>)                                 | B                                   |
-| ![B](<../../../../.gitbook/assets/image (7).png>)                                  | A                                   |
+| ![A](<../../../../.gitbook/assets/image (20) (1).png>)                             | B                                   |
+| ![B](<../../../../.gitbook/assets/image (7) (1).png>)                              | A                                   |
 | <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> |                                     |
 | <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     |                                     |
 | L1                                                                                 | Deuxième D-PAD gauche               |

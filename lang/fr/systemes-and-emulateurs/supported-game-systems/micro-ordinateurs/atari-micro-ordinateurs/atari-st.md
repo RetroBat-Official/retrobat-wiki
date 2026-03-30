@@ -4,11 +4,7 @@ description: Atari
 
 # Atari ST
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/atarist-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/atarist.svg" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/atarist-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/atarist.svg" alt=""></picture><figcaption></figcaption></figure></div>
 
 Micro-ordinateur - Durée de vie : 1985 - 1993
 
@@ -32,11 +28,11 @@ Utiliser la fonctionnalité [Pad2Key](../../../../controleurs/pad2key.md).
 
 Le mapping par défaut est le suivant:
 
-<table><thead><tr><th width="263">Retrobat</th><th>Atari ST (libretro)</th></tr></thead><tbody><tr><td>START</td><td>Afficher/masquer le clavier virtuel</td></tr><tr><td>SELECT</td><td>Basculer entre le mode joystick et le mode clavier</td></tr><tr><td>D-PAD</td><td></td></tr><tr><td>Stick analogique gauche</td><td>Directions (haut, bas, gauche, droite)</td></tr><tr><td>Stick analogique droit</td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (33).png" alt=""></td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (20).png" alt=""></td><td>Bouton B de la souris</td></tr><tr><td><img src="../../../../.gitbook/assets/image (7).png" alt=""></td><td>Fire / Bouton A de la souris / appuyer sur le bouton du clavier virtuel</td></tr><tr><td><img src="../../../../.gitbook/assets/image (35).png" alt=""></td><td>Ouvrir l'émulateur</td></tr><tr><td>L1</td><td>Toggle Num Joy</td></tr><tr><td>R1</td><td>Modifier la vitesse de la souris entre 1 et 6</td></tr><tr><td>L2</td><td>Afficher / masquer le statut</td></tr><tr><td>R2</td><td>Activer / désactiver le son</td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="263">Retrobat</th><th>Atari ST (libretro)</th></tr></thead><tbody><tr><td>START</td><td>Afficher/masquer le clavier virtuel</td></tr><tr><td>SELECT</td><td>Basculer entre le mode joystick et le mode clavier</td></tr><tr><td>D-PAD</td><td></td></tr><tr><td>Stick analogique gauche</td><td>Directions (haut, bas, gauche, droite)</td></tr><tr><td>Stick analogique droit</td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (33).png" alt=""></td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (20) (1).png" alt=""></td><td>Bouton B de la souris</td></tr><tr><td><img src="../../../../.gitbook/assets/image (7) (1).png" alt=""></td><td>Fire / Bouton A de la souris / appuyer sur le bouton du clavier virtuel</td></tr><tr><td><img src="../../../../.gitbook/assets/image (35).png" alt=""></td><td>Ouvrir l'émulateur</td></tr><tr><td>L1</td><td>Toggle Num Joy</td></tr><tr><td>R1</td><td>Modifier la vitesse de la souris entre 1 et 6</td></tr><tr><td>L2</td><td>Afficher / masquer le statut</td></tr><tr><td>R2</td><td>Activer / désactiver le son</td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
 
 ### Hatari
 
-<table><thead><tr><th width="263">Retrobat</th><th>Hatari</th></tr></thead><tbody><tr><td>SELECT</td><td>Ouvrir le menu de l'émulateur</td></tr><tr><td>D-PAD</td><td>Joystick - D-pad</td></tr><tr><td><img src="../../../../.gitbook/assets/image (20).png" alt=""></td><td>Joystick - FIRE</td></tr><tr><td>F11</td><td>Plein écran</td></tr><tr><td>F12</td><td>Ouvrir le menu de l'émulateur</td></tr><tr><td>ALTGr + Q</td><td>Quitter l'émulateur</td></tr></tbody></table>
+<table><thead><tr><th width="263">Retrobat</th><th>Hatari</th></tr></thead><tbody><tr><td>SELECT</td><td>Ouvrir le menu de l'émulateur</td></tr><tr><td>D-PAD</td><td>Joystick - D-pad</td></tr><tr><td><img src="../../../../.gitbook/assets/image (20) (1).png" alt=""></td><td>Joystick - FIRE</td></tr><tr><td>F11</td><td>Plein écran</td></tr><tr><td>F12</td><td>Ouvrir le menu de l'émulateur</td></tr><tr><td>ALTGr + Q</td><td>Quitter l'émulateur</td></tr></tbody></table>
 
 ## Information spécifique au système
 
@@ -46,11 +42,7 @@ RetroBat force l'émulateur standalone hatari à utiliser le fichier de configur
 
 Pour configurer hatari hors RetroBat, utiliser le fichier "Configure hatari.bat":
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/gMsQpbA.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/gMsQpbA.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
 Par défaut, hatari.exe sauvegarde la configuration dans les dossiers utilisateurs de windows, les modifications effectuées dans ce fichier ne sont pas prises en compte lors du lancement d'un jeu depuis RetroBat.
@@ -60,19 +52,11 @@ Par défaut, hatari.exe sauvegarde la configuration dans les dossiers utilisateu
 
 Le coeur libretro Hatari-B permet de charger une image disque dur au format "gemdos", pour cela le fichier de jeu doit être un dossier d'image de disque:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/RscLeZw.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/RscLeZw.png" alt=""><figcaption></figcaption></figure></div>
 
 Ensuite,créer dans le même dossier un fichier texte vide du même nom que le dossier gemdos, puis sauvegarder le fichier avec l'extension .GEM:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/VAu6Ce9.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/VAu6Ce9.png" alt=""><figcaption></figcaption></figure></div>
 
 Il est également possible d'automatiquement lancer un programme se trouvant sur le disque dur qui a été monté.
 
@@ -83,19 +67,11 @@ Pour cela, créer un fichier texte nommé de la même façon que le dossier gemd
 &#x3C;nom du fichier .GEM>
 </code></pre>
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/SvXLkHs.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/SvXLkHs.png" alt=""><figcaption></figcaption></figure></div>
 
 Enfin: sauvegarder le fichier avec l'extension ".m3u", dans le même dossier que le gemdos:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/03PB7np.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/03PB7np.png" alt=""><figcaption></figcaption></figure></div>
 
 Dans l'exemple ci-dessus, RetroBat va automatiquement:
 

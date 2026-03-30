@@ -34,7 +34,7 @@ Plusieurs schémas de contrôles sont disponibles en fonction des émulateurs.
 
 | Option                                                                      | Schéma                                                                                                                                              |
 | --------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Défaut Retroarch / Libretro                                                 | <img src="../../../../.gitbook/assets/image.png" alt="" data-size="original">                                                                       |
+| Défaut Retroarch / Libretro                                                 | <img src="../../../../.gitbook/assets/image (26).png" alt="" data-size="original">                                                                  |
 | Défaut non-Retroarch                                                        | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone.png?raw=true" alt="" data-size="original">         |
 | <p>C-BUTTONS=FACE Z=LEFT-TRIGGER<br>Project64, RMG, Simple64, Gopher64</p>  | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone_face_zl.png?raw=true" alt="" data-size="original"> |
 | <p>Z sur Gâchette droite<br>Tous les émulateurs sauf Retroarch/Libretro</p> | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone_zr.png?raw=true" alt="" data-size="original">      |
@@ -101,4 +101,4 @@ Project64 permet également de charger des textures HD personnalisées.
 
 Pour cela, placer les textures dans le dossier `saves\n64\project64\hires_texture`, puis activer l'option dans RetroBat:
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>

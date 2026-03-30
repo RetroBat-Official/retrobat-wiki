@@ -6,7 +6,7 @@ Si vous ne souhaitez pas utiliser la configuration globale de RetroBat pour les 
 
 RetroArch permet de sauvegarder un fichier d'override pour les options générales, cet override peut être sauvegardé pour un jeu, un coeur libretro ou pour un dossier de contenu.
 
-Pour générer un fichier d'override, lancer le menu RetroArch depuis un jeu en appuyant sur SELECT + ![](<../.gitbook/assets/image (2).png>) de votre manette (F1 sur le clavier). Effectuer les réglages souhaités puis aller dans le menu de "Configuration de Substitution":
+Pour générer un fichier d'override, lancer le menu RetroArch depuis un jeu en appuyant sur SELECT + ![](<../.gitbook/assets/image (2) (1).png>) de votre manette (F1 sur le clavier). Effectuer les réglages souhaités puis aller dans le menu de "Configuration de Substitution":
 
 <div align="left"><figure><img src="https://i.imgur.com/Ao7zf9g.png" alt=""><figcaption></figcaption></figure></div>
 
@@ -28,7 +28,7 @@ Maintenant, activer l'option d'override dans RetroBat dans le [**menu principal 
 
 RetroArch permet de sauvegarder un fichier d'override pour les shaders, cet override peut être sauvegardé pour un jeu, un coeur libretro, un dossier de contenu ou globalement.
 
-Pour générer un fichier d'override de shaders, lancer le menu RetroArch depuis un jeu en appuyant sur SELECT + ![](<../.gitbook/assets/image (2).png>) de votre manette (F1 sur le clavier). Puis aller dans le menu **Shaders** pour effectuer les réglages souhaités:
+Pour générer un fichier d'override de shaders, lancer le menu RetroArch depuis un jeu en appuyant sur SELECT + ![](<../.gitbook/assets/image (2) (1).png>) de votre manette (F1 sur le clavier). Puis aller dans le menu **Shaders** pour effectuer les réglages souhaités:
 
 <div align="left"><figure><img src="https://i.imgur.com/zxiggYZ.png" alt=""><figcaption></figcaption></figure></div>
 

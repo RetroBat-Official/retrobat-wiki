@@ -24,7 +24,7 @@ Console de jeu portable - Durée de vie : 2004- 2011
 
 ## Contrôles
 
-En dehors de l'émulateur standalone MelonDS, tous les émulateurs permettent de simuler l'écran tactile avec le joystick droit, cette option doit être activée dans les options avancées du système > contrôles:
+En dehors de l'émulateur standalone MelonDS, la plupart des émulateurs permettent de simuler l'écran tactile avec le joystick droit, cette option doit être activée depuis **OPTIONS AVANCÉES DU SYSTÈME > CONTRÔLES** :
 
 <div align="left"><figure><img src="https://i.imgur.com/3SNiUdQ.png" alt=""><figcaption></figcaption></figure></div>
 
@@ -33,10 +33,15 @@ En dehors de l'émulateur standalone MelonDS, tous les émulateurs permettent de
 | lr-melondsds                                                  | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_melondsds.png?raw=true" alt="" data-size="original">             |
 | <p>lr-desmume<br>lr-desmume2015</p>                           | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds.png?raw=true" alt="" data-size="original">                       |
 | lr-melonds                                                    | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_melonds.png?raw=true" alt="" data-size="original">               |
-| MelonDS standard                                              | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_melonds_standalone.png?raw=true" alt="" data-size="original">    |
+| MelonDS                                                       | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_melonds_standalone.png?raw=true" alt="" data-size="original">    |
 | MelonDS (stick gauche)                                        | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_melonds_standalone_ls.png?raw=true" alt="" data-size="original"> |
 | <p>BizHawk standard<br>(L2 permet d'émuler le microphone)</p> | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_bizhawk.png?raw=true" alt="" data-size="original">               |
 | <p>BizHawk (souris)<br>(L2 permet d'émuler le microphone)</p> | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_bizhawk_mouse.png?raw=true" alt="" data-size="original">         |
+| lr-noods                                                      | <img src="../../../../.gitbook/assets/image (22).png" alt="" data-size="original">                                                                     |
+
+MelonDS propose également une option pour intervertir les boutons pour correspondre avec la disposition XBOX. L'option est activable depuis **OPTIONS AVANCÉES DU SYSTÈME > CONTRÔLES**
+
+<figure><img src="../../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
 ## Information spécifique au système
 

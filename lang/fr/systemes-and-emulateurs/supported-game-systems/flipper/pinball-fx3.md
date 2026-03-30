@@ -4,11 +4,7 @@ description: Zen Studios
 
 # Pinball FX3
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/55ff14aa79c95ecc70133072e6ac19fed3555b56/art/logos/pinballfx3.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/55ff14aa79c95ecc70133072e6ac19fed3555b56/art/logos/pinballfx3.svg" alt=""><figcaption></figcaption></figure></div>
 
 Simulation de Flipper sortie en 2017.
 
@@ -24,7 +20,7 @@ Aucun BIOS nécessaire
 
 ## Contrôles
 
-<table><thead><tr><th width="258">RetroBat</th><th width="443">Pinball FX3</th></tr></thead><tbody><tr><td>START</td><td>Ouvrir menu</td></tr><tr><td>SELECT</td><td>Ouvrir menu</td></tr><tr><td>D-PAD</td><td></td></tr><tr><td>Left Analog stick</td><td>Bousculer le flipper</td></tr><tr><td>Right Analog stick</td><td>Haut: Vue back box / Bas: Lancer la bille</td></tr><tr><td><img src="../../../.gitbook/assets/image (20).png" alt="A"></td><td>Lancement automatique de la bille</td></tr><tr><td><img src="../../../.gitbook/assets/image (7).png" alt="B"></td><td>Extras visuels</td></tr><tr><td><img src="../../../.gitbook/assets/image (35).png" alt="" data-size="original"></td><td>Pouvoir de magicien</td></tr><tr><td><img src="../../../.gitbook/assets/image (33).png" alt="" data-size="line"></td><td>Modifier la vue</td></tr><tr><td>L1</td><td>Flipper gauche</td></tr><tr><td>R1</td><td>Flipper droit</td></tr><tr><td>L2</td><td>Flipper gauche</td></tr><tr><td>R2</td><td>Flipper droit</td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="258">RetroBat</th><th width="443">Pinball FX3</th></tr></thead><tbody><tr><td>START</td><td>Ouvrir menu</td></tr><tr><td>SELECT</td><td>Ouvrir menu</td></tr><tr><td>D-PAD</td><td></td></tr><tr><td>Left Analog stick</td><td>Bousculer le flipper</td></tr><tr><td>Right Analog stick</td><td>Haut: Vue back box / Bas: Lancer la bille</td></tr><tr><td><img src="../../../.gitbook/assets/image (20) (1).png" alt="A"></td><td>Lancement automatique de la bille</td></tr><tr><td><img src="../../../.gitbook/assets/image (7) (1).png" alt="B"></td><td>Extras visuels</td></tr><tr><td><img src="../../../.gitbook/assets/image (35).png" alt="" data-size="original"></td><td>Pouvoir de magicien</td></tr><tr><td><img src="../../../.gitbook/assets/image (33).png" alt="" data-size="line"></td><td>Modifier la vue</td></tr><tr><td>L1</td><td>Flipper gauche</td></tr><tr><td>R1</td><td>Flipper droit</td></tr><tr><td>L2</td><td>Flipper gauche</td></tr><tr><td>R2</td><td>Flipper droit</td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
 
 ## Information spécifique au système
 
@@ -45,7 +41,7 @@ Pour obtenir un code d'activation, effectuer une demande auprès de Zen Studios:
 {% hint style="info" %}
 Plus d'information sur le mode "Cabinet" disponible ici:
 
-[https://www.pinballfx.com/?page\_id=7754#end-anchor](https://www.pinballfx.com/?page\_id=7754#end-anchor)
+[https://www.pinballfx.com/?page\_id=7754#end-anchor](https://www.pinballfx.com/?page_id=7754#end-anchor)
 {% endhint %}
 
 ### Tables
@@ -60,25 +56,13 @@ Voici comment les trouver:&#x20;
 
 * Lancer le client Steam et sélectionner l'onglet "Bibliothèque:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/UNgNbly.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/UNgNbly.png" alt=""><figcaption></figcaption></figure></div>
 
 * Effectuer un clic droit sur le jeu Pinball FX3, puis sélectionner "Gérer > Parcourir les fichiers locaux". L'explorateur windows s'ouvre dans le dossier d'installation du jeu..
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/RN1bANJ.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/RN1bANJ.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FexdzL60ZuqPLldz2AYta%2Fuploads%2FzG8RlVpQJDMY3bXtkHoL%2Fimage.png?alt=media&#x26;token=fc638d58-c6a5-42d9-bc17-d3c0f4fbe5ab" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FexdzL60ZuqPLldz2AYta%2Fuploads%2FzG8RlVpQJDMY3bXtkHoL%2Fimage.png?alt=media&#x26;token=fc638d58-c6a5-42d9-bc17-d3c0f4fbe5ab" alt=""><figcaption></figcaption></figure></div>
 
 * Aller dans le dossier :open\_file\_folder:`data\`:open\_file\_folder:`steam` pour afficher tous les fichiers des tables `.pxp`. Vous pouvez sélectionner les tables pour lesquelles vous possédez une licence et les copier dans le dossier :open\_file\_folder:`roms\`:open\_file\_folder:`pinballfx3` de votre installation Retrobat.
 

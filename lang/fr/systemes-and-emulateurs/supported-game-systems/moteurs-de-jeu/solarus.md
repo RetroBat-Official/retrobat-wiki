@@ -16,19 +16,19 @@ Aucun BIOS nécessaire.
 
 ## Contrôles
 
-| Retrobat                                       | Solarus |
-| ---------------------------------------------- | ------- |
-| START                                          | START   |
-| SELECT                                         | SELECT  |
-| D-PAD                                          | D-PAD   |
-| Stick analogique gauche                        | D-PAD   |
-| Stick analogique droit                         |         |
-| ![](<../../../.gitbook/assets/image (33).png>) | Y       |
-| ![](<../../../.gitbook/assets/image (20).png>) | B       |
-| ![](<../../../.gitbook/assets/image (7).png>)  | A       |
-| ![](<../../../.gitbook/assets/image (35).png>) | X       |
-| L1                                             | L1      |
-| R1                                             | R1      |
+| Retrobat                                           | Solarus |
+| -------------------------------------------------- | ------- |
+| START                                              | START   |
+| SELECT                                             | SELECT  |
+| D-PAD                                              | D-PAD   |
+| Stick analogique gauche                            | D-PAD   |
+| Stick analogique droit                             |         |
+| ![](<../../../.gitbook/assets/image (33).png>)     | Y       |
+| ![](<../../../.gitbook/assets/image (20) (1).png>) | B       |
+| ![](<../../../.gitbook/assets/image (7) (1).png>)  | A       |
+| ![](<../../../.gitbook/assets/image (35).png>)     | X       |
+| L1                                                 | L1      |
+| R1                                                 | R1      |
 
 ## Information spécifique au système
 

@@ -12,39 +12,35 @@ Console de jeu hybride - durée de vie: 2017 - aujourd'hu
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>citron</li><li>ryujinx</li><li>eden</li><li>sudachi</li><li>suyu</li><li>yuzu</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> switch</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.nso .nro .nca .xci .nsp .kip</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>eden</li><li>ryujinx</li><li>citron</li><li>sudachi</li><li>yuzu</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> switch</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.nso .nro .nca .xci .nsp .kip</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td><p>Ryujinx : OUI</p><p>Eden : OUI<br>Citron : OUI</p><p>Sudachi : OUI<br>Suyu : OUI<br>Yuzu : OUI</p></td></tr></tbody></table>
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td><p>Ryujinx : OUI</p><p>Eden : OUI<br>Citron : OUI</p><p>Sudachi : OUI<br>Yuzu : OUI</p></td></tr></tbody></table>
 
 ## Emulateur
 
 ### Ryujinx
 
+RetroBat est compatible avec la version Ryubing de Ryujinx
+
 Copier les fichiers de l'émulateur Ryujinx dans le dossier `emulators\ryujinx` de l'installation RetroBat:
 
 <div align="left"><figure><img src="https://i.imgur.com/KSvr9sk.png" alt=""><figcaption></figcaption></figure></div>
 
-### Citron, Eden, Sudachi, Yuzu, Suyu
+### Eden, Citron, Sudachi, Yuzu
 
-Copier les fichiers de l'émulateur dans le dossier `emulators\citron` (ou eden, suyu, yuzu, sudachi), puis créer le sous-dossier "user":
-
-<div align="left"><figure><img src="https://i.imgur.com/h7HVNfj.png" alt=""><figcaption></figcaption></figure></div>
-
-
+Copier les fichiers de l'émulateur dans le dossier `emulators\<nom de l'émulateur>` (eden, citron, yuzu, sudachi), puis créer le sous-dossier "user"
 
 ### Emplacement des fichiers
 
-<table><thead><tr><th width="276">Données</th><th>Chemin (relatif au dossier RetroBat)</th></tr></thead><tbody><tr><td>Données utilisateur de l'émulateur</td><td><strong>Ryujinx</strong>: saves\switch\ryujinx\portable<br><strong>Eden, Yuzu, Suyu, Sudachi, Citron :</strong> <br>emulators\&#x3C;emulator name>\user</td></tr><tr><td>Fichier de configuration</td><td><strong>Ryujinx</strong>: saves\switch\ryujinx\portable\Config.json<br><strong>Eden, Yuzu, Suyu, Sudachi, Citron :</strong> <br>emulators\&#x3C;emulator name>\user\config\qt-config.ini</td></tr></tbody></table>
+<table><thead><tr><th width="276">Données</th><th>Chemin (relatif au dossier RetroBat)</th></tr></thead><tbody><tr><td>Données utilisateur de l'émulateur</td><td><strong>Ryujinx</strong>: saves\switch\ryujinx\portable<br><strong>Eden, Yuzu, Sudachi, Citron :</strong> <br>emulators\&#x3C;emulator name>\user</td></tr><tr><td>Fichier de configuration</td><td><strong>Ryujinx</strong>: saves\switch\ryujinx\portable\Config.json<br><strong>Eden, Yuzu, Sudachi, Citron :</strong> <br>emulators\&#x3C;emulator name>\user\config\qt-config.ini</td></tr></tbody></table>
 
-Pour les émulateurs Citron, Sudachi, Eden, Yuzu et Suyu, il est possible de mettre en commun les dossiers SDMC, LOAD, NAND dans le dossier `saves\switch` de l'installation RetroBat.
+Pour les émulateurs Citron et Eden, il est possible de déplacer le dossier SAVE dans le dossier `saves\switch` de l'installation RetroBat.
 
-Pour cela, activer l'option suivante:
+Pour cela, activer l'option disponible dans **MENU PRINCIPAL > PARAMÈTRES DES JEUX** :
 
-<div align="left"><figure><img src="https://i.imgur.com/0BBXub2.png" alt=""><figcaption></figcaption></figure></div>
-
-
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure></div>
 
 ## BIOS
 
@@ -64,21 +60,13 @@ Si le fichier "Configure Ryujinx.bat" n'existe pas dans le dossier `emulators\ry
 
 <div align="left"><figure><img src="https://i.imgur.com/CVXr1y7.png" alt=""><figcaption><p>Tools > Install Firmware</p></figcaption></figure></div>
 
-### Eden, Sudachi, Suyu, Yuzu et Citron
+### Eden, Sudachi, Yuzu et Citron
 
 Placer prod.keys dans le dossier `\emulators\`<mark style="color:purple;">`<émulateur>`</mark>`\user\keys`
 
 Placer les fichiers .nca du firmware dans le dossier `\emulators\`<mark style="color:purple;">`<émulateur>`</mark>`\user\nand\system\Contents\registered`
 
 ## Contrôles
-
-{% hint style="info" %}
-Les contrôleurs suivants peuvent être autoconfigurés depuis RetroBat dans les émulateurs Switch:
-
-* Contrôleurs XInput
-* Dualshocks & DualSense
-* Nintendo Switch Pro
-{% endhint %}
 
 | RetroBat                                                                           | Switch                      |
 | ---------------------------------------------------------------------------------- | --------------------------- |
@@ -87,8 +75,8 @@ Les contrôleurs suivants peuvent être autoconfigurés depuis RetroBat dans les
 | D-PAD                                                                              | D-PAD                       |
 | Stick analogique gauche                                                            | Stick analogique gauche     |
 | Stick analogique droit                                                             | Stick analogique droit      |
-| ![A](<../../../../.gitbook/assets/image (20).png>)                                 | <p>B<br>Ou A si inversé</p> |
-| ![B](<../../../../.gitbook/assets/image (7).png>)                                  | <p>A<br>Ou B si inversé</p> |
+| ![A](<../../../../.gitbook/assets/image (20) (1).png>)                             | <p>B<br>Ou A si inversé</p> |
+| ![B](<../../../../.gitbook/assets/image (7) (1).png>)                              | <p>A<br>Ou B si inversé</p> |
 | <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | <p>X<br>Ou Y si inversé</p> |
 | <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     | <p>Y<br>Ou X si inversé</p> |
 | LB (L1)                                                                            | L                           |
@@ -118,10 +106,14 @@ Dans l'écran suivant, rechercher le fichier .nsp sur votre ordinateur, le séle
 
 <div align="left"><figure><img src="https://i.imgur.com/Vk2lwA3.png" alt=""><figcaption></figcaption></figure></div>
 
-#### Eden, Citron, Sudachi, Suyu, Yuzu
+#### Eden, Citron, Sudachi, Yuzu
 
 Aller dans `Files > Install Files to NAND...`
 
 <div align="left"><figure><img src="https://i.imgur.com/B6jQIqZ.png" alt=""><figcaption></figcaption></figure></div>
 
 Dans l'écran suivant, rechercher le fichier .nsp sur votre ordinateur, le sélectionner et sauvegarder pour lancer l'installation.
+
+Eden et Citron permettent également de charger les mises à jour et DLC depuis un autre répertoire. Il est défini par défaut dans `roms\switchupdates` pour faciliter le chargement de ces contenus.
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (42).png" alt=""><figcaption></figcaption></figure></div>

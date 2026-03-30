@@ -1,10 +1,6 @@
 # Zaccaria Pinball
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/55ff14aa79c95ecc70133072e6ac19fed3555b56/art/logos/zaccariapinball.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/55ff14aa79c95ecc70133072e6ac19fed3555b56/art/logos/zaccariapinball.svg" alt=""><figcaption></figcaption></figure></div>
 
 Simulation de Flipper
 
@@ -20,7 +16,7 @@ Aucun BIOS nécessaire
 
 ## Contrôles
 
-<table><thead><tr><th width="258">RetroBat</th><th width="148">Clavier</th><th width="301">Zaccaria Pinball</th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/image (20).png" alt="A"><br>Stick analogique droit - bas</td><td>ENTREE</td><td>Plunger</td></tr><tr><td>D-PAD<br>Stick gauche</td><td></td><td>Secouer le flipper</td></tr><tr><td></td><td>CTRL gauche</td><td>Secouer vers la gauche</td></tr><tr><td></td><td>CTRL droit</td><td>Secouer vers la droite</td></tr><tr><td><img src="../../../.gitbook/assets/image (35).png" alt="" data-size="original"></td><td>ESPACE</td><td>Secouer vers le haut</td></tr><tr><td>L1 / L2</td><td>MAJ gauche</td><td>Flipper gauche</td></tr><tr><td>R1 / R2</td><td>MAJ droit</td><td>Flipper droit</td></tr><tr><td><img src="../../../.gitbook/assets/image (7).png" alt="B"></td><td></td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (33).png" alt="" data-size="line"></td><td></td><td></td></tr><tr><td></td><td>F</td><td>Modifier la taille de l'UI</td></tr><tr><td></td><td>D</td><td>Position du panneau des scores</td></tr><tr><td></td><td>1 - 7</td><td>Position de la caméra</td></tr><tr><td></td><td>C</td><td>Changer la caméra</td></tr></tbody></table>
+<table><thead><tr><th width="258">RetroBat</th><th width="148">Clavier</th><th width="301">Zaccaria Pinball</th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/image (20) (1).png" alt="A"><br>Stick analogique droit - bas</td><td>ENTREE</td><td>Plunger</td></tr><tr><td>D-PAD<br>Stick gauche</td><td></td><td>Secouer le flipper</td></tr><tr><td></td><td>CTRL gauche</td><td>Secouer vers la gauche</td></tr><tr><td></td><td>CTRL droit</td><td>Secouer vers la droite</td></tr><tr><td><img src="../../../.gitbook/assets/image (35).png" alt="" data-size="original"></td><td>ESPACE</td><td>Secouer vers le haut</td></tr><tr><td>L1 / L2</td><td>MAJ gauche</td><td>Flipper gauche</td></tr><tr><td>R1 / R2</td><td>MAJ droit</td><td>Flipper droit</td></tr><tr><td><img src="../../../.gitbook/assets/image (7) (1).png" alt="B"></td><td></td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (33).png" alt="" data-size="line"></td><td></td><td></td></tr><tr><td></td><td>F</td><td>Modifier la taille de l'UI</td></tr><tr><td></td><td>D</td><td>Position du panneau des scores</td></tr><tr><td></td><td>1 - 7</td><td>Position de la caméra</td></tr><tr><td></td><td>C</td><td>Changer la caméra</td></tr></tbody></table>
 
 ## Information spécifique au système
 
@@ -28,11 +24,7 @@ Aucun BIOS nécessaire
 
 Créer un fichier .txt portant le nom de la table puis le sauvegarder avec l'extension .table:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/RwUbyf8.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/RwUbyf8.png" alt=""><figcaption></figcaption></figure></div>
 
 Sauver le fichier au format `.table` dans le dossier :open\_file\_folder:`roms\`:open\_file\_folder:`zaccariapinball` de l'installation RetroBat.
 

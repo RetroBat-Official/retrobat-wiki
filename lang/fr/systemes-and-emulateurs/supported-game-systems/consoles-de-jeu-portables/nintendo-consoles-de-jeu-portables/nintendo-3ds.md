@@ -12,25 +12,17 @@ Console de jeu portable - Durée de vie : 2011 - 2020
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>azahar</li><li>citra</li><li>mandarine</li></ul><ul><li>libretro-citra</li><li>bizhawk: encore</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> 3ds</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.3ds .3dsx .z3dsx .cia .zcia .elf .axf .cci .zcci .cxi .zcxi .app .m3u .zip .7z .squashfs</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>azahar</li><li>libretro-azahar</li><li>mandarine</li><li>citra</li><li>bizhawk: encore</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> 3ds</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.3ds .3dsx .z3dsx .cia .zcia .elf .axf .cci .zcci .cxi .zcxi .app .m3u .zip .7z .squashfs</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="210">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td>Azahar: OUI<br>Citra: OUI<br>Mandarine : OUI<br>lr-citra : OUI<br>BizHawk : OUI</td></tr></tbody></table>
+<table><thead><tr><th width="210">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td><p>Azahar : OUI</p><p>lr-azahar : OUI</p><p>Mandarine : OUI<br>Citra : OUI<br>BizHawk : OUI</p></td></tr></tbody></table>
 
 ## BIOS
 
 Aucun BIOS nécessaire.
 
 ## Contrôles
-
-{% hint style="info" %}
-Les contrôleurs suivants peuvent être autoconfigurés depuis RetroBat dans azahar/citra/mandarine standalone :
-
-* Contrôleurs XInput
-* Dualshocks & DualSense
-* Nintendo Switch Pro
-{% endhint %}
 
 {% hint style="info" %}
 L'écran tactile de la 3DS est difficilement émulable, la meilleure solution est de connecter une souris.
@@ -50,32 +42,30 @@ L'option ci-dessous permet d'inverser les boutons pour correspondre au schéma X
 
 ### Gestion de l'écran tactile:
 
-Selon l'émulateur, les options ci-dessous permettent de modifier le schéma de contrôle pour simuler les mouvements sur l'écran tactile à l'aide du stick analogique de droite.
+Selon l'émulateur, et les options définies depuis le menu RetroBat, la souris ou le stick droit permettent de simuler les mouvements sur l'écran tactile.
 
-#### Azahar, Citra et Mandarine
+Azahar, Mandarine et Citra permettent également de sélectionner un profil tactile spécifique, créer depuis l'émulateur : &#x20;
 
-Utiliser l'option ci-dessous:
+<figure><img src="../../../../.gitbook/assets/2026-03-28_09h25_33.png" alt=""><figcaption></figcaption></figure>
 
-<div align="left"><figure><img src="https://i.imgur.com/nMNPq87.png" alt=""><figcaption></figcaption></figure></div>
+{% hint style="info" %}
+Vous devez vous souvenir du nom du profil crée et le renseigner dans RetroBat
+{% endhint %}
 
-| Option                     | Schéma de contrôles                                                                                                                                   |
-| -------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Sans inversion des boutons | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/3ds_stylus_cstick.png?raw=true" alt="" data-size="original">        |
-| Avec inversion des boutons | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/3ds_stylus_cstick_revert.png?raw=true" alt="" data-size="original"> |
+### Disposition de boutons supplémentaires
 
-#### Libretro-citra et Bizhawk
+D'autres configurations de boutons sont disponibles selon les émulateurs, elles sont disponibles depuis le menu Configuration avancée du système > Contrôles :&#x20;
 
-Utiliser l'option ci-dessous:
+<figure><img src="../../../../.gitbook/assets/image (44).png" alt=""><figcaption></figcaption></figure>
 
-<div align="left"><figure><img src="https://i.imgur.com/QR10lnB.png" alt=""><figcaption></figcaption></figure></div>
 
-| Option                                         | Schéma de contrôle                                                                                                                                    |
-| ---------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p>C-STICK ET POINTEUR<br>(sans inversion)</p> | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/3ds_stylus_cstick.png?raw=true" alt="" data-size="original">        |
-| <p>C-STICK ET POINTEUR<br>(avec inversion)</p> | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/3ds_stylus_cstick_revert.png?raw=true" alt="" data-size="original"> |
-| <p>POINTEUR<br>(sans inversion)</p>            | <img src="../../../../.gitbook/assets/3ds_stylus.png" alt="" data-size="original">                                                                    |
-| <p>POINTEUR<br>(avec inversion)</p>            | <img src="../../../../.gitbook/assets/3ds_stylus_cstick.png" alt="" data-size="original">                                                             |
-| C-STICK                                        | Identique au schéma standard                                                                                                                          |
+
+| Option                                                                                                                        | Schéma de contrôles                                                                                                                                   |
+| ----------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <p><strong>Stick de droite comme pointeur d'écran tactile</strong><br><br>Libretro-Azahar<br>Bizhawk</p>                      | <img src="../../../../.gitbook/assets/image (46).png" alt="" data-size="original">                                                                    |
+| <p><strong>Stick de droite comme pointeur d'écran tactile (inversé)</strong><br><br>Libretro-Azahar<br>Bizhawk</p>            | <img src="../../../../.gitbook/assets/image (45).png" alt="" data-size="original">                                                                    |
+| <p><strong>Stick de droite comme C-stick et pointeur d'écran tactile</strong><br><br>Libretro-Azahar<br>Bizhawk</p>           | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/3ds_stylus_cstick.png?raw=true" alt="" data-size="original">        |
+| <p><strong>Stick de droite comme C-stick et pointeur d'écran tactile (inversé)</strong><br><br>Libretro-Azahar<br>Bizhawk</p> | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/3ds_stylus_cstick_revert.png?raw=true" alt="" data-size="original"> |
 
 ## Information spécifique au système
 

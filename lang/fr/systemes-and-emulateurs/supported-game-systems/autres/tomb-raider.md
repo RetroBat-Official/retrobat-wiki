@@ -4,11 +4,7 @@ description: OpenLara
 
 # Tomb Raider
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/1526141_794a5.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/1526141_794a5.png" alt=""><figcaption></figcaption></figure></div>
 
 Moteur de jeu permettant de jouer à Tomb Raider.
 
@@ -24,21 +20,21 @@ Aucun BIOS nécessaire.
 
 ## Contrôles
 
-| Retrobat                                       | OpenLara                  |
-| ---------------------------------------------- | ------------------------- |
-| START                                          | START                     |
-| SELECT                                         | Inventaire                |
-| D-PAD                                          | D-PAD                     |
-| Left analog stick                              |                           |
-| Right analog stick                             |                           |
-| ![](<../../../.gitbook/assets/image (33).png>) | Sauter                    |
-| ![](<../../../.gitbook/assets/image (20).png>) | Action : tirer / attraper |
-| ![](<../../../.gitbook/assets/image (7).png>)  | Rouler                    |
-| ![](<../../../.gitbook/assets/image (35).png>) | Sortir arme               |
-| L1                                             |                           |
-| R1                                             | Marcher (garder enfoncé)  |
-| L2                                             | S'accroupir               |
-| R2                                             | Sprinter                  |
+| Retrobat                                           | OpenLara                  |
+| -------------------------------------------------- | ------------------------- |
+| START                                              | START                     |
+| SELECT                                             | Inventaire                |
+| D-PAD                                              | D-PAD                     |
+| Left analog stick                                  |                           |
+| Right analog stick                                 |                           |
+| ![](<../../../.gitbook/assets/image (33).png>)     | Sauter                    |
+| ![](<../../../.gitbook/assets/image (20) (1).png>) | Action : tirer / attraper |
+| ![](<../../../.gitbook/assets/image (7) (1).png>)  | Rouler                    |
+| ![](<../../../.gitbook/assets/image (35).png>)     | Sortir arme               |
+| L1                                                 |                           |
+| R1                                                 | Marcher (garder enfoncé)  |
+| L2                                                 | S'accroupir               |
+| R2                                                 | Sprinter                  |
 
 ## Information spécifique au système
 
@@ -50,11 +46,7 @@ Dans ce fichier, renseigner le chemin vers le fichier à lancer, les fichiers su
 
 Par exemple le fichier ci-dessous lancera le niveau "gym" de Tomb Raider 1:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/yRgQBth.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/yRgQBth.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Une fois un niveau lancé, il est possible de revenir au menu du jeu Tomb Raider pour démarrer le jeu.

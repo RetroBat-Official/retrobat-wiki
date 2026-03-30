@@ -16,7 +16,7 @@ Console de jeu portable - Durée de vie : 1989 - 2003
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td><p>lr-gambatte : OUI<br>lr-mesen-s : OUI<br>lr-bsnes : OUI<br>lr-tgbdual : NON<br>lr-sameboy : OUI</p><p>lr-DoubleCherryGB : ?<br>Mesen : NON<br>mGBA : NON<br>Mednafen : NON<br>Ares : NON<br>Bizhawk : OUI<br>Jgenesis: NON</p></td><td><p>lr-gambatte : OUI<br>lr-mesen-s : OUI<br>lr-bsnes : OUI<br>lr-tgbdual : OUI<br>lr-sameboy : OUI</p><p>lr-DoubleCherryGB : ?<br>Mesen : NON<br>mGBA : NON<br>Mednafen : NON<br>Ares : NON<br>Bizhawk : NON<br>Jgenesis: NON</p></td><td><p>lr-gambatte : OUI<br>lr-mesen-s : OUI<br>lr-bsnes : OUI<br>lr-tgbdual : OUI<br>lr-sameboy : OUI</p><p>lr-DoubleCherryGB : OUI<br>Mesen : OUI<br>mGBA : NON<br>Mednafen : OUI<br>Ares : OUI<br>Bizhawk : OUI<br>Jgenesis: OUI</p></td></tr></tbody></table>
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td><p>lr-gambatte : OUI<br>lr-mesen-s : OUI<br>lr-bsnes : OUI<br>lr-tgbdual : NON<br>lr-sameboy : OUI</p><p>lr-DoubleCherryGB : OUI<br>Mesen : NON<br>mGBA : NON<br>Mednafen : NON<br>Ares : NON<br>Bizhawk : OUI<br>Jgenesis: NON</p></td><td><p>lr-gambatte : OUI<br>lr-mesen-s : OUI<br>lr-bsnes : OUI<br>lr-tgbdual : OUI<br>lr-sameboy : OUI</p><p>lr-DoubleCherryGB : OUI<br>Mesen : NON<br>mGBA : NON<br>Mednafen : NON<br>Ares : NON<br>Bizhawk : NON<br>Jgenesis: NON</p></td><td><p>lr-gambatte : OUI<br>lr-mesen-s : OUI<br>lr-bsnes : OUI<br>lr-tgbdual : OUI<br>lr-sameboy : OUI</p><p>lr-DoubleCherryGB : OUI<br>Mesen : OUI<br>mGBA : OUI<br>Mednafen : OUI<br>Ares : OUI<br>Bizhawk : OUI<br>Jgenesis: OUI</p></td></tr></tbody></table>
 
 ## BIOS
 
@@ -28,9 +28,13 @@ Les fichiers sgb\* sont requis pour le coeur mesen-s, celui-ci utilise la Super 
 
 | Option / émulateur                                     | Schéma de contrôles                                                                                                                      |
 | ------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------- |
-| <p>Défaut<br>(hors lr-gambatte, mesen et mednafen)</p> | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gb.png?raw=true" alt="" data-size="original">          |
+| <p>Défaut<br>(sauf lr-gambatte, mesen et mednafen)</p> | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gb.png?raw=true" alt="" data-size="original">          |
 | lr-gambatte                                            | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gb_gambatte.png?raw=true" alt="" data-size="original"> |
 | <p>Mesen<br>Mednafen</p>                               | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gb_turbo.png?raw=true" alt="" data-size="original">    |
+
+Il est également possible d'intervertir les boutons A et B (de même que les boutons TURBO s'ils sont activés) en utilisant l'option suivante :&#x20;
+
+<figure><img src="../../../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 ## Information spécifique au système
 

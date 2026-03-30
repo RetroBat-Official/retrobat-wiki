@@ -4,11 +4,7 @@ description: Lexaloffle Games
 
 # Pico-8
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/pico8.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/pico8.svg" alt=""><figcaption></figcaption></figure></div>
 
 Fantasy Console - Année de création : 2015
 
@@ -30,19 +26,19 @@ Aucun BIOS nécessaire
 
 ## Contrôles
 
-| Retrobat                                       | Pico-8 |
-| ---------------------------------------------- | ------ |
-| START                                          | ENTER  |
-| SELECT                                         |        |
-| D-PAD                                          | D-PAD  |
-| Left analog stick                              | D-PAD  |
-| Reft analog stick                              |        |
-| ![](<../../../.gitbook/assets/image (33).png>) | O      |
-| ![](<../../../.gitbook/assets/image (20).png>) | X      |
-| ![](<../../../.gitbook/assets/image (7).png>)  | O      |
-| ![](<../../../.gitbook/assets/image (35).png>) | X      |
-| L1                                             |        |
-| R1                                             |        |
+| Retrobat                                           | Pico-8 |
+| -------------------------------------------------- | ------ |
+| START                                              | ENTER  |
+| SELECT                                             |        |
+| D-PAD                                              | D-PAD  |
+| Left analog stick                                  | D-PAD  |
+| Reft analog stick                                  |        |
+| ![](<../../../.gitbook/assets/image (33).png>)     | O      |
+| ![](<../../../.gitbook/assets/image (20) (1).png>) | X      |
+| ![](<../../../.gitbook/assets/image (7) (1).png>)  | O      |
+| ![](<../../../.gitbook/assets/image (35).png>)     | X      |
+| L1                                                 |        |
+| R1                                                 |        |
 
 ## Information spécifique au système
 

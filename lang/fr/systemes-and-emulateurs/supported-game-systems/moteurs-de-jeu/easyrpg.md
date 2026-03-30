@@ -1,10 +1,6 @@
 # EasyRPG
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/easyrpg-w.svg" media="(prefers-color-scheme: dark)"><img src="https://i.imgur.com/khOjbUH.png" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/easyrpg-w.svg" media="(prefers-color-scheme: dark)"><img src="https://i.imgur.com/khOjbUH.png" alt=""></picture><figcaption></figcaption></figure></div>
 
 Moteur de jeu RPG
 
@@ -20,7 +16,7 @@ Aucun BIOS nécessaire.
 
 ## Contrôles
 
-<table><thead><tr><th width="258">RetroBat</th><th width="443">EasyRPG</th></tr></thead><tbody><tr><td>START</td><td></td></tr><tr><td>SELECT</td><td></td></tr><tr><td>D-PAD</td><td>Déplacement</td></tr><tr><td>Stick analogique gauche</td><td>Déplacement</td></tr><tr><td>Stick analogique droit</td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (20).png" alt="A"></td><td>Retour / Ouvrir le menu (ECHAP)</td></tr><tr><td><img src="../../../.gitbook/assets/image (7).png" alt="B"></td><td>Accepter / Parler (ENTER)</td></tr><tr><td><img src="../../../.gitbook/assets/image (35).png" alt="" data-size="original"></td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (33).png" alt="" data-size="line"></td><td></td></tr><tr><td>L1</td><td>MAJ (Shift)</td></tr><tr><td>R1</td><td>Passer au travers des murs + désactiver les rencontres aléatoires (actif en mode test uniquement)</td></tr><tr><td>L2</td><td></td></tr><tr><td>R2</td><td></td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="258">RetroBat</th><th width="443">EasyRPG</th></tr></thead><tbody><tr><td>START</td><td></td></tr><tr><td>SELECT</td><td></td></tr><tr><td>D-PAD</td><td>Déplacement</td></tr><tr><td>Stick analogique gauche</td><td>Déplacement</td></tr><tr><td>Stick analogique droit</td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (20) (1).png" alt="A"></td><td>Retour / Ouvrir le menu (ECHAP)</td></tr><tr><td><img src="../../../.gitbook/assets/image (7) (1).png" alt="B"></td><td>Accepter / Parler (ENTER)</td></tr><tr><td><img src="../../../.gitbook/assets/image (35).png" alt="" data-size="original"></td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (33).png" alt="" data-size="line"></td><td></td></tr><tr><td>L1</td><td>MAJ (Shift)</td></tr><tr><td>R1</td><td>Passer au travers des murs + désactiver les rencontres aléatoires (actif en mode test uniquement)</td></tr><tr><td>L2</td><td></td></tr><tr><td>R2</td><td></td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
 
 ## Information spécifique au système
 
@@ -28,10 +24,6 @@ Aucun BIOS nécessaire.
 
 Les jeux EasyRPG sont fournis sous forme de dossier, avec une structure de ce type:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/fW4ypgs.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/fW4ypgs.png" alt=""><figcaption></figcaption></figure></div>
 
 Ajouter `.easyrpg` au nom du dossier et placer le répertoire dans `roms\easyrpg`.

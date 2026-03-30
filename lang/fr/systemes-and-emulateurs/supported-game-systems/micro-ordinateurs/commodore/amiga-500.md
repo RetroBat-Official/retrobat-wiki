@@ -4,11 +4,7 @@ description: Commodore
 
 # Amiga 500
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/amiga500-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/amiga500.svg" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/amiga500-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/amiga500.svg" alt=""></picture><figcaption></figcaption></figure></div>
 
 Micro-ordinateur - Durée de vie : 1987 - 1992
 
@@ -58,7 +54,7 @@ kick33180.A500
 
 Utiliser la fonctionnalité [Pad2Key](../../../../controleurs/pad2key.md).
 
-<table><thead><tr><th width="311">Retrobat</th><th>Amiga 500</th></tr></thead><tbody><tr><td>START</td><td></td></tr><tr><td>SELECT</td><td>Afficher / masquer le clavier virtuel</td></tr><tr><td>D-PAD</td><td>Joystick</td></tr><tr><td>Stick analogique gauche</td><td>Souris</td></tr><tr><td>Stick analogique droit</td><td>Souris</td></tr><tr><td><img src="../../../../.gitbook/assets/image (33).png" alt=""></td><td>ESPACE</td></tr><tr><td><img src="../../../../.gitbook/assets/image (20).png" alt=""></td><td>Bouton 1 / rouge</td></tr><tr><td><img src="../../../../.gitbook/assets/image (7).png" alt=""></td><td>Bouton 2 / bleu</td></tr><tr><td><img src="../../../../.gitbook/assets/image (35).png" alt=""></td><td></td></tr><tr><td>L1</td><td></td></tr><tr><td>R1</td><td></td></tr><tr><td>L2</td><td>Souris bouton gauche</td></tr><tr><td>R2</td><td>Souris bouton droit</td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="311">Retrobat</th><th>Amiga 500</th></tr></thead><tbody><tr><td>START</td><td></td></tr><tr><td>SELECT</td><td>Afficher / masquer le clavier virtuel</td></tr><tr><td>D-PAD</td><td>Joystick</td></tr><tr><td>Stick analogique gauche</td><td>Souris</td></tr><tr><td>Stick analogique droit</td><td>Souris</td></tr><tr><td><img src="../../../../.gitbook/assets/image (33).png" alt=""></td><td>ESPACE</td></tr><tr><td><img src="../../../../.gitbook/assets/image (20) (1).png" alt=""></td><td>Bouton 1 / rouge</td></tr><tr><td><img src="../../../../.gitbook/assets/image (7) (1).png" alt=""></td><td>Bouton 2 / bleu</td></tr><tr><td><img src="../../../../.gitbook/assets/image (35).png" alt=""></td><td></td></tr><tr><td>L1</td><td></td></tr><tr><td>R1</td><td></td></tr><tr><td>L2</td><td>Souris bouton gauche</td></tr><tr><td>R2</td><td>Souris bouton droit</td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
 
 ## Information spécifique au système
 

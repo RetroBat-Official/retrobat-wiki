@@ -4,11 +4,7 @@ description: Commodore
 
 # Amiga CD32
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/amigacd32-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/amigacd32.svg" alt="" width="563"></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/amigacd32-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/amigacd32.svg" alt="" width="563"></picture><figcaption></figcaption></figure></div>
 
 Console de jeu - Durée de vie : 1993 - 1994
 
@@ -32,22 +28,22 @@ Console de jeu - Durée de vie : 1993 - 1994
 
 ## Contrôles
 
-| Retrobat                                          | Amiga CD32   |
-| ------------------------------------------------- | ------------ |
-| START                                             | PLAY / PAUSE |
-| D-PAD                                             | D-PAD        |
-| Stick analogique gauche                           | D-PAD        |
-| Stick analogique droit                            |              |
-| ![](<../../../../.gitbook/assets/image (33).png>) | Vert         |
-| ![](<../../../../.gitbook/assets/image (20).png>) | Rouge        |
-| ![](<../../../../.gitbook/assets/image (7).png>)  | Bleu         |
-| ![](<../../../../.gitbook/assets/image (35).png>) | Jaune        |
-| L1                                                | Reverse      |
-| R1                                                | Forward      |
-| L2                                                |              |
-| R2                                                |              |
-| L3                                                |              |
-| R3                                                |              |
+| Retrobat                                              | Amiga CD32   |
+| ----------------------------------------------------- | ------------ |
+| START                                                 | PLAY / PAUSE |
+| D-PAD                                                 | D-PAD        |
+| Stick analogique gauche                               | D-PAD        |
+| Stick analogique droit                                |              |
+| ![](<../../../../.gitbook/assets/image (33).png>)     | Vert         |
+| ![](<../../../../.gitbook/assets/image (20) (1).png>) | Rouge        |
+| ![](<../../../../.gitbook/assets/image (7) (1).png>)  | Bleu         |
+| ![](<../../../../.gitbook/assets/image (35).png>)     | Jaune        |
+| L1                                                    | Reverse      |
+| R1                                                    | Forward      |
+| L2                                                    |              |
+| R2                                                    |              |
+| L3                                                    |              |
+| R3                                                    |              |
 
 ## Information spécifique du système
 

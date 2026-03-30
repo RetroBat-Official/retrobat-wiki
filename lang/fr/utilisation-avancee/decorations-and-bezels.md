@@ -28,11 +28,7 @@ Les options suivantes sont disponibles:
 
 Ci-dessous un exemple de Décorations AUTO pour la Super Nintendo:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/Ew1Ax7s.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/Ew1Ax7s.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Logique de recherche par défaut:
 
@@ -61,39 +57,23 @@ Le Bezel Project met à disposition des packs de bezels pour certains systèmes,
 
 Aller dans le [MISES A JOUR ET TELECHARGEMENTS](updates-and-content-download.md#telechargements) du [MENU PRINCIPAL](../navigation/main-menu.md).
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/nIZ2Rs6.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/nIZ2Rs6.png" alt=""><figcaption></figcaption></figure></div>
 
 Choisir **LE BEZEL PROJECT**, puis sur l'écran suivant sélectionner le système pour lequel télécharger les bezels.
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/Wd7qvXj.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/Wd7qvXj.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-Appuyer sur ![A](<../.gitbook/assets/image (20).png>) puis confirmer l'installation à nouveau avec ![A](<../.gitbook/assets/image (20).png>).
+Appuyer sur ![A](<../.gitbook/assets/image (20) (1).png>) puis confirmer l'installation à nouveau avec ![A](<../.gitbook/assets/image (20) (1).png>).
 
 Le téléchargement démarre.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/4J2W1Qx.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/4J2W1Qx.png" alt=""><figcaption></figcaption></figure></div>
 
 Attendre la fin du téléchargement.
 
 Les bezels téléchargés sont stockés dans le dossier `\decorations\thebezelproject\games`&#x20;
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/4GiHw1H.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/4GiHw1H.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Activer les bezels
 
@@ -101,29 +81,17 @@ Voir la section [Décorations ](decorations-and-bezels.md#decorations)du wiki.
 
 Sélectionner **THEBEZELPROJECT** dans le paramétrage des **DECORATIONS.**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/wg3490A.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/wg3490A.png" alt=""><figcaption></figcaption></figure></div>
 
 Ci-dessous une illustration de décoration du BEZEL PROJECT:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/edBZRpf.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/edBZRpf.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Pour pouvoir utiliser les bezels propres à un jeu, il est nécessaire que le fichier du jeu (ROM) ait exactement le même nom que le fichier décoration dans le dossier `\decorations\thebezelproject\games`
 {% endhint %}
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/j2LoA0W.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/j2LoA0W.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Les Mega Bezels
 
@@ -137,19 +105,11 @@ Les Mega-Bezels ne sont compatibles qu'avec les coeur libretro, ils ne fonctionn
 
 Depuis le menu **TÉLÉCHARGEMENT DE CONTENU** du [MENU PRINCIPAL](../navigation/main-menu.md), sélectionner l'onglet Bezels
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/QmWLsNg.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/QmWLsNg.png" alt=""><figcaption></figcaption></figure></div>
 
 Le pack de Bezels est téléchargé dans le dossier `\emulators\retroarch\shaders`&#x20;
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/z8WoJp8.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/z8WoJp8.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Activer les Mega Bezels
 
@@ -159,59 +119,35 @@ Pour activer les Mega-Bezels, aller:
 * soit dans les [Options d'Affichage](../navigation/view-options.md#configuration-avancees-du-systeme) (Configuration avancée du système > Pack de filtres vidéos)
 * soit dans les [Options du Jeu](../navigation/game-options.md#configuration-avancee-du-jeu) (Configuration avancée du jeu > Pack de filtres vidéos)
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/D8iA1Ru.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/D8iA1Ru.png" alt=""><figcaption></figcaption></figure></div>
 
 Il existe plusieurs options pour chaque pack de megabezels.
 
 D'autre part, il est nécessaire de positionner le réglage des **DÉCORATIONS** sur **AUCUN** et le **FORMAT D'AFFICHAGE** sur **COMPLET**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/vKbjdbp.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/vKbjdbp.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Laisser FORMAT D'AFFICHAGE sur AUTO si vous utilisez un écran 4/3.
 {% endhint %}
 
-Enfin, les Mega Bezels ne fonctionnent qu'avec le driver vidéo **VULKAN**, il est donc nécessaire de paramétrer cela dans les [Options Avancées du système](../navigation/view-options.md#configuration-avancees-du-systeme) ou [du jeu](../navigation/game-options.md#configuration-avancee-du-jeu) :
+Enfin, les Mega Bezels ne fonctionnent pas avec le driver vidéo **OPENGL**, il est donc nécessaire de choisir un autre pilote dans les [Options Avancées du système](../navigation/view-options.md#configuration-avancees-du-systeme) ou [du jeu](../navigation/game-options.md#configuration-avancee-du-jeu) :
 
-<div align="left">
+<figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="https://i.imgur.com/O44OZwk.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
 
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/bOM4teG.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+{% hint style="info" %}
+Il est recommandé d'utiliser VULKAN ou OPENGL CORE, mais DirectX 10, 11 ou 12 peuvent aussi fonctionner.
+{% endhint %}
 
 Quelques illustrations avec les mega-bezels:
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/nnAzMON.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/nnAzMON.png" alt=""><figcaption></figcaption></figure>
+<div align="left"><figure><img src="https://i.imgur.com/HYSzHRZ.png" alt=""><figcaption></figcaption></figure></div>
 
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/HYSzHRZ.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/mmaoUzW.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/mmaoUzW.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Personnaliser les Mega-bezels
 
@@ -221,36 +157,20 @@ Voir la [section "Tutoriels" du wiki](../tutoriels/adapter-et-personnaliser-les-
 
 Les tatouages sont une surimpression sur le bezel qui permettent d'afficher le schéma de contrôle de la machine émulée:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/0kO2KQv.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/0kO2KQv.png" alt=""><figcaption></figcaption></figure></div>
 
 Pour activer les tattoos, aller dans le **MENU PRINCIPAL** > **PARAMETRES DES JEUX**:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/TZxu8R5.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/TZxu8R5.png" alt=""><figcaption></figcaption></figure></div>
 
 Puis **OPTIONS GENERALES** > **TATOUAGE**:
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/OVxPrGg.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/OVxPrGg.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/jnkGFCn.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/jnkGFCn.png" alt=""><figcaption></figcaption></figure></div>
 
 Il est possible de modifier le coin dans lequel afficher le tatouage.
 
 {% hint style="info" %}
-Les tatouages ne peuvent utiliser que lorsque les bezels (décorations) sont activés.
+Les tatouages ne peuvent être utilisés que lorsque les bezels (décorations) sont activés.
 {% endhint %}

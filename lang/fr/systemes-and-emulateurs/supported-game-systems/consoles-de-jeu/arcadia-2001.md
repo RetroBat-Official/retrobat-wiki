@@ -4,11 +4,7 @@ description: Emerson Radio
 
 # Arcadia 2001 (Home Arcade)
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/arcadia-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/arcadia.svg" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/arcadia-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/arcadia.svg" alt=""></picture><figcaption></figcaption></figure></div>
 
 Console de jeu - Durée de vie : 1982 - 1984
 
@@ -28,23 +24,23 @@ Console de jeu - Durée de vie : 1982 - 1984
 
 ## Contrôles
 
-| Retrobat                                       | Arcadia 2001 |
-| ---------------------------------------------- | ------------ |
-| START                                          | 0            |
-| SELECT                                         | 9            |
-| D-PAD                                          | Stick        |
-| Stick analogique gauche                        | Stick        |
-| Stick analogique droit                         |              |
-| ![](<../../../.gitbook/assets/image (33).png>) | 4            |
-| ![](<../../../.gitbook/assets/image (20).png>) | 2            |
-| ![](<../../../.gitbook/assets/image (7).png>)  | 1            |
-| ![](<../../../.gitbook/assets/image (35).png>) | 3            |
-| L1                                             | 6            |
-| R1                                             | 5            |
-| L2                                             | 8            |
-| R2                                             | 7            |
-| L3                                             | 0            |
-| R3                                             | 9            |
+| Retrobat                                           | Arcadia 2001 |
+| -------------------------------------------------- | ------------ |
+| START                                              | 0            |
+| SELECT                                             | 9            |
+| D-PAD                                              | Stick        |
+| Stick analogique gauche                            | Stick        |
+| Stick analogique droit                             |              |
+| ![](<../../../.gitbook/assets/image (33).png>)     | 4            |
+| ![](<../../../.gitbook/assets/image (20) (1).png>) | 2            |
+| ![](<../../../.gitbook/assets/image (7) (1).png>)  | 1            |
+| ![](<../../../.gitbook/assets/image (35).png>)     | 3            |
+| L1                                                 | 6            |
+| R1                                                 | 5            |
+| L2                                                 | 8            |
+| R2                                                 | 7            |
+| L3                                                 | 0            |
+| R3                                                 | 9            |
 
 ## Information spécifique du système
 

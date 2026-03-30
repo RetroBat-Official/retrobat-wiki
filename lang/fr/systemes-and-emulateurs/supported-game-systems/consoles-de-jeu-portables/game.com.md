@@ -4,11 +4,7 @@ description: Tiger Electronics
 
 # Game.com
 
-<div align="left">
-
-<figure><img src="https://github.com/fabricecaruso/es-theme-carbon/blob/master/art/logos/gamecom.png?raw=true" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/fabricecaruso/es-theme-carbon/blob/master/art/logos/gamecom.png?raw=true" alt=""><figcaption></figcaption></figure></div>
 
 Console de jeu portable - Durée de vie : 1997 - 2000
 
@@ -36,23 +32,23 @@ gamecom.zip
 
 ## Contrôles
 
-| Retrobat                                       | Game.com |
-| ---------------------------------------------- | -------- |
-| START                                          | MENU     |
-| SELECT                                         | PAUSE    |
-| D-PAD                                          | D-PAD    |
-| Stick analogique gauche                        | D-PAD    |
-| Stick analogique droit                         |          |
-| ![](<../../../.gitbook/assets/image (33).png>) | A        |
-| ![](<../../../.gitbook/assets/image (20).png>) | C        |
-| ![](<../../../.gitbook/assets/image (7).png>)  | D        |
-| ![](<../../../.gitbook/assets/image (35).png>) | B        |
-| L1                                             | L1       |
-| R1                                             | R1       |
-| L2                                             |          |
-| R2                                             |          |
-| L3                                             |          |
-| R3                                             |          |
+| Retrobat                                           | Game.com |
+| -------------------------------------------------- | -------- |
+| START                                              | MENU     |
+| SELECT                                             | PAUSE    |
+| D-PAD                                              | D-PAD    |
+| Stick analogique gauche                            | D-PAD    |
+| Stick analogique droit                             |          |
+| ![](<../../../.gitbook/assets/image (33).png>)     | A        |
+| ![](<../../../.gitbook/assets/image (20) (1).png>) | C        |
+| ![](<../../../.gitbook/assets/image (7) (1).png>)  | D        |
+| ![](<../../../.gitbook/assets/image (35).png>)     | B        |
+| L1                                                 | L1       |
+| R1                                                 | R1       |
+| L2                                                 |          |
+| R2                                                 |          |
+| L3                                                 |          |
+| R3                                                 |          |
 
 ## Information spécifique au système
 

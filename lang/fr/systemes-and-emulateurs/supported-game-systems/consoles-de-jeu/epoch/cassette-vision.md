@@ -24,19 +24,19 @@ Pas de BIOS nécessaire.
 
 ## Contrôles
 
-| Retrobat                                          | Cassette Vision                                                                                                                                  |
-| ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| START                                             | Start                                                                                                                                            |
-| SELECT                                            | Select                                                                                                                                           |
-| D-PAD                                             | <p>Haut : incrément de sélection de course<br>Bas : Décrément de sélection de course<br>Gauche : Levier 1 gauche<br>Droite : Levier 1 droite</p> |
-| ![](<../../../../.gitbook/assets/image (33).png>) | Push3                                                                                                                                            |
-| ![](<../../../../.gitbook/assets/image (20).png>) | Push2                                                                                                                                            |
-| ![](<../../../../.gitbook/assets/image (7).png>)  | Push4                                                                                                                                            |
-| ![](<../../../../.gitbook/assets/image (35).png>) | Push1                                                                                                                                            |
-| L1                                                | -                                                                                                                                                |
-| R1                                                | AUX                                                                                                                                              |
-| Stick gauche axe horizontal                       | Paddle 2                                                                                                                                         |
-| Stick gauche axe vertical                         | Paddle 1                                                                                                                                         |
+| Retrobat                                              | Cassette Vision                                                                                                                                  |
+| ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------ |
+| START                                                 | Start                                                                                                                                            |
+| SELECT                                                | Select                                                                                                                                           |
+| D-PAD                                                 | <p>Haut : incrément de sélection de course<br>Bas : Décrément de sélection de course<br>Gauche : Levier 1 gauche<br>Droite : Levier 1 droite</p> |
+| ![](<../../../../.gitbook/assets/image (33).png>)     | Push3                                                                                                                                            |
+| ![](<../../../../.gitbook/assets/image (20) (1).png>) | Push2                                                                                                                                            |
+| ![](<../../../../.gitbook/assets/image (7) (1).png>)  | Push4                                                                                                                                            |
+| ![](<../../../../.gitbook/assets/image (35).png>)     | Push1                                                                                                                                            |
+| L1                                                    | -                                                                                                                                                |
+| R1                                                    | AUX                                                                                                                                              |
+| Stick gauche axe horizontal                           | Paddle 2                                                                                                                                         |
+| Stick gauche axe vertical                             | Paddle 1                                                                                                                                         |
 
 ## Information spécifique du système
 

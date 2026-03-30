@@ -2,11 +2,7 @@
 
 
 
-<div align="center" data-full-width="true">
-
-<figure><img src="../../../.gitbook/assets/reminiscence.png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
+<div align="center" data-full-width="true"><figure><img src="../../../.gitbook/assets/reminiscence.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Moteur de jeu permettant de jouer à Flashback.
 
@@ -22,21 +18,21 @@ Aucun BIOS nécessaire.
 
 ## Contrôles
 
-| Retrobat                                       | REminiscence       |
-| ---------------------------------------------- | ------------------ |
-| START                                          |                    |
-| SELECT                                         |                    |
-| D-PAD                                          | D-PAD              |
-| Stick analogique gauche                        | Directions         |
-| Stick analogique droit                         |                    |
-| ![](<../../../.gitbook/assets/image (33).png>) | Inventaire / Echap |
-| ![](<../../../.gitbook/assets/image (20).png>) | Draw / Holster     |
-| ![](<../../../.gitbook/assets/image (7).png>)  | Utiliser           |
-| ![](<../../../.gitbook/assets/image (35).png>) | Action             |
-| L1                                             |                    |
-| R1                                             |                    |
-| L2                                             |                    |
-| R2                                             |                    |
+| Retrobat                                           | REminiscence       |
+| -------------------------------------------------- | ------------------ |
+| START                                              |                    |
+| SELECT                                             |                    |
+| D-PAD                                              | D-PAD              |
+| Stick analogique gauche                            | Directions         |
+| Stick analogique droit                             |                    |
+| ![](<../../../.gitbook/assets/image (33).png>)     | Inventaire / Echap |
+| ![](<../../../.gitbook/assets/image (20) (1).png>) | Draw / Holster     |
+| ![](<../../../.gitbook/assets/image (7) (1).png>)  | Utiliser           |
+| ![](<../../../.gitbook/assets/image (35).png>)     | Action             |
+| L1                                                 |                    |
+| R1                                                 |                    |
+| L2                                                 |                    |
+| R2                                                 |                    |
 
 ## Information spécifique au système
 
@@ -46,24 +42,12 @@ REminiscence fonctionne avec les fichiers de jeu Flashback, de Delphine Software
 
 A l'interieur du dossier `roms\reminiscence`, créer un nouveau dossier `Flashback`. A l'intérieur de ce dossier, placer les fichiers de jeu que vous pouvez trouver dans le dossier `Flashback_Data\StreamingAssets\data` de votre dossier de jeu Flashback :
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/2024-05-05_20h19_06.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/2024-05-05_20h19_06.png" alt=""><figcaption></figcaption></figure></div>
 
 Les niveaux pourront être chargés, mais certaines voix et musiques pourraient être manquantes. Pour y pallier, il est possible d'utiliser les fichiers musiques d'Amiga de Raphaël Gesqua, en les déplaçant à l'interieur du dossier Flashback.
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/2024-05-05_21h42_28.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/2024-05-05_21h42_28.png" alt=""><figcaption></figcaption></figure></div>
 
 Enfin, pour que RetroBat puisse reconnaitre et lancer le jeu, créer un fichier texte vide à l'interieur du dossier `roms\reminiscence`, que vous renommerez `Flashback` avec l'extension de fichier `.REM`
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/2024-05-05_20h22_19.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/2024-05-05_20h22_19.png" alt=""><figcaption></figcaption></figure></div>

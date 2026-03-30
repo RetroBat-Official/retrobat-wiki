@@ -4,11 +4,7 @@ description: Microsoft
 
 # Xbox
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/xbox.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/xbox.svg" alt=""><figcaption></figcaption></figure></div>
 
 Console de jeu - Durée de vie : 2001 - 2006
 
@@ -46,8 +42,8 @@ Vous pouvez télécharger dokan ici:\
 | D-PAD                                                                              | D-PAD                          |
 | Stick analogique gauche                                                            | Stick analogique gauche        |
 | Stick analogique droit                                                             | Stick analogique droit         |
-| ![A](<../../../../.gitbook/assets/image (20).png>)                                 | A                              |
-| ![B](<../../../../.gitbook/assets/image (7).png>)                                  | B                              |
+| ![A](<../../../../.gitbook/assets/image (20) (1).png>)                             | A                              |
+| ![B](<../../../../.gitbook/assets/image (7) (1).png>)                              | B                              |
 | <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | Y                              |
 | <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     | X                              |
 | L1                                                                                 | L1 (blanc)                     |

@@ -4,11 +4,7 @@ description: Sony
 
 # PlayStation 2
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/ps2-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/ps2.svg" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/ps2-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/ps2.svg" alt=""></picture><figcaption></figcaption></figure></div>
 
 Console de jeu - Durée de vie: 2000 - 2013
 
@@ -42,21 +38,13 @@ Les contrôleurs suivants peuvent être autoconfigurés depuis RetroBat dans pcs
 
 ### Schéma de contrôles:
 
-<div align="left">
-
-<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/psx.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/psx.png?raw=true" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ### Schémas alternatifs:
 
 Afin de pouvoir utiliser les gâchettes analogiques pour les jeux de course, il est possible d'utiliser un des schémas de contrôles alternatifs en activant cette option:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/rYhzVoc.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/rYhzVoc.png" alt=""><figcaption></figcaption></figure></div>
 
 | Option                  | Schéma de contrôles                                                                                                                                    |
 | ----------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -76,19 +64,11 @@ L'émulateur PCSX2 permet l'utilisation de packs de textures "customs" pour remp
 
 Pour utiliser un pack de textures, placer le pack dans le dosisier `\bios\pcsx2\textures` dans un sous-dossier portant l'ID du jeu:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/nOBWsbc.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/nOBWsbc.png" alt=""><figcaption></figcaption></figure></div>
 
 Les fichiers de textures doivent être copiées dans un sous-dossier nommé "replacements":
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/H7dUscl.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/H7dUscl.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Pour connaître l'ID du jeu, il est possible d'utiliser la méthode suivante:
@@ -96,59 +76,31 @@ Pour connaître l'ID du jeu, il est possible d'utiliser la méthode suivante:
 démarrer l'éxecutable de l'émulateur depuis le dossier`\emulators\pcsx2` et lancer le jeu en activant l'option "dump textures", PCSX2 créera automatiquement le dossier des textures pour le jeu en question dans `\bios\pcsx2\textures`.
 {% endhint %}
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/hHyR18f.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/hHyR18f.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/6IeWCXM.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/6IeWCXM.png" alt=""><figcaption></figcaption></figure></div>
 
 Une fois le pack de textures placé dans le bon dossier et pour le bon ID jeu, configurer Retrobat pour lancer le jeu en utilisant les textures personnalisées avec l'option **CUSTOM TEXTURES** depuis le sous-menu **VISUAL RENDERING** dans le menu [**Configuration Avancée du Système**](../../../../navigation/view-options.md#configuration-avancees-du-systeme) ou le menu [**Configuration Avancée du Jeu**](../../../../navigation/game-options.md#configuration-avancee-du-jeu) :
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/yx1qPkB.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/yx1qPkB.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/ijtLUEf.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/ijtLUEf.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Jeux multi-disques
 
 PCSX2 ne supporte pas l'utilisation de fichiers m3u pour les jeux multi-disques.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/5n2VsbQ.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/5n2VsbQ.png" alt=""><figcaption></figcaption></figure></div>
 
 Pour changer de disques dans PCSX2, il est nécessaire de procéder comme suit dans l'interface de PCSX2:
 
-Lorsque le jeu demande de changer de disque, accéder au menu PCSX2 avec la combinaison SELECT + ![A](<../../../../.gitbook/assets/image (20).png>) de votre manette, et sélectionner "**Change Disc**"
+Lorsque le jeu demande de changer de disque, accéder au menu PCSX2 avec la combinaison SELECT + ![A](<../../../../.gitbook/assets/image (20) (1).png>) de votre manette, et sélectionner "**Change Disc**"
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/fihyt1U.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/fihyt1U.png" alt=""><figcaption></figcaption></figure>
+Dans l'écran suivant, sélectionner le disque suivant et confirmer avec ![A](<../../../../.gitbook/assets/image (20) (1).png>)
 
-</div>
-
-Dans l'écran suivant, sélectionner le disque suivant et confirmer avec ![A](<../../../../.gitbook/assets/image (20).png>)
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/leMX1Ob.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/leMX1Ob.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Modifier la langue du système
 
@@ -156,30 +108,30 @@ La langue de la console ne peut être modifié que dans le BIOS de la console, v
 
 Aller dans les [options avancées du système](../../../../navigation/configuration-des-systemes-et-des-jeux.md#comment-acceder-au-menu-de-configuration) et passer le paramètre "LANCER LE BIOS" à OUI:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/XfJiN73.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/XfJiN73.png" alt=""><figcaption></figcaption></figure></div>
 
 Démarrer n'importe quel jeu de votre librairie, le système démarre sur le BIOS et non le jeu:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/zGInZDf.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/zGInZDf.png" alt=""><figcaption></figcaption></figure></div>
 
 Naviguer vers "system configuration" et sélectionner l'option "language":
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/4yZDjwt.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/4yZDjwt.png" alt=""><figcaption></figcaption></figure></div>
 
 Choisir la langue et quitter.
 
 {% hint style="info" %}
 Ce paramétrage est sauvegardé directement dans le fichier BIOS. En cas d'utilisation d'un bios différent ou d'un nouveau fichier, il est nécessaire de reproduire ces étapes.
 {% endhint %}
+
+#### PCSX2 - Réticule de visée <a href="#pcsx2-gun-crosshair" id="pcsx2-gun-crosshair"></a>
+
+Par défaut, le réticule de visée peut être activé ou désactivé via l'option située dans **OPTIONS AVANCÉES DU SYSTÈME > PISTOLETS** :
+
+<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Le réticule est désactivé par défaut, la valeur "CUSTOM" doit être sélectionnée pour le faire apparaître. L'emplacement par défaut du fichier image utilisé est : `emulators\pcsx2\cross\crosshair.png`.
+
+Cependant, il est possible d'indiquer à PCSX2 d'utiliser un autre fichier a l'aide de cette option :
+
+<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>

@@ -6,7 +6,7 @@ description: Nintendo Hack
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro : bsnes</li><li>libretro: bsnes_hd_beta</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> gb-msu</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.gb .gbc</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro : bsnes</li><li>libretro: bsnes_hd_beta</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> sgb-msu1</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.gb .gbc .squashfs</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
@@ -33,8 +33,4 @@ Pour faire fonctionner les jeux, les fichiers suivants sont nécessaires:
 
 #### Exemple d'un jeu fonctionnel:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/xx9L9Mn.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/xx9L9Mn.png" alt=""><figcaption></figcaption></figure></div>

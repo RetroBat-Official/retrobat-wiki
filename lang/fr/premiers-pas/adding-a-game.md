@@ -16,7 +16,7 @@ Le système est désormais visible dans la **Vue Système**.
 
 <div align="left"><figure><img src="https://i.imgur.com/Koqx1du.png" alt=""><figcaption><p>Vue Système</p></figcaption></figure></div>
 
-Appuyer sur ![](<../.gitbook/assets/image (20).png>) pour accéder à la liste de jeux dans la **Vue Jeux**
+Appuyer sur ![](<../.gitbook/assets/image (20) (1).png>) pour accéder à la liste de jeux dans la **Vue Jeux**
 
 <div align="left"><figure><img src="https://i.imgur.com/zQA7I0U.png" alt=""><figcaption><p><strong>Vue Jeux</strong></p></figcaption></figure></div>
 
@@ -64,11 +64,11 @@ Les informations du jeu sont désormais disponibles dans la Vue Jeux.
 
 ### Scrape individuel (par jeu)
 
-Pour scraper un jeu individuellement, sélectionner le jeu et rester appuyé sur ![](<../.gitbook/assets/image (20).png>) afin d'afficher le menu du jeu puis choisir **SCRAPER.**
+Pour scraper un jeu individuellement, sélectionner le jeu et rester appuyé sur ![](<../.gitbook/assets/image (20) (1).png>) afin d'afficher le menu du jeu puis choisir **SCRAPER.**
 
 <div align="left"><figure><img src="https://i.imgur.com/BX2auLe.png" alt=""><figcaption></figcaption></figure></div>
 
-Une liste des jeux pouvant correspondre est proposée, sélectionner le jeu et confirmer avec le bouton ![](<../.gitbook/assets/image (20).png>).
+Une liste des jeux pouvant correspondre est proposée, sélectionner le jeu et confirmer avec le bouton ![](<../.gitbook/assets/image (20) (1).png>).
 
 {% hint style="info" %}
 Par défaut, la recherche est effectuée en utilisant le nom du fichier du jeu, il est possible de modifier le nom à utiliser pour la recherche en utilisant l'option **EDITER** en bas de l'écran.

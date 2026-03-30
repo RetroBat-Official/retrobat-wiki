@@ -4,11 +4,7 @@ description: Nokia
 
 # N-Gage & Symbian
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/db9685d44d41fa27f869daaba3ab446395ff3485/art/logos/ngage-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/db9685d44d41fa27f869daaba3ab446395ff3485/art/logos/ngage.svg" alt="" width="563"></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/db9685d44d41fa27f869daaba3ab446395ff3485/art/logos/ngage-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/db9685d44d41fa27f869daaba3ab446395ff3485/art/logos/ngage.svg" alt="" width="563"></picture><figcaption></figcaption></figure></div>
 
 Console de jeu portable - Durée de vie : 2003 - 2006
 
@@ -39,8 +35,8 @@ La ROM doit être installée dans l'émulateur avant de pouvoir lancer un jeu de
 | D-PAD                                                                              | D-PAD                                                  |
 | Stick analogique gauche                                                            |                                                        |
 | Stick analogique droit                                                             | <p>Haut : 0<br>Gauche : 7<br>Bas : 8<br>Droite : 9</p> |
-| ![A](<../../../../.gitbook/assets/image (20).png>)                                 | 4                                                      |
-| ![B](<../../../../.gitbook/assets/image (7).png>)                                  | 5                                                      |
+| ![A](<../../../../.gitbook/assets/image (20) (1).png>)                             | 4                                                      |
+| ![B](<../../../../.gitbook/assets/image (7) (1).png>)                              | 5                                                      |
 | <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | 2                                                      |
 | <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     | 1                                                      |
 | L1                                                                                 | 3                                                      |
@@ -62,43 +58,23 @@ Une copie de la rom N-Gage NEM-4 est nécessaire pour réaliser cette étape, Re
 
 Depuis le menu RetroBat lancez l'émulateur EKA2L1 :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/8uq6sZD.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/8uq6sZD.png" alt=""><figcaption></figcaption></figure></div>
 
 Depuis l'émulateur, cliquez sur le menu "paramètres", et dans l'onglet Général du nouveau menu, renseignez le dossier `\bios\eka2l1\data` comme chemin pour les dossiers de données **:**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/PVxvecz.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/PVxvecz.png" alt=""><figcaption></figcaption></figure></div>
 
 Fermer la fenêtre des paramètres et sélectionnez Fichier > installer > Appareil :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/4YTH5N7.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/4YTH5N7.png" alt=""><figcaption></figcaption></figure></div>
 
 Naviguez jusqu'a l'emplacement du fichier **SYM.ROM** qui doit être placé dans le dossier `\bios\eka2l1\data\roms\NEM-4` de votre installation RetroBat :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/mChh9GO.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/mChh9GO.png" alt=""><figcaption></figcaption></figure></div>
 
 Cliquez sur "installer" :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/tI2Pcds.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/tI2Pcds.png" alt=""><figcaption></figcaption></figure></div>
 
 Vous pouvez désormais quitter l'émulateur.
 
@@ -110,11 +86,7 @@ Jusqu'à maintenant, seuls les vrais jeux N-Gage au format "dossier" (contenant 
 
 Voici un exemple d'un dossier de jeu tel qu'il doit se présenter dans le dossier  `\roms\ngage` de votre installation RetroBat :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/wUcyu53.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/wUcyu53.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 N'oubliez pas de renommer le dossier de jeu de façon à ce qu'il finisse par ".ngage" a la fin, dans le cas contraire, il ne serait pas reconnu par RetroBat.
@@ -128,27 +100,15 @@ Les jeux symbian doivent au préalable être installés dans l'émulateur EKA2L1
 Les jeux installés ne seront visible que pour le modèle de NOKIA pour lequel ils ont été installés.
 {% endhint %}
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/cPdweb3.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/cPdweb3.png" alt=""><figcaption></figcaption></figure></div>
 
 Une fois le jeu installé, récupérer l'"Application Name" dans l'émulateur:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/ZHR11OX.png" alt=""><figcaption><p>Le nom de l'application est "cakarting"</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/ZHR11OX.png" alt=""><figcaption><p>Le nom de l'application est "cakarting"</p></figcaption></figure></div>
 
 Enfin, créer un fichier .txt et y copier le nom exact de l'application:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/9YkL68x.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/9YkL68x.png" alt=""><figcaption></figcaption></figure></div>
 
 Sauvegarder le fichier avec l'extension `.symbian` dans le dossier `roms\ngage`.
 

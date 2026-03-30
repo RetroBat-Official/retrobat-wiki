@@ -2,11 +2,7 @@
 
 Les modes Kiosque ou Enfant peuvent être activées depuis les Paramètres système dans le [MENU PRINCIPAL](../navigation/main-menu.md#parametres-systeme)
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/XrpzRR1.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/XrpzRR1.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Mode Kiosque
 
@@ -25,12 +21,8 @@ Les restrictions sont identiques à celles du mode Kiosque, de plus seuls les je
 ### Retour au mode Complet
 
 Il est possible de retourner au mode complet en utilisant la combinaison suivante au pad :\
-A A A B A ![](<../.gitbook/assets/image (7).png>) ![](<../.gitbook/assets/image (7).png>) ![](<../.gitbook/assets/image (7).png>) ![](<../.gitbook/assets/image (20).png>) ![](<../.gitbook/assets/image (7).png>)
+A A A B A ![](<../.gitbook/assets/image (7) (1).png>) ![](<../.gitbook/assets/image (7) (1).png>) ![](<../.gitbook/assets/image (7) (1).png>) ![](<../.gitbook/assets/image (20) (1).png>) ![](<../.gitbook/assets/image (7) (1).png>)
 
 Il est également possible d'éditer le fichier `retrobat.ini` situé dans votre dossier retrobat en mettant la valeur "**InterfaceMode**" à 0:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/ofDCIxE.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/ofDCIxE.png" alt=""><figcaption></figcaption></figure></div>

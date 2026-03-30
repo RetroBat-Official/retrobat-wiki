@@ -18,6 +18,10 @@ Aucun BIOS nécessaire.
 
 <div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/n64-standalone.png?raw=true" alt=""><figcaption></figcaption></figure></div>
 
+Une disposition alternative de touche est disponible, avec le bouton Z sur la gâchette droite, l'option peut être activée via le menu disponible dans **OPTIONS AVANCÉES DU SYSTÈME > CONTRÔLES** :&#x20;
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
+
 ### Utiliser une manette N64
 
 RetroBat détectera automatiquement et configurera les manettes N64 suivantes :
@@ -30,13 +34,13 @@ RetroBat détectera automatiquement et configurera les manettes N64 suivantes :
 Lors de l'utilisation de l'adaptateur Mayflash, les manettes doivent être branchés en ordre inversé, c'est à dire que le joueur 1 utilisera le dernier port de l'adaptateur.
 {% endhint %}
 
-Le mappage des touches pour les manettes N64 se trouve dans le fichier "**n64Controllers.json**" situé dans le dossier `\system\resources\inputmapping` de l'installation RetroBat, et il est possible de rajouter son propre paramétrage dans ce fichier.
+Le mappage des touches pour les manettes N64 se trouve dans le fichier "**n64Controllers.json**" situé dans le dossier `\system\resources\inputmapping` de l'installation RetroBat, il est possible de rajouter son propre paramétrage dans ce fichier puis de le sauvegarder dans le dossier `user\inputmapping`.
 
 ## Information spécifique au système
 
 ### Organisation des fichiers de jeux
 
-Placer une version compatible du jeu Majora's Mask dans le dossier roms\2ship.
+Placer une version compatible du jeu Majora's Mask dans le dossier `roms\2ship`.
 
 La liste des versions compatibles se trouve dans le lien ci-après :
 

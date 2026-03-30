@@ -12,21 +12,17 @@ Console de jeu - Durée de vie : 2006 - 2017
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="201"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>dolphin</li><li>libretro: dolphin</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> wii</td></tr><tr><td><strong>Extensions</strong></td><td>.gcz .iso .ciso .wbfs .wad .rvz .wia .zip .7z .json</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="201"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>dolphin</li><li>libretro: dolphin</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> wii</td></tr><tr><td><strong>Extensions</strong></td><td>.gcz .iso .ciso .dol .wbfs .wad .rvz .wia .zip .7z .squashfs .json</td></tr></tbody></table>
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>Dolphin : NON<br>lr-dolphin : NON</td><td>Dolphin : NON<br>lr-dolphin : NON</td><td>Dolphin : OUI<br>lr-dolphin : OUI</td></tr></tbody></table>
-
-| Succès Rétro | Parties en Réseau |
-| ------------ | ----------------- |
-| NON          | NON               |
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>Dolphin : OUI<br>lr-dolphin : OUI</td><td>Dolphin : NON<br>lr-dolphin : NON</td><td>Dolphin : OUI<br>lr-dolphin : OUI</td></tr></tbody></table>
 
 ## BIOS
 
 Aucun BIOS nécessaire.
 
-## Dossiers
+## DOSSIERS
 
 ### NAND
 
@@ -71,8 +67,8 @@ Le tableau ci-dessous détaille la correspondance de boutons "standard" lorsque 
 | D-PAD                                                                              | D-PAD                             |
 | Stick analogique gauche                                                            | Pointeur infrarouge de la Wiimote |
 | Stick analogique droit                                                             | Mouvement "Tilt"                  |
-| ![A](<../../../../.gitbook/assets/image (20).png>)                                 | A                                 |
-| ![B](<../../../../.gitbook/assets/image (7).png>)                                  | B                                 |
+| ![A](<../../../../.gitbook/assets/image (20) (1).png>)                             | A                                 |
+| ![B](<../../../../.gitbook/assets/image (7) (1).png>)                              | B                                 |
 | <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | 2                                 |
 | <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     | 1                                 |
 | LB (L1)                                                                            | -                                 |
@@ -103,8 +99,8 @@ Correspondance des boutons pour le mode Classic Controller:
 | D-PAD                                                                              | D-PAD              |
 | Stick analogique gauche                                                            | Stick gauche       |
 | Stick analogique droit                                                             | Stick droit        |
-| ![A](<../../../../.gitbook/assets/image (20).png>)                                 | B                  |
-| ![B](<../../../../.gitbook/assets/image (7).png>)                                  | A                  |
+| ![A](<../../../../.gitbook/assets/image (20) (1).png>)                             | B                  |
+| ![B](<../../../../.gitbook/assets/image (7) (1).png>)                              | A                  |
 | <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | X                  |
 | <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     | Y                  |
 | L1                                                                                 | L                  |
@@ -194,8 +190,8 @@ La correspondance des touches est identique à la correspondance par défaut, av
 
 | Retrobat                                                                           | Wiimote     |
 | ---------------------------------------------------------------------------------- | ----------- |
-| ![A](<../../../../.gitbook/assets/image (20).png>)                                 | 1           |
-| ![B](<../../../../.gitbook/assets/image (7).png>)                                  | 2           |
+| ![A](<../../../../.gitbook/assets/image (20) (1).png>)                             | 1           |
+| ![B](<../../../../.gitbook/assets/image (7) (1).png>)                              | 2           |
 | <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | B           |
 | <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     | A           |
 | L2                                                                                 | Shake       |
@@ -264,7 +260,7 @@ Le core libretro Dolphin permet de sélectionner parmi les types de contrôleurs
 * REAL WIIMOTE
 * GAMECUBE CONTROLLER ([Voir le mapping Gamecube](gamecube.md#controles))
 
-<table><thead><tr><th width="192">Retrobat</th><th width="102">WIIMOTE</th><th width="98">SIDE</th><th width="130">NUNCHUK</th><th>CLASSIC CONTROLLER</th></tr></thead><tbody><tr><td>START</td><td>+</td><td>+</td><td>1</td><td>+</td></tr><tr><td>SELECT</td><td>-</td><td>-</td><td>2</td><td>-</td></tr><tr><td>D-PAD</td><td>D-PAD</td><td>D-PAD</td><td>D-PAD</td><td>D-PAD</td></tr><tr><td>Stick analogique gauche</td><td>Tilt</td><td>Tilt</td><td>Nunchuk<br>Stick</td><td>Stick gauche</td></tr><tr><td>Stick analogique droite</td><td></td><td></td><td>Tilt</td><td>Stick droit</td></tr><tr><td><img src="../../../../.gitbook/assets/image (20).png" alt="A"></td><td>B</td><td>1</td><td>B</td><td>B</td></tr><tr><td><img src="../../../../.gitbook/assets/image (7).png" alt="B"></td><td>A</td><td>2</td><td>A</td><td>A</td></tr><tr><td><img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"></td><td>1</td><td>A</td><td>C</td><td>X</td></tr><tr><td><img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line"></td><td>2</td><td>B</td><td>Z</td><td>Y</td></tr><tr><td>L1</td><td></td><td></td><td>-</td><td>ZL<br>PRO: L</td></tr><tr><td>R1</td><td></td><td></td><td>+</td><td>ZR<br>PRO: R</td></tr><tr><td>L2</td><td></td><td></td><td>Secouer<br>Nunchuk</td><td>L<br>PRO: ZL</td></tr><tr><td>R2</td><td>Secouer</td><td>Secouer</td><td>Secouer<br>Wiimote</td><td>R<br>PRO: ZR</td></tr><tr><td>L3</td><td></td><td></td><td></td><td></td></tr><tr><td>R3</td><td>Home</td><td>Home</td><td>Home</td><td>Home</td></tr></tbody></table>
+<table><thead><tr><th width="192">Retrobat</th><th width="102">WIIMOTE</th><th width="98">SIDE</th><th width="130">NUNCHUK</th><th>CLASSIC CONTROLLER</th></tr></thead><tbody><tr><td>START</td><td>+</td><td>+</td><td>1</td><td>+</td></tr><tr><td>SELECT</td><td>-</td><td>-</td><td>2</td><td>-</td></tr><tr><td>D-PAD</td><td>D-PAD</td><td>D-PAD</td><td>D-PAD</td><td>D-PAD</td></tr><tr><td>Stick analogique gauche</td><td>Tilt</td><td>Tilt</td><td>Nunchuk<br>Stick</td><td>Stick gauche</td></tr><tr><td>Stick analogique droite</td><td></td><td></td><td>Tilt</td><td>Stick droit</td></tr><tr><td><img src="../../../../.gitbook/assets/image (20) (1).png" alt="A"></td><td>B</td><td>1</td><td>B</td><td>B</td></tr><tr><td><img src="../../../../.gitbook/assets/image (7) (1).png" alt="B"></td><td>A</td><td>2</td><td>A</td><td>A</td></tr><tr><td><img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"></td><td>1</td><td>A</td><td>C</td><td>X</td></tr><tr><td><img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line"></td><td>2</td><td>B</td><td>Z</td><td>Y</td></tr><tr><td>L1</td><td></td><td></td><td>-</td><td>ZL<br>PRO: L</td></tr><tr><td>R1</td><td></td><td></td><td>+</td><td>ZR<br>PRO: R</td></tr><tr><td>L2</td><td></td><td></td><td>Secouer<br>Nunchuk</td><td>L<br>PRO: ZL</td></tr><tr><td>R2</td><td>Secouer</td><td>Secouer</td><td>Secouer<br>Wiimote</td><td>R<br>PRO: ZR</td></tr><tr><td>L3</td><td></td><td></td><td></td><td></td></tr><tr><td>R3</td><td>Home</td><td>Home</td><td>Home</td><td>Home</td></tr></tbody></table>
 
 ## Information spécifique au système
 
@@ -280,6 +276,8 @@ Pour vérifier si le menu Wii est bien installé dans Dolphin, tenter de le lanc
 
 <div align="left"><figure><img src="https://i.imgur.com/g1UJjln.png" alt=""><figcaption></figcaption></figure></div>
 
-### Textures personalisées
+### Textures personnalisées
 
 La procédure est similaire à la [procédure décrite pour les jeux Gamecube](gamecube.md#textures-custom).
+
+Les packs de textures doivent être placés dans le dossier `\saves\wii\dolphin-emu\User\Load\Textures`.

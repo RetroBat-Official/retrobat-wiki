@@ -6,11 +6,7 @@ L'intégralité des captures d'écrans utilisées dans le wiki ont été réalis
 
 Le premier écran affiché lors du lancement de Retrobat est l'écran de **Vue Système**, sur cet écran il est possible de naviguer parmi les systèmes de jeux ou d'accéder à la **Vue Jeux**.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/C88S0L8.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/C88S0L8.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Par défaut, seuls les systèmes pour lesquels des jeux ont été placés dans le dossier `\roms` apparaissent.
@@ -26,31 +22,19 @@ Depuis la Vue Système, il est possible d'accéder à différents menus.
 
 Le menu de recherche rapide est disponible en appuyant sur ![](<../.gitbook/assets/image (33).png>). Il permet de rechercher rapidement un jeu.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/iw1kbMm.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/iw1kbMm.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Barre de Navigation Constructeur
 
-La barre de navigation constructeur est disponible en appuyant sur ![](<../.gitbook/assets/image (7).png>), elle permet d'accéder rapidement aux systèmes du constructeur sélectionné.
+La barre de navigation constructeur est disponible en appuyant sur ![](<../.gitbook/assets/image (7) (1).png>), elle permet d'accéder rapidement aux systèmes du constructeur sélectionné.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/wuWdSXw.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/wuWdSXw.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Accès Rapide
 
 Le menu **ACCÈS RAPIDE** est disponible en appuyant sur **SELECT**.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/q37uXNs.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/q37uXNs.png" alt=""><figcaption></figcaption></figure></div>
 
 Depuis ce menu il est possible d'afficher le **manuel utilisateur**, de lancer l'**économiseur d'écran** ou encore de **quitter** Retrobat.
 
@@ -109,27 +93,15 @@ PORTS
 
 Il est possible de dégrouper les systèmes à partir du [**MENU PRINCIPAL**](main-menu.md) en sélectionnant **PARAMÈTRES DES COLLECTIONS**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/PwYjBlU.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/PwYjBlU.png" alt=""><figcaption></figcaption></figure></div>
 
 Sélectionner **SYSTÈMES GROUPÉS**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/Gk9mb4y.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/Gk9mb4y.png" alt=""><figcaption></figcaption></figure></div>
 
 Décocher les systèmes à dégrouper
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/wqurB5M.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/wqurB5M.png" alt=""><figcaption></figcaption></figure></div>
 
 Désormais, les systèmes apparaissent individuellement dans la **Vue Système**.
 
@@ -137,58 +109,34 @@ Désormais, les systèmes apparaissent individuellement dans la **Vue Système**
 
 La **Vue Jeux** est l'écran à partir duquel il est possible de consulter la liste des jeux pour un système et de démarrer un jeu.
 
-Pour accéder à la **Vue Jeux**, choisir un système depuis la **Vue Système** et appuyer sur le bouton  ![](<../.gitbook/assets/image (20).png>).
+Pour accéder à la **Vue Jeux**, choisir un système depuis la **Vue Système** et appuyer sur le bouton  ![](<../.gitbook/assets/image (20) (1).png>).
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/6vwwXEL.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/6vwwXEL.png" alt=""><figcaption></figcaption></figure></div>
 
 Naviguer dans la liste des jeux en utilisant la croix directionnel
 
-* Appuyer ![](<../.gitbook/assets/image (20).png>) pour démarrer un jeu (ou maintenir le bouton pour accéder aux [Options du Jeu](game-options.md)).
-* Appuyer ![](<../.gitbook/assets/image (7).png>) pour retourner à la **Vue Système**.
+* Appuyer ![](<../.gitbook/assets/image (20) (1).png>) pour démarrer un jeu (ou maintenir le bouton pour accéder aux [Options du Jeu](game-options.md)).
+* Appuyer ![](<../.gitbook/assets/image (7) (1).png>) pour retourner à la **Vue Système**.
 
 Il existe plusieurs "types" d'affichage pour la liste de jeux, les différentes options sont disponibles depuis les [Options d'Affichage](view-options.md) (touche **SELECT**):
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/89kbPN6.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/89kbPN6.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/9uFC0BC.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/9uFC0BC.png" alt=""><figcaption></figcaption></figure></div>
 
 La valeur **AUTOMATIQUE** correspond au type de vue défini dans [**MENU PRINCIPAL**](main-menu.md) > PARAMÈTRES D'AFFICHAGE > CONFIGURATION DU THÈME.
 
 Pour y accéder appuyer sur **START**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/dz5TggD.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/dz5TggD.png" alt=""><figcaption></figcaption></figure></div>
 
 Aller dans **CONFIGURATION DU THÈME**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/NQ2Jw46.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/NQ2Jw46.png" alt=""><figcaption></figcaption></figure></div>
 
 Puis régler le **TYPE DE VUE**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/5gUV54A.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/5gUV54A.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Chaque Thème propose des types de vue différents.

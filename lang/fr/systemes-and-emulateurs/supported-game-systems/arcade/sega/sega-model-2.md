@@ -56,8 +56,8 @@ Liste de jeux: `Dead or Alive`, `Fighting Vipers`, `Last Bronx`, `Sonic Champion
 | DEPLACEMENTS                               | D-PAD                                                                              |
 | START                                      | START                                                                              |
 | CREDIT                                     | SELECT                                                                             |
-| <p>défaut: GUARDE<br>doa: COUP DE PIED</p> | ![A](<../../../../.gitbook/assets/image (20).png>)                                 |
-| doa: ATTRAPER                              | ![B](<../../../../.gitbook/assets/image (7).png>)                                  |
+| <p>défaut: GUARDE<br>doa: COUP DE PIED</p> | ![A](<../../../../.gitbook/assets/image (20) (1).png>)                             |
+| doa: ATTRAPER                              | ![B](<../../../../.gitbook/assets/image (7) (1).png>)                              |
 | all: COUP DE POING                         | <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     |
 | <p>all: COUP DE PIED<br>doa: N/A</p>       | <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> |
 
@@ -72,11 +72,11 @@ Liste de jeux: `Daytona USA`, `Indianapolis 500`, `ManxTT Superbike`, `Motor Rai
 | CREDIT                                                                                     | SELECT                                                                                          |
 | FREIN                                                                                      | L2 - gâchette gauche                                                                            |
 | ACCELERATEUR                                                                               | R2 - gâchette droite                                                                            |
-| <p>CHANGER VUE<br>motoraid: N/A<br>manxtt: N/A<br>srallyc: N/A<br>daytona: VR4 / VERT</p>  | ![B](<../../../../.gitbook/assets/image (7).png>)                                               |
+| <p>CHANGER VUE<br>motoraid: N/A<br>manxtt: N/A<br>srallyc: N/A<br>daytona: VR4 / VERT</p>  | ![B](<../../../../.gitbook/assets/image (7) (1).png>)                                           |
 | <p>VITESSE +<br>motoraid: COUP DE POING<br>srallyc: N/A<br>daytona: VR3 / JAUNE</p>        | <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">                  |
 | <p>LEVIER DE VITESSE<br>(Daytona USA &#x26; Sega Rally)</p>                                | <p><strong>Stick analogique droite:</strong><br>HAUT: 1<br>BAS: 2<br>GAUCHE: 3<br>DROITE: 4</p> |
 | <p>CHANGER VUE<br>manxtt: N/A<br>motoraid: N/A<br>overrev: N/A<br>daytona: VR1 / ROUGE</p> | <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original">              |
-| <p>VITESSE -<br>srallyc: N/A<br>motoraid: COUP DE PIED<br>daytona: VR2 / BLEU</p>          | ![A](<../../../../.gitbook/assets/image (20).png>)                                              |
+| <p>VITESSE -<br>srallyc: N/A<br>motoraid: COUP DE PIED<br>daytona: VR2 / BLEU</p>          | ![A](<../../../../.gitbook/assets/image (20) (1).png>)                                          |
 
 #### Standard:
 
@@ -87,8 +87,8 @@ Liste de jeux: `Dynamite Cop`, `Pilot Kids`, `Virtua Striker`, `Zero Gunner`.
 | MOUVEMENT                                                                                    | Stick analogique gauche                                                            |
 | START                                                                                        | START                                                                              |
 | CREDIT                                                                                       | SELECT                                                                             |
-| <p>vstriker: PASSE LONGUE<br>zerogun: BOMBE<br>dynamcop: SAUTER<br>pltkids: LOCK-ON</p>      | ![A](<../../../../.gitbook/assets/image (20).png>)                                 |
-| <p>vstriker: TIRER<br>zerogun: N/A<br>dynamcop: N/A<br>pltkids: N/A</p>                      | ![B](<../../../../.gitbook/assets/image (7).png>)                                  |
+| <p>vstriker: PASSE LONGUE<br>zerogun: BOMBE<br>dynamcop: SAUTER<br>pltkids: LOCK-ON</p>      | ![A](<../../../../.gitbook/assets/image (20) (1).png>)                             |
+| <p>vstriker: TIRER<br>zerogun: N/A<br>dynamcop: N/A<br>pltkids: N/A</p>                      | ![B](<../../../../.gitbook/assets/image (7) (1).png>)                              |
 | <p>vstriker: PASSE COURTE<br>zerogun: TIRER<br>dynamcop: COUP DE POING<br>pltkids: TIRER</p> | <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     |
 | <p>vstriker: N/A<br>zerogun: N/A<br>dynamcop: COUP DE PIED<br>pltkids: N/A</p>               | <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> |
 
@@ -105,8 +105,8 @@ Desert Tank:
 | TOURELLE / TOURNER | Stick analogique droit                                                             |
 | CREDIT             | SELECT                                                                             |
 | START              | START                                                                              |
-| VR2 / VERT         | ![A](<../../../../.gitbook/assets/image (20).png>)                                 |
-|                    | ![B](<../../../../.gitbook/assets/image (7).png>)                                  |
+| VR2 / VERT         | ![A](<../../../../.gitbook/assets/image (20) (1).png>)                             |
+|                    | ![B](<../../../../.gitbook/assets/image (7) (1).png>)                              |
 | VR3 / ROUGE        | <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     |
 | VR1 / BLEU         | <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> |
 
@@ -118,7 +118,7 @@ Dynamite Baseball 97:
 | BATTE / PITCH        | R2 - gâchette droite                                                           |
 | CREDIT               | SELECT                                                                         |
 | START                | START                                                                          |
-| HOLD                 | ![A](<../../../../.gitbook/assets/image (20).png>)                             |
+| HOLD                 | ![A](<../../../../.gitbook/assets/image (20) (1).png>)                         |
 | LANCER LA BALLE      | <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line"> |
 
 Sega Water Ski:
@@ -139,8 +139,8 @@ Sega Ski Super G:
 | TOURNER + FORT   | Stick analogique droit                                                         |
 | CREDIT           | SELECT                                                                         |
 | START            | START                                                                          |
-| SELECT 2         | ![A](<../../../../.gitbook/assets/image (20).png>)                             |
-| SELECT 3         | ![B](<../../../../.gitbook/assets/image (7).png>)                              |
+| SELECT 2         | ![A](<../../../../.gitbook/assets/image (20) (1).png>)                         |
+| SELECT 3         | ![B](<../../../../.gitbook/assets/image (7) (1).png>)                          |
 | SELECT 1         | <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line"> |
 
 Sky Target:
@@ -162,8 +162,8 @@ Top Skater:
 | TOURNER + FORT | Stick analogique droit                                                             |
 | CREDIT         | SELECT                                                                             |
 | START          | START                                                                              |
-| OLLIE          | ![A](<../../../../.gitbook/assets/image (20).png>)                                 |
-| SELECT DROITE  | ![B](<../../../../.gitbook/assets/image (7).png>)                                  |
+| OLLIE          | ![A](<../../../../.gitbook/assets/image (20) (1).png>)                             |
+| SELECT DROITE  | ![B](<../../../../.gitbook/assets/image (7) (1).png>)                              |
 | SELECT GAUCHE  | <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     |
 | NOLLIE         | <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> |
 
@@ -177,7 +177,7 @@ Virtual On Cybertroopers:
 | STICK DROIT    | Stick analogique droit                                                         |
 | CREDIT         | SELECT                                                                         |
 | START          | START                                                                          |
-| TURBO DROITE   | ![B](<../../../../.gitbook/assets/image (7).png>)                              |
+| TURBO DROITE   | ![B](<../../../../.gitbook/assets/image (7) (1).png>)                          |
 | TURBO GAUCHE   | <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line"> |
 
 Wave Runner:

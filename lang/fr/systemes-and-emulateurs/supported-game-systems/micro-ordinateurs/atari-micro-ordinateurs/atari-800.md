@@ -26,23 +26,23 @@ Micro-ordinateur - Durée de vie : 1979 - 1992
 
 Utiliser la fonctionnalité [Pad2Key](../../../../controleurs/pad2key.md).
 
-| Retrobat                                          | Atari 800                             |
-| ------------------------------------------------- | ------------------------------------- |
-| START                                             | START                                 |
-| SELECT                                            | SELECT                                |
-| D-PAD                                             | D-PAD                                 |
-| Stick analogique gauche                           |                                       |
-| Stick analogique droit                            |                                       |
-| ![](<../../../../.gitbook/assets/image (33).png>) | Activer/désactiver le clavier virtuel |
-| ![](<../../../../.gitbook/assets/image (20).png>) | ENTREE                                |
-| ![](<../../../../.gitbook/assets/image (7).png>)  | Bouton du joystick                    |
-| ![](<../../../../.gitbook/assets/image (35).png>) |                                       |
-| L1                                                | Option                                |
-| R1                                                | Ouvrir le menu de l'émulateur         |
-| L2                                                | ESPACE                                |
-| R2                                                | ECHAP                                 |
-| L3                                                |                                       |
-| R3                                                |                                       |
+| Retrobat                                              | Atari 800                             |
+| ----------------------------------------------------- | ------------------------------------- |
+| START                                                 | START                                 |
+| SELECT                                                | SELECT                                |
+| D-PAD                                                 | D-PAD                                 |
+| Stick analogique gauche                               |                                       |
+| Stick analogique droit                                |                                       |
+| ![](<../../../../.gitbook/assets/image (33).png>)     | Activer/désactiver le clavier virtuel |
+| ![](<../../../../.gitbook/assets/image (20) (1).png>) | ENTREE                                |
+| ![](<../../../../.gitbook/assets/image (7) (1).png>)  | Bouton du joystick                    |
+| ![](<../../../../.gitbook/assets/image (35).png>)     |                                       |
+| L1                                                    | Option                                |
+| R1                                                    | Ouvrir le menu de l'émulateur         |
+| L2                                                    | ESPACE                                |
+| R2                                                    | ECHAP                                 |
+| L3                                                    |                                       |
+| R3                                                    |                                       |
 
 ## Information spécifique au système
 
