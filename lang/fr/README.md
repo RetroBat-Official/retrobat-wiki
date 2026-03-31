@@ -1,5 +1,5 @@
 ---
-cover: https://i.imgur.com/Lc07U0i.png
+cover: .gitbook/assets/retrobat_logo.png
 coverY: 0
 ---
 
