@@ -26,7 +26,7 @@ The second part of the command example represents additional slots or devices th
 
 RetroBat has selected a few important devices and slots for several computer models, these are located in the **ADVANCED SETTINGS > EXPANSION SLOTS** menu:
 
-<div align="left"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 If a slot/device is missing, you can ask the RetroBat team to add the option to RetroBat, or use the [additional command line](old-computers-mame-mess-launch-arguments.md#additional-command-line-arguments) guide below.

@@ -20,7 +20,7 @@ By default, RetroBat will try to autoconfigure controls in MAME either by using 
 
 Autoconfiguration can change depending on the controller layout that you specify in **ADVANCED SETTINGS > CONTROLS**:
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 **The default button for each layout is the following:**
 
@@ -91,7 +91,7 @@ It is also possible to add "reverse" after and axis in order to set \_REVERSE in
 
 Use the following setting in RetroBat **ADVANCED SETTINGS > CONTROLS** menu to enable specific configuration:
 
-<div align="left"><figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
 
 All the settings other than RetroBat Auto can be used to point MAME to use a controller config file in the `\saves\mame\ctrlr\` folder of your retrobat installation.
 
@@ -208,3 +208,33 @@ When using "per\_game", the name of the file must match the name of the game fil
 {% hint style="info" %}
 Do not hesitate to share the files you have created with the RetroBat team if you have a general profile that can be shared with other users.
 {% endhint %}
+
+## Libretro-mame
+
+RetroBat offers autoconfiguration for MAME as part of RetroArch autoconfiguration, however, as MAME arcade machines have a huge variety of control types, it is possible to generate specific per-game configuration. The following configuration methods are available for libretro-mame within RetroBat:
+
+* RetroBat standard autoconfiguration
+* RetroBat xml override files (per-game)
+
+### RetroBat autoconfiguration
+
+By default, RetroBat will try to autoconfigure controls in libretro-mame either by using RetroBat-provided per-game configuration, or by using the default RetroArch RetroPad mapping.
+
+Autoconfiguration can change depending on the controller layout that you specify in **ADVANCED SETTINGS > CONTROLS**:
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+
+### Using the mame core override remap file
+
+Read [this chapter](retroarch-controller-mapping.md#using-a-core-override-remap-file) for more information.
+
+RetroBat can use a core override remap YAML file for libretro-mame, the file is located in the `system/resources/inputmapping` folder of your RetroBat installation and is named **libretro\_mame.yml**.
+
+{% hint style="info" %}
+If you want to modify the file, copy it first in the `user\inputmapping` folder of your RetroBat installation, else it might get erased with a future RetroBat update.
+{% endhint %}
+
+The remap file is a YAML file, each container contains the RetroArch remap for a game/layout:
+
+<div align="left"><figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+
