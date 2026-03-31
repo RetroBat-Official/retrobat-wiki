@@ -99,27 +99,27 @@ Copy the file **controller\_hotkeys.yml** to the `\user\inputmapping\` folder of
 
 Open the file with your preferred text editor:
 
-<div align="left"><figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure></div>
 
 The file is a yml-formatted file, **by default all values are commented**.
 
 The first thing to do is to uncomment the actual section where the buttons are defined, as well as the container section, this is done by removing the # character on all lines after the `#default:` line, including the latter:
 
-<div align="left"><figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 In this example, we will replace the **fast-forward** and **rewind** hotkeys with R1 and L1 buttons, and move the **disk\_eject** and **ai\_service** to the d-pad:
 
 to do this, just assign the **rewind** feature to pageup (L1) and the **hold\_fast\_forward** to pagedown (R1), and then assign the **disk\_eject\_toggle** and **ai\_service** to their respective d-pad buttons (left & right):
 
-<div align="left"><figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Now save the file in the `\user\inputmapping` folder of your RetroBat installation:
 
-<div align="left"><figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 In addition, it is also possible to perform a specific hotkey mapping for a specific core (in case emulators have multiple cores: Ares, Bizhawk, RetroArch...), in this example, the mapping is different between the flycast core, by using toggle instead of hold for fast forward:
 
-<div align="left"><figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Remap keyboard hotkeys <a href="#remap-keyboard-hotkeys" id="remap-keyboard-hotkeys"></a>
 
@@ -127,18 +127,18 @@ Copy the file **kb\_hotkeys.yml** to the `\user\inputmapping\` folder of your Re
 
 Open the file with your preferred text editor:
 
-<div align="left"><figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 The file is a yml-formatted file, **by default all values are commented**.
 
 The first thing to do is to uncomment the actual section where the buttons are defined, as well as the container section, this is done by removing the # character on all lines after the `#default:` line, including the latter:
 
-<div align="left"><figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Now save the file:
 
-<div align="left"><figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 In addition, it is also possible to perform a specific hotkey mapping for a specific core (in case emulators have multiple cores: Ares, Bizhawk, RetroArch...), in this example, the mapping is different between the flycast core, by using toggle instead of hold for fast forward:
 
-<div align="left"><figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure></div>
