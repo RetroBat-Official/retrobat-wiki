@@ -23,7 +23,7 @@ The mapping done in Step 1 can be found in the following section of RetroArch co
 
 <div align="left"><figure><img src="https://i.imgur.com/rdZbOuz.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 General binding is stored in the "**retroarch.cfg**" file located in `/emulators/retroarch`
@@ -33,9 +33,9 @@ General binding is stored in the "**retroarch.cfg**" file located in `/emulators
 
 The remap information (step 2) can be found in the Quick Settings menu of RetroArch, while a core is running:
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (2).png" alt="" width="294"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="294"><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="342"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="342"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Remap files are saved as .rmp files in `/emulators/retroarch/config/remaps` folder.

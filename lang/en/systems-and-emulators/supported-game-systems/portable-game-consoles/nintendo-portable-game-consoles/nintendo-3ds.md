@@ -56,7 +56,7 @@ You need to remember the name of the created profile and enter it in RetroBat.
 
 Additional button layouts are available for some emulators, they can be accessed from the advanced settings > controls menu:
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 | Option                                                                                                                 | Control layout                                                                                   |
 | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
