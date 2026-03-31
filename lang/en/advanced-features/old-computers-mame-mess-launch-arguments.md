@@ -26,7 +26,7 @@ The second part of the command example represents additional slots or devices th
 
 RetroBat has selected a few important devices and slots for several computer models, these are located in the **ADVANCED SETTINGS > EXPANSION SLOTS** menu:
 
-<div align="left"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 If a slot/device is missing, you can ask the RetroBat team to add the option to RetroBat, or use the [additional command line](old-computers-mame-mess-launch-arguments.md#additional-command-line-arguments) guide below.
@@ -38,7 +38,7 @@ Old computers could accept multiple media types (diskette, cartridge, rom...), t
 
 RetroBat will automatically detect the media type based on the extension of the game filen, however, it is possible to force the media type, the option can be found in the **ADVANCED SETTINGS > EMULATION** menu:
 
-<div align="left"><figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ## Autoboot command and delay
 
@@ -52,7 +52,7 @@ RetroBat will check if a file, with the same name as the game rom file and with 
 
 If this is the case, RetroBat will read the file, and add the first line as autoboot command and the second line (if it exists) as autoboot delay:
 
-<div align="left"><figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 As an example, the above file will work for the 3DBRICK.dsk game file, and will generate the following command line:&#x20;
 
@@ -66,7 +66,7 @@ MAME comes with a set of softlist files, they are located in the `\bios\mame\has
 
 If the option "**ADVANCED SETTINGS > EMULATION >** **TRY TO AUTOBOOT**" is set in RetroBat, it will try to automatically determine the boot command by searching in the softlist files:
 
-<div align="left"><figure><img src="../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 #### 3) Internal logic
 

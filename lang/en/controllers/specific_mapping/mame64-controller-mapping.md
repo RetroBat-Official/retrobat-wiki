@@ -20,11 +20,11 @@ By default, RetroBat will try to autoconfigure controls in MAME either by using 
 
 Autoconfiguration can change depending on the controller layout that you specify in **ADVANCED SETTINGS > CONTROLS**:
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 **The default button for each layout is the following:**
 
-**Controller**: this profile is adapted to gamepads, where ![](<../../.gitbook/assets/image (3).png>) is assigned to button 1, ![](<../../.gitbook/assets/image (4).png>) is assigned to button 2, ![](<../../.gitbook/assets/image (5).png>) is assigned to button 3, ![](<../../.gitbook/assets/image (6).png>) is assigned to button 4, L1 to button 5, R1 to button 6, L2 to button 7 and R2 to button 8
+**Controller**: this profile is adapted to gamepads, where ![](<../../.gitbook/assets/image (3) (1).png>) is assigned to button 1, ![](<../../.gitbook/assets/image (4) (1).png>) is assigned to button 2, ![](<../../.gitbook/assets/image (5).png>) is assigned to button 3, ![](<../../.gitbook/assets/image (6).png>) is assigned to button 4, L1 to button 5, R1 to button 6, L2 to button 7 and R2 to button 8
 
 **Modern 8 buttons**: this profile is the most common one for modern arcade sticks, upper 4 buttons are buttons 1 (![](<../../.gitbook/assets/image (7).png>)), 2(![](<../../.gitbook/assets/image (8).png>)), 3(R1) and 7(L1), lower 4 buttons are buttons 4(![](<../../.gitbook/assets/image (9).png>)), 5(![](<../../.gitbook/assets/image (10).png>)), 6(R2) and 8(L2)
 
@@ -91,7 +91,7 @@ It is also possible to add "reverse" after and axis in order to set \_REVERSE in
 
 Use the following setting in RetroBat **ADVANCED SETTINGS > CONTROLS** menu to enable specific configuration:
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 All the settings other than RetroBat Auto can be used to point MAME to use a controller config file in the `\saves\mame\ctrlr\` folder of your retrobat installation.
 
@@ -222,7 +222,7 @@ By default, RetroBat will try to autoconfigure controls in libretro-mame either 
 
 Autoconfiguration can change depending on the controller layout that you specify in **ADVANCED SETTINGS > CONTROLS**:
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Using the mame core override remap file
 
@@ -236,5 +236,5 @@ If you want to modify the file, copy it first in the `user\inputmapping` folder 
 
 The remap file is a YAML file, each container contains the RetroArch remap for a game/layout:
 
-<div align="left"><figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div>
 

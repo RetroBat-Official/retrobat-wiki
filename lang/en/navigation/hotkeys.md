@@ -8,7 +8,7 @@ The Retrobat team has defaulted keyboard and controller hotkeys for multiple emu
 To trigger a hotkey action, you need to press and hold the "Hotkey enable" button, then press the second button that corresponds to the action to perform.
 {% endhint %}
 
-<table><thead><tr><th width="212.5833740234375">Hotkeys (Gamepad)</th><th width="153">Keyboard key</th><th width="372.683349609375">Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (16) (1).png" alt=""></td><td>CTRL+F12</td><td><a href="game-control-center.md">Game Control Center</a></td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (30).png" alt=""></td><td>F1</td><td>Emulator Menu (or Pause if emulator has no menu)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (50).png" alt=""></td><td>F4</td><td>Load State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (48).png" alt=""></td><td>F2</td><td>Save State</td></tr><tr><td>Hotkey + START</td><td>Esc</td><td>Quit emulator/game</td></tr><tr><td>Hotkey + L1</td><td>F11</td><td>Eject Disc</td></tr><tr><td>Hotkey + R1</td><td></td><td>AI Translation Service</td></tr><tr><td>Hotkey + L2</td><td>F9</td><td>Select Disc Index -</td></tr><tr><td>Hotkey + R2</td><td>F10</td><td>Select Disc Index +</td></tr><tr><td>Hotkey + D-PAD UP</td><td>F7</td><td>Select Save Slot Index +</td></tr><tr><td>Hotkey + D-PAD DOWN</td><td>F6</td><td>Select Save Slot Index -</td></tr><tr><td>Hotkey + D-PAD LEFT</td><td>Backspace</td><td>Rewind</td></tr><tr><td>Hotkey + D-PAD RIGHT</td><td>Hold: F<br>Toggle: Space</td><td>Fast Forward (can be changed from Hold to Toggle)</td></tr><tr><td>Hotkey + R3 (right stick)</td><td>F8</td><td>Screenshot</td></tr><tr><td></td><td>F</td><td>Toggle fullscreen</td></tr><tr><td></td><td>K</td><td>Frame Advance</td></tr><tr><td>Hotkey + L3</td><td>P</td><td>Pause (if emulator has a menu and Hotkey +<img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""> is used for it) </td></tr></tbody></table>
+<table><thead><tr><th width="212.5833740234375">Hotkeys (Gamepad)</th><th width="153">Keyboard key</th><th width="372.683349609375">Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (16) (1).png" alt=""></td><td>CTRL+F12</td><td><a href="game-control-center.md">Game Control Center</a></td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (30).png" alt=""></td><td>F1</td><td>Emulator Menu (or Pause if emulator has no menu)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (50).png" alt=""></td><td>F4</td><td>Load State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (48).png" alt=""></td><td>F2</td><td>Save State</td></tr><tr><td>Hotkey + START</td><td>Esc</td><td>Quit emulator/game</td></tr><tr><td>Hotkey + L1</td><td>F11</td><td>Eject Disc</td></tr><tr><td>Hotkey + R1</td><td></td><td>AI Translation Service</td></tr><tr><td>Hotkey + L2</td><td>F9</td><td>Select Disc Index -</td></tr><tr><td>Hotkey + R2</td><td>F10</td><td>Select Disc Index +</td></tr><tr><td>Hotkey + D-PAD UP</td><td>F7</td><td>Select Save Slot Index +</td></tr><tr><td>Hotkey + D-PAD DOWN</td><td>F6</td><td>Select Save Slot Index -</td></tr><tr><td>Hotkey + D-PAD LEFT</td><td>Backspace</td><td>Rewind</td></tr><tr><td>Hotkey + D-PAD RIGHT</td><td>Hold: F<br>Toggle: Space</td><td>Fast Forward (can be changed from Hold to Toggle)</td></tr><tr><td>Hotkey + R3 (right stick)</td><td>F8</td><td>Screenshot</td></tr><tr><td></td><td>F</td><td>Toggle fullscreen</td></tr><tr><td></td><td>K</td><td>Frame Advance</td></tr><tr><td>Hotkey + L3</td><td>P</td><td>Pause (if emulator has a menu and Hotkey +<img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""> is used for it) </td></tr></tbody></table>
 
 The following list of emulators are currently aligned on this shortcut model, with some variations based on emulator capabilities:
 
@@ -103,21 +103,21 @@ The file is a yml-formatted file, **by default all values are commented**.
 
 The first thing to do is to uncomment the actual section where the buttons are defined, as well as the container section, this is done by removing the # character on all lines after the `#default:` line, including the latter:
 
-<div align="left"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 In this example, we will replace the **fast-forward** and **rewind** hotkeys with R1 and L1 buttons, and move the **disk\_eject** and **ai\_service** to the d-pad:
 
 to do this, just assign the **rewind** feature to pageup (L1) and the **hold\_fast\_forward** to pagedown (R1), and then assign the **disk\_eject\_toggle** and **ai\_service** to their respective d-pad buttons (left & right):
 
-<div align="left"><figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Now save the file in the `\user\inputmapping` folder of your RetroBat installation:
 
-<div align="left"><figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 In addition, it is also possible to perform a specific hotkey mapping for a specific core (in case emulators have multiple cores: Ares, Bizhawk, RetroArch...), in this example, the mapping is different between the flycast core, by using toggle instead of hold for fast forward:
 
-<div align="left"><figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Remap keyboard hotkeys <a href="#remap-keyboard-hotkeys" id="remap-keyboard-hotkeys"></a>
 

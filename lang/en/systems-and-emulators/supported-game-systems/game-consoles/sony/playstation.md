@@ -89,7 +89,7 @@ Duckstation emulator allows to load custom textures.
 
 RetroBat does not force a folder for the placement of custom texture packs for Duckstation, the default placement is `\emulators\duckstation\textures`, but the folder can be changed in the emulator's settings:
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Once the texture pack in place, just enable the option within Retrobat **ADVANCED SETTINGS > VISUAL RENDERING**:
 

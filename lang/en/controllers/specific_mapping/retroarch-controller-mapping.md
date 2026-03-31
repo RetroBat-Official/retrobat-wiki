@@ -23,7 +23,7 @@ The mapping done in Step 1 can be found in the following section of RetroArch co
 
 <div align="left"><figure><img src="https://i.imgur.com/rdZbOuz.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 General binding is stored in the "**retroarch.cfg**" file located in `/emulators/retroarch`
@@ -33,9 +33,9 @@ General binding is stored in the "**retroarch.cfg**" file located in `/emulators
 
 The remap information (step 2) can be found in the Quick Settings menu of RetroArch, while a core is running:
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="294"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt="" width="294"><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="342"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="342"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Remap files are saved as .rmp files in `/emulators/retroarch/config/remaps` folder.
@@ -48,6 +48,7 @@ RetroBat allows multiple ways to modify mapping of your controller in RetroArch,
 * [Manually saving a remap file for a game](retroarch-controller-mapping.md#manually-create-a-remap-file-for-a-game) (remap)
 * [Using a YAML core override file](retroarch-controller-mapping.md#using-a-core-override-remap-file) (remap)
 * [Forcing a controller binding configuration](retroarch-controller-mapping.md#force-a-controller-binding-configuration) (change controller binding)
+* Forcing a keyboard controller (such as IPAC2 or TankStick controllers)
 * [Enabling a special controller type](retroarch-controller-mapping.md#enable-a-special-controller-type) (for some systems/cores only)
 * [Using a different input layout provided by RetroBat](retroarch-controller-mapping.md#use-a-pre-defined-layout)
 
@@ -106,11 +107,11 @@ The logic RetroBat uses to find a file is the following:
 
 If a yaml file is found, RetroBat reads the file and searches for a container matching the name of the game rom file:
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 If no container exists for the game, RetroBat tries to get the "default" container:
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 For arcade systems, a single game can have multiple layouts based on the option set in RetroBat interface ADVANCED SETTINGS > CONTROLS:
@@ -147,6 +148,28 @@ The above example is for the NSO N64 controller, the different values required i
 
 {% hint style="info" %}
 Do not hesitate to share with the RetroBat team any specific controller mapping that you have created.
+{% endhint %}
+
+### Forcing a keyboard controller
+
+Some controllers are recognized by windows as keyboards, this is the case for example for the X-Arcade Tankstick or the IPAC2.
+
+RetroBat provides an autoconfiguration for these controller, which is forced from a YAML file located in the `\system\resources\inputmapping\kbpads` folder of your RetroBat installation:
+
+<div align="left"><figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+
+The file contains the mapping to force in RetroArch for a device:
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
+
+If you own one of these devices, you can enable the automatic mapping within the RetroBat **MAIN MENU > GAME SETTINGS > RETROARCH OPTIONS > CONTROLS**:
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
+
+{% hint style="info" %}
+If you own a different controller that is recognized as a keyboard, you can share the keyboard mapping for the stick with the RetroBat team and it will be added to RetroBat.
 {% endhint %}
 
 ### Enable a special controller type
