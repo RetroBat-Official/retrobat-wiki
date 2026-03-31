@@ -99,6 +99,44 @@ Click on the link on the emulator name to reach the emulator specific page.
 To see the multiple layouts offered for an emulator/system, visit the [system page](../systems-and-emulators/supported-game-systems/).
 {% endhint %}
 
+### File override general principle
+
+Override files provided with RetroBat are located in the `\system\resources\inputmapping` folder of your RetroBat installation. These files might be updated with a RetroBat upgrade, so it's recommended to copy them into the `\user\inputmapping` folder in case you are amending them.
+
+Override files are YAML files (.yml), they contain several containers (usually per-game or per-core for RetroArch, along with a "default" container) that RetroBat will look through in order to find the correct mapping to apply.
+
+#### Example 1: Flycast standalone
+
+The file "`flycast_arcade.yml`" contains the mapping for many arcade games that can be ran with Flycast emulator (Atomiswave, Naomi and Naomi2), here is an example of the file's content:
+
+<div align="left"><figure><img src="../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure></div>
+
+Each container contains the mapping for a game, as arcade games rom naming is fixed, this will always work and automatically apply this mapping for the game.
+
+For example, the line `l2: btn_trigger_left` means that the "btn\_trigger\_left" value in Flycast emulator configuration file will be mapped to the left trigger of the controller, RetroBat will convert L2 into whatever your controller uses as L2 (axis or button):
+
+<div align="left"><figure><img src="../.gitbook/assets/image (88).png" alt=""><figcaption><p>btn_trigger_left assigned to axis 4+ (L2 on xbox controller)</p></figcaption></figure></div>
+
+<div align="left"><figure><img src="../.gitbook/assets/image (89).png" alt=""><figcaption><p>In the emulator, you can see L2 assigned to BRAKE command</p></figcaption></figure></div>
+
+#### Example 2: RetroArch (Flycast core)
+
+The file "`libretro_flycast_naomi.yml`" contains the mapping for naomi games that can be ran with Libretro-Flycast emulator, here is an example of the file's content:
+
+<div align="left"><figure><img src="../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure></div>
+
+Each container contains the remap information that will be used to remap the default "RetroPad" buttons to the flycast core. As arcade games rom naming is fixed, this will always work and automatically apply this mapping for the game.
+
+For example, the line `btn_b: 4` means that the SOUTH face button on the controller will be mapped with the button with ID 4 in the libretro flycast core (ID 4 corresponds to the DRIVE GEAR command):
+
+<div align="left"><figure><img src="../.gitbook/assets/image (91).png" alt=""><figcaption><p>Flycast core remap file created by RetroBat</p></figcaption></figure></div>
+
+<div align="left"><figure><img src="../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure></div>
+
+{% hint style="info" %}
+For RetroArch, these files will not change the mapping between the physical controller and the generic RetroArch retropad. It will create a Core remap file. Core remaps can be found in the folder `\emulators\retroarch\config\remaps\<core name>` folder.
+{% endhint %}
+
 ## Fixing controller configuration issues
 
 In case of issue with controls, follow the steps below:&#x20;
