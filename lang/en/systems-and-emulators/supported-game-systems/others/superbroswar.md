@@ -1,10 +1,6 @@
 # Super Mario War
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/0ab5d8cd36c673c827b022c2ae53042a38df33da/art/logos/superbroswar.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/0ab5d8cd36c673c827b022c2ae53042a38df33da/art/logos/superbroswar.svg" alt=""><figcaption></figcaption></figure></div>
 
 Open-Source Game - Creation year: 2004
 
@@ -20,7 +16,7 @@ No BIOS required.
 
 ## Controls
 
-<table><thead><tr><th width="246">Retrobat</th><th>Super Mario War</th></tr></thead><tbody><tr><td>START</td><td>Pause</td></tr><tr><td>SELECT</td><td>exit</td></tr><tr><td>D-PAD</td><td>Directions</td></tr><tr><td><img src="../../../.gitbook/assets/image (48).png" alt=""></td><td>Power Up</td></tr><tr><td><img src="../../../.gitbook/assets/image (30).png" alt=""></td><td>Turbo</td></tr><tr><td><img src="../../../.gitbook/assets/image (16).png" alt=""></td><td>Jump</td></tr><tr><td><img src="../../../.gitbook/assets/image (50).png" alt=""></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="246">Retrobat</th><th>Super Mario War</th></tr></thead><tbody><tr><td>START</td><td>Pause</td></tr><tr><td>SELECT</td><td>exit</td></tr><tr><td>D-PAD</td><td>Directions</td></tr><tr><td><img src="../../../.gitbook/assets/image (48).png" alt=""></td><td>Power Up</td></tr><tr><td><img src="../../../.gitbook/assets/image (30).png" alt=""></td><td>Turbo</td></tr><tr><td><img src="../../../.gitbook/assets/image (16) (1).png" alt=""></td><td>Jump</td></tr><tr><td><img src="../../../.gitbook/assets/image (50).png" alt=""></td><td></td></tr></tbody></table>
 
 ## System Features
 
@@ -30,16 +26,8 @@ First, download the latest version (beta 1.8 Custom Content Collection archive) 
 
 Then uncompress the zip file in the `\roms\superbroswar` folder:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/J5hvgIf.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/J5hvgIf.png" alt=""><figcaption></figcaption></figure></div>
 
 Finally, create an empty text file inside this folder and change the extension to .sbw:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/HkofXzH.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/HkofXzH.png" alt=""><figcaption></figcaption></figure></div>

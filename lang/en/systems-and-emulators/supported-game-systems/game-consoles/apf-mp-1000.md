@@ -4,11 +4,7 @@ description: APF Electronics Inc.
 
 # APF MP-1000
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/apfm1000.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/apfm1000.svg" alt=""><figcaption></figcaption></figure></div>
 
 Game Console - Release year: 1978
 
@@ -37,23 +33,23 @@ apfm1000.zip
 
 ## Controls
 
-| Retrobat Button                                | APF-M1000 key |
-| ---------------------------------------------- | ------------- |
-| START                                          | 0             |
-| SELECT                                         | 9             |
-| D-PAD                                          | Stick         |
-| Left analog stick                              |               |
-| Right analog stick                             |               |
-| ![](<../../../.gitbook/assets/image (48).png>) | 2             |
-| ![](<../../../.gitbook/assets/image (30).png>) | En            |
-| ![](<../../../.gitbook/assets/image (16).png>) | Cl            |
-| ![](<../../../.gitbook/assets/image (50).png>) | l             |
-| L1                                             | 4             |
-| R1                                             | 3             |
-| L2                                             | 6             |
-| R2                                             | 5             |
-| L3                                             | 8             |
-| R3                                             | 7             |
+| Retrobat Button                                    | APF-M1000 key |
+| -------------------------------------------------- | ------------- |
+| START                                              | 0             |
+| SELECT                                             | 9             |
+| D-PAD                                              | Stick         |
+| Left analog stick                                  |               |
+| Right analog stick                                 |               |
+| ![](<../../../.gitbook/assets/image (48).png>)     | 2             |
+| ![](<../../../.gitbook/assets/image (30).png>)     | En            |
+| ![](<../../../.gitbook/assets/image (16) (1).png>) | Cl            |
+| ![](<../../../.gitbook/assets/image (50).png>)     | l             |
+| L1                                                 | 4             |
+| R1                                                 | 3             |
+| L2                                                 | 6             |
+| R2                                                 | 5             |
+| L3                                                 | 8             |
+| R3                                                 | 7             |
 
 ## Specific system information
 

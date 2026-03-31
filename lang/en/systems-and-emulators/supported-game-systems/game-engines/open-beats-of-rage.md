@@ -20,23 +20,23 @@ No BIOS required.
 
 ## Controls
 
-| Retrobat Button                                | OpenBOR key |
-| ---------------------------------------------- | ----------- |
-| START                                          | START       |
-| SELECT                                         | ESC         |
-| D-PAD                                          | D-PAD       |
-| Left analog stick                              | DIRECTIONS  |
-| Right analog stick                             |             |
-| ![](<../../../.gitbook/assets/image (48).png>) | Attack      |
-| ![](<../../../.gitbook/assets/image (30).png>) | Jump        |
-| ![](<../../../.gitbook/assets/image (16).png>) | Attack 2    |
-| ![](<../../../.gitbook/assets/image (50).png>) | Special     |
-| L1                                             | Attack 4    |
-| R1                                             | Attack 3    |
-| L2                                             |             |
-| R2                                             |             |
-| L3                                             |             |
-| R3                                             |             |
+| Retrobat Button                                    | OpenBOR key |
+| -------------------------------------------------- | ----------- |
+| START                                              | START       |
+| SELECT                                             | ESC         |
+| D-PAD                                              | D-PAD       |
+| Left analog stick                                  | DIRECTIONS  |
+| Right analog stick                                 |             |
+| ![](<../../../.gitbook/assets/image (48).png>)     | Attack      |
+| ![](<../../../.gitbook/assets/image (30).png>)     | Jump        |
+| ![](<../../../.gitbook/assets/image (16) (1).png>) | Attack 2    |
+| ![](<../../../.gitbook/assets/image (50).png>)     | Special     |
+| L1                                                 | Attack 4    |
+| R1                                                 | Attack 3    |
+| L2                                                 |             |
+| R2                                                 |             |
+| L3                                                 |             |
+| R3                                                 |             |
 
 ## Specific system information
 

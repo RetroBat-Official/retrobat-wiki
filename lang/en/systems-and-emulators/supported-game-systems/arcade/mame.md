@@ -63,23 +63,23 @@ RetroBat is using the folder \bios\mame\artwork to store artworks created to dis
 
 ### Controller mapping
 
-| Retrobat Button                                | Arcade Key                                                                           |
-| ---------------------------------------------- | ------------------------------------------------------------------------------------ |
-| START                                          | START                                                                                |
-| SELECT                                         | COIN                                                                                 |
-| Left analog stick                              | <p>Left Joystick<br>Paddle<br>Positional device<br>Dial<br>Trackball<br>Ad_Stick</p> |
-| Right analog stick                             | Right Joystick                                                                       |
-| D-PAD                                          | Directions                                                                           |
-| ![](<../../../.gitbook/assets/image (48).png>) | 3                                                                                    |
-| ![](<../../../.gitbook/assets/image (30).png>) | 1                                                                                    |
-| ![](<../../../.gitbook/assets/image (16).png>) | 2                                                                                    |
-| ![](<../../../.gitbook/assets/image (50).png>) | 4                                                                                    |
-| L1                                             | 5                                                                                    |
-| R1                                             | 6                                                                                    |
-| L2                                             | Pedal 2 / 7                                                                          |
-| R2                                             | Pedal 1 / 8                                                                          |
-| L3                                             | Test                                                                                 |
-| R3                                             | Service                                                                              |
+| Retrobat Button                                    | Arcade Key                                                                           |
+| -------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| START                                              | START                                                                                |
+| SELECT                                             | COIN                                                                                 |
+| Left analog stick                                  | <p>Left Joystick<br>Paddle<br>Positional device<br>Dial<br>Trackball<br>Ad_Stick</p> |
+| Right analog stick                                 | Right Joystick                                                                       |
+| D-PAD                                              | Directions                                                                           |
+| ![](<../../../.gitbook/assets/image (48).png>)     | 3                                                                                    |
+| ![](<../../../.gitbook/assets/image (30).png>)     | 1                                                                                    |
+| ![](<../../../.gitbook/assets/image (16) (1).png>) | 2                                                                                    |
+| ![](<../../../.gitbook/assets/image (50).png>)     | 4                                                                                    |
+| L1                                                 | 5                                                                                    |
+| R1                                                 | 6                                                                                    |
+| L2                                                 | Pedal 2 / 7                                                                          |
+| R2                                                 | Pedal 1 / 8                                                                          |
+| L3                                                 | Test                                                                                 |
+| R3                                                 | Service                                                                              |
 
 {% hint style="info" %}
 Follow this guide to perform specific controller mapping for MAME64 ([refer to this guide](../../../controllers/specific_mapping/mame64-controller-mapping.md)).

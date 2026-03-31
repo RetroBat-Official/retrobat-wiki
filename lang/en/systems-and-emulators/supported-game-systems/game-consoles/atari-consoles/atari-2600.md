@@ -4,11 +4,7 @@ description: Atari
 
 # Atari 2600
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/atari2600.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/atari2600.svg" alt=""><figcaption></figcaption></figure></div>
 
 Game Console - Lifespan: 1977 - 1992
 
@@ -28,29 +24,25 @@ No BIOS required for ATARI 2600.
 
 ## Controls
 
-| Retrobat Button                                   | Atari 2600 key                  |
-| ------------------------------------------------- | ------------------------------- |
-| START                                             | Game reset (on console)         |
-| SELECT                                            | Game select (on console)        |
-| D-PAD                                             | Joystick movement               |
-| Left analog stick                                 |                                 |
-| Right analog stick                                |                                 |
-| ![](<../../../../.gitbook/assets/image (48).png>) |                                 |
-| ![](<../../../../.gitbook/assets/image (30).png>) | Joystick button                 |
-| ![](<../../../../.gitbook/assets/image (16).png>) |                                 |
-| ![](<../../../../.gitbook/assets/image (50).png>) |                                 |
-| L1                                                | Left difficulty b (on console)  |
-| R1                                                | Right difficulty b (on console) |
-| L2                                                | Left difficulty a (on console)  |
-| R2                                                | Right difficulty a (on console) |
-| L3                                                | Color (on console)              |
-| R3                                                | black & white (on console)      |
+| Retrobat Button                                       | Atari 2600 key                  |
+| ----------------------------------------------------- | ------------------------------- |
+| START                                                 | Game reset (on console)         |
+| SELECT                                                | Game select (on console)        |
+| D-PAD                                                 | Joystick movement               |
+| Left analog stick                                     |                                 |
+| Right analog stick                                    |                                 |
+| ![](<../../../../.gitbook/assets/image (48).png>)     |                                 |
+| ![](<../../../../.gitbook/assets/image (30).png>)     | Joystick button                 |
+| ![](<../../../../.gitbook/assets/image (16) (1).png>) |                                 |
+| ![](<../../../../.gitbook/assets/image (50).png>)     |                                 |
+| L1                                                    | Left difficulty b (on console)  |
+| R1                                                    | Right difficulty b (on console) |
+| L2                                                    | Left difficulty a (on console)  |
+| R2                                                    | Right difficulty a (on console) |
+| L3                                                    | Color (on console)              |
+| R3                                                    | black & white (on console)      |
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/OP8tnMg.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/OP8tnMg.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Specific system information
 

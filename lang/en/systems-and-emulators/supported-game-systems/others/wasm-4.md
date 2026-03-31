@@ -20,19 +20,19 @@ No BIOS required.
 
 ## Controls
 
-| Retrobat Button                                | WASM-4 key |
-| ---------------------------------------------- | ---------- |
-| START                                          | ENTER      |
-| SELECT                                         |            |
-| D-PAD                                          | D-PAD      |
-| Left analog stick                              |            |
-| Reft analog stick                              |            |
-| ![](<../../../.gitbook/assets/image (48).png>) |            |
-| ![](<../../../.gitbook/assets/image (30).png>) | X          |
-| ![](<../../../.gitbook/assets/image (16).png>) | Z          |
-| ![](<../../../.gitbook/assets/image (50).png>) |            |
-| L1                                             |            |
-| R1                                             |            |
+| Retrobat Button                                    | WASM-4 key |
+| -------------------------------------------------- | ---------- |
+| START                                              | ENTER      |
+| SELECT                                             |            |
+| D-PAD                                              | D-PAD      |
+| Left analog stick                                  |            |
+| Reft analog stick                                  |            |
+| ![](<../../../.gitbook/assets/image (48).png>)     |            |
+| ![](<../../../.gitbook/assets/image (30).png>)     | X          |
+| ![](<../../../.gitbook/assets/image (16) (1).png>) | Z          |
+| ![](<../../../.gitbook/assets/image (50).png>)     |            |
+| L1                                                 |            |
+| R1                                                 |            |
 
 ## Specific system information
 

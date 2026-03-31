@@ -4,11 +4,7 @@ description: Tiger Electronics
 
 # Game.com
 
-<div align="left">
-
-<figure><img src="https://github.com/fabricecaruso/es-theme-carbon/blob/master/art/logos/gamecom.png?raw=true" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/fabricecaruso/es-theme-carbon/blob/master/art/logos/gamecom.png?raw=true" alt=""><figcaption></figcaption></figure></div>
 
 Portable Game Console - Lifespan: 1997 - 2000
 
@@ -36,23 +32,23 @@ gamecom.zip
 
 ## Controls
 
-| Retrobat Button                                | Gamecom key |
-| ---------------------------------------------- | ----------- |
-| START                                          | MENU        |
-| SELECT                                         | PAUSE       |
-| D-PAD                                          | D-PAD       |
-| Left analog stick                              | D-PAD       |
-| Right analog stick                             |             |
-| ![](<../../../.gitbook/assets/image (48).png>) | A           |
-| ![](<../../../.gitbook/assets/image (30).png>) | C           |
-| ![](<../../../.gitbook/assets/image (16).png>) | D           |
-| ![](<../../../.gitbook/assets/image (50).png>) | B           |
-| L1                                             | L1          |
-| R1                                             | R1          |
-| L2                                             |             |
-| R2                                             |             |
-| L3                                             |             |
-| R3                                             |             |
+| Retrobat Button                                    | Gamecom key |
+| -------------------------------------------------- | ----------- |
+| START                                              | MENU        |
+| SELECT                                             | PAUSE       |
+| D-PAD                                              | D-PAD       |
+| Left analog stick                                  | D-PAD       |
+| Right analog stick                                 |             |
+| ![](<../../../.gitbook/assets/image (48).png>)     | A           |
+| ![](<../../../.gitbook/assets/image (30).png>)     | C           |
+| ![](<../../../.gitbook/assets/image (16) (1).png>) | D           |
+| ![](<../../../.gitbook/assets/image (50).png>)     | B           |
+| L1                                                 | L1          |
+| R1                                                 | R1          |
+| L2                                                 |             |
+| R2                                                 |             |
+| L3                                                 |             |
+| R3                                                 |             |
 
 ## Specific system information
 

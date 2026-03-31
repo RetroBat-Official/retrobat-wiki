@@ -26,23 +26,23 @@ Computer - Lifespan: 1979 - 1992
 
 Use Pad2Key for this system if you need specific mapping, see the [Pad2Key ](../../../../controllers/pad2key.md)section of this Wiki.
 
-| Retrobat Button                                   | Atari 800 key           |
-| ------------------------------------------------- | ----------------------- |
-| START                                             | START key               |
-| SELECT                                            | SELECT key              |
-| D-PAD                                             | D-PAD                   |
-| Left analog stick                                 |                         |
-| Right analog stick                                |                         |
-| ![](<../../../../.gitbook/assets/image (48).png>) | Virtual keyboard on/off |
-| ![](<../../../../.gitbook/assets/image (30).png>) | Return key              |
-| ![](<../../../../.gitbook/assets/image (16).png>) | Joystick button         |
-| ![](<../../../../.gitbook/assets/image (50).png>) |                         |
-| L1                                                | Option key              |
-| R1                                                | Open emulator menu      |
-| L2                                                | Space key               |
-| R2                                                | ESC key                 |
-| L3                                                |                         |
-| R3                                                |                         |
+| Retrobat Button                                       | Atari 800 key           |
+| ----------------------------------------------------- | ----------------------- |
+| START                                                 | START key               |
+| SELECT                                                | SELECT key              |
+| D-PAD                                                 | D-PAD                   |
+| Left analog stick                                     |                         |
+| Right analog stick                                    |                         |
+| ![](<../../../../.gitbook/assets/image (48).png>)     | Virtual keyboard on/off |
+| ![](<../../../../.gitbook/assets/image (30).png>)     | Return key              |
+| ![](<../../../../.gitbook/assets/image (16) (1).png>) | Joystick button         |
+| ![](<../../../../.gitbook/assets/image (50).png>)     |                         |
+| L1                                                    | Option key              |
+| R1                                                    | Open emulator menu      |
+| L2                                                    | Space key               |
+| R2                                                    | ESC key                 |
+| L3                                                    |                         |
+| R3                                                    |                         |
 
 ## Specific system information
 

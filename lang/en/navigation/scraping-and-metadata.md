@@ -76,7 +76,7 @@ Screenscraper and IGDB require an account creation, they can be entered in the A
 
 At the bottom of the OPTIONS tab, it is possible to select which scraping services are activated in RetroBat:
 
-<div align="left"><figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Storage of scraped medias
 

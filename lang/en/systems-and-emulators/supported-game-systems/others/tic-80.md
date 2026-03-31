@@ -4,11 +4,7 @@ description: Nesbox
 
 # TIC-80
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/tic80-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/tic80.svg" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/tic80-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/tic80.svg" alt=""></picture><figcaption></figcaption></figure></div>
 
 Open-source Fantasy Console - Released: 2017
 
@@ -26,21 +22,21 @@ No BIOS required.
 
 ## Controls
 
-| Retrobat Button                                | TIC-80 key  |
-| ---------------------------------------------- | ----------- |
-| START                                          |             |
-| SELECT                                         |             |
-| D-PAD                                          | D-PAD       |
-| Left analog stick                              | D-PAD       |
-| Right analog stick                             |             |
-| ![](<../../../.gitbook/assets/image (48).png>) | X           |
-| ![](<../../../.gitbook/assets/image (30).png>) | A           |
-| ![](<../../../.gitbook/assets/image (16).png>) | B           |
-| ![](<../../../.gitbook/assets/image (50).png>) | Y           |
-| L1                                             | Slow        |
-| R1                                             |             |
-| L2                                             | Left click  |
-| R2                                             | Right click |
+| Retrobat Button                                    | TIC-80 key  |
+| -------------------------------------------------- | ----------- |
+| START                                              |             |
+| SELECT                                             |             |
+| D-PAD                                              | D-PAD       |
+| Left analog stick                                  | D-PAD       |
+| Right analog stick                                 |             |
+| ![](<../../../.gitbook/assets/image (48).png>)     | X           |
+| ![](<../../../.gitbook/assets/image (30).png>)     | A           |
+| ![](<../../../.gitbook/assets/image (16) (1).png>) | B           |
+| ![](<../../../.gitbook/assets/image (50).png>)     | Y           |
+| L1                                                 | Slow        |
+| R1                                                 |             |
+| L2                                                 | Left click  |
+| R2                                                 | Right click |
 
 ## Specific system information
 

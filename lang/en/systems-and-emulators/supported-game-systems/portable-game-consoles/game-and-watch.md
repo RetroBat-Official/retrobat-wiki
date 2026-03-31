@@ -4,11 +4,7 @@ description: G&W
 
 # Game & Watch
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/gameandwatch.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/gameandwatch.svg" alt=""><figcaption></figcaption></figure></div>
 
 Portable Game Console - Lifespan: 1980 - 1991
 
@@ -30,7 +26,7 @@ No BIOS required for Game & Watch games.
 
 The controls are usually unique to each LCD game.
 
-<table><thead><tr><th width="258">RetroBat key</th><th width="443">Game &#x26; Watch key</th></tr></thead><tbody><tr><td>START</td><td>START</td></tr><tr><td>SELECT</td><td>SELECT</td></tr><tr><td>D-PAD</td><td>Stick</td></tr><tr><td>Left Analog stick</td><td>Stick</td></tr><tr><td>Right Analog stick</td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (30).png" alt="A"></td><td>B</td></tr><tr><td><img src="../../../.gitbook/assets/image (16).png" alt="B"></td><td>A</td></tr><tr><td><img src="../../../.gitbook/assets/image (50).png" alt="" data-size="original"></td><td>X</td></tr><tr><td><img src="../../../.gitbook/assets/image (48).png" alt="" data-size="line"></td><td>Y</td></tr><tr><td>L1</td><td>5</td></tr><tr><td>R1</td><td>6</td></tr><tr><td>L2</td><td></td></tr><tr><td>R2</td><td></td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="258">RetroBat key</th><th width="443">Game &#x26; Watch key</th></tr></thead><tbody><tr><td>START</td><td>START</td></tr><tr><td>SELECT</td><td>SELECT</td></tr><tr><td>D-PAD</td><td>Stick</td></tr><tr><td>Left Analog stick</td><td>Stick</td></tr><tr><td>Right Analog stick</td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (30).png" alt="A"></td><td>B</td></tr><tr><td><img src="../../../.gitbook/assets/image (16) (1).png" alt="B"></td><td>A</td></tr><tr><td><img src="../../../.gitbook/assets/image (50).png" alt="" data-size="original"></td><td>X</td></tr><tr><td><img src="../../../.gitbook/assets/image (48).png" alt="" data-size="line"></td><td>Y</td></tr><tr><td>L1</td><td>5</td></tr><tr><td>R1</td><td>6</td></tr><tr><td>L2</td><td></td></tr><tr><td>R2</td><td></td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
 
 ## Specific system information
 
@@ -112,11 +108,7 @@ These games need 2 different files to work: a file of type "_rom"_ and a file of
 \
 Place the rom file in .zip format in the `\roms\gameandwatch` folder.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/ALEygG9.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/ALEygG9.png" alt=""><figcaption></figcaption></figure></div>
 
 Place the artwork in the `\saves\mame\artwork`folder, files must have exactly the same name as the roms and also be in .zip format.&#x20;
 

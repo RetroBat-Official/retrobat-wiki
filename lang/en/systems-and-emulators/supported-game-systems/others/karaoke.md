@@ -14,7 +14,7 @@ No BIOS required.
 
 ## Controls
 
-<table><thead><tr><th width="205">Retrobat Button</th><th>PocketCDG</th></tr></thead><tbody><tr><td>START</td><td>Start</td></tr><tr><td>SELECT</td><td>Pause</td></tr><tr><td>D-PAD</td><td>D-PAD</td></tr><tr><td>Left analog stick</td><td></td></tr><tr><td>Reft analog stick</td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (48).png" alt=""></td><td>Left</td></tr><tr><td><img src="../../../.gitbook/assets/image (30).png" alt=""></td><td>Down</td></tr><tr><td><img src="../../../.gitbook/assets/image (16).png" alt=""></td><td>Right</td></tr><tr><td><img src="../../../.gitbook/assets/image (50).png" alt=""></td><td>Up</td></tr><tr><td>L1</td><td></td></tr><tr><td>R1</td><td>Shutdown</td></tr><tr><td>L2</td><td></td></tr><tr><td>R2</td><td></td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="205">Retrobat Button</th><th>PocketCDG</th></tr></thead><tbody><tr><td>START</td><td>Start</td></tr><tr><td>SELECT</td><td>Pause</td></tr><tr><td>D-PAD</td><td>D-PAD</td></tr><tr><td>Left analog stick</td><td></td></tr><tr><td>Reft analog stick</td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (48).png" alt=""></td><td>Left</td></tr><tr><td><img src="../../../.gitbook/assets/image (30).png" alt=""></td><td>Down</td></tr><tr><td><img src="../../../.gitbook/assets/image (16) (1).png" alt=""></td><td>Right</td></tr><tr><td><img src="../../../.gitbook/assets/image (50).png" alt=""></td><td>Up</td></tr><tr><td>L1</td><td></td></tr><tr><td>R1</td><td>Shutdown</td></tr><tr><td>L2</td><td></td></tr><tr><td>R2</td><td></td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
 
 ## Specific system information
 

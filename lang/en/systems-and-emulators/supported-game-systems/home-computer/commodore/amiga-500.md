@@ -4,11 +4,7 @@ description: Commodore
 
 # Amiga 500
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/amiga500-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/amiga500.svg" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/amiga500-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/amiga500.svg" alt=""></picture><figcaption></figcaption></figure></div>
 
 Computer - Lifespan: 1987 - 1992
 
@@ -58,7 +54,7 @@ kick33180.A500
 
 Use Pad2Key for this system if you need specific mapping, see the [Pad2Key ](../../../../controllers/pad2key.md)section of this Wiki.
 
-<table><thead><tr><th width="311">Retrobat Button</th><th>Amiga 500 key</th></tr></thead><tbody><tr><td>START</td><td></td></tr><tr><td>SELECT</td><td>Toggle virtual keyboard / Toggle statusbar</td></tr><tr><td>D-PAD</td><td>Joystick</td></tr><tr><td>Left analog stick</td><td>Mouse</td></tr><tr><td>Right analog stick</td><td>Mouse</td></tr><tr><td><img src="../../../../.gitbook/assets/image (48).png" alt=""></td><td>Space</td></tr><tr><td><img src="../../../../.gitbook/assets/image (30).png" alt=""></td><td>Fire button 1 / Red</td></tr><tr><td><img src="../../../../.gitbook/assets/image (16).png" alt=""></td><td>Fire button 2 / Blue</td></tr><tr><td><img src="../../../../.gitbook/assets/image (50).png" alt=""></td><td></td></tr><tr><td>L1</td><td></td></tr><tr><td>R1</td><td></td></tr><tr><td>L2</td><td>Left mouse button</td></tr><tr><td>R2</td><td>Right mouse button</td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="311">Retrobat Button</th><th>Amiga 500 key</th></tr></thead><tbody><tr><td>START</td><td></td></tr><tr><td>SELECT</td><td>Toggle virtual keyboard / Toggle statusbar</td></tr><tr><td>D-PAD</td><td>Joystick</td></tr><tr><td>Left analog stick</td><td>Mouse</td></tr><tr><td>Right analog stick</td><td>Mouse</td></tr><tr><td><img src="../../../../.gitbook/assets/image (48).png" alt=""></td><td>Space</td></tr><tr><td><img src="../../../../.gitbook/assets/image (30).png" alt=""></td><td>Fire button 1 / Red</td></tr><tr><td><img src="../../../../.gitbook/assets/image (16) (1).png" alt=""></td><td>Fire button 2 / Blue</td></tr><tr><td><img src="../../../../.gitbook/assets/image (50).png" alt=""></td><td></td></tr><tr><td>L1</td><td></td></tr><tr><td>R1</td><td></td></tr><tr><td>L2</td><td>Left mouse button</td></tr><tr><td>R2</td><td>Right mouse button</td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
 
 ## Specific system information
 

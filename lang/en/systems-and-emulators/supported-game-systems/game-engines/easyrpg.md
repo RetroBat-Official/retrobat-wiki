@@ -1,10 +1,6 @@
 # EasyRPG
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/easyrpg-w.svg" media="(prefers-color-scheme: dark)"><img src="https://i.imgur.com/khOjbUH.png" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/easyrpg-w.svg" media="(prefers-color-scheme: dark)"><img src="https://i.imgur.com/khOjbUH.png" alt=""></picture><figcaption></figcaption></figure></div>
 
 RPG creation engine
 
@@ -20,7 +16,7 @@ No BIOS required
 
 ## Controls
 
-<table><thead><tr><th width="258">RetroBat key</th><th width="443">EasyRPG key</th></tr></thead><tbody><tr><td>START</td><td></td></tr><tr><td>SELECT</td><td></td></tr><tr><td>D-PAD</td><td>Move</td></tr><tr><td>Left Analog stick</td><td>Move</td></tr><tr><td>Right Analog stick</td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (30).png" alt="A"></td><td>Go Back / Open Menu (Escape)</td></tr><tr><td><img src="../../../.gitbook/assets/image (16).png" alt="B"></td><td>Accept / Talk (ENTER)</td></tr><tr><td><img src="../../../.gitbook/assets/image (50).png" alt="" data-size="original"></td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (48).png" alt="" data-size="line"></td><td></td></tr><tr><td>L1</td><td>Shift</td></tr><tr><td>R1</td><td>Walk through walls + Disable random encounters (in TEST play mode only)</td></tr><tr><td>L2</td><td></td></tr><tr><td>R2</td><td></td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="258">RetroBat key</th><th width="443">EasyRPG key</th></tr></thead><tbody><tr><td>START</td><td></td></tr><tr><td>SELECT</td><td></td></tr><tr><td>D-PAD</td><td>Move</td></tr><tr><td>Left Analog stick</td><td>Move</td></tr><tr><td>Right Analog stick</td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (30).png" alt="A"></td><td>Go Back / Open Menu (Escape)</td></tr><tr><td><img src="../../../.gitbook/assets/image (16) (1).png" alt="B"></td><td>Accept / Talk (ENTER)</td></tr><tr><td><img src="../../../.gitbook/assets/image (50).png" alt="" data-size="original"></td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (48).png" alt="" data-size="line"></td><td></td></tr><tr><td>L1</td><td>Shift</td></tr><tr><td>R1</td><td>Walk through walls + Disable random encounters (in TEST play mode only)</td></tr><tr><td>L2</td><td></td></tr><tr><td>R2</td><td></td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
 
 ## Specific system information
 
@@ -28,10 +24,6 @@ No BIOS required
 
 EasyRPG games are provided as a folder with the following structure:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/fW4ypgs.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/fW4ypgs.png" alt=""><figcaption></figcaption></figure></div>
 
 Just add `.easyrpg` to the folder name and place the folder in your `roms\easyrpg` folder.

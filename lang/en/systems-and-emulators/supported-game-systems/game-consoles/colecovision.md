@@ -24,27 +24,27 @@ Game Console - Lifespan: 1982 - 1985
 
 ## Controls
 
-| Retrobat Button                                | Colecovision key |
-| ---------------------------------------------- | ---------------- |
-| START                                          | #                |
-| SELECT                                         | \*               |
-| D-PAD                                          | D-PAD            |
-| Left analog stick                              |                  |
-| Right analog stick                             |                  |
-| ![](<../../../.gitbook/assets/image (48).png>) | 2                |
-| ![](<../../../.gitbook/assets/image (30).png>) | Right button     |
-| ![](<../../../.gitbook/assets/image (16).png>) | Left button      |
-| ![](<../../../.gitbook/assets/image (50).png>) | 1                |
-| L1                                             | 4                |
-| R1                                             | 3                |
-| L2                                             | 6                |
-| R2                                             | 5                |
-| L3                                             | 8                |
-| R3                                             | 7                |
-| Keyboard 1                                     | 0 (player 1)     |
-| Keyboard 2                                     | 9 (player 1)     |
-| Keyboard 3                                     | 0 (player 2)     |
-| Keyboard 4                                     | 9 (player 2)     |
+| Retrobat Button                                    | Colecovision key |
+| -------------------------------------------------- | ---------------- |
+| START                                              | #                |
+| SELECT                                             | \*               |
+| D-PAD                                              | D-PAD            |
+| Left analog stick                                  |                  |
+| Right analog stick                                 |                  |
+| ![](<../../../.gitbook/assets/image (48).png>)     | 2                |
+| ![](<../../../.gitbook/assets/image (30).png>)     | Right button     |
+| ![](<../../../.gitbook/assets/image (16) (1).png>) | Left button      |
+| ![](<../../../.gitbook/assets/image (50).png>)     | 1                |
+| L1                                                 | 4                |
+| R1                                                 | 3                |
+| L2                                                 | 6                |
+| R2                                                 | 5                |
+| L3                                                 | 8                |
+| R3                                                 | 7                |
+| Keyboard 1                                         | 0 (player 1)     |
+| Keyboard 2                                         | 9 (player 1)     |
+| Keyboard 3                                         | 0 (player 2)     |
+| Keyboard 4                                         | 9 (player 2)     |
 
 ### Bluemsx
 

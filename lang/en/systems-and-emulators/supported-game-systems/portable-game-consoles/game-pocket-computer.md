@@ -4,11 +4,7 @@ description: Epoch Co.
 
 # Game Pocket Computer
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/gamepock.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/gamepock.svg" alt=""><figcaption></figcaption></figure></div>
 
 Portable Game Console - Released: 1984
 
@@ -35,23 +31,23 @@ gamepock.zip
 
 ## Controls
 
-| Retrobat Button                                | Game Pocket key |
-| ---------------------------------------------- | --------------- |
-| START                                          | START           |
-| SELECT                                         | SELECT          |
-| D-PAD                                          | D-PAD           |
-| Left analog stick                              |                 |
-| Right analog stick                             |                 |
-| ![](<../../../.gitbook/assets/image (48).png>) | Top left        |
-| ![](<../../../.gitbook/assets/image (30).png>) | Bottom left     |
-| ![](<../../../.gitbook/assets/image (16).png>) | Bottom right    |
-| ![](<../../../.gitbook/assets/image (50).png>) | Top right       |
-| L1                                             |                 |
-| R1                                             |                 |
-| L2                                             |                 |
-| R2                                             |                 |
-| L3                                             |                 |
-| R3                                             |                 |
+| Retrobat Button                                    | Game Pocket key |
+| -------------------------------------------------- | --------------- |
+| START                                              | START           |
+| SELECT                                             | SELECT          |
+| D-PAD                                              | D-PAD           |
+| Left analog stick                                  |                 |
+| Right analog stick                                 |                 |
+| ![](<../../../.gitbook/assets/image (48).png>)     | Top left        |
+| ![](<../../../.gitbook/assets/image (30).png>)     | Bottom left     |
+| ![](<../../../.gitbook/assets/image (16) (1).png>) | Bottom right    |
+| ![](<../../../.gitbook/assets/image (50).png>)     | Top right       |
+| L1                                                 |                 |
+| R1                                                 |                 |
+| L2                                                 |                 |
+| R2                                                 |                 |
+| L3                                                 |                 |
+| R3                                                 |                 |
 
 ## Specific system information
 

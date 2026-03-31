@@ -4,11 +4,7 @@ description: Othello
 
 # Othello Multivision
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/db9685d44d41fa27f869daaba3ab446395ff3485/art/logos/multivision.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/db9685d44d41fa27f869daaba3ab446395ff3485/art/logos/multivision.svg" alt=""><figcaption></figcaption></figure></div>
 
 Game Console, clone of SEGA SG-1000- Lifespan: 1983 - 1985
 
@@ -28,18 +24,14 @@ No BIOS required.
 
 ## Controls
 
-| RetroBat                                        | SG-1000                       |
-| ----------------------------------------------- | ----------------------------- |
-| SELECT / BACK                                   | PAUSE (button on the console) |
-| D-PAD, left stick                               | D-PAD                         |
-| ![A](<../../../.gitbook/assets/image (30).png>) | B                             |
-| ![B](<../../../.gitbook/assets/image (16).png>) | A                             |
+| RetroBat                                            | SG-1000                       |
+| --------------------------------------------------- | ----------------------------- |
+| SELECT / BACK                                       | PAUSE (button on the console) |
+| D-PAD, left stick                                   | D-PAD                         |
+| ![A](<../../../.gitbook/assets/image (30).png>)     | B                             |
+| ![B](<../../../.gitbook/assets/image (16) (1).png>) | A                             |
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/diLUXXB.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/diLUXXB.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Specific system information
 

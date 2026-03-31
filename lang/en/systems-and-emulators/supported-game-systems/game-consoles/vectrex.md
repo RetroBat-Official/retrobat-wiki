@@ -4,11 +4,7 @@ description: Smith Engineering
 
 # Vectrex
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/vectrex-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/vectrex.svg" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/vectrex-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/vectrex.svg" alt=""></picture><figcaption></figcaption></figure></div>
 
 Game Console - Lifespan: 1982 - 1984
 
@@ -36,7 +32,7 @@ Game Console - Lifespan: 1982 - 1984
 | Left analog stick                                                               |             |
 | Right analog stick                                                              |             |
 | ![A](<../../../.gitbook/assets/image (30).png>)                                 | 2nd button  |
-| ![B](<../../../.gitbook/assets/image (16).png>)                                 | 1st button  |
+| ![B](<../../../.gitbook/assets/image (16) (1).png>)                             | 1st button  |
 | <img src="../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | 3rd button  |
 | <img src="../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | 4th button  |
 | L1                                                                              |             |
@@ -46,11 +42,7 @@ Game Console - Lifespan: 1982 - 1984
 | L3                                                                              |             |
 | R3                                                                              |             |
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/t2yZvPr.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/t2yZvPr.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Specific system information
 

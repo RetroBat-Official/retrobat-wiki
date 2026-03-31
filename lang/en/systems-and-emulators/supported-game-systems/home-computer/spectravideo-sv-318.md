@@ -4,11 +4,7 @@ description: Spectravideo
 
 # SpectraVideo (SV-318)
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/spectravideo-w.svg" media="(prefers-color-scheme: dark)"><img src="https://i.imgur.com/v1P1Ezx.png" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/spectravideo-w.svg" media="(prefers-color-scheme: dark)"><img src="https://i.imgur.com/v1P1Ezx.png" alt=""></picture><figcaption></figcaption></figure></div>
 
 Home Computer - Released: 1981
 
@@ -33,23 +29,23 @@ Bluemsx core allows you to choose between the following controller types:
 * RETROPAD
 * KEYBOARD
 
-| Retrobat Button                                | Spectravideo key |
-| ---------------------------------------------- | ---------------- |
-| START                                          | START            |
-| SELECT                                         | SELECT           |
-| D-PAD                                          | D-PAD            |
-| Left analog stick                              | D-PAD            |
-| Right analog stick                             |                  |
-| ![](<../../../.gitbook/assets/image (48).png>) | Button 3         |
-| ![](<../../../.gitbook/assets/image (30).png>) | Button 2         |
-| ![](<../../../.gitbook/assets/image (16).png>) | Button 1         |
-| ![](<../../../.gitbook/assets/image (50).png>) | Button 4         |
-| L1                                             | Button 5         |
-| R1                                             | Button 6         |
-| L2                                             | Button 7         |
-| R2                                             | Button 8         |
-| L3                                             | Button 9         |
-| R3                                             | Button 10        |
+| Retrobat Button                                    | Spectravideo key |
+| -------------------------------------------------- | ---------------- |
+| START                                              | START            |
+| SELECT                                             | SELECT           |
+| D-PAD                                              | D-PAD            |
+| Left analog stick                                  | D-PAD            |
+| Right analog stick                                 |                  |
+| ![](<../../../.gitbook/assets/image (48).png>)     | Button 3         |
+| ![](<../../../.gitbook/assets/image (30).png>)     | Button 2         |
+| ![](<../../../.gitbook/assets/image (16) (1).png>) | Button 1         |
+| ![](<../../../.gitbook/assets/image (50).png>)     | Button 4         |
+| L1                                                 | Button 5         |
+| R1                                                 | Button 6         |
+| L2                                                 | Button 7         |
+| R2                                                 | Button 8         |
+| L3                                                 | Button 9         |
+| R3                                                 | Button 10        |
 
 ## Specific system information
 

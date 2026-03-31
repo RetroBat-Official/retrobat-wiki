@@ -4,11 +4,7 @@ description: Watara
 
 # Supervision
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/supervision.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/supervision.svg" alt=""><figcaption></figcaption></figure></div>
 
 Portable Game Console - Released: 1992
 
@@ -28,21 +24,21 @@ No BIOS required.
 
 ## Controls
 
-| Retrobat Button                                | Supervision key |
-| ---------------------------------------------- | --------------- |
-| START                                          | START           |
-| SELECT                                         | SELECT          |
-| D-PAD                                          | D-PAD           |
-| Left analog stick                              | D-PAD           |
-| Right analog stick                             |                 |
-| ![](<../../../.gitbook/assets/image (48).png>) |                 |
-| ![](<../../../.gitbook/assets/image (30).png>) | B               |
-| ![](<../../../.gitbook/assets/image (16).png>) | A               |
-| ![](<../../../.gitbook/assets/image (50).png>) |                 |
-| L1                                             |                 |
-| R1                                             |                 |
-| L2                                             |                 |
-| R2                                             |                 |
+| Retrobat Button                                    | Supervision key |
+| -------------------------------------------------- | --------------- |
+| START                                              | START           |
+| SELECT                                             | SELECT          |
+| D-PAD                                              | D-PAD           |
+| Left analog stick                                  | D-PAD           |
+| Right analog stick                                 |                 |
+| ![](<../../../.gitbook/assets/image (48).png>)     |                 |
+| ![](<../../../.gitbook/assets/image (30).png>)     | B               |
+| ![](<../../../.gitbook/assets/image (16) (1).png>) | A               |
+| ![](<../../../.gitbook/assets/image (50).png>)     |                 |
+| L1                                                 |                 |
+| R1                                                 |                 |
+| L2                                                 |                 |
+| R2                                                 |                 |
 
 ## Specific system information
 

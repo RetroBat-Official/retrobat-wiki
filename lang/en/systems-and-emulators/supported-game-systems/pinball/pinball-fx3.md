@@ -16,7 +16,7 @@ Pinball Simulation Software - Released 2017
 
 ## Controls
 
-<table><thead><tr><th width="258">RetroBat key</th><th width="443">Pinball FX3 Action</th></tr></thead><tbody><tr><td>START</td><td>Open Menu</td></tr><tr><td>SELECT</td><td>Open Menu</td></tr><tr><td>D-PAD</td><td></td></tr><tr><td>Left Analog Stick</td><td>Nudge Flipper</td></tr><tr><td>Right Analog Stick</td><td>Up: Back Box View / Down: Ball Launch</td></tr><tr><td><img src="../../../.gitbook/assets/image (30).png" alt="A"></td><td>Auto Ball Launch</td></tr><tr><td><img src="../../../.gitbook/assets/image (16).png" alt="B"></td><td>Visual Extras</td></tr><tr><td><img src="../../../.gitbook/assets/image (50).png" alt="" data-size="original"></td><td>Wizard Power</td></tr><tr><td><img src="../../../.gitbook/assets/image (48).png" alt="" data-size="line"></td><td>Change View</td></tr><tr><td>L1</td><td>Flipper Left</td></tr><tr><td>R1</td><td>Flipper Right</td></tr><tr><td>L2</td><td>Flipper Left</td></tr><tr><td>R2</td><td>Flipper Right</td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="258">RetroBat key</th><th width="443">Pinball FX3 Action</th></tr></thead><tbody><tr><td>START</td><td>Open Menu</td></tr><tr><td>SELECT</td><td>Open Menu</td></tr><tr><td>D-PAD</td><td></td></tr><tr><td>Left Analog Stick</td><td>Nudge Flipper</td></tr><tr><td>Right Analog Stick</td><td>Up: Back Box View / Down: Ball Launch</td></tr><tr><td><img src="../../../.gitbook/assets/image (30).png" alt="A"></td><td>Auto Ball Launch</td></tr><tr><td><img src="../../../.gitbook/assets/image (16) (1).png" alt="B"></td><td>Visual Extras</td></tr><tr><td><img src="../../../.gitbook/assets/image (50).png" alt="" data-size="original"></td><td>Wizard Power</td></tr><tr><td><img src="../../../.gitbook/assets/image (48).png" alt="" data-size="line"></td><td>Change View</td></tr><tr><td>L1</td><td>Flipper Left</td></tr><tr><td>R1</td><td>Flipper Right</td></tr><tr><td>L2</td><td>Flipper Left</td></tr><tr><td>R2</td><td>Flipper Right</td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
 
 ## System Features
 
@@ -52,7 +52,7 @@ To easily find this location, just follow these steps:
 
 * Left-click in the search field at the top of your Steam games list and type `Pinball FX3`.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption><p>the search field after typing Pinball FX3</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (9) (1) (1) (1).png" alt=""><figcaption><p>the search field after typing Pinball FX3</p></figcaption></figure></div>
 
 * Right-click on Pinball FX3 listed now in the Steam Game List, then hover with the mouse pointer "Manage" and left-click on "Browse local files" when the game sub-menu appears. The File Explorer should open now the location of your Pinball FX3 installation.
 

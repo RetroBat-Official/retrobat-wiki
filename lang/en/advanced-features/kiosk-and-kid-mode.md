@@ -2,11 +2,7 @@
 
 Kiosk mode and Kid mode can be activated from the [**MAIN MENU > SYSTEM SETTINGS**](../navigation/main-menu.md#system-settings) menu
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/Pfrkc0D.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/Pfrkc0D.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Kiosk mode
 
@@ -27,13 +23,9 @@ The game options menu is disabled as is the ability to flag and unflag games as 
 ### Return to Full mode
 
 You can disable the kiosk or kid mode by entering the following pad sentence :\
-A A A B A ![](<../.gitbook/assets/image (16).png>) ![](<../.gitbook/assets/image (16).png>) ![](<../.gitbook/assets/image (16).png>) ![](<../.gitbook/assets/image (30).png>) ![](<../.gitbook/assets/image (16).png>)
+A A A B A ![](<../.gitbook/assets/image (16) (1).png>) ![](<../.gitbook/assets/image (16) (1).png>) ![](<../.gitbook/assets/image (16) (1).png>) ![](<../.gitbook/assets/image (30).png>) ![](<../.gitbook/assets/image (16) (1).png>)
 
 Alternatively, you can edit the `retrobat.ini` file located in your retrobat folder and set the value "**InterfaceMode**" to 0:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/ofDCIxE.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/ofDCIxE.png" alt=""><figcaption></figcaption></figure></div>
 

@@ -24,23 +24,23 @@ Game console - Lifespan: 1982 - 1984
 
 ## Controls
 
-| Retrobat Button                                   | Atari 5200 key          |
-| ------------------------------------------------- | ----------------------- |
-| START                                             | START key               |
-| SELECT                                            | SELECT key              |
-| D-PAD                                             | D-PAD                   |
-| Left analog stick                                 |                         |
-| Right analog stick                                |                         |
-| ![](<../../../../.gitbook/assets/image (48).png>) | Virtual keyboard on/off |
-| ![](<../../../../.gitbook/assets/image (30).png>) | Return key              |
-| ![](<../../../../.gitbook/assets/image (16).png>) | FIRE 1                  |
-| ![](<../../../../.gitbook/assets/image (50).png>) | FIRE 2                  |
-| L1                                                | Option key              |
-| R1                                                | Open emulator menu      |
-| L2                                                | Space key               |
-| R2                                                | ESC key                 |
-| L3                                                |                         |
-| R3                                                |                         |
+| Retrobat Button                                       | Atari 5200 key          |
+| ----------------------------------------------------- | ----------------------- |
+| START                                                 | START key               |
+| SELECT                                                | SELECT key              |
+| D-PAD                                                 | D-PAD                   |
+| Left analog stick                                     |                         |
+| Right analog stick                                    |                         |
+| ![](<../../../../.gitbook/assets/image (48).png>)     | Virtual keyboard on/off |
+| ![](<../../../../.gitbook/assets/image (30).png>)     | Return key              |
+| ![](<../../../../.gitbook/assets/image (16) (1).png>) | FIRE 1                  |
+| ![](<../../../../.gitbook/assets/image (50).png>)     | FIRE 2                  |
+| L1                                                    | Option key              |
+| R1                                                    | Open emulator menu      |
+| L2                                                    | Space key               |
+| R2                                                    | ESC key                 |
+| L3                                                    |                         |
+| R3                                                    |                         |
 
 ### Control Options
 

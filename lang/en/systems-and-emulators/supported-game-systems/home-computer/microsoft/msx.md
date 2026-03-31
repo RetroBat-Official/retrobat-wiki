@@ -4,11 +4,7 @@ description: Microsoft
 
 # MSX
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/msx1-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/msx1.svg" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/msx1-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/msx1.svg" alt=""></picture><figcaption></figcaption></figure></div>
 
 Home Computer - Released: 1983
 
@@ -95,21 +91,21 @@ Bluemsx core allows you to choose between the following controller types:
 * RETROPAD
 * KEYBOARD
 
-| Retrobat Button                                   | MSX key   |
-| ------------------------------------------------- | --------- |
-| START                                             | START     |
-| SELECT                                            | SELECT    |
-| D-PAD                                             | D-PAD     |
-| ![](<../../../../.gitbook/assets/image (48).png>) | Button 3  |
-| ![](<../../../../.gitbook/assets/image (30).png>) | Button 2  |
-| ![](<../../../../.gitbook/assets/image (16).png>) | Button 1  |
-| ![](<../../../../.gitbook/assets/image (50).png>) | Button 4  |
-| L1                                                | Button 5  |
-| R1                                                | Button 6  |
-| L2                                                | Button 7  |
-| R2                                                | Button 8  |
-| L3                                                | Button 9  |
-| R3                                                | Button 10 |
+| Retrobat Button                                       | MSX key   |
+| ----------------------------------------------------- | --------- |
+| START                                                 | START     |
+| SELECT                                                | SELECT    |
+| D-PAD                                                 | D-PAD     |
+| ![](<../../../../.gitbook/assets/image (48).png>)     | Button 3  |
+| ![](<../../../../.gitbook/assets/image (30).png>)     | Button 2  |
+| ![](<../../../../.gitbook/assets/image (16) (1).png>) | Button 1  |
+| ![](<../../../../.gitbook/assets/image (50).png>)     | Button 4  |
+| L1                                                    | Button 5  |
+| R1                                                    | Button 6  |
+| L2                                                    | Button 7  |
+| R2                                                    | Button 8  |
+| L3                                                    | Button 9  |
+| R3                                                    | Button 10 |
 
 ### OpenMSX
 
@@ -118,17 +114,17 @@ OpenMSX allows you to choose between the following controller types:
 * MSX Joystick
 * Megadrive Joystick
 
-| Retrobat                                          | MSX                                   |
-| ------------------------------------------------- | ------------------------------------- |
-| START                                             | MegaDrive Joy: START                  |
-| SELECT                                            | MegaDrive Joy: SELECT                 |
-| D-PAD                                             | D-PAD                                 |
-| ![](<../../../../.gitbook/assets/image (48).png>) | MegaDrive Joy: X                      |
-| ![](<../../../../.gitbook/assets/image (30).png>) | <p>MSX Joy: A<br>MegaDrive Joy: A</p> |
-| ![](<../../../../.gitbook/assets/image (16).png>) | <p>MSX Joy: B<br>MegaDrive Joy: B</p> |
-| ![](<../../../../.gitbook/assets/image (50).png>) | MegaDrive Joy: Y                      |
-| L1                                                | MegaDrive Joy: Z                      |
-| R1                                                | MegaDrive Joy: C                      |
+| Retrobat                                              | MSX                                   |
+| ----------------------------------------------------- | ------------------------------------- |
+| START                                                 | MegaDrive Joy: START                  |
+| SELECT                                                | MegaDrive Joy: SELECT                 |
+| D-PAD                                                 | D-PAD                                 |
+| ![](<../../../../.gitbook/assets/image (48).png>)     | MegaDrive Joy: X                      |
+| ![](<../../../../.gitbook/assets/image (30).png>)     | <p>MSX Joy: A<br>MegaDrive Joy: A</p> |
+| ![](<../../../../.gitbook/assets/image (16) (1).png>) | <p>MSX Joy: B<br>MegaDrive Joy: B</p> |
+| ![](<../../../../.gitbook/assets/image (50).png>)     | MegaDrive Joy: Y                      |
+| L1                                                    | MegaDrive Joy: Z                      |
+| R1                                                    | MegaDrive Joy: C                      |
 
 ## Specific system information
 

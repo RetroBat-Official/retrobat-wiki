@@ -4,11 +4,7 @@ description: Sharp
 
 # Sharp X68000
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/x68000.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/x68000.svg" alt=""><figcaption></figcaption></figure></div>
 
 Home Computer - Lifespan: 1987 - 1993
 
@@ -30,19 +26,19 @@ Home Computer - Lifespan: 1987 - 1993
 
 Use [pad2key ](../../../../controllers/pad2key.md)for this system.
 
-| Retrobat Button                                   | X68000 key |
-| ------------------------------------------------- | ---------- |
-| START                                             | JOY\_TRG6  |
-| SELECT                                            | JOY\_TRG7  |
-| D-PAD, Left analog stick                          | D-PAD      |
-| ![](<../../../../.gitbook/assets/image (48).png>) | JOY\_TRG3  |
-| ![](<../../../../.gitbook/assets/image (30).png>) | JOY\_TRG2  |
-| ![](<../../../../.gitbook/assets/image (16).png>) | JOY\_TRG1  |
-| ![](<../../../../.gitbook/assets/image (50).png>) | JOY\_TRG4  |
-| L1                                                | JOY\_TRG5  |
-| R1                                                | JOY\_TRG8  |
-| L2                                                | Menu       |
-| R2                                                |            |
+| Retrobat Button                                       | X68000 key |
+| ----------------------------------------------------- | ---------- |
+| START                                                 | JOY\_TRG6  |
+| SELECT                                                | JOY\_TRG7  |
+| D-PAD, Left analog stick                              | D-PAD      |
+| ![](<../../../../.gitbook/assets/image (48).png>)     | JOY\_TRG3  |
+| ![](<../../../../.gitbook/assets/image (30).png>)     | JOY\_TRG2  |
+| ![](<../../../../.gitbook/assets/image (16) (1).png>) | JOY\_TRG1  |
+| ![](<../../../../.gitbook/assets/image (50).png>)     | JOY\_TRG4  |
+| L1                                                    | JOY\_TRG5  |
+| R1                                                    | JOY\_TRG8  |
+| L2                                                    | Menu       |
+| R2                                                    |            |
 
 ## Specific system information
 

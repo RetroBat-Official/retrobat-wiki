@@ -4,11 +4,7 @@ description: Zen Studios
 
 # Pinball FX2
 
-<div align="left">
-
-<figure><img src="https://github.com/fabricecaruso/es-theme-carbon/blob/master/art/logos/pinballfx2.png?raw=true" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/fabricecaruso/es-theme-carbon/blob/master/art/logos/pinballfx2.png?raw=true" alt=""><figcaption></figcaption></figure></div>
 
 Pinball Simulation Software - Released 2010
 
@@ -20,7 +16,7 @@ Pinball Simulation Software - Released 2010
 
 ## Controls
 
-<table><thead><tr><th width="258">RetroBat key</th><th width="443">Pinball FX2 Action</th></tr></thead><tbody><tr><td>START</td><td>Open Menu</td></tr><tr><td>SELECT</td><td>Open Menu</td></tr><tr><td>D-PAD</td><td></td></tr><tr><td>Left Analog Stick</td><td>Nudge Flipper</td></tr><tr><td>Right Analog Stick</td><td>Up: Back Box View / Down: Ball Launch</td></tr><tr><td><img src="../../../.gitbook/assets/image (30).png" alt="A"></td><td>Auto Ball Launch</td></tr><tr><td><img src="../../../.gitbook/assets/image (16).png" alt="B"></td><td>Visual Extras</td></tr><tr><td><img src="../../../.gitbook/assets/image (50).png" alt="" data-size="original"></td><td>Wizard Power</td></tr><tr><td><img src="../../../.gitbook/assets/image (48).png" alt="" data-size="line"></td><td>Change View</td></tr><tr><td>L1</td><td>Flipper Left</td></tr><tr><td>R1</td><td>Flipper Right</td></tr><tr><td>L2</td><td>Flipper Left</td></tr><tr><td>R2</td><td>Flipper Right</td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="258">RetroBat key</th><th width="443">Pinball FX2 Action</th></tr></thead><tbody><tr><td>START</td><td>Open Menu</td></tr><tr><td>SELECT</td><td>Open Menu</td></tr><tr><td>D-PAD</td><td></td></tr><tr><td>Left Analog Stick</td><td>Nudge Flipper</td></tr><tr><td>Right Analog Stick</td><td>Up: Back Box View / Down: Ball Launch</td></tr><tr><td><img src="../../../.gitbook/assets/image (30).png" alt="A"></td><td>Auto Ball Launch</td></tr><tr><td><img src="../../../.gitbook/assets/image (16) (1).png" alt="B"></td><td>Visual Extras</td></tr><tr><td><img src="../../../.gitbook/assets/image (50).png" alt="" data-size="original"></td><td>Wizard Power</td></tr><tr><td><img src="../../../.gitbook/assets/image (48).png" alt="" data-size="line"></td><td>Change View</td></tr><tr><td>L1</td><td>Flipper Left</td></tr><tr><td>R1</td><td>Flipper Right</td></tr><tr><td>L2</td><td>Flipper Left</td></tr><tr><td>R2</td><td>Flipper Right</td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
 
 ## System Features
 
@@ -39,7 +35,7 @@ To get a Personal Activation Code you need to make a request to Zen Studios by f
 
 {% hint style="info" %}
 More information about Cabinet Mode here:\
-[https://www.pinballfx.com/?page\_id=7754#end-anchor](https://www.pinballfx.com/?page\_id=7754#end-anchor)
+[https://www.pinballfx.com/?page\_id=7754#end-anchor](https://www.pinballfx.com/?page_id=7754#end-anchor)
 {% endhint %}
 
 ### Tables

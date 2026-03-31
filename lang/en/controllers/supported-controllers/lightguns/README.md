@@ -10,7 +10,7 @@ There are several lightguns on the market, however, only a few have been tested 
 
 ## Lightgun detection
 
-When a lightgun is connected to the system, a small gun icon appears on the top left corner near the Gamepad icon : ![](<../../../.gitbook/assets/image (13).png>)
+When a lightgun is connected to the system, a small gun icon appears on the top left corner near the Gamepad icon : ![](<../../../.gitbook/assets/image (13) (1).png>)
 
 Also, a crosshair will appear on the screen as well as a collection called **LIGHT GUN** in the **System View**.
 

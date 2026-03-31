@@ -4,11 +4,7 @@ description: SNK
 
 # Neo Geo Pocket Color
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/ngpc-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/ngpc.svg" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/ngpc-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/ngpc.svg" alt=""></picture><figcaption></figcaption></figure></div>
 
 Portable Game Console - Lifespan: 1999 - 2001
 
@@ -28,29 +24,25 @@ Portable Game Console - Lifespan: 1999 - 2001
 
 ## Controls
 
-| Retrobat Button                                   | Neo Geo Pocket Key |
-| ------------------------------------------------- | ------------------ |
-| START                                             | START              |
-| SELECT                                            |                    |
-| Left analog stick                                 | D-PAD              |
-| Right analog stick                                |                    |
-| D-PAD                                             | D-PAD              |
-| ![](<../../../../.gitbook/assets/image (48).png>) |                    |
-| ![](<../../../../.gitbook/assets/image (30).png>) | B                  |
-| ![](<../../../../.gitbook/assets/image (16).png>) | A                  |
-| ![](<../../../../.gitbook/assets/image (50).png>) |                    |
-| L1                                                |                    |
-| R1                                                |                    |
-| L2                                                |                    |
-| R2                                                |                    |
-| L3                                                |                    |
-| R3                                                |                    |
+| Retrobat Button                                       | Neo Geo Pocket Key |
+| ----------------------------------------------------- | ------------------ |
+| START                                                 | START              |
+| SELECT                                                |                    |
+| Left analog stick                                     | D-PAD              |
+| Right analog stick                                    |                    |
+| D-PAD                                                 | D-PAD              |
+| ![](<../../../../.gitbook/assets/image (48).png>)     |                    |
+| ![](<../../../../.gitbook/assets/image (30).png>)     | B                  |
+| ![](<../../../../.gitbook/assets/image (16) (1).png>) | A                  |
+| ![](<../../../../.gitbook/assets/image (50).png>)     |                    |
+| L1                                                    |                    |
+| R1                                                    |                    |
+| L2                                                    |                    |
+| R2                                                    |                    |
+| L3                                                    |                    |
+| R3                                                    |                    |
 
-<div align="left">
-
-<figure><img src="https://wiki.batocera.org/_media/systems:ngp_controller_mapping.png?w=750&#x26;tok=e1fb04" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://wiki.batocera.org/_media/systems:ngp_controller_mapping.png?w=750&#x26;tok=e1fb04" alt=""><figcaption></figcaption></figure></div>
 
 ## Specific system information
 

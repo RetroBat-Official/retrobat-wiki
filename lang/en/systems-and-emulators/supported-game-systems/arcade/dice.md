@@ -36,23 +36,23 @@ Mapping can be found in the [notice](http://retrobat.ovh/notice/notice.pdf).
 
 ### Controller mapping
 
-| Retrobat Button                                | Arcade Key |
-| ---------------------------------------------- | ---------- |
-| START                                          | START      |
-| SELECT                                         | COIN       |
-| Left analog stick                              | Stick      |
-| Right analog stick                             |            |
-| D-PAD                                          | Stick      |
-| ![](<../../../.gitbook/assets/image (48).png>) | 3          |
-| ![](<../../../.gitbook/assets/image (30).png>) | 1          |
-| ![](<../../../.gitbook/assets/image (16).png>) | 2          |
-| ![](<../../../.gitbook/assets/image (50).png>) |            |
-| L1                                             | Dollar     |
-| R1                                             |            |
-| L2                                             |            |
-| R2                                             |            |
-| L3                                             |            |
-| R3                                             |            |
+| Retrobat Button                                    | Arcade Key |
+| -------------------------------------------------- | ---------- |
+| START                                              | START      |
+| SELECT                                             | COIN       |
+| Left analog stick                                  | Stick      |
+| Right analog stick                                 |            |
+| D-PAD                                              | Stick      |
+| ![](<../../../.gitbook/assets/image (48).png>)     | 3          |
+| ![](<../../../.gitbook/assets/image (30).png>)     | 1          |
+| ![](<../../../.gitbook/assets/image (16) (1).png>) | 2          |
+| ![](<../../../.gitbook/assets/image (50).png>)     |            |
+| L1                                                 | Dollar     |
+| R1                                                 |            |
+| L2                                                 |            |
+| R2                                                 |            |
+| L3                                                 |            |
+| R3                                                 |            |
 
 ## Specific system information
 

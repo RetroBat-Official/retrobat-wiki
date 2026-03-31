@@ -74,19 +74,19 @@ voice.zip
 
 Keyboard mapped to keyboard, Joystick mapping hereunder:
 
-| Retrobat Button                                | Odyssey2 key |
-| ---------------------------------------------- | ------------ |
-| START                                          |              |
-| SELECT                                         |              |
-| D-PAD                                          | D-PAD        |
-| Left analog stick                              |              |
-| Right analog stick                             |              |
-| ![](<../../../.gitbook/assets/image (48).png>) |              |
-| ![](<../../../.gitbook/assets/image (30).png>) | Button       |
-| ![](<../../../.gitbook/assets/image (16).png>) |              |
-| ![](<../../../.gitbook/assets/image (50).png>) |              |
-| L1                                             |              |
-| R1                                             |              |
+| Retrobat Button                                    | Odyssey2 key |
+| -------------------------------------------------- | ------------ |
+| START                                              |              |
+| SELECT                                             |              |
+| D-PAD                                              | D-PAD        |
+| Left analog stick                                  |              |
+| Right analog stick                                 |              |
+| ![](<../../../.gitbook/assets/image (48).png>)     |              |
+| ![](<../../../.gitbook/assets/image (30).png>)     | Button       |
+| ![](<../../../.gitbook/assets/image (16) (1).png>) |              |
+| ![](<../../../.gitbook/assets/image (50).png>)     |              |
+| L1                                                 |              |
+| R1                                                 |              |
 
 <div align="left"><figure><img src="https://i.imgur.com/1eW9xUn.png" alt=""><figcaption></figcaption></figure></div>
 

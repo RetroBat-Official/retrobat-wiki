@@ -6,11 +6,7 @@ description: ECWolf
 
 
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/55ff14aa79c95ecc70133072e6ac19fed3555b56/art/logos/ecwolf.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/55ff14aa79c95ecc70133072e6ac19fed3555b56/art/logos/ecwolf.svg" alt=""><figcaption></figcaption></figure></div>
 
 Game engine to play Wolfenstein 3D.
 
@@ -26,7 +22,7 @@ Game engine to play Wolfenstein 3D.
 
 ## Controls
 
-<table><thead><tr><th width="246">Retrobat</th><th>ECWolf</th></tr></thead><tbody><tr><td>START</td><td>Pause</td></tr><tr><td>SELECT</td><td>Map</td></tr><tr><td>D-PAD</td><td>D-PAD</td></tr><tr><td>Stick gauche</td><td>Forward, backward and strafe</td></tr><tr><td>Stick droit</td><td>Turn left and right</td></tr><tr><td><img src="../../../.gitbook/assets/image (48).png" alt=""></td><td>Show status</td></tr><tr><td><img src="../../../.gitbook/assets/image (30).png" alt=""></td><td>Use</td></tr><tr><td><img src="../../../.gitbook/assets/image (16).png" alt=""></td><td>Fire</td></tr><tr><td><img src="../../../.gitbook/assets/image (50).png" alt=""></td><td>Run</td></tr><tr><td>L1</td><td>Strafe left</td></tr><tr><td>R1</td><td>Strafe right</td></tr><tr><td>L2</td><td>Previous weapon</td></tr><tr><td>R2</td><td>Next Weapon</td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="246">Retrobat</th><th>ECWolf</th></tr></thead><tbody><tr><td>START</td><td>Pause</td></tr><tr><td>SELECT</td><td>Map</td></tr><tr><td>D-PAD</td><td>D-PAD</td></tr><tr><td>Stick gauche</td><td>Forward, backward and strafe</td></tr><tr><td>Stick droit</td><td>Turn left and right</td></tr><tr><td><img src="../../../.gitbook/assets/image (48).png" alt=""></td><td>Show status</td></tr><tr><td><img src="../../../.gitbook/assets/image (30).png" alt=""></td><td>Use</td></tr><tr><td><img src="../../../.gitbook/assets/image (16) (1).png" alt=""></td><td>Fire</td></tr><tr><td><img src="../../../.gitbook/assets/image (50).png" alt=""></td><td>Run</td></tr><tr><td>L1</td><td>Strafe left</td></tr><tr><td>R1</td><td>Strafe right</td></tr><tr><td>L2</td><td>Previous weapon</td></tr><tr><td>R2</td><td>Next Weapon</td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
 
 ## Specific system information
 

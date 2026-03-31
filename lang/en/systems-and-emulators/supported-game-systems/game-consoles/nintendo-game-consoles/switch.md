@@ -76,7 +76,7 @@ Place firmware .nca files in `\emulators\`<mark style="color:purple;">`<emulator
 | Left Analog Stick                                                                  | Left stick                     |
 | Right Analog Stick                                                                 | Right stick                    |
 | ![A](<../../../../.gitbook/assets/image (30).png>)                                 | <p>B<br>Or A when inverted</p> |
-| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | <p>A<br>Or B when inverted</p> |
+| ![B](<../../../../.gitbook/assets/image (16) (1).png>)                             | <p>A<br>Or B when inverted</p> |
 | <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | <p>X<br>Or Y when inverted</p> |
 | <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | <p>Y<br>Or X when inverted</p> |
 | LB (L1)                                                                            | L                              |

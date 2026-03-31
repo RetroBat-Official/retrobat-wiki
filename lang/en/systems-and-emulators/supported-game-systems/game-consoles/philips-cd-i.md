@@ -4,11 +4,7 @@ description: Philips
 
 # Philips CD-i
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/cdi.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/cdi.svg" alt=""><figcaption></figcaption></figure></div>
 
 Game Console - Lifespan: 1990 - 1998
 
@@ -61,17 +57,17 @@ cdibios.zip
 
 ## Controls
 
-| Retrobat Button                                | CD-i key   |
-| ---------------------------------------------- | ---------- |
-| START                                          | START      |
-| SELECT                                         | SELECT     |
-| D-PAD, Left analog stick                       | D-PAD      |
-| ![](<../../../.gitbook/assets/image (48).png>) | ./..       |
-| ![](<../../../.gitbook/assets/image (30).png>) | . (bottom) |
-| ![](<../../../.gitbook/assets/image (16).png>) | ..         |
-| ![](<../../../.gitbook/assets/image (50).png>) | . (top)    |
-| L1                                             |            |
-| R1                                             |            |
+| Retrobat Button                                    | CD-i key   |
+| -------------------------------------------------- | ---------- |
+| START                                              | START      |
+| SELECT                                             | SELECT     |
+| D-PAD, Left analog stick                           | D-PAD      |
+| ![](<../../../.gitbook/assets/image (48).png>)     | ./..       |
+| ![](<../../../.gitbook/assets/image (30).png>)     | . (bottom) |
+| ![](<../../../.gitbook/assets/image (16) (1).png>) | ..         |
+| ![](<../../../.gitbook/assets/image (50).png>)     | . (top)    |
+| L1                                                 |            |
+| R1                                                 |            |
 
 ## Specific system information
 

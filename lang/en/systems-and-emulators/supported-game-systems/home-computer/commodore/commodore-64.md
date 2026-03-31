@@ -26,23 +26,23 @@ No BIOS required.
 
 Use Pad2Key for this system if you need specific mapping, see the [Pad2Key ](../../../../controllers/pad2key.md)section of this Wiki.
 
-| Retrobat Button                                   | C64 key                                                                                                           |
-| ------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| START                                             | Return (keyboard)                                                                                                 |
-| SELECT                                            | <p>Short press: Virtual keyboard </p><p>Longer press: Statusbar on/off </p><p>Even longer press: Fast Forward</p> |
-| D-PAD                                             | Joystick                                                                                                          |
-| Left analog stick                                 | N/A                                                                                                               |
-| Right analog stick                                | N/A                                                                                                               |
-| ![](<../../../../.gitbook/assets/image (48).png>) | Toggle ShiftLock (keyboard)                                                                                       |
-| ![](<../../../../.gitbook/assets/image (30).png>) | Joystick Fire                                                                                                     |
-| ![](<../../../../.gitbook/assets/image (16).png>) | Second Fire                                                                                                       |
-| ![](<../../../../.gitbook/assets/image (50).png>) | Space (keyboard)                                                                                                  |
-| L1                                                |                                                                                                                   |
-| R1                                                |                                                                                                                   |
-| L2                                                | Escape (Keyboard)                                                                                                 |
-| R2                                                | Return (Keyboard)                                                                                                 |
-| L3                                                |                                                                                                                   |
-| R3                                                |                                                                                                                   |
+| Retrobat Button                                       | C64 key                                                                                                           |
+| ----------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| START                                                 | Return (keyboard)                                                                                                 |
+| SELECT                                                | <p>Short press: Virtual keyboard </p><p>Longer press: Statusbar on/off </p><p>Even longer press: Fast Forward</p> |
+| D-PAD                                                 | Joystick                                                                                                          |
+| Left analog stick                                     | N/A                                                                                                               |
+| Right analog stick                                    | N/A                                                                                                               |
+| ![](<../../../../.gitbook/assets/image (48).png>)     | Toggle ShiftLock (keyboard)                                                                                       |
+| ![](<../../../../.gitbook/assets/image (30).png>)     | Joystick Fire                                                                                                     |
+| ![](<../../../../.gitbook/assets/image (16) (1).png>) | Second Fire                                                                                                       |
+| ![](<../../../../.gitbook/assets/image (50).png>)     | Space (keyboard)                                                                                                  |
+| L1                                                    |                                                                                                                   |
+| R1                                                    |                                                                                                                   |
+| L2                                                    | Escape (Keyboard)                                                                                                 |
+| R2                                                    | Return (Keyboard)                                                                                                 |
+| L3                                                    |                                                                                                                   |
+| R3                                                    |                                                                                                                   |
 
 It is possible to remap keys as you want them using the Retroarch menu:
 

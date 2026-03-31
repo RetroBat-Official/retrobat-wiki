@@ -24,19 +24,19 @@ No BIOS required for the system.
 
 ## Controls
 
-| Retrobat Button                                   | Cassette Vision key                                                                                                             |
-| ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| START                                             | Start                                                                                                                           |
-| SELECT                                            | Select                                                                                                                          |
-| D-PAD                                             | <p>Up: Course Select increment<br>Down: Course Select decrement<br>Left: Lever Switch 1 Left<br>Right: Lever Switch 1 Right</p> |
-| ![](<../../../../.gitbook/assets/image (48).png>) | Push3                                                                                                                           |
-| ![](<../../../../.gitbook/assets/image (30).png>) | Push2                                                                                                                           |
-| ![](<../../../../.gitbook/assets/image (16).png>) | Push4                                                                                                                           |
-| ![](<../../../../.gitbook/assets/image (50).png>) | Push1                                                                                                                           |
-| L1                                                | -                                                                                                                               |
-| R1                                                | AUX                                                                                                                             |
-| Left stick horizontal axis                        | Paddle 2                                                                                                                        |
-| Left stick vertical axis                          | Paddle 1                                                                                                                        |
+| Retrobat Button                                       | Cassette Vision key                                                                                                             |
+| ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| START                                                 | Start                                                                                                                           |
+| SELECT                                                | Select                                                                                                                          |
+| D-PAD                                                 | <p>Up: Course Select increment<br>Down: Course Select decrement<br>Left: Lever Switch 1 Left<br>Right: Lever Switch 1 Right</p> |
+| ![](<../../../../.gitbook/assets/image (48).png>)     | Push3                                                                                                                           |
+| ![](<../../../../.gitbook/assets/image (30).png>)     | Push2                                                                                                                           |
+| ![](<../../../../.gitbook/assets/image (16) (1).png>) | Push4                                                                                                                           |
+| ![](<../../../../.gitbook/assets/image (50).png>)     | Push1                                                                                                                           |
+| L1                                                    | -                                                                                                                               |
+| R1                                                    | AUX                                                                                                                             |
+| Left stick horizontal axis                            | Paddle 2                                                                                                                        |
+| Left stick vertical axis                              | Paddle 1                                                                                                                        |
 
 ## Specific system information
 

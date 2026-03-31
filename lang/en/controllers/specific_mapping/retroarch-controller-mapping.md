@@ -106,25 +106,25 @@ The logic RetroBat uses to find a file is the following:
 
 If a yaml file is found, RetroBat reads the file and searches for a container matching the name of the game rom file:
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 If no container exists for the game, RetroBat tries to get the "default" container:
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 For arcade systems, a single game can have multiple layouts based on the option set in RetroBat interface ADVANCED SETTINGS > CONTROLS:
 
-![](<../../.gitbook/assets/image (6).png>)
+![](<../../.gitbook/assets/image (6) (1).png>)
 
 RetroBat will first look for the container with the selected layout, before falling back to the game specific container:
 
-![](<../../.gitbook/assets/image (7).png>)
+![](<../../.gitbook/assets/image (7) (1).png>)
 {% endhint %}
 
 When a specific container is found, RetroBat automatically generates and modifies the core remap file when running a game, which automatically applies the selected remap:
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Force a controller binding configuration
 
@@ -134,7 +134,7 @@ RetroBat ships with a specificfile named "**retroarch\_controller.json**" locate
 
 This file is a json-formatted file, it contains the exact mapping required in the `retroarch.cfg` file based on the controller SDL guid:
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 The above example is for the NSO N64 controller, the different values required in the file are the following:
 
@@ -159,8 +159,8 @@ RetroBat does offer, for multiple systems, the ability to change the button mapp
 
 The option can usually be found in the RetroBat **advanced settings > controls** menu:
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (11).png" alt="" width="245"><figcaption><p>Example for megadrive</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (11) (1).png" alt="" width="245"><figcaption><p>Example for megadrive</p></figcaption></figure></div>
 
 More information about the different layouts can be found on the [page for the system](../../systems-and-emulators/supported-game-systems/).

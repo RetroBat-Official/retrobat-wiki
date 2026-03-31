@@ -4,11 +4,7 @@ description: Nokia
 
 # N-Gage & Symbian
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/db9685d44d41fa27f869daaba3ab446395ff3485/art/logos/ngage-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/db9685d44d41fa27f869daaba3ab446395ff3485/art/logos/ngage.svg" alt="" width="563"></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/db9685d44d41fa27f869daaba3ab446395ff3485/art/logos/ngage-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/db9685d44d41fa27f869daaba3ab446395ff3485/art/logos/ngage.svg" alt="" width="563"></picture><figcaption></figcaption></figure></div>
 
 Portable Game Console - Lifespan: 2003 - 2006
 
@@ -40,7 +36,7 @@ ROM must installed in the emulator first in order to be able to launch a game fr
 | Left analog stick                                                                  |                                                    |
 | Right analog stick                                                                 | <p>Up : 0<br>Left : 7<br>Down : 8<br>Right : 9</p> |
 | ![A](<../../../../.gitbook/assets/image (30).png>)                                 | 4                                                  |
-| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | 5                                                  |
+| ![B](<../../../../.gitbook/assets/image (16) (1).png>)                             | 5                                                  |
 | <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | 2                                                  |
 | <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | 1                                                  |
 | L1                                                                                 | 3                                                  |
@@ -62,43 +58,23 @@ A copy of the N-Gage NEM-4 rom file is necessary to perform these steps, RetroBa
 
 From the RetroBat menu, launch the EKA2L1 emulator:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/8uq6sZD.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/8uq6sZD.png" alt=""><figcaption></figcaption></figure></div>
 
 In the Emulator, click on "settings menu" and set the `\bios\eka2l1\data` path as the **Emulator Data Path:**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/53xZy3q.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/53xZy3q.png" alt=""><figcaption></figcaption></figure></div>
 
 Close the settings window and choose File > Install > Device:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/w7FrdQV.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/w7FrdQV.png" alt=""><figcaption></figcaption></figure></div>
 
 Point to the **SYM.ROM** file that should be placed in the `\bios\eka2l1\data\roms\NEM-4` folder of your RetroBat installation:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/BWnvG0i.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/BWnvG0i.png" alt=""><figcaption></figcaption></figure></div>
 
 Click on "install":
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/qCh5nxP.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/qCh5nxP.png" alt=""><figcaption></figcaption></figure></div>
 
 You can now quit the emulator.
 
@@ -112,11 +88,7 @@ True N-Gage games in "folder" format (containing System > Apps subfolder) are co
 
 Here is an example of game format the way it needs to appear in the `\roms\ngage` folder of your RetroBat installation:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/wUcyu53.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/wUcyu53.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Do not forget to rename the game folder to make it end with ".ngage", else it will not be recognized by RetroBat.
@@ -126,27 +98,15 @@ Do not forget to rename the game folder to make it end with ".ngage", else it wi
 
 Symbian games need to be installed first within the emulator:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/cPdweb3.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/cPdweb3.png" alt=""><figcaption></figcaption></figure></div>
 
 Once the game is installed for the correct device, retrieve the "Application Name" from the emulator:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/ZHR11OX.png" alt=""><figcaption><p>The app name here is "cakarting"</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/ZHR11OX.png" alt=""><figcaption><p>The app name here is "cakarting"</p></figcaption></figure></div>
 
 Finally, create a .txt file with notepad and paste the application name inside the file:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/9YkL68x.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/9YkL68x.png" alt=""><figcaption></figcaption></figure></div>
 
 Save the file with the `.symbian` extension in the `roms\ngage` folder.
 

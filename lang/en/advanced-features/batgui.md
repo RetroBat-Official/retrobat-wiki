@@ -2,7 +2,7 @@
 
 BatGui is a software provided with Retrobat and available at the root of your Retrobat folder
 
-<div align="left"><figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure></div>
 
 **The tool allows you to:**
 
@@ -21,7 +21,7 @@ BatGui is a software provided with Retrobat and available at the root of your Re
 
 With BatGui.exe, you can edit the settings of your [retrobat.ini](retrobat.ini.md) file
 
-<div align="left"><figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure></div>
 
 ### System list
 

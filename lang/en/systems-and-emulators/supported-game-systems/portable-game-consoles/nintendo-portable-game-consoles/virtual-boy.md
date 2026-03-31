@@ -4,11 +4,7 @@ description: Nintendo
 
 # Virtual Boy
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/virtualboy.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/virtualboy.svg" alt=""><figcaption></figcaption></figure></div>
 
 Portable Game Console - Lifespan: 1995 - 1996
 
@@ -36,7 +32,7 @@ No BIOS required.
 | Left analog stick                                                                  | Left D-PAD      |
 | Right analog stick                                                                 | Right D-PAD     |
 | ![A](<../../../../.gitbook/assets/image (30).png>)                                 | B               |
-| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | A               |
+| ![B](<../../../../.gitbook/assets/image (16) (1).png>)                             | A               |
 | <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> |                 |
 | <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     |                 |
 | L1                                                                                 | Left Shoulder   |
@@ -46,11 +42,7 @@ No BIOS required.
 | L3                                                                                 |                 |
 | R3                                                                                 |                 |
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/L8Na7Mq.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/L8Na7Mq.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Specific system information
 

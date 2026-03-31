@@ -1,10 +1,6 @@
 # TV Games
 
-<div align="left">
-
-<figure><img src="https://github.com/fabricecaruso/es-theme-carbon/blob/master/art/logos/tvgames.png?raw=true" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/fabricecaruso/es-theme-carbon/blob/master/art/logos/tvgames.png?raw=true" alt=""><figcaption></figcaption></figure></div>
 
 TV plug and play devices.
 
@@ -22,23 +18,23 @@ No BIOS required.
 
 TV Games controls are specific to each game, no standard mapping is possible, MAME handles this by defaulting 6 buttons and a stick.
 
-| Retrobat Button                                | TV Games key |
-| ---------------------------------------------- | ------------ |
-| START                                          | START        |
-| SELECT                                         | COIN         |
-| D-PAD                                          | Stick        |
-| Left analog stick                              | Stick        |
-| Reft analog stick                              |              |
-| ![](<../../../.gitbook/assets/image (48).png>) | 3            |
-| ![](<../../../.gitbook/assets/image (30).png>) | 1            |
-| ![](<../../../.gitbook/assets/image (16).png>) | 2            |
-| ![](<../../../.gitbook/assets/image (50).png>) | 4            |
-| L1                                             | 5            |
-| R1                                             | 6            |
-| L2                                             |              |
-| R2                                             |              |
-| L3                                             |              |
-| R3                                             |              |
+| Retrobat Button                                    | TV Games key |
+| -------------------------------------------------- | ------------ |
+| START                                              | START        |
+| SELECT                                             | COIN         |
+| D-PAD                                              | Stick        |
+| Left analog stick                                  | Stick        |
+| Reft analog stick                                  |              |
+| ![](<../../../.gitbook/assets/image (48).png>)     | 3            |
+| ![](<../../../.gitbook/assets/image (30).png>)     | 1            |
+| ![](<../../../.gitbook/assets/image (16) (1).png>) | 2            |
+| ![](<../../../.gitbook/assets/image (50).png>)     | 4            |
+| L1                                                 | 5            |
+| R1                                                 | 6            |
+| L2                                                 |              |
+| R2                                                 |              |
+| L3                                                 |              |
+| R3                                                 |              |
 
 ## Specific system information
 

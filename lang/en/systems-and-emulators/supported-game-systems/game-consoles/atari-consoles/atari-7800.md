@@ -4,11 +4,7 @@ description: Atari
 
 # Atari 7800
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/atari7800-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/atari7800.svg" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/atari7800-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/atari7800.svg" alt=""></picture><figcaption></figcaption></figure></div>
 
 Game console - Lifespan: 1986 - 1992
 
@@ -28,29 +24,25 @@ Game console - Lifespan: 1986 - 1992
 
 ## Controls
 
-| Retrobat Button                                   | Atari 7800 key |
-| ------------------------------------------------- | -------------- |
-| START                                             |                |
-| SELECT                                            |                |
-| D-PAD                                             | D-PAD          |
-| Left analog stick                                 |                |
-| Right analog stick                                |                |
-| ![](<../../../../.gitbook/assets/image (48).png>) |                |
-| ![](<../../../../.gitbook/assets/image (30).png>) | B              |
-| ![](<../../../../.gitbook/assets/image (16).png>) | A              |
-| ![](<../../../../.gitbook/assets/image (50).png>) |                |
-| L1                                                |                |
-| R1                                                |                |
-| L2                                                |                |
-| R2                                                |                |
-| L3                                                |                |
-| R3                                                |                |
+| Retrobat Button                                       | Atari 7800 key |
+| ----------------------------------------------------- | -------------- |
+| START                                                 |                |
+| SELECT                                                |                |
+| D-PAD                                                 | D-PAD          |
+| Left analog stick                                     |                |
+| Right analog stick                                    |                |
+| ![](<../../../../.gitbook/assets/image (48).png>)     |                |
+| ![](<../../../../.gitbook/assets/image (30).png>)     | B              |
+| ![](<../../../../.gitbook/assets/image (16) (1).png>) | A              |
+| ![](<../../../../.gitbook/assets/image (50).png>)     |                |
+| L1                                                    |                |
+| R1                                                    |                |
+| L2                                                    |                |
+| R2                                                    |                |
+| L3                                                    |                |
+| R3                                                    |                |
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/sgsaeRN.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/sgsaeRN.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Specific system information
 

@@ -12,7 +12,7 @@ You can test you Gamepad [HERE](https://gamepad-tester.com/) to check if it is d
 
 ### 8bitdo controllers <a href="#bitdo_controllers" id="bitdo_controllers"></a>
 
-![](<../../../.gitbook/assets/image (14).png>)
+![](<../../../.gitbook/assets/image (14) (1).png>)
 
 8bitdo Bluetooth controllers have been reported to work perfectly with Retrobat.
 
@@ -28,7 +28,7 @@ When using a wired 8bitdo controller, the switch between XInput and sdl is done 
 
 ### XBox controllers (or any XInput controller)
 
-![](<../../../.gitbook/assets/image (8) (1) (1) (1).png>)![](<../../../.gitbook/assets/image (6) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (8) (1) (1) (1) (1).png>)![](<../../../.gitbook/assets/image (6) (1) (1) (1) (1).png>)
 
 For wired Xbox controllers, the connection to windows and setup in Retrobat will be plug'n'play.
 

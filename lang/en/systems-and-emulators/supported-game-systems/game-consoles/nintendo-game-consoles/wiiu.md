@@ -42,7 +42,7 @@ The following controllers can be autoconfigured from Retrobat to Cemu:
 | Left Analog Stick                                                                  | Left stick                            |
 | Right Analog Stick                                                                 | Right stick                           |
 | ![A](<../../../../.gitbook/assets/image (30).png>)                                 | <p>B<br>Or A with inverted option</p> |
-| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | <p>A<br>Or B with inverted option</p> |
+| ![B](<../../../../.gitbook/assets/image (16) (1).png>)                             | <p>A<br>Or B with inverted option</p> |
 | <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | <p>X<br>Or Y with inverted option</p> |
 | <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | <p>Y<br>Or X with inverted option</p> |
 | LB (L1)                                                                            | L                                     |

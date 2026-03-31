@@ -4,11 +4,7 @@ description: SNK
 
 # Neo Geo
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/neogeo.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/neogeo.svg" alt=""><figcaption></figcaption></figure></div>
 
 Game Console - Lifespan: 1990 - 2004
 
@@ -40,11 +36,7 @@ The core does not search the `\bios` folder.
 
 Neo-Geo emulators all have different control layouts, they can vary based ont the controls options defined in RetroBat:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/4aeIFW6.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/4aeIFW6.png" alt=""><figcaption></figcaption></figure></div>
 
 
 
@@ -64,20 +56,12 @@ Neo-Geo emulators all have different control layouts, they can vary based ont th
 
 ## Accessing UNIBIOS settings
 
-When using the universal BIOS, the combination ![](<../../../../.gitbook/assets/image (48).png>) + ![](<../../../../.gitbook/assets/image (30).png>) + ![](<../../../../.gitbook/assets/image (16).png>) at startup will give you access to the UNIBIOS settings:
+When using the universal BIOS, the combination ![](<../../../../.gitbook/assets/image (48).png>) + ![](<../../../../.gitbook/assets/image (30).png>) + ![](<../../../../.gitbook/assets/image (16) (1).png>) at startup will give you access to the UNIBIOS settings:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/zdbCnw5.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/zdbCnw5.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Accessing in-game menu
 
-When using the universal BIOS, the combination START + ![](<../../../../.gitbook/assets/image (48).png>) + ![](<../../../../.gitbook/assets/image (30).png>) + ![](<../../../../.gitbook/assets/image (16).png>) during the game will give you access to the in-game menu:
+When using the universal BIOS, the combination START + ![](<../../../../.gitbook/assets/image (48).png>) + ![](<../../../../.gitbook/assets/image (30).png>) + ![](<../../../../.gitbook/assets/image (16) (1).png>) during the game will give you access to the in-game menu:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/7SlsT4U.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/7SlsT4U.png" alt=""><figcaption></figcaption></figure></div>

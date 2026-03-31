@@ -16,7 +16,7 @@ No BIOS required.
 
 ## Controls
 
-<table><thead><tr><th width="246">Retrobat</th><th>Commander Keen</th></tr></thead><tbody><tr><td>START</td><td>Help</td></tr><tr><td>SELECT</td><td>Back</td></tr><tr><td>D-PAD</td><td>Directions</td></tr><tr><td><img src="../../../.gitbook/assets/image (48).png" alt=""></td><td>Run</td></tr><tr><td><img src="../../../.gitbook/assets/image (30).png" alt=""></td><td>Jump</td></tr><tr><td><img src="../../../.gitbook/assets/image (16).png" alt=""></td><td>Fire</td></tr><tr><td><img src="../../../.gitbook/assets/image (50).png" alt=""></td><td>Pogo</td></tr><tr><td>L1</td><td>Status</td></tr><tr><td>R1</td><td>Camlead</td></tr><tr><td>Hotkey + <img src="../../../.gitbook/assets/image (48).png" alt=""></td><td>Quicksave</td></tr><tr><td>Hotkey + <img src="../../../.gitbook/assets/image (50).png" alt=""></td><td>Quickload</td></tr></tbody></table>
+<table><thead><tr><th width="246">Retrobat</th><th>Commander Keen</th></tr></thead><tbody><tr><td>START</td><td>Help</td></tr><tr><td>SELECT</td><td>Back</td></tr><tr><td>D-PAD</td><td>Directions</td></tr><tr><td><img src="../../../.gitbook/assets/image (48).png" alt=""></td><td>Run</td></tr><tr><td><img src="../../../.gitbook/assets/image (30).png" alt=""></td><td>Jump</td></tr><tr><td><img src="../../../.gitbook/assets/image (16) (1).png" alt=""></td><td>Fire</td></tr><tr><td><img src="../../../.gitbook/assets/image (50).png" alt=""></td><td>Pogo</td></tr><tr><td>L1</td><td>Status</td></tr><tr><td>R1</td><td>Camlead</td></tr><tr><td>Hotkey + <img src="../../../.gitbook/assets/image (48).png" alt=""></td><td>Quicksave</td></tr><tr><td>Hotkey + <img src="../../../.gitbook/assets/image (50).png" alt=""></td><td>Quickload</td></tr></tbody></table>
 
 ## System Features
 

@@ -14,7 +14,7 @@ The first command launched represents the Computer Model (<mark style="backgroun
 
 When a computer has multiple models (e.g. Camputers Lynx models 48K, 96K or 128K), RetroBat usually offers the option to select the computer model to emulate, the option can be found in the **ADVANCED SETTINGS > EMULATION** menu:
 
-<div align="left"><figure><img src="../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (9) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 You need to ensure that you have the right bios located in the bios\ folder for the specific computer model.
@@ -52,7 +52,7 @@ RetroBat will check if a file, with the same name as the game rom file and with 
 
 If this is the case, RetroBat will read the file, and add the first line as autoboot command and the second line (if it exists) as autoboot delay:
 
-<div align="left"><figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 As an example, the above file will work for the 3DBRICK.dsk game file, and will generate the following command line:&#x20;
 
@@ -66,7 +66,7 @@ MAME comes with a set of softlist files, they are located in the `\bios\mame\has
 
 If the option "**ADVANCED SETTINGS > EMULATION >** **TRY TO AUTOBOOT**" is set in RetroBat, it will try to automatically determine the boot command by searching in the softlist files:
 
-<div align="left"><figure><img src="../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 #### 3) Internal logic
 
@@ -78,7 +78,7 @@ Example of command line argument for apple2: `-gameio joy`
 
 Some computers could use different types of controller devices, the option to enable/change the controller type connected can usually be found in the **ADVANCED SETTINGS > CONTROLS** menu:
 
-<div align="left"><figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 If a controller type is missing, you can ask the RetroBat team to add the option to RetroBat, or use the [additional command line](old-computers-mame-mess-launch-arguments.md#additional-command-line-arguments) guide below.
@@ -98,7 +98,7 @@ RetroBat will check if a file, with the same name as the game rom file and with 
 
 If this is the case, RetroBat will read the file, and add each line as an additional argument when launching the game:
 
-<div align="left"><figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 As an example, the above file will work for the **alpiner.zip** game file, and will add the following command line:&#x20;
 
@@ -112,7 +112,7 @@ RetroBat will check if a file, with the same name as the computer model rom file
 
 If this is the case, RetroBat will read the file, and add each line as an additional argument when launching a game for the machine:
 
-<div align="left"><figure><img src="../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (7) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 With the same example as above, this file would add the following command line for any game launched for the ti99\_4a machine:
 

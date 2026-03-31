@@ -1,10 +1,6 @@
 # Uzebox
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/78a0a78ab8f5e6a606f63833349382908d01d8af/art/logos/uzebox-w.svg" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/78a0a78ab8f5e6a606f63833349382908d01d8af/art/logos/uzebox-w.svg" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Open-source game Console - Creation date: 2008
 
@@ -32,7 +28,7 @@ No BIOS required.
 | Left analog stick                                                               |        |
 | Right analog stick                                                              |        |
 | ![A](<../../../.gitbook/assets/image (30).png>)                                 | A      |
-| ![B](<../../../.gitbook/assets/image (16).png>)                                 | B      |
+| ![B](<../../../.gitbook/assets/image (16) (1).png>)                             | B      |
 | <img src="../../../.gitbook/assets/image (50).png" alt="" data-size="original"> |        |
 | <img src="../../../.gitbook/assets/image (48).png" alt="" data-size="line">     |        |
 | L1                                                                              |        |

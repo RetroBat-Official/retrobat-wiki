@@ -4,11 +4,7 @@ description: Entex
 
 # Adventure Vision
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/8lVhiHK.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/8lVhiHK.png" alt=""><figcaption></figcaption></figure></div>
 
 Game Console - Lifespan: 1982 - 1983
 
@@ -36,23 +32,23 @@ advision.zip
 
 ## Controls
 
-| Retrobat Button                                | Adventure Vision key |
-| ---------------------------------------------- | -------------------- |
-| START                                          | START                |
-| SELECT                                         | SELECT               |
-| D-PAD                                          | D'PAD                |
-| Left analog stick                              |                      |
-| Right analog stick                             |                      |
-| ![](<../../../.gitbook/assets/image (48).png>) | Y                    |
-| ![](<../../../.gitbook/assets/image (30).png>) | B                    |
-| ![](<../../../.gitbook/assets/image (16).png>) | A                    |
-| ![](<../../../.gitbook/assets/image (50).png>) | X                    |
-| L1                                             | L1                   |
-| R1                                             | R1                   |
-| L2                                             | L2                   |
-| R2                                             | R2                   |
-| L3                                             | L3                   |
-| R3                                             | R3                   |
+| Retrobat Button                                    | Adventure Vision key |
+| -------------------------------------------------- | -------------------- |
+| START                                              | START                |
+| SELECT                                             | SELECT               |
+| D-PAD                                              | D'PAD                |
+| Left analog stick                                  |                      |
+| Right analog stick                                 |                      |
+| ![](<../../../.gitbook/assets/image (48).png>)     | Y                    |
+| ![](<../../../.gitbook/assets/image (30).png>)     | B                    |
+| ![](<../../../.gitbook/assets/image (16) (1).png>) | A                    |
+| ![](<../../../.gitbook/assets/image (50).png>)     | X                    |
+| L1                                                 | L1                   |
+| R1                                                 | R1                   |
+| L2                                                 | L2                   |
+| R2                                                 | R2                   |
+| L3                                                 | L3                   |
+| R3                                                 | R3                   |
 
 ## Specific system information
 

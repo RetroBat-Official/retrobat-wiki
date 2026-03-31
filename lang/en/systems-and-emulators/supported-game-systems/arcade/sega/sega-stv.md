@@ -4,11 +4,7 @@ description: Sega
 
 # Sega Titan-Video
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/0ab5d8cd36c673c827b022c2ae53042a38df33da/art/logos/segastv.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/0ab5d8cd36c673c827b022c2ae53042a38df33da/art/logos/segastv.svg" alt=""><figcaption></figcaption></figure></div>
 
 Arcade - Released: 1994
 
@@ -32,7 +28,7 @@ Arcade - Released: 1994
 | ---------------------------------------------------------------------------------- | ------------ |
 | D-PAD                                                                              | Directions   |
 | ![A](<../../../../.gitbook/assets/image (30).png>)                                 | Button 1     |
-| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | Button 2     |
+| ![B](<../../../../.gitbook/assets/image (16) (1).png>)                             | Button 2     |
 | <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | Button 4     |
 | <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | Button 3     |
 | SELECT                                                                             | Coin         |

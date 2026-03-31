@@ -51,7 +51,7 @@ This means that if the player 1 uses a XBOX controller, player 2 will also need 
 | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
 | Left stick                                                                         | Steering                                                         |
 | ![A](<../../../../.gitbook/assets/image (30).png>)                                 | VR2 (blue)                                                       |
-| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | VR4 (green)                                                      |
+| ![B](<../../../../.gitbook/assets/image (16) (1).png>)                             | VR4 (green)                                                      |
 | <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | VR1 (red)                                                        |
 | <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | VR3 (yellow)                                                     |
 | Right stick                                                                        | <p>Gear stick<br>UP = 1<br>DOWN = 2<br>LEFT = 3<br>RIGHT = 4</p> |
@@ -66,7 +66,7 @@ This means that if the player 1 uses a XBOX controller, player 2 will also need 
 | ---------------------------------------------------------------------------------- | ------------ |
 | Left stick                                                                         | Steering     |
 | ![A](<../../../../.gitbook/assets/image (30).png>)                                 | VR2 (blue)   |
-| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | VR4 (green)  |
+| ![B](<../../../../.gitbook/assets/image (16) (1).png>)                             | VR4 (green)  |
 | <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | VR1 (red)    |
 | <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | VR3 (yellow) |
 | L1                                                                                 | Shift down   |
@@ -103,7 +103,7 @@ This means that if the player 1 uses a XBOX controller, player 2 will also need 
 | ---------------------------------------------------------------------------------- | ------------ |
 | Left stick                                                                         | Steering     |
 | ![A](<../../../../.gitbook/assets/image (30).png>)                                 | Rear brake   |
-| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | Music change |
+| ![B](<../../../../.gitbook/assets/image (16) (1).png>)                             | Music change |
 | <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | View change  |
 | L1                                                                                 | Shift down   |
 | R1                                                                                 | Shift up     |
@@ -168,7 +168,7 @@ The aim will not work if the aim settings is not performed in the service menu f
 | ------------------------------------------------------------------------------ | -------------- |
 | Left stick                                                                     | Turn           |
 | ![A](<../../../../.gitbook/assets/image (30).png>)                             | Red            |
-| ![B](<../../../../.gitbook/assets/image (16).png>)                             | Green          |
+| ![B](<../../../../.gitbook/assets/image (16) (1).png>)                         | Green          |
 | <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line"> | Blue           |
 | Right stick                                                                    | Turn harder    |
 | L2                                                                             | Left ski pole  |
@@ -180,7 +180,7 @@ The aim will not work if the aim settings is not performed in the service menu f
 | ---------------------------------------------------------------------------------- | -------------- |
 | Left stick                                                                         | Move           |
 | ![A](<../../../../.gitbook/assets/image (30).png>)                                 | Beat           |
-| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | Shift / Strafe |
+| ![B](<../../../../.gitbook/assets/image (16) (1).png>)                             | Shift / Strafe |
 | <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | Jump           |
 | <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | Charge         |
 | R1                                                                                 | Shift / Strafe |
@@ -215,7 +215,7 @@ The aim will not work if the aim settings is not performed in the service menu f
 | ---------------------------------------------------------------------------------- | ------------ |
 | Left stick, D-PAD                                                                  | Move         |
 | ![A](<../../../../.gitbook/assets/image (30).png>)                                 | Guard        |
-| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | Escape       |
+| ![B](<../../../../.gitbook/assets/image (16) (1).png>)                             | Escape       |
 | <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | Kick         |
 | <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | Punch        |
 
@@ -225,7 +225,7 @@ The aim will not work if the aim settings is not performed in the service menu f
 | ---------------------------------------------------------------------------------- | ------------ |
 | Left stick                                                                         | Move         |
 | ![A](<../../../../.gitbook/assets/image (30).png>)                                 | Crouch       |
-| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | Right Turbo  |
+| ![B](<../../../../.gitbook/assets/image (16) (1).png>)                             | Right Turbo  |
 | <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | Jump         |
 | <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | Left Turbo   |
 | Right stick                                                                        | Turn         |
@@ -240,7 +240,7 @@ The aim will not work if the aim settings is not performed in the service menu f
 | ------------------------------------------------------------------------------ | ------------ |
 | Left stick                                                                     | Move         |
 | ![A](<../../../../.gitbook/assets/image (30).png>)                             | Long pass    |
-| ![B](<../../../../.gitbook/assets/image (16).png>)                             | Shoot        |
+| ![B](<../../../../.gitbook/assets/image (16) (1).png>)                         | Shoot        |
 | <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line"> | Short pass   |
 
 ## Specific system information

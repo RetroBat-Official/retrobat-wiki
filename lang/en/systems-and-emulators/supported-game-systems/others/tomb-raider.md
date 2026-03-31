@@ -4,11 +4,7 @@ description: OpenLara
 
 # Tomb Raider
 
-<div align="left">
-
-<figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FCgoewyw8Sagl6SNUMrCG%2Fuploads%2FEz8si9RfyUg6Yc3vzCUS%2F1526141_794a5.png?alt=media&#x26;token=c4d72829-7e6b-49e6-80e0-d28755ed99bc" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FCgoewyw8Sagl6SNUMrCG%2Fuploads%2FEz8si9RfyUg6Yc3vzCUS%2F1526141_794a5.png?alt=media&#x26;token=c4d72829-7e6b-49e6-80e0-d28755ed99bc" alt=""><figcaption></figcaption></figure></div>
 
 Game engine to play Tomb Raider.
 
@@ -24,21 +20,21 @@ No BIOS required.
 
 ## Controls
 
-| Retrobat                                       | OpenLara               |
-| ---------------------------------------------- | ---------------------- |
-| START                                          | START                  |
-| SELECT                                         | INVENTORY              |
-| D-PAD                                          | D-PAD                  |
-| Left analog stick                              |                        |
-| Right analog stick                             |                        |
-| ![](<../../../.gitbook/assets/image (48).png>) | Jump                   |
-| ![](<../../../.gitbook/assets/image (30).png>) | Action : shoot / catch |
-| ![](<../../../.gitbook/assets/image (16).png>) | Roll                   |
-| ![](<../../../.gitbook/assets/image (50).png>) | Draw weapon            |
-| L1                                             |                        |
-| R1                                             | Walk                   |
-| L2                                             | Crouch                 |
-| R2                                             | Dash                   |
+| Retrobat                                           | OpenLara               |
+| -------------------------------------------------- | ---------------------- |
+| START                                              | START                  |
+| SELECT                                             | INVENTORY              |
+| D-PAD                                              | D-PAD                  |
+| Left analog stick                                  |                        |
+| Right analog stick                                 |                        |
+| ![](<../../../.gitbook/assets/image (48).png>)     | Jump                   |
+| ![](<../../../.gitbook/assets/image (30).png>)     | Action : shoot / catch |
+| ![](<../../../.gitbook/assets/image (16) (1).png>) | Roll                   |
+| ![](<../../../.gitbook/assets/image (50).png>)     | Draw weapon            |
+| L1                                                 |                        |
+| R1                                                 | Walk                   |
+| L2                                                 | Crouch                 |
+| R2                                                 | Dash                   |
 
 ## Specific system information
 
@@ -50,11 +46,7 @@ In the file, fill the path to the level / file to launch, OpenLara core accepts 
 
 The file hereunder will run the "gym" level of Tomb Raider 1:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/yRgQBth.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/yRgQBth.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Once a level is launched, it is possible to go to the game main menu and start as if the game was launched on original hardware.

@@ -4,11 +4,7 @@ description: Elecbyte
 
 # MUGEN
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/mugen.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/mugen.svg" alt=""><figcaption></figcaption></figure></div>
 
 2D Fighting Game Engine - Released: 1999
 
@@ -24,23 +20,23 @@ No BIOS required.
 
 ## Controls
 
-| Retrobat Button                                | Mugen key |
-| ---------------------------------------------- | --------- |
-| START                                          | RETURN    |
-| SELECT                                         |           |
-| D-PAD                                          | D-PAD     |
-| Left analog stick                              |           |
-| Right analog stick                             |           |
-| ![](<../../../.gitbook/assets/image (48).png>) | X         |
-| ![](<../../../.gitbook/assets/image (30).png>) | A         |
-| ![](<../../../.gitbook/assets/image (16).png>) | B         |
-| ![](<../../../.gitbook/assets/image (50).png>) | Y         |
-| L1                                             | Z         |
-| R1                                             | C         |
-| L2                                             |           |
-| R2                                             |           |
-| L3                                             |           |
-| R3                                             |           |
+| Retrobat Button                                    | Mugen key |
+| -------------------------------------------------- | --------- |
+| START                                              | RETURN    |
+| SELECT                                             |           |
+| D-PAD                                              | D-PAD     |
+| Left analog stick                                  |           |
+| Right analog stick                                 |           |
+| ![](<../../../.gitbook/assets/image (48).png>)     | X         |
+| ![](<../../../.gitbook/assets/image (30).png>)     | A         |
+| ![](<../../../.gitbook/assets/image (16) (1).png>) | B         |
+| ![](<../../../.gitbook/assets/image (50).png>)     | Y         |
+| L1                                                 | Z         |
+| R1                                                 | C         |
+| L2                                                 |           |
+| R2                                                 |           |
+| L3                                                 |           |
+| R3                                                 |           |
 
 ## Specific system information
 

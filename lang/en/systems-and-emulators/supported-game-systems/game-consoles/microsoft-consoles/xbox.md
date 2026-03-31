@@ -4,11 +4,7 @@ description: Microsoft
 
 # Xbox
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/xbox.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/xbox.svg" alt=""><figcaption></figcaption></figure></div>
 
 Game Console - Lifespan: 2001 - 2006
 
@@ -46,7 +42,7 @@ You can download dokan v2 from here:\
 | Left analog stick                                                                  | Left analog stick  |
 | Right analog stick                                                                 | Right analog stick |
 | ![A](<../../../../.gitbook/assets/image (30).png>)                                 | A                  |
-| ![B](<../../../../.gitbook/assets/image (16).png>)                                 | B                  |
+| ![B](<../../../../.gitbook/assets/image (16) (1).png>)                             | B                  |
 | <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | Y                  |
 | <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | X                  |
 | L1                                                                                 | L1 (White)         |

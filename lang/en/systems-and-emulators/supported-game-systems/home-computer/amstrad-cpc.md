@@ -36,23 +36,23 @@ Cap32 & crocods cores allow you to choose between the following controller types
 * KEYBOARD (Consider enabling Game Focus feature for keyboard games)
 * LIGHTGUN (cap32 only)
 
-| Retrobat Button                                | Amstrad CPC key |
-| ---------------------------------------------- | --------------- |
-| START                                          | RETURN          |
-| SELECT                                         | SPARE           |
-| D-PAD                                          | D-PAD           |
-| Left analog stick                              | D-PAD           |
-| Right analog stick                             |                 |
-| ![](<../../../.gitbook/assets/image (48).png>) |                 |
-| ![](<../../../.gitbook/assets/image (30).png>) | Fire 2          |
-| ![](<../../../.gitbook/assets/image (16).png>) | Fire 1          |
-| ![](<../../../.gitbook/assets/image (50).png>) |                 |
-| L1                                             | cap32: CTRL     |
-| R1                                             | cap32: INTRO    |
-| L2                                             | cap32: F1       |
-| R2                                             | cap32: F2       |
-| L3                                             |                 |
-| R3                                             |                 |
+| Retrobat Button                                    | Amstrad CPC key |
+| -------------------------------------------------- | --------------- |
+| START                                              | RETURN          |
+| SELECT                                             | SPARE           |
+| D-PAD                                              | D-PAD           |
+| Left analog stick                                  | D-PAD           |
+| Right analog stick                                 |                 |
+| ![](<../../../.gitbook/assets/image (48).png>)     |                 |
+| ![](<../../../.gitbook/assets/image (30).png>)     | Fire 2          |
+| ![](<../../../.gitbook/assets/image (16) (1).png>) | Fire 1          |
+| ![](<../../../.gitbook/assets/image (50).png>)     |                 |
+| L1                                                 | cap32: CTRL     |
+| R1                                                 | cap32: INTRO    |
+| L2                                                 | cap32: F1       |
+| R2                                                 | cap32: F2       |
+| L3                                                 |                 |
+| R3                                                 |                 |
 
 ### Libretro-Cap32 remap override
 

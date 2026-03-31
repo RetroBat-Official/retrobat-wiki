@@ -4,11 +4,7 @@ description: Emerson Radio
 
 # Arcadia 2001
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/arcadia-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/arcadia.svg" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/arcadia-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/arcadia.svg" alt=""></picture><figcaption></figcaption></figure></div>
 
 Game Console - Lifespan: 1982 - 1984
 
@@ -28,23 +24,23 @@ Game Console - Lifespan: 1982 - 1984
 
 ## Controls
 
-| Retrobat Button                                | Arcadia 2001 key |
-| ---------------------------------------------- | ---------------- |
-| START                                          | 0                |
-| SELECT                                         | 9                |
-| D-PAD                                          | Stick            |
-| Left analog stick                              | Stick            |
-| Right analog stick                             |                  |
-| ![](<../../../.gitbook/assets/image (48).png>) | 4                |
-| ![](<../../../.gitbook/assets/image (30).png>) | 2                |
-| ![](<../../../.gitbook/assets/image (16).png>) | 1                |
-| ![](<../../../.gitbook/assets/image (50).png>) | 3                |
-| L1                                             | 6                |
-| R1                                             | 5                |
-| L2                                             | 8                |
-| R2                                             | 7                |
-| L3                                             | 0                |
-| R3                                             | 9                |
+| Retrobat Button                                    | Arcadia 2001 key |
+| -------------------------------------------------- | ---------------- |
+| START                                              | 0                |
+| SELECT                                             | 9                |
+| D-PAD                                              | Stick            |
+| Left analog stick                                  | Stick            |
+| Right analog stick                                 |                  |
+| ![](<../../../.gitbook/assets/image (48).png>)     | 4                |
+| ![](<../../../.gitbook/assets/image (30).png>)     | 2                |
+| ![](<../../../.gitbook/assets/image (16) (1).png>) | 1                |
+| ![](<../../../.gitbook/assets/image (50).png>)     | 3                |
+| L1                                                 | 6                |
+| R1                                                 | 5                |
+| L2                                                 | 8                |
+| R2                                                 | 7                |
+| L3                                                 | 0                |
+| R3                                                 | 9                |
 
 ## Specific system information
 

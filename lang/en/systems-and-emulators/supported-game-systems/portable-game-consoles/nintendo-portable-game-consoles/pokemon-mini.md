@@ -4,11 +4,7 @@ description: Nintendo
 
 # Pokémon Mini
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/wvxbHej.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/wvxbHej.png" alt=""><figcaption></figcaption></figure></div>
 
 Game Console - Released: 2001
 
@@ -28,19 +24,19 @@ Game Console - Released: 2001
 
 ## Controls
 
-| Retrobat Button                                   | Pokemini key |
-| ------------------------------------------------- | ------------ |
-| START                                             | START        |
-| SELECT                                            | SELECT       |
-| D-PAD                                             | D-PAD        |
-| Left analog stick                                 | D-PAD        |
-| Right analog stick                                |              |
-| ![](<../../../../.gitbook/assets/image (48).png>) |              |
-| ![](<../../../../.gitbook/assets/image (30).png>) | B            |
-| ![](<../../../../.gitbook/assets/image (16).png>) | A            |
-| ![](<../../../../.gitbook/assets/image (50).png>) |              |
-| L1                                                |              |
-| R1                                                |              |
+| Retrobat Button                                       | Pokemini key |
+| ----------------------------------------------------- | ------------ |
+| START                                                 | START        |
+| SELECT                                                | SELECT       |
+| D-PAD                                                 | D-PAD        |
+| Left analog stick                                     | D-PAD        |
+| Right analog stick                                    |              |
+| ![](<../../../../.gitbook/assets/image (48).png>)     |              |
+| ![](<../../../../.gitbook/assets/image (30).png>)     | B            |
+| ![](<../../../../.gitbook/assets/image (16) (1).png>) | A            |
+| ![](<../../../../.gitbook/assets/image (50).png>)     |              |
+| L1                                                    |              |
+| R1                                                    |              |
 
 ## Specific system information
 

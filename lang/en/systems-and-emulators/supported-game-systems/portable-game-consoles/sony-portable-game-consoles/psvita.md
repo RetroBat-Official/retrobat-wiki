@@ -134,4 +134,4 @@ Vita3K allows user to load custom HD textures for games.
 
 To do so, place the texture packs in the `emulators\vita3k\textures\import` folder of your RetroBat installation and enable the option in ADVANCED SETTINGS > VISUAL RENDERING:
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure></div>

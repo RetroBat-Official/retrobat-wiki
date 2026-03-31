@@ -1,10 +1,6 @@
 # Future Pinball
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/fpinball.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/fpinball.svg" alt=""><figcaption></figcaption></figure></div>
 
 Pinball Simulation Software
 
@@ -22,7 +18,7 @@ No BIOS required.
 
 ## Controls
 
-<table><thead><tr><th width="228">RetroBat key</th><th width="479">Future Pinball key</th></tr></thead><tbody><tr><td>START</td><td>START game</td></tr><tr><td>SELECT</td><td>Insert COIN</td></tr><tr><td>D-PAD</td><td>Shake the Pinball</td></tr><tr><td>Left Analog stick</td><td></td></tr><tr><td>Right Analog stick</td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (30).png" alt="A"></td><td>Ball Launcher</td></tr><tr><td><img src="../../../.gitbook/assets/image (16).png" alt="B"></td><td>Look up to the backglass</td></tr><tr><td><img src="../../../.gitbook/assets/image (50).png" alt="" data-size="original"></td><td>Pause / Highscores</td></tr><tr><td><img src="../../../.gitbook/assets/image (48).png" alt="" data-size="line"></td><td>Change Camera view</td></tr><tr><td>L1</td><td>Left Flipper</td></tr><tr><td>R1</td><td>Right Flipper</td></tr><tr><td>R3</td><td>Exit Future Pinball (can be used if select + start fails)</td></tr></tbody></table>
+<table><thead><tr><th width="228">RetroBat key</th><th width="479">Future Pinball key</th></tr></thead><tbody><tr><td>START</td><td>START game</td></tr><tr><td>SELECT</td><td>Insert COIN</td></tr><tr><td>D-PAD</td><td>Shake the Pinball</td></tr><tr><td>Left Analog stick</td><td></td></tr><tr><td>Right Analog stick</td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (30).png" alt="A"></td><td>Ball Launcher</td></tr><tr><td><img src="../../../.gitbook/assets/image (16) (1).png" alt="B"></td><td>Look up to the backglass</td></tr><tr><td><img src="../../../.gitbook/assets/image (50).png" alt="" data-size="original"></td><td>Pause / Highscores</td></tr><tr><td><img src="../../../.gitbook/assets/image (48).png" alt="" data-size="line"></td><td>Change Camera view</td></tr><tr><td>L1</td><td>Left Flipper</td></tr><tr><td>R1</td><td>Right Flipper</td></tr><tr><td>R3</td><td>Exit Future Pinball (can be used if select + start fails)</td></tr></tbody></table>
 
 ## Specific system information
 
@@ -47,11 +43,7 @@ roms\
 
 If you receive an error message like the following one:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/UjD7GIy.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/UjD7GIy.png" alt=""><figcaption></figcaption></figure></div>
 
 You need to launch Future Pinball as administrator once only.\
 \
@@ -59,10 +51,6 @@ So, go to the "**fpinball**" folder in the "**emulators**" folder at the root of
 \
 Then right-click on the Future Pinball executable "**Future Pinball.exe**" and, as showed on the picture, select "**Run as administrator**"
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/2XXANBV.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/2XXANBV.png" alt=""><figcaption></figcaption></figure></div>
 
 Once Future Pinball has started, you can close it and start it again from Retrobat.

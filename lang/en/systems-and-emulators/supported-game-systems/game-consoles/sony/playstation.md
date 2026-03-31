@@ -93,4 +93,4 @@ RetroBat does not force a folder for the placement of custom texture packs for D
 
 Once the texture pack in place, just enable the option within Retrobat **ADVANCED SETTINGS > VISUAL RENDERING**:
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (8) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>

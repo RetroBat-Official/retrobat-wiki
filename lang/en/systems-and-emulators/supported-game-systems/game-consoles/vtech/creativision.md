@@ -4,11 +4,7 @@ description: VTech
 
 # CreatiVision
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/creativision.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/creativision.svg" alt=""><figcaption></figcaption></figure></div>
 
 Game Console - Lifespan: 1982 - 1986
 
@@ -39,21 +35,21 @@ CreatiVision games come with a decorative overlay that is slot into the rails of
 
 The layout would is unique to each game.
 
-| Retrobat Button                                   | CrVision key |
-| ------------------------------------------------- | ------------ |
-| START                                             |              |
-| SELECT                                            | RESET        |
-| D-PAD                                             | Stick        |
-| Left analog stick                                 | Stick        |
-| Right analog stick                                |              |
-| ![](<../../../../.gitbook/assets/image (48).png>) | 2            |
-| ![](<../../../../.gitbook/assets/image (30).png>) | 0            |
-| ![](<../../../../.gitbook/assets/image (16).png>) | 6            |
-| ![](<../../../../.gitbook/assets/image (50).png>) | 1            |
-| L1                                                |              |
-| R1                                                | 3            |
-| L2                                                |              |
-| R2                                                |              |
+| Retrobat Button                                       | CrVision key |
+| ----------------------------------------------------- | ------------ |
+| START                                                 |              |
+| SELECT                                                | RESET        |
+| D-PAD                                                 | Stick        |
+| Left analog stick                                     | Stick        |
+| Right analog stick                                    |              |
+| ![](<../../../../.gitbook/assets/image (48).png>)     | 2            |
+| ![](<../../../../.gitbook/assets/image (30).png>)     | 0            |
+| ![](<../../../../.gitbook/assets/image (16) (1).png>) | 6            |
+| ![](<../../../../.gitbook/assets/image (50).png>)     | 1            |
+| L1                                                    |              |
+| R1                                                    | 3            |
+| L2                                                    |              |
+| R2                                                    |              |
 
 ## Specific system information
 

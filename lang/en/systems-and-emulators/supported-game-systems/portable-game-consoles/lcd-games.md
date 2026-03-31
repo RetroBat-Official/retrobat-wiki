@@ -1,10 +1,6 @@
 # LCD Games
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/lcdgames.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/lcdgames.svg" alt=""><figcaption></figcaption></figure></div>
 
 Handheld LCD Games
 
@@ -26,7 +22,7 @@ No BIOS required for LCD games.
 
 The controls is usually unique to each LCD game.
 
-<table><thead><tr><th width="258">RetroBat key</th><th width="443">Handheld key</th></tr></thead><tbody><tr><td>START</td><td>START</td></tr><tr><td>SELECT</td><td>SELECT</td></tr><tr><td>D-PAD</td><td>Stick</td></tr><tr><td>Left Analog stick</td><td>Stick</td></tr><tr><td>Right Analog stick</td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (30).png" alt="A"></td><td>B</td></tr><tr><td><img src="../../../.gitbook/assets/image (16).png" alt="B"></td><td>A</td></tr><tr><td><img src="../../../.gitbook/assets/image (50).png" alt="" data-size="original"></td><td>X</td></tr><tr><td><img src="../../../.gitbook/assets/image (48).png" alt="" data-size="line"></td><td>Y</td></tr><tr><td>L1</td><td>5</td></tr><tr><td>R1</td><td>6</td></tr><tr><td>L2</td><td></td></tr><tr><td>R2</td><td></td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="258">RetroBat key</th><th width="443">Handheld key</th></tr></thead><tbody><tr><td>START</td><td>START</td></tr><tr><td>SELECT</td><td>SELECT</td></tr><tr><td>D-PAD</td><td>Stick</td></tr><tr><td>Left Analog stick</td><td>Stick</td></tr><tr><td>Right Analog stick</td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (30).png" alt="A"></td><td>B</td></tr><tr><td><img src="../../../.gitbook/assets/image (16) (1).png" alt="B"></td><td>A</td></tr><tr><td><img src="../../../.gitbook/assets/image (50).png" alt="" data-size="original"></td><td>X</td></tr><tr><td><img src="../../../.gitbook/assets/image (48).png" alt="" data-size="line"></td><td>Y</td></tr><tr><td>L1</td><td>5</td></tr><tr><td>R1</td><td>6</td></tr><tr><td>L2</td><td></td></tr><tr><td>R2</td><td></td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
 
 ## Specific system information
 
@@ -36,19 +32,11 @@ Games need 2 different files to work: a file of type "_rom"_ and a file of type 
 \
 Place the rom file in .zip format in the `\roms\lcdgames` folder.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/0VYlmPG.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/0VYlmPG.png" alt=""><figcaption></figcaption></figure></div>
 
 Place the artwork in the `\saves\mame\artwork`folder, files must have exactly the same name as the game rom file and be in .zip format.&#x20;
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/MwEbQkp.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/MwEbQkp.png" alt=""><figcaption></figcaption></figure></div>
 
 Then, in Retrobat, go to the **Game & Watch** system and select the emulator for the game.
 

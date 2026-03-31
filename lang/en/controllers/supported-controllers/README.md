@@ -32,7 +32,7 @@ The best way to play Arcade games, even more so when you are building a Gaming C
 {% tab title="LIGHTGUNS" %}
 The best way to play Shooting games.
 
-![](<../../.gitbook/assets/image (10) (1).png>)
+![](<../../.gitbook/assets/image (10) (1) (1).png>)
 
 [LIGHTGUNS PAGE](lightguns/)
 {% endtab %}

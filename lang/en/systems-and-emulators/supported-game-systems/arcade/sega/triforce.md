@@ -40,7 +40,7 @@ You can create your own mapping directly in the dolphin-triforce emulator, using
 | Left analog stick                                                              | Left analog stick |
 | Right analog stick                                                             | C-Stick           |
 | ![A](<../../../../.gitbook/assets/image (30).png>)                             | A                 |
-| ![B](<../../../../.gitbook/assets/image (16).png>)                             | B                 |
+| ![B](<../../../../.gitbook/assets/image (16) (1).png>)                         | B                 |
 | <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line"> | Y                 |
 | LT (L2)                                                                        | L                 |
 | RT (R2)                                                                        | R                 |

@@ -4,11 +4,7 @@ description: Atari
 
 # Atari ST
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/atarist-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/atarist.svg" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/atarist-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/atarist.svg" alt=""></picture><figcaption></figcaption></figure></div>
 
 Computer - Lifespan: 1985 - 1993
 
@@ -32,7 +28,7 @@ Use Pad2Key for this system if you need specific mapping, see the [Pad2Key ](../
 
 Here is the default mapping.
 
-<table><thead><tr><th width="263">Retrobat Button</th><th>Atari ST key (libretro)</th></tr></thead><tbody><tr><td>START</td><td>Show/Hide virtual keyboard</td></tr><tr><td>SELECT</td><td>Toggle Mouse/Joy mode</td></tr><tr><td>D-PAD</td><td></td></tr><tr><td>Left analog stick</td><td>Directions (up, dow, left, right)</td></tr><tr><td>Right analog stick</td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (48).png" alt=""></td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (30).png" alt=""></td><td>Mouse button B</td></tr><tr><td><img src="../../../../.gitbook/assets/image (16).png" alt=""></td><td>Fire/Mouse button A / press key in virtual keyboard</td></tr><tr><td><img src="../../../../.gitbook/assets/image (50).png" alt=""></td><td>lr-hatari GUI</td></tr><tr><td>L1</td><td>Toggle Num Joy</td></tr><tr><td>R1</td><td>Change Mouse speed 1 to 6 (for gui and emu)</td></tr><tr><td>L2</td><td>Show/Hide status</td></tr><tr><td>R2</td><td>Sound on/off</td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="263">Retrobat Button</th><th>Atari ST key (libretro)</th></tr></thead><tbody><tr><td>START</td><td>Show/Hide virtual keyboard</td></tr><tr><td>SELECT</td><td>Toggle Mouse/Joy mode</td></tr><tr><td>D-PAD</td><td></td></tr><tr><td>Left analog stick</td><td>Directions (up, dow, left, right)</td></tr><tr><td>Right analog stick</td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (48).png" alt=""></td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (30).png" alt=""></td><td>Mouse button B</td></tr><tr><td><img src="../../../../.gitbook/assets/image (16) (1).png" alt=""></td><td>Fire/Mouse button A / press key in virtual keyboard</td></tr><tr><td><img src="../../../../.gitbook/assets/image (50).png" alt=""></td><td>lr-hatari GUI</td></tr><tr><td>L1</td><td>Toggle Num Joy</td></tr><tr><td>R1</td><td>Change Mouse speed 1 to 6 (for gui and emu)</td></tr><tr><td>L2</td><td>Show/Hide status</td></tr><tr><td>R2</td><td>Sound on/off</td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
 
 ### **Hatari**
 
@@ -46,11 +42,7 @@ RetroBat forces Hatari standalone to use the configuration file located in `\emu
 
 When making configuration directly within the emulator, ensure to configure it by using the .bat file provided:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/gMsQpbA.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/gMsQpbA.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
 Standard hatari.exe stores the config file in "userdata" folder of windows, changes done in this file will not work when running from RetroBat.
@@ -62,19 +54,11 @@ Libretro Hatari-B core can automatically mount a "gemdos" hdd image within the e
 
 In order to do this, the hdd to mount must be stored in the roms folder :
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/RscLeZw.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/RscLeZw.png" alt=""><figcaption></figcaption></figure></div>
 
 Next, create an empty text file in the same folder, name it with the exact same name as the folder and save it with the .GEM extension:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/VAu6Ce9.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/VAu6Ce9.png" alt=""><figcaption></figcaption></figure></div>
 
 Additionnaly, it is possible to make lr-hatarib automatically run one of the program stored on the mounted gemdos HDD image.
 
@@ -87,19 +71,11 @@ In the file, specify the following information:
 &#x3C;name of the GEM file>
 </code></pre>
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/SvXLkHs.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/SvXLkHs.png" alt=""><figcaption></figcaption></figure></div>
 
 Finally: save the text file with the ".m3u" extension and place it in the same folder as the image folder and the GEM file:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/03PB7np.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/03PB7np.png" alt=""><figcaption></figcaption></figure></div>
 
 In this example, RetroBat automatically:
 
