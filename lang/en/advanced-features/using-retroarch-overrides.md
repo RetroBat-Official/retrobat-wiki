@@ -2,7 +2,7 @@
 
 If you do not want to use RetroBat configuration for RetroArch global settings or shader configuration, RetroBat offers a way to automatically load the configuration and/or shader override files that you would have created in RetroArch.
 
-#### RetroArch configuration override <a href="#override-pour-les-options" id="override-pour-les-options"></a>
+### RetroArch configuration override <a href="#override-pour-les-options" id="override-pour-les-options"></a>
 
 In RetroArch, it is possible to save a configuration override filefor a game, a content folder or a libretro core.
 
@@ -24,7 +24,7 @@ Last, enable the override option in RetroBat [MAIN MENU > GAME SETTINGS > RETROA
 
 
 
-#### Shaders Overrides <a href="#override-pour-les-shaders" id="override-pour-les-shaders"></a>
+### Shaders Overrides <a href="#override-pour-les-shaders" id="override-pour-les-shaders"></a>
 
 In RetroArch, it is possible to save a Shaders override file for a game, a core, a content folder or globally.
 
@@ -48,3 +48,28 @@ Finally, enable the Shaders override option in RetroBat [MAIN MENU > GAME SETTIN
 
 <div align="left"><figure><img src="https://i.imgur.com/jZ0c4fc.png" alt=""><figcaption></figcaption></figure></div>
 
+### RetroArch custom Aspect Ratio override <a href="#override-pour-les-options" id="override-pour-les-options"></a>
+
+When using the "custom" aspect ratio value in **ADVANCED SETTINGS > GAME ASPECT RATIO**, it is possible to force the value of the ratio to apply in RetroArch by creating a .txt file with the following information:
+
+* width
+* height
+* top
+* left
+
+The information from the file will automatically fill the following values in RetroArch:
+
+<div align="left"><figure><img src="../.gitbook/assets/image (102).png" alt=""><figcaption></figcaption></figure></div>
+
+To do so, create a txt file either in the `roms\<system>` folder of the system the ratio needs to be applied, or within the `user\customratio` folder of your RetroBat installation:
+
+<div align="left"><figure><img src="../.gitbook/assets/image (103).png" alt=""><figcaption><p>Example for NES</p></figcaption></figure></div>
+
+The file must be named either:
+
+* `<system>_<romname>_customratio.txt` (to be applied for a specific game)
+* `<system>_customratio.txt` (to be applied for the full system)
+
+Finally, enable the "custom" aspect ratio value in RetroBat:
+
+<div align="left"><figure><img src="../.gitbook/assets/image (104).png" alt=""><figcaption></figcaption></figure></div>
