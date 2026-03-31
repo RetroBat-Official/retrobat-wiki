@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome!](README.md)
+* [Welcome...](README.md)
 
 ## Get Started
 
@@ -22,7 +22,7 @@
 * [Configuration of systems and games](navigation/configuration-of-systems-and-games.md)
 * [Scraping & Metadata](navigation/scraping-and-metadata.md)
 * [Game Collections](navigation/game-collections.md)
-* [Game Center](navigation/game-center.md)
+* [Game Control Center](navigation/game-control-center.md)
 
 ## Systems & Emulators
 
@@ -309,10 +309,10 @@
   * [⌨️ Keyboard](controllers/supported-controllers/keyboard.md)
 * [Controllers Configuration](controllers/controller-configuration.md)
 * [Emulator specific controls mapping](controllers/specific_mapping/README.md)
+  * [RetroArch controller mapping](controllers/specific_mapping/retroarch-controller-mapping.md)
   * [Dolphin controller mapping](controllers/specific_mapping/dolphin-controller-mapping.md)
   * [MAME64 controller mapping](controllers/specific_mapping/mame64-controller-mapping.md)
   * [Model2 controller mapping](controllers/specific_mapping/model2-controller-mapping.md)
-  * [RetroArch controller mapping](controllers/specific_mapping/retroarch-controller-mapping.md)
   * [Teknoparrot controller mapping](controllers/specific_mapping/teknoparrot-controller-mapping.md)
 * [Gun controls](controllers/gun_controls.md)
 * [Pad2Key](controllers/pad2key.md)
@@ -328,7 +328,6 @@
 * [AI Translation Service](advanced-features/ai-translation-service.md)
 * [Batgui](advanced-features/batgui.md)
 * [retrobat.ini](advanced-features/retrobat.ini.md)
-* [Latency and blur reduction](advanced-features/latency-and-blur-reduction.md)
 * [Softpatching](advanced-features/softpatching.md)
 * [Old computers - MAME/MESS - launch arguments](advanced-features/old-computers-mame-mess-launch-arguments.md)
 * [Using RetroArch overrides](advanced-features/using-retroarch-overrides.md)
@@ -339,3 +338,4 @@
 * [Symbolic links](tutorials/symbolic-links.md)
 * [Adding RetroArch Shader Sets to Retrobat](tutorials/adding-retroarch-shader-sets-to-retrobat.md)
 * [Customize Mega-Bezels](tutorials/customize-mega-bezels.md)
+* [Latency and blur reduction](tutorials/latency-and-blur-reduction.md)

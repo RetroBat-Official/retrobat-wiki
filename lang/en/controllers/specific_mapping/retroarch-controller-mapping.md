@@ -23,7 +23,7 @@ The mapping done in Step 1 can be found in the following section of RetroArch co
 
 <div align="left"><figure><img src="https://i.imgur.com/rdZbOuz.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 General binding is stored in the "**retroarch.cfg**" file located in `/emulators/retroarch`
@@ -33,9 +33,9 @@ General binding is stored in the "**retroarch.cfg**" file located in `/emulators
 
 The remap information (step 2) can be found in the Quick Settings menu of RetroArch, while a core is running:
 
-<div align="left"><figure><img src="../../.gitbook/assets/image.png" alt="" width="294"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2).png" alt="" width="294"><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1).png" alt="" width="342"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="342"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Remap files are saved as .rmp files in `/emulators/retroarch/config/remaps` folder.
@@ -139,7 +139,7 @@ This file is a json-formatted file, it contains the exact mapping required in th
 The above example is for the NSO N64 controller, the different values required in the file are the following:
 
 * **Name**: for information only
-* **Guid**: allows RetroBat to enable the specific mapping based on the connected controller (the SDL GUID of the controller can be found in the es\_input.cfg file or in the emulatorlauncher.log after having launched a game. Multiple guids can be entered if a controller has multiple revisions.
+* **Guid**: allows RetroBat to enable the specific mapping based on the connected controller (the SDL GUID of the controller can be found in the es\_input.cfg file or in the emulatorlauncher.log after having launched a game). Multiple guids can be entered if a controller has multiple revisions.
 * **Driver**: can be used if the RetroArch mapping is different depending on the selected Joyapd Driver in RetroArch, possible values are : sdl2 (RetroBat default), xinput, dinput
 * **Mapping**: the actual mapping to be set in `retroarch.cfg file`, for each button. In order to know the mapping for the controller, perform the configuration manually by running retroarch.exe, exit retroarch, and open the retroarch.cfg file, search for the lines starting with input\_player1\_ and ending with btn or axis.
 * **HotkeyMapping**: the mapping for hotkeys for the controller

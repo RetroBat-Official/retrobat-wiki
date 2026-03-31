@@ -98,7 +98,7 @@ Dolphin can be set to use a genuine GameCube controller, to do so, it is necessa
 
 **7.** Configure RetroBat to use the Adapter:
 
-<div align="left"><figure><img src="https://i.imgur.com/i9238LM.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (96).png" alt=""><figcaption></figcaption></figure></div>
 
 If the adapter does not work, it might mean that Dolphin does not currently support the model.
 

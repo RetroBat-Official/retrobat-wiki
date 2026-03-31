@@ -22,16 +22,17 @@ layout:
     visible: true
 ---
 
-# Welcome!
+# Welcome...
 
-This wiki is the official RetroBat documentation.
+... to the fabulous official documentation for RetroBat.
 
 
 
-You can use the main menu on the left hand side to navigate through the sections of the wiki.&#x20;
+You can use the main menu on the left hand side to navigate through the sections of the wiki, or the search bar on the top to search for a specific topic.
 
 * If you are a beginner with RetroBat, you can head to the [GET STARTED](get-started/prerequisites.md) section and let it guide you through the installation and first setup steps.
 * If you are an advanced user and you are looking for information about a specific Game System, you can head over to the [SUPPORTED GAME SYSTEMS](systems-and-emulators/supported-game-systems/) section, which will provide information about available emulators, BIOS requirements and detailed per-system features.
+* The [CONTROLLER](/broken/pages/UTIaYjE6HFQ0i8sqcqJ2) section is where you have to look for any question related with controls issues
 * The [ADVANCED FEATURES](/broken/pages/R3KDnGDjHvbgcjweXz2Y) section contains information about specific functionalities provided with RetroBat
 
 
@@ -52,7 +53,7 @@ If the information you are looking for does not exist (yet), you can reach out t
 
 
 
-Last but not least, if you want to support the project, [please consider a donation](https://retrobatofficial.itch.io/retrobat), this will help us pay for the server infrastructure and get additional hardware for further compatibility.&#x20;
+If you want to support the project, [please consider a donation](https://retrobatofficial.itch.io/retrobat), this will help us pay for the server infrastructure and get additional hardware for further compatibility.&#x20;
 
 
 

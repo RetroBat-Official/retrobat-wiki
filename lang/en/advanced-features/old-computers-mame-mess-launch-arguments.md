@@ -26,7 +26,7 @@ The second part of the command example represents additional slots or devices th
 
 RetroBat has selected a few important devices and slots for several computer models, these are located in the **ADVANCED SETTINGS > EXPANSION SLOTS** menu:
 
-<div align="left"><figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 If a slot/device is missing, you can ask the RetroBat team to add the option to RetroBat, or use the [additional command line](old-computers-mame-mess-launch-arguments.md#additional-command-line-arguments) guide below.
@@ -38,7 +38,7 @@ Old computers could accept multiple media types (diskette, cartridge, rom...), t
 
 RetroBat will automatically detect the media type based on the extension of the game filen, however, it is possible to force the media type, the option can be found in the **ADVANCED SETTINGS > EMULATION** menu:
 
-<div align="left"><figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ## Autoboot command and delay
 
