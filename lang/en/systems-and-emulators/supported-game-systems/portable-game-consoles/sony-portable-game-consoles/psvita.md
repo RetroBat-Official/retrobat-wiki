@@ -4,11 +4,7 @@ description: Sony
 
 # PlayStation Vita
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/psvita-w.svg" media="(prefers-color-scheme: dark)"><img src="https://i.imgur.com/as0rgjr.png" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/psvita-w.svg" media="(prefers-color-scheme: dark)"><img src="https://i.imgur.com/as0rgjr.png" alt=""></picture><figcaption></figcaption></figure></div>
 
 Portable Game Console - Lifespan: 2011 - 2019
 
@@ -44,67 +40,39 @@ Use Retrobat Menu to download Vita3k or download the latest build of Vita3K emul
 Do not run directly a game without installing from RetroBat menu first, as you will not be able to install firmware files.
 {% endhint %}
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/k9c9vpN.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/k9c9vpN.png" alt=""><figcaption></figcaption></figure></div>
 
 Upon first startup, the emulator will need to be setup, first step is to select the language:
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/UiqGo28.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/UiqGo28.png" alt=""><figcaption></figcaption></figure>
+**Important step. The pref path is the location where games will be installed.**
 
-</div>
+Set the pref-path to the path of your choice, RetroBat will not erase it upon future launch:
 
-**Important step. The pref path is the location where games will be installed.**&#x20;
-
-Set the pref-path to the path of your choice,  RetroBat will not erase it upon future launch:
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/bKZh9Ap.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/bKZh9Ap.png" alt=""><figcaption></figcaption></figure></div>
 
 Download both _Firmware_ and _Font Package_ files on the Sony website and install them with the **INSTALL FIRMWARE FILE** button:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/TecEwYu.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/TecEwYu.png" alt=""><figcaption></figcaption></figure></div>
 
 Installed status will change to V:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/JmQbJpH.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/JmQbJpH.png" alt=""><figcaption></figcaption></figure></div>
 
 Click the "NEXT" button until the end of the configuration:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/oJgHNvm.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/oJgHNvm.png" alt=""><figcaption></figcaption></figure></div>
 
 CONGRATULATIONS: you have succesfully initialised Vita3k emulator:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/9NmozWv.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/9NmozWv.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Adding games
 
 PS Vita games first have to be installed within the emulator, a more detailed guide can be read on the Vita3K website: [https://vita3k.org/quickstart.html](https://vita3k.org/quickstart.html)
 
-Vita3K currently supports .pkg, NoNpDrm, FAGDec, or manually decrypted games.&#x20;
+Vita3K currently supports .pkg, NoNpDrm, FAGDec, or manually decrypted games.
 
 2 cases need to be distinguished:
 
@@ -119,37 +87,23 @@ Games are installed in the `ux0\app` folder inside the directory that was define
 
 Create a .m3u file in the `\roms\psvita` folder of your RetroBat installation with game name:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/tfILs19.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/tfILs19.png" alt=""><figcaption></figcaption></figure></div>
 
 Inside the file, copy the **Title ID** of the game and save:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/Fs8a98E.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/Fs8a98E.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 The title ID can be retrieved by running directly the Vita3k emulator.
 {% endhint %}
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/edf1nck.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/edf1nck.png" alt=""><figcaption></figcaption></figure></div>
 
 It's also possible to use a .psvita file instead of .m3u, but in this case the file must contain the game ID inside square brackets.
 
 #### Case 2 : game is in your roms folder and not yet installed in the emulator
 
 RetroBat will automatically take care of the installation when you run the game for the first time, provided that the games are in the correct format.
-
-
 
 2 formats are accepted and will allow automatic installation:
 
@@ -162,11 +116,7 @@ It is mandatory that your .psvita folder name or .vpk filename contains the game
 
 If you are using a game folder, the folder must be renamed with ".psvita" at then end, also ensure that there is a eboot.bin directly inside the folder. Here is an example of a correct structure:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/Anjm21x.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/Anjm21x.png" alt=""><figcaption></figcaption></figure></div>
 
 If you are using a .vpk file, just be sure that the file is correctly named with the gameID between brackets:
 
@@ -176,9 +126,12 @@ Street fighter [PCSE00005].vpk
 
 When running the game for the first time, Retrobat will automatically install it inside the emulator, wait until the operation finishes (this might take some time):
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/bYSh81f.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/bYSh81f.png" alt=""><figcaption></figcaption></figure>
+### Custom textures
 
-</div>
+Vita3K allows user to load custom HD textures for games.
 
+To do so, place the texture packs in the `emulators\vita3k\textures\import` folder of your RetroBat installation and enable the option in ADVANCED SETTINGS > VISUAL RENDERING:
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>

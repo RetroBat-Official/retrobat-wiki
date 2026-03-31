@@ -35,7 +35,7 @@ The remap information (step 2) can be found in the Quick Settings menu of RetroA
 
 <div align="left"><figure><img src="../../.gitbook/assets/image (2).png" alt="" width="294"><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1).png" alt="" width="342"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="342"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Remap files are saved as .rmp files in `/emulators/retroarch/config/remaps` folder.

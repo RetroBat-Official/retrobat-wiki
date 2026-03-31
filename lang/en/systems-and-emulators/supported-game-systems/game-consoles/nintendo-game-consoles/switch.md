@@ -40,7 +40,7 @@ For Citron & Eden emulators, SAVE folder can be moved to the`saves\switch` folde
 
 To do this, switch on the following option located in the **MAIN MENU > GAME SETTINGS**:
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ## BIOS
 
