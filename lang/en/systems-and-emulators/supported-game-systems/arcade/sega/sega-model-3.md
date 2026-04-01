@@ -26,7 +26,17 @@ No BIOS required for Model 3.
 
 Model3 controls are game-specific, RetroBat is provided with a default configuration that is explained hereafter for each game.
 
-Controls can be overriden with the files supermodel.yml and libretro-supermodel.yml located in the `system\resources\inputmapping` folder of the RetroBat installation.
+Controls can be overriden with the files **supermodel.yml** and **libretro-supermodel.yml** located in the `system\resources\inputmapping` folder of the RetroBat installation.
+
+In addition, as other arcade systems, both supermodel (standalone and libretro) allow choosing different layouts in **ADVANCED SETTINGS > CONTROLS**:
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (105).png" alt=""><figcaption></figcaption></figure></div>
+
+{% hint style="info" %}
+This setting does impact the mapping applied in the file supermodel.yml or libretro\_supermodel.yml:
+
+![](<../../../../.gitbook/assets/image (106).png>)
+{% endhint %}
 
 {% hint style="warning" %}
 **SUPERMODEL:**

@@ -18,7 +18,13 @@ No BIOS required.
 
 ## Controls
 
-<table><thead><tr><th width="228">RetroBat key</th><th width="479">Future Pinball key</th></tr></thead><tbody><tr><td>START</td><td>START game</td></tr><tr><td>SELECT</td><td>Insert COIN</td></tr><tr><td>D-PAD</td><td>Shake the Pinball</td></tr><tr><td>Left Analog stick</td><td></td></tr><tr><td>Right Analog stick</td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (30).png" alt="A"></td><td>Ball Launcher</td></tr><tr><td><img src="../../../.gitbook/assets/image (16) (1).png" alt="B"></td><td>Look up to the backglass</td></tr><tr><td><img src="../../../.gitbook/assets/image (50).png" alt="" data-size="original"></td><td>Pause / Highscores</td></tr><tr><td><img src="../../../.gitbook/assets/image (48).png" alt="" data-size="line"></td><td>Change Camera view</td></tr><tr><td>L1</td><td>Left Flipper</td></tr><tr><td>R1</td><td>Right Flipper</td></tr><tr><td>R3</td><td>Exit Future Pinball (can be used if select + start fails)</td></tr></tbody></table>
+<table><thead><tr><th width="228">RetroBat key</th><th width="479">Future Pinball key</th></tr></thead><tbody><tr><td>START</td><td>START game</td></tr><tr><td>SELECT</td><td>Insert COIN</td></tr><tr><td>D-PAD</td><td>Shake the Pinball</td></tr><tr><td><img src="../../../.gitbook/assets/image (30).png" alt="A"></td><td>Ball Launcher</td></tr><tr><td><img src="../../../.gitbook/assets/image (16) (1).png" alt="B"></td><td>Change Camera view</td></tr><tr><td><img src="../../../.gitbook/assets/image (50).png" alt="" data-size="original"></td><td>HUD Toggle (Display DMD)</td></tr><tr><td><img src="../../../.gitbook/assets/image (48).png" alt="" data-size="line"></td><td>Pause / Highscores</td></tr><tr><td>L1</td><td>Left Flipper</td></tr><tr><td>R1</td><td>Right Flipper</td></tr><tr><td>L3</td><td>Look up to the backglass</td></tr><tr><td>R3</td><td>Exit Future Pinball (can be used if select + start fails)</td></tr></tbody></table>
+
+{% hint style="info" %}
+Future Pinball uses DirectInput driver, RetroBat manages dinput through the **gamecontrollerdb** file located in the `\system\tools` folder of your RetroBat installation.
+
+If your device is not listed in this file, autoconfiguration will not function properly.
+{% endhint %}
 
 ## Specific system information
 
