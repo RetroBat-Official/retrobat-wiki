@@ -2,7 +2,7 @@
 
 BatGui est un utilitaire disponible dans le dossier d'installation de Retrobat.
 
-<div align="left"><figure><img src="https://i.imgur.com/NRJN9Ju.png" alt=""><figcaption><p>BatGui.exe</p></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (68).png" alt=""><figcaption><p>BatGui.exe</p></figcaption></figure></div>
 
 **Cet utilitaire permet:**
 
@@ -19,7 +19,7 @@ BatGui est un utilitaire disponible dans le dossier d'installation de Retrobat.
 
 Depuis BatGui.exe, il est possible de paramétrer les mêmes éléments que dans le fichier [retrobat.ini](retrobat.ini.md)
 
-<div align="left"><figure><img src="../.gitbook/assets/2024-02-18_08h06_55.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (69).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Gérer la liste des systèmes
 

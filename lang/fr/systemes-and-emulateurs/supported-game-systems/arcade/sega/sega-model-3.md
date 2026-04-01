@@ -26,9 +26,19 @@ Aucun BIOS nécessaire.
 
 Les contrôles Model3 sont spécifiques à chaque jeu, RetroBat est livré avec une configuration par défaut expliquée ci-dessous.
 
-Les contrôles peuvent être adaptés à l'aide des fichiers supermodel.yml et libretro-supermodel.yml situés dans le dossier <kbd>system\resources\inputmapping</kbd> de votre installation RetroBat.
+Les contrôles peuvent être adaptés à l'aide des fichiers **supermodel.yml** et **libretro-supermodel.yml** situés dans le dossier <kbd>system\resources\inputmapping</kbd> de votre installation RetroBat.
 
-{% hint style="danger" %}
+Comme tous les systèmes arcade, supermodel et libretro-supermodel permettent de sélectionner une disposition de touches spécifiques depuis le menu **CONFIGURATION AVANCEE DU SYSTEME > CONTRÔLES**:
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure></div>
+
+{% hint style="info" %}
+Ce paramétrage permet de définir le mapping à appliquer dans les fichiers supermodel.yml ou libretro\_supermodel.yml:
+
+![](<../../../../.gitbook/assets/image (67).png>)
+{% endhint %}
+
+{% hint style="warning" %}
 **SUPERMODEL :** \
 Pour jouer à 2 joueurs, il est obligatoire que les 2 contrôleurs utilisent la même technologie, basé sur celle du contrôleur du joueur 1.
 
