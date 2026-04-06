@@ -1,10 +1,6 @@
 # OpenGOAL
 
-<div align="left">
-
-<figure><img src="https://github.com/fabricecaruso/es-theme-carbon/blob/master/art/logos/opengoal.png?raw=true" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/fabricecaruso/es-theme-carbon/blob/master/art/logos/opengoal.png?raw=true" alt=""><figcaption></figcaption></figure></div>
 
 Game engine to play Jak & Daxter 1 and 2.
 
@@ -40,17 +36,32 @@ Select the windows version : `opengoal-windows-vX.X.X.zip`
 
 Extract the files from the downloaded archive in the `\emulators\opengoal` folder of your RetroBat installation:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/piA0EnZ.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/piA0EnZ.png" alt=""><figcaption></figcaption></figure></div>
 
 #### **Step 3 : Extract the game files**
 
-Drag and drop your `.iso` file onto the `extractor.exe` file
+This is the tricky part, you need to run extractor with a command.
 
-This will extract the data required for the game, it might take some time.
+* Create a text file in the same folder as the extractor.exe file, and name it: "jakExtract.txt"
+* Inside the file, write the following:
+
+```
+start extractor -g GAME "PATH-TO-GAME-ISO"
+```
+
+Replace GAME with either jak1, jak2 or jak3.
+
+Replace PATH-TO-GAME-ISO with the full path to the corresponding game iso file.
+
+Example:
+
+```
+start gk -g jak2 "C:\retrobat\roms\ps2\Jak2.iso"
+```
+
+* Change the file extension to .bat
+
+This will automatically extract the game iso to make it work with OpenGOAL (the extraction process might take some time).
 
 **Step 4 : Create the rom file**
 
@@ -59,10 +70,6 @@ Create an empty .txt file in the \roms\opengoal folder of your RetroBat installa
 * `jak1` for jak and Daxter 1
 * `jak2` for jak and Daxter 2
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/mGUXHzk.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/mGUXHzk.png" alt=""><figcaption></figcaption></figure></div>
 
 Save the text file with the ".opengoal" extension.
