@@ -22,6 +22,7 @@
 * [Configuration des systèmes et des jeux](navigation/configuration-des-systemes-et-des-jeux.md)
 * [Scrape & Metadonnées](navigation/scraping-and-metadata.md)
 * [Collections](navigation/game-collections.md)
+* [Game Control Center](navigation/game-control-center.md)
 
 ## Systèmes & Emulateurs
 
@@ -307,13 +308,13 @@
   * [⌨️ Clavier](controleurs/supported-controllers/keyboard.md)
   * [🛞 Volants](controleurs/supported-controllers/volants.md)
 * [Configuration des Contrôleurs](controleurs/controller-configuration.md)
-* [Contrôle des pistolets](controleurs/pistolets_controles.md)
 * [Configuration des touches spécifique par émulateur](controleurs/configuration-des-touches-specifique-par-emulateur/README.md)
-  * [Configuration des touches Dolphin](controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-dolphin.md)
-  * [Configuration des touches Model2](controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-model2.md)
-  * [Configuration des touches MAME64](controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-mame64.md)
   * [Configuration des touches RetroArch](controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-retroarch.md)
+  * [Configuration des touches Dolphin](controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-dolphin.md)
+  * [Configuration des touches MAME](controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-mame64.md)
+  * [Configuration des touches Model2](controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-model2.md)
   * [Configuration des touches Teknoparrot](controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-teknoparrot.md)
+* [Contrôle des pistolets](controleurs/pistolets_controles.md)
 * [Pad2Key](controleurs/pad2key.md)
 
 ## Utilisation avancée

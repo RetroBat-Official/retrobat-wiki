@@ -128,10 +128,10 @@ Ce paramétrage est sauvegardé directement dans le fichier BIOS. En cas d'utili
 
 Par défaut, le réticule de visée peut être activé ou désactivé via l'option située dans **OPTIONS AVANCÉES DU SYSTÈME > PISTOLETS** :
 
-<figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
 
 Le réticule est désactivé par défaut, la valeur "CUSTOM" doit être sélectionnée pour le faire apparaître. L'emplacement par défaut du fichier image utilisé est : `emulators\pcsx2\cross\crosshair.png`.
 
 Cependant, il est possible d'indiquer à PCSX2 d'utiliser un autre fichier a l'aide de cette option :
 
-<figure><img src="../../../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>

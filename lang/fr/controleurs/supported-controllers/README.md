@@ -34,7 +34,7 @@ Le contrôleur idéal pour les jeux d'arcade.
 {% tab title="PISTOLETS" %}
 L'idéal pour les jeux de tirs.
 
-![](<../../.gitbook/assets/image (3) (1).png>)
+![](<../../.gitbook/assets/image (3) (1) (1).png>)
 
 [La page des Lightguns](./#lightguns)
 {% endtab %}
@@ -50,7 +50,7 @@ L'idéal pour les jeux PCs, Click'n'Play, etc.
 {% tab title="VOLANTS" %}
 L'idéal pour les jeux de course.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 [La page sur les volants.](volants.md)
 {% endtab %}

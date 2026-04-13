@@ -26,19 +26,19 @@ Aucun BIOS nécessaire
 
 ## Contrôles
 
-| Retrobat                                           | Pico-8 |
-| -------------------------------------------------- | ------ |
-| START                                              | ENTER  |
-| SELECT                                             |        |
-| D-PAD                                              | D-PAD  |
-| Left analog stick                                  | D-PAD  |
-| Reft analog stick                                  |        |
-| ![](<../../../.gitbook/assets/image (33).png>)     | O      |
-| ![](<../../../.gitbook/assets/image (20) (1).png>) | X      |
-| ![](<../../../.gitbook/assets/image (7) (1).png>)  | O      |
-| ![](<../../../.gitbook/assets/image (35).png>)     | X      |
-| L1                                                 |        |
-| R1                                                 |        |
+| Retrobat                                              | Pico-8 |
+| ----------------------------------------------------- | ------ |
+| START                                                 | ENTER  |
+| SELECT                                                |        |
+| D-PAD                                                 | D-PAD  |
+| Left analog stick                                     | D-PAD  |
+| Reft analog stick                                     |        |
+| ![](<../../../.gitbook/assets/image (33).png>)        | O      |
+| ![](<../../../.gitbook/assets/image (20) (1).png>)    | X      |
+| ![](<../../../.gitbook/assets/image (7) (1) (1).png>) | O      |
+| ![](<../../../.gitbook/assets/image (35).png>)        | X      |
+| L1                                                    |        |
+| R1                                                    |        |
 
 ## Information spécifique au système
 

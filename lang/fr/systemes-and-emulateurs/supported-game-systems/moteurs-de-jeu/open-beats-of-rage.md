@@ -20,23 +20,23 @@ Aucun BIOS nécessaire.
 
 ## Contrôles
 
-| Retrobat                                           | OpenBOR    |
-| -------------------------------------------------- | ---------- |
-| START                                              | START      |
-| SELECT                                             | ECHAP      |
-| D-PAD                                              | D-PAD      |
-| Stick analogique gauche                            | Directions |
-| Stick analogique droit                             |            |
-| ![](<../../../.gitbook/assets/image (33).png>)     | Attaque    |
-| ![](<../../../.gitbook/assets/image (20) (1).png>) | Sauter     |
-| ![](<../../../.gitbook/assets/image (7) (1).png>)  | Attaque 2  |
-| ![](<../../../.gitbook/assets/image (35).png>)     | Special    |
-| L1                                                 | Attaque 4  |
-| R1                                                 | Attaque 3  |
-| L2                                                 |            |
-| R2                                                 |            |
-| L3                                                 |            |
-| R3                                                 |            |
+| Retrobat                                              | OpenBOR    |
+| ----------------------------------------------------- | ---------- |
+| START                                                 | START      |
+| SELECT                                                | ECHAP      |
+| D-PAD                                                 | D-PAD      |
+| Stick analogique gauche                               | Directions |
+| Stick analogique droit                                |            |
+| ![](<../../../.gitbook/assets/image (33).png>)        | Attaque    |
+| ![](<../../../.gitbook/assets/image (20) (1).png>)    | Sauter     |
+| ![](<../../../.gitbook/assets/image (7) (1) (1).png>) | Attaque 2  |
+| ![](<../../../.gitbook/assets/image (35).png>)        | Special    |
+| L1                                                    | Attaque 4  |
+| R1                                                    | Attaque 3  |
+| L2                                                    |            |
+| R2                                                    |            |
+| L3                                                    |            |
+| R3                                                    |            |
 
 ## Information spécifique au système
 

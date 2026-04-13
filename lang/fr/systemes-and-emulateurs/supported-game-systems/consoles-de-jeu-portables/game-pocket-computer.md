@@ -31,23 +31,23 @@ gamepock.zip
 
 ## Contrôles
 
-| Retrobat                                           | Game Pocket |
-| -------------------------------------------------- | ----------- |
-| START                                              | START       |
-| SELECT                                             | SELECT      |
-| D-PAD                                              | D-PAD       |
-| Stick analogique gauche                            |             |
-| Stick analogique droit                             |             |
-| ![](<../../../.gitbook/assets/image (33).png>)     | Haut gauche |
-| ![](<../../../.gitbook/assets/image (20) (1).png>) | Bas gauche  |
-| ![](<../../../.gitbook/assets/image (7) (1).png>)  | Bas droite  |
-| ![](<../../../.gitbook/assets/image (35).png>)     | Haut droite |
-| L1                                                 |             |
-| R1                                                 |             |
-| L2                                                 |             |
-| R2                                                 |             |
-| L3                                                 |             |
-| R3                                                 |             |
+| Retrobat                                              | Game Pocket |
+| ----------------------------------------------------- | ----------- |
+| START                                                 | START       |
+| SELECT                                                | SELECT      |
+| D-PAD                                                 | D-PAD       |
+| Stick analogique gauche                               |             |
+| Stick analogique droit                                |             |
+| ![](<../../../.gitbook/assets/image (33).png>)        | Haut gauche |
+| ![](<../../../.gitbook/assets/image (20) (1).png>)    | Bas gauche  |
+| ![](<../../../.gitbook/assets/image (7) (1) (1).png>) | Bas droite  |
+| ![](<../../../.gitbook/assets/image (35).png>)        | Haut droite |
+| L1                                                    |             |
+| R1                                                    |             |
+| L2                                                    |             |
+| R2                                                    |             |
+| L3                                                    |             |
+| R3                                                    |             |
 
 ## Information spécifique au système
 

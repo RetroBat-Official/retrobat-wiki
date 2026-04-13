@@ -42,23 +42,23 @@ kick40068.A4000
 
 Utiliser la fonctionnalité [Pad2Key](../../../../controleurs/pad2key.md).
 
-| Retrobat                                              | Amiga 4000                            |
-| ----------------------------------------------------- | ------------------------------------- |
-| START                                                 |                                       |
-| SELECT                                                | Afficher / masquer le clavier virtuel |
-| D-PAD                                                 | Joystick                              |
-| Stick analogique gauche                               | Souris                                |
-| Stick analogique droit                                | Souris                                |
-| ![](<../../../../.gitbook/assets/image (33).png>)     | ESPACE                                |
-| ![](<../../../../.gitbook/assets/image (20) (1).png>) | Bouton 1 / rouge                      |
-| ![](<../../../../.gitbook/assets/image (7) (1).png>)  | Bouton 2 / bleu                       |
-| ![](<../../../../.gitbook/assets/image (35).png>)     |                                       |
-| L1                                                    |                                       |
-| R1                                                    |                                       |
-| L2                                                    | Souris bouton gauche                  |
-| R2                                                    | Souris bouton droite                  |
-| L3                                                    |                                       |
-| R3                                                    |                                       |
+| Retrobat                                                 | Amiga 4000                            |
+| -------------------------------------------------------- | ------------------------------------- |
+| START                                                    |                                       |
+| SELECT                                                   | Afficher / masquer le clavier virtuel |
+| D-PAD                                                    | Joystick                              |
+| Stick analogique gauche                                  | Souris                                |
+| Stick analogique droit                                   | Souris                                |
+| ![](<../../../../.gitbook/assets/image (33).png>)        | ESPACE                                |
+| ![](<../../../../.gitbook/assets/image (20) (1).png>)    | Bouton 1 / rouge                      |
+| ![](<../../../../.gitbook/assets/image (7) (1) (1).png>) | Bouton 2 / bleu                       |
+| ![](<../../../../.gitbook/assets/image (35).png>)        |                                       |
+| L1                                                       |                                       |
+| R1                                                       |                                       |
+| L2                                                       | Souris bouton gauche                  |
+| R2                                                       | Souris bouton droite                  |
+| L3                                                       |                                       |
+| R3                                                       |                                       |
 
 ## Information spécifique au système
 

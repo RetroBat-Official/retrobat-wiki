@@ -136,3 +136,11 @@ Lors du premier lancement du jeu au format .vpk, Retrobat l'installera automatiq
 <div align="left"><figure><img src="https://i.imgur.com/bYSh81f.png" alt=""><figcaption></figcaption></figure></div>
 
 Une fois l'installation effectuée, le prochain démarrage sera plus rapide.
+
+### Textures personnalisées
+
+Vita3K permet à l'utilisateur d'importer des textures HD personnalisées pour certains jeux.
+
+Pour cela, placer le pack de textures dans le dossier `emulators\vita3k\textures\import` de votre installation RetroBat, activer l'option dans **CONFIGURATION AVANCÉE DU SYSTÈME > RENDU VISUEL** :
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure></div>

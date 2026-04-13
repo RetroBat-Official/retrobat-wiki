@@ -1,151 +1,142 @@
 # Raccourcis
 
-Le détail des Raccourcis ("hotkeys" en anglais) est disponible dans la notice pdf [ici](http://retrobat.ovh/notice/notice_fr.pdf).
+Les "hotkeys" sont des raccourcis à la manette ou au clavier, qui sont utilisés pour réaliser certaines actions en jeu, comme par exemple la sauvegarde de progression d'un jeu (savestate), la mise en pause ou bien le rembobinage. L'utilisation la plus fréquente consiste à quitter une partie en cours en appuyant simultanément sur les boutons **HOTKEY** + **START.**
 
-Les "hotkeys" sont des combinaisons de touches/boutons permettant d'effectuer certaines actions durant les jeux. Il est par exemple possible de quitter une partie en cours en appuyant simultanément sur les boutons **HOTKEY** + **START**&#x20;
-
-## **Liste des Raccourcis**
-
-### RetroArch
-
-<table><thead><tr><th width="234.699951171875">Hotkeys</th><th>Action</th><th>Avec layout alternatif</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (7) (1).png" alt=""></td><td>PAUSE</td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (20) (1).png" alt=""></td><td>RetroArch MENU</td><td>Choisir Slot de sauvegarde Index -</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt=""></td><td>Charger Save State</td><td>RetroArch MENU</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt=""></td><td>Sauver Save State</td><td>Choisir Slot de sauvegarde Index +</td></tr><tr><td>Hotkey + START</td><td>Quitter RetroArch</td><td>Quitter RetroArch</td></tr><tr><td>Hotkey + L1</td><td>Ejecter Disque</td><td>Charger Save State</td></tr><tr><td>Hotkey + R1</td><td>Service de traduction IA</td><td>Sauver Save State</td></tr><tr><td>Hotkey + L2</td><td>Disque Index -</td><td>Rembobiner</td></tr><tr><td>Hotkey + R2</td><td>Disque Index +</td><td>Avance rapide (Choix possible entre maintenir et basculer)</td></tr><tr><td>Hotkey + D-PAD HAUT</td><td>Choisir Slot de sauvegarde Index +</td><td>Service de traduction IA</td></tr><tr><td>Hotkey + D-PAD BAS</td><td>Choisir Slot de sauvegarde Index -</td><td>Ejecter Disque</td></tr><tr><td>Hotkey + D-PAD GAUCHE</td><td>Rembobiner</td><td>Disque Index -</td></tr><tr><td>Hotkey + D-PAD DROITE</td><td>Avance rapide (Choix possible entre maintenir et basculer)</td><td>Disque Index +</td></tr><tr><td>Hotkey + R3</td><td>Capture d'écran</td><td>Capture d'écran</td></tr></tbody></table>
+L'équipe RetroBat a défini des hotkeys par défaut à la manette et au clavier pour de nombreux émulateurs, ces hotkeys sont les suivantes :&#x20;
 
 {% hint style="info" %}
-Il est possible de modifier les raccourcis clavier et manette pour Retroarch en suivant [ce guide](../controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-retroarch.md#modification-des-raccourcis-hotkeys)
+Pour réaliser une action liée à une hotkey, il est nécessaire de presser la touche d'activation hotkey, puis de presser le second bouton simultanément.
 {% endhint %}
 
-### Ares
+<table><thead><tr><th width="234.699951171875">Hotkeys (manette)</th><th>touche clavier</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (7) (1) (1).png" alt=""></td><td>CTRL+F12</td><td><a href="game-control-center.md">Game control center</a></td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (20) (1).png" alt=""></td><td>F1</td><td>Menu de l'émulateur (ou Pause si l'émulateur n'a pas de menu)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt=""></td><td>F4</td><td>Charger Save State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt=""></td><td>F2</td><td>Enregistrer Save State</td></tr><tr><td>Hotkey + START</td><td>ECHAP</td><td>Quitter l'émulateur / le jeu</td></tr><tr><td>Hotkey + L1</td><td>F11</td><td>Éjecter Disque</td></tr><tr><td>Hotkey + R1</td><td></td><td>Service de traduction IA</td></tr><tr><td>Hotkey + L2</td><td>F9</td><td>Disque Index -</td></tr><tr><td>Hotkey + R2</td><td>F10</td><td>Disque Index +</td></tr><tr><td>Hotkey + D-PAD HAUT</td><td>F7</td><td>Choisir Slot de sauvegarde Index +</td></tr><tr><td>Hotkey + D-PAD BAS</td><td>F6</td><td>Choisir Slot de sauvegarde Index -</td></tr><tr><td>Hotkey + D-PAD GAUCHE</td><td>Retour arrière</td><td>Rembobiner</td></tr><tr><td>Hotkey + D-PAD DROITE</td><td>Constant : F<br>Bref : Espace</td><td>Avance rapide (Choix possible entre maintenir et basculer)</td></tr><tr><td>Hotkey + R3 (stick droit)</td><td>F8</td><td>Capture d'écran</td></tr><tr><td></td><td>F</td><td>Basculer plein écran</td></tr><tr><td></td><td>K</td><td>Avance de frame</td></tr><tr><td>Hotkey + L3</td><td>P</td><td>Pause (si un émulateur à un menu et que la Hotkey + <img src="../.gitbook/assets/image (80).png" alt=""> est utilisée)</td></tr></tbody></table>
 
-<table><thead><tr><th width="290">Hotkeys (clavier)</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (7) (1).png" alt="">  (F6)</td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (20) (1).png" alt="">  (TAB)</td><td>Plein écran</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt="">   (F2)</td><td>Charger Save State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt="">   (F1)</td><td>Sauver Save State</td></tr><tr><td>Hotkey + START  (F12)</td><td>Quitter ARES</td></tr><tr><td>Hotkey + D-PAD UP  (F4)</td><td>Choisir Slot de sauvegarde Index +</td></tr><tr><td>Hotkey + D-PAD DOWN  (F3)</td><td>Choisir Slot de sauvegarde Index -</td></tr><tr><td>Hotkey + D-PAD LEFT  (F8)</td><td>Rembobiner</td></tr><tr><td>Hotkey + D-PAD RIGHT  (F9)</td><td>Avance rapide</td></tr><tr><td>Hotkey + R3</td><td>Capture d'écran</td></tr></tbody></table>
+Pour la liste des émulateurs ci-dessous, les hotkeys ont été alignés, avec quelques variations liés aux possibilités des émulateurs :
+
+<details>
+
+<summary>Émulateurs avec des hotkeys alignés</summary>
+
+* RetroArch
+* Ares (utilise PadToKey)
+* BigPEmu
+* Bizhawk (utilise PadToKey)
+* Cgenius (Seulement sauvegarde / chargement savestate) (utilise PadToKey)
+* Citron
+* Demul
+* DesMume (utilise PadToKey)
+* Dhewm3
+* Dolphin
+* Duckstation
+* Eden
+* Flycast
+* Hatari
+* Jgenesis (utilise PadToKey)
+* MAME
+* Mednafen
+* MelonDS (utilise PadToKey)
+* Mesen
+* Mupen64(RMG)
+* OpenMSX
+* PCSX2
+* PPSSPP
+* Project64 (utilise PadToKey)
+* Raine (utilise PadToKey)
+* Snes9X (utilise PadToKey)
+* Sudachi
+* Suyu
+* Yuzu
+
+</details>
+
+## Personnalisation des hotkeys
+
+RetroBat permet de modifier l'assignation des hotkeys par défaut pour de nombreux émulateurs, aussi bien pour le clavier que pour la manette.
+
+Les modifications doivent être faites dans un fichier situé dans le dossier `\system\resources\inputmapping` de votre installation RetroBat :
+
+* **kb\_hotkeys.yml** : permet de modifier l'assignation standard pour clavier
+* **controller\_hotkeys.yml** : permet de modifier l'assignation standard pour manette
 
 {% hint style="info" %}
-Ares utilise pad2key pour gérer les raccourcis.
+Il est également possible de modifier les hotkeys seulement pour un seul émulateur. Pour cela, il faudra ajouter, au début du nom du fichier, le nom de l'émulateur, par exemple "`pcsx2_controller_hotkeys.yml`".
 {% endhint %}
 
-### BigPEmu
+Ci-après la liste des émulateurs permettant la modification des hotkeys :
 
-{% hint style="info" %}
-La touche de raccourci est L2 (sauf pour quitter)
+<details>
+
+<summary>Émulateurs avec hotkeys personnalisables :</summary>
+
+* RetroArch
+* Ares
+* BigPEmu
+* Bizhawk
+* DesMUME
+* Dolphin
+* Duckstation
+* Flycast
+* JGenesis
+* Mednafen
+* MelonDS
+* Mesen
+* PCSX2
+* PPSSPP
+* Project64
+* Raine
+* Snes9X
+
+</details>
+
+{% hint style="warning" %}
+Les fichiers utilisent le nommage RetroArch pour les hotkeys, même pour les autres émulateurs.
 {% endhint %}
 
-<table><thead><tr><th width="269">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>L2 + <img src="../.gitbook/assets/image (20) (1).png" alt=""> </td><td>Menu</td></tr><tr><td>L2 + <img src="../.gitbook/assets/image (35).png" alt=""></td><td>Charger Save State</td></tr><tr><td>L2 + <img src="../.gitbook/assets/image (33).png" alt=""> </td><td>Sauver Save State</td></tr><tr><td>L2 + D-PAD LEFT</td><td>Rembobiner</td></tr><tr><td>L2 + D-PAD RIGHT</td><td>Avance rapide</td></tr><tr><td>L2 + R3</td><td>Capture d'écran</td></tr></tbody></table>
+### Remappage des hotkeys pour manette <a href="#remap-controller-hotkeys" id="remap-controller-hotkeys"></a>
 
-### BizHawk
+Copier le fichier **controller\_hotkeys.yml** dans le dossier `\user\inputmapping\` de votre installation RetroBat.
 
-<table><thead><tr><th width="290">Hotkeys (clavier)</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (7) (1).png" alt="">  (F9)</td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt="">   (F3)</td><td>Charger Save State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt="">   (F4)</td><td>Sauver Save State</td></tr><tr><td>Hotkey + START</td><td>Quitter</td></tr><tr><td>Hotkey + D-PAD UP  (F6)</td><td>Choisir Slot de sauvegarde Index +</td></tr><tr><td>Hotkey + D-PAD DOWN  (F5)</td><td>Choisir Slot de sauvegarde Index -</td></tr><tr><td>Hotkey + D-PAD LEFT  (F1)</td><td>Rembobiner</td></tr><tr><td>Hotkey + D-PAD RIGHT  (F2)</td><td>Avance rapide</td></tr><tr><td>Hotkey + R3 (F12)</td><td>Capture d'écran</td></tr></tbody></table>
+Ouvrir le fichier avec votre éditeur de texte préféré :
 
-{% hint style="info" %}
-BizHawk utilise pad2key pour gérer les raccourcis.
-{% endhint %}
+<div align="left"><figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
 
-### Demul <a href="#dolphindemul" id="dolphindemul"></a>
+Le fichier est formaté en yml, **par défaut toutes les valeurs sont commentées**.
 
-<table><thead><tr><th width="298">Hotkeys (clavier)</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + START</td><td>Quitter</td></tr><tr><td>Hotkey + L1</td><td>Fullscreen (ALT + ENTER)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt=""></td><td>Charger Save State (F12)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt=""></td><td>Sauver Save State (F11)</td></tr></tbody></table>
+La première chose à faire est de dé-commenter la section actuelle ou les boutons sont définis, ainsi que la section container. Pour cela, il faut supprimer le caractère # de toutes les lignes situées a partir de la ligne `#default:` incluant cette dernière :
 
-{% hint style="info" %}
-Demul utilise pad2key pour gérer les raccourcis.
-{% endhint %}
+<div align="left"><figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
 
-### Dolphin
+Dans cet exemple, nous allons replacer les hotkeys d'**avance rapide** et de **rembobinage** sur les boutons R1 et L1, et déplacer les actions d'**éjection de disque** et de **service AI** vers le d-pad :
 
-<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (7) (1).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (20) (1).png" alt=""></td><td>FULLSCREEN</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt=""></td><td>Charger Save State 1</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt=""></td><td>Sauver Save State 1 + capture d'écran</td></tr><tr><td>Hotkey + START</td><td>Quitter DOLPHIN</td></tr><tr><td>Hotkey + L1</td><td>Ejecter Disque</td></tr><tr><td>Hotkey + R1</td><td>Changer de Disque</td></tr></tbody></table>
+Pour cela, il faut assigner la fonction de **rembobinage** sur pageup (L1) et la fonction d'**avance rapide maintenu** sur pagedown (R1), puis assigner la fonction d’**éjection de disque** et de **service AI** sur les boutons d-pad correspondant (gauche et droite) :
 
-### Duckstation
+<div align="left"><figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
 
-<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (7) (1).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (20) (1).png" alt=""></td><td>Ouvrir MENU</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt=""></td><td>Charger Save State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt=""></td><td>Sauver Save State</td></tr><tr><td>Hotkey + START</td><td>Quitter DuckStation</td></tr><tr><td>Hotkey + L1</td><td>FULLSCREEN (si l'option 'disable fullscreen' est activée)</td></tr><tr><td>Hotkey + R1</td><td>Changer de Disque</td></tr><tr><td>Hotkey + R3</td><td>Capture d'écran</td></tr><tr><td>Hotkey + D-PAD UP</td><td>Choisir Slot de sauvegarde Index +</td></tr><tr><td>Hotkey + D-PAD DOWN</td><td>Choisir Slot de sauvegarde Index -</td></tr><tr><td>Hotkey + D-PAD LEFT</td><td>Rembobiner</td></tr><tr><td>Hotkey + D-PAD RIGHT</td><td>Avance rapide</td></tr></tbody></table>
+Puis, sauvegarder le fichier dans le dossier `\user\inputmapping` de votre installation RetroBat :
 
-### Flycast
+<div align="left"><figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
 
-<table><thead><tr><th width="372">Hotkeys (clavier)</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (20) (1).png" alt="">  (TAB)</td><td>Menu</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt="">   (F2)</td><td>Charger Save State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt="">   (F1)</td><td>Sauver Save State</td></tr><tr><td>Hotkey + START  (ECHAP)</td><td>Quitter Flycast</td></tr><tr><td>Hotkey +R3  (F9)</td><td>Capture d'écran</td></tr><tr><td>Hotkey + D-PAD RIGHT  (F4)</td><td>Avance rapide</td></tr></tbody></table>
+Vous pouvez également spécifier des mappages spécifiques pour un cœur en particulier (dans le cas ou l’émulateur utilise des cœurs différents : Ares, Bizhawk, RetroArch...). Dans l'exemple ci-dessous, le mappage est différent avec le cœur flycast, pour lequel l'avance rapide s'active par pression unique du bouton, au lieu d'une activation en restant appuyé sur le bouton par défaut :
 
-{% hint style="info" %}
-Flycast utilise pad2key pour gérer les raccourcis.
-{% endhint %}
+<div align="left"><figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div>
 
-### Jgenesis
+### Remappage des hotkeys pour clavier <a href="#remap-controller-hotkeys" id="remap-controller-hotkeys"></a>
 
-<table><thead><tr><th width="298">Hotkeys (clavier)</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (7) (1).png" alt="">  (F5)</td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (20) (1).png" alt="">  (TAB)</td><td>Plein écran</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt="">   (F2)</td><td>Charger Save State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt="">   (F1)</td><td>Sauver Save State</td></tr><tr><td>Hotkey + START  (ECHAP)</td><td>Quitter JGenesis</td></tr><tr><td>Hotkey + D-PAD UP  (F4)</td><td>Choisir Slot de sauvegarde Index +</td></tr><tr><td>Hotkey + D-PAD DOWN  (F3)</td><td>Choisir Slot de sauvegarde Index -</td></tr><tr><td>Hotkey + D-PAD LEFT  (F6)</td><td>Rembobiner</td></tr><tr><td>Hotkey + D-PAD RIGHT  (F7)</td><td>Avance rapide</td></tr></tbody></table>
+Copier le fichier **kb\_hotkeys.yml** dans le dossier `\user\inputmapping\` de votre installation RetroBat.
 
-{% hint style="info" %}
-JGenesis utilise pad2key pour gérer les raccourcis.
-{% endhint %}
+Ouvrir le fichier avec votre éditeur de texte préféré :
 
-### Kronos
+<div align="left"><figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure></div>
 
-<table><thead><tr><th width="269">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (7) (1).png" alt="">  (F2)</td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (20) (1).png" alt="">  (F1)</td><td>Lancer le jeu</td></tr><tr><td>Hotkey + R2  (F8)</td><td>Capture d'écran</td></tr><tr><td>Hotkey + L1  (ALT+ENTREE)</td><td>Plein écran</td></tr><tr><td>Hotkey + START  (ECHAP)</td><td>Quitter Kronos</td></tr></tbody></table>
+Le fichier est formaté en yml, **par défaut toutes les valeurs sont commentées**.
 
-{% hint style="info" %}
-Kronos utilise pad2key pour gérer les raccourcis.
-{% endhint %}
+La première chose à faire est de dé-commenter la section actuelle ou les boutons sont définis, ainsi que la section container. Pour cela, il faut supprimer le caractère # de toutes les lignes situées a partir de la ligne `#default:` incluant celle-ci :
 
-### MAME
+<div align="left"><figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure></div>
 
-<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (7) (1).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (20) (1).png" alt=""></td><td>MAME menu</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt=""></td><td>Charger Save State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt=""></td><td>Sauver Save State</td></tr><tr><td>Hotkey + D-PAD LEFT</td><td>Rembobiner</td></tr><tr><td>Hotkey + D-PAD RIGHT</td><td>Avance rapide</td></tr><tr><td>L3 + R3</td><td>Menu service</td></tr></tbody></table>
+Puis sauvegarder le fichier :
 
-### Mednafen
+<div align="left"><figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure></div>
 
-<table><thead><tr><th width="282">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (7) (1).png" alt=""></td><td>PAUSE (Pause)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (20) (1).png" alt=""></td><td>Ecran d'aide (F1)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt=""></td><td>Charger Save State (F7)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt=""></td><td>Sauver Save State (F5)</td></tr><tr><td>Hotkey + START</td><td>Quitter (F12)</td></tr><tr><td>Hotkey + R2</td><td>Change de disque (F6)</td></tr><tr><td>Hotkey + D-PAD HAUT</td><td>Choisir Slot de sauvegarde Index + (=)</td></tr><tr><td>Hotkey + D-PAD BAS</td><td>Choisir Slot de sauvegarde Index - (-)</td></tr><tr><td>Hotkey + D-PAD GAUCHE</td><td>Rembobiner (Retour arrière) : uniquement si la fonction de rembobinage save-state est activée</td></tr><tr><td>Hotkey + D-PAD DROITE</td><td>Avance rapide (`)</td></tr><tr><td>Hotkey + R3</td><td>Capture d'écran (F9)</td></tr></tbody></table>
+Vous pouvez également spécifier des mappages spécifiques pour un cœur en particulier (dans le cas ou l’émulateur utilise des cœurs différents : Ares, Bizhawk, RetroArch...). Dans l'exemple ci-dessous, le mappage est différent avec le cœur flycast, pour lequel l'avance rapide s'active par pression unique du bouton, au lieu d'une activation en restant appuyé sur le bouton par défaut :
 
-### MelonDS
-
-| Hotkeys                                              | Action                      |
-| ---------------------------------------------------- | --------------------------- |
-| Hotkey + ![](<../.gitbook/assets/image (7) (1).png>) | PAUSE (F10)                 |
-| Hotkey + ![](<../.gitbook/assets/image (35).png>)    | Charger Save State (F1)     |
-| Hotkey + ![](<../.gitbook/assets/image (33).png>)    | Sauver Save State (CTRL+F1) |
-| Hotkey + START                                       | Quitter (ALT+F4)            |
-| Hotkey + D-PAD GAUCHE                                | Ralenti (F11)               |
-| Hotkey + D-PAD DROITE                                | Avance rapide (\`F12)       |
-| Hotkey + L1                                          | Plein écran (TAB)           |
-
-{% hint style="info" %}
-MelonDS utilise pad2key pour gérer les raccourcis.
-{% endhint %}
-
-### Mesen
-
-<table><thead><tr><th width="282">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (7) (1).png" alt=""></td><td>Pause</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt=""></td><td>Charger Save State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt=""></td><td>Sauver Save State</td></tr><tr><td>Hotkey + START</td><td>Quitter</td></tr><tr><td>Hotkey + L1</td><td>Activer rembobinage</td></tr><tr><td>Hotkey + R1</td><td>Activer avance rapide</td></tr><tr><td>Hotkey + R3</td><td>Capture d'écran</td></tr><tr><td>Hotkey + D-PAD HAUT</td><td>Choisir Slot de sauvegarde Index +</td></tr><tr><td>Hotkey + D-PAD BAS</td><td>Choisir Slot de sauvegarde Index -</td></tr><tr><td>Hotkey + D-PAD GAUCHE</td><td>Rembobiner</td></tr><tr><td>Hotkey + D-PAD DROITE</td><td>Avance rapide</td></tr></tbody></table>
-
-### Mupen64 (RMG)
-
-<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (7) (1).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt=""></td><td>Charger Save State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt=""></td><td>Sauver Save State</td></tr><tr><td>Hotkey + START</td><td>Quitter l'émulateur</td></tr><tr><td>Hotkey + D-PAD LEFT</td><td>Ralentir (facteur 50)</td></tr><tr><td>Hotkey + D-PAD UP</td><td>Vitesse normale</td></tr><tr><td>Hotkey + D-PAD RIGHT</td><td>Avance rapide (facteur 250)</td></tr><tr><td>Hotkey + R3</td><td>Capture d'écran</td></tr></tbody></table>
-
-### OpenMSX
-
-<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (7) (1).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt=""></td><td>Sauver Save State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt=""></td><td>Charger Save State</td></tr><tr><td>Hotkey + L1</td><td>Rembobiner</td></tr><tr><td>Hotkey + R1</td><td>Avance rapide</td></tr></tbody></table>
-
-### PCSX2
-
-<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (7) (1).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (20) (1).png" alt=""></td><td>Ouvrir MENU</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt=""></td><td>Charger sauvegarde</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt=""></td><td>Sauver</td></tr><tr><td>Hotkey + START</td><td>Quitter PCSX2</td></tr><tr><td>Hotkey + L1</td><td>FULLSCREEN (si l'option 'disable fullscreen' est activée)</td></tr><tr><td>Hotkey + R3</td><td>Capture d'écran</td></tr><tr><td>Hotkey + D-PAD UP</td><td>Choisir Slot de sauvegarde Index +</td></tr><tr><td>Hotkey + D-PAD DOWN</td><td>Choisir Slot de sauvegarde Index -</td></tr><tr><td>Hotkey + D-PAD LEFT</td><td>Ralenti</td></tr><tr><td>Hotkey + D-PAD RIGHT</td><td>Turbo</td></tr></tbody></table>
-
-### PPSSPP
-
-<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + D-PAD GAUCHE</td><td>Rembobiner</td></tr><tr><td>Hotkey + D-PAD RIGHT</td><td>Avance rapide</td></tr><tr><td>Hotkey + D-PAD UP</td><td>Choisir Slot de sauvegarde précédent</td></tr><tr><td>Hotkey + D-PAD DOWN</td><td>Choisir Slot de sauvegarde suivant</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt=""></td><td>Charger Save State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt=""></td><td>Sauver Save State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (7) (1).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + R1</td><td>Capture d'écran</td></tr></tbody></table>
-
-### Raine
-
-<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + L1</td><td>Menu</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt=""></td><td>Sauver</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt=""></td><td>Charger sauvegarde</td></tr><tr><td>Hotkey + D-PAD UP</td><td>Changer slot de sauvegarde</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (7) (1).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + R3</td><td>Capture d'écran</td></tr></tbody></table>
-
-{% hint style="info" %}
-Raine utilise pad2key pour gérer les raccourcis.
-{% endhint %}
-
-### SNES9X
-
-<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + START</td><td>Quitter (FERMER)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt=""></td><td>Sauvegarde d'état (F5)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt=""></td><td>Charger sauvegarde d'état (F6)</td></tr><tr><td>Hotkey + D-PAD HAUT</td><td>Slot de sauvegarde suivant (F4)</td></tr><tr><td>Hotkey + D-PAD BAS</td><td>Slot de sauvegarde précédent(F3)</td></tr><tr><td>Hotkey + D-PAD GAUCHE</td><td>Rembobiner (F7)</td></tr><tr><td>Hotkey + D-PAD DROITE</td><td>Avance rapide (F8)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (7) (1).png" alt=""></td><td>Pause (F9)</td></tr><tr><td>Hotkey + R2</td><td>Capture d'écran (F12)</td></tr></tbody></table>
-
-{% hint style="info" %}
-Snes9X utilise pad2key pour gérer les raccourcis.
-{% endhint %}
-
-### Yabasanshiro
-
-<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + START</td><td>Quitter (FERMER)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt=""></td><td>Sauvegarde d'état 1 (CTRL+1)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt=""></td><td>Charger sauvegarde d'état 1 (ALT+1)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (20) (1).png" alt=""></td><td>Lancer le jeu (F1)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (7) (1).png" alt=""></td><td>Pause (F10)</td></tr><tr><td>Hotkey + R2</td><td>Capture d'écran (F8)</td></tr><tr><td>Hotkey + L1</td><td>Plein écran (ALT+ENTREE)</td></tr></tbody></table>
-
-{% hint style="info" %}
-Yabasanshiro utilise pad2key pour gérer les raccourcis.
-{% endhint %}
-
-### YUZU, SUYU, SUDACHI, CITRON
-
-<table><thead><tr><th width="245">Hotkeys</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (7) (1).png" alt=""></td><td>PAUSE</td></tr><tr><td>Hotkey + START</td><td>Quitter émulateurs</td></tr></tbody></table>
+<div align="left"><figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure></div>

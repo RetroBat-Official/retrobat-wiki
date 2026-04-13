@@ -43,7 +43,7 @@ Il est possible de paramétrer les contrôles directement dans l'émulateur dolp
 | Stick analogique gauche                                                        | Stick analogique gauche      |
 | Stick analogique droit                                                         | Stick analogique  - C-Stick  |
 | ![A](<../../../../.gitbook/assets/image (20) (1).png>)                         | A                            |
-| ![B](<../../../../.gitbook/assets/image (7) (1).png>)                          | B                            |
+| ![B](<../../../../.gitbook/assets/image (7) (1) (1).png>)                      | B                            |
 | <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line"> | Y                            |
 | LT (L2)                                                                        | L                            |
 | RT (R2)                                                                        | R                            |
@@ -55,7 +55,7 @@ Il est possible de paramétrer les contrôles directement dans l'émulateur dolp
 
 RetroBat fourni un ensemble de patchs pour certains jeux, qui sont accessibles depuis le menu  **configuration avancée du système > Game Patches** :
 
-<figure><img src="../../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Menu Service
 

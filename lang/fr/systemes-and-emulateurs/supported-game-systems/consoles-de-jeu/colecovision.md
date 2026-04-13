@@ -24,27 +24,27 @@ Console de jeu - Durée de vie : 1982 - 1985
 
 ## Contrôles
 
-| Retrobat                                           | Colecovision  |
-| -------------------------------------------------- | ------------- |
-| START                                              | #             |
-| SELECT                                             | \*            |
-| D-PAD                                              | D-PAD         |
-| Stick analogique gauche                            |               |
-| Stick analogique droit                             |               |
-| ![](<../../../.gitbook/assets/image (33).png>)     | 2             |
-| ![](<../../../.gitbook/assets/image (20) (1).png>) | Bouton droit  |
-| ![](<../../../.gitbook/assets/image (7) (1).png>)  | Bouton gauche |
-| ![](<../../../.gitbook/assets/image (35).png>)     | 1             |
-| L1                                                 | 4             |
-| R1                                                 | 3             |
-| L2                                                 | 6             |
-| R2                                                 | 5             |
-| L3                                                 | 8             |
-| R3                                                 | 7             |
-| Clavier 1                                          | 0 (joueur 1)  |
-| Clavier 2                                          | 9 (joueur 1)  |
-| Clavier 3                                          | 0 (joueur 2)  |
-| Clavier 4                                          | 9 (joueur 2)  |
+| Retrobat                                              | Colecovision  |
+| ----------------------------------------------------- | ------------- |
+| START                                                 | #             |
+| SELECT                                                | \*            |
+| D-PAD                                                 | D-PAD         |
+| Stick analogique gauche                               |               |
+| Stick analogique droit                                |               |
+| ![](<../../../.gitbook/assets/image (33).png>)        | 2             |
+| ![](<../../../.gitbook/assets/image (20) (1).png>)    | Bouton droit  |
+| ![](<../../../.gitbook/assets/image (7) (1) (1).png>) | Bouton gauche |
+| ![](<../../../.gitbook/assets/image (35).png>)        | 1             |
+| L1                                                    | 4             |
+| R1                                                    | 3             |
+| L2                                                    | 6             |
+| R2                                                    | 5             |
+| L3                                                    | 8             |
+| R3                                                    | 7             |
+| Clavier 1                                             | 0 (joueur 1)  |
+| Clavier 2                                             | 9 (joueur 1)  |
+| Clavier 3                                             | 0 (joueur 2)  |
+| Clavier 4                                             | 9 (joueur 2)  |
 
 ### Bluemsx
 

@@ -9,7 +9,7 @@ coverY: 0
 
 
 
-Vous pouvez utiliser le menu de gauche pour naviguer sur le site.&#x20;
+Vous pouvez utiliser le menu de gauche pour naviguer sur les différentes catégories du wiki, ou bien utiliser la barre de recherche en haut à droit pour chercher un sujet spécifique.&#x20;
 
 * Si vous êtes débutant, dirigez-vous vers la section [PREMIERS PAS](/broken/pages/g3c4PWbd1Uji9SusHDzr) et laissez-vous guider.
 * Si vous êtes un utilisateur expérimenté et que vous cherchez des informations concernant un système particulier, dirigez-vous vers la section [SYSTÈMES COMPATIBLES](systemes-and-emulateurs/supported-game-systems/). Vous y trouverez toutes les informations nécessaires pour faire fonctionner chaque système (émulateurs, BIOS, fonctionnalités spécifiques...)
@@ -34,7 +34,7 @@ Si vous ne trouvez pas l'information que vous êtes venus chercher, vous pouvez 
 
 
 
-Enfin, si vous souhaitez soutenir le projet, n'hésitez-pas à [effectuer un don](https://retrobatofficial.itch.io/retrobat) depuis la page de téléchargement. L'argent recolté est utilisé pour payer les serveurs et pour acheter du matériel de test afin d'améliorer la compatibilité du système.&#x20;
+Enfin, si vous souhaitez soutenir le projet, n'hésitez-pas à [effectuer un don](https://retrobatofficial.itch.io/retrobat) depuis la page de téléchargement. L'argent récolté est utilisé pour payer les serveurs et pour acheter du matériel de test afin d'améliorer la compatibilité du système.&#x20;
 
 
 

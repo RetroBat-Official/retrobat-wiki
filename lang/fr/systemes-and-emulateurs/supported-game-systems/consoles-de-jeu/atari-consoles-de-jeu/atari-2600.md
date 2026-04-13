@@ -24,23 +24,23 @@ Aucun BIOS nécessaire.
 
 ## Contrôles
 
-| Retrobat                                              | Atari 2600                                 |
-| ----------------------------------------------------- | ------------------------------------------ |
-| START                                                 | Game reset (bouton sur la console)         |
-| SELECT                                                | Game select (bouton sur la console)        |
-| D-PAD                                                 | Joystick (mouvements)                      |
-| Stick analogique gauche                               |                                            |
-| Stick analogique droit                                |                                            |
-| ![](<../../../../.gitbook/assets/image (33).png>)     |                                            |
-| ![](<../../../../.gitbook/assets/image (20) (1).png>) | Bouton du joystick                         |
-| ![](<../../../../.gitbook/assets/image (7) (1).png>)  |                                            |
-| ![](<../../../../.gitbook/assets/image (35).png>)     |                                            |
-| L1                                                    | Left difficulty b (bouton sur la console)  |
-| R1                                                    | Right difficulty b (bouton sur la console) |
-| L2                                                    | Left difficulty a (bouton sur la console)  |
-| R2                                                    | Right difficulty a (bouton sur la console) |
-| L3                                                    | Color (bouton sur la console)              |
-| R3                                                    | black & white (bouton sur la console)      |
+| Retrobat                                                 | Atari 2600                                 |
+| -------------------------------------------------------- | ------------------------------------------ |
+| START                                                    | Game reset (bouton sur la console)         |
+| SELECT                                                   | Game select (bouton sur la console)        |
+| D-PAD                                                    | Joystick (mouvements)                      |
+| Stick analogique gauche                                  |                                            |
+| Stick analogique droit                                   |                                            |
+| ![](<../../../../.gitbook/assets/image (33).png>)        |                                            |
+| ![](<../../../../.gitbook/assets/image (20) (1).png>)    | Bouton du joystick                         |
+| ![](<../../../../.gitbook/assets/image (7) (1) (1).png>) |                                            |
+| ![](<../../../../.gitbook/assets/image (35).png>)        |                                            |
+| L1                                                       | Left difficulty b (bouton sur la console)  |
+| R1                                                       | Right difficulty b (bouton sur la console) |
+| L2                                                       | Left difficulty a (bouton sur la console)  |
+| R2                                                       | Right difficulty a (bouton sur la console) |
+| L3                                                       | Color (bouton sur la console)              |
+| R3                                                       | black & white (bouton sur la console)      |
 
 <div align="left"><figure><img src="https://i.imgur.com/OP8tnMg.png" alt=""><figcaption></figcaption></figure></div>
 

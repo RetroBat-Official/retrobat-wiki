@@ -17,13 +17,14 @@ Si vous modifiez le fichier, copiez-le dans le dossier user\inputmapping de votr
 * Contrôleurs Saturn
 * Contrôleurs N64
 * Contrôleurs Gamecube
+* Contrôleurs type clavier (IPAC2, Tankstick...)
 
 ### Type de contrôleurs & émulateurs actuellement supportés
 
 Le tableau ci-dessous détaille les types de contrôleurs spéciaux actuellement supportés et les émulateurs pour lesquels RetroBat propose l'auto-configuration.
 
 {% hint style="info" %}
-Quand un contrôleur spécial est détecté, RetroBat ignorera complétement la configuration paramétré depuis RetroBat pour celui spécifique à la manette spéciale, de façon a utiliser le mappage original du système.
+Quand un contrôleur spécial est détecté, RetroBat ignorera complètement la configuration paramétré depuis RetroBat pour celui spécifique à la manette spéciale, de façon a utiliser le mappage original du système.
 {% endhint %}
 
-<table><thead><tr><th width="337.5333251953125">Type de contrôleur</th><th>Emulateurs</th></tr></thead><tbody><tr><td>Contrôleur N64</td><td>RetroArch<br>Ares<br>Bizhawk<br>Mupen64(RMG)<br>Simple64<br>Ship Of Harkinian</td></tr><tr><td>Contrôleur Megadrive/Genesis </td><td>RetroArch<br>Ares<br>Bizhawk<br>JGenesis<br>Kega-Fusion<br>Mednafen</td></tr><tr><td>Contrôleur Saturn</td><td>RetroArch<br>Bizhawk<br>Kronos<br>Mednafen<br>SSF<br>YabaSanshiro<br>Ymir</td></tr><tr><td>Contrôleur GameCube</td><td>Dolphin (standalone)</td></tr><tr><td>Contrôleur 3DO</td><td>RetroArch</td></tr></tbody></table>
+<table><thead><tr><th width="337.5333251953125">Type de contrôleur</th><th>Emulateurs</th></tr></thead><tbody><tr><td>Contrôleur N64</td><td>RetroArch<br>Ares<br>Bizhawk<br>Mupen64(RMG)<br>Simple64<br>Ship Of Harkinian</td></tr><tr><td>Contrôleur Megadrive/Genesis </td><td>RetroArch<br>Ares<br>Bizhawk<br>JGenesis<br>Kega-Fusion<br>Mednafen</td></tr><tr><td>Contrôleur Saturn</td><td>RetroArch<br>Bizhawk<br>Kronos<br>Mednafen<br>SSF<br>YabaSanshiro<br>Ymir</td></tr><tr><td>Contrôleur GameCube</td><td>Dolphin (standalone)</td></tr><tr><td>Contrôleur 3DO</td><td>RetroArch</td></tr><tr><td>Contrôleurs clavier</td><td>RetroArch<br>MAME</td></tr></tbody></table>
