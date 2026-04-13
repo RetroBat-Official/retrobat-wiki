@@ -12,11 +12,11 @@ Console de jeu - Durée de vie : 1982 - 1984
 
 ## Informations
 
-<table data-header-hidden><thead><tr><th width="197"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro : mame</li><li>mame64</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> arcadia</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.bin .zip .7z</td><td></td></tr><tr><td><strong>Groupe</strong></td><td>MESS</td><td></td></tr><tr><td><strong>Modèles émulés</strong></td><td>arcadia</td><td></td></tr><tr><td><strong>Softlists</strong></td><td>arcadia</td><td></td></tr><tr><td><strong>Types de média</strong></td><td>cartouche</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="197"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: amiarcadia</li><li>libretro: mame</li><li>mame64</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> arcadia</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.bin .zip .7z</td><td></td></tr><tr><td><strong>Groupe</strong></td><td>MESS</td><td></td></tr><tr><td><strong>Modèles émulés</strong></td><td>arcadia</td><td></td></tr><tr><td><strong>Softlists</strong></td><td>arcadia</td><td></td></tr><tr><td><strong>Types de média</strong></td><td>cartouche</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td>NON</td></tr></tbody></table>
+<table><thead><tr><th width="245">Succès Rétro</th><th width="221.25">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-amiarcadia: OUI<br>MAME: NON</td><td>lr-amiarcadia: NON<br>MAME: NON</td><td>lr-amiarcadia: OUI<br>MAME: NON</td></tr></tbody></table>
 
 ## BIOS
 
