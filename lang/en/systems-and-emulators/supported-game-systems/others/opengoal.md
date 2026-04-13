@@ -2,7 +2,7 @@
 
 <div align="left"><figure><img src="https://github.com/fabricecaruso/es-theme-carbon/blob/master/art/logos/opengoal.png?raw=true" alt=""><figcaption></figcaption></figure></div>
 
-Game engine to play Jak & Daxter 1 and 2.
+Game engine to play Jak & Daxter 1, 2 et 3.
 
 {% embed url="https://opengoal.dev/" %}
 
