@@ -12,11 +12,11 @@ Game Console - Lifespan: 1982 - 1984
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="191"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretroo: mame</li><li>mame64</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> arcadia</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.bin .zip .7z</td><td></td></tr><tr><td><strong>Group</strong></td><td>MESS</td><td></td></tr><tr><td><strong>Emulated Model</strong></td><td>arcadia</td><td></td></tr><tr><td><strong>Softlists available</strong></td><td>arcadia</td><td></td></tr><tr><td><strong>Media Types</strong></td><td>cartridge</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="191"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro-amiarcadia</li><li>libretroo: mame</li><li>mame64</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> arcadia</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.bin .zip .7z</td><td></td></tr><tr><td><strong>Group</strong></td><td>MESS</td><td></td></tr><tr><td><strong>Emulated Model</strong></td><td>arcadia</td><td></td></tr><tr><td><strong>Softlists available</strong></td><td>arcadia</td><td></td></tr><tr><td><strong>Media Types</strong></td><td>cartridge</td><td></td></tr></tbody></table>
 
 ## System Features
 
-<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>NO</td></tr></tbody></table>
+<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-amiarcadia: YES<br>MAME: NO</td><td>lr-amiarcadia: NO<br>MAME: NO</td><td>lr-amiarcadia: YES<br>MAME: NO</td></tr></tbody></table>
 
 ## BIOS
 
