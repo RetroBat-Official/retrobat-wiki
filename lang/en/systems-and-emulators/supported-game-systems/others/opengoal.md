@@ -72,4 +72,4 @@ Create an empty .txt file in the \roms\opengoal folder of your RetroBat installa
 
 <div align="left"><figure><img src="https://i.imgur.com/mGUXHzk.png" alt=""><figcaption></figcaption></figure></div>
 
-Save the text file with the ".opengoal" extension.
+Save the text file with the "**.opengoal**" extension.
