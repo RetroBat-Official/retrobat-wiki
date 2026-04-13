@@ -28,22 +28,22 @@ Console de jeu - Durée de vie : 1993 - 1994
 
 ## Contrôles
 
-| Retrobat                                                 | Amiga CD32   |
-| -------------------------------------------------------- | ------------ |
-| START                                                    | PLAY / PAUSE |
-| D-PAD                                                    | D-PAD        |
-| Stick analogique gauche                                  | D-PAD        |
-| Stick analogique droit                                   |              |
-| ![](<../../../../.gitbook/assets/image (33).png>)        | Vert         |
-| ![](<../../../../.gitbook/assets/image (20) (1).png>)    | Rouge        |
-| ![](<../../../../.gitbook/assets/image (7) (1) (1).png>) | Bleu         |
-| ![](<../../../../.gitbook/assets/image (35).png>)        | Jaune        |
-| L1                                                       | Reverse      |
-| R1                                                       | Forward      |
-| L2                                                       |              |
-| R2                                                       |              |
-| L3                                                       |              |
-| R3                                                       |              |
+| Retrobat                                              | Amiga CD32   |
+| ----------------------------------------------------- | ------------ |
+| START                                                 | PLAY / PAUSE |
+| D-PAD                                                 | D-PAD        |
+| Stick analogique gauche                               | D-PAD        |
+| Stick analogique droit                                |              |
+| ![](<../../../../.gitbook/assets/image (33).png>)     | Vert         |
+| ![](<../../../../.gitbook/assets/image (20) (1).png>) | Rouge        |
+| ![](<../../../../.gitbook/assets/image (7) (1).png>)  | Bleu         |
+| ![](<../../../../.gitbook/assets/image (35).png>)     | Jaune        |
+| L1                                                    | Reverse      |
+| R1                                                    | Forward      |
+| L2                                                    |              |
+| R2                                                    |              |
+| L3                                                    |              |
+| R3                                                    |              |
 
 ## Information spécifique du système
 

@@ -33,21 +33,21 @@ crvision.zip
 
 Les jeux CreatiVision sont fournis avec une carte qui se glisse sur le contrôleur pour afficher les contrôles spécifiques à chaque jeu.
 
-| Retrobat                                                 | CrVision |
-| -------------------------------------------------------- | -------- |
-| START                                                    |          |
-| SELECT                                                   | RESET    |
-| D-PAD                                                    | Stick    |
-| Left analog stick                                        | Stick    |
-| Right analog stick                                       |          |
-| ![](<../../../../.gitbook/assets/image (33).png>)        | 2        |
-| ![](<../../../../.gitbook/assets/image (20) (1).png>)    | 0        |
-| ![](<../../../../.gitbook/assets/image (7) (1) (1).png>) | 6        |
-| ![](<../../../../.gitbook/assets/image (35).png>)        | 1        |
-| L1                                                       |          |
-| R1                                                       | 3        |
-| L2                                                       |          |
-| R2                                                       |          |
+| Retrobat                                              | CrVision |
+| ----------------------------------------------------- | -------- |
+| START                                                 |          |
+| SELECT                                                | RESET    |
+| D-PAD                                                 | Stick    |
+| Left analog stick                                     | Stick    |
+| Right analog stick                                    |          |
+| ![](<../../../../.gitbook/assets/image (33).png>)     | 2        |
+| ![](<../../../../.gitbook/assets/image (20) (1).png>) | 0        |
+| ![](<../../../../.gitbook/assets/image (7) (1).png>)  | 6        |
+| ![](<../../../../.gitbook/assets/image (35).png>)     | 1        |
+| L1                                                    |          |
+| R1                                                    | 3        |
+| L2                                                    |          |
+| R2                                                    |          |
 
 ## Information spécifique au système
 

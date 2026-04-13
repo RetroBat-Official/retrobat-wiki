@@ -18,21 +18,21 @@ Aucun BIOS nécessaire.
 
 ## Contrôles
 
-| Retrobat                                              | REminiscence       |
-| ----------------------------------------------------- | ------------------ |
-| START                                                 |                    |
-| SELECT                                                |                    |
-| D-PAD                                                 | D-PAD              |
-| Stick analogique gauche                               | Directions         |
-| Stick analogique droit                                |                    |
-| ![](<../../../.gitbook/assets/image (33).png>)        | Inventaire / Echap |
-| ![](<../../../.gitbook/assets/image (20) (1).png>)    | Draw / Holster     |
-| ![](<../../../.gitbook/assets/image (7) (1) (1).png>) | Utiliser           |
-| ![](<../../../.gitbook/assets/image (35).png>)        | Action             |
-| L1                                                    |                    |
-| R1                                                    |                    |
-| L2                                                    |                    |
-| R2                                                    |                    |
+| Retrobat                                           | REminiscence       |
+| -------------------------------------------------- | ------------------ |
+| START                                              |                    |
+| SELECT                                             |                    |
+| D-PAD                                              | D-PAD              |
+| Stick analogique gauche                            | Directions         |
+| Stick analogique droit                             |                    |
+| ![](<../../../.gitbook/assets/image (33).png>)     | Inventaire / Echap |
+| ![](<../../../.gitbook/assets/image (20) (1).png>) | Draw / Holster     |
+| ![](<../../../.gitbook/assets/image (7) (1).png>)  | Utiliser           |
+| ![](<../../../.gitbook/assets/image (35).png>)     | Action             |
+| L1                                                 |                    |
+| R1                                                 |                    |
+| L2                                                 |                    |
+| R2                                                 |                    |
 
 ## Information spécifique au système
 

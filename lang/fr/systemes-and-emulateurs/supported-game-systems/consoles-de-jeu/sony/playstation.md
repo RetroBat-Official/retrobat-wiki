@@ -71,15 +71,15 @@ Pour utiliser un pack de textures, placer le pack dans le dosisier `\roms\psx` d
 
 Une fois le dossier du pack de textures correctement nommé et positionné, activer l'option dans Retrobat :
 
-<figure><img src="../../../../.gitbook/assets/image (9) (1).png" alt=""><figcaption><p>Configuration avancée du système > rendu visuel</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (9).png" alt=""><figcaption><p>Configuration avancée du système > rendu visuel</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (10) (1).png" alt=""><figcaption><p>Textures personnalisées activées</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (10).png" alt=""><figcaption><p>Textures personnalisées activées</p></figcaption></figure>
 
 Il est également nécessaire d'utiliser le driver vidéo VULKAN et de définir une résolution supérieure à la résolution native 1X:
 
-<figure><img src="../../../../.gitbook/assets/image (11) (1).png" alt=""><figcaption><p>options avancés > Pilotes</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (11).png" alt=""><figcaption><p>options avancés > Pilotes</p></figcaption></figure>
 
-<figure><img src="../../../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
 
 #### **Duckstation**
 
@@ -87,8 +87,8 @@ L'émulateur Duckstation permet de charger des textures personnalisées.
 
 RetroBat n'impose pas d'emplacement pour le placement des packs de textures pour Duckstation, l'emplacement par défaut est dans le dossier `\emulators\duckstation\textures`, mais le répertoire peux être modifié depuis les paramètres de l'émulateur :
 
-<figure><img src="../../../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 Une fois que le pack de textures est placé, activer l'option dans RetroBat dans le menu **OPTIONS AVANCÉES > RENDU VISUEL** :
 
-<figure><img src="../../../../.gitbook/assets/image (15) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>

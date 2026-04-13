@@ -13,7 +13,7 @@ RetroArch à une approche en 2 phases concernant le mappage des contrôleurs :&#
 * Étape 1 : Configuration de votre manette physique avec « RetroPad » de RetroArch
 * Étape 2 : Configuration du Retropad avec la manette d'origine de la console ou de l'ordinateur
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (146).png" alt=""><figcaption></figcaption></figure></div>
 
 Le guide présenté sur cette page porte principalement sur la deuxième étape, car il part du principe que RetroBat transmet toutes les commandes de votre manette physique à RetroArch (ce qui devrait toujours être le cas si vous avez correctement configuré votre manette dans RetroBat).
 
@@ -21,9 +21,9 @@ Le guide présenté sur cette page porte principalement sur la deuxième étape,
 
 La configuration effectuée à l'étape 1 se trouve dans la section suivante de la configuration de RetroArch :
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (132).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (147).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (133).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (148).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Le réglage général est stocké dans le fichier "**retroarch.cfg**" situé dans le dossier `/emulators/retroarch`
@@ -33,9 +33,9 @@ Le réglage général est stocké dans le fichier "**retroarch.cfg**" situé dan
 
 Les informations de reconfiguration (étape 2) sont accessibles dans le menu « Paramètres rapides » de RetroArch, pendant qu'un cœur est en cours d'exécution :
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (134).png" alt="" width="294"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (149).png" alt="" width="294"><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (135).png" alt="" width="342"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (150).png" alt="" width="342"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Les fichiers de remappage sont enregistrés au format .rmp dans le dossier `/emulators/retroarch/config/remaps`.
@@ -83,7 +83,7 @@ Une fois le paramétrage fait, sortir et retourner sur le menu **TOUCHES**, puis
 
 Dans le sous-menu suivant, sauvegarder la configuration des touches pour le jeu (et il ne s'appliquera que pour celui-ci)
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (151).png" alt=""><figcaption></figcaption></figure></div>
 
 Une fois sauvegardé, le nouveau fichier de configuration sera utilisé au prochain lancement du jeu.
 
@@ -108,25 +108,25 @@ La logique utilisée par RetroBat pour accéder à ce fichier est la suivante :&
 
 Si un fichier yaml est trouvé, RetroBat le lira et cherchera un conteneur nommé à l'identique du nom du jeu :
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (85).png" alt=""><figcaption></figcaption></figure></div>
 
 Si aucun conteneur n'existe pour le jeu, RetroBat essaiera d'utiliser le conteneur "default":
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Pour les systèmes Arcade, un même jeu peut avoir plusieurs configurations, selon les options définies dans l'interface de RetroBat, sous PARAMÈTRES AVANCÉS > CONTRÔLES :
 
-![](<../../.gitbook/assets/image (78).png>)
+![](<../../.gitbook/assets/image (93).png>)
 
 RetroBat cherchera alors le conteneur correspondant à la disposition des boutons sélectionnée dans le menu RetroBat, puis il cherchera sur le conteneur spécifique au jeu :
 
-![](<../../.gitbook/assets/image (73).png>)
+![](<../../.gitbook/assets/image (88).png>)
 {% endhint %}
 
 Lorsqu'un conteneur spécifique est détecté, RetroBat génère et modifie automatiquement le fichier de remappage du cœur au moment du lancement d'un jeu, ce qui applique automatiquement le remappage sélectionné :
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Imposer un mapping pour un contrôleur
 
@@ -136,7 +136,7 @@ RetroBat est fourni avec un fichier spécifique nommé "**retroarch\_controller.
 
 Ce fichier est au format JSON ; il contient le mappage exact requis dans le fichier `retroarch.cfg`, basé sur le GUID SDL de la manette :
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure></div>
 
 L'exemple ci-dessus concerne la manette NSO N64 ; les différentes valeurs à indiquer dans le fichier sont les suivantes :
 
@@ -159,15 +159,15 @@ RetroBat propose une configuration automatique pour ces contrôleurs, qui est fo
 \
 Ce fichier contient le mappage à appliquer dans RetroArch pour un périphérique :
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (121).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (122).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure></div>
 
 Si vous possédez l'un de ces appareils, vous pouvez activer le mappage automatique depuis le menu RetroBat général **MENU GÉNÉRAL > PARAMÈTRES DES JEUX > OPTIONS RETROARCH >  CONTRÔLES :**
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (123).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Si vous possédez une autre manette reconnue comme un clavier, vous pouvez partager la configuration avec l'équipe RetroBat ; elle sera alors ajoutée de la même façon dans RetroBat.
@@ -183,8 +183,8 @@ RetroBat offre, pour de nombreux systèmes, la possibilité de changer la dispos
 
 L'option se trouve généralement dans le menu **Réglages avancés > contrôles** :
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure></div>
 
 Plus d'informations sur les différentes dispositions de touches se trouvent sur [la page du système](../../systemes-and-emulateurs/supported-game-systems/).

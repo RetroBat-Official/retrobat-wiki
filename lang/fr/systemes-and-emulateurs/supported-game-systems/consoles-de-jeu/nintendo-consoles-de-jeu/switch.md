@@ -40,7 +40,7 @@ Pour les émulateurs Citron et Eden, il est possible de déplacer le dossier SAV
 
 Pour cela, activer l'option disponible dans **MENU PRINCIPAL > PARAMÈTRES DES JEUX** :
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure></div>
 
 ## BIOS
 
@@ -76,7 +76,7 @@ Placer les fichiers .nca du firmware dans le dossier `\emulators\`<mark style="c
 | Stick analogique gauche                                                            | Stick analogique gauche     |
 | Stick analogique droit                                                             | Stick analogique droit      |
 | ![A](<../../../../.gitbook/assets/image (20) (1).png>)                             | <p>B<br>Ou A si inversé</p> |
-| ![B](<../../../../.gitbook/assets/image (7) (1) (1).png>)                          | <p>A<br>Ou B si inversé</p> |
+| ![B](<../../../../.gitbook/assets/image (7) (1).png>)                              | <p>A<br>Ou B si inversé</p> |
 | <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | <p>X<br>Ou Y si inversé</p> |
 | <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     | <p>Y<br>Ou X si inversé</p> |
 | LB (L1)                                                                            | L                           |

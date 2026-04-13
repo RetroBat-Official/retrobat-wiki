@@ -8,7 +8,7 @@ L'équipe RetroBat a défini des hotkeys par défaut à la manette et au clavier
 Pour réaliser une action liée à une hotkey, il est nécessaire de presser la touche d'activation hotkey, puis de presser le second bouton simultanément.
 {% endhint %}
 
-<table><thead><tr><th width="234.699951171875">Hotkeys (manette)</th><th>touche clavier</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (7) (1) (1).png" alt=""></td><td>CTRL+F12</td><td><a href="game-control-center.md">Game control center</a></td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (20) (1).png" alt=""></td><td>F1</td><td>Menu de l'émulateur (ou Pause si l'émulateur n'a pas de menu)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt=""></td><td>F4</td><td>Charger Save State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt=""></td><td>F2</td><td>Enregistrer Save State</td></tr><tr><td>Hotkey + START</td><td>ECHAP</td><td>Quitter l'émulateur / le jeu</td></tr><tr><td>Hotkey + L1</td><td>F11</td><td>Éjecter Disque</td></tr><tr><td>Hotkey + R1</td><td></td><td>Service de traduction IA</td></tr><tr><td>Hotkey + L2</td><td>F9</td><td>Disque Index -</td></tr><tr><td>Hotkey + R2</td><td>F10</td><td>Disque Index +</td></tr><tr><td>Hotkey + D-PAD HAUT</td><td>F7</td><td>Choisir Slot de sauvegarde Index +</td></tr><tr><td>Hotkey + D-PAD BAS</td><td>F6</td><td>Choisir Slot de sauvegarde Index -</td></tr><tr><td>Hotkey + D-PAD GAUCHE</td><td>Retour arrière</td><td>Rembobiner</td></tr><tr><td>Hotkey + D-PAD DROITE</td><td>Constant : F<br>Bref : Espace</td><td>Avance rapide (Choix possible entre maintenir et basculer)</td></tr><tr><td>Hotkey + R3 (stick droit)</td><td>F8</td><td>Capture d'écran</td></tr><tr><td></td><td>F</td><td>Basculer plein écran</td></tr><tr><td></td><td>K</td><td>Avance de frame</td></tr><tr><td>Hotkey + L3</td><td>P</td><td>Pause (si un émulateur à un menu et que la Hotkey + <img src="../.gitbook/assets/image (80).png" alt=""> est utilisée)</td></tr></tbody></table>
+<table><thead><tr><th width="234.699951171875">Hotkeys (manette)</th><th>touche clavier</th><th>Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (7) (1).png" alt=""></td><td>CTRL+F12</td><td><a href="game-control-center.md">Game control center</a></td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (20) (1).png" alt=""></td><td>F1</td><td>Menu de l'émulateur (ou Pause si l'émulateur n'a pas de menu)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (35).png" alt=""></td><td>F4</td><td>Charger Save State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (33).png" alt=""></td><td>F2</td><td>Enregistrer Save State</td></tr><tr><td>Hotkey + START</td><td>ECHAP</td><td>Quitter l'émulateur / le jeu</td></tr><tr><td>Hotkey + L1</td><td>F11</td><td>Éjecter Disque</td></tr><tr><td>Hotkey + R1</td><td></td><td>Service de traduction IA</td></tr><tr><td>Hotkey + L2</td><td>F9</td><td>Disque Index -</td></tr><tr><td>Hotkey + R2</td><td>F10</td><td>Disque Index +</td></tr><tr><td>Hotkey + D-PAD HAUT</td><td>F7</td><td>Choisir Slot de sauvegarde Index +</td></tr><tr><td>Hotkey + D-PAD BAS</td><td>F6</td><td>Choisir Slot de sauvegarde Index -</td></tr><tr><td>Hotkey + D-PAD GAUCHE</td><td>Retour arrière</td><td>Rembobiner</td></tr><tr><td>Hotkey + D-PAD DROITE</td><td>Constant : F<br>Bref : Espace</td><td>Avance rapide (Choix possible entre maintenir et basculer)</td></tr><tr><td>Hotkey + R3 (stick droit)</td><td>F8</td><td>Capture d'écran</td></tr><tr><td></td><td>F</td><td>Basculer plein écran</td></tr><tr><td></td><td>K</td><td>Avance de frame</td></tr><tr><td>Hotkey + L3</td><td>P</td><td>Pause (si un émulateur à un menu et que la Hotkey + <img src="../.gitbook/assets/image (95).png" alt=""> est utilisée)</td></tr></tbody></table>
 
 Pour la liste des émulateurs ci-dessous, les hotkeys ont été alignés, avec quelques variations liés aux possibilités des émulateurs :
 
@@ -97,27 +97,27 @@ Copier le fichier **controller\_hotkeys.yml** dans le dossier `\user\inputmappin
 
 Ouvrir le fichier avec votre éditeur de texte préféré :
 
-<div align="left"><figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure></div>
 
 Le fichier est formaté en yml, **par défaut toutes les valeurs sont commentées**.
 
 La première chose à faire est de dé-commenter la section actuelle ou les boutons sont définis, ainsi que la section container. Pour cela, il faut supprimer le caractère # de toutes les lignes situées a partir de la ligne `#default:` incluant cette dernière :
 
-<div align="left"><figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure></div>
 
 Dans cet exemple, nous allons replacer les hotkeys d'**avance rapide** et de **rembobinage** sur les boutons R1 et L1, et déplacer les actions d'**éjection de disque** et de **service AI** vers le d-pad :
 
 Pour cela, il faut assigner la fonction de **rembobinage** sur pageup (L1) et la fonction d'**avance rapide maintenu** sur pagedown (R1), puis assigner la fonction d’**éjection de disque** et de **service AI** sur les boutons d-pad correspondant (gauche et droite) :
 
-<div align="left"><figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (72).png" alt=""><figcaption></figcaption></figure></div>
 
 Puis, sauvegarder le fichier dans le dossier `\user\inputmapping` de votre installation RetroBat :
 
-<div align="left"><figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure></div>
 
 Vous pouvez également spécifier des mappages spécifiques pour un cœur en particulier (dans le cas ou l’émulateur utilise des cœurs différents : Ares, Bizhawk, RetroArch...). Dans l'exemple ci-dessous, le mappage est différent avec le cœur flycast, pour lequel l'avance rapide s'active par pression unique du bouton, au lieu d'une activation en restant appuyé sur le bouton par défaut :
 
-<div align="left"><figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (74).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Remappage des hotkeys pour clavier <a href="#remap-controller-hotkeys" id="remap-controller-hotkeys"></a>
 
@@ -125,18 +125,18 @@ Copier le fichier **kb\_hotkeys.yml** dans le dossier `\user\inputmapping\` de v
 
 Ouvrir le fichier avec votre éditeur de texte préféré :
 
-<div align="left"><figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (75).png" alt=""><figcaption></figcaption></figure></div>
 
 Le fichier est formaté en yml, **par défaut toutes les valeurs sont commentées**.
 
 La première chose à faire est de dé-commenter la section actuelle ou les boutons sont définis, ainsi que la section container. Pour cela, il faut supprimer le caractère # de toutes les lignes situées a partir de la ligne `#default:` incluant celle-ci :
 
-<div align="left"><figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (76).png" alt=""><figcaption></figcaption></figure></div>
 
 Puis sauvegarder le fichier :
 
-<div align="left"><figure><img src="../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure></div>
 
 Vous pouvez également spécifier des mappages spécifiques pour un cœur en particulier (dans le cas ou l’émulateur utilise des cœurs différents : Ares, Bizhawk, RetroArch...). Dans l'exemple ci-dessous, le mappage est différent avec le cœur flycast, pour lequel l'avance rapide s'active par pression unique du bouton, au lieu d'une activation en restant appuyé sur le bouton par défaut :
 
-<div align="left"><figure><img src="../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (78).png" alt=""><figcaption></figcaption></figure></div>

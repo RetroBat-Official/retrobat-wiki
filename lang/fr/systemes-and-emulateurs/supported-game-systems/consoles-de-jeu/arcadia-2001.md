@@ -24,23 +24,23 @@ Console de jeu - Durée de vie : 1982 - 1984
 
 ## Contrôles
 
-| Retrobat                                              | Arcadia 2001 |
-| ----------------------------------------------------- | ------------ |
-| START                                                 | 0            |
-| SELECT                                                | 9            |
-| D-PAD                                                 | Stick        |
-| Stick analogique gauche                               | Stick        |
-| Stick analogique droit                                |              |
-| ![](<../../../.gitbook/assets/image (33).png>)        | 4            |
-| ![](<../../../.gitbook/assets/image (20) (1).png>)    | 2            |
-| ![](<../../../.gitbook/assets/image (7) (1) (1).png>) | 1            |
-| ![](<../../../.gitbook/assets/image (35).png>)        | 3            |
-| L1                                                    | 6            |
-| R1                                                    | 5            |
-| L2                                                    | 8            |
-| R2                                                    | 7            |
-| L3                                                    | 0            |
-| R3                                                    | 9            |
+| Retrobat                                           | Arcadia 2001 |
+| -------------------------------------------------- | ------------ |
+| START                                              | 0            |
+| SELECT                                             | 9            |
+| D-PAD                                              | Stick        |
+| Stick analogique gauche                            | Stick        |
+| Stick analogique droit                             |              |
+| ![](<../../../.gitbook/assets/image (33).png>)     | 4            |
+| ![](<../../../.gitbook/assets/image (20) (1).png>) | 2            |
+| ![](<../../../.gitbook/assets/image (7) (1).png>)  | 1            |
+| ![](<../../../.gitbook/assets/image (35).png>)     | 3            |
+| L1                                                 | 6            |
+| R1                                                 | 5            |
+| L2                                                 | 8            |
+| R2                                                 | 7            |
+| L3                                                 | 0            |
+| R3                                                 | 9            |
 
 ## Information spécifique du système
 

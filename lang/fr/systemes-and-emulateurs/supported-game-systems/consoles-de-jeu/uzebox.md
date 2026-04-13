@@ -28,7 +28,7 @@ Aucun BIOS nécessaire.
 | Stick analogique gauche                                                         |        |
 | Stick analogique droit                                                          |        |
 | ![A](<../../../.gitbook/assets/image (20) (1).png>)                             | A      |
-| ![B](<../../../.gitbook/assets/image (7) (1) (1).png>)                          | B      |
+| ![B](<../../../.gitbook/assets/image (7) (1).png>)                              | B      |
 | <img src="../../../.gitbook/assets/image (35).png" alt="" data-size="original"> |        |
 | <img src="../../../.gitbook/assets/image (33).png" alt="" data-size="line">     |        |
 | L1                                                                              |        |

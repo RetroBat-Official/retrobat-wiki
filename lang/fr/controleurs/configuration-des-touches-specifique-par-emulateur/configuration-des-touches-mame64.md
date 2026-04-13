@@ -20,15 +20,15 @@ Par défaut, RetroBat tentera de configurer automatiquement les commandes dans M
 
 L'autoconfiguration peut être modifié selon la disposition des boutons, a spécifier dans le menu **CONFIGURATION AVANCÉE DU SYSTÈME > CONTRÔLES :**
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (100).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure></div>
 
 **Les boutons par défaut pour chacun de ces profiles sont les suivants :**&#x20;
 
-**Controller** : Ce profile est adapté pour les manettes, ou ![](<../../.gitbook/assets/image (103).png>) est assigné au bouton 1, ![](<../../.gitbook/assets/image (106).png>) est assigné au bouton 2, ![](<../../.gitbook/assets/image (109).png>) est assigné au bouton 3, ![](<../../.gitbook/assets/image (112).png>) est assigné au bouton 4, L1 au bouton 5, R1 au bouton 6, L2 au bouton 7 et R2 au bouton 8
+**Controller** : Ce profile est adapté pour les manettes, ou ![](<../../.gitbook/assets/image (118).png>) est assigné au bouton 1, ![](<../../.gitbook/assets/image (121).png>) est assigné au bouton 2, ![](<../../.gitbook/assets/image (124).png>) est assigné au bouton 3, ![](<../../.gitbook/assets/image (127).png>) est assigné au bouton 4, L1 au bouton 5, R1 au bouton 6, L2 au bouton 7 et R2 au bouton 8
 
-**Modern 8 buttons** : Ce profile est celui le plus communément utilisé pour les sticks d'arcade modernes, les 4 boutons supérieurs sont les boutons 1 (![](<../../.gitbook/assets/image (110).png>)), 2(![](<../../.gitbook/assets/image (113).png>)), 3(R1) et 7(L1), les 4 boutons inférieurs sont les boutons 4(![](<../../.gitbook/assets/image (104).png>)), 5(![](<../../.gitbook/assets/image (107).png>)), 6(R2) et 8(L2)
+**Modern 8 buttons** : Ce profile est celui le plus communément utilisé pour les sticks d'arcade modernes, les 4 boutons supérieurs sont les boutons 1 (![](<../../.gitbook/assets/image (125).png>)), 2(![](<../../.gitbook/assets/image (128).png>)), 3(R1) et 7(L1), les 4 boutons inférieurs sont les boutons 4(![](<../../.gitbook/assets/image (119).png>)), 5(![](<../../.gitbook/assets/image (122).png>)), 6(R2) et 8(L2)
 
-**Classic 8 buttons** : Les 4 boutons supérieurs sont les boutons 1 (![](<../../.gitbook/assets/image (111).png>)), 2(![](<../../.gitbook/assets/image (114).png>)), 3(L1) et 7(L2), les 4 boutons inférieurs sont les boutons 4(![](<../../.gitbook/assets/image (105).png>)), 5(![](<../../.gitbook/assets/image (108).png>)), 6(R1) et 8(R2)
+**Classic 8 buttons** : Les 4 boutons supérieurs sont les boutons 1 (![](<../../.gitbook/assets/image (126).png>)), 2(![](<../../.gitbook/assets/image (129).png>)), 3(L1) et 7(L2), les 4 boutons inférieurs sont les boutons 4(![](<../../.gitbook/assets/image (120).png>)), 5(![](<../../.gitbook/assets/image (123).png>)), 6(R1) et 8(R2)
 
 **6 buttons** : similaire au profile classic 8 buttons mais sans les boutons 7 et 8
 
@@ -38,7 +38,7 @@ L'autoconfiguration peut être modifié selon la disposition des boutons, a spé
 
 RetroBat est fourni avec des configurations adaptées par jeu, pour chacune des dispositions décrites ci-dessus, pour environ 130 jeux. Les fichiers de configuration fournis avec RetroBat se trouvent dans le répertoire `\system\resources\inputmapping\mame` :
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Vous pouvez créer votre propre fichier et le partager avec l'équipe RetroBat, ou le sauvegarder dans le dossier `\user\inputmapping\mame` de votre installation RetroBat si vous souhaitez apporter des variations personnelles à la configuration fournie par RetroBat.
@@ -46,19 +46,19 @@ Vous pouvez créer votre propre fichier et le partager avec l'équipe RetroBat, 
 
 Le fichier de remplacement est un fichier XML, très similaire au format MAME utilisé pour ses propres fichiers de configuration, mais contenant des noms de boutons génériques, qui seront convertis par RetroBat en fonction de la manette connectée et du profil sélectionné :
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure></div>
 
 Chaque fichier contient plusieurs sections « _layout_ », qui correspondent aux dispositions disponibles dans RetroBat. En fonction de la valeur sélectionnée dans les paramètres de contrôle de RetroBat, la disposition correspondante sera choisie dans le fichier.
 
 Chaque configuration contient les raccourcis clavier spécifiques à utiliser pour le jeu ; par exemple, la ligne suivante signifie que le **bouton 3** de la machine arcade "_altbeast_", pour le joueur 1, sera défini sur le **bouton EST** du contrôleur, lors de l'utilisation du layout "default" :
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure></div>
 
 In the same file you can see that this button is mapped to the **R1 button** when using the modern8 layout (which corresponds to the 3rd button of the upper range of the arcade stick) :
 
 Dans ce même fichier, vous pouvez voir que ce bouton est associé à la **touche R1** lorsque vous utilisez la configuration « modern8 » (ce qui correspond au troisième bouton de la rangée supérieure de la manette d'arcade) :
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (118).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure></div>
 
 Vous pouvez utiliser [la même méthode que décrite ci-dessous](configuration-des-touches-mame64.md#creation-dun-fichier-de-configuration-de-manette-specifique-pour-mame) pour créer votre propre configuration de fichier, vous devrez toutefois remplacer les valeurs des boutons par celles fournies par RetroBat :
 
@@ -93,7 +93,7 @@ Il est également possible d'ajouter « reverse » après un axe afin de défini
 
 Utilisez les réglages suivants dans le menu **CONFIGURATION AVANCÉE DU SYSTÈME > CONTRÔLES** de RetroBat pour activer une configuration spécifique :
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure></div>
 
 Tous les paramètres autres que « RetroBat Auto » permettent de configurer MAME pour qu'il utilise un fichier de configuration de manette situé dans le dossier `\saves\mame\ctrlr\` de votre installation RetroBat.\
 RetroBat est fourni avec deux fichiers : l'un pour la manette IPAC2 et l'autre pour la manette X-Arcade TankStick. Si vous possédez l'une de ces manettes, vous pouvez utiliser ces options pour les configurer automatiquement.\
@@ -217,7 +217,7 @@ Par défaut, RetroBat tentera de configurer automatiquement les commandes dans l
 \
 La configuration automatique peut varier en fonction de la disposition de la manette que vous spécifiez dans **CONFIGURATION AVANCÉE DU SYSTÈME > CONTRÔLES :**
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (120).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (135).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Surcharge RetroBat des fichiers xml par jeu
 
@@ -231,4 +231,4 @@ Si vous souhaitez modifier ce fichier, copiez-le d'abord dans le dossier `user\i
 
 Le fichier de remappage est un fichier YAML ; chaque conteneur contient le remappage RetroArch correspondant à un jeu ou à une configuration :
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (119).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (134).png" alt=""><figcaption></figcaption></figure></div>

@@ -62,7 +62,7 @@ Si le joueur 1 utilise une manette non-xinput, la manette du joueur 2 doit égal
 | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
 | Stick gauche                                                                       | Direction                                                                    |
 | ![A](<../../../../.gitbook/assets/image (20) (1).png>)                             | VR2 (bleu)                                                                   |
-| ![B](<../../../../.gitbook/assets/image (7) (1) (1).png>)                          | VR4 (vert)                                                                   |
+| ![B](<../../../../.gitbook/assets/image (7) (1).png>)                              | VR4 (vert)                                                                   |
 | <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | VR1 (rouge)                                                                  |
 | <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     | VR3 (jaune)                                                                  |
 | Stick droit                                                                        | <p>Levier de vitesse:<br>HAUT = 1<br>BAS = 2<br>GAUCHE = 3<br>DROITE = 4</p> |
@@ -77,7 +77,7 @@ Si le joueur 1 utilise une manette non-xinput, la manette du joueur 2 doit égal
 | ---------------------------------------------------------------------------------- | ------------------ |
 | Stick gauche                                                                       | Direction          |
 | ![A](<../../../../.gitbook/assets/image (20) (1).png>)                             | VR2 (bleu)         |
-| ![B](<../../../../.gitbook/assets/image (7) (1) (1).png>)                          | VR4 (vert)         |
+| ![B](<../../../../.gitbook/assets/image (7) (1).png>)                              | VR4 (vert)         |
 | <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | VR1 (rouge)        |
 | <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     | VR3 (jaune)        |
 | L1                                                                                 | Retrograder        |
@@ -114,7 +114,7 @@ Si le joueur 1 utilise une manette non-xinput, la manette du joueur 2 doit égal
 | ---------------------------------------------------------------------------------- | ------------------ |
 | Stick gauche                                                                       | Direction          |
 | ![A](<../../../../.gitbook/assets/image (20) (1).png>)                             | Frein arrière      |
-| ![B](<../../../../.gitbook/assets/image (7) (1) (1).png>)                          | Changer la musique |
+| ![B](<../../../../.gitbook/assets/image (7) (1).png>)                              | Changer la musique |
 | <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | Changer la vue     |
 | L1                                                                                 | Rétrograder        |
 | R1                                                                                 | Vitesse supérieure |
@@ -179,7 +179,7 @@ La cible ne fonctionnera pas si les réglages de la cible ne sont pas effectués
 | ------------------------------------------------------------------------------ | -------------- |
 | Stick gauche                                                                   | Tourner        |
 | ![A](<../../../../.gitbook/assets/image (20) (1).png>)                         | Rouge          |
-| ![B](<../../../../.gitbook/assets/image (7) (1) (1).png>)                      | Vert           |
+| ![B](<../../../../.gitbook/assets/image (7) (1).png>)                          | Vert           |
 | <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line"> | Bleu           |
 | Stick droit                                                                    | Tourner + fort |
 | L2                                                                             | Bâton gauche   |
@@ -191,7 +191,7 @@ La cible ne fonctionnera pas si les réglages de la cible ne sont pas effectués
 | ---------------------------------------------------------------------------------- | ---------- |
 | Stick gauche                                                                       | Bouger     |
 | ![A](<../../../../.gitbook/assets/image (20) (1).png>)                             | Taper      |
-| ![B](<../../../../.gitbook/assets/image (7) (1) (1).png>)                          | Mitrailler |
+| ![B](<../../../../.gitbook/assets/image (7) (1).png>)                              | Mitrailler |
 | <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | Sauter     |
 | <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     | Charger    |
 | R1                                                                                 | Mitrailler |
@@ -226,7 +226,7 @@ La cible ne fonctionnera pas si les réglages de la cible ne sont pas effectués
 | ---------------------------------------------------------------------------------- | ------------- |
 | Stick gauche, D-PAD                                                                | Bouger        |
 | ![A](<../../../../.gitbook/assets/image (20) (1).png>)                             | Guarde        |
-| ![B](<../../../../.gitbook/assets/image (7) (1) (1).png>)                          | S'échapper    |
+| ![B](<../../../../.gitbook/assets/image (7) (1).png>)                              | S'échapper    |
 | <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | Coup de pied  |
 | <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     | Coup de poing |
 
@@ -236,7 +236,7 @@ La cible ne fonctionnera pas si les réglages de la cible ne sont pas effectués
 | ---------------------------------------------------------------------------------- | -------------- |
 | Stick gauche                                                                       | Bouger         |
 | ![A](<../../../../.gitbook/assets/image (20) (1).png>)                             | S'accroupir    |
-| ![B](<../../../../.gitbook/assets/image (7) (1) (1).png>)                          | Turbo droite   |
+| ![B](<../../../../.gitbook/assets/image (7) (1).png>)                              | Turbo droite   |
 | <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | Sauter         |
 | <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     | Turbo gauche   |
 | Stick droit                                                                        | Tourner        |
@@ -251,7 +251,7 @@ La cible ne fonctionnera pas si les réglages de la cible ne sont pas effectués
 | ------------------------------------------------------------------------------ | ------------ |
 | Stick gauche                                                                   | Bouger       |
 | ![A](<../../../../.gitbook/assets/image (20) (1).png>)                         | Passe longue |
-| ![B](<../../../../.gitbook/assets/image (7) (1) (1).png>)                      | Tirer        |
+| ![B](<../../../../.gitbook/assets/image (7) (1).png>)                          | Tirer        |
 | <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line"> | Passe courte |
 
 ## Informations spécifiques au système

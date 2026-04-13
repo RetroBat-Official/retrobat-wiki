@@ -143,4 +143,4 @@ Vita3K permet à l'utilisateur d'importer des textures HD personnalisées pour c
 
 Pour cela, placer le pack de textures dans le dossier `emulators\vita3k\textures\import` de votre installation RetroBat, activer l'option dans **CONFIGURATION AVANCÉE DU SYSTÈME > RENDU VISUEL** :
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (110).png" alt=""><figcaption></figcaption></figure></div>

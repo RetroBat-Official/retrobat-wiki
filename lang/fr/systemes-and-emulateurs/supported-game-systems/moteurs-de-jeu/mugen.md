@@ -20,23 +20,23 @@ Aucun BIOS nécessaire.
 
 ## Contrôles
 
-| Retrobat                                              | Mugen  |
-| ----------------------------------------------------- | ------ |
-| START                                                 | RETURN |
-| SELECT                                                |        |
-| D-PAD                                                 | D-PAD  |
-| Stick analogique gauche                               |        |
-| Stick analogique droit                                |        |
-| ![](<../../../.gitbook/assets/image (33).png>)        | X      |
-| ![](<../../../.gitbook/assets/image (20) (1).png>)    | A      |
-| ![](<../../../.gitbook/assets/image (7) (1) (1).png>) | B      |
-| ![](<../../../.gitbook/assets/image (35).png>)        | Y      |
-| L1                                                    | Z      |
-| R1                                                    | C      |
-| L2                                                    |        |
-| R2                                                    |        |
-| L3                                                    |        |
-| R3                                                    |        |
+| Retrobat                                           | Mugen  |
+| -------------------------------------------------- | ------ |
+| START                                              | RETURN |
+| SELECT                                             |        |
+| D-PAD                                              | D-PAD  |
+| Stick analogique gauche                            |        |
+| Stick analogique droit                             |        |
+| ![](<../../../.gitbook/assets/image (33).png>)     | X      |
+| ![](<../../../.gitbook/assets/image (20) (1).png>) | A      |
+| ![](<../../../.gitbook/assets/image (7) (1).png>)  | B      |
+| ![](<../../../.gitbook/assets/image (35).png>)     | Y      |
+| L1                                                 | Z      |
+| R1                                                 | C      |
+| L2                                                 |        |
+| R2                                                 |        |
+| L3                                                 |        |
+| R3                                                 |        |
 
 ## Information spécifique au système
 

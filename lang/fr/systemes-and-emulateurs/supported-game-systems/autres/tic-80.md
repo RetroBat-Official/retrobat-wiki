@@ -22,21 +22,21 @@ Aucun BIOS nécessaire.
 
 ## Contrôles
 
-| Retrobat                                              | TIC-80      |
-| ----------------------------------------------------- | ----------- |
-| START                                                 |             |
-| SELECT                                                |             |
-| D-PAD                                                 | D-PAD       |
-| Left analog stick                                     | D-PAD       |
-| Right analog stick                                    |             |
-| ![](<../../../.gitbook/assets/image (33).png>)        | X           |
-| ![](<../../../.gitbook/assets/image (20) (1).png>)    | A           |
-| ![](<../../../.gitbook/assets/image (7) (1) (1).png>) | B           |
-| ![](<../../../.gitbook/assets/image (35).png>)        | Y           |
-| L1                                                    | Ralenti     |
-| R1                                                    |             |
-| L2                                                    | Clic gauche |
-| R2                                                    | Clic droit  |
+| Retrobat                                           | TIC-80      |
+| -------------------------------------------------- | ----------- |
+| START                                              |             |
+| SELECT                                             |             |
+| D-PAD                                              | D-PAD       |
+| Left analog stick                                  | D-PAD       |
+| Right analog stick                                 |             |
+| ![](<../../../.gitbook/assets/image (33).png>)     | X           |
+| ![](<../../../.gitbook/assets/image (20) (1).png>) | A           |
+| ![](<../../../.gitbook/assets/image (7) (1).png>)  | B           |
+| ![](<../../../.gitbook/assets/image (35).png>)     | Y           |
+| L1                                                 | Ralenti     |
+| R1                                                 |             |
+| L2                                                 | Clic gauche |
+| R2                                                 | Clic droit  |
 
 ## Information spécifique au système
 

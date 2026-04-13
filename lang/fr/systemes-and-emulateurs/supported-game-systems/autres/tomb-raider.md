@@ -20,21 +20,21 @@ Aucun BIOS nécessaire.
 
 ## Contrôles
 
-| Retrobat                                              | OpenLara                  |
-| ----------------------------------------------------- | ------------------------- |
-| START                                                 | START                     |
-| SELECT                                                | Inventaire                |
-| D-PAD                                                 | D-PAD                     |
-| Left analog stick                                     |                           |
-| Right analog stick                                    |                           |
-| ![](<../../../.gitbook/assets/image (33).png>)        | Sauter                    |
-| ![](<../../../.gitbook/assets/image (20) (1).png>)    | Action : tirer / attraper |
-| ![](<../../../.gitbook/assets/image (7) (1) (1).png>) | Rouler                    |
-| ![](<../../../.gitbook/assets/image (35).png>)        | Sortir arme               |
-| L1                                                    |                           |
-| R1                                                    | Marcher (garder enfoncé)  |
-| L2                                                    | S'accroupir               |
-| R2                                                    | Sprinter                  |
+| Retrobat                                           | OpenLara                  |
+| -------------------------------------------------- | ------------------------- |
+| START                                              | START                     |
+| SELECT                                             | Inventaire                |
+| D-PAD                                              | D-PAD                     |
+| Left analog stick                                  |                           |
+| Right analog stick                                 |                           |
+| ![](<../../../.gitbook/assets/image (33).png>)     | Sauter                    |
+| ![](<../../../.gitbook/assets/image (20) (1).png>) | Action : tirer / attraper |
+| ![](<../../../.gitbook/assets/image (7) (1).png>)  | Rouler                    |
+| ![](<../../../.gitbook/assets/image (35).png>)     | Sortir arme               |
+| L1                                                 |                           |
+| R1                                                 | Marcher (garder enfoncé)  |
+| L2                                                 | S'accroupir               |
+| R2                                                 | Sprinter                  |
 
 ## Information spécifique au système
 

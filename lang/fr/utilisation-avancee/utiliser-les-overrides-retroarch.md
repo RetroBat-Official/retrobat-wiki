@@ -6,7 +6,7 @@ Si vous ne souhaitez pas utiliser la configuration globale de RetroBat pour les 
 
 RetroArch permet de sauvegarder un fichier d'override pour les options générales, cet override peut être sauvegardé pour un jeu, un coeur libretro ou pour un dossier de contenu.
 
-Pour générer un fichier d'override, lancer le menu RetroArch depuis un jeu en appuyant sur SELECT + ![](<../.gitbook/assets/image (2) (1) (1).png>) de votre manette (F1 sur le clavier). Effectuer les réglages souhaités puis aller dans le menu de "Configuration de Substitution":
+Pour générer un fichier d'override, lancer le menu RetroArch depuis un jeu en appuyant sur SELECT + ![](<../.gitbook/assets/image (2) (1).png>) de votre manette (F1 sur le clavier). Effectuer les réglages souhaités puis aller dans le menu de "Configuration de Substitution":
 
 <div align="left"><figure><img src="https://i.imgur.com/Ao7zf9g.png" alt=""><figcaption></figcaption></figure></div>
 
@@ -28,7 +28,7 @@ Maintenant, activer l'option d'override dans RetroBat dans le [**menu principal 
 
 RetroArch permet de sauvegarder un fichier d'override pour les shaders, cet override peut être sauvegardé pour un jeu, un coeur libretro, un dossier de contenu ou globalement.
 
-Pour générer un fichier d'override de shaders, lancer le menu RetroArch depuis un jeu en appuyant sur SELECT + ![](<../.gitbook/assets/image (2) (1) (1).png>) de votre manette (F1 sur le clavier). Puis aller dans le menu **Shaders** pour effectuer les réglages souhaités:
+Pour générer un fichier d'override de shaders, lancer le menu RetroArch depuis un jeu en appuyant sur SELECT + ![](<../.gitbook/assets/image (2) (1).png>) de votre manette (F1 sur le clavier). Puis aller dans le menu **Shaders** pour effectuer les réglages souhaités:
 
 <div align="left"><figure><img src="https://i.imgur.com/zxiggYZ.png" alt=""><figcaption></figcaption></figure></div>
 
@@ -59,11 +59,11 @@ Lorsque vous souhaitez utiliser le format d'affichage "personnalisé" dans **CON
 
 Les informations contenues dans le fichier rempliront automatiquement les champs suivants dans RetroArch :
 
-<div align="left"><figure><img src="../.gitbook/assets/image (96).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (111).png" alt=""><figcaption></figcaption></figure></div>
 
 Pour ce faire, créez un fichier .txt soit dans le dossier `roms\<system>` du système auquel le rapport doit être appliqué, soit dans le dossier `user\customratio` de votre installation RetroBat :
 
-<div align="left"><figure><img src="../.gitbook/assets/image (97).png" alt=""><figcaption><p>Example for NES</p></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (112).png" alt=""><figcaption><p>Example for NES</p></figcaption></figure></div>
 
 Le fichier doit être nommé soit :
 
@@ -72,4 +72,4 @@ Le fichier doit être nommé soit :
 
 Enfin, sélectionner la valeur "PERSONNALISÉ" dans le champs **RAPPORT D'ASPECT** de RetroBat :
 
-<div align="left"><figure><img src="../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (113).png" alt=""><figcaption></figcaption></figure></div>

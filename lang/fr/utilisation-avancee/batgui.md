@@ -2,7 +2,7 @@
 
 BatGui est un utilitaire disponible dans le dossier d'installation de Retrobat.
 
-<div align="left"><figure><img src="../.gitbook/assets/image (99).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (114).png" alt=""><figcaption></figcaption></figure></div>
 
 **Cet utilitaire permet:**
 

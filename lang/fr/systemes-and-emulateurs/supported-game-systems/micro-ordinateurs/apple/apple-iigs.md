@@ -31,7 +31,7 @@ Micro-ordinateur - Durée de vie : 1986 - 1992
 - "341-0728" size="131072" crc="8d410067" sha1="c0f4704233ead14cb8e1e8a68fbd7063c56afd27"
 - "341-0748" size="131072" crc="18190283" sha1="c70576869deec92ca82c78438b1d5c686eac7480"
 - "341s0632-2.bin" size="4096" crc="e1c11fb0" sha1="141d18c36a617ab9dce668445440d34354be0672"
-- "megaii.chr" size="16384" crc="ef0bfc11" sha1="c068f3d02d442a8a38121d42318e9a962ee8913e"
+- "344s0047.bin" size="16384" crc="2d541944" sha1="5a5a77c8ec45632aea1a57cd9c9257f7f6e44668"
 ```
 
 </details>

@@ -16,21 +16,21 @@ Aucun BIOS nécessaire.
 
 ## Contrôles
 
-| Retrobat                                              | Cannonball        |
-| ----------------------------------------------------- | ----------------- |
-| START                                                 | START             |
-| SELECT                                                | COIN              |
-| D-PAD                                                 | D-PAD             |
-| Left analog stick                                     | Directions        |
-| Right analog stick                                    |                   |
-| ![](<../../../.gitbook/assets/image (33).png>)        | Freiner           |
-| ![](<../../../.gitbook/assets/image (20) (1).png>)    | Accélerer         |
-| ![](<../../../.gitbook/assets/image (7) (1) (1).png>) |                   |
-| ![](<../../../.gitbook/assets/image (35).png>)        |                   |
-| L1                                                    | Changer de vue    |
-| R1                                                    | Retourner au menu |
-| L2                                                    |                   |
-| R2                                                    |                   |
+| Retrobat                                           | Cannonball        |
+| -------------------------------------------------- | ----------------- |
+| START                                              | START             |
+| SELECT                                             | COIN              |
+| D-PAD                                              | D-PAD             |
+| Left analog stick                                  | Directions        |
+| Right analog stick                                 |                   |
+| ![](<../../../.gitbook/assets/image (33).png>)     | Freiner           |
+| ![](<../../../.gitbook/assets/image (20) (1).png>) | Accélerer         |
+| ![](<../../../.gitbook/assets/image (7) (1).png>)  |                   |
+| ![](<../../../.gitbook/assets/image (35).png>)     |                   |
+| L1                                                 | Changer de vue    |
+| R1                                                 | Retourner au menu |
+| L2                                                 |                   |
+| R2                                                 |                   |
 
 ## Information spécifique au système
 

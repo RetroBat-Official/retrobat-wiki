@@ -31,7 +31,7 @@ Il est toutefois nécessaire d'assigner les boutons A, B, D-PAD, START, SELECT e
 
 Les correspondances de boutons "standard" pour les manettes XBOX, PlayStation et Nintendo sont listées dans la table ci-dessous:
 
-<table><thead><tr><th width="184">Retrobat</th><th>Microsoft XBOX</th><th>PlayStation</th><th>Nintendo</th></tr></thead><tbody><tr><td><img src="../.gitbook/assets/image (20) (1).png" alt="A"></td><td>A</td><td><img src="../.gitbook/assets/image (13) (1) (1).png" alt=""></td><td>B</td></tr><tr><td><img src="../.gitbook/assets/image (7) (1) (1).png" alt=""></td><td>B</td><td><img src="../.gitbook/assets/image (23) (1).png" alt=""></td><td>A</td></tr><tr><td><img src="../.gitbook/assets/image (35).png" alt=""></td><td>Y</td><td><img src="../.gitbook/assets/image (21) (1).png" alt=""></td><td>X</td></tr><tr><td><img src="../.gitbook/assets/image (33).png" alt="" data-size="line"></td><td>X</td><td><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""></td><td>Y</td></tr><tr><td>START</td><td><img src="../.gitbook/assets/image (25) (1).png" alt=""></td><td>START / OPTIONS</td><td>+</td></tr><tr><td>SELECT</td><td><img src="../.gitbook/assets/image (24) (1).png" alt=""></td><td>SELECT / SHARE</td><td>-</td></tr><tr><td>D-PAD HAUT</td><td>D-PAD HAUT</td><td>D-PAD HAUT</td><td>D-PAD HAUT</td></tr><tr><td>D-PAD BAS</td><td>D-PAD BAS</td><td>D-PAD BAS</td><td>D-PAD BAS</td></tr><tr><td>D-PAD GAUCHE</td><td>D-PAD GAUCHE</td><td>D-PAD GAUCHE</td><td>D-PAD GAUCHE</td></tr><tr><td>D-PAD DROITE</td><td>D-PAD DROITE</td><td>D-PAD DROITE</td><td>D-PAD DROITE</td></tr><tr><td>L1</td><td>L1</td><td>L1</td><td>L</td></tr><tr><td>R1</td><td>R1</td><td>R1</td><td>R</td></tr><tr><td>Stick gauche haut</td><td>Stick gauche haut</td><td>Stick gauche haut</td><td>Stick gauche haut</td></tr><tr><td>Stick gauche gauche</td><td>Stick gauche gauche</td><td>Stick gauche gauche</td><td>Stick gauche gauche</td></tr><tr><td>Stick droit haut</td><td>Stick droit haut</td><td>Stick droit haut</td><td>Stick droit haut</td></tr><tr><td>Stick droit gauche</td><td>Stick droit gauche</td><td>Stick droit gauche</td><td>Stick droit gauche</td></tr><tr><td>L2</td><td>L2</td><td>L2</td><td>ZL</td></tr><tr><td>R2</td><td>R3</td><td>R2</td><td>ZR</td></tr><tr><td>L3</td><td>L3 (stick)</td><td>L3 (stick)</td><td>L3 (stick)</td></tr><tr><td>R3</td><td>R3 (stick)</td><td>R3 (stick)</td><td>R3 (stick)</td></tr></tbody></table>
+<table><thead><tr><th width="184">Retrobat</th><th>Microsoft XBOX</th><th>PlayStation</th><th>Nintendo</th></tr></thead><tbody><tr><td><img src="../.gitbook/assets/image (20) (1).png" alt="A"></td><td>A</td><td><img src="../.gitbook/assets/image (13) (1).png" alt=""></td><td>B</td></tr><tr><td><img src="../.gitbook/assets/image (7) (1).png" alt=""></td><td>B</td><td><img src="../.gitbook/assets/image (23) (1).png" alt=""></td><td>A</td></tr><tr><td><img src="../.gitbook/assets/image (35).png" alt=""></td><td>Y</td><td><img src="../.gitbook/assets/image (21) (1).png" alt=""></td><td>X</td></tr><tr><td><img src="../.gitbook/assets/image (33).png" alt="" data-size="line"></td><td>X</td><td><img src="../.gitbook/assets/image (6) (1).png" alt=""></td><td>Y</td></tr><tr><td>START</td><td><img src="../.gitbook/assets/image (25) (1).png" alt=""></td><td>START / OPTIONS</td><td>+</td></tr><tr><td>SELECT</td><td><img src="../.gitbook/assets/image (24) (1).png" alt=""></td><td>SELECT / SHARE</td><td>-</td></tr><tr><td>D-PAD HAUT</td><td>D-PAD HAUT</td><td>D-PAD HAUT</td><td>D-PAD HAUT</td></tr><tr><td>D-PAD BAS</td><td>D-PAD BAS</td><td>D-PAD BAS</td><td>D-PAD BAS</td></tr><tr><td>D-PAD GAUCHE</td><td>D-PAD GAUCHE</td><td>D-PAD GAUCHE</td><td>D-PAD GAUCHE</td></tr><tr><td>D-PAD DROITE</td><td>D-PAD DROITE</td><td>D-PAD DROITE</td><td>D-PAD DROITE</td></tr><tr><td>L1</td><td>L1</td><td>L1</td><td>L</td></tr><tr><td>R1</td><td>R1</td><td>R1</td><td>R</td></tr><tr><td>Stick gauche haut</td><td>Stick gauche haut</td><td>Stick gauche haut</td><td>Stick gauche haut</td></tr><tr><td>Stick gauche gauche</td><td>Stick gauche gauche</td><td>Stick gauche gauche</td><td>Stick gauche gauche</td></tr><tr><td>Stick droit haut</td><td>Stick droit haut</td><td>Stick droit haut</td><td>Stick droit haut</td></tr><tr><td>Stick droit gauche</td><td>Stick droit gauche</td><td>Stick droit gauche</td><td>Stick droit gauche</td></tr><tr><td>L2</td><td>L2</td><td>L2</td><td>ZL</td></tr><tr><td>R2</td><td>R3</td><td>R2</td><td>ZR</td></tr><tr><td>L3</td><td>L3 (stick)</td><td>L3 (stick)</td><td>L3 (stick)</td></tr><tr><td>R3</td><td>R3 (stick)</td><td>R3 (stick)</td><td>R3 (stick)</td></tr></tbody></table>
 
 ## Désactiver une configuration spécifique par jeu
 
@@ -105,29 +105,29 @@ Ces fichiers sont des fichiers YAML (.yml), qui contiennent plusieurs conteneur 
 
 Le fichier "`flycast_arcade.yml`" contient le mappage pour de nombreux jeux d'arcade qui peuvent être lancés à l'aide de l'émulateur Flycast (Atomiswave, Naomi et Naomi2), ci-après un exemple du contenu du fichier :
 
-<div align="left"><figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure></div>
 
 Chaque conteneur contient le mappage pour un jeu, car le nommage des jeux d'arcade étant fixe, cela permettra d'appliquer automatiquement ce mappage pour le jeu prévu.
 
 Par exemple, la ligne `l2: btn_trigger_left` signifie que la valeur "btn\_trigger\_left" dans le fichier de configuration de l'émulateur Flycast sera attribué à la gâchette gauche de la manette, que RetroBat convertira L2 en la touche que vous avez défini comme L2 sur votre contrôleur (axe ou bouton) :
 
-<div align="left"><figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure></div>
 
 #### Exemple 2 : RetroArch (cœur Flycast)
 
 Le fichier "`libretro_flycast_naomi.yml`" contient le mappage pour les jeux Naomi qui peuvent être lancés avec le cœur Libretro-Flycast, ci-après un exemple du contenu du fichier :
 
-<div align="left"><figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure></div>
 
 Chaque conteneur contient les informations de position des touches qui seront utilisés pour reparamétrer les boutons "RetroPad par défaut pour le cœur flycast. Le nommage des jeux d'arcade étant fixe, cela permettra d'appliquer automatiquement ce mappage pour le jeu prévu.
 
 Par exemple, la ligne `btn_b: 4` signifie que le bouton SUD sur le contrôleur sera configuré sur le bouton avec l'identifiant 4 pour le cœur Libretro-Flycast (l'ID 4 correspond à la commande de la boite de vitesse) :
 
-<div align="left"><figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Pour RetroArch, ces fichiers ne changeront pas le mappage entre le contrôleur physique et le retropad générique RetroArch. Cela créera un fichier de remap par cœur. Les fichiers de remaps se trouvent dans le dossier `\emulators\retroarch\config\remaps\<core name>` .

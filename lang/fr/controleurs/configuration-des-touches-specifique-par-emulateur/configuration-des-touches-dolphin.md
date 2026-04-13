@@ -22,7 +22,7 @@ RetroBat propose plusieurs configurations de boutons pour la GameCube ; ces prof
 
 L'option est disponible dans le menu **CONFIGURATION AVANCÉE DU SYSTÈME > CONTRÔLES** :
 
-<figure><img src="../../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (104).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 Vous trouverez plus d'informations concernant les profiles sur [la page Gamecube](../../systemes-and-emulateurs/supported-game-systems/consoles-de-jeu/nintendo-consoles-de-jeu/gamecube.md#creation-dun-profil-de-controle-specifique-pour-un-jeu).
@@ -30,11 +30,11 @@ Vous trouverez plus d'informations concernant les profiles sur [la page Gamecube
 
 Outre les profils de boutons, RetroBat propose également une option permettant de modifier le type de manette :
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (105).png" alt=""><figcaption></figcaption></figure></div>
 
 Cela modifiera automatiquement le type de manette connectée à l'émulateur Dolphin :
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Vous pouvez trouver plus d'informations au sujet de l'adaptateur Gamecube [sur cette page](../../systemes-and-emulateurs/supported-game-systems/consoles-de-jeu/nintendo-consoles-de-jeu/gamecube.md#utilisation-dun-adaptateur-gamecube).
@@ -44,13 +44,13 @@ Vous pouvez trouver plus d'informations au sujet de l'adaptateur Gamecube [sur c
 
 RetroBat propose plusieurs configurations de touches pour les Wiimotes émulées ; ces profils déterminent la manière dont votre manette est mappée sur la manette Wii d'origine (Wiimote ou manette classique).
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure></div>
 
 Vous pouvez trouver plus d'informations [ici](../../systemes-and-emulateurs/supported-game-systems/consoles-de-jeu/nintendo-consoles-de-jeu/wii.md#wiimote-emulee).
 
 Certains jeux Wii étaient également compatibles avec la manette GameCube. Pour activer l'émulation de la manette GameCube sur Wii, activez l'option dans **CONFIGURATION AVANCÉE DU SYSTÈME > CONTRÔLES** :
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (107).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Cela permettra d'utiliser les mêmes options que pour les manettes Gamecube, y compris les configurations Gamecube et l'utilisation d'une manette de la console originale.
@@ -62,7 +62,7 @@ Cela permettra d'utiliser les mêmes options que pour les manettes Gamecube, y c
 
 RetroBat est fourni avec un fichier nommé "**GCControllers.json**" situé dans le répertoire `\system\resources\inputmapping` de votre installation RetroBat :
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure></div>
 
 Ce fichier permet de configurer automatiquement une manette spécifique, en fonction de son GUID, dans l'émulateur Dolphin.
 
@@ -76,7 +76,7 @@ L'exemple ci-dessus concerne les adaptateurs Mayflash GC 2 Player ; les différe
 * **HotkeyMapping** : le mappage des raccourci pour le contrôleur (modifiera le fichier `Hotkeys.ini`)
 * **ControllerInfo** : peut être utilisé pour déterminer si le paramètre doit être activé dans le menu RetroBat :
 
-<figure><img src="../../.gitbook/assets/image (94).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
 
 ### Wii
 
@@ -84,7 +84,7 @@ RetroBat permet de configurer Dolphin pour qu'il utilise de véritables Wiimotes
 
 Si vous utilisez de vrai Wiimotes, alors rendez-vous dans le menu **CONFIGURATION AVANCÉE DU SYSTÈME > CONTRÔLES** pour activer la fonctionnalité :
 
-<figure><img src="../../.gitbook/assets/image (93).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
 
 ## Utiliser un profil personnalisé de touches
 
