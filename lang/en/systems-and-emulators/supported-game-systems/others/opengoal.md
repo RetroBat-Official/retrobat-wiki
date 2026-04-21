@@ -63,12 +63,13 @@ start extractor -g jak2 "C:\retrobat\roms\ps2\Jak2.iso"
 
 This will automatically extract the game iso to make it work with OpenGOAL (the extraction process might take some time).
 
-**Step 4 : Create the rom file**
+#### **Step 4 : Create the rom file**
 
 Create an empty .txt file in the \roms\opengoal folder of your RetroBat installation and put the name of the game inside the file:
 
 * `jak1` for jak and Daxter 1
 * `jak2` for jak and Daxter 2
+* `jak3` for jak and Daxter 3
 
 <div align="left"><figure><img src="https://i.imgur.com/mGUXHzk.png" alt=""><figcaption></figcaption></figure></div>
 
