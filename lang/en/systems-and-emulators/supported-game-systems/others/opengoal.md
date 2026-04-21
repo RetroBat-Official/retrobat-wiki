@@ -56,7 +56,7 @@ Replace PATH-TO-GAME-ISO with the full path to the corresponding game iso file.
 Example:
 
 ```
-start gk -g jak2 "C:\retrobat\roms\ps2\Jak2.iso"
+start extractor -g jak2 "C:\retrobat\roms\ps2\Jak2.iso"
 ```
 
 * Change the file extension to .bat
