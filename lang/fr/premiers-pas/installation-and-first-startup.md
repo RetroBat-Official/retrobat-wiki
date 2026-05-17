@@ -29,6 +29,8 @@ RetroBat détectera automatiquement si ces fichiers sont déjà installés. Si c
 Attention: un dossier d'installation trop long (ou dans trop de sous-dossiers) peut poser des problèmes pour certains émulateurs comme libretro:mame.
 
 Ne pas sélectionner de dossier contenant des espaces ou des caractères spéciaux.
+
+Ne pas installer RetroBat directement à la racine d'un lecteur (par exemple D:\RetroBat.exe), toujours créer un dossier.
 {% endhint %}
 
 <div align="left"><figure><img src="../.gitbook/assets/2026-03-15_11h32_44.png" alt=""><figcaption></figcaption></figure></div>
