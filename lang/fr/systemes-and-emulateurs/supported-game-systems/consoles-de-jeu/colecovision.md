@@ -12,39 +12,19 @@ Console de jeu - Durée de vie : 1982 - 1985
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: gearcoleco</li><li>libretro : bluemsx</li><li>libretro : fbneo</li><li>openmsx</li><li>ares</li><li>bizhawk</li><li>mesen</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> colecovision</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.rom .ri .mx1 .mx2 .col .dsk .cas .sg .sc .m3u .zip .7z</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: gearcoleco</li><li>libretro: jollycv</li><li>libretro : bluemsx</li><li>libretro : fbneo</li><li>openmsx</li><li>ares</li><li>bizhawk</li><li>mesen</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> colecovision</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.rom .ri .mx1 .mx2 .col .dsk .cas .sg .sc .m3u .zip .7z</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-gearcoleco : OUI<br>lr-bluemsx : OUI<br>lr-fbneo : OUI<br>OpenMSX : NON<br>Ares : NON<br>BizHawk : OUI<br>Mesen : NON</td><td>lr-gearcoleco : OUI<br>lr-bluemsx : NON<br>lr-fbneo : OUI<br>OpenMSX : NON<br>Ares : NON<br>BizHawk : NON<br>Mesen : NON</td><td>lr-gearcoleco : OUI<br>lr-bluemsx : OUI<br>lr-fbneo : OUI<br>OpenMSX : OUI<br>Ares : OUI<br>BizHawk : OUI<br>Mesen : OUI</td></tr></tbody></table>
+<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-gearcoleco : OUI<br>lr-jollycv: OUI<br>lr-bluemsx : OUI<br>lr-fbneo : OUI<br>OpenMSX : NON<br>Ares : NON<br>BizHawk : OUI<br>Mesen : NON</td><td>lr-gearcoleco : OUI<br>lr-jollycv: OUI<br>lr-bluemsx : NON<br>lr-fbneo : OUI<br>OpenMSX : NON<br>Ares : NON<br>BizHawk : NON<br>Mesen : NON</td><td>lr-gearcoleco : OUI<br>lr-jollycv: OUI<br>lr-bluemsx : OUI<br>lr-fbneo : OUI<br>OpenMSX : OUI<br>Ares : OUI<br>BizHawk : OUI<br>Mesen : OUI</td></tr></tbody></table>
 
 ## BIOS
 
-<table><thead><tr><th width="183.55555555555557">Fichier BIOS</th><th width="229">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>colecovision.rom</td><td><code>\bios</code></td><td>2c66f5911e5b42b8ebe113403548eee7</td></tr><tr><td>coleco.rom</td><td><code>\bios\openMSX\share\systemroms</code></td><td>2c66f5911e5b42b8ebe113403548eee7</td></tr></tbody></table>
+<table><thead><tr><th width="183.55555555555557">Fichier BIOS</th><th width="229">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>colecovision.rom</td><td><code>\bios</code></td><td>2c66f5911e5b42b8ebe113403548eee7</td></tr><tr><td>coleco.rom</td><td><code>\bios</code></td><td>2c66f5911e5b42b8ebe113403548eee7</td></tr><tr><td>coleco.rom</td><td><code>\bios\openMSX\share\systemroms</code></td><td>2c66f5911e5b42b8ebe113403548eee7</td></tr></tbody></table>
 
 ## Contrôles
 
-| Retrobat                                           | Colecovision  |
-| -------------------------------------------------- | ------------- |
-| START                                              | #             |
-| SELECT                                             | \*            |
-| D-PAD                                              | D-PAD         |
-| Stick analogique gauche                            |               |
-| Stick analogique droit                             |               |
-| ![](<../../../.gitbook/assets/image (33).png>)     | 2             |
-| ![](<../../../.gitbook/assets/image (20) (1).png>) | Bouton droit  |
-| ![](<../../../.gitbook/assets/image (7) (1).png>)  | Bouton gauche |
-| ![](<../../../.gitbook/assets/image (35).png>)     | 1             |
-| L1                                                 | 4             |
-| R1                                                 | 3             |
-| L2                                                 | 6             |
-| R2                                                 | 5             |
-| L3                                                 | 8             |
-| R3                                                 | 7             |
-| Clavier 1                                          | 0 (joueur 1)  |
-| Clavier 2                                          | 9 (joueur 1)  |
-| Clavier 3                                          | 0 (joueur 2)  |
-| Clavier 4                                          | 9 (joueur 2)  |
+<table><thead><tr><th width="171.5">Bouton RetroBat</th><th>Gearcoleco</th><th>JollyCV</th></tr></thead><tbody><tr><td>START</td><td>*</td><td>#</td></tr><tr><td>SELECT</td><td>#</td><td>*</td></tr><tr><td>D-PAD</td><td>D-PAD</td><td>D-PAD</td></tr><tr><td>Stick analogique gauche</td><td>x-axis: 0<br>y-axis: 9</td><td></td></tr><tr><td>Stick analogique droite</td><td>x-axis: BLEU<br>y-axis: VIOLET</td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (33).png" alt=""></td><td>1</td><td>VIOLET</td></tr><tr><td><img src="../../../.gitbook/assets/image (20) (1).png" alt=""></td><td>Bouton gauche (JAUNE)</td><td>Bouton gauche (JAUNE)</td></tr><tr><td><img src="../../../.gitbook/assets/image (7) (1).png" alt=""></td><td>Bouton droite (ROUGE)</td><td>Bouton droite (ROUGE)</td></tr><tr><td><img src="../../../.gitbook/assets/image (35).png" alt=""></td><td>2</td><td>BLEU</td></tr><tr><td>L1</td><td>4</td><td>Spinner -</td></tr><tr><td>R1</td><td>3</td><td>Spinner +</td></tr><tr><td>L2</td><td>6</td><td>+<img src="../../../.gitbook/assets/image (152).png" alt=""> : 1<br>+<img src="../../../.gitbook/assets/image (153).png" alt=""> : 2<br>+<img src="../../../.gitbook/assets/image (154).png" alt=""> : 3<br>+<img src="../../../.gitbook/assets/image (155).png" alt=""> : 4<br>+SELECT: 9</td></tr><tr><td>R2</td><td>5</td><td>+<img src="../../../.gitbook/assets/image (156).png" alt=""> : 5<br>+<img src="../../../.gitbook/assets/image (157).png" alt=""> : 6<br>+<img src="../../../.gitbook/assets/image (158).png" alt=""> : 7<br>+<img src="../../../.gitbook/assets/image (159).png" alt=""> : 8<br>+SELECT: 0</td></tr><tr><td>L3</td><td>8</td><td></td></tr><tr><td>R3</td><td>7</td><td></td></tr><tr><td>Clavier 1</td><td>0 (Joueur 1)</td><td></td></tr><tr><td>Clavier 2</td><td>9 (Joueur 1)</td><td></td></tr><tr><td>Clavier 3</td><td>0 (Joueur 2)</td><td></td></tr><tr><td>Clavier 4</td><td>9 (Joueur 2)</td><td></td></tr></tbody></table>
 
 ### Bluemsx
 
