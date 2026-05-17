@@ -28,9 +28,11 @@ RetroBat will detect if the prerequisites are already installed, this page might
 {% hint style="danger" %}
 Attention: an installation folder that is too long (or with too many subfolders) can cause issues with some emulators like libretro:mame.
 
-Also : do not use a folder with special characters (accents, ...).
+Also: do not use a folder with special characters (accents, ...).
 
-Finally : avoid folder names which include spaces.
+As well as: do not put RetroBat directly at the root of a drive (e.g. D:\RetroBat.exe): always add a subfolder.
+
+Finally: avoid folder names which include spaces.
 {% endhint %}
 
 <div align="left"><figure><img src="../.gitbook/assets/image (62).png" alt=""><figcaption><p>Select installation folder</p></figcaption></figure></div>
