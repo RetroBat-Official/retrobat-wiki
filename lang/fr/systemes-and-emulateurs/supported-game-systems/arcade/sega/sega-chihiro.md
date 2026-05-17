@@ -12,7 +12,7 @@ Arcade - Année de création : 2002
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>chihiro (vieux CXBX-Reloaded)</li><li>chihiro-gun (chihiro-ds 1.0)</li><li>cxbx</li><li>xemu</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> chihiro</td></tr><tr><td><strong>Extensions</strong></td><td>.xbe .iso</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>chihiro (vieux CXBX-Reloaded)</li><li>chihiro-gun (chihiro-ds 1.0)</li><li>cxbx</li><li>xemu</li><li>Teknoparrot</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> chihiro</td></tr><tr><td><strong>Extensions</strong></td><td>.xbe .iso</td></tr></tbody></table>
 
 ## Bios
 
