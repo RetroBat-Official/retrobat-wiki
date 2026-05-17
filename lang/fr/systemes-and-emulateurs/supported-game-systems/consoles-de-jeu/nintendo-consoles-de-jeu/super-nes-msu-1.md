@@ -10,11 +10,11 @@ description: Nintendo Hack
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: snes9x</li><li>libretro: bsnes</li><li>libretro: bsnes_hd_beta</li><li>snes9x</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> snes-msu1</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.smc .sfc .squashfs .m3u</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: snes9x</li><li>libretro: mesen-s</li><li>libretro: bsnes</li><li>libretro: bsnes_hd_beta</li><li>mesen</li><li>snes9x</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> snes-msu1</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.smc .sfc .squashfs .m3u</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-snes9x : OUI<br>lr-bsnes : OUI<br>Snes9X : NON</td><td>lr-snes9x : OUI<br>lr-bsnes : OUI<br>Snes9X : NON</td><td>lr-snes9x : OUI<br>lr-bsnes : OUI<br>Snes9X : OUI</td></tr></tbody></table>
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-snes9x : OUI<br>lr-mesen-s : OUI<br>lr-bsnes : OUI<br>mesen : NON<br>Snes9X : OUI</td><td>lr-snes9x : OUI<br>lr-mesen-s : OUI<br>lr-bsnes : OUI<br>mesen : NON<br>Snes9X : NON</td><td>lr-snes9x : OUI<br>lr-mesen-s : OUI<br>lr-bsnes : OUI<br>mesen : OUI<br>Snes9X : OUI</td></tr></tbody></table>
 
 ## BIOS
 

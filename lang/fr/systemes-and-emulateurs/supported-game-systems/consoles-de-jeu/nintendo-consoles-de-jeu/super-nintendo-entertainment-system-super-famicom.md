@@ -26,7 +26,7 @@ Console de jeu - Durée de vie : 1990 - 2003
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-snes9x : OUI<br>lr-bsnes-jg : OUI<br>lr-bsnes : OUI<br>lr-mednafen : OUI<br>lr-mesen-s : OUI<br>lr-snes9x2005 : OUI<br>Mednafen : NON<br>Mesen : NON<br>Snes9x : NON<br>Ares : NON<br>Bizhawk : OUI<br>Jgenesis: NON</td><td>lr-snes9x : OUI<br>lr-bsnes-jg : OUI<br>lr-bsnes : OUI<br>lr-mednafen : OUI<br>lr-mesen-s : OUI<br>lr-snes9x2005 : OUI<br>Mednafen: NON<br>Mesen : NON<br>Snes9x : NON<br>Ares : NON<br>Bizhawk : NON<br>Jgenesis: NON</td><td>lr-snes9x : OUI<br>lr-bsnes-jg : OUI<br>lr-bsnes : OUI<br>lr-mednafen : OUI<br>lr-mesen-s : OUI<br>lr-snes9x2005 : OUI<br>Mednafen : OUI<br>Mesen : OUI<br>Snes9x : OUI<br>Ares : OUI<br>Bizhawk : OUI<br>Jgenesis: OUI</td></tr></tbody></table>
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-snes9x : OUI<br>lr-bsnes-jg : OUI<br>lr-bsnes : OUI<br>lr-mednafen : OUI<br>lr-mesen-s : OUI<br>lr-snes9x2005 : OUI<br>Mednafen : NON<br>Mesen : NON<br>Snes9x : OUI<br>Ares : NON<br>Bizhawk : OUI<br>Jgenesis: NON</td><td>lr-snes9x : OUI<br>lr-bsnes-jg : OUI<br>lr-bsnes : OUI<br>lr-mednafen : OUI<br>lr-mesen-s : OUI<br>lr-snes9x2005 : OUI<br>Mednafen: NON<br>Mesen : NON<br>Snes9x : NON<br>Ares : NON<br>Bizhawk : NON<br>Jgenesis: NON</td><td>lr-snes9x : OUI<br>lr-bsnes-jg : OUI<br>lr-bsnes : OUI<br>lr-mednafen : OUI<br>lr-mesen-s : OUI<br>lr-snes9x2005 : OUI<br>Mednafen : OUI<br>Mesen : OUI<br>Snes9x : OUI<br>Ares : OUI<br>Bizhawk : OUI<br>Jgenesis: OUI</td></tr></tbody></table>
 
 ## BIOS
 
