@@ -24,6 +24,8 @@ Les contrôles doivent être paramétrés directement dans l'émulateur CXBX-Rel
 
 <div align="left"><figure><img src="https://i.imgur.com/W2oGLGE.png" alt=""><figcaption></figcaption></figure></div>
 
+Pour Teknoparrot, les contrôles sont gérés par Teknoparrot: [détails ici](../teknoparrot.md#controles)
+
 ## Informations spécifiques au système
 
 ### ROMs
