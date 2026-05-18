@@ -24,6 +24,8 @@ Controls must be set up directly in CXBX-Reloaded emulator in `\emulators\cxbx-r
 
 <div align="left"><figure><img src="https://i.imgur.com/W2oGLGE.png" alt=""><figcaption></figcaption></figure></div>
 
+For Teknoparrot, controls are managed in a similar way to other Teknoparrot games: [details here](../teknoparrot.md#controls)
+
 ## Specific system information
 
 ### ROMs
