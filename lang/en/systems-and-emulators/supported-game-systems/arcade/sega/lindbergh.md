@@ -82,6 +82,31 @@ No BIOS required for Sega Lindbergh.
 It is possible to define specific buttons for Reload, gun button and action button in **Advanced settings > guns**
 {% endhint %}
 
+#### Multigun - Demulshooter
+
+Linuxloader does not allow raw input to enable multiplayer in shooting games. However, Demulshooter can be used to allow multiplayer gun games to work.
+
+In order to enable DemulShooter, you need to download DemulShooter in RetroBat download section:
+
+<div align="left"><figure><img src="https://i.imgur.com/23aQLJk.png" alt=""><figcaption></figcaption></figure></div>
+
+Next you need to enable Demulshooter for the game:
+
+<div align="left"><figure><img src="https://i.imgur.com/TehGW1Q.png" alt=""><figcaption></figcaption></figure></div>
+
+Finally, ensure that the name of the game file (folder of .game file) is exactly matching the name expected by DemulShooter:
+
+| Game                            | Expected name |
+| ------------------------------- | ------------- |
+| 2 Spicy                         | 2spicy        |
+| Ghost Squad Evolution           | gsevo         |
+| The House Of The Dead 4         | hotd4         |
+| The House Of The Dead 4 Special | hotd4sp       |
+| The House Of The Dead EX        | hotdex        |
+| Let's Go Jungle                 | lgj           |
+| Let's Go Jungle Special         | lgjsp         |
+| Rambo                           | rambo         |
+
 ### Using custom controls.ini file
 
 You can use your own controls.ini with the following option located in ADVANCED SETTINGS > CONTROLS:
