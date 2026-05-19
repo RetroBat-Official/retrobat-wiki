@@ -20,7 +20,7 @@ Console de jeu portable - Durée de vie : 2011 - 2019
 
 ## BIOS
 
-<table><thead><tr><th width="182">Fichier BIOS</th><th width="198.03610108303252">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>PSP2UPDAT.PUP</td><td><code>install in emukator</code></td><td>8B5F60B56C3DA8365B973DBA570C53A5</td></tr><tr><td>PSVUPDAT.PUP</td><td><code>install in emukator</code></td><td>F2C7B12FE85496EC88A0391B514D6E3B</td></tr></tbody></table>
+<table><thead><tr><th width="182">Fichier BIOS</th><th width="198.03610108303252">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>PSP2UPDAT.PUP</td><td><code>install in emukator</code></td><td>8B5F60B56C3DA8365B973DBA570C53A5</td></tr><tr><td><a href="https://www.playstation.com/en-us/support/hardware/psvita/system-software/">PSVUPDAT.PUP</a></td><td><code>install in emukator</code></td><td>F2C7B12FE85496EC88A0391B514D6E3B</td></tr></tbody></table>
 
 ## Contrôles
 
@@ -30,43 +30,27 @@ Vita3K reconnaît automatiquement le contrôleur connecté, aucune configuration
 
 ### Emplacement des fichiers
 
-<table><thead><tr><th width="254">Fichier(s)</th><th>Chemin (relatif au dossier RetroBat)</th></tr></thead><tbody><tr><td>pref-path</td><td>saves\psvita\vita3k*<br><br>*Le dossier est défini par l'utilisateur lors de l'installation, RetroBat ne le modifie pas.</td></tr></tbody></table>
+<table><thead><tr><th width="254">Fichier(s)</th><th>Chemin (relatif au dossier RetroBat)</th></tr></thead><tbody><tr><td>pref-path</td><td>saves\psvita\vita3k*<br><br>*Le dossier peut être modifié dans <strong>OPTIONS AVANCEES > EMULATION</strong></td></tr></tbody></table>
 
 ### Installation & premier démarrage
 
-Utiliser le menu RetroBat pour télécharger Vita3k ou télécharger la dernière version disponible de l'émulateur sur le site web Vita3k : [https://vita3k.org/#download](https://vita3k.org/#download)
+Avant tout lancement de jeu, il est nécessaire d'installer le firmware PSVita dans l'émulateur.
 
-{% hint style="warning" %}
-Ne démarrez pas de jeu avant d'avoir installer et configurer vita3k depuis le menu retrobat, cette étape est nécessaire pour initialiser l'utilisateur de la PSVita et pour installer les firmwares.
-{% endhint %}
+Le firmware est disponible sur le site web de Sony:  [https://www.playstation.com/en-us/support/hardware/psvita/system-software/](https://www.playstation.com/en-us/support/hardware/psvita/system-software/)
 
-<div align="left"><figure><img src="https://i.imgur.com/k9c9vpN.png" alt=""><figcaption></figcaption></figure></div>
+Il est possible soit de lancer un jeu à installer, ou de lancer l'émulateur depuis le menu RetroBat:
 
-Au premier démarrage, l'émulateur a besoin d'être paramétré, la première étape est de choisir la langue :
+<div align="left"><figure><img src="https://images.gitbook.com/__img/dpr=2,width=760,onerror=redirect,format=auto,signature=743053928/https%3A%2F%2Fi.imgur.com%2FytvkvPS.png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/8MeZjaA.png" alt=""><figcaption></figcaption></figure></div>
+Au premier démarrage, cliquer sur **File > Install Firmware**:
 
-**Étape importante, définir le "pref-path" : il s'agit de l'emplacement dans lequel les jeux seront installés.**
+<div align="left"><figure><img src="https://images.gitbook.com/__img/dpr=2,width=760,onerror=redirect,format=auto,signature=-1716285691/https%3A%2F%2Fi.imgur.com%2FlCnXsVP.png" alt=""><figcaption></figcaption></figure></div>
 
-L'emplacement sélectionné à cette étape ne sera pas remplacé ou modifié par RetroBat.
+Installer le firmware téléchargé précedemment et attendre la fin de l'installation:
 
-<div align="left"><figure><img src="https://i.imgur.com/bKZh9Ap.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="https://i.imgur.com/saYuhzk.png" alt=""><figcaption></figcaption></figure></div>
 
-Télécharger aussi bien le _Firmware_ et le _Font Package_ depuis le site de Sony et installer les à l'aide du bouton **INSTALL FIRMWARE FILE** :
-
-<div align="left"><figure><img src="https://i.imgur.com/7kfwreX.png" alt=""><figcaption></figcaption></figure></div>
-
-Le statut de l'installation changera (V)
-
-<div align="left"><figure><img src="https://i.imgur.com/JmQbJpH.png" alt=""><figcaption></figcaption></figure></div>
-
-Cliquer sur le bouton "SUIVANT" jusqu'à la fin du paramétrage :
-
-<div align="left"><figure><img src="https://i.imgur.com/SS4fC7b.png" alt=""><figcaption></figcaption></figure></div>
-
-FÉLICITATIONS : L'émulateur Vita3k a été initialisé avec succès :
-
-<div align="left"><figure><img src="https://i.imgur.com/y9Abjp5.png" alt=""><figcaption></figcaption></figure></div>
+FÉLICITATIONS : L'émulateur Vita3k a été initialisé avec succès.
 
 ### Ajouter les jeux
 
@@ -104,7 +88,7 @@ A l'intérieur du fichier, renseigner l'**ID de jeu** et sauvegarder :
 L'ID de jeu peut être trouvé en lançant directement l'émulateur Vita3k.
 {% endhint %}
 
-<figure><img src="https://i.imgur.com/XFt1Iop.png" alt=""><figcaption></figcaption></figure>
+<div align="left"><figure><img src="https://images.gitbook.com/__img/dpr=2,width=760,onerror=redirect,format=auto,signature=1430392855/https%3A%2F%2Fi.imgur.com%2FOxK80r2.png" alt=""><figcaption></figcaption></figure></div>
 
 Il est également possible d'utiliser un fichier .psvita à la place du .m3u mais dans ce cas le fichier doit contenir l'ID de jeu entre crochets.
 
@@ -131,9 +115,7 @@ Si vous utilisez un fichier .vpk, il faut s'assurer que le fichier soit correcte
 Street fighter [PCSE00005].vpk
 ```
 
-Lors du premier lancement du jeu au format .vpk, Retrobat l'installera automatiquement dans l'émulateur. Il faudra patienter jusqu'à ce que l'opération s'achève (cela peut prendre un certain temps) :
-
-<div align="left"><figure><img src="https://i.imgur.com/bYSh81f.png" alt=""><figcaption></figcaption></figure></div>
+Lors du premier lancement du jeu au format .vpk, Retrobat l'installera automatiquement dans l'émulateur. Il faudra patienter jusqu'à ce que l'opération s'achève (cela peut prendre un certain temps et l'écran semble figé durant l'installation).
 
 Une fois l'installation effectuée, le prochain démarrage sera plus rapide.
 
