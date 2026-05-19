@@ -268,6 +268,7 @@
     * [Java ME](systems-and-emulators/supported-game-systems/others/java.md)
     * [Karaoke](systems-and-emulators/supported-game-systems/others/karaoke.md)
     * [Nintendo 64 ports](systems-and-emulators/supported-game-systems/others/nintendo-64-ports/README.md)
+      * [N64 Recomp](systems-and-emulators/supported-game-systems/others/nintendo-64-ports/n64recomp.md)
       * [2 Ship 2 Harkinian](systems-and-emulators/supported-game-systems/others/nintendo-64-ports/2ship.md)
       * [Ghostship](systems-and-emulators/supported-game-systems/others/nintendo-64-ports/ghostship.md)
       * [Perfect Dark](systems-and-emulators/supported-game-systems/others/nintendo-64-ports/pdark.md)
