@@ -20,6 +20,12 @@ Hybrid Game Console - Lifespan: 2017 - present
 
 ## Emulators
 
+**EDEN:** Eden website : [https://eden-emu.dev/](https://eden-emu.dev/)
+
+**CITRON**: RetroBat uses the Citron-neo version available here: [https://github.com/citron-neo/emulator](https://github.com/citron-neo/emulator)
+
+**RYUJINX**: RetroBat uses Ryubing version available here: [https://git.ryujinx.app/projects/Ryubing](https://git.ryujinx.app/projects/Ryubing)
+
 ### Ryujinx
 
 RetroBat is compatible with the Ryubing version of Ryujinx.
