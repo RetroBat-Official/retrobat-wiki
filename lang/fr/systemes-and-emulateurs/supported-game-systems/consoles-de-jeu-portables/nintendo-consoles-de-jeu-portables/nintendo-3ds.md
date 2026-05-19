@@ -14,6 +14,10 @@ Console de jeu portable - Durée de vie : 2011 - 2020
 
 <table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>azahar</li><li>libretro-azahar</li><li>mandarine</li><li>citra</li><li>bizhawk: encore</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> 3ds</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.3ds .3dsx .z3dsx .cia .zcia .elf .axf .cci .zcci .cxi .zcxi .app .m3u .zip .7z .squashfs</td><td></td></tr></tbody></table>
 
+{% hint style="info" %}
+RetroBat utilise la version "neo" de Mandarine : [https://github.com/ptyfyre/mandarine-neo](https://github.com/ptyfyre/mandarine-neo)
+{% endhint %}
+
 ## Fonctionnalités
 
 <table><thead><tr><th width="210">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>NON</td><td>NON</td><td><p>Azahar : OUI</p><p>lr-azahar : OUI</p><p>Mandarine : OUI<br>Citra : OUI<br>BizHawk : OUI</p></td></tr></tbody></table>
