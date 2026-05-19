@@ -66,4 +66,4 @@ Some emulators do not detect DS4 inputs
 
 RetroBat also supports automatic mapping for special controllers (N64, Genesis-like controllers, Saturn-like controllers, etc.).
 
-Information can be found [here](./#special-controllers).
+Information can be found [here](special-controllers.md).
