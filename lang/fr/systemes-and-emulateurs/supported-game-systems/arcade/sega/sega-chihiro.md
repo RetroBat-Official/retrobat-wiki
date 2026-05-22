@@ -16,7 +16,7 @@ Arcade - Année de création : 2002
 
 ## Bios
 
-Aucun BIOS nécessaire.
+<table><thead><tr><th width="216.80555555555554">Fichier</th><th width="558.75">Dossier</th></tr></thead><tbody><tr><td>fpr21042_m29w160et.bin</td><td><code>\emulators\cxbx-reloaded\EmuMediaBoard</code><br><code>\emulators\chihiro\EmuMediaBoard</code><br><code>\emulators\chihiro-ds\EmuMediaBoard</code><br><code>\emulators\teknoparrot\cxbxr\TeknoParrot\EmuMediaBoard</code></td></tr><tr><td>ic10_g24lc64.bin</td><td><code>\emulators\cxbx-reloaded\EmuMediaBoard\chihiro</code><br><code>\emulators\chihiro\EmuMediaBoard\chihiro</code><br><code>\emulators\chihiro-ds\EmuMediaBoard\chihiro</code><br><code>\emulators\teknoparrot\cxbxr\TeknoParrot\EmuMediaBoard\Chihiro</code></td></tr><tr><td>ic11_24lc024.bin</td><td><code>\emulators\cxbx-reloaded\EmuMediaBoard\chihiro</code><br><code>\emulators\chihiro\EmuMediaBoard\chihiro</code><br><code>\emulators\chihiro-ds\EmuMediaBoard\chihiro</code><br><code>\emulators\teknoparrot\cxbxr\TeknoParrot\EmuMediaBoard\Chihiro</code></td></tr><tr><td>pc20_g24lc64.bin</td><td><code>\emulators\cxbx-reloaded\EmuMediaBoard\chihiro</code><br><code>\emulators\chihiro\EmuMediaBoard\chihiro</code><br><code>\emulators\chihiro-ds\EmuMediaBoard\chihiro</code><br><code>\emulators\teknoparrot\cxbxr\TeknoParrot\EmuMediaBoard\Chihiro</code></td></tr></tbody></table>
 
 ## Contrôles
 
