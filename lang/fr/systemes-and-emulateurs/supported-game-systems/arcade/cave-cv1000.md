@@ -28,23 +28,23 @@ La correspondance des boutons est disponible dans la [notice](http://retrobat.ov
 
 ### Manette de jeu
 
-| Retrobat                                           | Arcade |
-| -------------------------------------------------- | ------ |
-| START                                              | START  |
-| SELECT                                             | COIN   |
-| Stick analogique gauche                            | Stick  |
-| Stick analogique droit                             |        |
-| D-PAD                                              | Stick  |
-| ![](<../../../.gitbook/assets/image (33).png>)     | 3      |
-| ![](<../../../.gitbook/assets/image (20) (1).png>) | 1      |
-| ![](<../../../.gitbook/assets/image (7) (1).png>)  | 2      |
-| ![](<../../../.gitbook/assets/image (35).png>)     | 4      |
-| L1                                                 | 5      |
-| R1                                                 | 6      |
-| L2                                                 |        |
-| R2                                                 |        |
-| L3                                                 |        |
-| R3                                                 |        |
+| Retrobat                                              | Arcade |
+| ----------------------------------------------------- | ------ |
+| START                                                 | START  |
+| SELECT                                                | COIN   |
+| Stick analogique gauche                               | Stick  |
+| Stick analogique droit                                |        |
+| D-PAD                                                 | Stick  |
+| ![](<../../../.gitbook/assets/image (33).png>)        | 3      |
+| ![](<../../../.gitbook/assets/image (20) (1).png>)    | 1      |
+| ![](<../../../.gitbook/assets/image (7) (1) (1).png>) | 2      |
+| ![](<../../../.gitbook/assets/image (35).png>)        | 4      |
+| L1                                                    | 5      |
+| R1                                                    | 6      |
+| L2                                                    |        |
+| R2                                                    |        |
+| L3                                                    |        |
+| R3                                                    |        |
 
 ## Informations spécifiques au système
 

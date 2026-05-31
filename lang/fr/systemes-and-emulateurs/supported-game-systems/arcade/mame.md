@@ -63,23 +63,23 @@ Le dossier `\bios\mame\artwork` est utilisé pour stocker les fichiers permettan
 
 ### Correspondance des touches
 
-| Retrobat                                           | MAME                                                                                   |
-| -------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| START                                              | START                                                                                  |
-| SELECT                                             | COIN                                                                                   |
-| Left analog stick                                  | <p>Joystick gauche<br>Paddle<br>Positional device<br>Dial<br>Trackball<br>Ad_Stick</p> |
-| Right analog stick                                 | Joystick droit                                                                         |
-| D-PAD                                              | Directions                                                                             |
-| ![](<../../../.gitbook/assets/image (33).png>)     | 3                                                                                      |
-| ![](<../../../.gitbook/assets/image (20) (1).png>) | 1                                                                                      |
-| ![](<../../../.gitbook/assets/image (7) (1).png>)  | 2                                                                                      |
-| ![](<../../../.gitbook/assets/image (35).png>)     | 4                                                                                      |
-| L1                                                 | 5                                                                                      |
-| R1                                                 | 6                                                                                      |
-| L2                                                 | Pedal 2 / 7                                                                            |
-| R2                                                 | Pedal 1 / 8                                                                            |
-| L3                                                 | Test                                                                                   |
-| R3                                                 | Service                                                                                |
+| Retrobat                                              | MAME                                                                                   |
+| ----------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| START                                                 | START                                                                                  |
+| SELECT                                                | COIN                                                                                   |
+| Left analog stick                                     | <p>Joystick gauche<br>Paddle<br>Positional device<br>Dial<br>Trackball<br>Ad_Stick</p> |
+| Right analog stick                                    | Joystick droit                                                                         |
+| D-PAD                                                 | Directions                                                                             |
+| ![](<../../../.gitbook/assets/image (33).png>)        | 3                                                                                      |
+| ![](<../../../.gitbook/assets/image (20) (1).png>)    | 1                                                                                      |
+| ![](<../../../.gitbook/assets/image (7) (1) (1).png>) | 2                                                                                      |
+| ![](<../../../.gitbook/assets/image (35).png>)        | 4                                                                                      |
+| L1                                                    | 5                                                                                      |
+| R1                                                    | 6                                                                                      |
+| L2                                                    | Pedal 2 / 7                                                                            |
+| R2                                                    | Pedal 1 / 8                                                                            |
+| L3                                                    | Test                                                                                   |
+| R3                                                    | Service                                                                                |
 
 {% hint style="info" %}
 Se référer à [ce guide](../../../controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-mame64.md) pour effectuer une configuration personnalisée des contrôleurs pour MAME64.

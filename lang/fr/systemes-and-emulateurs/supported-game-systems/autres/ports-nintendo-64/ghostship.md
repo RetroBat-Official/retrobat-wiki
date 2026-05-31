@@ -1,6 +1,6 @@
 # Ghostship
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (3).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Moteur de jeu permettant de jouer à Super Mario 64.
 
@@ -20,7 +20,7 @@ Aucun BIOS nécessaire.
 
 Une disposition alternative de touche est disponible, avec le bouton Z sur la gâchette droite, l'option peut être activée via le menu disponible dans **OPTIONS AVANCÉES DU SYSTÈME > CONTRÔLES** :&#x20;
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Utiliser une manette N64
 

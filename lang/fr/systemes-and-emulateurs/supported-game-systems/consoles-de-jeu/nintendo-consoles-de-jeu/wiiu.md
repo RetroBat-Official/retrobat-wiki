@@ -42,7 +42,7 @@ Les contrôleurs suivants peuvent être autoconfigurés depuis RetroBat dans Dol
 | Stick analogique gauche                                                            | Stick analogique gauche            |
 | Stick analogique droit                                                             | Stick analogique droit             |
 | ![A](<../../../../.gitbook/assets/image (20) (1).png>)                             | <p>B<br>ou A si option inversé</p> |
-| ![B](<../../../../.gitbook/assets/image (7) (1).png>)                              | <p>A<br>ou B si option inversé</p> |
+| ![B](<../../../../.gitbook/assets/image (7) (1) (1).png>)                          | <p>A<br>ou B si option inversé</p> |
 | <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | <p>X<br>ou Y si option inversé</p> |
 | <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     | <p>Y<br>ou X si option inversé</p> |
 | LB (L1)                                                                            | L                                  |

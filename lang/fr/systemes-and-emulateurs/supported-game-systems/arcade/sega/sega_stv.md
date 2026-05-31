@@ -28,7 +28,7 @@ Arcade - Date de création : 1994
 | ---------------------------------------------------------------------------------- | ------------------------------------ |
 | D-PAD                                                                              | Directions                           |
 | ![A](<../../../../.gitbook/assets/image (20) (1).png>)                             | Bouton 1                             |
-| ![B](<../../../../.gitbook/assets/image (7) (1).png>)                              | Bouton 2                             |
+| ![B](<../../../../.gitbook/assets/image (7) (1) (1).png>)                          | Bouton 2                             |
 | <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | Bouton 4                             |
 | <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     | Bouton 3                             |
 | SELECT                                                                             | Credit                               |

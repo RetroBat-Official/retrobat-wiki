@@ -101,4 +101,4 @@ Project64 permet également de charger des textures HD personnalisées.
 
 Pour cela, placer les textures dans le dossier `saves\n64\project64\hires_texture`, puis activer l'option dans RetroBat:
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>

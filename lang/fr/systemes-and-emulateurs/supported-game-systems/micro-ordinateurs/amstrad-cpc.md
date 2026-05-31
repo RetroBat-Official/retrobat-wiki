@@ -30,23 +30,23 @@ Les cores crocods et cap32 permettent de sélectionner les types de contrôleurs
 * KEYBOARD (utiliser la fonction Game Focus en complément)
 * LIGHTGUN (cap32 uniquement)
 
-| Retrobat                                           | Amstrad CPC  |
-| -------------------------------------------------- | ------------ |
-| START                                              | RETURN       |
-| SELECT                                             | SPARE        |
-| D-PAD                                              | D-PAD        |
-| Stick analogique gauche                            | D-PAD        |
-| Stick analogique droit                             |              |
-| ![](<../../../.gitbook/assets/image (33).png>)     |              |
-| ![](<../../../.gitbook/assets/image (20) (1).png>) | Fire 2       |
-| ![](<../../../.gitbook/assets/image (7) (1).png>)  | Fire 1       |
-| ![](<../../../.gitbook/assets/image (35).png>)     |              |
-| L1                                                 | cap32: CTRL  |
-| R1                                                 | cap32: INTRO |
-| L2                                                 | cap32: F1    |
-| R2                                                 | cap32: F2    |
-| L3                                                 |              |
-| R3                                                 |              |
+| Retrobat                                              | Amstrad CPC  |
+| ----------------------------------------------------- | ------------ |
+| START                                                 | RETURN       |
+| SELECT                                                | SPARE        |
+| D-PAD                                                 | D-PAD        |
+| Stick analogique gauche                               | D-PAD        |
+| Stick analogique droit                                |              |
+| ![](<../../../.gitbook/assets/image (33).png>)        |              |
+| ![](<../../../.gitbook/assets/image (20) (1).png>)    | Fire 2       |
+| ![](<../../../.gitbook/assets/image (7) (1) (1).png>) | Fire 1       |
+| ![](<../../../.gitbook/assets/image (35).png>)        |              |
+| L1                                                    | cap32: CTRL  |
+| R1                                                    | cap32: INTRO |
+| L2                                                    | cap32: F1    |
+| R2                                                    | cap32: F2    |
+| L3                                                    |              |
+| R3                                                    |              |
 
 ### Remplacement de la configuration Libretro-Cap32
 
@@ -56,7 +56,7 @@ Le fichier JSON est situé dans le dossier `system\resources\inputmapping` de vo
 
 A l’intérieur de ce fichier, il est possible de forcer une configuration de touches spécifique par jeu, qui sera automatiquement identifié par RetroBat en fonction des noms de fichiers répertoriés dans la section « Roms » du fichier JSON, ou grâce à la normalisation du nom de fichier et de la valeur « Name » du fichier JSON :\
 \
-![](<../../../.gitbook/assets/image (7).png>)
+![](<../../../.gitbook/assets/image (7) (1).png>)
 
 Dans l'exemple ci-dessus, si le jeu BombJack est lancé depuis RetroBat, les boutons L2, R2 et Select de la manette seront automatiquement assignés aux touches 1, 2 et J du clavier:
 

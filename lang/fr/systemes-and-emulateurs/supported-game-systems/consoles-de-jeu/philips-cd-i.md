@@ -57,17 +57,17 @@ cdibios.zip
 
 ## Contrôles
 
-| Retrobat                                           | CD-i     |
-| -------------------------------------------------- | -------- |
-| START                                              | START    |
-| SELECT                                             | SELECT   |
-| D-PAD, Left analog stick                           | D-PAD    |
-| ![](<../../../.gitbook/assets/image (33).png>)     | ./..     |
-| ![](<../../../.gitbook/assets/image (20) (1).png>) | . (bas)  |
-| ![](<../../../.gitbook/assets/image (7) (1).png>)  | ..       |
-| ![](<../../../.gitbook/assets/image (35).png>)     | . (haut) |
-| L1                                                 |          |
-| R1                                                 |          |
+| Retrobat                                              | CD-i     |
+| ----------------------------------------------------- | -------- |
+| START                                                 | START    |
+| SELECT                                                | SELECT   |
+| D-PAD, Left analog stick                              | D-PAD    |
+| ![](<../../../.gitbook/assets/image (33).png>)        | ./..     |
+| ![](<../../../.gitbook/assets/image (20) (1).png>)    | . (bas)  |
+| ![](<../../../.gitbook/assets/image (7) (1) (1).png>) | ..       |
+| ![](<../../../.gitbook/assets/image (35).png>)        | . (haut) |
+| L1                                                    |          |
+| R1                                                    |          |
 
 ## Information spécifique au système
 

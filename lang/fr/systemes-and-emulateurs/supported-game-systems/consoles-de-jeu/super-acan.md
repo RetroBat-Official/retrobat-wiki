@@ -36,21 +36,21 @@ supracan.zip
 
 ## Contrôles
 
-| Retrobat                                           | Super A'Can |
-| -------------------------------------------------- | ----------- |
-| START                                              | START       |
-| SELECT                                             | SELECT      |
-| D-PAD                                              | D-PAD       |
-| Stick analogique gauche                            |             |
-| Stick analogique droit                             |             |
-| ![](<../../../.gitbook/assets/image (33).png>)     | X           |
-| ![](<../../../.gitbook/assets/image (20) (1).png>) | A           |
-| ![](<../../../.gitbook/assets/image (7) (1).png>)  | B           |
-| ![](<../../../.gitbook/assets/image (35).png>)     | Y           |
-| L1                                                 | L1          |
-| R1                                                 | R1          |
-| L2                                                 |             |
-| R2                                                 |             |
+| Retrobat                                              | Super A'Can |
+| ----------------------------------------------------- | ----------- |
+| START                                                 | START       |
+| SELECT                                                | SELECT      |
+| D-PAD                                                 | D-PAD       |
+| Stick analogique gauche                               |             |
+| Stick analogique droit                                |             |
+| ![](<../../../.gitbook/assets/image (33).png>)        | X           |
+| ![](<../../../.gitbook/assets/image (20) (1).png>)    | A           |
+| ![](<../../../.gitbook/assets/image (7) (1) (1).png>) | B           |
+| ![](<../../../.gitbook/assets/image (35).png>)        | Y           |
+| L1                                                    | L1          |
+| R1                                                    | R1          |
+| L2                                                    |             |
+| R2                                                    |             |
 
 ## Information spécifique au système
 

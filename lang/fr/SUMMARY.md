@@ -227,6 +227,7 @@
       * [Sega Hikaru](systemes-and-emulateurs/supported-game-systems/arcade/sega/hikaru.md)
       * [Triforce](systemes-and-emulateurs/supported-game-systems/arcade/sega/triforce.md)
       * [Sega Chihiro](systemes-and-emulateurs/supported-game-systems/arcade/sega/sega-chihiro.md)
+      * [Lindbergh](systemes-and-emulateurs/supported-game-systems/arcade/sega/lindbergh.md)
     * [TeknoParrot](systemes-and-emulateurs/supported-game-systems/arcade/teknoparrot.md)
     * [Zinc](systemes-and-emulateurs/supported-game-systems/arcade/zinc.md)
   * [Moteurs de Jeu](systemes-and-emulateurs/supported-game-systems/moteurs-de-jeu/README.md)

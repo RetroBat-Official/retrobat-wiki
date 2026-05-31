@@ -57,23 +57,23 @@ FBNEO offre le choix entre 2 schémas de contrôle:
 * CLASSIC
 * MODERN
 
-| Retrobat                                           | CLASSIC | MODERN |
-| -------------------------------------------------- | ------- | ------ |
-| START                                              | START   | START  |
-| SELECT                                             | COIN    | COIN   |
-| Stick analogique gauche                            | Stick   | Stick  |
-| Stick analogique droit                             |         |        |
-| D-PAD                                              | Stick   | Stick  |
-| ![](<../../../.gitbook/assets/image (33).png>)     | 3       | 3      |
-| ![](<../../../.gitbook/assets/image (20) (1).png>) | 1       | 1      |
-| ![](<../../../.gitbook/assets/image (7) (1).png>)  | 2       | 2      |
-| ![](<../../../.gitbook/assets/image (35).png>)     | 4       | 4      |
-| L1                                                 | 5       |        |
-| R1                                                 | 6       | 5      |
-| L2                                                 |         |        |
-| R2                                                 |         | 6      |
-| L3                                                 |         |        |
-| R3                                                 |         |        |
+| Retrobat                                              | CLASSIC | MODERN |
+| ----------------------------------------------------- | ------- | ------ |
+| START                                                 | START   | START  |
+| SELECT                                                | COIN    | COIN   |
+| Stick analogique gauche                               | Stick   | Stick  |
+| Stick analogique droit                                |         |        |
+| D-PAD                                                 | Stick   | Stick  |
+| ![](<../../../.gitbook/assets/image (33).png>)        | 3       | 3      |
+| ![](<../../../.gitbook/assets/image (20) (1).png>)    | 1       | 1      |
+| ![](<../../../.gitbook/assets/image (7) (1) (1).png>) | 2       | 2      |
+| ![](<../../../.gitbook/assets/image (35).png>)        | 4       | 4      |
+| L1                                                    | 5       |        |
+| R1                                                    | 6       | 5      |
+| L2                                                    |         |        |
+| R2                                                    |         | 6      |
+| L3                                                    |         |        |
+| R3                                                    |         |        |
 
 ### Contrôles pour l'émulateur FBNeo standalone
 

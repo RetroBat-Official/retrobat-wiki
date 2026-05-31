@@ -24,23 +24,23 @@ Console de jeu - Durée de vie : 1986 - 1992
 
 ## Contrôles
 
-| Retrobat                                              | Atari 7800 |
-| ----------------------------------------------------- | ---------- |
-| START                                                 |            |
-| SELECT                                                |            |
-| D-PAD                                                 | D-PAD      |
-| Stick analogique gauche                               |            |
-| Stick analogique droit                                |            |
-| ![](<../../../../.gitbook/assets/image (33).png>)     |            |
-| ![](<../../../../.gitbook/assets/image (20) (1).png>) | B          |
-| ![](<../../../../.gitbook/assets/image (7) (1).png>)  | A          |
-| ![](<../../../../.gitbook/assets/image (35).png>)     |            |
-| L1                                                    |            |
-| R1                                                    |            |
-| L2                                                    |            |
-| R2                                                    |            |
-| L3                                                    |            |
-| R3                                                    |            |
+| Retrobat                                                 | Atari 7800 |
+| -------------------------------------------------------- | ---------- |
+| START                                                    |            |
+| SELECT                                                   |            |
+| D-PAD                                                    | D-PAD      |
+| Stick analogique gauche                                  |            |
+| Stick analogique droit                                   |            |
+| ![](<../../../../.gitbook/assets/image (33).png>)        |            |
+| ![](<../../../../.gitbook/assets/image (20) (1).png>)    | B          |
+| ![](<../../../../.gitbook/assets/image (7) (1) (1).png>) | A          |
+| ![](<../../../../.gitbook/assets/image (35).png>)        |            |
+| L1                                                       |            |
+| R1                                                       |            |
+| L2                                                       |            |
+| R2                                                       |            |
+| L3                                                       |            |
+| R3                                                       |            |
 
 <div align="left"><figure><img src="https://i.imgur.com/sgsaeRN.png" alt=""><figcaption></figcaption></figure></div>
 

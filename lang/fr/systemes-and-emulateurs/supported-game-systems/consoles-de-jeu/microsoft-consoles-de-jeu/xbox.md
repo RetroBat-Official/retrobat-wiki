@@ -43,7 +43,7 @@ Vous pouvez télécharger dokan ici:\
 | Stick analogique gauche                                                            | Stick analogique gauche        |
 | Stick analogique droit                                                             | Stick analogique droit         |
 | ![A](<../../../../.gitbook/assets/image (20) (1).png>)                             | A                              |
-| ![B](<../../../../.gitbook/assets/image (7) (1).png>)                              | B                              |
+| ![B](<../../../../.gitbook/assets/image (7) (1) (1).png>)                          | B                              |
 | <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> | Y                              |
 | <img src="../../../../.gitbook/assets/image (33).png" alt="" data-size="line">     | X                              |
 | L1                                                                                 | L1 (blanc)                     |

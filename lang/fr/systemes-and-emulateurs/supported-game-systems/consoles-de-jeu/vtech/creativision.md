@@ -33,15 +33,15 @@ crvision.zip
 
 Les jeux CreatiVision sont fournis avec une carte qui se glisse sur le contrôleur pour afficher les contrôles spécifiques à chaque jeu.
 
-| Retrobat                                              | CrVision    |
-| ----------------------------------------------------- | ----------- |
-| START                                                 | START 2     |
-| SELECT                                                | START 1     |
-| D-PAD                                                 | Directions  |
-| ![](<../../../../.gitbook/assets/image (20) (1).png>) | Fire gauche |
-| ![](<../../../../.gitbook/assets/image (7) (1).png>)  | Fire droite |
-| L2 + SELECT                                           | RESET       |
-| L2 + START                                            | RESET       |
+| Retrobat                                                 | CrVision    |
+| -------------------------------------------------------- | ----------- |
+| START                                                    | START 2     |
+| SELECT                                                   | START 1     |
+| D-PAD                                                    | Directions  |
+| ![](<../../../../.gitbook/assets/image (20) (1).png>)    | Fire gauche |
+| ![](<../../../../.gitbook/assets/image (7) (1) (1).png>) | Fire droite |
+| L2 + SELECT                                              | RESET       |
+| L2 + START                                               | RESET       |
 
 ## Information spécifique au système
 

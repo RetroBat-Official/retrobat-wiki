@@ -33,23 +33,23 @@ apfm1000.zip
 
 ## Contrôles
 
-| Retrobat                                           | APF-M1000 |
-| -------------------------------------------------- | --------- |
-| START                                              | 0         |
-| SELECT                                             | 9         |
-| D-PAD                                              | Stick     |
-| Stick analogique gauche                            |           |
-| Stick analogique droit                             |           |
-| ![](<../../../.gitbook/assets/image (33).png>)     | 2         |
-| ![](<../../../.gitbook/assets/image (20) (1).png>) | En        |
-| ![](<../../../.gitbook/assets/image (7) (1).png>)  | Cl        |
-| ![](<../../../.gitbook/assets/image (35).png>)     | l         |
-| L1                                                 | 4         |
-| R1                                                 | 3         |
-| L2                                                 | 6         |
-| R2                                                 | 5         |
-| L3                                                 | 8         |
-| R3                                                 | 7         |
+| Retrobat                                              | APF-M1000 |
+| ----------------------------------------------------- | --------- |
+| START                                                 | 0         |
+| SELECT                                                | 9         |
+| D-PAD                                                 | Stick     |
+| Stick analogique gauche                               |           |
+| Stick analogique droit                                |           |
+| ![](<../../../.gitbook/assets/image (33).png>)        | 2         |
+| ![](<../../../.gitbook/assets/image (20) (1).png>)    | En        |
+| ![](<../../../.gitbook/assets/image (7) (1) (1).png>) | Cl        |
+| ![](<../../../.gitbook/assets/image (35).png>)        | l         |
+| L1                                                    | 4         |
+| R1                                                    | 3         |
+| L2                                                    | 6         |
+| R2                                                    | 5         |
+| L3                                                    | 8         |
+| R3                                                    | 7         |
 
 ## Information spécifique du système
 
