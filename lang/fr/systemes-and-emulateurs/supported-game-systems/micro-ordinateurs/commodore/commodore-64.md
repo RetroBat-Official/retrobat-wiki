@@ -26,23 +26,23 @@ Aucun BIOS nécessaire.
 
 Utiliser la fonctionnalité [Pad2Key](../../../../controleurs/pad2key.md).
 
-| Retrobat                                                 | C64                                                                                                                   |
-| -------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
-| START                                                    | ENTREE (clavier)                                                                                                      |
-| SELECT                                                   | <p>Appui court: Clavier virtuel </p><p>Appui long: Barre de statut (on/off) </p><p>Appui très long: Avance rapide</p> |
-| D-PAD                                                    | Joystick                                                                                                              |
-| Stick analogique gauche                                  | N/A                                                                                                                   |
-| Stick analogique droit                                   | N/A                                                                                                                   |
-| ![](<../../../../.gitbook/assets/image (33).png>)        | Shiftlock (clavier)                                                                                                   |
-| ![](<../../../../.gitbook/assets/image (20) (1).png>)    | Joystick Fire                                                                                                         |
-| ![](<../../../../.gitbook/assets/image (7) (1) (1).png>) | Bouton 2                                                                                                              |
-| ![](<../../../../.gitbook/assets/image (35).png>)        | ESPACE (clavier)                                                                                                      |
-| L1                                                       |                                                                                                                       |
-| R1                                                       |                                                                                                                       |
-| L2                                                       | ECHAP (clavier)                                                                                                       |
-| R2                                                       | ENTREE (clavier)                                                                                                      |
-| L3                                                       |                                                                                                                       |
-| R3                                                       |                                                                                                                       |
+| Retrobat                                              | C64                                                                                                                   |
+| ----------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------- |
+| START                                                 | ENTREE (clavier)                                                                                                      |
+| SELECT                                                | <p>Appui court: Clavier virtuel </p><p>Appui long: Barre de statut (on/off) </p><p>Appui très long: Avance rapide</p> |
+| D-PAD                                                 | Joystick                                                                                                              |
+| Stick analogique gauche                               | N/A                                                                                                                   |
+| Stick analogique droit                                | N/A                                                                                                                   |
+| ![](<../../../../.gitbook/assets/image (33).png>)     | Shiftlock (clavier)                                                                                                   |
+| ![](<../../../../.gitbook/assets/image (20) (1).png>) | Joystick Fire                                                                                                         |
+| ![](<../../../../.gitbook/assets/image (7) (1).png>)  | Bouton 2                                                                                                              |
+| ![](<../../../../.gitbook/assets/image (35).png>)     | ESPACE (clavier)                                                                                                      |
+| L1                                                    |                                                                                                                       |
+| R1                                                    |                                                                                                                       |
+| L2                                                    | ECHAP (clavier)                                                                                                       |
+| R2                                                    | ENTREE (clavier)                                                                                                      |
+| L3                                                    |                                                                                                                       |
+| R3                                                    |                                                                                                                       |
 
 Il est possible de réaliser des assignations de touches additionnelles en passant par le menu RetroArch:
 

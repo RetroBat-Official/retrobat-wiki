@@ -30,23 +30,23 @@ Console de jeu - Date de commercialisation :  1991
 
 Le système utilise la configuration standard des touches Retroarch&#x20;
 
-| Retrobat                                                 | Amiga CDTV              |
-| -------------------------------------------------------- | ----------------------- |
-| START                                                    | START                   |
-| SELECT                                                   | SELECT                  |
-| D-PAD                                                    | D-PAD                   |
-| Stick analogique gauche                                  | Stick analogique gauche |
-| Stick analogique droit                                   | Stick analogique droit  |
-| ![](<../../../../.gitbook/assets/image (33).png>)        | Y                       |
-| ![](<../../../../.gitbook/assets/image (20) (1).png>)    | B                       |
-| ![](<../../../../.gitbook/assets/image (7) (1) (1).png>) | A                       |
-| ![](<../../../../.gitbook/assets/image (35).png>)        | X                       |
-| L1                                                       | L/L1                    |
-| R1                                                       | R/R1                    |
-| L2                                                       | L2                      |
-| R2                                                       | R2                      |
-| L3                                                       | L3                      |
-| R3                                                       | R3                      |
+| Retrobat                                              | Amiga CDTV              |
+| ----------------------------------------------------- | ----------------------- |
+| START                                                 | START                   |
+| SELECT                                                | SELECT                  |
+| D-PAD                                                 | D-PAD                   |
+| Stick analogique gauche                               | Stick analogique gauche |
+| Stick analogique droit                                | Stick analogique droit  |
+| ![](<../../../../.gitbook/assets/image (33).png>)     | Y                       |
+| ![](<../../../../.gitbook/assets/image (20) (1).png>) | B                       |
+| ![](<../../../../.gitbook/assets/image (7) (1).png>)  | A                       |
+| ![](<../../../../.gitbook/assets/image (35).png>)     | X                       |
+| L1                                                    | L/L1                    |
+| R1                                                    | R/R1                    |
+| L2                                                    | L2                      |
+| R2                                                    | R2                      |
+| L3                                                    | L3                      |
+| R3                                                    | R3                      |
 
 ## Information spécifique du système
 

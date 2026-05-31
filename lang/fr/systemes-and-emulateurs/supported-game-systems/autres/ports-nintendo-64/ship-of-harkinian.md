@@ -20,7 +20,7 @@ Aucun BIOS nécessaire.
 
 Une disposition alternative de touche est disponible, avec le bouton Z sur la gâchette droite, l'option peut être activée via le menu disponible dans **OPTIONS AVANCÉES DU SYSTÈME > CONTRÔLES** :&#x20;
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Utiliser une manette N64
 

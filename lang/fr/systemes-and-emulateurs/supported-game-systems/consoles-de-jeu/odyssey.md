@@ -77,19 +77,19 @@ voice.zip
 
 Le clavier est mappé avec le clavier, voici la correspondance pour les manettes:
 
-| Retrobat                                              | Videopac |
-| ----------------------------------------------------- | -------- |
-| START                                                 |          |
-| SELECT                                                |          |
-| D-PAD                                                 | D-PAD    |
-| Stick analogique gauche                               |          |
-| Stick analogique droit                                |          |
-| ![](<../../../.gitbook/assets/image (33).png>)        |          |
-| ![](<../../../.gitbook/assets/image (20) (1).png>)    | Button   |
-| ![](<../../../.gitbook/assets/image (7) (1) (1).png>) |          |
-| ![](<../../../.gitbook/assets/image (35).png>)        |          |
-| L1                                                    |          |
-| R1                                                    |          |
+| Retrobat                                           | Videopac |
+| -------------------------------------------------- | -------- |
+| START                                              |          |
+| SELECT                                             |          |
+| D-PAD                                              | D-PAD    |
+| Stick analogique gauche                            |          |
+| Stick analogique droit                             |          |
+| ![](<../../../.gitbook/assets/image (33).png>)     |          |
+| ![](<../../../.gitbook/assets/image (20) (1).png>) | Button   |
+| ![](<../../../.gitbook/assets/image (7) (1).png>)  |          |
+| ![](<../../../.gitbook/assets/image (35).png>)     |          |
+| L1                                                 |          |
+| R1                                                 |          |
 
 <div align="left"><figure><img src="https://i.imgur.com/1eW9xUn.png" alt=""><figcaption></figcaption></figure></div>
 

@@ -32,23 +32,23 @@ gamecom.zip
 
 ## Contrôles
 
-| Retrobat                                              | Game.com |
-| ----------------------------------------------------- | -------- |
-| START                                                 | MENU     |
-| SELECT                                                | PAUSE    |
-| D-PAD                                                 | D-PAD    |
-| Stick analogique gauche                               | D-PAD    |
-| Stick analogique droit                                |          |
-| ![](<../../../.gitbook/assets/image (33).png>)        | A        |
-| ![](<../../../.gitbook/assets/image (20) (1).png>)    | C        |
-| ![](<../../../.gitbook/assets/image (7) (1) (1).png>) | D        |
-| ![](<../../../.gitbook/assets/image (35).png>)        | B        |
-| L1                                                    | L1       |
-| R1                                                    | R1       |
-| L2                                                    |          |
-| R2                                                    |          |
-| L3                                                    |          |
-| R3                                                    |          |
+| Retrobat                                           | Game.com |
+| -------------------------------------------------- | -------- |
+| START                                              | MENU     |
+| SELECT                                             | PAUSE    |
+| D-PAD                                              | D-PAD    |
+| Stick analogique gauche                            | D-PAD    |
+| Stick analogique droit                             |          |
+| ![](<../../../.gitbook/assets/image (33).png>)     | A        |
+| ![](<../../../.gitbook/assets/image (20) (1).png>) | C        |
+| ![](<../../../.gitbook/assets/image (7) (1).png>)  | D        |
+| ![](<../../../.gitbook/assets/image (35).png>)     | B        |
+| L1                                                 | L1       |
+| R1                                                 | R1       |
+| L2                                                 |          |
+| R2                                                 |          |
+| L3                                                 |          |
+| R3                                                 |          |
 
 ## Information spécifique au système
 

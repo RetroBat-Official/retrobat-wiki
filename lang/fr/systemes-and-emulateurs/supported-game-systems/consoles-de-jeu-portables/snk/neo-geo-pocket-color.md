@@ -24,23 +24,23 @@ Console de jeu portable - Durée de vie: 1999 - 2001
 
 ## Contrôles
 
-| Retrobat                                                 | Neo Geo Pocket |
-| -------------------------------------------------------- | -------------- |
-| START                                                    | START          |
-| SELECT                                                   |                |
-| Stick analogique gauche                                  | D-PAD          |
-| Stick analogique droit                                   |                |
-| D-PAD                                                    | D-PAD          |
-| ![](<../../../../.gitbook/assets/image (33).png>)        |                |
-| ![](<../../../../.gitbook/assets/image (20) (1).png>)    | B              |
-| ![](<../../../../.gitbook/assets/image (7) (1) (1).png>) | A              |
-| ![](<../../../../.gitbook/assets/image (35).png>)        |                |
-| L1                                                       |                |
-| R1                                                       |                |
-| L2                                                       |                |
-| R2                                                       |                |
-| L3                                                       |                |
-| R3                                                       |                |
+| Retrobat                                              | Neo Geo Pocket |
+| ----------------------------------------------------- | -------------- |
+| START                                                 | START          |
+| SELECT                                                |                |
+| Stick analogique gauche                               | D-PAD          |
+| Stick analogique droit                                |                |
+| D-PAD                                                 | D-PAD          |
+| ![](<../../../../.gitbook/assets/image (33).png>)     |                |
+| ![](<../../../../.gitbook/assets/image (20) (1).png>) | B              |
+| ![](<../../../../.gitbook/assets/image (7) (1).png>)  | A              |
+| ![](<../../../../.gitbook/assets/image (35).png>)     |                |
+| L1                                                    |                |
+| R1                                                    |                |
+| L2                                                    |                |
+| R2                                                    |                |
+| L3                                                    |                |
+| R3                                                    |                |
 
 <div align="left"><figure><img src="https://wiki.batocera.org/_media/systems:ngp_controller_mapping.png?w=750&#x26;tok=e1fb04" alt=""><figcaption></figcaption></figure></div>
 

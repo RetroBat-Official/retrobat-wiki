@@ -273,6 +273,7 @@
     * [Pico-8](systemes-and-emulateurs/supported-game-systems/autres/pico-8.md)
     * [Ports](systemes-and-emulateurs/supported-game-systems/autres/ports.md)
     * [Ports Nintendo 64](systemes-and-emulateurs/supported-game-systems/autres/ports-nintendo-64/README.md)
+      * [N64 Recomp](systemes-and-emulateurs/supported-game-systems/autres/ports-nintendo-64/n64recomp.md)
       * [2 Ship 2 Harkinian](systemes-and-emulateurs/supported-game-systems/autres/ports-nintendo-64/2-ship-2-harkinian.md)
       * [Ghostship](systemes-and-emulateurs/supported-game-systems/autres/ports-nintendo-64/ghostship.md)
       * [Perfect Dark](systemes-and-emulateurs/supported-game-systems/autres/ports-nintendo-64/perfect-dark.md)

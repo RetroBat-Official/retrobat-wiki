@@ -24,23 +24,23 @@ Console de jeu - Durée de vie : 1982 - 1984
 
 ## Contrôles
 
-| Retrobat                                                 | Atari 5200                    |
-| -------------------------------------------------------- | ----------------------------- |
-| START                                                    | START                         |
-| SELECT                                                   | SELECT                        |
-| D-PAD                                                    | D-PAD                         |
-| Stick analogique gauche                                  |                               |
-| Stick analogique droit                                   |                               |
-| ![](<../../../../.gitbook/assets/image (33).png>)        | Clavier virtuel on/off        |
-| ![](<../../../../.gitbook/assets/image (20) (1).png>)    | Bouton RETOUR                 |
-| ![](<../../../../.gitbook/assets/image (7) (1) (1).png>) | FIRE 1                        |
-| ![](<../../../../.gitbook/assets/image (35).png>)        | FIRE 2                        |
-| L1                                                       | Bouton Option                 |
-| R1                                                       | Ouvrir le menu de l'émulateur |
-| L2                                                       | bouton ESPACE                 |
-| R2                                                       | Bouton ECHAP                  |
-| L3                                                       |                               |
-| R3                                                       |                               |
+| Retrobat                                              | Atari 5200                    |
+| ----------------------------------------------------- | ----------------------------- |
+| START                                                 | START                         |
+| SELECT                                                | SELECT                        |
+| D-PAD                                                 | D-PAD                         |
+| Stick analogique gauche                               |                               |
+| Stick analogique droit                                |                               |
+| ![](<../../../../.gitbook/assets/image (33).png>)     | Clavier virtuel on/off        |
+| ![](<../../../../.gitbook/assets/image (20) (1).png>) | Bouton RETOUR                 |
+| ![](<../../../../.gitbook/assets/image (7) (1).png>)  | FIRE 1                        |
+| ![](<../../../../.gitbook/assets/image (35).png>)     | FIRE 2                        |
+| L1                                                    | Bouton Option                 |
+| R1                                                    | Ouvrir le menu de l'émulateur |
+| L2                                                    | bouton ESPACE                 |
+| R2                                                    | Bouton ECHAP                  |
+| L3                                                    |                               |
+| R3                                                    |                               |
 
 ### Options de contrôle
 

@@ -10,7 +10,7 @@ Il existe plusieurs modèles de pistolets sur le marché, seuls quelques-uns ont
 
 ## Détection du pistolet
 
-Lorsqu'un pistolet est connecté, une icône représentant un pistolet apparaît dans le coin supérieur gauche de l'écran, à l'emplacement des icônes des manettes : ![](<../../../.gitbook/assets/image (4) (1) (1).png>)
+Lorsqu'un pistolet est connecté, une icône représentant un pistolet apparaît dans le coin supérieur gauche de l'écran, à l'emplacement des icônes des manettes : ![](<../../../.gitbook/assets/image (4) (1).png>)
 
 Une cible est également visible à l'écran, et une nouvelle collection "JEUX DE TIR" est disponible dans la **Vue Système**
 

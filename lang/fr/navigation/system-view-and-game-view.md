@@ -26,7 +26,7 @@ Le menu de recherche rapide est disponible en appuyant sur ![](<../.gitbook/asse
 
 ### Barre de Navigation Constructeur
 
-La barre de navigation constructeur est disponible en appuyant sur ![](<../.gitbook/assets/image (7) (1) (1).png>), elle permet d'accéder rapidement aux systèmes du constructeur sélectionné.
+La barre de navigation constructeur est disponible en appuyant sur ![](<../.gitbook/assets/image (7) (1).png>), elle permet d'accéder rapidement aux systèmes du constructeur sélectionné.
 
 <div align="left"><figure><img src="https://i.imgur.com/wuWdSXw.png" alt=""><figcaption></figcaption></figure></div>
 
@@ -116,7 +116,7 @@ Pour accéder à la **Vue Jeux**, choisir un système depuis la **Vue Système**
 Naviguer dans la liste des jeux en utilisant la croix directionnel
 
 * Appuyer ![](<../.gitbook/assets/image (20) (1).png>) pour démarrer un jeu (ou maintenir le bouton pour accéder aux [Options du Jeu](game-options.md)).
-* Appuyer ![](<../.gitbook/assets/image (7) (1) (1).png>) pour retourner à la **Vue Système**.
+* Appuyer ![](<../.gitbook/assets/image (7) (1).png>) pour retourner à la **Vue Système**.
 
 Il existe plusieurs "types" d'affichage pour la liste de jeux, les différentes options sont disponibles depuis les [Options d'Affichage](view-options.md) (touche **SELECT**):
 

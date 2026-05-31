@@ -18,23 +18,23 @@ Aucun BIOS nécessaire.
 
 Les contrôles sont spécifiques à chaque jeu, une correspondance standard universelle est impossible. MAME gère cela en assignant 6 boutons et un stick.
 
-| Retrobat                                              | Jeux téléviseurs |
-| ----------------------------------------------------- | ---------------- |
-| START                                                 | START            |
-| SELECT                                                | COIN             |
-| D-PAD                                                 | Stick            |
-| Left analog stick                                     | Stick            |
-| Reft analog stick                                     |                  |
-| ![](<../../../.gitbook/assets/image (33).png>)        | 3                |
-| ![](<../../../.gitbook/assets/image (20) (1).png>)    | 1                |
-| ![](<../../../.gitbook/assets/image (7) (1) (1).png>) | 2                |
-| ![](<../../../.gitbook/assets/image (35).png>)        | 4                |
-| L1                                                    | 5                |
-| R1                                                    | 6                |
-| L2                                                    |                  |
-| R2                                                    |                  |
-| L3                                                    |                  |
-| R3                                                    |                  |
+| Retrobat                                           | Jeux téléviseurs |
+| -------------------------------------------------- | ---------------- |
+| START                                              | START            |
+| SELECT                                             | COIN             |
+| D-PAD                                              | Stick            |
+| Left analog stick                                  | Stick            |
+| Reft analog stick                                  |                  |
+| ![](<../../../.gitbook/assets/image (33).png>)     | 3                |
+| ![](<../../../.gitbook/assets/image (20) (1).png>) | 1                |
+| ![](<../../../.gitbook/assets/image (7) (1).png>)  | 2                |
+| ![](<../../../.gitbook/assets/image (35).png>)     | 4                |
+| L1                                                 | 5                |
+| R1                                                 | 6                |
+| L2                                                 |                  |
+| R2                                                 |                  |
+| L3                                                 |                  |
+| R3                                                 |                  |
 
 ## Information spécifique au système
 

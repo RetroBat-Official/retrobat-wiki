@@ -26,35 +26,35 @@ Aucun BIOS nécessaire.
 
 ### Standard
 
-| Contrôles Lindbergh | Manette                                                                           | Clavier                 |
-| ------------------- | --------------------------------------------------------------------------------- | ----------------------- |
-| TEST                | R3                                                                                | 9                       |
-| SERVICE             | L3                                                                                | 0                       |
-| P1 CRÉDIT           | SELECT                                                                            | 5                       |
-| P2 CRÉDIT           | SELECT                                                                            | 6                       |
-| P1 START            | START                                                                             | 1                       |
-| P2 START            | START                                                                             | 2                       |
-| DIRECTIONS          | D-PAD & Left stick                                                                | Flèches directionnelles |
-| BOUTON 1            | <img src="../../../../.gitbook/assets/image.png" alt="" data-size="original">     | CTRL gauche             |
-| BOUTON 2            | <img src="../../../../.gitbook/assets/image (1).png" alt="" data-size="original"> | ALT gauche              |
-| BOUTON 3            | <img src="../../../../.gitbook/assets/image (2).png" alt="" data-size="original"> | Espace                  |
-| P1 Card insert      | GUIDE                                                                             | F7                      |
+| Contrôles Lindbergh | Manette                                                                             | Clavier                 |
+| ------------------- | ----------------------------------------------------------------------------------- | ----------------------- |
+| TEST                | R3                                                                                  | 9                       |
+| SERVICE             | L3                                                                                  | 0                       |
+| P1 CRÉDIT           | SELECT                                                                              | 5                       |
+| P2 CRÉDIT           | SELECT                                                                              | 6                       |
+| P1 START            | START                                                                               | 1                       |
+| P2 START            | START                                                                               | 2                       |
+| DIRECTIONS          | D-PAD & Left stick                                                                  | Flèches directionnelles |
+| BOUTON 1            | <img src="../../../../.gitbook/assets/image (162).png" alt="" data-size="original"> | CTRL gauche             |
+| BOUTON 2            | <img src="../../../../.gitbook/assets/image (163).png" alt="" data-size="original"> | ALT gauche              |
+| BOUTON 3            | <img src="../../../../.gitbook/assets/image (164).png" alt="" data-size="original"> | Espace                  |
+| P1 Card insert      | GUIDE                                                                               | F7                      |
 
 ### Jeux de conduite
 
-<table><thead><tr><th>Contrôles Lindbergh</th><th width="240">Manette</th><th>Clavier</th></tr></thead><tbody><tr><td>Direction</td><td>Stick gauche horizontale</td><td>GAUCHE / DROITE</td></tr><tr><td>Accélération</td><td>R2</td><td>HAUT</td></tr><tr><td>Freinage</td><td>L2</td><td>BAS</td></tr><tr><td>Changement de vue</td><td><img src="../../../../.gitbook/assets/image (4).png" alt="" data-size="original"></td><td>MAJ gauche</td></tr><tr><td>Boost</td><td><img src="../../../../.gitbook/assets/image (6).png" alt="" data-size="original"></td><td>CTRL gauche</td></tr><tr><td>Boost droite</td><td><img src="../../../../.gitbook/assets/image (5).png" alt="" data-size="original"></td><td>ALT gauche</td></tr><tr><td>Vitesse supérieure</td><td>R1</td><td>X</td></tr><tr><td>Vitesse inférieure</td><td>L1</td><td>Z</td></tr><tr><td>Changement de musique</td><td><img src="../../../../.gitbook/assets/image (2).png" alt="" data-size="original"></td><td>Espace</td></tr></tbody></table>
+<table><thead><tr><th>Contrôles Lindbergh</th><th width="240">Manette</th><th>Clavier</th></tr></thead><tbody><tr><td>Direction</td><td>Stick gauche horizontale</td><td>GAUCHE / DROITE</td></tr><tr><td>Accélération</td><td>R2</td><td>HAUT</td></tr><tr><td>Freinage</td><td>L2</td><td>BAS</td></tr><tr><td>Changement de vue</td><td><img src="../../../../.gitbook/assets/image (166).png" alt="" data-size="original"></td><td>MAJ gauche</td></tr><tr><td>Boost</td><td><img src="../../../../.gitbook/assets/image (168).png" alt="" data-size="original"></td><td>CTRL gauche</td></tr><tr><td>Boost droite</td><td><img src="../../../../.gitbook/assets/image (167).png" alt="" data-size="original"></td><td>ALT gauche</td></tr><tr><td>Vitesse supérieure</td><td>R1</td><td>X</td></tr><tr><td>Vitesse inférieure</td><td>L1</td><td>Z</td></tr><tr><td>Changement de musique</td><td><img src="../../../../.gitbook/assets/image (164).png" alt="" data-size="original"></td><td>Espace</td></tr></tbody></table>
 
 ### Simulateur de vol
 
-| Contrôles Lindbergh | Manette                                                                           | Clavier                |
-| ------------------- | --------------------------------------------------------------------------------- | ---------------------- |
-| Direction de vol    |  Stick gauche / D-PAD                                                             | Flèches de déplacement |
-| Manette des gaz     | Axe vertical droit / gâchettes                                                    |                        |
-| Accélération        | R1                                                                                | X                      |
-| Ralentissement      | L1                                                                                | Z                      |
-| Commutateur Climax  | <img src="../../../../.gitbook/assets/image (4).png" alt="" data-size="original"> | MAJ gauche             |
-| Détente             | <img src="../../../../.gitbook/assets/image (7).png" alt="" data-size="original"> | CTRL gauche            |
-| Missile             | <img src="../../../../.gitbook/assets/image (5).png" alt="" data-size="original"> | ALT gauche             |
+| Contrôles Lindbergh | Manette                                                                             | Clavier                |
+| ------------------- | ----------------------------------------------------------------------------------- | ---------------------- |
+| Direction de vol    |  Stick gauche / D-PAD                                                               | Flèches de déplacement |
+| Manette des gaz     | Axe vertical droit / gâchettes                                                      |                        |
+| Accélération        | R1                                                                                  | X                      |
+| Ralentissement      | L1                                                                                  | Z                      |
+| Commutateur Climax  | <img src="../../../../.gitbook/assets/image (166).png" alt="" data-size="original"> | MAJ gauche             |
+| Détente             | <img src="../../../../.gitbook/assets/image (169).png" alt="" data-size="original"> | CTRL gauche            |
+| Missile             | <img src="../../../../.gitbook/assets/image (167).png" alt="" data-size="original"> | ALT gauche             |
 
 ### Jeux de tir
 
@@ -78,11 +78,11 @@ Linuxloader ne permet pas le raw input pour activer le mode multijoueur dans les
 
 Pour activer DemulShooter, vous devez le télécharger depuis la section téléchargement de RetroBat :
 
-<figure><img src="../../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (170).png" alt=""><figcaption></figcaption></figure>
 
 Puis, vous devez l'activer pour le jeu :
 
-<figure><img src="../../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (171).png" alt=""><figcaption></figcaption></figure>
 
 Enfin, assurez-vous que le nom du fichier de jeu (le nom du dossier avec l'extension .game ou le fichier .game) corresponde exactement a ce qui est attendu par DemulShooter :
 
@@ -101,7 +101,7 @@ Enfin, assurez-vous que le nom du fichier de jeu (le nom du dossier avec l'exten
 
 Vous pouvez utiliser votre propre fichier controls.ini avec l'option suivante, situé dans le menu OPTIONS AVANCÉES > CONTRÔLES :
 
-<figure><img src="../../../../.gitbook/assets/image (160).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (172).png" alt=""><figcaption></figcaption></figure>
 
 ## Informations spécifiques au système
 
@@ -123,4 +123,4 @@ Le menu Test contient des options permettant des ajustements dans le jeu lui-mê
 
 Le menu Test peut être activé en activant l'option **TEST MODE** :
 
-<figure><img src="../../../../.gitbook/assets/image (161).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (173).png" alt=""><figcaption></figcaption></figure>

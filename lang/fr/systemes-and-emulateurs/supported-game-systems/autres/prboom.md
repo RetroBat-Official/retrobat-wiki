@@ -22,23 +22,23 @@ Aucun BIOS nécessaire.
 
 PrBoom permet de sélectionner 2 schémas de contrôles.
 
-| Retrobat                                              | Classic                     | Modern                                                      |
-| ----------------------------------------------------- | --------------------------- | ----------------------------------------------------------- |
-| START                                                 | Afficher / masquer le menu  | Afficher / masquer le menu                                  |
-| SELECT                                                | Afficher / masquer la carte | Afficher / masquer la carte                                 |
-| D-PAD                                                 | D-PAD                       | D-PAD                                                       |
-| Left analog stick                                     |                             | <p>X-axe: déplacement latéral<br>Y-axe: Avancer/reculer</p> |
-| Right analog stick                                    |                             | X-axe: regarder à gauche et droite                          |
-| ![](<../../../.gitbook/assets/image (33).png>)        | Courir                      | Sauvegarde rapide                                           |
-| ![](<../../../.gitbook/assets/image (20) (1).png>)    | Utiliser                    | Menu : annuler                                              |
-| ![](<../../../.gitbook/assets/image (7) (1) (1).png>) | Tirer                       | Menu : sélectionner                                         |
-| ![](<../../../.gitbook/assets/image (35).png>)        | Mitrailler                  | Chargement rapide                                           |
-| L1                                                    | Mitrailler à gauche         | Arme précédente                                             |
-| R1                                                    | Mitrailler à droite         | Arme suivante                                               |
-| L2                                                    | Arme précédente             | Utiliser                                                    |
-| R2                                                    | Arme suivante               | Tirer                                                       |
-| L3                                                    |                             | Courir                                                      |
-| R3                                                    |                             | Se retourner (180°)                                         |
+| Retrobat                                           | Classic                     | Modern                                                      |
+| -------------------------------------------------- | --------------------------- | ----------------------------------------------------------- |
+| START                                              | Afficher / masquer le menu  | Afficher / masquer le menu                                  |
+| SELECT                                             | Afficher / masquer la carte | Afficher / masquer la carte                                 |
+| D-PAD                                              | D-PAD                       | D-PAD                                                       |
+| Left analog stick                                  |                             | <p>X-axe: déplacement latéral<br>Y-axe: Avancer/reculer</p> |
+| Right analog stick                                 |                             | X-axe: regarder à gauche et droite                          |
+| ![](<../../../.gitbook/assets/image (33).png>)     | Courir                      | Sauvegarde rapide                                           |
+| ![](<../../../.gitbook/assets/image (20) (1).png>) | Utiliser                    | Menu : annuler                                              |
+| ![](<../../../.gitbook/assets/image (7) (1).png>)  | Tirer                       | Menu : sélectionner                                         |
+| ![](<../../../.gitbook/assets/image (35).png>)     | Mitrailler                  | Chargement rapide                                           |
+| L1                                                 | Mitrailler à gauche         | Arme précédente                                             |
+| R1                                                 | Mitrailler à droite         | Arme suivante                                               |
+| L2                                                 | Arme précédente             | Utiliser                                                    |
+| R2                                                 | Arme suivante               | Tirer                                                       |
+| L3                                                 |                             | Courir                                                      |
+| R3                                                 |                             | Se retourner (180°)                                         |
 
 ## Information spécifique au système
 

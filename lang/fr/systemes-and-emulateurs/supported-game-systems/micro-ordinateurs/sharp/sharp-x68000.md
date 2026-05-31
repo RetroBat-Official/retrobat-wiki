@@ -26,21 +26,21 @@ Micro-ordinateur - Durée de vie : 1987 - 1993
 
 Utiliser la fonctionnalité [Pad2Key](../../../../controleurs/pad2key.md).
 
-| Retrobat                                                 | X68000    |
-| -------------------------------------------------------- | --------- |
-| START                                                    | JOY\_TRG6 |
-| SELECT                                                   | JOY\_TRG7 |
-| D-PAD                                                    | D-PAD     |
-| Stick analogique gauche                                  | D-PAD     |
-| Stick analogique droit                                   |           |
-| ![](<../../../../.gitbook/assets/image (33).png>)        | JOY\_TRG3 |
-| ![](<../../../../.gitbook/assets/image (20) (1).png>)    | JOY\_TRG2 |
-| ![](<../../../../.gitbook/assets/image (7) (1) (1).png>) | JOY\_TRG1 |
-| ![](<../../../../.gitbook/assets/image (35).png>)        | JOY\_TRG4 |
-| L1                                                       | JOY\_TRG5 |
-| R1                                                       | JOY\_TRG8 |
-| L2                                                       | Menu      |
-| R2                                                       |           |
+| Retrobat                                              | X68000    |
+| ----------------------------------------------------- | --------- |
+| START                                                 | JOY\_TRG6 |
+| SELECT                                                | JOY\_TRG7 |
+| D-PAD                                                 | D-PAD     |
+| Stick analogique gauche                               | D-PAD     |
+| Stick analogique droit                                |           |
+| ![](<../../../../.gitbook/assets/image (33).png>)     | JOY\_TRG3 |
+| ![](<../../../../.gitbook/assets/image (20) (1).png>) | JOY\_TRG2 |
+| ![](<../../../../.gitbook/assets/image (7) (1).png>)  | JOY\_TRG1 |
+| ![](<../../../../.gitbook/assets/image (35).png>)     | JOY\_TRG4 |
+| L1                                                    | JOY\_TRG5 |
+| R1                                                    | JOY\_TRG8 |
+| L2                                                    | Menu      |
+| R2                                                    |           |
 
 ## Information spécifique au système
 
