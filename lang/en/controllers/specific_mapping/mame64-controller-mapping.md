@@ -106,8 +106,8 @@ The other profiles can be used to point to files that you need to create, either
 MAME standalone will read the controller configuration files in the following ordre of priority (from less priority to highest priority - meaning the last file found will override what is found before):
 
 1. Native controller configuration
-2. Default.cfg file located in `\bios\mame\cfg` folder
-3. Game specific config files located in `\bios\mame\cfg` folder
+2. Default.cfg file located in `\saves\mame\cfg` folder
+3. Game specific config files located in `\saves\mame\cfg` folder
 4. Controller configuration file located in `\saves\mame\ctrlr` folder as per selection in RetroBat options
 
 #### STEP 2 : Create controller mapping file in MAME
@@ -159,7 +159,7 @@ The file has an xml format, the mapping that you have performed is located in th
 
 _In the example, the keyboard key "Q" has been assigned to the action "UI\_MENU" that opens the MAME menu._
 
-Finally, copy the default.cfg file in the `\bios\mame\cfg` folder of your installation : this will now be the default controller configuration.
+Finally, copy the default.cfg file in the `\saves\mame\cfg` folder of your installation : this will now be the default controller configuration.
 
 #### STEP 4 : Create a dedicated profile
 
