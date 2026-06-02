@@ -106,8 +106,8 @@ Les autres profils peuvent être utilisés pour pointer vers des fichiers que vo
 Au lancement, MAME parcourt plusieurs dossiers pour définir la configuration à utiliser, l'ordre de priorité utilisé est le suivant (du moins prioritaire au plus prioritaire - cela signifie que le dernier fichier trouvé aura la priorité sur les autres):
 
 1. Configuration native de l'émulateur
-2. Fichier default.cfg dans le dossier `\bios\mame\cfg` (si existant)
-3. Fichier spécifique au jeu dans le dossier `\bios\mame\cfg` (si existant - doit porter exactement le nom de la rom de jeu)
+2. Fichier default.cfg dans le dossier `\saves\mame\cfg` (si existant)
+3. Fichier spécifique au jeu dans le dossier `\saves\mame\cfg` (si existant - doit porter exactement le nom de la rom de jeu)
 4. Fichier de configuration contrôleur situé dans `\saves\mame\ctrlr` selon la sélection faite par l'utilisateur depuis l'interface RetroBat
 
 ### ÉTAPE 2 : Création du fichier de configuration des touches dans MAME
@@ -157,7 +157,7 @@ Le fichier est au format xml, le paramétrage précédemment renseigné se situe
 \
 &#xNAN;_&#x44;ans l'exemple, la touche "Q" du clavier a été attribué à l'action "UI\_MENU" qui ouvre le menu MAME._
 
-Enfin, déplacer le fichier default.cfg vers le dossier `\bios\mame\cfg` de votre installation : ce profil devient alors le profil par défaut.
+Enfin, déplacer le fichier default.cfg vers le dossier `\saves\mame\cfg` de votre installation : ce profil devient alors le profil par défaut.
 
 ### ÉTAPE 4 : Créer un profil contrôleur dédié
 
