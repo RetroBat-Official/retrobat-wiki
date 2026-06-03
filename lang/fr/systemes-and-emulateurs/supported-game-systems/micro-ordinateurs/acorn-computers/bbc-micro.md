@@ -20,54 +20,58 @@ Micro-ordinateur - Durée de vie : 1981 - 1994
 
 ## BIOS
 
-<table><thead><tr><th width="286">Fichier BIOS</th><th width="240.03610108303252">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>bbcb.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>bbc_acorn8271.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>saa5050.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>bbc_tube_80186.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>bbcm.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>bbcmc.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>bbc_bitstik1.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>bbc_bitstik2.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>bbc.zip</td><td><code>\bios\mame\samples</code></td><td>See below</td></tr><tr><td>bbc_cass.xml<br>bbc_rom.xml<br>bbcb_flop.xml<br>bbcb_flop_orig.xml<br>bbcb_flop_us.xml<br>bbcm_cart.xml<br>bbcm_flop.xml<br>bbcmc_flop.xml</td><td><code>\bios\mame\hash</code></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="286">Fichier BIOS</th><th width="240.03610108303252">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>bbcb.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>bbc_acorn8271.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>saa5050.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>bbc_tube_80186.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>bbcm.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>bbcmc.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>bbc_bitstik1.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>bbc_bitstik2.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>bbcm512.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>bbc.zip</td><td><code>\bios\mame\samples</code></td><td>See below</td></tr><tr><td>bbc_cass.xml<br>bbc_rom.xml<br>bbcb_flop.xml<br>bbcb_flop_orig.xml<br>bbcb_flop_us.xml<br>bbcm_cart.xml<br>bbcm_flop.xml<br>bbcmc_flop.xml</td><td><code>\bios\mame\hash</code></td><td></td></tr></tbody></table>
 
 ### Contenu du fichier BIOS
 
 ```
 bbcb.zip
-- basic1.rom "521a197d3623682825f1042c1350feb4"
-- basic2.rom "2cc67be4624df4dc66617742571a8e3d"
-- os01.rom "0cad3d0cf0d111aca2b158b9b605913f"
-- os092.rom "46f920a170e88bab7faa96cf80b84324"
-- os10.rom "0199bac73f1dbca291582834a3e61122"
-- os12.rom "0a59a5ba15fe8557b5f7fee32bbd393a"
-- phroma.bin "35e9ab10bcf016bd24b4c716add009b9"
+- basic1.rom "890f6e3e7fab3340f75b85e93ff29332bc9ecb2e"
+- basic2.rom "4a7393f3a45ea309f744441c16723e2ef447a281"
+- os01.rom "4b0ece6dc139d5d3f4fabd023716fb6f25149b80"
+- os092.rom "dca33995c0d008a527efe923d03333394b01022c"
+- os10.rom "d35f6723132aabe3c4d00fc16fd9ecc6768df753"
+- os12.rom "0d9bcaf6a393c9ce2359ed700ddb53c232c2c45d"
+- cm62024.bin "b369809275cb67dfd8a749265e91adb2d2558ae6"
 
 bbc_acorn8271.zip
-- dfs090.rom "803530149c274994fabc6d28cbe03679"
-- dfs098.rom "5a3ddfae96178e025f27bf1f69bfa629"
-- dnfs100.rom "d636ffb7a80fc29b133d32e4250fbab6"
-- dnfs120.rom "5daed103918277e2065dd7e8d23e57a5"
-- wedfs130.rom "79b31feacab0b1ccddf358be5dfb6241"
-- wedfs141.rom "24458ace9566a01d255bca16b46a960d"
-- wedfs142.rom "6e9356d0a5e7fbabb386824ec370d6f3"
-- wedfs143.rom "990b8a9755af25452c85f23ceb344be4"
-- wedfs144.rom "1d250b0242e447e9106e8bfd1f27ea84"
+- dfs090.rom "5cc0f14b8f46855c70eaa653cca4ad079b458732"
+- dfs098.rom "6df3552d5426f3a4625b9a0c7829bdba03f05e84"
+- dnfs100.rom "161f585dc45665ea77433c84afd2f95049f7f5a0"
+- dnfs120.rom "7e3c536baeae84d6498a14e8405319e01ee78232"
+- wedfs130.rom "01455e8762fe21a5fbb0c383793bcc6e9c34904c"
+- wedfs141.rom "4f3984ebb35709b39369cb516440dd0589920337"
+- wedfs142.rom "0caee270eddd8feb3fa75f721775e9b80f853358"
+- wedfs143.rom "69bc258880b8e163ff85a293a25e5f00931d030b"
+- wedfs144.rom "387d2468c6e1360f5b531784ce95d5f71a50c2b5"
 
 saa5050.zip
-- saa5050 "8b3c10a2317808ed94d6c6073b5b3327"
+- saa5050 "6c8daba70374e5aa3a6402f24cdc5f8677d58a0f"
 
 bbc_tube_80186.zip
-- m512_hi_ic32.rom "33d097349f12526584fcac21eccf3012"
-- m512_lo_ic31.rom "e6e84221c29b5d31d07055039583c8e7"
+- m512_hi_ic32.rom "45dc8d7e7936afbec6de423569d9005a1c350316"
+- m512_lo_ic31.rom "7f6d843d5aea6bdb36cbd4623ae942b16b96069d"
 
-bbcm.zip
-- mos320.cmos "b159012f9f301bab33316fd3bf55db79"
-- mos320.ic24 "fed079c5e2c595b354529a8ea703b5fb"
-- mos329.ic24 "ca0527f13f83bc95ef4b6833ee440afa"
-- mos350.cmos "ee9fc46252b7d7fe341b9c7f92575099"
-- mos350.ic24 "3f3dd4614db30f6e383794731272076a"
+bbcm.zip & bbcm512.zip (same content)
+- caspl_mos343_89.bin "eb7c09d942f9dac378337094416053df16cb3fe2"
+- caspl_mos343_ab.bin "c3ee6018230c7201a6dfa10162f25d630f12c795"
+- caspl_mos343_cd.bin "19c1a59abd817f7011b142177417f7abb9eb3f64"
+- caspl_mos343_ef.bin "24ff90709495adda8a01858c60275193e70b2690"
+- mos320.cmos "f24cc9db0525910689219f7204bf8b864033ee94"
+- mos320.ic24 "eacacbec3892dc4809ad5800e6c8299ff9eb528f"
+- mos329.ic24 "4604203c70c04a9fd003103deec438fc5bd44839"
+- mos350.cmos "f3cb7f12b7432caba28d067f01af575779220aac"
+- mos350.ic24 "85211b5bc7c7a269952d2b063b7ec0e1f0196803"
 
 bbcmc.zip
-- mos500.ic49 "55586a88477505d8fd28edfae646e2e3"
-- mos510.ic49 "956bf71da840943050836ade2474ef7b"
+- mos500.ic49 "140d002d2d9cd34b47197a2ba823505af2a84633"
+- mos510.ic49 "094ab37b0b6437c4f1653eaa0602ef102737adb6"
 
 bbc_bitstik1.zip
-- bitstik1.rom "baf5cb5564ff6e6b4400243e7612f323"
+- bitstik1.rom "c6f2cf2f6d1e48819a8381c6a1c97ca8fa5ab117"
 
 bbc_bitstik2.zip
-- bitstik2.rom "c196c145b3de630f85f625ca762e5504"
+- bitstik2.rom "4d0040af6bdc6a587e42d4aa36d528b768cf9549"
 
 bbc.zip
 - motoroff.wav
