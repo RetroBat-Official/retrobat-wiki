@@ -31,7 +31,7 @@ No BIOS required.
 
 ## Specific system information
 
-### Add SINGE game (zip method)
+### Add SINGE/SINGE2 game (zip method)
 
 This is the easiest method to add SINGE games with hypseus emulator, however, not all games are available in zip yet.
 
@@ -57,7 +57,7 @@ Place the zip file in singe\roms folder.
 
 Place the framework file and media files in vldp game subfolder.
 
-### Add SINGE Games (folder method - old)
+### Add SINGE/SINGE2 Games (folder method - old)
 
 To add SINGE games, your game folders must be placed in "**\roms\singe**" folder by adding **.hypseus** at the end.
 
@@ -88,11 +88,11 @@ For the exemple, we will use the game Asterix, in 00-singe2 sub-folder :
 
 <div align="left"><figure><img src="https://i.imgur.com/cbDJNRN.png" alt=""><figcaption></figcaption></figure></div>
 
-Inside the game folder, you will find a text file that contain the information about which file is missing, and where it have to be place. In this exemple, you have to place the file `astroboy.m2v` in the folder `Video`.
+Inside the game folder, you will find a text file that contain the information about which file is missing, and where it have to be place. In this exemple, you have to place the file `asterix.m2v` in the **Video** folder.
 
 <div align="left"><figure><img src="https://i.imgur.com/iN4Evfi.png" alt=""><figcaption></figcaption></figure></div>
 
-After adding the required files (could be `.m2v` file, or `.ogg` and `.m2v` files), rename your folder by adding .hypseus at the end of the folder name (in our exemple : `Asterix.hypseus`) and move this folder to the `/roms/singe/` folder:
+After adding the required files (`.m2v` file, or `.ogg` and `.m2v` files), rename your folder by adding .hypseus at the end of the folder name (in our exemple : `Asterix.hypseus`) and move this folder to the `/roms/singe/` folder:
 
 <div align="left"><figure><img src="https://i.imgur.com/f29wlp8.png" alt=""><figcaption></figcaption></figure></div>
 
