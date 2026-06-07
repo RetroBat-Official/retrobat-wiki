@@ -16,7 +16,7 @@ Arcade - First LaserDisc game release : 1983
 
 ## BIOS
 
-No BIOS required to play DAPHNE or SINGE games.
+No BIOS required to play DAPHNE games.
 
 ## Controls
 
@@ -70,70 +70,3 @@ Navigate to [**VIEW CUSTOMIZATION**](../../../navigation/view-options.md#view-op
 Untick .zip extension
 
 <div align="left"><figure><img src="https://i.imgur.com/B38zdIa.png" alt=""><figcaption></figcaption></figure></div>
-
-### Adding SINGE Games (with Hypseus)
-
-SINGE games include the famous AMERICAN LASER GAMES and a few other titles.
-
-The process is similar as for Daphne games but there is no zip file to place in the roms folder and the folder extension must be _.hypseus_. In addition, 2 files need to be present in your `<game>.hypseus` folder:
-
-* `<game>.singe`
-* `<game>.txt`
-
-**T**he structure of the game folder should look like this:
-
-<div align="left"><figure><img src="https://i.imgur.com/VDq2Pc8.png" alt=""><figcaption></figcaption></figure></div>
-
-### Simple games folders structure (Hypseus)
-
-To make things easier, you can use the assets available on the Hypseus Github.
-
-{% embed url="https://github.com/DirtBagXon/hypseus_singe_data/" %}
-
-At first, download the content of the repository above,
-
-<figure><img src="https://i.imgur.com/dEGyFs9.gif" alt=""><figcaption></figcaption></figure>
-
-&#x20;and extract the zip on a temporary folder.
-
-<div align="left"><figure><img src="../../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure></div>
-
-For the exemple, we will use the game Astroboy, in 00-singe2 sub-folder :
-
-<div align="left"><figure><img src="https://i.imgur.com/cbDJNRN.png" alt=""><figcaption></figcaption></figure></div>
-
-Inside the game folder, you will find a text file that contain the information about which file is missing, and where it have to be place. In this exemple, you have to place the file `astroboy.m2v` in the folder `Video`.
-
-<div align="left"><figure><img src="https://i.imgur.com/gobNmnZ.png" alt=""><figcaption></figcaption></figure></div>
-
-After adding the required files (could be `.m2v` file, or `.ogg` and `.m2v` files), you must rename your folder by adding .daphne at the end of the folder name (in our exemple : `Astroboy.hypseus`) and move this folder to the `/roms/daphne/` folder
-
-<div align="left"><figure><img src="https://i.imgur.com/50BvfM1.png" alt=""><figcaption></figcaption></figure></div>
-
-### Use custom command lines (Hypseus)
-
-It is possible to use a custom command file to force command line to hypseus emulator, to do so, create a text file in the rom folder and add all command lines required within the file:
-
-<div align="left"><figure><img src="https://i.imgur.com/lVcsfdd.png" alt=""><figcaption></figcaption></figure></div>
-
-<div align="left"><figure><img src="https://i.imgur.com/5ctmvZB.png" alt=""><figcaption></figcaption></figure></div>
-
-Finally: rename the file with the .commands extension, the name of the file must match exactly the name of the game folder (without the .singe or .daphne extension).
-
-### Adding SINGE2 games (singe2 emulator)
-
-Singe2 emulator does not support games in the same format as hypseus format.
-
-Only games listed on the emulator webpage can be used:
-
-{% embed url="https://kangaroopunch.com/view/ShowSoftware?id=7" %}
-
-You can download these games, add the video/sound files required, and rename the folder with a .singe extension to use these games with the SINGE2 emulator:
-
-<div align="left"><figure><img src="https://i.imgur.com/0iDxyWG.png" alt=""><figcaption></figcaption></figure></div>
-
-<div align="left"><figure><img src="https://i.imgur.com/7dDJtAe.png" alt=""><figcaption></figcaption></figure></div>
-
-{% hint style="warning" %}
-It is very important to KEEP the game folder name as downloaded from the website !
-{% endhint %}
