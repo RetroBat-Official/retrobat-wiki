@@ -17,7 +17,7 @@ An iso dump of Twilight Princess is required, the compatible games are listed he
 | GameCube USA | `75edd3ddff41f125d1b4ce1a40378f1b565519e7` |
 | GameCube EUR | `2601822a488eeb86fb89db16ca8f29c2c953e1ca` |
 
-<table data-header-hidden><thead><tr><th width="240"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>dusklight</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> dusklight</td></tr><tr><td><strong>File extension</strong></td><td>.m3u .iso</td></tr><tr><td><strong>Group</strong></td><td>ports</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="240"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>dusklight</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> dusklight</td></tr><tr><td><strong>File extension</strong></td><td>.m3u .iso .rvz</td></tr><tr><td><strong>Group</strong></td><td>ports</td></tr></tbody></table>
 
 ## BIOS
 
