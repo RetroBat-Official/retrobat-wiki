@@ -14,7 +14,7 @@ Une image ISO de Twilight Princess est nécessaire; vous trouverez les versions 
 
 <table><thead><tr><th width="295.25">Version</th><th>SHA-1 hash</th></tr></thead><tbody><tr><td>GameCube USA</td><td><code>75edd3ddff41f125d1b4ce1a40378f1b565519e7</code></td></tr><tr><td>GameCube EUR</td><td><code>2601822a488eeb86fb89db16ca8f29c2c953e1ca</code></td></tr></tbody></table>
 
-<table data-header-hidden><thead><tr><th width="240"></th><th></th></tr></thead><tbody><tr><td><strong>Emulateurs</strong></td><td><ul><li>dusklight</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> dusklight</td></tr><tr><td><strong>Extension</strong></td><td>.m3u .iso</td></tr><tr><td><strong>Groupe</strong></td><td>ports</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="240"></th><th></th></tr></thead><tbody><tr><td><strong>Emulateurs</strong></td><td><ul><li>dusklight</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> dusklight</td></tr><tr><td><strong>Extension</strong></td><td>.m3u .iso .rvz</td></tr><tr><td><strong>Groupe</strong></td><td>ports</td></tr></tbody></table>
 
 ## BIOS
 
