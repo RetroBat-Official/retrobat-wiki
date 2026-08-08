@@ -12,23 +12,19 @@ Playstation-based hardware arcade games emulator
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>play</li><li>teknoparrot</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> namco2x6</td></tr><tr><td><strong>File extension</strong></td><td>.zip .m3u</td></tr></tbody></table>
-
-The list of compatible games can be found in the following folder: `\emulators\play\arcadedefs`
-
-{% hint style="danger" %}
-Do not rename zip files, the name of the file must be exactly the name expected by the emulator.
-{% endhint %}
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>play</li><li>pcsx2x6</li><li>teknoparrot</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> namco2x6</td></tr><tr><td><strong>File extension</strong></td><td>.zip .m3u .acgame</td></tr></tbody></table>
 
 ## System Features
 
-<table><thead><tr><th width="212">Retroachievements</th><th width="210">Netplay</th><th>Controller autoconfiguration</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>YES</td></tr></tbody></table>
+<table><thead><tr><th width="212">Retroachievements</th><th width="210">Netplay</th><th>Controller autoconfiguration</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>PLAY: NO<br>PCSX2X6: YES<br>TEKNOPARROT: YES</td></tr></tbody></table>
 
 ## Bios Information
 
 No BIOS required.
 
 ## Controls
+
+### Play! controls
 
 You can create your own .xml input profile file (for each game) and name it like the game file, RetroBat will then automatically load the file when loading the game.
 
@@ -42,7 +38,7 @@ If no input profile exists for the game, RetroBat will configure a default profi
 
 ## Specific system information
 
-### Running games that do not have a ZIP file
+### Play!: Running games that do not have a ZIP file
 
 For games without a .zip file, create a .m3u file named after the arcade profile name.
 
