@@ -6,6 +6,7 @@ layout:
   cover:
     visible: true
     size: hero
+    mask: none
   title:
     visible: true
   description:
@@ -20,6 +21,8 @@ layout:
     visible: true
   tags:
     visible: true
+  actions:
+    visible: true
 ---
 
 # Welcome...
@@ -32,12 +35,12 @@ You can use the main menu on the left hand side to navigate through the sections
 
 * If you are a beginner with RetroBat, you can head to the [GET STARTED](get-started/prerequisites.md) section and let it guide you through the installation and first setup steps.
 * If you are an advanced user and you are looking for information about a specific Game System, you can head over to the [SUPPORTED GAME SYSTEMS](systems-and-emulators/supported-game-systems/) section, which will provide information about available emulators, BIOS requirements and detailed per-system features.
-* The [CONTROLLER](/broken/pages/UTIaYjE6HFQ0i8sqcqJ2) section is where you have to look for any question related with controls issues
-* The [ADVANCED FEATURES](/broken/pages/R3KDnGDjHvbgcjweXz2Y) section contains information about specific functionalities provided with RetroBat
+* The [CONTROLLER](https://app.gitbook.com/s/exdzL60ZuqPLldz2AYta/controllers) section is where you have to look for any question related with controls issues
+* The [ADVANCED FEATURES](https://app.gitbook.com/s/exdzL60ZuqPLldz2AYta/advanced-features) section contains information about specific functionalities provided with RetroBat
 
 
 
-The RetroBat team has also included some specific [TUTORIALS](/broken/pages/hTwrynMMEozT5zXX85cF) that will be enhanced by the Team based on common support requirements.
+The RetroBat team has also included some specific [TUTORIALS](https://app.gitbook.com/s/exdzL60ZuqPLldz2AYta/tutorials) that will be enhanced by the Team based on common support requirements.
 
 
 

@@ -34,7 +34,7 @@ There is no BIOS files needed to run games.
 
 RetroBat offers multiple controller layouts for N64.
 
-<div align="left"><figure><img src="https://i.imgur.com/QgyGghe.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (129).png" alt=""><figcaption></figcaption></figure></div>
 
 | Option                                                                      | Layout                                                                                                                                              |
 | --------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
