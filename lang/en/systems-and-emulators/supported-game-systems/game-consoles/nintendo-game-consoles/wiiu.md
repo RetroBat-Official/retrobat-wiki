@@ -82,7 +82,7 @@ If you own a controller that supports motion control, you can activate motion co
 
 Cemu allows to map a button to the Microphone button, the button to map can be managed in RetroBat advanced options:
 
-<div align="left"><figure><img src="https://i.imgur.com/l13gu29.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (134).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 The option is only available when using WIIU Gamepad as emulated controller.
@@ -92,7 +92,7 @@ The option is only available when using WIIU Gamepad as emulated controller.
 
 Cemu allows to map a button to switch from main screen to WiiU Gamepad screen, the button can be managed in RetroBat advanced options, it is also possible to choose whether the mapped button must remain pushed or whether it acts as a toggle:
 
-<div align="left"><figure><img src="https://i.imgur.com/fTsV4BY.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (135).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 The option is only available when using WIIU Gamepad as emulated controller.
@@ -120,9 +120,7 @@ This method will simulate the installation of the game in the NAND of the WiiU.
 
 From the Retrobat Game View, open the CEMU emulator
 
-
-
-<div align="left"><figure><img src="https://i.imgur.com/rdJUos9.png" alt=""><figcaption><p>File > Install</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure></div>
 
 Navigate to the \meta folder of your dumped game directory and install the meta.xml file
 
@@ -132,7 +130,7 @@ Wait for the installation to finish and you will see the game added to Cemu
 
 <div align="left"><figure><img src="https://i.imgur.com/rG2IJvR.png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/9ygBgJP.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure></div>
 
 Right-click on the Game and select **Game directory**
 
@@ -142,13 +140,13 @@ This will show you the path of the game executable .rpx file
 
 <div align="left"><figure><img src="https://i.imgur.com/EN9JEKf.png" alt=""><figcaption></figcaption></figure></div>
 
-Exit Cemu and open you `\roms\wiiu` folder and create a `zelda breath of the wild.m3u` file with the following content
+Exit Cemu and open you `\roms\wiiu` folder and create a `Breath of the wild.m3u` file with the following content
 
 `\..\..\saves\wiiu\cemu\mlc01\usr\title\`<mark style="color:red;">`<path to the game>`</mark>`\`<mark style="color:red;">`*`</mark>`.rpx`
 
 For example for Zelda Breath of the Wild:
 
-<div align="left"><figure><img src="https://i.imgur.com/UWMM1eX.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure></div>
 
 The game will now be available in Retrobat for scraping and playing.
 
@@ -158,7 +156,7 @@ This method will simulate the presence of a WiiU cartridge.&#x20;
 
 Place the game folder in the `\roms\wiiu` folder
 
-<div align="left"><figure><img src="https://i.imgur.com/8BsrI9F.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure></div>
 
 The game will now be available in Retrobat for scraping and playing.
 

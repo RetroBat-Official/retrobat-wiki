@@ -54,7 +54,7 @@ For best experience, you can use real **Wiimotes** with a **Mayflash DolphinBar*
 
 If you do not own a real wiimote and need to emulate the wiimote, Retrobat offers multiple options to correctly emulate it and use all its features with a gamepad when enabling the option **EMULATED WIIMOTE**
 
-<figure><img src="https://i.imgur.com/ZrsVFNx.png" alt=""><figcaption></figcaption></figure>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (130).png" alt=""><figcaption></figcaption></figure></div>
 
 The mapping hereunder is the default mapping when using **EMULATED**
 
@@ -74,7 +74,7 @@ The mapping hereunder is the default mapping when using **EMULATED**
 
 This mapping will not suit all games, this is why we have added an addition setting to configure more precisely the way the wiimote is emulated with your gamepad
 
-<figure><img src="https://i.imgur.com/XiT8CDQ.png" alt=""><figcaption></figcaption></figure>
+<div align="left"><figure><img src="https://i.imgur.com/XiT8CDQ.png" alt=""><figcaption></figcaption></figure></div>
 
 There is a long list of available options explained below
 
@@ -82,7 +82,7 @@ There is a long list of available options explained below
 Note that these options can also be achieved by using specific naming conventions in your ROM files when the option **EMULATED** is active for **WIIMOTE TYPE** setting
 {% endhint %}
 
-<figure><img src="https://i.imgur.com/9r9NzJp.png" alt=""><figcaption><p>List of options for EMULATED WIIMOTES</p></figcaption></figure>
+<div align="left"><figure><img src="https://i.imgur.com/9r9NzJp.png" alt=""><figcaption><p>List of options for EMULATED WIIMOTES</p></figcaption></figure></div>
 
 #### CLASSIC CONTROLLER (or ".cc." in ROM name)
 
@@ -234,7 +234,7 @@ If you own a controller like a Dualshock or a switch Pro Controller, it is possi
 
 To do this, you need to enable the MOTION CONTROL option in the advanced options:
 
-<div align="left"><figure><img src="https://i.imgur.com/mbXacu8.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Gamecube adapter
 
@@ -274,7 +274,7 @@ The following list of emulated devices is available in the advanced options:
 
 If the Wii Menu is installed, RetroBat allows you to run it with the following option:
 
-<div align="left"><figure><img src="https://i.imgur.com/FEfgUdS.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure></div>
 
 <div align="left"><figure><img src="https://i.imgur.com/aGImoS5.png" alt=""><figcaption></figcaption></figure></div>
 

@@ -126,7 +126,7 @@ In the m3u file, list all game discs from your game:
 
 Within that text file, write the names of the game files for your game discs:
 
-<div align="left"><figure><img src="https://i.imgur.com/aBZpJ4W.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (133).png" alt=""><figcaption></figcaption></figure></div>
 
 Finally save the file as a .m3u file.
 
