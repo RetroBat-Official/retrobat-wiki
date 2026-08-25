@@ -12,15 +12,15 @@ Playstation-based hardware arcade games emulator
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>play</li><li>pcsx2x6</li><li>teknoparrot</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> namco2x6</td></tr><tr><td><strong>File extension</strong></td><td>.zip .m3u .acgame</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>pcsx2x6</li><li>play!</li><li>teknoparrot</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> namco2x6</td></tr><tr><td><strong>File extension</strong></td><td>.zip .m3u .acgame</td></tr></tbody></table>
 
 ## System Features
 
-<table><thead><tr><th width="212">Retroachievements</th><th width="210">Netplay</th><th>Controller autoconfiguration</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>PLAY: NO<br>PCSX2X6: YES<br>TEKNOPARROT: YES</td></tr></tbody></table>
+<table><thead><tr><th width="212">Retroachievements</th><th width="210">Netplay</th><th>Controller autoconfiguration</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>PCSX2X6: YES<br>PLAY: NO<br>TEKNOPARROT: YES</td></tr></tbody></table>
 
 ## Bios Information
 
-No BIOS required.
+<table><thead><tr><th width="214">BIOS file</th><th width="245">Folder</th><th>md5</th></tr></thead><tbody><tr><td>r27v1602f.7d</td><td><code>\bios\pcsx2\bios</code></td><td>​52CCA0058626569C7A9699838BAAB2D8</td></tr><tr><td>r27v1602f.8g</td><td><code>\bios\pcsx2\bios</code></td><td>A58676C6BD79229BDA967D07B4EC2E16</td></tr></tbody></table>
 
 ## Controls
 
