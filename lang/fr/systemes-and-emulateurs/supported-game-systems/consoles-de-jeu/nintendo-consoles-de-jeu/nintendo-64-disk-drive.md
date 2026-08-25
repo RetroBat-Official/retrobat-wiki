@@ -61,7 +61,7 @@ Depuis RetroBat:&#x20;
 * [Sélectionner le BIOS approprié](nintendo-64-disk-drive.md#selection-du-bios)
 * Lancer le jeu au format .n64 (ou .z64), pas le fichier .ndd :
 
-<div align="left"><figure><img src="https://i.imgur.com/9oo9rAy.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (185).png" alt=""><figcaption></figcaption></figure></div>
 
 #### Lancer un jeu complet Nintendo 64 DD
 
@@ -78,7 +78,7 @@ Depuis RetroBat:&#x20;
 * [Sélectionner le BIOS approprié](nintendo-64-disk-drive.md#selection-du-bios)
 * Lancer le jeu au format .n64 (ou .z64), pas le fichier .ndd :
 
-<div align="left"><figure><img src="https://i.imgur.com/zc3ex6s.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (186).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
 ATTENTION: le core est très sensible à la version de la rom .ndd utilisée, seul les dumps légitimes fonctionnent correctement.
