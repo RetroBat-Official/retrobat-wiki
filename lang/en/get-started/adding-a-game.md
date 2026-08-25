@@ -72,7 +72,7 @@ In order to scrape only a single game, select the game and long-press ![](<../.g
 
 Select **SCRAPE.**
 
-<figure><img src="https://i.imgur.com/pVStz39.png" alt=""><figcaption><p>From the game view, highlight a game and long-press SOUTH button</p></figcaption></figure>
+<figure><img src="https://retrobat.ovh/img/wiki/pVStz39.png" alt=""><figcaption><p>From the game view, highlight a game and long-press SOUTH button</p></figcaption></figure>
 
 A list of possible matches is displayed, select the appropriate game and confirm with ![](<../.gitbook/assets/image (30).png>).
 
