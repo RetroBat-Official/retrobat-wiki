@@ -30,15 +30,15 @@ Le volant peut être activé pour un système ou pour un jeu.
 
 Pour activer le volant pour un système, depuis la **Vue Jeux**, ouvrez les [Options d'Affichage](../../navigation/view-options.md) et sélectionnez **CONFIGURATION AVANCÉE DU SYSTÈME**.
 
-<div align="left"><figure><img src="https://i.imgur.com/ZY07CeL.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (189).png" alt=""><figcaption></figcaption></figure></div>
 
-Naviguez jusqu'à l'option **WHEELS**
+Naviguez jusqu'à l'option **VOLANTS DE COURSE**
 
-<div align="left"><figure><img src="https://i.imgur.com/njj5Mgg.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (190).png" alt=""><figcaption></figcaption></figure></div>
 
-Basculez **ENABLE WHEELS** sur **ACTIVÉ**&#x20;
+Basculez **ACTIVER LES VOLANTS** sur **ACTIVÉ**&#x20;
 
-<div align="left"><figure><img src="https://i.imgur.com/Si72acl.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (191).png" alt=""><figcaption></figcaption></figure></div>
 
 La même option peut être activé par jeu depuis le menu [Option du Jeu](../../navigation/game-options.md) puis **CONFIGURATION AVANCÉE DU JEU**.<br>
 
@@ -76,17 +76,17 @@ Assurez-vous également que les pédales ne soient pas inversées (il est possib
 
 Les émulateurs suivant ont été configurés pour être compatible avec l'auto-configuration des contrôles au volant :
 
-<table><thead><tr><th width="160">Emulateur</th><th width="229">Retour de Force</th><th>Commentaire</th></tr></thead><tbody><tr><td>Model 2</td><td>OUI</td><td>RetroBat permet une configuration spécifiques par jeu</td></tr><tr><td>Supermodel</td><td>OUI</td><td></td></tr><tr><td>Flycast</td><td>NON (outil externe requis)</td><td>RetroBat propose différentes combinaisons de boutons pour l'embrayage et le frein</td></tr><tr><td>PCSX2</td><td>OUI mais il est nécessaire d'ouvrir le menu et de configurer le retour de force à chaque utilisation</td><td>Il peut être nécessaire de modifier le type de volant depuis les options avancées</td></tr></tbody></table>
+<table><thead><tr><th width="160">Emulateur</th><th width="229">Retour de Force</th><th>Commentaire</th></tr></thead><tbody><tr><td>Model 2</td><td>OUI</td><td></td></tr><tr><td>Supermodel</td><td>OUI</td><td></td></tr><tr><td>Flycast</td><td>NON (outil externe requis)</td><td></td></tr><tr><td>PCSX2</td><td>OUI</td><td>Il peut être nécessaire de modifier le type de volant depuis les options avancées</td></tr><tr><td>PCSX2X6</td><td>OUI</td><td>Il peut être nécessaire de modifier le type de volant depuis les options avancées</td></tr><tr><td>TEKNOPARROT</td><td>OUI</td><td></td></tr></tbody></table>
 
 ## Configurer un volant
 
 Le mapping du volant pour un volant en particulier peut être réalisé depuis les fichiers de configuration situés dans le dossier`system\resources\inputmapping\wheels` de votre installation RetroBat installation:
 
-<div align="left"><figure><img src="https://i.imgur.com/iBP5mGf.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (187).png" alt=""><figcaption></figcaption></figure></div>
 
 Ci-dessous, un exemple pour Flycast :
 
-<div align="left"><figure><img src="https://i.imgur.com/5Pq3Bn5.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (188).png" alt=""><figcaption></figcaption></figure></div>
 
 Le format est important : chaque volant doit être renseigné dans son propre container, suivi du nom du bouton, lui-même précédé de 2 espaces.
 
