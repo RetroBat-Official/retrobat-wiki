@@ -85,11 +85,11 @@ Il est en outre possible d'afficher les jeux favoris en haut de la liste de jeux
 
 Pour cela sélectionner l'option **PERSONNALISER LA VUE** dans les [Options d'affichage](view-options.md).
 
-<div align="left"><figure><img src="https://i.imgur.com/3L1xRwW.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (181).png" alt=""><figcaption></figcaption></figure></div>
 
 Puis dans les Options des listes de jeux, passer le paramètre **AFFICHER LES FAVORIS EN HAUT** à **OUI**.
 
-<div align="left"><figure><img src="https://i.imgur.com/xz0wYan.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (182).png" alt=""><figcaption></figcaption></figure></div>
 
 ## Collections éditables
 
@@ -99,7 +99,7 @@ Les collections éditables permettent de gérer une collection de façon manuell
 
 Depuis le menu **PARAMÈTRES DES COLLECTIONS**, sélectionner **NOUVELLE COLLECTION EDITABLE**
 
-<div align="left"><figure><img src="https://i.imgur.com/viQX7H0.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (183).png" alt=""><figcaption></figcaption></figure></div>
 
 Définir le NOM DE LA COLLECTION
 

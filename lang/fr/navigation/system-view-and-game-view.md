@@ -6,7 +6,7 @@ L'intégralité des captures d'écrans utilisées dans le wiki ont été réalis
 
 Le premier écran affiché lors du lancement de Retrobat est l'écran de **Vue Système**, sur cet écran il est possible de naviguer parmi les systèmes de jeux ou d'accéder à la **Vue Jeux**.
 
-<div align="left"><figure><img src="https://i.imgur.com/C88S0L8.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (179).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Par défaut, seuls les systèmes pour lesquels des jeux ont été placés dans le dossier `\roms` apparaissent.
@@ -128,7 +128,7 @@ La valeur **AUTOMATIQUE** correspond au type de vue défini dans [**MENU PRINCIP
 
 Pour y accéder appuyer sur **START**
 
-<div align="left"><figure><img src="https://i.imgur.com/dz5TggD.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (180).png" alt=""><figcaption></figcaption></figure></div>
 
 Aller dans **CONFIGURATION DU THÈME**
 

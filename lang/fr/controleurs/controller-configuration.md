@@ -92,7 +92,7 @@ Ci-après la liste des émulateurs qui permettent ces remplacement de fichiers, 
 {% hint style="info" %}
 Cliquez sur le lien présent sur le nom de l'émulateur pour accéder à la page spécifiquement lié a celui-ci.
 
-Pour voir les différentes dispositions existantes pour un émulateur / un système, visitez la [page système](/broken/pages/fJXiuEVjCa5cxzU2P86Z).
+Pour voir les différentes dispositions existantes pour un émulateur / un système, visitez la [page système](https://app.gitbook.com/s/Cgoewyw8Sagl6SNUMrCG/systemes-and-emulateurs).
 {% endhint %}
 
 ### Principe de substitution des fichiers

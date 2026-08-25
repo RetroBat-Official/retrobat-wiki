@@ -8,7 +8,7 @@ Depuis la Vue Jeux, sélectionner le jeu à démarrer et presser ![](<../.gitboo
 
 L'image du jeu est affichée sur l'écran et l'émulateur démarre.
 
-<div align="left"><figure><img src="https://i.imgur.com/BHtPKVn.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (176).png" alt=""><figcaption></figcaption></figure></div>
 
 <div align="left"><figure><img src="https://i.imgur.com/iBFLtCb.png" alt=""><figcaption></figcaption></figure></div>
 
@@ -38,7 +38,7 @@ Sélectionner **EMULATEUR**.
 
 Choisir l'émulateur à utiliser parmi la liste des émulateurs disponibles.
 
-<div align="left"><figure><img src="https://i.imgur.com/e6qzkwg.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (177).png" alt=""><figcaption></figcaption></figure></div>
 
 #### Modifier l'émulateur pour un jeu
 
@@ -48,7 +48,7 @@ Depuis la Vue Jeux, sélectionner un jeu et rester appuyé sur ![](<../.gitbook/
 
 Sélectionner **EMULATEUR** pour afficher la liste des émulateurs disponibles et définir celui à utiliser pour le jeu.
 
-<div align="left"><figure><img src="https://i.imgur.com/Gdktndg.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (178).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 La valeur **AUTO** correspond à l'émulateur défini au niveau des options avancées du système ou au premier émulateur de la liste si la valeur par défaut du système est également reglée sur **AUTO**.&#x20;

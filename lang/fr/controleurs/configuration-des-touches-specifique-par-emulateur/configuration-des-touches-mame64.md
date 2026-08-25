@@ -155,7 +155,7 @@ Ouvrir le fichier default.cfg et vérifier le contenu :
 
 Le fichier est au format xml, le paramétrage précédemment renseigné se situe dans la section \<input> du fichier.\
 \
-&#xNAN;_&#x44;ans l'exemple, la touche "Q" du clavier a été attribué à l'action "UI\_MENU" qui ouvre le menu MAME._
+_&#x44;ans l'exemple, la touche "Q" du clavier a été attribué à l'action "UI\_MENU" qui ouvre le menu MAME._
 
 Enfin, déplacer le fichier default.cfg vers le dossier `\saves\mame\cfg` de votre installation : ce profil devient alors le profil par défaut.
 

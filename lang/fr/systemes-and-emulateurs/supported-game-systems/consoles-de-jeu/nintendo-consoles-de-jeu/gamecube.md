@@ -126,7 +126,7 @@ Le fichier m3u doit contenir une ligne par disque du jeu, par exemple pour le je
 
 Dans le fichier m3u, lister les noms exacts des fichiers des disques du jeu et sauvegarder:
 
-<div align="left"><figure><img src="https://i.imgur.com/aBZpJ4W.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (175).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Textures "custom"
 
@@ -142,11 +142,7 @@ Le nom du dossier du pack de textures doit être strictement identique au **Game
 
 Une fois le pack de textures correctement nommé et placé dans le bon dossier, activer les  **CUSTOM TEXTURES** dans Retrobat.
 
-<div align="left"><figure><img src="https://i.imgur.com/R5SWtvS.png" alt=""><figcaption><p>Options d'affichage > Configuration avancée du système</p></figcaption></figure></div>
-
-<div align="left"><figure><img src="https://i.imgur.com/K5NInuR.png" alt=""><figcaption><p>Visual Rendering</p></figcaption></figure></div>
-
-<div align="left"><figure><img src="https://i.imgur.com/UPixWDa.png" alt=""><figcaption><p>Custom Textures</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (174).png" alt=""><figcaption><p>Options d'affichage > Configuration avancée du système</p></figcaption></figure></div>
 
 ### Ajouter l'icône trophée manquante sur un jeu compatible retroachievements
 
@@ -159,6 +155,10 @@ Pour faire apparaitre l'indicateur de trophées, il faut éditer le fichier `gam
 ```
 <cheevosId>XXXXX</cheevosId>
 ```
+
+{% hint style="info" %}
+Ce process peut être automatisé en lançant le fichier "indexcheevosrvz.bat" disponible dans le dossier _system\tools_ de votre installation RetroBat.
+{% endhint %}
 
 L' ID `XXXXX` ci-dessus doit être remplacé par l'identifiant du jeu, que vous pouvez retrouver à l'adresse [https://retroachievements.org](https://retroachievements.org). L'ID apparaît dans la barre d'adresse du navigateur quand vous consultez la page du jeu.
 

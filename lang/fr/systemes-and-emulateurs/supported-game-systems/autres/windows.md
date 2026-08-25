@@ -191,9 +191,7 @@ Dans Ubisoft Connect, ouvrir lesinformations du jeu et afficher les propriétés
 
 <div align="left"><figure><img src="https://i.imgur.com/hpRecAI.png" alt=""><figcaption></figcaption></figure></div>
 
-Cliquer sur le bouton "Ouvrir le dossier" dans la section "Fichiers locaux" et récupérer le nom de l'exécutable:
-
-<div align="left"><figure><img src="https://i.imgur.com/CT9qODE.png" alt=""><figcaption></figcaption></figure></div>
+Cliquer sur le bouton "Ouvrir le dossier" dans la section "Fichiers locaux" et récupérer le nom de l'exécutable.
 
 {% hint style="info" %}
 Il est également possible de trouver le nom de l'exécutable du jeu en ouvrant le Gestionnaire des tâches lorsque le jeu est en cours.
@@ -233,4 +231,10 @@ RetroBat attend dorénavant la fin du process défini dans le fichier pour reven
 
 {% hint style="info" %}
 Cette méthode est compatible avec les jeux au format raccourcis (.lnk) et.url.
+{% endhint %}
+
+{% hint style="info" %}
+Il est également possible de spécifier 2 process à surveiller avant de retourner à l'interface RetroBat, (certains jeux ont un launcher qui lance différent process en fonction du jeu sélectionné).
+
+Pour cela, il suffit de rajouter le second process en tant que 2e ligne dans le fichier.
 {% endhint %}
