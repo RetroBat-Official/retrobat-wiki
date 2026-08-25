@@ -16,7 +16,7 @@ Game Console - Lifespan: 1996 - 2002
 
 ## System Features
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-mupen64: YES<br>lr-parallel: YES<br>RMG: NO<br>Simple64: NO<br>Ares: NO<br>BizHawk: YES<br>Project64: NO<br>Gopher64: NO</td><td>lr-mupen64: YES<br>lr-parallel: YES<br>RMG: NO<br>Simple64: NO<br>Ares: NO<br>BizHawk: NO<br>Project64: NO<br>Gopher64: NO</td><td>lr-mupen64: YES<br>lr-parallel: YES<br>RMG: YES<br>Simple64: YES<br>Ares: YES<br>BizHawk: YES<br>Project64: YES<br>Gopher64: YES</td></tr></tbody></table>
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-mupen64: YES<br>lr-parallel: YES<br>RMG: NO<br>Simple64: NO<br>Ares: NO<br>BizHawk: YES<br>Project64: NO<br>Gopher64: YES</td><td>lr-mupen64: YES<br>lr-parallel: YES<br>RMG: NO<br>Simple64: NO<br>Ares: NO<br>BizHawk: NO<br>Project64: NO<br>Gopher64: NO</td><td>lr-mupen64: YES<br>lr-parallel: YES<br>RMG: YES<br>Simple64: YES<br>Ares: YES<br>BizHawk: YES<br>Project64: YES<br>Gopher64: YES</td></tr></tbody></table>
 
 ## Features
 
