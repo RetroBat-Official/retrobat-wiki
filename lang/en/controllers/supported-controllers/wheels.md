@@ -76,17 +76,17 @@ Also, ensure that pedals are not inverted (this can be fixed by maintaining MODE
 
 The following list of emulators have been configured to be compatible with wheels autoconfiguration:
 
-<table><thead><tr><th width="160">Emulator</th><th width="229">Force feedback</th><th>Remark</th></tr></thead><tbody><tr><td>Model 2</td><td>YES</td><td>RetroBat offers per-game specific mapping</td></tr><tr><td>Supermodel</td><td>YES</td><td></td></tr><tr><td>Flycast</td><td>NO (needs external tool)</td><td>RetroBat offers different button layouts to map throttle and brake pedals</td></tr><tr><td>PCSX2</td><td>YES but need to open menu and configure it each time</td><td>Might need to modify the wheel type in the advanced options</td></tr></tbody></table>
+<table><thead><tr><th width="160">Emulator</th><th width="229">Force feedback</th><th>Remark</th></tr></thead><tbody><tr><td>Model 2</td><td>YES</td><td></td></tr><tr><td>Supermodel</td><td>YES</td><td></td></tr><tr><td>Flycast</td><td>YES</td><td></td></tr><tr><td>PCSX2</td><td>YES</td><td>Might need to modify the wheel type in the advanced options</td></tr><tr><td>PCSX2X6</td><td>YES</td><td></td></tr><tr><td>TEKNOPARROT</td><td>YES</td><td></td></tr></tbody></table>
 
 ### Configuring a wheel
 
 Wheel mapping for a specific wheel can be configured in the files located in the `system\resources\inputmapping\wheels` of your RetroBat installation:
 
-<div align="left"><figure><img src="https://i.imgur.com/iBP5mGf.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (153).png" alt=""><figcaption></figcaption></figure></div>
 
 this is an example for Flycast:
 
-<div align="left"><figure><img src="https://i.imgur.com/5Pq3Bn5.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (154).png" alt=""><figcaption></figcaption></figure></div>
 
 Each wheel must be in its own container, with the buttons below it with a 2 space indent.
 
