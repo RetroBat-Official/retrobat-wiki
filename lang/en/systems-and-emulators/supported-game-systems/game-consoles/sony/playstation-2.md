@@ -12,7 +12,7 @@ Game Console - Lifespan: 2000 - 2013
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>pcsx2</li><li>pcsx2-16</li><li>play</li><li>Libretro: pcsx2</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> ps2</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.iso .cso .bin .mdf .gz .chd</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>pcsx2</li><li>pcsx2-16</li><li>play</li><li>Libretro: pcsx2</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> ps2</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.iso .cso .bin .mdf .gz .chd .decomp</td><td></td></tr></tbody></table>
 
 ## System Features
 
@@ -88,13 +88,11 @@ Once the texure pack in the right folder, set Retrobat to load custom textures, 
 
 PCSX2 does not support m3u usage for multi-disc games.
 
-<div align="left"><figure><img src="https://i.imgur.com/5n2VsbQ.png" alt=""><figcaption></figcaption></figure></div>
-
 In order to swap disc in PCSX2, the following must be used within the emulator:
 
 When the game prompts you to swap disc,access the PCSX2 quick menu by pressing SELECT + ![A](<../../../../.gitbook/assets/image (30).png>) on your controller, select the "**Change Disc**" option
 
-<div align="left"><figure><img src="https://i.imgur.com/fihyt1U.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (157).png" alt=""><figcaption></figcaption></figure></div>
 
 In the next screen, choose the right disc image and press ![A](<../../../../.gitbook/assets/image (30).png>)
 
@@ -110,7 +108,7 @@ In RetroBat [advanced system settings](../../../../navigation/view-options.md#ad
 
 Launch any game from the library, this will bring you to the BIOS settings instead of the game:
 
-<div align="left"><figure><img src="https://i.imgur.com/zGInZDf.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (158).png" alt=""><figcaption></figcaption></figure></div>
 
 Navigate to "system configuration" and to the language option:
 

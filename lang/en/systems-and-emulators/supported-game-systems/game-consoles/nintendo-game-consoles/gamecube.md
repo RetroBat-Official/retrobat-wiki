@@ -12,7 +12,7 @@ Game Console - Lifespan: 2001 - 2007
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>dolphin</li><li>libretro: dolphin</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> gamecube</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.dol .gcz .iso .ciso .wbfs .wad .rvz .wia .m3u .zip .7z .squashfs .json</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>dolphin</li><li>libretro: dolphin</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> gamecube</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.dol .gcz .iso .ciso .wbfs .wad .rvz .wia .m3u .zip .7z .squashfs .json .decomp</td><td></td></tr></tbody></table>
 
 ## Features
 

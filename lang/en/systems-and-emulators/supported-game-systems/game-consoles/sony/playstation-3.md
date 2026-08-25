@@ -12,7 +12,7 @@ Game Console - Lifespan: 2006 - 2017
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>rpcs3</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> ps3</td></tr><tr><td><strong>File extension</strong></td><td>.m3u .lnk .ps3 .iso .7z .zip .rar .squashfs</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>rpcs3</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> ps3</td></tr><tr><td><strong>File extension</strong></td><td>.m3u .lnk .ps3 .iso .7z .zip .rar .squashfs .decomp</td></tr></tbody></table>
 
 ## System Features
 
@@ -108,9 +108,9 @@ Once the game has been added to the emulator from the "**Install package**" or/a
 * SAVESPATH : points to the saves\ps3\rpcs3 folder
 * ROMPATH : points to the roms\ps3 path
 
-For example, the following file points to the `emulators\rpcs3\dev_hdd0\game\NPEB00411\USRDIR\EBOOT.BIN` folder of the RetroBat installation.
+For example, the following file points to the `emulators\rpcs3\dev_hdd0\game\Rayman Origins[BLES01386].ps3\PS3_GAME\USRDIR\EBOOT.BIN` folder of the RetroBat installation.
 
-<div align="left"><figure><img src="https://i.imgur.com/jRH0tBz.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (160).png" alt=""><figcaption></figcaption></figure></div>
 
 #### Adding PSN titles - option 2
 

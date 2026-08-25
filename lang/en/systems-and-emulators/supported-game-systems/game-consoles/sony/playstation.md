@@ -12,7 +12,7 @@ Game Console - Lifespan: 1994 - 2006
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: mednafen_psx_hw</li><li>libretro: swanstation</li><li>libretro: pcsx_rearmed</li><li>duckstation</li><li>mednafen</li><li>bizhawk: Nymashock</li><li>bizhawk: Octoshock</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> psx</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.cue .img .mdf .pbp .toc .cbn .m3u .ccd .chd .zip .7z .iso .cso .squashfs</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: mednafen_psx_hw</li><li>libretro: swanstation</li><li>libretro: pcsx_rearmed</li><li>duckstation</li><li>mednafen</li><li>bizhawk: Nymashock</li><li>bizhawk: Octoshock</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> psx</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.cue .img .mdf .pbp .toc .cbn .m3u .ccd .chd .zip .7z .iso .cso .squashfs .decomp</td><td></td></tr></tbody></table>
 
 ## System Features
 
@@ -32,7 +32,7 @@ Game Console - Lifespan: 1994 - 2006
 
 An alternative layout has been created in order to be able to use analog triggers to throttle and brake in driving games, the layout can be enabled with the following option:
 
-<div align="left"><figure><img src="https://i.imgur.com/bb3oWIA.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (156).png" alt=""><figcaption></figcaption></figure></div>
 
 <div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/psx_triggers_rstick.png?raw=true" alt="" width="375"><figcaption></figcaption></figure></div>
 
@@ -80,8 +80,6 @@ Once the texture pack in place, just enable the option within Retrobat:
 Finally, ensure that you use VULKAN video driver and that you set the resolution above 1X:
 
 <div align="left"><figure><img src="https://i.imgur.com/9hKDYKQ.png" alt=""><figcaption><p>Advanced options > Drivers</p></figcaption></figure></div>
-
-<div align="left"><figure><img src="https://i.imgur.com/sJgZ14E.png" alt=""><figcaption><p>Advance Options, set internal resolution abov 1X</p></figcaption></figure></div>
 
 #### Duckstation
 
