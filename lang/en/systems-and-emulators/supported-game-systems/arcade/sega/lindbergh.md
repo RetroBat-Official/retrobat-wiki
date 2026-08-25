@@ -133,4 +133,4 @@ The Test menu contains options that can be adjusted within the game itself, such
 
 Test menu can be enabled by switching on the **TEST MODE** option:
 
-<div align="left"><figure><img src="https://i.imgur.com/f3kiyBA.png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="../../../../.gitbook/assets/image (152).png" alt=""><figcaption></figcaption></figure>
