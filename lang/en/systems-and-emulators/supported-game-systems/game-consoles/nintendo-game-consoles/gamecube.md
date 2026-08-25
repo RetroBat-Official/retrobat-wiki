@@ -42,7 +42,7 @@ The region subfolder can be amended with the following [RetroBat setting](../../
 
 It is possible to use classic memcard SRAM files instead of CGI folders by enabling the following option:
 
-<div align="left"><figure><img src="https://i.imgur.com/rz8bEV8.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (145).png" alt=""><figcaption></figcaption></figure></div>
 
 In that case, the save file will be located in the following folder:
 
@@ -144,7 +144,7 @@ The name of the custom texture folder must be strictly identical to the **Game I
 
 Once the custom texture pack is correctly named and placed, activate the **CUSTOM TEXTURES** setting.
 
-<div align="left"><figure><img src="https://i.imgur.com/R5SWtvS.png" alt=""><figcaption><p>Go to the View Options from the Gamecube System</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (146).png" alt=""><figcaption><p>Go to the View Options from the Gamecube System</p></figcaption></figure></div>
 
 <div align="left"><figure><img src="https://i.imgur.com/K5NInuR.png" alt=""><figcaption><p>Select "Visual Rendering"</p></figcaption></figure></div>
 
@@ -163,6 +163,10 @@ If you want to force the display of the trophy indicator, you can edit the file 
 ```
 <cheevosId>XXXXX</cheevosId>
 ```
+
+{% hint style="info" %}
+To automatically add the ID on your gamecube games, try and run the file "indexcheevosrvz.bat" located in the _system\tools_ folder of your RetroBat installation.
+{% endhint %}
 
 The ID `XXXXX` above must be replaced by the corresponding game ID that you can retrieve on [https://retroachievements.org](https://retroachievements.org), while browsing the game. It appears in the address bar of the browser.
 

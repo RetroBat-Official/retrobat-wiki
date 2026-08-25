@@ -178,11 +178,11 @@ Next find the game executable as follows:
 
 From Ubisoft Connect, open Game details and go to properties:
 
-<div align="left"><figure><img src="https://i.imgur.com/rdBgCA7.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (143).png" alt=""><figcaption></figcaption></figure></div>
 
 Click the "Open folder" button in the Local files section and find the game executable name:
 
-<div align="left"><figure><img src="https://i.imgur.com/CT9qODE.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (144).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Alternatively you could run the game and open the task manager to find the executable name.
@@ -222,4 +222,10 @@ RetroBat will now wait for the process specified within the file to stop to retu
 
 {% hint style="info" %}
 The .gameexe file method is compatible with shortcuts (.lnk) and .url files.
+{% endhint %}
+
+{% hint style="info" %}
+You can also specify 2 executables to monitor, this will enable monitoring 2 processes and can be used for games that switch processes during game (or games with 2 subgames with different executables).
+
+Simply put the second executable to monitor in the second line of the file.
 {% endhint %}
