@@ -67,7 +67,7 @@ On this view, you can navigate with the keyboard or with a game controller. If y
 
 * Press and hold any button to enter the **CONFIGURING** screen.
 
-<div align="left"><figure><img src="https://i.imgur.com/NhgVTbZ.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (147).png" alt=""><figcaption></figcaption></figure></div>
 
 * Define all the keys based on your controller layout.&#x20;
 
