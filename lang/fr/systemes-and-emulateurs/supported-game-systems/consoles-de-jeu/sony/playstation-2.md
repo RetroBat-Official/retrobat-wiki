@@ -12,7 +12,7 @@ Console de jeu - Durée de vie: 2000 - 2013
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>pcsx2</li><li>pcsx2-16</li><li>play</li><li>Libretro: pcsx2</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> ps2</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.iso .cso .bin .mdf .gz .chd</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>pcsx2</li><li>pcsx2-16</li><li>play</li><li>Libretro: pcsx2</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> ps2</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.iso .cso .bin .mdf .gz .chd .decomp</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
@@ -90,13 +90,11 @@ Une fois le pack de textures placé dans le bon dossier et pour le bon ID jeu, c
 
 PCSX2 ne supporte pas l'utilisation de fichiers m3u pour les jeux multi-disques.
 
-<div align="left"><figure><img src="https://i.imgur.com/5n2VsbQ.png" alt=""><figcaption></figcaption></figure></div>
-
 Pour changer de disques dans PCSX2, il est nécessaire de procéder comme suit dans l'interface de PCSX2:
 
-Lorsque le jeu demande de changer de disque, accéder au menu PCSX2 avec la combinaison SELECT + ![A](<../../../../.gitbook/assets/image (20) (1).png>) de votre manette, et sélectionner "**Change Disc**"
+Lorsque le jeu demande de changer de disque, accéder au menu PCSX2 avec la combinaison SELECT + ![A](<../../../../.gitbook/assets/image (20) (1).png>) de votre manette, et sélectionner "**Changer de disque**"
 
-<div align="left"><figure><img src="https://i.imgur.com/fihyt1U.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (192).png" alt="" width="327"><figcaption></figcaption></figure></div>
 
 Dans l'écran suivant, sélectionner le disque suivant et confirmer avec ![A](<../../../../.gitbook/assets/image (20) (1).png>)
 
@@ -112,7 +110,7 @@ Aller dans les [options avancées du système](../../../../navigation/configurat
 
 Démarrer n'importe quel jeu de votre librairie, le système démarre sur le BIOS et non le jeu:
 
-<div align="left"><figure><img src="https://i.imgur.com/zGInZDf.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/Capture d&#x27;écran 2026-08-25 184331.png" alt=""><figcaption></figcaption></figure></div>
 
 Naviguer vers "system configuration" et sélectionner l'option "language":
 

@@ -12,7 +12,7 @@ Console de jeu - Durée de vie : 2006 - 2017
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>rpcs3</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> ps3</td></tr><tr><td><strong>Extensions</strong></td><td>.m3u .lnk .ps3 .iso .7z .zip .rar .squashfs</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>rpcs3</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> ps3</td></tr><tr><td><strong>Extensions</strong></td><td>.m3u .lnk .ps3 .iso .7z .zip .rar .squashfs .decomp</td></tr></tbody></table>
 
 ## Fonctionnalités
 
@@ -111,9 +111,9 @@ Le fichier m3u doit pointer vers le fichier **EBOOT.BIN** se trouvant dans le do
 * SAVESPATH : pointe vers le dossier saves\ps3\rpcs3
 * ROMPATH :pointe vers le dossier roms\ps3
 
-Par exemple, le fichier ci-dessous pointe vers:`emulators\rpcs3\dev_hdd0\game\NPEB00411\USRDIR\EBOOT.BIN`
+Par exemple, le fichier ci-dessous pointe vers: `emulators\rpcs3\dev_hdd0\game\Rayman Origins[BLES01386].ps3\PS3_GAME\USRDIR\EBOOT.BIN`
 
-<div align="left"><figure><img src="https://i.imgur.com/jRH0tBz.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (194).png" alt=""><figcaption></figcaption></figure></div>
 
 #### Ajouter un jeu PSN - option 2
 

@@ -12,7 +12,7 @@ Arcade - Date de création : 1994
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>model2emu</li><li>libretro:mame</li><li>MAME</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> model2</td></tr><tr><td><strong>Extensions</strong></td><td>.zip</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>model2emu</li><li>libretro:mame</li><li>MAME</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> model2</td></tr><tr><td><strong>Extensions</strong></td><td>.zip .decomp</td></tr></tbody></table>
 
 ## Fonctionnalités
 
@@ -219,6 +219,6 @@ Pour calibrer le pistolet, accéder au menu TEST puis sélectionner **GUN SETTIN
 
 Si un message d'erreur “Network Board Not Present” apparaît, aller dans le menu TEST et sélectionner **Game System** → **Link ID** puis modifier l'option à **Single**.&#x20;
 
-<div align="left"><figure><img src="https://i.imgur.com/LnXZBzo.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/Capture d&#x27;écran 2026-08-25 183348.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 <div align="left"><figure><img src="https://i.imgur.com/0TBBbJT.png" alt=""><figcaption></figcaption></figure></div>
