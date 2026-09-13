@@ -38,6 +38,53 @@ If no input profile exists for the game, RetroBat will configure a default profi
 
 ## Specific system information
 
+#### Pcsx2x6: Adding games <a href="#pcsx2x6-ajouter-des-jeux" id="pcsx2x6-ajouter-des-jeux"></a>
+
+Place the file with the .acgame extension in the `roms\namco2x6` folder, as well as the folder containing the game data :
+
+<div align="left"><figure><img src="../../../.gitbook/assets/image (161).png" alt=""><figcaption><p>Example for Ace Driver 3</p></figcaption></figure></div>
+
+**GAME FOLDER:** Each game folder must contain the following files:
+
+* the game rom itself (.chd, .bin, .iso)
+* an .elf file (can vary depending on the game : proverb.elf or boot.elf)
+* A sram.bin file (this contains the saved data and configuration for the emulated arcade machine). If the file is missing, it will be generated at first launch.
+
+<div align="left"><figure><img src="../../../.gitbook/assets/image (162).png" alt=""><figcaption><p>Example for the Ace Driver 3 folder</p></figcaption></figure></div>
+
+**.ACGAME FILE:** the .acgame file contains the instructions for pcsx2x6 to run the particular game, you can check the content and edit it if necessary with a text editor such as Notepad++.&#x20;
+
+The content of an .acgame file is :
+
+**`[game]`**
+
+This section contains the game's general information.
+
+* `name` : name of the game displayed by pcsx2x6.
+* `gameid` : unique game ID. This is mandatory.
+* `platform` : emulated arcade platform : `246`, `256` or `super256`.
+
+**`[data]`**
+
+This section contains information about the game's files.
+
+* `subdir` : name of the subfolder containing the game data.
+* `elf` : file used to launch the game : `boot.elf` or `proverb.elf`.
+* `dongle` : name of the file containing the game security data.
+* `card` : (optional) can be used to load a secondary memory card (such as the conquest mode for SoulCalibur II).
+* `mediasrc` : name of the file containing the game data (rom).
+* `media` : specify the media type : `CD`, `DVD` or `HDD`.
+
+<div align="left"><figure><img src="../../../.gitbook/assets/image (163).png" alt=""><figcaption><p>Example of an .acgame file for Ace Driver 3</p></figcaption></figure></div>
+
+**.PS2 FILES :** .ps2 files are not memory cards, they are images of the game security dongle. They need to be placed in the  `saves\namco2x6\memcards` folder.
+
+***
+
+All these information can be found on the PCSX2X6 emulator website :
+
+{% embed url="https://ps2homebrew-arcade.github.io/pcsx2x6/game_config/" %}
+
 ### Play!: Running games that do not have a ZIP file
 
 For games without a .zip file, create a .m3u file named after the arcade profile name.
