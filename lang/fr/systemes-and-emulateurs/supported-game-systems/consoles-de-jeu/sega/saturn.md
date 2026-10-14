@@ -38,9 +38,9 @@ Il est possible d'inverser les gâchettes et les boutons L/R avec l'option suiva
 
 ### Autres schémas de contrôles:
 
-Des schémas de contrôles alernatifs sont disponibles avec l'option suivante:
+Des schémas de contrôles alternatifs sont disponibles avec l'option suivante :
 
-<div align="left"><figure><img src="https://i.imgur.com/Ui2uKWH.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/controle.png" alt=""><figcaption></figcaption></figure></div>
 
 | Option                 | Schéma de contrôle                                                                                                                                        |
 | ---------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -69,7 +69,7 @@ Utiliser un fichier m3u pour gérer les jeux multi-disques.
 
 Ci-dessous un exemple pour le jeu _Panzer Dragoon Saga_:&#x20;
 
-<div align="left"><figure><img src="https://i.imgur.com/o3QZPs0.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/o3QZPs0.png" alt=""><figcaption></figcaption></figure></div>
 
 Créer le fichier `Panzer Dragoon Saga.m3u` avec le contenu suivant et sauvegarder le fichier m3u dans le dossier `/roms/saturn` :
 
