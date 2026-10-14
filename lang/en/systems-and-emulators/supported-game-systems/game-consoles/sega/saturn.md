@@ -32,7 +32,7 @@ Game Console - Lifespan: 1994 - 2000
 
 It is possible to invert triggers and shoulder buttons with the following option:
 
-<div align="left"><figure><img src="https://i.imgur.com/X1fv94k.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/httpsX1fv94k.png" alt=""><figcaption></figcaption></figure></div>
 
 <div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/saturn_invert_triggers.png?raw=true" alt="" width="375"><figcaption></figcaption></figure></div>
 
@@ -69,7 +69,7 @@ You can use a m3u file to manage multi-disc games.
 
 For example for _Panzer Dragoon Saga_, if the ROM contains the following files:&#x20;
 
-<div align="left"><figure><img src="https://i.imgur.com/o3QZPs0.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/o3QZPs0.png" alt=""><figcaption></figcaption></figure></div>
 
 create a `Panzer Dragoon Saga.m3u` text file with the following content and save it to the /roms/saturn folder:
 
