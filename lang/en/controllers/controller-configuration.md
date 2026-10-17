@@ -43,6 +43,10 @@ If, for any reason, the default controller configuration does not work for you o
 
 Autoconfiguration can be disabled globally, per system or per game.
 
+{% hint style="warning" %}
+**Lightguns:** in many emulators, disabling **AUTOCONFIGURE CONTROLLERS** does not stop RetroBat from configuring the guns (devices, buttons, crosshair, Sinden border…). To keep your own gun configuration, also set **ENABLE GUN** (Advanced settings → Guns) to **OFF** for the same system or game.
+{% endhint %}
+
 ### **Global deactivation**
 
 Open the [Main Menu](../navigation/main-menu.md) and go to **GAME SETTINGS.**

@@ -54,6 +54,10 @@ Switch **LIGHTUN** to **ON**
 
 The same can be done per game from the [Game Options](../../../navigation/game-options.md) menu and **ADVANCED GAME OPTIONS**
 
+{% hint style="info" %}
+Disabling controller autoconfiguration does not disable the gun configuration: set **ENABLE GUN** to **OFF** as well. See Disabling autoconfiguration.
+{% endhint %}
+
 ## Lightgun Devices
 
 ### WiiMote & Mayflash DolphinBar
