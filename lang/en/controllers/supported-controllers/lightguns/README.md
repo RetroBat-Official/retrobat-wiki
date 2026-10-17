@@ -14,7 +14,7 @@ When a lightgun is connected to the system, a small gun icon appears on the top 
 
 Also, a crosshair will appear on the screen as well as a collection called **LIGHT GUN** in the **System View**.
 
-<div align="left"><figure><img src="https://i.imgur.com/YDBWOrd.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (165).png" alt=""><figcaption></figcaption></figure></div>
 
 LightGun compatible games will have a specific icon next to their name in the **Game View**
 
@@ -60,12 +60,10 @@ The same can be done per game from the [Game Options](../../../navigation/game-o
 
 ![](<../../../.gitbook/assets/image (44).png>)![](<../../../.gitbook/assets/image (28).png>)
 
-The Wiimote and DolphinBar is actually a great way to enjoy your Lightgun game library.
+A Wii Remote (Wiimote) with a Mayflash DolphinBar is an easy way to play lightgun games. RetroBat supports two setups:
 
-There are 2 ways of using the Wiimote as a Lightgun:
-
-* By using the mode 2 of the Mayflash Dolphinbar
-* By using the mode 4 of the Mayflash Dolphinbar and activating the [WiimoteGun software](wiimotegun.md).
+* [DolphinBar](wiimoteandbar.md) only: with the Dolphin Bar in mode 1 (normal) or mode 2 (game) to simulate a mouse and keyboard
+* WiimoteGun (or [Wiimote4Guns](https://github.com/Aynshe/WiimoteGun)) By using the mode 4 of the Mayflash Dolphinbar and activating the [WiimoteGun software](wiimotegun.md).
 
 {% hint style="info" %}
 This guide assumes that you already know how to connect your Mayflash Dolphinbar and your Wiimotes. If not you can find all instructions on the [Mayflash Website](https://www.mayflash.com/product/6.html).

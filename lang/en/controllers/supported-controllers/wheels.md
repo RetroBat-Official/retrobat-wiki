@@ -56,7 +56,7 @@ The gear stick, however, is optional.
 
 ### Logitech G920
 
-<div align="left"><figure><img src="https://i.imgur.com/tEJuFXl.png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (168).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ### Logitech G923
 
@@ -76,13 +76,13 @@ Also, ensure that pedals are not inverted (this can be fixed by maintaining MODE
 
 The following list of emulators have been configured to be compatible with wheels autoconfiguration:
 
-<table><thead><tr><th width="160">Emulator</th><th width="229">Force feedback</th><th>Remark</th></tr></thead><tbody><tr><td>Model 2</td><td>YES</td><td></td></tr><tr><td>Supermodel</td><td>YES</td><td></td></tr><tr><td>Flycast</td><td>YES</td><td></td></tr><tr><td>PCSX2</td><td>YES</td><td>Might need to modify the wheel type in the advanced options</td></tr><tr><td>PCSX2X6</td><td>YES</td><td></td></tr><tr><td>TEKNOPARROT</td><td>YES</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="160">Emulator</th><th width="229">Force feedback</th><th>Remark</th></tr></thead><tbody><tr><td>Model 2</td><td>YES</td><td></td></tr><tr><td>Supermodel</td><td>YES</td><td></td></tr><tr><td>Flycast</td><td>YES</td><td>You can map independently for Arcade and Console</td></tr><tr><td>PCSX2</td><td>YES</td><td>Might need to modify the wheel type in the advanced options</td></tr><tr><td>PCSX2X6</td><td>YES</td><td></td></tr><tr><td>TEKNOPARROT</td><td>YES</td><td></td></tr></tbody></table>
 
 ### Configuring a wheel
 
 Wheel mapping for a specific wheel can be configured in the files located in the `system\resources\inputmapping\wheels` of your RetroBat installation:
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (153).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (169).png" alt=""><figcaption></figcaption></figure></div>
 
 this is an example for Flycast:
 
@@ -94,7 +94,7 @@ The LogitechG29 wheel can be used as example.
 
 To build the file for your wheel, configure the wheel in Flycast, save, open the configuration file created in the `emulators\flycast\mappings` folder and report the values.
 
-The name of the container for the supported wheels can be found [here](wheels.md#supported-wheels).
+The name of the container for the supported wheels can be found hereunder:
 
 ### Supported wheels
 

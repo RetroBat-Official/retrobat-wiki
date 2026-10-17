@@ -307,6 +307,7 @@
     * [Special controllers](controllers/supported-controllers/gamepads/special-controllers.md)
   * [🕹️ Arcade Sticks](controllers/supported-controllers/arcade-sticks.md)
   * [🔫 Lightguns](controllers/supported-controllers/lightguns/README.md)
+    * [Wiimote & Dolphinbar](controllers/supported-controllers/lightguns/wiimoteandbar.md)
     * [WiimoteGun](controllers/supported-controllers/lightguns/wiimotegun.md)
   * [🛞 Wheels](controllers/supported-controllers/wheels.md)
   * [⌨️ Keyboard](controllers/supported-controllers/keyboard.md)
