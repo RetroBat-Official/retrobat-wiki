@@ -67,8 +67,8 @@ Il est possible de profiter de ses jeux de tirs avec une Wiimote associée à un
 
 2 options de configuration sont disponibles:
 
-* Mayflash Dolphinbar en mode 2
-* Mayflash Dolphinbar en mode 4 et activation de [WiimoteGun](wiimotegun.md).
+* [Utiliser la Dolphinbar](wiimotedolphinbar.md) en mode 1 ou en mode 2 pour simuler un clavier et une souris
+* WiimoteGun (ou Wiimote4Guns) en utilisant la DolphinBar en mode 4 et en activant [WiimoteGun](wiimotegun.md).
 
 {% hint style="info" %}
 Le processus d'installation de la Mayflash Dolphinbar n'est pas détaillée dans ce wiki, suivre les instructions disponibles sur le site Web [Mayflash](https://www.mayflash.com/product/6.html).

@@ -56,7 +56,7 @@ Le levier de vitesse est optionnel.
 
 ### Logitech G920
 
-<div align="left"><figure><img src="https://i.imgur.com/tEJuFXl.png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (200).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ### Logitech G923
 
@@ -76,13 +76,13 @@ Assurez-vous également que les pédales ne soient pas inversées (il est possib
 
 Les émulateurs suivant ont été configurés pour être compatible avec l'auto-configuration des contrôles au volant :
 
-<table><thead><tr><th width="160">Emulateur</th><th width="229">Retour de Force</th><th>Commentaire</th></tr></thead><tbody><tr><td>Model 2</td><td>OUI</td><td></td></tr><tr><td>Supermodel</td><td>OUI</td><td></td></tr><tr><td>Flycast</td><td>NON (outil externe requis)</td><td></td></tr><tr><td>PCSX2</td><td>OUI</td><td>Il peut être nécessaire de modifier le type de volant depuis les options avancées</td></tr><tr><td>PCSX2X6</td><td>OUI</td><td>Il peut être nécessaire de modifier le type de volant depuis les options avancées</td></tr><tr><td>TEKNOPARROT</td><td>OUI</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="160">Emulateur</th><th width="229">Retour de Force</th><th>Commentaire</th></tr></thead><tbody><tr><td>Model 2</td><td>OUI</td><td></td></tr><tr><td>Supermodel</td><td>OUI</td><td></td></tr><tr><td>Flycast</td><td>OUI</td><td>Il est possible d'effectuer un mapping différent pour l'Arcade et la Console</td></tr><tr><td>PCSX2</td><td>OUI</td><td>Il peut être nécessaire de modifier le type de volant depuis les options avancées</td></tr><tr><td>PCSX2X6</td><td>OUI</td><td>Il peut être nécessaire de modifier le type de volant depuis les options avancées</td></tr><tr><td>TEKNOPARROT</td><td>OUI</td><td></td></tr></tbody></table>
 
 ## Configurer un volant
 
 Le mapping du volant pour un volant en particulier peut être réalisé depuis les fichiers de configuration situés dans le dossier`system\resources\inputmapping\wheels` de votre installation RetroBat installation:
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (187).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (201).png" alt=""><figcaption></figcaption></figure></div>
 
 Ci-dessous, un exemple pour Flycast :
 
@@ -95,10 +95,10 @@ Le volant LogitechG29 peut être utilisé comme exemple.
 Pour adapter le fichier a votre volant, configurer votre matériel directement sous Flycast, sauvegarder, ouvrir le fichier de configuration crée dans le dossier `emulators\flycast\mappings` et reporter les valeurs sur le fichier.
 
 {% hint style="info" %}
-Si vous paramétrez un volant autre que ceux indiqués dans [la liste des volants compatibles](volants.md#volants-compatibles-avec-retrobat), merci de faire parvenir le fichier à l'équipe RetroBat, pour que celui-ci puissent être intégré lors des mises à jour prochaines.&#x20;
+Si vous paramétrez un volant autre que ceux indiqués dans la liste des volants compatibles, merci de faire parvenir le fichier à l'équipe RetroBat, pour que celui-ci puissent être intégré lors des mises à jour prochaines.&#x20;
 {% endhint %}
 
-Le nom du container pour les volants pouvant potentiellement être pris en charge se trouve [ici](volants.md#volants-supportes).
+Le nom du container pour les volants pouvant potentiellement être pris en charge se trouve ci-dessous.
 
 ### Volants supportés
 
