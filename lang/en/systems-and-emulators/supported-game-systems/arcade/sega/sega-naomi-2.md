@@ -4,11 +4,7 @@ description: Sega
 
 # Sega NAOMI 2
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/naomi2-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/naomi2.svg" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/naomi2-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/naomi2.svg" alt=""></picture><figcaption></figcaption></figure></div>
 
 Arcade - Released: 2000&#x20;
 
@@ -16,7 +12,7 @@ Arcade - Released: 2000&#x20;
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: flycast</li><li>flycast</li><li>demul</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> naomi2</td></tr><tr><td><strong>File extension</strong></td><td>.zip .7z</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: flycast</li><li>flycast</li><li>demul</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> naomi2</td></tr><tr><td><strong>File extension</strong></td><td>.zip .7z .decomp</td></tr></tbody></table>
 
 ## System Features
 
@@ -85,16 +81,8 @@ Some games have a per-game menu for accessing the machine's advanced configurati
 
 To access the service menu for NAOMI2 games, you need first to enable the Service Mode from the RetroBat advanced menu (set it to YES):
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/ztsYbF4.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/ztsYbF4.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/FcFsHjG.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/FcFsHjG.png" alt=""><figcaption></figcaption></figure></div>
 
 Once done, you will be able access the per-game Service Menu by pressing L3 + R3 buttons on the controller.

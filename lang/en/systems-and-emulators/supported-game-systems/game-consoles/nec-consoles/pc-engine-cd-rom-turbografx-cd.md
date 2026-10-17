@@ -12,11 +12,11 @@ Game Console extension - Released: 1988
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: mednafen_pce</li><li>Libretro: mednafen_pce_fast</li><li>Libretro: fbneo</li><li>mednafen</li><li>ares</li><li>bizhawk: HyperNyma</li><li>bizhawk: PCEHawk</li><li>bizhawk: TurboNyma</li><li>mesen</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> pcenginecd</td></tr><tr><td><strong>File extension</strong></td><td>.pce .cue .ccd .iso .cso .img .bin .chd .m3u .zip .7z .squashfs</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: mednafen_pce</li><li>Libretro: mednafen_pce_fast</li><li>Libretro: fbneo</li><li>mednafen</li><li>mesen</li><li>ares</li><li>bizhawk: HyperNyma</li><li>bizhawk: PCEHawk</li><li>bizhawk: TurboNyma</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> pcenginecd</td></tr><tr><td><strong>File extension</strong></td><td>.pce .cue .ccd .iso .cso .img .bin .chd .m3u .zip .7z .squashfs</td></tr></tbody></table>
 
 ## System Features
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-mednafen_pce: YES<br>lr-mednafen_pce_fast: YES<br>lr-fbneo: YES<br>Mednafen: NO<br>Ares: NO<br>BizHawk: YES</td><td>lr-mednafen_pce: YES<br>lr-mednafen_pce_fast: YES<br>lr-fbneo: YES<br>Mednafen: NO<br>Ares: NO<br>BizHawk: NO</td><td>lr-mednafen_pce: YES<br>lr-mednafen_pce_fast: YES<br>lr-fbneo: YES<br>Mednafen: YES<br>Ares: YES<br>BizHawk: YES</td></tr></tbody></table>
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td><p>lr-mednafen_pce: YES<br>lr-mednafen_pce_fast: YES<br>lr-fbneo: YES<br>Mednafen: NO</p><p>Mesen: NO<br>Ares: NO<br>BizHawk: YES</p></td><td><p>lr-mednafen_pce: YES<br>lr-mednafen_pce_fast: YES<br>lr-fbneo: YES<br>Mednafen: NO</p><p>Mesen: NO<br>Ares: NO<br>BizHawk: NO</p></td><td><p>lr-mednafen_pce: YES<br>lr-mednafen_pce_fast: YES<br>lr-fbneo: YES<br>Mednafen: YES</p><p>Mesen: YES<br>Ares: YES<br>BizHawk: YES</p></td></tr></tbody></table>
 
 ## Bios Information
 

@@ -13,11 +13,11 @@ Game Console - Lifespan: 1985 - 1996
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: genesis_plus_gx</li><li>libretro: picodrive</li><li>libretro: fbneo</li><li>mednafen</li><li>mesen</li><li>ares</li><li>kega-fusion</li><li>bizhawk: SMSHawk</li><li>jgenesis</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> mastersystem</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.bin .sms .wad .zip .7z</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: genesis_plus_gx</li><li>libretro: picodrive</li><li>libretro: gearsystem</li><li>libretro: fbneo</li><li>jgenesis</li><li>blastem</li><li>mednafen</li><li>mesen</li><li>ares</li><li>kega-fusion</li><li>bizhawk: SMSHawk</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> mastersystem</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.bin .sms .wad .zip .7z</td><td></td></tr></tbody></table>
 
 ## System Features
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-genesis_plus_gx: YES<br>lr-picodrive: YES<br>lr-fbneo: YES<br>Mednafen: NO<br>Ares: NO<br>Mesen: NO<br>Kega-Fusion: NO<br>BizHawk: YES<br>Jgenesis: NO</td><td>lr-genesis_plus_gx: YES<br>lr-picodrive: YES<br>lr-fbneo: YES<br>Mednafen: NO<br>Ares: NO<br>Mesen: NO<br>Kega-Fusion: NO<br>BizHawk: NO<br>Jgenesis: NO</td><td>lr-genesis_plus_gx: YES<br>lr-picodrive: YES<br>lr-fbneo: YES<br>Mednafen: YES<br>Mesen: YES<br>Ares: YES<br>Kega-Fusion: YES<br>BizHawk: YES<br>Jgenesis: YES</td></tr></tbody></table>
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td><p>lr-genesis_plus_gx: YES<br>lr-picodrive: YES</p><p>lr-gearsystem: YES<br>lr-fbneo: YES</p><p>Jgenesis: NO</p><p>Blastem: NO<br>Mednafen: NO<br>Ares: NO<br>Mesen: NO<br>Kega-Fusion: NO<br>BizHawk: YES</p></td><td><p>lr-genesis_plus_gx: YES<br>lr-picodrive: YES</p><p>lr-gearsystem: YES<br>lr-fbneo: YES</p><p>Jgenesis: NO</p><p>Blastem: NO<br>Mednafen: NO<br>Ares: NO<br>Mesen: NO<br>Kega-Fusion: NO<br>BizHawk: NO</p></td><td><p>lr-genesis_plus_gx: YES<br>lr-picodrive: YES</p><p>lr-gearsystem: YES<br>lr-fbneo: YES</p><p>Jgenesis: YES</p><p>Blastem: YES<br>Mednafen: YES<br>Mesen: YES<br>Ares: YES<br>Kega-Fusion: YES<br>BizHawk: YES</p></td></tr></tbody></table>
 
 ## BIOS
 
@@ -27,25 +27,13 @@ Game Console - Lifespan: 1985 - 1996
 
 Master System control layout:
 
-<div align="left">
-
-<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/mastersystem.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/mastersystem.png?raw=true" alt="" width="375"><figcaption></figcaption></figure></div>
 
 A different layout is available when switching ON the following option:
 
-<div align="left">
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (172).png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/6LY1Atx.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/mastersystem_rotate.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/mastersystem_rotate.png?raw=true" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ## Specific system information
 

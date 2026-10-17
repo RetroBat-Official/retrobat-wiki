@@ -12,11 +12,11 @@ Game Console - Lifespan: 2000 - 2013
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>pcsx2</li><li>pcsx2-16</li><li>play</li><li>Libretro: pcsx2</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> ps2</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.iso .cso .bin .mdf .gz .chd .decomp</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>pcsx2</li><li>Libretro: pcsx2</li><li>play</li><li>pcsx2-16</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> ps2</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.iso .cso .bin .mdf .gz .chd .m3u .zip .7z .squashfs .decomp</td><td></td></tr></tbody></table>
 
 ## System Features
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>Pcsx2: YES<br>Pcsx2-16: NO<br>Play: NO<br>lr-pcsx2: NO</td><td>Pcsx2: NO<br>Pcsx2-16: NO<br>Play: NO<br>lr-pcsx2: NO</td><td>Pcsx2: YES<br>Pcsx2-16: NO<br>Play: YES<br>lr-pcsx2: YES</td></tr></tbody></table>
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td><p>Pcsx2: YES<br>lr-pcsx2: YES</p><p>Play: NO<br>Pcsx2-16: NO</p></td><td>Pcsx2: NO<br>lr-pcsx2: NO<br>Play: NO<br>Pcsx2-16: NO</td><td><p>Pcsx2: YES</p><p>lr-pcsx2: YES<br>Play: YES<br>Pcsx2-16: NO</p></td></tr></tbody></table>
 
 ## BIOS
 

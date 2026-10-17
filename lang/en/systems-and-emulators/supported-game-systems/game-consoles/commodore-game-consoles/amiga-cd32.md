@@ -12,11 +12,11 @@ Game Console - Lifespan: 1993 - 1994
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: puae</li><li>amigaforever</li><li>winuae</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> amigacd32</td></tr><tr><td><strong>File extension</strong></td><td>.iso .cso .cue .zip .7z .lha .rp9 .chd .ccd .nrg .mds</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: puae</li><li>Libretro: Amiberry</li><li>Amiberry</li><li>winuae</li><li>amigaforever</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> amigacd32</td></tr><tr><td><strong>File extension</strong></td><td>.iso .cso .cue .zip .7z .lha .rp9 .chd .ccd .nrg .mds</td></tr></tbody></table>
 
 ## System Features
 
-<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-puae: NO<br>AmigaForever: NO<br>WinUAE: NO</td><td>lr-puae: NO<br>AmigaForever: NO<br>WinUAE: NO</td><td>lr-puae: YES<br>AmigaForever: NO<br>WinUAE: NO</td></tr></tbody></table>
+<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td><p>lr-puae: NO</p><p>lr-amiberry: NO</p><p>Amiberry: NO<br>WinUAE: NO<br>AmigaForever: NO</p></td><td><p>lr-puae: NO</p><p>lr-amiberry: NO</p><p>Amiberry: NO<br>WinUAE: NO<br>AmigaForever: NO</p></td><td><p>lr-puae: YES</p><p>lr-amiberry: YES</p><p>Amiberry: NO<br>WinUAE: NO<br>AmigaForever: NO</p></td></tr></tbody></table>
 
 ## Bios Information
 

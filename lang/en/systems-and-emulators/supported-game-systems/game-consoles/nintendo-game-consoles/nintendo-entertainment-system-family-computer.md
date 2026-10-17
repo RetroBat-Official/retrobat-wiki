@@ -12,11 +12,11 @@ Game Console - Lifespan: 1983 - 2003
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: fceumm</li><li>libretro: nestopia</li><li>libretro: mesen</li><li>mednafen</li><li>mesen</li><li>ares</li><li>bizhawk: NesHawk</li><li>bizhawk: QuickNes</li><li>jgenesis</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> nes</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.fds .nes .wad .zip .7z</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: fceumm</li><li>libretro: nestopia</li><li>libretro: mesen</li><li>mednafen</li><li>mesen</li><li>jgenesis</li><li>ares</li><li>bizhawk: NesHawk</li><li>bizhawk: QuickNes</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> nes</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.fds .nes .wad .zip .7z</td><td></td></tr></tbody></table>
 
 ## Features
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-fceumm: YES<br>lr-nestopia: YES<br>lr-mesen: YES<br>Mednafen: NO<br>Mesen: NO<br>Ares: NO<br>BizHawk: YES<br>Jgenesis: NO</td><td>lr-fceumm: YES<br>lr-nestopia: YES<br>lr-mesen: YES<br>Mednafen: NO<br>Mesen: NO<br>Ares: NO<br>BizHawk: NO<br>Jgenesis: NO</td><td>lr-fceumm: YES<br>lr-nestopia: YES<br>lr-mesen: YES<br>Mednafen: YES<br>Mesen: YES<br>Ares: YES<br>BizHawk: YES<br>Jgenesis: YES</td></tr></tbody></table>
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td><p>lr-fceumm: YES<br>lr-nestopia: YES<br>lr-mesen: YES<br>Mednafen: NO<br>Mesen: NO</p><p>Jgenesis: NO<br>Ares: NO<br>BizHawk: YES</p></td><td><p>lr-fceumm: YES<br>lr-nestopia: YES<br>lr-mesen: YES<br>Mednafen: NO<br>Mesen: NO</p><p>Jgenesis: NO<br>Ares: NO<br>BizHawk: NO</p></td><td><p>lr-fceumm: YES<br>lr-nestopia: YES<br>lr-mesen: YES<br>Mednafen: YES<br>Mesen: YES</p><p>Jgenesis: YES<br>Ares: YES<br>BizHawk: YES</p></td></tr></tbody></table>
 
 ## BIOS
 
@@ -52,8 +52,6 @@ To do so you need to place the custom texture pack in the `\bios\HdPacks` folder
 {% hint style="info" %}
 It is very important that the sha1 hash of your game file matches the sha1 located in the "hires.txt" file from the texture pack folder:
 {% endhint %}
-
-<div align="left"><figure><img src="https://i.imgur.com/KAQVQlV.png" alt=""><figcaption></figcaption></figure></div>
 
 <div align="left"><figure><img src="https://i.imgur.com/b04EdoH.png" alt=""><figcaption></figcaption></figure></div>
 

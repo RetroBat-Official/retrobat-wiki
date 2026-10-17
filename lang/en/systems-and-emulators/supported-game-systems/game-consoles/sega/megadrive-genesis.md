@@ -12,14 +12,14 @@ Game Console - Lifespan: 1988 - 1997
 
 ## Information
 
-| **Emulators**       | <ul><li>libretro: genesis_plus_gx</li><li>libretro: genesis_plus_gx_wide</li><li>libretro: picodrive</li><li>libretro: fbneo</li><li>mednafen</li><li>ares</li><li>kega-fusion</li><li>bizhawk: Genplus-gx</li><li>jgenesis</li></ul> |
-| ------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Games Location**  | :file\_folder: roms \ :open\_file\_folder: megadrive                                                                                                                                                                                  |
-| **File extensions** | .68k .sgd .smd .bin .gen .md .sg .wad .zip .7z                                                                                                                                                                                        |
+| **Emulators**       | <ul><li>libretro: genesis_plus_gx</li><li>libretro: genesis_plus_gx_wide</li><li>libretro: picodrive</li><li>libretro: fbneo</li><li>jgenesis</li><li>blastem</li><li>mednafen</li><li>ares</li><li>kega-fusion</li><li>bizhawk: Genplus-gx</li></ul> |
+| ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Games Location**  | :file\_folder: roms \ :open\_file\_folder: megadrive                                                                                                                                                                                                  |
+| **File extensions** | .68k .sgd .smd .bin .gen .md .sg .wad .zip .7z                                                                                                                                                                                                        |
 
 ## System Features
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-genesis_plus_gx: YES<br>lr-picodrive: YES<br>lr-fbneo: YES<br>Mednafen: NO<br>Ares: NO<br>Kega-Fusion: NO<br>BizHawk: YES<br>Jgenesis: NO</td><td>lr-genesis_plus_gx: YES<br>lr-picodrive: YES<br>lr-fbneo: YES<br>Mednafen: NO<br>Ares: NO<br>Kega-Fusion: NO<br>BizHawk: NO<br>Jgenesis: NO</td><td>lr-genesis_plus_gx: YES<br>lr-picodrive: YES<br>lr-fbneo: YES<br>Mednafen: YES<br>Ares: YES<br>Kega-Fusion: YES<br>BizHawk: YES<br>Jgenesis: YES</td></tr></tbody></table>
+<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td><p>lr-genesis_plus_gx: YES<br>lr-picodrive: YES<br>lr-fbneo: YES</p><p>Jgenesis: NO</p><p>BlastEM: NO<br>Mednafen: NO<br>Ares: NO<br>Kega-Fusion: NO<br>BizHawk: YES</p></td><td><p>lr-genesis_plus_gx: YES<br>lr-picodrive: YES<br>lr-fbneo: YES</p><p>Jgenesis: NO</p><p>BlastEM: NO<br>Mednafen: NO<br>Ares: NO<br>Kega-Fusion: NO<br>BizHawk: NO</p></td><td><p>lr-genesis_plus_gx: YES<br>lr-picodrive: YES<br>lr-fbneo: YES</p><p>Jgenesis: YES</p><p>BlastEM: YES<br>Mednafen: YES<br>Ares: YES<br>Kega-Fusion: YES<br>BizHawk: YES</p></td></tr></tbody></table>
 
 ## BIOS
 
