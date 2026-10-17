@@ -57,6 +57,10 @@ Le même paramétrage peut être effectué individuellement pour un jeu dans le 
 L'option peut être nommée différemment en fonction des systèmes.
 {% endhint %}
 
+{% hint style="info" %}
+Désactiver l'autoconfiguration des manettes ne désactive pas la configuration des pistolets : réglez aussi **ENABLE GUN** sur **OFF**. Voir Désactiver l'autoconfiguration.
+{% endhint %}
+
 ## Modèles de pistolets
 
 ### WiiMote & Mayflash DolphinBar

@@ -39,6 +39,10 @@ Si, pour une raison ou une autre, la configuration des manettes par défaut ne f
 
 La configuration automatique des manettes peut être désactivées pour tous les systèmes, par système ou uniquement pour un jeu.
 
+{% hint style="warning" %}
+**Pistolets :** dans de nombreux émulateurs, désactiver **AUTOCONFIGURE CONTROLLERS** n'empêche pas RetroBat de configurer les pistolets (périphériques, boutons, viseur, bordure Sinden…). Pour garder votre propre configuration des pistolets, réglez aussi **ENABLE GUN** (Options avancées → Guns) sur **OFF** pour le même système ou le même jeu.
+{% endhint %}
+
 ### **Désactivation pour tous les systèmes**
 
 Ouvrir le [MENU PRINCIPAL](../navigation/main-menu.md#parametres-des-jeux) et aller dans les **PARAMETRES DES JEUX.**
@@ -53,7 +57,7 @@ Désactiver **AUTOCONFIGURER LES MANETTES.**
 
 Ouvrir le menu [**OPTIONS D'AFFICHAGE**](../navigation/view-options.md#configuration-avancees-du-systeme) et aller dans **CONFIGURATION AVANCÉE DU SYSTÈME.**
 
-<div align="left"><figure><img src="https://i.imgur.com/yluNDLe.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (205).png" alt=""><figcaption></figcaption></figure></div>
 
 Puis régler l'option **AUTOCONFIGURER LES MANETTES**  sur **NON.**
 
