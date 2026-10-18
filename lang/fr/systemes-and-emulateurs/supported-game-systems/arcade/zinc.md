@@ -8,7 +8,7 @@ Emulateur des systèmes arcade Playstation.
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>PSXMame</li><li>zinc</li><li>libretro:mame</li><li>MAME</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span>zinc</td></tr><tr><td><strong>Extensions</strong></td><td>.zip</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>ArcadeDuck</li><li>PSXMame</li><li>zinc</li><li>libretro:mame</li><li>MAME</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span>zinc</td></tr><tr><td><strong>Extensions</strong></td><td>.zip</td></tr></tbody></table>
 
 ## Fonctionnalités
 
@@ -56,8 +56,10 @@ L'émulateur zinc ne supporte pas le pad directionnel, les mouvements s'effectue
 
 ### ROMs
 
+ArcadeDuck nécessite un romset MAME à jour.
+
 {% hint style="danger" %}
-PSXMame et Zincn'utilisent pas le même ROMset, les jeux fonctionnant dans un émulateur ne fonctionnent pas dans l'autre.
+PSXMame et Zinc n'utilisent pas le même ROMset, les jeux fonctionnant dans un émulateur ne fonctionnent pas dans l'autre.
 {% endhint %}
 
 La liste des jeux compatibles est disponible [ICI](https://emulation.gametechwiki.com/index.php/ZiNc).

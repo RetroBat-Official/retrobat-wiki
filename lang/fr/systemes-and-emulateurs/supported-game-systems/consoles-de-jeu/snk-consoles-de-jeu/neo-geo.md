@@ -12,7 +12,7 @@ Console de jeu - Durée de vie: 1990 - 2004
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro: fbneo</li><li>Libretro: fbalpha</li><li>Libretro: fbalpha2012_neogeo</li><li>Libretro: geolith</li><li>raine</li><li>mame64: neogeo</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> neogeo</td></tr><tr><td><strong>Extensions</strong></td><td>.zip .wad .neo .7z</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro: fbneo</li><li>Libretro: geolith</li><li>Libretro: fbalpha</li><li>Libretro: fbalpha2012_neogeo</li><li>raine</li><li>mame64: neogeo</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> neogeo</td></tr><tr><td><strong>Extensions</strong></td><td>.zip .wad .neo .7z</td></tr></tbody></table>
 
 ### ROMSET&#x20;
 
@@ -20,7 +20,7 @@ Utiliser le romset fbneo 1.0.0.3 pour l'émulateur fbneo.
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-fbneo : OUI<br>lr-fbalpha : OUI<br>lr-fbalpha2012 : OUI<br>lr-geolith: NON<br>Raine : NON<br>Mame : NON</td><td>lr-fbneo : OUI<br>lr-fbalpha : OUI<br>lr-fbalpha2012 : OUI<br>lr-geolith: NON<br>Raine : NON<br>Mame : NON</td><td>lr-fbneo : OUI<br>lr-fbalpha : OUI<br>lr-fbalpha2012 : OUI<br>lr-geolith: OUI<br>Raine : OUI<br>Mame : NON</td></tr></tbody></table>
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td><p>lr-fbneo : OUI</p><p>lr-geolith: NON<br>lr-fbalpha : OUI<br>lr-fbalpha2012 : OUI<br>Raine : NON<br>Mame : NON</p></td><td><p>lr-fbneo : OUI</p><p>lr-geolith: NON<br>lr-fbalpha : OUI<br>lr-fbalpha2012 : OUI<br>Raine : NON<br>Mame : NON</p></td><td><p>lr-fbneo : OUI</p><p>lr-geolith: OUI<br>lr-fbalpha : OUI<br>lr-fbalpha2012 : OUI<br>Raine : OUI<br>Mame : NON</p></td></tr></tbody></table>
 
 | Succès Rétro | Parties en Réseau |
 | ------------ | ----------------- |

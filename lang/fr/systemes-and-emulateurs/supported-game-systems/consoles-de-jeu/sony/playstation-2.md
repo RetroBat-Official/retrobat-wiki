@@ -12,11 +12,11 @@ Console de jeu - Durée de vie: 2000 - 2013
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>pcsx2</li><li>pcsx2-16</li><li>play</li><li>Libretro: pcsx2</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> ps2</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.iso .cso .bin .mdf .gz .chd .decomp</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>pcsx2</li><li>Libretro: pcsx2</li><li>play</li><li>pcsx2-16</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> ps2</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.iso .cso .bin .mdf .gz .chd .m3u .zip .7z .squashfs .decomp</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>Pcsx2 : OUI<br>Pcsx2-16 : NON<br>Play : NON<br>lr-pcsx2 : NON</td><td>Pcsx2 : NON<br>Pcsx2-16 : NON<br>Play : NON<br>lr-pcsx2 : NON</td><td>Pcsx2 : OUI<br>Pcsx2-16 : NON<br>Play : OUI<br>lr-pcsx2 : OUI</td></tr></tbody></table>
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>Pcsx2 : OUI<br>lr-pcsx2 : OUI<br>Play : NON<br>Pcsx2-16 : NON</td><td>Pcsx2 : NON<br>lr-pcsx2 : NON<br>Play : NON<br>Pcsx2-16 : NON</td><td>Pcsx2 : OUI<br>lr-pcsx2 : OUI<br>Play : OUI<br>Pcsx2-16 : NON</td></tr></tbody></table>
 
 ## BIOS
 
@@ -106,7 +106,7 @@ La langue de la console ne peut être modifié que dans le BIOS de la console, v
 
 Aller dans les [options avancées du système](../../../../navigation/configuration-des-systemes-et-des-jeux.md#comment-acceder-au-menu-de-configuration) et passer le paramètre "LANCER LE BIOS" à OUI:
 
-<div align="left"><figure><img src="https://i.imgur.com/XfJiN73.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (210).png" alt=""><figcaption></figcaption></figure></div>
 
 Démarrer n'importe quel jeu de votre librairie, le système démarre sur le BIOS et non le jeu:
 

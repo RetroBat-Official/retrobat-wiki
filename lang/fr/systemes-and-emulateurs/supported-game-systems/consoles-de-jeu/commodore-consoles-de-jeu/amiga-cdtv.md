@@ -12,11 +12,11 @@ Console de jeu - Date de commercialisation :  1991
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro : puae</li><li>amigaforever</li><li>winuae</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> amigacdtv</td></tr><tr><td><strong>Extensions</strong></td><td>.cue .iso .cso .rp9 .ccd .nrg .mds .chd .m3u .zip .7z</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro: puae</li><li>Libretro: Amiberry</li><li>Amiberry</li><li>winuae</li><li>amigaforever</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> amigacdtv</td></tr><tr><td><strong>Extensions</strong></td><td>.cue .iso .cso .rp9 .ccd .nrg .mds .chd .m3u .zip .7z</td></tr></tbody></table>
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-puae : NON<br>AmigaForever : NON<br>WinUAE : NON</td><td>lr-puae : NON<br>AmigaForever : NON<br>WinUAE : NON</td><td>lr-puae : OUI<br>AmigaForever : NON<br>WinUAE : NON</td></tr></tbody></table>
+<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td><p>lr-puae: NON</p><p>lr-amiberry: NON</p><p>Amiberry: NON<br>WinUAE: NON<br>AmigaForever: NON</p></td><td><p>lr-puae: NON</p><p>lr-amiberry: NON</p><p>Amiberry: NON<br>WinUAE: NON<br>AmigaForever: NON</p></td><td><p>lr-puae: OUI</p><p>lr-amiberry: OUI</p><p>Amiberry: NON<br>WinUAE: NON<br>AmigaForever: NON</p></td></tr></tbody></table>
 
 ## Bios
 

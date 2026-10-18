@@ -12,11 +12,11 @@ Game Console - Lifespan: 1988 - 1997
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="230"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: genesis_plus_gx</li><li>libretro: genesis_plus_gx_wide</li><li>libretro: picodrive</li><li>libretro: fbneo</li><li>mednafen</li><li>ares</li><li>kega-fusion</li><li>bizhawk: Genplus-gx</li><li>jgenesis</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> megadrive</td></tr><tr><td><strong>Extensions</strong></td><td>.68k .sgd .smd .bin .gen .md .sg .wad .zip .7z</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="230"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: genesis_plus_gx</li><li>libretro: genesis_plus_gx_wide</li><li>libretro: picodrive</li><li>libretro: fbneo</li><li>jgenesis</li><li>blastem</li><li>mednafen</li><li>ares</li><li>kega-fusion</li><li>bizhawk: Genplus-gx</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> megadrive</td></tr><tr><td><strong>Extensions</strong></td><td>.68k .sgd .smd .bin .gen .md .sg .wad .zip .7z</td></tr></tbody></table>
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-genesis_plus_gx : OUI<br>lr-picodrive : OUI<br>lr-fbneo : OUI<br>Mednafen : NON<br>Ares : NON<br>Kega-Fusion : NON<br>BizHawk : OUI<br>Jgenesis: NON</td><td>lr-genesis_plus_gx : OUI<br>lr-picodrive : OUI<br>lr-fbneo : OUI<br>Mednafen : NON<br>Ares : NON<br>Kega-Fusion : NON<br>BizHawk : NON<br>Jgenesis: NON</td><td>lr-genesis_plus_gx : OUI<br>lr-picodrive : OUI<br>lr-fbneo : OUI<br>Mednafen : OUI<br>Ares : OUI<br>Kega-Fusion : OUI<br>BizHawk : OUI<br>Jgenesis: OUI</td></tr></tbody></table>
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td><p>lr-genesis_plus_gx : OUI<br>lr-picodrive : OUI<br>lr-fbneo : OUI</p><p>Jgenesis: NON</p><p>Blastem: NON<br>Mednafen : NON<br>Ares : NON<br>Kega-Fusion : NON<br>BizHawk : OUI</p></td><td><p>lr-genesis_plus_gx : OUI<br>lr-picodrive : OUI<br>lr-fbneo : OUI</p><p>Jgenesis: NON</p><p>Blastem: NON<br>Mednafen : NON<br>Ares : NON<br>Kega-Fusion : NON<br>BizHawk : NON</p></td><td><p>lr-genesis_plus_gx : OUI<br>lr-picodrive : OUI<br>lr-fbneo : OUI</p><p>Jgenesis: OUI</p><p>Blastem: OUI<br>Mednafen : OUI<br>Ares : OUI<br>Kega-Fusion : OUI<br>BizHawk : OUI</p></td></tr></tbody></table>
 
 | Succès Rétro | Parties en Réseau |
 | ------------ | ----------------- |
@@ -36,7 +36,7 @@ Aucun BIOS nécessaire.
 
 L'utilisation d'un contrôleur 3-boutons peut être activée avec l'option suivante:
 
-<div align="left"><figure><img src="https://i.imgur.com/y8F0PEM.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (208).png" alt=""><figcaption></figcaption></figure></div>
 
 <div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/megadrive_3buttons.png?raw=true" alt="" width="375"><figcaption></figcaption></figure></div>
 
@@ -60,7 +60,7 @@ RetroBat détecte et configure automatiquement les manettes de type "Megadrive" 
 
 Pour cela, activer l'option suivante:
 
-<div align="left"><figure><img src="https://i.imgur.com/HYBXlgR.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (209).png" alt=""><figcaption></figcaption></figure></div>
 
 Le mapping des manettes Megadrive est géré par le fichier "**mdControllers.json**" situé dans le répertoire `\system\resources\inputmapping` de l'installation RetroBat, il est possible d'ajouter d'autres manettes dans ce fichier pour automatiquement configurer votre contrôleur.
 

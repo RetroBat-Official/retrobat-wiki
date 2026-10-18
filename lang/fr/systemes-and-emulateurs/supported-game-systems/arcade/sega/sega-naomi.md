@@ -4,11 +4,7 @@ description: Sega
 
 # Sega NAOMI
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/naomi-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/naomi.svg" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/naomi-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/naomi.svg" alt=""></picture><figcaption></figcaption></figure></div>
 
 Arcade - Date de création : 1998&#x20;
 
@@ -16,7 +12,7 @@ Arcade - Date de création : 1998&#x20;
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro : flycast</li><li>flycast</li><li>demul</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> naomi</td></tr><tr><td><strong>Extensions</strong></td><td>.bin .dat .lst .zip .7z</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro : flycast</li><li>flycast</li><li>demul</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> naomi</td></tr><tr><td><strong>Extensions</strong></td><td>.bin .dat .lst .zip .7z .decomp</td></tr></tbody></table>
 
 ## Fonctionnalités
 
@@ -58,16 +54,8 @@ Certains jeux disposent d'un menu qui permet de régler des paramètres avancés
 
 Pour accéder au Service Menu des jeux NAOMI, il est nécessaire dans un premier temps d'activer le SERVICE MODE dans les paramètres avancés du système dans RetroBat (mettre OUI):
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/puIdIxb.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/puIdIxb.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/Hxj2lbG.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/Hxj2lbG.png" alt=""><figcaption></figcaption></figure></div>
 
 Dès lors, l'accès au Service Menu se fait en pressant les boutons  L3 + R3 buttons de contrôleur.

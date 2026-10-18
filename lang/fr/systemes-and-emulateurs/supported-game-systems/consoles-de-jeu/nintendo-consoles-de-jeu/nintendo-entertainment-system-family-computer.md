@@ -12,11 +12,11 @@ Console de jeu - Durée de vie : 1983 - 2003
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro : fceumm</li><li>libretro : nestopia</li><li>libretro : mesen</li><li>mednafen</li><li>mesen</li><li>ares</li><li>bizhawk: NesHawk</li><li>bizhawk: QuickNes</li><li>jgenesis</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> nes</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.fds .nes .wad .zip .7z</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro : fceumm</li><li>libretro : nestopia</li><li>libretro : mesen</li><li>mednafen</li><li>mesen</li><li>jgenesis</li><li>ares</li><li>bizhawk: NesHawk</li><li>bizhawk: QuickNes</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> nes</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.fds .nes .wad .zip .7z</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-fceumm : OUI<br>lr-nestopia : OUI<br>lr-mesen : OUI<br>Mednafen : NON<br>Mesen : NON<br>Ares : NON<br>BizHawk : OUI<br>Jgenesis: NON</td><td>lr-fceumm : OUI<br>lr-nestopia : OUI<br>lr-mesen : OUI<br>Mednafen : NON<br>Mesen : NON<br>Ares : NON<br>BizHawk : NON<br>Jgenesis: NON</td><td>lr-fceumm : OUI<br>lr-nestopia : OUI<br>lr-mesen : OUI<br>Mednafen : OUI<br>Mesen : OUI<br>Ares : OUI<br>BizHawk : OUI<br>Jgenesis: OUI</td></tr></tbody></table>
+<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td><p>lr-fceumm : OUI<br>lr-nestopia : OUI<br>lr-mesen : OUI<br>Mednafen : NON<br>Mesen : NON</p><p>Jgenesis: NON<br>Ares : NON<br>BizHawk : OUI</p></td><td><p>lr-fceumm : OUI<br>lr-nestopia : OUI<br>lr-mesen : OUI<br>Mednafen : NON<br>Mesen : NON</p><p>Jgenesis: NON<br>Ares : NON<br>BizHawk : NON</p></td><td><p>lr-fceumm : OUI<br>lr-nestopia : OUI<br>lr-mesen : OUI<br>Mednafen : OUI<br>Mesen : OUI</p><p>Jgenesis: OUI<br>Ares : OUI<br>BizHawk : OUI</p></td></tr></tbody></table>
 
 ## Bios
 
@@ -26,7 +26,7 @@ Aucun BIOS nécessaire.
 
 Certains émulateurs permettent de modifier le positionnement des boutons ou d'activer des boutons "turbo" :
 
-<div align="left"><figure><img src="https://i.imgur.com/mvHL7wT.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (206).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Schémas de contrôles:
 
@@ -52,8 +52,6 @@ Placer le pack de textures dans le dossier `\bios\HdPacks` dans un sous-dossier 
 {% hint style="info" %}
 Assurez-vous que le hash sha1 du fichier de jeu est identique au sha1 listé dans le fichier "hires.txt" se trouvant dans le dossier du pack de textures:
 {% endhint %}
-
-<div align="left"><figure><img src="https://i.imgur.com/KAQVQlV.png" alt=""><figcaption></figcaption></figure></div>
 
 <div align="left"><figure><img src="https://i.imgur.com/b04EdoH.png" alt=""><figcaption></figcaption></figure></div>
 

@@ -4,7 +4,7 @@ description: Commodore
 
 # Amiga 4000
 
-<div align="left"><figure><img src="https://i.imgur.com/n6jN8GQ.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (211).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 Micro-ordinateur - Durée de vie  : 1992 - 1994
 
@@ -12,7 +12,7 @@ Micro-ordinateur - Durée de vie  : 1992 - 1994
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro : puae</li><li>amigaforever</li><li>winuae</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> amiga4000</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.adf .uae .ipf .dms .adz .lha .rp9 .uae .hdf .m3u .zip .7z</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro : puae</li><li>libretro: amiberry</li><li>amiberry</li><li>winuae</li><li>amigaforever</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> amiga4000</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.adf .uae .ipf .dms .adz .lha .rp9 .uae .hdf .m3u .zip .7z</td><td></td></tr></tbody></table>
 
 {% hint style="info" %}
 Le dossier \roms\amiga4000 n'est pas créé automatiquement durant l'installation. Si nécessaire il faut l'ajouter manuellement.
@@ -20,7 +20,7 @@ Le dossier \roms\amiga4000 n'est pas créé automatiquement durant l'installatio
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-puae : NON<br>AmigaForever : NON<br>WinUAE : NON</td><td>lr-puae : NON<br>AmigaForever : NON<br>WinUAE : NON</td><td>lr-puae : OUI<br>AmigaForever : NON<br>WinUAE : NON</td></tr></tbody></table>
+<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td><p>lr-puae: NON</p><p>lr-amiberry: NON</p><p>Amiberry: NON<br>WinUAE: NON<br>AmigaForever: NON</p></td><td><p>lr-puae: NON</p><p>lr-amiberry: NON</p><p>Amiberry: NON<br>WinUAE: NON<br>AmigaForever: NON</p></td><td><p>lr-puae: OUI</p><p>lr-amiberry: OUI</p><p>Amiberry: NON<br>WinUAE: NON<br>AmigaForever: NON</p></td></tr></tbody></table>
 
 ## BIOS
 
