@@ -22,7 +22,7 @@ Les jeux Windows ne nécessitent pas d'émulateurs pour être démarrés. Ils so
 
 RetroBat peut automatiquement scanner au démarrage les jeux des stores amazon, eagames (uniquement les jeux développés par EA games), epic, gog et steam, cette fonctionnalité peut être activée dans le  MENU PRINCIPAL > PARAMETRES DES JEUX > JEUX WINDOWS:
 
-<div align="left"><figure><img src="https://i.imgur.com/CaK00YK.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (212).png" alt=""><figcaption></figcaption></figure></div>
 
 ## Contrôles
 
