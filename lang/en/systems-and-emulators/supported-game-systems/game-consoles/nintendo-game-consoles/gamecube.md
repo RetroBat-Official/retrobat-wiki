@@ -65,9 +65,9 @@ The following controllers can be autoconfigured from RetroBat to Dolphin:
 
 ### Control layouts
 
-RetroBat offers multiple control layouts, they can be switched in [**advanced system options**](../../../../navigation/view-options.md#advanced-system-options) **> controls**:
+RetroBat offers multiple control layouts, they can be switched in [**advanced system options**](../../../../navigation/view-options.md#advanced-system-options) **> CONTROLS**:
 
-<div align="left"><figure><img src="https://i.imgur.com/bJxzFof.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (177).png" alt=""><figcaption></figcaption></figure></div>
 
 | Option                              | Layout                                                                                                                                         |
 | ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -152,9 +152,7 @@ Once the custom texture pack is correctly named and placed, activate the **CUSTO
 
 ### Adding cheevos trophy indicator when missing (retroachievements)
 
-For some file extensions (like .gcz or .rvz), RetroBat does not recognize games as compatible with retroachievements, whereas Dolphin displays a prompt saying that you got achievement available for this game.&#x20;
-
-<div align="left"><figure><img src="https://i.imgur.com/ThQfwGy.png" alt=""><figcaption></figcaption></figure></div>
+For some file extensions (like .gcz or .rvz), RetroBat does not recognize games as compatible with retroachievements, whereas Dolphin displays a prompt saying that you got achievement available for this game.
 
 As a result, the trophy indicator is missing in RetroBat in the system view for this particular game.
 
@@ -165,7 +163,7 @@ If you want to force the display of the trophy indicator, you can edit the file 
 ```
 
 {% hint style="info" %}
-To automatically add the ID on your gamecube games, try and run the file "indexcheevosrvz.bat" located in the _system\tools_ folder of your RetroBat installation.
+To automatically add the ID on your gamecube games, try and run the file "**indexcheevosrvz.bat**" located in the _system\tools_ folder of your RetroBat installation.
 {% endhint %}
 
 The ID `XXXXX` above must be replaced by the corresponding game ID that you can retrieve on [https://retroachievements.org](https://retroachievements.org), while browsing the game. It appears in the address bar of the browser.
@@ -176,7 +174,7 @@ In our exemple :
 
 Example of the gamelist.xml file after editing it to add the correct cheevos ID :
 
-<div align="left"><figure><img src="https://i.imgur.com/sh46QjQ.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (176).png" alt=""><figcaption></figcaption></figure></div>
 
 The trophy icon will now appear next to the name of the game :&#x20;
 
