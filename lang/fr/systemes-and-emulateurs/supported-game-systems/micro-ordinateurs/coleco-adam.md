@@ -4,11 +4,7 @@ description: Coleco
 
 # Coleco ADAM
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5b2195d8cce1b44a6aadc2a43c341e7511d4b48f/art/logos/adam.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5b2195d8cce1b44a6aadc2a43c341e7511d4b48f/art/logos/adam.svg" alt=""><figcaption></figcaption></figure></div>
 
 Micro-ordinateur - Durée de vie : 1983 - 1985
 
@@ -16,7 +12,7 @@ Micro-ordinateur - Durée de vie : 1983 - 1985
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="196"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro : mame</li><li>mame64</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> adam</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.wav .ddp .mfi .dfi .hfe .mfm .td0 .imd .d77 .d88 .1dd .cqm .cqi .dsk .rom .col .bin .zip .7z</td><td></td></tr><tr><td><strong>Groupe</strong></td><td>MESS</td><td></td></tr><tr><td><strong>Modèles émulés</strong></td><td>adam</td><td></td></tr><tr><td><strong>Softlists</strong></td><td>adam_cart, adam_cass, adam_flop</td><td></td></tr><tr><td><strong>Types de média</strong></td><td>cassette, disquette, cartouche</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="196"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro : mame</li><li>libretro : gearcoleco</li><li>mame64</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> adam</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.wav .ddp .mfi .dfi .hfe .mfm .td0 .imd .d77 .d88 .1dd .cqm .cqi .dsk .rom .col .bin .zip .7z .m3u</td><td></td></tr><tr><td><strong>Groupe</strong></td><td>MESS</td><td></td></tr><tr><td><strong>Modèles émulés</strong></td><td>adam</td><td></td></tr><tr><td><strong>Softlists</strong></td><td>adam_cart, adam_cass, adam_flop</td><td></td></tr><tr><td><strong>Types de média</strong></td><td>cassette, disquette, cartouche</td><td></td></tr></tbody></table>
 
 ## Fonctionnalités
 
@@ -24,7 +20,7 @@ Micro-ordinateur - Durée de vie : 1983 - 1985
 
 ## BIOS
 
-<table><thead><tr><th width="224">Fichier BIOS</th><th width="235">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>adam.zip</td><td><code>\bios</code></td><td>Voir ci-dessous</td></tr><tr><td>adam_ddp.zip</td><td><code>\bios</code></td><td>Voir ci-dessous</td></tr><tr><td>adam_fdc.zip</td><td><code>\bios</code></td><td>Voir ci-dessous</td></tr><tr><td>adam_kb.zip</td><td><code>\bios</code></td><td>Voir ci-dessous</td></tr><tr><td>adam_prn.zip</td><td><code>\bios</code></td><td>Voir ci-dessous</td></tr><tr><td>adam_cart.xml<br>adam_cass.xml<br>adam_flop.xml</td><td><code>\bios\mame\hash</code></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="224">Fichier BIOS</th><th width="177.5">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>adam.zip</td><td><code>\bios</code></td><td>Voir ci-dessous</td></tr><tr><td>adam_ddp.zip</td><td><code>\bios</code></td><td>Voir ci-dessous</td></tr><tr><td>adam_fdc.zip</td><td><code>\bios</code></td><td>Voir ci-dessous</td></tr><tr><td>adam_kb.zip</td><td><code>\bios</code></td><td>Voir ci-dessous</td></tr><tr><td>adam_prn.zip</td><td><code>\bios</code></td><td>Voir ci-dessous</td></tr><tr><td>adam_cart.xml<br>adam_cass.xml<br>adam_flop.xml</td><td><code>\bios\mame\hash</code></td><td></td></tr><tr><td>os7.u2</td><td><code>\bios</code></td><td></td></tr><tr><td>eos.rom</td><td><code>\bios</code></td><td>01df3140909f09aa9aac4f88890f676c</td></tr><tr><td>wp_r80.rom, ou<br>wp.rom, ou<br>writer.rom</td><td><code>\bios</code></td><td></td></tr></tbody></table>
 
 ### Contenu du fichier BIOS
 

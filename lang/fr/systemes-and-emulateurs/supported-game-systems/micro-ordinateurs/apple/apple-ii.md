@@ -12,7 +12,7 @@ Micro-ordinateur - Durée de vie : 1977 - 1979
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>applewin</li><li>mednafen</li><li>bizhawk</li><li>libretro:mame</li><li>mame</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> apple2</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.nib .do .po .dsk .woz .m3u .hdv .zip</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>applewin</li><li>mednafen</li><li>bizhawk</li><li>libretro: applewin</li><li>libretro: mame</li><li>mame</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> apple2</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.nib .do .po .dsk .woz .m3u .hdv .zip</td><td></td></tr></tbody></table>
 
 ### libretro:mame information
 
@@ -20,7 +20,7 @@ Micro-ordinateur - Durée de vie : 1977 - 1979
 
 ## Fonctionnalités
 
-<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>AppleWin : NON<br>Mednafen : NON<br>BizHawk : OUI<br>lr-mame : NON<br>Mame : NON</td><td>AppleWin : NON<br>Mednafen : NON<br>BizHawk : NON<br>lr-mame : NON<br>Mame : NON</td><td>AppleWin : NON<br>Mednafen : OUI<br>BizHawk : OUI<br>lr-mame : NON<br>Mame : NON</td></tr></tbody></table>
+<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td><p>AppleWin : NON<br>Mednafen : NON<br>BizHawk : OUI</p><p>lr-applewin: NON<br>lr-mame : NON<br>Mame : NON</p></td><td><p>AppleWin : NON<br>Mednafen : NON<br>BizHawk : NON</p><p>lr-applewin: NON<br>lr-mame : NON<br>Mame : NON</p></td><td><p>AppleWin : NON<br>Mednafen : OUI<br>BizHawk : OUI</p><p>lr-applewin: OUI<br>lr-mame : NON<br>Mame : NON</p></td></tr></tbody></table>
 
 ## BIOS
 

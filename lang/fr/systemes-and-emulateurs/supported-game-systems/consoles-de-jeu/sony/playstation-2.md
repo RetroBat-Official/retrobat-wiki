@@ -18,6 +18,10 @@ Console de jeu - Durée de vie: 2000 - 2013
 
 <table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>Pcsx2 : OUI<br>lr-pcsx2 : OUI<br>Play : NON<br>Pcsx2-16 : NON</td><td>Pcsx2 : NON<br>lr-pcsx2 : NON<br>Play : NON<br>Pcsx2-16 : NON</td><td>Pcsx2 : OUI<br>lr-pcsx2 : OUI<br>Play : OUI<br>Pcsx2-16 : NON</td></tr></tbody></table>
 
+{% hint style="info" %}
+Par défaut, si le ratio n'est pas forcé en 4/3, les bezels (décorations) sont désactivées pour pcsx2. Beaucoup de jeux utilisent un patch 16/9.
+{% endhint %}
+
 ## BIOS
 
 <table><thead><tr><th width="215">Fichier BIOS</th><th width="197">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>ps2-0230a-20080220.bin</td><td><code>\bios\pcsx2\bios</code></td><td>21038400dc633070a78ad53090c53017</td></tr><tr><td>ps2-0230e-20080220.bin</td><td><code>\bios\pcsx2\bios</code></td><td>dc69f0643a3030aaa4797501b483d6c4</td></tr><tr><td>ps2-0250e-20100415.bin</td><td><code>\bios\pcsx2\bios</code></td><td>93ea3bcee4252627919175ff1b16a1d9</td></tr><tr><td>ps2-0230j-20080220.bin</td><td><code>\bios\pcsx2\bios</code></td><td>80ac46fa7e77b8ab4366e86948e54f83</td></tr><tr><td>ps3_ps2_emu_bios.bin</td><td><code>\bios\pcsx2\bios</code></td><td></td></tr><tr><td>SCPH30004R.bin</td><td><code>\bios\pcsx2\bios</code></td><td>28922c703cc7d2cf856f177f2985b3a9</td></tr><tr><td>scph39001.bin</td><td><code>\bios\pcsx2\bios</code></td><td>d5ce2c7d119f563ce04bc04dbc3a323e</td></tr></tbody></table>

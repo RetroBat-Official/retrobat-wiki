@@ -12,11 +12,9 @@ Arcade - Date de création : 2002
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>dolphin-triforce</li><li>dolphin</li><li>libretro: dolphin</li><li>teknoparrot</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> triforce</td></tr><tr><td><strong>Extensions</strong></td><td>.iso .zip .cue .7z</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>dolphin</li><li>libretro: dolphin</li><li>dolphin-triforce</li><li>teknoparrot</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> triforce</td></tr><tr><td><strong>Extensions</strong></td><td>.iso .zip .cue .7z</td></tr></tbody></table>
 
 Dolphin-Triforce est le build Crediar de dolphin triforce, qui est également utilisé par Teknoparrot.
-
-La branche principale de Dolphin (ainsi que le core libretro) ont integré le support de l'émulation Triforce depuis février 2026.
 
 ## Fonctionnalités
 
@@ -24,10 +22,7 @@ La branche principale de Dolphin (ainsi que le core libretro) ont integré le su
 
 ## Bios
 
-| Fichier BIOS | Dossier                                     | Remarque                 |
-| ------------ | ------------------------------------------- | ------------------------ |
-| segaboot.gcm | `\emulators\dolphin-emu\User\Triforce`      | Pour l'émulateur Dolphin |
-| segaboot.gcm | `\saves\triforce\dolphin-emu\User\Triforce` | Pour Libretro-dolphin    |
+<table><thead><tr><th width="136.80555555555557">Fichier bios</th><th width="375">Dossier</th><th width="184.94444444444446">Remarque</th></tr></thead><tbody><tr><td>segaboot.gcm</td><td><code>\bios\triforce</code></td><td></td></tr><tr><td>segaboot.gcm</td><td><code>\emulators\dolphin-emu\User\Triforce</code></td><td>Pour Dolphin</td></tr><tr><td>segaboot.gcm</td><td><code>\saves\triforce\dolphin-emu\User\Triforce</code></td><td>Pour lr-dolphin</td></tr></tbody></table>
 
 ## Contrôles
 
