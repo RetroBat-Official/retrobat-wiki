@@ -12,7 +12,7 @@ Game Console - Lifespan: 1982 - 1985
 
 ## Information
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: gearcoleco</li><li>libretro: jollycv</li><li>libretro: bluemsx</li><li>libretro: fbneo</li><li>openmsx</li><li>ares</li><li>bizhawk</li><li>mesen</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> colecovision</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.rom .ri .mx1 .mx2 .col .dsk .cas .sg .sc .m3u .zip .7z</td><td></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: gearcoleco</li><li>libretro: jollycv</li><li>libretro: bluemsx</li><li>libretro: fbneo</li><li>openmsx</li><li>ares</li><li>bizhawk</li><li>mesen</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> colecovision</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.rom .ri .mx1 .mx2 .col .dsk .ddp .cas .sg .sc .m3u .zip .7z</td><td></td></tr></tbody></table>
 
 ## System Features
 
