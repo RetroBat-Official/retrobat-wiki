@@ -241,6 +241,7 @@
     * [Open Beats Of Rage](systems-and-emulators/supported-game-systems/game-engines/open-beats-of-rage.md)
     * [Singe](systems-and-emulators/supported-game-systems/game-engines/singe.md)
     * [Solarus](systems-and-emulators/supported-game-systems/game-engines/solarus.md)
+    * [Zelda Classic](systems-and-emulators/supported-game-systems/game-engines/zelda-classic.md)
   * [Pinball](systems-and-emulators/supported-game-systems/pinball/README.md)
     * [Future Pinball](systems-and-emulators/supported-game-systems/pinball/future-pinball.md)
     * [Pinball FX](systems-and-emulators/supported-game-systems/pinball/pinball-fx.md)
