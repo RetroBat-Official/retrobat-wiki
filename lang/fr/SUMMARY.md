@@ -241,6 +241,7 @@
     * [Open Beats Of Rage](systemes-and-emulateurs/supported-game-systems/moteurs-de-jeu/open-beats-of-rage.md)
     * [Singe](systemes-and-emulateurs/supported-game-systems/moteurs-de-jeu/singe.md)
     * [Solarus](systemes-and-emulateurs/supported-game-systems/moteurs-de-jeu/solarus.md)
+    * [Zelda Classic](systemes-and-emulateurs/supported-game-systems/moteurs-de-jeu/zelda-classic.md)
   * [Flipper](systemes-and-emulateurs/supported-game-systems/flipper/README.md)
     * [Future Pinball](systemes-and-emulateurs/supported-game-systems/flipper/future-pinball.md)
     * [Pinball FX](systemes-and-emulateurs/supported-game-systems/flipper/pinball-fx.md)
