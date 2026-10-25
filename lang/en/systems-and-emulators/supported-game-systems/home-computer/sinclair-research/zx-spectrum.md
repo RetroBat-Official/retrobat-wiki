@@ -36,7 +36,7 @@ The SELECT button brings up the embedded, on-screen keyboard which is useful if 
 
 * For keyboard games: select the option "**Keyboard Only**". You won't have any joystick and the embedded keyboard won't work, but the entire physical keyboard will be available for you to type in those text adventure commands.
 
-<div align="left"><figure><img src="https://i.imgur.com/o9rRm4B.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/o9rRm4B.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Specific system information
 

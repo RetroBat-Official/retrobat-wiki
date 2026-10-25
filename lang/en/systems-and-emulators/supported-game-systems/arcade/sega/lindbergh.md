@@ -121,7 +121,7 @@ Games can be added:
 
 * by renaming the game folder with .game extension
 
-<div align="left"><figure><img src="https://i.imgur.com/7F2uDqQ.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/7F2uDqQ.png" alt=""><figcaption></figcaption></figure></div>
 
 * by creating .game file near the game elf launch file
 

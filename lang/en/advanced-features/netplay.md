@@ -12,47 +12,27 @@ Netplay feature is not a simulation of the actual hardware network capabilities 
 
 From the [MAIN MENU](../navigation/main-menu.md#system-settings) > System Settings, open **NETPLAY SETTINGS**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/9tRmji0.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/9tRmji0.png" alt=""><figcaption></figcaption></figure></div>
 
 Enable Netplay and enter a **NICKNAME**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/hkoc7m7.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/hkoc7m7.png" alt=""><figcaption></figcaption></figure></div>
 
 ## **Indexing Games**
 
 Retrobat will need to index games with NetPlay capabilities, this is done from the INDEX GAMES menu, you can also setup the system to index new games at startup.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/vn2KSWB.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/vn2KSWB.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Joining a NetPlay game
 
 Once NetPlay is activated, when in the System View, use the ![](<../.gitbook/assets/image (50).png>)  button to display NetPlay Games
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/dfzVYyY.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/dfzVYyY.png" alt=""><figcaption></figcaption></figure></div>
 
 This will open the list of currently available NetPlay sessions
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/bR2g3Ab.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/bR2g3Ab.png" alt=""><figcaption></figcaption></figure></div>
 
 Select one of the available games and launch it to join a netplay session.
 
@@ -62,19 +42,11 @@ Select one of the available games and launch it to join a netplay session.
 
 If you want to host a NetPlay game session, select the game in your Gamelist and from the [Game Options](../navigation/game-options.md) menu choose **START A NETPLAY GAME**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/XriDKwq.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/XriDKwq.png" alt=""><figcaption></figcaption></figure></div>
 
 In the next screen, select HOST A NETPLAY GAME to start a NetPlay session.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/t1ENzuy.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/t1ENzuy.png" alt=""><figcaption></figcaption></figure></div>
 
 The session will be visible in the Netplay Sessions screen and other players will be able to join.
 

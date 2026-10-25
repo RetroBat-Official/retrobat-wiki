@@ -57,7 +57,7 @@ You can download the bezels from the [UPDATES & DOWNLOADS](updates-and-content-d
 
 Select THE BEZEL PROJECT and choose the system for which you want to download bezels.
 
-<div align="left"><figure><img src="https://i.imgur.com/DEaOLJT.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/DEaOLJT.png" alt=""><figcaption></figcaption></figure></div>
 
 Press ![](<../.gitbook/assets/image (30).png>) and confirm installation.
 
@@ -69,7 +69,7 @@ The download starts
 
 Wait until completion of the installation
 
-<div align="left"><figure><img src="https://i.imgur.com/HpZj7Se.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/HpZj7Se.png" alt=""><figcaption></figcaption></figure></div>
 
 The downloaded Bezels are stored in the `\decorations\thebezelproject\games` folder:
 
@@ -131,7 +131,7 @@ Last but not least, Mega Bezels do not work with **OPENGL** video driver, so ens
 
 <div align="left"><figure><img src="https://i.imgur.com/nuSg307.png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/HVJIY6D.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/HVJIY6D.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 It is recommended to use VULKAN or OPENGL CORE, but DirectX 10, 11 or 12 should also work.
@@ -161,7 +161,7 @@ To enable tattoos,open the **MAIN MENU** > **GAME SETTINGS**:
 
 then **GLOBAL OPTIONS** > **TATTOO**:
 
-<div align="left"><figure><img src="https://i.imgur.com/dIv1Ety.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/dIv1Ety.png" alt=""><figcaption></figcaption></figure></div>
 
 <div align="left"><figure><img src="https://i.imgur.com/GgZipNc.png" alt=""><figcaption></figcaption></figure></div>
 

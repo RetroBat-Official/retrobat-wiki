@@ -89,11 +89,11 @@ Create a shortcut to the desktop for the installed game (right-click):
 
 On the windows desktop, right-click on the the shortcut to copy its path and paste it in a .txt file (only keep the last part which is the path to the installed app, without the ""):
 
-<div align="left"><figure><img src="https://i.imgur.com/o7E5uFQ.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/o7E5uFQ.png" alt=""><figcaption></figcaption></figure></div>
 
 Save the text file with the .m3u extension and place it in the roms\3ds folder:
 
-<div align="left"><figure><img src="https://i.imgur.com/g2xUhcm.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/g2xUhcm.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Custom Textures
 
@@ -115,7 +115,7 @@ The name of the custom texture folder can be found by right-clicking on the game
 
 Once the custom texture pack is correctly named and placed, activate the **CUSTOM TEXTURES** setting.
 
-<div align="left"><figure><img src="https://i.imgur.com/R5SWtvS.png" alt=""><figcaption><p>Go to the View Options from the Citra System</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/R5SWtvS.png" alt=""><figcaption><p>Go to the View Options from the Citra System</p></figcaption></figure></div>
 
 <div align="left"><figure><img src="https://i.imgur.com/Q0aI7p0.png" alt=""><figcaption></figcaption></figure></div>
 

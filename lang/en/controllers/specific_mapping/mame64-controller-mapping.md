@@ -120,7 +120,7 @@ Click on "General Settings":
 
 Select "Input Assignments"
 
-<div align="left"><figure><img src="https://i.imgur.com/P23EUU1.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/P23EUU1.png" alt=""><figcaption></figcaption></figure></div>
 
 Select the controls you want to assign:
 
@@ -203,7 +203,7 @@ RetroBat provides 8 custom profiles as well as the ability to use a per\_game cf
 When using "per\_game", the name of the file must match the name of the game file (without extension), for example name the file "wjammers.cfg" for the game file "wjammers.zip" (WindJammers).
 {% endhint %}
 
-<div align="left"><figure><img src="https://i.imgur.com/mD9Dn89.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/mD9Dn89.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Do not hesitate to share the files you have created with the RetroBat team if you have a general profile that can be shared with other users.

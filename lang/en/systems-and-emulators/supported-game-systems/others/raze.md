@@ -4,11 +4,7 @@ description: Raze
 
 # Raze
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/421cec038116fe7b6711fa35683470884a28ed55/art/logos/raze.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/421cec038116fe7b6711fa35683470884a28ed55/art/logos/raze.svg" alt=""><figcaption></figcaption></figure></div>
 
 Game engine to play Blood, Shadow Warrior, Duke Nukem 3D and other games using the same engine.
 
@@ -38,11 +34,7 @@ The list of games supported by Raze can be found here:
 
 Create a txt file and write the relative path to the .grp (or other extension Raze supports) file to launch:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/c5YWtRf.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/c5YWtRf.png" alt=""><figcaption></figcaption></figure></div>
 
 Save the file with the "`.raze`" extension.
 
@@ -52,11 +44,7 @@ RetroBat allows using your own command line arguments with the emulator.
 
 To do so, create a .txt file and fill one argument per line:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/JVHAwZM.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/JVHAwZM.png" alt=""><figcaption></figcaption></figure></div>
 
 Save the file with the ".raze" extension and place it in the `roms\raze`folder.
 

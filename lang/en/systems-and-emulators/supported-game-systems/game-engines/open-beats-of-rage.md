@@ -58,7 +58,7 @@ The version number located at the very end of the bracket must match the name of
 
 Finally, in RetroBat, select the emulator called "**openbor-specific-version"**, and run the gam&#x65;**:**
 
-<div align="left"><figure><img src="https://i.imgur.com/W0Gkhrz.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/W0Gkhrz.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 RetroBat does not perform any configuration for specific versions of OpenBOR : controls and configuration must be performed directly within OpenBOR.

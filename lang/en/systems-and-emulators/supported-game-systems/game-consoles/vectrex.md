@@ -42,7 +42,7 @@ Game Console - Lifespan: 1982 - 1984
 | L3                                                                              |             |
 | R3                                                                              |             |
 
-<div align="left"><figure><img src="https://i.imgur.com/t2yZvPr.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/t2yZvPr.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Specific system information
 

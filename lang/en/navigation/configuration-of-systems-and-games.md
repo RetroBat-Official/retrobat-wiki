@@ -21,11 +21,7 @@ The features menu is available from the "[View Options](view-options.md)" (SELEC
 
 #### when selecting the **ADVANCED SYSTEM OPTIONS** submenu:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/NTx2K4c.png" alt=""><figcaption><p>How to access features from the VIEW OPTIONS</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/NTx2K4c.png" alt=""><figcaption><p>How to access features from the VIEW OPTIONS</p></figcaption></figure></div>
 
 \==> This will enable configuration for all games of the selected system.
 
@@ -33,11 +29,7 @@ The features menu is available from the "[View Options](view-options.md)" (SELEC
 
 #### when selecting the ADVANCED GAME OPTIONS submenu
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/lJNGWGh.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/lJNGWGh.png" alt=""><figcaption></figcaption></figure></div>
 
 \==> This will enable configuration for the specified game only.
 
@@ -58,11 +50,7 @@ In most of the cases, the features will be grouped within 2 subgroups:
 * General Settings
 * Advanced Settings
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/mcSBHUD.png" alt=""><figcaption><p>Example of settings for NES with FCEUMM core</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/mcSBHUD.png" alt=""><figcaption><p>Example of settings for NES with FCEUMM core</p></figcaption></figure></div>
 
 ### General Settings
 
@@ -91,29 +79,17 @@ These features will be far more specific, they are arranged in the following sub
 * DRIVERS : options to change video, audio, controller drivers used by the emulator
 * CONTROLS : options related with controls such as the type of joystick, lightgun options...
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/hGdcInG.png" alt=""><figcaption><p>Example of EMULATION features submenu for FCEUMM core</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/hGdcInG.png" alt=""><figcaption><p>Example of EMULATION features submenu for FCEUMM core</p></figcaption></figure></div>
 
 
 
 In addition, some emulators will have specific submenus, this is the case for example for pcsx2 features, that have a MANUAL HACK and a GAME FIXES submenus:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/Mw3E0dB.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/Mw3E0dB.png" alt=""><figcaption></figcaption></figure></div>
 
 or for the PORTS that have a dedicated per-game setting:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/nCX1t0V.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/nCX1t0V.png" alt=""><figcaption></figcaption></figure></div>
 
 
 
@@ -127,37 +103,21 @@ As an example, let's take the case of a user that needs to change the video driv
 
 Once in the system configuration options screens
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/HkFOJoU.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/HkFOJoU.png" alt=""><figcaption></figcaption></figure></div>
 
 Select the **DRIVERS** submenu in the **ADVANCED SETTINGS** group:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/qthtyR1.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/qthtyR1.png" alt=""><figcaption></figcaption></figure></div>
 
 
 
 Then change the **VIDEO DRIVER** option to "VULKAN":
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/xaeKGGB.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/xaeKGGB.png" alt=""><figcaption></figcaption></figure></div>
 
 When running a game with the duckstation emulator, RetroBat will automatically set the following value in the Duckstation settings file before launching the game:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/yYUfic3.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/yYUfic3.png" alt=""><figcaption></figcaption></figure></div>
 
 Et voilà !
 

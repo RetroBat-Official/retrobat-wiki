@@ -55,7 +55,7 @@ For libretro:melonDS and MelonDS, you need to place a '.bin' dsi nand file in th
 
 #### Example of a nand file:
 
-<div align="left"><figure><img src="https://i.imgur.com/gzpnw8S.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/gzpnw8S.png" alt=""><figcaption></figcaption></figure></div>
 
 When running from RetroBat, you will be directly booted in the DSi nand:
 

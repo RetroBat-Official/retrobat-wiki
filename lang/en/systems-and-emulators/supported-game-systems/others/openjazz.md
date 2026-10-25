@@ -34,6 +34,6 @@ Copy the game files in the roms\openjazz folder of your RetroBat installation, i
 
 Create an empty .txt file with the name of the game and change the extension of the file to ".openjazz":
 
-<div align="left"><figure><img src="https://i.imgur.com/f0eqO33.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/f0eqO33.png" alt=""><figcaption></figcaption></figure></div>
 
 The file must be located in the same folder as the **JAZZ.EXE** file.

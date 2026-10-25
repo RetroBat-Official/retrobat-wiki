@@ -20,7 +20,7 @@ Pinball Simulation Software - Released 2016
 
 Create an empty .txt file and name is with the table name:
 
-<div align="left"><figure><img src="https://i.imgur.com/RwUbyf8.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/RwUbyf8.png" alt=""><figcaption></figcaption></figure></div>
 
 Save the file with the .table extension in the :open\_file\_folder:`roms\`:open\_file\_folder:`zaccariapinball` folder of your RetroBat installation.&#x20;
 

@@ -109,7 +109,7 @@ If this is the first collection you create, a new **COLLECTIONS** item becomes a
 
 The **COLLECTIONS** item contains the list of your collections, including the one that was just created.
 
-<div align="left"><figure><img src="https://i.imgur.com/AWmu3sN.png" alt=""><figcaption><p>Mario Games collection appears in the Collections folder</p></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/AWmu3sN.png" alt=""><figcaption><p>Mario Games collection appears in the Collections folder</p></figcaption></figure></div>
 
 The next step is to add games to the newly created collection, to do so, highlight a game in the [Game View](system-view-and-game-view.md) and long-press ![](<../.gitbook/assets/image (30).png>) to show the [Game Options](game-options.md) menu and in the **COLLECTIONS** part select the collections in which the game must be added.
 

@@ -88,7 +88,7 @@ Keyboard mapped to keyboard, Joystick mapping hereunder:
 | L1                                                 |              |
 | R1                                                 |              |
 
-<div align="left"><figure><img src="https://i.imgur.com/1eW9xUn.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/1eW9xUn.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Specific system information
 

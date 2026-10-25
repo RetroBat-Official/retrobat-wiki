@@ -32,7 +32,7 @@ The quick search menu is displayed by pressing ![](<../.gitbook/assets/image (48
 
 The navigation bar is displayed by pressing ![](<../.gitbook/assets/image (16) (1).png>).
 
-<div align="left"><figure><img src="https://i.imgur.com/X1GYL7I.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/3f1cd20d-c1a1-4336-afae-4c4b7c4520fd.png" alt=""><figcaption></figcaption></figure></div>
 
 This menu allows quick access to a system or a collection, it is by default sorted by Manufacturer.
 
@@ -103,7 +103,7 @@ You can ungroup systems in [**Main Menu**](main-menu.md) **> GAME COLLECTION SET
 
 Navigate to **GROUPED SYSTEMS**:
 
-<div align="left"><figure><img src="https://i.imgur.com/XksMeTo.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/XksMeTo.png" alt=""><figcaption></figcaption></figure></div>
 
 Untick systems that you want to ungroup:
 

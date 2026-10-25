@@ -78,7 +78,7 @@ To make things easier, you can use the assets available on the Hypseus Github.
 
 At first, download the content of the repository above,
 
-<figure><img src="https://i.imgur.com/dEGyFs9.gif" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/dEGyFs9.gif" alt=""><figcaption></figcaption></figure>
 
 &#x20;and extract the zip on a temporary folder.
 
@@ -100,7 +100,7 @@ After adding the required files (`.m2v` file, or `.ogg` and `.m2v` files), renam
 
 It is possible to use a custom command file to force command line to hypseus emulator, to do so, create a text file in the rom folder and add all command lines required within the file:
 
-<div align="left"><figure><img src="https://i.imgur.com/AuIQeoE.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/AuIQeoE.png" alt=""><figcaption></figcaption></figure></div>
 
 Finally: rename the file with the .commands extension, the name of the file must match exactly the name of the game folder (without the .hypseus extension).
 

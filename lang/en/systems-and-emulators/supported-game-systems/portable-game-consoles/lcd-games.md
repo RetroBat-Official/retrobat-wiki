@@ -36,7 +36,7 @@ Place the rom file in .zip format in the `\roms\lcdgames` folder.
 
 Place the artwork in the `\saves\mame\artwork`folder, files must have exactly the same name as the game rom file and be in .zip format.&#x20;
 
-<div align="left"><figure><img src="https://i.imgur.com/MwEbQkp.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/MwEbQkp.png" alt=""><figcaption></figcaption></figure></div>
 
 Then, in Retrobat, go to the **Game & Watch** system and select the emulator for the game.
 

@@ -21,7 +21,7 @@ The best way to play Game Console games.
 [GAMEPADS PAGE](gamepads/)
 {% endtab %}
 
-{% tab title="ARACADE STICKS" %}
+{% tab title="ARCADE STICKS" %}
 The best way to play Arcade games, even more so when you are building a Gaming Cabinet.
 
 ![](<../../.gitbook/assets/image (49).png>)

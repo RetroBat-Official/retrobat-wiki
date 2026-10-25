@@ -6,23 +6,11 @@ This function can be used to translate screens from games that are written in a 
 
 Configuration can be done in the [Main Menu ](../navigation/main-menu.md)under **GAME SETTINGS** and **AI GAME TRANSLATION**.
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/9PkHi7R.png" alt=""><figcaption><p>GAME SETTINGS</p></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/9PkHi7R.png" alt=""><figcaption><p>GAME SETTINGS</p></figcaption></figure>
+<div align="left"><figure><img src="https://i.imgur.com/wQswVu7.png" alt=""><figcaption><p>AI GAME TRANSLATION</p></figcaption></figure></div>
 
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/wQswVu7.png" alt=""><figcaption><p>AI GAME TRANSLATION</p></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/GD7f7Ay.png" alt=""><figcaption><p>AI GAME TRANSLATION options</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/GD7f7Ay.png" alt=""><figcaption><p>AI GAME TRANSLATION options</p></figcaption></figure></div>
 
 <table><thead><tr><th width="290">Configuration Item</th><th>Description</th></tr></thead><tbody><tr><td><strong>Enable AI Translation Service</strong></td><td>Turn the translation feature ON or OFF</td></tr><tr><td><strong>Target Language</strong></td><td>Select the language you want to get the screens translated into</td></tr><tr><td><strong>AI Translation service URL</strong></td><td>Enter the translation service URL</td></tr><tr><td><strong>Pause on translated screen</strong></td><td>Select whether you want to keep the game going while the translation overlay is on or pause the game</td></tr></tbody></table>
 
@@ -32,19 +20,11 @@ The service from [ztranslate.net](https://ztranslate.net/) can be used to transl
 
 You will need to register on the website.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/rLddOm8.png" alt=""><figcaption><p>Register</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/rLddOm8.png" alt=""><figcaption><p>Register</p></figcaption></figure></div>
 
 Once the Sign up finalized, go to Settings and retrieve you API key.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/7Oe139R.png" alt=""><figcaption><p>Retrieve API key at the bottom</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/7Oe139R.png" alt=""><figcaption><p>Retrieve API key at the bottom</p></figcaption></figure></div>
 
 Now, enter the URL + API key in Retrobat AI GAME TRANSLATION settings and confirm.
 
@@ -56,11 +36,7 @@ http://ztranslate.net/service?api_key=XXXYYYZZZ
 
 (replace XXXYYYZZZ with your own API key)
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/OiGEpQD.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/OiGEpQD.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Calling the translation while in game
 

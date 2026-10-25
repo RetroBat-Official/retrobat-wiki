@@ -28,7 +28,7 @@ You can extract the file from the original CD, or purchase the game on [GOG](htt
 
 Inside the `roms\devilutionx` folder, create a folder named `diablo.game`.&#x20;
 
-<div align="left"><figure><img src="https://i.imgur.com/OG2qShd.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/OG2qShd.png" alt=""><figcaption></figcaption></figure></div>
 
 Inside this folder, copy `diabdat.mpq` from the CD or Diablo-installation (or [extract it from the GoG installer](https://github.com/diasurgical/devilutionX/wiki/Extracting-the-.MPQs-from-the-GoG-installer)) to the `devilutionx` folder.
 

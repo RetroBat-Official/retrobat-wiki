@@ -42,7 +42,7 @@ RetroBat forces Hatari standalone to use the configuration file located in `\emu
 
 When making configuration directly within the emulator, ensure to configure it by using the .bat file provided:
 
-<div align="left"><figure><img src="https://i.imgur.com/gMsQpbA.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/gMsQpbA.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
 Standard hatari.exe stores the config file in "userdata" folder of windows, changes done in this file will not work when running from RetroBat.
@@ -58,7 +58,7 @@ In order to do this, the hdd to mount must be stored in the roms folder :
 
 Next, create an empty text file in the same folder, name it with the exact same name as the folder and save it with the .GEM extension:
 
-<div align="left"><figure><img src="https://i.imgur.com/VAu6Ce9.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/VAu6Ce9.png" alt=""><figcaption></figcaption></figure></div>
 
 Additionnaly, it is possible to make lr-hatarib automatically run one of the program stored on the mounted gemdos HDD image.
 

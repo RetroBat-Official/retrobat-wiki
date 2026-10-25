@@ -44,25 +44,17 @@ The method described below is based on version 0.9.5 of 3dsen.
 
 3DSen Emulator has a fixed ID for each compatible game, in order for Retrobat to be able to launch 3DSen with a game, the game ID needs to be specified in a .3dsen file:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/egozosL.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/egozosL.png" alt=""><figcaption></figcaption></figure></div>
 
 In addition, it is required to link each game ID to the NES system rom directly in 3DSen Emulator.
 
 The actual NES ROM is located in the `\roms\nes` folder.
 
-<figure><img src="https://i.imgur.com/UEfJvcM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/UEfJvcM.png" alt=""><figcaption></figcaption></figure>
 
 Double-click on the game and select the NES ROM:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/P7Kgbvj.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/P7Kgbvj.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Supported Games & IDs
 

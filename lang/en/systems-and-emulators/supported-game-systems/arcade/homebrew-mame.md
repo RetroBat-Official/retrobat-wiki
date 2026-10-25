@@ -4,11 +4,7 @@ description: MAME Team
 
 # HomeBrew MAME
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/hbmame.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/hbmame.svg" alt=""><figcaption></figcaption></figure></div>
 
 **HBMAME** (HomeBrew MAME) is a derivative of MAME 0.245, and contains various hacks and homebrews.
 
@@ -34,11 +30,7 @@ Most Romsets for HBMame come in a "merged" presentation, meaning that the rom wi
 
 In order for RetroBat to see the Hack version, the rom will have to be "un-merged", here is an example for the "Arrange Ver. 1.1" hack for DoDonPachi:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/5Zh2T6D.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/5Zh2T6D.png" alt=""><figcaption></figcaption></figure></div>
 
 #### **Step 1: checking the rom**
 
@@ -52,27 +44,15 @@ Open the rom archive and extract the hack you want to launch from RetroBat.
 
 Here for example we will extract ddonpacha from the archive:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/uPE1ZDY.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/uPE1ZDY.png" alt=""><figcaption></figcaption></figure></div>
 
 Now, go inside the extracted ddonpacha folder and zip the content, the zip name must be `ddonpacha.zip` (the official hack name):
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/QiLS3QV.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/QiLS3QV.png" alt=""><figcaption></figcaption></figure></div>
 
 The content of the zip should look as follows:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/dmRocxJ.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/dmRocxJ.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="danger" %}
 When zipping, ensure there is no ddonpacha subdirectory before the rom files !
@@ -82,19 +62,11 @@ When zipping, ensure there is no ddonpacha subdirectory before the rom files !
 
 Now both roms will appear in RetroBat : the main one and the hack
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/hVLvQ5N.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/hVLvQ5N.png" alt=""><figcaption></figcaption></figure></div>
 
 And you will be able to run the hack rom with the emulators / cores provided in RetroBat:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/ERVSQi8.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/ERVSQi8.png" alt=""><figcaption></figcaption></figure></div>
 
 ### ROM set versions&#x20;
 
