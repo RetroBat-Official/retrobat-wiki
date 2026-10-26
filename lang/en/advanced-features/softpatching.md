@@ -8,9 +8,9 @@ Softpatching is a function for applying these game patches, without having to mo
 
 Patches can be applied in 3 different ways. Depending on which method you choose, you'll need to select the corresponding option in the RetroBat menu:
 
-<figure><img src="https://i.imgur.com/EGOj6hU.png" alt=""><figcaption></figcaption></figure>
+<div align="left"><figure><img src="../.gitbook/assets/image (179).png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/iAzzbbP.png" alt=""><figcaption></figcaption></figure>
+<div align="left"><figure><img src="../.gitbook/assets/image (180).png" alt=""><figcaption></figcaption></figure></div>
 
 * Patch in the corresponding roms directory
   *   The patch file is placed next to the rom. The patch must be named exactly like the rom (except for the extension).

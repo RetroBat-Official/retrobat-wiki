@@ -176,4 +176,4 @@ This folder contains all RetroBat template files as they are upon RetroBat insta
 
 ## user folder
 
-This folder can be used to store your own tattoos, inputmapping files (for some systems) and your steam APIkey.
+This folder can be used to store your own tattoos, inputmapping files (for some systems), padtokey files and your steam APIkey.

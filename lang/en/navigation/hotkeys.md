@@ -17,9 +17,11 @@ The following list of emulators are currently aligned on this shortcut model, wi
 <summary>Emulators with aligned hotkeys</summary>
 
 * RetroArch
+* ArcadeDuck
 * Ares (uses PadToKey)
 * BigPEmu
 * Bizhawk (uses padToKey)
+* BlastEM
 * Cgenius (only save/load state) (uses Pad2Key)
 * Citron
 * Demul
@@ -38,9 +40,11 @@ The following list of emulators are currently aligned on this shortcut model, wi
 * Mupen64(RMG)
 * OpenMSX
 * PCSX2
+* PCSX2x6
 * PPSSPP
 * Project64 (uses Pad2Key)
 * Raine (uses Pad2Key)
+* Sm2-Emu (uses Pad2Key)
 * Snes9X (uses Pad2Key)
 * Sudachi
 * Suyu
@@ -68,9 +72,11 @@ The following list of emulators allow modification of hotkeys:
 <summary>Emulators with assignable hotkeys</summary>
 
 * RetroArch
+* ArcadeDuck
 * Ares
 * BigPEmu
 * Bizhawk
+* BlastEM
 * DesMUME
 * Dolphin
 * Duckstation
@@ -80,9 +86,11 @@ The following list of emulators allow modification of hotkeys:
 * MelonDS
 * Mesen
 * PCSX2
+* PCSX2x6
 * PPSSPP
 * Project64
 * Raine
+* Sm2-emu
 * Snes9X
 
 </details>

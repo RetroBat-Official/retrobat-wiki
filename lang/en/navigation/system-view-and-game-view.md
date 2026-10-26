@@ -138,7 +138,7 @@ Press START
 
 <div align="left"><figure><img src="https://i.imgur.com/hnXOjYm.png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/y59e6gz.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (181).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Each Theme might have different Gamelist View Styles, just choose the one you like most.
