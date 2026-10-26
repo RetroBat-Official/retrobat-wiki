@@ -180,4 +180,4 @@ Ce dossier contient les fichiers d'origine de RetroBat tels qu'ils sont à l'ins
 
 ## Répertoire "user"
 
-Ce dossier peut être utilisé pour stocker les tattoos, fichiers inputmapping et la clé APIkey Steam.
+Ce dossier peut être utilisé pour stocker les tattoos, fichiers inputmapping, padtokeys et la clé APIkey Steam.

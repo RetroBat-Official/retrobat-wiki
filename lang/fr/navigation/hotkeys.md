@@ -17,9 +17,11 @@ Pour la liste des émulateurs ci-dessous, les hotkeys ont été alignés, avec q
 <summary>Émulateurs avec des hotkeys alignés</summary>
 
 * RetroArch
+* ArcadeDuck
 * Ares (utilise PadToKey)
 * BigPEmu
 * Bizhawk (utilise PadToKey)
+* BlastEM
 * Cgenius (Seulement sauvegarde / chargement savestate) (utilise PadToKey)
 * Citron
 * Demul
@@ -38,9 +40,11 @@ Pour la liste des émulateurs ci-dessous, les hotkeys ont été alignés, avec q
 * Mupen64(RMG)
 * OpenMSX
 * PCSX2
+* PCSX2x6
 * PPSSPP
 * Project64 (utilise PadToKey)
 * Raine (utilise PadToKey)
+* Sm2-emu (utilise padtokey)
 * Snes9X (utilise PadToKey)
 * Sudachi
 * Suyu
@@ -68,9 +72,11 @@ Ci-après la liste des émulateurs permettant la modification des hotkeys :
 <summary>Émulateurs avec hotkeys personnalisables :</summary>
 
 * RetroArch
+* ArcadeDuck
 * Ares
 * BigPEmu
 * Bizhawk
+* Blastem
 * DesMUME
 * Dolphin
 * Duckstation
@@ -80,9 +86,11 @@ Ci-après la liste des émulateurs permettant la modification des hotkeys :
 * MelonDS
 * Mesen
 * PCSX2
+* PCSX2x6
 * PPSSPP
 * Project64
 * Raine
+* Sm2-emu
 * Snes9X
 
 </details>

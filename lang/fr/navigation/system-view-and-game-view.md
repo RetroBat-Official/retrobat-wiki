@@ -111,7 +111,7 @@ La **Vue Jeux** est l'écran à partir duquel il est possible de consulter la li
 
 Pour accéder à la **Vue Jeux**, choisir un système depuis la **Vue Système** et appuyer sur le bouton  ![](<../.gitbook/assets/image (20) (1).png>).
 
-<div align="left"><figure><img src="https://i.imgur.com/6vwwXEL.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (215).png" alt=""><figcaption></figcaption></figure></div>
 
 Naviguer dans la liste des jeux en utilisant la croix directionnel
 
@@ -136,7 +136,7 @@ Aller dans **CONFIGURATION DU THÈME**
 
 Puis régler le **TYPE DE VUE**
 
-<div align="left"><figure><img src="https://i.imgur.com/5gUV54A.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (216).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Chaque Thème propose des types de vue différents.
