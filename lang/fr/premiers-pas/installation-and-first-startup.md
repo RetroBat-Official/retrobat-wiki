@@ -6,71 +6,75 @@ description: C'est parti !
 
 ## Installation
 
-* Télécharger la dernière version de l'installeur sur le [site web Retrobat](https://www.retrobat.org/telechargement/).
-* Exécuter le programme d'installation.
+* Téléchargez la dernière version de l'installeur sur le [site web RetroBat](https://www.retrobat.org/telechargement/).
+* Lancez le programme d'installation et cliquez sur **Suivant**.
 
-<div align="left"><figure><img src="../.gitbook/assets/2026-03-15_11h26_48.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (219).png" alt=""><figcaption></figcaption></figure></div>
 
-* Accepter la licence utilisateur
+* Lisez et acceptez la licence utilisateur, puis cliquez sur **Suivant**.
 
-<div align="left"><figure><img src="../.gitbook/assets/2026-03-15_11h29_58.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (220).png" alt=""><figcaption></figcaption></figure></div>
 
-* Sélectionner les prérequis manquants à installer
+* Sélectionnez les prérequis manquants à installer, puis cliquez sur **Suivant**.
 
 {% hint style="info" %}
-RetroBat détectera automatiquement si ces fichiers sont déjà installés. Si c'est le cas, cette page n’apparaîtra pas.
+L'installeur installe automatiquement les prérequis nécessaires (Visual C++ Redistributables, DirectX). S'ils sont déjà installés, cette page n'apparaît pas.
 {% endhint %}
 
 <div align="left"><figure><img src="../.gitbook/assets/2026-03-15_11h57_45.png" alt=""><figcaption></figcaption></figure></div>
 
-* Sélectionner le dossier d'installation et cliquer sur **Installer**.
+* Choisissez le dossier d'installation et cliquez sur **Installer**.
 
 {% hint style="danger" %}
-Attention: un dossier d'installation trop long (ou dans trop de sous-dossiers) peut poser des problèmes pour certains émulateurs comme libretro:mame.
+**Où installer RetroBat**
 
-Ne pas sélectionner de dossier contenant des espaces ou des caractères spéciaux.
+Installez RetroBat dans un chemin court, à l'intérieur d'un dossier, par exemple `C:\RetroBat` ou `D:\Jeux\RetroBat`.
 
-Ne pas installer RetroBat directement à la racine d'un lecteur (par exemple D:\RetroBat.exe), toujours créer un dossier.
+À éviter :
+
+* L'installation directement à la racine d'un lecteur (les fichiers de RetroBat se retrouveraient mélangés au reste de `D:\`). Créez toujours un dossier.
+* Les espaces, accents ou caractères spéciaux dans le chemin.
+* Les chemins trop longs ou les sous-dossiers trop nombreux : ils posent problème à certains émulateurs (par exemple le core libretro MAME).
+* `C:\Program Files` ou `C:\Program Files (x86)` : Windows y limite l'écriture, les réglages et sauvegardes risquent de ne pas être enregistrés.
+* Les dossiers synchronisés avec OneDrive (Bureau, Documents, Images sont souvent synchronisés par défaut).
 {% endhint %}
 
-<div align="left"><figure><img src="../.gitbook/assets/2026-03-15_11h32_44.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (221).png" alt=""><figcaption></figcaption></figure></div>
 
-* Attendre la fin de l'installation, puis cliquer **Terminer**.
+* Attendez la fin de l'installation, puis cliquez sur **Terminer**.
 
-<div align="left"><figure><img src="../.gitbook/assets/2026-03-15_11h36_40.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (222).png" alt=""><figcaption></figcaption></figure></div>
 
-Le dossier de RetroBat est créé avec la structure suivante:
-
-<div align="left"><figure><img src="../.gitbook/assets/2026-03-15_11h46_07 (1).png" alt=""><figcaption></figcaption></figure></div>
+Pour connaître le rôle de chaque dossier, consultez [Structure du répertoire RetroBat](structure-du-repertoire-retrobat.md).
 
 ## Premier démarrage
 
-Lancer le fichier `RetroBat.exe` ou utiliser le raccourci bureau.
+Double-cliquez sur le fichier `RetroBat.exe` dans votre dossier RetroBat, ou utilisez le raccourci sur le bureau.
 
-Après une courte vidéo d'intro, la **Vue Système** est affichée.
+Après une courte vidéo d'intro, la **Vue Système** s'affiche.
 
-<div align="left"><figure><img src="../.gitbook/assets/2026-03-15_11h47_32.png" alt=""><figcaption></figcaption></figure></div>
-
-{% hint style="info" %}
-Retrobat détecte la langue de l'OS au premier lancement.&#x20;
-
-Les langues suivantes sont reconnues: anglais, français, japonais, espagnol, allemand, italien, néerlandais, portuguais, russe, coréen, chinois, polonais, arabe
-{% endhint %}
-
-Dans la **Vue Système**, la navigation s'effectue à l'aide d'un clavier ou d'une manette de jeu.
-
-Pour une utilisation avec une manette de jeu, si RetroBat ne parvient pas à configurer automatiquement le contrôleur:
-
-* Appuyer sur un bouton, l'écran **CONFIGURER LES MANETTES** apparaît
-
-<div align="left"><figure><img src="https://i.imgur.com/eNTHkgt.png" alt=""><figcaption></figcaption></figure></div>
-
-* Garder un bouton appuyé pour passer à l'écran **CONFIGURATION**.
-
-<div align="left"><figure><img src="https://i.imgur.com/yGkfqEt.png" alt=""><figcaption></figcaption></figure></div>
-
-* Configurer chaque bouton en fonction de la manette de jeu connectée.&#x20;
+<div align="left"><figure><img src="../.gitbook/assets/image (223).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
-Utiliser le bouton **SELECT** comme hotkey.
+Au premier lancement, RetroBat utilise la langue de Windows si elle est prise en charge : anglais, français, japonais, espagnol, allemand, italien, néerlandais, portugais, russe, coréen, chinois, polonais et arabe.
 {% endhint %}
+
+Vous pouvez naviguer au clavier ou à la manette (voir Navigation).
+
+Si votre manette n'est pas configurée automatiquement :
+
+* Appuyez sur un bouton : l'écran **CONFIGURER LES MANETTES** apparaît.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (224).png" alt=""><figcaption></figcaption></figure></div>
+
+* Maintenez un bouton appuyé sur la manette à configurer : l'écran **CONFIGURATION** apparaît
+
+<div align="left"><figure><img src="../.gitbook/assets/image (225).png" alt=""><figcaption></figcaption></figure></div>
+
+* Pour chaque entrée, appuyez sur le bouton correspondant de votre manette. Si votre manette n'a pas ce bouton, maintenez n'importe quel bouton appuyé pour passer à la suite.
+
+{% hint style="info" %}
+Nous recommandons d'utiliser **SELECT** (ou **Back**/**View** sur les manettes Xbox) comme **hotkey**. La hotkey se combine avec d'autres boutons pour déclencher des raccourcis, comme quitter un jeu ou faire une sauvegarde instantanée. Voir Raccourcis.
+{% endhint %}
+
+**Félicitations !** RetroBat est installé et lancé. Étape suivante : Ajouter des jeux.

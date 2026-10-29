@@ -40,12 +40,13 @@ Ce wiki est disponible en français et en anglais. Utilisez le sélecteur de lan
 
 Utilisez le menu de gauche pour parcourir les sections du wiki, ou la barre de recherche en haut de la page pour chercher un sujet précis.
 
-* **Vous débutez avec RetroBat ?** Commencez par la section **Premiers pas** : elle vous guidera pas à pas dans l'installation et la première configuration.
-* **Vous cherchez des informations sur un système précis ?** La section **Systèmes compatibles** détaille pour chaque système les émulateurs disponibles, les BIOS nécessaires et les fonctionnalités spécifiques.
-* **Une question ou un problème de manette ?** Consultez la section **Contrôleurs**.
-* **Vous voulez aller plus loin ?** La section **Utilisation avancée** présente certaines fonctionnalités spécifiques de RetroBat.
+* **Vous débutez avec RetroBat ?** Commencez par la section [**Premiers pas**](https://app.gitbook.com/s/Cgoewyw8Sagl6SNUMrCG/premiers-pas) : elle vous guidera pas à pas dans l'installation et la première configuration.
+* **Vous cherchez des informations sur un système précis ?** La section [**Systèmes compatibles**](https://app.gitbook.com/s/Cgoewyw8Sagl6SNUMrCG/systemes-and-emulateurs) détaille pour chaque système les émulateurs disponibles, les BIOS nécessaires et les fonctionnalités spécifiques.
+* **Une question ou un problème de manette ?** Consultez la section [**Contrôleurs**](https://app.gitbook.com/s/Cgoewyw8Sagl6SNUMrCG/controleurs).
+* **Vous voulez aller plus loin ?** La section [**Utilisation avancée**](https://app.gitbook.com/s/Cgoewyw8Sagl6SNUMrCG/utilisation-avancee) présente certaines fonctionnalités spécifiques de RetroBat.
+* **Comment naviguer ?** Consultez la section [**Navigation**](https://app.gitbook.com/s/Cgoewyw8Sagl6SNUMrCG/navigation) pour les touches, raccourcis et menus.
 
-L'équipe RetroBat propose également des **Tutoriels**, enrichis régulièrement en fonction des demandes d'aide les plus fréquentes.
+L'équipe RetroBat propose également des [**Tutoriels**](https://app.gitbook.com/s/Cgoewyw8Sagl6SNUMrCG/tutoriels), enrichis régulièrement en fonction des demandes d'aide les plus fréquentes.
 
 Si vous ne trouvez pas l'information que vous êtes venu chercher, vous pouvez contacter l'équipe par les canaux suivants :
 

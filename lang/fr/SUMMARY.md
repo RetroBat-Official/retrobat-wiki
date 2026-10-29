@@ -6,10 +6,10 @@
 
 * [Prérequis](premiers-pas/prerequis.md)
 * [Installation & Premier démarrage](premiers-pas/installation-and-first-startup.md)
-* [Structure du répertoire RetroBat](premiers-pas/structure-du-repertoire-retrobat.md)
 * [Ajouter des jeux](premiers-pas/adding-a-game.md)
 * [Démarrer un jeu](premiers-pas/running-a-game.md)
 * [Ajouter les BIOS](premiers-pas/ajouter-les-bios.md)
+* [Structure du répertoire RetroBat](premiers-pas/structure-du-repertoire-retrobat.md)
 
 ## NAVIGATION
 
