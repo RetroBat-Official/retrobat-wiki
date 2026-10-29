@@ -1,4 +1,5 @@
 ---
+description: ... sur la fabuleuse documentation officielle de RetroBat.
 cover: .gitbook/assets/retrobat_logo.png
 coverY: 0
 layout:
@@ -23,46 +24,39 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Bienvenue...
 
-... sur l’impressionnante documentation officielle de RetroBat.
+RetroBat est un logiciel de retrogaming gratuit et prêt à l'emploi pour Windows. Il associe l'interface EmulationStation à une large sélection d'émulateurs, et les configure automatiquement (manettes, affichage, bezels…) pour que vous puissiez jouer en quelques minutes.
 
+Vous pouvez télécharger RetroBat depuis le [site officiel](https://www.retrobat.org/accueil-fr/).
 
+{% hint style="info" %}
+Ce wiki est disponible en français et en anglais. Utilisez le sélecteur de langue en haut de la page pour changer de langue.
+{% endhint %}
 
-Vous pouvez utiliser le menu de gauche pour naviguer sur les différentes catégories du wiki, ou bien utiliser la barre de recherche en haut à droit pour chercher un sujet spécifique.&#x20;
+Utilisez le menu de gauche pour parcourir les sections du wiki, ou la barre de recherche en haut de la page pour chercher un sujet précis.
 
-* Si vous êtes débutant, dirigez-vous vers la section [PREMIERS PAS](https://app.gitbook.com/s/Cgoewyw8Sagl6SNUMrCG/premiers-pas) et laissez-vous guider.
-* Si vous êtes un utilisateur expérimenté et que vous cherchez des informations concernant un système particulier, dirigez-vous vers la section [SYSTÈMES COMPATIBLES](systemes-and-emulateurs/supported-game-systems/). Vous y trouverez toutes les informations nécessaires pour faire fonctionner chaque système (émulateurs, BIOS, fonctionnalités spécifiques...)
-* La section [CONTRÔLEURS](https://app.gitbook.com/s/Cgoewyw8Sagl6SNUMrCG/controleurs) contient toutes les informations nécessaires pour bien configurer vos manettes
-* La section [UTILISATION AVANCÉE](https://app.gitbook.com/s/Cgoewyw8Sagl6SNUMrCG/utilisation-avancee) contient des informations sur certaines fonctionnalités de RetroBat
+* **Vous débutez avec RetroBat ?** Commencez par la section **Premiers pas** : elle vous guidera pas à pas dans l'installation et la première configuration.
+* **Vous cherchez des informations sur un système précis ?** La section **Systèmes compatibles** détaille pour chaque système les émulateurs disponibles, les BIOS nécessaires et les fonctionnalités spécifiques.
+* **Une question ou un problème de manette ?** Consultez la section **Contrôleurs**.
+* **Vous voulez aller plus loin ?** La section **Utilisation avancée** présente certaines fonctionnalités spécifiques de RetroBat.
 
+L'équipe RetroBat propose également des **Tutoriels**, enrichis régulièrement en fonction des demandes d'aide les plus fréquentes.
 
+Si vous ne trouvez pas l'information que vous êtes venu chercher, vous pouvez contacter l'équipe par les canaux suivants :
 
-L'équipe RetroBat a également préparé d'excellents [TUTORIELS](https://app.gitbook.com/s/Cgoewyw8Sagl6SNUMrCG/tutoriels), ceux-ci seront étoffés au fur et à mesure des demandes des utilisateurs.
-
-
-
-Si vous ne trouvez pas l'information que vous êtes venus chercher, vous pouvez contacter l'équipe RetroBat par les canaux suivants:
-
-* [Discord](https://discord.gg/GVcPNxwzuT) officiel
-* [Forum ](https://retrobat.forumgaming.fr/)officiel
-* [FAQ ](https://retrobat.forumgaming.fr/t136-faq-retrobat-wip)officielle
+* [Serveur Discord](https://discord.gg/GVcPNxwzuT) officiel
+* [Forum](https://retrobat.forumgaming.fr/) officiel
+* [FAQ](https://retrobat.forumgaming.fr/t136-faq-retrobat-wip) officielle
 * [Site web](https://www.retrobat.org/accueil-fr/) RetroBat
-* [Github ](https://github.com/RetroBat-Official)officiel
-* [Page Facebook](https://www.facebook.com/groups/531886007636890) officielle
-* [Twitter](https://twitter.com/retrobat_off) officiel
+* RetroBat sur [GitHub](https://github.com/RetroBat-Official)
+* [Groupe Facebook](https://www.facebook.com/groups/531886007636890) officiel
+* [Compte X (Twitter)](https://x.com/retrobat_off) officiel
 
+Enfin, si vous souhaitez soutenir le projet, n'hésitez pas à [faire un don](https://retrobatofficial.itch.io/retrobat) depuis la page de téléchargement. L'argent récolté sert à payer les serveurs et à acheter du matériel de test pour améliorer la compatibilité.
 
-
-Enfin, si vous souhaitez soutenir le projet, n'hésitez-pas à [effectuer un don](https://retrobatofficial.itch.io/retrobat) depuis la page de téléchargement. L'argent récolté est utilisé pour payer les serveurs et pour acheter du matériel de test afin d'améliorer la compatibilité du système.&#x20;
-
-
-
-Le wiki est disponible en anglais et en français.
-
-
-
-Merci!
-
+Merci !
