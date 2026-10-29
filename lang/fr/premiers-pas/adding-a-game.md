@@ -1,77 +1,93 @@
+---
+description: Construire votre ludothèque
+---
+
 # Ajouter des jeux
 
-L'ajout de jeux est un processus très simple.
+L'ajout de jeux est très simple.
+
+{% hint style="warning" %}
+RetroBat ne fournit aucun jeu. Vous devez utiliser vos propres sauvegardes de jeux (ROMs).
+{% endhint %}
 
 ## Ajouter un jeu
 
-Les jeux doivent être placés dans le dossier`\roms\<system>\` correspondant au système de jeu concerné, ils seront détectés et ajoutés à la bibliothèque de jeu lors du prochain démarrage de RetroBat ou en utilisant la fonctionnalité **METTRE A JOUR LA LISTE DE JEUX**.&#x20;
+Placez vos fichiers de jeux (ROMs) dans le dossier du système correspondant, à l'intérieur du dossier `roms` de RetroBat :
 
-<div align="left"><figure><img src="https://i.imgur.com/ayxotgu.png" alt=""><figcaption></figcaption></figure></div>
+`<dossier RetroBat>\roms\<système>\`
+
+Par exemple, un jeu Super Nintendo se place dans `C:\RetroBat\roms\snes\`.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (226).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
-Plus d'information sur les formats de fichiers à utiliser pour chaque systèmes dans la partie du wiki dédiée aux [systèmes compatibles](../systemes-and-emulateurs/supported-game-systems/).
+Le nom du dossier doit correspondre exactement au système (par exemple `snes`, et non `Super Nintendo`). Le nom du dossier et les formats de fichiers acceptés pour chaque système sont indiqués dans la section [Systèmes compatibles](../systemes-and-emulateurs/supported-game-systems/).
+
+Certains systèmes nécessitent aussi des fichiers BIOS pour fonctionner : voir [Ajouter les BIOS](ajouter-les-bios.md).
+
+Pour stocker vos jeux ailleurs (autre disque, NAS…), voir [Liens symboliques](../tutoriels/liens-symboliques.md).
 {% endhint %}
 
-Le système est désormais visible dans la **Vue Système**.
+Les nouveaux jeux sont détectés au prochain démarrage de RetroBat, ou lors de la mise à jour des listes de jeux (**MENU PRINCIPAL** > **PARAMÈTRES DES JEUX** > **METTRE À JOUR LES LISTES DE JEUX**).
 
-<div align="left"><figure><img src="https://i.imgur.com/Koqx1du.png" alt=""><figcaption><p>Vue Système</p></figcaption></figure></div>
+Le système apparaît alors dans la **Vue Système**.
 
-Appuyer sur ![](<../.gitbook/assets/image (20) (1).png>) pour accéder à la liste de jeux dans la **Vue Jeux**
+<div align="left"><figure><img src="../.gitbook/assets/image (227).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/zQA7I0U.png" alt=""><figcaption><p><strong>Vue Jeux</strong></p></figcaption></figure></div>
+Appuyez sur ![](<../.gitbook/assets/image (20) (1).png>) pour afficher la liste des jeux dans la [Vue Jeux](../navigation/system-view-and-game-view.md#vue-jeux).
 
-## Scraper les informations du jeu
+<div align="left"><figure><img src="../.gitbook/assets/image (228).png" alt=""><figcaption></figcaption></figure></div>
 
-La prochaine étape consiste à scraper les informations et les médias du jeu.
+## Scraper les informations des jeux
 
-Le "scrape" peut être effectué pour tous les systèmes (global), par système ou par jeu.
+L'étape suivante consiste à scraper les informations des jeux : votre ludothèque sera bien plus agréable avec des images, des vidéos et des descriptions.
+
+Le scrape peut être effectué pour tous les systèmes (global), par système ou par jeu.
 
 ### Scrape global
 
-Appuyer sur **START** (**ENTREE** sur un clavier) pour afficher le **MENU PRINCIPAL,** puis sélectionner **SCRAPEUR**.
+Appuyez sur **START** (**ENTRÉE** au clavier) pour afficher le **MENU PRINCIPAL**, puis sélectionnez **SCRAPEUR**.
 
-<div align="left"><figure><img src="https://i.imgur.com/r32aLJ2.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (229).png" alt=""><figcaption></figcaption></figure></div>
 
-Configurer les **OPTIONS DU SCRAPEUR** et choisir **SCRAPER MAINTENANT**.
+Configurez les **OPTIONS DU SCRAPEUR**, puis choisissez **SCRAPER MAINTENANT**.
 
-<div align="left"><figure><img src="https://i.imgur.com/g57MAp0.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (230).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
-Pour utiliser le service "ScreenScraper", il est nécessaire de créer un compte sur le site [Screenscraper](https://www.screenscraper.fr/).&#x20;
+Pour utiliser ScreenScraper, nous recommandons de créer un compte gratuit sur le [site ScreenScraper](https://www.screenscraper.fr/), puis de saisir vos identifiants (utilisateur / mot de passe) dans l'onglet **COMPTES**.
 
-Entrer ensuite les identifiants (utilisateur/mot de passe) dans **COMPTES.**
-
-Plus d'information dans la section [Scrape & Metadata](../navigation/scraping-and-metadata.md) du wiki.
+Plus d'informations dans la section [Scrape & Métadonnées](../navigation/scraping-and-metadata.md).
 {% endhint %}
 
-Le message ci-dessous apparaît dans le coin supérieur droit de l'écran, le scrape est en cours.
+Pendant le scrape, le message ci-dessous s'affiche en haut à droite de l'écran.
 
 <div align="left"><figure><img src="https://i.imgur.com/V7ng0Nd.png" alt=""><figcaption><p>Scrape en cours</p></figcaption></figure></div>
 
-Une fois le scrape terminé, mettre à jour les listes de jeux .
+Une fois le scrape terminé, mettez à jour les listes de jeux : appuyez sur **START** (**ENTRÉE** au clavier) pour afficher le Menu Principal, choisissez **PARAMÈTRES DES JEUX**…
 
-Appuyer sur **START** (**ENTREE** sur un clavier) pour afficher le Menu Principal et choisir **PARAMETRES DES JEUX.**
+<div align="left"><figure><img src="../.gitbook/assets/image (231).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/GYcVpVa.png" alt=""><figcaption></figcaption></figure></div>
+… puis **METTRE À JOUR LES LISTES DE JEUX**.
 
-Sélectionner **METTRE A JOUR LES LISTES DE JEUX.**
+<div align="left"><figure><img src="../.gitbook/assets/image (232).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/HlEF6Ic.png" alt=""><figcaption></figcaption></figure></div>
+Les informations des jeux sont désormais affichées dans la Vue Jeux.
 
-Les informations du jeu sont désormais disponibles dans la Vue Jeux.
-
-<div align="left"><figure><img src="https://i.imgur.com/x4GB9Zw.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (233).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Scrape individuel (par jeu)
 
-Pour scraper un jeu individuellement, sélectionner le jeu et rester appuyé sur ![](<../.gitbook/assets/image (20) (1).png>) afin d'afficher le menu du jeu puis choisir **SCRAPER.**
+Pour scraper un seul jeu, sélectionnez-le dans la Vue Jeux et maintenez ![](<../.gitbook/assets/image (20) (1).png>) appuyé pour afficher les Options du jeu, puis choisissez **SCRAPER**.
 
-<div align="left"><figure><img src="https://i.imgur.com/BX2auLe.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (234).png" alt=""><figcaption></figcaption></figure></div>
 
-Une liste des jeux pouvant correspondre est proposée, sélectionner le jeu et confirmer avec le bouton ![](<../.gitbook/assets/image (20) (1).png>).
+Une liste de jeux pouvant correspondre s'affiche. Sélectionnez le bon jeu et confirmez avec ![](<../.gitbook/assets/image (20) (1).png>).
 
 {% hint style="info" %}
-Par défaut, la recherche est effectuée en utilisant le nom du fichier du jeu, il est possible de modifier le nom à utiliser pour la recherche en utilisant l'option **EDITER** en bas de l'écran.
+Par défaut, la recherche utilise le nom du fichier du jeu. Pour chercher avec un autre nom, utilisez l'option **EDITER** en bas de l'écran.
 {% endhint %}
 
-<div align="left"><figure><img src="https://i.imgur.com/8gUSihq.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (235).png" alt=""><figcaption></figcaption></figure></div>
+
+**Félicitations !** Vous avez ajouté vos premiers jeux à RetroBat. Étape suivante : Démarrer un jeu.
