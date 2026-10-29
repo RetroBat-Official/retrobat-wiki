@@ -40,10 +40,11 @@ This wiki is available in English and French. Use the language selector at the t
 
 Use the menu on the left-hand side to browse the sections of the wiki, or the search bar at the top to look for a specific topic.
 
-* **New to RetroBat?** Start with the **Get Started** section: it will guide you through installation and first setup.
-* **Looking for information about a specific system?** The **Supported Game Systems** section lists the available emulators, BIOS requirements and per-system features.
-* **Controller questions or issues?** Check the **Controllers** section.
-* **Want to go further?** The **Advanced Features** section describes specific RetroBat features.
+* **New to RetroBat?** Start with the [**Get Started**](https://app.gitbook.com/s/exdzL60ZuqPLldz2AYta/get-started) section: it will guide you through installation and first setup.
+* **Looking for information about a specific system?** The [**Supported Game Systems**](https://app.gitbook.com/s/exdzL60ZuqPLldz2AYta/systems-and-emulators) section lists the available emulators, BIOS requirements and per-system features.
+* **Controller questions or issues?** Check the [**Controllers**](https://app.gitbook.com/s/exdzL60ZuqPLldz2AYta/controllers) section.
+* **Want to go further?** The [**Advanced Features**](https://app.gitbook.com/s/exdzL60ZuqPLldz2AYta/advanced-features) section describes specific RetroBat features.
+* **How to navigate?** See the [**Navigation**](https://app.gitbook.com/s/exdzL60ZuqPLldz2AYta/navigation) section for keys, hotkeys and menus.
 
 The RetroBat team also provides **Tutorials**, which are regularly expanded based on the most common support requests.
 

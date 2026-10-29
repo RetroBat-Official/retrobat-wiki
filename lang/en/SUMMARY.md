@@ -6,10 +6,10 @@
 
 * [Prerequisites](get-started/prerequisites.md)
 * [Installation & First Startup](get-started/installation-and-first-startup.md)
-* [RetroBat Folder Structure](get-started/retrobat-folder-structure.md)
 * [Adding a game](get-started/adding-a-game.md)
 * [Running a game](get-started/running-a-game.md)
 * [Adding BIOS files](get-started/adding-bios-files.md)
+* [RetroBat Folder Structure](get-started/retrobat-folder-structure.md)
 
 ## NAVIGATION
 
