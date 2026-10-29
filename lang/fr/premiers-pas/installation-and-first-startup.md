@@ -59,7 +59,7 @@ Après une courte vidéo d'intro, la **Vue Système** s'affiche.
 Au premier lancement, RetroBat utilise la langue de Windows si elle est prise en charge : anglais, français, japonais, espagnol, allemand, italien, néerlandais, portugais, russe, coréen, chinois, polonais et arabe.
 {% endhint %}
 
-Vous pouvez naviguer au clavier ou à la manette (voir Navigation).
+Vous pouvez naviguer au clavier ou à la manette (voir [Navigation](../navigation/navigation-keys.md)).
 
 Si votre manette n'est pas configurée automatiquement :
 
