@@ -4,82 +4,90 @@ description: Building your library
 
 # Adding a game
 
-Adding games is a straight-forward process.
+Adding games is a straightforward process.
+
+{% hint style="warning" %}
+RetroBat does not include any games. You must use your own game backups (ROMs).
+{% endhint %}
 
 ## Adding a ROM
 
-Game ROMs need to be placed in the `\roms\<system>\` folder, they will be detected and added to the Game Llibrary when starting Retrobat or when updating the Game List.
+Place your game files (ROMs) in the folder of the corresponding system, inside the `roms` folder of RetroBat:
 
-<div align="left"><figure><img src="https://i.imgur.com/ayxotgu.png" alt=""><figcaption><p>Adding a snes rom</p></figcaption></figure></div>
+`<RetroBat folder>\roms\<system>\`
+
+For example, a Super Nintendo game goes in `C:\RetroBat\roms\snes\`.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (191).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
-More information about ROM format per system in the [Supported Games Systems](../systems-and-emulators/supported-game-systems/) section of the wiki.
+The folder name must match the system exactly (e.g. `snes`, not `Super Nintendo`). The folder name and supported file formats for each system are listed in the [Supported Game Systems](../systems-and-emulators/supported-game-systems/) section.
+
+Some systems also require BIOS files to work: see [Adding BIOS files](adding-bios-files.md).
+
+To keep your games in another location (another drive, a NAS…), see [Symbolic links](../tutorials/symbolic-links.md).
 {% endhint %}
 
-The System will be visible upon restart or upon refreshing the gamelist.
+New games are detected the next time RetroBat starts, or when you update the gamelist (**MAIN MENU** > **GAME SETTINGS** > **UPDATE GAMELIST**).
 
-<div align="left"><figure><img src="https://i.imgur.com/xMDTmYo.png" alt=""><figcaption><p>System View - Super Nintendo system appeared</p></figcaption></figure></div>
+The system then appears in the **System View**.
 
-The game will be visible in the [Game View](../navigation/system-view-and-game-view.md#game-view).
+<div align="left"><figure><img src="../.gitbook/assets/image (192).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/BWIO268.png" alt=""><figcaption><p>Game View</p></figcaption></figure></div>
+Select it to see your games in the [Game View](../navigation/system-view-and-game-view.md#game-view).
 
-## Scraping Game Information
+<div align="left"><figure><img src="../.gitbook/assets/image (193).png" alt=""><figcaption></figcaption></figure></div>
 
-The next step is to scrape game information, your game library will look better with media and information.
+## Scraping game information
+
+The next step is to scrape game information: your library will look much better with pictures, videos and descriptions.
 
 Scraping can be done globally, per system or per game.
 
-### Global Scraping
+### Global scraping
 
-Press **START** (**ENTER** on keyboard) to display the **MAIN MENU** and choose **SCRAPER**.
+Press **START** (**ENTER** on keyboard) to open the **MAIN MENU**, then choose **SCRAPER**.
 
-<div align="left"><figure><img src="https://i.imgur.com/sentTnp.png" alt=""><figcaption><p>SCRAPER</p></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (194).png" alt=""><figcaption></figcaption></figure></div>
 
-Configure **SCRAPER SETTINGS** and select **SCRAPE NOW**.
+Configure the **SCRAPER SETTINGS**, then select **SCRAPE NOW**.
 
-<div align="left"><figure><img src="https://i.imgur.com/I4tXQd6.png" alt=""><figcaption><p>Choose settings and scrape</p></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (195).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
-For ScreenScraper, you need to create an account on the [Screenscraper ](https://www.screenscraper.fr/)website.&#x20;
+To use ScreenScraper, we recommend creating a free account on the [ScreenScraper website](https://www.screenscraper.fr/), then entering your username and password in the **ACCOUNTS** tab.
 
-Then enter your credentials (User/Password) in the **ACCOUNTS** tab.
-
-More details in [Scaping & Metadata](../navigation/scraping-and-metadata.md) section of the wiki.
+More details in the [Scraping & Metadata](../navigation/scraping-and-metadata.md) section.
 {% endhint %}
 
-The following message appears on the top right of the screen, the scraping is in progress.
+While scraping is in progress, the following message is displayed at the top right of the screen.
 
 <div align="left"><figure><img src="https://i.imgur.com/7WXE0GL.png" alt=""><figcaption><p>Scraping in progress</p></figcaption></figure></div>
 
-Once the scraping finalized, refresh the gamelist.
-
-Press **START** (**ENTER** on keyboard) to display the [Main menu](../navigation/main-menu.md) and select **GAME SETTINGS.**
+Once scraping is finished, update the gamelist: press **START** (**ENTER** on keyboard) to open the Main Menu, select **GAME SETTINGS**…
 
 <div align="left"><figure><img src="https://i.imgur.com/X1sumBQ.png" alt=""><figcaption></figcaption></figure></div>
 
-Choose **UPDATE GAMELIST.**
+… then **UPDATE GAMELIST**.
 
 <div align="left"><figure><img src="https://i.imgur.com/B9beKo6.png" alt=""><figcaption></figcaption></figure></div>
 
-Game information is now available in the [Game View](../navigation/system-view-and-game-view.md#game-view)
+Game information is now displayed in the [Game View](../navigation/system-view-and-game-view.md#game-view).
 
-<div align="left"><figure><img src="https://i.imgur.com/FLxoKsS.png" alt=""><figcaption><p>Game information has been added to the database</p></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (196).png" alt=""><figcaption></figcaption></figure></div>
 
-### Per game scraping
+### Per-game scraping
 
-In order to scrape only a single game, select the game and long-press ![](<../.gitbook/assets/image (30).png>) to open the [game options](../navigation/game-options.md).&#x20;
+To scrape a single game, highlight it in the Game View and long-press ![](<../.gitbook/assets/image (30).png>) to open the [Game Options](../navigation/game-options.md), then select **SCRAPE**.
 
-Select **SCRAPE.**
+<div align="left"><figure><img src="../.gitbook/assets/image (197).png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://retrobat.ovh/img/wiki/pVStz39.png" alt=""><figcaption><p>From the game view, highlight a game and long-press SOUTH button</p></figcaption></figure>
-
-A list of possible matches is displayed, select the appropriate game and confirm with ![](<../.gitbook/assets/image (30).png>).
+A list of possible matches is displayed. Select the right game and confirm with ![](<../.gitbook/assets/image (30).png>).
 
 {% hint style="info" %}
-The default search string is based on the ROM filename, to change the search string use the **INPUT** button at the bottom.
+The search is based on the ROM file name by default. To search with another name, use the **INPUT** button at the bottom of the screen.
 {% endhint %}
 
-<div align="left"><figure><img src="https://i.imgur.com/9A5xutf.png" alt=""><figcaption><p>Select the right game or press INPUT to enter the game name manually</p></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (198).png" alt=""><figcaption></figcaption></figure></div>
 
-CONGRATULATIONS : you have added your first games to Retrobat !
+**Congratulations!** You have added your first games to RetroBat. Next step: Running a game.
