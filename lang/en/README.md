@@ -1,4 +1,5 @@
 ---
+description: ... to the fabulous official RetroBat documentation!
 cover: .gitbook/assets/retrobat_logo.png
 coverY: 0
 layout:
@@ -23,46 +24,40 @@ layout:
     visible: true
   actions:
     visible: true
+  anchors:
+    visible: true
 ---
 
 # Welcome...
 
-... to the fabulous official documentation for RetroBat.
+RetroBat is a free, ready-to-use retro gaming software for Windows. It combines the EmulationStation interface with a large selection of emulators, and automatically configures them (controllers, display, bezels…) so you can start playing in a few minutes.
 
+You can download RetroBat from the [official website](https://www.retrobat.org).
 
+{% hint style="info" %}
+This wiki is available in English and French. Use the language selector at the top of the page to switch.
+{% endhint %}
 
-You can use the main menu on the left hand side to navigate through the sections of the wiki, or the search bar on the top to search for a specific topic.
+Use the menu on the left-hand side to browse the sections of the wiki, or the search bar at the top to look for a specific topic.
 
-* If you are a beginner with RetroBat, you can head to the [GET STARTED](get-started/prerequisites.md) section and let it guide you through the installation and first setup steps.
-* If you are an advanced user and you are looking for information about a specific Game System, you can head over to the [SUPPORTED GAME SYSTEMS](systems-and-emulators/supported-game-systems/) section, which will provide information about available emulators, BIOS requirements and detailed per-system features.
-* The [CONTROLLER](https://app.gitbook.com/s/exdzL60ZuqPLldz2AYta/controllers) section is where you have to look for any question related with controls issues
-* The [ADVANCED FEATURES](https://app.gitbook.com/s/exdzL60ZuqPLldz2AYta/advanced-features) section contains information about specific functionalities provided with RetroBat
+* **New to RetroBat?** Start with the **Get Started** section: it will guide you through installation and first setup.
+* **Looking for information about a specific system?** The **Supported Game Systems** section lists the available emulators, BIOS requirements and per-system features.
+* **Controller questions or issues?** Check the **Controllers** section.
+* **Want to go further?** The **Advanced Features** section describes specific RetroBat features.
 
+The RetroBat team also provides **Tutorials**, which are regularly expanded based on the most common support requests.
 
+If you cannot find what you are looking for, you can reach the team through the following channels:
 
-The RetroBat team has also included some specific [TUTORIALS](https://app.gitbook.com/s/exdzL60ZuqPLldz2AYta/tutorials) that will be enhanced by the Team based on common support requirements.
-
-
-
-If the information you are looking for does not exist (yet), you can reach out to the Team through the following channels:
-
-* Official [Discord channel](https://discord.gg/GVcPNxwzuT)
+* Official [Discord server](https://discord.gg/GVcPNxwzuT)
 * Official [Forum](https://retrobat.forumgaming.fr/)
 * Official [FAQ](https://retrobat.forumgaming.fr/t135-faq-retrobat-wip)
 * RetroBat [website](https://www.retrobat.org)
-* RetroBat [Github](https://github.com/RetroBat-Official)
-* Official [Facebook page](https://www.facebook.com/groups/531886007636890)
-* Official [Twitter feed](https://twitter.com/retrobat_off)
+* RetroBat on [GitHub](https://github.com/RetroBat-Official)
+* Official [Facebook group](https://www.facebook.com/groups/531886007636890)
+* Official [X (Twitter) account](https://x.com/retrobat_off)
 
-
-
-If you want to support the project, [please consider a donation](https://retrobatofficial.itch.io/retrobat), this will help us pay for the server infrastructure and get additional hardware for further compatibility.&#x20;
-
-
-
-The wiki is available in english and french languages
-
-
+If you want to support the project, [please consider making a donation](https://retrobatofficial.itch.io/retrobat). It helps us pay for the server infrastructure and buy additional hardware to improve compatibility.
 
 Thank you!
 
