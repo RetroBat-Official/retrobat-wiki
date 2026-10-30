@@ -130,7 +130,7 @@ Attendre la fin de l'installation du jeu, le jeu est désormais listé dans l'é
 
 <div align="left"><figure><img src="https://i.imgur.com/rG2IJvR.png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/9ygBgJP.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/9ygBgJP.png" alt=""><figcaption></figcaption></figure></div>
 
 Effectuer un clic droit sur le jeu et choisir "Dossier du jeu"
 
@@ -138,7 +138,7 @@ Effectuer un clic droit sur le jeu et choisir "Dossier du jeu"
 
 L'explorateur windows ouvre le répertoire du jeu dans lequel se trouve le fichier .rpx
 
-<div align="left"><figure><img src="https://i.imgur.com/EN9JEKf.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/EN9JEKf.png" alt=""><figcaption></figcaption></figure></div>
 
 Quitter Cemu et ouvrir le dossier `\roms\wiiu`, puis créer un fichier `<nom du jeu>.m3u` dont le contenu est le suivant:
 
@@ -146,7 +146,7 @@ Quitter Cemu et ouvrir le dossier `\roms\wiiu`, puis créer un fichier `<nom du 
 
 Par exemple pour le jeu Zelda Breath of the Wild:
 
-<div align="left"><figure><img src="https://i.imgur.com/UWMM1eX.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/UWMM1eX.png" alt=""><figcaption></figcaption></figure></div>
 
 Sauvegarder le fichier .m3u, le jeu est désormais disponible dans Retrobat et peut être scrapé et lancé.
 
@@ -156,7 +156,7 @@ Cette méthode simule la présence d'une cartouche de jeu WiiU.&#x20;
 
 Placer le dossier au format "BootLoader" dans le répertoire `\roms\wiiu`&#x20;
 
-<div align="left"><figure><img src="https://i.imgur.com/8BsrI9F.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/8BsrI9F.png" alt=""><figcaption></figcaption></figure></div>
 
 Le jeu sera disponible dans Retrobat pour être scrapé et lancé.
 
@@ -198,7 +198,7 @@ Procéder comme suit pour utiliser les packs graphiques.
 
 * Ouvrir CEMU et sélectionner "Options > Packs graphiques":
 
-<div align="left"><figure><img src="https://i.imgur.com/YyvoMHd.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/YyvoMHd.png" alt=""><figcaption></figcaption></figure></div>
 
 * Cliquer sur "Télécharger les derniers packs graphiques de la communauté" (coin bas droit de l'écran)
 
@@ -208,7 +208,7 @@ Attendre la fin du téléchargement.
 
 * Consulter la liste des options disponibles pour votre jeu et activer les options nécessaires
 
-<div align="left"><figure><img src="https://i.imgur.com/cmwdS6m.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/cmwdS6m.png" alt=""><figcaption></figcaption></figure></div>
 
 Dans cet exemple, l'option sélectionnée "Title Screen Crash Fix" est indispensable pour éviter un crash à l'écran titre du jeu "New Super Mario Bros WiiU"
 

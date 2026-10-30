@@ -107,7 +107,7 @@ Depuis le menu de configuration du système,
 
 Sélectionner le sous-menu **DRIVERS** dans la catégorie **ADVANCED SETTINGS** :
 
-<div align="left"><figure><img src="https://i.imgur.com/A45rj72.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/A45rj72.png" alt=""><figcaption></figcaption></figure></div>
 
 
 
@@ -117,7 +117,7 @@ Puis modifier l'option **VIDEO** en "VULKAN" :
 
 Lors du lancementdu jeu, RetroBat va automatiquement définir la valeur suivante dans le fichier de configuration de Duckstation avant de démarrer le jeu :
 
-<div align="left"><figure><img src="https://i.imgur.com/yYUfic3.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/yYUfic3.png" alt=""><figcaption></figcaption></figure></div>
 
 Et voilà !
 

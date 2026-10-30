@@ -109,7 +109,7 @@ Ces jeux nécessitent deux fichiers pour fonctionner correctement: un fichier de
 \
 Le fichier ROM au format zip doit être placé dans le dossier `\roms\gameandwatch`.
 
-<div align="left"><figure><img src="https://i.imgur.com/ALEygG9.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/ALEygG9.png" alt=""><figcaption></figcaption></figure></div>
 
 Le fichier artwork (également au format zip) doit être placé dans le dossier `\saves\mame\artwork`, le nom du fichier doit être exactement identique au fichier de jeu ROM.
 

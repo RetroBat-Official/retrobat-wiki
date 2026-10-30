@@ -52,11 +52,11 @@ Par défaut, hatari.exe sauvegarde la configuration dans les dossiers utilisateu
 
 Le coeur libretro Hatari-B permet de charger une image disque dur au format "gemdos", pour cela le fichier de jeu doit être un dossier d'image de disque:
 
-<div align="left"><figure><img src="https://i.imgur.com/RscLeZw.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/RscLeZw.png" alt=""><figcaption></figcaption></figure></div>
 
 Ensuite,créer dans le même dossier un fichier texte vide du même nom que le dossier gemdos, puis sauvegarder le fichier avec l'extension .GEM:
 
-<div align="left"><figure><img src="https://i.imgur.com/VAu6Ce9.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/VAu6Ce9.png" alt=""><figcaption></figcaption></figure></div>
 
 Il est également possible d'automatiquement lancer un programme se trouvant sur le disque dur qui a été monté.
 
@@ -71,7 +71,7 @@ Pour cela, créer un fichier texte nommé de la même façon que le dossier gemd
 
 Enfin: sauvegarder le fichier avec l'extension ".m3u", dans le même dossier que le gemdos:
 
-<div align="left"><figure><img src="https://i.imgur.com/03PB7np.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/03PB7np.png" alt=""><figcaption></figcaption></figure></div>
 
 Dans l'exemple ci-dessus, RetroBat va automatiquement:
 

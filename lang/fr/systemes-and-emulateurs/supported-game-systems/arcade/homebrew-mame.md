@@ -4,11 +4,7 @@ description: MAME Team
 
 # HomeBrew MAME
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/hbmame.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/hbmame.svg" alt=""><figcaption></figcaption></figure></div>
 
 **HBMAME** (HomeBrew MAME) est un dérivé de MAME 0.245 qui permet de lancer plusieurs hacks et homebrews.
 
@@ -36,11 +32,7 @@ Or, RetroBat et Mame ne supportent pas les roms de type "merged", il est donc n�
 
 L'exemple ci-dessous est réalisé avec le hack "Arrange v1.1" du jeu DoDonPachi:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/5Zh2T6D.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/5Zh2T6D.png" alt=""><figcaption></figcaption></figure></div>
 
 #### Etape 1: vérifier la rom de jeu
 
@@ -56,25 +48,13 @@ Placer le zip que vous possédez (jeu + hacks) dans le dossier `\roms\hbmame` de
 
 Ouvrir l'archive et extraire de l'archive le hack que vous souhaitez lancer depuis RetroBat (`ddonpacha` dans notre exemple):
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/uPE1ZDY.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/uPE1ZDY.png" alt=""><figcaption></figcaption></figure></div>
 
 Une fois extrait, placez-vous dans le dossier `ddonpacha` et créez un fichier zip avec le contenu du dossier (le zip doit avoir le nom officiel du hack, comme illustré dans HBMame):
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/QiLS3QV.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/QiLS3QV.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/dmRocxJ.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/dmRocxJ.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="danger" %}
 Assurez-vous que le zip contienne directement le contenu du hack du jeu, sans dossier intermédiaire.
@@ -84,19 +64,11 @@ Assurez-vous que le zip contienne directement le contenu du hack du jeu, sans do
 
 Les 2 roms apparaîssent désormais dans RetroBat: le jeu principal (ddonpach) et le hack (ddonpacha).
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/hVLvQ5N.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/hVLvQ5N.png" alt=""><figcaption></figcaption></figure></div>
 
 Il est possible de lancer le hack du jeu directement depuis RetroBat avec le core Mame ou l'émulateur Mame standalone:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/ERVSQi8.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/ERVSQi8.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Version du romset&#x20;
 

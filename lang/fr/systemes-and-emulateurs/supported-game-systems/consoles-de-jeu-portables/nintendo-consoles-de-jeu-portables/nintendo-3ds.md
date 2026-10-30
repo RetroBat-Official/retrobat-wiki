@@ -87,7 +87,7 @@ Exemple de jeu installé dans la NAND:
 
 Créer un raccourci en cliquant avec le bouton droit sur le jeu depuis l'émulateur:
 
-<div align="left"><figure><img src="https://i.imgur.com/rTA8IEw.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/rTA8IEw.png" alt=""><figcaption></figcaption></figure></div>
 
 Depuis le bureau Windows, effectuer un clic droit > propriétés, puis copier le contenu du raccourci dans un fichier .txt (ne garder que la dernière partie du chemin de l'application, sans les ""):
 
@@ -95,7 +95,7 @@ Depuis le bureau Windows, effectuer un clic droit > propriétés, puis copier le
 
 Sauvegarder le fichier avec l'extension .m3u et le placer dans roms\3ds:
 
-<div align="left"><figure><img src="https://i.imgur.com/g2xUhcm.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/g2xUhcm.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Textures personnalisées
 

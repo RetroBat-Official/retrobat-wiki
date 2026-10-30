@@ -55,13 +55,13 @@ Pour cela, il est nécessaire de disposer d'un fichier "nand" de la console et d
 
 #### Exemple d'un fichier "NAND":
 
-<div align="left"><figure><img src="https://i.imgur.com/gzpnw8S.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/gzpnw8S.png" alt=""><figcaption></figcaption></figure></div>
 
 Lors du lancement depuis RetroBat, l'émulateur charge directement le menu de la console:
 
 <div align="left"><figure><img src="https://i.imgur.com/m2XG9ZQ.png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/CUHgynR.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/CUHgynR.png" alt=""><figcaption></figcaption></figure></div>
 
 <div align="left"><figure><img src="https://i.imgur.com/sPQNh6q.png" alt=""><figcaption></figcaption></figure></div>
 
@@ -76,7 +76,7 @@ Seul l'émulateur melonDS permet de modifier un fichier "nand" en ajoutant ou su
 * Exécuter melonDS (`emulators\melonds`)
 * Naviguer dans config > emu settings, puis dans l'onglet DSi-mode :
 
-<div align="left"><figure><img src="https://i.imgur.com/KlcN2nS.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/KlcN2nS.png" alt=""><figcaption></figcaption></figure></div>
 
 * Cliquer sur "Browse..." et sélectionner le chemin vers le fichier "nand" à modifier, puis cliquer sur "OK"
 * Fermer le menu et naviguer vers system > Manage DSi titles
@@ -85,7 +85,7 @@ Seul l'émulateur melonDS permet de modifier un fichier "nand" en ajoutant ou su
 
 * Dans le prochain écran, il est possible de supprimer ou d'ajouter des titres sur la "nand"
 
-<div align="left"><figure><img src="https://i.imgur.com/1Y5RUtd.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/1Y5RUtd.png" alt=""><figcaption></figcaption></figure></div>
 
 * Presser "import title..." puis, dans l'écran suivant, sélectionner le jeu à installer sur la "nand"
 

@@ -33,4 +33,4 @@ Pour faire fonctionner les jeux, les fichiers suivants sont nécessaires:
 
 #### Exemple d'un jeu fonctionnel:
 
-<div align="left"><figure><img src="https://i.imgur.com/xx9L9Mn.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/xx9L9Mn.png" alt=""><figcaption></figcaption></figure></div>

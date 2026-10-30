@@ -120,9 +120,9 @@ Naviguer dans la liste des jeux en utilisant la croix directionnel
 
 Il existe plusieurs "types" d'affichage pour la liste de jeux, les différentes options sont disponibles depuis les [Options d'Affichage](view-options.md) (touche **SELECT**):
 
-<div align="left"><figure><img src="https://i.imgur.com/89kbPN6.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/89kbPN6.png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/9uFC0BC.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/9uFC0BC.png" alt=""><figcaption></figcaption></figure></div>
 
 La valeur **AUTOMATIQUE** correspond au type de vue défini dans [**MENU PRINCIPAL**](main-menu.md) > PARAMÈTRES D'AFFICHAGE > CONFIGURATION DU THÈME.
 

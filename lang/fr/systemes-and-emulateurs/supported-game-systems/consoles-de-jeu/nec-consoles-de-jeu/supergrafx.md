@@ -41,7 +41,7 @@ A placer dans `emulators\magicengine\cards`
 
 Libretro-mednafen\_supergrafx et mesen permettent d'activer/désactiver le Gamepad 6-boutons avec l'option ci-dessous:
 
-<div align="left"><figure><img src="https://i.imgur.com/pbQFZnS.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/pbQFZnS.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Schémas de contrôles
 

@@ -60,7 +60,7 @@ Les émulateurs Neo-Geo ont tous des schémas de contrôles différents qui dép
 
 La combinaison de touches ![](<../../../../.gitbook/assets/image (33).png>) + ![](<../../../../.gitbook/assets/image (20) (1).png>) + ![](<../../../../.gitbook/assets/image (7) (1).png>) , lorsque utilisée au démarrage, permet d'accéder aux paramètres du BIOS universel:
 
-<div align="left"><figure><img src="https://i.imgur.com/zdbCnw5.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/zdbCnw5.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Accéder au menu "in-game"
 

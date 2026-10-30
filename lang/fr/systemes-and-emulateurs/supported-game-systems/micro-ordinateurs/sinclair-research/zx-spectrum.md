@@ -36,7 +36,7 @@ Pour une meilleure expérience de jeu, utilisez les règlages suivants:
 
 * Pour les jeux se jouant avec une manette: dans les [options avancées du système ou du jeu](../../../../navigation/view-options.md#configuration-avancee-du-systeme), configurez les joueurs 1 et 2 pour utiliser un joystick, et sélectionner l'option "**JOYSTICK ONLY**".&#x20;
 
-<div align="left"><figure><img src="https://i.imgur.com/jcvR7EB.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/jcvR7EB.png" alt=""><figcaption></figcaption></figure></div>
 
 * Pour les jeux au clavier: sélectionnez l'option "KEYBOARD ONLY"
 

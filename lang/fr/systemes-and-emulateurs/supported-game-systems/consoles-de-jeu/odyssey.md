@@ -91,7 +91,7 @@ Le clavier est mappé avec le clavier, voici la correspondance pour les manettes
 | L1                                                 |          |
 | R1                                                 |          |
 
-<div align="left"><figure><img src="https://i.imgur.com/1eW9xUn.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/1eW9xUn.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Information spécifique au système
 

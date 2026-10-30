@@ -137,8 +137,8 @@ Aller dans **Options de coeur**:
 
 Puis choisir **DIP SWITCHES**:
 
-<div align="left"><figure><img src="https://i.imgur.com/NQ7DlYZ.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/NQ7DlYZ.png" alt=""><figcaption></figcaption></figure></div>
 
 La liste des "switchs" disponibles est affichée:
 
-<div align="left"><figure><img src="https://i.imgur.com/qy7ldAL.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/qy7ldAL.png" alt=""><figcaption></figcaption></figure></div>

@@ -74,7 +74,7 @@ Naviguez jusqu'a l'emplacement du fichier **SYM.ROM** qui doit être placé dans
 
 Cliquez sur "installer" :
 
-<div align="left"><figure><img src="https://i.imgur.com/tI2Pcds.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/tI2Pcds.png" alt=""><figcaption></figcaption></figure></div>
 
 Vous pouvez désormais quitter l'émulateur.
 
@@ -108,7 +108,7 @@ Une fois le jeu installé, récupérer l'"Application Name" dans l'émulateur:
 
 Enfin, créer un fichier .txt et y copier le nom exact de l'application:
 
-<div align="left"><figure><img src="https://i.imgur.com/9YkL68x.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/9YkL68x.png" alt=""><figcaption></figcaption></figure></div>
 
 Sauvegarder le fichier avec l'extension `.symbian` dans le dossier `roms\ngage`.
 

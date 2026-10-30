@@ -63,7 +63,7 @@ Il est possible de masquer l'affichage du fichier zip depuis les [**OPTIONS D'AF
 
 Pour cela appuyer sur **SELECT**
 
-<div align="left"><figure><img src="https://i.imgur.com/Orvrz9Z.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/Orvrz9Z.png" alt=""><figcaption></figcaption></figure></div>
 
 Sélectionner [**PERSONNALISER LA VUE**](../../../navigation/view-options.md#options-daffichage) puis EXTENSIONS
 

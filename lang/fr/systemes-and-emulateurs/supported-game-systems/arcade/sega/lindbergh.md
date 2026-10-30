@@ -111,7 +111,7 @@ Les jeux peuvent être ajoutés :
 
 * En renommant le dossier contenant le jeu avec l'extension .game
 
-<div align="left"><figure><img src="https://i.imgur.com/7F2uDqQ.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/7F2uDqQ.png" alt=""><figcaption></figcaption></figure></div>
 
 * En créant un fichier .game a côté du fichier elf de démarrage
 

@@ -4,11 +4,7 @@ description: Sony
 
 # PlayStation Portable
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/psp.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/psp.svg" alt=""><figcaption></figcaption></figure></div>
 
 Console de jeu portable - Durée de vie: 2004 - 2014
 
@@ -28,11 +24,7 @@ Aucun BIOS nécessaire.
 
 ## Contrôles
 
-<div align="left">
-
-<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/psp.png?raw=true" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/psp.png?raw=true" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
 Avec l'émulateur PPSSPP, si vous connectez une manette XInput, les manettes non-XInput ne sont pas utilisables dans l'émulateur.
@@ -60,20 +52,8 @@ Les packs de textures "custom" doivent être placés dans le dossier:
 
 Pour activer les textures "customs" dans Retrobat aller dans la [CONFIGURATION AVANCEE DU SYSTEME](../../../../navigation/view-options.md#configuration-avancees-du-systeme) :
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/ppkZ9bw.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/ppkZ9bw.png" alt=""><figcaption></figcaption></figure>
+<div align="left"><figure><img src="https://i.imgur.com/a2L91jh.png" alt=""><figcaption></figcaption></figure></div>
 
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/a2L91jh.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/lrKiiv4.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/lrKiiv4.png" alt=""><figcaption></figcaption></figure></div>

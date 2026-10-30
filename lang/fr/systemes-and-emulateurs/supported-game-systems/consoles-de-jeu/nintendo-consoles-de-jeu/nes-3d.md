@@ -48,25 +48,17 @@ La liste des jeux compatibles avec 3DSen est limitée, chaque titre compatible e
 
 Pour faire fonctionner les jeux avec l'émulateur, il est nécessaire de placer un fichier .3Dsen dans le dossier `\roms\nes3D`, le contenu du fichier doit être le suivant (en modifiant l'ID pour chaque titre):
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/egozosL.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/egozosL.png" alt=""><figcaption></figcaption></figure></div>
 
 Ensuite, il est nécessaire de lier chaque ROM de jeu avec le titre directement dans l'émulateur  3DSen.
 
 Les ROMs de jeux doivent être disponibles dans le dossier `\roms\nes`.
 
-<figure><img src="https://i.imgur.com/UEfJvcM.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/UEfJvcM.png" alt=""><figcaption></figcaption></figure>
 
 Effectuer un double-clic sur le titre concerné et pointer vers la rom du jeu dans le dossier `\roms\nes`:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/P7Kgbvj.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/P7Kgbvj.png" alt=""><figcaption></figcaption></figure></div>
 
 ### Liste de jeux compatibles et IDs correspondants
 

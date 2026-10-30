@@ -4,11 +4,7 @@ description: Sega
 
 # Dreamcast
 
-<div align="left">
-
-<figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/dreamcast-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/dreamcast.svg" alt=""></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/dreamcast-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/dreamcast.svg" alt=""></picture><figcaption></figcaption></figure></div>
 
 Console de jeu - Durée de vie: 1998 - 2001
 
@@ -44,27 +40,15 @@ dc.zip
 
 ### Schéma par défaut
 
-<div align="left">
-
-<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/dreamcast.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/dreamcast.png?raw=true" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ### Schéma alternatif
 
 Il est possible d'utiliser les boutons "épaules" pour L et R au lieu des gâchettes:
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/lPuYVkJ.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/lPuYVkJ.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/dreamcast_lr.png?raw=true" alt="" width="375"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/dreamcast_lr.png?raw=true" alt="" width="375"><figcaption></figcaption></figure></div>
 
 ## Information spécifique au système
 
@@ -74,19 +58,11 @@ Utiliser un fichier m3u pour gérer les jeux multi-disques.
 
 Ci-dessous un exemple pour le jeu _Alone In The Dark_:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/LUmmLpf.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/LUmmLpf.png" alt=""><figcaption></figcaption></figure></div>
 
 Créer un fichier `Alone in the dark The new nightmare.m3u` contenant les données suivantes et le sauvegarder dans le dossier `/roms/dreamcast`:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/9dQJhD9.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/9dQJhD9.png" alt=""><figcaption></figcaption></figure></div>
 
 Retrobat détecte le fichier m3u et masque automatiquement les fichiers individuels .gdi de la liste des jeux.
 
@@ -96,28 +72,12 @@ Le coeur Flycast permet l'utilisation de packs de textures "custom".
 
 Le pack de textures doit être placé dans le dossier `\bios\dc\textures\`:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/65bX2kT.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/65bX2kT.png" alt=""><figcaption></figcaption></figure></div>
 
 Une fois le pack de textures placé dans le bon dossier, depuis Retrobat activer les **CUSTOM TEXTURES** dans [**CONFIGURATION AVANCEE DU SYSTEME**](../../../../navigation/view-options.md#configuration-avancees-du-systeme) ou dans [**CONFIGURATION AVANCEE DU JEU**](../../../../navigation/game-options.md#configuration-avancee-du-jeu).
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/ppkZ9bw.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/ppkZ9bw.png" alt=""><figcaption></figcaption></figure>
+<div align="left"><figure><img src="../../../../.gitbook/assets/qVMX2Ly.png" alt=""><figcaption></figcaption></figure></div>
 
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/qVMX2Ly.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/SbsPMz1.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/SbsPMz1.png" alt=""><figcaption></figcaption></figure></div>

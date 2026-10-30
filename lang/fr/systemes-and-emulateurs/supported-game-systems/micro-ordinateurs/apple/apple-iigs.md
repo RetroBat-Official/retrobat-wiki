@@ -48,6 +48,6 @@ Utiliser la fonctionnalité [Pad2Key](../../../../controleurs/pad2key.md).
 
 Utiliser un fichier .m3u, ci-dessous un exemple de fichier pour le jeux Silpheed:
 
-<div align="left"><figure><img src="https://i.imgur.com/6dRmeLY.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/6dRmeLY.png" alt=""><figcaption></figcaption></figure></div>
 
 Les fichiers .2mg doivent être dans le même dossier que le fichier .m3u.
