@@ -4,6 +4,8 @@ Once RetroBat is installed, the installation folder contains the following folde
 
 <div align="left"><figure><img src="../.gitbook/assets/image (216).png" alt=""><figcaption></figcaption></figure></div>
 
+<table><thead><tr><th width="187.75">Folder / file</th><th>Content</th></tr></thead><tbody><tr><td><code>bios</code></td><td>BIOS and firmware files</td></tr><tr><td><code>cheats</code></td><td>Cheat files</td></tr><tr><td><code>decorations</code></td><td>Your own bezels</td></tr><tr><td><code>emulationstation</code></td><td>RetroBat interface (EmulationStation) and its configuration</td></tr><tr><td><code>emulators</code></td><td>Emulators</td></tr><tr><td><code>library</code></td><td>Magazines and manuals</td></tr><tr><td><code>records</code></td><td>Gameplay video recordings</td></tr><tr><td><code>roms</code></td><td>Your games</td></tr><tr><td><code>saves</code></td><td>Game saves and save states</td></tr><tr><td><code>screenshots</code></td><td>Screenshots</td></tr><tr><td><code>sounds</code></td><td>RetroAchievements unlock sounds</td></tr><tr><td><code>system</code></td><td>RetroBat internal files and default assets</td></tr><tr><td><code>user</code></td><td>Your own customization files</td></tr><tr><td><code>RetroBat.exe</code></td><td>Starts RetroBat</td></tr><tr><td><code>retrobat.ini</code></td><td>RetroBat global settings (intro video, autostart, language detection…)</td></tr></tbody></table>
+
 {% hint style="warning" %}
 Folders marked as "internal" below are managed by RetroBat and may be overwritten during updates. Store your own files in the folders intended for them (`decorations`, `user`, etc.).
 {% endhint %}
