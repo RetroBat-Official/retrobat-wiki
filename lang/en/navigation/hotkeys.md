@@ -14,30 +14,30 @@ The RetroBat team has defined a common set of hotkeys, so that the same shortcut
 
 Controller buttons are named by their position: **South** = B (Nintendo) / ✕ (PlayStation) / A (Xbox), **East** = A / ◯ / B, **West** = Y / ▢ / X, **North** = X / △ / Y.
 
-| Action                                               | Controller                   | Keyboard                       |
-| ---------------------------------------------------- | ---------------------------- | ------------------------------ |
-| Quit the game                                        | HOTKEY + START               | `Esc`                          |
-| [Game Control Center](game-control-center.md)        | HOTKEY + East                | `Ctrl` + `F12`                 |
-| Emulator menu (or pause if the emulator has no menu) | HOTKEY + South               | `F1`                           |
-| Save state                                           | HOTKEY + West                | `F2`                           |
-| Load state                                           | HOTKEY + North               | `F4`                           |
-| Previous save state slot                             | HOTKEY + D-pad down          | `F6`                           |
-| Next save state slot                                 | HOTKEY + D-pad up            | `F7`                           |
-| Rewind                                               | HOTKEY + D-pad left          | `Backspace`                    |
-| Fast forward (hold)                                  | HOTKEY + D-pad right         | `L`                            |
-| Fast forward (toggle)                                | (\*)                         | `Space`                        |
-| Screenshot                                           | HOTKEY + R3                  | `F8`                           |
-| Eject / insert disc                                  | HOTKEY + L1                  |                                |
-| Previous disc                                        | HOTKEY + L2                  | `F9`                           |
-| Next disc                                            | HOTKEY + R2                  | `F10`                          |
-| AI translation service                               | HOTKEY + R1                  |                                |
-| Pause or toggle fullscreen (depends on the emulator) | HOTKEY + L3 (RetroArch only) | `P` (pause) / `F` (fullscreen) |
-| Toggle fullscreen                                    |                              | `F`                            |
-| Frame advance                                        |                              | `K`                            |
-| Next / previous shader                               |                              | `M` / `N`                      |
-| Mute audio                                           |                              | `O`                            |
-| Capture / release the mouse                          |                              | `F11`                          |
-| Game focus (RetroArch, see below)                    |                              | `Scroll Lock`                  |
+| Action                                               | Controller           | Keyboard                       |
+| ---------------------------------------------------- | -------------------- | ------------------------------ |
+| Quit the game                                        | HOTKEY + START       | `Esc`                          |
+| [Game Control Center](game-control-center.md)        | HOTKEY + East        | `Ctrl` + `F12`                 |
+| Emulator menu (or pause if the emulator has no menu) | HOTKEY + South       | `F1`                           |
+| Save state                                           | HOTKEY + West        | `F2`                           |
+| Load state                                           | HOTKEY + North       | `F4`                           |
+| Previous save state slot                             | HOTKEY + D-pad down  | `F6`                           |
+| Next save state slot                                 | HOTKEY + D-pad up    | `F7`                           |
+| Rewind                                               | HOTKEY + D-pad left  | `Backspace`                    |
+| Fast forward (hold)                                  | HOTKEY + D-pad right | `L`                            |
+| Fast forward (toggle)                                | (\*)                 | `Space`                        |
+| Screenshot                                           | HOTKEY + R3          | `F8`                           |
+| Eject / insert disc                                  | HOTKEY + L1          |                                |
+| Previous disc                                        | HOTKEY + L2          | `F9`                           |
+| Next disc                                            | HOTKEY + R2          | `F10`                          |
+| AI translation service                               | HOTKEY + R1          |                                |
+| Pause or toggle fullscreen (depends on the emulator) | HOTKEY + L3          | `P` (pause) / `F` (fullscreen) |
+| Toggle fullscreen                                    |                      | `F`                            |
+| Frame advance                                        |                      | `K`                            |
+| Next / previous shader                               |                      | `M` / `N`                      |
+| Mute audio                                           |                      | `O`                            |
+| Capture / release the mouse                          |                      | `F11`                          |
+| Game focus (RetroArch, see below)                    |                      | `Scroll Lock`                  |
 
 (\*) The **HOTKEY + D-pad right** fast forward can be switched from "hold" to "toggle" with the fast forward option in the system or game advanced settings.
 
