@@ -1,89 +1,69 @@
 ---
-description: Let's play !
+description: Let's play!
 ---
 
 # Running a game
 
-### Choosing a Game and starting it
+## Starting a game
 
-To run a game, when in the [Game View](../navigation/system-view-and-game-view.md) press the ![](<../.gitbook/assets/image (30).png>) button.
+In the [Game View](../navigation/system-view-and-game-view.md#game-view), highlight a game and press ![](<../.gitbook/assets/image (30).png>).
 
-<div align="left">
+<div align="left"><figure><img src="../.gitbook/assets/image (203).png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/fOt7WB7.png" alt=""><figcaption><p>Highlight the game and press "SOUTH" button</p></figcaption></figure>
+A splash screen is displayed while the emulator starts the game.
 
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/image (200).png" alt=""><figcaption></figcaption></figure></div>
 
-A splash screen appears and the Emulator starts the game.
+<div align="left"><figure><img src="../.gitbook/assets/image (202).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/uwXnAc0.png" alt=""><figcaption><p>Splash screen</p></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/qnYUzgA.png" alt=""><figcaption><p>Game in emulator</p></figcaption></figure>
-
-</div>
-
-Once the gaming session is finished, press HOTKEY + START to close the emulator and return to the [Game View](../navigation/system-view-and-game-view.md#game-view).
-
-
-
-### Choosing the Emulator
-
-Usually, Retrobat defaults to the best & more stable emulator for each system. However, it is possible to change the emulator, either for the whole system or for a specific game.
+When you are done playing, press **HOTKEY + START** to close the emulator and return to the [Game View](../navigation/system-view-and-game-view.md#game-view).
 
 {% hint style="info" %}
-The full list of available emulators per system can be found in the [Supported Game Systems](../systems-and-emulators/supported-game-systems/) section of the wiki.
+The **HOTKEY** is the button you defined when configuring your controller (**SELECT** by default). Other shortcuts are listed on the [Hotkeys page](../navigation/hotkeys.md).
 {% endhint %}
 
-#### How to change the emulator for the System
+{% hint style="warning" %}
+**The game does not start?**
 
-In the Game View, press **SELECT** and go to **ADVANCED SYSTEM OPTIONS**.
+* Check that the system does not require BIOS files: see [Adding BIOS files](adding-bios-files.md).
+* Check that the game format is supported: see [Supported Game Systems](../systems-and-emulators/supported-game-systems/).
+* See also [Known issues & fixes](../tutorials/know-issues-and-fixes.md).
+{% endhint %}
 
-<div align="left">
+## Choosing the emulator
 
-<figure><img src="https://i.imgur.com/G6geY06.png" alt=""><figcaption></figcaption></figure>
+By default, RetroBat uses the best and most stable emulator for each system. You can still change the emulator for a whole system or for a specific game, for example if a game does not run well.
 
-</div>
+{% hint style="info" %}
+The full list of emulators available for each system is in the [Supported Game Systems](../systems-and-emulators/supported-game-systems/) section.
+{% endhint %}
+
+#### Changing the emulator for a system
+
+In the Game View, press **SELECT** to open the **VIEW OPTIONS** menu, then go to **ADVANCED SYSTEM OPTIONS**.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (204).png" alt=""><figcaption></figcaption></figure></div>
 
 Choose **EMULATOR**.
 
-<div align="left">
+<div align="left"><figure><img src="../.gitbook/assets/image (205).png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/ULXh2WR.png" alt=""><figcaption></figcaption></figure>
+Select the emulator in the list.
 
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/image (206).png" alt=""><figcaption></figcaption></figure></div>
 
-Select the Emulator in the list.
+### Changing the emulator for a game
 
-<div align="left">
+In the Game View, highlight a game and long-press ![](<../.gitbook/assets/image (30).png>), then choose **ADVANCED GAME OPTIONS**.
 
-<figure><img src="https://i.imgur.com/8O4TDxI.png" alt=""><figcaption></figcaption></figure>
+<div align="left"><figure><img src="../.gitbook/assets/image (207).png" alt=""><figcaption></figcaption></figure></div>
 
-</div>
+Select **EMULATOR**, then choose the emulator in the list.
 
-#### Changing emulator for a game
-
-From the [Game View](../navigation/system-view-and-game-view.md), highlight a game and long-press ![](<../.gitbook/assets/image (30).png>), choose **ADVANCED GAME OPTIONS**.
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/QB1L9SQ.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-Select the Emulator from the list.
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/nbO3jck.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/image (208).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
-**AUTO** corresponds to the Emulator selected in the system settings if specified for the system or to the first Emulator from the list if the System is set to **AUTO**.
+**AUTO** means the game uses the emulator selected for its system. If the system is also set to **AUTO**, RetroBat uses its default emulator for that system.
 {% endhint %}
+
+Next step: Adding BIOS files.
