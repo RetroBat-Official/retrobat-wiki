@@ -1,150 +1,291 @@
 # Hotkeys
 
-Hotkeys are controller or keyboard shortcuts, that are used to perform several operations while in-game, such as saving game progress (savestate), pausing the game or rewinding,  the more frequent usage will be to quit games/emulators by pressing **HOTKEY** + **START**
-
-The Retrobat team has defaulted keyboard and controller hotkeys for multiple emulators, the default hotkey buttons for Gamepad are the following:
+Hotkeys are controller or keyboard shortcuts used to perform actions while playing: saving or loading your progress (save states), pausing, rewinding, taking a screenshot… The most common one is **HOTKEY + START**, which quits the game and returns to RetroBat.
 
 {% hint style="info" %}
-To trigger a hotkey action, you need to press and hold the "Hotkey enable" button, then press the second button that corresponds to the action to perform.
+**How to use a hotkey on a controller:** press and hold the **HOTKEY** button (the button you defined when configuring your controller, **SELECT** by default), then press the second button of the shortcut.
+
+On the keyboard, shortcuts are single keys (no HOTKEY key needed).
 {% endhint %}
 
-<table><thead><tr><th width="212.5833740234375">Hotkeys (Gamepad)</th><th width="153">Keyboard key</th><th width="372.683349609375">Action</th></tr></thead><tbody><tr><td>Hotkey + <img src="../.gitbook/assets/image (16) (1).png" alt=""></td><td>CTRL+F12</td><td><a href="game-control-center.md">Game Control Center</a></td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (30).png" alt=""></td><td>F1</td><td>Emulator Menu (or Pause if emulator has no menu)</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (50).png" alt=""></td><td>F4</td><td>Load State</td></tr><tr><td>Hotkey + <img src="../.gitbook/assets/image (48).png" alt=""></td><td>F2</td><td>Save State</td></tr><tr><td>Hotkey + START</td><td>Esc</td><td>Quit emulator/game</td></tr><tr><td>Hotkey + L1</td><td>F11</td><td>Eject Disc</td></tr><tr><td>Hotkey + R1</td><td></td><td>AI Translation Service</td></tr><tr><td>Hotkey + L2</td><td>F9</td><td>Select Disc Index -</td></tr><tr><td>Hotkey + R2</td><td>F10</td><td>Select Disc Index +</td></tr><tr><td>Hotkey + D-PAD UP</td><td>F7</td><td>Select Save Slot Index +</td></tr><tr><td>Hotkey + D-PAD DOWN</td><td>F6</td><td>Select Save Slot Index -</td></tr><tr><td>Hotkey + D-PAD LEFT</td><td>Backspace</td><td>Rewind</td></tr><tr><td>Hotkey + D-PAD RIGHT</td><td>Hold: F<br>Toggle: Space</td><td>Fast Forward (can be changed from Hold to Toggle)</td></tr><tr><td>Hotkey + R3 (right stick)</td><td>F8</td><td>Screenshot</td></tr><tr><td></td><td>F</td><td>Toggle fullscreen</td></tr><tr><td></td><td>K</td><td>Frame Advance</td></tr><tr><td>Hotkey + L3</td><td>P</td><td>Pause (if emulator has a menu and Hotkey +<img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""> is used for it) </td></tr></tbody></table>
+## Default hotkeys
 
-The following list of emulators are currently aligned on this shortcut model, with some variations based on emulator capabilities:
+The RetroBat team has defined a common set of hotkeys, so that the same shortcuts work in as many emulators as possible.
+
+Controller buttons are named by their position: **South** = B (Nintendo) / ✕ (PlayStation) / A (Xbox), **East** = A / ◯ / B, **West** = Y / ▢ / X, **North** = X / △ / Y.
+
+| Action                                                                          | Controller                   | Keyboard       |
+| ------------------------------------------------------------------------------- | ---------------------------- | -------------- |
+| Quit the game                                                                   | HOTKEY + START               | `Esc`          |
+| [Game Control Center](https://wiki.retrobat.org/navigation/game-control-center) | HOTKEY + East                | `Ctrl` + `F12` |
+| Emulator menu (or pause if the emulator has no menu)                            | HOTKEY + South               | `F1`           |
+| Save state                                                                      | HOTKEY + West                | `F2`           |
+| Load state                                                                      | HOTKEY + North               | `F4`           |
+| Previous save state slot                                                        | HOTKEY + D-pad down          | `F6`           |
+| Next save state slot                                                            | HOTKEY + D-pad up            | `F7`           |
+| Rewind                                                                          | HOTKEY + D-pad left          | `Backspace`    |
+| Fast forward (hold)                                                             | HOTKEY + D-pad right         | `L`            |
+| Fast forward (toggle)                                                           | (\*)                         | `Space`        |
+| Screenshot                                                                      | HOTKEY + R3                  | `F8`           |
+| Eject / insert disc                                                             | HOTKEY + L1                  |                |
+| Previous disc                                                                   | HOTKEY + L2                  | `F9`           |
+| Next disc                                                                       | HOTKEY + R2                  | `F10`          |
+| AI translation service                                                          | HOTKEY + R1                  |                |
+| Pause                                                                           | HOTKEY + L3 (RetroArch only) | `P`            |
+| Toggle fullscreen                                                               |                              | `F`            |
+| Frame advance                                                                   |                              | `K`            |
+| Next / previous shader                                                          |                              | `M` / `N`      |
+| Mute audio                                                                      |                              | `O`            |
+| Capture / release the mouse                                                     |                              | `F11`          |
+| Game focus (RetroArch, see below)                                               |                              | `Scroll Lock`  |
+
+(\*) The **HOTKEY + D-pad right** fast forward can be switched from "hold" to "toggle" with the fast forward option in the system or game advanced settings.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (223).png" alt=""><figcaption></figcaption></figure></div>
+
+{% hint style="info" %}
+Not all emulators support all these actions: each emulator only gets the actions it can handle.
+{% endhint %}
+
+### Emulators using the default hotkeys
 
 <details>
 
 <summary>Emulators with aligned hotkeys</summary>
 
-* RetroArch
-* ArcadeDuck
-* Ares (uses PadToKey)
-* BigPEmu
-* Bizhawk (uses padToKey)
-* BlastEM
-* Cgenius (only save/load state) (uses Pad2Key)
+Emulators marked with ✏️ can be customized (see Customizing hotkeys).
+
+* RetroArch (all libretro cores) ✏️
+* ArcadeDuck ✏️
+* ares ✏️ (uses PadToKey)
+* Azahar (fullscreen on `F1`)
+* BigPEmu ✏️ (menu, fast forward, rewind, save/load state, screenshot only)
+* BizHawk ✏️ (uses PadToKey)
+* BlastEm ✏️ (uses PadToKey)
+* CGenius ✏️ (save/load state only, uses PadToKey)
 * Citron
 * Demul
-* DesMume (uses Pad2Key)
+* DeSmuME ✏️ (uses PadToKey)
 * Dhewm3
-* Dolphin
-* Duckstation
+* Dolphin ✏️
+* DuckStation ✏️
 * Eden
-* Flycast
+* Flycast ✏️
 * Hatari
-* Jgenesis (uses Pad2Key)
+* Jgenesis ✏️ (uses PadToKey)
 * MAME
-* Mednafen
-* MelonDS (uses Pad2Key)
-* Mesen
-* Mupen64(RMG)
+* Mednafen ✏️
+* melonDS ✏️ (uses PadToKey)
+* Mesen ✏️
+* Model3-Vulkan ✏️ (uses PadToKey)
+* Mupen64 (RMG)
 * OpenMSX
-* PCSX2
-* PCSX2x6
-* PPSSPP
-* Project64 (uses Pad2Key)
-* Raine (uses Pad2Key)
-* Sm2-Emu (uses Pad2Key)
-* Snes9X (uses Pad2Key)
+* PCSX2 / PCSX2x6 ✏️
+* PPSSPP ✏️
+* Project64 ✏️ (uses PadToKey)
+* Raine ✏️ (uses PadToKey)
+* SM2-emu ✏️ (uses PadToKey)
+* Snes9x ✏️ (uses PadToKey)
 * Sudachi
 * Suyu
+* Ymir (quit with `Ctrl` + `Q`)
 * Yuzu
 
 </details>
 
-## Customizing hotkeys
-
-RetroBat offers the ability to modify the default hotkeys assignment for several emulators, both for keyboard and gamepad.
-
-Modifications need to be performed inside a file located in the `\system\resources\inputmapping` folder of your RetroBat installation:
-
-* **kb\_hotkeys.yml** : to modify standard assignment for keyboard
-* **controller\_hotkeys.yml** : to modify standard assignment for controller hotkeys
-
 {% hint style="info" %}
-It is also possible to modify hotkeys only for one emulator, this can be achieved by prefixing the file with the emulator name, for example "`pcsx2_controller_hotkeys.yml`".
+"Uses PadToKey" means that the emulator has no controller shortcuts of its own: RetroBat converts your controller hotkeys into the matching keyboard keys.
 {% endhint %}
 
-The following list of emulators allow modification of hotkeys:
+{% hint style="warning" %}
+**An emulator supports hotkeys but does not follow this model?** Please report it to the RetroBat team on [Discord](https://discord.gg/GVcPNxwzuT) or the [forum](https://retrobat.forumgaming.fr/), so that it can be aligned in a future version.
+{% endhint %}
+
+## Computer systems and keyboard hotkeys
+
+On computer systems (Amiga, Amstrad CPC, Atari ST, Commodore 64, MSX, ZX Spectrum, DOS, PC-98, X68000…), the emulated computer often needs the whole keyboard, including the function keys. Keyboard hotkeys may then conflict with the game, or may be disabled by the emulator.
+
+* **Use your controller hotkeys** (HOTKEY + button) as much as possible: they do not use the keyboard.
+* In **RetroArch**, press `Scroll Lock` to enable **Game Focus**: all keyboard keys are sent to the emulated computer, and keyboard hotkeys are disabled. Press `Scroll Lock` again to get them back.
+* Some standalone emulators use modified shortcuts for these systems (for example `Alt` + key in OpenMSX).
+
+## Customizing hotkeys
+
+RetroBat lets you change the default hotkeys of several emulators, for the keyboard and for the controller, using two files provided in the `system\resources\inputmapping` folder of RetroBat:
+
+* **kb\_hotkeys.yml**: keyboard hotkeys
+* **controller\_hotkeys.yml**: controller hotkeys
 
 <details>
 
-<summary>Emulators with assignable hotkeys</summary>
+<summary>Emulators with customizable hotkeys</summary>
 
-* RetroArch
-* ArcadeDuck
-* Ares
-* BigPEmu
-* Bizhawk
-* BlastEM
-* DesMUME
-* Dolphin
-* Duckstation
-* Flycast
-* JGenesis
-* Mednafen
-* MelonDS
-* Mesen
-* PCSX2
-* PCSX2x6
-* PPSSPP
-* Project64
-* Raine
-* Sm2-emu
-* Snes9X
+ArcadeDuck, ares, BigPEmu, BizHawk, BlastEm, CGenius, DeSmuME, Dolphin, DuckStation, Flycast, Jgenesis, Mednafen, melonDS, Mesen, Model3-Vulkan, PCSX2, PPSSPP, Project64, Raine, RetroArch, SM2-emu, Snes9x.
 
 </details>
 
 {% hint style="warning" %}
-The file uses the RetroArch naming for hotkeys, even for other emulators.
+**Never modify the files in `system\resources\inputmapping`**: they are replaced at each update. Copy them to the `user\inputmapping` folder of RetroBat and modify the copy.
 {% endhint %}
 
-### Remap controller hotkeys <a href="#remap-controller-hotkeys" id="remap-controller-hotkeys"></a>
+### Which file is used?
 
-Copy the file **controller\_hotkeys.yml** to the `\user\inputmapping\` folder of your RetroBat installation.
+You can create a file for all emulators, or a file for one emulator only, by adding the emulator name at the beginning of the file name (for example `pcsx2_controller_hotkeys.yml` or `retroarch_kb_hotkeys.yml`).
 
-Open the file with your preferred text editor:
+RetroBat uses the first file found, in this order:
 
-<div align="left"><figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure></div>
+1. `user\inputmapping\<emulator>_kb_hotkeys.yml` (or `_controller_hotkeys.yml`)
+2. `system\resources\inputmapping\<emulator>_kb_hotkeys.yml`
+3. `user\inputmapping\kb_hotkeys.yml`
+4. `system\resources\inputmapping\kb_hotkeys.yml`
 
-The file is a yml-formatted file, **by default all values are commented**.
+<details>
 
-The first thing to do is to uncomment the actual section where the buttons are defined, as well as the container section, this is done by removing the # character on all lines after the `#default:` line, including the latter:
+<summary>Emulator names to use in file names</summary>
 
-<div align="left"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+`arcadeduck`, `ares`, `bigpemu`, `bizhawk`, `blastem`, `cgenius`, `desmume`, `dolphin`, `duckstation`, `flycast`, `jgenesis`, `mednafen`, `melonds`, `mesen`, `model3-vulkan`, `pcsx2`, `ppsspp`, `project64`, `raine`, `retroarch`, `sm2-emu`, `snes9x`
 
-In this example, we will replace the **fast-forward** and **rewind** hotkeys with R1 and L1 buttons, and move the **disk\_eject** and **ai\_service** to the d-pad:
+</details>
 
-to do this, just assign the **rewind** feature to pageup (L1) and the **hold\_fast\_forward** to pagedown (R1), and then assign the **disk\_eject\_toggle** and **ai\_service** to their respective d-pad buttons (left & right):
+### File structure
 
-<div align="left"><figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+The files are text files in YAML format: open them with any text editor (Notepad, Notepad++…). In the provided files, **all lines are commented** (they start with `#`): they only show the default values.
 
-Now save the file in the `\user\inputmapping` folder of your RetroBat installation:
+Lines are grouped in **containers**:
 
-<div align="left"><figure><img src="../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+* The `default:` container applies to all games.
+* A container named after a **core** (for example `fceumm:` or `flycast:`) only applies to this core. This is useful for emulators with several cores or systems: RetroArch, ares, BizHawk, BlastEm, Jgenesis, Mednafen, Mesen.
+* For RetroArch controller hotkeys, a container can also be named after a **system** (for example `nes:`).
 
-In addition, it is also possible to perform a specific hotkey mapping for a specific core (in case emulators have multiple cores: Ares, Bizhawk, RetroArch...), in this example, the mapping is different between the flycast core, by using toggle instead of hold for fast forward:
+If no container matches the core or the system, the `default` container is used.
 
-<div align="left"><figure><img src="../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+{% hint style="warning" %}
+* Indentation matters: lines inside a container must start with **two spaces**, never with a tab.
+* The action names are always the **RetroArch** names, even for other emulators: RetroBat converts them automatically.
+{% endhint %}
 
-### Remap keyboard hotkeys <a href="#remap-keyboard-hotkeys" id="remap-keyboard-hotkeys"></a>
+### Remap controller hotkeys
 
-Copy the file **kb\_hotkeys.yml** to the `\user\inputmapping\` folder of your RetroBat installation.
+In `controller_hotkeys.yml`, each line is written as `button: action`.
 
-Open the file with your preferred text editor:
+<table><thead><tr><th width="255.25">Button name</th><th>Button</th></tr></thead><tbody><tr><td><code>a</code></td><td>South</td></tr><tr><td><code>x</code></td><td>North</td></tr><tr><td><code>y</code></td><td>West</td></tr><tr><td><code>start</code></td><td>START</td></tr><tr><td><code>pageup</code> / <code>pagedown</code></td><td>L1 / R1</td></tr><tr><td><code>l2</code> / <code>r2</code></td><td>L2 / R2</td></tr><tr><td><code>l3</code> / <code>r3</code></td><td>Left / right stick click</td></tr><tr><td><code>up</code> / <code>down</code> / <code>left</code> / <code>right</code></td><td>D-pad</td></tr></tbody></table>
 
-<div align="left"><figure><img src="../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+{% hint style="info" %}
+The `b` (East) button cannot be used: HOTKEY + East is reserved for the Game Control Center.
+{% endhint %}
 
-The file is a yml-formatted file, **by default all values are commented**.
+| Action name                                   | Action                       |
+| --------------------------------------------- | ---------------------------- |
+| `exit_emulator`                               | Quit the game                |
+| `menu_toggle`                                 | Emulator menu                |
+| `pause_toggle`                                | Pause                        |
+| `save_state` / `load_state`                   | Save / load state            |
+| `state_slot_increase` / `state_slot_decrease` | Next / previous save slot    |
+| `rewind`                                      | Rewind                       |
+| `hold_fast_forward` / `toggle_fast_forward`   | Fast forward (hold / toggle) |
+| `screenshot`                                  | Screenshot                   |
+| `disk_eject_toggle`                           | Eject / insert disc          |
+| `disk_prev` / `disk_next`                     | Previous / next disc         |
+| `ai_service`                                  | AI translation service       |
 
-The first thing to do is to uncomment the actual section where the buttons are defined, as well as the container section, this is done by removing the # character on all lines after the `#default:` line, including the latter:
+**Example:** move **rewind** and **fast forward** to L1 and R1, and move **disc eject** and **AI service** to the D-pad.
 
-<div align="left"><figure><img src="../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+1. Copy `controller_hotkeys.yml` from `system\resources\inputmapping` to `user\inputmapping`.
+2. Open the copy, remove the `#` at the beginning of the `#default:` line and of all the lines of the default container below it.
+3. Change the lines you want:
 
-Now save the file:
+```yaml
+default:
+  start: exit_emulator
+  a: menu_toggle
+  x: load_state
+  y: save_state
+  pageup: rewind
+  pagedown: hold_fast_forward
+  l2: disk_prev
+  r2: disk_next
+  r3: screenshot
+  up: state_slot_increase
+  down: state_slot_decrease
+  left: disk_eject_toggle
+  right: ai_service
+```
 
-<div align="left"><figure><img src="../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+4. Save the file.
 
-In addition, it is also possible to perform a specific hotkey mapping for a specific core (in case emulators have multiple cores: Ares, Bizhawk, RetroArch...), in this example, the mapping is different between the flycast core, by using toggle instead of hold for fast forward:
+{% hint style="warning" %}
+Always keep **all** the shortcuts you want to use in the container, not only the ones you change: for RetroArch, the container replaces the whole default list. For example, `start: exit_emulator` must stay in the list, otherwise HOTKEY + START will no longer quit the game.
+{% endhint %}
 
-<div align="left"><figure><img src="../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+**Example for one core only:** use toggle fast forward instead of hold with the Flycast core, and keep the default container for all other cores:
+
+```yaml
+default:
+  start: exit_emulator
+  a: menu_toggle
+  x: load_state
+  y: save_state
+  pageup: disk_eject_toggle
+  pagedown: ai_service
+  l2: disk_prev
+  r2: disk_next
+  r3: screenshot
+  up: state_slot_increase
+  down: state_slot_decrease
+  left: rewind
+  right: hold_fast_forward
+
+flycast:
+  start: exit_emulator
+  a: menu_toggle
+  x: load_state
+  y: save_state
+  left: rewind
+  right: toggle_fast_forward
+```
+
+{% hint style="info" %}
+**RetroArch only — single-button shortcuts:** adding the `noHotkey: true` line in a container disables the HOTKEY button for the matching cores: each shortcut is then triggered by **its button alone** (for example START alone quits the game). Only use it for systems where these buttons are not used by the games.
+{% endhint %}
+
+### Remap keyboard hotkeys
+
+In `kb_hotkeys.yml`, each line is written the other way round: `action: key`, and action names start with `input_`.
+
+**Example:** save states on `F5` and load states on `F9`.
+
+1. Copy `kb_hotkeys.yml` from `system\resources\inputmapping` to `user\inputmapping`.
+2. Open the copy, remove the `#` at the beginning of the `#default:` line and of all the lines below it.
+3. Change the lines you want:
+
+```yaml
+default:
+  input_menu_toggle: f1
+  input_toggle_fullscreen: f
+  input_hold_fast_forward: l
+  input_rewind: backspace
+  input_toggle_fast_forward: space
+  input_frame_advance: k
+  input_screenshot: f8
+  input_save_state: f5
+  input_load_state: f9
+  input_state_slot_decrease: f6
+  input_state_slot_increase: f7
+  input_pause_toggle: p
+  input_exit_emulator: escape
+  input_shader_next: m
+  input_shader_prev: n
+  input_disk_prev: f3
+  input_disk_next: f10
+  input_game_focus_toggle: scroll_lock
+  input_grab_mouse_toggle: f11
+  input_audio_mute: o
+```
+
+4. Save the file.
+
+{% hint style="info" %}
+* Key names follow the RetroArch naming: `a` to `z`, `f1` to `f12`, `escape`, `enter`, `space`, `backspace`, `tab`, `insert`, `del`, `home`, `end`, `pageup`, `pagedown`, `up`, `down`, `left`, `right`, `scroll_lock`…
+* If a key is not supported by an emulator, its default key is used instead.
+* For emulators that **use PadToKey**, controller hotkeys send the keyboard key: if you change a key in `kb_hotkeys.yml`, the matching controller hotkey follows automatically.
+{% endhint %}
