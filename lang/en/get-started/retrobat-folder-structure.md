@@ -1,88 +1,98 @@
 # RetroBat Folder Structure
 
-Once RetroBat is installed, the RetroBat installation folder contains the following folders & files:
+Once RetroBat is installed, the installation folder contains the following folders and files:
 
-<div align="left"><figure><img src="../.gitbook/assets/image (4) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (216).png" alt=""><figcaption></figcaption></figure></div>
+
+{% hint style="warning" %}
+Folders marked as "internal" below are managed by RetroBat and may be overwritten during updates. Store your own files in the folders intended for them (`decorations`, `user`, etc.).
+{% endhint %}
 
 ## bios folder
 
-This folder is where (with few exceptions) all system bios & firmwares will need to be placed.
-
-More on bios files can be found in each [system individual pages](../systems-and-emulators/supported-game-systems/).
+This is where BIOS and firmware files must be placed for all systems, with a few exceptions.
 
 {% hint style="info" %}
-Except if specified otherwise, bios files can be placed directly at the root of the `bios\` folder.
+Unless specified otherwise, BIOS files go directly at the root of the `bios` folder. Some emulators use their own subfolder (for example `bios\pcsx2\bios`, `bios\dc`, `bios\mame`…): these subfolders are created by the installer.
+
+The required BIOS files and their location are listed on each system's page in the [Supported Game Systems](../systems-and-emulators/supported-game-systems/) section. See also [Adding BIOS files](adding-bios-files.md).
 {% endhint %}
 
 ## cheats folder
 
-This folder is used to store the cheats that some emulators can load when activating the "cheats" feature.
+This folder stores the cheat files used by emulators that support cheats, when the "cheats" feature is enabled. It contains one subfolder per emulator (`retroarch`, `pcsx2`, `duckstation`, `mame`…).
 
 ## decorations folder
 
-This folder comes empty. It can be used to add bezel files to RetroBat, these bezels will be available in RetroBat in addition to the ones provided by default in the  `system\decorations` folder.
+This folder is empty after installation. Use it to add your own bezels: they will be available in RetroBat in addition to the default bezels located in `system\decorations`.
 
 ## emulationstation folder
 
-This folder contains the main executables used for RetroBat interface and for the executable used to configure and run emulators. The structure is the following:
+This folder contains the executables of the RetroBat interface (EmulationStation) and of emulatorLauncher, the program that configures and starts the emulators. The structure is the following:
 
-<div align="left"><figure><img src="https://i.imgur.com/vAXEckR.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (217).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
-RetroBat configuration files (es\_systems.cfg, es\_input.cfg, ...) as well as program logs are located in this folder and its subfolders.
+The RetroBat configuration files (`es_settings.cfg`, `es_input.cfg`, `es_systems.cfg`…) and the log files are located in this folder and its `.emulationstation` subfolder.
 {% endhint %}
 
 ### .emulationstation subfolder
 
 #### collections
 
-Here you will find the file created by ES when you create an [editable game collection](https://wiki.retrobat.org/navigation/game-collections#editable-game-collections). This file, named as the collection created, with a `.cfg` extension, contains the differents games of the created collection, with their paths.
+This folder is created by EmulationStation when you create your first [editable game collection](../navigation/game-collections.md#editable-game-collections). Each collection is stored in a `.cfg` file named after the collection, which lists the games it contains with their paths.
 
 #### music
 
-RetroBat allow the use of `.mp3` ,`.ogg` ,`.wav`and `.flac` audio files, and also some others less used format.\
-A song can be skipped by pushing the left stick`[L3]`button, or from the Quick Access menu. \
-While in the system list, press `[SELECT]` button on your controller to open the Quick Access menu, then choose **SKIP TO THE NEXT SONG**.
+Audio files placed in this folder are played as background music in the interface. RetroBat supports `.mp3`, `.ogg`, `.wav` and `.flac` files, as well as some less common formats.
 
-<figure><img src="https://i.imgur.com/Bg8bGLi.png" alt=""><figcaption></figcaption></figure>
+To skip to the next song, press the left stick (`[L3]`), or use the Quick Access menu: in the System View, press `[SELECT]` and choose **SKIP TO THE NEXT SONG**.
 
-Audio files added in the /music folder will be played randomly.
+<div align="left"><figure><img src="../.gitbook/assets/image (218).png" alt=""><figcaption></figcaption></figure></div>
 
-It is also possible to use per-system folders, in order to play specific music while browsing a particular system. For this, you have to create a folder named exactly as the roms system folder (that you can find in es-systems.cfg), and put audio files in it.
+Songs are played randomly.
 
-NB : enabling the "ONLY PLAY SYSTEM-SPECIFIC MUSIC FOLDER" option allows RetroBat to play all songs located in a system folder (eg. /music/3do/) while browing the games available in this specific system list, but not the songs located in others subfolders.
+You can also play specific music for each system. Create a subfolder named exactly like the system's `roms` folder (for example `music\snes`), and put your audio files in it.
 
-The files that are present in /music/ will be picked up randomly for any system (whether you have system-specific songs option enabled or not).
+* With the **ONLY PLAY SYSTEM-SPECIFIC MUSIC FOLDER** option **enabled**, RetroBat plays the songs of the system you are browsing (for example `music\3do`) and the songs located directly in `music`, but not the songs of other systems.
+* With this option **disabled**, RetroBat randomly plays any song from `music` and all its subfolders.
 
-If you disable "ONLY PLAY SYSTEM-SPECIFIC MUSIC FOLDER", RetroBat will play randomly a song in  /music/ directory and any of its sub-folders.<br>
-
-<figure><img src="https://i.imgur.com/BRoJl1I.png" alt=""><figcaption></figcaption></figure>
+<div align="left"><figure><img src="../.gitbook/assets/image (219).png" alt=""><figcaption></figcaption></figure></div>
 
 #### scripts
 
-EmulationStation supports calling external scripts and executables on certain program events.
+EmulationStation can run your own scripts or programs on certain events. Place them in the subfolder matching the event:
+
+| Subfolder    | Event                                   |
+| ------------ | --------------------------------------- |
+| `game-start` | A game is launched                      |
+| `game-end`   | A game is closed                        |
+| `quit`       | RetroBat is closed                      |
+| `reboot`     | The computer is restarted from RetroBat |
+| `shutdown`   | The computer is shut down from RetroBat |
+| `sleep`      | The computer goes to sleep              |
+| `wake`       | The computer wakes up                   |
 
 #### themes
 
-The themes downloaded with the content downloader are stored in this folder. You can also place themes manually there.
+Themes downloaded with the **CONTENT DOWNLOADER** are stored in this folder. You can also copy themes here manually.
 
 #### themesettings
 
-Here you will find the per-theme settings. When a theme is selected, and customization are done using the theme menu, settings are saved in this folder.
+This folder stores the per-theme settings. When you customize a theme from the theme menu, its settings are saved here, in a `.cfg` file named after the theme.
 
 #### video
 
-In this folder you can place videos to be use as intro ("splash screen"), before RetroBat starts.\
-You can use [BatGui](https://wiki.retrobat.org/advanced-features/batgui#retrobat-ini) to configure these easily.
+Place videos here to use them as intro ("splash screen") before RetroBat starts. You can easily configure the intro videos with [BatGui](../advanced-features/batgui.md) or in [`retrobat.ini`](../advanced-features/retrobat.ini.md).
 
 ## emulators folder
 
-This is the folder where the emulators are installed.
+This folder contains the emulators.
 
-Retroarch is provided by default when installing RetroBat, all other standalone emulators will be downloaded when running a game for the first time or when launching them from the RetroBat menu.
+RetroArch is provided with RetroBat. All other emulators are downloaded automatically the first time you run a game that needs them, or when you start them from the RetroBat system menu.
 
 {% hint style="info" %}
-Some emulators are not automatically provided with RetroBat automatic download capability, the following list of emulators have to be downloaded manually:
+For legal or technical reasons, some emulators cannot be downloaded automatically by RetroBat. You must download them yourself and place them in the matching folder:
 
 * Switch emulators
 * PICO-8
@@ -92,88 +102,107 @@ Some emulators are not automatically provided with RetroBat automatic download c
 
 ## library folder
 
-This folder can be used to store magazines, these will appear in RetroBat in a "Library" system and can be viewed within RetroBat using the **imageviewer** libretro core.
+Use this folder to store magazines or manuals. They appear in RetroBat in a "Library" system and can be read with the **imageviewer** libretro core.
 
 ## records folder
 
-This folder can be used to store the recording files generated by some emulators when using the screen video recording to record the gameplay.
+This folder receives the gameplay videos recorded by emulators that support video recording. The videos are saved in `records\output`, the recording settings in `records\config`.
 
 ## roms folder
 
-This is the folder where the games rom need to be copied, each game has to be placed in the correct system subfolder and must have an extension that is accepted by the emulator.
+This is where you copy your games. Each game must be placed in the folder of its system (for example `roms\snes`) and have a file extension supported by the emulator. These folders are created by the installer.
 
-More information can be found in each [system individual pages](../systems-and-emulators/supported-game-systems/).
+More information on each system's page in the [Supported Game Systems](../systems-and-emulators/supported-game-systems/) section, and in [Adding a game](adding-a-game.md).
 
 ## saves folder
 
-This folder contains game saves, whenever you are using the save function in an emulator to save a game's progress.
+This folder contains your game saves (in-game saves and save states), organized by system, then by emulator (for example `saves\psx\duckstation`).
 
 ## screenshots folder
 
-This folder contains all screenshots one takes during gameplay.
+This folder contains the screenshots taken while playing.
 
 {% hint style="info" %}
-If you notice that a save or a screenshot is not recorded in the right folder, please contact the RetroBat team that will fix it if possible.
+If a save or a screenshot is not stored in the right folder, please report it to the RetroBat team so that it can be fixed.
 {% endhint %}
 
 ## sounds folder
 
-Copy in this folder the .ogg sound files to be used as RetroAchievements unlock sound. They will be picked up by RetroBat and appear as a choice in the Retroachievement sound unlock feature:
+The `sounds\retroachievements` subfolder stores the sounds played when you unlock a RetroAchievement. Files copied there automatically appear as choices in the **UNLOCK SOUND** option of the RetroAchievements settings:
 
-<div align="left"><figure><img src="https://i.imgur.com/Bh6NTTG.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (220).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
-Sound files need to be in .ogg format.
+Sound files must be in `.ogg` format and placed in `sounds\retroachievements`, not at the root of `sounds`.
 {% endhint %}
 
 ## system folder
 
-This folder contains several RetroBat configuration files as well as default "assets" provided with RetroBat (shaders, bezels, ...), the subfolder structure is as follows:
+This folder contains RetroBat configuration files and the default assets provided with RetroBat (bezels, shaders…). The structure is the following:
 
-<div align="left"><figure><img src="https://i.imgur.com/aQODkzO.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (221).png" alt=""><figcaption></figcaption></figure></div>
+
+{% hint style="warning" %}
+The content of this folder is replaced when RetroBat is updated. Do not modify it: use the `user` and `decorations` folders for your own files.
+{% endhint %}
+
+### configgen, download, modules, scripts and tools subfolders
+
+Internal RetroBat files (installation, update and launcher modules, tools used by RetroBat). They do not need to be modified.
 
 ### decorations subfolder
 
-The subfolder contains the standard bezels provided with RetroBat.
+The default bezels provided with RetroBat.
 
 ### es\_menu subfolder
 
-The subfolder contains the different links to the emulators that are used in the "RetroBat" systems.
+The shortcuts to the emulators shown in the "RetroBat" system, which lets you open the emulators directly.
 
 ### loadingscreens subfolder
 
-This subfolder can be used to copy short loading videos (.mp4) that can be played by RetroBat when launching a game (instead of the standard zoom effect on the game image).
+This folder is not created by the installer: create it if you want to play a short video (`.mp4`) when a game is launched, instead of the default zoom effect on the game image.
 
-You can set a video per system by naming the video file with the system name (e.g. gamecube.mp4).\
-\
-Example of loading videos can be found in \system\templates\loadingscreen.
+RetroBat looks for the video in this order, and plays the first one it finds:
+
+| File                                     | Played for            |
+| ---------------------------------------- | --------------------- |
+| `loadingscreens\<system>\<rom name>.mp4` | One specific game     |
+| `loadingscreens\<system>\<system>.mp4`   | All games of a system |
+| `loadingscreens\<system>.mp4`            | All games of a system |
+| `loadingscreens\default.mp4`             | All games             |
+
+For example, `loadingscreens\gamecube.mp4` is played for all GameCube games.
+
+Example videos are provided in `system\templates\loadingscreens`.
 
 ### padtokey subfolder
 
-The subfolder contains the standard [padtokey ](../controllers/pad2key.md#pad2key-file)files provided with RetroBat.
+The default [padtokey](../controllers/pad2key.md) files provided with RetroBat.
 
 ### resources subfolder
 
-The "inputmapping" subfolder contains files used to autoconfigure games for few emulators or specific controller types.
+Resources used by RetroBat. The `inputmapping` subfolder contains the files used to configure controls automatically for some emulators or specific controller types.
 
-<div align="left"><figure><img src="https://i.imgur.com/cxjYSok.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (222).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
-These files will be overriden when upgrading RetroBat, to keep your modified version of inputmapping files, copy them to the `user\inputmapping` subfolder of the installation.
+These files are overwritten when RetroBat is updated. To keep your modified versions, copy them to the `user\inputmapping` folder.
 {% endhint %}
 
 ### shaders subfolder
 
-The subfolder contains the standard shaders provided with RetroBat.
+The default shaders (video filters) provided with RetroBat.
 
 ### tattoos subfolder
 
-The subfolder contains the controller layout images for several systems.
+The default controller layout images ("tattoos") for several systems.
 
 ### templates subfolder
 
-This folder contains all RetroBat template files as they are upon RetroBat installation, if a file has been deleted or altered, the original version of the file can be found here and copied again in the destination folder of the file to replace.
+The original version of RetroBat configuration files, as provided at installation. If a file has been deleted or damaged, you can copy its original version from here to its destination folder.
 
 ## user folder
 
-This folder can be used to store your own tattoos, inputmapping files (for some systems), padtokey files and your steam APIkey.
+This folder stores your own customization files, which are kept when RetroBat is updated:
+
+<table><thead><tr><th width="154">Subfolder</th><th>Content</th></tr></thead><tbody><tr><td><code>apikey</code></td><td>Your Steam API key (<code>steam.apikey</code> file)</td></tr><tr><td><code>customratio</code></td><td>Custom aspect ratios for libretro cores: <code>&#x3C;system>_customratio.txt</code> (whole system) or <code>&#x3C;system>_&#x3C;rom name>_customratio.txt</code> (one game)</td></tr><tr><td><code>inputmapping</code></td><td>Your modified inputmapping files</td></tr><tr><td><code>padtokey</code></td><td>Your own padtokey files</td></tr><tr><td><code>tattoos</code></td><td>Your own controller layout images (<code>default</code> and <code>games</code> subfolders)</td></tr></tbody></table>
