@@ -1,92 +1,92 @@
 # Structure du répertoire RetroBat
 
-Une fois RetroBat installé, le répertoire contient les dossiers et fichiers suivants  :
+Une fois RetroBat installé, le dossier d'installation contient les dossiers et fichiers suivants :
 
-<div align="left"><figure><img src="../.gitbook/assets/2026-03-15_11h46_07.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (258).png" alt=""><figcaption></figcaption></figure></div>
 
-## Répertoire "bios"&#x20;
+<table><thead><tr><th width="210.25">Dossier / fichier</th><th>Contenu</th></tr></thead><tbody><tr><td><code>bios</code></td><td>Fichiers BIOS et firmwares</td></tr><tr><td><code>cheats</code></td><td>Fichiers de triche</td></tr><tr><td><code>decorations</code></td><td>Vos propres décorations (bezels)</td></tr><tr><td><code>emulationstation</code></td><td>Interface de RetroBat (EmulationStation) et sa configuration</td></tr><tr><td><code>emulators</code></td><td>Émulateurs</td></tr><tr><td><code>library</code></td><td>Magazines et manuels</td></tr><tr><td><code>records</code></td><td>Enregistrements vidéo de vos parties</td></tr><tr><td><code>roms</code></td><td>Vos jeux</td></tr><tr><td><code>saves</code></td><td>Sauvegardes et sauvegardes instantanées</td></tr><tr><td><code>screenshots</code></td><td>Captures d'écran</td></tr><tr><td><code>sounds</code></td><td>Sons de déblocage des RetroAchievements</td></tr><tr><td><code>system</code></td><td>Fichiers internes de RetroBat et ressources par défaut</td></tr><tr><td><code>user</code></td><td>Vos fichiers de personnalisation</td></tr><tr><td><code>RetroBat.exe</code></td><td>Lance RetroBat</td></tr><tr><td><code>retrobat.ini</code></td><td>Réglages généraux de RetroBat (vidéo d'intro, démarrage automatique, détection de la langue…)</td></tr></tbody></table>
 
-Ce répertoire est celui où doivent être placés (à de rares exceptions près) les bios et firmware de tous les systèmes.
-
-Vous trouverez plus de précisions sur les fichiers de bios sur chaque [page individuelle de système](https://wiki.retrobat.org/v/francais/systemes-and-emulateurs/supported-game-systems).&#x20;
-
-{% hint style="info" %}
-A part si un emplacement spécifique est précisé, les fichiers de BIOS peuvent être placés directement à la racine du dossier `bios\` .
+{% hint style="warning" %}
+Les dossiers signalés comme « internes » ci-dessous sont gérés par RetroBat et peuvent être écrasés lors des mises à jour. Placez vos propres fichiers dans les dossiers prévus pour cela (`decorations`, `user`, etc.).
 {% endhint %}
 
-## Répertoire "cheats"
+## Dossier « bios »
 
-Ce répertoire est celui destiné à recevoir les fichiers de triche "cheats" pour les émulateurs compatibles. Les cheats peuvent être utilisés en activant l'option "ENABLE CHEATS" des émulateurs compatibles.
-
-## Répertoire "decorations"
-
-Ce répertoire est vide par défaut. Il permet de stocker des fichiers "décorations" (bezels) qui pourront être utilisés ensuite par RetroBat, en supplément des décorations fournies par défaut dans le dossier `system\decorations`.
-
-## Répertoire "emulationstation"
-
-Ce répertoire contient les principaux exécutables utilisés par l'interface EmulationStation de RetroBat ainsi que l'exécutable utilisé pour lancer les émulateurs. La structure est la suivante:
-
-<div align="left"><figure><img src="https://i.imgur.com/vAXEckR.png" alt=""><figcaption></figcaption></figure></div>
+C'est ici que doivent être placés les BIOS et firmwares de tous les systèmes, à quelques exceptions près.
 
 {% hint style="info" %}
-Les fichiers de configuration de RetroBat (es\_systems.cfg, es\_input.cfg, ...) ainsi que les logs se trouvent dans ce dossier et ses sous-dossiers.
+Sauf indication contraire, les fichiers BIOS se placent directement à la racine du dossier `bios`. Certains émulateurs utilisent leur propre sous-dossier (par exemple `bios\pcsx2\bios`, `bios\dc`, `bios\mame`…) : ces sous-dossiers sont créés par l'installeur.
+
+Les BIOS nécessaires et leur emplacement sont indiqués dans la page de chaque système, dans la section [Systèmes compatibles](../systemes-and-emulateurs/supported-game-systems/). Voir aussi [Ajouter les BIOS](ajouter-les-bios.md).
 {% endhint %}
 
-### Dossier ".emulationstation"
+## Dossier « cheats »
+
+Ce dossier contient les fichiers de triche (« cheats ») utilisés par les émulateurs compatibles, lorsque l'option de triche est activée. Il contient un sous-dossier par émulateur (`retroarch`, `pcsx2`, `duckstation`, `mame`…).
+
+## Dossier « decorations »
+
+Ce dossier est vide après l'installation. Il permet d'ajouter vos propres décorations (bezels) : elles seront disponibles dans RetroBat en plus des décorations fournies par défaut dans `system\decorations`.
+
+## Dossier « emulationstation »
+
+Ce dossier contient les exécutables de l'interface de RetroBat (EmulationStation) et d'emulatorLauncher, le programme qui configure et lance les émulateurs. La structure est la suivante :
+
+<div align="left"><figure><img src="../.gitbook/assets/image (259).png" alt=""><figcaption></figcaption></figure></div>
+
+{% hint style="info" %}
+Les fichiers de configuration de RetroBat (`es_settings.cfg`, `es_input.cfg`, `es_systems.cfg`…) et les fichiers de logs se trouvent dans ce dossier et dans son sous-dossier `.emulationstation`.
+{% endhint %}
+
+### Sous-dossier « .emulationstation »
 
 #### collections
 
-Dans le sous-dossier "collections" vous trouverez les fichiers stockés par ES lorsque vous créez une [collection éditable](https://wiki.retrobat.org/v/francais/navigation/game-collections#collections-editables). Ces fichiers, nommés à l'identique des collection avec l'extension `.cfg`, contiennent la liste des différents jeux composant chaque collection ainsi que leur emplacement.
+Ce dossier est créé par EmulationStation lorsque vous créez votre première [collection éditable](../navigation/game-collections.md#collections-editables). Chaque collection est enregistrée dans un fichier `.cfg` portant son nom, qui liste les jeux qu'elle contient avec leur emplacement.
 
 #### music
 
-RetroBat permet l'utilisation de fichier audio aux formats `.mp3` ,`.ogg` ,`.wav` et `.flac`, ainsi que d'autres formats audio.\
-Une musique peut être changée en appuyant sur le stick gauche de la manette `[L3]`, ou depuis le menu d'Accès Rapide. \
-Lors de la navigation dans la vue système, un appui sur la touche `[SELECT]` de votre manette ouvre le menu d'Accès Rapide, où il est possible de choisir l'option **PASSER A LA MUSIQUE SUIVANTE**.
+Les fichiers audio placés dans ce dossier sont joués comme musique de fond dans l'interface. RetroBat accepte les formats `.mp3`, `.ogg`, `.wav` et `.flac`, ainsi que d'autres formats moins courants.
 
-<figure><img src="https://i.imgur.com/EzBUwvn.png" alt=""><figcaption></figcaption></figure>
+Pour passer à la musique suivante, appuyez sur le stick gauche (`[L3]`), ou utilisez le menu d'Accès Rapide : dans la Vue Système, appuyez sur `[SELECT]` et choisissez **PASSER À LA MUSIQUE SUIVANTE**.
 
-Les fichiers audios ajoutés dans le dossier /music seront joués de façon aléatoire.
+<div align="left"><figure><img src="../.gitbook/assets/image (260).png" alt=""><figcaption></figcaption></figure></div>
 
-Il est également possible d'utiliser un dossier par système, de façon à jouer une musique spécifique lors de la navigation d'un système en particulier. Pour cela, il est nécessaire de créer un sous-dossier, nommé exactement comme le dossier de la rom correspondant au système (que vous pouvez retrouver dans le fichier `es-systems.cfg`), et mettre les fichiers audios dedans.
+Les musiques sont jouées de façon aléatoire.
 
-NB : en activant l'option "JOUER SEULEMENT LES MUSIQUES PAR SYSTÈMES", RetroBat jouera toutes les musiques situées dans le sous-dossier du système dans lequel vous naviguez (par exemple /music/3do/), mais pas les musiques situées dans les autres sous-dossiers.
+Vous pouvez aussi jouer des musiques spécifiques à chaque système. Créez un sous-dossier nommé exactement comme le dossier `roms` du système (par exemple `music\snes`), et placez-y vos fichiers audio.
 
-Les fichiers présents dans le dossier /music/ seront joués aléatoirement pour n'importe quel système (que vous ayez activé ou non l'option de musique par système).
+* Avec l'option **JOUER SEULEMENT LES MUSIQUES PAR SYSTÈMES** **activée**, RetroBat joue les musiques du système que vous parcourez (par exemple `music\3do`) et celles placées directement dans `music`, mais pas celles des autres systèmes.
+* Avec cette option **désactivée**, RetroBat joue au hasard n'importe quelle musique de `music` et de tous ses sous-dossiers.
 
-Si vous désactivez l'option "JOUER SEULEMENT LES MUSIQUES PAR SYSTÈMES", RetroBat jouera aléatoirement les musiques situées dans le répertoire /music/ mais également dans chacun de ses sous-dossiers.
-
-<figure><img src="https://i.imgur.com/PM1IiXI.png" alt=""><figcaption></figcaption></figure>
+<div align="left"><figure><img src="../.gitbook/assets/image (261).png" alt=""><figcaption></figcaption></figure></div>
 
 #### scripts
 
-EmulationStation supporte l'utilisation de scripts externes et d'exécutable pour le lancement de programmes ou d'actions spécifiques, selon certains évènements.
+EmulationStation peut exécuter vos propres scripts ou programmes lors de certains événements. Placez-les dans le sous-dossier correspondant à l'événement :
+
+<table><thead><tr><th width="137.75">Sous-dossier</th><th>Événement</th></tr></thead><tbody><tr><td><code>game-start</code></td><td>Lancement d'un jeu</td></tr><tr><td><code>game-end</code></td><td>Fermeture d'un jeu</td></tr><tr><td><code>quit</code></td><td>Fermeture de RetroBat</td></tr><tr><td><code>reboot</code></td><td>Redémarrage de l'ordinateur depuis RetroBat</td></tr><tr><td><code>shutdown</code></td><td>Arrêt de l'ordinateur depuis RetroBat</td></tr><tr><td><code>sleep</code></td><td>Mise en veille de l'ordinateur</td></tr><tr><td><code>wake</code></td><td>Sortie de veille de l'ordinateur</td></tr></tbody></table>
 
 #### themes
 
-Les thèmes téléchargés via le menu TÉLÉCHARGEMENT DE CONTENU seront stockés dans ce répertoire. Vous pouvez également en placer manuellement ici.
+Les thèmes téléchargés via le menu **TÉLÉCHARGEMENT DE CONTENU** sont stockés dans ce dossier. Vous pouvez aussi y copier des thèmes manuellement.
 
 #### themesettings
 
-Ici vous trouverez les réglages des thèmes. Lorsqu'un thème est sélectionné, et que des modifications sont appliqués à celui-ci via le menu de thème, les réglages sont sauvegardés à l'intérieur de ce dossier, nommé à l'identique du thème avec l'extension `.cfg`.
+Ce dossier contient les réglages propres à chaque thème. Lorsque vous personnalisez un thème depuis le menu des thèmes, ses réglages sont enregistrés ici, dans un fichier `.cfg` portant le nom du thème.
 
 #### video
 
-Dans ce dossier vous pouvez placer des vidéos qui pourront être utilisés comme intro (ou "vidéo de démarrage"), avant que RetroBat ne se lance.\
-Vous pouvez utiliser [BatGui](https://wiki.retrobat.org/v/francais/utilisation-avancee/batgui#gerer-le-fichier-retrobat.ini) pour configurer ces vidéos d'intro facilement.
+Placez ici des vidéos pour les utiliser comme intro (« vidéo de démarrage ») avant le lancement de RetroBat. Vous pouvez configurer facilement ces vidéos avec [BatGui](../utilisation-avancee/batgui.md) ou dans [`retrobat.ini`](../utilisation-avancee/retrobat.ini.md).
 
+## Dossier « emulators »
 
+Ce dossier contient les émulateurs.
 
-## Répertoire "emulators"
-
-Dans ce répertoire se trouvent tous les émulateurs utilisés.
-
-Retroarch est fourni par défaut lors de l'installation de RetroBat. Pour tous les autres émulateurs, ils seront téléchargés quand vous en aurez besoin, en lançant un jeu utilisant cet émulateur, ou en lançant celui-ci directement depuis le menu système RetroBat.
+RetroArch est fourni avec RetroBat. Tous les autres émulateurs sont téléchargés automatiquement la première fois que vous lancez un jeu qui en a besoin, ou lorsque vous les lancez depuis le menu système RetroBat.
 
 {% hint style="info" %}
-Certains émulateurs ne sont pas fournis automatiquement par Retrobat.&#x20;
-
-Les émulateurs suivants doivent être téléchargés par vos soins et placés dans les dossiers correspondants :
+Pour des raisons légales ou techniques, certains émulateurs ne peuvent pas être téléchargés automatiquement par RetroBat. Vous devez les télécharger vous-même et les placer dans le dossier correspondant :
 
 * Émulateurs Switch
 * PICO-8
@@ -94,90 +94,115 @@ Les émulateurs suivants doivent être téléchargés par vos soins et placés d
 * TeknoParrot
 {% endhint %}
 
-## Répertoire "library"
+## Dossier « library »
 
-Ce répertoire peut être utilisé pour y placer des revues digitales, qui apparaîtront dans le système "Library" et pourront être consultés avec Retrobat en utilisant le core libretro **imageviewer**.
+Ce dossier permet de stocker des magazines ou des manuels. Ils apparaissent dans RetroBat dans un système « Library » et peuvent être consultés avec le core libretro **imageviewer**.
 
-## Répertoire "records"
+## Dossier « records »
 
-Ce répertoire est le répertoire de destination pour l'enregistrement des vidéos de gameplay générés par certains utilisateurs quand la fonction "enregistrement" est activée.
+Ce dossier reçoit les vidéos de vos parties enregistrées par les émulateurs compatibles avec l'enregistrement vidéo. Les vidéos sont enregistrées dans `records\output`, les réglages d'enregistrement dans `records\config`.
 
-## Répertoire "roms"
+## Dossier « roms »
 
-Il s'agit du répertoire où les roms de jeux devront être copiés, chaque jeu devant être mis dans le sous-dossier du système correct correspondant au jeu, et possédant une extension acceptée par l'émulateur de ce système.
+C'est ici que vous copiez vos jeux. Chaque jeu doit être placé dans le dossier de son système (par exemple `roms\snes`) et avoir une extension acceptée par l'émulateur. Ces dossiers sont créés par l'installeur.
 
-Vous trouverez plus de précisions sur les extensions acceptées sur chaque [page individuelle de système](https://wiki.retrobat.org/v/francais/systemes-and-emulateurs/supported-game-systems).&#x20;
+Plus d'informations dans la page de chaque système, dans la section [Systèmes compatibles](../systemes-and-emulateurs/supported-game-systems/), et dans [Ajouter des jeux](adding-a-game.md).
 
-## Répertoire "saves"
+## Dossier « saves »
 
-Ce répertoire contient les sauvegardes de jeu, également si vous utilisez la fonctionnalité de sauvegarde en jeu issu de l'émulateur pour enregistrer votre progression.
+Ce dossier contient vos sauvegardes de jeu (sauvegardes en jeu et sauvegardes instantanées), classées par système puis par émulateur (par exemple `saves\psx\duckstation`).
 
-## Répertoire "screenshots"
+## Dossier « screenshots »
 
-Ce répertoire contient toutes les captures d'écran prises durant la session de jeu.
-
-{% hint style="info" %}
-Si vous constatez qu'une sauvegarde ou une capture d'écran ne s'enregistre pas dans le bon répertoire, merci de prendre contact avec la team RetroBat qui fera le nécessaire pour corriger au plus vite.
-{% endhint %}
-
-## Répertoire "sounds"
-
-Ce répertoire est utilisé pour y stocker les sons qui pourront être utilisés pour le déblocage des RetroAchievements, les fichiers présents dans ce dossier sont automatiquement listés dans l'interface RetroBat :
-
-<div align="left"><figure><img src="https://i.imgur.com/JRHEcpL.png" alt=""><figcaption></figcaption></figure></div>
+Ce dossier contient les captures d'écran prises pendant vos parties.
 
 {% hint style="info" %}
-Les fichiers sonores doivent être au format .ogg pour pouvoir être utilisés par RetroArch.
+Si une sauvegarde ou une capture d'écran n'est pas enregistrée dans le bon dossier, merci de le signaler à l'équipe RetroBat pour qu'elle puisse le corriger.
 {% endhint %}
 
-## Répertoire "system"
+## Dossier « sounds »
 
-Ce dossier contient plusieurs fichiers de configuration RetroBat ainsi que des "assets" fournies par défaut avec RetroBat (shaders, decorations...), la structure est la suivante:
+Le sous-dossier `sounds\retroachievements` contient les sons joués lors du déblocage d'un RetroAchievement. Les fichiers copiés à cet endroit apparaissent automatiquement dans l'option **SON DE DÉBLOQUAGE** des réglages RetroAchievements :
 
-<div align="left"><figure><img src="https://i.imgur.com/aQODkzO.png" alt=""><figcaption></figcaption></figure></div>
-
-### Dossier "decorations"
-
-Ce dossier contient les décorations (bezels) fournis par défaut avec RetroBat.
-
-### Dossier "es\_menu"
-
-Ce dossier contient les raccourcis vers les exécutables des émulateurs utilisés dans le système "RetroBat" du menu principal.
-
-### Dossier "loadingscreens"
-
-Ce dossier peut être utilisé pour placer des vidéos (format .mp4) qui seront lues par RetroBat lors du lancement d'un jeu, à la place du zoom sur la pochette du jeu.
-
-Il est possible de définir une vidéo par système en nommant la vidéo du nom du système (ex. gamecube.mp4).\
-\
-Des exemples de vidéos de chargement se trouvent dans le dossier system\templates\loadingscreen.
-
-### Dossier "padtokey"
-
-Ce dossier contient les fichier [padtokey ](../controleurs/pad2key.md#fichier-pad2key)fournis par défaut avec RetroBat.
-
-### Dossier "resource"
-
-Dans le sous-dossier "inputmapping", il est possible de trouver les fichiers d'autoconfiguration utilisés par RetroBat pour certains systèmes, ou pour certains contrôleurs spécifiques :
-
-<div align="left"><figure><img src="https://i.imgur.com/cxjYSok.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (262).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
-Ces fichiers seront écrasés lors des mises à jour de RetroBat. Pour conserver vos versions modifiées de ces fichiers, copier les dans le sous-dossier `user\inputmapping` de votre installation.
+Les fichiers doivent être au format `.ogg` et placés dans `sounds\retroachievements`, et non à la racine de `sounds`.
 {% endhint %}
 
-### Dossier "shaders"
+## Dossier « system »
 
-Ce dossier contient les shaders (filtres vidéos) fournis par défaut avec RetroBat.
+Ce dossier contient des fichiers de configuration de RetroBat et les ressources fournies par défaut (décorations, shaders…). La structure est la suivante :
 
-### Dossier "tattos"
+<div align="left"><figure><img src="../.gitbook/assets/image (263).png" alt=""><figcaption></figcaption></figure></div>
 
-Ce dossier contient les "tatouages", schémas de contrôles pour différents systèmes.
+{% hint style="warning" %}
+Le contenu de ce dossier est remplacé lors des mises à jour de RetroBat. Ne le modifiez pas : utilisez les dossiers `user` et `decorations` pour vos propres fichiers.
+{% endhint %}
 
-### Dossier "templates"
+### Sous-dossiers « configgen », « download », « modules », « scripts » et « tools »
 
-Ce dossier contient les fichiers d'origine de RetroBat tels qu'ils sont à l'installation, si un fichier a été modifié ou effacé par erreur, il peut être récupéré dans ce dossier.
+Fichiers internes de RetroBat (installation, mise à jour, modules de lancement, outils utilisés par RetroBat). Ils n'ont pas à être modifiés.
 
-## Répertoire "user"
+### Sous-dossier « decorations »
 
-Ce dossier peut être utilisé pour stocker les tattoos, fichiers inputmapping, padtokeys et la clé APIkey Steam.
+Les décorations (bezels) fournies par défaut avec RetroBat.
+
+### Sous-dossier « es\_menu »
+
+Les raccourcis vers les émulateurs affichés dans le système « RetroBat », qui permet de lancer directement les émulateurs.
+
+### Sous-dossier « loadingscreens »
+
+Ce dossier n'est pas créé par l'installeur : créez-le si vous voulez afficher une courte vidéo (`.mp4`) au lancement d'un jeu, à la place de l'effet de zoom sur l'image du jeu.
+
+RetroBat cherche la vidéo dans cet ordre, et lit la première trouvée :
+
+| Fichier                                        | Lu pour                    |
+| ---------------------------------------------- | -------------------------- |
+| `loadingscreens\<système>\<nom de la rom>.mp4` | Un jeu précis              |
+| `loadingscreens\<système>\<système>.mp4`       | Tous les jeux d'un système |
+| `loadingscreens\<système>.mp4`                 | Tous les jeux d'un système |
+| `loadingscreens\default.mp4`                   | Tous les jeux              |
+
+Par exemple, `loadingscreens\gamecube.mp4` est lu pour tous les jeux GameCube.
+
+Des exemples de vidéos sont fournis dans `system\templates\loadingscreens`.
+
+### Sous-dossier « padtokey »
+
+Les fichiers [padtokey](../controleurs/pad2key.md) fournis par défaut avec RetroBat.
+
+#### Sous-dossier « resources »
+
+Ressources utilisées par RetroBat. Le sous-dossier `inputmapping` contient les fichiers qui servent à configurer automatiquement les contrôles pour certains émulateurs ou certains types de manettes.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (264).png" alt=""><figcaption></figcaption></figure></div>
+
+{% hint style="info" %}
+Ces fichiers sont écrasés lors des mises à jour de RetroBat. Pour conserver vos versions modifiées, copiez-les dans le dossier `user\inputmapping`.
+{% endhint %}
+
+### Sous-dossier « shaders »
+
+Les shaders (filtres vidéo) fournis par défaut avec RetroBat.
+
+### Sous-dossier « tattoos »
+
+Les schémas de contrôles (« tattoos ») fournis par défaut pour plusieurs systèmes.
+
+### Sous-dossier « templates »
+
+La version d'origine des fichiers de configuration de RetroBat, tels qu'ils sont à l'installation. Si un fichier a été supprimé ou abîmé, vous pouvez recopier sa version d'origine depuis ce dossier vers son dossier de destination.
+
+## Dossier « user »
+
+Ce dossier contient vos fichiers de personnalisation, qui sont conservés lors des mises à jour de RetroBat :
+
+| Sous-dossier   | Contenu                                                                                                                                                      |
+| -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `apikey`       | Votre clé API Steam (fichier `steam.apikey`)                                                                                                                 |
+| `customratio`  | Ratios d'image personnalisés pour les cores libretro : `<système>_customratio.txt` (tout le système) ou `<système>_<nom de la rom>_customratio.txt` (un jeu) |
+| `inputmapping` | Vos fichiers inputmapping modifiés                                                                                                                           |
+| `padtokey`     | Vos propres fichiers padtokey                                                                                                                                |
+| `tattoos`      | Vos propres schémas de contrôles (sous-dossiers `default` et `games`)                                                                                        |
