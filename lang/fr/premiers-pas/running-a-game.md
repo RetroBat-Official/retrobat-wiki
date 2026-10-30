@@ -1,55 +1,69 @@
+---
+description: À vous de jouer !
+---
+
 # Démarrer un jeu
 
-### Sélectionner un jeu et démarrer une partie
+## Lancer un jeu
 
-Depuis la Vue Jeux, sélectionner le jeu à démarrer et presser ![](<../.gitbook/assets/image (20) (1).png>).
+Dans la [Vue Jeux](../navigation/system-view-and-game-view.md#vue-jeux), sélectionnez le jeu et appuyez sur ![](<../.gitbook/assets/image (20) (1).png>).
 
-<div align="left"><figure><img src="https://i.imgur.com/rYkhPGu.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (236).png" alt=""><figcaption></figcaption></figure></div>
 
-L'image du jeu est affichée sur l'écran et l'émulateur démarre.
+L'image du jeu s'affiche pendant le démarrage de l'émulateur.
 
-<div align="left"><figure><img src="../.gitbook/assets/image (176).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (239).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/iBFLtCb.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (238).png" alt=""><figcaption></figcaption></figure></div>
 
-Une fois la partie terminée, appuyer simultanément sur HOTKEY + START pour arrêter l'émulateur et retourner dans la Vue Jeux.
-
-
-
-### Sélectionner un émulateur différent
-
-En général, l'émulateur le plus stable / performant est configuré par défaut pour chaque système. Cependant, il peut être nécessaire pour certains jeux d'utiliser un émulateur alternatif.
-
-Il est possible de modifier l'émulateur par défaut pour un jeu uniquement, ou pour l"intégralité d'un système.
+Une fois la partie terminée, appuyez simultanément sur **HOTKEY + START** pour fermer l'émulateur et revenir à la Vue Jeux.
 
 {% hint style="info" %}
-La liste complète des émulateurs disponibles par système est consultable dans la section [Systèmes compatibles](../systemes-and-emulateurs/supported-game-systems/) du wiki.
+La **HOTKEY** est le bouton défini lors de la configuration de votre manette (**SELECT** par défaut). Les autres raccourcis sont décrits dans la page [Raccourcis](../navigation/hotkeys.md).
 {% endhint %}
 
-#### Modifier l'émulateur pour le système
+{% hint style="warning" %}
+**Le jeu ne démarre pas ?**
 
-Depuis la Vue Jeux, appuyer sur **SELECT** pour ouvrir le menu **OPTIONS D'AFFICHAGE** et aller dans **CONFIGURATION AVANCEE DU SYSTEME**.
+* Vérifiez si le système nécessite des fichiers BIOS : voir [Ajouter les BIOS](ajouter-les-bios.md).
+* Vérifiez que le format du jeu est pris en charge : voir [Systèmes compatibles](../systemes-and-emulateurs/supported-game-systems/).
+* Consultez aussi [Problèmes connus et solutions](../tutoriels/problemes-connus-et-solutions.md).
+{% endhint %}
 
-<div align="left"><figure><img src="https://i.imgur.com/DHOLD0o.png" alt=""><figcaption></figcaption></figure></div>
+## Choisir l'émulateur
 
-Sélectionner **EMULATEUR**.
-
-<div align="left"><figure><img src="https://i.imgur.com/b6RLjwd.png" alt=""><figcaption></figcaption></figure></div>
-
-Choisir l'émulateur à utiliser parmi la liste des émulateurs disponibles.
-
-<div align="left"><figure><img src="../.gitbook/assets/image (177).png" alt=""><figcaption></figcaption></figure></div>
-
-#### Modifier l'émulateur pour un jeu
-
-Depuis la Vue Jeux, sélectionner un jeu et rester appuyé sur ![](<../.gitbook/assets/image (20) (1).png>), puis choisir **CONFIGURATION AVANCEE DU JEU**
-
-<div align="left"><figure><img src="https://i.imgur.com/wK6eoCb.png" alt=""><figcaption></figcaption></figure></div>
-
-Sélectionner **EMULATEUR** pour afficher la liste des émulateurs disponibles et définir celui à utiliser pour le jeu.
-
-<div align="left"><figure><img src="../.gitbook/assets/image (178).png" alt=""><figcaption></figcaption></figure></div>
+Par défaut, RetroBat utilise l'émulateur le plus stable et le plus performant pour chaque système. Vous pouvez cependant changer d'émulateur pour tout un système ou pour un jeu en particulier, par exemple si un jeu fonctionne mal.
 
 {% hint style="info" %}
-La valeur **AUTO** correspond à l'émulateur défini au niveau des options avancées du système ou au premier émulateur de la liste si la valeur par défaut du système est également reglée sur **AUTO**.&#x20;
+La liste complète des émulateurs disponibles pour chaque système se trouve dans la section [Systèmes compatibles](../systemes-and-emulateurs/supported-game-systems/).
 {% endhint %}
+
+### Modifier l'émulateur pour un système
+
+Dans la Vue Jeux, appuyez sur **SELECT** pour ouvrir le menu **OPTIONS D'AFFICHAGE**, puis allez dans **CONFIGURATION AVANCÉE DU SYSTÈME**.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (240).png" alt=""><figcaption></figcaption></figure></div>
+
+Sélectionnez **ÉMULATEUR**.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (241).png" alt=""><figcaption></figcaption></figure></div>
+
+Choisissez l'émulateur dans la liste.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (242).png" alt=""><figcaption></figcaption></figure></div>
+
+### Modifier l'émulateur pour un jeu
+
+Dans la Vue Jeux, sélectionnez un jeu et maintenez ![](<../.gitbook/assets/image (20) (1).png>) appuyé, puis choisissez **CONFIGURATION AVANCÉE DU JEU**.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (243).png" alt=""><figcaption></figcaption></figure></div>
+
+Sélectionnez **ÉMULATEUR**, puis choisissez l'émulateur dans la liste.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (244).png" alt=""><figcaption></figcaption></figure></div>
+
+{% hint style="info" %}
+**AUTO** signifie que le jeu utilise l'émulateur choisi pour son système. Si le système est lui aussi réglé sur **AUTO**, RetroBat utilise son émulateur par défaut pour ce système.
+{% endhint %}
+
+Étape suivante : Ajouter les BIOS.
