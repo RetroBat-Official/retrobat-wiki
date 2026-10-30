@@ -15,7 +15,7 @@ Les boutons sont désignés par leur position sur la manette : par exemple, **Su
 | Naviguer                                 |                      | Croix / Stick gauche | Croix / Stick gauche | Croix / stick gauche |
 | Valider / Lancer un jeu                  | Options du jeu       | B                    | ✕                    | A                    |
 | Retour / Annuler                         |                      | A                    | ◯                    | B                    |
-| Jeu au hasard / Save snap                | Ajouter aux favoris  | X                    | △                    | Y                    |
+| Jeu au hasard / SaveStates               | Ajouter aux favoris  | X                    | △                    | Y                    |
 | Rechercher / Filtrer                     | Jeu au hasard        | Y                    | ▢                    | X                    |
 | Sélection rapide (défiler dans la liste) |                      | L / R                | L1 / R1              | LB / RB              |
 | Système précédent / suivant              |                      | ZL / ZR              | L2 / R2              | LT / RT              |
