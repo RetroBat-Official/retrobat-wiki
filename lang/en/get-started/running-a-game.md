@@ -38,7 +38,7 @@ By default, RetroBat uses the best and most stable emulator for each system. You
 The full list of emulators available for each system is in the [Supported Game Systems](../systems-and-emulators/supported-game-systems/) section.
 {% endhint %}
 
-#### Changing the emulator for a system
+### Changing the emulator for a system
 
 In the Game View, press **SELECT** to open the **VIEW OPTIONS** menu, then go to **ADVANCED SYSTEM OPTIONS**.
 
