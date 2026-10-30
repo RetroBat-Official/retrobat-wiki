@@ -14,30 +14,30 @@ L'équipe RetroBat a défini un jeu de raccourcis commun, pour que les mêmes ra
 
 Les boutons de manette sont désignés par leur position : **Sud** = B (Nintendo) / ✕ (PlayStation) / A (Xbox), **Est** = A / ◯ / B, **Ouest** = Y / ▢ / X, **Nord** = X / △ / Y.
 
-| Action                                                        | Manette                            | Clavier          |
-| ------------------------------------------------------------- | ---------------------------------- | ---------------- |
-| Quitter le jeu                                                | HOTKEY + START                     | `Échap`          |
-| [Game Control Center](game-control-center.md)                 | HOTKEY + Est                       | `Ctrl` + `F12`   |
-| Menu de l'émulateur (ou pause si l'émulateur n'a pas de menu) | HOTKEY + Sud                       | `F1`             |
-| Sauvegarde instantanée                                        | HOTKEY + Ouest                     | `F2`             |
-| Chargement instantané                                         | HOTKEY + Nord                      | `F4`             |
-| Emplacement de sauvegarde précédent                           | HOTKEY + Croix bas                 | `F6`             |
-| Emplacement de sauvegarde suivant                             | HOTKEY + Croix haut                | `F7`             |
-| Rembobiner                                                    | HOTKEY + Croix gauche              | `Retour arrière` |
-| Avance rapide (maintenir)                                     | HOTKEY + Croix droite              | `L`              |
-| Avance rapide (activer / désactiver)                          | (\*)                               | `Espace`         |
-| Capture d'écran                                               | HOTKEY + R3                        | `F8`             |
-| Éjecter / insérer le disque                                   | HOTKEY + L1                        |                  |
-| Disque précédent                                              | HOTKEY + L2                        | `F9`             |
-| Disque suivant                                                | HOTKEY + R2                        | `F10`            |
-| Service de traduction IA                                      | HOTKEY + R1                        |                  |
-| Pause                                                         | HOTKEY + L3 (RetroArch uniquement) | `P`              |
-| Plein écran                                                   |                                    | `F`              |
-| Avance image par image                                        |                                    | `K`              |
-| Shader suivant / précédent                                    |                                    | `M` / `N`        |
-| Couper le son                                                 |                                    | `O`              |
-| Capturer / libérer la souris                                  |                                    | `F11`            |
-| Game Focus (RetroArch, voir plus bas)                         |                                    | `Arrêt défil`    |
+| Action                                                        | Manette               | Clavier                         |
+| ------------------------------------------------------------- | --------------------- | ------------------------------- |
+| Quitter le jeu                                                | HOTKEY + START        | `Échap`                         |
+| [Game Control Center](game-control-center.md)                 | HOTKEY + Est          | `Ctrl` + `F12`                  |
+| Menu de l'émulateur (ou pause si l'émulateur n'a pas de menu) | HOTKEY + Sud          | `F1`                            |
+| Sauvegarde instantanée                                        | HOTKEY + Ouest        | `F2`                            |
+| Chargement instantané                                         | HOTKEY + Nord         | `F4`                            |
+| Emplacement de sauvegarde précédent                           | HOTKEY + Croix bas    | `F6`                            |
+| Emplacement de sauvegarde suivant                             | HOTKEY + Croix haut   | `F7`                            |
+| Rembobiner                                                    | HOTKEY + Croix gauche | `Retour arrière`                |
+| Avance rapide (maintenir)                                     | HOTKEY + Croix droite | `L`                             |
+| Avance rapide (activer / désactiver)                          | (\*)                  | `Espace`                        |
+| Capture d'écran                                               | HOTKEY + R3           | `F8`                            |
+| Éjecter / insérer le disque                                   | HOTKEY + L1           |                                 |
+| Disque précédent                                              | HOTKEY + L2           | `F9`                            |
+| Disque suivant                                                | HOTKEY + R2           | `F10`                           |
+| Service de traduction IA                                      | HOTKEY + R1           |                                 |
+| Pause ou plein écran (selon l'émulateur)                      | HOTKEY + L3           | `P` (pause) / `F` (plein écran) |
+| Plein écran                                                   |                       | `F`                             |
+| Avance image par image                                        |                       | `K`                             |
+| Shader suivant / précédent                                    |                       | `M` / `N`                       |
+| Couper le son                                                 |                       | `O`                             |
+| Capturer / libérer la souris                                  |                       | `F11`                           |
+| Game Focus (RetroArch, voir plus bas)                         |                       | `Arrêt défil`                   |
 
 (\*) L'avance rapide de **HOTKEY + Croix droite** peut passer du mode « maintenir » au mode « activer / désactiver » avec l'option d'avance rapide des paramètres avancés du système ou du jeu.
 
