@@ -85,7 +85,7 @@ Sélectionner **THEBEZELPROJECT** dans le paramétrage des **DECORATIONS.**
 
 Ci-dessous une illustration de décoration du BEZEL PROJECT:
 
-<div align="left"><figure><img src="https://i.imgur.com/edBZRpf.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/edBZRpf.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Pour pouvoir utiliser les bezels propres à un jeu, il est nécessaire que le fichier du jeu (ROM) ait exactement le même nom que le fichier décoration dans le dossier `\decorations\thebezelproject\games`
@@ -119,7 +119,7 @@ Pour activer les Mega-Bezels, aller:
 * soit dans les [Options d'Affichage](../navigation/view-options.md#configuration-avancees-du-systeme) (Configuration avancée du système > Pack de filtres vidéos)
 * soit dans les [Options du Jeu](../navigation/game-options.md#configuration-avancee-du-jeu) (Configuration avancée du jeu > Pack de filtres vidéos)
 
-<div align="left"><figure><img src="https://i.imgur.com/D8iA1Ru.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/D8iA1Ru.png" alt=""><figcaption></figcaption></figure></div>
 
 Il existe plusieurs options pour chaque pack de megabezels.
 
@@ -161,13 +161,13 @@ Les tatouages sont une surimpression sur le bezel qui permettent d'afficher le s
 
 Pour activer les tattoos, aller dans le **MENU PRINCIPAL** > **PARAMETRES DES JEUX**:
 
-<div align="left"><figure><img src="https://i.imgur.com/TZxu8R5.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/TZxu8R5.png" alt=""><figcaption></figcaption></figure></div>
 
 Puis **OPTIONS GENERALES** > **TATOUAGE**:
 
 <div align="left"><figure><img src="https://i.imgur.com/OVxPrGg.png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/jnkGFCn.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/jnkGFCn.png" alt=""><figcaption></figcaption></figure></div>
 
 Il est possible de modifier le coin dans lequel afficher le tatouage.
 

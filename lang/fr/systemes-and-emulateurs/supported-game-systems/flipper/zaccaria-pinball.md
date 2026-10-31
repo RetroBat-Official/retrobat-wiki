@@ -24,7 +24,7 @@ Aucun BIOS nécessaire
 
 Créer un fichier .txt portant le nom de la table puis le sauvegarder avec l'extension .table:
 
-<div align="left"><figure><img src="https://i.imgur.com/RwUbyf8.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/RwUbyf8.png" alt=""><figcaption></figcaption></figure></div>
 
 Sauver le fichier au format `.table` dans le dossier :open\_file\_folder:`roms\`:open\_file\_folder:`zaccariapinball` de l'installation RetroBat.
 

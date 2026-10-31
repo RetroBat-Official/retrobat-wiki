@@ -1,10 +1,6 @@
 # GemRB
 
-<div align="left">
-
-<figure><picture><source srcset="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FexdzL60ZuqPLldz2AYta%2Fuploads%2Fl16ARVvaQm02NFhnDuhF%2Fgemrb.png?alt=media&#x26;token=c1be91fd-b805-4c05-a6ed-5bbc80420720" media="(prefers-color-scheme: dark)"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FexdzL60ZuqPLldz2AYta%2Fuploads%2FJJ8oIijsdY1LaC4kls9h%2Fgemrb.png?alt=media&#x26;token=f9aa051d-5b43-47fa-a7ac-03f50e03a69b" alt="" width="375"></picture><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><picture><source srcset="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FexdzL60ZuqPLldz2AYta%2Fuploads%2Fl16ARVvaQm02NFhnDuhF%2Fgemrb.png?alt=media&#x26;token=c1be91fd-b805-4c05-a6ed-5bbc80420720" media="(prefers-color-scheme: dark)"><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FexdzL60ZuqPLldz2AYta%2Fuploads%2FJJ8oIijsdY1LaC4kls9h%2Fgemrb.png?alt=media&#x26;token=f9aa051d-5b43-47fa-a7ac-03f50e03a69b" alt="" width="375"></picture><figcaption></figcaption></figure></div>
 
 GemRB - Implémentation Open-Source du moteur Infinity
 
@@ -50,11 +46,7 @@ Pour chaque jeu, il est nécessaire de créer un dossier contenant l'intégralit
 
 Par exemple, pour le jeu Baldur's Gate :
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/spaces_exdzL60ZuqPLldz2AYta_uploads_8m6wqMlDCl7e5SLOGbSk_gemrb_game_folder (1).webp" alt=""><figcaption><p>Exemple d'un dossier de jeu GemRB</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/spaces_exdzL60ZuqPLldz2AYta_uploads_8m6wqMlDCl7e5SLOGbSk_gemrb_game_folder (1).webp" alt=""><figcaption><p>Exemple d'un dossier de jeu GemRB</p></figcaption></figure></div>
 
 ### Modifier la résolution d'un jeu
 
@@ -66,31 +58,15 @@ Ci-dessous la liste des résolutions compatibles :
 
 Pour modifier la résolution du jeu, il faut éditer l'option permettant de changer la **Résolution Interne** depuis RetroBat :
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/R3RKK6V.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/R3RKK6V.png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/f29FLv0.png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/f29FLv0.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Contrairement aux autres systèmes, il est nécessaire de renseigner manuellement dans un champs de saisie la résolution à utiliser pour le jeu, par exemple 800x600 :
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/QI2KAvN.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/QI2KAvN.png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/spaces_exdzL60ZuqPLldz2AYta_uploads_I34FP5vCiNDQb9XhNt8s_gemrb_resolution_en.webp" alt="" width="545"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/spaces_exdzL60ZuqPLldz2AYta_uploads_I34FP5vCiNDQb9XhNt8s_gemrb_resolution_en.webp" alt="" width="545"><figcaption></figcaption></figure></div>
 
 Sans précision sur la résolution à utiliser, le jeu démarrera par défaut dans la résolution la plus faible.
 
@@ -106,8 +82,4 @@ Suivre les instructions du mod, puis répéter l'opération au dessus pour rempl
 Si la résolution est la même que celle de l'écran, il est possible de saisir "desktop" dans le champs "résolution interne".
 {% endhint %}
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/a69Pmgx.png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/a69Pmgx.png" alt=""><figcaption></figcaption></figure></div>

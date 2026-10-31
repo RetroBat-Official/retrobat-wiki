@@ -30,4 +30,4 @@ Get the Theme Hospital files from the original CD or on GOG and copy the content
 
 Rename the folder with ".game" at the end:
 
-<div align="left"><figure><img src="https://i.imgur.com/nzWUkKg.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/nzWUkKg.png" alt=""><figcaption></figcaption></figure></div>

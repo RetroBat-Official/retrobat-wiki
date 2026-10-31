@@ -96,7 +96,7 @@ Lancez _Dolphin.exe_, l’exécutable se trouve dans le dossier `\emulators\dolp
 
 Cliquer sur l'icône "Manettes" dans la barre supérieure, puis sélectionner "Configurer" (choisir le système correspondant au jeu, cela fonctionne aussi bien pour Gamecube que pour Wii)
 
-<div align="left"><figure><img src="https://i.imgur.com/ArzPI8J.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/ArzPI8J.png" alt=""><figcaption></figcaption></figure></div>
 
 A la page suivante, configurer comme souhaité.
 
@@ -114,7 +114,7 @@ Depuis la liste des jeux, faire un clic-droit sur le jeu auquel appliquer le pro
 
 Sur l'écran suivant, choisir l'éditeur, et dans la section "User Config", spécifier le profil à utiliser
 
-<div align="left"><figure><img src="https://i.imgur.com/nXUxwE9.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/nXUxwE9.png" alt=""><figcaption></figcaption></figure></div>
 
 Renseigner le code suivant :
 

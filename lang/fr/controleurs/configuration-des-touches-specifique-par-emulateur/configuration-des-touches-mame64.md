@@ -120,7 +120,7 @@ Cliquer sur "General Settings":
 
 Sélectionner "Input Assignments"
 
-<div align="left"><figure><img src="https://i.imgur.com/P23EUU1.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/P23EUU1.png" alt=""><figcaption></figcaption></figure></div>
 
 Sélectionner les touches à assigner :
 
@@ -141,11 +141,11 @@ En utilisant les touches gauche et droite (ou les boutons), il est possible de r
 
 Une fois le paramétrage effectué, revenir en arrière et cliquer sur "Save Settings" :
 
-<div align="left"><figure><img src="https://i.imgur.com/pDLsvFJ.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/P23EUU1 (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Un fichier nommé "default.cfg" sera sauvegardé dans le répertoire`\emulators\mame\cfg`.
 
-<div align="left"><figure><img src="https://i.imgur.com/PmZJO4I.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/PmZJO4I.png" alt=""><figcaption></figcaption></figure></div>
 
 ### ÉTAPE 3 : Utiliser le fichier cfg
 

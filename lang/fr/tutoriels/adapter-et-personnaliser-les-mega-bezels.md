@@ -36,7 +36,7 @@ Pour cela, il faut commencer par copier des presets existants, qui se situent da
 
 Dans notre exemple, nous copierons les plus couramment utilisés, a savoir \[Bezel] et \[Bezel]-\[Night], dans le système Sega Saturn en mode "Advanced" :&#x20;
 
-<figure><img src="https://i.imgur.com/INWfURU.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/INWfURU.png" alt=""><figcaption></figcaption></figure>
 
 Puis, nous allons renommer ces presets afin de pouvoir les identifier plus facilement.\
 Ajoutons la balise \[VFlip] (pour Vertical Flip) et veillons a ne pas laisser d'espaces dans le nom du fichier:&#x20;
@@ -53,7 +53,7 @@ il s'agit de la ligne `HSM_FLIP_VIEWPORT_VERTICAL = "1.000000"`
 Il faut désormais utiliser le fichier que nous avons modifié.\
 Pour cela, depuis le dossier `system\shaders\configs`, dupliquer l'un des dossier existant (dans notre exemple le "mega-bezel-advanced-night") et renommer-le pour pouvoir le différencier facilement dans le menu Retrobat (dans notre exemple "mega-bezel-advanced-night-VFlip") :
 
-<figure><img src="https://i.imgur.com/AxSDahs.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/AxSDahs.jpeg" alt=""><figcaption></figcaption></figure>
 
 A l'intérieur de ce dossier, se trouve un fichier "rendering-defaults.yml".\
 C'est lui qui indique à Retroarch quel preset utiliser, pour quel système.\

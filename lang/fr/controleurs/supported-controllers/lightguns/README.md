@@ -14,7 +14,7 @@ Lorsqu'un pistolet est connecté, une icône représentant un pistolet apparaît
 
 Une cible est également visible à l'écran, et une nouvelle collection "JEUX DE TIR" est disponible dans la **Vue Système**
 
-<div align="left"><figure><img src="https://i.imgur.com/5gj5x6L.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/5gj5x6L.png" alt=""><figcaption></figcaption></figure></div>
 
 Les jeux de tir sont identifiés à l'aide d'une icône "pistolet" apparaissant après leur nom.
 
@@ -41,7 +41,7 @@ Les pistolets peuvent être activé dans les fonctionnalités avancées du syst�
 
 Depuis la **Vue Jeux** ouvrir les [**options d'affichage**](../../../navigation/view-options.md) et sélectionner **CONFIGURATION AVANCÉE DU SYSTEME**
 
-<div align="left"><figure><img src="https://i.imgur.com/NBikXXF.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/NBikXXF.png" alt=""><figcaption></figcaption></figure></div>
 
 Choisir ensuite **PISTOLETS**
 

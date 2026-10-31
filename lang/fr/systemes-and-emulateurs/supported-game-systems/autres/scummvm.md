@@ -4,11 +4,7 @@ description: ScummVM Team
 
 # ScummVM
 
-<div align="left">
-
-<figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/scummvm.svg" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/scummvm.svg" alt=""><figcaption></figcaption></figure></div>
 
 Émulateur - Année de création : 2001
 
@@ -40,19 +36,11 @@ Il est possible d'utiliser une configuration [pad2key ](../../../controleurs/pad
 
 Les jeux ScummVM doivent être placés dans le dossier `\roms\scummvm` , chaque jeu dans son propre répertoire:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/qfDZ5Np.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/qfDZ5Np.png" alt=""><figcaption></figcaption></figure></div>
 
 Au sein de chaque dossier de jeu, créer un fichier .txt avec le nom du jeu, par exemple **Full Throttle.txt** pour le jeu "Full Throttle".
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/k4GhSoC.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/k4GhSoC.png" alt=""><figcaption></figcaption></figure></div>
 
 A l'intérieur du fichier .txt, renseigner le **shortname (nom court)** du jeu, se référer au site [https://www.scummvm.org/compatibility/](https://www.scummvm.org/compatibility/) pour retrouver le shortname du jeu.
 
@@ -76,55 +64,31 @@ Si vous possédez plusieurs versions d'un même titre et souhaitez pouvoir séle
 
 * Ouvrir SCUMMVM et sélectionner "ajouter...":
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/sk5E5Z7.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/sk5E5Z7.png" alt=""><figcaption></figcaption></figure></div>
 
 Sélectionner le dossier du jeu.
 
 * Choisir la version du jeu à ajouter:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/e5o9Nvd.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/e5o9Nvd.png" alt=""><figcaption></figcaption></figure></div>
 
 * Définir l'ID du jeu et sélectionner les options à activer pour le jeu
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/mZLGaKv.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/mZLGaKv.png" alt=""><figcaption></figcaption></figure></div>
 
 Cliquer sur OK.
 
 Le jeu est ajouté à SCUMMVM:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/BuNOCP6.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/BuNOCP6.png" alt=""><figcaption></figcaption></figure></div>
 
 **Etape 2**: créer le fichier .scummvm
 
 * Créer un fichier .scummvm spécifique à cette version du jeu dans le dossier `roms\scummvm`:
 
-<div align="left">
+<div align="left"><figure><img src="https://i.imgur.com/nCNTake.png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/nCNTake.png" alt=""><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/5DiPExS.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/5DiPExS.png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="warning" %}
 TLe contenu du fichier .scummvm doit correspondre exactement à l'ID utilisé lors de l'ajout du jeu dans l'émulateur à l'étape précédente.
@@ -134,19 +98,11 @@ TLe contenu du fichier .scummvm doit correspondre exactement à l'ID utilisé lo
 
 Dans RetroBat, plusieurs versions du jeu seront disponibles:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/OTcJf0h.png" alt=""><figcaption><p>2 versions de Indiana Jones</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../.gitbook/assets/OTcJf0h.png" alt=""><figcaption><p>2 versions de Indiana Jones</p></figcaption></figure></div>
 
 NB: les short ID de chaque jeu installé dans scummvm peuvent être consultées dans le fichier scummvm.ini, ce fichier est situé dans les dossiers:
 
 * \emulators\scummvm (SCUMMVM standalone)
 * \bios (libretro:scummvm)
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/YUsciw5.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/YUsciw5.png" alt=""><figcaption></figcaption></figure></div>

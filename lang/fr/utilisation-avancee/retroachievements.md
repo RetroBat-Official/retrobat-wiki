@@ -28,17 +28,17 @@ Puis renseigner les informations du compte Retroachievements : utilisateur et mo
 
 Appuyer sur RETOUR, le système indexe alors les jeux compatibles
 
-<div align="left"><figure><img src="https://i.imgur.com/vMkmRun.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/vMkmRun.png" alt=""><figcaption></figcaption></figure></div>
 
 Il est possible de relancer l'indexation des jeux ou de paramétrer l'indexation automatique au démarrage :&#x20;
 
-<div align="left"><figure><img src="https://i.imgur.com/t1XGxcP.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/t1XGxcP.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Information des succès rétro du jeu
 
 Les jeux compatibles avec les Succès Rétro sont identifiés par une icône Trophée ![](<../.gitbook/assets/image (12) (1).png>) dans la liste des jeux
 
-<div align="left"><figure><img src="https://i.imgur.com/Ol9B141.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/Ol9B141.png" alt=""><figcaption></figcaption></figure></div>
 
 Il est possible d'afficher la liste des Trophées disponibles pour un jeu à partir des [**Options du Jeu**](../navigation/game-options.md) (maintenir ![A](<../.gitbook/assets/image (20) (1).png>) après avoir sélectionné le jeu), en choisissant **VOIR LES SUCCÈS DU JEU**
 
@@ -54,7 +54,7 @@ Dans les [**PARAMÈTRES DES SUCCES RETRO**](retroachievements.md#activer-les-suc
 
 Le MENU PRINCIPAL contient désormais l'option **SUCCÈS RETRO ...**
 
-<div align="left"><figure><img src="https://i.imgur.com/sWbOqaR.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/sWbOqaR.png" alt=""><figcaption></figcaption></figure></div>
 
 ... qui donne accès à la liste des Trophées Retro de l'utilisateur configuré dans Retrobat.
 

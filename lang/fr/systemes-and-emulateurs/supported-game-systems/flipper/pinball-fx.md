@@ -32,7 +32,7 @@ Renseigner dans ce fichier le numéro de la table à lancer, puis sauvegarder le
 
 Exemple de fichier pour la tablee "Wild West Rampage" (table 75):
 
-<div align="left"><figure><img src="https://i.imgur.com/pSTNIkN.png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/pSTNIkN.png" alt=""><figcaption></figcaption></figure></div>
 
 <details>
 

@@ -225,7 +225,7 @@ Créer un fichier dans le même dossier que le raccourci du jeu (généralement 
 
 Sauvegarder le fichier et le nommer exactement comme le raccourci du jeu, changer l'extension par ".gameexe":
 
-<div align="left"><figure><img src="https://i.imgur.com/Wr1vqVP.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/Wr1vqVP.png" alt=""><figcaption></figcaption></figure></div>
 
 RetroBat attend dorénavant la fin du process défini dans le fichier pour revenir à la liste de jeux !
 

@@ -78,7 +78,7 @@ Sélectionner **THÈMES** pour accéder à la liste des thèmes disponibles au t
 
 Naviguer parmi les thèmes disponibles à l'aide des touches HAUT et BAS, appuyer sur la touche ![](<../.gitbook/assets/image (20) (1).png>) pour démarrer le téléchargement et l'installation du thème
 
-<div align="left"><figure><img src="https://i.imgur.com/gJle44S.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/gJle44S.png" alt=""><figcaption></figcaption></figure></div>
 
 Une barre de progression apparaît dans le coin supérieur droit
 
@@ -90,4 +90,4 @@ Lorsque le téléchargement est terminé, il est possible de basculer sur le nou
 
 <div align="left"><figure><img src="https://i.imgur.com/EKqUGIy.png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/OSxuucv.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/OSxuucv.png" alt=""><figcaption></figcaption></figure></div>

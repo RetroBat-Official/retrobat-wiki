@@ -4,7 +4,7 @@
 
 ### Paramètres de réduction de la latence
 
-<div align="left"><figure><img src="https://i.imgur.com/85tGjFD.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/85tGjFD.png" alt=""><figcaption></figcaption></figure></div>
 
 Cette fonction peut être utilisée pour réduire la quantité de latence inhérente à chaque jeu et peut également aider à compenser la latence liée aux écrans. C'est une fonction qui **s'applique uniquement aux systèmes Retroarch**.
 

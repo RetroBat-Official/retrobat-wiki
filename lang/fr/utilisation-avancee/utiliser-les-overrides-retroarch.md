@@ -8,7 +8,7 @@ RetroArch permet de sauvegarder un fichier d'override pour les options général
 
 Pour générer un fichier d'override, lancer le menu RetroArch depuis un jeu en appuyant sur SELECT + ![](<../.gitbook/assets/image (2) (1).png>) de votre manette (F1 sur le clavier). Effectuer les réglages souhaités puis aller dans le menu de "Configuration de Substitution":
 
-<div align="left"><figure><img src="https://i.imgur.com/Ao7zf9g.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/Ao7zf9g.png" alt=""><figcaption></figcaption></figure></div>
 
 A partir de ce menu, sauvegarder le fichier d'override pour le niveau souhaité (jeu, coeur, contenu):
 
@@ -30,7 +30,7 @@ RetroArch permet de sauvegarder un fichier d'override pour les shaders, cet over
 
 Pour générer un fichier d'override de shaders, lancer le menu RetroArch depuis un jeu en appuyant sur SELECT + ![](<../.gitbook/assets/image (2) (1).png>) de votre manette (F1 sur le clavier). Puis aller dans le menu **Shaders** pour effectuer les réglages souhaités:
 
-<div align="left"><figure><img src="https://i.imgur.com/zxiggYZ.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/zxiggYZ.png" alt=""><figcaption></figcaption></figure></div>
 
 Une fois les réglages terminés, aller dans le menu "**Enregistrer le préréglage**":
 

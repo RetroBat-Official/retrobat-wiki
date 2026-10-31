@@ -64,7 +64,7 @@ Le levier de vitesse est optionnel.
 
 ### Thrustmaster T300RS
 
-<div align="left"><figure><img src="https://i.imgur.com/Aos7B0z.jpeg" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/Aos7B0z.jpeg" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Il est très important pour ce volant que le pédalier soit défini comme étant "séparé" dans le panneau de contrôle Thrustmaster.

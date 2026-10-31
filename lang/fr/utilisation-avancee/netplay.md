@@ -12,47 +12,27 @@ La fonctionnalité n'émule pas les capacités réseau du hardware original. Il 
 
 Depuis les [PARAMETRES DES JEUX du MENU PRINCIPAL](../navigation/main-menu.md#parametres-des-jeux), sélectionner **PARAMETRES DES PARTIES EN RESEAU**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/Gl5mNpO.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/Gl5mNpO.png" alt=""><figcaption></figcaption></figure></div>
 
 **Activer les parties en réseau** puis entrer un **SURNOM**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/dGZ5xtX.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/dGZ5xtX.png" alt=""><figcaption></figcaption></figure></div>
 
 ### **Indexer les jeux**
 
 Retrobat doit désormais indexer les jeux compatibles avec les parties en réseau, lancer l'indexation depuis le même menu en choisissant **INDEXER LES JEUX**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/KRvgCxd.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/KRvgCxd.png" alt=""><figcaption></figcaption></figure></div>
 
 ## Rejoindre une partie en réseau
 
 Lorsque la fonctionnalité Parties en Réseau est activée, le bouton ![](<../.gitbook/assets/image (35).png>)  est réservé pour accéder à cette fonctionnalité (il n'est plus utilisé pour la sélection aléatoire, comme précédemment)
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/eQ6dI9B.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/eQ6dI9B.png" alt=""><figcaption></figcaption></figure></div>
 
 Presser le bouton ![](<../.gitbook/assets/image (35).png>) pour faire apparaître la liste des parties en réseau actuellement disponibles
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/pRjaEmY.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/pRjaEmY.png" alt=""><figcaption></figcaption></figure></div>
 
 Choisir une partie disponible pour se connecter.
 
@@ -60,19 +40,11 @@ Choisir une partie disponible pour se connecter.
 
 Pour héberger une session de jeu en réseau, choisir le jeu puis dans le menu Options Du Jeu, sélectionner **DÉMARRER UNE PARTIE EN RESEAU**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/jYz5ejo.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/jYz5ejo.png" alt=""><figcaption></figcaption></figure></div>
 
 Dans l'écran suivant, choisir **HÉBERGER UNE PARTIE EN RESEAU** pour démarrer la session.
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/sFgEVRn.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="https://i.imgur.com/sFgEVRn.png" alt=""><figcaption></figcaption></figure></div>
 
 La session sera visible pour les autres joueurs dans l'écran [REJOINDRE UNE PARTIE EN RESEAU](netplay.md#rejoindre-une-partie-en-reseau).
 

@@ -16,10 +16,6 @@ Les émulateurs ci-dessous sont compatibles avec les sauvegardes d'état:
 
 Depuis la liste des jeux de RetroBat, sélectionner le jeu et appuyer sur la touche ![](<../.gitbook/assets/image (35).png>) pour faire apparaître le gestionnaire de sauvegardes:
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/ONp8oYs.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/ONp8oYs.png" alt=""><figcaption></figcaption></figure></div>
 
 Sélectionner la sauvegarde d'état à charger et confirmer.

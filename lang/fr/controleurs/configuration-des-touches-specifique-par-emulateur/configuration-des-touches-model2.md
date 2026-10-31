@@ -14,7 +14,7 @@ Démarrer ensuite le jeu depuis RetroBat.
 
 Le jeu chargé, presser ALT + ENTREE sur votre clavier pour quitter le mode plein-écran et afficher le menu de l'émulateur:
 
-<div align="left"><figure><img src="https://i.imgur.com/MdPZYlG.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/MdPZYlG.png" alt=""><figcaption></figcaption></figure></div>
 
 Ouvrir le menu **Game > Configure Controls**
 
@@ -22,13 +22,13 @@ Ouvrir le menu **Game > Configure Controls**
 
 Dans l'écran suivant, effectuer la configuration souhaitée:
 
-<div align="left"><figure><img src="https://i.imgur.com/mkomNgQ.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/mkomNgQ.png" alt=""><figcaption></figcaption></figure></div>
 
 Une fois terminé : fermer la fenêtre et quitter l'émulateur.
 
 Le fichier de configuration est sauvegardé dans le dossier `\emulators\m2emulator\CFG`:
 
-<div align="left"><figure><img src="https://i.imgur.com/VzxUIcv.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/VzxUIcv.png" alt=""><figcaption></figcaption></figure></div>
 
 ### ÉTAPE 2 : copier le fichier de configuration dans le répertoire de destination
 

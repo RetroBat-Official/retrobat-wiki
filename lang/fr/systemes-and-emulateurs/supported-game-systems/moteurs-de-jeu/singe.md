@@ -100,7 +100,7 @@ Après avoir ajouté les fichiers nécessaires (cela peut être des fichiers`.m2
 
 Il est possible d'utiliser un fichier de commandes personnalisées pour envoyer des configurations à l'émulateur Hypseus. Pour cela, créer un fichier texte dans le dossier du jeu, et renseigner toutes les commandes voulues à l’intérieur du fichier :
 
-<div align="left"><figure><img src="https://i.imgur.com/AuIQeoE.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/AuIQeoE.png" alt=""><figcaption></figcaption></figure></div>
 
 Renommer le fichier avec l'extension .commands, le nom du fichier doit être strictement identique au nom du dossier de jeu (sans l'extension .hypseus).
 
