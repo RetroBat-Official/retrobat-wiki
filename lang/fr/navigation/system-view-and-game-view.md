@@ -34,6 +34,10 @@ Appuyez sur **Ouest** ![](<../.gitbook/assets/image (267).png>) pour ouvrir la *
 
 <div align="left"><figure><img src="../.gitbook/assets/image (268).png" alt=""><figcaption></figcaption></figure></div>
 
+{% hint style="warning" %}
+La recherche rapide nécessite la collection **TOUS LES JEUX**. Si **Ouest** ne fait rien dans la Vue Systèmes, activez-la dans **MENU PRINCIPAL** > **PARAMÈTRES DES COLLECTIONS** > **COLLECTIONS AUTOMATIQUES**. Voir [Collections](game-collections.md).
+{% endhint %}
+
 ### Volet navigation
 
 Appuyez sur **Est** ![](<../.gitbook/assets/image (269).png>) pour ouvrir le **VOLET NAVIGATION**. Il permet d'aller directement à un groupe de systèmes. Son contenu dépend du tri des systèmes (**MENU PRINCIPAL** > **PARAMÈTRES DES COLLECTIONS** > **TRIER LES SYSTÈMES**) :
