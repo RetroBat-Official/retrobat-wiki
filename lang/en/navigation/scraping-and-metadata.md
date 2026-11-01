@@ -1,118 +1,127 @@
 # Scraping & Metadata
 
-Scraping is used for downloading metadata and media files (images, videos, maps, pad-to-key settings and manuals) for games in your collection.
+Scraping downloads the information (name, description, release date, genre…) and the media (images, videos, manuals, maps…) of your games from online databases.
 
-Retrobat supports 4 scraping services:
+## Scraping services
 
-* ScreenScraper (default service) : credentials are required ([screenscraper website](https://www.screenscraper.fr/))
-* [TheGamesDB](https://thegamesdb.net/)
-* [HFSDB](https://db.hfsplay.fr/)
-* ArcadeDB
-* [IGDB](https://www.igdb.com/) : require to enter IGDB clientid and secret on scraper menu (see how-to get on [IGDB api](https://api-docs.igdb.com/#getting-started))
+<table><thead><tr><th width="230.25">Service</th><th>Account</th></tr></thead><tbody><tr><td><a href="https://www.screenscraper.fr/">ScreenScraper</a> (default)</td><td>Free account recommended (faster, fewer limits)</td></tr><tr><td><a href="https://thegamesdb.net/">TheGamesDB</a></td><td>Not required</td></tr><tr><td><a href="https://db.hfsplay.fr/">HFSDB</a></td><td>Not required</td></tr><tr><td>ArcadeDB</td><td>Not required (arcade games only)</td></tr><tr><td><a href="https://www.igdb.com/">IGDB</a></td><td><strong>Required</strong>: Client ID and Client Secret, see <a href="https://api-docs.igdb.com/#getting-started">Setting up IGDB</a></td></tr></tbody></table>
 
-### **Information that can be scraped**
+## Information that can be scraped
 
-* Game information (title, year, number of players, description...)
-* Ratings
-* Thumb (box)
-* Marquee / Wheel
+* Game information: name, description, release date, developer, publisher, genre, number of players, rating…
+* Images: box (2D or 3D), box backside, screenshot or title screen, logo (wheel or marquee), fan art, map, cartridge, bezel (16:9)
 * Video
-* Fanart
-* Image (title screen or in-game screenshot)
-* Box backside
-* Map
 * Manual
-* Pad-to-key settings
+* PadToKey settings
 
-### Scraping process
+## How to scrape
 
-There are two approaches to scraping, either for a single game from the [Game Options](game-options.md), or for multiple games and systems (global scraping) from the [Main Menu](main-menu.md).
+* **All games or several systems**: see [Global scraping](../get-started/adding-a-game.md#global-scraping).
+* **One game**: see [Per-game scraping](../get-started/adding-a-game.md#per-game-scraping).
 
-#### Global scraping
+## The scraper menu
 
-Refer to the [following part of the wiki](../get-started/adding-a-game.md#global-scraping) for instructions.
+Open **MAIN MENU** > **SCRAPER**. The menu has three tabs.
 
-#### Per Game scraping
+<div align="left"><figure><img src="../.gitbook/assets/image (258).png" alt=""><figcaption></figcaption></figure></div>
 
-Refer to the[ following section of the wiki](../get-started/adding-a-game.md#per-game-scraping) for instructions.
+### SCRAPE tab
 
+<table><thead><tr><th width="295.25">Setting</th><th>Description</th></tr></thead><tbody><tr><td><strong>SCRAPE FROM</strong></td><td>Service to use</td></tr><tr><td><strong>GAMES TO SCRAPE FOR</strong></td><td>All games, games missing any media, or games missing all media</td></tr><tr><td><strong>IGNORE RECENTLY SCRAPED GAMES</strong></td><td>Skip the games scraped during the last day, week, month…</td></tr><tr><td><strong>SYSTEMS INCLUDED</strong></td><td>Systems to scrape</td></tr><tr><td><strong>SCRAPE NOW</strong></td><td>Start scraping</td></tr></tbody></table>
 
+### OPTIONS tab
 
-### Scraping options
+The available settings depend on the selected service.
 
-Scraping options are available from the [Main Menu](main-menu.md).
+<div align="left"><figure><img src="../.gitbook/assets/image (259).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
-
-Before running the scraper you can:
-
-* Select the scraper to use
-* Limit the scraper to only games missing all medias or games missing any media
-* Ignore games scraped recently
-* Include/exclude systems
-* Include/exclude scraping services
-
-Additionaly, each scraper has its own settings.
-
-<div align="left"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption><p>Example of available settings for ScreenScraper</p></figcaption></figure></div>
-
-From here you can select which data to scrape, but also define:
-
-* What image to use as "image" file
-* What image to use as "thumb" image
-* What image to use as logo (marquee or wheel)
+<table><thead><tr><th width="192.75">Section</th><th>Settings</th></tr></thead><tbody><tr><td>Settings</td><td><strong>IMAGE SOURCE</strong> (screenshot, title screen, mix, box…), <strong>BOX SOURCE</strong> (2D or 3D box), <strong>LOGO SOURCE</strong> (wheel, HD wheel, marquee), <strong>PREFERED REGION</strong>, <strong>OVERWRITE NAMES / DESCRIPTIONS / MEDIAS</strong></td></tr><tr><td>Scrape for</td><td>Media and information to download: short name, community rating, video, fan art, bezel (16:9), box backside, map, title shot, cartridge, manual, PadToKey settings</td></tr><tr><td>Manual scrape</td><td><strong>INCLUDED SCRAPERS</strong>: services queried when you scrape a single game</td></tr></tbody></table>
 
 {% hint style="info" %}
-The Scraper settings screen is also where you can enter your credentials for ScreenScaper service.
+Keep **OVERWRITE NAMES / DESCRIPTIONS / MEDIAS** disabled if you have edited your games manually: otherwise your changes will be replaced.
 {% endhint %}
 
-### Scraping accounts
+### ACCOUNTS tab
 
-Screenscraper and IGDB require an account creation, they can be entered in the ACCOUNTS tab:
+<div align="left"><figure><img src="../.gitbook/assets/image (260).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<table><thead><tr><th width="167.75">Section</th><th>Settings</th></tr></thead><tbody><tr><td>ScreenScraper</td><td><strong>USERNAME</strong> and <strong>PASSWORD</strong> of your <a href="https://www.screenscraper.fr/">ScreenScraper</a> account</td></tr><tr><td>IGDB</td><td><strong>CLIENT ID</strong> and <strong>CLIENT SECRET</strong>, see below</td></tr></tbody></table>
 
-### Disable scraping services
+## Setting up IGDB
 
-At the bottom of the OPTIONS tab, it is possible to select which scraping services are activated in RetroBat:
+IGDB belongs to Twitch: to use it, you need to create a (free) "application" on the Twitch developer website, which gives you a **Client ID** and a **Client Secret**.
 
-<div align="left"><figure><img src="../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+1. **Create a Twitch account** on [twitch.tv](https://www.twitch.tv/) if you do not have one, and verify your email address.
+2. **Enable two-factor authentication (2FA)**: Twitch **Settings** > **Security and Privacy** > **Set Up Two-Factor Authentication** (a phone number is required). The developer console does not work without 2FA.
+3. Open the [Twitch developer console](https://dev.twitch.tv/console) and log in.
+4. In the **Applications** tab, click **Register Your Application** and fill in the form:
+   * **Name**: a unique name, for example `retrobat-` followed by random characters (if the name is already used, the creation fails)
+   * **OAuth Redirect URLs**: `http://localhost`
+   * **Category**: **Application Integration**
+   * **Client Type**: **Confidential**
+5. Validate the captcha, then click **Create**.
+6. In the list of applications, click **Manage** on your application:
+   * copy the **Client ID**;
+   * click **New Secret**, confirm, then copy the **Client Secret**.
+7. In RetroBat, open **MAIN MENU** > **SCRAPER** > **ACCOUNTS** and enter the **CLIENT ID** and **CLIENT SECRET** in the **IGDB** section.
+8. In the **SCRAPE** tab, select **IGDB** in **SCRAPE FROM**.
 
-### Storage of scraped medias
+{% hint style="info" %}
+**Easier than typing with a controller:** close RetroBat, open `emulationstation\.emulationstation\es_settings.cfg` with a text editor, and add (or complete) these two lines:
 
-All scraped medias will be stored in the rom folder.
+```xml
+<string name="IGDBClientID" value="your client id" />
+<string name="IGDBSecret" value="your client secret" />
+```
+{% endhint %}
 
-<div align="left"><figure><img src="https://i.imgur.com/XlUVX8L.png" alt=""><figcaption><p>Example of media folders</p></figcaption></figure></div>
+{% hint style="warning" %}
+* Keep your Client Secret private.
+* Clicking **New Secret** again creates a new secret and invalidates the previous one: you then need to enter it again in RetroBat.
+{% endhint %}
 
-<table><thead><tr><th width="199">Folder</th><th>Media stored</th></tr></thead><tbody><tr><td>images</td><td>box (thumb), fanart, boxback, image, marquee, map</td></tr><tr><td>manuals</td><td>pdf manual</td></tr><tr><td>videos</td><td>mp4 videos</td></tr></tbody></table>
+## Storage of scraped media
 
-### Using Local Media
+Media are stored in the folder of each system, in subfolders. Each file is named after the game file, followed by the media type.
 
-You can also decide to use existing images and videos that are already stored on your computer, or media that you have created on your own.\
-\
-To do so, you have to :
+<div align="left"><figure><img src="../.gitbook/assets/image (261).png" alt=""><figcaption></figcaption></figure></div>
 
-* rename the media files exactly like the game file,
-* add the naming extension specific to the media type:
-  * _name\_of\_game_**-thumb** for the image of the box art,
-  * _name\_of\_game_**-image** for the image of the game,
-  * _name\_of\_game_**-marquee** for the image of the game logo,
-  * _name\_of\_game_**-video.mp4** for the game video.
-* place the media files in the "**images**" folders for images and "**videos**" folder for videos
-* From the [**SYSTEM SETTINGS**](main-menu.md#system-settings), in "**frontend developer options**", enable "**Search for local art**"
+<table data-header-hidden><thead><tr><th width="153.25"></th><th width="252"></th><th></th></tr></thead><tbody><tr><td><strong>Folder</strong></td><td><strong>Media</strong></td><td>Example for <code>roms\snes\Super Metroid.zip</code></td></tr><tr><td><code>images</code></td><td>Box, box backside, screenshot, logo, fan art, map, cartridge, title shot, bezel…</td><td><code>images\Super Metroid-thumb.png</code>, <code>-image</code>, <code>-marquee</code>, <code>-fanart</code>, <code>-boxback</code>, <code>-box</code>, <code>-wheel</code>, <code>-map</code>, <code>-cartridge</code>, <code>-titleshot</code>, <code>-bezel</code></td></tr><tr><td><code>videos</code></td><td>Videos</td><td><code>videos\Super Metroid-video.mp4</code></td></tr><tr><td><code>manuals</code></td><td>Manuals (PDF)</td><td><code>manuals\Super Metroid-manual.pdf</code></td></tr><tr><td><code>magazines</code></td><td>Magazines</td><td><code>magazines\Super Metroid-magazine.pdf</code></td></tr></tbody></table>
 
-<div align="left"><figure><img src="https://i.imgur.com/dy6VEGP.png" alt=""><figcaption></figcaption></figure></div>
+The game information and the links to the media are saved in the `gamelist.xml` file of the system folder (for example `roms\snes\gamelist.xml`).
 
-### Manual modification of Game Metadata
+## Using your own media
 
-The [Game Option](game-options.md) menu offers the possibility to manually edit/complete metadata for a game
+You can use images and videos you already have, or that you have created yourself.
 
-<div align="left"><figure><img src="https://i.imgur.com/80l5jWw.png" alt=""><figcaption></figcaption></figure></div>
+1. Name each file exactly like the game file (without its extension), followed by the media type:
 
-**From there you can:**
+| File                        | Media                   | Folder   |
+| --------------------------- | ----------------------- | -------- |
+| `Super Metroid-thumb.png`   | Box                     | `images` |
+| `Super Metroid-image.png`   | Game image (screenshot) | `images` |
+| `Super Metroid-marquee.png` | Logo                    | `images` |
+| `Super Metroid-video.mp4`   | Video                   | `videos` |
 
-* Update Game information (name, description, rating, release date, developer, publisher, family, genres, arcade system, number of players, languages and region)
-* Attach different media files
-* Add game to favorites
-* Hide game
-* Flag game as KID game to display it in the [Kid Mode](../advanced-features/kiosk-and-kid-mode.md#kid-mode)
+2. Copy the files to the `images` or `videos` folder of the system (for example `roms\snes\images`). Images can be `.png` or `.jpg`.
+3. Enable **SEARCH FOR LOCAL ART** in **MAIN MENU** > **SYSTEM SETTINGS** > **FRONTEND DEVELOPER OPTIONS** > **DATA MANAGEMENT**.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (262).png" alt=""><figcaption></figcaption></figure></div>
+
+{% hint style="info" %}
+Your files are only used when the game has no media of this type in the game list. To use your own media for a game that has already been scraped, attach them with **EDIT THIS GAME'S METADATA** (see below).
+{% endhint %}
+
+## Editing game metadata manually
+
+In the [Game options](game-options.md) menu, choose **EDIT THIS GAME'S METADATA**:
+
+<div align="left"><figure><img src="../.gitbook/assets/image (263).png" alt=""><figcaption></figcaption></figure></div>
+
+You can:
+
+* change the game information: name, description, rating, release date, developer, publisher, game family, genres, arcade system, number of players, languages, region;
+* attach other media files (image, video, logo, box, fan art, manual, map…);
+* add the game to favorites;
+* hide the game;
+* mark the game as a **kid game**, to display it in [Kid mode](../advanced-features/kiosk-and-kid-mode.md#kid-mode).
