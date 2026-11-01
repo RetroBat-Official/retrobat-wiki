@@ -20,7 +20,7 @@
 * [Options d'Affichage](navigation/view-options.md)
 * [Options du Jeu](navigation/game-options.md)
 * [Configuration des systèmes et des jeux](navigation/configuration-des-systemes-et-des-jeux.md)
-* [Scrape & Metadonnées](navigation/scraping-and-metadata.md)
+* [Scrape & Métadonnées](navigation/scraping-and-metadata.md)
 * [Collections](navigation/game-collections.md)
 * [Game Control Center](navigation/game-control-center.md)
 

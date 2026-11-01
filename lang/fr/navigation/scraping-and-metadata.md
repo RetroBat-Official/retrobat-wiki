@@ -1,120 +1,122 @@
-# Scrape & Metadonnées
+# Scrape & Métadonnées
 
-Le scrape permet de récupérer les informations et les médias des jeux de votre bibliothèque (images, vidéos, cartes, fichiers pad2key et manuels).
+Le scrape télécharge les informations (nom, description, date de sortie, genre…) et les médias (images, vidéos, manuels, cartes…) de vos jeux depuis des bases de données en ligne.
 
-4 bases de données peuvent être scrapées:
+## Services de scrape
 
-* ScreenScraper (par défaut) : inscription requise sur le site web [screenscraper](https://www.screenscraper.fr/)
-* [TheGamesDB](https://thegamesdb.net/)
-* [HFSDB](https://db.hfsplay.fr/)
-* ArcadeDB
-* [IGDB](https://www.igdb.com/) : Nécessite de renseigner manuellement le clientid IGDB ainsi que le secret depuis le menu scrapeur de RetroBat (voir la méthode sur la page de l'api [IGDB](https://api-docs.igdb.com/#getting-started))
+<table><thead><tr><th width="262.75">Service</th><th>Compte</th></tr></thead><tbody><tr><td><a href="https://www.screenscraper.fr/">ScreenScraper</a> (par défaut)</td><td>Compte gratuit recommandé (plus rapide, moins de limites)</td></tr><tr><td><a href="https://thegamesdb.net/">TheGamesDB</a></td><td>Non nécessaire</td></tr><tr><td><a href="https://db.hfsplay.fr/">HFSDB</a></td><td>Non nécessaire</td></tr><tr><td>ArcadeDB</td><td>Non nécessaire (jeux d'arcade uniquement)</td></tr><tr><td><a href="https://www.igdb.com/">IGDB</a></td><td><strong>Obligatoire</strong> : Client ID et Client Secret, voir Configurer IGDB</td></tr></tbody></table>
 
-### **Informations scrapées**
+## Informations récupérées
 
-* Informations générales du jeu (titre, année de parution, nombre de joueurs, description...)
-* Note
-* Vignette (boîtier)
-* Logo / bannière
+* Informations du jeu : nom, description, date de sortie, développeur, éditeur, genre, nombre de joueurs, note…
+* Images : boîte (2D ou 3D), dos de la boîte, capture d'écran ou écran titre, logo, fan art, carte, cartouche, décoration (16:9)
 * Vidéo
-* Fanart
-* Image (écran titre ou capture en jeu)
-* Dos du boîtier
-* Carte
-* Manuel utilisateur
-* Fichier pad2key
+* Manuel
+* Paramètres PadToKey
 
-### Comment scraper ?
+## Comment scraper
 
-Le scrape peut être effectué globalement (pour tous les systèmes) ou pour un seul jeu.
+* **Tous les jeux ou plusieurs systèmes** : voir [Scrape global](../premiers-pas/adding-a-game.md#scrape-global).
+* **Un seul jeu** : voir [Scrape individuel](../premiers-pas/adding-a-game.md#scrape-individuel-par-jeu).
 
-#### Scrape global
+## Le menu Scrapeur
 
-Aller à la [section dédiée du wiki](../premiers-pas/adding-a-game.md#scrape-global).
+Ouvrez **MENU PRINCIPAL** > **SCRAPEUR**. Le menu comporte trois onglets.
 
-#### Scrape individuel
+<div align="left"><figure><img src="../.gitbook/assets/image (296).png" alt=""><figcaption></figcaption></figure></div>
 
-Aller à la [section dédiée du wiki](../premiers-pas/adding-a-game.md#scrape-individuel-par-jeu).
+### Onglet SCRAPER
 
+<table><thead><tr><th width="296.5">Paramètre</th><th>Description</th></tr></thead><tbody><tr><td><strong>SCRAPER DEPUIS</strong></td><td>Service à utiliser</td></tr><tr><td><strong>JEUX À SCRAPER</strong></td><td>Tous les jeux, jeux avec des médias manquants, ou jeux sans aucun média</td></tr><tr><td><strong>IGNORER LES JEUX SCRAPÉS RÉCEMMENT</strong></td><td>Ne pas scraper les jeux scrapés la veille, la semaine passée, le mois passé…</td></tr><tr><td><strong>SYSTÈMES INCLUS</strong></td><td>Systèmes à scraper</td></tr><tr><td><strong>SCRAPER MAINTENANT</strong></td><td>Lancer le scrape</td></tr></tbody></table>
 
+### Onglet OPTIONS
 
-### Options de scrape
+Les réglages disponibles dépendent du service choisi.
 
-Les options de scrape sont accessibles dans le [**MENU PRINCIPAL**](main-menu.md#parametres-des-jeux) en sélectionnant **SCRAPEUR :**
+<div align="left"><figure><img src="../.gitbook/assets/image (297).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../.gitbook/assets/2026-03-15_12h15_43.png" alt=""><figcaption></figcaption></figure></div>
-
-Avant de démarrer le scrape, il est possible de:
-
-* choisir la base de données à scraper
-* ne scraper que les jeux ayant des médias manquants
-* ignorer les jeux scrapés récemment
-* limiter les systèmes à scraper
-* inclure / exclure des scrapeurs
-
-Chaque scrapeur possède également des réglages qui lui sont propre:
-
-<div align="left"><figure><img src="../.gitbook/assets/2026-03-15_12h17_07.png" alt=""><figcaption><p>Exemple de réglages disponibles pour ScreenScraper</p></figcaption></figure></div>
-
-Il est notamment possible de définir:
-
-* le type de média à télécharger en tant que fichier "image" (image titre, capture en jeu...)
-* le type d'image à utiliser pour représenter le boîtier (2D, 3D, etc.)
-* le type d'image à utiliser comme logo (logo, bannière)
+<table><thead><tr><th width="192.75">Section</th><th>Réglages</th></tr></thead><tbody><tr><td>Paramètres</td><td><strong>IMAGE SOURCE</strong> (capture, écran titre, mix, boîte…), <strong>BOÎTE SOURCE</strong> (boîte 2D ou 3D), <strong>LOGO SOURCE</strong> (logo, logo HD, bannière), <strong>RÉGION PRÉFÉRÉE</strong>, <strong>ÉCRASER LES NOMS / DESCRIPTIONS / MÉDIAS</strong></td></tr><tr><td>Scraper</td><td>Médias et informations à télécharger : nom court, notes de la communauté, vidéo, fan art, décoration (16:9), arrière des boîtes, carte, écran titre, cartouche, manuel, paramètres PadToKey</td></tr><tr><td>Scrape manuel</td><td><strong>SCRAPERS INCLUS</strong> : services interrogés quand vous scrapez un seul jeu</td></tr></tbody></table>
 
 {% hint style="info" %}
-Les paramètres de connexion au service Screenscraper doivent être renseigné dans les options du scrapeur.
+Laissez **ÉCRASER LES NOMS / DESCRIPTIONS / MÉDIAS** désactivés si vous avez modifié vos jeux à la main : sinon vos modifications seront remplacées.
 {% endhint %}
 
-### Comptes de scrapeurs
+### Onglet COMPTES
 
-Screenscraper et IGDB nécessitent la création d'un compte, les informations requise doivent être renseignées dans l'onglet "COMPTES" :
+<div align="left"><figure><img src="../.gitbook/assets/image (298).png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="../.gitbook/assets/2026-03-15_12h24_33.png" alt=""><figcaption></figcaption></figure>
+<table><thead><tr><th width="164">Section</th><th>Réglages</th></tr></thead><tbody><tr><td>ScreenScraper</td><td><strong>NOM D'UTILISATEUR</strong> et <strong>MOT DE PASSE</strong> de votre compte <a href="https://www.screenscraper.fr/">ScreenScraper</a></td></tr><tr><td>IGDB</td><td><strong>ID CLIENT</strong> et <strong>SECRET CLIENT</strong>, voir ci-dessous</td></tr></tbody></table>
 
-### Désactivation des services de scrape
+## Configurer IGDB
 
-Au bas de l'onglet "OPTIONS", il est possible de sélectionner les scrapeurs a utiliser :
+IGDB appartient à Twitch : pour l'utiliser, vous devez créer une « application » (gratuite) sur le site développeur de Twitch, qui vous fournit un **Client ID** et un **Client Secret**.
 
-<figure><img src="../.gitbook/assets/2026-03-15_12h28_04.png" alt=""><figcaption></figcaption></figure>
+1. **Créez un compte Twitch** sur [twitch.tv](https://www.twitch.tv/) si vous n'en avez pas, et validez votre adresse e-mail.
+2. **Activez l'authentification à deux facteurs (2FA)** : **Paramètres** Twitch > **Sécurité et confidentialité** > **Configurer l'authentification à deux facteurs** (un numéro de téléphone est nécessaire). La console développeur ne fonctionne pas sans 2FA.
+3. Ouvrez la [console développeur Twitch](https://dev.twitch.tv/console) et connectez-vous.
+4. Dans l'onglet **Applications**, cliquez sur **Register Your Application** et remplissez le formulaire :
+   * **Name** : un nom unique, par exemple `retrobat-` suivi de caractères au hasard (si le nom est déjà pris, la création échoue)
+   * **OAuth Redirect URLs** : `http://localhost`
+   * **Category** : **Application Integration**
+   * **Client Type** : **Confidential**
+5. Validez le captcha, puis cliquez sur **Create**.
+6. Dans la liste des applications, cliquez sur **Manage** sur votre application :
+   * copiez le **Client ID** ;
+   * cliquez sur **New Secret**, confirmez, puis copiez le **Client Secret**.
+7. Dans RetroBat, ouvrez **MENU PRINCIPAL** > **SCRAPEUR** > **COMPTES** et saisissez l'**ID CLIENT** et le **SECRET CLIENT** dans la section **IGDB**.
+8. Dans l'onglet **SCRAPER**, choisissez **IGDB** dans **SCRAPER DEPUIS**.
 
-### Stockage des médias téléchargés
+{% hint style="info" %}
+**Plus simple que la saisie à la manette :** fermez RetroBat, ouvrez `emulationstation\.emulationstation\es_settings.cfg` avec un éditeur de texte, et ajoutez (ou complétez) ces deux lignes :
 
-Tous les médias téléchargés sont stockés dans le dossier des jeux (répertoire `\roms`)
+```xml
+<string name="IGDBClientID" value="votre client id" />
+<string name="IGDBSecret" value="votre client secret" />
+```
+{% endhint %}
 
-<div align="left"><figure><img src="https://i.imgur.com/XlUVX8L.png" alt=""><figcaption><p>Exemple</p></figcaption></figure></div>
+{% hint style="warning" %}
+* Gardez votre Client Secret pour vous.
+* Cliquer à nouveau sur **New Secret** crée un nouveau secret et invalide le précédent : il faut alors le saisir à nouveau dans RetroBat.
+{% endhint %}
 
-<table><thead><tr><th width="199">Répertoire</th><th>Média stocké</th></tr></thead><tbody><tr><td>images</td><td>boîtier (thumb), fanart, dos du boîtier (boxback), image, logo (marquee), carte (map)</td></tr><tr><td>manuals</td><td>Manuel utilisateur</td></tr><tr><td>videos</td><td>Vidéo mp4</td></tr></tbody></table>
+## Stockage des médias téléchargés
 
-### Utiliser des médias locaux
+Les médias sont stockés dans le dossier de chaque système, dans des sous-dossiers. Chaque fichier porte le nom du fichier du jeu, suivi du type de média.
 
-Il est également possible d'utiliser des images et vidéos déjà disponible sur votre ordinateur, ou que vous auriez crées vous-même.\
-\
-Pour cela, il faudra :
+<div align="left"><figure><img src="../.gitbook/assets/image (299).png" alt=""><figcaption></figcaption></figure></div>
 
-* Renommer les médias exactement comme le jeu,
-* Rajouter l'extension de fichier correspondant au type de média :
-  * _nom\_du\_jeu_**-thumb** pour un visuel correspondant au boitier
-  * _nom\_du\_jeu_**-image** pour un visuel correspondant à une image du jeu
-  * _nom\_du\_jeu_**-marquee** pour un visuel correspondant au logo du jeu
-  * _nom\_du\_jeu_**-video.mp4** pour une vidéo.
-* Placer les médias dans un répertoire nommé "**images**" pour les images, et "**videos**" pour des vidéos
-* Depuis les [**PARAMÈTRES SYSTÈMES**](main-menu.md#parametres-systeme), dans  "**options développeur**", activer l'option "**Rechercher des visuels complémentaires**"
+<table data-header-hidden><thead><tr><th width="139.5"></th><th width="259"></th><th></th></tr></thead><tbody><tr><td><strong>Dossier</strong></td><td><strong>Médias</strong></td><td>Exemple pour <code>roms\snes\Super Metroid.zip</code></td></tr><tr><td><code>images</code></td><td>Boîte, dos de boîte, capture, logo, fan art, carte, cartouche, écran titre, décoration…</td><td><code>images\Super Metroid-thumb.png</code>, <code>-image</code>, <code>-marquee</code>, <code>-fanart</code>, <code>-boxback</code>, <code>-box</code>, <code>-wheel</code>, <code>-map</code>, <code>-cartridge</code>, <code>-titleshot</code>, <code>-bezel</code></td></tr><tr><td><code>videos</code></td><td>Vidéos</td><td><code>videos\Super Metroid-video.mp4</code></td></tr><tr><td><code>manuals</code></td><td>Manuels (PDF)</td><td><code>manuals\Super Metroid-manual.pdf</code></td></tr><tr><td><code>magazines</code></td><td>Magazines</td><td><code>magazines\Super Metroid-magazine.pdf</code></td></tr></tbody></table>
 
-<figure><img src="https://i.imgur.com/pTTYZa0.png" alt=""><figcaption></figcaption></figure>
+Les informations des jeux et les liens vers les médias sont enregistrés dans le fichier `gamelist.xml` du dossier du système (par exemple `roms\snes\gamelist.xml`).
 
+## Utiliser vos propres médias
 
+Vous pouvez utiliser des images et vidéos que vous avez déjà, ou que vous avez créées vous-même.
 
-### Gestion des métadonnées du jeu
+1. Nommez chaque fichier exactement comme le fichier du jeu (sans son extension), suivi du type de média :
 
-Le menu [Options du Jeu](game-options.md) permet également de modifier manuellement les métadonnées des jeux:
+<table><thead><tr><th>Fichier</th><th width="229.5">Média</th><th>Dossier</th></tr></thead><tbody><tr><td><code>Super Metroid-thumb.png</code></td><td>Boîte</td><td><code>images</code></td></tr><tr><td><code>Super Metroid-image.png</code></td><td>Image du jeu (capture)</td><td><code>images</code></td></tr><tr><td><code>Super Metroid-marquee.png</code></td><td>Logo</td><td><code>images</code></td></tr><tr><td><code>Super Metroid-video.mp4</code></td><td>Vidéo</td><td><code>videos</code></td></tr></tbody></table>
 
-<div align="left"><figure><img src="https://i.imgur.com/PfePfik.png" alt=""><figcaption></figcaption></figure></div>
+2. Copiez les fichiers dans le dossier `images` ou `videos` du système (par exemple `roms\snes\images`). Les images peuvent être en `.png` ou `.jpg`.
+3. Activez **RECHERCHER DES VISUELS LOCAUX** dans **MENU PRINCIPAL** > **PARAMÈTRES SYSTÈME** > **OPTIONS DÉVELOPPEUR** > **GESTION DES DONNÉES**.
 
-**Il est possible de :**
+<div align="left"><figure><img src="../.gitbook/assets/image (300).png" alt=""><figcaption></figcaption></figure></div>
 
-* Mettre à jour les informations générales (titre, description, note, date de sortie, développeur, éditeur, famille de jeu, genres, système d'arcade, nombre de joueurs, langue et région)
-* Modifier les médias (attacher d'autres images)
-* Ajouter le jeu aux favoris
-* Masquer le jeu
-* Etiquetter le jeu "enfant" afin de le faire apparaître dans l'[interface Enfant](../utilisation-avancee/kiosk-and-kid-mode.md#mode-enfant)
+{% hint style="info" %}
+Vos fichiers ne sont utilisés que si le jeu n'a pas déjà un média de ce type dans la liste de jeux. Pour utiliser vos propres médias sur un jeu déjà scrapé, associez-les avec **ÉDITER LES MÉTADONNÉES DU JEU** (voir ci-dessous).
+{% endhint %}
+
+## Modifier les métadonnées d'un jeu
+
+Dans le menu [Options du jeu](game-options.md), choisissez **ÉDITER LES MÉTADONNÉES DU JEU** :
+
+<div align="left"><figure><img src="../.gitbook/assets/image (301).png" alt=""><figcaption></figcaption></figure></div>
+
+Vous pouvez :
+
+* modifier les informations du jeu : nom, description, note, date de sortie, développeur, éditeur, famille de jeu, genres, système d'arcade, nombre de joueurs, langues, région ;
+* associer d'autres fichiers de médias (image, vidéo, logo, boîte, fan art, manuel, carte…) ;
+* ajouter le jeu aux favoris ;
+* masquer le jeu ;
+* marquer le jeu comme **jeu pour enfants**, pour l'afficher en [mode Enfant](../utilisation-avancee/kiosk-and-kid-mode.md#mode-enfant).
