@@ -46,6 +46,8 @@ These settings override, for this system only, the ones defined in **MAIN MENU**
 
 ### Advanced system options
 
+<div align="left"><figure><img src="../.gitbook/assets/image (242).png" alt=""><figcaption></figcaption></figure></div>
+
 1. **EMULATOR**: choose the emulator and the core used for this system. **AUTO** uses the default emulator chosen by RetroBat. See [Running a game](../get-started/running-a-game.md).
 2. **General settings**: the settings shared by most emulators (shader set, decorations, aspect ratio, video mode, controller autoconfiguration…).
 3. **Emulator settings**: the settings specific to the selected emulator or core, which RetroBat writes to the emulator configuration when a game is launched.
