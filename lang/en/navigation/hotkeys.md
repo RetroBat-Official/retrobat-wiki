@@ -39,7 +39,7 @@ Controller buttons are named by their position: **South** = B (Nintendo) / ✕ (
 | Capture / release the mouse                          |                      | `F11`                          |
 | Game focus (RetroArch, see below)                    |                      | `Scroll Lock`                  |
 
-(\*) The **HOTKEY + D-pad right** fast forward can be switched from "hold" to "toggle" with the fast forward option in the system or game advanced settings.
+(\*) The **HOTKEY + D-pad right** fast forward can be switched from "hold" to "toggle" with **GAME SETTINGS** > **RETROARCH OPTIONS** > **EMULATION** > **FAST FORWARD BEHAVIOR** (also available per system or per game).
 
 <div align="left"><figure><img src="../.gitbook/assets/image (223).png" alt=""><figcaption></figcaption></figure></div>
 
