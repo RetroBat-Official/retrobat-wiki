@@ -39,7 +39,7 @@ Les boutons de manette sont désignés par leur position : **Sud** = B (Nintendo
 | Capturer / libérer la souris                                  |                       | `F11`                           |
 | Game Focus (RetroArch, voir plus bas)                         |                       | `Arrêt défil`                   |
 
-(\*) L'avance rapide de **HOTKEY + Croix droite** peut passer du mode « maintenir » au mode « activer / désactiver » avec l'option d'avance rapide des paramètres avancés du système ou du jeu.
+(\*) L'avance rapide de **HOTKEY + Croix droite** peut passer du mode « maintenir » au mode « activer / désactiver » avec **PARAMÈTRES DES JEUX** > **OPTIONS RETROARCH** > **ÉMULATION** > **TYPE D'AVANCE RAPIDE** (aussi disponible par système ou par jeu).
 
 {% hint style="info" %}
 Tous les émulateurs ne gèrent pas toutes ces actions : chaque émulateur reçoit uniquement les actions qu'il sait réaliser.
