@@ -74,7 +74,7 @@ If your controller is not configured automatically:
 * Press the corresponding button on your controller for each input. If your controller does not have a given button, press and hold any button to skip it.
 
 {% hint style="info" %}
-We recommend using **SELECT** (or **Back**/**View** on Xbox controllers) as the **hotkey**. The hotkey is combined with other buttons to trigger shortcuts, such as exiting a game or saving a state. See Hotkeys.
+We recommend using **SELECT** (or **Back**/**View** on Xbox controllers) as the **hotkey**. The hotkey is combined with other buttons to trigger shortcuts, such as exiting a game or saving a state. See [Hotkeys](../navigation/hotkeys.md).
 {% endhint %}
 
 **Congratulations!** RetroBat is installed and running. Next step: Adding a game.

@@ -65,15 +65,17 @@ You can also play specific music for each system. Create a subfolder named exact
 
 EmulationStation can run your own scripts or programs on certain events. Place them in the subfolder matching the event:
 
-| Subfolder    | Event                                   |
-| ------------ | --------------------------------------- |
-| `game-start` | A game is launched                      |
-| `game-end`   | A game is closed                        |
-| `quit`       | RetroBat is closed                      |
-| `reboot`     | The computer is restarted from RetroBat |
-| `shutdown`   | The computer is shut down from RetroBat |
-| `sleep`      | The computer goes to sleep              |
-| `wake`       | The computer wakes up                   |
+| Subfolder          | Event                                   |
+| ------------------ | --------------------------------------- |
+| `game-start`       | A game is launched                      |
+| `game-end`         | A game is closed                        |
+| `quit`             | RetroBat is closed                      |
+| `reboot`           | The computer is restarted from RetroBat |
+| `shutdown`         | The computer is shut down from RetroBat |
+| `sleep`            | The computer goes to sleep              |
+| `start`            | RetroBat is started                     |
+| `update-gamelists` | Gamelist is updated                     |
+| `wake`             | The computer wakes up                   |
 
 #### themes
 
