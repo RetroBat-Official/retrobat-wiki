@@ -34,6 +34,10 @@ Press **West** ![](<../.gitbook/assets/image (225).png>) to open the **QUICK SEA
 
 <div align="left"><figure><img src="../.gitbook/assets/image (226).png" alt=""><figcaption></figcaption></figure></div>
 
+{% hint style="warning" %}
+The quick search requires the **ALL GAMES** collection. If **West** does nothing in the System View, enable it in **MAIN MENU** > **GAME COLLECTION SETTINGS** > **AUTOMATIC GAME COLLECTIONS**. See [Game Collections](game-collections.md).
+{% endhint %}
+
 ### Navigation bar
 
 Press **East** ![](<../.gitbook/assets/image (227).png>) to open the **NAVIGATION BAR**. It lets you jump directly to a group of systems. Its content depends on how systems are sorted (**MAIN MENU** > **GAME COLLECTION SETTINGS** > **SORT SYSTEMS**):
