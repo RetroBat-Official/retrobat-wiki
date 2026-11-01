@@ -1,140 +1,123 @@
 # Configuration of systems and games
 
-The main advantage of using RetroBat over other front-ends or standalone emulators, is that all configuration can be managed directly from within RetroBat, per system or individually per game.
-
-This means that, as a user, one should not have to open an emulator to access to its configuration.
+One of the main advantages of RetroBat is that emulators are configured **from the RetroBat menus**, for all games, for a system or for a single game. You do not need to open the emulators to configure them.
 
 {% hint style="danger" %}
-Trying to manage configuration directly within the emulator will often end up with all the configuration being overwritten by RetroBat when running a game, as the default values set in RetroBat will be passed to the emulator.
+Do not change in an emulator a setting that is also available in RetroBat: RetroBat writes its own value in the emulator configuration each time a game is launched, so your change will be overwritten. See How does it work?
 {% endhint %}
 
-The configuration elements available in RetroBat are called "features", they have the advantage that they can be set at 2 level:
+## The three configuration levels
 
-* Globally for a system
-* Per-game
+The settings available in RetroBat are called **features**. They can be defined at three levels:
 
+<table><thead><tr><th width="102">Level</th><th width="395.5">Where</th><th>Applies to</th></tr></thead><tbody><tr><td><strong>Global</strong></td><td><strong>MAIN MENU</strong> > <strong>GAME SETTINGS</strong></td><td>All systems and games</td></tr><tr><td><strong>System</strong></td><td>Game View > <strong>SELECT</strong> (<a href="view-options.md">View options</a>) > <strong>ADVANCED SYSTEM OPTIONS</strong></td><td>All games of the system</td></tr><tr><td><strong>Game</strong></td><td>Game View > hold <strong>South</strong> on a game (<a href="game-options.md">Game options</a>) > <strong>ADVANCED GAME OPTIONS</strong></td><td>This game only</td></tr></tbody></table>
 
-
-## How to access the configuration screen:
-
-The features menu is available from the "[View Options](view-options.md)" (SELECT) menu or from the "[Game Options](game-options.md)" menu (LONG PRESS "SOUTH" on the game):
-
-#### when selecting the **ADVANCED SYSTEM OPTIONS** submenu:
-
-<div align="left"><figure><img src="https://i.imgur.com/NTx2K4c.png" alt=""><figcaption><p>How to access features from the VIEW OPTIONS</p></figcaption></figure></div>
-
-\==> This will enable configuration for all games of the selected system.
-
-
-
-#### when selecting the ADVANCED GAME OPTIONS submenu
-
-<div align="left"><figure><img src="https://i.imgur.com/lJNGWGh.png" alt=""><figcaption></figcaption></figure></div>
-
-\==> This will enable configuration for the specified game only.
-
-
-
-It is very important to note that the more detailed option will always be the option passed to the emulator, this means that the option set for a specific game will be used over the option set at system-level.
-
-## The configuration options
-
-The features available depend on the selected emulator, as they do not have the same options.
-
-This means that for a same system, when changing the emulator, the available features will not be identical.
-
-
-
-In most of the cases, the features will be grouped within 2 subgroups:
-
-* General Settings
-* Advanced Settings
-
-<div align="left"><figure><img src="https://i.imgur.com/mcSBHUD.png" alt=""><figcaption><p>Example of settings for NES with FCEUMM core</p></figcaption></figure></div>
-
-### General Settings
-
-The **General Settings** will give you access to the following configuration options, they exist for most of the emulators:
-
-* Shaders to apply
-* Bezels (decorations) to apply
-* Game aspect ratio and resolution
-* Vsync
-* Pixel Perfect
-* Disabling controller autoconfiguration (this option is on by default)
-
-
-
-### Advanced Settings
-
-These features will be far more specific, they are arranged in the following submenus:
-
-* EMULATION : contains features such as language, machine emulated, region but also performance options available for the emulator
-* VIDEO : General video options such as monitor index, output signal, screen orientation, ...
-* SCREEN SYNC : usually containing options to avoid tearing like advanced vsync features
-* VISUAL RENDERING: contains various screen effect features, upscaling configuration, anti-aliasing options...
-* AUDIO : general audio settings, like sample rate, low-pass filter...
-* LATENCY REDUCTION : options to reduce input lag
-* USER INTERFACE : contains features such as FPS display, enabling or disabling emulator notifications...
-* DRIVERS : options to change video, audio, controller drivers used by the emulator
-* CONTROLS : options related with controls such as the type of joystick, lightgun options...
-
-<div align="left"><figure><img src="https://i.imgur.com/hGdcInG.png" alt=""><figcaption><p>Example of EMULATION features submenu for FCEUMM core</p></figcaption></figure></div>
-
-
-
-In addition, some emulators will have specific submenus, this is the case for example for pcsx2 features, that have a MANUAL HACK and a GAME FIXES submenus:
-
-<div align="left"><figure><img src="https://i.imgur.com/Mw3E0dB.png" alt=""><figcaption></figcaption></figure></div>
-
-or for the PORTS that have a dedicated per-game setting:
-
-<div align="left"><figure><img src="https://i.imgur.com/nCX1t0V.png" alt=""><figcaption></figcaption></figure></div>
-
-
-
-## How does the magic work ?
-
-The trick that makes all of this possible is simple : before launching the game, RetroBat will go through the options that have been set by the users, and apply these settings directly in the emulator configuration file, before running the emulator.
-
-
-
-As an example, let's take the case of a user that needs to change the video driver to VULKAN for the duckstation emulator.
-
-Once in the system configuration options screens
-
-<div align="left"><figure><img src="https://i.imgur.com/HkFOJoU.png" alt=""><figcaption></figcaption></figure></div>
-
-Select the **DRIVERS** submenu in the **ADVANCED SETTINGS** group:
-
-<div align="left"><figure><img src="https://i.imgur.com/qthtyR1.png" alt=""><figcaption></figcaption></figure></div>
-
-
-
-Then change the **VIDEO DRIVER** option to "VULKAN":
-
-<div align="left"><figure><img src="https://i.imgur.com/xaeKGGB.png" alt=""><figcaption></figcaption></figure></div>
-
-When running a game with the duckstation emulator, RetroBat will automatically set the following value in the Duckstation settings file before launching the game:
-
-<div align="left"><figure><img src="../.gitbook/assets/yYUfic3.png" alt=""><figcaption></figcaption></figure></div>
-
-Et voilà !
-
-## Great, but what does the value "AUTO" mean ?
-
-The value "AUTO" has different meaning whether you are configuring the features at system level or at game level.
-
-At system level, the value "AUTO" is a default value that RetroBat will set as the target option value, the RetroBat Team has usually defined the most commonly used value as default value or the most relevant for best user-experience.
-
-At game level configuration, the value "AUTO" means that the default value set for the system/emulator should be used.
+**The most specific setting always wins:** a game setting overrides the system setting, which overrides the global setting.
 
 {% hint style="info" %}
-Note that the "per-game" setting will take precedence over the general setting.
+Only the most common settings (shader, decorations, aspect ratio, integer scaling, controller autoconfiguration…) exist at the global level. Emulator-specific settings are only available at the system and game levels.
 {% endhint %}
 
-## Fine, but i do not see an option that i need to set !
+## Opening the configuration
 
-Do not panic, if there is an option within an emulator that you wish to change, do not hesitate to contact the RetroBat team, that will include this option in the next release !
+### For a system
 
-In the meantime, options that are not available in RetroBat can be changed directly in the emulator, they are usually not overwritten by RetroBat...
+In the Game View of the system, press **SELECT** and choose **ADVANCED SYSTEM OPTIONS**:
+
+<div align="left"><figure><img src="../.gitbook/assets/image (247).png" alt=""><figcaption></figcaption></figure></div>
+
+The settings will apply to all games of this system.
+
+### For a game
+
+In the Game View, hold **South** on the game and choose **ADVANCED GAME OPTIONS** (or press **North** in the Game Options menu):
+
+<div align="left"><figure><img src="../.gitbook/assets/image (248).png" alt=""><figcaption></figcaption></figure></div>
+
+The settings will only apply to this game.
+
+## The configuration menu
+
+<div align="left"><figure><img src="../.gitbook/assets/image (251).png" alt=""><figcaption></figcaption></figure></div>
+
+<div align="left"><figure><img src="../.gitbook/assets/image (250).png" alt=""><figcaption></figcaption></figure></div>
+
+The menu always starts with the **EMULATOR** line: choose the emulator and core to use. **Change the emulator first**: the menu is reloaded and shows the settings available for the selected emulator. Each emulator has its own settings, so the list changes from one emulator to another.
+
+The settings are then grouped as follows:
+
+<table><thead><tr><th width="250.25">Group</th><th>Content</th></tr></thead><tbody><tr><td><strong>GENERAL SETTINGS</strong></td><td>Settings available for most emulators: shader, decorations (bezels) and tattoo, aspect ratio, video mode, integer scaling, smoothing…</td></tr><tr><td><strong>ADVANCED SETTINGS</strong></td><td>Settings specific to the emulator or core, organized in submenus (see below)</td></tr><tr><td><strong>PORT SETTINGS</strong></td><td>For ports: settings of the selected game</td></tr></tbody></table>
+
+The most common **ADVANCED SETTINGS** submenus are:
+
+<table><thead><tr><th width="222.75">Submenu</th><th>Content</th></tr></thead><tbody><tr><td><strong>EMULATION</strong></td><td>Emulated machine, region, language, BIOS, performance…</td></tr><tr><td><strong>VIDEO</strong></td><td>Fullscreen, monitor index, screen orientation…</td></tr><tr><td><strong>VISUAL RENDERING</strong></td><td>Upscaling, texture filtering, anti-aliasing, screen effects…</td></tr><tr><td><strong>SCREEN SYNC</strong></td><td>V-Sync and other synchronization settings</td></tr><tr><td><strong>AUDIO</strong></td><td>Audio settings (sample rate, filters…)</td></tr><tr><td><strong>LATENCY REDUCTION</strong></td><td>Settings to reduce input lag</td></tr><tr><td><strong>USER INTERFACE</strong></td><td>FPS display, emulator notifications…</td></tr><tr><td><strong>DRIVERS</strong></td><td>Video, audio and controller drivers</td></tr><tr><td><strong>CONTROLS</strong></td><td>Controller type, analog sticks, mappings…</td></tr><tr><td><strong>GUNS</strong> / <strong>WHEELS</strong></td><td>Lightgun and steering wheel settings</td></tr><tr><td><strong>TURBO</strong></td><td>Turbo buttons</td></tr><tr><td><strong>GAME PATCHES</strong> / <strong>GAME FIXES</strong> / <strong>MANUAL HACKS</strong></td><td>Patches and fixes for specific games</td></tr></tbody></table>
+
+<div align="left"><figure><img src="../.gitbook/assets/image (252).png" alt=""><figcaption><p>Example of EMULATION features submenu for FCEUMM core</p></figcaption></figure></div>
+
+Some emulators have their own submenus, for example **MANUAL HACKS** and **GAME FIXES** for PCSX2:
+
+<div align="left"><figure><img src="../.gitbook/assets/image (253).png" alt=""><figcaption></figcaption></figure></div>
+
+{% hint style="info" %}
+Select a setting to display its description at the bottom of the screen.
+{% endhint %}
+
+## What does "AUTO" mean?
+
+<table><thead><tr><th width="164">Level</th><th>AUTO means…</th></tr></thead><tbody><tr><td>Global</td><td>The default value chosen by the RetroBat team, usually the most compatible one</td></tr><tr><td>System</td><td>The global value if there is one, otherwise the RetroBat default value</td></tr><tr><td>Game</td><td>The value set for the system</td></tr></tbody></table>
+
+To cancel a setting, set it back to **AUTO**.
+
+## How does it work?
+
+When you change a setting, RetroBat saves it in the `emulationstation\.emulationstation\es_settings.cfg` file.
+
+When you launch a game, RetroBat:
+
+1. reads the global settings, then the system settings, then the game settings (the most specific one wins);
+2. writes the matching values in the emulator configuration files;
+3. starts the emulator.
+
+**Example:** use the Vulkan renderer for PlayStation games with DuckStation.
+
+1. In the PlayStation Game View, press **SELECT** > **ADVANCED SYSTEM OPTIONS**.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (256).png" alt=""><figcaption></figcaption></figure></div>
+
+2. Open the **DRIVERS** submenu in the **ADVANCED SETTINGS** group.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (255).png" alt=""><figcaption></figcaption></figure></div>
+
+3. Set **VIDEO** to **VULKAN**.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (254).png" alt=""><figcaption></figcaption></figure></div>
+
+When a game is launched, RetroBat writes `Renderer = Vulkan` in the `[GPU]` section of `emulators\duckstation\settings.ini`:
+
+<div align="left"><figure><img src="../.gitbook/assets/image (257).png" alt=""><figcaption></figcaption></figure></div>
+
+If the setting is left on **AUTO**, RetroBat writes `Renderer = Automatic`: this is why a change made directly in DuckStation would be lost.
+
+{% hint style="warning" %}
+* Settings available in RetroBat are written at each launch, with your value or the RetroBat default value: always change them in RetroBat.
+* Settings that are not available in RetroBat are usually kept: you can change them in the emulator.
+* To configure the controls yourself in an emulator, set **AUTOCONFIGURE CONTROLLERS** to **OFF** for this system or game.
+{% endhint %}
+
+{% hint style="info" %}
+Game settings are linked to the **file name** of the game. If you rename the file, its settings are lost. Two files with the same name in the same system share the same settings.
+{% endhint %}
+
+## Troubleshooting
+
+* **A setting has no effect:** check that it is not overridden at the game level, and that the right emulator is selected.
+* **Check what RetroBat did:** the log files show the values applied at launch:
+  * `emulationstation\emulatorLauncher.log` (game launch and emulator configuration)
+  * `emulationstation\.emulationstation\es_log.txt` (RetroBat interface)
+* **Go back to the default configuration:** set the settings back to **AUTO**.
+
+## I cannot find the setting I need
+
+If an emulator has a setting you would like to change from RetroBat, contact the RetroBat team on [Discord](https://discord.gg/GVcPNxwzuT) or the [forum](https://retrobat.forumgaming.fr/): it can be added in a future version.
+
+In the meantime, you can change it directly in the emulator: settings that are not available in RetroBat are usually not overwritten.
