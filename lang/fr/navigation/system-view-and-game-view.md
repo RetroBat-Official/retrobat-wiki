@@ -1,143 +1,118 @@
+---
+description: Les bases de la navigation dans RetroBat
+---
+
 # Vue Systèmes et Vue Jeux
 
-L'intégralité des captures d'écrans utilisées dans le wiki ont été réalisées en utilisant le thème par défaut **ES-THEME-CARBON**.
+Toutes les captures de cette section ont été réalisées avec le thème par défaut de RetroBat, **Carbon** (es-theme-carbon).
 
 ## Vue Systèmes
 
-Le premier écran affiché lors du lancement de Retrobat est l'écran de **Vue Système**, sur cet écran il est possible de naviguer parmi les systèmes de jeux ou d'accéder à la **Vue Jeux**.
+La **Vue Systèmes** est le premier écran affiché au démarrage de RetroBat. Elle permet de parcourir les systèmes et les collections, et d'ouvrir leur liste de jeux (**Vue Jeux**).
 
-<div align="left"><figure><img src="../.gitbook/assets/image (179).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (265).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
-Par défaut, seuls les systèmes pour lesquels des jeux ont été placés dans le dossier `\roms` apparaissent.
+Par défaut, seuls les systèmes qui ont des jeux dans leur dossier `roms` sont affichés. Pour afficher tous les systèmes, activez **AFFICHER LES SYSTÈMES SANS JEUX** dans **MENU PRINCIPAL** > **PARAMÈTRES DES COLLECTIONS**. Dans ce même menu, **SYSTÈMES AFFICHÉS** permet de masquer les systèmes que vous ne voulez pas voir.
 {% endhint %}
 
 {% hint style="info" %}
-Certains systèmes sont regroupés, aller à la section [Systèmes Groupés](system-view-and-game-view.md#systemes-groupes) du wiki pour plus d'information.
+Certains systèmes sont regroupés : voir Systèmes groupés.
 {% endhint %}
 
-Depuis la Vue Système, il est possible d'accéder à différents menus.
+### Boutons de la Vue Systèmes
+
+<table><thead><tr><th width="264">Bouton</th><th>Action</th></tr></thead><tbody><tr><td>Croix gauche / droite</td><td>Système précédent / suivant</td></tr><tr><td>L1 / R1</td><td>Défilement rapide des systèmes</td></tr><tr><td>Sud</td><td>Ouvrir la liste des jeux du système</td></tr><tr><td>Est</td><td>Volet navigation</td></tr><tr><td>Nord</td><td>Aller à un système au hasard (ou <a href="https://app.gitbook.com/s/exdzL60ZuqPLldz2AYta/advanced-features/netplay">NetPlay</a>)</td></tr><tr><td>Ouest</td><td>Recherche rapide / Système aléatoire (appui long)</td></tr><tr><td>START</td><td><a href="main-menu.md">Menu principal</a></td></tr><tr><td>SELECT</td><td>Accès rapide</td></tr><tr><td>L3 / R3</td><td>Passer à la musique suivante</td></tr></tbody></table>
+
+{% hint style="info" %}
+Lorsque le Netplay est activé, Nord ouvre le menu Netplay au lieu d'aller à un système au hasard.
+{% endhint %}
 
 ### Recherche rapide
 
-Le menu de recherche rapide est disponible en appuyant sur ![](<../.gitbook/assets/image (33).png>). Il permet de rechercher rapidement un jeu.
+Appuyez sur **Ouest** ![](<../.gitbook/assets/image (267).png>) pour ouvrir la **RECHERCHE RAPIDE** : tapez une partie du nom d'un jeu pour le retrouver dans tous vos systèmes.
 
-<div align="left"><figure><img src="https://i.imgur.com/iw1kbMm.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (268).png" alt=""><figcaption></figcaption></figure></div>
 
-### Barre de Navigation Constructeur
+### Volet navigation
 
-La barre de navigation constructeur est disponible en appuyant sur ![](<../.gitbook/assets/image (7) (1).png>), elle permet d'accéder rapidement aux systèmes du constructeur sélectionné.
+Appuyez sur **Est** ![](<../.gitbook/assets/image (269).png>) pour ouvrir le **VOLET NAVIGATION**. Il permet d'aller directement à un groupe de systèmes. Son contenu dépend du tri des systèmes (**MENU PRINCIPAL** > **PARAMÈTRES DES COLLECTIONS** > **TRIER LES SYSTÈMES**) :
 
-<div align="left"><figure><img src="https://i.imgur.com/wuWdSXw.png" alt=""><figcaption></figcaption></figure></div>
+* par constructeur (par défaut) : aller à un constructeur ;
+* par ordre alphabétique : aller à une lettre ;
+* par type de matériel : aller à un type de matériel (consoles, portables, ordinateurs…) ;
+* par année de sortie : aller à une décennie.
 
-### Accès Rapide
+<div align="left"><figure><img src="../.gitbook/assets/image (270).png" alt=""><figcaption></figcaption></figure></div>
 
-Le menu **ACCÈS RAPIDE** est disponible en appuyant sur **SELECT**.
+### Accès rapide
 
-<div align="left"><figure><img src="https://i.imgur.com/q37uXNs.png" alt=""><figcaption></figcaption></figure></div>
+Appuyez sur **SELECT** pour ouvrir le menu **ACCÈS RAPIDE**.
 
-Depuis ce menu il est possible d'afficher le **manuel utilisateur**, de lancer l'**économiseur d'écran** ou encore de **quitter** Retrobat.
+<div align="left"><figure><img src="../.gitbook/assets/image (271).png" alt=""><figcaption></figcaption></figure></div>
 
-### Systèmes Groupés
+Depuis ce menu, vous pouvez passer à la musique suivante, lancer l'économiseur d'écran, consulter le manuel utilisateur de RetroBat ou quitter RetroBat.
 
-Par défaut, certains systèmes n’apparaissent pas dans la **Vue Système** de façon individuelle mais sont regroupés au sein d'un système unique.
+### Systèmes groupés
+
+Par défaut, certains systèmes n'apparaissent pas individuellement, mais à l'intérieur d'un groupe : ouvrez le groupe pour voir ses systèmes.
 
 <details>
 
 <summary>Liste des systèmes groupés</summary>
 
-```
-AMIGA
-* AMIGA 4000
-* AMIGA 1200
-* AMIGA 500
-
-GAME & WATCH
-* LCD Games
-
-MESS
-* Adventure Vision
-* TV Games
-* Mega Duck
-* PV-1000
-* CreatiVision
-* Game.com
-* Game Pocket Computer
-* Super Cassette Vision
-* FM-7
-* APF M-1000
-* BBC Micro
-* Arcadia 2001
-* Game Master
-* Astrocade
-* Tutor
-* TRS-80 Color Computer
-* Camputers Lynx
-* Super A'Can
-* Gamate
-
-MSX
-* MSX
-* MSX2
-* MSX2+
-
-PORTS
-* Ports
-* Cave Story
-* Easy-RPG
-* PrBoom
-* Quake
-```
+<table><thead><tr><th width="222">Groupe</th><th>Systèmes</th></tr></thead><tbody><tr><td>Amiga</td><td>Amiga OCS/ECS, Amiga AGA, Amiga 4000</td></tr><tr><td>Apple II</td><td>Apple II, Apple IIGS</td></tr><tr><td>DOS</td><td>eXoDOS</td></tr><tr><td>Game and Watch</td><td>LCD Games</td></tr><tr><td>Game Boy</td><td>Game Boy, Game Boy 2 Players, Game Boy Color, Game Boy Color 2 Players, Game Boy MSU</td></tr><tr><td>Game Boy Advance</td><td>Game Boy Advance, Game Boy Advance 2 Players</td></tr><tr><td>Jaguar</td><td>Jaguar, Jaguar CD</td></tr><tr><td>Megadrive - Genesis</td><td>Megadrive - Genesis, MD-MSU, Mega CD, 32X</td></tr><tr><td>MESS</td><td>Adventure Vision, ADAM, APF M-1000, Archimedes, Arcadia 2001, Astrocade, Atari XE Game System, Atom, BBC Micro, Camputers Lynx, Casio Loopy, Electron, Elektronika BK, FM-7, FM Towns, Gamate, Game.com, Game Master, Game Park 32, Game Pocket Computer, Mattel Aquarius, Pegasus, PV-1000, Super A'Can, TI-99/4A, TRS-80 Color Computer, Tutor, TV Games, V.Smile, VC4000, VG5000, MESS</td></tr><tr><td>MSX</td><td>MSX, MSX2, MSX2+, MSX turbo R</td></tr><tr><td>Neo Geo</td><td>Neo Geo, Neo Geo CD</td></tr><tr><td>Neo Geo Pocket</td><td>Neo Geo Pocket, Neo Geo Pocket Color</td></tr><tr><td>NES</td><td>Nintendo Entertainment System - Famicom, Famicom Disk System</td></tr><tr><td>Nintendo 64</td><td>Nintendo 64, Nintendo 64 Disk Drive</td></tr><tr><td>Recompilations N64</td><td>Perfect Dark, Ship of Harkinian, 2 Ship 2 Harkinian, Ghostship, Starship</td></tr><tr><td>PC Engine</td><td>PC Engine, PC Engine CD, SuperGrafx</td></tr><tr><td>Ports</td><td>Ports, Recompilation, 2 Ship 2 Harkinian, Bermuda Syndrome, Blake Stone, BennuGD, Cannonball, Cavestory, CDogs, Commander Genius, CorsixTH, DevilutionX, Dinothawr, Doom, Doom 3, Duke Nukem 3D, DuskLight, EasyRPG, ECWolf, GemRB, Half-Life, OpenGOAL, OpenJazz, OpenLara, Power Bomberman, PrBoom, Quake, Quake II, Raze, RealRTCW, REminiscence, Sonic 3 AIR, Sonic Mania, Sonic Retro, Super Mario War, The Force Engine</td></tr><tr><td>Super Nintendo</td><td>Super Nintendo Entertainment System, Super NES MSU-1, Satellaview, SuFami Turbo</td></tr><tr><td>Windows</td><td>Windows, Steam, GOG.com, EPIC, EA Games, Amazon Prime Gaming, eXoWin3x, eXoWin9x</td></tr><tr><td>WonderSwan</td><td>WonderSwan, WonderSwan Color</td></tr></tbody></table>
 
 </details>
 
-Il est possible de dégrouper les systèmes à partir du [**MENU PRINCIPAL**](main-menu.md) en sélectionnant **PARAMÈTRES DES COLLECTIONS**
+Pour afficher individuellement les systèmes groupés, ouvrez le [Menu Principal](main-menu.md) et allez dans **PARAMÈTRES DES COLLECTIONS** :
 
-<div align="left"><figure><img src="https://i.imgur.com/PwYjBlU.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (272).png" alt=""><figcaption></figcaption></figure></div>
 
-Sélectionner **SYSTÈMES GROUPÉS**
+Sélectionnez **SYSTÈMES GROUPÉS** :
 
-<div align="left"><figure><img src="https://i.imgur.com/Gk9mb4y.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (273).png" alt=""><figcaption></figcaption></figure></div>
 
-Décocher les systèmes à dégrouper
+Décochez les systèmes à dégrouper :
 
-<div align="left"><figure><img src="https://i.imgur.com/wqurB5M.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (274).png" alt=""><figcaption></figcaption></figure></div>
 
-Désormais, les systèmes apparaissent individuellement dans la **Vue Système**.
+Ces systèmes apparaissent désormais individuellement dans la Vue Systèmes.
 
 ## Vue Jeux
 
-La **Vue Jeux** est l'écran à partir duquel il est possible de consulter la liste des jeux pour un système et de démarrer un jeu.
+La **Vue Jeux** permet de parcourir les jeux d'un système ou d'une collection, et de les lancer.
 
-Pour accéder à la **Vue Jeux**, choisir un système depuis la **Vue Système** et appuyer sur le bouton  ![](<../.gitbook/assets/image (20) (1).png>).
+Pour l'ouvrir, sélectionnez un système ou une collection dans la Vue Systèmes, puis appuyez sur **Sud** ![](<../.gitbook/assets/image (275).png>) .
 
-<div align="left"><figure><img src="../.gitbook/assets/image (215).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (276).png" alt=""><figcaption></figcaption></figure></div>
 
-Naviguer dans la liste des jeux en utilisant la croix directionnel
+### Boutons de la Vue Jeux
 
-* Appuyer ![](<../.gitbook/assets/image (20) (1).png>) pour démarrer un jeu (ou maintenir le bouton pour accéder aux [Options du Jeu](game-options.md)).
-* Appuyer ![](<../.gitbook/assets/image (7) (1).png>) pour retourner à la **Vue Système**.
+<table><thead><tr><th width="209.5">Bouton</th><th>Appui court</th><th>Appui long</th></tr></thead><tbody><tr><td>Croix haut / bas</td><td>Se déplacer dans la liste</td><td></td></tr><tr><td>L1 / R1</td><td>Défilement rapide de la liste</td><td></td></tr><tr><td>L2 / R2</td><td>Système précédent / suivant (*)</td><td></td></tr><tr><td>Sud</td><td>Lancer le jeu</td><td><a href="game-options.md">Options du jeu</a></td></tr><tr><td>Est</td><td>Retour à la Vue Systèmes</td><td></td></tr><tr><td>Nord</td><td>Sauvegardes d'état du jeu</td><td>Ajouter aux / retirer des favoris</td></tr><tr><td>Ouest</td><td>Rechercher / filtrer</td><td>Aller à un jeu au hasard</td></tr><tr><td>START</td><td><a href="main-menu.md">Menu principal</a></td><td></td></tr><tr><td>SELECT</td><td><a href="view-options.md">Options d'affichage</a></td><td>Afficher uniquement les favoris</td></tr><tr><td>L3</td><td><a href="../utilisation-avancee/sauvegardes-detat.md">Sauvegardes d'état du jeu</a></td><td></td></tr><tr><td>R3</td><td>Passer à la musique suivante</td><td></td></tr></tbody></table>
 
-Il existe plusieurs "types" d'affichage pour la liste de jeux, les différentes options sont disponibles depuis les [Options d'Affichage](view-options.md) (touche **SELECT**):
+### Affichage de la liste de jeux
 
-<div align="left"><figure><img src="../.gitbook/assets/89kbPN6.png" alt=""><figcaption></figcaption></figure></div>
+La liste de jeux peut être affichée de différentes façons (liste, grille, vue détaillée…), selon le thème. Pour la changer pour un système, appuyez sur **SELECT** pour ouvrir les [OPTIONS D'AFFICHAGE](view-options.md), puis choisissez un **TYPE DE VUE** :
 
-<div align="left"><figure><img src="../.gitbook/assets/9uFC0BC.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (278).png" alt=""><figcaption></figcaption></figure></div>
 
-La valeur **AUTOMATIQUE** correspond au type de vue défini dans [**MENU PRINCIPAL**](main-menu.md) > PARAMÈTRES D'AFFICHAGE > CONFIGURATION DU THÈME.
+<div align="left"><figure><img src="../.gitbook/assets/image (277).png" alt=""><figcaption></figcaption></figure></div>
 
-Pour y accéder appuyer sur **START**
+La valeur **AUTOMATIQUE** utilise le type de vue défini pour tous les systèmes. Pour le modifier :
 
-<div align="left"><figure><img src="../.gitbook/assets/image (180).png" alt=""><figcaption></figcaption></figure></div>
+1. Appuyez sur **START** pour ouvrir le [Menu Principal](main-menu.md), et allez dans **PARAMÈTRES D'AFFICHAGE**.
 
-Aller dans **CONFIGURATION DU THÈME**
+<div align="left"><figure><img src="../.gitbook/assets/image (279).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/NQ2Jw46.png" alt=""><figcaption></figcaption></figure></div>
+2. Allez dans **CONFIGURATION DU THÈME**.
 
-Puis régler le **TYPE DE VUE**
+<div align="left"><figure><img src="../.gitbook/assets/image (280).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../.gitbook/assets/image (216).png" alt=""><figcaption></figcaption></figure></div>
+3. Réglez le **TYPE DE VUE**.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (281).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
-Chaque Thème propose des types de vue différents.
+Chaque thème propose ses propres types de vue : essayez-les et gardez celui que vous préférez.
 {% endhint %}

@@ -65,7 +65,7 @@ Vous pouvez aussi jouer des musiques spécifiques à chaque système. Créez un 
 
 EmulationStation peut exécuter vos propres scripts ou programmes lors de certains événements. Placez-les dans le sous-dossier correspondant à l'événement :
 
-<table><thead><tr><th width="137.75">Sous-dossier</th><th>Événement</th></tr></thead><tbody><tr><td><code>game-start</code></td><td>Lancement d'un jeu</td></tr><tr><td><code>game-end</code></td><td>Fermeture d'un jeu</td></tr><tr><td><code>quit</code></td><td>Fermeture de RetroBat</td></tr><tr><td><code>reboot</code></td><td>Redémarrage de l'ordinateur depuis RetroBat</td></tr><tr><td><code>shutdown</code></td><td>Arrêt de l'ordinateur depuis RetroBat</td></tr><tr><td><code>sleep</code></td><td>Mise en veille de l'ordinateur</td></tr><tr><td><code>wake</code></td><td>Sortie de veille de l'ordinateur</td></tr></tbody></table>
+<table><thead><tr><th width="172.75">Sous-dossier</th><th>Événement</th></tr></thead><tbody><tr><td><code>game-start</code></td><td>Lancement d'un jeu</td></tr><tr><td><code>game-end</code></td><td>Fermeture d'un jeu</td></tr><tr><td><code>quit</code></td><td>Fermeture de RetroBat</td></tr><tr><td><code>reboot</code></td><td>Redémarrage de l'ordinateur depuis RetroBat</td></tr><tr><td><code>shutdown</code></td><td>Arrêt de l'ordinateur depuis RetroBat</td></tr><tr><td><code>sleep</code></td><td>Mise en veille de l'ordinateur</td></tr><tr><td><code>start</code></td><td>Ouverture de RetroBat</td></tr><tr><td><code>update-gamelists</code></td><td>Mise à jour de la liste de jeux</td></tr><tr><td><code>wake</code></td><td>Sortie de veille de l'ordinateur</td></tr></tbody></table>
 
 #### themes
 
@@ -122,7 +122,7 @@ Si une sauvegarde ou une capture d'écran n'est pas enregistrée dans le bon dos
 
 ## Dossier « sounds »
 
-Le sous-dossier `sounds\retroachievements` contient les sons joués lors du déblocage d'un RetroAchievement. Les fichiers copiés à cet endroit apparaissent automatiquement dans l'option **SON DE DÉBLOQUAGE** des réglages RetroAchievements :
+Le sous-dossier `sounds\retroachievements` contient les sons joués lors du déblocage d'un RetroAchievement. Les fichiers copiés à cet endroit apparaissent automatiquement dans l'option **SON DE DÉBLOCAGE** des réglages RetroAchievements :
 
 <div align="left"><figure><img src="../.gitbook/assets/image (262).png" alt=""><figcaption></figcaption></figure></div>
 
