@@ -46,7 +46,7 @@ Utilisez le menu de gauche pour parcourir les sections du wiki, ou la barre de r
 * **Vous voulez aller plus loin ?** La section [**Utilisation avancée**](https://app.gitbook.com/s/Cgoewyw8Sagl6SNUMrCG/utilisation-avancee) présente certaines fonctionnalités spécifiques de RetroBat.
 * **Comment naviguer ?** Consultez la section [**Navigation**](https://app.gitbook.com/s/Cgoewyw8Sagl6SNUMrCG/navigation) pour les touches, raccourcis et menus.
 
-L'équipe RetroBat propose également des [**Tutoriels**](https://app.gitbook.com/s/Cgoewyw8Sagl6SNUMrCG/tutoriels), enrichis régulièrement en fonction des demandes d'aide les plus fréquentes.
+L'équipe RetroBat propose également des [**Tutoriels**](https://app.gitbook.com/s/Cgoewyw8Sagl6SNUMrCG/tutoriels) enrichis régulièrement en fonction des demandes d'aide les plus fréquentes.
 
 Si vous ne trouvez pas l'information que vous êtes venu chercher, vous pouvez contacter l'équipe par les canaux suivants :
 
