@@ -20,7 +20,6 @@ Dans RetroBat, chaque famille de jeux arcade a son propre dossier dans `roms`. P
 {% hint style="info" %}
 * **MAME** est le plus complet : utilisez-le par défaut.
 * **FinalBurn Neo** est souvent plus léger et très bon pour les jeux de combat, beat'em up et shoot'em up (CPS, Neo Geo, Cave…).
-* Le système **Arcade** permet de mélanger dans un même dossier des jeux pour différents émulateurs : choisissez l'émulateur jeu par jeu avec la [CONFIGURATION AVANCÉE DU JEU](../navigation/configuration-des-systemes-et-des-jeux.md#pour-un-jeu).
 {% endhint %}
 
 ### Systèmes par famille de cartes
