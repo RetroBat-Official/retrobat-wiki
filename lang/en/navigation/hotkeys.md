@@ -70,6 +70,7 @@ Emulators marked with ✏️ can be customized (see Customizing hotkeys).
 * Dolphin ✏️
 * DuckStation ✏️
 * Eden
+* FBNeo (standalone) ✏️ (uses PadToKey, rewind only when enabled in FBNeo)
 * Flycast ✏️
 * Hatari
 * Jgenesis ✏️ (uses PadToKey)
@@ -120,7 +121,7 @@ RetroBat lets you change the default hotkeys of several emulators, for the keybo
 
 <summary>Emulators with customizable hotkeys</summary>
 
-ArcadeDuck, ares, BigPEmu, BizHawk, BlastEm, CGenius, DeSmuME, Dolphin, DuckStation, Flycast, Jgenesis, Mednafen, melonDS, Mesen, Model3-Vulkan, PCSX2, PPSSPP, Project64, Raine, RetroArch, SM2-emu, Snes9x.
+ArcadeDuck, ares, BigPEmu, BizHawk, BlastEm, CGenius, DeSmuME, Dolphin, DuckStation, FBNeo, Flycast, Jgenesis, Mednafen, melonDS, Mesen, Model3-Vulkan, PCSX2, PPSSPP, Project64, Raine, RetroArch, SM2-emu, Snes9x.
 
 </details>
 
@@ -143,7 +144,7 @@ RetroBat uses the first file found, in this order:
 
 <summary>Emulator names to use in file names</summary>
 
-`arcadeduck`, `ares`, `bigpemu`, `bizhawk`, `blastem`, `cgenius`, `desmume`, `dolphin`, `duckstation`, `flycast`, `jgenesis`, `mednafen`, `melonds`, `mesen`, `model3-vulkan`, `pcsx2`, `ppsspp`, `project64`, `raine`, `retroarch`, `sm2-emu`, `snes9x`
+`arcadeduck`, `ares`, `bigpemu`, `bizhawk`, `blastem`, `cgenius`, `desmume`, `dolphin`, `duckstation`, `fbneo`, `flycast`, `jgenesis`, `mednafen`, `melonds`, `mesen`, `model3-vulkan`, `pcsx2`, `ppsspp`, `project64`, `raine`, `retroarch`, `sm2-emu`, `snes9x`
 
 </details>
 
