@@ -68,6 +68,7 @@ Les émulateurs marqués ✏️ sont personnalisables (voir Personnaliser les ra
 * Dolphin ✏️
 * DuckStation ✏️
 * Eden
+* FBNeo (standalone) ✏️ (utilise PadToKey, retour arrière seulement s'il est activé)
 * Flycast ✏️
 * Hatari
 * Jgenesis ✏️ (utilise PadToKey)
@@ -118,7 +119,7 @@ RetroBat permet de modifier les raccourcis par défaut de plusieurs émulateurs,
 
 <summary>Émulateurs avec raccourcis personnalisables</summary>
 
-ArcadeDuck, ares, BigPEmu, BizHawk, BlastEm, CGenius, DeSmuME, Dolphin, DuckStation, Flycast, Jgenesis, Mednafen, melonDS, Mesen, Model3-Vulkan, PCSX2, PPSSPP, Project64, Raine, RetroArch, SM2-emu, Snes9x.
+ArcadeDuck, ares, BigPEmu, BizHawk, BlastEm, CGenius, DeSmuME, Dolphin, DuckStation, FBNeo, Flycast, Jgenesis, Mednafen, melonDS, Mesen, Model3-Vulkan, PCSX2, PPSSPP, Project64, Raine, RetroArch, SM2-emu, Snes9x.
 
 </details>
 
