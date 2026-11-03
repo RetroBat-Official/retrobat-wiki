@@ -142,7 +142,7 @@ RetroBat utilise le premier fichier trouvé, dans cet ordre :
 
 <summary>Noms d'émulateurs à utiliser dans les noms de fichiers</summary>
 
-`arcadeduck`, `ares`, `bigpemu`, `bizhawk`, `blastem`, `cgenius`, `desmume`, `dolphin`, `duckstation`, `flycast`, `jgenesis`, `mednafen`, `melonds`, `mesen`, `model3-vulkan`, `pcsx2`, `ppsspp`, `project64`, `raine`, `retroarch`, `sm2-emu`, `snes9x`
+`arcadeduck`, `ares`, `bigpemu`, `bizhawk`, `blastem`, `cgenius`, `desmume`, `dolphin`, `duckstation`, `fbneo`, `flycast`, `jgenesis`, `mednafen`, `melonds`, `mesen`, `model3-vulkan`, `pcsx2`, `ppsspp`, `project64`, `raine`, `retroarch`, `sm2-emu`, `snes9x`
 
 </details>
 
