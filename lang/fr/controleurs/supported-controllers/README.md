@@ -1,58 +1,63 @@
 # Contrôleurs compatibles
 
-En règle générale, les contrôleurs de jeux compatibles avec le système d'exploitation Windows sont compatibles nativement avec Retrobat.&#x20;
+La plupart des contrôleurs qui fonctionnent avec Windows fonctionnent aussi avec RetroBat : manettes, sticks arcade, pistolets, volants et clavier.
 
-Il est cependant recommandé de privilégier les contrôleurs XInput, les drivers SDL peuvent quelquefois poser des problèmes de compatibilité.
+RetroBat configure automatiquement vos contrôleurs dans les émulateurs : il suffit de configurer une fois votre contrôleur dans RetroBat (voir [Configuration des contrôleurs](../controller-configuration.md)).
 
+{% hint style="info" %}
+**Les manettes XInput (compatibles Xbox) sont recommandées** pour une compatibilité optimale : elles sont reconnues de la même façon par tous les émulateurs. Les autres manettes (PlayStation, Switch Pro, 8BitDo dans d'autres modes…) fonctionnent aussi, mais certains émulateurs peuvent demander des réglages supplémentaires.
+{% endhint %}
 
-
-Les sections du wiki listées ci-dessous répertorient des contrôleurs qui ont été testés par les équipes Retrobat.
-
-La liste est amenée à évoluer avec le temps.
-
-
-
-**Les contrôleurs sont regroupés dans 4 catégories.**
+Les pages suivantes listent les contrôleurs testés par l'équipe RetroBat, avec leurs réglages particuliers :
 
 {% tabs %}
 {% tab title="MANETTES DE JEU" %}
-L'idéal pour les jeux consoles.
+L'idéal pour les jeux de consoles.
 
-![](<../../.gitbook/assets/image (16) (1).png>)
+<div align="left"><figure><img src="../../.gitbook/assets/image (332).png" alt="" width="300"><figcaption></figcaption></figure></div>
 
 [La page des Manettes de Jeu](gamepads/)
 {% endtab %}
 
 {% tab title="STICKS ARCADE" %}
-Le contrôleur idéal pour les jeux d'arcade.
+L'idéal pour les jeux d'arcade, en particulier dans une borne.
 
-![](<../../.gitbook/assets/image (34).png>)
+<div align="left"><figure><img src="../../.gitbook/assets/image (333).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 [La page des Sticks Arcade](arcade-sticks.md)
 {% endtab %}
 
 {% tab title="PISTOLETS" %}
-L'idéal pour les jeux de tirs.
+L'idéal pour les jeux de tir.
 
-![](<../../.gitbook/assets/image (3) (1).png>)
+<div align="left"><figure><img src="../../.gitbook/assets/image (334).png" alt="" width="250"><figcaption></figcaption></figure></div>
 
-[La page des Lightguns](./#lightguns)
-{% endtab %}
-
-{% tab title="CLAVIER" %}
-L'idéal pour les jeux PCs, Click'n'Play, etc.
-
-![](<../../.gitbook/assets/image (22) (1).png>)
-
-[La page des Claviers](./#keyboard)
+[La page des Lightguns](https://app.gitbook.com/s/exdzL60ZuqPLldz2AYta/controllers/supported-controllers/lightguns)
 {% endtab %}
 
 {% tab title="VOLANTS" %}
 L'idéal pour les jeux de course.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (335).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-[La page sur les volants.](volants.md)
+[La page sur les volants](volants.md)
+{% endtab %}
+
+{% tab title="CLAVIER" %}
+L'idéal pour les jeux sur ordinateur et les point'n'click.
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (336).png" alt="" width="375"><figcaption></figcaption></figure></div>
+
+[La page des Claviers](keyboard.md)
 {% endtab %}
 {% endtabs %}
 
+## Pour aller plus loin
+
+| Je veux…                                                             | Voir                                                                                                                                                                                     |
+| -------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Configurer une nouvelle manette, choisir la manette de chaque joueur | [Configuration des contrôleurs](../controller-configuration.md)                                                                                                                          |
+| Utiliser ou modifier les raccourcis (quitter, sauvegarder…)          | [Raccourcis](../../navigation/hotkeys.md)                                                                                                                                                |
+| Modifier les contrôles d'un émulateur ou d'un jeu                    | [Configuration des touches spécifiques par émulateur](../configuration-des-touches-specifique-par-emulateur/)                                                                            |
+| Utiliser une manette dans un jeu qui ne gère que le clavier          | [PadToKey](../pad2key.md)                                                                                                                                                                |
+| Configurer moi-même les contrôles dans un émulateur                  | Réglez **AUTOCONFIGURER LES MANETTES** sur **OFF** pour le système ou le jeu (voir [Configuration des systèmes et des jeux](../../navigation/configuration-des-systemes-et-des-jeux.md)) |
