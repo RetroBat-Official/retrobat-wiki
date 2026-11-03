@@ -100,8 +100,12 @@ RetroBat utilise les mêmes contrôles arcade pour la plupart des émulateurs ar
 <table><thead><tr><th width="321.5">Fonction</th><th width="228.25">Manette</th><th>Clavier</th></tr></thead><tbody><tr><td>Insérer une pièce (joueur 1 / joueur 2)</td><td>SELECT</td><td><code>5</code> / <code>6</code></td></tr><tr><td>Start (joueur 1 / joueur 2)</td><td>START</td><td><code>1</code> / <code>2</code></td></tr><tr><td>Test (menu opérateur)</td><td>R3</td><td><code>9</code></td></tr><tr><td>Service (crédit gratuit)</td><td>L3</td><td><code>0</code></td></tr><tr><td>Quitter le jeu</td><td>HOTKEY + START</td><td><code>Échap</code></td></tr></tbody></table>
 
 {% hint style="warning" %}
-* Dans **MAME** (autonome), Test et Service sont tous les deux sur **L3 + R3** appuyés en même temps. Au clavier, `0` ouvre le menu de test et `9` ajoute un crédit service.
-* Dans certains émulateurs (Model3-Vulkan, Linuxloader…), Test et Service à la manette doivent être activés dans la [CONFIGURATION AVANCÉE DU SYSTÈME](../navigation/configuration-des-systemes-et-des-jeux.md#pour-un-systeme), pour éviter d'ouvrir le menu opérateur par erreur.
+Test et Service à la manette (R3 / L3) peuvent être activés ou désactivés dans la [CONFIGURATION AVANCÉE DU SYSTÈME](../navigation/view-options.md#configuration-avancee-du-systeme) de certains émulateurs, pour éviter d'ouvrir le menu opérateur par erreur :
+
+* MAME et SM2-emu : **CONTRÔLES** > **TEST/SERVICE ON L3/R3** (activé par défaut) ;
+* Supermodel / Model3-Vulkan : **ÉMULATION** > **ENABLE SERVICE MENU** (désactivé par défaut).
+
+Les touches `9` et `0` du clavier fonctionnent toujours.
 {% endhint %}
 
 ### Dispositions pour sticks arcade
