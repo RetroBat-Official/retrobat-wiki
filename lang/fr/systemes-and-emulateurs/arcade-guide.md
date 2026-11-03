@@ -1,103 +1,121 @@
 # Le Guide Arcade
 
-<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/arcade.svg" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (330).png" alt=""><figcaption></figcaption></figure></div>
 
-## Introduction
+Les jeux d'arcade sont plus complexes à émuler que les jeux de consoles : chaque borne est différente, et les fichiers des jeux (ROMs) doivent correspondre à l'émulateur utilisé. Ce guide explique l'essentiel : quel système et quel émulateur choisir, ce qu'est un romset, et comment vérifier vos romsets.
 
-Les émulateurs Arcade peuvent être catégorisés de la façon suivante:
+## Quel système utiliser ?
 
-* Les émulateurs Multi-Machines
-* Les émulateurs Mono-Machine
+Les émulateurs arcade se répartissent en deux familles :
 
-L'émulation Arcade est complexe, car il existe de nombreuses machines différentes, c'est pourquoi les émulateurs sont très actifs et constamment en développement.
+* **Les émulateurs multi-machines** (MAME, FinalBurn Neo…) : ils font tourner des milliers de bornes d'arcade.
+* **Les émulateurs dédiés** (Supermodel, Flycast, Demul…) : ils font tourner une famille de cartes arcade (Model 3, Naomi…), généralement avec de meilleures performances.
 
+Dans RetroBat, chaque famille de jeux arcade a son propre dossier dans `roms`. Placez vos jeux dans le dossier qui correspond à l'émulateur et au romset que vous avez.
 
+## Émulateurs multi-machines
 
-Dans ce court guide, nous nous pencherons sur les deux familles d'émulateurs citées précédemment et tenterons de vous donner les clés pour comprendre le monde de l'émulation "Arcade".
-
-## Les Émulateurs Multi-Machines
-
-Il existe deux familles d'émulateurs Multi-Systèmes Arcade: FinalBurn et MAME.&#x20;
-
-Ces émulateurs sont disponibles dans de multiples versions et il est nécessaire d'associer les bons fichiers de jeux (ROMset) à chaque émulateur.
-
-
-
-### Liste des émulateurs Multi-ARCADE disponibles
-
-<table><thead><tr><th width="259">Emulateur/core</th><th width="160">Dossier ROMs</th><th>Version du ROMset</th></tr></thead><tbody><tr><td>libretro: mame (current)</td><td><code>\roms\mame</code></td><td>0.289</td></tr><tr><td>libretro: mame2016</td><td><code>\roms\mame</code></td><td>0.174</td></tr><tr><td>libretro: mame2014</td><td><code>\roms\mame</code></td><td>0.159</td></tr><tr><td>libretro: mame2010</td><td><code>\roms\mame</code></td><td>0.139</td></tr><tr><td>Libretro: mame2003_plus</td><td><code>\roms\mame</code></td><td>0.78plus (dernier romset mame2003+)</td></tr><tr><td>Libretro: mame2003</td><td><code>\roms\mame</code></td><td>0.78</td></tr><tr><td>Libretro: mame2000</td><td><code>\roms\mame</code></td><td>0.37b5</td></tr><tr><td>mame (standalone)</td><td><code>\roms\mame</code></td><td>0.289</td></tr><tr><td>Libretro: fbneo</td><td><code>\roms\fbneo</code></td><td>dernier romset FBNEO</td></tr><tr><td>Libretro: fbalpha</td><td><code>\roms\fbneo</code></td><td>0.2.97.44</td></tr><tr><td>Libretro: fbalpha2012</td><td><code>\roms\fbneo</code></td><td>0.2.97.29</td></tr><tr><td>FBNEO</td><td><code>\roms\fbneo</code></td><td>dernier romset FBNEO</td></tr></tbody></table>
-
-MAME est généralement utilisé pour les jeux Arcade de type "classiques" (tels Pac-Man, Asteroids, etc.).
-
-FBNEO est spécialisé dans les jeux de combats, il est compatible avec moins de jeux mais émule les jeux compatibles de façon plus optimisée.
-
-
-
-## Les Emulateurs Mono-Machine
-
-<table><thead><tr><th width="255">Arcade Machine(s)</th><th width="218.75">Dossier des roms</th><th>Emulateur</th></tr></thead><tbody><tr><td>Jeux LaserDisc</td><td><code>\roms\daphne</code><br><code>\roms\singe</code></td><td>Hypseus<br>Daphne</td></tr><tr><td>ATOMISWAVE</td><td><code>\roms\atomiswave</code></td><td><p>Flycast</p><p>Libretro-Flycast<br>Demul</p></td></tr><tr><td>CPS-1</td><td><code>\roms\cps1</code></td><td>FBNeo<br>Libretro-FBNeo<br>fbalpha2012_cps1</td></tr><tr><td>CPS-2</td><td><code>\roms\cps2</code></td><td>FBNeo<br>Libretro-FBNeo<br>fbalpha2012_cps2</td></tr><tr><td>CPS-3</td><td><code>\roms\cps3</code></td><td>FBNeo<br>Libretro-FBNeo<br>fbalpha2012_cps3</td></tr><tr><td>DICE</td><td><code>\roms\dice</code></td><td>libretro-dice</td></tr><tr><td>GAELCO</td><td><code>\roms\gaelco</code></td><td>Demul</td></tr><tr><td>NAMCO 246/256</td><td><code>\roms\namco2x6</code></td><td>Play!<br>Teknoparrot</td></tr><tr><td>NAMCO 357/369</td><td><code>\roms\namco3xx</code></td><td>Teknoparrot</td></tr><tr><td>SEGA MODEL 2</td><td><code>\roms\model2</code></td><td>m2emulator</td></tr><tr><td>SEGA MODEL 3</td><td><code>\roms\model3</code></td><td>Supermodel<br>Libretro-Supermodel</td></tr><tr><td>SEGA NAOMI</td><td><code>\roms\naomi</code></td><td><p>Flycast<br>Libretro-Flycast</p><p>Demul</p></td></tr><tr><td>SEGA NAOMI 2</td><td><code>\roms\naomi2</code></td><td><p>Flycast<br>Libretro-Flycast</p><p>Demul</p></td></tr><tr><td>SEGA HIKARU</td><td><code>\roms\hikaru</code></td><td>Demul</td></tr><tr><td>TRIFORCE</td><td><code>\roms\triforce</code></td><td>Dolphin-Triforce (Crediar)<br>Dolphin<br>Libretro-Dolphin<br>Teknoparrot</td></tr><tr><td>SEGA CHIHIRO</td><td><code>\roms\chihiro</code></td><td>CXBX-Reloaded</td></tr><tr><td>SEGA LINDBERGH</td><td><code>\roms\lindbergh</code></td><td>linuxloader<br>Teknoparrot</td></tr><tr><td>ARCADE "PC-Based"</td><td><code>\roms\teknoparrot</code></td><td>Teknoparrot</td></tr><tr><td>ZINC</td><td><code>\roms\zinc</code></td><td>PSXMame<br>Zinc</td></tr></tbody></table>
-
-
-
-## ROMs
-
-### Terminologie
-
-* **ROM, ROM set, et romset**: les jeux Arcade sont contenus dans des fichiers .zip qui peuvent être composés d'un ou plusieurs fichiers ROM(s). \
-  C'est pour cette raison que les fichiers de jeux Arcade peuvent être désignés par les termes ROM, ROM set ou encore romset.<br>
-* **Version de ROM (ou romset)**: Chaque version d'un émulateur Arcade est prévu pour fonctionner un un romset particulier.\
-  Par exemple  l'émulateur MAME 2000 fonctionne avec le romset MAME 0.37b5 alors que l'émulateur MAME 2010 nécessite le romset MAME 0.139.<br>
-
-### Type de romset
-
-Il existe 4 formats de romset:
-
-* **Full Non-merged**: chaque fichier de jeu (ROM) est "autosuffisant", le zip inclut tout le nécessaire pour lancer le jeu (les bios, les rom parents, etc.).<br>
-* **Non-merged ROM**: identique au "Full Non-merged" à l'exception de certains BIOS communs à plusieurs ROMs qui doivent être placés dans le dossier des jeux et sont partagés entre plusieurs fichiers roms.<br>
-* **Split**: chaque version d'un jeu est dans un fichier séparé, certains jeux (clônes, traductions, versions différentes) ne fonctionnent pas sans la présence des roms "parents". \
-  Par exemple, le jeu `pacman.zip` (un clône) ne fonctionnera pas sans le jeu `puckman.zip` (le 'parent').<br>
-* **Merged**: les clônes et versions alternatives d'un jeu sont contenues dans le même zip que la rom 'parent'. Cela signifie qu'un fichier zip contiendra plusieurs jeux.<br>
-
-{% hint style="warning" %}
-Retrobat et le core libretro:mame ne sont pas compatibles avec les romsets de type 'merged', seule le jeu principal sera vu dans l'interface et pourra être lancé.
-
-Retrobat recommande l'utilisation de sets 'non-merged'.
-{% endhint %}
+<table><thead><tr><th width="122.75">Système</th><th width="127.25">Dossier</th><th>Émulateurs / cores</th><th>Version du romset</th></tr></thead><tbody><tr><td>MAME</td><td><code>roms\mame</code></td><td>MAME (autonome), lr-mame</td><td>MAME 0.289 (version actuelle)</td></tr><tr><td></td><td></td><td>GroovyMAME</td><td>Identique à MAME</td></tr><tr><td></td><td></td><td>lr-mame2016</td><td>MAME 0.174</td></tr><tr><td></td><td></td><td>lr-mame2014</td><td>MAME 0.159</td></tr><tr><td></td><td></td><td>lr-mame2010</td><td>MAME 0.139</td></tr><tr><td></td><td></td><td>lr-mame2003_plus</td><td>MAME 0.78-plus (dernière version)</td></tr><tr><td></td><td></td><td>lr-mame2003, lr-mame2003_midway</td><td>MAME 0.78</td></tr><tr><td></td><td></td><td>lr-mame2000</td><td>MAME 0.37b5</td></tr><tr><td>FinalBurn Neo</td><td><code>roms\fbneo</code></td><td>FBNeo (autonome), lr-fbneo</td><td>Dernière version FBNeo</td></tr><tr><td></td><td></td><td>lr-fbalpha</td><td>FB Alpha 0.2.97.44</td></tr><tr><td></td><td></td><td>lr-fbalpha2012</td><td>FB Alpha 0.2.97.29</td></tr><tr><td>MAME Homebrew</td><td><code>roms\hbmame</code></td><td>HBMAME, lr-mame</td><td>HBMAME</td></tr></tbody></table>
 
 {% hint style="info" %}
-Ne pas renommer les fichiers zip. Les scrapeurs savent reconnaître les jeux et affecter le bon titre de jeu à chaque fichier.
+* **MAME** est le plus complet : utilisez-le par défaut.
+* **FinalBurn Neo** est souvent plus léger et très bon pour les jeux de combat, beat'em up et shoot'em up (CPS, Neo Geo, Cave…).
+* Le système **Arcade** permet de mélanger dans un même dossier des jeux pour différents émulateurs : choisissez l'émulateur jeu par jeu avec la [CONFIGURATION AVANCÉE DU JEU](../navigation/configuration-des-systemes-et-des-jeux.md#pour-un-jeu).
 {% endhint %}
 
-## Fichiers additionnels
+### Systèmes par famille de cartes
+
+Ces systèmes utilisent les mêmes émulateurs multi-machines, mais regroupent les jeux d'une famille de cartes dans leur propre dossier :
+
+<table><thead><tr><th width="135.75">Système</th><th width="181">Dossier</th><th>Émulateurs / cores</th></tr></thead><tbody><tr><td>CPS-1</td><td><code>roms\cps1</code></td><td>lr-fbneo, lr-fbalpha2012_cps1, lr-fbalpha, lr-fbalpha2012</td></tr><tr><td>CPS-2</td><td><code>roms\cps2</code></td><td>lr-fbneo, lr-fbalpha2012_cps2, lr-fbalpha, lr-fbalpha2012</td></tr><tr><td>CPS-3</td><td><code>roms\cps3</code></td><td>lr-fbneo, lr-fbalpha2012_cps3, lr-fbalpha, lr-fbalpha2012</td></tr><tr><td>CAVE</td><td><code>roms\cave</code></td><td>lr-fbneo, lr-fbalpha, lr-fbalpha2012, lr-mame2003_plus, lr-mame2016, lr-mame, MAME, Demul</td></tr><tr><td>Neo Geo</td><td><code>roms\neogeo</code></td><td>lr-fbneo, lr-geolith (fichiers <code>.neo</code>), lr-fbalpha, lr-fbalpha2012_neogeo, Raine, MAME</td></tr><tr><td>Neo Geo CD</td><td><code>roms\neogeocd</code></td><td>lr-neocd, lr-fbneo, Raine</td></tr><tr><td>Hyper Neo Geo 64</td><td><code>roms\neogeo64</code></td><td>lr-mame, lr-mame2016, MAME</td></tr><tr><td>ST-V</td><td><code>roms\segastv</code></td><td>lr-kronos, lr-mame (toutes versions), Mednafen, MAME</td></tr></tbody></table>
+
+## Émulateurs dédiés
+
+<table><thead><tr><th width="210.75">Borne(s)</th><th width="180.5">Dossier</th><th>Émulateurs</th></tr></thead><tbody><tr><td>Laserdisc (jeux FMV)</td><td><code>roms\daphne</code></td><td>Hypseus, Daphne, Singe 2</td></tr><tr><td>Singe</td><td><code>roms\singe</code></td><td>Hypseus, Singe 2</td></tr><tr><td>ActionMax</td><td><code>roms\actionmax</code></td><td>Hypseus, Singe 2</td></tr><tr><td>DICE</td><td><code>roms\dice</code></td><td>lr-dice</td></tr><tr><td>Sega Model 2</td><td><code>roms\model2</code></td><td>Model 2 Emulator (multi CPU / single CPU), SM2-emu, lr-sm2, lr-mame, MAME</td></tr><tr><td>Sega Model 3</td><td><code>roms\model3</code></td><td>Supermodel, lr-supermodel, Model3-Vulkan</td></tr><tr><td>Atomiswave</td><td><code>roms\atomiswave</code></td><td>Flycast, lr-flycast, Demul</td></tr><tr><td>Sega Naomi</td><td><code>roms\naomi</code></td><td>Flycast, lr-flycast, Demul</td></tr><tr><td>Sega Naomi 2</td><td><code>roms\naomi2</code></td><td>Flycast, lr-flycast, Demul</td></tr><tr><td>Sega Hikaru</td><td><code>roms\hikaru</code></td><td>Demul</td></tr><tr><td>Gaelco PowerVR</td><td><code>roms\gaelco</code></td><td>Demul, lr-mame, lr-mame2016, lr-mame2014</td></tr><tr><td>Triforce</td><td><code>roms\triforce</code></td><td>Dolphin, lr-dolphin, Dolphin-Triforce, TeknoParrot</td></tr><tr><td>Sega Chihiro</td><td><code>roms\chihiro</code></td><td>xemu-chihiro, Chihiro, Chihiro (pistolet), Cxbx-Reloaded, TeknoParrot</td></tr><tr><td>Sega Lindbergh</td><td><code>roms\lindbergh</code></td><td>Linuxloader, TeknoParrot</td></tr><tr><td>PSX Arcade (ZN-1/ZN-2…)</td><td><code>roms\psxarcade</code></td><td>ArcadeDuck, PSXMame, Zinc, lr-mame, MAME</td></tr><tr><td>Namco 246/256</td><td><code>roms\namco2x6</code></td><td>PCSX2x6, Play!, TeknoParrot</td></tr><tr><td>Namco 357/369</td><td><code>roms\namco3xx</code></td><td>TeknoParrot</td></tr><tr><td>Arcade sur PC</td><td><code>roms\teknoparrot</code></td><td>TeknoParrot</td></tr></tbody></table>
+
+{% hint style="info" %}
+Chaque système a sa propre page dans [Systèmes compatibles](supported-game-systems/), avec les formats de fichiers et les BIOS nécessaires.
+{% endhint %}
+
+## Comprendre les romsets
+
+### Vocabulaire
+
+* **ROM, romset** : un jeu d'arcade est généralement un fichier `.zip` qui contient plusieurs fichiers ROM (les puces de la carte d'origine). C'est pourquoi on appelle souvent un jeu d'arcade un **romset**.
+* **Version du romset** : chaque version d'émulateur attend des ROMs de **la même version**. Par exemple, lr-mame2000 a besoin de ROMs MAME 0.37b5 : des ROMs MAME 0.139 (pour lr-mame2010) ne fonctionneront pas correctement avec lui, et inversement. **La version de votre romset doit correspondre à l'émulateur ou au core utilisé.**
+* **Parent / clone** : un jeu existe souvent en plusieurs versions (régions, révisions, bootlegs). L'une d'elles est le **parent** (par exemple `sf2.zip`), les autres sont des **clones** (`sf2ua.zip`, `sf2j.zip`…). Les clones ne contiennent que les fichiers qui diffèrent du parent.
+* **BIOS** : certaines cartes partagent un BIOS, lui aussi stocké sous forme de romset (`neogeo.zip`, `naomi.zip`, `pgm.zip`…). Il doit se trouver dans le même dossier que les jeux (ou dans `bios`, selon l'émulateur).
+
+### Types de romsets
+
+<table><thead><tr><th width="172">Type</th><th>Contenu</th><th>Dans RetroBat</th></tr></thead><tbody><tr><td><strong>Non-merged</strong></td><td>Chaque zip contient tout ce dont le jeu a besoin, y compris les fichiers de son parent. Seuls les BIOS sont à part.</td><td>✅ <strong>Recommandé</strong> : chaque jeu fonctionne seul</td></tr><tr><td><strong>Full non-merged</strong></td><td>Comme non-merged, mais chaque zip contient aussi le BIOS.</td><td>✅ Fonctionne, mais prend plus de place</td></tr><tr><td><strong>Split</strong></td><td>Les clones ne contiennent que leurs propres fichiers : le <strong>zip du parent est obligatoire</strong> dans le même dossier (par exemple <code>sf2ua.zip</code> a besoin de <code>sf2.zip</code>).</td><td>⚠️ Fonctionne si vous gardez les parents</td></tr><tr><td><strong>Merged</strong></td><td>Tous les clones sont dans le zip du parent.</td><td>❌ Non pris en charge : seul le jeu parent apparaît dans RetroBat</td></tr></tbody></table>
+
+{% hint style="warning" %}
+* Utilisez des romsets **non-merged** autant que possible.
+* **Ne renommez pas** les fichiers zip : les émulateurs et les scrapeurs reconnaissent les jeux grâce au nom du fichier.
+* **Ne décompressez pas** les jeux d'arcade.
+{% endhint %}
+
+### Vérifier et reconstruire vos romsets
+
+Si un jeu ne démarre pas, la cause la plus fréquente est un romset qui ne correspond pas à la version de l'émulateur. Des outils comme [clrmamepro](https://mamedev.emulab.it/clrmamepro/) vérifient vos romsets à partir d'un **fichier DAT** (la liste officielle des fichiers d'une version d'émulateur) et peuvent les reconstruire au bon format.
+
+1. **Récupérez le fichier DAT** de votre version d'émulateur :
+   * MAME : sur [Progetto Snaps](https://www.progettosnaps.net/dats/MAME/), ou générez-le avec MAME : `mame.exe -listxml > mame.xml` (depuis le dossier `emulators\mame`) ;
+   * FinalBurn Neo : dans le [dépôt FBNeo](https://github.com/libretro/FBNeo/tree/master/dats) ;
+   * anciens cores libretro (mame2003, mame2010, fbalpha2012…) : dans le dépôt de chaque core, ou dans le [guide arcade de libretro](https://docs.libretro.com/guides/arcade-getting-started/).
+2. Dans clrmamepro, cliquez sur **Add DatFile**, puis chargez-le.
+3. **Settings** : ajoutez votre dossier de ROMs (par exemple `roms\mame`).
+4. **Scanner** : vérifiez vos romsets. Les fichiers manquants ou incorrects sont listés.
+5. **Rebuilder** : reconstruisez vos romsets au format **non-merged** dans un nouveau dossier, puis copiez-les dans le dossier de RetroBat.
+
+{% hint style="info" %}
+Le [guide arcade de libretro](https://docs.libretro.com/guides/arcade-getting-started/) (en anglais) explique les romsets et clrmamepro plus en détail.
+{% endhint %}
+
+## Fichiers complémentaires
 
 ### Samples
 
-Certains jeux nécessitent des fichiers 'samples' pour fonctionner correctement.&#x20;
+Certains jeux ont besoin de **samples** (sons enregistrés) pour jouer leurs sons. Placez les fichiers zip de samples (par exemple `galaga.zip`) dans le dossier de votre émulateur :
 
-Les fichiers 'samples' doivent être placés dans les dossiers suivants:
+<table><thead><tr><th width="281.5">Émulateur / core</th><th>Dossier</th></tr></thead><tbody><tr><td>MAME (autonome), lr-mame</td><td><code>bios\mame\samples</code></td></tr><tr><td>lr-mame2016</td><td><code>bios\mame2016\samples</code></td></tr><tr><td>lr-mame2014</td><td><code>bios\mame2014\samples</code></td></tr><tr><td>lr-mame2010</td><td><code>bios\mame2010\samples</code></td></tr><tr><td>lr-mame2003_plus</td><td><code>bios\mame2003-plus\samples</code></td></tr><tr><td>lr-mame2003</td><td><code>bios\mame2003\samples</code></td></tr><tr><td>HBMAME</td><td><code>bios\hbmame\samples</code></td></tr><tr><td>FBNeo, lr-fbneo</td><td><code>bios\fbneo\samples</code></td></tr><tr><td>lr-fbalpha2012</td><td><code>bios\fba\samples</code></td></tr></tbody></table>
 
-* Pour fbneo: `\bios\fbneo\samples`
-* Pour mame2003: `\bios\mame2003\samples`
-* Pour mame2003plus: `\bios\mame2003-plus\samples`
-* Pour mame2010: `\bios\mame2010\samples`
-* Pour mame (current) et mame standalone: `\bios\mame\samples`
+### Fichiers CHD
 
-### Fichiers CHD (ou IMG)
+Certains jeux d'arcade ont aussi besoin d'un fichier **CHD** (image du disque dur, du CD ou du laserdisc de la borne d'origine).
 
-Certains jeux d'arcade nécessitent la présence de fichiers additionnels (ces fichiers étaient à l'origine des données stockées sur un disque physique ou un disque dur dans la machine arcade).
+Placez le fichier CHD dans un dossier qui porte exactement le nom du zip du jeu, à côté du zip. Par exemple, pour `kinst.zip` : `roms\mame\kinst\kinst.chd`.
 
-Il s'agit de fichiers CHD ou IMG, qui doivent être placés dans le même dossier que les jeux, à l'intérieur d'un répertoire portant le même nom que le fichier .zip du jeu.
+<div align="left"><figure><img src="../.gitbook/assets/image (331).png" alt=""><figcaption></figcaption></figure></div>
 
-Par exemple, pour jouer au jeu Killer Instinct (`kinst.zip`), il est nécessaire de placer les fichiers CHD dans le dossier `kinst\kinst.chd`.
+{% hint style="info" %}
+La version du CHD doit aussi correspondre à la version de l'émulateur, comme pour les romsets.
+{% endhint %}
 
-<div align="left"><figure><img src="https://i.imgur.com/xl9iImN.png" alt=""><figcaption></figcaption></figure></div>
+## Contrôles arcade
 
-## Liens et références
+RetroBat utilise les mêmes contrôles arcade pour la plupart des émulateurs arcade :
+
+<table><thead><tr><th width="321.5">Fonction</th><th width="228.25">Manette</th><th>Clavier</th></tr></thead><tbody><tr><td>Insérer une pièce (joueur 1 / joueur 2)</td><td>SELECT</td><td><code>5</code> / <code>6</code></td></tr><tr><td>Start (joueur 1 / joueur 2)</td><td>START</td><td><code>1</code> / <code>2</code></td></tr><tr><td>Test (menu opérateur)</td><td>R3</td><td><code>9</code></td></tr><tr><td>Service (crédit gratuit)</td><td>L3</td><td><code>0</code></td></tr><tr><td>Quitter le jeu</td><td>HOTKEY + START</td><td><code>Échap</code></td></tr></tbody></table>
+
+{% hint style="warning" %}
+* Dans **MAME** (autonome), Test et Service sont tous les deux sur **L3 + R3** appuyés en même temps. Au clavier, `0` ouvre le menu de test et `9` ajoute un crédit service.
+* Dans certains émulateurs (Model3-Vulkan, Linuxloader…), Test et Service à la manette doivent être activés dans la [CONFIGURATION AVANCÉE DU SYSTÈME](../navigation/configuration-des-systemes-et-des-jeux.md#pour-un-systeme), pour éviter d'ouvrir le menu opérateur par erreur.
+{% endhint %}
+
+### Dispositions pour sticks arcade
+
+Pour MAME, lr-mame et FBNeo, RetroBat peut placer les boutons comme sur la borne d'origine, selon votre contrôleur. Choisissez la disposition dans **CONFIGURATION AVANCÉE DU SYSTÈME** > **CONTRÔLES** > **CONTROLLER LAYOUT** :
+
+<table><thead><tr><th width="245.25">Disposition</th><th>Pour</th></tr></thead><tbody><tr><td><strong>CONTROLLER (SNES)</strong></td><td>Une manette (par défaut)</td></tr><tr><td><strong>MODERN 8 BUTTONS</strong></td><td>Stick arcade 8 boutons : X, Y, RB, LB en haut / A, B, RT, LT en bas</td></tr><tr><td><strong>8 BUTTONS ALTERNATIVE</strong></td><td>Stick arcade 8 boutons : X, Y, LB, LT en haut / A, B, RB, RT en bas</td></tr><tr><td><strong>6 BUTTONS</strong></td><td>Stick arcade 6 boutons : X, Y, LB en haut / A, B, RB en bas</td></tr><tr><td><strong>CLASSIC 8 BUTTONS</strong></td><td>Identique à <strong>6 BUTTONS</strong></td></tr></tbody></table>
+
+Voir aussi [Sticks Arcade](../controleurs/supported-controllers/arcade-sticks.md).
+
+### Liens et références
 
 {% hint style="info" %}
 **Crédits**
 
-Une grande partie des informations partagées sur cette page a été copiée depuis la documentation libretro (avec leur accord):
-
-[https://docs.libretro.com/guides/arcade-getting-started/](https://docs.libretro.com/guides/arcade-getting-started/)
+Une partie de cette page s'appuie sur la documentation libretro : [https://docs.libretro.com/guides/arcade-getting-started/](https://docs.libretro.com/guides/arcade-getting-started/)
 {% endhint %}
