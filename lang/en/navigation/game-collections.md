@@ -55,42 +55,6 @@ Most automatic collections use the **game information**: number of players, genr
 
 ### Favorites
 
-To add a game to the **FAVORITES** collection, open its [Game Options](game-options.md) and choose **ADD TO FAVORITES**:
-
-\[image: ADD TO FAVORITES]
-
-#### Automatic Collections
-
-The following self-explanatory list of collections is available.
-
-<details>
-
-<summary>Standard Collections</summary>
-
-ALL GAMES
-
-LAST PLAYED
-
-FAVORITES
-
-2 PLAYERS
-
-4 PLAYERS
-
-NEVER PLAYED
-
-RETROACHIEVEMENTS
-
-ARCADE
-
-VERTICAL GAMES
-
-LIGHTGUN GAMES
-
-</details>
-
-### Favorites
-
 For the FAVORITE collection, you need to flage your favorite games, this can be done in the **Game Options** menu.
 
 <div align="left"><figure><img src="../.gitbook/assets/image (269).png" alt=""><figcaption></figcaption></figure></div>

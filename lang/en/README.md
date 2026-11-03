@@ -60,7 +60,7 @@ If you cannot find what you are looking for, you can reach the team through the 
 
 If you want to support the project, [please consider making a donation](https://retrobatofficial.itch.io/retrobat). It helps us pay for the server infrastructure and buy additional hardware to improve compatibility.
 
-Thank you.
+Thank you!
 
 
 
