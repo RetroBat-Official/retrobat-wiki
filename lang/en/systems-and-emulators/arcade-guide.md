@@ -100,8 +100,12 @@ RetroBat uses the same arcade controls for most arcade emulators:
 <table><thead><tr><th width="302.75">Function</th><th width="220.75">Controller</th><th>Keyboard</th></tr></thead><tbody><tr><td>Insert a coin (player 1 / player 2)</td><td>SELECT</td><td><code>5</code> / <code>6</code></td></tr><tr><td>Start (player 1 / player 2)</td><td>START</td><td><code>1</code> / <code>2</code></td></tr><tr><td>Test (operator menu)</td><td>R3</td><td><code>9</code></td></tr><tr><td>Service (free credit)</td><td>L3</td><td><code>0</code></td></tr><tr><td>Quit the game</td><td>HOTKEY + START</td><td><code>Esc</code></td></tr></tbody></table>
 
 {% hint style="warning" %}
-* In **MAME** (standalone), Test and Service are both on **L3 + R3** pressed together. On the keyboard, `0` opens the test menu and `9` adds a service credit.
-* In some emulators (Model3-Vulkan, Linuxloader…), Test and Service on the controller must be enabled in the [ADVANCED SYSTEM OPTIONS](../navigation/configuration-of-systems-and-games.md#for-a-system), to avoid opening the operator menu by mistake.
+Test and Service on the controller (R3 / L3) can be enabled or disabled in the [ADVANCED SYSTEM OPTIONS](../navigation/view-options.md#advanced-system-options) of some emulators, to avoid opening the operator menu by mistake:
+
+* MAME and SM2-emu: **CONTROLS** > **TEST/SERVICE ON L3/R3** (enabled by default);
+* Supermodel / Model3-Vulkan: **EMULATION** > **ENABLE SERVICE MENU** (disabled by default).
+
+The keyboard keys `9` and `0` always work.
 {% endhint %}
 
 ### Arcade stick layouts
