@@ -99,21 +99,21 @@ RetroBat utilise les mêmes contrôles arcade pour la plupart des émulateurs ar
 <table><thead><tr><th width="321.5">Fonction</th><th width="228.25">Manette</th><th>Clavier</th></tr></thead><tbody><tr><td>Insérer une pièce (joueur 1 / joueur 2)</td><td>SELECT</td><td><code>5</code> / <code>6</code></td></tr><tr><td>Start (joueur 1 / joueur 2)</td><td>START</td><td><code>1</code> / <code>2</code></td></tr><tr><td>Test (menu opérateur)</td><td>R3</td><td><code>9</code></td></tr><tr><td>Service (crédit gratuit)</td><td>L3</td><td><code>0</code></td></tr><tr><td>Quitter le jeu</td><td>HOTKEY + START</td><td><code>Échap</code></td></tr></tbody></table>
 
 {% hint style="warning" %}
-Test et Service à la manette (R3 / L3) peuvent être activés ou désactivés dans la [CONFIGURATION AVANCÉE DU SYSTÈME](../navigation/view-options.md#configuration-avancee-du-systeme) de certains émulateurs, pour éviter d'ouvrir le menu opérateur par erreur :
+Test et Service à la manette (R3 / L3) peuvent être activés ou désactivés dans la [CONFIGURATION AVANCÉE DU SYSTÈME](../navigation/configuration-des-systemes-et-des-jeux.md#pour-un-systeme) de certains émulateurs, pour éviter d'ouvrir le menu opérateur par erreur :
 
-* MAME et SM2-emu : **CONTRÔLES** > **TEST/SERVICE ON L3/R3** (activé par défaut) ;
-* Supermodel / Model3-Vulkan : **ÉMULATION** > **ENABLE SERVICE MENU** (désactivé par défaut).
+* MAME et SM2-emu : **CONTRÔLES** > **TEST/SERVICE SUR L3/R3** (activé par défaut) ;
+* Supermodel / Model3-Vulkan, Flycast, PCSX2x6, lr-kronos : **ÉMULATION** > **ACTIVER LE MENU SERVICE** (désactivé par défaut).
 
-Les touches `9` et `0` du clavier fonctionnent toujours.
+Les touches `0` (Test) et `9` (Service) du clavier fonctionnent toujours.
 {% endhint %}
 
 ### Dispositions pour sticks arcade
 
-Pour MAME, lr-mame et FBNeo, RetroBat peut placer les boutons comme sur la borne d'origine, selon votre contrôleur. Choisissez la disposition dans **CONFIGURATION AVANCÉE DU SYSTÈME** > **CONTRÔLES** > **CONTROLLER LAYOUT** :
+Pour de nombreux émulateurs arcade (MAME, lr-mame, FBNeo, Flycast, Supermodel, TeknoParrot…), RetroBat peut placer les boutons comme sur la borne d'origine, selon votre contrôleur. Choisissez la disposition dans **CONFIGURATION AVANCÉE DU SYSTÈME** > **CONTRÔLES** > **DISPOSITION DES BOUTONS** :
 
 <table><thead><tr><th width="245.25">Disposition</th><th>Pour</th></tr></thead><tbody><tr><td><strong>CONTROLLER (SNES)</strong></td><td>Une manette (par défaut)</td></tr><tr><td><strong>MODERN 8 BUTTONS</strong></td><td>Stick arcade 8 boutons : X, Y, RB, LB en haut / A, B, RT, LT en bas</td></tr><tr><td><strong>8 BUTTONS ALTERNATIVE</strong></td><td>Stick arcade 8 boutons : X, Y, LB, LT en haut / A, B, RB, RT en bas</td></tr><tr><td><strong>6 BUTTONS</strong></td><td>Stick arcade 6 boutons : X, Y, LB en haut / A, B, RB en bas</td></tr><tr><td><strong>CLASSIC 8 BUTTONS</strong></td><td>Identique à <strong>6 BUTTONS</strong></td></tr></tbody></table>
 
-Voir aussi [Sticks Arcade](../controleurs/supported-controllers/arcade-sticks.md).
+La liste des émulateurs compatibles et le réglage du stick sont détaillés sur la page [Sticks Arcade](../controleurs/supported-controllers/arcade-sticks.md).
 
 ### Personnaliser les contrôles arcade
 
