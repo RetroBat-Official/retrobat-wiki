@@ -52,7 +52,7 @@ RetroBat sait quels jeux se jouent au volant :
 
 La liste des jeux au volant est dans le fichier `emulationstation\resources\gamesdb.xml` (jeux marqués `<wheel/>`). Pour la personnaliser, copiez le fichier dans `emulationstation\.emulationstation\resources\gamesdb.xml` et modifiez la copie : elle est lue en priorité et n'est pas écrasée par les mises à jour de RetroBat.
 
-<div align="left"><figure><img src="https://i.imgur.com/2wr4B4z.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (366).png" alt=""><figcaption></figcaption></figure></div>
 
 ## Émulateurs compatibles
 
@@ -166,70 +166,67 @@ Si vous créez ce fichier, partagez-le avec l'équipe !
 
 <summary>Noms RetroBat des volants et identifiants USB</summary>
 
-VID\_2433\&PID\_F300 : AsetekInvicta\
-VID\_2433\&PID\_F301 : AsetekForte\
-VID\_2433\&PID\_F303 : AsetekLaPrima\
-VID\_2433\&PID\_F306 : AsetekTonyKannan\
-VID\_3416\&PID\_0301 : CammusC5\
-VID\_3416\&PID\_0302 : CammusC12\
-VID\_0EB7\&PID\_0001 : FanatecClubSportWheelBaseV2\
-VID\_0EB7\&PID\_0004 : FanatecClubSportWheelBaseV25\
-VID\_0EB7\&PID\_0005 : FanatecCSLElitePS4\
-VID\_0EB7\&PID\_0006 : FanatecPodiumDD1\
-VID\_0EB7\&PID\_0007 : FanatecPodiumDD2\
-VID\_0EB7\&PID\_0011 : FanatecCSRElite\
-VID\_0EB7\&PID\_0020 : FanatecDD\
-VID\_0EB7\&PID\_0E03 : FanatecCSLElite\
-VID\_046D\&PID\_C202 : LogitechWingmanFormula\
-VID\_046D\&PID\_C20E : LogitechWingmanFormulaGP\
-VID\_046D\&PID\_C24F : LogitechG29\
-VID\_046D\&PID\_C260 : LogitechG29\
-VID\_046D\&PID\_C262 : LogitechG920\
-VID\_046D\&PID\_C266 : LogitechG923PS\
-VID\_046D\&PID\_C267 : LogitechG923PS\
-VID\_046D\&PID\_C26D : LogitechG923X\
-VID\_046D\&PID\_C26E : LogitechG923X\
-VID\_046D\&PID\_C272 :  LogitechGPro\
-VID\_046D\&PID\_C293 : LogitechWingmanFormulaForce\
-VID\_046D\&PID\_C294 : LogitechDrivingForce\
-VID\_046D\&PID\_C295 : LogitechMomoForce\
-VID\_046D\&PID\_C298 : LogitechDrivingForce\
-VID\_046D\&PID\_C299 : LogitechG25\
-VID\_046D\&PID\_C29A : LogitechDrivingForceGT\
-VID\_046D\&PID\_C29B : LogitechG27\
-VID\_046D\&PID\_C29C : LogitechSpeedForce\
-VID\_046D\&PID\_CA03 : LogitechMomoRacing\
-VID\_046D\&PID\_CA04 : LogitechRacingWheel\
-VID\_045E\&PID\_001A : MicrosoftSideWinder\
-VID\_045E\&PID\_0034 :  MicrosoftSideWinder\
-VID\_346E\&PID\_0000 : MozaR16\
-VID\_346E\&PID\_0002 : MozaR9\
-VID\_346E\&PID\_0004 : MozaR5\
-VID\_346E\&PID\_0005 : MozaR3\
-VID\_346E\&PID\_0006 : MozaR12\
-VID\_0483\&PID\_0522 : SimagicM10\
-VID\_16D0\&PID\_0D5A : Simucube1\
-VID\_16D0\&PID\_0D5F : Simucube2Ultimate\
-VID\_16D0\&PID\_0D60 : Simucube2Pro\
-VID\_16D0\&PID\_0D61 : Simucube2Sport\
-VID\_1FC9\&PID\_804C : SimXperienceAccuForcePro\
-VID\_044F\&PID\_B56A : ThrustmasterF430FF\
-VID\_044F\&PID\_B56E : ThrustmasterT500RS\
-VID\_044F\&PID\_B605 : ThrustmasterNascarProFF2\
-VID\_044F\&PID\_B651 : ThrustmasterFGTRumbleForce\
-VID\_044F\&PID\_B653 : ThrustmasterRGT\
-VID\_044F\&PID\_B654 : ThrustmasterFGTFF\
-VID\_044F\&PID\_B669 : ThrustmasterTX\
-VID\_044F\&PID\_B66D : ThrustmasterT300RSPS4\
-VID\_044F\&PID\_B66E : ThrustmasterT300RSPS3\
-VID\_044F\&PID\_B66F : ThrustmasterT300RSPS3ADV\
-VID\_044F\&PID\_B677 : ThrustmasterT150\
-VID\_044F\&PID\_B67F : ThrustmasterTMX\
-VID\_044F\&PID\_B689 : ThrustmasterTSPC\
-VID\_044F\&PID\_B692 : ThrustmasterTSXW\
-VID\_044F\&PID\_B696 : ThrustmasterT248\
-VID\_0483\&PID\_A355 :  VRSDirectForcePro\
-VID\_11FF\&PID\_0511 : PXNV9
+| Nom dans RetroBat            | Identification USB (VID/PID) |
+| ---------------------------- | ---------------------------- |
+| AsetekForte                  | 2433 / F301                  |
+| AsetekInvicta                | 2433 / F300                  |
+| AsetekLaPrima                | 2433 / F303                  |
+| AsetekTonyKannan             | 2433 / F306                  |
+| CammusC5                     | 3416 / 0301                  |
+| CammusC12                    | 3416 / 0302                  |
+| FanatecClubSportWheelBaseV2  | 0EB7 / 0001                  |
+| FanatecClubSportWheelBaseV25 | 0EB7 / 0004                  |
+| FanatecCSLElite              | 0EB7 / 0E03                  |
+| FanatecCSLElitePS4           | 0EB7 / 0005                  |
+| FanatecCSRElite              | 0EB7 / 0011                  |
+| FanatecDD                    | 0EB7 / 0020                  |
+| FanatecPodiumDD1             | 0EB7 / 0006                  |
+| FanatecPodiumDD2             | 0EB7 / 0007                  |
+| LogitechDrivingForce         | 046D / C294, C298            |
+| LogitechDrivingForceGT       | 046D / C29A                  |
+| LogitechG25                  | 046D / C299                  |
+| LogitechG27                  | 046D / C29B                  |
+| LogitechG29                  | 046D / C24F, C260            |
+| LogitechG920                 | 046D / C262                  |
+| LogitechG923PS               | 046D / C266, C267            |
+| LogitechG923X                | 046D / C26D, C26E            |
+| LogitechGPro                 | 046D / C272                  |
+| LogitechMomoForce            | 046D / C295                  |
+| LogitechMomoRacing           | 046D / CA03                  |
+| LogitechRacingWheel          | 046D / CA04                  |
+| LogitechSpeedForce           | 046D / C29C                  |
+| LogitechWingmanFormula       | 046D / C202                  |
+| LogitechWingmanFormulaForce  | 046D / C293                  |
+| LogitechWingmanFormulaGP     | 046D / C20E                  |
+| MicrosoftSideWinder          | 045E / 001A, 0034            |
+| MozaR3                       | 346E / 0005                  |
+| MozaR5                       | 346E / 0004                  |
+| MozaR9                       | 346E / 0002                  |
+| MozaR12                      | 346E / 0006                  |
+| MozaR16                      | 346E / 0000                  |
+| PXNV9                        | 11FF / 0511                  |
+| SimagicM10                   | 0483 / 0522                  |
+| Simucube1                    | 16D0 / 0D5A                  |
+| Simucube2Pro                 | 16D0 / 0D60                  |
+| Simucube2Sport               | 16D0 / 0D61                  |
+| Simucube2Ultimate            | 16D0 / 0D5F                  |
+| SimXperienceAccuForcePro     | 1FC9 / 804C                  |
+| ThrustmasterF430FF           | 044F / B56A                  |
+| ThrustmasterFGTFF            | 044F / B654                  |
+| ThrustmasterFGTRumbleForce   | 044F / B651                  |
+| ThrustmasterNascarProFF2     | 044F / B605                  |
+| ThrustmasterRGT              | 044F / B653                  |
+| ThrustmasterT150             | 044F / B677                  |
+| ThrustmasterT248             | 044F / B696                  |
+| ThrustmasterT300RSPS3        | 044F / B66E                  |
+| ThrustmasterT300RSPS3ADV     | 044F / B66F                  |
+| ThrustmasterT300RSPS4        | 044F / B66D                  |
+| ThrustmasterT500RS           | 044F / B56E                  |
+| ThrustmasterTMX              | 044F / B67F                  |
+| ThrustmasterTSPC             | 044F / B689                  |
+| ThrustmasterTSXW             | 044F / B692                  |
+| ThrustmasterTX               | 044F / B669                  |
+| VRSDirectForcePro            | 0483 / A355                  |
 
 </details>
 
