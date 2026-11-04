@@ -13,34 +13,39 @@ RetroBat utilise **la même disposition dans tous les émulateurs** : gâchette 
 {% endhint %}
 
 {% hint style="warning" %}
-Pour la configuration en **mode 4** avec le logiciel WiimoteGun, voir WiimoteGun. La disposition de cette page ne s'applique pas au mode 4.
+Pour le **mode 4** (WiimoteGun ou Wiimote4Guns), voir [WiimoteGun](wiimotegun.md). La disposition de cette page ne s'applique pas au mode 4.
 {% endhint %}
 
 ### Réglage de la DolphinBar
 
-| Mode DolphinBar               | Comment le sélectionner                                  | LEDs de la Wiimote | Utilisation dans RetroBat                                     |
-| ----------------------------- | -------------------------------------------------------- | ------------------ | ------------------------------------------------------------- |
-| **Mode 2 – Jeu** (recommandé) | Maintenir **Home** + appuyer sur **croix Gauche**        | 1 + 4              | Pistolet (par défaut)                                         |
-| Mode 1 – Normal               | Maintenir **Home** + appuyer sur **croix Bas**           | 1 + 2              | Pistolet                                                      |
-| Mode 1 – Multimédia           | Appuyer à nouveau sur **Home** + **croix Bas** en mode 1 | 1 + 3              | ❌ Non pris en charge (la croix envoie des touches multimédia) |
-| Mode 3 – Manette              | Maintenir **Home** + appuyer sur **croix Haut**          | 1 à 4              | ❌ Pas un pistolet                                             |
-| Mode 4 – Émulateur Wii        | Maintenir **Home** + appuyer sur **croix Droite**        | 1 à 4              | WiimoteGun et Dolphin uniquement                              |
+1. Placez la DolphinBar sous (ou au-dessus de) l'écran et réglez l'interrupteur à l'arrière sur **BOTTOM** (ou **TOP**) selon sa position.
+2. Appairez la Wiimote : appuyez sur le bouton **SYNC** de la DolphinBar, puis sur les boutons **1** et **2** de la Wiimote.
+3. Choisissez le mode avec le bouton **MODE** de la DolphinBar, ou avec une combinaison de boutons de la Wiimote :
 
-Le bouton **MODE** de la DolphinBar permet aussi de passer d'un mode à l'autre. Le mode choisi est mémorisé.
+<table><thead><tr><th width="186.5">Mode DolphinBar</th><th width="262.75">Combinaison sur la Wiimote</th><th width="97">LEDs de la Wiimote</th><th>Utilisation dans RetroBat</th></tr></thead><tbody><tr><td><strong>Mode 2 – Jeu</strong> (recommandé)</td><td>Maintenir <strong>Home</strong> + appuyer sur <strong>croix Gauche</strong></td><td>1 + 4</td><td>Pistolet (par défaut)</td></tr><tr><td>Mode 1 – Normal</td><td>Maintenir <strong>Home</strong> + appuyer sur <strong>croix Bas</strong></td><td>1 + 2</td><td>Pistolet</td></tr><tr><td>Mode 1 – Multimédia</td><td>Appuyer à nouveau sur <strong>Home</strong> + <strong>croix Bas</strong> en mode 1</td><td>1 + 3</td><td>❌ Non pris en charge (la croix envoie des touches multimédia)</td></tr><tr><td>Mode 3 – Manette</td><td>Maintenir <strong>Home</strong> + appuyer sur <strong>croix Haut</strong></td><td>1 à 4</td><td>❌ Pas un pistolet</td></tr><tr><td>Mode 4 – Émulateur Wii</td><td>Maintenir <strong>Home</strong> + appuyer sur <strong>croix Droite</strong></td><td>1 à 4</td><td>WiimoteGun, Wiimote4Guns et Dolphin uniquement</td></tr></tbody></table>
+
+Le mode choisi est mémorisé par la DolphinBar.
+
+{% hint style="warning" %}
+En mode 1 et en mode 2, une DolphinBar ne gère **qu'une seule Wiimote** : pour jouer à deux, il faut **une DolphinBar par Wiimote**.
+{% endhint %}
 
 ### Réglages dans RetroBat
 
-Dans EmulationStation, ouvrez les options du système ou du jeu, puis **Options avancées → Guns** :
+Dans EmulationStation, ouvrez [**MENU PRINCIPAL**](../../../navigation/main-menu.md#parametres-des-jeux) **> PARAMÈTRES DES JEUX > PISTOLETS > WIIMOTE** :
 
-* **ENABLE GUN** (activer le pistolet) : ON.
 * **WIIMOTE CONNECTION MODE** (mode de connexion de la Wiimote) : choisissez le mode de votre DolphinBar.
-  * **MODE 2 (GAME)** : également utilisé si l'option n'est pas réglée.
   * **MODE 1 (NORMAL)** : à choisir si votre DolphinBar est en mode 1.
-* **INVERT TRIGGER/RELOAD** (inverser tir/rechargement) : à activer si la gâchette recharge au lieu de tirer (voir Dépannage).
+  * **MODE 2 (GAME)** : également utilisé si l'option n'est pas réglée.
 
-{% hint style="info" %}
-Les noms des options peuvent différer légèrement selon la langue choisie dans EmulationStation.
-{% endhint %}
+<div align="left"><figure><img src="../../../.gitbook/assets/image (358).png" alt=""><figcaption></figcaption></figure></div>
+
+Puis, dans la [configuration avancée du système](../../../navigation/configuration-des-systemes-et-des-jeux.md#pour-un-systeme) ou du [jeu](../../../navigation/configuration-des-systemes-et-des-jeux.md#pour-un-jeu), sous-menu **PISTOLETS** :
+
+* **ACTIVER LES PISTOLETS** : activé automatiquement pour les jeux au pistolet, à régler sur **ON** pour les autres jeux.
+* **INVERSER GÂCHETTE ET RECHARGE** : à activer si la gâchette recharge au lieu de tirer (Wii Zapper, Nunchuk…).
+
+<div align="left"><figure><img src="../../../.gitbook/assets/image (359).png" alt=""><figcaption></figcaption></figure></div>
 
 Start, Coin, tir et rechargement sont **identiques en modes 1 et 2**. Le mode ne change que quelques boutons supplémentaires (1, 2, +).
 
@@ -68,6 +73,8 @@ Les touches clavier **1-4** (Start) et **5-8** (Coin) restent actives dans tous 
 
 #### Deux Wiimotes
 
+Chaque Wiimote a besoin de sa propre DolphinBar (voir plus haut).
+
 Dans la plupart des émulateurs, tous les claviers sont vus comme un seul : les deux Wiimotes envoient les mêmes touches. RetroBat donne alors **d'autres directions au joueur 2** :
 
 |       | Wiimote du joueur 1 | Wiimote du joueur 2 |
@@ -91,12 +98,12 @@ Quelques émulateurs savent distinguer les claviers (**TeknoParrot**, **Supermod
 | Haut, puis 1, 2 (mode 1) ou + (mode 2) | Boutons supplémentaires du jeu                                       |
 
 * Les **boutons supplémentaires** (sélection dans _Time Crisis 3/4_, pédales dans _2 Spicy_ et _Time Crisis 5_…) sont placés automatiquement dans l'ordre défini dans `system\resources\inputmapping\teknoparrot.yml`. S'il n'y a pas assez de boutons libres (par exemple _Police 911_), les restants sont sur les flèches du clavier.
-* **Deux Wiimotes** : chaque Wiimote a sa propre disposition. Si les joueurs 1 et 2 sont inversés, activez **WIIMOTE FIX ASSOCIATION**.
-* **COIN\START BUTTONS** réglé sur _ON KEYBOARD_ remet Start/Coin sur le clavier (1-4 / 5-8).
+* Si les joueurs 1 et 2 sont inversés, activez **WIIMOTE ASSOCIATION ALTERNATIVE**.
+* **BOUTONS CRÉDIT/START** réglé sur _SUR LE CLAVIER_ remet Start/Coin sur le clavier (1-4 / 5-8).
 
 #### Model 2
 
-Deux Wiimotes utilisent la disposition partagée (joueur 2 : Haut = Start, Bas = Coin). **FORCE KEYBOARD FOR START/COIN** remet Start/Coin sur le clavier uniquement.
+Deux Wiimotes utilisent la disposition partagée (joueur 2 : Haut = Start, Bas = Coin). **FORCER LE CLAVIER POUR START/PIÈCE** remet Start/Coin sur le clavier uniquement.
 
 #### Model 3 (Supermodel)
 
@@ -165,7 +172,7 @@ Avec deux Wiimotes, rechargez en visant hors de l'écran.
 | 1 (mode 1) / + (mode 2) | Pédale droite           | Bouton du pistolet      |
 | 2 (mode 1)              | –                       | Pédale gauche           |
 
-Le pistolet du joueur 2 nécessite **DEMULSHOOTER**.
+Le pistolet du joueur 2 nécessite **UTILISER DEMULSHOOTER**.
 
 #### Hypseus (jeux de tir Singe)
 
@@ -185,7 +192,7 @@ Sur console, le pistolet a souvent sa propre croix directionnelle : la croix de 
 | 1 (mode 1) / + (mode 2) | Aux C                              |
 
 * Seul le **joueur 1** utilise les boutons de la Wiimote (RetroArch fusionne tous les claviers).
-* **GUN A/B BUTTONS MAPPING** : laissez la valeur par défaut (ou _directions_) pour avoir Aux A/B/C sur la croix.
+* **MAPPING DES BOUTONS A/B** : laissez la valeur par défaut (ou **MANETTE GAUCHE/DROITE**) pour avoir Aux A/B/C sur la croix.
 
 #### Flycast (Dreamcast)
 
@@ -209,7 +216,7 @@ Avec une seule Wiimote en mode 2, le bouton **−** ferme Flycast (Échap).
 | GunCon A (Start) | Droite                        | Haut                          |
 | GunCon B         | Gauche                        | Bas                           |
 
-L'option **GUN A/B BUTTONS** remplace cette disposition si elle est réglée.
+L'option **MAPPING DES BOUTONS A/B** remplace cette disposition si elle est réglée.
 
 #### PCSX2 (GunCon 2 PlayStation 2)
 
@@ -219,7 +226,7 @@ L'option **GUN A/B BUTTONS** remplace cette disposition si elle est réglée.
 | Droite / Gauche | Start / Select     |
 | Bas / Haut      | GunCon 2 A / B     |
 
-L'option **GUN MAPPING** remplace cette disposition si elle est réglée.
+L'option **MAPPING DES BOUTONS GUNCON** remplace cette disposition si elle est réglée.
 
 #### Xbox (Cxbx-Reloaded, EMS TopGun)
 
@@ -255,13 +262,4 @@ L'option **GUN MAPPING** remplace cette disposition si elle est réglée.
 
 ### Dépannage
 
-| Problème                                   | Solution                                                                                                  |
-| ------------------------------------------ | --------------------------------------------------------------------------------------------------------- |
-| Start/Coin ne répondent pas                | Vérifiez les LEDs de la Wiimote (mode 2 : 1 + 4, mode 1 : 1 + 2) et l'option **WIIMOTE CONNECTION MODE**. |
-| La croix lance/met en pause la musique     | La DolphinBar est en mode 1 Multimédia (LEDs 1 + 3) : appuyez sur **Home + croix Bas**.                   |
-| Le volume du PC change                     | Normal en mode 2 en appuyant sur **1** ou **2**.                                                          |
-| Le menu Démarrer de Windows s'ouvre        | **Home** a été pressé : il agit comme la touche Windows.                                                  |
-| L'émulateur se ferme en appuyant sur **−** | Le mode 2 envoie Échap sur **−**. Évitez ce bouton ou passez en mode 1.                                   |
-| La gâchette recharge au lieu de tirer      | Certaines configurations (Nunchuk, Wii Zapper) inversent les clics : activez **INVERT TRIGGER/RELOAD**.   |
-| Joueurs 1 et 2 inversés (TeknoParrot)      | Activez **WIIMOTE FIX ASSOCIATION**.                                                                      |
-| Croix Droite déplace aussi le personnage   | Le clavier est configuré comme manette du joueur 1 : utilisez une manette en joueur 1.                    |
+<table><thead><tr><th width="264">Problème</th><th>Solution</th></tr></thead><tbody><tr><td>Start/Coin ne répondent pas</td><td>Vérifiez les LEDs de la Wiimote (mode 2 : 1 + 4, mode 1 : 1 + 2) et l'option <strong>WIIMOTE CONNECTION MODE</strong>.</td></tr><tr><td>La croix lance/met en pause la musique</td><td>La DolphinBar est en mode 1 Multimédia (LEDs 1 + 3) : appuyez sur <strong>Home + croix Bas</strong>.</td></tr><tr><td>Le volume du PC change</td><td>Normal en mode 2 en appuyant sur <strong>1</strong> ou <strong>2</strong>.</td></tr><tr><td>Le menu Démarrer de Windows s'ouvre</td><td><strong>Home</strong> a été pressé : il agit comme la touche Windows.</td></tr><tr><td>L'émulateur se ferme en appuyant sur <strong>−</strong></td><td>Le mode 2 envoie Échap sur <strong>−</strong>. Évitez ce bouton ou passez en mode 1.</td></tr><tr><td>La gâchette recharge au lieu de tirer</td><td>Certaines configurations (Nunchuk, Wii Zapper) inversent les clics : activez <strong>INVERT TRIGGER/RELOAD</strong>.</td></tr><tr><td>Joueurs 1 et 2 inversés (TeknoParrot)</td><td>Activez <strong>WIIMOTE FIX ASSOCIATION</strong>.</td></tr><tr><td>Croix Droite déplace aussi le personnage</td><td>Le clavier est configuré comme manette du joueur 1 : utilisez une manette en joueur 1.</td></tr></tbody></table>
