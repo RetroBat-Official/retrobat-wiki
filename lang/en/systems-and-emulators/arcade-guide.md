@@ -99,21 +99,21 @@ RetroBat uses the same arcade controls for most arcade emulators:
 <table><thead><tr><th width="302.75">Function</th><th width="220.75">Controller</th><th>Keyboard</th></tr></thead><tbody><tr><td>Insert a coin (player 1 / player 2)</td><td>SELECT</td><td><code>5</code> / <code>6</code></td></tr><tr><td>Start (player 1 / player 2)</td><td>START</td><td><code>1</code> / <code>2</code></td></tr><tr><td>Test (operator menu)</td><td>R3</td><td><code>9</code></td></tr><tr><td>Service (free credit)</td><td>L3</td><td><code>0</code></td></tr><tr><td>Quit the game</td><td>HOTKEY + START</td><td><code>Esc</code></td></tr></tbody></table>
 
 {% hint style="warning" %}
-Test and Service on the controller (R3 / L3) can be enabled or disabled in the [ADVANCED SYSTEM OPTIONS](../navigation/view-options.md#advanced-system-options) of some emulators, to avoid opening the operator menu by mistake:
+Test and Service on the controller (R3 / L3) can be enabled or disabled in the [ADVANCED SYSTEM OPTIONS](../navigation/configuration-of-systems-and-games.md#for-a-system) of some emulators, to avoid opening the operator menu by mistake:
 
 * MAME and SM2-emu: **CONTROLS** > **TEST/SERVICE ON L3/R3** (enabled by default);
-* Supermodel / Model3-Vulkan: **EMULATION** > **ENABLE SERVICE MENU** (disabled by default).
+* Supermodel / Model3-Vulkan, Flycast, PCSX2x6, lr-kronos: **EMULATION** > **ENABLE SERVICE MENU** (disabled by default).
 
-The keyboard keys `9` and `0` always work.
+The keyboard keys `0` (Test) and `9` (Service) always work.
 {% endhint %}
 
 ### Arcade stick layouts
 
-For MAME, lr-mame and FBNeo, RetroBat can place the buttons like on the original arcade cabinet, according to your controller. Choose the layout in **ADVANCED SYSTEM OPTIONS** > **CONTROLS** > **CONTROLLER LAYOUT**:
+For many arcade emulators (MAME, lr-mame, FBNeo, Flycast, Supermodel, TeknoParrot…), RetroBat can place the buttons like on the original arcade cabinet, according to your controller. Choose the layout in **ADVANCED SYSTEM OPTIONS** > **CONTROLS** > **CONTROLLER LAYOUT**:
 
 <table><thead><tr><th width="245.25">Layout</th><th>For</th></tr></thead><tbody><tr><td><strong>CONTROLLER (SNES)</strong></td><td>A gamepad (default)</td></tr><tr><td><strong>MODERN 8 BUTTONS</strong></td><td>8-button arcade stick: X, Y, RB, LB on the top row / A, B, RT, LT on the bottom row</td></tr><tr><td><strong>8 BUTTONS ALTERNATIVE</strong></td><td>8-button arcade stick: X, Y, LB, LT on the top row / A, B, RB, RT on the bottom row</td></tr><tr><td><strong>6 BUTTONS</strong></td><td>6-button arcade stick: X, Y, LB on the top row / A, B, RB on the bottom row</td></tr><tr><td><strong>CLASSIC 8 BUTTONS</strong></td><td>Same as <strong>6 BUTTONS</strong></td></tr></tbody></table>
 
-See also [Arcade Sticks](../controllers/supported-controllers/arcade-sticks.md).
+The list of compatible emulators and the stick setup are detailed on the [Arcade Sticks](../controllers/supported-controllers/arcade-sticks.md) page.
 
 ### Customizing arcade controls
 
