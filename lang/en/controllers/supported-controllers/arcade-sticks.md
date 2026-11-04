@@ -59,8 +59,8 @@ Games that are not listed use the standard RetroBat mapping. You can add or modi
 | --------------- | -------------- | --------- |
 | Start (P1 / P2) | START          | `1` / `2` |
 | Coin (P1 / P2)  | SELECT         | `5` / `6` |
-| Test            | R3             | `9`       |
-| Service         | L3             | `0`       |
+| Test            | R3             | `0`       |
+| Service         | L3             | `9`       |
 | Exit the game   | HOTKEY + START | `Esc`     |
 
 {% hint style="info" %}
