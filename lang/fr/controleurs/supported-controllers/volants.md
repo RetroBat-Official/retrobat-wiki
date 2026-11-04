@@ -4,107 +4,167 @@ description: Vroum vroum
 
 # 🛞 Volants
 
-La compatibilité des volants est une fonctionnalité très récente dans RetroBat, pour de nombreux émulateurs ou de nombreux modèles, une configuration spécifique est requise pour que le volant soit pleinement fonctionnel.
-
-De nombreux volants sont disponibles sur le marché. [Seuls quelques uns](volants.md#volants-compatible-avec-retrobat) ont été testés et configurés pour fonctionner automatiquement.
-
-## Détection des jeux de course se jouant au volant
-
-<div align="left"><figure><img src="https://i.imgur.com/LaVtSwP.png" alt=""><figcaption><p>Daytona USA est compatible</p></figcaption></figure></div>
-
-La liste des jeux se jouant avec un volant est stockée dans un fichier .xml dans le dossier RetroBat, si vous pensez que certains jeux de cette liste ne devraient pas y figurer, vous pouvez les retirer et gérer votre propre liste.
-
 {% hint style="warning" %}
-L'édition de ce fichier est de votre responsabilité.&#x20;
+**En cours de développement** : la gestion des volants dans RetroBat est encore en construction. Seuls quelques volants ont une configuration prête pour chaque émulateur, et ils n'ont pu être testés qu'avec les volants que possède l'équipe.
 
-Veillez a en faire une sauvegarde, car il sera écrasé lors des mises à jour de RetroBat.
+**Nous avons besoin de vous !** Si vous avez un volant qui n'est pas encore configuré, créez son mappage (voir plus bas) et partagez-le sur le Discord RetroBat ou sur GitHub, pour qu'il soit ajouté à RetroBat pour tout le monde.
 {% endhint %}
+
+## Fonctionnement
+
+Quand les volants sont activés, RetroBat :
+
+1. détecte les volants branchés grâce à leur identifiant USB (voir la liste des volants détectés) ;
+2. cherche le mappage de ce modèle de volant dans le fichier de mappage de l'émulateur (`system\resources\inputmapping\wheels`) ;
+3. écrit ce mappage dans la configuration de l'émulateur (direction, pédales, vitesses, boutons).
+
+Si un volant n'est pas dans la liste des volants détectés, ou n'a pas de mappage pour l'émulateur, RetroBat ne le configure pas comme un volant.
+
+{% hint style="info" %}
+* Un volant **avec pédalier** est nécessaire (accélérateur et frein) : RetroBat ne propose pas de jouer avec un volant sans pédales.
+* Le levier de vitesses est optionnel. Sur certains volants Thrustmaster, le levier est un périphérique séparé : c'est géré par la valeur `DeportedShifter` des fichiers de mappage.
+{% endhint %}
+
+## Activer les volants
+
+Les volants **ne sont pas activés automatiquement**. Activez-les pour un système ou pour un jeu :
+
+* Pour un système : ouvrez les [Options d'affichage](../../navigation/view-options.md) du système, choisissez **CONFIGURATION AVANCÉE DU SYSTÈME**, puis **VOLANTS DE COURSE**, et réglez **ACTIVER LES VOLANTS** sur **ON**.
+* Pour un jeu : même option dans les [Options du jeu](../../navigation/game-options.md) > **CONFIGURATION AVANCÉE DU JEU** > **VOLANTS DE COURSE**.
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (362).png" alt=""><figcaption></figcaption></figure></div>
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (363).png" alt=""><figcaption></figcaption></figure></div>
+
+Le sous-menu **VOLANTS DE COURSE** contient aussi les options volant de chaque émulateur (retour de force, disposition des boutons…), voir le tableau plus bas.
+
+### Jeux au volant
+
+RetroBat sait quels jeux se jouent au volant :
+
+* Une icône de volant s'affiche à côté de leur nom dans la liste des jeux (**MENU PRINCIPAL > PARAMÈTRES D'AFFICHAGE > ICÔNES > AFFICHER L'ICÔNE VOLANT**).
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (364).png" alt=""><figcaption></figcaption></figure></div>
+
+* La collection **VOLANT** contient tous les jeux au volant.
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (365).png" alt=""><figcaption></figcaption></figure></div>
+
+La liste des jeux au volant est dans le fichier `emulationstation\resources\gamesdb.xml` (jeux marqués `<wheel/>`). Pour la personnaliser, copiez le fichier dans `emulationstation\.emulationstation\resources\gamesdb.xml` et modifiez la copie : elle est lue en priorité et n'est pas écrasée par les mises à jour de RetroBat.
 
 <div align="left"><figure><img src="https://i.imgur.com/2wr4B4z.png" alt=""><figcaption></figcaption></figure></div>
 
-## Configuration des volants
+## Émulateurs compatibles
 
-### Activation du volant
+<table><thead><tr><th width="149">Émulateur</th><th width="153">Systèmes</th><th>Fichier de mappage</th><th>Options volant (sous-menu VOLANTS DE COURSE)</th></tr></thead><tbody><tr><td><strong>Model 2 Emulator</strong></td><td>Sega Model 2</td><td><code>model2_wheels.yml</code></td><td>ACTIVER LE RETOUR DE FORCE, GARDER LES VITESSES</td></tr><tr><td><strong>Supermodel</strong></td><td>Sega Model 3</td><td><code>model3_wheels.yml</code></td><td>ACTIVER LE RETOUR DE FORCE, FORCER L'INDEX DU VOLANT</td></tr><tr><td><strong>Flycast</strong></td><td>Dreamcast, Naomi, Atomiswave</td><td><code>flycast_wheels.yml</code> (Dreamcast), <code>flycast_racing_wheels.yml</code> (Dreamcast avec <strong>UTILISER LE RACING CONTROLLER</strong>), <code>flycast_arcade_wheels.yml</code> (arcade)</td><td>UTILISER LE RACING CONTROLLER, DISPOSITION DES BOUTONS DU VOLANT</td></tr><tr><td><strong>PCSX2</strong></td><td>PlayStation 2</td><td><code>pcsx2_wheels.yml</code></td><td>TYPE DE VOLANT JOUEUR 1, ACTIVER LE RETOUR DE FORCE, SIMULER LE VOLANT AVEC LA MANETTE…</td></tr><tr><td><strong>PCSX2x6</strong></td><td>Namco System 246/256</td><td><code>pcsx2x6_wheels.yml</code></td><td>ACTIVER LE RETOUR DE FORCE</td></tr><tr><td><strong>TeknoParrot</strong></td><td>Arcade sur PC</td><td><code>teknoparrot_wheels.yml</code></td><td>BOUTONS COIN &#x26; START, BOUTONS TEST &#x26; SERVICE, PROFIL PERSONNALISÉ…</td></tr><tr><td><strong>RetroArch - lr-flycast</strong></td><td>Dreamcast, Naomi, Atomiswave</td><td><code>libretro_flycast_wheels.yml</code>(pas encore fourni)</td><td>ACTIVER LES VOLANTS</td></tr></tbody></table>
 
-Le volant peut être activé pour un système ou pour un jeu.
+### Volants avec un mappage prêt
 
-Pour activer le volant pour un système, depuis la **Vue Jeux**, ouvrez les [Options d'Affichage](../../navigation/view-options.md) et sélectionnez **CONFIGURATION AVANCÉE DU SYSTÈME**.
+| Volant                         | Model 2 | Supermodel | Flycast | PCSX2 / PCSX2x6 | TeknoParrot |
+| ------------------------------ | :-----: | :--------: | :-----: | :-------------: | :---------: |
+| Logitech G29                   |    ✔    |      ✔     |    ✔    |        ✔        |      ✔      |
+| Logitech G920                  |    ✔    |            |    ✔    |                 |      ✔      |
+| Logitech G923 (PlayStation)    |    ✔    |            |    ✔    |        ✔        |      ✔      |
+| Logitech G923 (Xbox)           |    ✔    |            |    ✔    |                 |      ✔      |
+| Logitech Driving Force GT      |         |            |    ✔    |        ✔        |             |
+| Thrustmaster T300RS (mode PS3) |    ✔    |            |    ✔    |        ✔        |      ✔      |
+| Moza R5                        |         |            |    ✔    |        ✔        |      ✔      |
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (189).png" alt=""><figcaption></figcaption></figure></div>
-
-Naviguez jusqu'à l'option **VOLANTS DE COURSE**
-
-<div align="left"><figure><img src="../../.gitbook/assets/image (190).png" alt=""><figcaption></figcaption></figure></div>
-
-Basculez **ACTIVER LES VOLANTS** sur **ACTIVÉ**&#x20;
-
-<div align="left"><figure><img src="../../.gitbook/assets/image (191).png" alt=""><figcaption></figcaption></figure></div>
-
-La même option peut être activé par jeu depuis le menu [Option du Jeu](../../navigation/game-options.md) puis **CONFIGURATION AVANCÉE DU JEU**.<br>
-
-## Volants compatibles avec RetroBat
+TeknoParrot a aussi un mappage pour de nombreux autres volants (Logitech G Pro, Thrustmaster T150 / TMX / T248 / T300RS PS4 / T500RS / TX / TS-XW, Fanatec, Moza R9 / R12 / R16, Simucube, Simagic, Asetek, Cammus, PXN V9) et un mappage `default` utilisé pour les autres volants détectés.
 
 {% hint style="info" %}
-RetroBat ne permet pas de jouer au volant sans pédalier, il est nécessaire d'avoir les deux périphériques connectés lorsque vous activez l'option "wheels".
-
-Le levier de vitesse est optionnel.
+**Thrustmaster T300RS** : réglez les pédales en mode **séparé** (split) dans le Thrustmaster Control Panel, et vérifiez qu'elles ne sont pas inversées (corrigé en maintenant **MODE + L3 + R3**).
 {% endhint %}
 
-### Logitech G29
-
-<div align="left"><figure><img src="https://i.imgur.com/KAmr0lK.png" alt="" width="375"><figcaption></figcaption></figure></div>
-
-### Logitech G920
-
-<div align="left"><figure><img src="../../.gitbook/assets/image (200).png" alt="" width="375"><figcaption></figcaption></figure></div>
-
-### Logitech G923
-
-<div align="left"><figure><img src="https://i.imgur.com/TMaOjRK.png" alt="" width="375"><figcaption></figcaption></figure></div>
-
-### Thrustmaster T300RS
-
-<div align="left"><figure><img src="../../.gitbook/assets/Aos7B0z.jpeg" alt=""><figcaption></figcaption></figure></div>
+## Ajouter ou modifier le mappage d'un volant
 
 {% hint style="info" %}
-Il est très important pour ce volant que le pédalier soit défini comme étant "séparé" dans le panneau de contrôle Thrustmaster.
-
-Assurez-vous également que les pédales ne soient pas inversées (il est possible de régler cela en maintenant les boutons MODE + L3 + R3).
+Les fichiers de mappage des volants fournis par RetroBat sont dans `system\resources\inputmapping\wheels`. Vos propres fichiers vont dans `user\inputmapping` .
 {% endhint %}
 
-## Compatibilité des émulateurs
+Chaque fichier de mappage contient **un bloc par modèle de volant**, nommé avec le nom RetroBat du volant (voir Volants détectés). Les lignes du bloc sont indentées de 2 espaces.
 
-Les émulateurs suivant ont été configurés pour être compatible avec l'auto-configuration des contrôles au volant :
+{% hint style="warning" %}
+Chaque émulateur utilise **sa propre notation** pour les boutons et les axes (boutons numérotés à partir de 0 ou de 1, noms des axes…). Partez toujours d'un bloc existant **du même fichier** (le bloc `LogitechG29` est un bon exemple) et lisez les explications en haut du fichier.
+{% endhint %}
 
-<table><thead><tr><th width="160">Emulateur</th><th width="229">Retour de Force</th><th>Commentaire</th></tr></thead><tbody><tr><td>Model 2</td><td>OUI</td><td></td></tr><tr><td>Supermodel</td><td>OUI</td><td></td></tr><tr><td>Flycast</td><td>OUI</td><td>Il est possible d'effectuer un mapping différent pour l'Arcade et la Console</td></tr><tr><td>PCSX2</td><td>OUI</td><td>Il peut être nécessaire de modifier le type de volant depuis les options avancées</td></tr><tr><td>PCSX2X6</td><td>OUI</td><td>Il peut être nécessaire de modifier le type de volant depuis les options avancées</td></tr><tr><td>TEKNOPARROT</td><td>OUI</td><td></td></tr></tbody></table>
+### Exemple : Model 2 Emulator
 
-## Configurer un volant
+Le bloc `LogitechG29` de `model2_wheels.yml` :
 
-Le mapping du volant pour un volant en particulier peut être réalisé depuis les fichiers de configuration situés dans le dossier`system\resources\inputmapping\wheels` de votre installation RetroBat installation:
+```yaml
+LogitechG29:
+  DeportedShifter: false
+  Up: hatup
+  Down: hatdown
+  Left: hatleft
+  Right: hatright
+  Steer: axis0
+  Throttle: axis1
+  Brake: axis2
+  ShiftDown: button5
+  ShiftUp: button4
+  South: button0
+  East: button2
+  West: button1
+  North: button3
+  Start: button9
+  Select: button8
+  Gear1: button12
+  Gear2: button13
+  Gear3: button14
+  Gear4: button15
+  GearN: button18
+  Service: button10
+  Test: button11
+```
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (201).png" alt=""><figcaption></figcaption></figure></div>
+* `axis0`, `axis1`… sont les axes du volant (direction, accélérateur, frein). Utilisez `axisinv` au lieu de `axis` pour inverser un axe.
+* `button0`, `button1`… sont les boutons du volant, **numérotés à partir de 0**. Dans le panneau des contrôleurs de jeu de Windows (`joy.cpl` > Propriétés), les boutons sont numérotés à partir de 1 : retirez 1.
+* `DeportedShifter: true` ne sert que pour les volants dont le levier de vitesses est un périphérique séparé.
 
-Ci-dessous, un exemple pour Flycast :
+Pour ajouter votre volant :
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (188).png" alt=""><figcaption></figcaption></figure></div>
-
-Le format est important : chaque volant doit être renseigné dans son propre container, suivi du nom du bouton, lui-même précédé de 2 espaces.
-
-Le volant LogitechG29 peut être utilisé comme exemple.
-
-Pour adapter le fichier a votre volant, configurer votre matériel directement sous Flycast, sauvegarder, ouvrir le fichier de configuration crée dans le dossier `emulators\flycast\mappings` et reporter les valeurs sur le fichier.
+1. Copiez le fichier dans `user\inputmapping` (par exemple `user\inputmapping\model2_wheels.yml`) : RetroBat lit cette copie en priorité, et elle n'est pas écrasée par les mises à jour.
+2. Dupliquez le bloc `LogitechG29` et renommez-le avec le nom de votre volant (par exemple `ThrustmasterT150:`).
+3. Remplacez les valeurs par les axes et boutons de votre volant, puis testez en jeu.
+4. Vérifiez `emulationstation\emulatorLauncher.log` : les lignes `[WHEELS]` indiquent le volant détecté et le mappage utilisé.
 
 {% hint style="info" %}
-Si vous paramétrez un volant autre que ceux indiqués dans la liste des volants compatibles, merci de faire parvenir le fichier à l'équipe RetroBat, pour que celui-ci puissent être intégré lors des mises à jour prochaines.&#x20;
+Pour **Flycast** et **PCSX2**, le plus simple est de configurer le volant une fois dans l'émulateur lui-même, puis de reporter les valeurs du fichier de configuration qu'il crée (pour Flycast : `emulators\flycast\mappings`). La valeur `name` doit être le nom exact du volant affiché par l'émulateur.
 {% endhint %}
 
-Le nom du container pour les volants pouvant potentiellement être pris en charge se trouve ci-dessous.
+{% hint style="success" %}
+Votre mappage fonctionne ? Partagez-le sur le Discord RetroBat ou sur GitHub, pour qu'il soit ajouté à RetroBat !
+{% endhint %}
 
-### Volants supportés
+### RetroArch (lr-flycast)
+
+La gestion des volants est prête pour le core **lr-flycast** (option **ACTIVER LES VOLANTS**), mais **RetroBat ne fournit pas encore de fichier de mappage pour ce core**. Pour utiliser votre volant avec lr-flycast, créez le fichier `libretro_flycast_wheels.yml` dans `user\inputmapping`, avec un bloc par volant :
+
+* les clés sont les entrées RetroArch : `a`, `b`, `x`, `y`, `start`, `select`, `up`, `down`, `left`, `right`, `l`, `r`, `l2`, `r2`, `l3`, `r3`, `l_x_minus`, `l_x_plus`, `l_y_minus`, `l_y_plus`… ;
+* une valeur qui commence par `+` ou `-` est un **axe** (par exemple `-0` pour l'axe 0 dans le sens négatif), toute autre valeur est un numéro de **bouton** ;
+* la clé optionnelle `driver` indique le pilote d'entrée RetroArch à utiliser avec ce volant (`sdl2`, `dinput`…).
+
+```yaml
+LogitechG29:
+  driver: sdl2
+  l_x_minus: ...   # direction à gauche (axe)
+  l_x_plus: ...    # direction à droite (axe)
+  r2: ...          # accélérateur (axe)
+  l2: ...          # frein (axe)
+  a: ...           # bouton
+  b: ...           # bouton
+  start: ...       # bouton
+```
+
+Si vous créez ce fichier, partagez-le avec l'équipe !
+
+## Volants détectés
 
 <details>
 
-<summary>Volants supportés et VID/PID correspondant</summary>
+<summary>Noms RetroBat des volants et identifiants USB</summary>
 
 VID\_2433\&PID\_F300 : AsetekInvicta\
 VID\_2433\&PID\_F301 : AsetekForte\
@@ -172,3 +232,5 @@ VID\_0483\&PID\_A355 :  VRSDirectForcePro\
 VID\_11FF\&PID\_0511 : PXNV9
 
 </details>
+
+Votre volant n'est pas dans la liste ? Relevez son VID et son PID dans le Gestionnaire de périphériques de Windows (Propriétés > Détails > ID du matériel) et envoyez-les à l'équipe sur Discord ou GitHub.
