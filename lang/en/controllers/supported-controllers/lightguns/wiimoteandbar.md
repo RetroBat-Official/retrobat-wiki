@@ -4,8 +4,6 @@ description: Use a Wii Remote as a lightgun with a Mayflash DolphinBar (modes 1 
 
 # Wiimote & Dolphinbar
 
-## Wiimote & DolphinBar
-
 This page explains how to use a Wii Remote (Wiimote) as a lightgun with a **Mayflash DolphinBar** in **mode 1 or mode 2**, and how the Wiimote buttons are mapped in each emulator.
 
 {% hint style="info" %}
@@ -13,18 +11,22 @@ RetroBat uses the **same layout in every emulator**: trigger to fire, A to reloa
 {% endhint %}
 
 {% hint style="warning" %}
-For the **mode 4** setup with the WiimoteGun software, see [WiimoteGun](wiimotegun.md). The layout on this page does not apply to mode 4.
+For **mode 4** (WiimoteGun or Wiimote4Guns), see [WiimoteGun](https://wiki.retrobat.org/controllers/supported-controllers/lightguns/wiimotegun). The layout on this page does not apply to mode 4.
 {% endhint %}
 
 ### Set up the DolphinBar
 
-| DolphinBar mode                 | How to select it                                | Wiimote LEDs | Use in RetroBat                          |
-| ------------------------------- | ----------------------------------------------- | ------------ | ---------------------------------------- |
-| **Mode 2 – Game** (recommended) | Hold **Home** + press **D-pad Left**            | 1 + 4        | Lightgun (default)                       |
-| Mode 1 – Normal                 | Hold **Home** + press **D-pad Down**            | 1 + 2        | Lightgun                                 |
-| Mode 1 – Multimedia             | Press **Home** + **D-pad Down** again in mode 1 | 1 + 3        | ❌ Not supported (D-pad sends media keys) |
-| Mode 3 – Gamepad                | Hold **Home** + press **D-pad Up**              | 1 to 4       | ❌ Not a lightgun                         |
-| Mode 4 – Wii emulator           | Hold **Home** + press **D-pad Right**           | 1 to 4       | WiimoteGun and Dolphin only              |
+1. Plug the DolphinBar under (or above) the screen and set the switch at the back to **BOTTOM** (or **TOP**) accordingly.
+2. Pair the Wiimote: press the **SYNC** button of the DolphinBar, then the **1** and **2** buttons of the Wiimote.
+3. Select the mode with the **MODE** button of the DolphinBar, or with a Wiimote button combination:
+
+<table><thead><tr><th width="186.75">DolphinBar mode</th><th>Wiimote combination</th><th width="117.75">Wiimote LEDs</th><th>Use in RetroBat</th></tr></thead><tbody><tr><td><strong>Mode 2 – Game</strong> (recommended)</td><td>Hold <strong>Home</strong> + press <strong>D-pad Left</strong></td><td>1 + 4</td><td>Lightgun (default)</td></tr><tr><td>Mode 1 – Normal</td><td>Hold <strong>Home</strong> + press <strong>D-pad Down</strong></td><td>1 + 2</td><td>Lightgun</td></tr><tr><td>Mode 1 – Multimedia</td><td>Press <strong>Home</strong> + <strong>D-pad Down</strong> again in mode 1</td><td>1 + 3</td><td>❌ Not supported (D-pad sends media keys)</td></tr><tr><td>Mode 3 – Gamepad</td><td>Hold <strong>Home</strong> + press <strong>D-pad Up</strong></td><td>1 to 4</td><td>❌ Not a lightgun</td></tr><tr><td>Mode 4 – Wii emulator</td><td>Hold <strong>Home</strong> + press <strong>D-pad Right</strong></td><td>1 to 4</td><td>WiimoteGun, Wiimote4Guns and Dolphin only</td></tr></tbody></table>
+
+The selected mode is saved by the DolphinBar.
+
+{% hint style="warning" %}
+In mode 1 and mode 2, a DolphinBar handles **only one Wiimote**: to play with two Wiimotes, you need **one DolphinBar per Wiimote**.
+{% endhint %}
 
 ### Configure RetroBat
 
@@ -36,10 +38,10 @@ In EmulationStation, open the [Main Menu (START)](../../../navigation/main-menu.
 
 <div align="left"><figure><img src="../../../.gitbook/assets/image (166).png" alt=""><figcaption></figcaption></figure></div>
 
-Then in the [advance system settings](../../../navigation/configuration-of-systems-and-games.md) or [game settings](../../../navigation/game-options.md):
+Then in the [advance system settings](../../../navigation/configuration-of-systems-and-games.md) or [game settings](../../../navigation/game-options.md) **GUNS** submenu:
 
-* **ENABLE GUN**: ON
-* **INVERT TRIGGER/RELOAD**: enable it if the trigger
+* **ENABLE GUN**: enabled automatically for lightgun games, set it to **ON** for other games.
+* **INVERT TRIGGER/RELOAD**: enable it if the trigger reloads instead of firing (Wii Zapper, Nunchuk…).
 
 <div align="left"><figure><img src="../../../.gitbook/assets/image (167).png" alt=""><figcaption></figcaption></figure></div>
 
@@ -69,12 +71,11 @@ The keyboard keys **1-4** (Start) and **5-8** (Coin) keep working in every emula
 
 #### Two Wiimotes
 
+Each Wiimote needs its own DolphinBar (see above).
+
 In most emulators all keyboards are seen as one: both Wiimotes send the same keys. RetroBat then gives **player 2 other directions**:
 
-|       | Player 1 Wiimote | Player 2 Wiimote |
-| ----- | ---------------- | ---------------- |
-| Start | D-pad **Right**  | D-pad **Up**     |
-| Coin  | D-pad **Left**   | D-pad **Down**   |
+<table><thead><tr><th width="192"></th><th>Player 1 Wiimote</th><th>Player 2 Wiimote</th></tr></thead><tbody><tr><td>Start</td><td>D-pad <strong>Right</strong></td><td>D-pad <strong>Up</strong></td></tr><tr><td>Coin</td><td>D-pad <strong>Left</strong></td><td>D-pad <strong>Down</strong></td></tr></tbody></table>
 
 **Each player should only use their own directions**: D-pad Up on the player 1 Wiimote starts player 2.
 
@@ -186,7 +187,7 @@ On consoles, the gun often has its own D-pad: the Wiimote D-pad then stays a D-p
 | 1 (mode 1) / + (mode 2) | Aux C                               |
 
 * Only **player 1** uses the Wiimote buttons (RetroArch merges all keyboards).
-* **GUN A/B BUTTONS MAPPING**: keep the default (or _directions_) to get Aux A/B/C on the D-pad.
+* **GUN A/B BUTTONS MAPPING**: keep the default (or **KEYPAD LEFT/RIGHT**) to get Aux A/B/C on the D-pad.
 
 #### Flycast (Dreamcast)
 
@@ -210,7 +211,7 @@ With one Wiimote in mode 2, the **−** button quits Flycast (Escape).
 | GunCon A (Start) | Right                     | Up                        |
 | GunCon B         | Left                      | Down                      |
 
-**GUN A/B BUTTONS** overrides this layout when set.
+**GUN MAPPING A/B** overrides this layout when set.
 
 #### PCSX2 (PlayStation 2 GunCon 2)
 
@@ -220,7 +221,7 @@ With one Wiimote in mode 2, the **−** button quits Flycast (Escape).
 | Right / Left | Start / Select |
 | Down / Up    | GunCon 2 A / B |
 
-**GUN MAPPING** overrides this layout when set.
+**GUN BUTTON MAPPING** overrides this layout when set.
 
 #### Xbox (Cxbx-Reloaded, EMS TopGun)
 
