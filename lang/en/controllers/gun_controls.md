@@ -22,8 +22,6 @@ A lightgun works as a mouse (aiming and buttons), often with a keyboard for its 
 For lightgun games, the guns are enabled automatically (see [Lightguns](supported-controllers/lightguns/)). Exceptions:
 
 * **RPCS3**: choose the type of gun with **ENABLE GUN** (**RAW MOUSE** for GunCon 3, **PS EYE** for PlayStation Move games). It is never enabled automatically.
-* **Mednafen**: set **ENABLE GUN** to **ON** in the Mednafen options of the system or game.
-* **Snes9x (standalone)**: also choose a **GUN TYPE** (Superscope, Justifier or 2 Justifier).
 * **Hypseus** and **Singe 2**: the gun always works as a mouse, there is no option to enable.
 * **Wii**: the Wiimotes are used as real Wiimotes, see the [Wii](../systems-and-emulators/supported-game-systems/game-consoles/nintendo-game-consoles/wii.md) page.
 
