@@ -73,7 +73,7 @@ La colonne **Pistolets** donne le nombre de pistolets que RetroBat peut configur
 |                               | cxbx, chihiro, chihiro-gun                             | 1 (2 avec DemulShooter)   |                                                                             |
 |                               | teknoparrot                                            | Jusqu'à 4                 |                                                                             |
 | Super Nintendo                | lr-snes9x                                              | 1 (2 avec Justifiers)     | Superscope, Justifier, M.A.C.S. Rifle ou Justifiers (**TYPE DE PISTOLET**)  |
-|                               | lr-bsnes, lr-bsnes-jg, lr-mesen-s                      | 1                         |                                                                             |
+|                               | lr-bsnes, lr-bsnes\_hd\_beta, lr-bsnes-jg, lr-mesen-s  | 1                         |                                                                             |
 |                               | snes9x                                                 | 1 (2 avec 2 Justifiers)   |                                                                             |
 |                               | mesen, mednafen, jgenesis, bizhawk (BSNES, Snes9x)     | 1                         |                                                                             |
 | TeknoParrot                   | teknoparrot                                            | Jusqu'à 4                 |                                                                             |
@@ -94,7 +94,7 @@ Pour les sorties (recul, lumières) avec MAME, Flycast, Demul, Model 2, Supermod
 
 ### RetroArch
 
-<table><thead><tr><th width="390.25">Cores</th><th>Clic gauche</th><th>Clic droit</th><th>Clic milieu</th></tr></thead><tbody><tr><td>lr-cap32, lr-fceumm, lr-kronos, lr-mame, lr-mame2003_plus, lr-mame2016, lr-mednafen_saturn, lr-mesen, lr-opera, lr-stella, lr-supermodel, lr-vice, lr-ymir</td><td>Gâchette</td><td>Recharge</td><td>Start</td></tr><tr><td>lr-bsnes, lr-bsnes-jg, lr-gearsystem, lr-genesis_plus_gx, lr-genesis_plus_gx_wide, lr-mednafen_psx_hw, lr-mesen-s, lr-pcsx_rearmed, lr-snes9x, lr-swanstation</td><td>Gâchette</td><td>Aux A</td><td>Aux B</td></tr><tr><td>lr-fbneo, lr-flycast</td><td>Gâchette</td><td>Aux A</td><td>Start</td></tr><tr><td>lr-nestopia</td><td>Gâchette</td><td>Aux B</td><td>–</td></tr></tbody></table>
+<table><thead><tr><th width="390.25">Cores</th><th>Clic gauche</th><th>Clic droit</th><th>Clic milieu</th></tr></thead><tbody><tr><td>lr-cap32, lr-fceumm, lr-kronos, lr-mame, lr-mame2003_plus, lr-mame2016, lr-mednafen_saturn, lr-mesen, lr-opera, lr-stella, lr-supermodel, lr-vice, lr-ymir</td><td>Gâchette</td><td>Recharge</td><td>Start</td></tr><tr><td>lr-bsnes, lr-bsnes_hd_beta, lr-bsnes-jg, lr-gearsystem, lr-genesis_plus_gx, lr-genesis_plus_gx_wide, lr-mednafen_psx_hw, lr-mesen-s, lr-pcsx_rearmed, lr-snes9x, lr-swanstation</td><td>Gâchette</td><td>Aux A</td><td>Aux B</td></tr><tr><td>lr-fbneo, lr-flycast</td><td>Gâchette</td><td>Aux A</td><td>Start</td></tr><tr><td>lr-nestopia</td><td>Gâchette</td><td>Aux B</td><td>–</td></tr></tbody></table>
 
 * Clavier (joueur 1) : Start = **1**, Select = **5**, croix = flèches. Joueur 2 : **2** / **6**, etc.
 * **BOUTON POUR RECHARGER** : la recharge passe sur le clic droit, et le bouton du clic droit passe sur le clic milieu.
