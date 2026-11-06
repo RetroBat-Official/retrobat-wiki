@@ -11,11 +11,11 @@ For most branded controllers (Xbox, PlayStation, Switch Pro, 8BitDo…), there i
 
 Known controllers are configured automatically. To configure a controller that is not recognised, or to change its configuration, go to **MAIN MENU > CONTROLLER SETTINGS > CONTROLLER MAPPING**, then **hold a button** of the controller to configure:
 
-<div align="left"><figure><img src="../.gitbook/assets/image (333).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (334).png" alt=""><figcaption></figcaption></figure></div>
 
 The configuration screen asks for each input, one after the other:
 
-<div align="left"><figure><img src="https://i.imgur.com/NhgVTbZ.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (335).png" alt=""><figcaption></figcaption></figure></div>
 
 * **Map the buttons by their position**, not by their label: SOUTH is the bottom face button, EAST the right one, and so on (see the table below).
 * **Skip** an input your controller does not have by **holding any button** for one second.
@@ -43,6 +43,8 @@ The configuration is saved for this controller model in `emulationstation\.emula
 
 The order of the controllers (player 1, player 2…) is set in **MAIN MENU > CONTROLLER SETTINGS > CONTROLLERS PRIORITY**, with **P1'S CONTROLLER**, **P2'S CONTROLLER**…
 
+<div align="left"><figure><img src="../.gitbook/assets/image (336).png" alt=""><figcaption></figcaption></figure></div>
+
 ## Autoconfiguration in the emulators
 
 At each game launch, RetroBat writes the configuration of the connected controllers in the emulator (RetroArch and most standalone emulators): buttons, hotkeys, player order.
@@ -57,19 +59,19 @@ Autoconfiguration can be disabled globally, for a system or for a game, with the
 
 * **Globally**: **MAIN MENU > GAME SETTINGS > AUTOCONFIGURE CONTROLLERS**: **OFF**.
 
-<div align="left"><figure><img src="https://i.imgur.com/USc60bs.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (337).png" alt=""><figcaption></figcaption></figure></div>
 
 * **For a system**: open the [View Options](../navigation/view-options.md) of the system, **ADVANCED SYSTEM OPTIONS > AUTOCONFIGURE CONTROLLERS**: **OFF**.
 
-<div align="left"><figure><img src="https://i.imgur.com/DnYtGMf.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (338).png" alt=""><figcaption></figcaption></figure></div>
 
 * **For a game**: open the [Game Options](../navigation/game-options.md), **ADVANCED GAME OPTIONS > AUTOCONFIGURE CONTROLLERS**: **OFF**.
 
-<div align="left"><figure><img src="https://i.imgur.com/tUJldiK.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (339).png" alt=""><figcaption></figcaption></figure></div>
 
 Set **AUTOCONFIGURE CONTROLLERS** to **OFF**
 
-<div align="left"><figure><img src="https://i.imgur.com/b6Z10Rc.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (340).png" alt=""><figcaption></figcaption></figure></div>
 
 Then configure your controllers **directly in the emulator**:
 
@@ -92,25 +94,25 @@ RetroBat offers several ways to adapt the controls while keeping autoconfigurati
 
 The `flycast_Arcade.yml` file contains the mapping of many Naomi, Naomi 2 and Atomiswave games. Each block is a game (arcade games always have the same rom name, so the mapping is always applied):
 
-<div align="left"><figure><img src="../.gitbook/assets/image (87).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (341).png" alt=""><figcaption></figcaption></figure></div>
 
 For example, `l2: btn_trigger_left` means that the left trigger of your controller is assigned to the `btn_trigger_left` input of Flycast. RetroBat converts L2 into what your controller actually uses (axis or button):
 
-<div align="left"><figure><img src="../.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (342).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (343).png" alt=""><figcaption></figcaption></figure></div>
 
 #### RetroArch (Flycast core)
 
 The `libretro_flycast_naomi.yml` file contains, for each Naomi game, the remapping of the RetroArch RetroPad buttons to the inputs of the core:
 
-<div align="left"><figure><img src="../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (344).png" alt=""><figcaption></figcaption></figure></div>
 
 For example, `btn_b: 4` means that the SOUTH button of the RetroPad sends the input with ID 4 of the core (here, DRIVE GEAR):
 
-<div align="left"><figure><img src="../.gitbook/assets/image (91).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (345).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../.gitbook/assets/image (92).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (346).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 For RetroArch, these files do not change the mapping between your controller and the RetroPad: RetroBat creates a **core remap file** in `emulators\retroarch\config\remaps\<core name>`.
