@@ -30,12 +30,23 @@ This option is available for the RetroArch cores of computers, and for ScummVM a
 
 Many computer games are played with the keyboard only. With [**PadToKey**](../pad2key.md), the buttons of your controller send keyboard keys, so you can play these games with a controller.
 
-* RetroBat provides ready-made profiles for some systems (Amiga, Apple II, Atari ST, FM Towns…).
+* RetroBat provides ready-made profiles for some systems (Amiga, Apple II, Atari ST, FM Towns…), in `system\padtokey`.
 * You can create or modify a profile from EmulationStation:
-  * for a whole system: in the advanced options of the system, **CREATE PADTOKEY PROFILE** (or **EDIT PADTOKEY PROFILE** if one exists);
-  * for one game: in the [Game Options](../../navigation/game-options.md), **CREATE PADTOKEY PROFILE** / **EDIT PADTOKEY PROFILE**. The profile of a game is saved next to the game, in a `<game>.keys` file (`padto.keys` inside the folder for a game that is a folder).
+  * for a whole system: in the advanced options of the system, **CREATE PADTOKEY PROFILE** (or **EDIT PADTOKEY PROFILE** if one exists). The profile is saved in `system\padtokey\<system>.keys`;
+  * for one game: in the [Game Options](../../navigation/game-options.md), **CREATE PADTOKEY PROFILE** / **EDIT PADTOKEY PROFILE**. The profile is saved next to the game, in the `roms\<system>` folder: `<game>.keys` (for example `roms\amiga500\Turrican.keys`), or `padto.keys` inside the folder of a game that is a folder.
 
-In the **PAD TO KEYBOARD CONFIGURATION** screen, select a button of the controller and choose the keyboard key (or the mouse action) it must send.
+{% hint style="warning" %}
+The `system\padtokey` folder is **overwritten by RetroBat updates**. To keep your system profiles, copy them to `user\padtokey`: RetroBat reads this folder first.
+{% endhint %}
+
+RetroBat uses the first profile found, in this order:
+
+1. the profile of the game (`roms\<system>\<game>.keys`);
+2. `user\padtokey\<system>.<core>.keys`, then `user\padtokey\<system>.keys`;
+3. `emulationstation\.emulationstation\padtokey` (same names);
+4. `system\padtokey` (same names).
+
+The `<system>.<core>.keys` name is used for a profile that only applies to one core or emulator (for example `amiga500.puae.keys`).
 
 {% hint style="info" %}
 The PadToKey options appear only for the systems and emulators that support it.
