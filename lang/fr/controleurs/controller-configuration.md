@@ -1,147 +1,128 @@
-# Configuration des Contrôleurs
+# Configuration des manettes
 
-RetroBat configure automatiquement les contrôleurs en utilisant une base de données fournies par la librairie SDL, cela signifie que, dans la plupart des cas, si vous possédez une manette d'un constructeur connu (XBox, Sony, Nintendo Switch Pro, 8BitDo...), il ne devrait y avoir aucune intervention de la part de l'utilisateur, la manette étant configurée automatiquement.
+RetroBat configure vos manettes en deux étapes :
 
-Dans certains cas cependant, la configuration automatique ne fonctionne pas ou effectue une assignation incorrecte de certaines touches, RetroBat propose des options supplémentaires pour configurer correctement votre manette :
+1. **Dans RetroBat (EmulationStation)** : votre manette est reconnue et ses boutons sont connus. Cette étape n'est faite qu'une fois par modèle de manette.
+2. **À chaque lancement de jeu (autoconfiguration)** : RetroBat écrit la configuration de vos manettes dans l'émulateur, pour que vous puissiez jouer sans configurer chaque émulateur.
 
-* Désactiver l'[autoconfiguration RetroBat](controller-configuration.md#activer-une-configuration-specifique-par-jeu) complètement et procéder à votre propre configuration pour chaque système (ou pour un jeu spécifique)
-* [Écraser la configuration RetroBat](controller-configuration.md#utiliser-les-fichiers-de-remplacement-retrobat) avec des fichiers de substitution.
+Pour la plupart des manettes de marque (Xbox, PlayStation, Switch Pro, 8BitDo…), il n'y a rien à faire : les deux étapes sont automatiques.
+
+## Configurer une manette dans RetroBat
+
+Les manettes connues sont configurées automatiquement. Pour configurer une manette non reconnue, ou modifier sa configuration, allez dans **MENU PRINCIPAL > PARAMÈTRES DES MANETTES > CONFIGURER UNE MANETTE**, puis **maintenez un bouton** de la manette à configurer :
+
+<div align="left"><figure><img src="../.gitbook/assets/image (373).png" alt=""><figcaption></figcaption></figure></div>
+
+L'écran de configuration demande chaque entrée l'une après l'autre :
+
+<div align="left"><figure><img src="../.gitbook/assets/image (374).png" alt=""><figcaption></figcaption></figure></div>
+
+* **Configurez les boutons selon leur position**, pas selon leur inscription : SUD est le bouton du bas, EST celui de droite, etc. (voir le tableau ci-dessous).
+* **Passez** une entrée que votre manette n'a pas en **maintenant un bouton** pendant une seconde.
+* Entrées obligatoires : **SUD**, **EST**, la **croix directionnelle** (si votre manette en a une) et **RACCOURCI** (HOTKEY). Si votre manette n'a pas de bouton dédié pour RACCOURCI, utilisez **SÉLECTIONNER** (SELECT).
+* À la fin, appuyez sur **SUD** pour valider.
+
+| Entrée RetroBat                                 | Xbox                                                       | PlayStation                        | Nintendo               |
+| ----------------------------------------------- | ---------------------------------------------------------- | ---------------------------------- | ---------------------- |
+| SUD ![](<../.gitbook/assets/image (367).png>)   | A                                                          | ✕ (Croix)                          | B                      |
+| EST ![](<../.gitbook/assets/image (368).png>)   | B                                                          | ○ (Rond)                           | A                      |
+| NORD ![](<../.gitbook/assets/image (369).png>)  | Y                                                          | △ (Triangle)                       | X                      |
+| OUEST ![](<../.gitbook/assets/image (370).png>) | X                                                          | □ (Carré)                          | Y                      |
+| DÉMARRER (START)                                | Menu ![](<../.gitbook/assets/image (371).png>) / Start     | Options                            | +                      |
+| SÉLECTIONNER (SELECT)                           | Affichage ![](<../.gitbook/assets/image (372).png>) / Back | Share / Create                     | −                      |
+| PAD DIRECTIONNEL                                | Croix                                                      | Croix                              | Croix                  |
+| L1 / R1                                         | LB / RB                                                    | L1 / R1                            | L / R                  |
+| L2 / R2                                         | LT / RT                                                    | L2 / R2                            | ZL / ZR                |
+| STICK GAUCHE / STICK DROIT                      | Sticks gauche / droit                                      | Sticks gauche / droit              | Sticks gauche / droit  |
+| CLIC STICK GAUCHE / CLIC STICK DROIT            | Clic des sticks (L3 / R3)                                  | L3 / R3                            | Clic des sticks        |
+| RACCOURCI (HOTKEY)                              | SELECT (Affichage), ou un bouton dédié                     | SELECT (Share), ou un bouton dédié | − , ou un bouton dédié |
+
+La configuration est enregistrée pour ce modèle de manette dans `emulationstation\.emulationstation\es_input.cfg`.
+
+### Ordre des joueurs
+
+L'ordre des manettes (joueur 1, joueur 2…) se règle dans **MENU PRINCIPAL > PARAMÈTRES DES MANETTES > ORDRE DES MANETTES**, avec **MANETTE J1**, **MANETTE J2**…
+
+<div align="left"><figure><img src="../.gitbook/assets/image (375).png" alt=""><figcaption></figcaption></figure></div>
+
+## Autoconfiguration dans les émulateurs
+
+À chaque lancement de jeu, RetroBat écrit la configuration des manettes branchées dans l'émulateur (RetroArch et la plupart des émulateurs standalone) : boutons, raccourcis, ordre des joueurs.
 
 {% hint style="warning" %}
-La configuration des contrôleurs se fait au niveau de l'émulateur. Cela signifie que si vous configurez votre contrôleur manuellement (par exemple dans RetroArch) et que vous lancez plus tard un jeu depuis un autre système mais utilisant le même émulateur, et que vous activez l'autoconfiguration, cela écrasera votre configuration manuelle.
+Tant que l'autoconfiguration est active, la configuration des manettes de l'émulateur est **réécrite à chaque lancement** : un mappage fait à la main dans l'émulateur est perdu au lancement suivant. Pour garder votre propre configuration, désactivez l'autoconfiguration (voir ci-dessous).
 {% endhint %}
 
-## Configuration des contrôleurs
+### Désactiver l'autoconfiguration
 
-RetroBat détecte et configure automatiquement la grande majorité des contrôleurs de marques disponibles sur le marché, toutefois, si le contrôleur n'est pas reconnu, il suffira de presser une touche et/ou un bouton et le menu suivant apparaîtra :
+L'autoconfiguration peut être désactivée globalement, pour un système ou pour un jeu, avec l'option **AUTOCONFIGURER LES MANETTES** :
 
-<figure><img src="https://i.imgur.com/eNTHkgt.png" alt=""><figcaption></figcaption></figure>
+* **Globalement** : **MENU PRINCIPAL > PARAMÈTRES DES JEUX > AUTOCONFIGURER LES MANETTES** : **NON**.
 
-Presser et maintenir appuyé un bouton pour passer à l'écran **CONFIGURATION**
+<div align="left"><figure><img src="../.gitbook/assets/image (376).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/yGkfqEt.png" alt=""><figcaption></figcaption></figure></div>
+* **Pour un système** : ouvrez les [Options d'affichage](../navigation/view-options.md) du système, **CONFIGURATION AVANCÉE DU SYSTÈME > AUTOCONFIGURER LES MANETTES** : **NON**.
 
-Configurer les boutons en fonction de la position indiquée sur l'écran pour finaliser la configuration.&#x20;
+<div align="left"><figure><img src="../.gitbook/assets/image (377).png" alt=""><figcaption></figcaption></figure></div>
 
-{% hint style="info" %}
-Si la manette de jeu contient moins de bouton que ceux disponibles dans Retrobat, rester appuyer sur un bouton pour ignorer la ligne en cours et passer à la ligne suivante.
+* **Pour un jeu** : ouvrez les [Options du jeu](../navigation/game-options.md), **CONFIGURATION AVANCÉE DU JEU > AUTOCONFIGURER LES MANETTES** : **NON**.
 
-Il est toutefois nécessaire d'assigner les boutons A, B, D-PAD, START, SELECT et HOTKEY pour pouvoir utiliser Retrobat correctement.
-{% endhint %}
-
-Les correspondances de boutons "standard" pour les manettes XBOX, PlayStation et Nintendo sont listées dans la table ci-dessous:
-
-<table><thead><tr><th width="184">Retrobat</th><th>Microsoft XBOX</th><th>PlayStation</th><th>Nintendo</th></tr></thead><tbody><tr><td><img src="../.gitbook/assets/image (20) (1).png" alt="A"></td><td>A</td><td><img src="../.gitbook/assets/image (13) (1).png" alt=""></td><td>B</td></tr><tr><td><img src="../.gitbook/assets/image (7) (1).png" alt=""></td><td>B</td><td><img src="../.gitbook/assets/image (23) (1).png" alt=""></td><td>A</td></tr><tr><td><img src="../.gitbook/assets/image (35).png" alt=""></td><td>Y</td><td><img src="../.gitbook/assets/image (21) (1).png" alt=""></td><td>X</td></tr><tr><td><img src="../.gitbook/assets/image (33).png" alt="" data-size="line"></td><td>X</td><td><img src="../.gitbook/assets/image (6) (1).png" alt=""></td><td>Y</td></tr><tr><td>START</td><td><img src="../.gitbook/assets/image (25) (1).png" alt=""></td><td>START / OPTIONS</td><td>+</td></tr><tr><td>SELECT</td><td><img src="../.gitbook/assets/image (24) (1).png" alt=""></td><td>SELECT / SHARE</td><td>-</td></tr><tr><td>D-PAD HAUT</td><td>D-PAD HAUT</td><td>D-PAD HAUT</td><td>D-PAD HAUT</td></tr><tr><td>D-PAD BAS</td><td>D-PAD BAS</td><td>D-PAD BAS</td><td>D-PAD BAS</td></tr><tr><td>D-PAD GAUCHE</td><td>D-PAD GAUCHE</td><td>D-PAD GAUCHE</td><td>D-PAD GAUCHE</td></tr><tr><td>D-PAD DROITE</td><td>D-PAD DROITE</td><td>D-PAD DROITE</td><td>D-PAD DROITE</td></tr><tr><td>L1</td><td>L1</td><td>L1</td><td>L</td></tr><tr><td>R1</td><td>R1</td><td>R1</td><td>R</td></tr><tr><td>Stick gauche haut</td><td>Stick gauche haut</td><td>Stick gauche haut</td><td>Stick gauche haut</td></tr><tr><td>Stick gauche gauche</td><td>Stick gauche gauche</td><td>Stick gauche gauche</td><td>Stick gauche gauche</td></tr><tr><td>Stick droit haut</td><td>Stick droit haut</td><td>Stick droit haut</td><td>Stick droit haut</td></tr><tr><td>Stick droit gauche</td><td>Stick droit gauche</td><td>Stick droit gauche</td><td>Stick droit gauche</td></tr><tr><td>L2</td><td>L2</td><td>L2</td><td>ZL</td></tr><tr><td>R2</td><td>R3</td><td>R2</td><td>ZR</td></tr><tr><td>L3</td><td>L3 (stick)</td><td>L3 (stick)</td><td>L3 (stick)</td></tr><tr><td>R3</td><td>R3 (stick)</td><td>R3 (stick)</td><td>R3 (stick)</td></tr></tbody></table>
-
-## Désactiver une configuration spécifique par jeu
-
-Si, pour une raison ou une autre, la configuration des manettes par défaut ne fonctionne pas pour vous, ou que vous souhaitez modifier la configuration manuellement, il y a la possibilité de désactiver la configuration automatique des contrôleur afin de gérer la configuration directement par l’émulateur / le cœur lui-mème.
-
-La configuration automatique des manettes peut être désactivées pour tous les systèmes, par système ou uniquement pour un jeu.
-
-{% hint style="warning" %}
-**Pistolets :** dans de nombreux émulateurs, désactiver **AUTOCONFIGURE CONTROLLERS** n'empêche pas RetroBat de configurer les pistolets (périphériques, boutons, viseur, bordure Sinden…). Pour garder votre propre configuration des pistolets, réglez aussi **ENABLE GUN** (Options avancées → Guns) sur **OFF** pour le même système ou le même jeu.
-{% endhint %}
-
-### **Désactivation pour tous les systèmes**
-
-Ouvrir le [MENU PRINCIPAL](../navigation/main-menu.md#parametres-des-jeux) et aller dans les **PARAMETRES DES JEUX.**
-
-<div align="left"><figure><img src="https://i.imgur.com/EZGqHO6.png" alt=""><figcaption></figcaption></figure></div>
-
-Désactiver **AUTOCONFIGURER LES MANETTES.**
-
-<div align="left"><figure><img src="https://i.imgur.com/ExUlbH4.png" alt=""><figcaption></figcaption></figure></div>
-
-### **Désactivation pour un système**
-
-Ouvrir le menu [**OPTIONS D'AFFICHAGE**](../navigation/view-options.md#configuration-avancees-du-systeme) et aller dans **CONFIGURATION AVANCÉE DU SYSTÈME.**
-
-<div align="left"><figure><img src="../.gitbook/assets/image (205).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (378).png" alt=""><figcaption></figcaption></figure></div>
 
 Puis régler l'option **AUTOCONFIGURER LES MANETTES**  sur **NON.**
 
-<div align="left"><figure><img src="https://i.imgur.com/I45PNhI.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (379).png" alt=""><figcaption></figcaption></figure></div>
 
-### **Désactivation pour un jeu**
+Configurez ensuite vos manettes **directement dans l'émulateur** :
 
-Ouvrir le menu [**OPTIONS DU JEU**](../navigation/game-options.md#configuration-avancee-du-jeu) et sélectionner **CONFIGURATION AVANCEE DU JEU.**
-
-<div align="left"><figure><img src="https://i.imgur.com/nedAp7Z.png" alt=""><figcaption></figcaption></figure></div>
-
-Puis régler l'option **AUTOCONFIGURER LES MANETTES**  sur **NON.**
-
-<div align="left"><figure><img src="https://i.imgur.com/Z96x4mm.png" alt=""><figcaption></figcaption></figure></div>
+* les émulateurs standalone peuvent être ouverts depuis le système **RETROBAT** de la Vue Systèmes ;
+* dans RetroArch, ouvrez le menu pendant le jeu (**RACCOURCI + SUD** ou **F1**) puis **Commandes**.
 
 {% hint style="warning" %}
-Lorsque l'option AUTOCONFIGURER LES MANETTES est réglée sur NON, il est nécessaire de configurer les contrôleurs directement dans l'émulateur.
-
-Pour accéder aux menus des émulateurs, naviguer dans la **Vue Système** et sélectionner le système "RETROBAT". (Il est également possible de lancer chaque émulateur depuis le dossier `\emulators` dans le répertoire d'installation de RetroBat)
-
-Pour RetroArch, il est possible de créer une configuration spécifique à chaque jeu en pressant F1 (hotkey + ![A](<../.gitbook/assets/image (20) (1).png>)) en cours de jeu et en naviguant dans le menu RetroArch pour accéder à la configuration du contrôleur.
+**Pistolets** : désactiver **AUTOCONFIGURER LES MANETTES** n'empêche pas RetroBat de configurer les pistolets. Pour garder votre propre configuration des pistolets, réglez aussi **ACTIVER LES PISTOLETS** (configuration avancée > **PISTOLETS**) sur **NON** pour le même système ou jeu.
 {% endhint %}
 
-## Utiliser les fichiers de remplacement RetroBat
+## Adapter les contrôles sans désactiver l'autoconfiguration
 
-Pour certains émulateurs, RetroBat à inclus un process pour se substituer à la configuration automatique et standardisée. Selon l'émulateur, vous pouvez procéder de la façon suivante :&#x20;
+RetroBat propose plusieurs façons d'adapter les contrôles tout en gardant l'autoconfiguration :
 
-* En sélectionnant des configurations prédéfinis (depuis le menu RetroBat),
-* En utilisant les fichiers de remplacement yml / json (dans le dossier inputmapping de RetroBat)
-* En activant la détection de types de contrôleurs spécifiques (des manettes reprenant la disposition N64 ou Genesis, des adaptateurs pour les manettes d'origines...)
+<table><thead><tr><th width="235.75">Besoin</th><th width="279.25">Solution</th><th>Page</th></tr></thead><tbody><tr><td>Changer un raccourci</td><td>Fichiers de raccourcis <code>kb_hotkeys.yml</code> / <code>controller_hotkeys.yml</code></td><td><a href="../navigation/hotkeys.md">Raccourcis</a></td></tr><tr><td>Jouer aux jeux d'arcade avec un stick arcade</td><td>Option <strong>DISPOSITION DES BOUTONS</strong></td><td><a href="supported-controllers/arcade-sticks.md">Sticks Arcade</a></td></tr><tr><td>Choisir une autre disposition de boutons pour une console</td><td>Options de disposition du système (ex. Saturn <strong>BUTTON LAYOUT</strong>)</td><td>Page du système dans <a href="../systemes-and-emulateurs/supported-game-systems/">Systèmes compatibles</a></td></tr><tr><td>Changer le mappage d'un jeu ou d'un core</td><td>Fichiers de mappage dans <code>user\inputmapping</code></td><td><a href="configuration-des-touches-specifique-par-emulateur/">Configuration des touches par émulateur</a>, <a href="../systemes-and-emulateurs/arcade-guide.md">Guide Arcade</a></td></tr><tr><td>Utiliser une manette ou un adaptateur N64, Megadrive, Saturn, GameCube</td><td>Contrôleurs spéciaux</td><td><a href="supported-controllers/gamepads/controleurs-speciaux.md">Contrôleurs spéciaux</a></td></tr><tr><td>Jouer aux jeux d'ordinateur avec une manette</td><td>PadToKey</td><td><a href="supported-controllers/keyboard.md">Clavier</a></td></tr></tbody></table>
 
-Ci-après la liste des émulateurs qui permettent ces remplacement de fichiers, ou qui permettent différents type de disposition :
+### Comment fonctionne un fichier de mappage : deux exemples
 
-<table><thead><tr><th width="250.75">Émulateur</th><th width="165" align="center">Différentes dispositions ?</th><th width="164.5" align="center">Fichier de substitution ?</th><th width="197.75" align="center">Contrôleurs spéciaux ?</th></tr></thead><tbody><tr><td><a href="https://wiki.retrobat.org/francais/controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-retroarch">RETROARCH</a></td><td align="center">X</td><td align="center">X</td><td align="center">X</td></tr><tr><td><a href="https://wiki.retrobat.org/francais/controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-mame64">MAME</a></td><td align="center">X</td><td align="center">X</td><td align="center"></td></tr><tr><td>FBNEO (standalone)</td><td align="center">X</td><td align="center">X</td><td align="center"></td></tr><tr><td>FLYCAST</td><td align="center">X</td><td align="center">X</td><td align="center"></td></tr><tr><td><a href="configuration-des-touches-specifique-par-emulateur/configuration-des-touches-dolphin.md">DOLPHIN</a></td><td align="center">X</td><td align="center">X</td><td align="center">X</td></tr><tr><td>ARES</td><td align="center">X</td><td align="center"></td><td align="center">X</td></tr><tr><td>BIZHAWK</td><td align="center">X</td><td align="center"></td><td align="center">X</td></tr><tr><td>JGENESIS</td><td align="center">X</td><td align="center"></td><td align="center">X</td></tr><tr><td>KEGA-FUSION</td><td align="center">X</td><td align="center"></td><td align="center">X</td></tr><tr><td>MEDNAFEN</td><td align="center">X</td><td align="center"></td><td align="center">X</td></tr><tr><td>MUPEN64 (RMG)</td><td align="center">X</td><td align="center"></td><td align="center">X</td></tr><tr><td>SIMPLE64</td><td align="center">X</td><td align="center"></td><td align="center">X</td></tr><tr><td>2SHIP, SOH, GHOSTSHIP</td><td align="center">X</td><td align="center"></td><td align="center">X</td></tr><tr><td>PLAY!</td><td align="center"></td><td align="center">X</td><td align="center"></td></tr><tr><td>KRONOS</td><td align="center">X</td><td align="center"></td><td align="center">X</td></tr><tr><td>YABASANSHIRO</td><td align="center">X</td><td align="center"></td><td align="center">X</td></tr><tr><td>YMIR</td><td align="center">X</td><td align="center"></td><td align="center">X</td></tr><tr><td>SSF</td><td align="center">X</td><td align="center"></td><td align="center">X</td></tr><tr><td><a href="../systemes-and-emulateurs/supported-game-systems/arcade/sega/sega-model-3.md#controles">SUPERMODEL</a></td><td align="center"></td><td align="center">X</td><td align="center"></td></tr><tr><td><a href="configuration-des-touches-specifique-par-emulateur/configuration-des-touches-model2.md">MODEL2</a></td><td align="center"></td><td align="center">X</td><td align="center"></td></tr><tr><td><a href="configuration-des-touches-specifique-par-emulateur/configuration-des-touches-teknoparrot.md">TEKNOPARROT</a></td><td align="center"></td><td align="center">X</td><td align="center"></td></tr></tbody></table>
+#### Flycast (standalone)
+
+Le fichier `flycast_Arcade.yml` contient le mappage de nombreux jeux Naomi, Naomi 2 et Atomiswave. Chaque bloc correspond à un jeu (les jeux d'arcade ont toujours le même nom de rom, le mappage est donc toujours appliqué) :
+
+<div align="left"><figure><img src="../.gitbook/assets/image (380).png" alt=""><figcaption></figcaption></figure></div>
+
+Par exemple, `l2: btn_trigger_left` signifie que la gâchette gauche de votre manette est affectée à l'entrée `btn_trigger_left` de Flycast. RetroBat convertit L2 en ce que votre manette utilise réellement (axe ou bouton) :
+
+<div align="left"><figure><img src="../.gitbook/assets/image (381).png" alt=""><figcaption></figcaption></figure></div>
+
+<div align="left"><figure><img src="../.gitbook/assets/image (382).png" alt=""><figcaption></figcaption></figure></div>
+
+#### RetroArch (core Flycast)
+
+Le fichier `libretro_flycast_naomi.yml` contient, pour chaque jeu Naomi, le remappage des boutons du RetroPad de RetroArch vers les entrées du core :
+
+<div align="left"><figure><img src="../.gitbook/assets/image (383).png" alt=""><figcaption></figcaption></figure></div>
+
+Par exemple, `btn_b: 4` signifie que le bouton SUD du RetroPad envoie l'entrée n° 4 du core (ici, DRIVE GEAR) :
+
+<div align="left"><figure><img src="../.gitbook/assets/image (384).png" alt=""><figcaption></figcaption></figure></div>
+
+<div align="left"><figure><img src="../.gitbook/assets/image (385).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
-Cliquez sur le lien présent sur le nom de l'émulateur pour accéder à la page spécifiquement lié a celui-ci.
-
-Pour voir les différentes dispositions existantes pour un émulateur / un système, visitez la [page système](https://app.gitbook.com/s/Cgoewyw8Sagl6SNUMrCG/systemes-and-emulateurs).
+Pour RetroArch, ces fichiers ne modifient pas le mappage entre votre manette et le RetroPad : RetroBat crée un **fichier de remap du core** dans `emulators\retroarch\config\remaps\<nom du core>`.
 {% endhint %}
 
-### Principe de substitution des fichiers
+## Résoudre un problème de manette
 
-Les fichiers de substitution fournis se trouvent dans le dossier `\system\resources\inputmapping` de votre installation RetroBat. Ces fichiers peuvent être modifiés lors des mises à jour RetroBat, il est donc recommandé de copier ceux que vous souhaitez modifier dans le dossier `\user\inputmapping` .
-
-Ces fichiers sont des fichiers YAML (.yml), qui contiennent plusieurs conteneur (habituellement par jeu ou par cœur pour RetroArch, accompagné d'un conteneur "default") que RetroBat va inspecter afin de chercher le mappage des touches a appliquer.
-
-#### Exemple 1 : Flycast standalone
-
-Le fichier "`flycast_arcade.yml`" contient le mappage pour de nombreux jeux d'arcade qui peuvent être lancés à l'aide de l'émulateur Flycast (Atomiswave, Naomi et Naomi2), ci-après un exemple du contenu du fichier :
-
-<div align="left"><figure><img src="../.gitbook/assets/image (79).png" alt=""><figcaption></figcaption></figure></div>
-
-Chaque conteneur contient le mappage pour un jeu, car le nommage des jeux d'arcade étant fixe, cela permettra d'appliquer automatiquement ce mappage pour le jeu prévu.
-
-Par exemple, la ligne `l2: btn_trigger_left` signifie que la valeur "btn\_trigger\_left" dans le fichier de configuration de l'émulateur Flycast sera attribué à la gâchette gauche de la manette, que RetroBat convertira L2 en la touche que vous avez défini comme L2 sur votre contrôleur (axe ou bouton) :
-
-<div align="left"><figure><img src="../.gitbook/assets/image (80).png" alt=""><figcaption></figcaption></figure></div>
-
-<div align="left"><figure><img src="../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure></div>
-
-#### Exemple 2 : RetroArch (cœur Flycast)
-
-Le fichier "`libretro_flycast_naomi.yml`" contient le mappage pour les jeux Naomi qui peuvent être lancés avec le cœur Libretro-Flycast, ci-après un exemple du contenu du fichier :
-
-<div align="left"><figure><img src="../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure></div>
-
-Chaque conteneur contient les informations de position des touches qui seront utilisés pour reparamétrer les boutons "RetroPad par défaut pour le cœur flycast. Le nommage des jeux d'arcade étant fixe, cela permettra d'appliquer automatiquement ce mappage pour le jeu prévu.
-
-Par exemple, la ligne `btn_b: 4` signifie que le bouton SUD sur le contrôleur sera configuré sur le bouton avec l'identifiant 4 pour le cœur Libretro-Flycast (l'ID 4 correspond à la commande de la boite de vitesse) :
-
-<div align="left"><figure><img src="../.gitbook/assets/image (83).png" alt=""><figcaption></figcaption></figure></div>
-
-<div align="left"><figure><img src="../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure></div>
-
-{% hint style="info" %}
-Pour RetroArch, ces fichiers ne changeront pas le mappage entre le contrôleur physique et le retropad générique RetroArch. Cela créera un fichier de remap par cœur. Les fichiers de remaps se trouvent dans le dossier `\emulators\retroarch\config\remaps\<core name>` .
-{% endhint %}
-
-## Résolution de soucis liés aux contrôleurs
-
-En cas de problème avec vos contrôleurs, procédez de la façon suivante :&#x20;
-
-1. Essayez de refaire une configuration de la manette
-2. Vérifiez la configuration crée par RetroBat (sauvegardez le fichier pour plus tard)
-3. Configurez le contrôleur directement depuis l'émulateur (sauvegardez le fichier pour plus tard)
-4. Contactez le staff RetroBat et partagez les fichiers crées aux étapes 2 et 3
+1. **Reconfigurez votre manette** dans **PARAMÈTRES DES MANETTES > CONFIGURER UNE MANETTE**, selon la position des boutons.
+2. **Vérifiez l'ordre des joueurs** dans **ORDRE DES MANETTES**.
+3. **Vérifiez qu'AUTOCONFIGURER LES MANETTES n'est pas sur NON** (globalement, pour le système ou pour le jeu).
+4. Lancez le jeu et ouvrez `emulationstation\emulatorLauncher.log` : il indique les manettes détectées et la configuration écrite.
+5. Si le problème persiste, désactivez l'autoconfiguration, configurez la manette directement dans l'émulateur et gardez le fichier de configuration qu'il crée.
+6. Contactez l'équipe RetroBat (Discord ou GitHub) avec `es_input.cfg`, `emulatorLauncher.log` et les fichiers de configuration de l'émulateur des étapes 4 et 5.

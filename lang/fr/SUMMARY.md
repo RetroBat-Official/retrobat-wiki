@@ -311,7 +311,7 @@
     * [WiimoteGun et Wiimote4Guns](controleurs/supported-controllers/lightguns/wiimotegun.md)
   * [🛞 Volants](controleurs/supported-controllers/volants.md)
   * [⌨️ Clavier](controleurs/supported-controllers/keyboard.md)
-* [Configuration des Contrôleurs](controleurs/controller-configuration.md)
+* [Configuration des manettes](controleurs/controller-configuration.md)
 * [Configuration des touches spécifique par émulateur](controleurs/configuration-des-touches-specifique-par-emulateur/README.md)
   * [Configuration des touches RetroArch](controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-retroarch.md)
   * [Configuration des touches Dolphin](controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-dolphin.md)
