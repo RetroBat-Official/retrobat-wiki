@@ -30,12 +30,23 @@ Cette option est disponible pour les cores RetroArch des ordinateurs, ainsi que 
 
 Beaucoup de jeux d'ordinateur se jouent uniquement au clavier. Avec [**PadToKey**](../pad2key.md), les boutons de votre manette envoient des touches du clavier : vous pouvez alors jouer à ces jeux à la manette.
 
-* RetroBat fournit des profils prêts à l'emploi pour certains systèmes (Amiga, Apple II, Atari ST, FM Towns…).
+* RetroBat fournit des profils prêts à l'emploi pour certains systèmes (Amiga, Apple II, Atari ST, FM Towns…), dans `system\padtokey`.
 * Vous pouvez créer ou modifier un profil depuis EmulationStation :
-  * pour tout un système : dans la configuration avancée du système, **CRÉER UN PROFIL PADTOKEY** (ou **ÉDITER UN PROFIL PADTOKEY** s'il existe déjà) ;
-  * pour un seul jeu : dans les [Options du jeu](../../navigation/game-options.md), **CRÉER UN PROFIL PADTOKEY** / **ÉDITER UN PROFIL PADTOKEY**. Le profil d'un jeu est enregistré à côté du jeu, dans un fichier `<jeu>.keys` (`padto.keys` dans le dossier pour un jeu qui est un dossier).
+  * pour tout un système : dans la configuration avancée du système, **CRÉER UN PROFIL PADTOKEY** (ou **ÉDITER UN PROFIL PADTOKEY** s'il existe déjà). Le profil est enregistré dans `system\padtokey\<système>.keys` ;
+  * pour un seul jeu : dans les [Options du jeu](../../navigation/game-options.md), **CRÉER UN PROFIL PADTOKEY** / **ÉDITER UN PROFIL PADTOKEY**. Le profil est enregistré à côté du jeu, dans le dossier `roms\<système>` : `<jeu>.keys` (par exemple `roms\amiga500\Turrican.keys`), ou `padto.keys` dans le dossier d'un jeu qui est un dossier.
 
-Dans l'écran **CONFIGURATION MANETTE À CLAVIER**, choisissez un bouton de la manette, puis la touche du clavier (ou l'action de la souris) qu'il doit envoyer.
+{% hint style="warning" %}
+Le dossier `system\padtokey` est **écrasé lors des mises à jour de RetroBat**. Pour conserver vos profils système, copiez-les dans `user\padtokey` : RetroBat lit ce dossier en priorité.
+{% endhint %}
+
+RetroBat utilise le premier profil trouvé, dans cet ordre :
+
+1. le profil du jeu (`roms\<système>\<jeu>.keys`) ;
+2. `user\padtokey\<système>.<core>.keys`, puis `user\padtokey\<système>.keys` ;
+3. `emulationstation\.emulationstation\padtokey` (mêmes noms) ;
+4. `system\padtokey` (mêmes noms).
+
+Le nom `<système>.<core>.keys` sert pour un profil qui ne s'applique qu'à un core ou un émulateur (par exemple `amiga500.puae.keys`).
 
 {% hint style="info" %}
 Les options PadToKey n'apparaissent que pour les systèmes et émulateurs qui le prennent en charge.
