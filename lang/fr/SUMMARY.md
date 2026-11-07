@@ -319,7 +319,7 @@
   * [Configuration des touches Model2](controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-model2.md)
   * [Configuration des touches Teknoparrot](controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-teknoparrot.md)
 * [Contrôle des pistolets](controleurs/pistolets_controles.md)
-* [Pad2Key](controleurs/pad2key.md)
+* [PadToKey](controleurs/pad2key.md)
 
 ## Utilisation avancée
 
