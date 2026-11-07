@@ -1,79 +1,125 @@
-# Pad2Key
+# PadToKey
 
-The Pad2Key functionality enables the creation of a "per-game" controller to keyboard keys mapping, this is mostly used for old computers and old Windows games that are not compatible with a Gamepad.
+With **PadToKey**, the buttons of your controller send **keyboard keys** (or mouse actions) to the game. Use it for games that cannot be played with a controller: old computer games, Windows games, some standalone emulators or ports.
 
-You can create a pad2key profile for a system or for a specific game.
+A PadToKey profile can be made for a **whole system** or for **one game**, for up to 4 players. While the game runs, RetroBat sends the keys to the emulator window.
 
-### Create a pad2key profile for a system
+{% hint style="info" %}
+The PadToKey options appear only for the systems and emulators that support it (computers, DOS, Windows games, pinball, ports, some standalone emulators…). They can be edited only when the interface is in **FULL** mode.
+{% endhint %}
 
-From the Game View press SELECT to open the [View Options](../navigation/view-options.md) menu and select **ADVANCED SYSTEM OPTIONS.**
+## Creating or editing a profile
 
-<div align="left">
+### For a system
 
-<figure><img src="https://i.imgur.com/jR79O63.png" alt=""><figcaption></figcaption></figure>
+1. In the game list of the system, press **SELECT** to open the [View Options](../navigation/view-options.md).
+2. Select **ADVANCED SYSTEM OPTIONS**.
+3. Select **CREATE PADTOKEY PROFILE** (or **EDIT PADTOKEY PROFILE** if the system already has one).
 
-</div>
+### For a game
 
-Select **EDIT PADTOKEY PROFILE.**
+1. In the game list, hold **SOUTH** on the game to open the [Game Options](../navigation/game-options.md).
+2. Select **CREATE PADTOKEY PROFILE** (or **EDIT PADTOKEY PROFILE**).
 
-<div align="left">
+A new game profile starts from the profile of the system, if there is one: you only change the keys this game needs.
 
-<figure><img src="https://i.imgur.com/8QE8iwu.png" alt=""><figcaption></figcaption></figure>
+### The editor
 
-</div>
+The **PAD TO KEYBOARD CONFIGURATION** window lists the buttons of the controller, with a tab per player (**PLAYER 1** to **PLAYER 4**).
 
-<div align="left">
+<div align="left"><figure><img src="../.gitbook/assets/image (347).png" alt=""><figcaption></figcaption></figure></div>
 
-<figure><img src="https://i.imgur.com/rJ2TCWP.png" alt=""><figcaption></figcaption></figure>
+* Select a button and press **SOUTH** ![](<../.gitbook/assets/image (348).png>) : a virtual keyboard opens.
+  * Move to a key and press **SOUTH** ![](<../.gitbook/assets/image (349).png>) to assign it.
+  * To send several keys at once (e.g. **Shift + F1**), press **NORTH** (**ADD COMBINATION KEY**) on each extra key, then **SOUTH** ![](<../.gitbook/assets/image (350).png>) on the last one.
+  * Press **WEST** (**RESET**) to remove the key of the button.
+  * The mouse buttons are on the right of the virtual keyboard.
+* **COMBINATIONS**: assign keys to **HOTKEY + START**, **HOTKEY + SOUTH**, **HOTKEY + EAST**, **HOTKEY + NORTH** or **HOTKEY + WEST**.
+* **MOUSE CURSOR** > **EMULATE MOUSE CURSOR**: moves the mouse pointer with the **LEFT ANALOG STICK** or the **RIGHT ANALOG STICK**.
+* On a button: **NORTH** deletes its mapping, **WEST** edits its description (a reminder of the action in the game, e.g. "Fire").
+* **SAVE** (or **START**) saves the profile, **DELETE** deletes the whole profile.
 
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/image (351).png" alt=""><figcaption></figcaption></figure></div>
 
-Select the keys from your controller to assign to a keyboard button and press ![A](<../.gitbook/assets/image (30).png>), a virtual keyboard will appear.&#x20;
+## Where the profiles are saved
 
-Select the keyboard key to affect to the pad button and repeat for all required buttons
+<table><thead><tr><th width="154">Profile</th><th>File</th></tr></thead><tbody><tr><td>Game</td><td>Next to the game: <code>roms\&#x3C;system>\&#x3C;game>.keys</code> (e.g. <code>roms\amiga500\Turrican.keys</code>). For a game that is a folder: <code>padto.keys</code> inside the folder</td></tr><tr><td>System</td><td><code>system\padtokey\&#x3C;system>.keys</code></td></tr></tbody></table>
 
-<div align="left">
+{% hint style="warning" %}
+The `system\padtokey` folder is overwritten by RetroBat updates. To keep a system profile, copy it to `user\padtokey`: this folder is read first and is never overwritten.
+{% endhint %}
 
-<figure><img src="https://i.imgur.com/vElSeT7.png" alt=""><figcaption></figcaption></figure>
+### Which profile is used
 
-</div>
+At launch, RetroBat uses the **first profile found**, in this order:
 
-Once done, **SAVE.**
+1. The profile of the game (`<game>.keys` or `padto.keys`).
+2. `user\padtokey\<system>.<core>.keys`, then `user\padtokey\<system>.keys`.
+3. `emulationstation\.emulationstation\padtokey` (same names).
+4. `system\padtokey` (same names).
 
-### Create a pad2key profile for a **game**
+A `<system>.<core>.keys` profile applies only when the game runs with this core or emulator (e.g. `amiga500.puae.keys` for the puae core only). It cannot be created from EmulationStation: copy a `<system>.keys` file and rename it.
 
-From the Game View long-press ![A](<../.gitbook/assets/image (30).png>) to access the [Game Options](../navigation/game-options.md) menu and select **CREATE PADTOKEY PROFILE.**
+RetroBat provides ready-made profiles in `system\padtokey` for some systems (Amiga, Apple II, Atari ST, FM Towns, X68000, Sam Coupé…).
 
-<div align="left">
+## Profiles from ScreenScraper
 
-<figure><img src="https://i.imgur.com/8BJeFtb.png" alt=""><figcaption></figcaption></figure>
+ScreenScraper provides PadToKey profiles for some games. To get them, enable **MAIN MENU > SCRAPER > PADTOKEY SETTINGS** before scraping.
 
-</div>
+The profile is saved next to the game as `<game>.p2k.cfg` (or `.p2k.cfg` inside the folder of a game that is a folder) and is used automatically. If you edit it in EmulationStation, your changes are saved in a `.keys` file, which is then used instead of the ScreenScraper profile.
 
-### Get Pad2Key profiles from external sources
+## The .keys file
 
-Pad2keys profiles files can be [scraped from screenscraper](../navigation/scraping-and-metadata.md).fr if the option is enabled.
+A `.keys` file is a text file (JSON). You can edit it with a text editor, for example to make a `<system>.<core>.keys` profile.
 
-<div align="left">
+```json
+{
+    "actions_player1": [
+        { "trigger": "a", "type": "key", "target": "KEY_SPACE", "description": "Jump" },
+        { "trigger": "b", "type": "key", "target": "KEY_LEFTCTRL", "description": "Fire" },
+        { "trigger": "start", "type": "key", "target": "KEY_ENTER" },
+        { "trigger": ["hotkey", "a"], "type": "key", "target": ["KEY_LEFTSHIFT", "KEY_F1"] },
+        { "trigger": "joystick2", "type": "mouse" },
+        { "trigger": "r3", "type": "key", "target": "BTN_LEFT" }
+    ],
+    "actions_player2": [
+        { "trigger": "a", "type": "key", "target": "KEY_RIGHTCTRL" }
+    ]
+}
+```
 
-<figure><img src="https://i.imgur.com/zEIRW6F.png" alt=""><figcaption></figcaption></figure>
+* `actions_player1` to `actions_player4`: the actions of the controller of each player.
+* `trigger`: the controller button, or a list of buttons pressed together (e.g. `["hotkey", "a"]`).
+* `type`: `key` to send keys, `mouse` to move the mouse pointer with a stick.
+* `target`: the key, or a list of keys sent together.
+* `description` (optional): text shown in the editor.
 
-</div>
+| Trigger                                                           | Controller button                      |
+| ----------------------------------------------------------------- | -------------------------------------- |
+| `up`, `down`, `left`, `right`                                     | D-pad                                  |
+| `a`, `b`, `x`, `y`                                                | SOUTH, EAST, NORTH, WEST               |
+| `start`, `select`, `hotkey`                                       | START, SELECT, HOTKEY                  |
+| `pageup`, `pagedown`                                              | LEFT SHOULDER, RIGHT SHOULDER (L1, R1) |
+| `l2`, `r2`                                                        | LEFT TRIGGER, RIGHT TRIGGER            |
+| `l3`, `r3`                                                        | LEFT STICK PRESS, RIGHT STICK PRESS    |
+| `joystick1up`, `joystick1down`, `joystick1left`, `joystick1right` | Left analog stick                      |
+| `joystick2up`, `joystick2down`, `joystick2left`, `joystick2right` | Right analog stick                     |
+| `joystick1`, `joystick2` (with `"type": "mouse"`)                 | Stick that moves the mouse pointer     |
 
-### Pad2Key file
+**Targets**:
 
-The Pad2Key file is located near the game rom and has the same name as the game ROM with a .keys extension.
+* Keys: `KEY_A` to `KEY_Z`, `KEY_0` to `KEY_9`, `KEY_F1` to `KEY_F12`, `KEY_ENTER`, `KEY_ESC`, `KEY_SPACE`, `KEY_TAB`, `KEY_BACKSPACE`, `KEY_UP`, `KEY_DOWN`, `KEY_LEFT`, `KEY_RIGHT`, `KEY_LEFTSHIFT`, `KEY_LEFTCTRL`, `KEY_LEFTALT`, `KEY_KP0` to `KEY_KP9` (numeric keypad)…
+* Mouse buttons: `BTN_LEFT`, `BTN_RIGHT`, `BTN_MIDDLE`.
+* Special actions (Windows games, ports): `(%{CLOSE})` closes the game window, `(%{KILL})` kills the game process, `(%{F4})` sends Alt + F4.
 
-<div align="left">
+{% hint style="warning" %}
+- The key names are the names of the keys of a **QWERTY** keyboard, by position: on an AZERTY keyboard, `KEY_Q` is the **A** key and `KEY_A` is the **Q** key.
+- The special actions can only be written by hand: if you open and save the profile in EmulationStation, they are removed.
+{% endhint %}
 
-<figure><img src="https://i.imgur.com/DLV9BVR.png" alt=""><figcaption></figcaption></figure>
+## Troubleshooting
 
-</div>
-
-Here is an example of a .keys file content
-
-<div align="left">
-
-<figure><img src="https://i.imgur.com/DQURWtB.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+* The keys are sent only to the window of the emulator or game launched by RetroBat, when it is in the foreground.
+* If **JoyToKey** is running, PadToKey is disabled.
+* RetroBat already uses PadToKey for the shortcuts of some standalone emulators (e.g. **HOTKEY + START** to quit). A button of your profile replaces the RetroBat shortcut on the same button.
+* `emulationstation\emulatorLauncher.log` shows the profile used (line `[PadToKey] Using mapping file`) and each key sent (lines `[SendKey]`).

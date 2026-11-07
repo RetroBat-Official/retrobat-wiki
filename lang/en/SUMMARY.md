@@ -319,7 +319,7 @@
   * [Model2 controller mapping](controllers/specific_mapping/model2-controller-mapping.md)
   * [Teknoparrot controller mapping](controllers/specific_mapping/teknoparrot-controller-mapping.md)
 * [Gun controls](controllers/gun_controls.md)
-* [Pad2Key](controllers/pad2key.md)
+* [PadToKey](controllers/pad2key.md)
 
 ## Advanced Features
 
