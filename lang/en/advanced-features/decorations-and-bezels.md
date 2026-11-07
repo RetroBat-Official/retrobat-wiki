@@ -136,7 +136,7 @@ Mega Bezels are RetroArch shader packs that draw the bezel and the screen effect
 
 <div align="left"><figure><img src="../.gitbook/assets/image (363).png" alt=""><figcaption></figcaption></figure></div>
 
-1. Download a pack from **MAIN MENU > UPDATES & DOWNLOADS > CONTENT DOWNLOADER**. The packs are saved in `emulators\retroarch\shaders`.
+1. Download a pack from **MAIN MENU > UPDATES & DOWNLOADS > CONTENT DOWNLOADER**. The packs are saved in `emulators\retroarch\shaders and Megabezels`.
 
 <div align="left"><figure><img src="../.gitbook/assets/image (359).png" alt=""><figcaption></figcaption></figure></div>
 
