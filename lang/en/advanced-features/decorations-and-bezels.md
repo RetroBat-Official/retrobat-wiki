@@ -1,172 +1,164 @@
 # Decorations (bezels)
 
-Most of the TVs and computer screens in the 80s and 90s were 4:3. When you run them today on a 16:9 format monitor, there will be empty space on both sides.
+Most TVs and computer screens were 4:3 until the end of the 90s. On a 16:9 screen, the games of that time are displayed with black bars on both sides. RetroBat can fill this space with **decorations** (bezels).
 
-The remaining space on the left and right side of the game can be filled with decorations (bezels).
+<div align="left"><figure><img src="../.gitbook/assets/image (362).png" alt=""><figcaption></figcaption></figure></div>
 
-Retrobat offers 3 types of decorations:
+RetroBat offers:
 
-* Decorations
-* The Bezel Project
-* Mega-Bezels
-
-It is also possible for some systems to enable "**tattoos**", which are overlays that show the control layout for the emulated machine.
-
-## Decorations
-
-Standard decorations are the simplest way to fill the left and right space.
-
-They can be enabled from the [MAIN MENU](../navigation/main-menu.md#game-settings) (Game Settings > Decorations), from the [VIEW OPTIONS](../navigation/view-options.md#advanced-system-options) (Advanced System Options > Decorations) or from the [GAME OPTIONS](../navigation/game-options.md#advanced-game-options) (Advanced Game Options > Decorations).
-
-The following options are available:
-
-<table><thead><tr><th width="272">Setting</th><th>Remark</th></tr></thead><tbody><tr><td>AUTO</td><td><a href="decorations-and-bezels.md#default-search-logic">Default search logic</a></td></tr><tr><td>NONE</td><td>No decoration</td></tr><tr><td>AMBIANCE BROADCAST</td><td></td></tr><tr><td>AMBIANCE GAMEROOM</td><td></td></tr><tr><td>AMBIANCE MONITOR 1084S</td><td></td></tr><tr><td>AMBIANCE NIGHT</td><td></td></tr><tr><td>AMBIANCE VINTAGE TV</td><td></td></tr><tr><td>ARCADE 1980S</td><td></td></tr><tr><td>ARCADE 1980S VERTICAL</td><td></td></tr><tr><td>ARCADE VERTICAL DEFAULT</td><td></td></tr><tr><td>DEFAULT CURVE</td><td></td></tr><tr><td>DEFAULT CURVE NIGHT</td><td></td></tr><tr><td>DEFAULT NOCURVE</td><td></td></tr><tr><td>DEFAULT NOCURVE NIGHT</td><td></td></tr><tr><td>DEFAULT UNGLAZED</td><td></td></tr><tr><td>THEBEZELPROJECT</td><td>See The Bezel Project section</td></tr></tbody></table>
-
-Here is an example of the AUTO setting for Super Nintendo:
-
-<div align="left"><figure><img src="https://i.imgur.com/Ew1Ax7s.png" alt=""><figcaption></figcaption></figure></div>
-
-### Default search logic:
-
-* retrobat\decorations\\\<bezel type>\games\\\<system>\\\<rom>.png
-* retrobat\system\decorations\\\<bezel type>\games\\\<system>\\\<rom>.png
-* retrobat\decorations\\\<bezel type>\games\\\<rom>.png
-* retrobat\system\decorations\\\<bezel type>\games\\\<rom>.png
-* retrobat\decorations\\\<bezel type>\games\\\<system>\\\<indexedRomName>.png
-* retrobat\system\decorations\\\<bezel type>\games\\\<system>\\\<indexedRomName>.png
-* retrobat\decorations\\\<bezel type>\games\\\<indexedRomName>.png
-* retrobat\system\decorations\\\<bezel type>\games\\\<indexedRomName>.png
-* retrobat\decorations\\\<bezel type>\\\<system>\\\<system>.png
-* retrobat\system\decorations\\\<bezel type>\\\<system>\\\<system>.png
-* retrobat\decorations\\\<bezel type>\default.png
-* retrobat\system\decorations\\\<bezel type>\default.png
-* retrobat\decorations\default\_unglazed\\\<system>\\\<system>.png
-* retrobat\system\decorations\default\_unglazed\\\<system>\\\<system>.png
-* retrobat\decorations\default\\\<system>\\\<system>.png
-* retrobat\system\decorations\default\\\<system>\\\<system>.png
-
-## The Bezel Project
-
-The Bezel Project provides personalized bezels per gaming system, and for many of them even personalized bezels per game.
-
-### Downloading Bezels
-
-You can download the bezels from the [UPDATES & DOWNLOADS](updates-and-content-download.md#download-content) menu
-
-<div align="left"><figure><img src="https://i.imgur.com/uGK5lHJ.png" alt=""><figcaption></figcaption></figure></div>
-
-Select THE BEZEL PROJECT and choose the system for which you want to download bezels.
-
-<div align="left"><figure><img src="../.gitbook/assets/DEaOLJT.png" alt=""><figcaption></figcaption></figure></div>
-
-Press ![](<../.gitbook/assets/image (30).png>) and confirm installation.
-
-<div align="left"><figure><img src="https://i.imgur.com/uKqTGOn.png" alt=""><figcaption></figcaption></figure></div>
-
-The download starts
-
-<div align="left"><figure><img src="https://i.imgur.com/zBioOvM.png" alt=""><figcaption></figcaption></figure></div>
-
-Wait until completion of the installation
-
-<div align="left"><figure><img src="../.gitbook/assets/HpZj7Se.png" alt=""><figcaption></figcaption></figure></div>
-
-The downloaded Bezels are stored in the `\decorations\thebezelproject\games` folder:
-
-<div align="left"><figure><img src="https://i.imgur.com/WPD5p2r.png" alt=""><figcaption></figcaption></figure></div>
-
-### Enabling Bezels
-
-See the [Decorations](decorations-and-bezels.md#decorations) section.
-
-Set the decoration option to **THEBEZELPROJECT**
-
-<div align="left"><figure><img src="https://i.imgur.com/wg3490A.png" alt=""><figcaption></figcaption></figure></div>
-
-Example of decoration from The Bezel Project:
-
-<div align="left"><figure><img src="https://i.imgur.com/edBZRpf.png" alt=""><figcaption></figcaption></figure></div>
+* **Decoration sets**, provided with RetroBat, with a bezel per system.
+* **The Bezel Project**, a bezel per game for many systems, to download.
+* **Mega Bezels**, shader packs for RetroArch that draw the bezel with effects (reflections, glow…).
+* **Tattoos**, an image of the controls displayed over the bezel.
 
 {% hint style="info" %}
-To use per game Bezels, the rom file needs to have the exact same name as the bezel in the `\decorations\thebezelproject\games` folder.
+Decorations are made for wide screens (16:10, 16:9 and wider). On a 4:3 or 5:4 screen, no decoration is displayed.
 {% endhint %}
 
-<div align="left"><figure><img src="https://i.imgur.com/j2LoA0W.png" alt=""><figcaption></figcaption></figure></div>
+## Choosing the decorations
+
+The **DECORATIONS** option can be set:
+
+* for all games: **MAIN MENU > GAME SETTINGS > DECORATIONS**;
+
+<div align="left"><figure><img src="../.gitbook/assets/image (352).png" alt=""><figcaption></figcaption></figure></div>
+
+* for a system: [View Options](../navigation/view-options.md) > **ADVANCED SYSTEM OPTIONS > DECORATIONS**;
+
+<div align="left"><figure><img src="../.gitbook/assets/image (353).png" alt=""><figcaption></figcaption></figure></div>
+
+* for a game: [Game Options](../navigation/game-options.md) > **ADVANCED GAME OPTIONS > DECORATIONS**.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (354).png" alt=""><figcaption></figcaption></figure></div>
+
+<table><thead><tr><th width="402.75">Choice</th><th>Result</th></tr></thead><tbody><tr><td><strong>AUTO</strong> (default)</td><td>The bezel of the game, if there is one (scraped or downloaded with The Bezel Project), otherwise the bezel of the system from <strong>DEFAULT UNGLAZED</strong></td></tr><tr><td><strong>NONE</strong></td><td>No decoration</td></tr><tr><td><strong>DEFAULT UNGLAZED</strong></td><td>Bezel of the system (default style of RetroBat)</td></tr><tr><td><strong>DEFAULT CURVE</strong>, <strong>DEFAULT CURVE NIGHT</strong>, <strong>DEFAULT NOCURVE</strong>, <strong>DEFAULT NOCURVE NIGHT</strong></td><td>Bezel of the system, with a curved or flat screen, in day or night lighting</td></tr><tr><td><strong>AMBIANCE BROADCAST</strong>, <strong>AMBIANCE GAMEROOM</strong>, <strong>AMBIANCE MONITOR 1084S</strong>, <strong>AMBIANCE NIGHT</strong>, <strong>AMBIANCE VINTAGE TV</strong></td><td>The game in a room or in an old TV / monitor</td></tr><tr><td><strong>ARCADE 1980S</strong>, <strong>ARCADE 1980S VERTICAL</strong>, <strong>ARCADE VERTICAL DEFAULT</strong></td><td>Arcade cabinet look (horizontal or vertical games)</td></tr><tr><td><strong>ANIMATED</strong></td><td>Animated bezels for RetroArch: the buttons of the drawn controller light up when you press them (Dreamcast, Game Boy Advance, Mega Drive, NES, PlayStation, Saturn, Super Nintendo)</td></tr><tr><td><strong>THEBEZELPROJECT</strong></td><td>Bezels of The Bezel Project (once downloaded, see below)</td></tr></tbody></table>
+
+A preview of each set is displayed in the list.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (364).png" alt=""><figcaption></figcaption></figure></div>
+
+* **Vertical arcade games** (MAME, FBNeo): with the default sets, RetroBat automatically uses a vertical bezel.
+* **Standalone emulators**: the bezel is displayed with ReShade or with a window behind the emulator, depending on the emulator. The **MAIN MENU > GAME SETTINGS > RESHADE** option sets how ReShade is used: **DISABLED** (the bezel is displayed with a window instead), **USE MY OWN** (RetroBat never installs, changes or deletes ReShade files in the emulator folders).
+* The DECORATIONS option appears only for the emulators that can display bezels.
+
+## Bezels per game
+
+### The Bezel Project
+
+The Bezel Project provides a bezel for each game of many systems.
+
+1. Open **MAIN MENU > UPDATES & DOWNLOADS > THE BEZEL PROJECT**.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (355).png" alt=""><figcaption></figcaption></figure></div>
+
+2. Select the system and confirm the installation.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (356).png" alt=""><figcaption></figcaption></figure></div>
+
+3. Wait for the end of the download.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (357).png" alt=""><figcaption></figcaption></figure></div>
+
+The bezels are saved in `decorations\thebezelproject\games\<system>`. They are used with **AUTO** or **THEBEZELPROJECT**. For FBNeo, the MAME pack is used if the FBNeo pack is not installed.
+
+A bezel is used for a game when its name matches the name of the game file, ignoring upper / lower case, punctuation and the text between parentheses or brackets: `Super Mario World (USA).png` is used for `Super Mario World (Europe).sfc`.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (365).png" alt=""><figcaption></figcaption></figure></div>
+
+### Scraped bezels
+
+ScreenScraper provides 16:9 bezels for some games. Enable **MAIN MENU > SCRAPER > BEZEL (16:9)** before scraping. The bezel is saved with the other media of the game and is used with **AUTO**.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (358).png" alt=""><figcaption></figcaption></figure></div>
+
+You can also choose an image for a game in **EDIT THIS GAME'S METADATA > Bezel (16:9)**.
+
+## How RetroBat finds the bezel
+
+For the selected set (`<set>`), RetroBat uses the first image found:
+
+1. `decorations\<set>\games\<system>\<game>.png`, then `system\decorations\<set>\games\<system>\<game>.png`
+2. `decorations\<set>\games\<game>.png`, then `system\decorations\<set>\games\<game>.png`
+3. Same folders, with a name that matches (see The Bezel Project above)
+4. `decorations\<set>\systems\<system>.png`, then `system\decorations\<set>\systems\<system>.png`
+5. `decorations\<set>\default.png`, then `system\decorations\<set>\default.png`
+6. `decorations\default_unglazed\systems\<system>.png`, then `system\decorations\default_unglazed\systems\<system>.png`
+
+`system\decorations` contains the sets provided with RetroBat, and is overwritten by updates. `decorations` (at the root of RetroBat) is for your own bezels and for The Bezel Project: it is never overwritten and it is read first.
+
+## Creating your own bezels
+
+### A bezel for one game or one system
+
+Copy your image (PNG, 1920×1080 for a 16:9 screen, transparent where the game is displayed) to:
+
+* `decorations\<set>\games\<system>\<game>.png` for a game (the name of the game file, without extension);
+* `decorations\<set>\systems\<system>.png` for a system.
+
+For example, `decorations\default_unglazed\games\snes\Super Mario World.png`.
+
+### Your own set
+
+Any folder in `decorations` appears as a set in the DECORATIONS list (in upper case, `_` replaced by spaces). For example, `decorations\my_bezels` appears as **MY BEZELS**:
+
+```
+decorations\my_bezels\default.png                   → bezel for all systems
+decorations\my_bezels\systems\snes.png              → bezel for Super Nintendo
+decorations\my_bezels\games\snes\Super Metroid.png  → bezel for one game
+```
+
+### The .info file
+
+By default, RetroBat places the game in the transparent area of the image. To set the position yourself, add a `.info` file with the same name next to the image (e.g. `snes.info` next to `snes.png`):
+
+```json
+{
+ "width":1920,
+ "height":1080,
+ "top":24,
+ "left":273,
+ "bottom":24,
+ "right":273,
+ "opacity":1.0,
+ "messagex":0.22,
+ "messagey":0.12
+}
+```
+
+* `width`, `height`: size of the image.
+* `top`, `left`, `bottom`, `right`: margins, in pixels, between the edges of the image and the game.
+* `opacity`: opacity of the bezel (RetroArch).
+* `messagex`, `messagey`: position of the RetroArch messages.
 
 ## Mega Bezels
 
-The MegaBezel pack combines both Shaders and Bezels, it adds dynamic reflections on the bezel.
+Mega Bezels are RetroArch shader packs that draw the bezel and the screen effects themselves (reflections, curve, glow…). They work only with RetroArch cores.
 
-{% hint style="info" %}
-Mega Bezels can only be used with Libretro cores, it does not work with standalone emulators.
-{% endhint %}
+<div align="left"><figure><img src="../.gitbook/assets/image (363).png" alt=""><figcaption></figcaption></figure></div>
 
-### Downloading a MegaBezel pack
+1. Download a pack from **MAIN MENU > UPDATES & DOWNLOADS > CONTENT DOWNLOADER**. The packs are saved in `emulators\retroarch\shaders`.
 
-From the [CONTENT DOWNLOADER](updates-and-content-download.md#download-content), select **Megabezels**
+<div align="left"><figure><img src="../.gitbook/assets/image (359).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/QmWLsNg.png" alt=""><figcaption></figcaption></figure></div>
+2. Select it in **SHADER SET** (in **GAME SETTINGS**, or in the advanced options of a system or game).
 
-The pack is downloaded in the `\emulators\retroarch\shaders` folder
+<div align="left"><figure><img src="../.gitbook/assets/image (360).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/z8WoJp8.png" alt=""><figcaption></figcaption></figure></div>
+With a Mega Bezel pack, RetroBat automatically sets **DECORATIONS** to **NONE**, the **GAME ASPECT RATIO** to full screen and the **Vulkan** video driver, unless you changed these options yourself. If you change the video driver, do not use **OPENGL**: Mega Bezels do not work with it (OPENGL CORE or DirectX 10, 11, 12 can work).
 
-### Enabling Mega Bezels
-
-Mega Bezels can be enabled from the [MAIN MENU](../navigation/main-menu.md#game-settings) (Game Settings > Shader Set), from the [VIEW OPTIONS](../navigation/view-options.md#advanced-system-options) (Advanced System Options > Shader Set) or from the [GAME OPTIONS](../navigation/game-options.md#advanced-game-options) (Advanced Game Options > Shader Set)
-
-<div align="left"><figure><img src="https://i.imgur.com/lXvxZPy.png" alt=""><figcaption></figcaption></figure></div>
-
-There are multiple options available for each pack.
-
-In addition, set **DECORATIONS** to **NONE** and **GAME ASPECT RATIO** to **FULL**
-
-<div align="left"><figure><img src="https://i.imgur.com/xFINt8C.png" alt=""><figcaption></figcaption></figure></div>
-
-{% hint style="info" %}
-You can leave GAME ASPECT RATIO on "AUTO" if you are using a 4/3 screen.
-{% endhint %}
-
-Last but not least, Mega Bezels do not work with **OPENGL** video driver, so ensure another driver is set in the [**Advanced Settings > Drivers** menu](../navigation/view-options.md#advanced-system-options)
-
-<div align="left"><figure><img src="https://i.imgur.com/nuSg307.png" alt=""><figcaption></figcaption></figure></div>
-
-<div align="left"><figure><img src="../.gitbook/assets/HVJIY6D.png" alt=""><figcaption></figcaption></figure></div>
-
-{% hint style="info" %}
-It is recommended to use VULKAN or OPENGL CORE, but DirectX 10, 11 or 12 should also work.
-{% endhint %}
-
-Here are some examples of Mega Bezel:
-
-<div align="left"><figure><img src="https://i.imgur.com/nnAzMON.png" alt=""><figcaption></figcaption></figure></div>
-
-<div align="left"><figure><img src="https://i.imgur.com/HYSzHRZ.png" alt=""><figcaption></figcaption></figure></div>
-
-<div align="left"><figure><img src="https://i.imgur.com/mmaoUzW.png" alt=""><figcaption></figcaption></figure></div>
-
-### Customize Mega-bezels
-
-Refer to [section "Customize Mega-bezels"](../tutorials/customize-mega-bezels.md#adding-a-new-mega-bezel-preset-entry-to-retrobat)
+To customise them, see [Customize Mega Bezels](../tutorials/customize-mega-bezels.md).
 
 ## Tattoos
 
-Tattoos are a bezel overlay that can help with identifying the controls for the emulated system:
+A tattoo is an image of the controls, displayed over the bezel.
 
-<div align="left"><figure><img src="https://i.imgur.com/0kO2KQv.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (361).png" alt=""><figcaption></figcaption></figure></div>
 
-To enable tattoos,open the **MAIN MENU** > **GAME SETTINGS**:
+Options in **MAIN MENU > GAME SETTINGS > TATTOO** (or in the advanced options of a system or game):
 
-<div align="left"><figure><img src="https://i.imgur.com/fIip7cs.png" alt=""><figcaption></figcaption></figure></div>
+<table><thead><tr><th width="262.75">Option</th><th>Description</th></tr></thead><tbody><tr><td><strong>SHOW TATTOO OVER BEZEL</strong></td><td>Displays the tattoo</td></tr><tr><td><strong>TATTOO CORNER</strong></td><td>Corner of the screen: <strong>TOP LEFT</strong> (default), <strong>TOP RIGHT</strong>, <strong>BOTTOM RIGHT</strong>, <strong>BOTTOM LEFT</strong></td></tr><tr><td><strong>RESIZE TATTOO</strong></td><td>Keeps the original size of the tattoo (reduced only if it is larger than the screen). By default, the tattoo is resized to a fixed width</td></tr></tbody></table>
 
-then **GLOBAL OPTIONS** > **TATTOO**:
-
-<div align="left"><figure><img src="../.gitbook/assets/dIv1Ety.png" alt=""><figcaption></figcaption></figure></div>
-
-<div align="left"><figure><img src="https://i.imgur.com/GgZipNc.png" alt=""><figcaption></figcaption></figure></div>
-
-It is possible to configure the corner in which the tattoo will be displayed.
-
-{% hint style="info" %}
-Tattoos will only work in combination with bezels : no bezels, no tattoos.
-{% endhint %}
+* A tattoo is displayed only with a bezel: no bezel, no tattoo.
+* The tattoo provided by RetroBat follows the controller and button layout used (e.g. 3 or 6 buttons on Mega Drive).
+* **Your own tattoos**: put them in `user\tattoos\games\<system>\<game>.png` (one game) or `user\tattoos\default\<system>.png` (a system). They are used first and are not overwritten by updates.
+* When **AUTOCONFIGURE CONTROLLERS** is set to **OFF**, only your own tattoos are displayed (the RetroBat tattoos would not match your configuration).
