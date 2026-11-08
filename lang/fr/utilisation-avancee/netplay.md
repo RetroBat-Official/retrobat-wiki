@@ -1,66 +1,81 @@
 # Parties en Réseau
 
-## Les parties en réseau ?
+## Qu'est-ce que le jeu en réseau ?
 
-La fonctionnalités Netplay (Parties en réseau) permet de jouer à des jeux multijoueurs à distance par internet comme si les joueurs jouaient physiquement sur la même machine.
+Le jeu en réseau (netplay) permet de jouer à plusieurs à travers un réseau, comme si vos amis étaient à côté de vous sur la même console. Chaque joueur lance le jeu sur son propre PC, et les actions des joueurs sont envoyées par le réseau.
 
 {% hint style="warning" %}
-La fonctionnalité n'émule pas les capacités réseau du hardware original. Il n'est pas possible de joindre les parties en ligne sur les serveurs de jeux de l'éditeur ou du constructeur. Il n'est par exemple pas possible de jouer sur les serveurs de jeux Phantasy Star Online avec le core Flycast comme il le serait possible sur une Dreamcast.
+Le jeu en réseau n'émule pas les fonctions en ligne des consoles d'origine, et il n'y a aucun serveur dédié. Les jeux ou modes qui nécessitaient un service en ligne (Phantasy Star Online sur Dreamcast, par exemple) ne fonctionnent pas en netplay.
 {% endhint %}
 
-## Activer les parties en réseau
+Le jeu en réseau fonctionne avec les **cores RetroArch** qui le prennent en charge.
 
-Depuis les [PARAMETRES DES JEUX du MENU PRINCIPAL](../navigation/main-menu.md#parametres-des-jeux), sélectionner **PARAMETRES DES PARTIES EN RESEAU**
+## Activer le jeu en réseau
 
-<div align="left"><figure><img src="https://i.imgur.com/Gl5mNpO.png" alt=""><figcaption></figcaption></figure></div>
+1. Ouvrez le [**MENU PRINCIPAL**](../navigation/main-menu.md) > **PARAMÈTRES DES JEUX** > **PARAMÈTRES DE JEU EN RÉSEAU**.
+2. Activez **ACTIVER LE JEU EN RÉSEAU**.
+3. Saisissez un **SURNOM** : c'est le nom que voient les autres joueurs.
 
-**Activer les parties en réseau** puis entrer un **SURNOM**
+<div align="left"><figure><img src="../.gitbook/assets/image (446).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/dGZ5xtX.png" alt=""><figcaption></figcaption></figure></div>
+4. Revenez en arrière : RetroBat indexe vos jeux (voir plus bas).
 
-### **Indexer les jeux**
+## Options
 
-Retrobat doit désormais indexer les jeux compatibles avec les parties en réseau, lancer l'indexation depuis le même menu en choisissant **INDEXER LES JEUX**
-
-<div align="left"><figure><img src="../.gitbook/assets/KRvgCxd.png" alt=""><figcaption></figcaption></figure></div>
-
-## Rejoindre une partie en réseau
-
-Lorsque la fonctionnalité Parties en Réseau est activée, le bouton ![](<../.gitbook/assets/image (35).png>)  est réservé pour accéder à cette fonctionnalité (il n'est plus utilisé pour la sélection aléatoire, comme précédemment)
-
-<div align="left"><figure><img src="https://i.imgur.com/eQ6dI9B.png" alt=""><figcaption></figcaption></figure></div>
-
-Presser le bouton ![](<../.gitbook/assets/image (35).png>) pour faire apparaître la liste des parties en réseau actuellement disponibles
-
-<div align="left"><figure><img src="../.gitbook/assets/pRjaEmY.png" alt=""><figcaption></figcaption></figure></div>
-
-Choisir une partie disponible pour se connecter.
-
-## Héberger une partie en réseau
-
-Pour héberger une session de jeu en réseau, choisir le jeu puis dans le menu Options Du Jeu, sélectionner **DÉMARRER UNE PARTIE EN RESEAU**
-
-<div align="left"><figure><img src="../.gitbook/assets/jYz5ejo.png" alt=""><figcaption></figcaption></figure></div>
-
-Dans l'écran suivant, choisir **HÉBERGER UNE PARTIE EN RESEAU** pour démarrer la session.
-
-<div align="left"><figure><img src="https://i.imgur.com/sFgEVRn.png" alt=""><figcaption></figcaption></figure></div>
-
-La session sera visible pour les autres joueurs dans l'écran [REJOINDRE UNE PARTIE EN RESEAU](netplay.md#rejoindre-une-partie-en-reseau).
+<table><thead><tr><th width="286.5">Option</th><th>Effet</th></tr></thead><tbody><tr><td><strong>PORT</strong></td><td>Port réseau utilisé quand vous hébergez une partie (55435 par défaut).</td></tr><tr><td><strong>UTILISER UN SERVEUR RELAIS</strong></td><td>Passe par un serveur relais au lieu d'une connexion directe. Utile quand les joueurs ne peuvent pas se connecter directement (ports fermés, certaines box Internet). Choisissez le serveur le plus proche, ou <strong>CUSTOM</strong> pour saisir votre propre serveur dans <strong>SERVEUR RELAI PERSONNALISÉ</strong>.</td></tr><tr><td><strong>CRÉER AUTOMATIQUEMENT UN LOBBY</strong></td><td>Quand cette option est activée (par défaut), chaque jeu compatible lancé normalement crée aussi une partie en réseau que d'autres joueurs peuvent rejoindre.</td></tr><tr><td><strong>AFFICHER UNIQUEMENT LES JEUX AVEC SERVEUR RELAIS</strong></td><td>Ne liste que les parties hébergées via un serveur relais, plus faciles à rejoindre (activé par défaut).</td></tr><tr><td><strong>AFFICHER LES JEUX NON DISPONIBLES</strong></td><td>Liste aussi les parties de jeux absents de votre PC (activé par défaut).</td></tr></tbody></table>
 
 {% hint style="info" %}
-Il est possible de restreindre l'accès à la session en ajoutant un mot de la psse avant de lancer l'hébergement de la partie.
+Pour lancer vos jeux seul, sans créer de partie en réseau, désactivez **CRÉER AUTOMATIQUEMENT UN LOBBY**. Vous pouvez toujours héberger une partie depuis les options du jeu (voir plus bas).
 {% endhint %}
 
-## Remarques générales concernant les parties en réseau
+## Index des jeux
 
-### Hébergement de parties
+L'indexation calcule une empreinte (CRC) de vos jeux, pour que RetroBat puisse vérifier que vous avez le même jeu que les autres joueurs.
 
-Afin d'héberger une partie en réseau, il est nécessaire d'avoir un routeur internet compatible upnp ou d'ouvrir manuellement le port utilisé par le service Netplay dans les paramétrages de ce dernier.
+* **INDEXER LES NOUVEAUX JEUX AU DÉMARRAGE** (activé par défaut) : les nouveaux jeux sont indexés à chaque démarrage de RetroBat.
+* **INDEXER LES JEUX** : indexe vos jeux maintenant (utile après l'ajout de nombreux jeux).
 
-### Limitations
+## Héberger une partie
 
-* Il est nécessaire d'avoir une connexion internet stable pour les parties en réseau, de préférence avec un ping faible. L'expérience de jeu sera mauvaise si le réseau est instable.&#x20;
-* Il est nécessaire que tous les joueurs d'une même session possèdent exactement la même ROM de jeu (même hash md5) et utilisent la même version de core Retroarch.
-* Certains core RetroArch ne permettent pas le jeu en réseau (voir la liste de compatibilité ci-dessous)
-* Les participants à une même session NetPlay doivent avoir la même architecture système, il n'est pas possible de jouer depuis Retrobat sous windows avec un ami tournant sous Batocera Linux.
+1. Dans la [liste des jeux](../navigation/system-view-and-game-view.md#vue-jeux), placez-vous sur le jeu et maintenez **SUD** pour ouvrir les **OPTIONS DU JEU**.
+2. Choisissez **DÉMARRER UNE PARTIE EN RÉSEAU**.
+3. Réglez les options si besoin :
+   * **ANNONCER PUBLIQUEMENT LA PARTIE** : affiche votre partie dans la liste publique, pour tous les joueurs RetroArch et RetroBat. Laissez-la désactivée pour ne jouer qu'avec des amis qui connaissent votre partie.
+   * **MOT DE PASSE JOUEUR** : mot de passe demandé aux joueurs qui rejoignent la partie.
+   * **MOT DE PASSE SPECTATEUR** : mot de passe demandé aux spectateurs.
+4. Choisissez **HÉBERGER UNE PARTIE EN RÉSEAU** : le jeu démarre et attend les autres joueurs.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (447).png" alt=""><figcaption></figcaption></figure></div>
+
+## Rejoindre une partie
+
+1. Dans la [vue des systèmes](../navigation/system-view-and-game-view.md#vue-systemes), appuyez sur **NORD** (**PARTIES EN RÉSEAU**) pour ouvrir la liste des parties.
+2. La liste affiche les **JEUX EN RÉSEAU** (sur votre réseau local), les **JEUX DISPONIBLES** (jeux que vous avez) et les **JEUX NON DISPONIBLES** (jeux que vous n'avez pas).
+3. Choisissez une partie, puis :
+   * **REJOINDRE LE JEU** pour jouer ;
+   * **REGARDER LE JEU** pour suivre la partie en spectateur.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (448).png" alt=""><figcaption></figcaption></figure></div>
+
+Chaque partie affiche un statut :
+
+<table><thead><tr><th width="279">Statut</th><th>Signification</th></tr></thead><tbody><tr><td><strong>ROM IDENTIQUE</strong></td><td>Vous avez exactement le même jeu que l'hôte : vous pouvez rejoindre la partie.</td></tr><tr><td><strong>ROM DIFFÉRENTE</strong></td><td>Vous avez le jeu, mais pas la même version : la partie ne fonctionnera pas correctement.</td></tr><tr><td><strong>VERSION DE ROM INCONNUE</strong></td><td>La version du jeu n'a pas pu être vérifiée.</td></tr><tr><td><strong>CŒUR NON DISPONIBLE</strong></td><td>Le core utilisé par l'hôte n'est pas disponible sur votre PC.</td></tr></tbody></table>
+
+Appuyez sur **RAFRAÎCHIR** pour mettre la liste à jour.
+
+## Bon à savoir
+
+### Héberger
+
+Pour héberger une partie, les autres joueurs doivent pouvoir se connecter à votre PC :
+
+* votre box Internet doit prendre en charge l'**UPnP**, qui ouvre le port automatiquement ;
+* sinon, ouvrez le port (55435 par défaut, ou votre **PORT**) dans les réglages de votre box ;
+* ou utilisez un serveur relais (**UTILISER UN SERVEUR RELAIS**), qui évite d'ouvrir un port.
+
+### Limites
+
+* **Connexion :** une connexion stable avec un ping faible est indispensable. La qualité de la partie dépend du joueur le plus lent.
+* **Même version :** tous les joueurs doivent avoir le **même jeu** (même ROM, vérifiez le statut ROM IDENTIQUE) et la **même version du core**, donc idéalement la même version de RetroBat.
+* **Core compatible :** seuls les cores RetroArch qui gèrent le jeu en réseau peuvent être utilisés.
+* **Même architecture :** certains cores n'autorisent pas le jeu en réseau entre architectures différentes. Un message s'affiche au démarrage du core.
