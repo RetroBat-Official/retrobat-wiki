@@ -54,6 +54,12 @@ Par défaut, RetroBat vérifie aussi les BIOS au lancement d'un jeu. Si un BIOS 
 * **OUI** lance quand même le jeu (utile si vous utilisez un émulateur qui n'a pas besoin de ce BIOS).
 * **NON** revient à la liste des jeux.
 
+{% hint style="info" %}
+Les fichiers INVALID et OPTIONAL n'affichent jamais ce message.
+{% endhint %}
+
+Pour désactiver cette vérification pour tous les systèmes, désactivez **VÉRIFIER LES BIOS AVANT DE LANCER UN JEU** dans **PARAMÈTRES DES JEUX > PARAMÈTRES BIOS**.
+
 ## Problèmes fréquents
 
 <table><thead><tr><th width="300.25">Problème</th><th>Solution</th></tr></thead><tbody><tr><td>Le BIOS est dans le dossier, mais toujours MISSING</td><td>Vérifiez le sous-dossier indiqué sur la page du système et le nom exact du fichier. Vérifiez que l'extension n'est pas doublée (<code>.bin.bin</code>).</td></tr><tr><td>Le BIOS est INVALID</td><td>C'est une autre version que celle attendue. Testez un jeu : s'il démarre, vous pouvez le garder.</td></tr><tr><td>L'avertissement s'affiche, mais le jeu fonctionne</td><td>Vous utilisez un émulateur qui n'a pas besoin de ce BIOS, ou un autre BIOS accepté. Choisissez OUI, ou désactivez la vérification.</td></tr><tr><td>Un BIOS compressé n'est pas trouvé</td><td>Ne le décompressez pas : copiez le .zip tel quel.</td></tr><tr><td>Le jeu ne démarre pas (écran noir, erreur) alors qu'aucun BIOS ne manque</td><td>Le BIOS n'est peut-être pas la bonne version pour l'émulateur. Consultez la page du système.</td></tr></tbody></table>
