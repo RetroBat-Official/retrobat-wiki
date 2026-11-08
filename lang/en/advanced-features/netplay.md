@@ -1,70 +1,81 @@
 # Netplay
 
-## What is netplay ?
+## What is netplay?
 
-Netplay is a feature that enables multiplayer gaming over network, like if you were playing with a friend on the same console.
+Netplay lets you play multiplayer games over a network, as if your friends were next to you on the same console. Each player runs the game on his own PC, and the players' inputs are sent over the network.
 
 {% hint style="warning" %}
-Netplay feature is not a simulation of the actual hardware network capabilities of a system. It does not provide dedicated servers to play games that have online options. For example it is not possible to play Phantasy Star Online with the Flycast Core like it would be possible on Dreamcast, the original hardware.
+Netplay does not emulate the online features of the original consoles, and there is no dedicated server. Games or modes that needed an online service (Phantasy Star Online on Dreamcast, for example) do not work with netplay.
 {% endhint %}
 
-## Enabling Netplay
+Netplay works with the **RetroArch cores** that support it.
 
-From the [MAIN MENU](../navigation/main-menu.md#system-settings) > System Settings, open **NETPLAY SETTINGS**
+## Enabling netplay
 
-<div align="left"><figure><img src="../.gitbook/assets/9tRmji0.png" alt=""><figcaption></figcaption></figure></div>
+1. Open the **MAIN MENU** > **GAME SETTINGS** > **NETPLAY SETTINGS**.
+2. Turn on **ENABLE NETPLAY**.
+3. Enter a **NICKNAME**: it is the name the other players see.
 
-Enable Netplay and enter a **NICKNAME**
+<div align="left"><figure><img src="../.gitbook/assets/image (405).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/hkoc7m7.png" alt=""><figcaption></figcaption></figure></div>
+4. Go back: RetroBat indexes your games (see below).
 
-## **Indexing Games**
+## Options
 
-Retrobat will need to index games with NetPlay capabilities, this is done from the INDEX GAMES menu, you can also setup the system to index new games at startup.
-
-<div align="left"><figure><img src="../.gitbook/assets/vn2KSWB.png" alt=""><figcaption></figcaption></figure></div>
-
-## Joining a NetPlay game
-
-Once NetPlay is activated, when in the System View, use the ![](<../.gitbook/assets/image (50).png>)  button to display NetPlay Games
-
-<div align="left"><figure><img src="https://i.imgur.com/dfzVYyY.png" alt=""><figcaption></figcaption></figure></div>
-
-This will open the list of currently available NetPlay sessions
-
-<div align="left"><figure><img src="https://i.imgur.com/bR2g3Ab.png" alt=""><figcaption></figcaption></figure></div>
-
-Select one of the available games and launch it to join a netplay session.
-
-
-
-## Hosting a NetPlay game
-
-If you want to host a NetPlay game session, select the game in your Gamelist and from the [Game Options](../navigation/game-options.md) menu choose **START A NETPLAY GAME**
-
-<div align="left"><figure><img src="https://i.imgur.com/XriDKwq.png" alt=""><figcaption></figcaption></figure></div>
-
-In the next screen, select HOST A NETPLAY GAME to start a NetPlay session.
-
-<div align="left"><figure><img src="../.gitbook/assets/t1ENzuy.png" alt=""><figcaption></figcaption></figure></div>
-
-The session will be visible in the Netplay Sessions screen and other players will be able to join.
+<table><thead><tr><th width="259">Option</th><th>Effect</th></tr></thead><tbody><tr><td><strong>PORT</strong></td><td>Network port used when you host a game (55435 by default).</td></tr><tr><td><strong>USE RELAY SERVER</strong></td><td>Goes through a relay server instead of a direct connection. Useful when the players cannot connect directly (closed ports, some Internet boxes). Choose the closest server, or <strong>CUSTOM</strong> to enter your own server in <strong>CUSTOM RELAY SERVER</strong>.</td></tr><tr><td><strong>AUTOMATICALLY CREATE LOBBY</strong></td><td>When it is on (default), every compatible game you launch normally also creates a netplay game that other players can join.</td></tr><tr><td><strong>SHOW RELAY SERVER GAMES ONLY</strong></td><td>Only lists the games hosted through a relay server, which are easier to join (on by default).</td></tr><tr><td><strong>SHOW UNAVAILABLE GAMES</strong></td><td>Also lists the games that are not on your PC (on by default).</td></tr></tbody></table>
 
 {% hint style="info" %}
-You can also add passwords to your session to allow only designated people to join the session.
+To launch your games alone, without creating a netplay game, disable **AUTOMATICALLY CREATE LOBBY**. You can still host a game from the game options (see below).
 {% endhint %}
 
-## NetPlay considerations
+## Game indexes
 
-### NetPlay hosting
+Indexing computes a fingerprint (CRC) of your games, so that RetroBat can check that you have the same game as the other players.
 
-When hosting a Netplay server, make sure that your network is either compatible with UPNP to automatically open the right port, or you can define your own port in the settings, and configure your router and network to keep this port open from the outside.
+* **INDEX NEW GAMES AT STARTUP** (on by default): new games are indexed each time RetroBat starts.
+* **INDEX GAMES**: indexes your games now (useful after adding many games).
 
+## Hosting a game
 
+1. In the game list, highlight the game and hold **SOUTH** to open the **GAME OPTIONS**.
+2. Choose **START A NETPLAY GAME**.
+3. Set the options if needed:
+   * **PUBLICLY ANNOUNCE GAME**: shows your game in the public list of games, for all RetroArch and RetroBat players. Leave it off to play only with friends who know your game.
+   * **PLAYER PASSWORD**: password asked to the players who join.
+   * **VIEWER PASSWORD**: password asked to the spectators.
+4. Choose **HOST A NETPLAY GAME**: the game starts and waits for the other players.
 
-### NetPlay limitations
+<div align="left"><figure><img src="../.gitbook/assets/image (406).png" alt=""><figcaption></figcaption></figure></div>
 
-* You need a very stable Internet connection, with a low ping value. Your user experience is heavily depending on the quality of your internet connection.&#x20;
-* All players in a Netplay session need to have the same core version, and the same ROM to play together. That means that you need to use the same Retrobat version, and you should always check and compare the MD5 checksums of the ROM that all members in your party are going to use.
-* Check that you use a core that is compatible with Netplay - see below for the list of cores that support Netplay.
-* Check that all the members of your party are using the same architecture. Some cores don't enable cross-architecture Netplay. Whenever this happens, you'll see a message popping-up upon launching the core.
+## Joining a game
+
+1. In the [system view](../navigation/system-view-and-game-view.md#system-view), press **NORTH** (**NETPLAY**) to open the list of games.
+2. The list shows the **LAN GAMES** (on your local network), the **AVAILABLE GAMES** (games that you have) and the **UNAVAILABLE GAMES** (games that you do not have).
+3. Choose a game, then:
+   * **JOIN GAME** to play;
+   * **WATCH GAME** to watch as a spectator.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (407).png" alt=""><figcaption></figcaption></figure></div>
+
+Each game shows a status:
+
+<table><thead><tr><th width="271.5">Status</th><th>Meaning</th></tr></thead><tbody><tr><td><strong>SAME ROM</strong></td><td>You have exactly the same game as the host: you can join.</td></tr><tr><td><strong>DIFFERENT ROM</strong></td><td>You have the game, but not the same version: the game will not work correctly.</td></tr><tr><td><strong>UNKNOWN ROM VERSION</strong></td><td>The version of the game could not be checked.</td></tr><tr><td><strong>UNAVAILABLE CORE</strong></td><td>The core used by the host is not available on your PC.</td></tr></tbody></table>
+
+Press **REFRESH** to update the list.
+
+## Good to know
+
+### Hosting
+
+To host a game, the other players must be able to connect to your PC:
+
+* your Internet box must support **UPnP**, which opens the port automatically;
+* otherwise, open the port (55435 by default, or your own **PORT**) in the settings of your box;
+* or use a relay server (**USE RELAY SERVER**), which avoids opening a port.
+
+### Limitations
+
+* **Connection:** a stable connection with a low ping is essential. The quality of the game depends on the slowest player.
+* **Same version:** all players must have the **same game** (same ROM, check the SAME ROM status) and the **same core version**, so ideally the same RetroBat version.
+* **Compatible core:** only the RetroArch cores that support netplay can be used.
+* **Same architecture:** some cores do not allow netplay between different architectures. A message is shown when the core starts.
