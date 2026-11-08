@@ -1,25 +1,94 @@
 # Save States
 
-Save states offer a way to take a snapshot of the current progress in a game in order to load the game in the exact state it was saved.
+Save states take a snapshot of a game at any moment, so you can reload it later exactly at the same point.
 
 {% hint style="danger" %}
-Save states do not offer a secure way of saving a game progress (no long-term solution), internal save mechanism offered by the games should be used in priority. Often, save states will break when an emulator is updated.
+Save states are not a safe way to keep your progress. They often stop working after an emulator update. Always use the save system of the game itself (memory card, save menu…) first.
 {% endhint %}
 
-## Emulators compatibility
+## How it works
 
-The following emulators offer save state functionality that is compatible with RetroBat:
+* RetroBat manages save states for **RetroArch cores** and for several standalone emulators (Dolphin, PCSX2, DuckStation, PPSSPP, Flycast…). For these emulators, you can launch a game directly from a save state from the game list.
+* Save states are stored in `saves\<system>\<emulator>` (for RetroArch: `saves\<system>\libretro.<core>`), with a screenshot of the moment of the save.
+* A game that has save states shows an icon in the game list.
+* Save states are not shared between emulators: a state made with one emulator can only be loaded by this emulator.
 
-<table><thead><tr><th width="262">Emulator</th><th>Remark</th><th data-hidden></th></tr></thead><tbody><tr><td>RetroArch</td><td>Most of the libretro cores are compatible</td><td></td></tr><tr><td>BigPemu</td><td>Watchpoint: automatic loading of save state upon game launch is not yet possible, it is necessary to use the L2 + <img src="../.gitbook/assets/image (50).png" alt=""> combo key after game launch to load the save state</td><td></td></tr><tr><td>BizHawk</td><td></td><td></td></tr><tr><td>Dolphin</td><td></td><td></td></tr><tr><td>Flycast</td><td></td><td></td></tr><tr><td>JGenesis</td><td></td><td></td></tr><tr><td>PCSX2</td><td></td><td></td></tr><tr><td>DuckStation</td><td></td><td></td></tr><tr><td>OpenMSX</td><td></td><td></td></tr><tr><td>PPSSPP</td><td></td><td></td></tr></tbody></table>
+## Saving and loading during a game
 
-## How to load a save state
+Use the standard RetroBat hotkeys:
 
-From the game list in RetroBat, hoghlight the game and press the ![](<../.gitbook/assets/image (50).png>) button on your controller to display the savestate manager:
+| Action             | Controller          | Keyboard |
+| ------------------ | ------------------- | -------- |
+| Save state         | HOTKEY + WEST       | F2       |
+| Load state         | HOTKEY + NORTH      | F4       |
+| Previous save slot | HOTKEY + D-pad down | F6       |
+| Next save slot     | HOTKEY + D-pad up   | F7       |
 
-<div align="left">
+{% hint style="info" %}
+If you customized your hotkeys, use your own combinations. See the Hotkeys page.
+{% endhint %}
 
-<figure><img src="https://i.imgur.com/7rLYjHO.png" alt=""><figcaption></figcaption></figure>
+## Launching a game from a save state
 
-</div>
+1. In the game list, highlight the game.
+2. Press **NORTH** (or **L3**) to open the **SAVESTATE MANAGER**. You can also hold **SOUTH** to open the **GAME OPTIONS**, then choose **SAVE STATES**.
+3. Choose a save state, then press **SOUTH** (**LAUNCH**).
 
-Select the save state to load and confirm to load the game.
+<div align="left"><figure><img src="../.gitbook/assets/image (397).png" alt=""><figcaption></figcaption></figure></div>
+
+The manager shows:
+
+<table><thead><tr><th width="254">Item</th><th>Use</th></tr></thead><tbody><tr><td><strong>START NEW GAME</strong></td><td>Starts the game from the beginning, without loading any save state.</td></tr><tr><td><strong>START NEW AUTO SAVE</strong></td><td>Shown when AUTO SAVE/LOAD is on and there is no auto save yet: starts the game and creates an auto save when you quit.</td></tr><tr><td><strong>AUTO SAVE</strong></td><td>The state saved automatically when you last quit the game.</td></tr><tr><td>Save states</td><td>Your save states, with their date (and their slot number when incremental save states are disabled).</td></tr></tbody></table>
+
+In the manager:
+
+* **SOUTH**: launch the game from the selected state.
+* **WEST**: delete the selected state.
+* **NORTH**: copy the selected state to a free slot.
+* **EAST**: go back.
+
+{% hint style="info" %}
+- A save state made with another emulator shows the name of this emulator. When you launch it, RetroBat uses this emulator automatically.
+- If you enabled **ACCESS GAME OPTIONS WITH NORTH BUTTON**, the buttons are swapped: **NORTH** opens the game options, and holding **SOUTH** opens the save states.
+{% endhint %}
+
+## Options
+
+The options are in **MAIN MENU > GAME SETTINGS**, **SAVESTATES** group.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (398).png" alt=""><figcaption></figcaption></figure></div>
+
+### AUTO SAVE/LOAD
+
+When it is on:
+
+* when you quit a game, its state is saved automatically (**AUTO SAVE**);
+* when you launch it again, the game resumes exactly where you stopped.
+
+To start from the beginning instead, open the save state manager and choose **START NEW GAME**.
+
+This option can also be set for one system only: **MAIN MENU > GAME SETTINGS > PER SYSTEM ADVANCED CONFIGURATION > (system) > AUTO SAVE/LOAD ON GAME LAUNCH** (AUTO, ON or OFF). It only appears when the emulator of the system supports it.
+
+### INCREMENTAL SAVESTATES
+
+Decides when a save state can overwrite an older one:
+
+<table><thead><tr><th width="289">Choice</th><th>Behavior</th></tr></thead><tbody><tr><td><strong>INCREMENT PER SAVE</strong> (default)</td><td>Each save creates a new save state: the older ones are never overwritten.</td></tr><tr><td><strong>INCREMENT SLOT</strong></td><td>During a game, saving overwrites the current slot, but each new game starts on a free slot.</td></tr><tr><td><strong>DO NOT INCREMENT</strong></td><td>The game uses the current slot: a new save can overwrite an older one, as in the emulator alone.</td></tr></tbody></table>
+
+### SHOW SAVESTATE MANAGER
+
+Opens the save state manager when you launch a game with **SOUTH**:
+
+* **NO** (default): the game starts directly.
+* **ALWAYS**: the manager opens for every game that supports save states.
+* **IF NOT EMPTY**: the manager only opens when the game already has save states.
+
+### Save state icon
+
+To hide the icon of games with save states, disable **SHOW SAVESTATE ICON** in **MAIN MENU > USER INTERFACE SETTINGS**, **ICONS** group.
+
+## Good to know
+
+* **RetroAchievements:** in hardcore mode, loading a save state is disabled.
+* **Emulator updates:** after an update, an old save state may no longer load. Keep a normal save of the game.
+* **Emulators not managed by RetroBat:** other emulators may have their own save states, from their own menu. They do not appear in the save state manager.
