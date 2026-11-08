@@ -1,64 +1,76 @@
 # Succès Rétro
 
-Les succès rétro (retroachievements en anglais) permettent de collectionner des trophées pour les jeux rétro. Le principe est similaire aux Trophées existants sur les différentes plateformes de jeu.
+RetroAchievements ajoute des succès (trophées) aux jeux rétro, comme sur les consoles modernes. Pour l'utiliser, créez un compte gratuit sur le site [RetroAchievements](https://retroachievements.org).
 
-Le service est fourni par le site [Retroachievements](https://retroachievements.org/), il est nécessaire de créer un compte utilisateur sur le site web avant de pouvoir utiliser la fonctionnalité de Succès Rétro de Retrobat.
+## Émulateurs compatibles
+
+* **RetroArch :** la plupart des cores libretro.
+* **Émulateurs autonomes :** BizHawk, Dolphin, DuckStation, Flycast, Gopher64, PCSX2, PPSSPP et Snes9x.
+
+Vous ne vous connectez qu'une fois, dans RetroBat : RetroBat transmet automatiquement votre compte à tous ces émulateurs.
+
+## Activer RetroAchievements
+
+1. Ouvrez le [**MENU PRINCIPAL**](../navigation/main-menu.md) > **PARAMÈTRES DES JEUX** > **PARAMÈTRES RETROACHIEVEMENTS**.
+2. Activez **RETROACHIEVEMENTS**.
+3. Saisissez votre **NOM D'UTILISATEUR** et votre **MOT DE PASSE** du site RetroAchievements.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (441).png" alt=""><figcaption></figcaption></figure></div>
+
+4. Revenez en arrière : RetroBat se connecte à votre compte, puis indexe vos jeux. Un message s'affiche quand c'est terminé.
 
 {% hint style="info" %}
-Les Succès Rétro ne sont disponibles que pour une liste limitée de cœur libretro, dont vous pouvez retrouver la liste [ICI](https://docs.libretro.com/guides/retroachievements/#cores-compatibility), et pour la PS2 avec l'émulateur standalone PCSX2 en version 1.7 QT.
+Si le message **IMPOSSIBLE D'ACTIVER RETROACHIEVEMENTS** s'affiche, vérifiez votre nom d'utilisateur et votre mot de passe, ainsi que votre connexion Internet.
 {% endhint %}
 
-## Activer les succès rétro
+## Options
 
-A partir du [**MENU PRINCIPAL**](../navigation/main-menu.md#parametres-des-jeux), sélectionner **PARAMÈTRES DES JEUX**
+| Option                                                    | Effet                                                                                                                                                                                   |
+| --------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **MODE DIFFICILE**                                        | Désactive les sauvegardes d'état, le retour arrière et la triche. Les succès débloqués dans ce mode rapportent plus de points.                                                          |
+| **CLASSEMENTS**                                           | Participe aux classements de scores et de temps des jeux. Nécessite le mode difficile.                                                                                                  |
+| **MODE VERBEUX**                                          | Affiche votre progression dans le jeu au lancement, et plus de notifications.                                                                                                           |
+| **RICH PRESENCE**                                         | Affiche sur votre profil RetroAchievements ce que vous faites dans le jeu.                                                                                                              |
+| **MODE ENCORE**                                           | Les succès déjà débloqués peuvent être débloqués à nouveau.                                                                                                                             |
+| **CAPTURE D'ÉCRAN AUTOMATIQUE**                           | Prend une capture d'écran quand vous débloquez un succès.                                                                                                                               |
+| **INDICATEURS DE CHALLENGE**                              | Affiche des icônes en bas à droite de l'écran quand un succès peut être débloqué.                                                                                                       |
+| **SUCCÈS NON OFFICIELS**                                  | Active aussi les succès qui ne sont pas encore officiels.                                                                                                                               |
+| **SON DE DÉBLOCAGE**                                      | Son joué quand vous débloquez un succès (RetroArch uniquement). Les sons sont les fichiers `.ogg` du dossier `sounds\retroachievements` de RetroBat : vous pouvez y ajouter les vôtres. |
+| **AFFICHER LES RETROACHIEVEMENTS DANS LE MENU PRINCIPAL** | Affiche l'entrée RETROACHIEVEMENTS dans le menu principal (activé par défaut).                                                                                                          |
 
-<div align="left"><figure><img src="https://i.imgur.com/LJ0AgjE.png" alt=""><figcaption></figcaption></figure></div>
+{% hint style="warning" %}
+En **MODE DIFFICILE**, impossible de charger une sauvegarde d'état. Utilisez le système de sauvegarde du jeu.
+{% endhint %}
 
-Puis sélectionner **PARAMÈTRES DES SUCCÈS RETRO**
+## Index des jeux
 
-<div align="left"><figure><img src="https://i.imgur.com/guf1frt.png" alt=""><figcaption></figcaption></figure></div>
+L'indexation vérifie lesquels de vos jeux ont des succès. Ces jeux affichent alors une icône de **trophée** dans la liste des jeux.
 
-Activer le service
+* **INDEXER LES NOUVEAUX JEUX AU DÉMARRAGE** (activé par défaut) : les nouveaux jeux sont vérifiés à chaque démarrage de RetroBat.
+* **INDEXER LES JEUX** : vérifie vos jeux maintenant (utile après l'ajout de nombreux jeux).
 
-<div align="left"><figure><img src="https://i.imgur.com/lg8B7uQ.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (442).png" alt=""><figcaption></figcaption></figure></div>
 
-Puis renseigner les informations du compte Retroachievements : utilisateur et mot de passe
+{% hint style="info" %}
+Pour masquer l'icône de trophée, désactivez **AFFICHER L'ICÔNE RETROACHIEVEMENTS** dans **MENU PRINCIPAL > PARAMÈTRES D'AFFICHAGE**, groupe **ICÔNES**.
+{% endhint %}
 
-<div align="left"><figure><img src="https://i.imgur.com/iGyCM8K.png" alt=""><figcaption></figcaption></figure></div>
+## Succès d'un jeu
 
-Appuyer sur RETOUR, le système indexe alors les jeux compatibles
+1. Dans la liste des jeux, placez-vous sur le jeu et maintenez **SUD** pour ouvrir les **OPTIONS DU JEU**.
 
-<div align="left"><figure><img src="../.gitbook/assets/vMkmRun.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (443).png" alt=""><figcaption></figcaption></figure></div>
 
-Il est possible de relancer l'indexation des jeux ou de paramétrer l'indexation automatique au démarrage :&#x20;
+2. Choisissez **VOIR LES SUCCÈS DU JEU**.
 
-<div align="left"><figure><img src="../.gitbook/assets/t1XGxcP.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (444).png" alt=""><figcaption></figcaption></figure></div>
 
-## Information des succès rétro du jeu
+## Votre profil
 
-Les jeux compatibles avec les Succès Rétro sont identifiés par une icône Trophée ![](<../.gitbook/assets/image (12) (1).png>) dans la liste des jeux
+Ouvrez le [**MENU PRINCIPAL**](../navigation/main-menu.md) > **RETROACHIEVEMENTS** pour voir vos points, votre rang et la progression de vos derniers jeux. Vous pouvez lancer un jeu directement depuis cette liste.
 
-<div align="left"><figure><img src="../.gitbook/assets/Ol9B141.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (445).png" alt=""><figcaption></figcaption></figure></div>
 
-Il est possible d'afficher la liste des Trophées disponibles pour un jeu à partir des [**Options du Jeu**](../navigation/game-options.md) (maintenir ![A](<../.gitbook/assets/image (20) (1).png>) après avoir sélectionné le jeu), en choisissant **VOIR LES SUCCÈS DU JEU**
+## Problèmes fréquents
 
-<div align="left"><figure><img src="https://i.imgur.com/Yr8i8nu.png" alt=""><figcaption></figcaption></figure></div>
-
-<div align="left"><figure><img src="https://i.imgur.com/BpdvAFv.png" alt=""><figcaption></figcaption></figure></div>
-
-## Informations des succès rétro utilisateur
-
-Dans les [**PARAMÈTRES DES SUCCES RETRO**](retroachievements.md#activer-les-succes-retro), il est possible d'ajouter un accès direct aux statistiques de Succès Rétro de l'utilisateur depuis le [MENU PRINCIPAL](../navigation/main-menu.md)
-
-<div align="left"><figure><img src="https://i.imgur.com/Qj3mbvt.png" alt=""><figcaption><p>Paramétrage</p></figcaption></figure></div>
-
-Le MENU PRINCIPAL contient désormais l'option **SUCCÈS RETRO ...**
-
-<div align="left"><figure><img src="../.gitbook/assets/sWbOqaR.png" alt=""><figcaption></figcaption></figure></div>
-
-... qui donne accès à la liste des Trophées Retro de l'utilisateur configuré dans Retrobat.
-
-<div align="left"><figure><img src="https://i.imgur.com/ko4Lnxa.png" alt=""><figcaption><p>Une liste bien maigre !</p></figcaption></figure></div>
-
-
-
+<table><thead><tr><th width="275.25">Problème</th><th>Solution</th></tr></thead><tbody><tr><td>Aucun succès dans un jeu</td><td>Vérifiez que le jeu affiche l'icône de trophée et que l'émulateur choisi est compatible. Seules les versions de jeux connues par RetroAchievements fonctionnent : les jeux traduits, patchés ou modifiés ne sont en général pas reconnus.</td></tr><tr><td>L'icône de trophée n'apparaît pas</td><td>Lancez <strong>INDEXER LES JEUX</strong>, puis vérifiez la version du jeu sur le site RetroAchievements.</td></tr><tr><td>Les sauvegardes d'état ne se chargent pas</td><td>Le mode difficile est activé. Désactivez-le, ou utilisez le système de sauvegarde du jeu.</td></tr><tr><td>IMPOSSIBLE D'ACTIVER RETROACHIEVEMENTS</td><td>Nom d'utilisateur ou mot de passe incorrect, ou pas de connexion Internet.</td></tr></tbody></table>
