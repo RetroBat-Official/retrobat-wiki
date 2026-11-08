@@ -94,8 +94,6 @@ Jeu (Disc 1).chd
 Jeu (Disc 2).chd
 ```
 
-Déplacez les disques dans un sous-dossier (par exemple `roms\ps2\.multidisc`) pour que seul le .m3u apparaisse dans la liste, puis indiquez le sous-dossier dans les chemins (`.multidisc\Jeu (Disc 1).chd`).
-
 * **pcsx2** démarre sur le premier disque. Quand le jeu demande le disque suivant, ouvrez le menu pause (**HOTKEY + SUD**), choisissez **Change Disc**, puis le disque suivant.
 * **lr-pcsx2** utilise le contrôle des disques de RetroArch (**HOTKEY + L1** éjecter, **HOTKEY + R2** disque suivant, **HOTKEY + L1** insérer).
 

@@ -28,6 +28,18 @@ Certains systèmes nécessitent aussi des fichiers BIOS pour fonctionner : voir 
 Pour stocker vos jeux ailleurs (autre disque, NAS…), voir [Liens symboliques](../tutoriels/liens-symboliques.md).
 {% endhint %}
 
+{% hint style="info" %}
+**Jeux multi-disques :** créez un fichier texte `.m3u` qui liste les disques, un par ligne (par exemple `Jeu (Disc 1).chd`). RetroBat masque automatiquement les disques listés dans un fichier `.m3u`, `.cue` ou `.gdi` : une seule entrée apparaît dans la liste des jeux.
+{% endhint %}
+
+{% hint style="info" %}
+**Jeux compressés :**
+
+* Pour les systèmes sur CD et DVD, le format **.chd** est conseillé : le jeu est compressé et lu directement par la plupart des émulateurs.
+* Les fichiers **.zip / .7z** sont lus directement par la plupart des cores RetroArch. Avec certains émulateurs autonomes (Dolphin, PCSX2, DuckStation, PPSSPP…), RetroBat monte ou décompresse l'archive avant chaque lancement, ce qui ralentit le chargement.
+* Les réglages de décompression se trouvent dans **MENU PRINCIPAL > PARAMÈTRES DES JEUX**, groupe **COMPRESSION** : **DÉCOMPRESSION** (conserver ou supprimer les fichiers décompressés), **EMPLACEMENT DES FICHIERS DÉCOMPRESSÉS** (par défaut `roms\.uncompressed`) et **NE PAS MONTER DE LECTEUR**.
+{% endhint %}
+
 Les nouveaux jeux sont détectés au prochain démarrage de RetroBat, ou lors de la mise à jour des listes de jeux (**MENU PRINCIPAL** > **PARAMÈTRES DES JEUX** > **METTRE À JOUR LES LISTES DE JEUX**).
 
 Le système apparaît alors dans la **Vue Système**.
@@ -50,7 +62,7 @@ Appuyez sur **START** (**ENTRÉE** au clavier) pour afficher le **MENU PRINCIPAL
 
 <div align="left"><figure><img src="../.gitbook/assets/image (229).png" alt=""><figcaption></figcaption></figure></div>
 
-Configurez les **OPTIONS DU SCRAPEUR**, puis choisissez **SCRAPER MAINTENANT**.
+Dans l'onglet **SCRAPER**, choisissez la source, les jeux et les systèmes à scraper, puis choisissez **SCRAPER MAINTENANT**.
 
 <div align="left"><figure><img src="../.gitbook/assets/image (230).png" alt=""><figcaption></figcaption></figure></div>
 
@@ -85,7 +97,7 @@ Pour scraper un seul jeu, sélectionnez-le dans la Vue Jeux et maintenez ![](<..
 Une liste de jeux pouvant correspondre s'affiche. Sélectionnez le bon jeu et confirmez avec ![](<../.gitbook/assets/image (20) (1).png>).
 
 {% hint style="info" %}
-Par défaut, la recherche utilise le nom du fichier du jeu. Pour chercher avec un autre nom, utilisez l'option **EDITER** en bas de l'écran.
+Par défaut, la recherche utilise le nom du fichier du jeu. Pour chercher avec un autre nom, utilisez l'option **ÉDITER** en bas de l'écran.
 {% endhint %}
 
 <div align="left"><figure><img src="../.gitbook/assets/image (235).png" alt=""><figcaption></figcaption></figure></div>
