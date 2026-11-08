@@ -333,7 +333,6 @@
 * [Batgui](utilisation-avancee/batgui.md)
 * [retrobat.ini](utilisation-avancee/retrobat.ini.md)
 * [Softpatching](utilisation-avancee/softpatching.md)
-* [Réduction de la latence / flou de mouvement](utilisation-avancee/reduction-de-la-latence-flou-de-mouvement.md)
 * [Ordinateurs anciens - MAME/MESS - arguments de lancement](utilisation-avancee/ordinateurs-anciens-mame-mess-arguments-de-lancement.md)
 * [Utiliser les overrides Retroarch](utilisation-avancee/utiliser-les-overrides-retroarch.md)
 
@@ -343,3 +342,4 @@
 * [Liens symboliques](tutoriels/liens-symboliques.md)
 * [Ajouter des filtres vidéos Retroarch à Retrobat](tutoriels/ajouter-des-filtres-videos-retroarch-a-retrobat.md)
 * [Adapter et personnaliser les Mega-Bezels](tutoriels/adapter-et-personnaliser-les-mega-bezels.md)
+* [Réduction de la latence / flou de mouvement](tutoriels/reduction-de-la-latence-flou-de-mouvement.md)
