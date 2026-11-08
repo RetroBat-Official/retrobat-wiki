@@ -78,7 +78,7 @@ Autres émulateurs :
 * **lr-pcsx2 :** **ÉMULATION > DÉBLOCAGE DES LANGUES** débloque d'autres langues dans certains jeux.
 * **play :** play n'a pas de BIOS. Choisissez la langue dans **ÉMULATION > LANGUE** (anglais par défaut).
 
-## Quel format de jeu?
+## Quel format de jeu ?
 
 <table><thead><tr><th width="201">Format</th><th align="center">pcsx2</th><th align="center">lr-pcsx2</th><th align="center">play</th><th align="center">pcsx2-16</th></tr></thead><tbody><tr><td>.chd (conseillé)</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td><td align="center">✘</td></tr><tr><td>.iso</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td></tr><tr><td>.cso</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td></tr><tr><td>.zip / .7z / .squashfs</td><td align="center">✔ (décompressé au lancement)</td><td align="center"></td><td align="center"></td><td align="center"></td></tr></tbody></table>
 
