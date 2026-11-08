@@ -41,10 +41,6 @@ L'onglet **Systèmes installés** n'affiche que les systèmes qui ont des jeux, 
 
 <div align="left"><figure><img src="../.gitbook/assets/image (257).png" alt=""><figcaption></figcaption></figure></div>
 
-{% hint style="info" %}
-Par défaut, RetroBat vérifie aussi les BIOS au lancement d'un jeu. S'il manque un BIOS au système, un avertissement s'affiche, et vous pouvez quand même choisir de lancer le jeu. Seuls les BIOS **MISSING** déclenchent cet avertissement, jamais les BIOS INVALID ou OPTIONAL.
-{% endhint %}
-
 ## Vérification au lancement d'un jeu
 
 Par défaut, RetroBat vérifie aussi les BIOS au lancement d'un jeu. Si un BIOS du système est **MISSING**, ce message s'affiche :
