@@ -33,17 +33,13 @@ RetroBat can check your BIOS files: open the [MAIN MENU](../navigation/main-menu
 
 The result lists, for each system, the BIOS files that need your attention:
 
-* **Missing** ![](<../.gitbook/assets/image (212).png>) : the file was not found.
-* **Invalid** ![](<../.gitbook/assets/image (213).png>) : the file is present, but its checksum (MD5) does not match any known version. It may still work: test the system to make sure.
+* **MISSING** ![](<../.gitbook/assets/image (212).png>) : the file was not found.
+* **INVALID** ![](<../.gitbook/assets/image (213).png>) : the file is present, but its checksum (MD5) does not match any known version. It may still work: test the system to make sure.
 * **OPTIONAL**: the file is not needed to launch the games (another accepted version is already present, or it is only used by some games or emulators).
 
 The **Installed systems** tab only shows the systems that have games, the **All** tab shows every system.
 
 <div align="left"><figure><img src="../.gitbook/assets/image (215).png" alt=""><figcaption></figcaption></figure></div>
-
-{% hint style="info" %}
-By default, RetroBat also checks the BIOS files when you start a game. If a BIOS file is missing for the system, a warning is displayed and you can choose to launch the game anyway.
-{% endhint %}
 
 ## Check before launching a game
 
