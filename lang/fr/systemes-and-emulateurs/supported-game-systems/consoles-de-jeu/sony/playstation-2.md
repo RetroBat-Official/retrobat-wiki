@@ -166,7 +166,7 @@ Afin de pouvoir utiliser les gâchettes, il est nécessaire de changer le schém
 
 <table><thead><tr><th width="299">Option</th><th>Utilité</th></tr></thead><tbody><tr><td>DÉSACTIVER LES VIBRATIONS</td><td>Désactive les vibrations.</td></tr></tbody></table>
 
-#### pcsx2-16 : configuration manuelle
+### pcsx2-16 : configuration manuelle
 
 pcsx2-16 n'est pas configuré par RetroBat :
 
