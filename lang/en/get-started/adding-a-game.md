@@ -28,7 +28,19 @@ Some systems also require BIOS files to work: see [Adding BIOS files](adding-bio
 To keep your games in another location (another drive, a NAS…), see [Symbolic links](../tutorials/symbolic-links.md).
 {% endhint %}
 
-New games are detected the next time RetroBat starts, or when you update the gamelist (**MAIN MENU** > **GAME SETTINGS** > **UPDATE GAMELIST**).
+{% hint style="info" %}
+**Multi-disc games:** create a `.m3u` text file listing the discs, one per line (for example `Game (Disc 1).chd`). RetroBat automatically hides the disc files listed in a `.m3u`, `.cue` or `.gdi` file: only one entry appears in the game list.
+{% endhint %}
+
+{% hint style="info" %}
+**Compressed games:**
+
+* For CD and DVD systems, the **.chd** format is recommended: the game is compressed and read directly by most emulators.
+* **.zip / .7z** files are read directly by most RetroArch cores. With some standalone emulators (Dolphin, PCSX2, DuckStation, PPSSPP…), RetroBat mounts or extracts the archive before each launch, which makes loading slower.
+* The extraction settings are in **MAIN MENU > GAME SETTINGS**, **COMPRESSION** group: **DECOMPRESSION** (keep or delete the extracted files), **DECOMPRESSION PATH** (by default `roms\.uncompressed`) and **NEVER TRY TO MOUNT AS DRIVE**.
+{% endhint %}
+
+New games are detected the next time RetroBat starts, or when you update the gamelist (**MAIN MENU** > **GAME SETTINGS** > **UPDATE GAMELISTS**).
 
 The system then appears in the **System View**.
 
@@ -50,7 +62,7 @@ Press **START** (**ENTER** on keyboard) to open the **MAIN MENU**, then choose *
 
 <div align="left"><figure><img src="../.gitbook/assets/image (194).png" alt=""><figcaption></figcaption></figure></div>
 
-Configure the **SCRAPER SETTINGS**, then select **SCRAPE NOW**.
+In the **SCRAPE** tab, choose the source, the games and the systems to scrape, then select **SCRAPE NOW**.
 
 <div align="left"><figure><img src="../.gitbook/assets/image (195).png" alt=""><figcaption></figcaption></figure></div>
 
@@ -68,7 +80,7 @@ Once scraping is finished, update the gamelist: press **START** (**ENTER** on ke
 
 <div align="left"><figure><img src="https://i.imgur.com/X1sumBQ.png" alt=""><figcaption></figcaption></figure></div>
 
-… then **UPDATE GAMELIST**.
+… then **UPDATE GAMELISTS**.
 
 <div align="left"><figure><img src="https://i.imgur.com/B9beKo6.png" alt=""><figcaption></figcaption></figure></div>
 

@@ -94,8 +94,6 @@ Game (Disc 1).chd
 Game (Disc 2).chd
 ```
 
-Move the disc files into a subfolder (for example `roms\ps2\.multidisc`) so that only the .m3u appears in the list, then write the subfolder in the paths (`.multidisc\Game (Disc 1).chd`).
-
 * **pcsx2** starts the first disc. When the game asks for the next disc, open the pause menu (**HOTKEY + SOUTH**), choose **Change Disc**, then the next disc.
 * **lr-pcsx2** uses the RetroArch disc control (**HOTKEY + L1** eject, **HOTKEY + R2** next disc, **HOTKEY + L1** insert).
 
