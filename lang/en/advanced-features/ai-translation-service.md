@@ -1,43 +1,54 @@
 # AI Translation Service
 
-## Translation Service settings
+The AI translation service translates the text of a game on the fly. When you press the hotkey, RetroArch takes a screenshot of the game, sends it to an online service that reads and translates the text, then shows the translation over the game.
 
-This function can be used to translate screens from games that are written in a language you do not read in to your native language (e.g. Japanese to English).
+{% hint style="info" %}
+* The service only works with **RetroArch cores**.
+* An **Internet connection** is needed.
+* The translation is automatic: it can be approximate, and some text (stylized fonts, small text) may not be read correctly.
+{% endhint %}
 
-Configuration can be done in the [Main Menu ](../navigation/main-menu.md)under **GAME SETTINGS** and **AI GAME TRANSLATION**.
+## Enabling the translation
 
-<div align="left"><figure><img src="https://i.imgur.com/9PkHi7R.png" alt=""><figcaption><p>GAME SETTINGS</p></figcaption></figure></div>
+1. Open the [**MAIN MENU**](../navigation/main-menu.md) > **GAME SETTINGS**, **RETROARCH OPTIONS** group > **AI GAME TRANSLATION**.
+2. Turn on **ENABLE AI TRANSLATION SERVICE**.
+3. Choose your **TARGET LANGUAGE**: the language in which the text is translated. The language of the game is detected automatically.
 
-<div align="left"><figure><img src="https://i.imgur.com/wQswVu7.png" alt=""><figcaption><p>AI GAME TRANSLATION</p></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (408).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/GD7f7Ay.png" alt=""><figcaption><p>AI GAME TRANSLATION options</p></figcaption></figure></div>
+<table><thead><tr><th width="311.5">Option</th><th>Effect</th></tr></thead><tbody><tr><td><strong>ENABLE AI TRANSLATION SERVICE</strong></td><td>Enables the translation in RetroArch games.</td></tr><tr><td><strong>TARGET LANGUAGE</strong></td><td>Language of the translation.</td></tr><tr><td><strong>AI TRANSLATION SERVICE URL</strong></td><td>Address of the translation service. Leave it empty to use the default service (see below).</td></tr><tr><td><strong>PAUSE ON TRANSLATED SCREEN</strong></td><td>Pauses the game while the translation is shown.</td></tr></tbody></table>
 
-<table><thead><tr><th width="290">Configuration Item</th><th>Description</th></tr></thead><tbody><tr><td><strong>Enable AI Translation Service</strong></td><td>Turn the translation feature ON or OFF</td></tr><tr><td><strong>Target Language</strong></td><td>Select the language you want to get the screens translated into</td></tr><tr><td><strong>AI Translation service URL</strong></td><td>Enter the translation service URL</td></tr><tr><td><strong>Pause on translated screen</strong></td><td>Select whether you want to keep the game going while the translation overlay is on or pause the game</td></tr></tbody></table>
+## Translating during a game
 
-### Translation Service URL
+| Action                                               | Controller        |
+| ---------------------------------------------------- | ----------------- |
+| Translate the screen                                 | HOTKEY + R1       |
+| Hide the translation (and resume the game if paused) | HOTKEY + R1 again |
 
-The service from [ztranslate.net](https://ztranslate.net/) can be used to translate games.
+<div align="left"><figure><img src="../.gitbook/assets/image (409).png" alt=""><figcaption></figcaption></figure></div>
 
-You will need to register on the website.
+{% hint style="info" %}
+If you customized your hotkeys, use your own combination. See the Hotkeys page.
+{% endhint %}
 
-<div align="left"><figure><img src="https://i.imgur.com/rLddOm8.png" alt=""><figcaption><p>Register</p></figcaption></figure></div>
+## Translation service
 
-Once the Sign up finalized, go to Settings and retrieve you API key.
+By default, RetroBat uses the **ZTranslate** service with a shared key: it works without any account. As this key is shared by many players, the service can be slow or unavailable at times.
 
-<div align="left"><figure><img src="https://i.imgur.com/7Oe139R.png" alt=""><figcaption><p>Retrieve API key at the bottom</p></figcaption></figure></div>
+To use your own key:
 
-Now, enter the URL + API key in Retrobat AI GAME TRANSLATION settings and confirm.
+1. Create a free account on [ztranslate.net](https://ztranslate.net), then get your API key in your profile.
 
-Use the following format:
+<div align="left"><figure><img src="../.gitbook/assets/image (411).png" alt=""><figcaption></figcaption></figure></div>
 
-```
-http://ztranslate.net/service?api_key=XXXYYYZZZ
-```
+2. In **AI TRANSLATION SERVICE URL**, enter: `http://ztranslate.net/service?api_key=YOUR_KEY` (replace `YOUR_KEY` with your key).
 
-(replace XXXYYYZZZ with your own API key)
+<div align="left"><figure><img src="../.gitbook/assets/image (410).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../.gitbook/assets/OiGEpQD.png" alt=""><figcaption></figcaption></figure></div>
+{% hint style="warning" %}
+Write the address with `http://`, not `https://`. RetroBat adds the language and display settings at the end of the address by itself: do not add them.
+{% endhint %}
 
-## Calling the translation while in game
+## Common problems
 
-You can now call the AI translation service in-game by using the `HOTKEY` + `R1` combination.
+<table><thead><tr><th width="350.25">Problem</th><th>Solution</th></tr></thead><tbody><tr><td>Nothing happens when pressing HOTKEY + R1</td><td>Check that the service is enabled and that the game uses a RetroArch core. Check your Internet connection.</td></tr><tr><td>The translation takes long or never appears</td><td>The shared service may be overloaded: try again later, or use your own key.</td></tr><tr><td>The translation is wrong or incomplete</td><td>The text could not be read correctly (stylized font, small text). Try on a screen with clearer text.</td></tr></tbody></table>
