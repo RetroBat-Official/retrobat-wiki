@@ -57,6 +57,8 @@ Manette prise en charge : **8BitDo M30** (le mode dépend de la façon dont elle
 * **Émulateurs** : RetroArch (cores Genesis Plus GX, Genesis Plus GX Wide, Genesis Plus GX Expanded et PicoDrive), Ares, BizHawk (Genplus-gx, PicoDrive), BlastEm, Jgenesis, Kega Fusion, Mednafen.
 * **Option** : **UTILISER UNE MANETTE DE TYPE MEGADRIVE** (configuration avancée du système > CONTRÔLES). Dans Kega Fusion, l'option permet de choisir **OUI(MODE DPAD)** ou **OUI(MODE STICK ANALOGIQUE)**.
 
+<div align="left"><figure><img src="../../../.gitbook/assets/image (453).png" alt=""><figcaption></figcaption></figure></div>
+
 ## Saturn
 
 Manette prise en charge : **8BitDo M30**.
@@ -71,6 +73,8 @@ Manette prise en charge : **8BitDo M30**.
 * **RetroArch** : cores Beetle Saturn, Kronos, YabaSanshiro, Yabause et Ymir.
 * **BizHawk** : core Saturnus.
 * **Option** : **UTILISER UNE MANETTE DE TYPE SATURN** (configuration avancée du système > CONTRÔLES). Dans Kronos, SSF et YabaSanshiro, choisissez **OUI(MODE DPAD)** ou **OUI(MODE STICK ANALOGIQUE)**.
+
+<div align="left"><figure><img src="../../../.gitbook/assets/image (454).png" alt=""><figcaption></figcaption></figure></div>
 
 ## GameCube
 
