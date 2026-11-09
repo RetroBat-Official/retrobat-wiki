@@ -10,7 +10,7 @@ To know which systems and emulators support guns, and how the buttons are mapped
 
 ## Supported lightguns
 
-<table><thead><tr><th width="161.5">Lightgun</th><th width="135.5">Detection</th><th width="173.75">Several players</th><th>Notes</th></tr></thead><tbody><tr><td><strong>Sinden</strong></td><td>Automatic</td><td>Yes</td><td>Needs the Sinden software and a white border around the screen (both handled by RetroBat, see below).</td></tr><tr><td><strong>Gun4IR</strong></td><td>Automatic</td><td>Yes</td><td></td></tr><tr><td><strong>Blamcon</strong></td><td>Automatic</td><td>Yes</td><td></td></tr><tr><td><strong>RetroShooter</strong></td><td>Automatic</td><td>Yes</td><td></td></tr><tr><td><strong>AimTrak</strong> (Ultimarc)</td><td>Automatic</td><td>Yes</td><td></td></tr><tr><td><strong>AE Lightgun</strong></td><td>Automatic</td><td>Yes</td><td></td></tr><tr><td><strong>Xgunner</strong></td><td>Automatic</td><td>Yes</td><td></td></tr><tr><td><strong>Wiimote + DolphinBar</strong> (mode 1 or 2)</td><td>Automatic</td><td>Yes, one DolphinBar per Wiimote</td><td>See <a href="wiimoteandbar.md">Wiimote &#x26; DolphinBar</a>.</td></tr><tr><td><strong>Wiimote + WiimoteGun</strong> (DolphinBar mode 4)</td><td>When WiimoteGun is running</td><td>No (1 Wiimote)</td><td>See <a href="wiimotegun.md">WiimoteGun</a>.</td></tr><tr><td><strong>Wiimote + Wiimote4Guns</strong></td><td>Automatic</td><td>Yes, up to 4</td><td>See below.</td></tr><tr><td><strong>Mouse</strong></td><td>Always</td><td>–</td><td>A mouse can be used as a gun when no lightgun is connected.</td></tr></tbody></table>
+<table><thead><tr><th width="161.5">Lightgun</th><th width="135.5">Detection</th><th width="173.75">Several players</th><th>Notes</th></tr></thead><tbody><tr><td><strong>Sinden</strong></td><td>Automatic</td><td>Yes</td><td>Needs the Sinden software and a white border around the screen (both handled by RetroBat, see below).</td></tr><tr><td><strong>Gun4IR</strong></td><td>Automatic</td><td>Yes</td><td></td></tr><tr><td><strong>Blamcon</strong></td><td>Automatic</td><td>Yes</td><td></td></tr><tr><td><strong>RetroShooter</strong></td><td>Automatic</td><td>Yes</td><td></td></tr><tr><td><strong>AimTrak</strong> (Ultimarc)</td><td>Automatic</td><td>Yes</td><td></td></tr><tr><td><strong>AE Lightgun</strong></td><td>Automatic</td><td>Yes</td><td></td></tr><tr><td><strong>Xgunner</strong></td><td>Automatic</td><td>Yes</td><td></td></tr><tr><td><strong>OpenFIRE</strong> (and OpenFIRE-ESP32)</td><td>Automatic</td><td>Yes, up to 4</td><td>Give each gun its own USB ID (PID 1 to 4) in the OpenFIRE App: it sets the player number. Do not change the default Vendor ID.</td></tr><tr><td><strong>Wiimote + DolphinBar</strong> (mode 1 or 2)</td><td>Automatic</td><td>Yes, one DolphinBar per Wiimote</td><td>See <a href="wiimoteandbar.md">Wiimote &#x26; DolphinBar</a>.</td></tr><tr><td><strong>Wiimote + WiimoteGun</strong> (DolphinBar mode 4)</td><td>When WiimoteGun is running</td><td>No (1 Wiimote)</td><td>See <a href="wiimotegun.md">WiimoteGun</a>.</td></tr><tr><td><strong>Wiimote + Wiimote4Guns</strong></td><td>Automatic</td><td>Yes, up to 4</td><td>See below.</td></tr><tr><td><strong>Mouse</strong></td><td>Always</td><td>–</td><td>A mouse can be used as a gun when no lightgun is connected.</td></tr></tbody></table>
 
 {% hint style="info" %}
 Most lightguns work as a **mouse and keyboard**. Check your gun's own software or manual if it has several modes, and keep it in its mouse mode.
@@ -77,7 +77,7 @@ Other common options in the **GUNS** submenu (depending on the emulator):
 
 RetroBat assigns the guns to the players in this order:
 
-1. Dedicated lightguns, following their own player number when the gun has one (Gun4IR, Blamcon, Sinden, RetroShooter…).
+1. Dedicated lightguns, following their own player number when the gun has one (Gun4IR, Blamcon, Sinden, RetroShooter, OpenFIRE…).
 2. Wiimotes (Wiimote4Guns P1 to P4, then DolphinBar).
 3. Other mice.
 
@@ -167,5 +167,7 @@ WiimoteGun and Wiimote4Guns must not run at the same time.
 * [RetroShooter](https://retroshooter.com/)
 * [Blamcon](https://blamcon.com/)
 * [AimTrak (Ultimarc)](https://www.ultimarc.com/)
+* [OpenFIRE](https://openfirelightgun.org/) ([firmware](https://github.com/TeamOpenFIRE/OpenFIRE-Firmware))
+* [OpenFIRE-ESP32](https://alessandro-satanassi.github.io/OpenFIRE-ESP32/) ([firmware](https://github.com/alessandro-satanassi/OpenFIRE-Firmware-ESP32))
 
 These guns are detected automatically by their USB identifier. Set them to their mouse (and keyboard) mode with their own software if they have several modes.
