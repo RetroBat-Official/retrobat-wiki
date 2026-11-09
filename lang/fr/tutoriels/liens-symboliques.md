@@ -36,7 +36,7 @@ Après l'installation, redémarrez l'ordinateur (ou relancez le processus `explo
 
 <div align="left"><figure><img src="../.gitbook/assets/image (462).png" alt=""><figcaption></figcaption></figure></div>
 
-## Créer un lien symbolique avec Link Shell Extension
+### Créer un lien symbolique avec Link Shell Extension
 
 Dans cet exemple, les jeux 3DO sont dans `D:\Retrobat\3do`, et RetroBat est installé dans `C:\Retrobat`.
 
@@ -50,11 +50,11 @@ Dans cet exemple, les jeux 3DO sont dans `D:\Retrobat\3do`, et RetroBat est inst
 
 **FÉLICITATIONS** : vous venez de créer un lien symbolique ! Faites de même pour chaque dossier que vous voulez stocker ailleurs.
 
-## Créer un lien avec l'invite de commandes
+### Créer un lien avec l'invite de commandes
 
 Même exemple que ci-dessus. Faites d'abord les étapes 1 et 2 ci-dessus, puis utilisez l'une de ces commandes.
 
-### Disque local : jonction (sans droits administrateur)
+#### Disque local : jonction (sans droits administrateur)
 
 Ouvrez une **invite de commandes** (`cmd`) et tapez :
 
@@ -62,7 +62,7 @@ Ouvrez une **invite de commandes** (`cmd`) et tapez :
 mklink /J "C:\Retrobat\roms\3do" "D:\Retrobat\3do"
 ```
 
-### Partage réseau (NAS) : lien symbolique
+#### Partage réseau (NAS) : lien symbolique
 
 Ouvrez une **invite de commandes en administrateur** (clic droit sur **Invite de commandes** > **Exécuter en tant qu'administrateur**) et tapez :
 
