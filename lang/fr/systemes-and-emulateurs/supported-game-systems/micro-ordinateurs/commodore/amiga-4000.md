@@ -12,7 +12,7 @@ L'**Amiga 4000** est le modèle haut de gamme de la famille Amiga, sorti par Com
 
 L'Amiga 4000 a surtout servi à la vidéo et à la 3D : avec le Video Toaster et LightWave 3D, il est à l'origine des effets spéciaux de plusieurs séries télévisées des années 1990. Pour le jeu, il fait tourner plus vite les titres AGA de l'Amiga 1200, ainsi que les jeux tardifs et les démos les plus exigeants : _Alien Breed 3D II_, _Breathless_, _Gloom Deluxe_, les adaptations Amiga de _Doom_ et _Quake_…
 
-Ce système correspond à l'Amiga 4000. Pour les jeux classiques de l'Amiga 500 et de l'Amiga 1200, préférez les systèmes Amiga OCS/ECS et Amiga AGA : leurs modèles sont plus compatibles avec ces jeux.
+Pour les jeux classiques de l'Amiga 500 et de l'Amiga 1200, préférez les systèmes Amiga OCS/ECS et Amiga AGA : leurs modèles offrent une meilleure compatibilité avec ces jeux.
 
 {% embed url="https://fr.wikipedia.org/wiki/Amiga_4000" %}
 
