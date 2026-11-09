@@ -57,6 +57,8 @@ Supported controller: **8BitDo M30** (the mode depends on how it is connected an
 * **Emulators**: RetroArch (Genesis Plus GX, Genesis Plus GX Wide, Genesis Plus GX Expanded and PicoDrive cores), Ares, BizHawk (Genplus-gx, PicoDrive), BlastEm, Jgenesis, Kega Fusion, Mednafen.
 * **Option**: **USE GENESIS-LIKE CONTROLLER** (system advanced configuration > CONTROLS). In Kega Fusion, the option lets you choose **YES (DPAD)** or **YES (ANALOG)**.
 
+<div align="left"><figure><img src="../../../.gitbook/assets/image (412).png" alt=""><figcaption></figcaption></figure></div>
+
 ## Saturn
 
 Supported controller: **8BitDo M30**.
@@ -66,6 +68,8 @@ Supported controller: **8BitDo M30**.
 * **RetroArch**: Beetle Saturn, Kronos, YabaSanshiro, Yabause and Ymir cores.
 * **BizHawk**: Saturnus core.
 * **Option**: **USE SATURN-LIKE CONTROLLER** (system advanced configuration > CONTROLS). In Kronos, SSF and YabaSanshiro, choose **YES (DPAD)** or **YES (ANALOG)**.
+
+<div align="left"><figure><img src="../../../.gitbook/assets/image (413).png" alt=""><figcaption></figcaption></figure></div>
 
 ## GameCube
 
