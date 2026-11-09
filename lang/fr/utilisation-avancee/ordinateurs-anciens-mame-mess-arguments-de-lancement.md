@@ -42,35 +42,19 @@ RetroBat peut détecter automatiquement le type de media en se basant sur l'exte
 
 ## Commande de démarrage automatique et délai
 
-Certains ordinateurs nécessitent certaines commandes spécifiques au démarrage pour lancer/charger un jeu.
+Certains ordinateurs ont besoin d'une commande tapée au démarrage. RetroBat utilise la première source disponible, dans cet ordre :
 
-RetroBat a une logique spécifique pour activer des commandes de démarrage automatique, la logique est détaillée ci-après, par ordre de priorité:
+1. **Fichier autorun :** un fichier du même nom que le jeu avec l'extension `.autorun`, dans le dossier du jeu. La ligne 1 est la commande de démarrage, la ligne 2 (facultative) le délai en secondes (3 par défaut). Pour `3DBRICK.dsk`, un fichier `3DBRICK.autorun` donne : `-autoboot_command "LOADM\"3DBRICK\":EXEC\r" -autoboot_delay 5`
 
-#### 1) Vérification de l'existence d'un fichier autorun
+<div align="left"><figure><img src="../.gitbook/assets/image (456).png" alt=""><figcaption></figcaption></figure></div>
 
-RetroBat vérifie si un fichier, nommé à l'identique de la rom du jeu, possédant l'extension .autorun, existe.
+2. **Script LUA :** un script nommé d'après la liste logicielle du média (par exemple `bbcb_flop.lua`), dans `bios\mame\autoboot_scripts`. Utilisé quand **OPTIONS AVANCÉES > ÉMULATION > DÉMARRAGE AUTO (TENTATIVE)** est réglé sur **DEPUIS LE SCRIPT LUA**, et par défaut pour BBC Micro, Camputers Lynx, CD-i, CreatiVision, Electron, Odyssey², TVC 64 et VG 5000.
+3. **Fichier hash de MAME :** la commande de démarrage indiquée dans la liste logicielle de MAME (`bios\mame\hash`), quand **DÉMARRAGE AUTO (TENTATIVE)** est réglé sur **DEPUIS LE FICHIER HASH**.
 
-Si c'est le cas, RetroBat lira ce fichier, et ajoutera la 1ère ligne en tant que commande de démarrage automatique, et la seconde ligne (si elle existe) comme délai de démarrage automatique :
+<div align="left"><figure><img src="../.gitbook/assets/image (457).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure></div>
-
-Dans l'exemple ci-dessus, le fichier est effectif pour le fichier de jeu 3DBRICK.dsk, et génère la ligne de commande suivante :&#x20;
-
-```
--autoboot_command "LOADM\"3DBRICK\":EXEC\r" -autoboot_delay 5
-```
-
-#### 2) Vérification dans le fichier de hash MAME
-
-MAME contient de fichiers appelé softlists, situés dans le dossier `\bios\mame\hash` de votre installation RetroBat. Certains de ces fichiers contiennent des commandes spécifiques pour lancer certains jeux.
-
-Si l'option "**OPTIONS AVANCÉES DU SYSTÈME > ÉMULATION > DÉMARRAGE AUTO**" est activée dans le menu, RetroBat tente de déterminer la commande de démarrage en cherchant dans le fichier softlist correspondant :
-
-<figure><img src="../.gitbook/assets/image (64).png" alt=""><figcaption></figcaption></figure>
-
-#### 3) Logique interne
-
-RetroBat contient également une logique interne, basée sur le système/type de média, pour démarrer automatiquement les jeux, par exemple la commande `CLOAD""\n` pour les ordinateurs Oric est appliquée automatiquement.
+4. **Crochets du nom de la ROM (BBC Micro) :** avec **DÉMARRAGE AUTO (TENTATIVE)** réglé sur **DEPUIS LES CROCHETS DU NOM DE LA ROM**, le texte entre crochets est utilisé comme fichier à lancer : `Elite [ELITE].ssd` lance `chain"ELITE"`.
+5. **Logique interne :** RetroBat applique des commandes intégrées selon le système et le type de média. Par exemple, l'Oric utilise `CLOAD""\n`.
 
 ## Type de Joystick
 
@@ -83,6 +67,12 @@ Certains ordinateurs peuvent utiliser différents types de contrôleurs. L'optio
 {% hint style="info" %}
 Si un type de contrôleur est manquant, vous pouvez demander à la team RetroBat d'ajouter l'option, ou vous pouvez également consulter le guide pour [lignes de commande additionnelles](ordinateurs-anciens-mame-mess-arguments-de-lancement.md#additional-command-line-arguments) ci-dessous.
 {% endhint %}
+
+## Autres options
+
+<table><thead><tr><th width="309">Option (OPTIONS AVANCÉES > ÉMULATION)</th><th>Utilité</th></tr></thead><tbody><tr><td><strong>FORCER LA SOFTWARELIST</strong></td><td>Force l'utilisation d'une liste logicielle de MAME (dans <code>bios\mame\hash</code>) au lieu du type de média détecté par l'extension.</td></tr><tr><td><strong>UTILISER LE CHEMIN COMPLET DE LA ROM</strong></td><td>Envoie à MAME le chemin complet du jeu au lieu de son seul nom.</td></tr><tr><td><strong>AJOUTER UN DISQUE UTILISATEUR</strong> (FM Towns)</td><td>Insère une disquette en plus du CD : une disquette vierge, ou une disquette système au nom du jeu (<code>.hdm</code>) placée dans <code>saves\mame\fmtowns</code>.</td></tr></tbody></table>
+
+**Jeux multi-disques (.m3u) :** pour l'Apple II et l'Apple IIGS, les deux premiers disques du fichier `.m3u` sont insérés dans les lecteurs 1 et 2. Pour les autres systèmes, seul un `.m3u` à un disque est pris en charge.
 
 ## Arguments de ligne de commande additionnelles
 
@@ -119,3 +109,7 @@ Dans cet exemple, ce fichier permet d'ajouter la ligne de commande suivante pour
 ```
 -cart "C:\retrobat\bios\ti99\Extended Basic v110.rpk"
 ```
+
+{% hint style="info" %}
+Les deux fichiers ne s'additionnent pas : quand un jeu a son propre fichier `.commands`, le fichier de la machine est ignoré pour ce jeu. Le fichier de la machine porte le nom du modèle réellement lancé (par exemple `ti99_4a.commands`, ou le modèle choisi dans **MODÈLE DE MACHINE ÉMULÉE**).
+{% endhint %}
