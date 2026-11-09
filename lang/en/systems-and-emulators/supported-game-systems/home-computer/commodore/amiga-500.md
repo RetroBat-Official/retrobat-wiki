@@ -105,7 +105,18 @@ Your PC keyboard works as the Amiga keyboard with every emulator.
 
 ### Default layout
 
-<table><thead><tr><th width="235.75">Amiga</th><th width="194.25">libretro cores</th><th>Amiberry</th></tr></thead><tbody><tr><td>Joystick</td><td>D-pad</td><td>D-pad</td></tr><tr><td>Fire button 1 (red)</td><td>SOUTH</td><td>SOUTH</td></tr><tr><td>Fire button 2 (blue)</td><td>EAST</td><td>EAST</td></tr><tr><td>Mouse</td><td>Analog sticks</td><td>PC mouse</td></tr><tr><td>Mouse buttons</td><td>L2 / R2</td><td>PC mouse</td></tr><tr><td>Virtual keyboard</td><td>SELECT</td><td>SELECT</td></tr><tr><td>Emulator menu</td><td></td><td>R3</td></tr></tbody></table>
+| Amiga                | libretro cores | Amiberry |
+| -------------------- | -------------- | -------- |
+| Joystick             | D-pad          | D-pad    |
+| Fire button 1 (red)  | SOUTH          | SOUTH    |
+| Fire button 2 (blue) | EAST           | EAST     |
+| Space bar            | NORTH          |          |
+| Mouse                | Analog sticks  | PC mouse |
+| Mouse buttons        | L2 / R2        | PC mouse |
+| Virtual keyboard     | SELECT         | SELECT   |
+| Emulator menu        |                | R3       |
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/image.png" alt="" width="225"><figcaption></figcaption></figure></div>
 
 ### Useful control options
 

@@ -20,7 +20,7 @@ By default, RetroBat will try to autoconfigure controls in MAME either by using 
 
 Autoconfiguration can change depending on the controller layout that you specify in **ADVANCED SETTINGS > CONTROLS**:
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 **The default button for each layout is the following:**
 
@@ -91,7 +91,7 @@ It is also possible to add "reverse" after and axis in order to set \_REVERSE in
 
 Use the following setting in RetroBat **ADVANCED SETTINGS > CONTROLS** menu to enable specific configuration:
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 All the settings other than RetroBat Auto can be used to point MAME to use a controller config file in the `\saves\mame\ctrlr\` folder of your retrobat installation.
 
@@ -222,7 +222,7 @@ By default, RetroBat will try to autoconfigure controls in libretro-mame either 
 
 Autoconfiguration can change depending on the controller layout that you specify in **ADVANCED SETTINGS > CONTROLS**:
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Using the mame core override remap file
 
