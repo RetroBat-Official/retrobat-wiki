@@ -10,7 +10,7 @@ Pour savoir quels systèmes et émulateurs gèrent les pistolets, et comment les
 
 ## Pistolets pris en charge
 
-<table><thead><tr><th width="215.5">Pistolet</th><th width="139">Détection</th><th width="172.25">Plusieurs joueurs</th><th>Remarques</th></tr></thead><tbody><tr><td><strong>Sinden</strong></td><td>Automatique</td><td>Oui</td><td>Nécessite le logiciel Sinden et une bordure blanche autour de l'écran (les deux sont gérés par RetroBat, voir plus bas).</td></tr><tr><td><strong>Gun4IR</strong></td><td>Automatique</td><td>Oui</td><td></td></tr><tr><td><strong>Blamcon</strong></td><td>Automatique</td><td>Oui</td><td></td></tr><tr><td><strong>RetroShooter</strong></td><td>Automatique</td><td>Oui</td><td></td></tr><tr><td><strong>AimTrak</strong> (Ultimarc)</td><td>Automatique</td><td>Oui</td><td></td></tr><tr><td><strong>AE Lightgun</strong></td><td>Automatique</td><td>Oui</td><td></td></tr><tr><td><strong>Xgunner</strong></td><td>Automatique</td><td>Oui</td><td></td></tr><tr><td><strong>Wiimote + DolphinBar</strong> (mode 1 ou 2)</td><td>Automatique</td><td>Oui, une DolphinBar par Wiimote</td><td>Voir <a href="wiimotedolphinbar.md">Wiimote et DolphinBar</a>.</td></tr><tr><td><strong>Wiimote + WiimoteGun</strong> (DolphinBar mode 4)</td><td>Quand WiimoteGun est lancé</td><td>Non (1 Wiimote)</td><td>Voir <a href="wiimotegun.md">WiimoteGun</a>.</td></tr><tr><td><strong>Wiimote + Wiimote4Guns</strong></td><td>Automatique</td><td>Oui, jusqu'à 4</td><td>Voir plus bas.</td></tr><tr><td><strong>Souris</strong></td><td>Toujours</td><td>–</td><td>Une souris peut servir de pistolet quand aucun pistolet n'est branché.</td></tr></tbody></table>
+<table><thead><tr><th width="215.5">Pistolet</th><th width="139">Détection</th><th width="172.25">Plusieurs joueurs</th><th>Remarques</th></tr></thead><tbody><tr><td><strong>Sinden</strong></td><td>Automatique</td><td>Oui</td><td>Nécessite le logiciel Sinden et une bordure blanche autour de l'écran (les deux sont gérés par RetroBat, voir plus bas).</td></tr><tr><td><strong>Gun4IR</strong></td><td>Automatique</td><td>Oui</td><td></td></tr><tr><td><strong>Blamcon</strong></td><td>Automatique</td><td>Oui</td><td></td></tr><tr><td><strong>RetroShooter</strong></td><td>Automatique</td><td>Oui</td><td></td></tr><tr><td><strong>AimTrak</strong> (Ultimarc)</td><td>Automatique</td><td>Oui</td><td></td></tr><tr><td><strong>AE Lightgun</strong></td><td>Automatique</td><td>Oui</td><td></td></tr><tr><td><strong>Xgunner</strong></td><td>Automatique</td><td>Oui</td><td></td></tr><tr><td><strong>OpenFIRE</strong> (et OpenFIRE-ESP32)</td><td>Automatique</td><td>Oui, jusqu'à 4</td><td>Donnez à chaque pistolet son propre identifiant USB (PID 1 à 4) dans l'application OpenFIRE : il définit le numéro du joueur. Ne modifiez pas le Vendor ID par défaut.</td></tr><tr><td><strong>Wiimote + DolphinBar</strong> (mode 1 ou 2)</td><td>Automatique</td><td>Oui, une DolphinBar par Wiimote</td><td>Voir <a href="wiimotedolphinbar.md">Wiimote et DolphinBar</a>.</td></tr><tr><td><strong>Wiimote + WiimoteGun</strong> (DolphinBar mode 4)</td><td>Quand WiimoteGun est lancé</td><td>Non (1 Wiimote)</td><td>Voir <a href="wiimotegun.md">WiimoteGun</a>.</td></tr><tr><td><strong>Wiimote + Wiimote4Guns</strong></td><td>Automatique</td><td>Oui, jusqu'à 4</td><td>Voir plus bas.</td></tr><tr><td><strong>Souris</strong></td><td>Toujours</td><td>–</td><td>Une souris peut servir de pistolet quand aucun pistolet n'est branché.</td></tr></tbody></table>
 
 {% hint style="info" %}
 La plupart des pistolets fonctionnent comme une **souris et un clavier**. Si votre pistolet a plusieurs modes, laissez-le en mode souris (voir son logiciel ou sa notice).
@@ -77,7 +77,7 @@ Autres options courantes du sous-menu **PISTOLETS** (selon l'émulateur) :
 
 RetroBat attribue les pistolets aux joueurs dans cet ordre :
 
-1. Les pistolets dédiés, selon leur propre numéro de joueur quand le pistolet en a un (Gun4IR, Blamcon, Sinden, RetroShooter…).
+1. Les pistolets dédiés, selon leur propre numéro de joueur quand le pistolet en a un (Gun4IR, Blamcon, Sinden, RetroShooter, OpenFIRE...).
 2. Les Wiimotes (Wiimote4Guns J1 à J4, puis DolphinBar).
 3. Les autres souris.
 
@@ -167,5 +167,7 @@ WiimoteGun et Wiimote4Guns ne doivent pas tourner en même temps.
 * [RetroShooter](https://retroshooter.com/)
 * [Blamcon](https://blamcon.com/)
 * [AimTrak (Ultimarc)](https://www.ultimarc.com/)
+* [OpenFIRE](https://openfirelightgun.org/) ([firmware](https://github.com/TeamOpenFIRE/OpenFIRE-Firmware))
+* [OpenFIRE-ESP32](https://alessandro-satanassi.github.io/OpenFIRE-ESP32/) ([firmware](https://github.com/alessandro-satanassi/OpenFIRE-Firmware-ESP32))
 
 Ces pistolets sont détectés automatiquement grâce à leur identifiant USB. S'ils ont plusieurs modes, réglez-les en mode souris (et clavier) avec leur propre logiciel.
