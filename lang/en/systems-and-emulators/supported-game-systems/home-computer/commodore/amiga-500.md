@@ -55,7 +55,7 @@ RetroBat checks that the Kickstart 1.3 is present. The other files are listed as
 
 By default, RetroBat emulates an **Amiga 500 with Kickstart 1.3**, which runs almost every game of the system. To emulate another model, use the model option (EMULATION submenu):
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (447).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (450).png" alt=""><figcaption></figcaption></figure></div>
 
 <table><thead><tr><th width="169.5">Emulator</th><th width="195.25">Option</th><th>Models</th></tr></thead><tbody><tr><td>lr-puae</td><td>MODEL</td><td>A500, A500+, A600…</td></tr><tr><td>lr-amiberry</td><td>MODEL</td><td>A500, A500+, A600…</td></tr><tr><td>Amiberry</td><td>MODEL</td><td>A500 (KS 1.3), A500 (KS 1.2), A500+ (KS 2.04), A600 (KS 3.1)</td></tr><tr><td>WinUAE</td><td>EMULATED MODEL</td><td>Amiga 500, Amiga 500+</td></tr></tbody></table>
 
