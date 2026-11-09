@@ -51,7 +51,7 @@ RetroBat vérifie la présence du Kickstart 3.1 (A1200). Les autres fichiers son
 
 Par défaut, RetroBat émule un **Amiga 1200 avec le Kickstart 3.1**. Les options (sous-menu ÉMULATION) permettent d'ajuster la mémoire et le processeur :
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (483).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (486).png" alt=""><figcaption></figcaption></figure></div>
 
 | Émulateur   | Option                                      | Choix                                                             |
 | ----------- | ------------------------------------------- | ----------------------------------------------------------------- |

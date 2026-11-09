@@ -61,7 +61,7 @@ RetroBat vérifie la présence du Kickstart 1.3. Les autres fichiers sont indiqu
 
 Par défaut, RetroBat émule un **Amiga 500 avec le Kickstart 1.3**, qui fait tourner presque tous les jeux du système. Pour émuler un autre modèle, utilisez l'option de modèle (sous-menu ÉMULATION) :
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (481).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (487).png" alt=""><figcaption></figcaption></figure></div>
 
 | Émulateur   | Option       | Modèles                                                      |
 | ----------- | ------------ | ------------------------------------------------------------ |
