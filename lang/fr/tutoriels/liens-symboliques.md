@@ -12,11 +12,7 @@ L'avantage de cette fonctionnalité dans le cadre de Retrobat, est qu'elle vous 
 
 **Exemple:**
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/v7XAUFu.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/image (458).png" alt=""><figcaption></figcaption></figure></div>
 
 ## Comment créer un Lien Symbolique ?
 
@@ -29,7 +25,7 @@ C'est cette deuxième méthode que nous allons détailler dans ce guide.
 
 ### Télécharger Link Shell Extension
 
-Télécharger le programme sur le site web suivant: [https://schinagl.priv.at/nt/hardlinkshellext/linkshellextension\_fr.html#download](https://schinagl.priv.at/nt/hardlinkshellext/linkshellextension\_fr.html#download)
+Télécharger le programme sur le site web suivant: [https://schinagl.priv.at/nt/hardlinkshellext/linkshellextension\_fr.html#download](https://schinagl.priv.at/nt/hardlinkshellext/linkshellextension_fr.html#download)
 
 ### Utilisation de Link Shell Extension
 
@@ -39,19 +35,11 @@ Ensuite, 2 nouvelles options seront disponibles dans le menu contextuel affiché
 
 * Prendre comme cible du lien
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/DJ3yi2r.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/image (461).png" alt=""><figcaption></figcaption></figure></div>
 
 * Coller...
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/j2TnYfg.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/image (462).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Créer un Lien Symbolique avec Link Shell Extension
 
@@ -76,8 +64,4 @@ Reprenons l'exemple ci-dessus.
 3. Ouvrir l'invitation de commande Windows et taper: `mklink /D "C:\Retrobat\roms\3do" "D:\Retrobat\3do`
 4. Le dossier `C:\Retrobat\roms` contient désormais un dossier 3do contenant une petite icône de raccourci: ![](<../.gitbook/assets/image (32).png>)&#x20;
 
-<div align="left">
-
-<figure><img src="https://i.imgur.com/wgrK31v.png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../.gitbook/assets/image (463).png" alt=""><figcaption></figcaption></figure></div>
