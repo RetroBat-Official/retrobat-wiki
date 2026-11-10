@@ -20,7 +20,7 @@ With more than 155 million units sold, the PS2 is the best-selling home console 
 **PlayStation (PS1) games go in the PlayStation system** (`roms\psx`), not in the PlayStation 2 system, even though the PS2 could play them.
 {% endhint %}
 
-## Overview
+## At a glance
 
 <table><thead><tr><th width="236.5"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\ps2</code></td></tr><tr><td><strong>Extensions</strong></td><td>.iso .cso .bin .mdf .gz .chd .m3u .zip .7z .squashfs .decomp</td></tr><tr><td><strong>Default emulator</strong></td><td>pcsx2</td></tr><tr><td><strong>BIOS</strong></td><td>A PS2 BIOS in <code>bios\pcsx2\bios</code> (for example <code>scph39001.bin</code>, <code>ps2-0230e-20080220.bin</code>…)</td></tr><tr><td><strong>Controller configuration</strong></td><td>Automatic, all emulators</td></tr><tr><td><strong>Save states</strong></td><td>libretro cores, PCSX2</td></tr><tr><td><strong>RetroAchievements</strong></td><td>PCSX2</td></tr><tr><td><strong>Netplay</strong></td><td>No</td></tr><tr><td><strong>Light guns</strong></td><td>PCSX2</td></tr><tr><td><strong>Wheels</strong></td><td>PCSX2</td></tr></tbody></table>
 

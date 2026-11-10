@@ -10,17 +10,13 @@ Zelda Classic (now called ZQuest Classic) is a game engine that recreates the or
 
 RetroBat does not ship any quest. Quests can be found on the community sites (for example [PureZC](https://www.purezc.net)).
 
-## Information
+## At a glance
 
-| **Emulators**      | <ul><li>zquestclassic (default)</li><li>Libretro: zc255</li></ul> |
-| ------------------ | ----------------------------------------------------------------- |
-| **File folder**    | :open\_file\_folder: roms \ :open\_file\_folder: zeldaclassic     |
-| **File extension** | .qst .zip .7z                                                     |
+<table><thead><tr><th width="222.75"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\zeldaclassic</code></td></tr><tr><td><strong>Extensions</strong></td><td>.qst .zip .7z</td></tr><tr><td><strong>Default emulator</strong></td><td>zquestclassic</td></tr><tr><td><strong>BIOS</strong></td><td>None</td></tr><tr><td><strong>Controller configuration</strong></td><td>Automatic, all emulators (player 1)</td></tr><tr><td><strong>Save states</strong></td><td>libretro cores (zc255)</td></tr><tr><td><strong>RetroAchievements</strong></td><td>No</td></tr><tr><td><strong>Netplay</strong></td><td>No</td></tr></tbody></table>
 
-| Emulator      | Quests supported         | Savestates | Notes                                     |
-| ------------- | ------------------------ | ---------- | ----------------------------------------- |
-| zquestclassic | All versions, up to 2.55 | No         | Official ZQuest Classic player (zplayer). |
-| zc255         | 2.55 and older           | Yes        | Libretro core (RetroArch).                |
+## Which emulator should I choose?
+
+<table><thead><tr><th width="131">Emulator</th><th width="165.5">Quests supported</th><th width="119">Save states</th><th>Notes</th></tr></thead><tbody><tr><td>zquestclassic</td><td>All versions, up to 2.55</td><td>No</td><td>Official ZQuest Classic player (zplayer). Recommended.</td></tr><tr><td>zc255</td><td>2.55 and older</td><td>Yes</td><td>Libretro core (RetroArch): save states, shaders, rewind. A few quests don't support save states.</td></tr></tbody></table>
 
 If the emulator is not installed yet, RetroBat offers to download it when the first game is launched.
 
@@ -64,6 +60,10 @@ RetroBat configures the controller of **player 1** automatically. Zelda Classic 
 A, B and the EX buttons are used by the quest itself: their action depends on the quest (sword, item, extra items...).
 
 The **SWAP A/B AND X/Y** option swaps the face buttons, for example to get a Nintendo-like layout.
+
+{% hint style="info" %}
+To set your own controls in **zquestclassic**, disable RetroBat's automatic controller configuration for this system, then configure the controls from the engine menu (**Guide** button or **Esc**).
+{% endhint %}
 
 ### Hotkeys
 

@@ -4,21 +4,39 @@ description: Sega
 
 # Sega Chihiro
 
-<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/chihiro-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/chihiro.svg" alt=""></picture><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (481).png" alt="" width="557"><figcaption></figcaption></figure></div>
 
-Arcade - Released: 2002
+## Overview
+
+The **Chihiro** is an arcade system designed by **Sega** with **Microsoft** and released in **2002**. It uses the Xbox architecture (Intel Pentium III CPU at 733 MHz, NVIDIA NV2A graphics chip) with twice the main memory (128 MB). It is named after the heroine of the movie _Spirited Away_.
+
+Like the Naomi and Triforce systems, the Chihiro reads its games from a **GD-ROM**: the whole disc is copied to the memory of a DIMM board at startup, so there is no loading during gameplay. It is Sega's last arcade system derived from a home console; its successor, the Lindbergh, is based on PC architecture.
+
+Its best-known games include **The House of the Dead III**, **Virtua Cop 3**, **Ghost Squad**, **OutRun 2**, **Crazy Taxi High Roller**, **Ollie King** and, from Namco, **Wangan Midnight Maximum Tune** 1 and 2. Several of them were later ported to the Xbox, thanks to the shared hardware.
 
 {% embed url="https://en.wikipedia.org/wiki/List_of_Sega_arcade_system_boards#Sega_Chihiro" %}
 
-## Information
+## At a glance <a href="#at-a-glance" id="at-a-glance"></a>
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>xemu-chihiro</li><li>chihiro (old CXBX-Reloaded version)</li><li>chihiro-gun (chihiro-ds 1.0)</li><li>cxbx</li><li>teknoparrot</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> chihiro</td></tr><tr><td><strong>File extension</strong></td><td>.xbe .iso .bin</td></tr></tbody></table>
+<table><thead><tr><th width="244"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\chihiro</code></td></tr><tr><td><strong>Extensions</strong></td><td>.xbe .iso .bin</td></tr><tr><td><strong>Default emulator</strong></td><td>xemu-chihiro</td></tr><tr><td><strong>BIOS</strong></td><td><code>chihiro_xbox_bios.bin</code>, <code>fpr21042_m29w160et.bin</code>, <code>ic10_g24lc64.bin</code>, <code>ic11_24lc024.bin</code>, <code>pc20_g24lc64.bin</code> in <code>bios\chihiro</code></td></tr><tr><td><strong>Controller configuration</strong></td><td>Automatic, all emulators (xemu-chihiro: supported games)</td></tr><tr><td><strong>Save states</strong></td><td>No</td></tr><tr><td><strong>RetroAchievements</strong></td><td>No</td></tr><tr><td><strong>Netplay</strong></td><td>No</td></tr><tr><td><strong>Light guns</strong></td><td>xemu-chihiro, chihiro and chihiro-gun (DemulShooter), TeknoParrot</td></tr><tr><td><strong>Wheels</strong></td><td>xemu-chihiro, TeknoParrot</td></tr></tbody></table>
 
 The default emulator is the Xemu fork by Tovarichtch: [https://github.com/Tovarichtch/xemu](https://github.com/Tovarichtch/xemu)
 
-## Bios Information
+## BIOS
 
-<table><thead><tr><th width="216.80555555555554">bios file</th><th width="558.75">Folder</th></tr></thead><tbody><tr><td>chihiro_xbox_bios.bin</td><td><code>\bios\chihiro</code></td></tr><tr><td>fpr21042_m29w160et.bin</td><td><p><code>\bios\chihiro</code></p><p><code>\emulators\cxbx-reloaded\EmuMediaBoard</code><br><code>\emulators\chihiro\EmuMediaBoard</code><br><code>\emulators\chihiro-ds\EmuMediaBoard</code><br><code>\emulators\teknoparrot\cxbxr\TeknoParrot\EmuMediaBoard</code></p></td></tr><tr><td>ic10_g24lc64.bin</td><td><p><code>\bios\chihiro</code></p><p><code>\emulators\cxbx-reloaded\EmuMediaBoard\chihiro</code><br><code>\emulators\chihiro\EmuMediaBoard\chihiro</code><br><code>\emulators\chihiro-ds\EmuMediaBoard\chihiro</code><br><code>\emulators\teknoparrot\cxbxr\TeknoParrot\EmuMediaBoard\Chihiro</code></p></td></tr><tr><td>ic11_24lc024.bin</td><td><p><code>\bios\chihiro</code></p><p><code>\emulators\cxbx-reloaded\EmuMediaBoard\chihiro</code><br><code>\emulators\chihiro\EmuMediaBoard\chihiro</code><br><code>\emulators\chihiro-ds\EmuMediaBoard\chihiro</code><br><code>\emulators\teknoparrot\cxbxr\TeknoParrot\EmuMediaBoard\Chihiro</code></p></td></tr><tr><td>pc20_g24lc64.bin</td><td><p><code>\bios\chihiro</code></p><p><code>\emulators\cxbx-reloaded\EmuMediaBoard\chihiro</code><br><code>\emulators\chihiro\EmuMediaBoard\chihiro</code><br><code>\emulators\chihiro-ds\EmuMediaBoard\chihiro</code><br><code>\emulators\teknoparrot\cxbxr\TeknoParrot\EmuMediaBoard\Chihiro</code></p></td></tr></tbody></table>
+Place the following files in `bios\chihiro`. RetroBat checks that they are present.
+
+<table><thead><tr><th width="274">File</th><th>Required</th></tr></thead><tbody><tr><td><code>chihiro_xbox_bios.bin</code></td><td>Yes</td></tr><tr><td><code>ic10_g24lc64.bin</code></td><td>Yes</td></tr><tr><td><code>ic11_24lc024.bin</code></td><td>Yes</td></tr><tr><td><code>pc20_g24lc64.bin</code></td><td>Yes</td></tr><tr><td><code>fpr21042_m29w160et.bin</code></td><td>Yes (xemu-chihiro also accepts <code>fpr-23887_29lv160te.ic4</code> or <code>fpr-23887.bin</code>)</td></tr></tbody></table>
+
+With **xemu-chihiro** (default emulator), there is nothing else to do: RetroBat uses the files from the `bios\chihiro` folder directly.
+
+### CXBX-based emulators (chihiro, chihiro-gun, cxbx, TeknoParrot)
+
+These emulators read the board files from their own `EmuMediaBoard` folder. Copy them from `bios\chihiro`:
+
+<table><thead><tr><th width="359">File</th><th>Destination</th></tr></thead><tbody><tr><td><code>fpr21042_m29w160et.bin</code></td><td><code>EmuMediaBoard\</code></td></tr><tr><td><code>ic10_g24lc64.bin</code>, <code>ic11_24lc024.bin</code>, <code>pc20_g24lc64.bin</code></td><td><code>EmuMediaBoard\chihiro\</code></td></tr></tbody></table>
+
+The `EmuMediaBoard` folder is in each emulator's folder: `emulators\chihiro`, `emulators\chihiro-ds` (chihiro-gun), `emulators\cxbx-reloaded` and TeknoParrot.
 
 ## Controls
 
