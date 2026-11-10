@@ -108,7 +108,7 @@ WinUAE also emulates the full CD32 pad. With lr-amiberry, only the red and blue 
 
 ### Hotkeys
 
-**libretro cores**: standard RetroBat hotkeys.
+**libretro cores**: [standard RetroBat hotkeys](../../../../navigation/hotkeys.md).
 
 <table><thead><tr><th>Hotkey</th><th width="149">Amiberry</th><th width="166.75">WinUAE</th><th>Amiga Forever</th></tr></thead><tbody><tr><td>HOTKEY + START</td><td>Quit</td><td>Quit</td><td></td></tr><tr><td>HOTKEY + WEST</td><td>Save state</td><td></td><td></td></tr><tr><td>HOTKEY + NORTH</td><td>Load state</td><td></td><td></td></tr></tbody></table>
 

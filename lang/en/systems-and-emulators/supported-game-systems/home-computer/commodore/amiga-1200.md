@@ -157,7 +157,7 @@ Many Amiga games use the keyboard (space bar, F1-F10 keys, answers in adventure 
 
 ### Hotkeys
 
-**libretro cores**: standard RetroBat hotkeys.
+**libretro cores**: [standard RetroBat hotkeys](../../../../navigation/hotkeys.md).
 
 | Hotkey         | Amiberry   | WinUAE | Amiga Forever |
 | -------------- | ---------- | ------ | ------------- |
