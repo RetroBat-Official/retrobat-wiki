@@ -4,175 +4,210 @@ description: Nintendo
 
 # GameCube
 
-<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/gc-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/gc.svg" alt=""></picture><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (512).png" alt="" width="425"><figcaption></figcaption></figure></div>
 
-Console de jeu - Durée de vie : 2001 - 2007
+## Présentation
+
+La **GameCube** est la quatrième console de salon de Nintendo, après la Nintendo 64. Elle sort au Japon en septembre 2001, en Amérique du Nord en novembre 2001 et en Europe en mai 2002. Compacte, avec sa poignée de transport et ses couleurs vives (violet « indigo », noir, orange…), elle tranche avec ses concurrentes, la PlayStation 2 et la Xbox.
+
+Elle lit des **mini-DVD** de 1,5 Go, un format propre à Nintendo, et repose sur un processeur IBM PowerPC (« Gekko ») et une puce graphique ATI (« Flipper »). Sa manette, avec son gros bouton A central et ses gâchettes analogiques, est restée une référence, notamment pour Super Smash Bros. Un câble permet de la relier à une **Game Boy Advance**, utilisée comme manette ou second écran dans certains jeux. Le Game Boy Player permet aussi d'y jouer aux jeux Game Boy.
+
+Elle s'est vendue à environ 21 millions d'exemplaires, jusqu'en 2007. Sa ludothèque compte de nombreux classiques : Super Smash Bros. Melee, Metroid Prime, The Legend of Zelda: The Wind Waker, Super Mario Sunshine, Mario Kart: Double Dash!!, Resident Evil 4, F-Zero GX, Pikmin, Luigi's Mansion, Animal Crossing, Paper Mario : La Porte Millénaire, Eternal Darkness…
 
 {% embed url="https://fr.wikipedia.org/wiki/GameCube" %}
 
-## Information
+## En bref
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>dolphin</li><li>libretro: dolphin</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> gamecube</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.dol .gcz .iso .ciso .wbfs .wad .rvz .wia .m3u .zip .7z .squashfs .json .decomp</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="254"></th><th></th></tr></thead><tbody><tr><td><strong>Dossier des jeux</strong></td><td><code>roms\gamecube</code></td></tr><tr><td><strong>Extensions</strong></td><td>.dol .gcz .iso .ciso .wbfs .wad .rvz .wia .m3u .zip .7z .squashfs .json .decomp</td></tr><tr><td><strong>Émulateur par défaut</strong></td><td>dolphin</td></tr><tr><td><strong>BIOS</strong></td><td>Aucun obligatoire (IPL optionnel)</td></tr><tr><td><strong>Configuration des manettes</strong></td><td>Automatique, tous les émulateurs</td></tr><tr><td><strong>Sauvegardes instantanées</strong></td><td>core libretro, Dolphin</td></tr><tr><td><strong>RetroAchievements</strong></td><td>core libretro, Dolphin</td></tr><tr><td><strong>Jeu en réseau</strong></td><td>Non</td></tr></tbody></table>
 
-## Fonctionnalités
+## Quel émulateur choisir ?
 
-<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>Dolphin : OUI<br>lr-dolphin : OUI</td><td>Dolphin : NON<br>lr-dolphin : NON</td><td>Dolphin : OUI<br>lr-dolphin : OUI</td></tr></tbody></table>
+<table><thead><tr><th width="117.75">Émulateur</th><th width="148">Pour qui ?</th><th width="252.25">Points forts</th><th>Limites</th></tr></thead><tbody><tr><td><strong>dolphin</strong> (par défaut)</td><td>Tout le monde</td><td>Le plus compatible et le plus complet : HD, écran large, packs de textures, adaptateur GameCube, liaison Game Boy Advance, profils de manette par jeu.</td><td>—</td></tr><tr><td><strong>lr-dolphin</strong></td><td>Utilisateurs de RetroArch</td><td>Fonctions de RetroArch (shaders, menu RetroArch).</td><td>Basé sur une version plus ancienne de Dolphin, moins compatible. Ne lit pas les .zip et .7z.</td></tr></tbody></table>
 
-| Succès Rétro | Parties en Réseau |
-| ------------ | ----------------- |
-| NON          | NON               |
+**Dans le doute, gardez dolphin.**
 
 ## BIOS
 
-Les BIOS ne sont pas nécessaires pour lancer des jeux Gamecube, mais certains sont requis pour améliorer le support de certains jeux au niveau graphiques ou encore des polices de caractères pour les textes des jeux.
+Aucun BIOS n'est nécessaire : Dolphin lance les jeux sans BIOS. Le BIOS de la GameCube (fichier **IPL.bin**) est **optionnel**. Il permet d'afficher l'animation de démarrage de la console et améliore l'affichage des polices de certains jeux.
 
-<table data-header-hidden><thead><tr><th width="169">File</th><th width="625">Location &#x26; MD5</th><th data-hidden>MD5 Hash</th></tr></thead><tbody><tr><td><code>IPL.bin</code><br>Europe</td><td><p>Emplacement: <code>\emulators\dolphin-emu\User\GC\EUR</code></p><p>Emplacement libretro: <code>\saves\dolphin\User\GC\EUR</code><br>md5: <code>0cdda509e2da83c85bfe423dd87346cc</code></p></td><td></td></tr><tr><td><code>IPL.bin</code><br>Japan</td><td><p>Emplacement: <code>\emulators\dolphin-emu\User\GC\JAP</code></p><p>Emplacement libretro: <code>\saves\dolphin\User\GC\JAP</code><br>md5: <code>fc924a7c879b661abc37cec4f018fdf3</code></p></td><td></td></tr><tr><td><code>IPL.bin</code><br>USA</td><td><p>Emplacement: <code>\emulators\dolphin-emu\User\GC\USA</code></p><p>Emplacement libretro: <code>\saves\dolphin\User\GC\USA</code><br>md5: <code>019e39822a9ca3029124f74dd4d55ac4</code></p></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="82.75">Région</th><th width="85.75">Fichier</th><th width="249.25">MD5</th><th>Emplacement (Dolphin)</th></tr></thead><tbody><tr><td>Europe</td><td>IPL.bin</td><td>0cdda509e2da83c85bfe423dd87346cc</td><td><code>emulators\dolphin-emu\User\GC\EUR</code></td></tr><tr><td>USA</td><td>IPL.bin</td><td>019e39822a9ca3029124f74dd4d55ac4</td><td><code>emulators\dolphin-emu\User\GC\USA</code></td></tr><tr><td>Japon</td><td>IPL.bin</td><td>fc924a7c879b661abc37cec4f018fdf3</td><td><code>emulators\dolphin-emu\User\GC\JAP</code></td></tr></tbody></table>
+
+* Pour lr-dolphin, placez le fichier dans le même sous-dossier GC\<région>, sous `saves\gamecube\dolphin-emu\User`.
+* RetroBat ne vérifie pas la présence de l'IPL, puisqu'il n'est pas obligatoire.
+* Pour voir l'animation de démarrage, désactivez **SAUTER LE BIOS** dans les options du système ou du jeu.
+* La **liaison Game Boy Advance** (voir [Guides](gamecube.md#liaison-game-boy-advance)) utilise le BIOS de la GBA : gba\_bios.bin, dans le dossier bios.
+
+### Changer la langue des jeux
+
+Dans les options avancées du système ou du jeu (Dolphin), réglez **ÉMULATION > LANGUE** : anglais, allemand, français, espagnol, italien ou néerlandais.
+
+Seuls les jeux **européens (PAL)** en tiennent compte : les jeux américains et japonais restent dans leur langue d'origine.
+
+## Quel format de jeu ?
+
+<table><thead><tr><th width="165">Format</th><th width="145">dolphin</th><th width="101.5">lr-dolphin</th><th>Remarques</th></tr></thead><tbody><tr><td><strong>.rvz</strong> (conseillé)</td><td>✔</td><td>✔</td><td>Format compressé de Dolphin, sans perte : jeux 30 à 70 % plus petits.</td></tr><tr><td>.iso</td><td>✔</td><td>✔</td><td>Image du disque, non compressée (1,4 Go).</td></tr><tr><td>.gcz / .wia / .ciso</td><td>✔</td><td>✔</td><td>Anciens formats compressés.</td></tr><tr><td>.zip / .7z / .squashfs</td><td>✔ (décompressé au lancement)</td><td>✘</td><td>Chargement plus lent.</td></tr><tr><td>.m3u</td><td>✔</td><td>✔</td><td>Jeux multi-disques (<a href="gamecube.md#jeux-multi-disques">voir plus bas</a>).</td></tr><tr><td>.dol</td><td>✔</td><td>✔</td><td>Programmes homebrew.</td></tr><tr><td>.json</td><td>✔</td><td>✘</td><td>Jeux modifiés avec des patchs Riivolution (voir <a href="gamecube.md#guides">Guides</a>).</td></tr></tbody></table>
+
+* Pour convertir un jeu en .rvz, ouvrez Dolphin (`emulators\dolphin-emu\Dolphin.exe`), faites un clic droit sur le jeu, puis **Convertir le fichier…** et choisissez le format **RVZ**.
+* Les formats .wbfs et .wad sont des formats **Wii** : ces jeux vont dans `roms\wii`.
+
+### Jeux multi-disques
+
+Quelques jeux tiennent sur deux disques (Resident Evil 4, Metal Gear Solid: The Twin Snakes, Baten Kaitos, Tales of Symphonia…). Créez un fichier texte avec l'extension **.m3u**, qui liste les disques, un par ligne :
+
+```
+Tales of Symphonia (Disc 1).rvz
+Tales of Symphonia (Disc 2).rvz
+```
+
+Dolphin change de disque tout seul quand le jeu le demande. Vous pouvez aussi le faire avec **HOTKEY + L2**.
+
+## Contrôles
+
+### Configuration automatique
+
+RetroBat configure vos manettes automatiquement, pour Dolphin comme pour lr-dolphin, jusqu'à 4 joueurs. Sont pris en charge : les manettes XInput (Xbox…), DualShock 4, DualSense, Switch Pro, la plupart des manettes SDL, ainsi que les **vraies manettes GameCube** branchées sur un adaptateur ([voir plus bas](gamecube.md#utiliser-une-vraie-manette-gamecube-adaptateur)).
+
+| Manette RetroBat     | Manette GameCube                                                                                     |
+| -------------------- | ---------------------------------------------------------------------------------------------------- |
+| Boutons de façade    | A / B / X / Y (selon la disposition choisie, [voir ci-dessous](gamecube.md#disposition-des-boutons)) |
+| R1                   | Z                                                                                                    |
+| L2 / R2              | Gâchettes L / R                                                                                      |
+| Stick gauche         | Stick principal                                                                                      |
+| Stick droit          | Stick C                                                                                              |
+| Croix directionnelle | Croix directionnelle                                                                                 |
+| START                | START                                                                                                |
+
+### Disposition des boutons
+
+Sur la manette GameCube, le gros bouton **A** est au centre, **B** à gauche, **X** à droite et **Y** en haut. L'option **CONTRÔLES > DISPOSITION DES BOUTONS** (FACE BUTTON LAYOUT) choisit comment ils sont placés sur votre manette :
+
+<table><thead><tr><th>Disposition</th><th width="86">SUD</th><th width="98">EST</th><th width="106">OUEST</th><th width="152.75">NORD</th></tr></thead><tbody><tr><td><strong>NINTENDO</strong> (par défaut)</td><td>B</td><td>A</td><td>Y</td><td>X</td></tr><tr><td><strong>POSITIONNEL</strong></td><td>A</td><td>X</td><td>B</td><td>Y</td></tr><tr><td><strong>XBOX</strong></td><td>A</td><td>B</td><td>X</td><td>Y</td></tr><tr><td><strong>MIX (A/B NINTENDO)</strong></td><td>B</td><td>A</td><td>X</td><td>Y</td></tr></tbody></table>
+
+* **NINTENDO** : les lettres correspondent à celles d'une manette Nintendo (Switch Pro…).
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (513).png" alt="" width="225"><figcaption></figcaption></figure></div>
+
+* **POSITIONNEL** : reproduit la position des boutons de la manette GameCube.
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/gamecube_position.png" alt="" width="225"><figcaption></figcaption></figure></div>
+
+* **XBOX** : les lettres correspondent à celles d'une manette Xbox.
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/gamecube_xbox.png" alt="" width="225"><figcaption></figcaption></figure></div>
+
+* **MIX** : les lettres A/B correspondent à celles d'une manette Nintendo, X/Y à une manette Xbox.
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/gamecube_xy.png" alt="" width="225"><figcaption></figcaption></figure></div>
+
+### Utiliser une vraie manette GameCube (adaptateur)
+
+Dolphin peut utiliser une vraie manette GameCube via un adaptateur USB (adaptateur officiel Nintendo WUP-028, Mayflash…). Il faut d'abord installer le pilote **Zadig** :
+
+1. Téléchargez Zadig : [https://zadig.akeo.ie/](https://zadig.akeo.ie/)
+2. Lancez Zadig, ouvrez **Options** et cochez **List All Devices**.
+3. Choisissez l'adaptateur dans la liste (par exemple **WUP-028**).
+4. Avec les flèches à droite, sélectionnez le pilote **libusbK**.
+5. Cliquez sur **Replace Driver** et patientez (jusqu'à 5 minutes).
+6. Dans RetroBat, réglez **CONTRÔLES > TYPE DE MANETTE JOUEUR 1** (et suivants) sur **ADAPTATEUR GAMECUBE**.
+
+Si l'adaptateur ne fonctionne pas, il n'est peut-être pas pris en charge par Dolphin.
+
+Les adaptateurs **Mayflash** et **Raphnet** sont aussi reconnus sans Zadig : RetroBat les configure comme une manette ordinaire. Dans ce cas, ne réglez **pas** le type de manette sur **ADAPTATEUR GAMECUBE**.
+
+### Profil de manette pour un jeu
+
+Pour utiliser votre propre configuration sur un jeu précis, créez un profil dans Dolphin et associez-le au jeu : voir la page [Configuration des touches Dolphin](../../../../controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-dolphin.md). Pour configurer toutes les manettes vous-même, réglez **AUTOCONFIGURER LES MANETTES** sur **OFF**.
+
+### Raccourcis
+
+**Dolphin** utilise les raccourcis suivants :
+
+<table><thead><tr><th width="347.75">Action</th><th>Manette</th></tr></thead><tbody><tr><td>Quitter le jeu</td><td>HOTKEY + START</td></tr><tr><td>Pause</td><td>HOTKEY + EST</td></tr><tr><td>Sauvegarde d'état (avec capture d'écran) / Chargement d'état</td><td>HOTKEY + OUEST / HOTKEY + NORD</td></tr><tr><td>Emplacement de sauvegarde suivant / précédent</td><td>HOTKEY + HAUT / HOTKEY + BAS</td></tr><tr><td>Accélérer / ralentir</td><td>HOTKEY + DROITE / HOTKEY + GAUCHE</td></tr><tr><td>Changer de disque / éjecter</td><td>HOTKEY + L2 / HOTKEY + L1</td></tr><tr><td>Plein écran</td><td>HOTKEY + L3</td></tr></tbody></table>
+
+**lr-dolphin** utilise les raccourcis de RetroArch (voir la [page Raccourcis](../../../../navigation/hotkeys.md)).
 
 ## Dossiers
 
 ### Sauvegardes
 
-Par défaut, Dolphin génère des sauvegardes au format "dossier CGI" à l'emplacement suivant:
+Sur GameCube, les jeux sauvegardent sur une **carte mémoire**. RetroBat la crée pour vous, une par région :
 
-`saves\gamecube\dolphin-emu\User\GC\<region>`
+<table><thead><tr><th width="259">Contenu</th><th>Dossier</th></tr></thead><tbody><tr><td>Sauvegardes Dolphin</td><td><code>saves\gamecube\dolphin-emu\User\GC\&#x3C;région></code></td></tr><tr><td>Sauvegardes lr-dolphin</td><td><code>saves\gamecube\dolphin-emu\User\GC\&#x3C;région>\Card A</code></td></tr><tr><td>Sauvegardes d'état Dolphin</td><td><code>saves\gamecube\dolphin</code></td></tr><tr><td>Sauvegardes d'état lr-dolphin</td><td><code>saves\gamecube\libretro.dolphin</code></td></tr></tbody></table>
 
-{% hint style="info" %}
-Libretro Dolphin utilise un sous-dossier "Card A"
-{% endhint %}
+* La région (EUR, USA ou JAP) est détectée automatiquement à partir du jeu. **ÉMULATION > RÉGION DU SYSTÈME** force une région, par exemple pour retrouver une sauvegarde faite avec la version d'une autre région.
+* Par défaut, chaque sauvegarde est un fichier séparé (format **GCI**). **ÉMULATION > FORMAT DES SAUVEGARDES > CARTE MÉMOIRE** utilise à la place un fichier unique par région (comme une vraie carte mémoire), rangé dans `saves\gamecube\dolphin-emu\User\GC`.
+* Dolphin et lr-dolphin n'utilisent pas le même dossier. Pour passer de l'un à l'autre sans perdre vos sauvegardes, activez **ÉMULATION > SYNCHRONISER LES SAUVEGARDES ENTRE CORE ET STANDALONE**.
 
-Le sous-dossier de la région peut être modifié avec [le paramétrage](../../../../navigation/configuration-des-systemes-et-des-jeux.md) ci-dessous:
+### Autres dossiers utiles
 
-<div align="left"><figure><img src="https://i.imgur.com/A6MVJmv.png" alt=""><figcaption></figcaption></figure></div>
+<table><thead><tr><th width="352.75">Contenu</th><th>Dossier</th></tr></thead><tbody><tr><td>BIOS (IPL.bin)</td><td><code>emulators\dolphin-emu\User\GC\&#x3C;région></code></td></tr><tr><td>Packs de textures</td><td><code>saves\gamecube\dolphin-emu\User\Load\Textures</code></td></tr><tr><td>Resource packs</td><td><code>saves\gamecube\dolphin-emu\User\ResourcePacks</code></td></tr><tr><td>Captures (dumps) de textures et de vidéos</td><td><code>saves\gamecube\dolphin-emu\User\Dump</code></td></tr><tr><td>Profils de manette et réglages de Dolphin</td><td><code>emulators\dolphin-emu\User\Config</code></td></tr></tbody></table>
 
-Il est possible également de configurer Dolphin afin d'utiliser des fichiers SRAM (ancienne méthode, un fichier correspond à une carte mémoire de Gamecube) plutôt que des dossiers CGI:
+## Guides
 
-<div align="left"><figure><img src="https://i.imgur.com/GoF2dWZ.png" alt=""><figcaption></figcaption></figure></div>
+### Succès (RetroAchievements) et jeux en .rvz
 
-Dans ce cas, le fichier de sauvegarde sera stocké dans le dossier :
+Dolphin et lr-dolphin gèrent les [succès RetroAchievements](../../../../utilisation-avancee/retroachievements.md). Mais RetroBat ne sait pas reconnaître les jeux au format **.rvz** lors de son indexation : l'icône de trophée n'apparaît pas dans la liste des jeux, alors que Dolphin annonce bien les succès au lancement.
 
-`saves\gamecube\dolphin-emu\User\GC\`
+RetroBat fournit un outil qui fait cette indexation à sa place :
 
-### Sauvegardes d'état
+1. Activez les succès dans **MENU PRINCIPAL > PARAMÈTRES DES JEUX > PARAMÈTRES DES SUCCÈS RETRO**, avec votre compte RetroAchievements.
+2. Lancez au moins une fois un jeu GameCube avec Dolphin, pour qu'il soit installé.
+3. **Quittez complètement RetroBat.**
+4. Lancez le fichier **indexcheevosrvz.bat**, dans le dossier `system\tools` de RetroBat.
+5. Relancez RetroBat : les jeux reconnus affichent l'icône de trophée.
 
-<table><thead><tr><th width="133.20001220703125">Emulateur</th><th>Emplacement</th></tr></thead><tbody><tr><td>Dolphin</td><td>saves\gamecube\dolphin</td></tr><tr><td>Retroarch</td><td>saves\gamecube\libretro.dolphin</td></tr></tbody></table>
-
-## Contrôles
-
-{% hint style="info" %}
-Les contrôleurs suivants peuvent être autoconfigurés depuis RetroBat dans Dolphin:
-
-* Contrôleurs XInput
-* Dualshock 4 et Dualsense
-* Nintendo Switch Pro
-* Contrôleur original Gamecube avec un adaptateur Gamecube
-{% endhint %}
-
-### Schémas de contrôles
-
-Plusieurs schémas de contrôles sont disponibles dans RetroBat, pour les sélectionner, utiliser l'option ci-dessous dans [**options avancées du système**](../../../../navigation/view-options.md#configuration-avancee-du-systeme) **> contrôles**:
-
-<div align="left"><figure><img src="https://i.imgur.com/npyMOTH.png" alt=""><figcaption></figcaption></figure></div>
-
-| Option                                  | Schéma de contrôle                                                                                                                             |
-| --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| <p>DISPOSITION NINTENDO<br>(défaut)</p> | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gamecube.png?raw=true" alt="" data-size="original">          |
-| POSITIONNEL                             | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gamecube_position.png?raw=true" alt="" data-size="original"> |
-| DISPOSITION XBOX                        | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gamecube_xbox.png?raw=true" alt="" data-size="original">     |
-| MIX                                     | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/gamecube_xy.png?raw=true" alt="" data-size="original">       |
+L'outil traite tous les fichiers .rvz de `roms\gamecube` et de `roms\wii`, et enregistre l'identifiant RetroAchievements de chaque jeu dans le fichier gamelist.xml du système. Les jeux déjà indexés sont ignorés : relancez-le après avoir ajouté de nouveaux jeux. Un jeu absent de la base de RetroAchievements reste sans trophée.
 
 {% hint style="info" %}
-Il est possible d'activer la fonction "RUMBLE" dans les options avancées.
-{% endhint %}
-
-### Utilisation d'un adaptateur Gamecube
-
-Dolphin permet l'utilisation d'une manette GameCube originale, pour ce faire il est nécessaire d'installer les pilotes "Zadig":
-
-**1.** Télécharge Zadig ici: [https://zadig.akeo.ie/](https://zadig.akeo.ie/)&#x20;
-
-**2.** Lancer Zadig, aller dans `Options`, choisir`List All Devices`.&#x20;
-
-**3.** Trouver l'adapteur GameCub dans la liste des périphériques (exemple: GC adapter - **WUP-028**, Bluetooth adapter - **CSR-XXXX**).&#x20;
-
-**4.** Sélectionner le bon driver à remplacer. **libusbK** est recommandé.&#x20;
-
-**5.** Utiliser les flèches haut/bas sur la droite pour sélectionner le driver.&#x20;
-
-**6.** Cliquer sur`Replace Driver`. Patienter (cela peut prendre 5 minutes).
-
-&#x20;**7.** Paramétrer RetroBat pour utiliser l'adaptateur Gamecube.
-
-<div align="left"><figure><img src="https://i.imgur.com/hz0VYH2.png" alt=""><figcaption></figcaption></figure></div>
-
-Si l'adaptateur ne fonctionne pas, il est possible qu'il ne soit pas pris en charge par Dolphin.
-
-{% hint style="info" %}
-RetroBat détecte actuellement de façon automatique les adaptateurs Raphnet et Mayflash, ceux-ci fonctionneront de façon idéale en suivant les étapes précédentes, mais peuvent également être configurés sans utiliser les pilotes zadig par RetroBat, dans ce cas il faut veiller à ne pas activer l'option "**ADAPTATEUR GAMECUBE**".
-{% endhint %}
-
-### Création d'un profil de contrôle spécifique pour un jeu
-
-Il est possible de créer un profil de contrôle spécifique pour un jeu et de l'assigner automatiquement à chaque démarrage, [suivre ce lien pour connaître la procédure.](../../../../controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-dolphin.md)
-
-## Information spécifique au système
-
-### Jeux multi-disques
-
-Utiliser un fichier `.m3u` pour les jeux multi-disques.&#x20;
-
-Le fichier m3u doit contenir une ligne par disque du jeu, par exemple pour le jeu Baten Kaitos:
-
-<div align="left"><figure><img src="https://i.imgur.com/Hh12kWj.png" alt=""><figcaption></figcaption></figure></div>
-
-Dans le fichier m3u, lister les noms exacts des fichiers des disques du jeu et sauvegarder:
-
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (175).png" alt=""><figcaption></figcaption></figure></div>
-
-### Textures "custom"
-
-Il est possible d'utiliser des textures "custom" avec l'émulateur Dolphin.
-
-Les packs de textures doivent être placés dans le dossier `\saves\gamecube\dolphin-emu\User\Load\Textures`.
-
-<div align="left"><figure><img src="https://i.imgur.com/jJm7Htu.png" alt=""><figcaption></figcaption></figure></div>
-
-Le nom du dossier du pack de textures doit être strictement identique au **Game ID** du jeu, le Game ID est disponible depuis Dolphin en affichant les propriétés du jeu.
-
-<div align="left"><figure><img src="https://i.imgur.com/wWaNFxC.png" alt=""><figcaption></figcaption></figure></div>
-
-Une fois le pack de textures correctement nommé et placé dans le bon dossier, activer les  **CUSTOM TEXTURES** dans Retrobat.
-
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (174).png" alt=""><figcaption><p>Options d'affichage > Configuration avancée du système</p></figcaption></figure></div>
-
-### Ajouter l'icône trophée manquante sur un jeu compatible retroachievements
-
-Il est possible que pour certaines extensions de fichiers (par exemple .gcz ou .rvz), l'indexation RetroBat ne reconnaît pas un jeu pourtant compatible avec les succès rétro, quand bien même Dolphin fait apparaître au lancement un message vous alertant de la disponibilité de succès pour ce même jeu.
-
-Pour faire apparaitre l'indicateur de trophées, il faut éditer le fichier `gamelist.xml` disponible dans le répertoire `roms\<system>` pour y ajouter la ligne suivante :&#x20;
+Vous pouvez aussi ajouter l'identifiant à la main. Il apparaît dans la barre d'adresse de la page du jeu sur retroachievements.org (par exemple 1234 dans `retroachievements.org/game/1234`). Ajoutez la ligne suivante dans l'entrée du jeu, dans `roms\gamecube\gamelist.xml`, RetroBat étant fermé :
 
 ```
-<cheevosId>XXXXX</cheevosId>
+<cheevosId>1234</cheevosId>
 ```
-
-{% hint style="info" %}
-Ce process peut être automatisé en lançant le fichier "indexcheevosrvz.bat" disponible dans le dossier _system\tools_ de votre installation RetroBat.
 {% endhint %}
 
-L' ID `XXXXX` ci-dessus doit être remplacé par l'identifiant du jeu, que vous pouvez retrouver à l'adresse [https://retroachievements.org](https://retroachievements.org). L'ID apparaît dans la barre d'adresse du navigateur quand vous consultez la page du jeu.
+### Textures personnalisées (Dolphin)
 
-Dans notre exemple :
+Des packs de textures HD existent pour de nombreux jeux.
 
-<div align="left"><figure><img src="https://i.imgur.com/t1Vyf3Y.png" alt=""><figcaption></figcaption></figure></div>
+1. Trouvez le **Game ID** du jeu : dans Dolphin, faites un clic droit sur le jeu, puis **Propriétés** (par exemple GZLE01 pour The Wind Waker US).
+2. Copiez le pack dans `saves\gamecube\dolphin-emu\User\Load\Textures`, dans un dossier qui porte **exactement** ce Game ID.
+3. Activez **RENDU VISUEL > TEXTURES PERSONNALISÉES** dans les options du jeu. **PRÉCHARGER LES TEXTURES** rend le jeu plus fluide, mais utilise beaucoup de mémoire.
 
-Ci-dessous l'exemple d'un fichier gamelist.xml file après l'avoir édité et ajouté l'identifiant cheevos correspondant :
+### Jeux modifiés (patchs Riivolution, fichiers .json)
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (213).png" alt=""><figcaption></figcaption></figure></div>
+Dolphin peut lancer un jeu avec des patchs **Riivolution** (traductions, mods, corrections…) sans modifier le fichier du jeu. Les choix sont enregistrés dans un fichier **.json** (un « préréglage ») : placé dans `roms\gamecube`, il apparaît dans RetroBat comme un jeu à part.
 
-Après avoir actualisé la liste de jeux, l'icône trophée apparaît à côté du jeu:
+1. Lancez une fois un jeu GameCube depuis RetroBat avec Dolphin, pour que Dolphin utilise les dossiers GameCube.
+2. Copiez le mod dans `saves\gamecube\dolphin-emu\User\Load\Riivolution`. Le dossier **riivolution** du mod, qui contient les fichiers .xml, doit se trouver dans `Load\Riivolution\riivolution`.
+3. Ouvrez Dolphin (`emulators\dolphin-emu\Dolphin.exe`). Vos jeux apparaissent dans la liste.
+4. Faites un clic droit sur le jeu, puis **Start with Riivolution Patches…** (Démarrer avec les patchs Riivolution).
+5. Activez les options du mod, cliquez sur **Save Preset…** (Enregistrer le préréglage) et enregistrez le fichier .json dans `roms\gamecube`, avec le nom à afficher dans RetroBat.
+6. Fermez Dolphin et mettez à jour les listes de jeux dans RetroBat : le jeu modifié apparaît dans la liste.
 
-<div align="left"><figure><img src="https://i.imgur.com/81lKuBq.png" alt=""><figcaption></figcaption></figure></div>
-
-{% hint style="danger" %}
-Le fichier`gamelist.xml` est un document sensible. Pensez a faire une sauvegarde de votre fichier avant toute modification.
+{% hint style="warning" %}
+* Le fichier .json contient le chemin complet du jeu d'origine et du mod : si vous déplacez RetroBat ou le jeu, recréez le préréglage. Ne supprimez pas le jeu d'origine.
+* Seul **Dolphin** lance les fichiers .json, pas lr-dolphin.
 {% endhint %}
 
+### Liaison Game Boy Advance
+
+Certains jeux utilisent une Game Boy Advance comme manette ou second écran (The Legend of Zelda: Four Swords Adventures, Final Fantasy Crystal Chronicles…). Dolphin peut émuler la GBA :
+
+1. Placez gba\_bios.bin dans le dossier bios.
+2. Réglez **CONTRÔLES > TYPE DE MANETTE** du joueur concerné sur **GBA**.
+3. Si le jeu a besoin d'une cartouche GBA, choisissez-la avec **GBA ROM** et **GBA ROM PORT**.
+
+## Problèmes connus
+
+**L'icône de trophée n'apparaît pas pour un jeu compatible** Le jeu est au format .rvz : utilisez l'outil d'indexation (voir [Guides](gamecube.md#succes-retroachievements-et-jeux-en-.rvz)).
+
+**Mes sauvegardes ont disparu**
+
+* Vous êtes passé de Dolphin à lr-dolphin (ou l'inverse) : activez **SYNCHRONISER LES SAUVEGARDES ENTRE CORE ET STANDALONE**.
+* Le jeu n'a pas la même région que votre sauvegarde : réglez **RÉGION DU SYSTÈME** sur la région de la sauvegarde.
+* Vous avez changé de **FORMAT DES SAUVEGARDES** : les deux formats ne partagent pas les sauvegardes.
+
+**lr-dolphin ne lance pas le jeu** lr-dolphin ne lit pas les jeux en .zip ou .7z : décompressez-les, ou utilisez Dolphin.
+
+**L'adaptateur GameCube ne répond pas** Vérifiez que le pilote Zadig (libusbK) est installé et que le type de manette est réglé sur **ADAPTATEUR GAMECUBE**. Pour un adaptateur Mayflash ou Raphnet utilisé sans Zadig, le type de manette doit au contraire rester par défaut.
