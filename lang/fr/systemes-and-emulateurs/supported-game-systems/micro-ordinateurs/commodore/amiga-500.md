@@ -20,7 +20,7 @@ Ce système (Amiga OCS/ECS) regroupe les Amiga 500, 500+, 600 et 2000.
 
 ## En bref
 
-<table><thead><tr><th width="295.25"></th><th></th></tr></thead><tbody><tr><td>Dossier des jeux</td><td>📁 roms \ 📂 amiga500</td></tr><tr><td>Extensions</td><td>.adf .adz .dms .ipf .hdf .lha .uae .ags .rp9 .m3u .zip .7z</td></tr><tr><td>Émulateur par défaut</td><td>libretro: puae</td></tr><tr><td>BIOS</td><td>Kickstart obligatoire</td></tr><tr><td>Configuration des manettes</td><td>Automatique (sauf Amiga Forever)</td></tr><tr><td>RetroAchievements</td><td>Non</td></tr><tr><td>Jeu en réseau</td><td>Non</td></tr><tr><td>Gestionnaire de sauvegardes ES</td><td>cores libretro, Amiberry</td></tr></tbody></table>
+<table><thead><tr><th width="259"></th><th></th></tr></thead><tbody><tr><td><strong>Dossier des jeux</strong></td><td><code>roms\amiga500</code></td></tr><tr><td><strong>Extensions</strong></td><td>.adf .uae .ipf .dms .adz .lha .rp9 .hdf .ags .m3u .zip .7z</td></tr><tr><td><strong>Émulateur par défaut</strong></td><td>libretro: puae</td></tr><tr><td><strong>BIOS</strong></td><td><code>kick34005.A500</code> ou <code>amiga-os-130.rom</code> (Kickstart 1.3)</td></tr><tr><td><strong>Configuration des manettes</strong></td><td>Automatique, sauf Amiga Forever</td></tr><tr><td><strong>Sauvegardes instantanées</strong></td><td>cores libretro, Amiberry</td></tr><tr><td><strong>RetroAchievements</strong></td><td>Non</td></tr><tr><td><strong>Jeu en réseau</strong></td><td>Non</td></tr><tr><td><strong>Pistolets</strong></td><td>Amiberry (light pen)</td></tr></tbody></table>
 
 ## Quel émulateur choisir ?
 

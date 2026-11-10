@@ -19,7 +19,7 @@ Les quelques jeux qui demandent à la fois le Mega-CD et le 32X (Mega-CD 32X), c
 
 ## En bref
 
-<table><thead><tr><th width="276.5"></th><th></th></tr></thead><tbody><tr><td>Dossier des jeux</td><td>📁 roms \ 📂 sega32x</td></tr><tr><td>Extensions</td><td>.32x .smd .bin .md .zip .7z</td></tr><tr><td>Émulateur par défaut</td><td>libretro: picodrive</td></tr><tr><td>BIOS</td><td>Uniquement pour BlastEm</td></tr><tr><td>Configuration des manettes</td><td>Automatique, tous les émulateurs</td></tr><tr><td>RetroAchievements</td><td>lr-picodrive, BizHawk</td></tr><tr><td>Jeu en réseau</td><td>lr-picodrive</td></tr><tr><td>Gestionnaire de sauvegardes ES</td><td>lr-picodrive, BlastEm, Jgenesis, BizHawk</td></tr></tbody></table>
+<table><thead><tr><th width="270.25"></th><th></th></tr></thead><tbody><tr><td><strong>Dossier des jeux</strong></td><td><code>roms\sega32x</code></td></tr><tr><td><strong>Extensions</strong></td><td>.32x .smd .bin .md .zip .7z</td></tr><tr><td><strong>Émulateur par défaut</strong></td><td>libretro: picodrive</td></tr><tr><td><strong>BIOS</strong></td><td>Aucun obligatoire</td></tr><tr><td><strong>Configuration des manettes</strong></td><td>Automatique, tous les émulateurs</td></tr><tr><td><strong>Sauvegardes instantanées</strong></td><td>cores libretro, BlastEm, Jgenesis, BizHawk</td></tr><tr><td><strong>RetroAchievements</strong></td><td>cores libretro, BizHawk</td></tr><tr><td><strong>Jeu en réseau</strong></td><td>cores libretro</td></tr></tbody></table>
 
 ## Quel émulateur choisir ?
 

@@ -18,16 +18,7 @@ Pour les jeux classiques de l'Amiga 500 et de l'Amiga 1200, préférez les syst�
 
 ## En bref
 
-|                                |                                                       |
-| ------------------------------ | ----------------------------------------------------- |
-| Dossier des jeux               | 📁 roms \ 📂 amiga4000                                |
-| Extensions                     | .adf .adz .dms .ipf .hdf .lha .uae .rp9 .m3u .zip .7z |
-| Émulateur par défaut           | libretro: puae                                        |
-| BIOS                           | Kickstart 3.1 (A4000) obligatoire                     |
-| Configuration des manettes     | Automatique (sauf Amiga Forever)                      |
-| RetroAchievements              | Non                                                   |
-| Jeu en réseau                  | Non                                                   |
-| Gestionnaire de sauvegardes ES | cores libretro, Amiberry                              |
+<table><thead><tr><th width="269"></th><th></th></tr></thead><tbody><tr><td><strong>Dossier des jeux</strong></td><td><code>roms\amiga4000</code></td></tr><tr><td><strong>Extensions</strong></td><td>.adf .uae .ipf .dms .adz .lha .rp9 .hdf .m3u .zip .7z</td></tr><tr><td><strong>Émulateur par défaut</strong></td><td>libretro: puae</td></tr><tr><td><strong>BIOS</strong></td><td><code>kick40068.A4000</code> ou <code>amiga-os-310-a4000.rom</code> (Kickstart 3.1)</td></tr><tr><td><strong>Configuration des manettes</strong></td><td>Automatique, sauf Amiga Forever</td></tr><tr><td><strong>Sauvegardes instantanées</strong></td><td>cores libretro, Amiberry</td></tr><tr><td><strong>RetroAchievements</strong></td><td>Non</td></tr><tr><td><strong>Jeu en réseau</strong></td><td>Non</td></tr><tr><td><strong>Pistolets</strong></td><td>Amiberry (light pen)</td></tr></tbody></table>
 
 ## Quel émulateur choisir ?
 

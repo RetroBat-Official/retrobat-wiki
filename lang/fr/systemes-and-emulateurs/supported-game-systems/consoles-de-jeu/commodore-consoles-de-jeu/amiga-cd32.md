@@ -16,7 +16,7 @@ La CD32 a reçu environ 150 jeux. Beaucoup sont des jeux Amiga 1200 enrichis de 
 
 ## En bref
 
-<table><thead><tr><th width="277.75"></th><th></th></tr></thead><tbody><tr><td>Dossier des jeux</td><td>📁 roms \ 📂 amigacd32</td></tr><tr><td>Extensions</td><td>.cue .chd .iso .ccd .nrg .mds .lha .rp9 .zip .7z</td></tr><tr><td>Émulateur par défaut</td><td>libretro: puae</td></tr><tr><td>BIOS</td><td>Kickstart CD32 et ROM étendue CD32 obligatoires</td></tr><tr><td>Configuration des manettes</td><td>Automatique (sauf Amiga Forever)</td></tr><tr><td>RetroAchievements</td><td>Non</td></tr><tr><td>Jeu en réseau</td><td>Non</td></tr><tr><td>Gestionnaire de sauvegardes ES</td><td>cores libretro, Amiberry</td></tr></tbody></table>
+<table><thead><tr><th width="250.25"></th><th></th></tr></thead><tbody><tr><td><strong>Dossier des jeux</strong></td><td><code>roms\amigacd32</code></td></tr><tr><td><strong>Extensions</strong></td><td>.cue .chd .iso .ccd .nrg .mds .lha .rp9 .zip .7z</td></tr><tr><td><strong>Émulateur par défaut</strong></td><td>libretro: puae</td></tr><tr><td><strong>BIOS</strong></td><td><code>kick40060.CD32</code> + <code>kick40060.CD32.ext</code> (ou <code>amiga-os-310-cd32.rom</code> + <code>amiga-os-310-cd32-ext.rom</code>)</td></tr><tr><td><strong>Configuration des manettes</strong></td><td>Automatique, sauf Amiga Forever</td></tr><tr><td><strong>Sauvegardes instantanées</strong></td><td>cores libretro, Amiberry</td></tr><tr><td><strong>RetroAchievements</strong></td><td>Non</td></tr><tr><td><strong>Jeu en réseau</strong></td><td>Non</td></tr></tbody></table>
 
 ## Quel émulateur choisir ?
 

@@ -17,7 +17,7 @@ Le Mega-CD lit aussi les cartouches MegaDrive, mais placez-les dans le système 
 
 ## En bref
 
-<table><thead><tr><th width="296.5"></th><th></th></tr></thead><tbody><tr><td>Dossier des jeux</td><td>📁 roms \ 📂 megacd</td></tr><tr><td>Extensions</td><td>.chd .cue .iso .m3u .zip .7z</td></tr><tr><td>Émulateur par défaut</td><td>libretro: genesis_plus_gx</td></tr><tr><td>BIOS</td><td>BIOS Mega-CD de la région de vos jeux obligatoire</td></tr><tr><td>Configuration des manettes</td><td>Automatique, tous les émulateurs</td></tr><tr><td>RetroAchievements</td><td>cores libretro</td></tr><tr><td>Jeu en réseau</td><td>cores libretro</td></tr><tr><td>Gestionnaire de sauvegardes ES</td><td>cores libretro, BlastEm, Jgenesis</td></tr></tbody></table>
+<table><thead><tr><th width="264"></th><th></th></tr></thead><tbody><tr><td><strong>Dossier des jeux</strong></td><td><code>roms\megacd</code></td></tr><tr><td><strong>Extensions</strong></td><td>.chd .cue .iso .m3u .zip .7z</td></tr><tr><td><strong>Émulateur par défaut</strong></td><td>libretro: genesis_plus_gx</td></tr><tr><td><strong>BIOS</strong></td><td><code>bios_CD_U.bin</code>, <code>bios_CD_E.bin</code> ou <code>bios_CD_J.bin</code> (au moins un)</td></tr><tr><td><strong>Configuration des manettes</strong></td><td>Automatique, tous les émulateurs</td></tr><tr><td><strong>Sauvegardes instantanées</strong></td><td>cores libretro, BlastEm, Jgenesis</td></tr><tr><td><strong>RetroAchievements</strong></td><td>cores libretro</td></tr><tr><td><strong>Jeu en réseau</strong></td><td>cores libretro</td></tr><tr><td><strong>Pistolets</strong></td><td>cores libretro (genesis_plus_gx)</td></tr></tbody></table>
 
 ## Quel émulateur choisir ?
 

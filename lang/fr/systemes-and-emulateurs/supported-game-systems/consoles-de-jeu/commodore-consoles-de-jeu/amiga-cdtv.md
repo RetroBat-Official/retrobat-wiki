@@ -16,7 +16,7 @@ Le CDTV a reçu une centaine de titres, dont beaucoup d'encyclopédies et de log
 
 ## En bref
 
-<table><thead><tr><th width="235.25"></th><th></th></tr></thead><tbody><tr><td>Dossier des jeux</td><td>📁 roms \ 📂 amigacdtv</td></tr><tr><td>Extensions</td><td>.cue .chd .iso .ccd .nrg .mds .m3u .rp9 .zip .7z</td></tr><tr><td>Émulateur par défaut</td><td>libretro: puae</td></tr><tr><td>BIOS</td><td>Kickstart 1.3 et ROM étendue CDTV obligatoires</td></tr><tr><td>Configuration des manettes</td><td>Automatique (sauf Amiga Forever)</td></tr><tr><td>RetroAchievements</td><td>Non</td></tr><tr><td>Jeu en réseau</td><td>Non</td></tr><tr><td>Gestionnaire de sauvegardes ES</td><td>cores libretro, Amiberry</td></tr></tbody></table>
+<table><thead><tr><th width="257.75"></th><th></th></tr></thead><tbody><tr><td><strong>Dossier des jeux</strong></td><td><code>roms\amigacdtv</code></td></tr><tr><td><strong>Extensions</strong></td><td>.cue .chd .iso .ccd .nrg .mds .m3u .rp9 .zip .7z</td></tr><tr><td><strong>Émulateur par défaut</strong></td><td>libretro: puae</td></tr><tr><td><strong>BIOS</strong></td><td><code>kick34005.A500</code> + <code>kick34005.CDTV</code> (ou <code>amiga-os-130.rom</code> + <code>amiga-os-130-cdtv-ext.rom</code>)</td></tr><tr><td><strong>Configuration des manettes</strong></td><td>Automatique, sauf Amiga Forever</td></tr><tr><td><strong>Sauvegardes instantanées</strong></td><td>cores libretro, Amiberry</td></tr><tr><td><strong>RetroAchievements</strong></td><td>Non</td></tr><tr><td><strong>Jeu en réseau</strong></td><td>Non</td></tr></tbody></table>
 
 ## Quel émulateur choisir ?
 

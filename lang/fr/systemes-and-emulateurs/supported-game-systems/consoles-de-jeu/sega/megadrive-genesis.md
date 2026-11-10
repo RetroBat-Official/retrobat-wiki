@@ -18,7 +18,7 @@ Les jeux Mega-CD, 32X et MSU-MD ont leurs propres systèmes : voir les pages [Me
 
 ## En bref
 
-<table><thead><tr><th width="292.75"></th><th></th></tr></thead><tbody><tr><td>Dossier des jeux</td><td>📁 roms \ 📂 megadrive</td></tr><tr><td>Extensions</td><td>.68k .sgd .smd .bin .gen .md .sg .wad .zip .7z</td></tr><tr><td>Émulateur par défaut</td><td>libretro: genesis_plus_gx</td></tr><tr><td>BIOS</td><td>Aucun obligatoire</td></tr><tr><td>Configuration des manettes</td><td>Automatique, tous les émulateurs</td></tr><tr><td>RetroAchievements</td><td>cores libretro, BizHawk</td></tr><tr><td>Jeu en réseau</td><td>cores libretro</td></tr><tr><td>Gestionnaire de sauvegardes ES</td><td>cores libretro, BlastEm, Jgenesis, BizHawk</td></tr></tbody></table>
+<table><thead><tr><th width="266.5"></th><th></th></tr></thead><tbody><tr><td><strong>Dossier des jeux</strong></td><td><code>roms\megadrive</code></td></tr><tr><td><strong>Extensions</strong></td><td>.68k .sgd .smd .bin .gen .md .sg .wad .zip .7z</td></tr><tr><td><strong>Émulateur par défaut</strong></td><td>libretro: genesis_plus_gx</td></tr><tr><td><strong>BIOS</strong></td><td>Aucun obligatoire</td></tr><tr><td><strong>Configuration des manettes</strong></td><td>Automatique, tous les émulateurs</td></tr><tr><td><strong>Sauvegardes instantanées</strong></td><td>cores libretro, BlastEm, Jgenesis, BizHawk</td></tr><tr><td><strong>RetroAchievements</strong></td><td>cores libretro, BizHawk</td></tr><tr><td><strong>Jeu en réseau</strong></td><td>cores libretro</td></tr><tr><td><strong>Pistolets</strong></td><td>cores libretro (genesis_plus_gx)</td></tr></tbody></table>
 
 ## Quel émulateur choisir ?
 
