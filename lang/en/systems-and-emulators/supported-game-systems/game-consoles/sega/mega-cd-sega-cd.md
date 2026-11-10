@@ -19,7 +19,7 @@ The Mega-CD plays the MegaDrive cartridges too, but put those in the MegaDrive s
 
 ## At a glance
 
-<table><thead><tr><th width="254"></th><th></th></tr></thead><tbody><tr><td>Games folder</td><td>📁 roms \ 📂 megacd</td></tr><tr><td>File extensions</td><td>.chd .cue .iso .m3u .zip .7z</td></tr><tr><td>Default emulator</td><td>libretro: genesis_plus_gx</td></tr><tr><td>BIOS</td><td>Mega-CD BIOS of the region of your games required</td></tr><tr><td>Controller autoconfig</td><td>Yes, every emulator</td></tr><tr><td>RetroAchievements</td><td>libretro cores</td></tr><tr><td>Netplay</td><td>libretro cores</td></tr><tr><td>Save state manager (ES)</td><td>libretro cores, BlastEm, Jgenesis</td></tr></tbody></table>
+<table><thead><tr><th width="262.75"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\megacd</code></td></tr><tr><td><strong>Extensions</strong></td><td>.chd .cue .iso .m3u .zip .7z</td></tr><tr><td><strong>Default emulator</strong></td><td>libretro: genesis_plus_gx</td></tr><tr><td><strong>BIOS</strong></td><td><code>bios_CD_U.bin</code>, <code>bios_CD_E.bin</code> or <code>bios_CD_J.bin</code> (at least one)</td></tr><tr><td><strong>Controller configuration</strong></td><td>Automatic, all emulators</td></tr><tr><td><strong>Save states</strong></td><td>libretro cores, BlastEm, Jgenesis</td></tr><tr><td><strong>RetroAchievements</strong></td><td>libretro cores</td></tr><tr><td><strong>Netplay</strong></td><td>libretro cores</td></tr><tr><td><strong>Light guns</strong></td><td>libretro cores (genesis_plus_gx)</td></tr></tbody></table>
 
 ## Which emulator to choose?
 

@@ -18,16 +18,7 @@ This system (Amiga AGA) covers the Amiga 1200. The Amiga 4000 and the CD32, whic
 
 ## At a glance
 
-|                         |                                                       |
-| ----------------------- | ----------------------------------------------------- |
-| Games folder            | 📁 roms \ 📂 amiga1200                                |
-| File extensions         | .adf .adz .dms .ipf .hdf .lha .uae .rp9 .m3u .zip .7z |
-| Default emulator        | libretro: puae                                        |
-| BIOS                    | Kickstart 3.1 (A1200) required                        |
-| Controller autoconfig   | Yes (except Amiga Forever)                            |
-| RetroAchievements       | No                                                    |
-| Netplay                 | No                                                    |
-| Save state manager (ES) | libretro cores, Amiberry                              |
+<table><thead><tr><th width="232.75"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\amiga1200</code></td></tr><tr><td><strong>Extensions</strong></td><td>.adf .uae .ipf .dms .adz .lha .rp9 .hdf .m3u .zip .7z</td></tr><tr><td><strong>Default emulator</strong></td><td>libretro: puae</td></tr><tr><td><strong>BIOS</strong></td><td><code>kick40068.A1200</code> or <code>amiga-os-310-a1200.rom</code> (Kickstart 3.1)</td></tr><tr><td><strong>Controller configuration</strong></td><td>Automatic, except Amiga Forever</td></tr><tr><td><strong>Save states</strong></td><td>libretro cores, Amiberry</td></tr><tr><td><strong>RetroAchievements</strong></td><td>No</td></tr><tr><td><strong>Netplay</strong></td><td>No</td></tr><tr><td><strong>Light guns</strong></td><td>Amiberry (light pen)</td></tr></tbody></table>
 
 ## Which emulator to choose?
 

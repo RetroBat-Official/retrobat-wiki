@@ -19,7 +19,7 @@ The handful of games that need both the Mega-CD and the 32X (Mega-CD 32X), such 
 
 ## At a glance
 
-<table><thead><tr><th width="242.75"></th><th></th></tr></thead><tbody><tr><td>Games folder</td><td>📁 roms \ 📂 sega32x</td></tr><tr><td>File extensions</td><td>.32x .smd .bin .md .zip .7z</td></tr><tr><td>Default emulator</td><td>libretro: picodrive</td></tr><tr><td>BIOS</td><td>Only for BlastEm</td></tr><tr><td>Controller autoconfig</td><td>Yes, every emulator</td></tr><tr><td>RetroAchievements</td><td>lr-picodrive, BizHawk</td></tr><tr><td>Netplay</td><td>lr-picodrive</td></tr><tr><td>Save state manager (ES)</td><td>lr-picodrive, BlastEm, Jgenesis, BizHawk</td></tr></tbody></table>
+<table><thead><tr><th width="236.5"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\sega32x</code></td></tr><tr><td><strong>Extensions</strong></td><td>.32x .smd .bin .md .zip .7z</td></tr><tr><td><strong>Default emulator</strong></td><td>libretro: picodrive</td></tr><tr><td><strong>BIOS</strong></td><td>None required</td></tr><tr><td><strong>Controller configuration</strong></td><td>Automatic, all emulators</td></tr><tr><td><strong>Save states</strong></td><td>libretro cores, BlastEm, Jgenesis, BizHawk</td></tr><tr><td><strong>RetroAchievements</strong></td><td>libretro cores, BizHawk</td></tr><tr><td><strong>Netplay</strong></td><td>libretro cores</td></tr></tbody></table>
 
 ## Which emulator to choose?
 

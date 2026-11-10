@@ -16,7 +16,7 @@ The CD32 got about 150 games. Many are Amiga 1200 games with CD music, intros or
 
 ## At a glance
 
-<table><thead><tr><th width="235.25"></th><th></th></tr></thead><tbody><tr><td>Games folder</td><td>📁 roms \ 📂 amigacd32</td></tr><tr><td>File extensions</td><td>.cue .chd .iso .ccd .nrg .mds .lha .rp9 .zip .7z</td></tr><tr><td>Default emulator</td><td>libretro: puae</td></tr><tr><td>BIOS</td><td>CD32 Kickstart and CD32 extended ROM required</td></tr><tr><td>Controller autoconfig</td><td>Yes (except Amiga Forever)</td></tr><tr><td>RetroAchievements</td><td>No</td></tr><tr><td>Netplay</td><td>No</td></tr><tr><td>Save state manager (ES)</td><td>libretro cores, Amiberry</td></tr></tbody></table>
+<table><thead><tr><th width="242.75"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\amigacd32</code></td></tr><tr><td><strong>Extensions</strong></td><td>.cue .chd .iso .ccd .nrg .mds .lha .rp9 .zip .7z</td></tr><tr><td><strong>Default emulator</strong></td><td>libretro: puae</td></tr><tr><td><strong>BIOS</strong></td><td><code>kick40060.CD32</code> + <code>kick40060.CD32.ext</code> (or <code>amiga-os-310-cd32.rom</code> + <code>amiga-os-310-cd32-ext.rom</code>)</td></tr><tr><td><strong>Controller configuration</strong></td><td>Automatic, except Amiga Forever</td></tr><tr><td><strong>Save states</strong></td><td>libretro cores, Amiberry</td></tr><tr><td><strong>RetroAchievements</strong></td><td>No</td></tr><tr><td><strong>Netplay</strong></td><td>No</td></tr></tbody></table>
 
 ## Which emulator to choose?
 

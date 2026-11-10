@@ -16,7 +16,7 @@ The Mega-CD, 32X and MSU-MD games have their own systems: see the [Mega-CD](mega
 
 ## At a glance
 
-<table><thead><tr><th width="231.5"></th><th></th></tr></thead><tbody><tr><td>Games folder</td><td>📁 roms \ 📂 megadrive</td></tr><tr><td>File extensions</td><td>.68k .sgd .smd .bin .gen .md .sg .wad .zip .7z</td></tr><tr><td>Default emulator</td><td>libretro: genesis_plus_gx</td></tr><tr><td>BIOS</td><td>None required</td></tr><tr><td>Controller autoconfig</td><td>Yes, every emulator</td></tr><tr><td>RetroAchievements</td><td>libretro cores, BizHawk</td></tr><tr><td>Netplay</td><td>libretro cores</td></tr><tr><td>Save state manager (ES)</td><td>libretro cores, BlastEm, Jgenesis, BizHawk</td></tr></tbody></table>
+<table><thead><tr><th width="249"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\megadrive</code></td></tr><tr><td><strong>Extensions</strong></td><td>.68k .sgd .smd .bin .gen .md .sg .wad .zip .7z</td></tr><tr><td><strong>Default emulator</strong></td><td>libretro: genesis_plus_gx</td></tr><tr><td><strong>BIOS</strong></td><td>None required</td></tr><tr><td><strong>Controller configuration</strong></td><td>Automatic, all emulators</td></tr><tr><td><strong>Save states</strong></td><td>libretro cores, BlastEm, Jgenesis, BizHawk</td></tr><tr><td><strong>RetroAchievements</strong></td><td>libretro cores, BizHawk</td></tr><tr><td><strong>Netplay</strong></td><td>libretro cores</td></tr><tr><td><strong>Light guns</strong></td><td>libretro cores (genesis_plus_gx)</td></tr></tbody></table>
 
 ## Which emulator to choose?
 

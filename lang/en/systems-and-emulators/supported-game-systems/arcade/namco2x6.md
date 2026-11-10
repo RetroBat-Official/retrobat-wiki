@@ -18,7 +18,7 @@ Many famous arcade games ran on these boards: _Tekken 4_ and _Tekken 5_, _Soulca
 
 ## At a glance
 
-<table><thead><tr><th width="217.75"></th><th></th></tr></thead><tbody><tr><td>Games folder</td><td>📁 roms \ 📂 namco2x6</td></tr><tr><td>File extensions</td><td>.acgame (pcsx2x6), .zip .m3u (Play!)</td></tr><tr><td>Default emulator</td><td>pcsx2x6</td></tr><tr><td>BIOS</td><td>Required for pcsx2x6</td></tr><tr><td>Controller autoconfig</td><td>Yes, for all emulators</td></tr><tr><td>RetroAchievements</td><td>No</td></tr><tr><td>Netplay</td><td>No</td></tr><tr><td>Light guns</td><td>Yes (pcsx2x6)</td></tr><tr><td>Wheels</td><td>Yes (pcsx2x6)</td></tr></tbody></table>
+<table><thead><tr><th width="236.5"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\namco2x6</code></td></tr><tr><td><strong>Extensions</strong></td><td>.zip .m3u .acgame</td></tr><tr><td><strong>Default emulator</strong></td><td>pcsx2x6</td></tr><tr><td><strong>BIOS</strong></td><td><code>r27v1602f.7d</code> or <code>r27v1602f.8g</code> in <code>bios\pcsx2\bios</code></td></tr><tr><td><strong>Controller configuration</strong></td><td>Automatic, all emulators</td></tr><tr><td><strong>Save states</strong></td><td>No</td></tr><tr><td><strong>RetroAchievements</strong></td><td>No</td></tr><tr><td><strong>Netplay</strong></td><td>No</td></tr><tr><td><strong>Light guns</strong></td><td>pcsx2x6, TeknoParrot</td></tr><tr><td><strong>Wheels</strong></td><td>pcsx2x6, TeknoParrot</td></tr></tbody></table>
 
 ## Which emulator to choose?
 

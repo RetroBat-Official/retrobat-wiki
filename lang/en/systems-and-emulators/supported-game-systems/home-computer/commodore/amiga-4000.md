@@ -18,7 +18,7 @@ This system covers the Amiga 4000. For the classic games of the Amiga 500 and th
 
 ## At a glance
 
-<table><thead><tr><th width="254"></th><th></th></tr></thead><tbody><tr><td>Games folder</td><td>📁 roms \ 📂 amiga4000</td></tr><tr><td>File extensions</td><td>.adf .adz .dms .ipf .hdf .lha .uae .rp9 .m3u .zip .7z</td></tr><tr><td>Default emulator</td><td>libretro: puae</td></tr><tr><td>BIOS</td><td>Kickstart 3.1 (A4000) required</td></tr><tr><td>Controller autoconfig</td><td>Yes (except Amiga Forever)</td></tr><tr><td>RetroAchievements</td><td>No</td></tr><tr><td>Netplay</td><td>No</td></tr><tr><td>Save state manager (ES)</td><td>libretro cores, Amiberry</td></tr></tbody></table>
+<table><thead><tr><th width="222.75"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\amiga4000</code></td></tr><tr><td><strong>Extensions</strong></td><td>.adf .uae .ipf .dms .adz .lha .rp9 .hdf .m3u .zip .7z</td></tr><tr><td><strong>Default emulator</strong></td><td>libretro: puae</td></tr><tr><td><strong>BIOS</strong></td><td><code>kick40068.A4000</code> or <code>amiga-os-310-a4000.rom</code> (Kickstart 3.1)</td></tr><tr><td><strong>Controller configuration</strong></td><td>Automatic, except Amiga Forever</td></tr><tr><td><strong>Save states</strong></td><td>libretro cores, Amiberry</td></tr><tr><td><strong>RetroAchievements</strong></td><td>No</td></tr><tr><td><strong>Netplay</strong></td><td>No</td></tr><tr><td><strong>Light guns</strong></td><td>Amiberry (light pen)</td></tr></tbody></table>
 
 ## Which emulator to choose?
 

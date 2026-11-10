@@ -16,7 +16,7 @@ The CDTV got about a hundred titles, many of them encyclopedias and educational 
 
 ## At a glance
 
-<table><thead><tr><th width="254"></th><th></th></tr></thead><tbody><tr><td>Games folder</td><td>📁 roms \ 📂 amigacdtv</td></tr><tr><td>File extensions</td><td>.cue .chd .iso .ccd .nrg .mds .m3u .rp9 .zip .7z</td></tr><tr><td>Default emulator</td><td>libretro: puae</td></tr><tr><td>BIOS</td><td>Kickstart 1.3 and CDTV extended ROM required</td></tr><tr><td>Controller autoconfig</td><td>Yes (except Amiga Forever)</td></tr><tr><td>RetroAchievements</td><td>No</td></tr><tr><td>Netplay</td><td>No</td></tr><tr><td>Save state manager (ES)</td><td>libretro cores, Amiberry</td></tr></tbody></table>
+<table><thead><tr><th width="242.75"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\amigacdtv</code></td></tr><tr><td><strong>Extensions</strong></td><td>.cue .chd .iso .ccd .nrg .mds .m3u .rp9 .zip .7z</td></tr><tr><td><strong>Default emulator</strong></td><td>libretro: puae</td></tr><tr><td><strong>BIOS</strong></td><td><code>kick34005.A500</code> + <code>kick34005.CDTV</code> (or <code>amiga-os-130.rom</code> + <code>amiga-os-130-cdtv-ext.rom</code>)</td></tr><tr><td><strong>Controller configuration</strong></td><td>Automatic, except Amiga Forever</td></tr><tr><td><strong>Save states</strong></td><td>libretro cores, Amiberry</td></tr><tr><td><strong>RetroAchievements</strong></td><td>No</td></tr><tr><td><strong>Netplay</strong></td><td>No</td></tr></tbody></table>
 
 ## Which emulator to choose?
 
