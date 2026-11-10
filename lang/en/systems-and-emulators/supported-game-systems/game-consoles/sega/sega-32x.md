@@ -13,7 +13,7 @@ The **32X** is an add-on that plugs into the cartridge slot of the MegaDrive. Se
 
 Released only months before the Saturn, the 32X got about 40 games, among them _Virtua Racing Deluxe_, _Star Wars Arcade_, _Doom_, _Knuckles' Chaotix_, _Virtua Fighter_, _Kolibri_, _Space Harrier_ and _After Burner Complete_.
 
-The handful of games that need both the Mega-CD and the 32X (Mega-CD 32X), such as the 32X versions of _Night Trap_ or _Corpse Killer_, are CD games: put them in the Mega-CD system and play them with **libretro: picodrive** (see the Mega-CD page).
+The handful of games that need both the Mega-CD and the 32X (Mega-CD 32X), such as the 32X versions of _Night Trap_ or _Corpse Killer_, are CD games: put them in the Mega-CD system and play them with **libretro: picodrive** or **ares: MegaCD32X**(see the [Mega-CD page](mega-cd-sega-cd.md)).
 
 {% embed url="https://en.wikipedia.org/wiki/32X" %}
 
@@ -85,4 +85,4 @@ The **BUTTON LAYOUT** option (CONTROLS submenu) is available with every emulator
 
 ## Known issues
 
-<table><thead><tr><th width="307.75">Problem</th><th>Solution</th></tr></thead><tbody><tr><td>Black screen with BlastEm</td><td>Copy the three 32X BIOS files to the bios folder, or use lr-picodrive.</td></tr><tr><td>The game is slow or stutters</td><td>32X emulation is demanding with BlastEm, Jgenesis and Ares: use lr-picodrive.</td></tr><tr><td>A Mega-CD 32X game does not start</td><td>Put it in the Mega-CD system and use libretro: picodrive.</td></tr><tr><td>The buttons are not where I expect</td><td>Change BUTTON LAYOUT. See the Megadrive - Genesis page.</td></tr></tbody></table>
+<table><thead><tr><th width="307.75">Problem</th><th>Solution</th></tr></thead><tbody><tr><td>Black screen with BlastEm</td><td>Copy the three 32X BIOS files to the bios folder, or use lr-picodrive.</td></tr><tr><td>The game is slow or stutters</td><td>32X emulation is demanding with BlastEm, Jgenesis and Ares: use lr-picodrive.</td></tr><tr><td>A Mega-CD 32X game does not start</td><td>Put it in the Mega-CD system and use libretro: picodrive or ares: MegaCD32X.</td></tr><tr><td>The buttons are not where I expect</td><td>Change BUTTON LAYOUT. See the Megadrive - Genesis page.</td></tr></tbody></table>
