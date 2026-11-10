@@ -25,10 +25,10 @@ Le Mega-CD lit aussi les cartouches MegaDrive, mais placez-les dans le système 
 | ---------------------------------------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
 | **libretro: genesis\_plus\_gx** (défaut) | Précis et complet : tous les formats, changement de disque, pistolets, adaptateurs multijoueurs |                                                           |
 | libretro: genesis\_plus\_gx\_wide        | Le même, en écran large (16:9)                                                                  | Défauts graphiques sur les côtés dans certains jeux       |
-| libretro: picodrive                      | Très rapide, pour les PC modestes                                                               | Moins précis, pas de cartouche de sauvegarde              |
+| libretro: picodrive                      | Très rapide, pour les PC modestes. Le seul qui lance les jeux Mega-CD 32X                       | Moins précis, pas de cartouche de sauvegarde              |
 | jgenesis                                 | Récent et précis, cartouche de sauvegarde, chargement du disque en mémoire                      | .chd et .cue uniquement, premier disque seulement en .m3u |
 | blastem                                  | Très précis                                                                                     | .cue et .iso, pas de .m3u                                 |
-| ares                                     | Émulateur multi-systèmes précis                                                                 | Premier disque seulement en .m3u                          |
+| ares                                     | Émulateur multi-systèmes précis, lance aussi les jeux Mega-CD 32X (core MegaCD32X)              | Premier disque seulement en .m3u                          |
 | kega-fusion                              | Émulateur historique, léger                                                                     | .cue et .iso uniquement, n'est plus maintenu              |
 
 ## BIOS
@@ -102,6 +102,10 @@ Plusieurs jeux Mega-CD se jouent au pistolet, comme _Lethal Enforcers_ ou _Snatc
 
 ## Guides
 
+### Jeux Mega-CD 32X
+
+Quelques jeux demandent à la fois le Mega-CD et le 32X, comme les versions 32X de _Night Trap_, _Corpse Killer_, _Slam City_ ou _Fahrenheit_. Placez-les dans `roms\megacd` et, dans les options du jeu, choisissez **libretro: picodrive** ou **ares: MegaCD32X** : les autres émulateurs n'émulent pas le 32X en plus du Mega-CD. Le BIOS Mega-CD est nécessaire, pas ceux du 32X.
+
 ### Sauvegardes et cartouche de sauvegarde
 
 Les jeux Mega-CD sauvegardent dans la mémoire interne de la console, petite et partagée entre tous les jeux. Une **cartouche de sauvegarde** (RAM cartridge) optionnelle ajoutait de la place. Avec Jgenesis, l'option **RAM CART** (sous-menu ÉMULATION, activée par défaut) l'émule. Si un jeu indique que la mémoire est pleine, effacez d'anciennes sauvegardes dans le gestionnaire de mémoire du BIOS : lancez l'émulateur sans jeu, ou appuyez sur START sur l'écran du BIOS.
@@ -112,4 +116,4 @@ Avec Jgenesis, **LOAD GAME TO RAM** copie tout le disque en mémoire au démarra
 
 ## Problèmes connus
 
-<table><thead><tr><th width="314">Problème</th><th>Solution</th></tr></thead><tbody><tr><td>Écran noir ou « BIOS introuvable »</td><td>Copiez le BIOS de la région du jeu (bios_CD_E/U/J.bin) dans le dossier bios.</td></tr><tr><td>Pas de musique dans le jeu</td><td>Le format .iso n'a pas l'audio CD : utilisez une image .cue/.bin ou .chd.</td></tr><tr><td>Un jeu .chd ne démarre pas avec Kega Fusion ou BlastEm</td><td>Utilisez lr-genesis_plus_gx, Jgenesis ou Ares, ou une image .cue/.bin.</td></tr><tr><td>Un jeu .iso ne démarre pas avec Jgenesis</td><td>Jgenesis ne lit que les .chd et .cue : convertissez le jeu en .chd.</td></tr><tr><td>Le second disque ne démarre pas</td><td>Utilisez un fichier .m3u avec un core libretro et changez de disque avec HOTKEY + L1 / L2 / R2.</td></tr><tr><td>Le jeu indique que la mémoire est pleine</td><td>Effacez d'anciennes sauvegardes dans le gestionnaire de mémoire du BIOS, ou activez RAM CART avec Jgenesis.</td></tr><tr><td>Les boutons ne sont pas où je les attends</td><td>Changez la DISPOSITION DES BOUTONS. Voir la <a href="megadrive-genesis.md#controles">page Megadrive - Genesis</a>.</td></tr></tbody></table>
+<table><thead><tr><th width="314">Problème</th><th>Solution</th></tr></thead><tbody><tr><td>Écran noir ou « BIOS introuvable »</td><td>Copiez le BIOS de la région du jeu (bios_CD_E/U/J.bin) dans le dossier bios.</td></tr><tr><td>Pas de musique dans le jeu</td><td>Le format .iso n'a pas l'audio CD : utilisez une image .cue/.bin ou .chd.</td></tr><tr><td>Un jeu .chd ne démarre pas avec Kega Fusion ou BlastEm</td><td>Utilisez lr-genesis_plus_gx, Jgenesis ou Ares, ou une image .cue/.bin.</td></tr><tr><td>Un jeu .iso ne démarre pas avec Jgenesis</td><td>Jgenesis ne lit que les .chd et .cue : convertissez le jeu en .chd.</td></tr><tr><td>Le second disque ne démarre pas</td><td>Utilisez un fichier .m3u avec un core libretro et changez de disque avec HOTKEY + L1 / L2 / R2.</td></tr><tr><td>Le jeu indique que la mémoire est pleine</td><td>Effacez d'anciennes sauvegardes dans le gestionnaire de mémoire du BIOS, ou activez RAM CART avec Jgenesis.</td></tr><tr><td>Les boutons ne sont pas où je les attends</td><td>Changez la DISPOSITION DES BOUTONS. Voir la <a href="megadrive-genesis.md#controles">page Megadrive - Genesis</a>.</td></tr><tr><td>Un jeu Mega-CD 32X reste sur un écran noir</td><td>Utilisez libretro: picodrive ou ares: MegaCD32X pour ce jeu.</td></tr></tbody></table>
