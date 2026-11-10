@@ -9,11 +9,11 @@ description: Sega
 
 ## Overview
 
-The **Mega-CD** (called **Sega CD** in North America) is a CD-ROM drive that plugs into the Mega Drive. It was released in Japan in December 1991, in North America in 1992 and in Europe in 1993. It adds a second, faster 68000 processor, a chip able to scale and rotate images, extra memory and CD-quality sound. Its CDs held far more data than a cartridge: full-motion video, voices and CD soundtracks.
+The **Mega-CD** (called **Sega CD** in North America) is a CD-ROM drive that plugs into the MegaDrive. It was released in Japan in December 1991, in North America in 1992 and in Europe in 1993. It adds a second, faster 68000 processor, a chip able to scale and rotate images, extra memory and CD-quality sound. Its CDs held far more data than a cartridge: full-motion video, voices and CD soundtracks.
 
 About 200 games came out on Mega-CD: _Sonic CD_, _Snatcher_, _Lunar: The Silver Star_, _Popful Mail_, _Silpheed_, _Robo Aleste_, _Final Fight CD_, _Shining Force CD_, as well as video games such as _Night Trap_ and _Sewer Shark_.
 
-The Mega-CD plays the Mega Drive cartridges too, but put those in the Mega Drive system: see the [Megadrive - Genesis page](megadrive-genesis.md).
+The Mega-CD plays the MegaDrive cartridges too, but put those in the MegaDrive system: see the [Megadrive - Genesis page](megadrive-genesis.md).
 
 {% embed url="https://en.wikipedia.org/wiki/Sega_CD" %}
 
@@ -23,7 +23,7 @@ The Mega-CD plays the Mega Drive cartridges too, but put those in the Mega Drive
 
 ## Which emulator to choose?
 
-<table><thead><tr><th width="229.5">Emulator</th><th>Strengths</th><th>Limits</th></tr></thead><tbody><tr><td><strong>libretro: genesis_plus_gx</strong> (default)</td><td>Accurate and complete: all formats, disc swap, lightguns, multitaps</td><td></td></tr><tr><td>libretro: genesis_plus_gx_wide</td><td>Same, with a widescreen (16:9) display</td><td>Graphic glitches on the sides in some games</td></tr><tr><td>libretro: picodrive</td><td>Very fast, for modest PCs</td><td>Less accurate, no RAM cartridge</td></tr><tr><td>jgenesis</td><td>Recent and accurate, RAM cartridge, can load the disc into memory</td><td>.chd and .cue only, first disc only for .m3u</td></tr><tr><td>blastem</td><td>Very accurate</td><td>.cue and .iso, no .m3u</td></tr><tr><td>ares</td><td>Accurate multi-system emulator</td><td>First disc only for .m3u</td></tr><tr><td>kega-fusion</td><td>Historical emulator, light</td><td>.cue and .iso only, no longer maintained</td></tr></tbody></table>
+<table><thead><tr><th width="229.5">Emulator</th><th>Strengths</th><th>Limits</th></tr></thead><tbody><tr><td><strong>libretro: genesis_plus_gx</strong> (default)</td><td>Accurate and complete: all formats, disc swap, lightguns, multitaps</td><td></td></tr><tr><td>libretro: genesis_plus_gx_wide</td><td>Same, with a widescreen (16:9) display</td><td>Graphic glitches on the sides in some games</td></tr><tr><td>libretro: picodrive</td><td>Very fast, for modest PCs. The only one that plays the Mega-CD 32X games</td><td>Less accurate, no RAM cartridge</td></tr><tr><td>jgenesis</td><td>Recent and accurate, RAM cartridge, can load the disc into memory</td><td>.chd and .cue only, first disc only for .m3u</td></tr><tr><td>blastem</td><td>Very accurate</td><td>.cue and .iso, no .m3u</td></tr><tr><td>ares</td><td>Accurate multi-system emulator</td><td>First disc only for .m3u</td></tr><tr><td>kega-fusion</td><td>Historical emulator, light</td><td>.cue and .iso only, no longer maintained</td></tr></tbody></table>
 
 ## BIOS
 
@@ -64,7 +64,7 @@ Night Trap (Disc 2).chd
 
 ## Controls
 
-The Mega-CD uses the Mega Drive controller: autoconfiguration, layouts, 3-button pad, Mega Drive-style controllers and multitaps work as for the Mega Drive. See the Megadrive - Genesis page for the details.
+The Mega-CD uses the MegaDrive controller: autoconfiguration, layouts, 3-button pad, MegaDrive-style controllers and multitaps work as for the MegaDrive. See the [Megadrive - Genesis page](megadrive-genesis.md) for the details.
 
 <table><thead><tr><th width="218.75">Emulator</th><th width="147">Autoconfig</th><th>Players</th></tr></thead><tbody><tr><td>lr-genesis_plus_gx, lr-genesis_plus_gx_wide</td><td>Yes</td><td>2, up to 8 with a multitap (CONTROLLER TYPE)</td></tr><tr><td>lr-picodrive</td><td>Yes</td><td>2</td></tr><tr><td>Jgenesis</td><td>Yes</td><td>2</td></tr><tr><td>BlastEm</td><td>Yes</td><td>2, up to 8 (USE MULTITAP)</td></tr><tr><td>Ares</td><td>Yes</td><td>2</td></tr><tr><td>Kega Fusion</td><td>Yes</td><td>2, up to 8 (USE MULTITAP)</td></tr></tbody></table>
 
@@ -78,11 +78,11 @@ The **BUTTON LAYOUT**, **USE 3 BUTTON CONTROLLER** (CONTROLLER TYPE with lr-gene
 
 ### Lightguns
 
-Several Mega-CD games use a lightgun, such as _Lethal Enforcers_ or _Snatcher_ (Justifier). With the Genesis Plus GX cores, enable the guns (GUNS submenu) and choose the GUN TYPE: **Justifier** or **Menacer**. See the Lightguns page.
+Several Mega-CD games use a lightgun, such as _Lethal Enforcers_ or _Snatcher_ (Justifier). With the Genesis Plus GX cores, enable the guns (GUNS submenu) and choose the GUN TYPE: **Justifier** or **Menacer**. See the [Lightguns page](../../../../controllers/supported-controllers/lightguns/).
 
 ### Hotkeys
 
-**libretro cores**: standard RetroBat hotkeys.
+**libretro cores**: [standard RetroBat hotkeys](../../../../navigation/hotkeys.md).
 
 | Hotkey         | BlastEm    | Jgenesis   | Ares       | Kega Fusion |
 | -------------- | ---------- | ---------- | ---------- | ----------- |
@@ -96,6 +96,10 @@ Several Mega-CD games use a lightgun, such as _Lethal Enforcers_ or _Snatcher_ (
 
 ## Guides
 
+### Mega-CD 32X games
+
+A few games need both the Mega-CD and the 32X, such as the 32X versions of _Night Trap_, _Corpse Killer_, _Slam City_ or _Fahrenheit_. Put them in `roms\megacd` and set the emulator of these games to **libretro: picodrive** (game options): the other emulators do not emulate the 32X on top of the Mega-CD. The Mega-CD BIOS is required, the 32X BIOS is not.
+
 ### Game saves and the RAM cartridge
 
 Mega-CD games save to the internal memory of the console, which is small and shared by all games. An optional **RAM cartridge** added more space. With Jgenesis, the **RAM CART** option (EMULATION submenu, enabled by default) emulates it. If a game says the memory is full, delete old saves from the BIOS memory manager: start the emulator without a game, or press START on the BIOS screen.
@@ -106,4 +110,4 @@ With Jgenesis, **LOAD GAME TO RAM** copies the whole disc into memory at startup
 
 ## Known issues
 
-<table><thead><tr><th width="336.5">Problem</th><th>Solution</th></tr></thead><tbody><tr><td>Black screen or "BIOS not found"</td><td>Copy the BIOS of the game's region (bios_CD_E/U/J.bin) to the bios folder.</td></tr><tr><td>No music in the game</td><td>The .iso format has no CD audio: use a .cue/.bin or .chd image.</td></tr><tr><td>A .chd game does not start with Kega Fusion or BlastEm</td><td>Use lr-genesis_plus_gx, Jgenesis or Ares, or a .cue/.bin image.</td></tr><tr><td>A .iso game does not start with Jgenesis</td><td>Jgenesis only reads .chd and .cue: convert the game to .chd.</td></tr><tr><td>The second disc does not start</td><td>Use a .m3u file with a libretro core and swap discs with HOTKEY + L1 / L2 / R2.</td></tr><tr><td>The game says the memory is full</td><td>Delete old saves in the BIOS memory manager, or enable RAM CART with Jgenesis.</td></tr><tr><td>The buttons are not where I expect</td><td>Change BUTTON LAYOUT. See the Megadrive - Genesis page.</td></tr></tbody></table>
+<table><thead><tr><th width="336.5">Problem</th><th>Solution</th></tr></thead><tbody><tr><td>Black screen or "BIOS not found"</td><td>Copy the BIOS of the game's region (bios_CD_E/U/J.bin) to the bios folder.</td></tr><tr><td>No music in the game</td><td>The .iso format has no CD audio: use a .cue/.bin or .chd image.</td></tr><tr><td>A .chd game does not start with Kega Fusion or BlastEm</td><td>Use lr-genesis_plus_gx, Jgenesis or Ares, or a .cue/.bin image.</td></tr><tr><td>A .iso game does not start with Jgenesis</td><td>Jgenesis only reads .chd and .cue: convert the game to .chd.</td></tr><tr><td>The second disc does not start</td><td>Use a .m3u file with a libretro core and swap discs with HOTKEY + L1 / L2 / R2.</td></tr><tr><td>The game says the memory is full</td><td>Delete old saves in the BIOS memory manager, or enable RAM CART with Jgenesis.</td></tr><tr><td>The buttons are not where I expect</td><td>Change BUTTON LAYOUT. See the Megadrive - Genesis page.</td></tr><tr><td>A Mega-CD 32X game shows a black screen</td><td>Use libretro: picodrive for this game.</td></tr></tbody></table>

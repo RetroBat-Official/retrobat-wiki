@@ -4,29 +4,85 @@ description: Sega
 
 # Sega 32X
 
-| <p></p><p><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/sega32x-w.svg" media="(prefers-color-scheme: dark)"><img src="https://i.imgur.com/MpFRZpl.png" alt="" data-size="original"></picture></p> | <p></p><p><img src="https://i.imgur.com/CNRCcAe.png" alt="" data-size="original"></p> |
-| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| <p></p><p><img src="../../../../.gitbook/assets/image (474).png" alt="" data-size="original"></p> | <p></p><p><img src="../../../../.gitbook/assets/image (475).png" alt="" data-size="original"></p> |
+| ------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
 
-Game Console - Lifespan: 1994 - 1996
+## Overview
+
+The **32X** is an add-on that plugs into the cartridge slot of the MegaDrive. Sega released it at the end of 1994 to extend the life of its console while waiting for the Saturn. It adds two Hitachi SH-2 processors (the same family as in the Saturn) and a new video chip: more colours and 3D graphics, displayed over the MegaDrive picture.
+
+Released only months before the Saturn, the 32X got about 40 games, among them _Virtua Racing Deluxe_, _Star Wars Arcade_, _Doom_, _Knuckles' Chaotix_, _Virtua Fighter_, _Kolibri_, _Space Harrier_ and _After Burner Complete_.
+
+The handful of games that need both the Mega-CD and the 32X (Mega-CD 32X), such as the 32X versions of _Night Trap_ or _Corpse Killer_, are CD games: put them in the Mega-CD system and play them with **libretro: picodrive** (see the Mega-CD page).
 
 {% embed url="https://en.wikipedia.org/wiki/32X" %}
 
-## Information
+## At a glance
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: picodrive</li><li>jgenesis</li><li>blastem</li><li>ares</li><li>kega-fusion</li><li>bizhawk: Picodrive</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> sega32x</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.32x .smd .bin .md .zip .7z</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="242.75"></th><th></th></tr></thead><tbody><tr><td>Games folder</td><td>📁 roms \ 📂 sega32x</td></tr><tr><td>File extensions</td><td>.32x .smd .bin .md .zip .7z</td></tr><tr><td>Default emulator</td><td>libretro: picodrive</td></tr><tr><td>BIOS</td><td>Only for BlastEm</td></tr><tr><td>Controller autoconfig</td><td>Yes, every emulator</td></tr><tr><td>RetroAchievements</td><td>lr-picodrive, BizHawk</td></tr><tr><td>Netplay</td><td>lr-picodrive</td></tr><tr><td>Save state manager (ES)</td><td>lr-picodrive, BlastEm, Jgenesis, BizHawk</td></tr></tbody></table>
 
-## System Features
+## Which emulator to choose?
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td><p>lr-picodrive: YES</p><p>JGenesis: NO<br>BlastEM: NO<br>Ares: NO<br>Kega-Fusion: NO<br>BizHawk: YES</p></td><td><p>lr-picodrive: YES</p><p>JGenesis: NO<br>BlastEM: NO<br>Ares: NO<br>Kega-Fusion: NO<br>BizHawk: NO</p></td><td><p>lr-picodrive: YES</p><p>JGenesis: YES<br>BlastEM: YES<br>Ares: YES<br>Kega-Fusion: YES<br>BizHawk: YES<br>JGenesis: YES</p></td></tr></tbody></table>
+| Emulator                          | Strengths                                               | Limits                                 |
+| --------------------------------- | ------------------------------------------------------- | -------------------------------------- |
+| **libretro: picodrive** (default) | Fast and compatible, no BIOS needed, RetroAchievements  |                                        |
+| jgenesis                          | Recent and accurate, no BIOS needed                     | Needs a more powerful PC               |
+| blastem                           | Very accurate, multitap                                 | 32X BIOS required, needs a powerful PC |
+| ares                              | Accurate multi-system emulator, no BIOS needed          | Needs a more powerful PC               |
+| kega-fusion                       | Historical emulator, light, multitap                    | No longer maintained                   |
+| bizhawk: PicoDrive                | PicoDrive with BizHawk's tools (TAS, RetroAchievements) |                                        |
 
 ## BIOS
 
-<table><thead><tr><th width="266">BIOS file</th><th width="140">Folder</th><th width="341">MD5</th></tr></thead><tbody><tr><td>32X_G_BIOS.BIN</td><td>\bios</td><td></td></tr><tr><td>32X_M_BIOS.BIN</td><td>\bios</td><td></td></tr><tr><td>32X_S_BIOS.BIN</td><td>\bios</td><td></td></tr></tbody></table>
+Most emulators do not need any BIOS for the 32X. **BlastEm** needs the three 32X BIOS files, and Kega Fusion uses them if they are present. Copy them to the `bios` folder:
+
+<table><thead><tr><th width="185.75">File</th><th width="232.25">Processor</th><th>MD5</th></tr></thead><tbody><tr><td>32X_G_BIOS.BIN</td><td>68000 (Mega Drive side)</td><td>6a5433f6a132a2b683635819a6dcf085</td></tr><tr><td>32X_M_BIOS.BIN</td><td>SH-2 master</td><td>f88354ec482be09aeccd76a97bb75868</td></tr><tr><td>32X_S_BIOS.BIN</td><td>SH-2 slave</td><td>7f041b6a55cd7423a6c08a219335269e</td></tr></tbody></table>
+
+{% hint style="info" %}
+RetroBat lists these files as OPTIONAL: they are only needed with BlastEm.
+{% endhint %}
+
+### Game region
+
+The region decides which version of a game runs and whether it runs at 50 or 60 Hz. Every emulator detects it automatically. To force it, use REGION (lr-picodrive), FORCE REGION (BlastEm, Jgenesis), PREFERRED REGION (Ares) or CONSOLE REGION (Kega Fusion, BizHawk).
+
+## Game formats
+
+<table><thead><tr><th width="235.25">Format</th><th>Description</th></tr></thead><tbody><tr><td>.32x</td><td>32X cartridge dump (the usual format)</td></tr><tr><td>.bin / .md / .smd</td><td>Other cartridge formats</td></tr><tr><td>.zip / .7z</td><td>Compressed games</td></tr></tbody></table>
 
 ## Controls
 
-The controls are similar to [Megadrive/Genesis system](megadrive-genesis.md#controls).
+The 32X uses the MegaDrive controller: autoconfiguration, layouts, 3-button pad, Mega Drive-style controllers and multitaps work as for the MegaDrive. See the [Megadrive - Genesis page](megadrive-genesis.md#controls) for the details.
 
-## Specific System Information
+<table><thead><tr><th width="189.75">Emulator</th><th width="165.75">Autoconfig</th><th>Players</th></tr></thead><tbody><tr><td>lr-picodrive</td><td>Yes</td><td>2</td></tr><tr><td>Jgenesis</td><td>Yes</td><td>2</td></tr><tr><td>BlastEm</td><td>Yes</td><td>2, up to 8 (USE MULTITAP)</td></tr><tr><td>Ares</td><td>Yes</td><td>2</td></tr><tr><td>Kega Fusion</td><td>Yes</td><td>2, up to 8 (USE MULTITAP)</td></tr><tr><td>BizHawk</td><td>Yes</td><td>2</td></tr></tbody></table>
 
-There is no specific System information documented here yet.
+### Default layout (6-button pad)
+
+| Mega Drive | Controller |   | Mega Drive | Controller |
+| ---------- | ---------- | - | ---------- | ---------- |
+| A          | WEST       |   | X          | L1         |
+| B          | SOUTH      |   | Y          | NORTH      |
+| C          | EAST       |   | Z          | R1         |
+| START      | START      |   | MODE       | SELECT     |
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (459).png" alt="" width="225"><figcaption></figcaption></figure></div>
+
+The **BUTTON LAYOUT** option (CONTROLS submenu) is available with every emulator. **USE 3 BUTTON CONTROLLER** exists with lr-picodrive, Jgenesis and BlastEm, and **USE GENESIS-LIKE CONTROLLER** with every emulator. For the 8BitDo M30, see the [Special controllers page](../../../../controllers/supported-controllers/gamepads/special-controllers.md).
+
+### Hotkeys
+
+**libretro core**: [standard RetroBat hotkeys](../../../../navigation/hotkeys.md).
+
+| Hotkey         | BlastEm    | Jgenesis   | Ares       | BizHawk    | Kega Fusion |
+| -------------- | ---------- | ---------- | ---------- | ---------- | ----------- |
+| HOTKEY + START | Quit       | Quit       | Quit       | Quit       | Quit        |
+| HOTKEY + WEST  | Save state | Save state | Save state | Save state |             |
+| HOTKEY + NORTH | Load state | Load state | Load state | Load state |             |
+
+## Folders
+
+<table><thead><tr><th width="149.5">Emulator</th><th width="199">Content</th><th>Folder</th></tr></thead><tbody><tr><td>lr-picodrive</td><td>Saves</td><td><code>saves\sega32x</code></td></tr><tr><td>lr-picodrive</td><td>Save states</td><td><code>saves\sega32x\libretro.picodrive</code></td></tr><tr><td>BlastEm</td><td>Saves and save states</td><td><code>saves\sega32x\blastem\&#x3C;game></code></td></tr><tr><td>Jgenesis</td><td>Saves</td><td><code>saves\sega32x\jgenesis</code></td></tr><tr><td>Ares</td><td>Saves</td><td><code>saves\sega32x\ares</code></td></tr><tr><td>Kega Fusion</td><td>Saves / save states</td><td><code>saves\sega32x</code> / <code>saves\sega32x\kega-fusion\sstates</code></td></tr><tr><td>BizHawk</td><td>Saves</td><td><code>saves\sega32x\bizhawk</code></td></tr><tr><td>Screenshots</td><td></td><td><code>screenshots</code> (subfolder per emulator)</td></tr></tbody></table>
+
+## Known issues
+
+<table><thead><tr><th width="307.75">Problem</th><th>Solution</th></tr></thead><tbody><tr><td>Black screen with BlastEm</td><td>Copy the three 32X BIOS files to the bios folder, or use lr-picodrive.</td></tr><tr><td>The game is slow or stutters</td><td>32X emulation is demanding with BlastEm, Jgenesis and Ares: use lr-picodrive.</td></tr><tr><td>A Mega-CD 32X game does not start</td><td>Put it in the Mega-CD system and use libretro: picodrive.</td></tr><tr><td>The buttons are not where I expect</td><td>Change BUTTON LAYOUT. See the Megadrive - Genesis page.</td></tr></tbody></table>
