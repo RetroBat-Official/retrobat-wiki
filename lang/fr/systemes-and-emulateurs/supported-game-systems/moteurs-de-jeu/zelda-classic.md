@@ -10,17 +10,13 @@ Zelda Classic (aujourd'hui appelé ZQuest Classic) est un moteur de jeu qui repr
 
 RetroBat ne fournit aucune quête. On en trouve sur les sites de la communauté (par exemple [PureZC](https://www.purezc.net)).
 
-## Informations
+## En bref
 
-| **Émulateurs**       | <ul><li>zquestclassic (par défaut)</li><li>Libretro : zc255</li></ul> |
-| -------------------- | --------------------------------------------------------------------- |
-| **Dossier des jeux** | :open\_file\_folder: roms \ :open\_file\_folder: zeldaclassic         |
-| **Extensions**       | .qst .zip .7z                                                         |
+<table><thead><tr><th width="286.5"></th><th></th></tr></thead><tbody><tr><td><strong>Dossier des jeux</strong></td><td><code>roms\zeldaclassic</code></td></tr><tr><td><strong>Extensions</strong></td><td>.qst .zip .7z</td></tr><tr><td><strong>Émulateur par défaut</strong></td><td>zquestclassic</td></tr><tr><td><strong>BIOS</strong></td><td>Aucun</td></tr><tr><td><strong>Configuration des manettes</strong></td><td>Automatique, tous les émulateurs (joueur 1)</td></tr><tr><td><strong>Sauvegardes instantanées</strong></td><td>cores libretro (zc255)</td></tr><tr><td><strong>RetroAchievements</strong></td><td>Non</td></tr><tr><td><strong>Jeu en réseau</strong></td><td>Non</td></tr></tbody></table>
 
-| Émulateur     | Quêtes compatibles                | Sauvegardes instantanées | Remarques                                     |
-| ------------- | --------------------------------- | ------------------------ | --------------------------------------------- |
-| zquestclassic | Toutes les versions, jusqu'à 2.55 | Non                      | Lecteur officiel de ZQuest Classic (zplayer). |
-| zc255         | 2.55 et antérieures               | Oui                      | Core libretro (RetroArch).                    |
+## Quel émulateur choisir
+
+<table><thead><tr><th width="157.75">Émulateur</th><th width="168.75">Quêtes compatibles</th><th width="132.5">Sauvegardes instantanées</th><th>Remarques</th></tr></thead><tbody><tr><td>zquestclassic</td><td>Toutes les versions, jusqu'à 2.55</td><td>Non</td><td>Lecteur officiel de ZQuest Classic (zplayer). Conseillé.</td></tr><tr><td>zc255</td><td>2.55 et antérieures</td><td>Oui</td><td>Core libretro (RetroArch) : sauvegardes instantanées, shaders, rewind. Quelques quêtes ne permettent pas les sauvegardes instantanées.</td></tr></tbody></table>
 
 Si l'émulateur n'est pas encore installé, RetroBat propose de le télécharger au lancement du premier jeu.
 
@@ -65,6 +61,10 @@ A, B et les boutons EX sont utilisés par la quête elle-même : leur action dé
 
 L'option **SWAP A/B AND X/Y** inverse les boutons de façade, par exemple pour retrouver une disposition de type Nintendo.
 
+{% hint style="info" %}
+Pour régler vos propres contrôles dans **zquestclassic**, désactivez la configuration automatique des manettes de RetroBat pour ce système, puis configurez les contrôles depuis le menu du moteur (bouton **Guide** ou **Échap**).
+{% endhint %}
+
 ### Raccourcis
 
 | Raccourci         | zquestclassic                 | zc255 (libretro)                                                         |
@@ -93,7 +93,7 @@ Avec **zquestclassic**, renommer le fichier du jeu démarre une nouvelle sauvega
 
 Les options de triche du core (invincibilité, traverser les murs, recharges avec R2) ne sont pas gérées par RetroBat. Elles se règlent dans le menu de RetroArch, dans **Options du cœur**.
 
-### Informations spécifiques au système
+## Informations spécifiques au système
 
 * **zquestclassic** est l'émulateur conseillé : c'est le lecteur officiel et il lit toutes les versions de quêtes.
 * **zc255** permet d'avoir les sauvegardes instantanées et les fonctions de RetroArch (shaders, rewind…). Quelques quêtes ne permettent pas les sauvegardes instantanées.

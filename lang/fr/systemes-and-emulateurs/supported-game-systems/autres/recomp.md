@@ -8,130 +8,68 @@ description: >-
 
 <div align="left"><figure><img src="../../../.gitbook/assets/image (202).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-Les portages recompilés et décompilés sont des jeux console reconstruits en programmes Windows natifs (Majora's Mask, Banjo-Kazooie, Star Fox 64, Sonic Unleashed…). Aucun émulateur n'intervient : RetroBat lance directement l'exécutable du portage et attend sa fermeture.
+## Présentation
 
-RetroBat ne fournit pas ces portages. Ils s'installent avec **Quiver Launcher**, ou se téléchargent à la main depuis la page officielle de chaque projet. Chaque portage a ses propres instructions pour fournir les données du jeu original (ROM, ISO ou fichiers du jeu).
+Cette page concerne les portages PC natifs de jeux console, comme les recompilations et les décompilations. Aucun émulateur n'intervient : RetroBat lance directement l'exécutable du portage et attend sa fermeture.
 
-Ce système peut contenir :
+RetroBat ne fournit pas ces portages. Installez-les avec Quiver Launcher ou téléchargez-les depuis la page de leur projet, puis fournissez les données du jeu original selon ce que demande chaque portage.
 
-* des jeux installés avec Quiver Launcher (raccourcis `.lnk`),
-* des portages de décompilation avec un fichier `.decomp` (dans le sous-dossier roms\ du système original du jeu décompilé ou recompilé).
+## En bref
 
-## Information
-
-<table data-header-hidden><thead><tr><th width="240"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>quiverlauncher</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> recomp</td></tr><tr><td><strong>Extensions</strong></td><td>.lnk</td></tr></tbody></table>
+<table><thead><tr><th width="264"></th><th></th></tr></thead><tbody><tr><td><strong>Dossier des jeux</strong></td><td><code>roms\recomp</code></td></tr><tr><td><strong>Extensions</strong></td><td>.lnk .game .m3u .bat .decomp</td></tr><tr><td><strong>Émulateur par défaut</strong></td><td>quiverlauncher</td></tr><tr><td><strong>BIOS</strong></td><td>Aucun (données du jeu original à fournir selon le portage)</td></tr><tr><td><strong>Configuration des manettes</strong></td><td>Non, à régler dans chaque portage</td></tr><tr><td><strong>Sauvegardes instantanées</strong></td><td>Non</td></tr><tr><td><strong>RetroAchievements</strong></td><td>Non</td></tr><tr><td><strong>Jeu en réseau</strong></td><td>Non</td></tr></tbody></table>
 
 ## Contrôles
 
-RetroBat ne configure pas automatiquement les manettes pour ces portages. Configurez les contrôles dans chaque portage.
+* RetroBat ne configure pas automatiquement les manettes pour ces portages. Réglez les contrôles dans chaque portage.
+* **HOTKEY + START** ferme le jeu et revient à RetroBat. Dans Quiver Launcher, il ferme le launcher.
 
-**HOTKEY + START** ferme le jeu lancé depuis RetroBat et revient dans RetroBat. Dans Quiver Launcher, ce raccourci ferme le lanceur.
-
-{% hint style="info" %}
-Un jeu lancé depuis Quiver Launcher doit être fermé depuis son propre menu. Laissez désactivée l'option **Close to tray** de Quiver Launcher, sinon la fermeture du lanceur le cache seulement et RetroBat continue d'attendre.
-{% endhint %}
-
-## Information spécifique au système
-
-### Quiver Launcher
-
-Quiver Launcher télécharge, installe et met à jour des portages communautaires à partir de leurs publications GitHub et GitLab.
+## Quiver Launcher
 
 {% embed url="https://github.com/tgeorgiadis/quiver-launcher" %}
 
-#### Ouvrir Quiver Launcher
+Quiver Launcher télécharge, installe et met à jour les portages de la communauté depuis les releases GitHub et GitLab.
 
-* Depuis les entrées du menu RetroBat, sélectionnez **Quiver Launcher**. RetroBat le télécharge à la première utilisation.
-* Ou activez **RUN LAUNCHER** dans les options avancées d'un jeu de ce système : le lanceur s'ouvre à la place du jeu.
+* **Ouverture :** sélectionnez Quiver Launcher dans le menu de RetroBat (téléchargé à la première utilisation), ou activez **DEMARRER LE LAUNCHER** dans les [options avancées d'un jeu](../../../navigation/game-options.md).
 
 <div align="left"><figure><img src="../../../.gitbook/assets/image (203).png" alt=""><figcaption><p>Démarrer QuiverLauncher depuis le menu RetroBat...</p></figcaption></figure></div>
 
 <div align="left"><figure><img src="../../../.gitbook/assets/image (204).png" alt=""><figcaption><p>... ou activer DEMARRER LE LAUNCHER depuis les options avancées du système ou du jeu.</p></figcaption></figure></div>
 
-RetroBat ouvre Quiver Launcher en plein écran (sauf si RetroBat est en mode fenêtré), avec la navigation à la manette activée. Les statistiques d'utilisation sont désactivées par défaut.
+* **Ajout des jeux :**
+  1. Installez les jeux dans Quiver Launcher et fournissez leurs données.
+  2. Ajoutez-les à RetroBat automatiquement en activant **MENU PRINCIPAL > PARAMÈTRES DES JEUX > SCAN RECOMPILATION (QUIVERLAUNCHER)**, ou manuellement en déplaçant un raccourci du bureau dans `roms\recomp`.
+  3. Mettez à jour la liste des jeux ou redémarrez RetroBat.
+* Si le dossier d'un jeu contient plusieurs exécutables, choisissez-en un d'abord dans Quiver Launcher, sinon le scan automatique l'ignore.
+* **Au lancement d'un jeu :** il démarre directement, suit le réglage plein écran / fenêtré de RetroBat, et range sa configuration et ses sauvegardes dans `emulators\quiverlauncher\Apps\<jeu>`. Pour Perfect Dark, l'option **RÉGION** choisit l'exécutable Europe, USA ou Japon.
 
-#### Ajouter des jeux
+## Portages installés hors de Quiver Launcher
 
-1. Ouvrez Quiver Launcher et installez les jeux souhaités.
-2. Suivez les instructions de chaque jeu pour fournir les données du jeu original.
-3. Ajoutez les jeux dans RetroBat, automatiquement ou à la main :
-   * **Automatiquement** : activez **MENU PRINCIPAL > PARAMÈTRES DES JEUX > SCAN RECOMPILATION (QUIVERLAUNCHER)**. À chaque démarrage, RetroBat crée un raccourci dans `roms\recomp` pour chaque jeu installé dans Quiver Launcher.
-   * **À la main** : dans Quiver Launcher, créez un raccourci sur le bureau pour le jeu, puis déplacez ce raccourci du bureau vers `roms\recomp`.
-4. Rafraîchissez la liste des jeux ou redémarrez RetroBat.
+Un portage installé ailleurs sur votre ordinateur peut aussi être ajouté dans `roms\recomp` :
 
-{% hint style="info" %}
-Si le dossier d'un jeu contient plusieurs exécutables, choisissez d'abord l'exécutable à utiliser dans Quiver Launcher. Tant que ce n'est pas fait, le scan automatique ignore ce jeu.
-{% endhint %}
+* **Raccourci (`.lnk`) :** un raccourci qui ne pointe pas vers un jeu Quiver est lancé tel quel, avec sa cible, ses arguments et son dossier de travail.
+* **Fichier `.game` :** un fichier texte avec le chemin de l'exécutable sur la première ligne. Les lignes suivantes sont passées en arguments.
+* **Fichier `.m3u` :** un fichier texte avec le chemin de l'exécutable sur sa première ligne.
+* **Fichier `.bat` :** le fichier batch est exécuté directement.
 
-#### Ce que fait RetroBat au lancement d'un jeu Quiver
+Dans les fichiers `.game` et `.m3u`, un chemin commençant par `.\` est relatif au dossier du fichier.
 
-* Le jeu est lancé directement, sans ouvrir Quiver Launcher.
-* Le mode plein écran ou fenêtré suit les réglages de RetroBat.
-* Le jeu enregistre sa configuration et ses sauvegardes dans son propre dossier (`emulators\quiverlauncher\Apps\<jeu>`), et non dans le dossier utilisateur de Windows.
-* Si le dossier RetroBat a été déplacé, les raccourcis retrouvent quand même les jeux au nouvel&#x20;
-* **Perfect Dark** : l'option **REGION** choisit l'exécutable Europe, USA ou Japon.
+Si le processus du jeu ne porte pas le même nom que l'exécutable, créez un fichier `.gameexe` portant le même nom, qui contient le nom du processus.
 
-### Portages decomp (.decomp)
+## Portages decomp (.decomp)
 
-Un portage `.decomp` peut être placé dans le dossier de sa console d'origine, pour apparaître dans la même liste que les jeux de cette console (par exemple un portage de Star Fox 64 affiché avec les jeux Nintendo 64). Quel que soit l'émulateur choisi pour le système ou pour le jeu, un fichier `.decomp` est toujours lancé comme un portage decomp.
+Un fichier `.decomp` placé dans le dossier d'une console fait apparaître le portage dans la liste des jeux de cette console. Il est toujours lancé comme un portage decomp, quel que soit l'émulateur choisi. Par exemple, un portage de Star Fox 64 peut se trouver dans `roms\n64`.
 
-```
-roms
-└── n64
-    ├── (jeux Nintendo 64)
-    └── Starship
-        ├── Starship.exe
-        └── Star Fox 64.decomp
-```
-
-L'extension `.decomp` est actuellement acceptée par les systèmes suivants :
-
-| Système          | Dossier         |
-| ---------------- | --------------- |
-| MAME             | `roms\mame`     |
-| CPS-III          | `roms\cps3`     |
-| Model 2          | `roms\model2`   |
-| Model 3          | `roms\model3`   |
-| Naomi            | `roms\naomi`    |
-| Naomi 2          | `roms\naomi2`   |
-| Super Nintendo   | `roms\snes`     |
-| Nintendo 64      | `roms\n64`      |
-| GameCube         | `roms\gamecube` |
-| Wii              | `roms\wii`      |
-| Switch           | `roms\switch`   |
-| Game Boy Advance | `roms\gba`      |
-| PlayStation      | `roms\psx`      |
-| PlayStation 2    | `roms\ps2`      |
-| PlayStation 3    | `roms\ps3`      |
-| Xbox             | `roms\xbox`     |
-| Xbox 360         | `roms\xbox360`  |
+Systèmes qui acceptent les fichiers `.decomp` : MAME, CPS-III, Model 1, Model 2, Model 3, Naomi, Naomi 2, Saturn, Super Nintendo, Nintendo 64, GameCube, Wii, Wii U, Switch, Game Boy Advance, Nintendo DS, Nintendo 3DS, PlayStation, PlayStation 2, PlayStation 3, PlayStation 4, PSP, PS Vita, Xbox et Xbox 360, ainsi que `roms\recomp`.
 
 {% hint style="warning" %}
-RetroBat parcourt les sous-dossiers du dossier de la console. Si le dossier du portage contient des fichiers portant une extension de cette console (par exemple des `.zip` ou des `.wad` dans `roms\n64`), ils apparaissent aussi dans la liste des jeux. Masquez-les dans la liste des jeux, ou gardez ces fichiers hors du dossier du portage quand le portage le permet.
+RetroBat parcourt les sous-dossiers : les fichiers au format de la console (par exemple `.zip` ou `.wad`) présents dans le dossier d'un portage apparaissent aussi dans la liste des jeux.
 {% endhint %}
 
-#### Contenu du fichier .decomp
+* **Contenu du fichier :** il peut être vide ; RetroBat lance alors le premier `.exe` situé à côté. Pour choisir un exécutable précis, écrivez son nom sur la première ligne, sans `.exe`. Seul le dossier du fichier est parcouru, et un nom introuvable revient au premier exécutable.
+* **Nom de processus différent :** créez un fichier `.gameexe` portant le même nom, qui contient le nom du processus. RetroBat l'attend environ 6 secondes, puis attend sa fermeture.
 
-Le fichier `.decomp` peut rester vide : RetroBat lance alors le premier exécutable (`.exe`) trouvé à côté de lui.
+## Mise à jour depuis N64RecompLauncher
 
-Si le dossier contient plusieurs exécutables, indiquez sur la première ligne le nom de l'exécutable à lancer, **sans l'extension `.exe`** :
+Quiver Launcher remplace N64RecompLauncher. Copiez `roms\n64recomp` vers `roms\recomp`, puis réinstallez vos jeux dans Quiver Launcher : ils ne sont pas transférés.
 
-```
-Starship
-```
-
-* Seul le dossier qui contient le fichier `.decomp` est parcouru, pas ses sous-dossiers.
-* Les lignes vides et les lignes commençant par `#` sont ignorées.
-* Si le nom ne correspond à aucun exécutable du dossier, RetroBat lance le premier exécutable trouvé.
-
-Le portage est lancé depuis le dossier qui contient le fichier `.decomp`.
-
-Si le processus du jeu porte un autre nom que l'exécutable, créez un fichier `.gameexe` portant le même nom que le fichier `.decomp`, dans le même dossier, contenant le nom du processus du jeu (avec ou sans `.exe`). RetroBat attend l'apparition de ce processus pendant environ 6 secondes, puis attend sa fermeture.
-
-### Mise à jour depuis N64RecompLauncher
-
-Quiver Launcher remplace N64RecompLauncher.
-
-* Le dossier `roms\n64recomp` est renommé `roms\recomp` pendant la mise à jour de RetroBat, avec sa liste de jeux et ses médias.
-* Les jeux installés avec N64RecompLauncher ne sont pas transférés : réinstallez-les dans Quiver Launcher.
-* Vos sauvegardes restent dans `emulators\n64recomplauncher\RecompiledGames\<jeu>`. Copiez-les dans le dossier du même jeu dans `emulators\quiverlauncher\Apps\<jeu>`.
+Pour garder vos sauvegardes, copiez-les de `emulators\n64recomplauncher\RecompiledGames\<jeu>` vers `emulators\quiverlauncher\Apps\<jeu>`.
