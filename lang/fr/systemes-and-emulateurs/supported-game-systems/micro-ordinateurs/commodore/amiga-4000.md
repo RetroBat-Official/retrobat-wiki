@@ -146,7 +146,7 @@ Beaucoup de jeux Amiga utilisent le clavier (barre d'espace, touches F1 à F10, 
 
 ### Raccourcis
 
-**Cores libretro** : raccourcis standards de RetroBat.
+**Cores libretro** : [raccourcis standards de RetroBat](../../../../navigation/hotkeys.md).
 
 | Raccourci      | Amiberry           | WinUAE  | Amiga Forever |
 | -------------- | ------------------ | ------- | ------------- |

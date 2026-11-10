@@ -97,7 +97,7 @@ WinUAE émule aussi la manette CD32 complète. Avec lr-amiberry, seuls les bouto
 
 ### Raccourcis
 
-**Cores libretro** : raccourcis standards de RetroBat.
+**Cores libretro** : [raccourcis standards de RetroBat](../../../../navigation/hotkeys.md).
 
 | Raccourci      | Amiberry           | WinUAE  | Amiga Forever |
 | -------------- | ------------------ | ------- | ------------- |
