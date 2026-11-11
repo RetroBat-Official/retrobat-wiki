@@ -61,15 +61,7 @@ Only **European (PAL)** games use it: US and Japanese games stay in their origin
 
 ## Which game format?
 
-| Format                 | dolphin                 | lr-dolphin | Notes                                                                                                               |
-| ---------------------- | ----------------------- | ---------- | ------------------------------------------------------------------------------------------------------------------- |
-| **.rvz** (recommended) | ✔                       | ✔          | Dolphin's lossless compressed format: games 30 to 70% smaller.                                                      |
-| .iso                   | ✔                       | ✔          | Uncompressed disc image (1.4 GB).                                                                                   |
-| .gcz / .wia / .ciso    | ✔                       | ✔          | Older compressed formats.                                                                                           |
-| .zip / .7z / .squashfs | ✔ (extracted at launch) | ✘          | Slower loading.                                                                                                     |
-| .m3u                   | ✔                       | ✔          | Multi-disc games ([see below](gamecube.md#multi-disc-games)).                                                       |
-| .dol                   | ✔                       | ✔          | Homebrew programs.                                                                                                  |
-| .json                  | ✔                       | ✘          | Games modified with Riivolution patches ([see Guides](gamecube.md#modified-games-riivolution-patches-.json-files)). |
+<table><thead><tr><th width="197.75">Format</th><th width="122.75">dolphin</th><th width="106">lr-dolphin</th><th>Notes</th></tr></thead><tbody><tr><td><strong>.iso</strong> (recommended)</td><td>✔</td><td>✔</td><td>Uncompressed disc image (1.4 GB).</td></tr><tr><td><strong>.rvz</strong> (recommended)</td><td>✔</td><td>✔</td><td>Dolphin's lossless compressed format: games 30 to 70% smaller.</td></tr><tr><td>.gcz / .wia / .ciso</td><td>✔</td><td>✔</td><td>Older compressed formats.</td></tr><tr><td>.zip / .7z / .squashfs</td><td>✔ (extracted at launch)</td><td>✘</td><td>Slower loading.</td></tr><tr><td>.m3u</td><td>✔</td><td>✔</td><td>Multi-disc games (<a href="gamecube.md#multi-disc-games">see below</a>).</td></tr><tr><td>.dol</td><td>✔</td><td>✔</td><td>Homebrew programs.</td></tr><tr><td>.json</td><td>✔</td><td>✘</td><td>Games modified with Riivolution patches (<a href="gamecube.md#modified-games-riivolution-patches-.json-files">see Guides</a>).</td></tr></tbody></table>
 
 * To convert a game to .rvz, open Dolphin (`emulators\dolphin-emu\Dolphin.exe`), right-click the game, choose **Convert File…** and pick the **RVZ** format.
 * .wbfs and .wad are **Wii** formats: those games go in `roms\wii`.
