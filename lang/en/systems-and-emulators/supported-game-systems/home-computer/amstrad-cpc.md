@@ -70,6 +70,7 @@ An Amstrad joystick only has two or three fire buttons. Many games also use the 
 | R2                  | F2                    | —        | —              |
 | START               | —                     | RETURN   | —              |
 | SELECT              | —                     | Space    | —              |
+| L3                  | Virtual Keyboard      |          |                |
 
 With crocods, the second controller sends the keyboard cursor keys and Space, not a second joystick.
 
@@ -77,17 +78,17 @@ With crocods, the second controller sends the keyboard cursor keys and Space, no
 
 Hold **WEST** and press another button to send a command to the Amstrad:
 
-| Combination      | Action                                                    |
-| ---------------- | --------------------------------------------------------- |
-| **WEST + START** | Shows or hides the virtual keyboard                       |
-| WEST + EAST      | Types `RUN"DISK` then `RUN"DISC` (starts many disk games) |
-| WEST + SOUTH     | Types `CAT` (lists the disk content)                      |
-| WEST + NORTH     | Types the commands that start a tape                      |
-| WEST + UP        | Types `1` then `Y`                                        |
-| WEST + DOWN      | Types `2` then `N`                                        |
-| WEST + RIGHT     | Types `3` then `J`                                        |
-| WEST + LEFT      | Types `4` then `S`                                        |
-| WEST + L1 / R1   | Previous / next disk (`.m3u` games)                       |
+| Combination            | Action                                                    |
+| ---------------------- | --------------------------------------------------------- |
+| **L3 or WEST + START** | Shows or hides the virtual keyboard                       |
+| WEST + EAST            | Types `RUN"DISK` then `RUN"DISC` (starts many disk games) |
+| WEST + SOUTH           | Types `CAT` (lists the disk content)                      |
+| WEST + NORTH           | Types the commands that start a tape                      |
+| WEST + UP              | Types `1` then `Y`                                        |
+| WEST + DOWN            | Types `2` then `N`                                        |
+| WEST + RIGHT           | Types `3` then `J`                                        |
+| WEST + LEFT            | Types `4` then `S`                                        |
+| WEST + L1 / R1         | Previous / next disk (`.m3u` games)                       |
 
 The combinations with directions are meant to answer game menus (choices 1 to 4, yes / no, joystick…).
 
@@ -169,20 +170,10 @@ RetroBat reads the per-game keys from `system\resources\inputmapping\libretro_ca
 1. In the game options, turn on **GUNS > ENABLE GUN**.
 2. Pick **GUNS > LIGHTGUN MODE** according to the game:
 
-<table><thead><tr><th width="305.25">Mode</th><th>Games</th></tr></thead><tbody><tr><td><strong>PHASER</strong> (Amstrad Magnum Phaser)</td><td>Operation Wolf, Bullseye, Missile Ground Zero, Robot Attack, Rookie, Solar Invasion, American Turbo-King, Billy the Kid, Bronx Street Cop, F-16 Fighting Falcon, Jungle Warfare</td></tr><tr><td><strong>GUNSTICK</strong></td><td>Mike Gunner, Bestial Warrior, Cosmic Sheriff, El Equipo A, Guillermo Tell, Outlaws, Solo, Sootland, Space Smugglers, Target Plus, Trigger</td></tr></tbody></table>
+<table><thead><tr><th width="305.25">Mode</th><th>Games</th></tr></thead><tbody><tr><td><strong>PHASER</strong> (Amstrad Magnum Phaser)</td><td>Operation Wolf, Bullseye, Missile Ground Zero, Robot Attack, Rookie, Solar Invasion, American Turbo-King, Billy the Kid, Bronx Street Cop, F-16 Fighting Falcon, Jungle Warfare</td></tr><tr><td><strong>GUNSTICK</strong></td><td>Mike Gunner, Bestial Warrior, Cosmic Sheriff, El Equipo A, Guillermo Tell, Outlaws, Solo, Sootland, Space Smugglers, Target Plus, Trigger</td></tr><tr><td><strong>WEST PHASER</strong> (Loriciel West Phaser)</td><td>West Phaser</td></tr><tr><td><strong>TROJAN PHAZER</strong> (Trojan Light Phazer)</td><td>Cartridge games: see the <a href="../game-consoles/gx4000.md"><strong>Amstrad GX4000</strong></a> page</td></tr></tbody></table>
 
 The **SHOW CROSSHAIR** option displays a crosshair on screen.
 
 ## Known issues
 
-| Issue                                                           | Solution                                                                                                                                                                                                     |
-| --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| The game doesn't start, the screen stays on `Ready`             | The automatic command didn't find the right file. Try **WEST + EAST**, type the command with the virtual keyboard (**WEST + START**), or force it (see [Guides](amstrad-cpc.md#forcing-the-launch-command)). |
-| The game asks you to press a key or to pick keyboard / joystick | Use the virtual keyboard (**WEST + START**) or the **WEST + direction** combinations.                                                                                                                        |
-| Typed keys are wrong in a French game                           | Pick **KEYBOARD LAYOUT**: FRENCH (cap32) or **AMSTRAD MODEL**: CPC 6128 FR (Caprice Forever).                                                                                                                |
-| A very old game doesn't work                                    | With cap32, pick **MODEL TYPE**: 464.                                                                                                                                                                        |
-| A tape takes a very long time to load                           | This is normal. Use RetroArch fast-forward (see the [Hotkeys page](../../../navigation/hotkeys.md)) or prefer the `.dsk` disk version.                                                                       |
-| RetroArch shortcuts trigger when I type on the keyboard         | Turn on **KEYBOARD FOCUS**.                                                                                                                                                                                  |
-| The light gun doesn't respond                                   | Check **LIGHTGUN MODE**. GUNSTICK mode doesn't work with a green monitor: leave **MONITOR TYPE** on COLOR.                                                                                                   |
-| crocods doesn't start the game                                  | crocods only reads `.dsk`, `.sna` and `.kcr` files: use cap32.                                                                                                                                               |
-| The controller doesn't respond with Caprice Forever             | The controller is not recognized: turn on **KEYBOARD AS JOYSTICK** or use cap32.                                                                                                                             |
+<table><thead><tr><th width="334">Issue</th><th>Solution</th></tr></thead><tbody><tr><td>The game doesn't start, the screen stays on <code>Ready</code></td><td>The automatic command didn't find the right file. Try <strong>WEST + EAST</strong>, type the command with the virtual keyboard (<strong>WEST + START</strong>), or force it (see <a href="amstrad-cpc.md#forcing-the-launch-command">Guides</a>).</td></tr><tr><td>The game asks you to press a key or to pick keyboard / joystick</td><td>Use the virtual keyboard (<strong>L3</strong> or <strong>WEST + START</strong>) or the <strong>WEST + direction</strong> combinations.</td></tr><tr><td>Typed keys are wrong in a French game</td><td>Pick <strong>KEYBOARD LAYOUT</strong>: FRENCH (cap32) or <strong>AMSTRAD MODEL</strong>: CPC 6128 FR (Caprice Forever).</td></tr><tr><td>A very old game doesn't work</td><td>With cap32, pick <strong>MODEL TYPE</strong>: 464.</td></tr><tr><td>A tape takes a very long time to load</td><td>This is normal. Use RetroArch fast-forward (see the <a href="../../../navigation/hotkeys.md">Hotkeys page</a>) or prefer the <code>.dsk</code> disk version.</td></tr><tr><td>RetroArch shortcuts trigger when I type on the keyboard</td><td>Turn on <strong>KEYBOARD FOCUS</strong>.</td></tr><tr><td>The light gun doesn't respond</td><td>Check <strong>LIGHTGUN MODE</strong>. GUNSTICK mode doesn't work with a green monitor: leave <strong>MONITOR TYPE</strong> on COLOR.</td></tr><tr><td>crocods doesn't start the game</td><td>crocods only reads <code>.dsk</code>, <code>.sna</code> and <code>.kcr</code> files: use cap32.</td></tr><tr><td>The controller doesn't respond with Caprice Forever</td><td>The controller is not recognized: turn on <strong>KEYBOARD AS JOYSTICK</strong> or use cap32.</td></tr><tr><td>The virtual keyboard opens when I press L3</td><td>L3 always opens the virtual keyboard, even in games where RetroBat places a key on L3, and with <strong>HOTKEY + L3</strong>. Press <strong>L3</strong> again to close it.</td></tr></tbody></table>
