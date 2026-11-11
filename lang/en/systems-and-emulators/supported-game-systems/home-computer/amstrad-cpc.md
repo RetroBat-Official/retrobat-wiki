@@ -17,7 +17,7 @@ The range evolved quickly:
 * **CPC 464** (1984): 64 KB, cassette deck;
 * **CPC 664** (1985): a 3-inch floppy drive replaces the cassette deck;
 * **CPC 6128** (1985): 128 KB and floppy drive, the most common model;
-* **464 Plus** and **6128 Plus** (1990): cartridge port, 4096-colour palette and hardware sprites, like the GX4000 console (see the **Amstrad GX4000** page).
+* **464 Plus** and **6128 Plus** (1990): cartridge port, 4096-colour palette and hardware sprites, like the GX4000 console (see the [**Amstrad GX4000**](../game-consoles/gx4000.md) page).
 
 With around three million units sold, the CPC was a huge success in France, Spain and the United Kingdom. Its library holds thousands of titles: Gryzor, Renegade, Rick Dangerous, Sorcery, Get Dexter, L'Aigle d'Or, Head Over Heels, Barbarian, Prince of Persia, La Abadía del Crimen…
 
