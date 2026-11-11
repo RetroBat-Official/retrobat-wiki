@@ -17,7 +17,7 @@ La gamme a vite évolué :
 * **CPC 464** (1984) : 64 Ko, lecteur de cassettes ;
 * **CPC 664** (1985) : un lecteur de disquettes 3 pouces remplace les cassettes ;
 * **CPC 6128** (1985) : 128 Ko et lecteur de disquettes, le modèle le plus répandu ;
-* **464 Plus** et **6128 Plus** (1990) : port cartouche, palette de 4096 couleurs et sprites matériels, comme la console GX4000 (voir la page **Amstrad GX4000**).
+* **464 Plus** et **6128 Plus** (1990) : port cartouche, palette de 4096 couleurs et sprites matériels, comme la console GX4000 (voir la [page **Amstrad GX4000**](../consoles-de-jeu/gx4000.md)).
 
 Vendu à environ trois millions d'exemplaires, le CPC a connu un très grand succès en France, en Espagne et au Royaume-Uni. Sa ludothèque compte des milliers de titres : Gryzor, Renegade, Rick Dangerous, Sorcery, Crafton & Xunk, L'Aigle d'Or, Head Over Heels, Barbarian, Prince of Persia, La Abadía del Crimen…
 
