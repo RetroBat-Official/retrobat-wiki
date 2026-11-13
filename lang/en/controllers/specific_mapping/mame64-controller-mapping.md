@@ -1,240 +1,199 @@
 # MAME controller mapping
 
-MAME emulator control mapping is very complexe because each machine it emulates had a different control layout.
+## Overview
 
-RetroBat offers multiple ways to change controller mapping for MAME, as well as libretro-mame. Each method is described in this page.
+Every arcade cabinet had its own control panel: one button, six buttons, a wheel, a trackball… So there is no controller setup that fits all MAME games.
 
-## MAME (standalone)
+RetroBat sets the buttons automatically, game by game, for **lr-mame**, **mame2003\_plus**, **MAME** and **GroovyMAME**. This page explains how that setup is chosen and how to change it: layout for an arcade stick, fixing one game, IPAC2 or X-Arcade panel, personal profile.
 
-RetroBat offers multiple ways to manage MAME controller configuration, either manually, or with automatic configuration:
+The table of default buttons and the hotkeys are on the [**MAME**](../../systems-and-emulators/supported-game-systems/arcade/mame.md) page.
 
-* RetroBat standard autoconfiguration
-* RetroBat xml override files (per-game)
-* Specific configuration for special controller types
-* Manual Game specific configuration
-* Manual Custom configuration
+## How RetroBat chooses the buttons
 
-### RetroBat autoconfiguration
+When a game starts, RetroBat looks in this order for:
 
-By default, RetroBat will try to autoconfigure controls in MAME either by using RetroBat-provided per-game configuration, or by setting a default configuration.
+1. **your configuration** of the game, in `user\inputmapping`;
+2. **the configuration of the game shipped with RetroBat**, in `system\resources\inputmapping` (more than 3,000 games);
+3. if the game is a clone without a configuration, **the one of its parent game**;
+4. otherwise, **the default configuration** of the selected layout.
 
-Autoconfiguration can change depending on the controller layout that you specify in **ADVANCED SETTINGS > CONTROLS**:
+The files depend on the emulator:
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<table><thead><tr><th width="172">Emulator</th><th width="318">Files shipped with RetroBat</th><th>Your files</th></tr></thead><tbody><tr><td><strong>MAME, GroovyMAME</strong></td><td>One <code>&#x3C;game>.xml</code> file per game in <code>system\resources\inputmapping\mame</code></td><td><code>user\inputmapping\mame\&#x3C;game>.xml</code></td></tr><tr><td><strong>lr-mame</strong></td><td><code>system\resources\inputmapping\libretro_mame.yml</code> (buttons) and <code>system\resources\inputmapping\lr-mame\&#x3C;game>.cfg</code> (MAME menu shortcuts)</td><td><code>user\inputmapping\libretro_mame.yml</code></td></tr><tr><td><strong>mame2003_plus</strong></td><td>The same <code>libretro_mame.yml</code> as lr-mame, and <code>system\resources\inputmapping\libretro_mame2003_plus.yml</code> for games whose buttons differ in this MAME version</td><td><code>user\inputmapping\libretro_mame2003_plus.yml</code></td></tr></tbody></table>
 
-**The default button for each layout is the following:**
+These files describe buttons with generic names and hold one section per layout. RetroBat converts them at launch for the connected controller.
 
-**Controller**: this profile is adapted to gamepads, where ![](<../../.gitbook/assets/image (3) (1) (1) (1).png>) is assigned to button 1, ![](<../../.gitbook/assets/image (4) (1) (1) (1).png>) is assigned to button 2, ![](<../../.gitbook/assets/image (5) (1) (1).png>) is assigned to button 3, ![](<../../.gitbook/assets/image (6) (1) (1).png>) is assigned to button 4, L1 to button 5, R1 to button 6, L2 to button 7 and R2 to button 8
+Do not edit the files in the `system` folder: they are replaced by each update.
 
-**Modern 8 buttons**: this profile is the most common one for modern arcade sticks, upper 4 buttons are buttons 1 (![](<../../.gitbook/assets/image (7) (1).png>)), 2(![](<../../.gitbook/assets/image (8).png>)), 3(R1) and 7(L1), lower 4 buttons are buttons 4(![](<../../.gitbook/assets/image (9).png>)), 5(![](<../../.gitbook/assets/image (10).png>)), 6(R2) and 8(L2)
+## Controller layout
 
-**Classic 8 buttons**: upper 4 buttons are buttons 1 (![](<../../.gitbook/assets/image (7) (1).png>)), 2(![](<../../.gitbook/assets/image (8).png>)), 3(L1) and 7(L2), lower 4 buttons are buttons 4(![](<../../.gitbook/assets/image (9).png>)), 5(![](<../../.gitbook/assets/image (10).png>)), 6(R1) and 8(R2)
+On an arcade stick, buttons are arranged in two rows. The **CONTROLS > CONTROLLER LAYOUT** option tells RetroBat how your panel is built, so that it can reproduce the layout of the original cabinet on it.
 
-**6 buttons**: similar to classic 8 buttons but without buttons 7 and 8
+<table><thead><tr><th width="240.75">Layout</th><th width="239.25">Top row</th><th>Bottom row</th></tr></thead><tbody><tr><td><strong>CONTROLLER(SNES)</strong> (default)</td><td>For gamepads</td><td></td></tr><tr><td><strong>MODERN 8 BUTTONS</strong></td><td>WEST, NORTH, R1, L1</td><td>SOUTH, EAST, R2, L2</td></tr><tr><td><strong>8 BUTTONS ALTERNATIVE</strong></td><td>WEST, NORTH, L1, L2</td><td>SOUTH, EAST, R1, R2</td></tr><tr><td><strong>6 BUTTONS</strong></td><td>WEST, NORTH, L1</td><td>SOUTH, EAST, R1</td></tr><tr><td><strong>CLASSIC 8 BUTTONS</strong></td><td>Handled as 6 BUTTONS</td><td></td></tr></tbody></table>
 
-**8 buttons alternative**: default is the same as Controller mapping
+<figure><img src="../../.gitbook/assets/image (523).png" alt=""><figcaption></figcaption></figure>
 
-### Per-Game automatic xml overrides
+Per-game configurations follow these rules:
 
-RetroBat ships with adapted per-game configuration, for each of the layouts described above, for approximately 130 games, the override files shipped with RetroBat are located in the `\system\resources\inputmapping\mame` folder:
+* **6-button game** (Street Fighter II): buttons 1, 2, 3 on the top row, buttons 4, 5, 6 on the bottom row;
+* **game with 3 buttons or fewer**: top row with MODERN 8 BUTTONS and 6 BUTTONS, bottom row with 8 BUTTONS ALTERNATIVE.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure></div>
+This option can also be set for all arcade systems in **GAME SETTINGS > CONTROLS > SPECIAL CONTROLLERS** (see the [**Arcade Sticks**](../supported-controllers/arcade-sticks.md) page).
 
-{% hint style="info" %}
-You can create your own file and share it with the RetroBat team, or save it in the `\user\inputmapping\mame` folder of your RetroBat installation if you need a variation of the profile provided by RetroBat.
-{% endhint %}
+### Games without a dedicated configuration
 
-The override file is a xml file, almost similar to the MAME format used for its own config files, but with generic button names, that will be converted by RetroBat based on your connected controller and selected profile:
+<table><thead><tr><th width="147.75">Cabinet button</th><th width="173">CONTROLLER(SNES)</th><th width="180.5">MODERN 8 BUTTONS</th><th width="173">6 BUTTONS</th></tr></thead><tbody><tr><td>Button 1</td><td>WEST <img src="../../.gitbook/assets/image (539).png" alt=""></td><td>WEST <img src="../../.gitbook/assets/image (540).png" alt=""></td><td>WEST <img src="../../.gitbook/assets/image (541).png" alt=""></td></tr><tr><td>Button 2</td><td>SOUTH <img src="../../.gitbook/assets/image (527).png" alt=""></td><td>NORTH <img src="../../.gitbook/assets/image (536).png" alt=""></td><td>NORTH <img src="../../.gitbook/assets/image (537).png" alt=""></td></tr><tr><td>Button 3</td><td>EAST <img src="../../.gitbook/assets/image (531).png" alt=""></td><td>R1</td><td>L1</td></tr><tr><td>Button 4</td><td>NORTH <img src="../../.gitbook/assets/image (535).png" alt=""></td><td>SOUTH <img src="../../.gitbook/assets/image (528).png" alt=""></td><td>SOUTH <img src="../../.gitbook/assets/image (529).png" alt=""></td></tr><tr><td>Button 5</td><td>L1</td><td>EAST <img src="../../.gitbook/assets/image (532).png" alt=""></td><td>EAST <img src="../../.gitbook/assets/image (533).png" alt=""></td></tr><tr><td>Button 6</td><td>R1</td><td>R2</td><td>R1</td></tr><tr><td>Button 7</td><td>L2</td><td>L1</td><td>L2</td></tr><tr><td>Button 8</td><td>R2</td><td>L2</td><td>R2</td></tr></tbody></table>
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure></div>
+Buttons 7 and 8 are only set for MAME, GroovyMAME and mame2003\_plus.
 
-Each file contains multiple "_layout_" sections, which corresponds to the available layouts in RetroBat. Based on the selected value in RetroBat controls settings, the corresponding layout from the file will be picked.
+**8 BUTTONS ALTERNATIVE**: same as 6 BUTTONS with lr-mame and mame2003\_plus, same as CONTROLLER(SNES) with MAME and GroovyMAME.
 
-Each layout contains the specific button mappings to use for the game, for example the following line means that the **button 3** of the arcade machine "_altbeast_", for the player 1, will be mapped to the **east face button** of the controller when using the _default_ layout:
+## Which method should I choose?
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure></div>
+| You want to…                                                 | MAME, GroovyMAME                                        | lr-mame                                    |
+| ------------------------------------------------------------ | ------------------------------------------------------- | ------------------------------------------ |
+| Fit the buttons to your arcade stick                         | **CONTROLLER LAYOUT**                                   | **CONTROLLER LAYOUT**                      |
+| Fix the buttons of one game, keeping automatic configuration | `user\inputmapping\mame\<game>.xml` file                | `user\inputmapping\libretro_mame.yml` file |
+| Set buttons in the MAME menu and keep them                   | **CONTROLLER PROFILE**: NONE                            | **USE OWN CFG FILE**                       |
+| Use an IPAC2 or X-Arcade panel                               | **CONTROLLER PROFILE**: IPAC2 or X-ARCADE               | —                                          |
+| Use your own controller file                                 | **CONTROLLER PROFILE**: CUSTOM 1 to 8, or GAME SPECIFIC | —                                          |
+| Let MAME choose the buttons of the game                      | —                                                       | **ENABLE PER GAME AUTO MAPPING**           |
+| Set everything yourself                                      | Turn off **AUTOCONFIGURE CONTROLLERS**                  | Turn off **AUTOCONFIGURE CONTROLLERS**     |
 
-In the same file you can see that this button is mapped to the **R1 button** when using the modern8 layout (which corresponds to the 3rd button of the upper range of the arcade stick):
+These options are in the advanced system options, **CONTROLS** submenu. For mame2003\_plus, see its own section below.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (524).png" alt=""><figcaption></figcaption></figure></div>
 
-You can use the [same method as described below](mame64-controller-mapping.md#creating-a-specific-controller-configuration-file-for-mame) to create your own mapping file, however you will need to change the button values with the generic ones from RetroBat:
+## MAME and GroovyMAME
 
-<details>
+### Controller profile
 
-<summary>List of generic RetroBat button values</summary>
+The **CONTROLS > CONTROLLER PROFILE** option chooses where the buttons come from:
 
-* JOY\_west
-* JOY\_north
-* JOY\_east
-* JOY\_south
-* JOY\_down (dpad down)
-* JOY\_lsdown (left stick down)
-* JOY\_up / JOY\_lsup
-* JOY\_left / JOY\_lsleft
-* JOY\_right / JOY\_lsright
-* JOY\_r1
-* JOY\_l1
-* JOY\_r2trigger
-* JOY\_l2trigger
-* JOY\_r3
-* JOY\_l3
-* JOY\_leftstickx (left stick horizontal axis) / JOY\_rightstickx
-* JOY\_leftsticky (left stick vertical axis) / JOY\_leftstickx
-* JOY\_lsup / JOY\_lsdown / JOY\_lsleft / JOY\_lsright (left stick directions)
+<table><thead><tr><th width="250.25">Choice</th><th>Effect</th></tr></thead><tbody><tr><td><strong>RETROBAT AUTO</strong> (default)</td><td>RetroBat automatic configuration, game by game.</td></tr><tr><td><strong>X-ARCADE</strong>, <strong>IPAC2</strong></td><td>Profiles shipped with RetroBat for these panels: <code>X-Arcade.cfg</code> and <code>ipac2.cfg</code> in <code>saves\mame\ctrlr</code>.</td></tr><tr><td><strong>CUSTOM 1</strong> to <strong>8</strong></td><td>Your <code>custom1.cfg</code> to <code>custom8.cfg</code> file in <code>saves\mame\ctrlr</code>.</td></tr><tr><td><strong>GAME SPECIFIC</strong></td><td>A file named after the game in <code>saves\mame\ctrlr</code>, for example <code>wjammers.cfg</code> for <code>wjammers.zip</code>.</td></tr><tr><td><strong>NONE</strong></td><td>RetroBat sets nothing: MAME uses its <code>.cfg</code> files.</td></tr></tbody></table>
 
-It is also possible to add "reverse" after and axis in order to set \_REVERSE in MAME config file.
+### MAME .cfg files
 
-</details>
+MAME saves its per-game settings in `saves\mame\cfg`: `default.cfg` for all games, `<game>.cfg` for one game. They hold the buttons set in the MAME menu, and also the cabinet switches (DIP switches).
 
-### Using manual specific configuration
+MAME reads the controller profile first, then `default.cfg`, then the `.cfg` of the game: the last one read wins. **A button set in a `.cfg` file therefore takes priority over the profile.**
 
-Use the following setting in RetroBat **ADVANCED SETTINGS > CONTROLS** menu to enable specific configuration:
+With the **RETROBAT AUTO** profile, RetroBat removes the buttons from `default.cfg` and `<game>.cfg` for the session, then puts them back. DIP switches are kept. Buttons changed in the MAME menu during the session are not kept; a copy of the files of the last session stays in `saves\mame\cfgbackupmame64`.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+With the other profiles, RetroBat does not touch these files.
 
-All the settings other than RetroBat Auto can be used to point MAME to use a controller config file in the `\saves\mame\ctrlr\` folder of your retrobat installation.
+lr-mame and MAME share the `saves\mame\cfg` folder. The **EMULATION > SEPARATE CFG FOLDER FROM LIBRETRO** option gives MAME its own folder, `saves\mame\cfg64`.
 
-RetroBat ships with 2 files, one for the IPAC2 controller and one for the X-Arcade TankStick controller, if you own one of these controllers, you can use these options to autoconfigure these.
+### Fixing the buttons of a game (XML file)
 
-The other profiles can be used to point to files that you need to create, either custom files, or per-game files (named after the game rom). Such files are not provided with RetroBat and need to be created, here is the procedure:
+1. Copy the file of the game, for example `sf2.xml`, from `system\resources\inputmapping\mame` to `user\inputmapping\mame`.
+2. Open the copy with a text editor. Each layout has its `<layout type="...">` section: `default` (gamepad), `modern8`, `8alternative`, `6alternative`. If the section of your layout does not exist, RetroBat uses the `default` section.
+3. In the section you need, change the controller button name in the `mapping` line:
 
-### Creating a specific controller configuration file for MAME
+```xml
+<button type="P1_BUTTON1" tag=":IN1" mask="16" defvalue="16" function="P1_BUTTON1">
+  <mapping type="standard" name="JOY_west" />
+</button>
+```
 
-#### STEP 1 : Preliminary explanations
+<div align="left"><figure><img src="../../.gitbook/assets/image (542).png" alt=""><figcaption></figcaption></figure></div>
 
-MAME standalone will read the controller configuration files in the following ordre of priority (from less priority to highest priority - meaning the last file found will override what is found before):
+Several buttons can trigger the same action, separated by `OR`: `JOY_right OR JOY_lsright`.
 
-1. Native controller configuration
-2. Default.cfg file located in `\saves\mame\cfg` folder
-3. Game specific config files located in `\saves\mame\cfg` folder
-4. Controller configuration file located in `\saves\mame\ctrlr` folder as per selection in RetroBat options
+**Accepted names**
 
-#### STEP 2 : Create controller mapping file in MAME
+| Name                                                                     | Button                                                                         |
+| ------------------------------------------------------------------------ | ------------------------------------------------------------------------------ |
+| `JOY_south`, `JOY_east`, `JOY_west`, `JOY_north`                         | Face buttons                                                                   |
+| `JOY_l1`, `JOY_r1`                                                       | L1 and R1                                                                      |
+| `JOY_l2`, `JOY_r2`                                                       | L2 and R2, used as buttons                                                     |
+| `JOY_l2trigger`, `JOY_r2trigger`                                         | L2 and R2, analog                                                              |
+| `JOY_l3`, `JOY_r3`                                                       | Stick clicks                                                                   |
+| `JOY_start`, `JOY_select`                                                | START and SELECT                                                               |
+| `JOY_up`, `JOY_down`, `JOY_left`, `JOY_right`                            | D-pad                                                                          |
+| `JOY_lsup`, `JOY_lsdown`, `JOY_lsleft`, `JOY_lsright`                    | Left stick, as directions                                                      |
+| `JOY_rsup`, `JOY_rsdown`, `JOY_rsleft`, `JOY_rsright`                    | Right stick, as directions                                                     |
+| `JOY_leftstickx`, `JOY_leftsticky`, `JOY_rightstickx`, `JOY_rightsticky` | Full axis of a stick (wheel, dial, analog stick)                               |
+| `MOUSE_BUTTON1`…, `MOUSE_XAXIS`, `MOUSE_YAXIS`                           | Mouse                                                                          |
+| `GUN_BUTTON1`…, `GUN_XAXIS`, `GUN_YAXIS`                                 | Light gun                                                                      |
+| `KEYCODE_...`                                                            | Keyboard key, in MAME format (`KEYCODE_ENTER`, `KEYCODE_P`, `KEYCODE_LSHIFT`…) |
 
-Run _mame.exe_, the executable is located in the `emulators\mame` folder of your RetroBat installation.
+To reverse an axis, add `_reverse` to its name: `JOY_leftstickx_reverse`.
 
-Click on "General Settings":
+**Game without a file**: create `user\inputmapping\mame\<game>.xml` using an existing file as a model. The `type`, `tag`, `mask` and `defvalue` attributes of each button must be those of the game in MAME: you find them in `saves\mame\cfg\<game>.cfg` after setting this button once in the MAME menu. The `README.txt` file in `user\inputmapping\mame` describes the format.
 
-<div align="left"><figure><img src="https://i.imgur.com/7FfrAyr.png" alt=""><figcaption></figcaption></figure></div>
+### Creating your own controller profile
 
-Select "Input Assignments"
+1. Run `mame.exe` from the `emulators\mame` folder.
+2. Open **General Settings**, then **Input Assignments**, and set the buttons. The **User Interface** part is for the MAME menu, the **Player** parts are for games.
 
-<div align="left"><figure><img src="../../.gitbook/assets/P23EUU1.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (543).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-Select the controls you want to assign:
+3. Save. MAME creates the `default.cfg` file in `emulators\mame\cfg`.
+4. Rename this file `custom1.cfg` (up to `custom8.cfg`) and move it to `saves\mame\ctrlr`.
+5. In RetroBat, choose **CONTROLS > CONTROLLER PROFILE**: CUSTOM 1.
 
-* User Interface section lets you map buttons to actions in the MAME Menu
-* Player X Controls allows you to map in-game controls
+<div align="left"><figure><img src="../../.gitbook/assets/image (525).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/pgXcIQM.png" alt=""><figcaption></figcaption></figure></div>
+For a profile dedicated to one game, name the file like the romset (`wjammers.cfg` for `wjammers.zip`), put it in `saves\mame\ctrlr` and choose **GAME SPECIFIC**.
 
-Map controls as you would like them:
+## lr-mame
 
-<div align="left"><figure><img src="https://i.imgur.com/kxVLMtw.png" alt=""><figcaption></figcaption></figure></div>
+### Fixing the buttons of a game (libretro\_mame.yml)
 
-When using left and right buttons (or keys), you can select whether to add a key to the same button or whether to reset the mapping for the control.
+1. Copy `libretro_mame.yml` from `system\resources\inputmapping` to `user\inputmapping`. Your copy then fully replaces the RetroBat file.
+2. Find the entry of the game. There is one per layout: `sf2` (gamepad), `sf2_modern8`, `sf2_8alternative`, `sf2_6alternative`. If the entry of your layout does not exist, RetroBat uses the `sf2` entry, which must always be present.
 
-<div align="left"><figure><img src="https://i.imgur.com/ubjsXry.png" alt=""><figcaption><p>You can APPEND</p></figcaption></figure></div>
+```
+sf2_modern8:
+  analog_dpad_mode: 0
+  btn_a: 10
+  btn_b: 9
+  btn_x: 8
+  btn_y: 0
+```
 
-<div align="left"><figure><img src="https://i.imgur.com/6pGoFrF.png" alt=""><figcaption><p>Are clear and reset</p></figcaption></figure></div>
+3. Each line gives, for a button of your controller, the cabinet button to trigger.
 
-Once the mapping done, go back and click on "Save Settings":
+<table><thead><tr><th width="259">Name</th><th>Controller button</th></tr></thead><tbody><tr><td><code>btn_a</code></td><td>EAST <img src="../../.gitbook/assets/image (530).png" alt=""></td></tr><tr><td><code>btn_b</code></td><td>SOUTH <img src="../../.gitbook/assets/image (526).png" alt=""></td></tr><tr><td><code>btn_x</code></td><td>NORTH <img src="../../.gitbook/assets/image (534).png" alt=""></td></tr><tr><td><code>btn_y</code></td><td>WEST <img src="../../.gitbook/assets/image (538).png" alt=""></td></tr><tr><td><code>btn_l</code>, <code>btn_r</code></td><td>L1, R1</td></tr><tr><td><code>btn_l2</code>, <code>btn_r2</code></td><td>L2, R2</td></tr></tbody></table>
 
-<div align="left"><figure><img src="https://i.imgur.com/pDLsvFJ.png" alt=""><figcaption></figcaption></figure></div>
+<table><thead><tr><th width="169">Value</th><th>Cabinet button</th></tr></thead><tbody><tr><td><code>0</code></td><td>Button 1</td></tr><tr><td><code>8</code></td><td>Button 2</td></tr><tr><td><code>1</code></td><td>Button 3</td></tr><tr><td><code>9</code></td><td>Button 4</td></tr><tr><td><code>10</code></td><td>Button 5</td></tr><tr><td><code>11</code></td><td>Button 6</td></tr><tr><td><code>14</code></td><td>Button 7</td></tr><tr><td><code>15</code></td><td>Button 8</td></tr><tr><td><code>-1</code></td><td>None</td></tr></tbody></table>
 
-A file name "default.cfg" has been saved in the `\emulators\mame\cfg` folder.
+In the example, EAST (`btn_a: 10`) triggers button 5 of the cabinet.
 
-<div align="left"><figure><img src="https://i.imgur.com/PmZJO4I.png" alt=""><figcaption></figcaption></figure></div>
+### MAME menu
 
+The MAME menu opens with **START + SOUTH**. **SOUTH** confirms and **EAST** goes back.
 
+As buttons change from one game to another, RetroBat writes these shortcuts into `saves\mame\cfg\<game>.cfg` at each launch, from the files in `system\resources\inputmapping\lr-mame`. A copy of the previous session is kept in `saves\mame\cfgbackup`.
 
-#### STEP 3 : Manage the cfg file
+### Keeping the settings made in the MAME menu
 
-Open the default.cfg file and check the content:
+Turn on **CONTROLS > USE OWN CFG FILE**. Buttons set in the MAME menu are then kept in `saves\mame\cfg\<game>.cfg`. On first activation, the configuration of the last session is imported. The CONTROLLER LAYOUT option no longer applies to this game.
 
-<div align="left"><figure><img src="https://i.imgur.com/tYgSbfM.png" alt=""><figcaption></figcaption></figure></div>
+### Letting MAME choose
 
-The file has an xml format, the mapping that you have performed is located in the \<input> section of the file.
+With **ENABLE PER GAME AUTO MAPPING**, RetroBat no longer applies its per-game configurations: the core places the buttons.
 
-_In the example, the keyboard key "Q" has been assigned to the action "UI\_MENU" that opens the MAME menu._
+## mame2003\_plus
 
-Finally, copy the default.cfg file in the `\saves\mame\cfg` folder of your installation : this will now be the default controller configuration.
+By default, mame2003\_plus reuses the per-game configurations of lr-mame and follows the **CONTROLLER LAYOUT** option. Games whose buttons are different in this old MAME version have their own configuration, or else the default configuration.
 
-#### STEP 4 : Create a dedicated profile
+<table><thead><tr><th width="282.75">You want to…</th><th>Setting</th></tr></thead><tbody><tr><td>Use a core layout, the same for all games</td><td><strong>CONTROLS > PLAYER 1 CONTROLLER TYPE</strong>: RETROPAD, FIGHTSTICK, 8-BUTTON or 6-BUTTON. RetroBat then no longer sets buttons game by game.</td></tr><tr><td>Fix the buttons of one game</td><td><code>user\inputmapping\libretro_mame2003_plus.yml</code> file</td></tr><tr><td>Set buttons in the MAME menu</td><td><strong>ENABLE MAME REMAPPING</strong> (on by default), then <strong>L3</strong></td></tr></tbody></table>
 
-Proceed as explained in step 1, then rename the file to one of the following values:
+In the MAME menu, the buttons to confirm and cancel depend on the game: **SOUTH** and **WEST** with the default configuration.
 
-* custom1.cfg
-* custom2.cfg
-* custom3.cfg
-* ...
-* custom8.cfg
+**Fixing a game**: copy `libretro_mame2003_plus.yml` from `system\resources\inputmapping` to `user\inputmapping`, then add or edit the entry of the game in it. The format is the one of `libretro_mame.yml`, with two differences:
 
-Move the file in the `\saves\mame\ctrlr` folder of your RetroBat installation:
+* buttons 7 and 8 are written `12` and `13`;
+* a `use: default` entry marks a game that uses the default configuration.
 
-<div align="left"><figure><img src="https://i.imgur.com/15wt2XH.png" alt=""><figcaption></figcaption></figure></div>
+Games missing from this file are read from `libretro_mame.yml`.
 
-{% hint style="info" %}
-You can also perform the mapping directly in the cfg file if you feel comfortable with xml document processing.
+## Folders
 
-Additional information on the file structure can be found here:
+<table><thead><tr><th width="301.5">Content</th><th>Folder</th></tr></thead><tbody><tr><td>RetroBat per-game configurations</td><td><code>system\resources\inputmapping</code></td></tr><tr><td>Your per-game configurations</td><td><code>user\inputmapping</code></td></tr><tr><td>MAME controller profiles</td><td><code>saves\mame\ctrlr</code></td></tr><tr><td>MAME per-game settings (cfg)</td><td><code>saves\mame\cfg</code> (or <code>saves\mame\cfg64</code>)</td></tr><tr><td>Backup copies of cfg files</td><td><code>saves\mame\cfgbackup</code> (lr-mame), <code>saves\mame\cfgbackupmame64</code> (MAME)</td></tr><tr><td>mame2003_plus settings</td><td><code>saves\mame\mame2003-plus</code></td></tr></tbody></table>
 
-[http://mirrors.arcadecontrols.com/easyemu/mameguidenew/mameguide-controlini.htm](http://mirrors.arcadecontrols.com/easyemu/mameguidenew/mameguide-controlini.htm)
+## Known issues
 
-[https://docs.mamedev.org/advanced/ctrlr\_config.html](https://docs.mamedev.org/advanced/ctrlr_config.html)
-{% endhint %}
-
-#### STEP 5 : Select the controller profile in RetroBat
-
-From the MAME [Game view](../../navigation/system-view-and-game-view.md#game-view), press SELECT to open the [View Options](../../navigation/view-options.md) menu and select "ADVANCED SYSTEM OPTIONS"
-
-<div align="left"><figure><img src="https://i.imgur.com/Y3mGW33.png" alt=""><figcaption></figcaption></figure></div>
-
-Ensure the MAME64 emulator is set as EMULATOR and navigate to the CONTROLS submenu:
-
-<div align="left"><figure><img src="https://i.imgur.com/3xCkZOg.png" alt=""><figcaption></figcaption></figure></div>
-
-Select the "CONTROLLER PROFILE" option and choose the profile used for the file that you have created:
-
-{% hint style="info" %}
-RetroBat provides 8 custom profiles as well as the ability to use a per\_game cfg file.
-
-When using "per\_game", the name of the file must match the name of the game file (without extension), for example name the file "wjammers.cfg" for the game file "wjammers.zip" (WindJammers).
-{% endhint %}
-
-<div align="left"><figure><img src="../../.gitbook/assets/mD9Dn89.png" alt=""><figcaption></figcaption></figure></div>
-
-{% hint style="info" %}
-Do not hesitate to share the files you have created with the RetroBat team if you have a general profile that can be shared with other users.
-{% endhint %}
-
-## Libretro-mame
-
-RetroBat offers autoconfiguration for MAME as part of RetroArch autoconfiguration, however, as MAME arcade machines have a huge variety of control types, it is possible to generate specific per-game configuration. The following configuration methods are available for libretro-mame within RetroBat:
-
-* RetroBat standard autoconfiguration
-* RetroBat xml override files (per-game)
-
-### RetroBat autoconfiguration
-
-By default, RetroBat will try to autoconfigure controls in libretro-mame either by using RetroBat-provided per-game configuration, or by using the default RetroArch RetroPad mapping.
-
-Autoconfiguration can change depending on the controller layout that you specify in **ADVANCED SETTINGS > CONTROLS**:
-
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
-
-### Using the mame core override remap file
-
-Read [this chapter](retroarch-controller-mapping.md#using-a-core-override-remap-file) for more information.
-
-RetroBat can use a core override remap YAML file for libretro-mame, the file is located in the `system/resources/inputmapping` folder of your RetroBat installation and is named **libretro\_mame.yml**.
-
-{% hint style="info" %}
-If you want to modify the file, copy it first in the `user\inputmapping` folder of your RetroBat installation, else it might get erased with a future RetroBat update.
-{% endhint %}
-
-The remap file is a YAML file, each container contains the RetroArch remap for a game/layout:
-
-<div align="left"><figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
-
+<table><thead><tr><th width="351.5">Issue</th><th>Solution</th></tr></thead><tbody><tr><td>Buttons are not in the right place on my arcade stick</td><td>Set <strong>CONTROLLER LAYOUT</strong> to match your panel.</td></tr><tr><td>With mame2003_plus, <strong>CONTROLLER LAYOUT</strong> has no effect</td><td>Leave <strong>PLAYER 1 CONTROLLER TYPE</strong> and <strong>PLAYER 2 CONTROLLER TYPE</strong> on AUTO.</td></tr><tr><td>My settings made in the MAME menu are lost</td><td>Automatic configuration replaces them. MAME: choose the NONE profile. lr-mame: turn on <strong>USE OWN CFG FILE</strong>.</td></tr><tr><td>My custom controller profile is ignored</td><td>A <code>default.cfg</code> or <code>&#x3C;game>.cfg</code> file in <code>saves\mame\cfg</code> holds other buttons: delete it or remove the buttons from it.</td></tr><tr><td>My <code>user\inputmapping\mame\&#x3C;game>.xml</code> file is ignored</td><td>The file must have the exact romset name, and the profile must be <strong>RETROBAT AUTO</strong>.</td></tr><tr><td>My fix in <code>libretro_mame.yml</code> is ignored</td><td>Edit the copy placed in <code>user\inputmapping</code>, and the entry of your layout (<code>&#x3C;game>_modern8</code>…).</td></tr></tbody></table>
