@@ -24,9 +24,9 @@ RetroBat emulates the C16 with **VICE**, the reference emulator for Commodore co
 
 The C16 has only one emulator in RetroBat.
 
-| Emulator                             | Strengths                                                                                                                     | Limitations                                                  |
-| ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------ |
-| **libretro: vice\_xplus4** (default) | Very accurate emulation of the C16 / C116 / Plus/4 family, emulated disk drive and tape drive, virtual keyboard, save states. | Tape games load slowly, as on the real machine (see Guides). |
+| Emulator                             | Strengths                                                                                                                     | Limitations                                                                                              |
+| ------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| **libretro: vice\_xplus4** (default) | Very accurate emulation of the C16 / C116 / Plus/4 family, emulated disk drive and tape drive, virtual keyboard, save states. | Tape games load slowly, as on the real machine (see [Guides](commodore-16.md#speeding-up-tape-loading)). |
 
 The same core is used by the Commodore Plus/4 system (`roms\cplus4` folder). For the C16, RetroBat automatically sets the model to C16.
 
