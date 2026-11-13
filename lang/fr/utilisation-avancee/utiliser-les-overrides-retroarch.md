@@ -14,7 +14,7 @@ Activer l'option d'override dans RetroBat dans le [**menu principal de RetroBat 
 
 <div align="left"><figure><img src="https://i.imgur.com/dr5V9ME.png" alt=""><figcaption></figcaption></figure></div>
 
-Pour générer un fichier d'override, lancer le menu RetroArch depuis un jeu en appuyant sur **HOTKEY + SUD** ![](<../.gitbook/assets/image (2) (1) (1).png>) de votre manette (F1 sur le clavier). Effectuer les réglages souhaités puis aller dans le menu de "Configuration de Substitution":
+Pour générer un fichier d'override, lancer le menu RetroArch depuis un jeu en appuyant sur **HOTKEY + SUD** ![](<../.gitbook/assets/image (2) (1) (1) (1).png>) de votre manette (F1 sur le clavier). Effectuer les réglages souhaités puis aller dans le menu de "Configuration de Substitution":
 
 <div align="left"><figure><img src="../.gitbook/assets/Ao7zf9g.png" alt=""><figcaption></figcaption></figure></div>
 
@@ -44,7 +44,7 @@ Vous pouvez enregistrer un preset de shaders pour un jeu, un dossier de contenu,
 Sans **AUTORISER SHADERS PAR JEU/CORE**, RetroBat applique ses propres **SHADERS** et ignore les presets de RetroArch. Avec cette option, un preset enregistré dans RetroArch remplace les SHADERS choisis dans RetroBat.
 {% endhint %}
 
-Pour générer un fichier d'override de shaders, lancer le menu RetroArch depuis un jeu en appuyant sur **HOTKEY + SUD** ![](<../.gitbook/assets/image (2) (1) (1).png>) de votre manette (F1 sur le clavier). Puis aller dans le menu **Shaders** pour effectuer les réglages souhaités:
+Pour générer un fichier d'override de shaders, lancer le menu RetroArch depuis un jeu en appuyant sur **HOTKEY + SUD** ![](<../.gitbook/assets/image (2) (1) (1) (1).png>) de votre manette (F1 sur le clavier). Puis aller dans le menu **Shaders** pour effectuer les réglages souhaités:
 
 <div align="left"><figure><img src="../.gitbook/assets/zxiggYZ.png" alt=""><figcaption></figcaption></figure></div>
 
