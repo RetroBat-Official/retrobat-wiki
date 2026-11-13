@@ -1,72 +1,125 @@
 # LaserDisc
 
-<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/daphne.svg" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (515).png" alt="" width="425"><figcaption></figcaption></figure></div>
 
-Arcade - First LaserDisc game release : 1983
+## Overview
+
+In the early 1980s, some arcade cabinets did not display graphics computed by the machine: they played a film recorded on a **LaserDisc**. The player has to react at the right moment, and the cabinet jumps to the next sequence or to the failure scene.
+
+The genre was launched in 1983 by **Dragon's Lair**, an interactive cartoon made by former Disney animator Don Bluth, with a picture quality nothing else could match at the time. It was followed by Space Ace, Cliff Hanger, Astron Belt, M.A.C.H. 3, Cobra Command, Thayer's Quest and Super Don Quix-ote, then Dragon's Lair II: Time Warp in 1991.
+
+The system is named after **Daphne**, the first LaserDisc arcade emulator, created by Matt Ownby. By default RetroBat uses **Hypseus Singe**, its modern version, which also runs **Singe** games (see the [**Singe**](../game-engines/singe.md) page).
+
+A LaserDisc game is made of two parts: the cabinet ROM and the video and audio files taken from the disc.
 
 {% embed url="http://www.daphne-emu.com/site3/index_hi.php" %}
 
-## Information
+## At a glance
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>hypseus</li><li>daphne</li><li>singe2</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> daphne</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.daphne .hypseus .7z .rar .squashfs</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="237.75"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\daphne</code></td></tr><tr><td><strong>Extensions</strong></td><td>.daphne .hypseus .7z .rar .squashfs</td></tr><tr><td><strong>Default emulator</strong></td><td>hypseus</td></tr><tr><td><strong>BIOS</strong></td><td>None</td></tr><tr><td><strong>Controller configuration</strong></td><td>Automatic, except daphne</td></tr><tr><td><strong>Save states</strong></td><td>No</td></tr><tr><td><strong>RetroAchievements</strong></td><td>No</td></tr><tr><td><strong>Netplay</strong></td><td>No</td></tr><tr><td><strong>Light guns</strong></td><td>Hypseus (Singe games)</td></tr></tbody></table>
 
-## System Features
+## Which emulator should I choose?
 
-<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>hypseus: YES<br>daphne: NO<br>singe2: YES</td></tr></tbody></table>
+<table><thead><tr><th width="132.75">Emulator</th><th width="156.75">For whom?</th><th width="231.5">Strengths</th><th>Limits</th></tr></thead><tbody><tr><td><strong>hypseus</strong> (default)</td><td>Everyone</td><td>Modern version of Daphne, still updated. Controller configured automatically, decorations, Daphne games and Singe games, light guns.</td><td>—</td></tr><tr><td><strong>daphne</strong></td><td>Special cases</td><td>The original emulator.</td><td>No longer updated. RetroBat doesn't configure the controller: it is played with the keyboard. No Singe games.</td></tr><tr><td><strong>singe2</strong></td><td>Games in Singe 2 format</td><td>See the <a href="../game-engines/singe.md"><strong>Singe</strong></a> page.</td><td>Doesn't run Daphne games.</td></tr></tbody></table>
+
+**When in doubt, keep hypseus.**
 
 ## BIOS
 
-No BIOS required to play DAPHNE games.
+No BIOS is needed. Each game does need its ROM, to be placed in `roms\daphne\roms` (see below).
+
+## Which game format?
+
+A Daphne game is made of two items, which share the **same name**:
+
+<table><thead><tr><th width="125.75">Item</th><th width="261">Location</th><th>Content</th></tr></thead><tbody><tr><td>Game folder</td><td><code>roms\daphne\&#x3C;name>.daphne</code></td><td>The videos (<code>.m2v</code>), the sound (<code>.ogg</code>) and the <code>&#x3C;name>.txt</code> file, which gives the order of the videos</td></tr><tr><td>Cabinet ROM</td><td><code>roms\daphne\roms\&#x3C;name>.zip</code></td><td>The game program</td></tr></tbody></table>
+
+Example for Dragon's Lair (`lair`):
+
+```
+roms\daphne\
+├─ roms\
+│  └─ lair.zip
+└─ lair.daphne\
+   ├─ lair.txt
+   ├─ lair.m2v
+   └─ lair.ogg
+```
+
+The name is the one expected by the emulator: `lair` for Dragon's Lair, `ace` for Space Ace, `cliff` for Cliff Hanger… The `.daphne` folder is what shows up in the RetroBat game list.
+
+<table><thead><tr><th width="185.5">Format</th><th width="86.5">hypseus</th><th width="74.25">daphne</th><th>Notes</th></tr></thead><tbody><tr><td><strong>.daphne folder</strong></td><td>✔</td><td>✔</td><td>The normal format.</td></tr><tr><td>.hypseus folder</td><td>✔</td><td>✔</td><td>Same content, other extension name.</td></tr><tr><td>.7z / .rar / .squashfs</td><td>✔</td><td>✔</td><td>Compressed game folder, extracted at launch.</td></tr></tbody></table>
+
+Singe games (American Laser Games, Time Gal…) also work here with Hypseus, but they have their own system: see the [**Singe**](../game-engines/singe.md) page.
 
 ## Controls
 
-### Gamepad controls&#x20;
+### Automatic configuration
 
-<table><thead><tr><th width="311">Action</th><th>Gamepad Button</th></tr></thead><tbody><tr><td>Directional movement</td><td>D-PAD or Left analog stick</td></tr><tr><td>COIN 1</td><td>SELECT</td></tr><tr><td>START 1</td><td>START</td></tr><tr><td>Button 1</td><td>A (SOUTH)</td></tr><tr><td>Button 2</td><td>B (EAST)</td></tr><tr><td>Button 3</td><td>R1 (RIGHT SHOULDER)</td></tr><tr><td>Skill 1</td><td>Y (WEST)</td></tr><tr><td>Skill 2</td><td>X (NORTH)</td></tr><tr><td>Skill 3</td><td>L1 (LEFT SHOULDER)</td></tr><tr><td>SERVICE</td><td>L3 (LEFT STICK)</td></tr><tr><td>TEST</td><td>R3 (RIGHT STICK)</td></tr></tbody></table>
+With **Hypseus**, RetroBat automatically configures the player 1 controller. The keyboard always remains usable.
 
+<table><thead><tr><th width="148.25">Action</th><th width="246.5">RetroBat controller</th><th>Keyboard</th></tr></thead><tbody><tr><td>Directions</td><td>D-pad / left stick</td><td>Arrow keys</td></tr><tr><td>Button 1</td><td>SOUTH</td><td>Left CTRL</td></tr><tr><td>Button 2</td><td>EAST</td><td>Left ALT</td></tr><tr><td>Button 3</td><td>R1</td><td>SPACE</td></tr><tr><td>Skill 1</td><td>WEST</td><td>Left SHIFT</td></tr><tr><td>Skill 2</td><td>NORTH</td><td>Z</td></tr><tr><td>Skill 3</td><td>L1</td><td>X</td></tr><tr><td>Coin player 1</td><td>SELECT</td><td>5</td></tr><tr><td>Start player 1</td><td>START</td><td>1</td></tr><tr><td>Coin player 2</td><td>—</td><td>6</td></tr><tr><td>Start player 2</td><td>—</td><td>2</td></tr><tr><td>Service</td><td>L3</td><td>9</td></tr><tr><td>Test</td><td>R3</td><td>0</td></tr><tr><td>Pause</td><td>—</td><td>P</td></tr><tr><td>Reset</td><td>—</td><td>F3</td></tr><tr><td>Screenshot</td><td>—</td><td>F12</td></tr></tbody></table>
 
+In most games, only the directions and button 1 are used (the sword in Dragon's Lair, the shot in Space Ace). The Skill buttons pick the difficulty level in games that offer it.
 
-### Keyboard controls:
+For flight games, the **CONTROLS > INVERT UP AND DOWN** option swaps up and down.
 
-<table><thead><tr><th width="265">Action</th><th>Keyboard Hypseus</th><th>Keyboard Daphne</th></tr></thead><tbody><tr><td>Directional movement</td><td>ARROW Keys</td><td>ARROW Keys or 8,4,2,6</td></tr><tr><td>COIN 1</td><td>5</td><td>5 or c</td></tr><tr><td>COIN 2</td><td>6</td><td>6</td></tr><tr><td>START 1</td><td>1</td><td>1</td></tr><tr><td>START 2</td><td>2</td><td>2</td></tr><tr><td>Button 1</td><td>LEFT CONTROL</td><td>LEFT CTRL or SPACE</td></tr><tr><td>Button 2</td><td>LEFT ALT</td><td>LEFT ALT</td></tr><tr><td>Button 3</td><td>SPACE</td><td>LEFT SHIFT</td></tr><tr><td>Skill 1</td><td>LEFT SHIFT</td><td>/</td></tr><tr><td>Skill 2</td><td>Z</td><td>*</td></tr><tr><td>Skill 3</td><td>X</td><td>-</td></tr><tr><td>SERVICE</td><td>9</td><td>9</td></tr><tr><td>TEST</td><td>F2</td><td>F2</td></tr><tr><td>RESET</td><td>0</td><td>F3</td></tr><tr><td>Screenshot</td><td>F12</td><td>F12</td></tr><tr><td>Quit</td><td>ESC</td><td>ESC or q</td></tr><tr><td>Pause</td><td>P</td><td>P</td></tr><tr><td>Console</td><td>BACKLASH</td><td></td></tr><tr><td>Title</td><td>T</td><td>t</td></tr></tbody></table>
+With **daphne**, RetroBat doesn't configure the controller: the game is played with the keyboard.
 
-## Specific system information
+To configure the Hypseus keys yourself, turn off **AUTOCONFIGURE CONTROLLERS**.
 
-### Adding Daphne Games
+### Hotkeys
 
-Daphne games consist of 2 parts
+<table><thead><tr><th width="272.75">Hotkey</th><th>Action</th></tr></thead><tbody><tr><td><strong>HOTKEY + START</strong></td><td>Quit</td></tr><tr><td>ESC</td><td>Quit (keyboard)</td></tr></tbody></table>
 
-* a folder containing the **videos**, \*.**dat** and \*.**txt** files of the games
-* a .zip file in the **roms** folder
+## Folders
 
-To add Daphne games, your games folders must be placed in "**\roms\daphne**" folder by adding **.daphne** at the end.
+<table><thead><tr><th width="301.5">Content</th><th>Folder</th></tr></thead><tbody><tr><td>Game ROMs</td><td><code>roms\daphne\roms</code></td></tr><tr><td>Videos and sound of a game</td><td><code>roms\daphne\&#x3C;name>.daphne</code></td></tr><tr><td>Settings of a game</td><td><code>roms\daphne\&#x3C;name>.commands</code></td></tr><tr><td>Hypseus keys</td><td><code>emulators\hypseus\hypinput.ini</code></td></tr><tr><td>Hypseus decorations</td><td><code>emulators\hypseus\bezels</code></td></tr><tr><td>Hypseus screenshots (F12)</td><td><code>emulators\hypseus\screenshots</code></td></tr></tbody></table>
 
-For example, your game folder "**lair**" (Dragon's Lair) must be renamed to **lair.daphne**
+## Guides
+
+### Adding a game
+
+1. Copy the game ROM, for example `lair.zip`, to `roms\daphne\roms`.
+2. Copy the folder holding the videos to `roms\daphne`.
+3. Rename this folder with the ROM name followed by `.daphne`: `lair.daphne`.
+4. Check that the folder contains a `.txt` file with the same name: `lair.txt`.
+5. Update the game list in RetroBat.
+
+<div align="left"><figure><img src="../../../.gitbook/assets/image (516).png" alt=""><figcaption></figcaption></figure></div>
+
+On first launch, the emulator analyses the videos and creates `.dat` files in the game folder: startup takes longer that time.
+
+### Tuning a game with a .commands file
+
+Cabinets were set up with switches (number of lives, difficulty, credits). To change them, or to pass other parameters to the emulator, create a text file named after the game with the `.commands` extension, **next to** the game folder:
 
 ```
-roms\
-└─ daphne\
-   ├─ roms\
-   │  └─ lair.zip
-   └─ lair.daphne\
-      └─ lair.dat
-      └─ lair.m2v
-      └─ lair.ogg
-      └─ lair.txt
+roms\daphne\lair.daphne\
+roms\daphne\lair.commands
 ```
 
-Once the game added, it is listed twice in Retrobat, as both the zip and the .daphne folder are detected.
+Write the parameters on a single line, separated by spaces. For example, to set the two banks of switches:
 
-<div align="left"><figure><img src="https://i.imgur.com/crqriZ1.png" alt=""><figcaption><p>lair appears twice</p></figcaption></figure></div>
+```
+-bank 0 xxxxxxxx -bank 1 xxxxxxxx
+```
 
-You can use use the [**VIEW OPTIONS**](../../../navigation/view-options.md) to hide the `.zip` extension for the system by pressing **SELECT**
+Each `x` is 0 or 1 and matches one switch. Their meaning depends on the game and on the version of its ROM.
 
-<div align="left"><figure><img src="https://i.imgur.com/dQngpx5.png" alt=""><figcaption></figcaption></figure></div>
+In this file, RetroBat ignores the parameters it handles itself (fullscreen, paths, rendering type…).
 
-Navigate to [**VIEW CUSTOMIZATION**](../../../navigation/view-options.md#view-options) and FILE EXTENSIONS
+### Decorations with Hypseus
 
-<div align="left"><figure><img src="https://i.imgur.com/JT7AqDc.png" alt=""><figcaption></figcaption></figure></div>
+Hypseus displays a decoration around the picture. RetroBat picks it in this order:
 
-Untick .zip extension
+1. the file chosen with the **FORCE BEZEL** option;
+2. a `<name>.png` file in `emulators\hypseus\bezels`;
+3. a `.png` file whose name contains `bezel`, in the game folder;
+4. the RetroBat decoration of the game or the system.
 
-<div align="left"><figure><img src="https://i.imgur.com/B38zdIa.png" alt=""><figcaption></figcaption></figure></div>
+Steps 2 and 3 only apply if you have not picked a specific decoration in RetroBat. If decorations are disabled, only the **FORCE BEZEL** option applies.
+
+## Known issues
+
+<table><thead><tr><th width="339">Issue</th><th>Solution</th></tr></thead><tbody><tr><td>The game is listed but doesn't start</td><td>Check the three names, which must be identical: <code>roms\daphne\roms\&#x3C;name>.zip</code>, the <code>&#x3C;name>.daphne</code> folder and the <code>&#x3C;name>.txt</code> file inside it.</td></tr><tr><td>The first launch is very long</td><td>This is normal: the emulator analyses the videos once and for all.</td></tr><tr><td>The controller doesn't respond</td><td>Only Hypseus is configured by RetroBat, and for player 1. With daphne, use the keyboard or switch to Hypseus.</td></tr><tr><td>Up and down are inverted in a flight game</td><td>Turn on <strong>INVERT UP AND DOWN</strong>.</td></tr><tr><td>The picture doesn't fill the screen</td><td>Turn on <strong>STRETCH TO SCREEN</strong>.</td></tr><tr><td>Scenes are cut off too early</td><td>Add <code>-latency</code> followed by a delay in milliseconds to the game's <code>.commands</code> file.</td></tr><tr><td>High scores are not kept</td><td>RetroBat deletes the emulator's <code>ram</code> folder (the arcade board memory) when the game closes.</td></tr><tr><td>F12 doesn't create a screenshot with Hypseus</td><td>Create the <code>emulators\hypseus\screenshots</code> folder if it doesn't exist. Screenshots only work on the primary display.</td></tr></tbody></table>
