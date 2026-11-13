@@ -116,7 +116,7 @@ Your PC keyboard works as the Amiga keyboard with every emulator.
 | Virtual keyboard     | SELECT         | SELECT   |
 | Emulator menu        |                | R3       |
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image.png" alt="" width="225"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (7).png" alt="" width="225"><figcaption></figcaption></figure></div>
 
 ### Useful control options
 
