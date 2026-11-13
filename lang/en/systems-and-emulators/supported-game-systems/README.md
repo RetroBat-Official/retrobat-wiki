@@ -4,8 +4,6 @@ description: List of game systems available in RetroBat
 
 # Supported Game Systems
 
-## Supported Game Systems
-
 The table below lists all the systems available in RetroBat, as defined in the `es_systems.cfg` file.
 
 <table><thead><tr><th width="219">Column</th><th>Meaning</th></tr></thead><tbody><tr><td><strong>Folder</strong></td><td>Name of the folder where you copy the games, in the <code>roms</code> folder of RetroBat (for example <code>roms\snes</code>). Click it to open the system page.</td></tr><tr><td><strong>Name</strong></td><td>Name of the system</td></tr><tr><td><strong>Type / manufacturer</strong></td><td>Kind of system (home console, handheld console, computer, arcade…) and its manufacturer</td></tr></tbody></table>
@@ -15,7 +13,7 @@ Each system page gives the default emulator and the other available emulators, t
 To use another emulator, see [Choosing the emulator](../../get-started/running-a-game.md#choosing-the-emulator).
 
 {% hint style="info" %}
-* Only the systems that have games are displayed in RetroBat. Some systems are also grouped.
+* Only the systems that have games are displayed in RetroBat. Some systems are also [grouped](../../navigation/system-view-and-game-view.md#grouped-systems).
 * For arcade games, read the [Arcade Guide](../arcade-guide.md) first.
 {% endhint %}
 
