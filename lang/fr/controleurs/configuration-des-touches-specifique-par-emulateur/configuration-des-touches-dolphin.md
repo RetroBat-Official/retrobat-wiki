@@ -1,10 +1,13 @@
 # Configuration des touches Dolphin
 
-La Gamecube et la Wii sont connus pour avoir une disposition de touches très spéciale, qui varie beaucoup d'un jeu à un autre.
+## Présentation
 
-Cela crée une situation complexe lorsqu'il s'agit de paramétrer les touches de l'émulateur.
+Les jeux GameCube et Wii utilisent la manette de façons très différentes : manette GameCube, Wiimote tenue à la verticale ou à l'horizontale, Nunchuk, manette classique… RetroBat règle Dolphin automatiquement, mais certains cas demandent un réglage à part.
 
-Le guide suivant vous aidera à comprendre et à mettre en place et à utiliser une disposition de touches spécifique à un jeu dans l'émulateur Dolphin.
+Cette page explique deux choses :
+
+* comment faire reconnaître une manette ou un adaptateur particulier, avec le fichier `GCControllers.json` ;
+* comment utiliser votre propre profil de manette Dolphin pour un jeu.
 
 {% hint style="info" %}
 Toutes les informations ci-dessous proviennent du wiki Dolphin :
@@ -12,132 +15,121 @@ Toutes les informations ci-dessous proviennent du wiki Dolphin :
 [https://wiki.dolphin-emu.org/index.php?title=GameINI\_(Controller\_Settings)](https://wiki.dolphin-emu.org/index.php?title=GameINI_\(Controller_Settings\))
 {% endhint %}
 
-## Utiliser l'autoconfiguration RetroBat
+## Configuration automatique
 
-La plupart des paramètres de configuration des manettes sont gérés automatiquement par RetroBat. Voici quelques précisions concernant les consoles GameCube et Wii.
+RetroBat configure les manettes à chaque lancement. Les réglages se trouvent dans les options avancées du système, sous-menu **CONTRÔLES** :
 
-### GameCube
+* **GameCube** : **DISPOSITION DES BOUTONS** et **TYPE DE CONTRÔLEUR JOUEUR 1** (à 4). Voir la page [**GameCube**](../../systemes-and-emulateurs/supported-game-systems/consoles-de-jeu/nintendo-consoles-de-jeu/gamecube.md#controles).
 
-RetroBat propose plusieurs configurations de boutons pour la GameCube ; ces profils déterminent l'emplacement des boutons sur votre manette physique.
+<div align="left"><figure><img src="../../.gitbook/assets/image (541).png" alt=""><figcaption></figcaption></figure></div>
 
-L'option est disponible dans le menu **CONFIGURATION AVANCÉE DU SYSTÈME > CONTRÔLES** :
+* **Wii** : **TYPE DE WIIMOTE** et **TYPE DE WIIMOTE ÉMULÉE**, pour choisir la façon de tenir la Wiimote, et les vraies Wiimotes avec une DolphinBar. Voir la page [**Wii**](../../systemes-and-emulateurs/supported-game-systems/consoles-de-jeu/nintendo-consoles-de-jeu/wii.md#controles).
 
-<figure><img src="../../.gitbook/assets/image (104).png" alt=""><figcaption></figcaption></figure>
+<div align="left"><figure><img src="../../.gitbook/assets/image (540).png" alt=""><figcaption></figcaption></figure></div>
 
-{% hint style="info" %}
-Vous trouverez plus d'informations concernant les profiles sur [la page Gamecube](../../systemes-and-emulateurs/supported-game-systems/consoles-de-jeu/nintendo-consoles-de-jeu/gamecube.md#creation-dun-profil-de-controle-specifique-pour-un-jeu).
-{% endhint %}
+Dans la plupart des cas, ces options suffisent.
 
-Outre les profils de boutons, RetroBat propose également une option permettant de modifier le type de manette :
+## Manettes et adaptateurs particuliers (GCControllers.json)
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (105).png" alt=""><figcaption></figcaption></figure></div>
+Certains adaptateurs de manettes GameCube, par exemple ceux de Mayflash ou de raphnet, se présentent à Windows comme une manette ordinaire. Leurs boutons ne sont alors pas à la bonne place avec la configuration automatique.
 
-Cela modifiera automatiquement le type de manette connectée à l'émulateur Dolphin :
+Le fichier `GCControllers.json` donne à RetroBat le mapping exact de ces adaptateurs. RetroBat le reconnaît par son identifiant (GUID) et l'applique à la place de la configuration automatique.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (98).png" alt=""><figcaption></figcaption></figure></div>
+RetroBat fournit ce fichier dans `system\resources\inputmapping`, avec deux adaptateurs : **MAYFLASH GameCube Controller Adapter** et **raphnet technologies Dual Gamecube to USB v3.6**.
 
-{% hint style="info" %}
-Vous pouvez trouver plus d'informations au sujet de l'adaptateur Gamecube [sur cette page](../../systemes-and-emulateurs/supported-game-systems/consoles-de-jeu/nintendo-consoles-de-jeu/gamecube.md#utilisation-dun-adaptateur-gamecube).
-{% endhint %}
+Pour un adaptateur qui fonctionne avec le pilote Zadig et le mode **ADAPTATEUR GAMECUBE** de Dolphin, ce fichier n'est pas utile : voir la page [**GameCube**](../../systemes-and-emulateurs/supported-game-systems/consoles-de-jeu/nintendo-consoles-de-jeu/gamecube.md#utiliser-une-vraie-manette-gamecube-adaptateur).
 
-### Wii
+### Ajouter un adaptateur
 
-RetroBat propose plusieurs configurations de touches pour les Wiimotes émulées ; ces profils déterminent la manière dont votre manette est mappée sur la manette Wii d'origine (Wiimote ou manette classique).
+1. Copiez `GCControllers.json` de `system\resources\inputmapping` vers `user\inputmapping`. Votre copie remplace alors entièrement le fichier de RetroBat : gardez les adaptateurs existants dedans.
+2. Ajoutez une entrée pour votre adaptateur, sur le modèle de celles du fichier :
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (106).png" alt=""><figcaption></figcaption></figure></div>
-
-Vous pouvez trouver plus d'informations [ici](../../systemes-and-emulateurs/supported-game-systems/consoles-de-jeu/nintendo-consoles-de-jeu/wii.md#wiimote-emulee).
-
-Certains jeux Wii étaient également compatibles avec la manette GameCube. Pour activer l'émulation de la manette GameCube sur Wii, activez l'option dans **CONFIGURATION AVANCÉE DU SYSTÈME > CONTRÔLES** :
-
-<div align="left"><figure><img src="../../.gitbook/assets/image (107).png" alt=""><figcaption></figcaption></figure></div>
-
-{% hint style="info" %}
-Cela permettra d'utiliser les mêmes options que pour les manettes Gamecube, y compris les configurations Gamecube et l'utilisation d'une manette de la console originale.
-{% endhint %}
-
-## Utilisation d'une manette de la console originale
-
-### Gamecube
-
-RetroBat est fourni avec un fichier nommé "**GCControllers.json**" situé dans le répertoire `\system\resources\inputmapping` de votre installation RetroBat :
-
-<div align="left"><figure><img src="../../.gitbook/assets/image (101).png" alt=""><figcaption></figcaption></figure></div>
-
-Ce fichier permet de configurer automatiquement une manette spécifique, en fonction de son GUID, dans l'émulateur Dolphin.
-
-L'exemple ci-dessus concerne les adaptateurs Mayflash GC 2 Player ; les différentes valeurs à indiquer dans le fichier sont les suivantes :
-
-* **Emulator :** dolphin (le fichier peut également être utilisé avec le core libretro)
-* **Name** : pour information seulement
-* **Guid**: permet à RetroBat d'activer la configuration spécifique en fonction de la manette connectée (le GUID SDL de la manette se trouve dans le fichier es\_input.cfg ou dans le fichier emulatorlauncher.log après le lancement d'un jeu). Il est possible de saisir plusieurs GUID si une manette comporte plusieurs versions.
-* **Driver** : peut être utilisé pour forcer le pilote Dolphin à utiliser pour la manette
-* **Mapping**: le mappage à définir dans le fichier `GCPadNew.ini` , pour chaque bouton. Pour connaître le mappage de la manette, effectuez la configuration manuellement en lançant dolphin.exe, fermez Dolphin, puis ouvrez le fichier GCPadNew.ini.
-* **HotkeyMapping** : le mappage des raccourci pour le contrôleur (modifiera le fichier `Hotkeys.ini`)
-* **ControllerInfo** : peut être utilisé pour déterminer si le paramètre doit être activé dans le menu RetroBat :
-
-<figure><img src="../../.gitbook/assets/image (109).png" alt=""><figcaption></figcaption></figure>
-
-### Wii
-
-RetroBat permet de configurer Dolphin pour qu'il utilise de véritables Wiimotes. La meilleure façon d'utiliser celles-ci avec Dolphin est d'utiliser le Mayflash Dolphin ; toutefois, il est également possible de le faire en synchronisant les Wiimotes avec Windows via Bluetooth et en utilisant une barre infrarouge standard.
-
-Si vous utilisez de vrai Wiimotes, alors rendez-vous dans le menu **CONFIGURATION AVANCÉE DU SYSTÈME > CONTRÔLES** pour activer la fonctionnalité :
-
-<figure><img src="../../.gitbook/assets/image (108).png" alt=""><figcaption></figcaption></figure>
-
-## Utiliser un profil personnalisé de touches
-
-La définition d'un profil de saisie personnalisé contournera complètement le mécanisme de configuration automatique de RetroBat.
-
-### ÉTAPE 1 : Création d'un profil dans Dolphin
-
-Lancez _Dolphin.exe_, l’exécutable se trouve dans le dossier `\emulators\dolphin-emu` de votre installation RetroBat.
-
-Cliquer sur l'icône "Manettes" dans la barre supérieure, puis sélectionner "Configurer" (choisir le système correspondant au jeu, cela fonctionne aussi bien pour Gamecube que pour Wii)
-
-<div align="left"><figure><img src="../../.gitbook/assets/ArzPI8J.png" alt=""><figcaption></figcaption></figure></div>
-
-A la page suivante, configurer comme souhaité.
-
-Une fois paramétré, renseigner un nom de profil, puis cliquer sur le bouton "Sauver".&#x20;
-
-<div align="left"><figure><img src="https://i.imgur.com/aRFdvMe.png" alt=""><figcaption></figcaption></figure></div>
-
-### ÉTAPE 2 : Assigner le profil au jeu
-
-Fermer le menu de configuration des touches.
-
-Depuis la liste des jeux, faire un clic-droit sur le jeu auquel appliquer le profil spécifique, et choisir "Propriétés"
-
-<div align="left"><figure><img src="https://i.imgur.com/gK8pR96.png" alt=""><figcaption></figcaption></figure></div>
-
-Sur l'écran suivant, choisir l'éditeur, et dans la section "User Config", spécifier le profil à utiliser
-
-<div align="left"><figure><img src="../../.gitbook/assets/nXUxwE9.png" alt=""><figcaption></figcaption></figure></div>
-
-Renseigner le code suivant :
-
+```json
+{
+    "Emulator": "dolphin",
+    "Name": "MAYFLASH GameCube Controller Adapter",
+    "Guid": "03000000790000004318000000016800",
+    "Driver": "DInput",
+    "Mapping": {
+        "Buttons/A": "`Button 1`",
+        "Buttons/B": "`Button 2`",
+        "Main Stick/Up": "`Axis Y-`"
+    },
+    "HotKeyMapping": {
+        "General/Exit": "@(`Button 9`+`Button 7`)"
+    },
+    "ControllerInfo": {
+        "needActivationSwitch": "false"
+    }
+}
 ```
+
+<table><thead><tr><th width="162.75">Champ</th><th>Contenu</th></tr></thead><tbody><tr><td><code>Emulator</code></td><td><code>dolphin</code> pour Dolphin, <code>libretro</code> pour lr-dolphin.</td></tr><tr><td><code>Name</code></td><td>Nom exact de l'adaptateur tel que Dolphin l'affiche dans sa liste de périphériques. RetroBat s'en sert pour désigner le périphérique à Dolphin : un nom approximatif ne fonctionne pas.</td></tr><tr><td><code>Guid</code></td><td>Identifiant de l'adaptateur (voir plus bas).</td></tr><tr><td><code>Driver</code></td><td>Pilote de Dolphin à utiliser : <code>SDL</code> (par défaut), <code>DInput</code>…</td></tr><tr><td><code>Mapping</code></td><td>Les lignes à écrire dans <code>GCPadNew.ini</code> pour ce port.</td></tr><tr><td><code>HotKeyMapping</code></td><td>Les raccourcis de Dolphin à écrire dans <code>Hotkeys.ini</code>, quand l'adaptateur est utilisé par le joueur 1. Ils remplacent alors les raccourcis de RetroBat.</td></tr><tr><td><code>ControllerInfo</code></td><td><code>needActivationSwitch</code> : <code>true</code> pour que le mapping ne s'applique que si l'option <strong>UTILISER UNE MANETTE DE TYPE GAMECUBE</strong> est activée, <code>false</code> pour qu'il s'applique toujours.</td></tr></tbody></table>
+
+Avec Dolphin, le champ `ControllerInfo` doit être présent, ainsi que `HotKeyMapping` pour l'adaptateur du joueur 1 : sinon le mapping n'est pas appliqué.
+
+### Trouver le GUID et le mapping
+
+**Le GUID** : lancez un jeu GameCube avec l'adaptateur branché, puis ouvrez le fichier `emulationstation\emulatorLauncher.log`. Cherchez la ligne `Checking specific Gamecube mapping for controller` : le GUID est à la fin de cette ligne.
+
+**Le mapping** : réglez une fois l'adaptateur à la main dans Dolphin.
+
+1. Désactivez **AUTOCONFIGURER LES MANETTES** pour le système GameCube.
+2. Lancez `Dolphin.exe` depuis le dossier `emulators\dolphin-emu`.
+3. Ouvrez **Controllers**, choisissez **Standard Controller** pour le port 1, puis **Configure**.
+4. Choisissez l'adaptateur dans la liste **Device** et réglez chaque bouton.
+5. Fermez Dolphin et ouvrez `emulators\dolphin-emu\User\Config\GCPadNew.ini` : la section `[GCPad1]` contient les lignes à recopier dans `Mapping`, et la ligne `Device` donne le pilote et le nom exact (`DInput/0/MAYFLASH GameCube Controller Adapter`).
+6. Réactivez **AUTOCONFIGURER LES MANETTES**.
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (542).png" alt=""><figcaption></figcaption></figure></div>
+
+## Profil de manette par jeu
+
+Un profil Dolphin est un réglage complet de la manette, enregistré sous un nom. Associé à un jeu, il remplace la configuration de RetroBat pour ce jeu uniquement. C'est utile pour un jeu qui demande un réglage très particulier.
+
+Cette méthode ne vaut que pour Dolphin, pas pour lr-dolphin.
+
+### Étape 1 : créer le profil
+
+1. Lancez `Dolphin.exe` depuis le dossier `emulators\dolphin-emu`.
+2. Ouvrez **Controllers**, puis **Configure** à côté du port à régler :
+   * **GameCube Controllers** pour un jeu GameCube ;
+   * **Wii Remotes** (Wiimote émulée) pour un jeu Wii.
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (543).png" alt=""><figcaption></figcaption></figure></div>
+
+3. Choisissez votre manette dans la liste **Device** et réglez les boutons.
+4. Dans la zone **Profile**, tapez un nom, par exemple `Mario Kart DD`, puis cliquez sur **Save**.
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (544).png" alt=""><figcaption></figcaption></figure></div>
+
+Le profil garde la manette choisie dans **Device**. Il ne fonctionnera qu'avec cette manette.
+
+### Étape 2 : associer le profil au jeu
+
+1. Toujours dans Dolphin, faites un clic droit sur le jeu dans la liste, puis **Properties**.
+2. Ouvrez l'onglet **Game Config**, puis **Editor**.
+3. Dans la zone **User Config**, ajoutez :
+
+```ini
 [Controls]
- %ControllerType% = %ProfileName%
+PadProfile1 = Mario Kart DD
 ```
 
-Pour le %ControllerType%, les options suivantes peuvent être utilisés :
+<table><thead><tr><th width="311.5">Ligne</th><th>Pour</th></tr></thead><tbody><tr><td><code>PadProfile1</code> à <code>PadProfile4</code></td><td>Manette GameCube du joueur 1 à 4</td></tr><tr><td><code>WiimoteProfile1</code> à <code>WiimoteProfile4</code></td><td>Wiimote du joueur 1 à 4</td></tr></tbody></table>
 
-* PadProfile1 à PadProfile4 : pour les manettes Gamecube 1 à 4
-* WiimoteProfile1 à WiimoteProfile4 : pour les manettes Wiimotes 1 à 4
+Le nom après le signe `=` doit être exactement celui de l'étape 1.
 
-%ProfileName% doit être égal au profil crée à l'étape 1 de ce guide.<br>
+<div align="left"><figure><img src="../../.gitbook/assets/image (545).png" alt=""><figcaption></figcaption></figure></div>
 
-Cliquer sur "Fermer".
+4. Fermez Dolphin. Le profil est chargé à chaque lancement du jeu depuis RetroBat.
 
-Le profil sauvegardé sera utilisé chaque fois que le jeu est démarré.
+Dolphin enregistre ce réglage dans `emulators\dolphin-emu\User\GameSettings\<ID du jeu>.ini`, par exemple `GALE01.ini` pour Super Smash Bros. Melee. Pour revenir à la configuration de RetroBat, retirez la section `[Controls]` de ce fichier.
 
+## Dossiers
 
+<table><thead><tr><th width="265.25">Contenu</th><th>Dossier</th></tr></thead><tbody><tr><td>Fichier des adaptateurs fourni par RetroBat</td><td><code>system\resources\inputmapping\GCControllers.json</code></td></tr><tr><td>Votre fichier des adaptateurs</td><td><code>user\inputmapping\GCControllers.json</code></td></tr><tr><td>Réglages des manettes écrits par RetroBat</td><td><code>emulators\dolphin-emu\User\Config\GCPadNew.ini</code> (GameCube), <code>WiimoteNew.ini</code> (Wii), <code>Hotkeys.ini</code> (raccourcis)</td></tr><tr><td>Profils GameCube</td><td><code>emulators\dolphin-emu\User\Config\Profiles\GCPad</code></td></tr><tr><td>Profils Wiimote</td><td><code>emulators\dolphin-emu\User\Config\Profiles\Wiimote</code></td></tr><tr><td>Réglages par jeu</td><td><code>emulators\dolphin-emu\User\GameSettings</code></td></tr><tr><td>Journal de RetroBat (GUID des manettes)</td><td><code>emulationstation\emulatorLauncher.log</code></td></tr></tbody></table>
 
-#### NB : Emplacement des fichiers de profils
+## Problèmes connus
 
-Les profiles sauvegardés sont stockés dans le répertoire`\emulators\dolphin-emu\User\Config\Profiles` de votre installation RetroBat :
-
-<div align="left"><figure><img src="https://i.imgur.com/r72aRwA.png" alt=""><figcaption></figcaption></figure></div>
+<table><thead><tr><th width="266.5">Problème</th><th>Solution</th></tr></thead><tbody><tr><td>Mes réglages faits dans Dolphin disparaissent au lancement suivant</td><td>RetroBat réécrit <code>GCPadNew.ini</code> et <code>WiimoteNew.ini</code> à chaque lancement. Utilisez un profil par jeu, ou désactivez <strong>AUTOCONFIGURER LES MANETTES</strong>.</td></tr><tr><td>Mon profil n'est pas chargé</td><td>Vérifiez que le nom dans <code>[Controls]</code> est identique à celui du profil, et que le profil a été créé avec la manette que vous utilisez.</td></tr><tr><td>Un jeu ne suit plus certaines options de RetroBat</td><td>Le fichier <code>&#x3C;ID du jeu>.ini</code> de <code>emulators\dolphin-emu\User\GameSettings</code> peut remplacer d'autres réglages que les manettes. Retirez-en les lignes concernées.</td></tr><tr><td>Mon adaptateur n'est pas reconnu</td><td>Vérifiez le GUID dans <code>emulatorLauncher.log</code> et le nom exact dans Dolphin. Si <code>needActivationSwitch</code> vaut <code>true</code>, activez <strong>UTILISER UNE MANETTE DE TYPE GAMECUBE</strong>.</td></tr></tbody></table>
