@@ -163,6 +163,7 @@
     * [Commodore (Micro-ordinateurs)](systemes-and-emulateurs/supported-game-systems/micro-ordinateurs/commodore/README.md)
       * [Commodore PET](systemes-and-emulateurs/supported-game-systems/micro-ordinateurs/commodore/commodore-pet.md)
       * [Commodore VIC-20](systemes-and-emulateurs/supported-game-systems/micro-ordinateurs/commodore/commodore-vic-20.md)
+      * [Commodore 16](systemes-and-emulateurs/supported-game-systems/micro-ordinateurs/commodore/commodore-16.md)
       * [Commodore 64](systemes-and-emulateurs/supported-game-systems/micro-ordinateurs/commodore/commodore-64.md)
       * [Commodore Plus/4](systemes-and-emulateurs/supported-game-systems/micro-ordinateurs/commodore/commodore-plus4.md)
       * [Commodore 128](systemes-and-emulateurs/supported-game-systems/micro-ordinateurs/commodore/commodore-128.md)
