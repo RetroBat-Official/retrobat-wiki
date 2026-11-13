@@ -23,7 +23,7 @@ The mapping done in Step 1 can be found in the following section of RetroArch co
 
 <div align="left"><figure><img src="https://i.imgur.com/rdZbOuz.png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 General binding is stored in the "**retroarch.cfg**" file located in `/emulators/retroarch`
@@ -33,9 +33,9 @@ General binding is stored in the "**retroarch.cfg**" file located in `/emulators
 
 The remap information (step 2) can be found in the Quick Settings menu of RetroArch, while a core is running:
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt="" width="294"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="294"><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="342"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="342"><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 Remap files are saved as .rmp files in `/emulators/retroarch/config/remaps` folder.
@@ -107,16 +107,16 @@ The logic RetroBat uses to find a file is the following:
 
 If a yaml file is found, RetroBat reads the file and searches for a container matching the name of the game rom file:
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 If no container exists for the game, RetroBat tries to get the "default" container:
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 For arcade systems, a single game can have multiple layouts based on the option set in RetroBat interface ADVANCED SETTINGS > CONTROLS:
 
-![](<../../.gitbook/assets/image (6) (1) (1).png>)
+![](<../../.gitbook/assets/image (6) (1) (1) (1).png>)
 
 RetroBat will first look for the container with the selected layout, before falling back to the game specific container:
 
@@ -156,17 +156,17 @@ Some controllers are recognized by windows as keyboards, this is the case for ex
 
 RetroBat provides an autoconfiguration for these controller, which is forced from a YAML file located in the `\system\resources\inputmapping\kbpads` folder of your RetroBat installation:
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 The file contains the mapping to force in RetroArch for a device:
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 If you own one of these devices, you can enable the automatic mapping within the RetroBat **MAIN MENU > GAME SETTINGS > RETROARCH OPTIONS > CONTROLS**:
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
 If you own a different controller that is recognized as a keyboard, you can share the keyboard mapping for the stick with the RetroBat team and it will be added to RetroBat.
