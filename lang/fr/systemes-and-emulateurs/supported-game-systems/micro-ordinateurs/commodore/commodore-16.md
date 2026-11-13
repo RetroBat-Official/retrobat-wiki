@@ -24,9 +24,9 @@ RetroBat émule le C16 avec **VICE**, l'émulateur de référence des ordinateur
 
 Le C16 n'a qu'un émulateur dans RetroBat.
 
-| Émulateur                           | Points forts                                                                                                                                            | Limites                                                                                |
-| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
-| **libretro: vice\_xplus4** (défaut) | Émulation très fidèle de la famille C16 / C116 / Plus/4, lecteur de disquette et lecteur de cassette émulés, clavier virtuel, sauvegardes instantanées. | Les jeux sur cassette se chargent lentement, comme sur la vraie machine (voir Guides). |
+| Émulateur                           | Points forts                                                                                                                                            | Limites                                                                                                                                         |
+| ----------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| **libretro: vice\_xplus4** (défaut) | Émulation très fidèle de la famille C16 / C116 / Plus/4, lecteur de disquette et lecteur de cassette émulés, clavier virtuel, sauvegardes instantanées. | Les jeux sur cassette se chargent lentement, comme sur la vraie machine (voir [Guides](commodore-16.md#accelerer-le-chargement-des-cassettes)). |
 
 Le même core sert au système Commodore Plus/4 (dossier `roms\cplus4`). Pour le C16, RetroBat règle automatiquement le modèle sur C16.
 
