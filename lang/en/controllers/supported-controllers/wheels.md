@@ -15,14 +15,14 @@ description: Vroum vroum
 When the wheels are enabled, RetroBat:
 
 1. detects the connected wheels by their USB identifier (see the list of detected wheels);
-2. looks for the mapping of this wheel model in the mapping file of the emulator (`system\resources\inputmapping\wheels`);
+2. looks for the mapping of this wheel model in the mapping file of the emulator (your copy in `user\inputmapping` first, else `system\resources\inputmapping\wheels`);
 3. writes this mapping in the emulator configuration (steering, pedals, gears, buttons).
 
 If a wheel is not in the list of detected wheels, or has no mapping for the emulator, RetroBat does not configure it as a wheel.
 
 {% hint style="info" %}
 * A wheel **with pedals** is required (accelerator and brake): RetroBat does not offer to play with a wheel without pedals.
-* The gear stick (shifter) is optional. For some Thrustmaster wheels, the shifter is a separate device: this is handled with the `DeportedShifter` value of the mapping files.
+* The gear stick (shifter) is optional: without an H-shifter, enable **DISABLE GEAR STICK** (the gears then use the wheel buttons). For some Thrustmaster wheels, the shifter is a separate device: this is handled with the `DeportedShifter` value of the mapping files, or with **FORCE GEARSTICK DEVICE ID**.
 {% endhint %}
 
 ## Enabling the wheels
@@ -56,29 +56,15 @@ The list is the `emulationstation\resources\gamesdb.xml` file (games marked `<wh
 
 ## Compatible emulators
 
-| Emulator                   | Systems                      | Mapping file                                                                                                                                   | Wheel options (WHEELS submenu)                                           |
-| -------------------------- | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| **Model 2 Emulator**       | Sega Model 2                 | `model2_wheels.yml`                                                                                                                            | ENABLE FORCE FEEDBACK, HOLD GEARS                                        |
-| **Supermodel**             | Sega Model 3                 | `model3_wheels.yml`                                                                                                                            | ENABLE FORCE FEEDBACK, FORCE WHEEL INDEX                                 |
-| **Flycast**                | Dreamcast, Naomi, Atomiswave | `flycast_wheels.yml` (Dreamcast), `flycast_racing_wheels.yml` (Dreamcast with **USE RACING CONTROLLER**), `flycast_arcade_wheels.yml` (arcade) | USE RACING CONTROLLER, WHEEL BUTTON LAYOUT                               |
-| **PCSX2**                  | PlayStation 2                | `pcsx2_wheels.yml`                                                                                                                             | WHEEL TYPE PLAYER 1, ENABLE FORCE FEEDBACK, SIMULATE WHEEL WITH GAMEPAD… |
-| **PCSX2x6**                | Namco System 246/256         | `pcsx2x6_wheels.yml`                                                                                                                           | ENABLE FORCE FEEDBACK                                                    |
-| **TeknoParrot**            | PC-based arcade              | `teknoparrot_wheels.yml`                                                                                                                       | COIN & START BUTTONS, TEST & SERVICE BUTTONS, CUSTOM PROFILE…            |
-| **RetroArch - lr-flycast** | Dreamcast, Naomi, Atomiswave | `libretro_flycast_wheels.yml` (not provided yet)                                                                                               | ENABLE WHEEL                                                             |
+<table><thead><tr><th width="140.25">Emulator</th><th width="175">Systems</th><th>Mapping file</th><th>Wheel options (WHEELS submenu)</th></tr></thead><tbody><tr><td><strong>Model 2 Emulator</strong></td><td>Sega Model 2</td><td><code>model2_wheels.yml</code></td><td>ENABLE FORCE FEEDBACK, DISABLE GEAR STICK, HOLD GEARS, FORCE GEARSTICK DEVICE ID</td></tr><tr><td><strong>Keisho</strong></td><td>Sega Model 1, Model 2, Model 3</td><td><code>keisho_wheels.yml</code> (buttons only: steering and pedals are detected by Keisho)</td><td>ENABLE FORCE FEEDBACK, FORCE FEEDBACK STRENGTH, DISABLE GEAR STICK</td></tr><tr><td><strong>Supermodel</strong></td><td>Sega Model 3</td><td><code>model3_wheels.yml</code></td><td>ENABLE FORCE FEEDBACK, FORCE WHEEL INDEX, DISABLE GEAR STICK, FORCE GEARSTICK DEVICE ID</td></tr><tr><td><strong>Model3-Vulkan</strong></td><td>Sega Model 3</td><td><code>model3vulkan_wheels.yml</code>, else <code>model3_wheels.yml</code></td><td>DISABLE GEAR STICK, FORCE WHEEL INDEX, FORCE GEARSTICK DEVICE ID</td></tr><tr><td><strong>Odin</strong></td><td>Hikaru (NASCAR Arcade), Gaelco (ATV Track, Smashing Drive)</td><td><code>odin_wheels.yml</code>, else <code>model3_wheels.yml</code> (without mapping, Odin steers with the first axis)</td><td>WHEEL ROTATION, FORCE FEEDBACK STRENGTH</td></tr><tr><td><strong>Linuxloader</strong></td><td>Sega Lindbergh</td><td><code>linuxloader_wheels.yml</code> (XInput wheels, seen as gamepads, use the controller mapping)</td><td></td></tr><tr><td><strong>Flycast</strong></td><td>Dreamcast, Naomi, Atomiswave</td><td><code>flycast_wheels.yml</code> (Dreamcast), <code>flycast_racing_wheels.yml</code> (Dreamcast with <strong>USE RACING CONTROLLER</strong>), <code>flycast_arcade_wheels.yml</code> (arcade)</td><td>USE RACING CONTROLLER, WHEEL BUTTON LAYOUT</td></tr><tr><td><strong>PCSX2</strong></td><td>PlayStation 2</td><td><code>pcsx2_wheels.yml</code></td><td>WHEEL TYPE PLAYER 1, ENABLE FORCE FEEDBACK, SIMULATE WHEEL WITH GAMEPAD…</td></tr><tr><td><strong>PCSX2x6</strong></td><td>Namco System 246/256</td><td><code>pcsx2x6_wheels.yml</code></td><td>ENABLE FORCE FEEDBACK</td></tr><tr><td><strong>TeknoParrot</strong></td><td>PC-based arcade</td><td><code>teknoparrot_wheels.yml</code></td><td>COIN &#x26; START BUTTONS, TEST &#x26; SERVICE BUTTONS, CUSTOM PROFILE…</td></tr><tr><td><strong>RetroArch - lr-flycast</strong></td><td>Dreamcast, Naomi, Atomiswave</td><td><code>libretro_flycast_wheels.yml</code> (not provided yet)</td><td>ENABLE WHEEL</td></tr></tbody></table>
 
 ### Wheels with a ready-made mapping
 
-| Wheel                          | Model 2 | Supermodel | Flycast | PCSX2 / PCSX2x6 | TeknoParrot |
-| ------------------------------ | :-----: | :--------: | :-----: | :-------------: | :---------: |
-| Logitech G29                   |    ✔    |      ✔     |    ✔    |        ✔        |      ✔      |
-| Logitech G920                  |    ✔    |            |    ✔    |                 |      ✔      |
-| Logitech G923 (PlayStation)    |    ✔    |            |    ✔    |        ✔        |      ✔      |
-| Logitech G923 (Xbox)           |    ✔    |            |    ✔    |                 |      ✔      |
-| Logitech Driving Force GT      |         |            |    ✔    |        ✔        |             |
-| Thrustmaster T300RS (PS3 mode) |    ✔    |            |    ✔    |        ✔        |      ✔      |
-| Moza R5                        |         |            |    ✔    |        ✔        |      ✔      |
+<table><thead><tr><th>Wheel</th><th width="70.5" align="center">Model 2</th><th width="76.75" align="center">Keisho</th><th width="104.25" align="center">Supermodel, Model3-Vulkan, Odin</th><th width="74.25" align="center">Linuxloader</th><th width="76.75" align="center">Flycast</th><th width="85.5" align="center">PCSX2 / PCSX2x6</th><th align="center">TeknoParrot</th></tr></thead><tbody><tr><td>Logitech G29</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td></tr><tr><td>Logitech G920</td><td align="center">✔</td><td align="center">✔</td><td align="center"></td><td align="center">✔</td><td align="center">✔</td><td align="center"></td><td align="center">✔</td></tr><tr><td>Logitech G923 (PlayStation)</td><td align="center">✔</td><td align="center">✔</td><td align="center"></td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td></tr><tr><td>Logitech G923 (Xbox)</td><td align="center">✔</td><td align="center">✔</td><td align="center"></td><td align="center">✔</td><td align="center">✔</td><td align="center"></td><td align="center">✔</td></tr><tr><td>Logitech Driving Force GT</td><td align="center"></td><td align="center">✔</td><td align="center"></td><td align="center"></td><td align="center">✔</td><td align="center">✔</td><td align="center"></td></tr><tr><td>Thrustmaster T300RS (PS3 mode)</td><td align="center">✔</td><td align="center">✔</td><td align="center"></td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td></tr><tr><td>Moza R5</td><td align="center"></td><td align="center">✔</td><td align="center"></td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td></tr></tbody></table>
 
-TeknoParrot also has a mapping for many other wheels (Logitech G Pro, Thrustmaster T150 / TMX / T248 / T300RS PS4 / T500RS / TX / TS-XW, Fanatec, Moza R9 / R12 / R16, Simucube, Simagic, Asetek, Cammus, PXN V9) and a `default` mapping used for the other detected wheels.
+TeknoParrot and Linuxloader also have a mapping for many other wheels (Logitech G Pro, Thrustmaster T150 / TMX / T248 / T300RS PS4 / T500RS / TX / TS-XW, Fanatec, Moza R9 / R12 / R16, Simucube, Simagic, Asetek, Cammus, PXN V9) and a `default` mapping used for the other detected wheels.
+
+Supermodel, Model3-Vulkan and Odin use the same `model3_wheels.yml` file. Model3-Vulkan and Odin first read `model3vulkan_wheels.yml` / `odin_wheels.yml` when it exists (not provided by RetroBat).
 
 {% hint style="info" %}
 **Thrustmaster T300RS**: set the pedals to **split** in the Thrustmaster Control Panel, and make sure they are not inverted (fixed by holding **MODE + L3 + R3**).
@@ -95,6 +81,8 @@ Each mapping file contains **one block per wheel model**, named with the RetroBa
 {% hint style="warning" %}
 Each emulator uses **its own notation** for buttons and axes (button numbers starting at 0 or 1, axis names…). Always start from an existing block of **the same file** (the `LogitechG29` block is a good example) and read the explanations at the top of the file.
 {% endhint %}
+
+<table><thead><tr><th width="215.75">File</th><th>Buttons</th><th>Axes</th></tr></thead><tbody><tr><td><code>model2_wheels.yml</code></td><td><code>button0</code>, <code>button1</code>… (from 0)</td><td><code>axis0</code>, <code>axisinv0</code>…</td></tr><tr><td><code>keisho_wheels.yml</code></td><td><code>0</code>, <code>1</code>… (from 0), <code>-1</code> = none</td><td>Detected by Keisho (calibrate them in the Keisho menu)</td></tr><tr><td><code>model3_wheels.yml</code>, <code>linuxloader_wheels.yml</code></td><td><code>BUTTON1</code>, <code>BUTTON2</code>… (from 1), <code>POV1_UP</code>…</td><td><code>XAXIS_NEG</code>, <code>RZAXIS_POS</code>, <code>SLIDER1</code>…</td></tr></tbody></table>
 
 ### Example: Model 2 Emulator
 
