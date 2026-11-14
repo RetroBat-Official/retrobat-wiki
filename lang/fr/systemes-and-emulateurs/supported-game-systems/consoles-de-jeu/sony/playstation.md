@@ -4,7 +4,7 @@ description: Sony
 
 # PlayStation
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ## Présentation
 
@@ -56,11 +56,11 @@ L'option **SAUTER LE BIOS** passe l'animation de démarrage de la console.
 
 RetroBat configure automatiquement les manettes pour tous les émulateurs. Les boutons sont placés comme sur la manette PlayStation : **SUD** = Croix, **EST** = Rond, **OUEST** = Carré, **NORD** = Triangle.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (3).png" alt="" width="225"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt="" width="225"><figcaption></figcaption></figure></div>
 
 Options utiles, dans **CONTRÔLES** :
 
-<table><thead><tr><th width="361.5">Option</th><th>Effet</th></tr></thead><tbody><tr><td><strong>TYPE DE CONTRÔLEUR JOUEUR 1</strong> (à 4)</td><td>Manette émulée : numérique, DualShock, neGcon, souris… Certains vieux jeux ne reconnaissent que la manette numérique.</td></tr><tr><td><strong>UTILISER LES GÂCHETTES POUR LES JEUX DE COURSE</strong></td><td>Place l'accélérateur et le frein sur les gâchettes (Gran Turismo…).<br><img src="../../../../.gitbook/assets/image (5).png" alt=""></td></tr><tr><td><strong>FORCER LES STICKS ANALOGIQUES</strong></td><td>mednafen_psx_hw : garde la DualShock en mode analogique.</td></tr><tr><td><strong>COMBO DE BOUTONS ANALOG/DIGITAL</strong></td><td>mednafen_psx_hw, swanstation : combinaison qui bascule la DualShock entre analogique et numérique (L1 + R1 + START par défaut avec mednafen_psx_hw).</td></tr></tbody></table>
+<table><thead><tr><th width="361.5">Option</th><th>Effet</th></tr></thead><tbody><tr><td><strong>TYPE DE CONTRÔLEUR JOUEUR 1</strong> (à 4)</td><td>Manette émulée : numérique, DualShock, neGcon, souris… Certains vieux jeux ne reconnaissent que la manette numérique.</td></tr><tr><td><strong>UTILISER LES GÂCHETTES POUR LES JEUX DE COURSE</strong></td><td>Place l'accélérateur et le frein sur les gâchettes (Gran Turismo…).<br><img src="../../../../.gitbook/assets/image (5) (1).png" alt=""></td></tr><tr><td><strong>FORCER LES STICKS ANALOGIQUES</strong></td><td>mednafen_psx_hw : garde la DualShock en mode analogique.</td></tr><tr><td><strong>COMBO DE BOUTONS ANALOG/DIGITAL</strong></td><td>mednafen_psx_hw, swanstation : combinaison qui bascule la DualShock entre analogique et numérique (L1 + R1 + START par défaut avec mednafen_psx_hw).</td></tr></tbody></table>
 
 Avec DuckStation, le bouton **Guide** de la manette sert de bouton Analog, et le multitap est activé automatiquement au-delà de 2 manettes.
 
