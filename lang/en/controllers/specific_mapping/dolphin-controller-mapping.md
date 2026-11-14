@@ -25,7 +25,7 @@ RetroBat configures controllers at each launch. The settings are in the advanced
 
 * **Wii**: **WIIMOTE TYPE** and **EMULATED DEVICES**, to choose how the Wiimote is held, and real Wiimotes with a DolphinBar. See the [**Wii**](../../systems-and-emulators/supported-game-systems/game-consoles/nintendo-game-consoles/wii.md#controls) page.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 In most cases, these options are enough.
 

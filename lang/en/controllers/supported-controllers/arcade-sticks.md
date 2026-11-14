@@ -26,7 +26,7 @@ Also map **START**, **SELECT** (used as Coin) and **HOTKEY** (usually the same b
 
 The **CONTROLLER LAYOUT** option is located in the system's advanced configuration (or the game's advanced configuration) > **CONTROLS**. It tells RetroBat how the buttons of your stick are laid out, so that each game uses the same buttons as on the original cabinet.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 The diagrams below show the buttons as **XInput** names them (PlayStation equivalent: X = □, Y = △, A = ✕, B = ○, LB/RB = L1/R1, LT/RT = L2/R2).
 

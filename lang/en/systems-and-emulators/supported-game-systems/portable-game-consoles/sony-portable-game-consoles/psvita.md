@@ -4,118 +4,216 @@ description: Sony
 
 # PlayStation Vita
 
-<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/psvita-w.svg" media="(prefers-color-scheme: dark)"><img src="https://i.imgur.com/as0rgjr.png" alt=""></picture><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-Portable Game Console - Lifespan: 2011 - 2019
+## Overview
+
+The **PlayStation Vita** was released in December 2011 in Japan, then in February 2012 in Europe and North America. It succeeded the PSP with a large OLED touchscreen, a rear touch pad, two analog sticks, a gyroscope and two cameras.
+
+In 2013 Sony released a slimmer model with an LCD screen, then the **PlayStation TV**, a small home console that plays Vita games on a TV with a DualShock controller. Production ended in 2019. The console is home to games such as Uncharted: Golden Abyss, Gravity Rush, Persona 4 Golden, Tearaway or WipEout 2048, and to many indie games.
+
+**Vita3K**, the emulator provided by RetroBat, is the first PS Vita emulator able to run commercial games. It is improving quickly, but compatibility varies a lot from one game to another.
 
 {% embed url="https://en.wikipedia.org/wiki/PlayStation_Vita" %}
 
-## Information
+## At a glance
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>vita3k</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> psvita</td></tr><tr><td><strong>File extension</strong></td><td>.m3u .psvita .vpk</td></tr></tbody></table>
+<table><thead><tr><th width="237.75"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\psvita</code></td></tr><tr><td><strong>Extensions</strong></td><td>.m3u .psvita .vpk .zip .decomp</td></tr><tr><td><strong>Default emulator</strong></td><td>vita3k</td></tr><tr><td><strong>BIOS</strong></td><td>PS Vita firmware to install in Vita3K (automatic from <code>bios\vita3k</code>, see BIOS)</td></tr><tr><td><strong>Controller configuration</strong></td><td>Automatic, handled by Vita3K</td></tr><tr><td><strong>Save states</strong></td><td>No</td></tr><tr><td><strong>RetroAchievements</strong></td><td>No</td></tr><tr><td><strong>Netplay</strong></td><td>No</td></tr></tbody></table>
 
-## System Features
+## Which emulator should I choose?
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>NO</td></tr></tbody></table>
+Vita3K is the only PS Vita emulator in RetroBat.
+
+| Emulator             | Strengths                                                                                                          | Limitations                                                                |
+| -------------------- | ------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------- |
+| **vita3k** (default) | Runs many commercial games and homebrews, upscaling, custom textures, cheats, PlayStation TV mode for multiplayer. | Young emulator: many games still have bugs or do not boot. No save states. |
+
+The Vita3K compatibility list ([vita3k.org](https://vita3k.orghttps/vita3k.org/compatibility)) shows the status of each game.
 
 ## BIOS
 
-<table><thead><tr><th width="193">Bios file</th><th width="142.03610108303252">Folder</th><th>md5</th></tr></thead><tbody><tr><td>PSP2UPDAT.PUP</td><td><code>\bios</code></td><td>8B5F60B56C3DA8365B973DBA570C53A5</td></tr><tr><td><a href="https://www.playstation.com/en-us/support/hardware/psvita/system-software/">PSVUPDAT.PUP</a></td><td><code>\bios</code></td><td>F2C7B12FE85496EC88A0391B514D6E3B</td></tr></tbody></table>
+Vita3K needs the PS Vita **firmware**. It comes in three packages, all provided by Sony:
+
+| File                    | Content                       | Use                                                    |
+| ----------------------- | ----------------------------- | ------------------------------------------------------ |
+| `PSP2UPDAT.PUP`         | Console firmware              | Needed by most games                                   |
+| `PSP2UPDAT_FONT.PUP`    | System fonts                  | Recommended: without it, text is missing in some games |
+| `PSP2UPDAT_PREINST.PUP` | Console pre-installed content | Optional                                               |
+
+The three files are downloaded under the same name (`PSP2UPDAT.PUP`): rename them as shown in the table. The names `font_fresh.pup` and `preinst_fresh.pup` are also accepted for the fonts and the pre-installed content.
+
+RetroBat checks these three files as optional BIOS: once the firmware is installed, they are no longer needed.
+
+The firmware is not read from the `bios` folder: it has to be **installed** in the Vita3K data folder. RetroBat takes care of it:
+
+1. Download the firmware from the PlayStation website ("PS Vita System Software Update" page). The links to the fonts and the pre-installed content are given in the Vita3K welcome window (**Help > View Welcome Dialog**).
+2. Rename the files and place them in `bios\vita3k`.
+3. Launch a game: RetroBat installs the missing packages before starting the game. A window shows the installation in progress.
+
+The installation only happens once. The files in `bios\vita3k` can then be kept for a reinstallation.
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (556).png" alt=""><figcaption></figcaption></figure></div>
+
+### Installing the firmware from Vita3K
+
+You can also install the firmware from the Vita3K interface:
+
+1. Launch a game once from RetroBat, then quit it: this way Vita3K stores the RetroBat data folder.
+2. Open Vita3K from the RetroBat emulators menu.
+3. Select **File > Install Firmware (.PUP)** and install each `.PUP` file one after the other.
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (555).png" alt=""><figcaption></figcaption></figure></div>
+
+If you open Vita3K without ever launching a game, it offers its own data folder (in the Windows `AppData` folder): firmware installed there is not seen by RetroBat.
+
+## Which game format should I use?
+
+PS Vita games have to be **installed** in Vita3K before they can be launched. RetroBat installs packages and folders automatically at the first launch.
+
+<table><thead><tr><th width="153.25">Format</th><th width="245.75">Installation</th><th>Notes</th></tr></thead><tbody><tr><td><strong>.vpk</strong></td><td>Automatic at the first launch</td><td>Game or homebrew package.</td></tr><tr><td><strong>.zip</strong></td><td>Automatic at the first launch</td><td>Compressed decrypted game (NoNpDrm dump for instance).</td></tr><tr><td><strong><code>.psvita</code> folder</strong></td><td>Automatic at the first launch</td><td>The game folder, which contains <code>eboot.bin</code> and <code>sce_sys</code>, renamed with <code>.psvita</code> at the end.</td></tr><tr><td>.m3u</td><td>Game already installed</td><td>Text file that contains the game ID (see <a href="psvita.md#using-an-.m3u-file">Guides</a>).</td></tr><tr><td><code>.psvita</code> file</td><td>Game already installed</td><td>Empty file whose name contains the game ID between square brackets: <code>WipEout 2048 [PCSA00029].psvita</code>.</td></tr><tr><td>.decomp</td><td>—</td><td>PC port, see the <a href="../../others/recomp.md"><strong>Recompilations</strong></a> page.</td></tr></tbody></table>
+
+RetroBat reads the game ID (for instance `PCSE00000`) in the `param.sfo` file of the package or folder. If it is not found, it looks for it between square brackets in the file name: `Street Fighter X Tekken [PCSE00005].vpk`.
+
+`.pkg` files are not launched by RetroBat: install them from Vita3K (**File > Install Package (.pkg)**), with their license (zRIF), then use an `.m3u` file.
 
 ## Controls
 
-Vita3K auto-detects connected controllers, there is no configuration required.
+### Automatic configuration
 
-## System Features
+RetroBat does not configure the controller buttons: Vita3K detects the controllers itself and applies its default layout at each launch. Xbox, DualShock 4 and DualSense controllers work without any setting.
 
-### Data location
+| PS Vita       | Controller    |
+| ------------- | ------------- |
+| Cross         | SOUTH         |
+| Circle        | EAST          |
+| Square        | WEST          |
+| Triangle      | NORTH         |
+| L, R          | L1, R1        |
+| SELECT, START | SELECT, START |
+| D-pad, sticks | D-pad, sticks |
+| PS button     | GUIDE         |
 
-<table><thead><tr><th width="254">Data</th><th>Path (relative to RetroBat root folder)</th></tr></thead><tbody><tr><td>pref-path</td><td>saves\psvita\vita3k*<br><br>*The folder can be changed in <strong>advanced settings > emulation</strong></td></tr></tbody></table>
+* The L2, R2, L3 and R3 buttons and rumble only exist on the PlayStation TV: they only work with the **CONTROLS > PLAYSTATION TV MODE** option.
+* The gyroscope of compatible controllers (DualShock 4, DualSense…) is used by the games that need it.
+* The **EMULATION > CONFIRM BUTTON** option selects the button used to confirm in system menus: **CROSS** (default) or **CIRCLE** (Japanese convention).
 
-### Installation & first setup
+### Touchscreen and touch pad
 
-Before playing any game, it is required to install PSVita firmware.
+| Action                 | Mouse       | DualShock 4 / DualSense controller  |
+| ---------------------- | ----------- | ----------------------------------- |
+| Touch the front screen | Left click  | Touch pad                           |
+| Touch the rear pad     | Right click | Touch pad, after a press on the pad |
 
-The firmware is available on Sony website : [https://www.playstation.com/en-us/support/hardware/psvita/system-software/](https://www.playstation.com/en-us/support/hardware/psvita/system-software/)
+For the controller touch pad, pressing the pad (or the T key on the keyboard) switches from the front screen to the rear pad, and back.
 
-You can either run a game to install or run the emulator from the RetroBat menu:
+### Keyboard
 
-<div align="left"><figure><img src="https://i.imgur.com/ytvkvPS.png" alt=""><figcaption></figcaption></figure></div>
+On the keyboard, Vita3K uses these default keys:
 
-Upon first startup, click on **File > Install Firmware**:
+| PS Vita                         | Keyboard           |
+| ------------------------------- | ------------------ |
+| Left stick                      | W, A, S, D         |
+| Right stick                     | I, J, K, L         |
+| D-pad                           | Arrow keys         |
+| Triangle, Circle, Cross, Square | V, C, X, Z         |
+| L, R                            | Q, E               |
+| SELECT, START                   | Right SHIFT, ENTER |
+| PS button                       | P                  |
 
-<div align="left"><figure><img src="https://i.imgur.com/lCnXsVP.png" alt=""><figcaption></figcaption></figure></div>
+Keys can be changed in Vita3K (**Settings > Controls**, **Keyboard** category).
 
-Install the firmware that has been downloaded previously and wait until the end of installation:
+### Hotkeys
 
-<div align="left"><figure><img src="https://i.imgur.com/saYuhzk.png" alt=""><figcaption></figcaption></figure></div>
+| Hotkey             | Action                                   | Keyboard |
+| ------------------ | ---------------------------------------- | -------- |
+| **HOTKEY + START** | Quit                                     | ESC      |
+| —                  | Fullscreen                               | F11      |
+| —                  | Switch between front screen and rear pad | T        |
 
-CONGRATULATIONS: you have succesfully initialised Vita3k emulator.
+Screenshots have no default key: one can be added in Vita3K (**Settings > Controls**, **Hotkeys** category), as well as for texture replacement.
 
-### Adding games
+## Folders
 
-PS Vita games first have to be installed within the emulator, a more detailed guide can be read on the Vita3K website: [https://vita3k.org/quickstart.html](https://vita3k.org/quickstart.html)
+| Content                                          | Folder                                                             |
+| ------------------------------------------------ | ------------------------------------------------------------------ |
+| Vita3K data folder (pref-path)                   | `saves\psvita\vita3k`                                              |
+| Installed games                                  | `saves\psvita\vita3k\ux0\app\<game ID>`                            |
+| Installed updates and downloadable content (DLC) | `saves\psvita\vita3k\ux0\patch`, `saves\psvita\vita3k\ux0\addcont` |
+| Game saves                                       | `saves\psvita\vita3k\ux0\user\00\savedata`                         |
+| Firmware files to install                        | `bios\vita3k`                                                      |
+| Vita3K configuration                             | `emulators\vita3k\config.yml`                                      |
+| Vita3K per-game configurations                   | `emulators\vita3k\config`                                          |
+| Custom textures                                  | `emulators\vita3k\textures\import\<game ID>`                       |
+| Cheats                                           | `emulators\vita3k\cheats`                                          |
+| Patches                                          | `emulators\vita3k\patch`                                           |
+| Screenshots                                      | `emulators\vita3k\screenshots`                                     |
 
-Vita3K currently supports .pkg, NoNpDrm, FAGDec, or manually decrypted games.
+The data folder can be moved with the **EMULATION > CHANGE PREF-PATH** option. It contains the installed games: make sure there is enough space.
 
-2 cases need to be distinguished:
+**Vita3K portable mode**: if a non-empty `portable` folder is next to `Vita3K.exe`, Vita3K stores everything in it (configuration, data in `portable\fs`, cheats, screenshots…) and the CHANGE PREF-PATH option is ignored. An empty `portable` folder is removed by RetroBat.
 
-1. The game is already installed in vita3k
-2. The game is in your roms\psvita folder and is not yet installed in vita3k emulator
+## Guides
 
-{% hint style="info" %}
-Games are installed in the `ux0\app` folder inside the directory that was defined as "pref path".
-{% endhint %}
+### Adding a game
 
-#### Case 1 : game is already installed in vita3k
+1. Copy the `.vpk` or `.zip` file, or the game folder renamed to `.psvita`, to `roms\psvita`.
+2. Update the RetroBat game list.
+3. Launch the game. At the first launch, RetroBat has Vita3K install the game: a window shows the progress, then the game starts. Next launches are direct.
 
-Create a .m3u file in the `\roms\psvita` folder of your RetroBat installation with game name:
+Once the game is installed, the package is no longer used. To save space, you can replace it with an `.m3u` file.
 
-<div align="left"><figure><img src="https://i.imgur.com/tfILs19.png" alt=""><figcaption></figcaption></figure></div>
+### Using an .m3u file
 
-Inside the file, copy the **Title ID** of the game and save:
-
-<div align="left"><figure><img src="https://i.imgur.com/Fs8a98E.png" alt=""><figcaption></figcaption></figure></div>
-
-{% hint style="info" %}
-The title ID can be retrieved by running directly the Vita3k emulator.
-{% endhint %}
-
-<div align="left"><figure><img src="https://i.imgur.com/OxK80r2.png" alt=""><figcaption></figcaption></figure></div>
-
-It's also possible to use a .psvita file instead of .m3u, but in this case the file must contain the game ID inside square brackets.
-
-#### Case 2 : game is in your roms folder and not yet installed in the emulator
-
-RetroBat will automatically take care of the installation when you run the game for the first time, provided that the games are in the correct format.
-
-2 formats are accepted and will allow automatic installation:
-
-* game folders
-* .vpk packages
-
-{% hint style="warning" %}
-It is mandatory that your .psvita folder name or .vpk filename contains the gameID between brackets as illustrated in the examples below, else the installation will not work.
-{% endhint %}
-
-If you are using a game folder, the folder must be renamed with ".psvita" at then end, also ensure that there is a eboot.bin directly inside the folder. Here is an example of a correct structure:
-
-<div align="left"><figure><img src="https://i.imgur.com/Anjm21x.png" alt=""><figcaption></figcaption></figure></div>
-
-If you are using a .vpk file, just be sure that the file is correctly named with the gameID between brackets:
+The `.m3u` file launches a game already installed in Vita3K. In `roms\psvita`, create a text file named after the game, for instance `WipEout 2048.m3u`, that only contains the game ID:
 
 ```
-Street fighter [PCSE00005].vpk
+PCSA00029
 ```
 
-When running the game for the first time, Retrobat will automatically install it inside the emulator, wait until the operation finishes (this might take some time and the screen will seem frozen).
+The game ID is shown in the Vita3K game list. It is also the name of the game folder in `saves\psvita\vita3k\ux0\app`.
 
-Once the game is installed, next startup will be faster.
+### Updates and DLC
+
+Updates and downloadable content are installed from Vita3K (**File > Install Archive (.zip / .vpk / .vci)** or **File > Install Package (.pkg)**). Open Vita3K from the RetroBat emulators menu.
+
+### Multiplayer
+
+The **CONTROLS > PLAYSTATION TV MODE** option emulates a PlayStation TV, which accepts up to 4 controllers for local multiplayer games. It also enables L2, R2, L3, R3 and rumble. Games that require the touchscreen may not work in this mode.
 
 ### Custom textures
 
-Vita3K allows user to load custom HD textures for games.
+Vita3K can replace the textures of a game with high-definition textures.
 
-To do so, place the texture packs in the `emulators\vita3k\textures\import` folder of your RetroBat installation and enable the option in ADVANCED SETTINGS > VISUAL RENDERING:
+1. Place the texture pack in `emulators\vita3k\textures\import`, in a folder named after the game ID (for instance `import\PCSA00029`).
+2. Enable the **VISUAL RENDERING > CUSTOM TEXTURES** option.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure></div>
+### Cheats
+
+Vita3K reads the code databases of the FinalCheat / VitaCheat plugins (`.psv` files).
+
+1. Place the code file in `emulators\vita3k\cheats`, named after the game ID (for instance `PCSA00147.psv`).
+2. Open Vita3K from the RetroBat emulators menu, then **Manage > Cheats**.
+3. Tick the codes to enable and click **Save**: they will be active the next time the game is launched.
+
+The **EMULATION > ENABLE CHEATS** option, on by default, disables all codes without unticking them.
+
+### Vita3K per-game settings
+
+Vita3K can save settings for each game. By default, RetroBat ignores them and applies its own settings. The **EMULATION > USE VITA3K PER-GAME CONFIG** option uses the Vita3K per-game settings, which then take priority over the RetroBat ones.
+
+### Other useful options
+
+| Option                                  | Effect                                                                                                                                   |
+| --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- |
+| **INTERNAL RESOLUTION**                 | Increases the rendering resolution (up to 8X). Native resolution is 960x544.                                                             |
+| **EMULATION > LANGUAGE**                | Language of the emulated console. By default, it is the RetroBat language.                                                               |
+| **EMULATION > FPS HACK**                | Runs some 30 fps games at 60 fps.                                                                                                        |
+| **VIDEO > MEMORY MAPPING**              | Vulkan only. Improves performance and fixes many graphical issues, but may be unstable on some GPUs.                                     |
+| **VIDEO > RENDERER ACCURACY**           | **HIGH** (default) or **STANDARD**, faster but less accurate.                                                                            |
+| **DRIVERS > VIDEO**                     | Vulkan (default) or OpenGL.                                                                                                              |
+| **AUDIO > NGS AUDIO SUPPORT**           | Audio library used by many games. Disable only if a game crashes or has audio issues.                                                    |
+| **MODULES > MODULES MANAGEMENT METHOD** | **AUTOMATIC** lets Vita3K choose the firmware modules to load (recommended). **EMULATOR SETTINGS** keeps the modules selected in Vita3K. |
+
+## Known issues
+
+<table><thead><tr><th width="316.5">Issue</th><th>Solution</th></tr></thead><tbody><tr><td>"PS Vita game … is not installed in Vita3K" message</td><td>The <code>.m3u</code> or <code>.psvita</code> file points to a game that is not installed. Check the game ID, or launch the <code>.vpk</code> / <code>.zip</code> package of the game once to install it.</td></tr><tr><td>The first launch of a game seems stuck</td><td>Vita3K is installing the game: wait for the progress bar to finish. Large games can take several minutes.</td></tr><tr><td>Missing text or squares instead of letters</td><td>The font package is not installed: add <code>PSP2UPDAT_FONT.PUP</code> to <code>bios\vita3k</code> (see BIOS).</td></tr><tr><td>The game does not boot or crashes</td><td>Check its status in the Vita3K compatibility list and that the firmware is installed. Try another <strong>MEMORY MAPPING</strong> method or video driver.</td></tr><tr><td>Black screen with OpenGL on an AMD integrated GPU</td><td>Enable <strong>VIDEO > DISABLE MASK BIT (OPENGL)</strong>.</td></tr><tr><td>Buttons changed in Vita3K go back to their default value</td><td>RetroBat resets the controller buttons at each launch. Keyboard keys are kept.</td></tr><tr><td>Two identical controllers do not work in PlayStation TV mode</td><td>Vita3K limitation: use controllers of different models.</td></tr><tr><td>My RetroBat settings are not applied to a game</td><td>A Vita3K per-game setting is used: disable <strong>USE VITA3K PER-GAME CONFIG</strong>.</td></tr></tbody></table>

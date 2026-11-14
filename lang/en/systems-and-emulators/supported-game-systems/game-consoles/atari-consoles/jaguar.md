@@ -4,7 +4,7 @@ description: Atari
 
 # Jaguar
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image.png" alt="" width="425"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (1).png" alt="" width="425"><figcaption></figcaption></figure></div>
 
 ## Presentation
 
@@ -62,9 +62,9 @@ RetroBat automatically configures the controllers for all emulators. The three a
 | \*                | —                                | L3                                          | L3                |
 | #                 | —                                | R3                                          | R3                |
 
-| Libretro : VirtualJaguar                         | BigPEmu                                          |
-| ------------------------------------------------ | ------------------------------------------------ |
-| ![](<../../../../.gitbook/assets/image (1).png>) | ![](<../../../../.gitbook/assets/image (2).png>) |
+| Libretro : VirtualJaguar                             | BigPEmu                                          |
+| ---------------------------------------------------- | ------------------------------------------------ |
+| ![](<../../../../.gitbook/assets/image (1) (1).png>) | ![](<../../../../.gitbook/assets/image (2).png>) |
 
 On the Jaguar Pro controller, the X, Y, Z, L and R buttons duplicate keys 7, 8, 9, 4 and 6: the **MAP JAGUAR PRO CONTROLLER** option therefore puts them on L1, NORTH, R1, L2 and R2.
 
