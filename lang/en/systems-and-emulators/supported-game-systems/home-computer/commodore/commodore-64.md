@@ -32,8 +32,6 @@ Keep **vice\_x64** unless a game or a demo does not work: then try **vice\_x64sc
 
 ## BIOS
 
-No BIOS is needed: the C64 and disk drive ROMs are built into VICE and Frodo.
-
 ### JiffyDOS (optional)
 
 **JiffyDOS** is a commercial ROM that replaces the kernal and the disk drive ROM to load disks much faster. It only works with the **vice\_x64** and **vice\_x64sc** cores.
@@ -89,7 +87,7 @@ The libretro cores use the standard RetroArch hotkeys (see the [**Hotkeys**](../
 
 ## Folders
 
-<table><thead><tr><th width="332.75">Content</th><th>Folder</th></tr></thead><tbody><tr><td>Save states</td><td><code>saves\c64\libretro.vice_x64</code>, <code>saves\c64\libretro.vice_x64sc</code></td></tr><tr><td>Save disks created by VICE</td><td><code>saves\c64</code></td></tr><tr><td>Optional VICE files (JiffyDOS, <code>vicerc</code> configuration)</td><td><code>bios\vice</code></td></tr><tr><td>JiffyDOS ROMs, VICE <code>vicerc</code> configuration</td><td><code>bios\vice</code></td></tr><tr><td>Screenshots</td><td><code>screenshots</code></td></tr></tbody></table>
+<table><thead><tr><th width="332.75">Content</th><th>Folder</th></tr></thead><tbody><tr><td>Save states</td><td><code>saves\c64\libretro.vice_x64</code>, <code>saves\c64\libretro.vice_x64sc</code></td></tr><tr><td>Save disks created by VICE</td><td><code>saves\c64</code></td></tr><tr><td>Optional VICE files (JiffyDOS, <code>vicerc</code> configuration)</td><td><code>bios\vice</code></td></tr><tr><td>Screenshots</td><td><code>screenshots</code></td></tr></tbody></table>
 
 ## Guides
 
