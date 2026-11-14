@@ -1,56 +1,114 @@
-# Configuration des touches Model2
+# Configuration des touches m2emulator
 
-Lorsque la configuration automatique des contrôleurs n'est pas compatible avec votre manette ou si vous désirez modifier l'assignation des touches de votre manette, il est possible de créer une configuration personnalisée pour chaque jeu.
+## Présentation
 
-Voilà comment procéder.
+Cette page explique comment régler soi-même les contrôles de **m2emulator**, l'émulateur Model 2 par défaut de RetroBat. Pour les autres émulateurs Model 2 (Keisho, Supermodel, MAME), voir la page [**Sega Model 2**](../../systemes-and-emulateurs/supported-game-systems/arcade/sega/sega-model-2.md).
 
-### ÉTAPE 1 : Création d'une configuration pour le jeu
+m2emulator enregistre les touches de chaque jeu dans un fichier `.input` du dossier `emulators\m2emulator\CFG`. RetroBat propose trois façons de le remplir :
 
-Par défaut, RetroBat force l'émulateur à utiliser les pilotes XINPUT driver, toutefois, si vous utilisez une manette qui n'est pas compatible avec le protocole XINPUT, vous devrez sélectionner le pilote DINPUT dans les options avancées du système :<br>
+<table><thead><tr><th width="162">Méthode</th><th width="373">Pour qui</th><th>Fichier</th></tr></thead><tbody><tr><td><strong>Configuration automatique</strong> (défaut)</td><td>La plupart des joueurs : RetroBat écrit les touches de chaque jeu à chaque lancement.</td><td>—</td></tr><tr><td><strong>Mapping par jeu</strong></td><td>Changer l'emplacement des boutons d'un jeu de combat ou d'un jeu « standard », en gardant la configuration automatique.</td><td><code>model2.yml</code></td></tr><tr><td><strong>Modèles</strong></td><td>Utiliser sa propre configuration, faite dans m2emulator, pour un jeu précis.</td><td><code>templatescfg\&#x3C;pilote>\&#x3C;jeu>.input</code></td></tr></tbody></table>
 
-<div align="left"><figure><img src="https://i.imgur.com/ZjWHF7p.png" alt=""><figcaption></figcaption></figure></div>
+Les volants ont leur propre fichier, `model2_wheels.yml` (voir [**Volants**](configuration-des-touches-model2.md#volants-model2_wheels.yml) plus bas).
 
-Démarrer ensuite le jeu depuis RetroBat.
+## Configuration automatique
 
-Le jeu chargé, presser ALT + ENTREE sur votre clavier pour quitter le mode plein-écran et afficher le menu de l'émulateur:
+À chaque lancement, RetroBat écrit le fichier `.input` du jeu avec la disposition décrite sur la page **Sega Model 2** (contrôles par type de jeu). Les réglages se trouvent dans les options avancées du système, sous-menu **CONTRÔLES** :
 
-<div align="left"><figure><img src="../../.gitbook/assets/MdPZYlG.png" alt=""><figcaption></figcaption></figure></div>
+| Option                                                                                       | Effet                                                                                                                                               |
+| -------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **PILOTES > CONTRÔLEUR**                                                                     | XINPUT (défaut) pour les manettes Xbox et compatibles, DINPUT pour les autres. RetroBat passe aussi en DINPUT s'il ne trouve aucune manette XInput. |
+| **DISPOSITION DES BOUTONS**                                                                  | Dispositions pour sticks arcade (modern8, 8alternative, 6alternative), pour les jeux de combat et les jeux « standards ».                           |
+| **UTILISER R1/L1 POUR LES JEUX DE COURSE**                                                   | Accélérateur et frein sur R1 / L1 (boîte automatique seulement).                                                                                    |
+| **INVERSER LES INDEX MANETTES**, **FORCER L'INDEX DE LA MANETTE DU JOUEUR 1** / **JOUEUR 2** | Choix des manettes de chaque joueur.                                                                                                                |
 
-Ouvrir le menu **Game > Configure Controls**
+<div align="left"><figure><img src="../../.gitbook/assets/image (595).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/Zklxxw2.png" alt=""><figcaption></figcaption></figure></div>
+RetroBat ne gère automatiquement que les jeux listés sur la page [**Sega Model 2**](../../systemes-and-emulateurs/supported-game-systems/arcade/sega/sega-model-2.md). Pour un autre jeu, il ne touche pas au fichier `.input` : réglez les touches une fois dans m2emulator (**Game > Configure Controls**, voir l'étape 1 des modèles), elles sont gardées.
 
-Dans l'écran suivant, effectuer la configuration souhaitée:
+Avec **AUTOCONFIGURER LES MANETTES** désactivé, RetroBat ne modifie aucun fichier `.input` (les pistolets restent configurés).
 
-<div align="left"><figure><img src="../../.gitbook/assets/mkomNgQ.png" alt=""><figcaption></figcaption></figure></div>
+## Mapping par jeu (model2.yml)
 
-Une fois terminé : fermer la fenêtre et quitter l'émulateur.
+Le fichier `model2.yml` change l'emplacement des boutons des jeux de combat et des jeux « standards », sans quitter la configuration automatique : RetroBat continue de gérer les directions, Start, pièce, Service et Test, le pilote et les index des manettes.
 
-Le fichier de configuration est sauvegardé dans le dossier `\emulators\m2emulator\CFG`:
+1. Copiez `system\resources\inputmapping\model2.yml` dans `user\inputmapping`. Votre copie est alors utilisée à la place du fichier de RetroBat.
+2. Modifiez le conteneur du jeu, puis lancez le jeu : le fichier `.input` est réécrit avec vos boutons.
 
-<div align="left"><figure><img src="../../.gitbook/assets/VzxUIcv.png" alt=""><figcaption></figcaption></figure></div>
+**Jeux concernés et actions disponibles** (les clones utilisent le conteneur de leur jeu parent) :
 
-### ÉTAPE 2 : copier le fichier de configuration dans le répertoire de destination
+<table><thead><tr><th width="185.75">Jeu</th><th width="173.5">Conteneur</th><th>Actions</th></tr></thead><tbody><tr><td>Dead or Alive</td><td><code>doa</code></td><td>Hold, Punch, Kick</td></tr><tr><td>Fighting Vipers</td><td><code>fvipers</code></td><td>Punch, Kick, Guard, Guard 2</td></tr><tr><td>Last Bronx</td><td><code>lastbrnx</code></td><td>Punch, Kick, Guard</td></tr><tr><td>Sonic the Fighters</td><td><code>schamp</code></td><td>Punch, Kick, Barrier</td></tr><tr><td>Virtua Fighter 2</td><td><code>vf2</code></td><td>Punch, Kick, Guard</td></tr><tr><td>Dynamite Cop</td><td><code>dynamcop</code></td><td>Punch, Kick, Jump</td></tr><tr><td>Pilot Kids</td><td><code>pltkids</code></td><td>Shot, Bomb</td></tr><tr><td>Virtua Striker</td><td><code>vstriker</code></td><td>Short Pass, Long Pass, Shoot</td></tr><tr><td>Zero Gunner</td><td><code>zerogun</code></td><td>Shot, Bomb</td></tr></tbody></table>
 
-Selon le pilote sélectionné lors de la configuration (DINPUT ou XINPUT), le fichier de configuration généré à l'étape précédente doit être copié dans l'un des dossiers suivants:
+**Conteneurs** : le conteneur porte le nom du jeu parent (`vf2`). On peut ajouter un conteneur par disposition, `<jeu>_modern8`, `<jeu>_8alternative` ou `<jeu>_6alternative`, utilisé quand cette **DISPOSITION DES BOUTONS** est choisie (CLASSIQUE 8 BOUTONS utilise `_6alternative`). RetroBat cherche `<jeu>_<disposition>`, puis `<jeu>` ; sans conteneur, il garde sa disposition par défaut.
 
-* `\emulators\m2emulator\templatescfg\dinput` - pour le pilote dinput
-* `\emulators\m2emulator\templatescfg\xinput` - pour le pilote xinput
+**Valeurs** : la position du bouton sur la manette :
 
-<div align="left"><figure><img src="https://i.imgur.com/1OhA1pS.png" alt=""><figcaption></figcaption></figure></div>
+| Valeur                           | Bouton                       |
+| -------------------------------- | ---------------------------- |
+| `a`                              | SUD                          |
+| `b`                              | EST                          |
+| `x`                              | OUEST                        |
+| `y`                              | NORD                         |
+| `leftshoulder` / `rightshoulder` | L1 / R1                      |
+| `leftstick` / `rightstick`       | clic du stick gauche / droit |
+| `back` / `start`                 | SELECT / START               |
 
-{% hint style="info" %}
-RetroBat fournit des fichiers par défaut compatibles avec les manettes XInput ou les manettes Playstation 4 et 5 pour le pilote dinput, vous pouvez effacer les fichiers fournis par défaut avec votre propre fichier.
-{% endhint %}
+Une action absente du conteneur n'a pas de bouton.
 
-### Activer le paramétrage pour utiliser le fichier créé
+Exemple, Virtua Fighter 2 avec la garde sur EST et le pied sur SUD :
 
-Dès lors le fichier placé dans le bon dossier, lancer RetroBat et ouvrir le menu des options avancées du système model2:
+```yaml
+vf2:
+  Guard: b
+  Punch: x
+  Kick: a
+```
 
-<div align="left"><figure><img src="https://i.imgur.com/OrvL14b.png" alt=""><figcaption></figcaption></figure></div>
+Pour plus de détails sur les dispositions arcade, voir la page [**Le Guide Arcade**](../../systemes-and-emulateurs/arcade-guide.md).
 
-Aller dans CONTROLS et définir le paramètre "**TYPE OF CONFIGURATION**" à la valeur "**TEMPLATES**":
+## Modèles (configuration faite dans m2emulator)
 
-<div align="left"><figure><img src="https://i.imgur.com/Peg2hoI.png" alt=""><figcaption></figcaption></figure></div>
+Cette méthode remplace la configuration automatique par un fichier préparé dans m2emulator. Elle s'applique à tous les jeux qui ont un modèle, sauf quand les pistolets sont activés.
 
-RetroBat affecte désormais le fichier précédemment copié au lancement du jeu.
+### Étape 1 : créer la configuration du jeu
+
+1. Dans les options avancées du système, choisissez le pilote de votre manette : **PILOTES > CONTRÔLEUR > XINPUT** (manettes Xbox et compatibles) ou **DINPUT** (les autres).
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (596).png" alt=""><figcaption></figcaption></figure></div>
+
+2. Lancez le jeu, puis appuyez sur **ALT + ENTRÉE** pour quitter le plein écran et afficher le menu de m2emulator.
+3. Ouvrez **Game > Configure Controls** et réglez les touches.
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (597).png" alt=""><figcaption></figcaption></figure></div>
+
+4. Fermez la fenêtre et quittez l'émulateur : le fichier `<jeu>.input` est enregistré dans `emulators\m2emulator\CFG`.
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (598).png" alt=""><figcaption></figcaption></figure></div>
+
+### Étape 2 : copier le fichier dans le dossier des modèles
+
+Copiez le fichier dans le dossier du pilote choisi à l'étape 1 :
+
+* `emulators\m2emulator\templatescfg\xinput` pour XINPUT ;
+* `emulators\m2emulator\templatescfg\dinput` pour DINPUT.
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (599).png" alt=""><figcaption></figcaption></figure></div>
+
+Le modèle doit porter **le nom du jeu parent** : `daytona.input` sert aussi pour `daytonas` ou `daytonam`. RetroBat fournit déjà des modèles pour les manettes XInput, et pour les manettes PlayStation 4 et 5 en DInput : vous pouvez les remplacer par les vôtres.
+
+### Étape 3 : activer les modèles
+
+Dans les options avancées du système, choisissez **CONTRÔLES > MÉTHODE DE CONFIGURATION DES CONTRÔLES > MODÈLES**. À chaque lancement, RetroBat copie le modèle du jeu dans `emulators\m2emulator\CFG`.
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (600).png" alt=""><figcaption></figcaption></figure></div>
+
+## Volants (model2\_wheels.yml)
+
+Avec **VOLANTS DE COURSE > ACTIVER LES VOLANTS**, RetroBat règle le volant d'après `system\resources\inputmapping\wheels\model2_wheels.yml`. Chaque conteneur porte le nom d'un type de volant reconnu par RetroBat (`LogitechG29`, `LogitechG920`, `LogitechG923PS`, `LogitechG923X`, `ThrustmasterT300RSPS3`…). Un conteneur `<volant>_<jeu>` (par exemple `LogitechG29_daytona`) est prioritaire pour un jeu.
+
+<table><thead><tr><th width="331.5">Clé</th><th>Rôle</th></tr></thead><tbody><tr><td><code>Steer</code>, <code>Throttle</code>, <code>Brake</code></td><td>Axes du volant et des pédales : <code>axis0</code>, <code>axis1</code>… (<code>axisinv1</code> inverse l'axe)</td></tr><tr><td><code>Up</code>, <code>Down</code>, <code>Left</code>, <code>Right</code></td><td>Croix : <code>hatup</code>, <code>hatdown</code>…</td></tr><tr><td><code>ShiftUp</code>, <code>ShiftDown</code>, <code>Gear1</code> à <code>Gear4</code>, <code>GearN</code></td><td>Palettes et levier de vitesses : <code>button4</code>…</td></tr><tr><td><code>South</code>, <code>East</code>, <code>West</code>, <code>North</code>, <code>Start</code>, <code>Select</code>, <code>Service</code>, <code>Test</code></td><td>Boutons</td></tr><tr><td><code>DeportedShifter</code></td><td><code>true</code> seulement pour les Thrustmaster dont le levier de vitesses est vu comme un appareil séparé</td></tr></tbody></table>
+
+Votre propre version se place dans `user\inputmapping\model2_wheels.yml` (prioritaire sur le fichier de RetroBat). Pour la liste des types de volants et les autres options, voir la page [**Volants**](../supported-controllers/volants.md).
+
+## Problèmes connus
+
+<table><thead><tr><th width="322.75">Problème</th><th>Solution</th></tr></thead><tbody><tr><td>Mon modèle n'est pas utilisé</td><td>Vérifiez le nom (celui du jeu parent), le dossier (celui du pilote choisi), l'option <strong>MODÈLES</strong>, et que les pistolets ne sont pas activés.</td></tr><tr><td>Mes boutons changent à chaque lancement</td><td>La configuration automatique réécrit le fichier <code>.input</code> : utilisez <code>model2.yml</code> ou les modèles, ou désactivez <strong>AUTOCONFIGURER LES MANETTES</strong>.</td></tr><tr><td><code>model2.yml</code> n'a aucun effet sur un jeu de course ou de tir</td><td>Le mapping par jeu ne concerne que les jeux de combat et les jeux « standards » <a href="configuration-des-touches-model2.md#mapping-par-jeu-model2.yml">listés plus haut</a>.</td></tr></tbody></table>

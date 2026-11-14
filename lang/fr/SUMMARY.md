@@ -317,7 +317,7 @@
   * [Configuration des touches RetroArch](controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-retroarch.md)
   * [Configuration des touches Dolphin](controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-dolphin.md)
   * [Configuration des touches MAME](controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-mame64.md)
-  * [Configuration des touches Model2](controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-model2.md)
+  * [Configuration des touches m2emulator](controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-model2.md)
   * [Configuration des touches Teknoparrot](controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-teknoparrot.md)
 * [Contrôle des pistolets](controleurs/pistolets_controles.md)
 * [PadToKey](controleurs/pad2key.md)
