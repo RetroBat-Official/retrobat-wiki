@@ -8,7 +8,7 @@ m2emulator enregistre les touches de chaque jeu dans un fichier `.input` du doss
 
 <table><thead><tr><th width="162">Méthode</th><th width="373">Pour qui</th><th>Fichier</th></tr></thead><tbody><tr><td><strong>Configuration automatique</strong> (défaut)</td><td>La plupart des joueurs : RetroBat écrit les touches de chaque jeu à chaque lancement.</td><td>—</td></tr><tr><td><strong>Mapping par jeu</strong></td><td>Changer l'emplacement des boutons d'un jeu de combat ou d'un jeu « standard », en gardant la configuration automatique.</td><td><code>model2.yml</code></td></tr><tr><td><strong>Modèles</strong></td><td>Utiliser sa propre configuration, faite dans m2emulator, pour un jeu précis.</td><td><code>templatescfg\&#x3C;pilote>\&#x3C;jeu>.input</code></td></tr></tbody></table>
 
-Les volants ont leur propre fichier, `model2_wheels.yml` (voir [**Volants**](configuration-des-touches-model2.md#volants-model2_wheels.yml) plus bas).
+Les volants ont leur propre fichier, `model2_wheels.yml` (voir [**Volants**](configuration-des-touches-m2emulator.md#volants-model2_wheels.yml) plus bas).
 
 ## Configuration automatique
 
@@ -111,4 +111,4 @@ Votre propre version se place dans `user\inputmapping\model2_wheels.yml` (priori
 
 ## Problèmes connus
 
-<table><thead><tr><th width="322.75">Problème</th><th>Solution</th></tr></thead><tbody><tr><td>Mon modèle n'est pas utilisé</td><td>Vérifiez le nom (celui du jeu parent), le dossier (celui du pilote choisi), l'option <strong>MODÈLES</strong>, et que les pistolets ne sont pas activés.</td></tr><tr><td>Mes boutons changent à chaque lancement</td><td>La configuration automatique réécrit le fichier <code>.input</code> : utilisez <code>model2.yml</code> ou les modèles, ou désactivez <strong>AUTOCONFIGURER LES MANETTES</strong>.</td></tr><tr><td><code>model2.yml</code> n'a aucun effet sur un jeu de course ou de tir</td><td>Le mapping par jeu ne concerne que les jeux de combat et les jeux « standards » <a href="configuration-des-touches-model2.md#mapping-par-jeu-model2.yml">listés plus haut</a>.</td></tr></tbody></table>
+<table><thead><tr><th width="322.75">Problème</th><th>Solution</th></tr></thead><tbody><tr><td>Mon modèle n'est pas utilisé</td><td>Vérifiez le nom (celui du jeu parent), le dossier (celui du pilote choisi), l'option <strong>MODÈLES</strong>, et que les pistolets ne sont pas activés.</td></tr><tr><td>Mes boutons changent à chaque lancement</td><td>La configuration automatique réécrit le fichier <code>.input</code> : utilisez <code>model2.yml</code> ou les modèles, ou désactivez <strong>AUTOCONFIGURER LES MANETTES</strong>.</td></tr><tr><td><code>model2.yml</code> n'a aucun effet sur un jeu de course ou de tir</td><td>Le mapping par jeu ne concerne que les jeux de combat et les jeux « standards » <a href="configuration-des-touches-m2emulator.md#mapping-par-jeu-model2.yml">listés plus haut</a>.</td></tr></tbody></table>

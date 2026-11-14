@@ -192,7 +192,7 @@ Wave Runner:
 | VUE            | <img src="../../../../.gitbook/assets/image (35).png" alt="" data-size="original"> |
 
 {% hint style="info" %}
-RetroBat peut également charger vos propres fichiers de configurations, pour cela [suivre ce guide](../../../../controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-model2.md).
+RetroBat peut également charger vos propres fichiers de configurations, pour cela [suivre ce guide](../../../../controleurs/configuration-des-touches-specifique-par-emulateur/configuration-des-touches-keisho.md).
 {% endhint %}
 
 ## Informations spécifiques au système

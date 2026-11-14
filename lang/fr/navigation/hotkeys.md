@@ -56,7 +56,7 @@ Les émulateurs marqués ✏️ sont personnalisables (voir Personnaliser les ra
 * RetroArch (tous les cores libretro) ✏️
 * ArcadeDuck ✏️
 * ares ✏️ (utilise PadToKey)
-* Azahar (plein écran sur `F1`)
+* Azahar ✏️ (plein écran sur `F1`)
 * BigPEmu ✏️ (uniquement menu, avance rapide, rembobinage, sauvegarde/chargement, capture)
 * BizHawk ✏️ (utilise PadToKey)
 * BlastEm ✏️ (utilise PadToKey)
@@ -72,18 +72,20 @@ Les émulateurs marqués ✏️ sont personnalisables (voir Personnaliser les ra
 * Flycast ✏️
 * Hatari
 * Jgenesis ✏️ (utilise PadToKey)
+* Keisho ✏️ (utilise PadToKey ; dans les jeux de course qui changent de vitesse avec `F1` à `F5` : menu sur `F10`, sauvegarde / chargement sur `F6` / `F7`)
 * MAME
 * Mednafen ✏️
 * melonDS ✏️ (utilise PadToKey)
 * Mesen ✏️
 * Model3-Vulkan ✏️ (utilise PadToKey)
 * Mupen64 (RMG)
+* Odin ✏️ (utilise PadToKey, menu sur `F10`)
+* OpenCDi (utilise PadToKey, pas de menu : HOTKEY + Sud met en pause)
 * OpenMSX
 * PCSX2 / PCSX2x6 ✏️
 * PPSSPP ✏️
 * Project64 ✏️ (utilise PadToKey)
 * Raine ✏️ (utilise PadToKey)
-* SM2-emu ✏️ (utilise PadToKey)
 * Snes9x ✏️ (utilise PadToKey)
 * Sudachi
 * Suyu
@@ -119,7 +121,7 @@ RetroBat permet de modifier les raccourcis par défaut de plusieurs émulateurs,
 
 <summary>Émulateurs avec raccourcis personnalisables</summary>
 
-ArcadeDuck, ares, BigPEmu, BizHawk, BlastEm, CGenius, DeSmuME, Dolphin, DuckStation, FBNeo, Flycast, Jgenesis, Mednafen, melonDS, Mesen, Model3-Vulkan, PCSX2, PPSSPP, Project64, Raine, RetroArch, SM2-emu, Snes9x.
+ArcadeDuck, ares, Azahar, BigPEmu, BizHawk, BlastEm, CGenius, DeSmuME, Dolphin, DuckStation, FBNeo, Flycast, Jgenesis, Keisho, Mednafen, melonDS, Mesen, Model3-Vulkan, Odin, PCSX2, PPSSPP, Project64, Raine, RetroArch, Snes9x.
 
 </details>
 
@@ -142,7 +144,7 @@ RetroBat utilise le premier fichier trouvé, dans cet ordre :
 
 <summary>Noms d'émulateurs à utiliser dans les noms de fichiers</summary>
 
-`arcadeduck`, `ares`, `bigpemu`, `bizhawk`, `blastem`, `cgenius`, `desmume`, `dolphin`, `duckstation`, `fbneo`, `flycast`, `jgenesis`, `mednafen`, `melonds`, `mesen`, `model3-vulkan`, `pcsx2`, `ppsspp`, `project64`, `raine`, `retroarch`, `sm2-emu`, `snes9x`
+`arcadeduck`, `ares`, `azahar`, `bigpemu`, `bizhawk`, `blastem`, `cgenius`, `desmume`, `dolphin`, `duckstation`, `fbneo`, `flycast`, `jgenesis`, `keisho`, `mednafen`, `melonds`, `mesen`, `model3-vulkan`, `odin`, `pcsx2`, `ppsspp`, `project64`, `raine`, `retroarch`, `snes9x`
 
 </details>
 
@@ -167,16 +169,7 @@ Si aucun conteneur ne correspond au core ou au système, le conteneur `default` 
 
 Dans `controller_hotkeys.yml`, chaque ligne s'écrit `bouton: action`.
 
-| Nom du bouton                    | Bouton                    |
-| -------------------------------- | ------------------------- |
-| `a`                              | Sud                       |
-| `x`                              | Nord                      |
-| `y`                              | Ouest                     |
-| `start`                          | START                     |
-| `pageup` / `pagedown`            | L1 / R1                   |
-| `l2` / `r2`                      | L2 / R2                   |
-| `l3` / `r3`                      | Clic stick gauche / droit |
-| `up` / `down` / `left` / `right` | Croix directionnelle      |
+<table><thead><tr><th width="272.75">Nom du bouton</th><th>Bouton</th></tr></thead><tbody><tr><td><code>a</code></td><td>Sud</td></tr><tr><td><code>x</code></td><td>Nord</td></tr><tr><td><code>y</code></td><td>Ouest</td></tr><tr><td><code>start</code></td><td>START</td></tr><tr><td><code>pageup</code> / <code>pagedown</code></td><td>L1 / R1</td></tr><tr><td><code>l2</code> / <code>r2</code></td><td>L2 / R2</td></tr><tr><td><code>l3</code> / <code>r3</code></td><td>Clic stick gauche / droit</td></tr><tr><td><code>up</code> / <code>down</code> / <code>left</code> / <code>right</code></td><td>Croix directionnelle</td></tr></tbody></table>
 
 {% hint style="info" %}
 Le bouton `b` (Est) ne peut pas être utilisé : HOTKEY + Est est réservé au Game Control Center.
