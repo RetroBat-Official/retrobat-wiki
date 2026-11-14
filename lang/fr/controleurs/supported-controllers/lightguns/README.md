@@ -79,7 +79,7 @@ RetroBat attribue les pistolets aux joueurs dans cet ordre :
 
 1. Les pistolets dédiés, selon leur propre numéro de joueur quand le pistolet en a un (Gun4IR, Blamcon, Sinden, RetroShooter, OpenFIRE...).
 2. Les Wiimotes (Wiimote4Guns J1 à J4, puis DolphinBar).
-3. Les autres souris.
+3. Les autres souris. Les pavés tactiles des portables et les récepteurs 8BitDo vus comme une souris passent en dernier, pour ne pas prendre la place d'un pistolet.
 
 Si l'ordre n'est pas le bon, vous pouvez le forcer avec **INDEX SOURIS/GUN JOUEUR 1** à **4** :
 
@@ -128,6 +128,8 @@ Autres options dans **PARAMÈTRES DES JEUX > PISTOLETS > SINDEN** :
 Pour certains émulateurs standalone, la bordure est dessinée avec ReShade : choisissez le jeu de shaders **sindenborder** si la bordure n'apparaît pas.
 
 <div align="left"><figure><img src="../../../.gitbook/assets/image (355).png" alt=""><figcaption></figcaption></figure></div>
+
+Keisho, Model3-Vulkan, Odin et ArcadeDuck dessinent eux-mêmes la bordure quand un Sinden est détecté. Pour les trois premiers, réglez son épaisseur avec **TAILLE DE LA BORDURE SINDEN** dans les options **PISTOLETS** de l'émulateur.
 
 ### WiiMote
 
