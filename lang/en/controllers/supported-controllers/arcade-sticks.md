@@ -24,7 +24,7 @@ Also map **START**, **SELECT** (used as Coin) and **HOTKEY** (usually the same b
 
 ## Choose the layout (CONTROLLER LAYOUT)
 
-The **CONTROLLER LAYOUT** option is located in the system's advanced configuration (or the game's advanced configuration) > **CONTROLS**. It tells RetroBat how the buttons of your stick are laid out, so that each game uses the same buttons as on the original cabinet.
+The **CONTROLLER LAYOUT** option is located in the system's advanced configuration (or the game's advanced configuration) > **CONTROLS**. It also exists for all systems at once in **GAME SETTINGS > CONTROLS > SPECIAL CONTROLLERS**. It tells RetroBat how the buttons of your stick are laid out, so that each game uses the same buttons as on the original cabinet.
 
 <div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
@@ -49,7 +49,7 @@ Examples (MODERN 8 BUTTONS):
 
 ### Emulators supporting the layouts
 
-<table><thead><tr><th width="340.25">Emulator</th><th>Games</th></tr></thead><tbody><tr><td><strong>MAME</strong> (standalone, HBMAME, GroovyMAME)</td><td>All games, with exact cabinet layouts for the games provided by RetroBat.</td></tr><tr><td><strong>RetroArch - MAME</strong> core</td><td>All games, with exact cabinet layouts for the games provided by RetroBat.</td></tr><tr><td><strong>RetroArch - Flycast</strong> and <strong>Supermodel</strong> cores</td><td>Games listed in the mapping files.</td></tr><tr><td><strong>FBNeo</strong> (standalone)</td><td>Games listed in the mapping file.</td></tr><tr><td><strong>Flycast</strong> (standalone, Naomi / Atomiswave)</td><td>Games listed in the mapping file.</td></tr><tr><td><strong>Supermodel</strong> (Model 3)</td><td>Games listed in the mapping file.</td></tr><tr><td><strong>TeknoParrot</strong></td><td>Games listed in the mapping file.</td></tr><tr><td><strong>Lindbergh</strong> (linuxloader)</td><td>All games.</td></tr><tr><td><strong>PCSX2x6</strong> (Namco System 246/256)</td><td>All games.</td></tr><tr><td><strong>ArcadeDuck</strong> (Zinc)</td><td>All games, with game-specific layouts when available.</td></tr></tbody></table>
+<table><thead><tr><th width="340.25">Emulator</th><th>Games</th></tr></thead><tbody><tr><td><strong>MAME</strong> (standalone, HBMAME, GroovyMAME)</td><td>All games, with exact cabinet layouts for the games provided by RetroBat.</td></tr><tr><td><strong>RetroArch - MAME</strong> core</td><td>All games, with exact cabinet layouts for the games provided by RetroBat.</td></tr><tr><td><strong>RetroArch - Flycast</strong>, <strong>Supermodel</strong>, <strong>MAME 2003-Plus</strong> and <strong>Mednafen Saturn</strong> (ST-V) cores</td><td>Games listed in the mapping files.</td></tr><tr><td><strong>FBNeo</strong> (standalone)</td><td>Games listed in the mapping file.</td></tr><tr><td><strong>Flycast</strong> (standalone, Naomi / Atomiswave)</td><td>Games listed in the mapping file.</td></tr><tr><td><strong>Supermodel</strong> and <strong>Model3-Vulkan</strong> (Model 1, 2 and 3)</td><td>Games listed in the mapping file.</td></tr><tr><td><strong>Keisho</strong> (Model 1, 2 and 3)</td><td>All games, with game-specific layouts for Virtua Fighter 3, Fighting Vipers 2 and Spikeout; except the games with a fixed layout (Virtual On, ski games…).</td></tr><tr><td><strong>m2emulator</strong> (Model 2)</td><td>Fighting games and "standard" games of the mapping file.</td></tr><tr><td><strong>TeknoParrot</strong></td><td>Games listed in the mapping file.</td></tr><tr><td><strong>Lindbergh</strong> (linuxloader)</td><td>All games.</td></tr><tr><td><strong>PCSX2x6</strong> (Namco System 246/256)</td><td>All games.</td></tr><tr><td><strong>ArcadeDuck</strong> (PSX Arcade)</td><td>All games, with game-specific layouts when available.</td></tr></tbody></table>
 
 Games that are not listed use the standard RetroBat mapping. You can add or modify game layouts in `user\inputmapping`: see the [Emulator specific controls mapping](../specific_mapping/) page.
 
@@ -86,3 +86,22 @@ If your encoder can work as a gamepad (XInput), prefer this mode: the stick then
 ## Custom stick mapping (RetroArch)
 
 For a stick recognised as a gamepad, you can also force a dedicated RetroArch mapping with the `arcade_sticks.json` file and the **USE CUSTOM ARCADE STICK MAPPING** option: see the [Special controllers page](gamepads/special-controllers.md).
+
+### Gamepads before arcade sticks
+
+When an arcade stick and a gamepad are connected at the same time, the stick can take the player 1 slot. The **GAMEPADS BEFORE ARCADE STICKS** option gives the first slots to gamepads: sticks become the next players. The controller order in EmulationStation is not changed.
+
+The option is set for all systems in **GAME SETTINGS > GLOBAL OPTIONS**, or system by system in the system advanced settings > **GENERAL SETTINGS**:
+
+<table><thead><tr><th width="179">Value</th><th>Effect</th></tr></thead><tbody><tr><td><strong>OFF</strong> (default)</td><td>The EmulationStation order applies everywhere.</td></tr><tr><td><strong>CONSOLES ONLY</strong></td><td>Gamepads come before sticks on consoles and computers; arcade systems (MAME, FBNeo, Model 2, Naomi…) keep the EmulationStation order.</td></tr><tr><td><strong>ALWAYS</strong></td><td>Gamepads come before sticks on all systems.</td></tr></tbody></table>
+
+RetroBat recognizes as an arcade stick:
+
+* XInput sticks that declare themselves as arcade sticks (most recent models);
+* devices whose name or USB id is listed in the `system\tools\arcade_sticks.txt` file (Qanba, Hori, Mad Catz, Victrix, Mayflash, hitboxes, Zero Delay encoders, GP2040-CE firmware…).
+
+6-button "fight pad" controllers are not treated as sticks.
+
+{% hint style="info" %}
+If your stick is not recognized, start a game with the option on, then open the `emulationstation\emulatorLauncher.log` log: the **Arcade stick check** lines give the name and USB id (`usb:VVVV:PPPP`) of each controller. Add the value to `arcade_sticks.txt` (one rule per line, the syntax is explained at the top of the file).
+{% endhint %}
