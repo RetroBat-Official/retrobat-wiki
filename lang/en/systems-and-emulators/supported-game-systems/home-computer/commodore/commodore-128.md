@@ -18,7 +18,7 @@ RetroBat emulates the C128 with **VICE**, the reference emulator for Commodore c
 
 ## At a glance
 
-<table><thead><tr><th width="216.5"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\c128</code></td></tr><tr><td><strong>Extensions</strong></td><td>.d64 .d71 .d81 .g64 .prg .t64 .tap .crt .m3u .zip .7z</td></tr><tr><td><strong>Default emulator</strong></td><td>libretro: vice_x128</td></tr><tr><td><strong>BIOS</strong></td><td>None</td></tr><tr><td><strong>Controller configuration</strong></td><td>Automatic</td></tr><tr><td><strong>Save states</strong></td><td>libretro cores</td></tr><tr><td><strong>RetroAchievements</strong></td><td>No</td></tr><tr><td><strong>Netplay</strong></td><td>No</td></tr><tr><td><strong>Light guns</strong></td><td>libretro cores (vice_x128)</td></tr></tbody></table>
+<table><thead><tr><th width="216.5"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\c128</code></td></tr><tr><td><strong>Extensions</strong></td><td>.d64 .d71 .d81 .g64 .prg .t64 .tap .crt .m3u .zip .7z</td></tr><tr><td><strong>Default emulator</strong></td><td>libretro: vice_x128</td></tr><tr><td><strong>BIOS</strong></td><td>None</td></tr><tr><td><strong>Controller configuration</strong></td><td>Automatic</td></tr><tr><td><strong>Save states</strong></td><td>libretro cores</td></tr><tr><td><strong>RetroAchievements</strong></td><td>No</td></tr><tr><td><strong>Netplay</strong></td><td>No</td></tr><tr><td><strong>Light guns</strong></td><td>libretro cores (vice_x128)</td></tr><tr><td><strong>Optional BIOS</strong></td><td>JiffyDOS ROMs in <code>bios\vice</code> (vice_x128)</td></tr></tbody></table>
 
 ## Which emulator should I choose?
 
@@ -30,7 +30,18 @@ Commodore 64 games are best placed in the **Commodore 64** system (see the **Com
 
 ## BIOS
 
-No BIOS is needed: the C128 and disk drive ROMs are built into VICE.
+### JiffyDOS (optional)
+
+**JiffyDOS** is a commercial ROM that replaces the kernal and the disk drive ROM to load disks much faster. It only works with the **vice\_x128** core.
+
+<table><thead><tr><th>File</th><th width="115.25">Folder</th><th>Role</th><th>MD5</th></tr></thead><tbody><tr><td><code>JiffyDOS_C128.bin</code></td><td><code>bios\vice</code></td><td>C128 kernal</td><td>cbbd1bbcb5e4fd8046b6030ab71fc021</td></tr><tr><td><code>JiffyDOS_C64.bin</code></td><td><code>bios\vice</code></td><td>C64 mode kernal, needed with <strong>C64 MODE</strong></td><td>be09394f0576cf81fa8bacf634daf9a2</td></tr><tr><td><code>JiffyDOS_1541-II.bin</code></td><td><code>bios\vice</code></td><td>1541 drive ROM</td><td>1b1e985ea5325a1f46eb7fd9681707bf</td></tr><tr><td><code>JiffyDOS_1571_repl310654.bin</code></td><td><code>bios\vice</code></td><td>1571 drive ROM (optional)</td><td>41c6cc528e9515ffd0ed9b180f8467c0</td></tr><tr><td><code>JiffyDOS_1581.bin</code></td><td><code>bios\vice</code></td><td>1581 drive ROM (optional)</td><td>20b6885c6dc2d42c38754a365b043d71</td></tr></tbody></table>
+
+RetroBat checks these files as optional BIOS. To use JiffyDOS:
+
+1. Put at least `JiffyDOS_C128.bin` and `JiffyDOS_1541-II.bin` in `bios\vice`.
+2. Enable the **EMULATION > JIFFYDOS** option. **TRUE DRIVE EMULATION** must stay enabled.
+
+JiffyDOS is only used with disks: it is disabled automatically with tapes and cartridges. If the files are missing, RetroBat starts the game without JiffyDOS.
 
 ## Which game format should I use?
 
