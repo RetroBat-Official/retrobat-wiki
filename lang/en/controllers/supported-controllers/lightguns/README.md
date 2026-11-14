@@ -79,7 +79,7 @@ RetroBat assigns the guns to the players in this order:
 
 1. Dedicated lightguns, following their own player number when the gun has one (Gun4IR, Blamcon, Sinden, RetroShooter, OpenFIRE…).
 2. Wiimotes (Wiimote4Guns P1 to P4, then DolphinBar).
-3. Other mice.
+3. Other mice. Laptop touchpads and 8BitDo receivers seen as a mouse come last, so that they do not take the place of a gun.
 
 If the order is wrong, you can force it with **P1 MOUSE/GUN INDEX** to **P4 MOUSE/GUN INDEX**:
 
@@ -128,6 +128,8 @@ Other options in **GAME SETTINGS > GUNS > SINDEN**:
 For some standalone emulators, the border is drawn with ReShade: select the **sindenborder** shader set if the border does not appear.
 
 <div align="left"><figure><img src="../../../.gitbook/assets/image (315).png" alt=""><figcaption></figcaption></figure></div>
+
+Keisho, Model3-Vulkan, Odin and ArcadeDuck draw the border themselves when a Sinden is detected. For the first three, set its thickness with **SINDEN BORDER SIZE** in the **GUNS** options of the emulator.
 
 ## Wiimote
 
