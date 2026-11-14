@@ -18,7 +18,7 @@ RetroBat émule le C128 avec **VICE**, l'émulateur de référence des ordinateu
 
 ## En bref
 
-<table><thead><tr><th width="257.75"></th><th></th></tr></thead><tbody><tr><td><strong>Dossier des jeux</strong></td><td><code>roms\c128</code></td></tr><tr><td><strong>Extensions</strong></td><td>.d64 .d71 .d81 .g64 .prg .t64 .tap .crt .m3u .zip .7z</td></tr><tr><td><strong>Émulateur par défaut</strong></td><td>libretro: vice_x128</td></tr><tr><td><strong>BIOS</strong></td><td>Aucun</td></tr><tr><td><strong>Configuration des manettes</strong></td><td>Automatique</td></tr><tr><td><strong>Sauvegardes instantanées</strong></td><td>cores libretro</td></tr><tr><td><strong>RetroAchievements</strong></td><td>Non</td></tr><tr><td><strong>Jeu en réseau</strong></td><td>Non</td></tr><tr><td><strong>Pistolets</strong></td><td>cores libretro (vice_x128)</td></tr></tbody></table>
+<table><thead><tr><th width="257.75"></th><th></th></tr></thead><tbody><tr><td><strong>Dossier des jeux</strong></td><td><code>roms\c128</code></td></tr><tr><td><strong>Extensions</strong></td><td>.d64 .d71 .d81 .g64 .prg .t64 .tap .crt .m3u .zip .7z</td></tr><tr><td><strong>Émulateur par défaut</strong></td><td>libretro: vice_x128</td></tr><tr><td><strong>BIOS</strong></td><td>Aucun</td></tr><tr><td><strong>Configuration des manettes</strong></td><td>Automatique</td></tr><tr><td><strong>Sauvegardes instantanées</strong></td><td>cores libretro</td></tr><tr><td><strong>RetroAchievements</strong></td><td>Non</td></tr><tr><td><strong>Jeu en réseau</strong></td><td>Non</td></tr><tr><td><strong>Pistolets</strong></td><td>cores libretro (vice_x128)</td></tr><tr><td><strong>BIOS optionnels</strong></td><td>ROM JiffyDOS dans <code>bios\vice</code> (vice_x128)</td></tr></tbody></table>
 
 ## Quel émulateur choisir ?
 
@@ -30,7 +30,18 @@ Les jeux Commodore 64 se placent de préférence dans le système **Commodore 64
 
 ## BIOS
 
-Aucun BIOS n'est nécessaire : les ROM du C128 et des lecteurs de disquette sont intégrées à VICE.
+### JiffyDOS (facultatif)
+
+**JiffyDOS** est une ROM commerciale qui remplace le kernal et la ROM du lecteur de disquette pour charger les disquettes beaucoup plus vite. Elle ne fonctionne qu'avec le core **vice\_x128**.
+
+<table><thead><tr><th>Fichier</th><th width="122.75">Dossier</th><th>Rôle</th><th>MD5</th></tr></thead><tbody><tr><td><code>JiffyDOS_C128.bin</code></td><td><code>bios\vice</code></td><td>Kernal du C128</td><td>cbbd1bbcb5e4fd8046b6030ab71fc021</td></tr><tr><td><code>JiffyDOS_C64.bin</code></td><td><code>bios\vice</code></td><td>Kernal du mode C64, nécessaire avec <strong>MODE C64</strong></td><td>be09394f0576cf81fa8bacf634daf9a2</td></tr><tr><td><code>JiffyDOS_1541-II.bin</code></td><td><code>bios\vice</code></td><td>ROM du lecteur 1541</td><td>1b1e985ea5325a1f46eb7fd9681707bf</td></tr><tr><td><code>JiffyDOS_1571_repl310654.bin</code></td><td><code>bios\vice</code></td><td>ROM du lecteur 1571 (facultatif)</td><td>41c6cc528e9515ffd0ed9b180f8467c0</td></tr><tr><td><code>JiffyDOS_1581.bin</code></td><td><code>bios\vice</code></td><td>ROM du lecteur 1581 (facultatif)</td><td>20b6885c6dc2d42c38754a365b043d71</td></tr></tbody></table>
+
+RetroBat contrôle ces fichiers comme BIOS optionnels. Pour utiliser JiffyDOS :
+
+1. Placez au moins `JiffyDOS_C128.bin` et `JiffyDOS_1541-II.bin` dans `bios\vice`.
+2. Activez l'option **ÉMULATION > JIFFYDOS**. **ÉMULATION FIDÈLE DU LECTEUR** doit rester activée.
+
+JiffyDOS ne sert qu'aux disquettes : il est désactivé automatiquement avec les cassettes et les cartouches. Si les fichiers manquent, RetroBat lance le jeu sans JiffyDOS.
 
 ## Quel format de jeu ?
 
