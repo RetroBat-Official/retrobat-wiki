@@ -58,7 +58,7 @@ Emulators marked with ✏️ can be customized (see Customizing hotkeys).
 * RetroArch (all libretro cores) ✏️
 * ArcadeDuck ✏️
 * ares ✏️ (uses PadToKey)
-* Azahar (fullscreen on `F1`)
+* Azahar ✏️ (fullscreen on `F1`)
 * BigPEmu ✏️ (menu, fast forward, rewind, save/load state, screenshot only)
 * BizHawk ✏️ (uses PadToKey)
 * BlastEm ✏️ (uses PadToKey)
@@ -74,18 +74,20 @@ Emulators marked with ✏️ can be customized (see Customizing hotkeys).
 * Flycast ✏️
 * Hatari
 * Jgenesis ✏️ (uses PadToKey)
+* Keisho ✏️ (uses PadToKey; in the driving games that shift gears with `F1` to `F5`: menu on `F10`, save / load state on `F6` / `F7`)
 * MAME
 * Mednafen ✏️
 * melonDS ✏️ (uses PadToKey)
 * Mesen ✏️
 * Model3-Vulkan ✏️ (uses PadToKey)
 * Mupen64 (RMG)
+* Odin ✏️ (uses PadToKey, menu on `F10`)
+* OpenCDi (uses PadToKey, no menu: HOTKEY + South pauses)
 * OpenMSX
 * PCSX2 / PCSX2x6 ✏️
 * PPSSPP ✏️
 * Project64 ✏️ (uses PadToKey)
 * Raine ✏️ (uses PadToKey)
-* SM2-emu ✏️ (uses PadToKey)
 * Snes9x ✏️ (uses PadToKey)
 * Sudachi
 * Suyu
@@ -121,7 +123,7 @@ RetroBat lets you change the default hotkeys of several emulators, for the keybo
 
 <summary>Emulators with customizable hotkeys</summary>
 
-ArcadeDuck, ares, BigPEmu, BizHawk, BlastEm, CGenius, DeSmuME, Dolphin, DuckStation, FBNeo, Flycast, Jgenesis, Mednafen, melonDS, Mesen, Model3-Vulkan, PCSX2, PPSSPP, Project64, Raine, RetroArch, SM2-emu, Snes9x.
+ArcadeDuck, ares, Azahar, BigPEmu, BizHawk, BlastEm, CGenius, DeSmuME, Dolphin, DuckStation, FBNeo, Flycast, Jgenesis, Keisho, Mednafen, melonDS, Mesen, Model3-Vulkan, Odin, PCSX2, PPSSPP, Project64, Raine, RetroArch, Snes9x.
 
 </details>
 
@@ -144,7 +146,7 @@ RetroBat uses the first file found, in this order:
 
 <summary>Emulator names to use in file names</summary>
 
-`arcadeduck`, `ares`, `bigpemu`, `bizhawk`, `blastem`, `cgenius`, `desmume`, `dolphin`, `duckstation`, `fbneo`, `flycast`, `jgenesis`, `mednafen`, `melonds`, `mesen`, `model3-vulkan`, `pcsx2`, `ppsspp`, `project64`, `raine`, `retroarch`, `sm2-emu`, `snes9x`
+`arcadeduck`, `ares`, `azahar`, `bigpemu`, `bizhawk`, `blastem`, `cgenius`, `desmume`, `dolphin`, `duckstation`, `fbneo`, `flycast`, `jgenesis`, `keisho`, `mednafen`, `melonds`, `mesen`, `model3-vulkan`, `odin`, `pcsx2`, `ppsspp`, `project64`, `raine`, `retroarch`, `snes9x`
 
 </details>
 

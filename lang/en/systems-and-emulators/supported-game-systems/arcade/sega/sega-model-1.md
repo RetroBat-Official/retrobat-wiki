@@ -2,227 +2,157 @@
 description: Sega
 ---
 
-# Model 1
+# Sega Model 1
 
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (565).png" alt="" width="525"><figcaption></figcaption></figure></div>
 
+## Overview
 
-<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/model2.svg" alt=""><figcaption></figcaption></figure></div>
+The **Sega Model 1** is Sega's first 3D arcade board, released in 1992. Designed by Yu Suzuki's AM2 team, it displays flat-shaded, untextured polygons thanks to a NEC V60 CPU and a coprocessor dedicated to geometry calculations.
 
-Arcade - Released: 1994
+Only six games were released on Model 1, but they made history: **Virtua Racing** (1992), which popularized 3D in arcades, and **Virtua Fighter** (1993), the first 3D fighting game. They were followed by Star Wars Arcade, Wing War, Virtua Formula (a giant cabinet version of Virtua Racing) and NetMerc, a virtual reality game with a headset. The board was replaced by the Model 2 as early as 1994.
 
-{% embed url="https://en.wikipedia.org/wiki/List_of_Sega_arcade_system_boards#Sega_Model_2" %}
+RetroBat offers four emulators: **Keisho** (formerly sm2-emu, an emulator dedicated to Model 1, 2 and 3), **Supermodel**, and **MAME** as a standalone emulator or as a libretro core.
 
-## Information
+{% embed url="https://en.wikipedia.org/wiki/List_of_Sega_arcade_system_boards#Model_1" %}
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>model2emu</li><li>libretro:mame</li><li>MAME</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> model2</td></tr><tr><td><strong>File extension</strong></td><td>.zip .decomp</td></tr></tbody></table>
+## At a glance
 
-## System Features
+<table><thead><tr><th width="239"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\model1</code></td></tr><tr><td><strong>Extensions</strong></td><td>.zip .7z .decomp</td></tr><tr><td><strong>Default emulator</strong></td><td>Keisho</td></tr><tr><td><strong>BIOS</strong></td><td>None (<code>model1io.zip</code> / <code>model1io2.zip</code> depending on the romset, see BIOS)</td></tr><tr><td><strong>Controller configuration</strong></td><td>Automatic, all emulators</td></tr><tr><td><strong>Save states</strong></td><td>libretro cores, Keisho; Supermodel and MAME with hotkeys</td></tr><tr><td><strong>RetroAchievements</strong></td><td>No</td></tr><tr><td><strong>Netplay</strong></td><td>libretro cores (mame)</td></tr><tr><td><strong>Wheels</strong></td><td>Keisho, Supermodel</td></tr></tbody></table>
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>YES</td></tr></tbody></table>
+## Which emulator should I choose?
 
-## Bios Information
+<table><thead><tr><th width="189.5">Emulator</th><th width="307.75">Strengths</th><th>Limits</th></tr></thead><tbody><tr><td><strong>Keisho</strong> (default)</td><td>Emulator dedicated to Model 1, 2 and 3, fast, upscaling, CRT filter, force feedback and rumble, save states.</td><td>NetMerc still preliminary (almost no sound).</td></tr><tr><td><strong>supermodel</strong></td><td>Also runs Virtua Fighter and NetMerc, which MAME does not emulate properly yet. Widescreen mode.</td><td>No Virtua Formula. Save states with the keyboard only.</td></tr><tr><td><strong>libretro: mame</strong> / <strong>mame64</strong></td><td>All games, including Virtua Formula.</td><td>Virtua Fighter and NetMerc do not work. Slower.</td></tr></tbody></table>
 
-No BIOS required for Model 2.
+| Game             | Set                                                | Keisho         | Supermodel    | MAME |
+| ---------------- | -------------------------------------------------- | -------------- | ------------- | ---- |
+| Virtua Racing    | `vr`                                               | ✅              | ✅             | ✅    |
+| Virtua Formula   | `vformula`                                         | ✅              | ❌             | ✅    |
+| Virtua Fighter   | `vf`                                               | ✅              | ✅             | ❌    |
+| Star Wars Arcade | `swa`, `swaj`                                      | ✅              | ✅             | ✅    |
+| Wing War         | `wingwar` (+ `wingwaru`, `wingwarj`, `wingwar360`) | ✅              | ✅ (`wingwar`) | ✅    |
+| NetMerc          | `netmerc`                                          | ⚠️ preliminary | ✅             | ❌    |
+
+## BIOS
+
+The Model 1 has no BIOS. The games do use the ROM of their I/O board, stored in a separate archive:
+
+| File            | Games                                                           | Used by                                |
+| --------------- | --------------------------------------------------------------- | -------------------------------------- |
+| `model1io.zip`  | Virtua Racing, Virtua Formula, Virtua Fighter, Star Wars Arcade | MAME (split or merged romsets), Keisho |
+| `model1io2.zip` | Wing War, NetMerc                                               | MAME (split or merged romsets)         |
+
+Put these archives in `roms\model1`, next to the games. With a [**non-merged**](../../../arcade-guide.md#romset-types) MAME romset, they are already included in each game. RetroBat checks them as optional BIOS.
+
+## Which game format should I use?
+
+Games are MAME `.zip` (or `.7z`) archives, to keep compressed and unrenamed.
+
+* Clones (`vformula`, `swaj`, `wingwaru`…) need their parent game (`vr`, `swa`, `wingwar`) in the same folder, except with a non-merged romset.
+* Keisho identifies games by their content: a merged archive holding several versions runs the one named like the archive. It looks for the parent game and the `model1io` archives next to the game.
+
+The `.decomp` extension is for PC ports, see the [**Recompilations**](../../others/recomp.md) page.
 
 ## Controls
 
-### Input driver
+### Automatic configuration
 
-By default, RetroBat forces the emulator to use the XINPUT driver, however, if you are using a controller that is not compatible with the XInput protocol, you will need to select the DINPUT driver in the advanced options of the system:
+RetroBat automatically configures controllers for all emulators. The **AUTOCONFIGURE CONTROLLERS** option of Keisho and Supermodel keeps your own configuration.
 
-<div align="left"><figure><img src="https://i.imgur.com/0joCHBX.png" alt=""><figcaption></figcaption></figure></div>
+<table><thead><tr><th width="295.25">Cabinet</th><th>Controller</th></tr></thead><tbody><tr><td>Joystick, steering wheel</td><td>Left stick (and D-pad for the joystick)</td></tr><tr><td>Accelerator, brake</td><td>R2, L2</td></tr><tr><td>Gear up / down</td><td>R1 / L1</td></tr><tr><td>View buttons (VR1 to VR4)</td><td>Face buttons (SOUTH, EAST, WEST, NORTH)</td></tr><tr><td>Start, Coin</td><td>START, SELECT</td></tr><tr><td>Service, Test</td><td>L3, R3</td></tr></tbody></table>
 
-### Default controls for each game:
+**Per game:**
 
-Here are the default controls generated by RetroBat for each game.
+* **Virtua Fighter**: Punch = WEST, Kick = NORTH, Guard = SOUTH.
+* **Star Wars Arcade**: laser = WEST (or L2), torpedo = EAST (or R2); the left stick steers the ship. Player 2 is the gunner.
+* **Wing War**: the left stick is the flight stick; pulling the right stick back or pressing L2 slows down; the D-pad changes the view. With Supermodel, R1 and L1 move the throttle up and down.
+* **Virtua Racing**, **Virtua Formula**: view buttons on the four face buttons, gears on L1 / R1. With Supermodel, the **CONTROLS > USE SHOULDER BUTTONS FOR RACING GAMES** option puts the accelerator and brake on R1 / L1, and the gears on the D-pad.
 
-#### Shooters:
+**CONTROLLER LAYOUT** (Keisho, Supermodel) adapts the buttons to arcade sticks (modern8, 8alternative, 6alternative). For more details on arcade layouts, see the [**Arcade Guide**](../../../arcade-guide.md) page.
 
-List of games: `Behind Enemy Lines`, `Gunblade NY`, `House of the Dead`, `Rail Chase`, `Virtua Cop`, `Virtua Cop 2`.
+The buttons of each game are set in the `keisho.yml` and `supermodel.yml` files (`system\resources\inputmapping`), which you can copy to `user\inputmapping` to change them. For more details on `keisho.yml`, see the [**Keisho controller mapping**](../../../../controllers/specific_mapping/keisho-controller-mapping.md) page.
 
-| Model 2 key                        | RetroBat key |
-| ---------------------------------- | ------------ |
-| P1 START                           | Keyboard 1   |
-| P2 START                           | Keyboard 2   |
-| P1 CREDIT                          | Keyboard 3   |
-| P2 CREDIT                          | Keyboard 4   |
-| Shoot / Left Trigger / Machine Gun | Mouse Left   |
-| Reload / Missiles / Right Trigger  | Mouse Right  |
+### Wheels
 
-#### Fighting Games:
+Keisho and Supermodel support wheels, with the **WHEELS > ENABLE WHEEL** option, for Virtua Racing and Virtua Formula.
 
-List of games: `Dead or Alive`, `Fighting Vipers`, `Last Bronx`, `Sonic Championship`, `Virtua Fighter 2`.
+* Keisho: **ENABLE FORCE FEEDBACK** and **FORCE FEEDBACK STRENGTH** for the drive board force feedback. Steering and pedals are detected by Keisho; the buttons are set per wheel type in `keisho_wheels.yml` (editable copy in `user\inputmapping`), and a wheel missing from the file keeps the buttons set in the Keisho menu.
+* Supermodel: **ENABLE FORCE FEEDBACK**.
 
-| Model 2 key                    | RetroBat key                                                                       |
-| ------------------------------ | ---------------------------------------------------------------------------------- |
-| MOVE                           | D-PAD                                                                              |
-| START                          | START                                                                              |
-| COIN                           | SELECT                                                                             |
-| <p>all: GUARD<br>doa: KICK</p> | ![A](<../../../../.gitbook/assets/image (30).png>)                                 |
-| doa: HOLD                      | ![B](<../../../../.gitbook/assets/image (16) (1).png>)                             |
-| all: PUNCH                     | <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     |
-| <p>all: KICK<br>doa: N/A</p>   | <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> |
+For more details on wheels, see the [**Wheels**](../../../../controllers/supported-controllers/wheels.md) page.
 
-#### Driving Games:
+### Hotkeys
 
-List of games: `Daytona USA`, `Indianapolis 500`, `ManxTT Superbike`, `Motor Raid`, `Over Rev`, `Sega Rally`, `Sega Touring Car Championship`, `Super GT 24H`.
+**Keisho**
 
-| Model 2 key                                                               | RetroBat key                                                                                                                                   |
-| ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| TURN (Steering)                                                           | Left analog stick                                                                                                                              |
-| START                                                                     | START                                                                                                                                          |
-| COIN                                                                      | SELECT                                                                                                                                         |
-| BRAKE                                                                     | Left Trigger (L2)                                                                                                                              |
-| ACCELERATE                                                                | Right Trigger (R2)                                                                                                                             |
-| Motoraid: kick                                                            | R1                                                                                                                                             |
-| Motoraid: punch                                                           | L1                                                                                                                                             |
-| <p>VIEW CHANGE<br>manxtt: N/A<br>srallyc: N/A<br>daytona: VR4 / GREEN</p> | ![B](<../../../../.gitbook/assets/image (16) (1).png>)                                                                                         |
-| <p>SHIFT UP<br>srallyc: N/A<br>daytona: VR3 / YELLOW</p>                  | <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">                                                                 |
-| <p>SHIFT LEVER<br>(Daytona USA &#x26; Sega Rally)</p>                     | <p><strong>Right Analog Stick</strong><br>UP: 1st<br>DOWN: 2nd<br>LEFT: 3rd<br>RIGHT: 4th<br><br>When using wheel without gear-stick: DPAD</p> |
-| <p>VIEW CHANGE<br>manxtt: N/A<br>overrev: N/A<br>daytona: VR1 / RED</p>   | <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original">                                                             |
-| <p>SHIFT DOWN<br>srallyc: N/A<br>daytona: VR2 / BLUE</p>                  | ![A](<../../../../.gitbook/assets/image (30).png>)                                                                                             |
+| Hotkey             | Action                     | Keyboard  |
+| ------------------ | -------------------------- | --------- |
+| **HOTKEY + START** | Exit                       | ESC       |
+| **HOTKEY + SOUTH** | Keisho menu                | F1        |
+| **HOTKEY + WEST**  | Save state                 | F2        |
+| **HOTKEY + NORTH** | Load state                 | F4        |
+| **HOTKEY + LEFT**  | Rewind (**REWIND** option) | BACKSPACE |
+| **HOTKEY + RIGHT** | Fast forward               | L         |
+| **L3** / **R3**    | Service / Test             | 9 / 0     |
+| —                  | Screenshot                 | F8        |
+| —                  | Pause                      | P         |
+| —                  | Fullscreen                 | F         |
 
-#### Standard Games:
+In Virtua Racing and Virtua Formula, F1 to F5 shift gears on the keyboard: the menu moves to F10, save to F6 and load to F7. The controller hotkeys follow automatically. Keyboard keys can be customized, see the [**Hotkeys**](../../../../navigation/hotkeys.md) page.
 
-List of games: `Dynamite Cop`, `Pilot Kids`, `Virtua Striker`, `Zero Gunner`.
+**Supermodel**
 
-| Model 2 key                                                                        | RetroBat key                                                                       |
-| ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| MOVE                                                                               | Left analog stick                                                                  |
-| START                                                                              | START                                                                              |
-| COIN                                                                               | SELECT                                                                             |
-| <p>vstriker: LONG PASS<br>zerogun: BOMB<br>dynamcop: JUMP<br>pltkids: LOCK-ON</p>  | ![A](<../../../../.gitbook/assets/image (30).png>)                                 |
-| <p>vstriker: SHOOT<br>zerogun: N/A<br>dynamcop: N/A<br>pltkids: N/A</p>            | ![B](<../../../../.gitbook/assets/image (16) (1).png>)                             |
-| <p>vstriker: SHORT PASS<br>zerogun: SHOOT<br>dynamcop: PUNCH<br>pltkids: SHOOT</p> | <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     |
-| <p>vstriker: N/A<br>zerogun: N/A<br>dynamcop: KICK<br>pltkids: N/A</p>             | <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> |
+| Hotkey             | Action                                          | Keyboard     |
+| ------------------ | ----------------------------------------------- | ------------ |
+| **HOTKEY + START** | Exit                                            | ESC          |
+| **L3** / **R3**    | Service / Test (**ENABLE SERVICE MENU** option) | 9 / 0        |
+| —                  | Save state / change slot / load state           | F5 / F6 / F7 |
+| —                  | Pause                                           | ALT + P      |
+| —                  | Reset                                           | ALT + R      |
+| —                  | Screenshot                                      | ALT + S      |
+| —                  | Fullscreen                                      | ALT + ENTER  |
+| —                  | Clear NVRAM                                     | ALT + N      |
 
-#### Games with specific controls
+**MAME and libretro mame core**: see the [**MAME**](../mame.md) page.
 
-Desert Tank:
+## Folders
 
-| Desert Tank          | RetroBat key                                                                       |
-| -------------------- | ---------------------------------------------------------------------------------- |
-| Accelerate / Reverse | Left analog stick UP                                                               |
-| REVERSE MODE         | Left Trigger (L2)                                                                  |
-| CANNON               | Right Trigger (R2)                                                                 |
-| MACHINE GUN          | Right Shoulder (R1)                                                                |
-| TURRET / TURN        | Right Analog Stick                                                                 |
-| COIN                 | SELECT                                                                             |
-| START                | START                                                                              |
-| VR2 / GREEN          | ![A](<../../../../.gitbook/assets/image (30).png>)                                 |
-|                      | ![B](<../../../../.gitbook/assets/image (16) (1).png>)                             |
-| VR3 / RED            | <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     |
-| VR1 / BLUE           | <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> |
+| Content                                      | Folder                                                                                              |
+| -------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| I/O board archives                           | `roms\model1`                                                                                       |
+| Keisho: NVRAM (cabinet settings and records) | `saves\model1\keisho`                                                                               |
+| Keisho: save states (managed by RetroBat)    | `saves\model1\keisho\sstates`                                                                       |
+| Keisho: save states (emulator folder)        | `saves\model1\keisho\states`                                                                        |
+| Keisho: screenshots                          | `screenshots\keisho`                                                                                |
+| Keisho: configuration                        | `emulators\keisho\keisho.ini`                                                                       |
+| Keisho: wheel buttons                        | `system\resources\inputmapping\wheels\keisho_wheels.yml` (editable copy in `user\inputmapping`)     |
+| Supermodel: configuration                    | `emulators\supermodel\Config\Supermodel.ini`                                                        |
+| Supermodel: NVRAM                            | `emulators\supermodel\NVRAM`                                                                        |
+| Supermodel: save states                      | `emulators\supermodel\Saves`                                                                        |
+| Per-game button mapping                      | `system\resources\inputmapping\keisho.yml`, `supermodel.yml` (editable copy in `user\inputmapping`) |
 
-Dynamite Baseball 97:
+For the MAME folders, see the [**MAME**](../mame.md) page.
 
-| Dynamite Baseball 97 | RetroBat key                                                                   |
-| -------------------- | ------------------------------------------------------------------------------ |
-| MOVE                 | Left analog stick                                                              |
-| BAT / PITCH          | Right Trigger (R2)                                                             |
-| COIN                 | SELECT                                                                         |
-| START                | START                                                                          |
-| HOLD                 | ![A](<../../../../.gitbook/assets/image (30).png>)                             |
-| THROW BALL           | <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line"> |
+## Guides
 
-Sega Water Ski:
+### Other useful options
 
-| Sega Water Ski   | RetroBat key       |
-| ---------------- | ------------------ |
-| STEERING         | Left analog stick  |
-| LEFT FOOT PEDAL  | Left Trigger (L2)  |
-| RIGHT FOOT PEDAL | Right Trigger (R2) |
-| COIN             | SELECT             |
-| START            | START              |
+**Keisho**
 
-Sega Ski Super G:
+<table><thead><tr><th width="330.25">Option</th><th>Effect</th></tr></thead><tbody><tr><td><strong>INTERNAL RESOLUTION</strong></td><td>Increases the rendering resolution (Vulkan and OpenGL).</td></tr><tr><td><strong>GAME ASPECT RATIO</strong></td><td>4/3 by default, like the arcade monitor (the bezel is only shown in 4/3). 16/9 widens the 3D view.</td></tr><tr><td><strong>VISUAL RENDERING > CRT FILTER</strong></td><td>Arcade monitor look: scanlines, shadow mask, glow.</td></tr><tr><td><strong>VISUAL RENDERING > TRANSLUCENCY</strong></td><td><strong>BLENDED</strong>: smooth transparency instead of the cabinet checkerboard (Vulkan and OpenGL).</td></tr><tr><td><strong>VISUAL RENDERING > ADJUST BRIGHTNESS</strong></td><td>Black level of the picture (50% by default, matched to an arcade capture).</td></tr><tr><td><strong>EMULATION > REWIND</strong></td><td>Enables rewind (<strong>HOTKEY + LEFT</strong>).</td></tr><tr><td><strong>CONTROLS > ENABLE RUMBLE</strong></td><td>Controller rumble in driving games.</td></tr></tbody></table>
 
-| Sega Ski Super G | RetroBat key                                                                   |
-| ---------------- | ------------------------------------------------------------------------------ |
-| TURN             | Left analog stick                                                              |
-| TURN HARDER      | Right Analog Stick                                                             |
-| COIN             | SELECT                                                                         |
-| START            | START                                                                          |
-| SELECT 2         | ![A](<../../../../.gitbook/assets/image (30).png>)                             |
-| SELECT 3         | ![B](<../../../../.gitbook/assets/image (16) (1).png>)                         |
-| SELECT 1         | <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line"> |
+**Supermodel**
 
-Sky Target:
+<table><thead><tr><th width="335.25">Option</th><th>Effect</th></tr></thead><tbody><tr><td><strong>VIDEO > WIDESCREEN HACK</strong></td><td>Displays games in 16/9.</td></tr><tr><td><strong>EMULATION > HIGH LEVEL GEOMETRIZER</strong></td><td>On by default (fast). Off, Supermodel runs the real geometry programs, more accurate but slower.</td></tr><tr><td><strong>VISUAL RENDERING > SUPERSAMPLING</strong></td><td>Smooths the picture (SSAA), at the cost of performance.</td></tr></tbody></table>
 
-| Sky Target  | RetroBat key                                                                       |
-| ----------- | ---------------------------------------------------------------------------------- |
-| MOVE        | Left analog stick                                                                  |
-| MISSILES    | Left Trigger (L2)                                                                  |
-| MACHINE GUN | Right Trigger (R2)                                                                 |
-| COIN        | SELECT                                                                             |
-| START       | START                                                                              |
-| VIEW CHANGE | <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> |
+> 📷 **Screenshot to add**: Model 1 system options in RetroBat.
 
-Top Skater:
+## Known issues
 
-| Top Skater   | RetroBat key                                                                       |
-| ------------ | ---------------------------------------------------------------------------------- |
-| TURN         | Left analog stick                                                                  |
-| TURN HARDER  | Right Analog Stick                                                                 |
-| COIN         | SELECT                                                                             |
-| START        | START                                                                              |
-| OLLIE        | ![A](<../../../../.gitbook/assets/image (30).png>)                                 |
-| SELECT RIGHT | ![B](<../../../../.gitbook/assets/image (16) (1).png>)                             |
-| SELECT LEFT  | <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     |
-| NOLLIE       | <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> |
-
-Virtual On Cybertroopers:
-
-| VON          | RetroBat key                                                                   |
-| ------------ | ------------------------------------------------------------------------------ |
-| LEFT STICK   | Left analog stick                                                              |
-| LEFT WEAPON  | Left Trigger (L2)                                                              |
-| RIGHT WEAPON | Right Trigger (R2)                                                             |
-| RIGHT STICK  | Right Analog Stick                                                             |
-| COIN         | SELECT                                                                         |
-| START        | START                                                                          |
-| RIGHT TURBO  | ![B](<../../../../.gitbook/assets/image (16) (1).png>)                         |
-| LEFT TURBO   | <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line"> |
-
-Wave Runner:
-
-| Wave Runner | RetroBat key                                                                       |
-| ----------- | ---------------------------------------------------------------------------------- |
-| STERRING    | Left analog stick                                                                  |
-| ACCELERATE  | Right Trigger (R2)                                                                 |
-| TURN HARDER | Right Analog Stick                                                                 |
-| COIN        | SELECT                                                                             |
-| START       | START                                                                              |
-| VIEW CHANGE | <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> |
-
-{% hint style="info" %}
-RetroBat also offers a way to use your own controller mappings on a per-game basis, refer to [this page](../../../../controllers/specific_mapping/model2-controller-mapping.md).
-{% endhint %}
-
-## Specific system information
-
-### Service Menu
-
-The Service menu contains options that can be adjusted within the game itself, such as aligning the crosshair for lightgun games and changing the difficulty.&#x20;
-
-The service menu can be accessed either by keyboard or with the right stick button (R3) of your controller, based on the option in the service menu:
-
-<div align="left"><figure><img src="https://i.imgur.com/4loHwL5.png" alt=""><figcaption></figcaption></figure></div>
-
-Turn the option ON to use controller (R3 to enter service menu and L3 to navigate).
-
-Leave this option OFF to use keyboard (F2 to enter service menu and F1 to navigate).
-
-### Lightgun calibration
-
-Model 2 lightgun games require per-game calibration.
-
-While in game, navigate the Test menu to the **GUN SETTINGS** option to perform the calibration.
-
-### Network Board message
-
-If you receive the error “Network Board Not Present”, go to the service menu and navigate to **Games System** → **Link ID** and change the option to **Single**.&#x20;
-
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (155).png" alt=""><figcaption></figcaption></figure></div>
-
-<div align="left"><figure><img src="https://i.imgur.com/0TBBbJT.png" alt=""><figcaption></figcaption></figure></div>
+| Issue                                            | Solution                                                                                        |
+| ------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
+| Virtua Fighter or NetMerc do not start with MAME | MAME does not emulate them yet: use Keisho or Supermodel (NetMerc: Supermodel).                 |
+| Virtua Formula does not start with Supermodel    | Supermodel does not support this game: use Keisho or MAME.                                      |
+| A game does not start with MAME (missing file)   | Add `model1io.zip` or `model1io2.zip` to `roms\model1`, and the parent game for a clone.        |
+| Star Wars Arcade player 2 does nothing           | It is the gunner: a second controller is needed.                                                |
+| Buttons do not match the cabinet                 | Select a **CONTROLLER LAYOUT**, or edit `keisho.yml` / `supermodel.yml` in `user\inputmapping`. |
