@@ -8,10 +8,42 @@ Save states are not a safe way to keep your progress. They often stop working af
 
 ## How it works
 
-* RetroBat manages save states for **RetroArch cores** and for several standalone emulators (Dolphin, PCSX2, DuckStation, PPSSPP, Flycast…). For these emulators, you can launch a game directly from a save state from the game list.
-* Save states are stored in `saves\<system>\<emulator>` (for RetroArch: `saves\<system>\libretro.<core>`), with a screenshot of the moment of the save.
+* RetroBat manages save states for **RetroArch cores** and for several standalone emulators (see Compatible emulators). For these emulators, you can launch a game directly from a save state from the game list.
+* Save states are stored in `saves\<system>`, in the folder of the emulator (for RetroArch: `saves\<system>\libretro.<core>`), with a screenshot of the moment of the save.
 * A game that has save states shows an icon in the game list.
 * Save states are not shared between emulators: a state made with one emulator can only be loaded by this emulator.
+
+### Compatible emulators
+
+Folders in `saves\<system>`. **Auto save**: AUTO SAVE/LOAD option supported. **Incremental**: INCREMENTAL SAVESTATES option supported.
+
+| Emulator                   | Folder                                 | Auto save | Incremental |
+| -------------------------- | -------------------------------------- | :-------: | :---------: |
+| RetroArch (libretro cores) | `libretro.<core>`                      |     ✔     |      ✔      |
+| Amiberry                   | `amiberry`                             |           |             |
+| ArcadeDuck                 | `arcadeduck`                           |     ✔     |      ✔      |
+| Azahar, Azahar Plus        | `azahar\states` / `azahar-plus\states` |           |      ✔      |
+| BigPEmu                    | `bigpemu`                              |           |             |
+| BizHawk                    | `bizhawk\sstates\<core>`               |           |             |
+| BlastEm                    | `blastem`                              |     ✔     |             |
+| DeSmuME                    | `DeSmuME\stateslots`                   |           |             |
+| Dolphin                    | `dolphin`                              |           |             |
+| DuckStation                | `duckstation`                          |     ✔     |      ✔      |
+| Flycast                    | `flycast\sstates`                      |           |             |
+| Gopher64                   | `gopher64\states`                      |           |             |
+| Jgenesis                   | `jgenesis\states`                      |           |             |
+| Keisho                     | `keisho\sstates`                       |           |      ✔      |
+| Model3-Vulkan              | `model3-vulkan`                        |           |      ✔      |
+| Mupen64 (RMG)              | `mupen64`                              |           |             |
+| Odin                       | `odin\sstates`                         |           |      ✔      |
+| OpenCDi                    | `opencdi`                              |           |      ✔      |
+| openMSX                    | `openmsx`                              |           |             |
+| PCSX2                      | `pcsx2`                                |     ✔     |      ✔      |
+| PPSSPP                     | `ppsspp`                               |           |             |
+
+{% hint style="info" %}
+Azahar, Keisho, Odin and OpenCDi do not save a screenshot with their states: the manager shows the RetroBat save state icon instead. Odin keeps only one state per game (F2 / F4): RetroBat turns each save into a new save state in the manager.
+{% endhint %}
 
 ## Saving and loading during a game
 
@@ -67,11 +99,11 @@ When it is on:
 
 To start from the beginning instead, open the save state manager and choose **START NEW GAME**.
 
-This option can also be set for one system only: **MAIN MENU > GAME SETTINGS > PER SYSTEM ADVANCED CONFIGURATION > (system) > AUTO SAVE/LOAD ON GAME LAUNCH** (AUTO, ON or OFF). It only appears when the emulator of the system supports it.
+This option can also be set for one system only: **MAIN MENU > GAME SETTINGS > PER SYSTEM ADVANCED CONFIGURATION > (system) > AUTO SAVE/LOAD ON GAME LAUNCH** (AUTO, ON or OFF). It only appears when the emulator of the system supports it (**Auto save** column of the compatible emulators table).
 
 ### INCREMENTAL SAVESTATES
 
-Decides when a save state can overwrite an older one:
+Decides when a save state can overwrite an older one (emulators ticked in the **Incremental** column of the compatible emulators table; the others always use the current slot):
 
 <table><thead><tr><th width="289">Choice</th><th>Behavior</th></tr></thead><tbody><tr><td><strong>INCREMENT PER SAVE</strong> (default)</td><td>Each save creates a new save state: the older ones are never overwritten.</td></tr><tr><td><strong>INCREMENT SLOT</strong></td><td>During a game, saving overwrites the current slot, but each new game starts on a free slot.</td></tr><tr><td><strong>DO NOT INCREMENT</strong></td><td>The game uses the current slot: a new save can overwrite an older one, as in the emulator alone.</td></tr></tbody></table>
 
