@@ -27,7 +27,7 @@ Configurez aussi **START**, **SELECT** (utilisé comme Coin) et **RACCOURCI** (e
 
 ## Choisir la disposition (DISPOSITION DES BOUTONS)
 
-L'option **DISPOSITION DES BOUTONS** se trouve dans la configuration avancée du système (ou du jeu) > **CONTRÔLES**. Elle indique à RetroBat comment sont disposés les boutons de votre stick, pour que chaque jeu utilise les mêmes boutons que sur la borne d'origine.
+L'option **DISPOSITION DES BOUTONS** se trouve dans la configuration avancée du système (ou du jeu) > **CONTRÔLES**. Elle existe aussi pour tous les systèmes à la fois dans **PARAMÈTRES DES JEUX > CONTRÔLES > CONTRÔLEURS SPÉCIAUX**. Elle indique à RetroBat comment sont disposés les boutons de votre stick, pour que chaque jeu utilise les mêmes boutons que sur la borne d'origine.
 
 Les schémas ci-dessous indiquent les boutons tels qu'ils sont nommés en **XInput** (équivalent PlayStation : X = □, Y = △, A = ✕, B = ○, LB/RB = L1/R1, LT/RT = L2/R2).
 
@@ -50,7 +50,7 @@ Exemples (MODERNE 8 BOUTONS) :
 
 ### Émulateurs compatibles avec les dispositions
 
-<table><thead><tr><th width="349">Émulateur</th><th>Jeux</th></tr></thead><tbody><tr><td><strong>MAME</strong> (standalone, HBMAME, GroovyMAME)</td><td>Tous les jeux, avec la disposition exacte de la borne pour les jeux fournis par RetroBat.</td></tr><tr><td>Core <strong>RetroArch - MAME</strong></td><td>Tous les jeux, avec la disposition exacte de la borne pour les jeux fournis par RetroBat.</td></tr><tr><td>Cores <strong>RetroArch - Flycast</strong> et <strong>Supermodel</strong></td><td>Jeux présents dans les fichiers de mappage.</td></tr><tr><td><strong>FBNeo</strong> (standalone)</td><td>Jeux présents dans le fichier de mappage.</td></tr><tr><td><strong>Flycast</strong> (standalone, Naomi / Atomiswave)</td><td>Jeux présents dans le fichier de mappage.</td></tr><tr><td><strong>Supermodel</strong> (Model 3)</td><td>Jeux présents dans le fichier de mappage.</td></tr><tr><td><strong>TeknoParrot</strong></td><td>Jeux présents dans le fichier de mappage.</td></tr><tr><td><strong>Lindbergh</strong> (linuxloader)</td><td>Tous les jeux.</td></tr><tr><td><strong>PCSX2x6</strong> (Namco System 246/256)</td><td>Tous les jeux.</td></tr><tr><td><strong>ArcadeDuck</strong> (Zinc)</td><td>Tous les jeux, avec des dispositions propres au jeu quand elles existent.</td></tr></tbody></table>
+<table><thead><tr><th width="349">Émulateur</th><th>Jeux</th></tr></thead><tbody><tr><td><strong>MAME</strong> (standalone, HBMAME, GroovyMAME)</td><td>Tous les jeux, avec la disposition exacte de la borne pour les jeux fournis par RetroBat.</td></tr><tr><td>Core <strong>RetroArch - MAME</strong></td><td>Tous les jeux, avec la disposition exacte de la borne pour les jeux fournis par RetroBat.</td></tr><tr><td>Cores <strong>RetroArch - Flycast</strong>, <strong>Supermodel</strong>, <strong>MAME 2003-Plus</strong> et <strong>Mednafen Saturn</strong> (ST-V)</td><td>Jeux présents dans les fichiers de mappage.</td></tr><tr><td><strong>FBNeo</strong> (standalone)</td><td>Jeux présents dans le fichier de mappage.</td></tr><tr><td><strong>Flycast</strong> (standalone, Naomi / Atomiswave)</td><td>Jeux présents dans le fichier de mappage.</td></tr><tr><td><strong>Supermodel</strong> et <strong>Model3-Vulkan</strong> (Model 1, 2 et 3)</td><td>Jeux présents dans le fichier de mappage.</td></tr><tr><td><strong>Keisho</strong> (Model 1, 2 et 3)</td><td>Tous les jeux, avec des dispositions propres à Virtua Fighter 3, Fighting Vipers 2 et Spikeout ; sauf les jeux à disposition fixe (Virtual On, jeux de ski…).</td></tr><tr><td><strong>m2emulator</strong> (Model 2)</td><td>Jeux de combat et jeux « standards » du fichier de mappage.</td></tr><tr><td><strong>TeknoParrot</strong></td><td>Jeux présents dans le fichier de mappage.</td></tr><tr><td><strong>Lindbergh</strong> (linuxloader)</td><td>Tous les jeux.</td></tr><tr><td><strong>PCSX2x6</strong> (Namco System 246/256)</td><td>Tous les jeux.</td></tr><tr><td><strong>ArcadeDuck</strong> (PSX Arcade)</td><td>Tous les jeux, avec des dispositions propres au jeu quand elles existent.</td></tr></tbody></table>
 
 Les jeux non listés utilisent le mappage standard de RetroBat. Vous pouvez ajouter ou modifier des dispositions par jeu dans `user\inputmapping` : voir la page [Mappage des contrôles spécifiques aux émulateurs](../configuration-des-touches-specifique-par-emulateur/).
 
@@ -87,3 +87,22 @@ Si votre encodeur peut fonctionner comme une manette (XInput), préférez ce mod
 ## Mappage personnalisé d'un stick (RetroArch)
 
 Pour un stick reconnu comme une manette, vous pouvez aussi forcer un mappage RetroArch dédié avec le fichier `arcade_sticks.json` et l'option **UTILISER UN MAPPING PERSO POUR LES STICKS ARCADE** : voir la page [Contrôleurs spéciaux](gamepads/controleurs-speciaux.md#mappage-personnalise-des-sticks-arcade-retroarch).
+
+### Manettes avant les sticks arcade
+
+Quand un stick arcade et une manette sont branchés en même temps, le stick peut prendre la place du joueur 1. L'option **MANETTES AVANT LES STICKS ARCADE** donne les premières places aux manettes : les sticks deviennent les joueurs suivants. L'ordre des manettes dans EmulationStation n'est pas modifié.
+
+L'option se règle pour tous les systèmes dans **PARAMÈTRES DES JEUX > OPTIONS GÉNÉRALES**, ou système par système dans la configuration avancée du système > **OPTIONS GÉNÉRALES** :
+
+<table><thead><tr><th width="249">Valeur</th><th>Effet</th></tr></thead><tbody><tr><td><strong>Désactivé</strong> (par défaut)</td><td>L'ordre d'EmulationStation s'applique partout.</td></tr><tr><td><strong>CONSOLES UNIQUEMENT</strong></td><td>Les manettes passent avant les sticks sur les consoles et ordinateurs ; les systèmes arcade (MAME, FBNeo, Model 2, Naomi…) gardent l'ordre d'EmulationStation.</td></tr><tr><td><strong>TOUJOURS</strong></td><td>Les manettes passent avant les sticks sur tous les systèmes.</td></tr></tbody></table>
+
+RetroBat reconnaît comme stick arcade :
+
+* les sticks XInput qui se déclarent comme stick arcade (la plupart des modèles récents) ;
+* les appareils dont le nom ou l'identifiant USB figure dans le fichier `system\tools\arcade_sticks.txt` (Qanba, Hori, Mad Catz, Victrix, Mayflash, hitbox, encodeurs Zero Delay, firmware GP2040-CE…).
+
+Les manettes « fight pad » à 6 boutons ne sont pas considérées comme des sticks.
+
+{% hint style="info" %}
+Si votre stick n'est pas reconnu, lancez un jeu avec l'option activée, puis ouvrez le journal `emulationstation\emulatorLauncher.log` : les lignes **Arcade stick check** donnent le nom et l'identifiant USB (`usb:VVVV:PPPP`) de chaque manette. Ajoutez la valeur dans `arcade_sticks.txt` (une règle par ligne, la syntaxe est expliquée en tête du fichier).
+{% endhint %}
