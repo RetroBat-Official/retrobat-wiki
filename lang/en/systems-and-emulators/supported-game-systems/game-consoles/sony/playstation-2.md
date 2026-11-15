@@ -22,7 +22,7 @@ With more than 155 million units sold, the PS2 is the best-selling home console 
 
 ## At a glance
 
-<table><thead><tr><th width="236.5"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\ps2</code></td></tr><tr><td><strong>Extensions</strong></td><td>.iso .cso .bin .mdf .gz .chd .m3u .zip .7z .squashfs .decomp</td></tr><tr><td><strong>Default emulator</strong></td><td>pcsx2</td></tr><tr><td><strong>BIOS</strong></td><td>A PS2 BIOS in <code>bios\pcsx2\bios</code> (for example <code>scph39001.bin</code>, <code>ps2-0230e-20080220.bin</code>…)</td></tr><tr><td><strong>Controller configuration</strong></td><td>Automatic, all emulators</td></tr><tr><td><strong>Save states</strong></td><td>libretro cores, PCSX2</td></tr><tr><td><strong>RetroAchievements</strong></td><td>PCSX2</td></tr><tr><td><strong>Netplay</strong></td><td>No</td></tr><tr><td><strong>Light guns</strong></td><td>PCSX2</td></tr><tr><td><strong>Wheels</strong></td><td>PCSX2</td></tr></tbody></table>
+<table><thead><tr><th width="234"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\ps2</code></td></tr><tr><td><strong>Extensions</strong></td><td>.iso .cso .bin .mdf .gz .chd .m3u .zip .7z .squashfs .decomp</td></tr><tr><td><strong>Default emulator</strong></td><td>pcsx2</td></tr><tr><td><strong>BIOS</strong></td><td>A PS2 BIOS in <code>bios\pcsx2\bios</code> (for example <code>scph39001.bin</code>, <code>ps2-0230e-20080220.bin</code>…)</td></tr><tr><td><strong>Controller configuration</strong></td><td>Automatic, all emulators</td></tr><tr><td><strong>Save states</strong></td><td>libretro cores, PCSX2, play</td></tr><tr><td><strong>RetroAchievements</strong></td><td>PCSX2</td></tr><tr><td><strong>Netplay</strong></td><td>No</td></tr><tr><td><strong>Light guns</strong></td><td>PCSX2</td></tr><tr><td><strong>Wheels</strong></td><td>PCSX2</td></tr></tbody></table>
 
 ## Which emulator should I choose?
 
@@ -76,14 +76,14 @@ The language only changes in games that contain it. European (PAL) games are oft
 Other emulators:
 
 * **lr-pcsx2:** **EMULATION > LANGUAGE UNLOCK** unlocks more languages in some games.
-* **play:** play has no BIOS. Choose the language in **EMULATION > LANGUAGE** (English by default).
+* **play:** play has no BIOS. The console language follows the RetroBat language; to choose another one, use **EMULATION > LANGUAGE**.
 
 ## Which game format?
 
-<table><thead><tr><th width="207.25">Format</th><th align="center">pcsx2</th><th align="center">lr-pcsx2</th><th align="center">play</th><th align="center">pcsx2-16</th></tr></thead><tbody><tr><td>.chd (recommended)</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td><td align="center">✘</td></tr><tr><td>.iso</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td></tr><tr><td>.cso</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td></tr><tr><td>.zip / .7z / .squashfs</td><td align="center">✔ (extracted at launch)</td><td align="center"></td><td align="center"></td><td align="center"></td></tr></tbody></table>
+<table><thead><tr><th width="207.25">Format</th><th align="center">pcsx2</th><th align="center">lr-pcsx2</th><th align="center">play</th><th align="center">pcsx2-16</th></tr></thead><tbody><tr><td>.chd (recommended)</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td><td align="center">✘</td></tr><tr><td>.iso</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td></tr><tr><td>.cso</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td></tr><tr><td>.zip / .7z / .squashfs</td><td align="center">✔ (extracted at launch)</td><td align="center"></td><td align="center">✔ (extracted at launch)</td><td align="center"></td></tr></tbody></table>
 
 * **.chd** is the best choice: the game is compressed (often 30 to 50 % smaller), and read directly without extraction.
-* **.zip / .7z / .squashfs** games are extracted by RetroBat before each launch with pcsx2. It works, but loading is slower.
+* **.zip / .7z / .squashfs** games are extracted by RetroBat before each launch with pcsx2 and play. It works, but loading is slower.
 
 ### Multi-disc games
 
@@ -96,6 +96,7 @@ Game (Disc 2).chd
 
 * **pcsx2** starts the first disc. When the game asks for the next disc, open the pause menu (**HOTKEY + SOUTH**), choose **Change Disc**, then the next disc.
 * **lr-pcsx2** uses the RetroArch disc control (**HOTKEY + L1** eject, **HOTKEY + R2** next disc, **HOTKEY + L1** insert).
+* **play** starts the first disc of the list.
 
 <div align="left"><figure><img src="../../../../.gitbook/assets/image (387).png" alt="" width="354"><figcaption></figcaption></figure></div>
 
@@ -107,7 +108,7 @@ Game (Disc 2).chd
 
 RetroBat configures your controllers automatically: you have nothing to do.
 
-<table><thead><tr><th width="121.5">Emulator</th><th width="154.5">RetroBat autoconfiguration</th><th width="91">Players</th><th>Notes</th></tr></thead><tbody><tr><td>pcsx2</td><td>✔</td><td>Up to 8</td><td>XInput and SDL controllers (DualShock 4, DualSense, Switch Pro, 8BitDo…). The multitap (PS2 multiplayer adapter) is enabled automatically when more than 2 controllers are connected.</td></tr><tr><td>lr-pcsx2</td><td>✔ (RetroArch)</td><td>2</td><td></td></tr><tr><td>play</td><td>✔</td><td>2</td><td></td></tr><tr><td>pcsx2-16</td><td>✘</td><td></td><td>Manual configuration in the emulator (see below).</td></tr></tbody></table>
+<table><thead><tr><th width="121.5">Emulator</th><th width="154.5">RetroBat autoconfiguration</th><th width="91">Players</th><th>Notes</th></tr></thead><tbody><tr><td>pcsx2</td><td>✔</td><td>Up to 8</td><td>XInput and SDL controllers (DualShock 4, DualSense, Switch Pro, 8BitDo…). The multitap (PS2 multiplayer adapter) is enabled automatically when more than 2 controllers are connected.</td></tr><tr><td>lr-pcsx2</td><td>✔ (RetroArch)</td><td>2</td><td></td></tr><tr><td>play</td><td>✔</td><td>2</td><td>XInput and DirectInput controllers.</td></tr><tr><td>pcsx2-16</td><td>✘</td><td></td><td>Manual configuration in the emulator (see below).</td></tr></tbody></table>
 
 Buttons are mapped by **position**, like a DualShock 2 controller:
 
@@ -141,8 +142,8 @@ To use your own mapping made in the emulator, set **AUTOCONFIGURE CONTROLLERS** 
 | Fast forward (toggle)               |                          | Space     |
 | Fullscreen                          |                          | F         |
 
-* **lr-pcsx2** uses the RetroArch hotkeys (same table on the Hotkeys page), without rewind.
-* **play** and **pcsx2-16**: only **HOTKEY + START** (quit).
+* **play**: **HOTKEY + START** (quit), **HOTKEY + WEST** (save state) and **HOTKEY + NORTH** (load state). The state uses the slot chosen in RetroBat before the launch: it does not change during the game. With the keyboard: `Ctrl` + `Shift` + slot number to save, `Ctrl` + slot number to load.
+* **pcsx2-16**: only **HOTKEY + START** (quit).
 
 ### pcsx2 controller options
 
@@ -212,19 +213,20 @@ All paths start from your RetroBat folder.
 
 On the PS2, games save on a **memory card**. The emulators create it for you: you have nothing to format.
 
-| Emulator | Memory cards                                                                     | Save states                             | Screenshots         |
-| -------- | -------------------------------------------------------------------------------- | --------------------------------------- | ------------------- |
-| pcsx2    | `saves\ps2\pcsx2\memcards`                                                       | `saves\ps2\pcsx2`                       | `screenshots\pcsx2` |
-| lr-pcsx2 | `bios\pcsx2\memcards` (shared cards, default) or `saves\ps2` (one card per game) | `saves\ps2\libretro.pcsx2`              | `screenshots`       |
-| play     | `emulators\play\Play Data Files\vfs\mc0`                                         | `emulators\play\Play Data Files\states` |                     |
-| pcsx2-16 | `saves\ps2\pcsx2-16\memcards`                                                    | `saves\ps2\pcsx2-16\sstates`            | `screenshots\pcsx2` |
+| Emulator | Memory cards                                                                     | Save states                  | Screenshots         |
+| -------- | -------------------------------------------------------------------------------- | ---------------------------- | ------------------- |
+| pcsx2    | `saves\ps2\pcsx2\memcards`                                                       | `saves\ps2\pcsx2`            | `screenshots\pcsx2` |
+| lr-pcsx2 | `bios\pcsx2\memcards` (shared cards, default) or `saves\ps2` (one card per game) | `saves\ps2\libretro.pcsx2`   | `screenshots`       |
+| play     | `saves\ps2\play\mc0` (and `mc1`)                                                 | `saves\ps2\play\states`      |                     |
+| pcsx2-16 | `saves\ps2\pcsx2-16\memcards`                                                    | `saves\ps2\pcsx2-16\sstates` | `screenshots\pcsx2` |
 
 {% hint style="warning" %}
 Each emulator has its own memory cards. If you change emulator, your progress does not follow. Keep the same emulator for a game, or copy the memory card yourself (pcsx2, lr-pcsx2 and pcsx2-16 use the same `.ps2` format).
 {% endhint %}
 
 * To keep a memory card from another PCSX2 install, copy its `Mcd001.ps2` file into `saves\ps2\pcsx2\memcards` (replace the existing file after making a copy of it).
-* Save states made with pcsx2 and lr-pcsx2 also appear in the RetroBat save state menu: see the Save states page.
+* At the first launch, RetroBat copies the existing play memory cards (`emulators\play\Play Data Files\vfs`) to `saves\ps2\play`.
+* Save states made with pcsx2, lr-pcsx2 and play also appear in the RetroBat save state menu: see the Save states page.
 
 ### Other useful folders
 
@@ -312,6 +314,7 @@ Cheats are disabled in RetroAchievements hardcore mode.
 ### Performance and display problems
 
 * **DRIVERS > VIDEO** (pcsx2), **DRIVERS > VIDEO CORE RENDERER** (lr-pcsx2), **DRIVERS > VIDEO** (play): renderer used. Vulkan or Direct3D 11/12 are usually the fastest. Try another one if a game shows glitches or a black screen.
+* **play:** **VIDEO > GS RAM READS** is on by default. Turning it off is faster but can break some graphic effects.
 * **pcsx2-16:** **EMULATION > GRAPHICS PLUGINS**: choose AVX2 if your processor supports it, otherwise SSE4 or SSE2.
 * **lr-pcsx2:** the **paraLLEl-GS** renderer reproduces the PS2 picture very accurately. Its **PARALLEL-GS** submenu offers supersampling for a sharper picture.
 * **GAME FIXES** (pcsx2): fixes for specific games. pcsx2 already applies the right fixes automatically for known games: only change them if a guide tells you to.

@@ -84,6 +84,7 @@ Emulators marked with ✏️ can be customized (see Customizing hotkeys).
 * Odin ✏️ (uses PadToKey, menu on `F10`)
 * OpenCDi (uses PadToKey, no menu: HOTKEY + South pauses)
 * OpenMSX
+* Play! (save/load state only, on the slot chosen in RetroBat, uses PadToKey)
 * PCSX2 / PCSX2x6 ✏️
 * PPSSPP ✏️
 * Project64 ✏️ (uses PadToKey)
