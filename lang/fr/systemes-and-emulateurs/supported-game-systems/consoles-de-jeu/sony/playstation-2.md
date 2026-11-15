@@ -22,7 +22,7 @@ Avec plus de 155 millions d'exemplaires vendus, la PS2 est la console de salon l
 
 ## En bref
 
-<table><thead><tr><th width="261.5"></th><th></th></tr></thead><tbody><tr><td><strong>Dossier des jeux</strong></td><td><code>roms\ps2</code></td></tr><tr><td><strong>Extensions</strong></td><td>.iso .cso .bin .mdf .gz .chd .m3u .zip .7z .squashfs .decomp</td></tr><tr><td><strong>Émulateur par défaut</strong></td><td>pcsx2</td></tr><tr><td><strong>BIOS</strong></td><td>Un BIOS PS2 dans <code>bios\pcsx2\bios</code> (par exemple <code>scph39001.bin</code>, <code>ps2-0230e-20080220.bin</code>…)</td></tr><tr><td><strong>Configuration des manettes</strong></td><td>Automatique, tous les émulateurs</td></tr><tr><td><strong>Sauvegardes instantanées</strong></td><td>cores libretro, PCSX2</td></tr><tr><td><strong>RetroAchievements</strong></td><td>PCSX2</td></tr><tr><td><strong>Jeu en réseau</strong></td><td>Non</td></tr><tr><td><strong>Pistolets</strong></td><td>PCSX2</td></tr><tr><td><strong>Volants</strong></td><td>PCSX2</td></tr></tbody></table>
+<table><thead><tr><th width="250.25"></th><th></th></tr></thead><tbody><tr><td><strong>Dossier des jeux</strong></td><td><code>roms\ps2</code></td></tr><tr><td><strong>Extensions</strong></td><td>.iso .cso .bin .mdf .gz .chd .m3u .zip .7z .squashfs .decomp</td></tr><tr><td><strong>Émulateur par défaut</strong></td><td>pcsx2</td></tr><tr><td><strong>BIOS</strong></td><td>Un BIOS PS2 dans <code>bios\pcsx2\bios</code> (par exemple <code>scph39001.bin</code>, <code>ps2-0230e-20080220.bin</code>…)</td></tr><tr><td><strong>Configuration des manettes</strong></td><td>Automatique, tous les émulateurs</td></tr><tr><td><strong>Sauvegardes instantanées</strong></td><td>cores libretro, PCSX2, play</td></tr><tr><td><strong>RetroAchievements</strong></td><td>PCSX2</td></tr><tr><td><strong>Jeu en réseau</strong></td><td>Non</td></tr><tr><td><strong>Pistolets</strong></td><td>PCSX2</td></tr><tr><td><strong>Volants</strong></td><td>PCSX2</td></tr></tbody></table>
 
 ## Quel émulateur choisir ?
 
@@ -76,14 +76,14 @@ La langue ne change que dans les jeux qui la contiennent. Les jeux européens (P
 Autres émulateurs :
 
 * **lr-pcsx2 :** **ÉMULATION > DÉBLOCAGE DES LANGUES** débloque d'autres langues dans certains jeux.
-* **play :** play n'a pas de BIOS. Choisissez la langue dans **ÉMULATION > LANGUE** (anglais par défaut).
+* **play :** play n'a pas de BIOS. La langue de la console suit celle de RetroBat ; pour en choisir une autre, utilisez **ÉMULATION > LANGUE**.
 
 ## Quel format de jeu ?
 
-<table><thead><tr><th width="201">Format</th><th align="center">pcsx2</th><th align="center">lr-pcsx2</th><th align="center">play</th><th align="center">pcsx2-16</th></tr></thead><tbody><tr><td>.chd (conseillé)</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td><td align="center">✘</td></tr><tr><td>.iso</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td></tr><tr><td>.cso</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td></tr><tr><td>.zip / .7z / .squashfs</td><td align="center">✔ (décompressé au lancement)</td><td align="center"></td><td align="center"></td><td align="center"></td></tr></tbody></table>
+<table><thead><tr><th width="147.25">Format</th><th width="154.5" align="center">pcsx2</th><th width="106.75" align="center">lr-pcsx2</th><th width="161.5" align="center">play</th><th align="center">pcsx2-16</th></tr></thead><tbody><tr><td>.chd (conseillé)</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td><td align="center">✘</td></tr><tr><td>.iso</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td></tr><tr><td>.cso</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td><td align="center">✔</td></tr><tr><td>.zip / .7z / .squashfs</td><td align="center">✔ (décompressé au lancement)</td><td align="center"></td><td align="center">✔ (décompressé au lancement)</td><td align="center"></td></tr></tbody></table>
 
 * **.chd** est le meilleur choix : le jeu est compressé (souvent 30 à 50 % plus petit) et lu directement, sans décompression.
-* Les jeux en **.zip / .7z / .squashfs** sont décompressés par RetroBat avant chaque lancement avec pcsx2. Ça fonctionne, mais le chargement est plus lent.
+* Les jeux en **.zip / .7z / .squashfs** sont décompressés par RetroBat avant chaque lancement avec pcsx2 et play. Ça fonctionne, mais le chargement est plus lent.
 
 ### Jeux multi-disques
 
@@ -96,6 +96,7 @@ Jeu (Disc 2).chd
 
 * **pcsx2** démarre sur le premier disque. Quand le jeu demande le disque suivant, ouvrez le menu pause (**HOTKEY + SUD**), choisissez **Change Disc**, puis le disque suivant.
 * **lr-pcsx2** utilise le contrôle des disques de RetroArch (**HOTKEY + L1** éjecter, **HOTKEY + R2** disque suivant, **HOTKEY + L1** insérer).
+* **play** démarre sur le premier disque de la liste.
 
 <div align="left"><figure><img src="../../../../.gitbook/assets/image (425).png" alt="" width="327"><figcaption></figcaption></figure></div>
 
@@ -106,8 +107,6 @@ Jeu (Disc 2).chd
 ### Configuration automatique
 
 RetroBat configure vos manettes automatiquement : vous n'avez rien à faire.
-
-<table><thead><tr><th width="116.5">Émulateur</th><th width="153">Autoconfiguration RetroBat</th><th width="115.25">Joueurs</th><th>Remarques</th></tr></thead><tbody><tr><td>pcsx2</td><td>✔</td><td>Jusqu'à 8</td><td>Manettes XInput et SDL (DualShock 4, DualSense, Switch Pro, 8BitDo…). Le multitap (adaptateur multijoueur PS2) est activé automatiquement au-delà de 2 manettes.</td></tr><tr><td>lr-pcsx2</td><td>✔ (RetroArch)</td><td>2</td><td></td></tr><tr><td>play</td><td>✔</td><td>2</td><td></td></tr><tr><td>pcsx2-16</td><td>✘</td><td></td><td>Configuration manuelle dans l'émulateur (voir plus bas).</td></tr></tbody></table>
 
 Les boutons sont associés par **position**, comme sur une manette DualShock 2 :
 
@@ -135,8 +134,8 @@ Pour utiliser votre propre configuration faite dans l'émulateur, réglez **AUTO
 | Avance rapide (bascule)                   |                     | Espace         |
 | Plein écran                               |                     | F              |
 
-* **lr-pcsx2** utilise les raccourcis de RetroArch (même tableau sur la page Raccourcis), sans retour arrière.
-* **play** et **pcsx2-16** : seulement **HOTKEY + START** (quitter).
+* **play** : **HOTKEY + START** (quitter), **HOTKEY + OUEST** (sauvegarde d'état) et **HOTKEY + NORD** (chargement d'état). La sauvegarde utilise l'emplacement choisi dans RetroBat avant le lancement : il ne change pas pendant la partie. Au clavier : `Ctrl` + `Maj` + numéro de l'emplacement pour sauvegarder, `Ctrl` + numéro de l'emplacement pour charger.
+* **pcsx2-16** : seulement **HOTKEY + START** (quitter).
 
 ### Options des manettes pcsx2
 
@@ -200,14 +199,15 @@ Tous les chemins partent de votre dossier RetroBat.
 
 Sur PS2, les jeux sauvegardent sur une **carte mémoire**. Les émulateurs la créent pour vous : vous n'avez rien à formater.
 
-<table><thead><tr><th width="111.5">Émulateur</th><th width="258.75">Cartes mémoire</th><th>Sauvegardes d'état</th><th>Captures d'écran</th></tr></thead><tbody><tr><td>pcsx2</td><td><code>saves\ps2\pcsx2\memcards</code></td><td><code>saves\ps2\pcsx2</code></td><td><code>screenshots\pcsx2</code></td></tr><tr><td>lr-pcsx2</td><td><code>bios\pcsx2\memcards</code> (cartes partagées, par défaut) ou <code>saves\ps2</code> (une carte par jeu)</td><td><code>saves\ps2\libretro.pcsx2</code></td><td><code>screenshots</code></td></tr><tr><td>play</td><td><code>emulators\play\Play Data Files\vfs\mc0</code></td><td><code>emulators\play\Play Data Files\states</code></td><td></td></tr><tr><td>pcsx2-16</td><td><code>saves\ps2\pcsx2-16\memcards</code></td><td><code>saves\ps2\pcsx2-16\sstates</code></td><td><code>screenshots\pcsx2</code></td></tr></tbody></table>
+<table><thead><tr><th width="111.5">Émulateur</th><th width="258.75">Cartes mémoire</th><th>Sauvegardes d'état</th><th>Captures d'écran</th></tr></thead><tbody><tr><td>pcsx2</td><td><code>saves\ps2\pcsx2\memcards</code></td><td><code>saves\ps2\pcsx2</code></td><td><code>screenshots\pcsx2</code></td></tr><tr><td>lr-pcsx2</td><td><code>bios\pcsx2\memcards</code> (cartes partagées, par défaut) ou <code>saves\ps2</code> (une carte par jeu)</td><td><code>saves\ps2\libretro.pcsx2</code></td><td><code>screenshots</code></td></tr><tr><td>play</td><td><code>saves\ps2\play\mc0</code> (et <code>mc1</code>)</td><td><code>saves\ps2\play\states</code></td><td></td></tr><tr><td>pcsx2-16</td><td><code>saves\ps2\pcsx2-16\memcards</code></td><td><code>saves\ps2\pcsx2-16\sstates</code></td><td><code>screenshots\pcsx2</code></td></tr></tbody></table>
 
 {% hint style="warning" %}
 Chaque émulateur a ses propres cartes mémoire. Si vous changez d'émulateur, votre progression ne suit pas. Gardez le même émulateur pour un jeu, ou copiez la carte mémoire vous-même (pcsx2, lr-pcsx2 et pcsx2-16 utilisent le même format `.ps2`).
 {% endhint %}
 
 * Pour récupérer la carte mémoire d'une autre installation de PCSX2, copiez son fichier `Mcd001.ps2` dans `saves\ps2\pcsx2\memcards` (en remplaçant le fichier existant, après en avoir fait une copie).
-* Les sauvegardes d'état de pcsx2 et lr-pcsx2 apparaissent aussi dans le menu des sauvegardes d'état de RetroBat : voir la page Sauvegardes d'état.
+* Au premier lancement, RetroBat copie les cartes mémoire existantes de play (`emulators\play\Play Data Files\vfs`) dans `saves\ps2\play`.
+* Les sauvegardes d'état de pcsx2, lr-pcsx2 et play apparaissent aussi dans le menu des sauvegardes d'état de RetroBat : voir la page Sauvegardes d'état.
 
 ### Autres dossiers utiles
 
@@ -289,6 +289,7 @@ La triche est désactivée en mode hardcore RetroAchievements.
 ### Performances et problèmes d'affichage
 
 * **PILOTES > VIDÉO** (pcsx2), **PILOTES > PILOTE VIDÉO DU CORE** (lr-pcsx2), **PILOTES > VIDÉO** (play) : moteur de rendu utilisé. Vulkan ou Direct3D 11/12 sont en général les plus rapides. Essayez-en un autre si un jeu affiche des défauts ou un écran noir.
+* **play :** **VIDÉO > LECTURES DE LA RAM GS** est activé par défaut. Le désactiver est plus rapide, mais peut casser certains effets graphiques.
 * **pcsx2-16 :** **ÉMULATION > PLUGINS GRAPHIQUES** : choisissez AVX2 si votre processeur le prend en charge, sinon SSE4 ou SSE2.
 * **lr-pcsx2 :** le moteur de rendu **paraLLEl-GS** reproduit très fidèlement l'image de la PS2. Son sous-menu **PARALLEL-GS** propose un suréchantillonnage pour une image plus nette.
 * **CORRECTIFS** (pcsx2) : correctifs pour des jeux précis. pcsx2 applique déjà automatiquement les bons correctifs aux jeux connus : ne les changez que si un guide vous le demande.
