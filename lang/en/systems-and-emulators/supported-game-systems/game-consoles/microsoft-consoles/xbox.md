@@ -96,7 +96,7 @@ For more details on light guns, see the [**Lightguns**](../../../../controllers/
 
 ### Hotkeys
 
-**xemu**
+#### **xemu**
 
 | Hotkey                           | Action                                                        | Keyboard         |
 | -------------------------------- | ------------------------------------------------------------- | ---------------- |
@@ -110,7 +110,7 @@ For more details on light guns, see the [**Lightguns**](../../../../controllers/
 | —                                | Restart                                                       | CTRL + R         |
 | —                                | Fullscreen                                                    | F11              |
 
-**xbased**
+#### **xbased**
 
 | Hotkey                    | Action                                             | Keyboard                  |
 | ------------------------- | -------------------------------------------------- | ------------------------- |
@@ -125,7 +125,7 @@ For more details on light guns, see the [**Lightguns**](../../../../controllers/
 
 The GUIDE button is not used in RetroBat: the xbased menu opens with **HOTKEY + SOUTH**.
 
-**cxbx**
+#### **cxbx**
 
 | Hotkey             | Action                                            | Keyboard |
 | ------------------ | ------------------------------------------------- | -------- |
@@ -205,15 +205,15 @@ The hard drive created by RetroBat is empty and has no dashboard. To use the har
 
 ### Other useful options
 
-**xemu**
+#### **xemu**
 
 <table><thead><tr><th width="330.25">Option</th><th>Effect</th></tr></thead><tbody><tr><td><strong>INTERNAL RESOLUTION</strong></td><td>Increases the rendering resolution (up to 10X). The native resolution is 640x480.</td></tr><tr><td><strong>GAME ASPECT RATIO</strong></td><td><strong>NATIVE</strong>, <strong>4:3</strong> or <strong>16:9</strong>. By default, xemu chooses automatically.</td></tr><tr><td><strong>EMULATION > MEMORY</strong></td><td>128 MB (RetroBat default, like development kits) or 64 MB (original console).</td></tr><tr><td><strong>EMULATION > SKIP BOOT</strong></td><td>On by default: skips the Xbox boot animation.</td></tr><tr><td><strong>VIDEO > DISPLAY MODE</strong></td><td>Picture placement: scaled (default), centered or stretched.</td></tr><tr><td><strong>VIDEO > EMULATED VIDEO SIGNAL</strong></td><td>Emulated video cable: HDTV (default), SCART, VGA, RFU, S-VIDEO or COMPOSITE.</td></tr><tr><td><strong>VISUAL RENDERING > SHADER CACHE</strong></td><td>On by default: less stuttering once shaders are saved.</td></tr><tr><td><strong>AUDIO > DSP EMULATION</strong></td><td>More accurate sound (effects, reverb), but more demanding. <strong>DSP JIT ENGINE</strong> speeds up this emulation (experimental).</td></tr><tr><td><strong>DRIVERS > VIDEO</strong></td><td>OPENGL (default) or VULKAN.</td></tr><tr><td><strong>USER INTERFACE > SHOW MENU BAR</strong></td><td>Shows the xemu menu bar at the top of the screen.</td></tr></tbody></table>
 
-**xbased**
+#### **xbased**
 
 <table><thead><tr><th width="324">Option</th><th>Effect</th></tr></thead><tbody><tr><td><strong>INTERNAL RESOLUTION</strong></td><td>Increases the rendering resolution (up to 8X). The native resolution is 640x480.</td></tr><tr><td><strong>GAME ASPECT RATIO</strong></td><td><strong>AUTO</strong> (default), <strong>4:3</strong>, <strong>16:9</strong> or <strong>STRETCH</strong>. Bezels are only shown in AUTO or 4:3, without WIDESCREEN.</td></tr><tr><td><strong>FRAME RATE</strong></td><td><strong>ORIGINAL</strong> (default), <strong>UP TO 60 FPS</strong>, <strong>UP TO 120 FPS</strong> or <strong>UNLIMITED</strong>, where the game allows it. Anything but original can break a game.</td></tr><tr><td><strong>EMULATION > MEMORY</strong></td><td>64 MB (default, original console) or 128 MB (development kits, for development builds).</td></tr><tr><td><strong>EMULATION > FAST DISC LOADING</strong></td><td>Faster loading. Some games may not expect it.</td></tr><tr><td><strong>VIDEO > WIDESCREEN</strong></td><td>Sets the console to widescreen (16:9), for the games that support it.</td></tr><tr><td><strong>VIDEO > HD VIDEO MODES</strong></td><td>Modes offered to the games: 480P (default), 480P + 720P or 480P + 720P + 1080I. HD modes need the <strong>HDTV</strong> signal.</td></tr><tr><td><strong>VIDEO > EMULATED VIDEO SIGNAL</strong></td><td>Emulated video cable: HDTV (default), COMPOSITE, S-VIDEO, SCART or VGA.</td></tr><tr><td><strong>VIDEO > PAL GAMES REFRESH RATE</strong></td><td>60 Hz (default) or 50 Hz.</td></tr><tr><td><strong>VISUAL RENDERING > UPSCALE FILTER</strong></td><td>BILINEAR (default), AMD FSR 1 or NEAREST.</td></tr><tr><td><strong>VISUAL RENDERING > CRT FILTER</strong></td><td>Soft scanlines, classic TV or arcade monitor.</td></tr><tr><td><strong>VISUAL RENDERING > OVERSCAN</strong></td><td>Hides the picture edges like a TV, or adds a border (negative values).</td></tr><tr><td><strong>VISUAL RENDERING > ASYNCHRONOUS SHADERS</strong></td><td>Less stuttering, but objects can be missing for a moment.</td></tr><tr><td><strong>AUDIO > AUDIO CHANNELS</strong></td><td>STEREO (default) or SURROUND 5.1.</td></tr></tbody></table>
 
-**cxbx**
+#### **cxbx**
 
 | Option                                      | Effect                                                                     |
 | ------------------------------------------- | -------------------------------------------------------------------------- |
