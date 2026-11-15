@@ -39,10 +39,11 @@ Dossiers dans `saves\<système>`. **Sauv. auto** : option SAUV./CHARG. AUTO gér
 | OpenCDi                    | `opencdi`                              |            |       ✔       |
 | openMSX                    | `openmsx`                              |            |               |
 | PCSX2                      | `pcsx2`                                |      ✔     |       ✔       |
+| Play!                      | `play\states`                          |            |               |
 | PPSSPP                     | `ppsspp`                               |            |               |
 
 {% hint style="info" %}
-Azahar, Keisho, Odin et OpenCDi n'enregistrent pas de capture d'écran avec leurs sauvegardes : le gestionnaire affiche l'icône de sauvegarde de RetroBat à la place. Odin ne garde qu'une sauvegarde par jeu (F2 / F4) : RetroBat en fait une nouvelle sauvegarde dans le gestionnaire à chaque fois
+Azahar, Keisho, Odin, OpenCDi et Play! n'enregistrent pas de capture d'écran avec leurs sauvegardes : le gestionnaire affiche l'icône de sauvegarde de RetroBat à la place. Odin ne garde qu'une sauvegarde par jeu (F2 / F4) : RetroBat en fait une nouvelle sauvegarde dans le gestionnaire à chaque fois
 {% endhint %}
 
 ## Sauvegarder et charger en jeu

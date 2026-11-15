@@ -82,6 +82,7 @@ Les émulateurs marqués ✏️ sont personnalisables (voir Personnaliser les ra
 * Odin ✏️ (utilise PadToKey, menu sur `F10`)
 * OpenCDi (utilise PadToKey, pas de menu : HOTKEY + Sud met en pause)
 * OpenMSX
+* Play! (uniquement sauvegarde/chargement sur l'emplacement choisi dans RetroBat, utilise PadToKey)
 * PCSX2 / PCSX2x6 ✏️
 * PPSSPP ✏️
 * Project64 ✏️ (utilise PadToKey)
