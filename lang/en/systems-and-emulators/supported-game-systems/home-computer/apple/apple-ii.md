@@ -4,110 +4,126 @@ description: Apple
 
 # Apple II
 
-<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/apple2-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/apple2.svg" alt=""></picture><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (587).png" alt="" width="424"><figcaption></figcaption></figure></div>
 
-Computer - Lifespan: 1977 - 1979
+### Overview
+
+The **Apple II** is one of the first personal computers sold in large numbers. Designed by Steve Wozniak, it was released in 1977, followed by the Apple II Plus (1979), the Apple //e (1983, then its "Enhanced" version in 1985) and the //c and //c Plus portables. Production ended in 1993. Its software ships on 5.25-inch floppy disks, read by the Disk II drive.
+
+Its library is huge: **Lode Runner**, **Karateka**, **Prince of Persia**, **Ultima**, **Wizardry**, **Choplifter**, **The Oregon Trail**, **Castle Wolfenstein**, **Conan**, and many recent European demos.
+
+RetroBat offers seven emulators: **AppleWin** (default), **POM2**, **Mednafen**, **BizHawk**, the **applewin** and **mame** libretro cores, and **MAME**.
 
 {% embed url="https://en.wikipedia.org/wiki/Apple_II" %}
 
-## Information
+### At a glance
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>applewin</li><li>mednafen</li><li>bizhawk</li><li>libretro:applewin</li><li>libretro:mame</li><li>mame</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> apple2</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.nib .do .po .dsk .woz .m3u .hdv .zip</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="210.25"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\apple2</code></td></tr><tr><td><strong>Extensions</strong></td><td>.nib .do .po .dsk .woz .m3u .hdv .zip</td></tr><tr><td><strong>Default emulator</strong></td><td>applewin</td></tr><tr><td><strong>BIOS</strong></td><td>None for AppleWin and the applewin core</td></tr><tr><td><strong>Controller setup</strong></td><td>Automatic: Mednafen, applewin core; AppleWin uses the Windows controller; POM2, BizHawk, MAME: PadToKey</td></tr><tr><td><strong>Save states</strong></td><td>libretro cores, BizHawk (managed by RetroBat)</td></tr><tr><td><strong>RetroAchievements</strong></td><td>BizHawk</td></tr><tr><td><strong>Netplay</strong></td><td>mame libretro core</td></tr><tr><td><strong>Optional BIOS</strong></td><td>POM2 ROMs in <code>bios\pom2</code>, Mednafen and BizHawk ROMs, MAME archives in <code>bios</code></td></tr></tbody></table>
 
-### libretro:mame information
+### Which emulator should I use?
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulated Model</strong></td><td>apple2ee, apple2e, apple2p</td></tr><tr><td><strong>Softlists available</strong></td><td>apple2_cass, apple2_flop_clcracked, apple2_flop_misc, apple2_flop_orig</td></tr><tr><td><strong>Media Types</strong></td><td>cassette, floppy</td></tr></tbody></table>
+<table><thead><tr><th width="183.25">Emulator</th><th>Strengths</th><th>Limitations</th></tr></thead><tbody><tr><td><strong>applewin</strong> (default)</td><td>The reference on Windows: very compatible, built-in ROMs, many screen types.</td><td>Cannot read <code>.zip</code> files. Save states not managed by RetroBat. Settings stored in the Windows registry.</td></tr><tr><td><strong>pom2</strong></td><td>Recent emulator: //e, //c, //c Plus and PAL (50 Hz) models for European demos, CRT filters, disk turbo, mouse as paddles.</td><td>Needs the ROMs in <code>bios\pom2</code>. One disk mounted at a time, no save states.</td></tr><tr><td><strong>mednafen</strong></td><td>Apple II, II+ and //e, controller set up automatically.</td><td>Needs its ROMs in <code>bios</code>. Cannot read <code>.zip</code> files.</td></tr><tr><td><strong>bizhawk</strong></td><td>Save states managed by RetroBat, RetroAchievements.</td><td>Needs <code>AppleIIe.rom</code> and <code>AppleIIe_DiskII.rom</code>. Keyboard only. Cannot read <code>.zip</code> files.</td></tr><tr><td><strong>libretro: applewin</strong></td><td>AppleWin inside RetroArch: save states, shaders, disk swapping, expansion cards.</td><td>—</td></tr><tr><td><strong>libretro: mame</strong>, <strong>mame</strong></td><td>MAME software lists, many expansion cards.</td><td>Need the MAME archives. No automatic controller setup.</td></tr></tbody></table>
 
-## System Features
+### BIOS
 
-<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td><p>AppleWin: NO<br>Mednafen: NO<br>BizHawk: YES</p><p>lr-applewin: NO<br>lr-mame: NO<br>Mame: NO</p></td><td><p>AppleWin: NO<br>Mednafen: NO<br>BizHawk: NO</p><p>lr-applewin: NO<br>lr-mame: NO<br>Mame: NO</p></td><td><p>AppleWin: NO<br>Mednafen: YES<br>BizHawk: YES</p><p>lr-applewin: YES<br>lr-mame: NO<br>Mame: NO</p></td></tr></tbody></table>
+**AppleWin** and the **applewin core** have their ROMs built in: nothing to install. The other emulators need their own files, all in `bios`:
 
-## BIOS
+<table><thead><tr><th width="180.75">Emulator</th><th width="399.25">Files</th><th>Folder</th></tr></thead><tbody><tr><td>POM2</td><td>ROM of the chosen machine and of its character generator, plus <code>disk2.rom</code> and <code>diskii_p6.rom</code> (see below)</td><td><code>bios\pom2</code></td></tr><tr><td>Mednafen</td><td><code>apple2-asoft-auto.rom</code>, <code>apple2-int-auto.rom</code>, <code>disk2-13boot.rom</code>, <code>disk2-13seq.rom</code>, <code>disk2-16boot.rom</code>, <code>disk2-16seq.rom</code></td><td><code>bios</code></td></tr><tr><td>BizHawk</td><td><code>AppleIIe.rom</code>, <code>AppleIIe_DiskII.rom</code></td><td><code>bios</code></td></tr><tr><td>MAME, mame core</td><td><code>apple2ee.zip</code> and <code>apple2e.zip</code> (Apple //e Enhanced, default model), <code>apple2.zip</code>, <code>apple2p.zip</code>, <code>a2diskiing.zip</code>, <code>d2fdc.zip</code>, <code>votrsc01a.zip</code>; <code>a2cffa2.zip</code> for <code>.hdv</code> hard disks</td><td><code>bios</code></td></tr></tbody></table>
 
-<table><thead><tr><th width="275">BIOS file</th><th width="258.0361010830325">Folder</th><th>md5</th></tr></thead><tbody><tr><td>apple2.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>apple2e.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>apple2ee.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>apple2p.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>a2diskiing.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>votrsc01a.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>votrsc01.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>d2fdc.zip</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>AppleIIe_DiskII.rom</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>AppleIIe.rom</td><td><code>\bios</code></td><td>See below</td></tr><tr><td>apple2_cass.xml<br>apple2_flop_clcracked.xml<br>apple2_flop_misc.xml<br>apple2_flop_orig.xml</td><td><code>\bios\mame\hash</code></td><td></td></tr></tbody></table>
+The MAME software lists (`apple2_cass.xml`, `apple2_flop_clcracked.xml`, `apple2_flop_misc.xml`, `apple2_flop_orig.xml`) go in `bios\mame\hash`.
 
-<details>
+**POM2 ROMs** (POM2 names):
 
-<summary>Mednafen BIOS</summary>
+| Machine                      | System ROM                                               | Character ROM                                 |
+| ---------------------------- | -------------------------------------------------------- | --------------------------------------------- |
+| Apple //e Enhanced (default) | `apple2e.rom`                                            | `apple2e_char.rom`                            |
+| Apple ]\[                    | `apple2o.rom` or `apple2.rom`                            | `apple2_char.rom`                             |
+| Apple ]\[+                   | `apple2p.rom` or `apple2.rom`                            | `apple2_char.rom`                             |
+| Apple //e Unenhanced         | `apple2e_unenh.rom` or `342-0135-b.64.rom`               | `apple2e_char_2k.rom` or `342-0133-a.chr.rom` |
+| Apple //c                    | `apple2c-32Kv0.rom`, `apple2c-16K.rom` or `3420033a.256` | `apple2e_char.rom`                            |
+| Apple //c Plus               | `apple2cp.rom` or `apple2c-plus.rom`                     | `apple2e_char.rom`                            |
 
-apple2-int-auto.rom\
-apple2-asoft-auto.rom\
-disk2-13boot.rom\
-disk2-13seq.rom\
-disk2-16boot.rom\
-disk2-16seq.rom
+Every machine also needs `diskii_p6.rom`, and all but the //c models need `disk2.rom`. RetroBat copies the ROMs from `bios\pom2` into the POM2 folder and shows the name of the missing file when a ROM is not found.
 
-</details>
+### Which game format?
 
-<details>
+<table><thead><tr><th width="209">Format</th><th>Notes</th></tr></thead><tbody><tr><td><strong>.woz</strong></td><td>Faithful copy of the floppy, copy protection included. The safest format for protected games.</td></tr><tr><td><strong>.dsk</strong>, <strong>.do</strong>, <strong>.po</strong></td><td>5.25-inch floppy images (DOS 3.3 or ProDOS order).</td></tr><tr><td><strong>.nib</strong></td><td>"Nibble" 5.25-inch floppy image.</td></tr><tr><td><strong>.hdv</strong></td><td>ProDOS hard disk image.</td></tr><tr><td><strong>.m3u</strong></td><td>List of the disks of a multi-disk game.</td></tr><tr><td><strong>.zip</strong></td><td>Only POM2 and MAME read archives.</td></tr></tbody></table>
 
-<summary>Content of zip bios files</summary>
+### Controls
+
+#### Setup per emulator
+
+The Apple II is mostly played with the keyboard. To play with a controller, create a **PadToKey** profile (see the [**PadToKey**](../../../../controllers/pad2key.md) page). The Apple II game port takes a two-button analog joystick, or two paddles.
+
+* **AppleWin**: the first Windows controller acts as the joystick (otherwise the keyboard arrows). **CONTROLS > PLAYER 1 JOYSTICK TYPE** / **PLAYER 2**: joystick, keyboard (arrows or numeric keypad) or mouse.
+* **applewin core**: **CONTROLS > PLAYER 1 DEVICE**: controller with the d-pad (default), controller with the analog stick (progressive movement, for paddles), or mouse as paddles. **KEYBOARD TYPE**: ASCII (default) or the machine's original keyboard. **KEYBOARD FOCUS** gives the whole keyboard to the game (Scroll Lock toggles it).
+* **Mednafen**: controller set up automatically, SOUTH / EAST = buttons 1 / 2, L1 = paddle resistance selection. **CONTROLS > CONTROLLER TYPE**: joystick (analog stick), gamepad (d-pad) or Atari joystick.
+* **POM2**: **CONTROLS > CONTROLLER FOR THE GAME PORT** picks the controller (automatic by default). **MOUSE DRIVES THE PADDLES** for Arkanoid, Breakout and paddle games, **PADDLE MOUSE RANGE**, **STICK DEAD ZONE**.
+* **BizHawk**: Apple //e keyboard only.
+* **MAME, mame core**: **CONTROLS > JOYSTICK TYPE** (Apple, Sirius / Atari for the Apple II Plus, Gizmo).
+
+#### Hotkeys
+
+**libretro cores, Mednafen, BizHawk, MAME**: RetroBat default hotkeys (save, load, screenshot…). For more details, see the [**Hotkeys**](../../../../navigation/hotkeys.md) page.
+
+**AppleWin, POM2**
+
+<table><thead><tr><th width="274">Hotkey</th><th>Action</th></tr></thead><tbody><tr><td><strong>HOTKEY + START</strong></td><td>Quit</td></tr></tbody></table>
+
+AppleWin keeps its own keyboard keys: `F11` / `F12` save and load a snapshot (not managed by RetroBat).
+
+### Writing to floppy disks
+
+Many Apple II games save your progress directly on their floppy. RetroBat never changes the files in `roms\apple2`. The **EMULATION > ALLOW GAMES TO WRITE TO DISK IMAGES** option (AppleWin, applewin core, POM2, Mednafen, BizHawk) decides what happens:
+
+<table><thead><tr><th width="284">Choice</th><th>Effect</th></tr></thead><tbody><tr><td><strong>NO (READ ONLY)</strong> (default)</td><td>The floppy is write-protected: the game cannot save.</td></tr><tr><td><strong>YES (WORKING COPY IN SAVES)</strong></td><td>The game runs on a copy of the floppy, created on first launch in <code>saves\apple2\&#x3C;emulator></code> and then reused: progress is kept between sessions.</td></tr><tr><td><strong>YES AND RESET THE DISK</strong></td><td>Starts again from the original floppy (the old copy is kept as <code>.bak</code>).</td></tr></tbody></table>
+
+Mednafen and BizHawk keep the changes in their own files instead of a copy of the floppy: the reset sets them aside the same way.
+
+### Folders
+
+| Content                                       | Folder                                                   |
+| --------------------------------------------- | -------------------------------------------------------- |
+| ROMs (POM2)                                   | `bios\pom2`                                              |
+| ROMs (Mednafen, BizHawk, MAME)                | `bios`                                                   |
+| AppleWin: working copies of the floppies      | `saves\apple2\applewin`                                  |
+| AppleWin: configuration                       | Windows registry (`HKEY_CURRENT_USER\SOFTWARE\AppleWin`) |
+| applewin core: working copies of the floppies | `saves\apple2`                                           |
+| applewin core: save states                    | `saves\apple2\libretro.applewin`                         |
+| POM2: working copies of the floppies          | `saves\apple2\pom2`                                      |
+| POM2: configuration                           | `emulators\pom2\POM2\state.cfg`                          |
+| Mednafen: floppy changes                      | `saves\apple2` (`<game>.<n>.afd.gz`, `<game>.0.ahd.gz`)  |
+| BizHawk: floppy changes                       | `saves\apple2\bizhawk` (`<game>.SaveRAM`)                |
+| BizHawk: save states                          | `saves\apple2\bizhawk\sstates\AppleII`                   |
+| MAME software lists                           | `bios\mame\hash`                                         |
+
+### Guides
+
+#### Multi-disk games
+
+Create a `.m3u` file in `roms\apple2`, with one line per floppy, in order:
 
 ```
-"apple2.zip"
-- "341-0001-00.e0" size="2048" crc="c0a4ad3b" sha1="bf32195efcb34b694c893c2d342321ec3a24b98f"
-- "341-0002-00.e8" size="2048" crc="a99c2cf6" sha1="9767d92d04fc65c626223f25564cca31f5248980"
-- "341-0003-00.f0" size="2048" crc="62230d38" sha1="f268022da555e4c809ca1ae9e5d2f00b388ff61c"
-- "341-0004-00.f8" size="2048" crc="020a86d0" sha1="52a18bd578a4694420009cad7a7a5779a8c00226"
-- "341-0016-00.d0" size="2048" crc="4234e88a" sha1="c9a81d704dc2f0c3416c20f9c4ab71fedda937ed"
-- "341-0020-00.f8" size="2048" crc="079589c4" sha1="a28852ff997b4790e53d8d0352112c4b1a395098"
-- "341-0027-a.p5" size="256" crc="ce7144f6" sha1="d4181c9f046aafc3fb326b381baac809d9e38d16"
-- "341-0028-a.rom" size="256" crc="b72a2c70" sha1="bc39fbd5b9a8d2287ac5d0a42e639fc4d3c2f9d4"
-- "a2.chr" size="2048" crc="64f415c6" sha1="f9d312f128c9557d9d6ac03bfad6c3ddf83e5659"
-- "sc01a.bin" size="512" crc="fc416227" sha1="1d6da90b1807a01b5e186ef08476119a862b5e6d"
-
-"apple2e.zip"
-- "341-0027-a.p5" size="256" crc="ce7144f6" sha1="d4181c9f046aafc3fb326b381baac809d9e38d16"
-- "341-0028-a.rom" size="256" crc="b72a2c70" sha1="bc39fbd5b9a8d2287ac5d0a42e639fc4d3c2f9d4"
-- "342-0132-c.e12" size="2048" crc="e47045f4" sha1="12a2e718f5f4acd69b6c33a45a4a940b1440a481"
-- "342-0133-a.chr" size="4096" crc="b081df66" sha1="7060de104046736529c1e8a687a0dd7b84f8c51b"
-- "342-0134-a.64" size="8192" crc="fc3d59d8" sha1="8895a4b703f2184b673078f411f4089889b61c54"
-- "342-0135-b.64" size="8192" crc="e248835e" sha1="523838c19c79f481fa02df56856da1ec3816d16e"
-- "sc01a.bin" size="512" crc="fc416227" sha1="1d6da90b1807a01b5e186ef08476119a862b5e6d"
-
-"apple2ee.zip"
-- "341-0027-a.p5" size="256" crc="ce7144f6" sha1="d4181c9f046aafc3fb326b381baac809d9e38d16"
-- "341-0028-a.rom" size="256" crc="b72a2c70" sha1="bc39fbd5b9a8d2287ac5d0a42e639fc4d3c2f9d4"
-- "341-0132-d.e12" size="2048" crc="c506efb9" sha1="8e14e85c645187504ec9d162b3ea614a0c421d32"
-- "342-0265-a.chr" size="4096" crc="2651014d" sha1="b2b5d87f52693817fc747df087a4aa1ddcdb1f10"
-- "342-0303-a.e8" size="8192" crc="95e10034" sha1="afb09bb96038232dc757d40c0605623cae38088e"
-- "342-0304-a.e10" size="8192" crc="443aa7c4" sha1="3aecc56a26134df51e65e17f33ae80c1f1ac93e6"
-- "sc01a.bin" size="512" crc="fc416227" sha1="1d6da90b1807a01b5e186ef08476119a862b5e6d"
-
-"apple2p.zip"
-<rom name="341-0011.d0" size="2048" crc="6f05f949" sha1="0287ebcef2c1ce11dc71be15a99d2d7e0e128b1e"
-- "341-0012.d8" size="2048" crc="1f08087c" sha1="a75ce5aab6401355bf1ab01b04e4946a424879b5"
-- "341-0013.e0" size="2048" crc="2b8d9a89" sha1="8d82a1da63224859bd619005fab62c4714b25dd7"
-- "341-0014.e8" size="2048" crc="5719871a" sha1="37501be96d36d041667c15d63e0c1eff2f7dd4e9"
-- "341-0015.f0" size="2048" crc="9a04eecf" sha1="e6bf91ed28464f42b807f798fc6422e5948bf581"
-- "341-0020-00.f8" size="2048" crc="079589c4" sha1="a28852ff997b4790e53d8d0352112c4b1a395098"
-- "341-0027-a.p5" size="256" crc="ce7144f6" sha1="d4181c9f046aafc3fb326b381baac809d9e38d16"
-- "341-0028-a.rom" size="256" crc="b72a2c70" sha1="bc39fbd5b9a8d2287ac5d0a42e639fc4d3c2f9d4"
-- "341-0036.chr" size="2048" crc="64f415c6" sha1="f9d312f128c9557d9d6ac03bfad6c3ddf83e5659"
-- "sc01a.bin" size="512" crc="fc416227" sha1="1d6da90b1807a01b5e186ef08476119a862b5e6d"
-
-"a2diskiing.zip"
-- "341-0027-a.p5" size="256" crc="ce7144f6" sha1="d4181c9f046aafc3fb326b381baac809d9e38d16"
-- "341-0028-a.rom" size="256" crc="b72a2c70" sha1="bc39fbd5b9a8d2287ac5d0a42e639fc4d3c2f9d4"
-
-"votrsc01a.zip"
-- "sc01a.bin" size="512" crc="fc416227" sha1="1d6da90b1807a01b5e186ef08476119a862b5e6d"
-
-"votrsc01.zip"
-- "sc01.bin" size="512" crc="528d1c57" sha1="268b5884dce04e49e2376df3e2dc82e852b708c1"
-
-"d2fdc.zip"
-- "341-0028-a.rom" size="256" crc="b72a2c70" sha1="bc39fbd5b9a8d2287ac5d0a42e639fc4d3c2f9d4"
+Ultima IV (Disk 1).woz
+Ultima IV (Disk 2).woz
 ```
 
-</details>
+* **AppleWin** and **MAME** load the first two floppies in drives 1 and 2.
+* **applewin core**: swap disks with the RetroArch hotkeys; **EMULATION > USE BOTH FLOPPY DRIVES** loads the first two in drives 1 and 2, **M3U START DISK** resumes from the last disk used.
+* **POM2** mounts a single disk: **EMULATION > DISC NUMBER (M3U)** picks the one to boot, the others are swapped from the game menu.
 
-## Controls
+#### European demos (50 Hz)
 
-Use Pad2Key for this system, see the [Pad2Key ](../../../../controllers/pad2key.md)section of this Wiki.
+Some demos and a few European programs were written for a PAL Apple //e. Pick a PAL model in POM2 (**EMULATION > MACHINE TYPE**), or set **EMULATION > VIDEO REFRESH RATE** to 50 Hz with the applewin core.
 
-It is better to use keyboard & Mouse for personal computers.
+#### Hard disks (.hdv)
 
-## Specific system information
+AppleWin and the applewin core read `.hdv` files through the slot 7 hard disk controller (enabled by default). With MAME and the mame core, add `a2cffa2.zip` to `bios` and choose **EMULATION > FORCE MEDIA TYPE > Hard Drive Image**: RetroBat then installs the CFFA 2.0 card in slot 7.
 
-There is no specific System information documented here yet.
+#### Other useful options
+
+<table><thead><tr><th width="355.25">Option</th><th>Effect</th></tr></thead><tbody><tr><td><strong>EMULATION > MACHINE TYPE</strong></td><td>Apple II model (AppleWin, applewin core, POM2).</td></tr><tr><td><strong>VISUAL RENDERING > SCREEN TYPE</strong></td><td>RGB color, composite (period color bleeding), TV, or green / amber / white monochrome monitor.</td></tr><tr><td><strong>VISUAL RENDERING > SCANLINES</strong> (applewin core), <strong>CRT EFFECTS</strong> (POM2)</td><td>Look of a cathode-ray tube.</td></tr><tr><td><strong>EXPANSION SLOTS > SLOT 4</strong> (applewin core), <strong>SLOT 4 SOUND CARD</strong> (POM2)</td><td>Mockingboard sound card (default), Phasor, mouse card…</td></tr><tr><td><strong>EMULATION > DISK TURBO</strong> (POM2)</td><td>Much faster loading.</td></tr><tr><td><strong>EMULATION > CHARACTER ROM</strong> (POM2)</td><td>French, British, German… character set.</td></tr></tbody></table>
+
+### Known issues
+
+<table><thead><tr><th width="347.75">Issue</th><th>Solution</th></tr></thead><tbody><tr><td>The game shows a write error or does not keep progress</td><td>Enable <strong>EMULATION > ALLOW GAMES TO WRITE TO DISK IMAGES</strong>.</td></tr><tr><td>A <code>.zip</code> does not start with AppleWin, Mednafen or BizHawk</td><td>These emulators cannot read archives: unzip the game, or use POM2.</td></tr><tr><td>POM2 says "Missing POM2 ROM"</td><td>Add the listed ROM to <code>bios\pom2</code>.</td></tr><tr><td>A protected game does not boot</td><td>Use the <code>.woz</code> version of the game.</td></tr><tr><td>The game does not react to the controller</td><td>Create a PadToKey profile, or check the emulator's joystick type.</td></tr></tbody></table>
