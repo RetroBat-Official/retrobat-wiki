@@ -41,6 +41,7 @@ Folders in `saves\<system>`. **Auto save**: AUTO SAVE/LOAD option supported. **I
 | PCSX2                      | `pcsx2`                                |     ✔     |      ✔      |
 | Play!                      | `play\states`                          |           |             |
 | PPSSPP                     | `ppsspp`                               |           |             |
+| xbased                     | `xbased\sstates`                       |           |      ✔      |
 
 {% hint style="info" %}
 Azahar, Keisho, Odin, OpenCDi and Play! do not save a screenshot with their states: the manager shows the RetroBat save state icon instead. Odin keeps only one state per game (F2 / F4): RetroBat turns each save into a new save state in the manager.
