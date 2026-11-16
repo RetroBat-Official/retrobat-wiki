@@ -145,8 +145,6 @@ For the MAME folders, see the [**MAME**](../mame.md) page.
 
 <table><thead><tr><th width="335.25">Option</th><th>Effect</th></tr></thead><tbody><tr><td><strong>VIDEO > WIDESCREEN HACK</strong></td><td>Displays games in 16/9.</td></tr><tr><td><strong>EMULATION > HIGH LEVEL GEOMETRIZER</strong></td><td>On by default (fast). Off, Supermodel runs the real geometry programs, more accurate but slower.</td></tr><tr><td><strong>VISUAL RENDERING > SUPERSAMPLING</strong></td><td>Smooths the picture (SSAA), at the cost of performance.</td></tr></tbody></table>
 
-> 📷 **Screenshot to add**: Model 1 system options in RetroBat.
-
 ## Known issues
 
 | Issue                                            | Solution                                                                                        |

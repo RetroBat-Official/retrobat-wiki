@@ -84,8 +84,6 @@ Many games were written for the 40 column models: if they display incorrectly or
 | **VISUAL RENDERING > CROP**          | Hides the border around the picture.                                   |
 | **EMULATION > FAST LOAD**            | Runs the emulation at maximum speed while a disk or a tape is loading. |
 
-> 📷 **Screenshot to add**: Commodore PET system options in RetroBat.
-
 ## Known issues
 
 | Issue                                             | Solution                                                                                                                                    |
