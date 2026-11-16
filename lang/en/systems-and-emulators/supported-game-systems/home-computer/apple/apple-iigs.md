@@ -6,7 +6,7 @@ description: Apple
 
 <div align="left"><figure><img src="../../../../.gitbook/assets/image (588).png" alt="" width="540"><figcaption></figcaption></figure></div>
 
-### Overview
+## Overview
 
 The **Apple IIGS** is the last model of the Apple II line. Released in 1986, it is built around a 16-bit 65C816 processor, a 4,096-color palette and the 32-voice Ensoniq sound chip, the same one found in the brand's synthesizers. It remains compatible with Apple II software and reads 800 KB 3.5-inch floppy disks. Production ended in 1992.
 
@@ -16,15 +16,15 @@ RetroBat offers three emulators: **GSplus** (default), the **mame** libretro cor
 
 {% embed url="https://en.wikipedia.org/wiki/Apple_IIGS" %}
 
-### At a glance
+## At a glance
 
 <table><thead><tr><th width="234"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\apple2gs</code></td></tr><tr><td><strong>Extensions</strong></td><td>.2mg .woz .m3u .hdv .zip</td></tr><tr><td><strong>Default emulator</strong></td><td>gsplus</td></tr><tr><td><strong>BIOS</strong></td><td>Apple IIGS ROM in <code>bios</code>: <code>APPLE2GS.ROM</code> (or <code>ROM</code>, <code>ROM.01</code>, <code>ROM.03</code>) for GSplus, <code>apple2gs.zip</code> for MAME</td></tr><tr><td><strong>Controller setup</strong></td><td>GSplus: the first controller acts as the joystick; MAME: PadToKey</td></tr><tr><td><strong>Save states</strong></td><td>mame libretro core</td></tr><tr><td><strong>RetroAchievements</strong></td><td>No</td></tr><tr><td><strong>Netplay</strong></td><td>mame libretro core</td></tr><tr><td><strong>Optional BIOS</strong></td><td><code>votrsc01a.zip</code> and MAME software lists</td></tr></tbody></table>
 
-### Which emulator should I use?
+## Which emulator should I use?
 
 <table><thead><tr><th width="149.5">Emulator</th><th>Strengths</th><th>Limitations</th></tr></thead><tbody><tr><td><strong>gsplus</strong> (default)</td><td>Light and fast, mounts every disk of a <code>.m3u</code> at once, hard disks, scanlines.</td><td>Cannot read <code>.woz</code> files. No save states managed by RetroBat.</td></tr><tr><td><strong>libretro: mame</strong></td><td>Reads <code>.woz</code> files, save states, RetroArch shaders and hotkeys, MAME software lists.</td><td>Needs <code>apple2gs.zip</code>. No automatic controller setup.</td></tr><tr><td><strong>mame</strong></td><td>Same emulation as the mame core, as a standalone emulator.</td><td>Needs <code>apple2gs.zip</code>. No automatic controller setup.</td></tr></tbody></table>
 
-### BIOS
+## BIOS
 
 <table><thead><tr><th width="197">Emulator</th><th width="377.5">Files</th><th>Folder</th></tr></thead><tbody><tr><td>GSplus</td><td>Apple IIGS ROM (ROM 01 or ROM 03) under one of these names: <code>ROM</code>, <code>ROM.01</code>, <code>ROM.03</code> or <code>APPLE2GS.ROM</code></td><td><code>bios</code></td></tr><tr><td>MAME, mame core</td><td><code>apple2gs.zip</code>; <code>votrsc01a.zip</code> optional</td><td><code>bios</code></td></tr></tbody></table>
 
@@ -46,30 +46,32 @@ The MAME software lists (`apple2gs_flop_clcracked.xml`, `apple2gs_flop_misc.xml`
 
 </details>
 
-### Which game format?
+## Which game format?
 
 <table><thead><tr><th width="165.25">Format</th><th>Notes</th></tr></thead><tbody><tr><td><strong>.2mg</strong></td><td>3.5-inch floppy (800 KB) or hard disk image. The most common format.</td></tr><tr><td><strong>.woz</strong></td><td>Faithful copy of the floppy, copy protection included. Only read by MAME and the mame core.</td></tr><tr><td><strong>.hdv</strong></td><td>ProDOS hard disk image.</td></tr><tr><td><strong>.m3u</strong></td><td>List of the disks of a multi-disk game.</td></tr><tr><td><strong>.zip</strong></td><td>Archive holding the game image.</td></tr></tbody></table>
 
-### Controls
+## Controls
 
-#### Setup per emulator
+### Setup per emulator
 
 The Apple IIGS is played with the keyboard, the mouse and a two-button analog joystick. For keyboard keys, create a **PadToKey** profile (see the [**PadToKey**](../../../../controllers/pad2key.md) page).
 
 * **GSplus**: the first connected controller acts as the joystick (analog stick and two buttons). The Apple IIGS mouse follows the PC mouse. **CONTROLS > SWAP PADDLES** and **INVERT PADDLES** for the few games that expect the axes the other way round.
 * **MAME, mame core**: **CONTROLS > JOYSTICK TYPE** (Apple or Gizmo).
 
-#### Hotkeys
+### Hotkeys
 
-**mame core, MAME**: RetroBat default hotkeys (save, load, screenshot…). For more details, see the [**Hotkeys**](../../../../navigation/hotkeys.md) page.
+#### **mame core, MAME**
 
-**GSplus**
+RetroBat default hotkeys (save, load, screenshot…). For more details, see the [**Hotkeys**](../../../../navigation/hotkeys.md) page.
+
+#### **GSplus**
 
 <table><thead><tr><th width="215.25">Hotkey</th><th>Action</th></tr></thead><tbody><tr><td><strong>HOTKEY + START</strong></td><td>Quit</td></tr></tbody></table>
 
 On the keyboard, `F4` opens the GSplus configuration menu.
 
-### Writing to floppy disks
+## Writing to floppy disks
 
 With GSplus, the **EMULATION > ALLOW GAMES TO WRITE TO DISK IMAGES** option decides whether a game can save on its floppy:
 
@@ -77,28 +79,28 @@ With GSplus, the **EMULATION > ALLOW GAMES TO WRITE TO DISK IMAGES** option deci
 
 The files in `roms\apple2gs` are never changed.
 
-### Folders
+## Folders
 
 <table><thead><tr><th width="324">Content</th><th>Folder</th></tr></thead><tbody><tr><td>ROMs</td><td><code>bios</code></td></tr><tr><td>MAME software lists</td><td><code>bios\mame\hash</code></td></tr><tr><td>GSplus: working copies of the floppies</td><td><code>saves\apple2gs\gsplus</code></td></tr><tr><td>GSplus: configuration</td><td><code>emulators\gsplus\config.txt</code></td></tr><tr><td>GSplus: screenshots</td><td><code>screenshots</code></td></tr><tr><td>mame core: save states</td><td><code>saves\apple2gs\libretro.mame</code></td></tr></tbody></table>
 
-### Guides
+## Guides
 
-#### Multi-disk games
+### Multi-disk games
 
 Create a `.m3u` file in `roms\apple2gs`, with one line per floppy, in order. The images must be in the same folder as the `.m3u`. Example for Silpheed:
 
 * **GSplus** mounts every floppy at once: the game finds the next disk by itself, nothing to do.
 * **MAME** and the **mame core** load the first two floppies in the two 3.5-inch drives.
 
-#### The game does not boot with GSplus
+### The game does not boot with GSplus
 
 GSplus picks the drive from the image size: 5.25-inch floppies go to slot 6, 3.5-inch floppies and hard disks to slot 7. If a game refuses to boot, try another choice in **EMULATION > DISK SLOT**.
 
-#### Other useful options
+### Other useful options
 
 <table><thead><tr><th width="347.75">Option</th><th>Effect</th></tr></thead><tbody><tr><td><strong>VISUAL RENDERING > SCANLINES</strong> (GSplus)</td><td>Look of a cathode-ray tube, from light to strong.</td></tr><tr><td><strong>VISUAL RENDERING > IGNORE ASPECT RATIO</strong> (GSplus)</td><td>Picture stretched to the whole screen.</td></tr><tr><td><strong>VISUAL RENDERING > BLACK AND WHITE</strong> (GSplus)</td><td>Monochrome monitor display.</td></tr><tr><td><strong>EMULATION > RAM SIZE</strong> (MAME)</td><td>From 1 to 8 MB.</td></tr><tr><td><strong>EXPANSION SLOTS</strong> (MAME)</td><td>Mockingboard sound card, 4play joystick card, MIDI card.</td></tr></tbody></table>
 
-### Known issues
+## Known issues
 
 | Issue                                                | Solution                                                                  |
 | ---------------------------------------------------- | ------------------------------------------------------------------------- |

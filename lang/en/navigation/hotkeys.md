@@ -175,7 +175,7 @@ In `controller_hotkeys.yml`, each line is written as `button: action`.
 <table><thead><tr><th width="255.25">Button name</th><th>Button</th></tr></thead><tbody><tr><td><code>a</code></td><td>South</td></tr><tr><td><code>x</code></td><td>North</td></tr><tr><td><code>y</code></td><td>West</td></tr><tr><td><code>start</code></td><td>START</td></tr><tr><td><code>pageup</code> / <code>pagedown</code></td><td>L1 / R1</td></tr><tr><td><code>l2</code> / <code>r2</code></td><td>L2 / R2</td></tr><tr><td><code>l3</code> / <code>r3</code></td><td>Left / right stick click</td></tr><tr><td><code>up</code> / <code>down</code> / <code>left</code> / <code>right</code></td><td>D-pad</td></tr></tbody></table>
 
 {% hint style="info" %}
-The `b` (East) button cannot be used: HOTKEY + East is reserved for the Game Control Center.
+The `b` (East) button is reserved for the Game Control Center: it can only be used when you enable **DISABLE GAME CENTER** (see [Game Control Center](game-control-center.md)).
 {% endhint %}
 
 | Action name                                   | Action                       |

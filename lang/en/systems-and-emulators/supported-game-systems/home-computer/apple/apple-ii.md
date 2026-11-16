@@ -6,7 +6,7 @@ description: Apple
 
 <div align="left"><figure><img src="../../../../.gitbook/assets/image (587).png" alt="" width="424"><figcaption></figcaption></figure></div>
 
-### Overview
+## Overview
 
 The **Apple II** is one of the first personal computers sold in large numbers. Designed by Steve Wozniak, it was released in 1977, followed by the Apple II Plus (1979), the Apple //e (1983, then its "Enhanced" version in 1985) and the //c and //c Plus portables. Production ended in 1993. Its software ships on 5.25-inch floppy disks, read by the Disk II drive.
 
@@ -16,15 +16,15 @@ RetroBat offers seven emulators: **AppleWin** (default), **POM2**, **Mednafen**,
 
 {% embed url="https://en.wikipedia.org/wiki/Apple_II" %}
 
-### At a glance
+## At a glance
 
 <table><thead><tr><th width="210.25"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\apple2</code></td></tr><tr><td><strong>Extensions</strong></td><td>.nib .do .po .dsk .woz .m3u .hdv .zip</td></tr><tr><td><strong>Default emulator</strong></td><td>applewin</td></tr><tr><td><strong>BIOS</strong></td><td>None for AppleWin and the applewin core</td></tr><tr><td><strong>Controller setup</strong></td><td>Automatic: Mednafen, applewin core; AppleWin uses the Windows controller; POM2, BizHawk, MAME: PadToKey</td></tr><tr><td><strong>Save states</strong></td><td>libretro cores, BizHawk (managed by RetroBat)</td></tr><tr><td><strong>RetroAchievements</strong></td><td>BizHawk</td></tr><tr><td><strong>Netplay</strong></td><td>mame libretro core</td></tr><tr><td><strong>Optional BIOS</strong></td><td>POM2 ROMs in <code>bios\pom2</code>, Mednafen and BizHawk ROMs, MAME archives in <code>bios</code></td></tr></tbody></table>
 
-### Which emulator should I use?
+## Which emulator should I use?
 
 <table><thead><tr><th width="183.25">Emulator</th><th>Strengths</th><th>Limitations</th></tr></thead><tbody><tr><td><strong>applewin</strong> (default)</td><td>The reference on Windows: very compatible, built-in ROMs, many screen types.</td><td>Cannot read <code>.zip</code> files. Save states not managed by RetroBat. Settings stored in the Windows registry.</td></tr><tr><td><strong>pom2</strong></td><td>Recent emulator: //e, //c, //c Plus and PAL (50 Hz) models for European demos, CRT filters, disk turbo, mouse as paddles.</td><td>Needs the ROMs in <code>bios\pom2</code>. One disk mounted at a time, no save states.</td></tr><tr><td><strong>mednafen</strong></td><td>Apple II, II+ and //e, controller set up automatically.</td><td>Needs its ROMs in <code>bios</code>. Cannot read <code>.zip</code> files.</td></tr><tr><td><strong>bizhawk</strong></td><td>Save states managed by RetroBat, RetroAchievements.</td><td>Needs <code>AppleIIe.rom</code> and <code>AppleIIe_DiskII.rom</code>. Keyboard only. Cannot read <code>.zip</code> files.</td></tr><tr><td><strong>libretro: applewin</strong></td><td>AppleWin inside RetroArch: save states, shaders, disk swapping, expansion cards.</td><td>—</td></tr><tr><td><strong>libretro: mame</strong>, <strong>mame</strong></td><td>MAME software lists, many expansion cards.</td><td>Need the MAME archives. No automatic controller setup.</td></tr></tbody></table>
 
-### BIOS
+## BIOS
 
 **AppleWin** and the **applewin core** have their ROMs built in: nothing to install. The other emulators need their own files, all in `bios`:
 
@@ -32,7 +32,7 @@ RetroBat offers seven emulators: **AppleWin** (default), **POM2**, **Mednafen**,
 
 The MAME software lists (`apple2_cass.xml`, `apple2_flop_clcracked.xml`, `apple2_flop_misc.xml`, `apple2_flop_orig.xml`) go in `bios\mame\hash`.
 
-**POM2 ROMs** (POM2 names):
+#### **POM2 ROMs** (POM2 names):
 
 | Machine                      | System ROM                                               | Character ROM                                 |
 | ---------------------------- | -------------------------------------------------------- | --------------------------------------------- |
@@ -45,13 +45,13 @@ The MAME software lists (`apple2_cass.xml`, `apple2_flop_clcracked.xml`, `apple2
 
 Every machine also needs `diskii_p6.rom`, and all but the //c models need `disk2.rom`. RetroBat copies the ROMs from `bios\pom2` into the POM2 folder and shows the name of the missing file when a ROM is not found.
 
-### Which game format?
+## Which game format?
 
 <table><thead><tr><th width="209">Format</th><th>Notes</th></tr></thead><tbody><tr><td><strong>.woz</strong></td><td>Faithful copy of the floppy, copy protection included. The safest format for protected games.</td></tr><tr><td><strong>.dsk</strong>, <strong>.do</strong>, <strong>.po</strong></td><td>5.25-inch floppy images (DOS 3.3 or ProDOS order).</td></tr><tr><td><strong>.nib</strong></td><td>"Nibble" 5.25-inch floppy image.</td></tr><tr><td><strong>.hdv</strong></td><td>ProDOS hard disk image.</td></tr><tr><td><strong>.m3u</strong></td><td>List of the disks of a multi-disk game.</td></tr><tr><td><strong>.zip</strong></td><td>Only POM2 and MAME read archives.</td></tr></tbody></table>
 
-### Controls
+## Controls
 
-#### Setup per emulator
+### Setup per emulator
 
 The Apple II is mostly played with the keyboard. To play with a controller, create a **PadToKey** profile (see the [**PadToKey**](../../../../controllers/pad2key.md) page). The Apple II game port takes a two-button analog joystick, or two paddles.
 
@@ -62,17 +62,19 @@ The Apple II is mostly played with the keyboard. To play with a controller, crea
 * **BizHawk**: Apple //e keyboard only.
 * **MAME, mame core**: **CONTROLS > JOYSTICK TYPE** (Apple, Sirius / Atari for the Apple II Plus, Gizmo).
 
-#### Hotkeys
+### Hotkeys
 
-**libretro cores, Mednafen, BizHawk, MAME**: RetroBat default hotkeys (save, load, screenshot…). For more details, see the [**Hotkeys**](../../../../navigation/hotkeys.md) page.
+#### **libretro cores, Mednafen, BizHawk, MAME**
 
-**AppleWin, POM2**
+RetroBat default hotkeys (save, load, screenshot…). For more details, see the [**Hotkeys**](../../../../navigation/hotkeys.md) page.
+
+#### **AppleWin, POM2**
 
 <table><thead><tr><th width="274">Hotkey</th><th>Action</th></tr></thead><tbody><tr><td><strong>HOTKEY + START</strong></td><td>Quit</td></tr></tbody></table>
 
 AppleWin keeps its own keyboard keys: `F11` / `F12` save and load a snapshot (not managed by RetroBat).
 
-### Writing to floppy disks
+## Writing to floppy disks
 
 Many Apple II games save your progress directly on their floppy. RetroBat never changes the files in `roms\apple2`. The **EMULATION > ALLOW GAMES TO WRITE TO DISK IMAGES** option (AppleWin, applewin core, POM2, Mednafen, BizHawk) decides what happens:
 
@@ -80,7 +82,7 @@ Many Apple II games save your progress directly on their floppy. RetroBat never 
 
 Mednafen and BizHawk keep the changes in their own files instead of a copy of the floppy: the reset sets them aside the same way.
 
-### Folders
+## Folders
 
 | Content                                       | Folder                                                   |
 | --------------------------------------------- | -------------------------------------------------------- |
@@ -97,9 +99,9 @@ Mednafen and BizHawk keep the changes in their own files instead of a copy of th
 | BizHawk: save states                          | `saves\apple2\bizhawk\sstates\AppleII`                   |
 | MAME software lists                           | `bios\mame\hash`                                         |
 
-### Guides
+## Guides
 
-#### Multi-disk games
+### Multi-disk games
 
 Create a `.m3u` file in `roms\apple2`, with one line per floppy, in order:
 
@@ -112,18 +114,18 @@ Ultima IV (Disk 2).woz
 * **applewin core**: swap disks with the RetroArch hotkeys; **EMULATION > USE BOTH FLOPPY DRIVES** loads the first two in drives 1 and 2, **M3U START DISK** resumes from the last disk used.
 * **POM2** mounts a single disk: **EMULATION > DISC NUMBER (M3U)** picks the one to boot, the others are swapped from the game menu.
 
-#### European demos (50 Hz)
+### European demos (50 Hz)
 
 Some demos and a few European programs were written for a PAL Apple //e. Pick a PAL model in POM2 (**EMULATION > MACHINE TYPE**), or set **EMULATION > VIDEO REFRESH RATE** to 50 Hz with the applewin core.
 
-#### Hard disks (.hdv)
+### Hard disks (.hdv)
 
 AppleWin and the applewin core read `.hdv` files through the slot 7 hard disk controller (enabled by default). With MAME and the mame core, add `a2cffa2.zip` to `bios` and choose **EMULATION > FORCE MEDIA TYPE > Hard Drive Image**: RetroBat then installs the CFFA 2.0 card in slot 7.
 
-#### Other useful options
+### Other useful options
 
 <table><thead><tr><th width="355.25">Option</th><th>Effect</th></tr></thead><tbody><tr><td><strong>EMULATION > MACHINE TYPE</strong></td><td>Apple II model (AppleWin, applewin core, POM2).</td></tr><tr><td><strong>VISUAL RENDERING > SCREEN TYPE</strong></td><td>RGB color, composite (period color bleeding), TV, or green / amber / white monochrome monitor.</td></tr><tr><td><strong>VISUAL RENDERING > SCANLINES</strong> (applewin core), <strong>CRT EFFECTS</strong> (POM2)</td><td>Look of a cathode-ray tube.</td></tr><tr><td><strong>EXPANSION SLOTS > SLOT 4</strong> (applewin core), <strong>SLOT 4 SOUND CARD</strong> (POM2)</td><td>Mockingboard sound card (default), Phasor, mouse card…</td></tr><tr><td><strong>EMULATION > DISK TURBO</strong> (POM2)</td><td>Much faster loading.</td></tr><tr><td><strong>EMULATION > CHARACTER ROM</strong> (POM2)</td><td>French, British, German… character set.</td></tr></tbody></table>
 
-### Known issues
+## Known issues
 
 <table><thead><tr><th width="347.75">Issue</th><th>Solution</th></tr></thead><tbody><tr><td>The game shows a write error or does not keep progress</td><td>Enable <strong>EMULATION > ALLOW GAMES TO WRITE TO DISK IMAGES</strong>.</td></tr><tr><td>A <code>.zip</code> does not start with AppleWin, Mednafen or BizHawk</td><td>These emulators cannot read archives: unzip the game, or use POM2.</td></tr><tr><td>POM2 says "Missing POM2 ROM"</td><td>Add the listed ROM to <code>bios\pom2</code>.</td></tr><tr><td>A protected game does not boot</td><td>Use the <code>.woz</code> version of the game.</td></tr><tr><td>The game does not react to the controller</td><td>Create a PadToKey profile, or check the emulator's joystick type.</td></tr></tbody></table>
