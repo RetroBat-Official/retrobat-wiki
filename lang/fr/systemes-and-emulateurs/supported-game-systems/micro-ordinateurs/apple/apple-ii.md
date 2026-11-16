@@ -32,7 +32,7 @@ RetroBat propose sept émulateurs : **AppleWin** (par défaut), **POM2**, **Medn
 
 Les listes logicielles MAME (`apple2_cass.xml`, `apple2_flop_clcracked.xml`, `apple2_flop_misc.xml`, `apple2_flop_orig.xml`) vont dans `bios\mame\hash`.
 
-**ROM POM2** (noms de POM2) :
+#### **ROM POM2** (noms de POM2) :
 
 <table><thead><tr><th width="198.25">Machine</th><th>ROM système</th><th>ROM de caractères</th></tr></thead><tbody><tr><td>Apple //e Enhanced (défaut)</td><td><code>apple2e.rom</code></td><td><code>apple2e_char.rom</code></td></tr><tr><td>Apple ][</td><td><code>apple2o.rom</code> ou <code>apple2.rom</code></td><td><code>apple2_char.rom</code></td></tr><tr><td>Apple ][+</td><td><code>apple2p.rom</code> ou <code>apple2.rom</code></td><td><code>apple2_char.rom</code></td></tr><tr><td>Apple //e Unenhanced</td><td><code>apple2e_unenh.rom</code> ou <code>342-0135-b.64.rom</code></td><td><code>apple2e_char_2k.rom</code> ou <code>342-0133-a.chr.rom</code></td></tr><tr><td>Apple //c</td><td><code>apple2c-32Kv0.rom</code>, <code>apple2c-16K.rom</code> ou <code>3420033a.256</code></td><td><code>apple2e_char.rom</code></td></tr><tr><td>Apple //c Plus</td><td><code>apple2cp.rom</code> ou <code>apple2c-plus.rom</code></td><td><code>apple2e_char.rom</code></td></tr></tbody></table>
 

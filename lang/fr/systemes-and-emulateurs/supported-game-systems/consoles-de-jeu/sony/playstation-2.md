@@ -143,7 +143,7 @@ Dans les options, sous-menu **CONTRÔLES** :
 
 <table><thead><tr><th width="285.25">Option</th><th>Utilité</th></tr></thead><tbody><tr><td>ADAPTATEUR MULTIJOUEURS</td><td>Force le multitap sur le port 1, le port 2 ou les deux. Sinon, c'est automatique.</td></tr><tr><td>UTILISER LES GÂCHETTES POUR LES JEUX DE COURSE</td><td>Jeux de course (Gran Turismo…) : les gâchettes analogiques sont associées à □/✕ ou à un stick, pour une accélération progressive. Réglez ensuite l'accélération et le frein sur ces boutons dans les options du jeu.</td></tr><tr><td>BOUTON MODIFICATEUR DE PRESSION</td><td>Les boutons de la PS2 sont sensibles à la pression, et certains jeux s'en servent (Metal Gear Solid 2 et 3 : viser sans tirer). Maintenir le bouton de stick choisi rend les appuis suivants « légers ». <strong>VALEUR DU MODIFICATEUR DE PRESSION</strong> règle la force.</td></tr><tr><td>UTILISER LE STICK GAUCHE COMME D-PAD</td><td>Déplacement au stick gauche dans les jeux qui n'utilisent que la croix.</td></tr><tr><td>ZONE MORTE JOYSTICK / SENSIBILITÉ ANALOGIQUE / ZONE MORTE DES GÂCHETTES</td><td>Réglages fins des sticks et des gâchettes.</td></tr><tr><td>PUISSANCE DES VIBRATIONS</td><td>Force des vibrations.</td></tr><tr><td>UTILISER UNE GUITARE</td><td>Guitar Hero / Rock Band : utilise une guitare compatible (CRKD Guitar XP).</td></tr></tbody></table>
 
-#### Schémas alternatifs:
+### Schémas alternatifs:
 
 Afin de pouvoir utiliser les gâchettes analogiques pour les jeux de course, il est possible d'utiliser un des schémas de contrôles alternatifs en activant cette option:
 

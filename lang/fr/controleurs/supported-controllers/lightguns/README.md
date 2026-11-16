@@ -131,7 +131,7 @@ Pour certains émulateurs standalone, la bordure est dessinée avec ReShade : ch
 
 Keisho, Model3-Vulkan, Odin et ArcadeDuck dessinent eux-mêmes la bordure quand un Sinden est détecté. Pour les trois premiers, réglez son épaisseur avec **TAILLE DE LA BORDURE SINDEN** dans les options **PISTOLETS** de l'émulateur.
 
-### WiiMote
+## WiiMote
 
 <div align="left"><figure><img src="../../../.gitbook/assets/image (356).png" alt=""><figcaption></figcaption></figure></div>
 

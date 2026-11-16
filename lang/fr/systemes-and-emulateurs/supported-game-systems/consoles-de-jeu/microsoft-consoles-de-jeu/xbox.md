@@ -18,8 +18,6 @@ RetroBat propose trois émulateurs : **xemu**, qui reproduit le matériel de la 
 
 ## En bref
 
-### En bref
-
 <table><thead><tr><th width="274"></th><th></th></tr></thead><tbody><tr><td><strong>Dossier des jeux</strong></td><td><code>roms\xbox</code></td></tr><tr><td><strong>Extensions</strong></td><td>.xbe .iso .chd .decomp</td></tr><tr><td><strong>Émulateur par défaut</strong></td><td>xemu</td></tr><tr><td><strong>BIOS</strong></td><td><code>mcpx_1.0.bin</code> et <code>Complex_4627.bin</code> (xemu uniquement)</td></tr><tr><td><strong>Configuration des manettes</strong></td><td>Automatique, tous les émulateurs</td></tr><tr><td><strong>Sauvegardes instantanées</strong></td><td>xbased (xemu : snapshots depuis son menu)</td></tr><tr><td><strong>RetroAchievements</strong></td><td>Non</td></tr><tr><td><strong>Jeu en réseau</strong></td><td>Non</td></tr><tr><td><strong>Pistolets</strong></td><td>cxbx</td></tr><tr><td><strong>BIOS optionnels</strong></td><td><code>Cerbios.bin</code>, <code>Complex_4627v1.03.bin</code> (xemu, option FORCER LE FIRMWARE)</td></tr></tbody></table>
 
 ## Quel émulateur choisir ?

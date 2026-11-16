@@ -132,7 +132,7 @@ Pour modifier le mapping d'un jeu, **copiez le fichier dans `user\inputmapping`*
 
 Guides détaillés : [Configuration des touches par émulateur](../controleurs/configuration-des-touches-specifique-par-emulateur/)
 
-### Liens et références
+## Liens et références
 
 {% hint style="info" %}
 **Crédits**

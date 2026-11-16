@@ -2,7 +2,7 @@
 
 Si vous ne souhaitez pas utiliser la configuration globale de RetroBat pour les options générales de RetroArch ou si vous souhaitez régler vous-même les Shaders, cela est possible en activant les options de RetroBat permettant de charger automatiquement les fichiers "overrides" préalablement créés dans RetroArch.
 
-### Override pour les options
+## Override pour les options
 
 Vous pouvez enregistrer un fichier d'override pour un jeu, un dossier de contenu ou un core libretro depuis le menu rapide de RetroArch.
 
@@ -36,7 +36,7 @@ Les overrides sont enregistrés dans `emulators\retroarch\config\<nom du core>\`
 RetroBat retire des fichiers d'override les réglages des manettes et des raccourcis, pour qu'ils ne remplacent pas la configuration automatique des manettes de RetroBat.
 {% endhint %}
 
-### Override pour les shaders
+## Override pour les shaders
 
 Vous pouvez enregistrer un preset de shaders pour un jeu, un dossier de contenu, un core ou pour tout (global) depuis le menu rapide de RetroArch.
 
@@ -64,7 +64,7 @@ Enfin, activer l'option d'override de shaders dans RetroBat dans le [**menu prin
 
 <div align="left"><figure><img src="https://i.imgur.com/sZ7eHGG.png" alt=""><figcaption></figcaption></figure></div>
 
-### Override du format d'affichage personnalisé dans RetroArch <a href="#override-pour-les-options-2" id="override-pour-les-options-2"></a>
+## Override du format d'affichage personnalisé dans RetroArch <a href="#override-pour-les-options-2" id="override-pour-les-options-2"></a>
 
 Lorsque vous souhaitez utiliser le format d'affichage "personnalisé" dans **CONFIGURATION AVANCÉE DU SYSTÈME > RAPPORT D'ASPECT**, il est possible d'appliquer la valeur du ration a appliquer dans RetroArch en créant un fichier .txt contenant les informations suivantes :&#x20;
 
