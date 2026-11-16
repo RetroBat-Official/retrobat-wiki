@@ -45,6 +45,7 @@ cdimono1.zip
 - zx405042p__cdi_slave_2.0__b43t__zzmk9213.mc68hc705c8a_withtestrom.7206 "3d20cf7550f1b723158b42a1fd5bac62"
 
 vmpega.rom "53ba3bf7443187a657baa272d01d3771"
+impega.rom "05130da2e9fbb72d6e761534973d09fc"
 
 ```
 
@@ -74,7 +75,7 @@ Avec le core mame et MAME, la manette n'est pas configurée par RetroBat : utili
 ### Souris et deuxième joueur
 
 * **Core zcdi** : **CONTRÔLES > TYPE DE CONTRÔLEUR JOUEUR 1** : manette (par défaut) ou souris. **TYPE DE CONTRÔLEUR JOUEUR 2** : aucun, manette ou souris ; une deuxième manette est utilisée automatiquement si elle est branchée.
-* **OpenCDi** : **CONTRÔLES > PÉRIPHÉRIQUE DE POINTAGE** : manette (la manette et le clavier déplacent le curseur) ou souris (la souris du PC déplace le curseur, la manette ne garde que ses boutons). **HOTKEY + L3** change de mode en jeu. **SENSIBILITÉ DE LA SOURIS** règle la vitesse du curseur.
+* **OpenCDi** : **CONTRÔLES > PÉRIPHÉRIQUE DE POINTAGE** : manette (la manette et le clavier déplacent le curseur) ou souris (la souris du PC déplace le curseur, la manette ne garde que ses boutons). **HOTKEY + L3** change de mode en jeu. **SENSIBILITÉ DE LA SOURIS** règle la vitesse du curseur (100 % par défaut).
 
 ### Pistolets
 
@@ -99,7 +100,7 @@ Le core zcdi émule le pistolet **Peacekeeper** sur le port 1 (jeux d'American L
 Les jeux en vidéo réelle (**Dragon's Lair**, **Space Ace**, **Mad Dog McCree**, **Who Shot Johnny Rock?**, **Burn:Cycle**…) et les Vidéo CD demandent la Digital Video Cartridge. Seuls **zcdi** et **OpenCDi** l'émulent, avec le fichier `vmpega.rom` dans `bios` :
 
 * **zcdi** l'utilise automatiquement quand le fichier est présent ;
-* **OpenCDi** le cherche aussi dans `cdimono1.zip` ; **ÉMULATION > CARTOUCHE VIDÉO NUMÉRIQUE (DVC)** permet de la retirer.
+* **OpenCDi** le cherche aussi dans `cdimono1.zip` ; avec le BIOS du CD-i 490 (`cdi490a.rom`), il lui faut `impega.rom` à la place. **ÉMULATION > CARTOUCHE VIDÉO NUMÉRIQUE (DVC)** permet de la retirer.
 
 Avec same\_cdi, le core mame et MAME, ces jeux ne démarrent pas : choisissez zcdi ou OpenCDi pour eux.
 

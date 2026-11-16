@@ -64,7 +64,9 @@ La liste des jeux au volant est dans le fichier `emulationstation\resources\game
 
 TeknoParrot et Linuxloader ont aussi un mappage pour de nombreux autres volants (Logitech G Pro, Thrustmaster T150 / TMX / T248 / T300RS PS4 / T500RS / TX / TS-XW, Fanatec, Moza R9 / R12 / R16, Simucube, Simagic, Asetek, Cammus, PXN V9) et un mappage `default` utilisé pour les autres volants détectés.
 
-Supermodel, Model3-Vulkan et Odin utilisent le même fichier `model3_wheels.yml`. Model3-Vulkan et Odin lisent d'abord `model3vulkan_wheels.yml` / `odin_wheels.yml` s'il existe (non fournis par RetroBat).
+Supermodel, Model3-Vulkan et Odin utilisent le même fichier `model3_wheels.yml`. \
+Model3-Vulkan et Odin lisent d'abord `model3vulkan_wheels.yml` / `odin_wheels.yml` s'il existe (non fournis par RetroBat).\
+Avec un volant configuré par RetroBat, Model3-Vulkan désactive le lissage et la sensibilité de la direction prévus pour la manette : la direction suit le volant sans filtre.
 
 {% hint style="info" %}
 **Thrustmaster T300RS** : réglez les pédales en mode **séparé** (split) dans le Thrustmaster Control Panel, et vérifiez qu'elles ne sont pas inversées (corrigé en maintenant **MODE + L3 + R3**).
