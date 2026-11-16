@@ -4,29 +4,37 @@ description: Sega
 
 # Sega NAOMI 2
 
-<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/naomi2-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/naomi2.svg" alt=""></picture><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (602).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-Arcade - Released: 2000&#x20;
+## Overview
+
+The **NAOMI 2** is the more powerful version of the NAOMI, released by Sega in 2000. It doubles the processors and graphics chips (two SH-4, two PowerVR2) and adds a geometry processor, the Elan, for much richer 3D scenes. Its games come on cartridges or GD-ROM. Its library is short but memorable, including racing games linked over a network.
+
+Its games include **Virtua Fighter 4** (and Evolution, Final Tuned), **Initial D Arcade Stage** (1 to 3), **Beach Spikers**, **Club Kart**, **Wild Riders**, **Soul Surfer**, **The King of Route 66** and **Virtua Striker 3**.
+
+RetroBat offers three emulators: the **flycast** libretro core (default), standalone **Flycast** and **Demul**.
 
 {% embed url="https://en.wikipedia.org/wiki/Sega_NAOMI" %}
 
-## Information
+## At a glance
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: flycast</li><li>flycast</li><li>demul</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> naomi2</td></tr><tr><td><strong>File extension</strong></td><td>.zip .7z .decomp</td></tr></tbody></table>
+<table><thead><tr><th width="211.5"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\naomi2</code></td></tr><tr><td><strong>Extensions</strong></td><td>.zip .7z .decomp</td></tr><tr><td><strong>Default emulator</strong></td><td>libretro: flycast</td></tr><tr><td><strong>BIOS</strong></td><td><code>naomi2.zip</code> in <code>bios\dc</code></td></tr><tr><td><strong>Controller setup</strong></td><td>Automatic, every emulator (per-game mapping for the flycast cores)</td></tr><tr><td><strong>Save states</strong></td><td>flycast core, Flycast (managed by RetroBat); Demul through hotkeys</td></tr><tr><td><strong>RetroAchievements</strong></td><td>No</td></tr><tr><td><strong>Netplay</strong></td><td>No (Flycast: GGPO and NAOMI network, specific to the emulator)</td></tr><tr><td><strong>Light guns</strong></td><td>—</td></tr><tr><td><strong>Wheels</strong></td><td>Flycast</td></tr><tr><td><strong>Optional BIOS</strong></td><td>—</td></tr></tbody></table>
 
-## System Features
+## Which emulator should I use?
 
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-flycast: YES<br>Flycast: YES<br>Demul: NO</td><td>NO</td><td>lr-flycast: YES<br>Flycast: YES<br>Demul: YES</td></tr></tbody></table>
+<table><thead><tr><th width="165.75">Emulator</th><th>Strengths</th><th>Limitations</th></tr></thead><tbody><tr><td><strong>libretro: flycast</strong> (default)</td><td>Very good compatibility, buttons placed as on the cabinet for each game, save states, RetroArch shaders and hotkeys.</td><td>No mapping file supplied for wheels.</td></tr><tr><td><strong>flycast</strong></td><td>Same base as the core, with its own menus. Per-game mapping, save states, wheels (Initial D, Club Kart, The King of Route 66, Wild Riders), GGPO online play and NAOMI network (linked cabinets).</td><td>—</td></tr><tr><td><strong>demul</strong></td><td>Long-standing emulator, also used for NAOMI and Atomiswave.</td><td>Lower compatibility. Same button layout for every game. Save states not managed by RetroBat.</td></tr></tbody></table>
 
-## Bios Information
+## BIOS
 
-<table><thead><tr><th width="160.55555555555557">bios file</th><th width="155">Folder</th><th>md5</th></tr></thead><tbody><tr><td>naomi2.zip</td><td><code>\bios\dc</code></td><td>See below</td></tr></tbody></table>
+| File         | Folder    | Used by                    |
+| ------------ | --------- | -------------------------- |
+| `naomi2.zip` | `bios\dc` | Every game, every emulator |
 
-{% hint style="info" %}
-For Flycast standalone, BIOS file must be placed in `emulators\flycast\data` folder.
-{% endhint %}
+`naomi2.zip` is the NAOMI 2 BIOS in MAME format, different from the NAOMI one. The flycast core and standalone Flycast both look for it in `bios\dc`; Demul finds it in `bios\dc`, `bios` or the games folder. Its content depends on the MAME version.
 
-### Content of BIOS file
+<details>
+
+<summary>Content of naomi2.zip</summary>
 
 ```
 naomi2.zip
@@ -53,36 +61,102 @@ naomi2.zip
 - x76f100_eeprom.bin "960ece0dc22a7c5ff81c812a2993e7cc"
 ```
 
+</details>
+
+## Which game format?
+
+<table><thead><tr><th width="136.5">Format</th><th>Notes</th></tr></thead><tbody><tr><td><strong>.zip</strong>, <strong>.7z</strong></td><td>MAME format games, to keep as they are, neither unzipped nor renamed (<code>vf4.zip</code>, <code>initdv3e.zip</code>, <code>clubkrt.zip</code>…). Clones need the parent game in the same folder. GD-ROM games also have a <code>.chd</code> file (see <a href="sega-naomi-2.md#gd-rom-games-chd-files"><strong>Guides</strong></a>).</td></tr><tr><td><strong>.decomp</strong></td><td>PC port, see the <a href="../../others/recomp.md"><strong>Recompilations</strong></a> page.</td></tr></tbody></table>
+
 ## Controls
 
-{% hint style="danger" %}
-In construction : default RetroArch mapping.
-{% endhint %}
+### Automatic setup
 
-## Specific system information
+RetroBat sets up the controllers for the three emulators. The controls shared by every game:
 
-### CHD files
+<table><thead><tr><th width="177.75">Cabinet</th><th>Controller</th></tr></thead><tbody><tr><td>Joystick</td><td>D-pad, left stick</td></tr><tr><td>Start</td><td>START</td></tr><tr><td>Coin</td><td>SELECT</td></tr><tr><td>Test</td><td>R3 (with the service menu enabled, see <a href="sega-naomi-2.md#service-menu-and-test-menu"><strong>Guides</strong></a>)</td></tr><tr><td>Service</td><td>L3 (with the service menu enabled, see <a href="sega-naomi-2.md#service-menu-and-test-menu"><strong>Guides</strong></a>)</td></tr></tbody></table>
 
-Some NAOMI2 boards use just ZIP ROMs to run, but most others use a CHD files in addition to the .zip file.
+* **flycast core** and **Flycast**: the position of the action buttons is defined game by game, to match the cabinet layout. The files used are `libretro_flycast_naomi2.yml` (core) and `flycast_Arcade.yml` (Flycast), see the [**Emulator specific controller configuration**](../../../../controllers/controller-configuration.md#adapting-the-controls-without-disabling-autoconfiguration) page. **CONTROLS > CONTROLLER LAYOUT** picks another layout when the file offers one.
+* **Flycast**: **CONTROLS > USE DPAD** moves the analog controls to the d-pad.
+* **Demul**: same layout for every game: buttons 1 to 4 on SOUTH, EAST, WEST, NORTH, buttons 5 to 8 on L1, R1, L2, R2.
 
-CHD files must be placed in your rom folder, along the zip file, in a folder named exactly as the .zip file.
+### Wheels
+
+Flycast supports wheels (**WHEELS > ENABLE WHEEL**) for **Initial D**, **Club Kart**, **The King of Route 66**, **Wild Riders** and **Sega Driving Simulator**. **WHEELS > WHEEL BUTTON LAYOUT** adapts the buttons to the game: gears on A / B for Initial D, reverse on X for The King of Route 66. The flycast core also supports wheels, but RetroBat does not supply its mapping file yet. For the supported wheels, see the [**Wheels**](../../../../controllers/supported-controllers/wheels.md) page.
+
+### Hotkeys
+
+The flycast core uses the standard RetroArch hotkeys (see the [**Hotkeys**](../../../../navigation/hotkeys.md) page).
+
+**Flycast**
+
+| Hotkey             | Action              | Keyboard |
+| ------------------ | ------------------- | -------- |
+| **HOTKEY + START** | Quit                | Esc      |
+| **HOTKEY + SOUTH** | Flycast menu        | F1       |
+| **HOTKEY + WEST**  | Save state          | F2       |
+| **HOTKEY + NORTH** | Load state          | F4       |
+| **HOTKEY + RIGHT** | Fast forward (hold) | L        |
+| **HOTKEY + R3**    | Screenshot          | F8       |
+
+**Demul**
+
+| Hotkey             | Action           | Keyboard |
+| ------------------ | ---------------- | -------- |
+| **HOTKEY + START** | Quit             |          |
+| **HOTKEY + WEST**  | Demul save state | F2       |
+| **HOTKEY + NORTH** | Demul load state | F4       |
+
+Demul save states stay in Demul: they do not show up in the save state manager.
+
+## Folders
+
+| Content                                  | Folder                                                                     |
+| ---------------------------------------- | -------------------------------------------------------------------------- |
+| BIOS                                     | `bios\dc`                                                                  |
+| flycast core: save states                | `saves\naomi2\libretro.flycast`                                            |
+| Flycast: game saves (NVRAM, EEPROM)      | `saves\naomi2\reicast`                                                     |
+| Flycast: save states                     | `saves\naomi2\flycast\sstates` (copied from `saves\naomi2\reicast\states`) |
+| Flycast: configuration                   | `emulators\flycast\emu.cfg`                                                |
+| Demul: game saves (NVRAM)                | `saves\naomi2\demul`                                                       |
+| Demul: configuration                     | `emulators\demul\Demul.ini`, `emulators\demul\padDemul.ini`                |
+| Per-game mapping (flycast core, Flycast) | `system\resources\inputmapping` (editable copy in `user\inputmapping`)     |
+
+## Guides
+
+### GD-ROM games (CHD files)
+
+GD-ROM games (**Virtua Fighter 4**, **Initial D**…) need, on top of their `.zip`, the disc image in `.chd` format. Place the `.chd` in a folder named after the `.zip`, without renaming either of them:
 
 ```
 roms\
-└─ naomi\
-   ├─ vtennis2\
-   │  └─ gds-0015a.chd
-   └─ vtennis2.zip
+└─ naomi2\
+   ├─ vf4tuned\
+   │  └─ gds-0036f.chd
+   └─ vf4tuned.zip
 ```
 
-### Service Menu
+Only the `.zip` shows up in the game list.
 
-Some games have a per-game menu for accessing the machine's advanced configuration such as its dip switches, service mode and diagnostic input.
+### Service menu and test menu
 
-To access the service menu for NAOMI2 games, you need first to enable the Service Mode from the RetroBat advanced menu (set it to YES):
+The cabinet test menu sets the number of credits, the difficulty, the number of rounds, and checks the controls.
 
-<div align="left"><figure><img src="https://i.imgur.com/ztsYbF4.png" alt=""><figcaption></figcaption></figure></div>
+1. Enable **EMULATION > SERVICE MODE** (flycast core) or **EMULATION > ENABLE SERVICE MENU** (Flycast). With Demul, the buttons are always active.
+2. In game, press **R3** (Test) to open the menu, then browse with the cabinet buttons. **L3** (Service) adds a service credit.
 
-<div align="left"><figure><img src="https://i.imgur.com/FcFsHjG.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (603).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-Once done, you will be able access the per-game Service Menu by pressing L3 + R3 buttons on the controller.
+### Free play and region
+
+* **EMULATION > FREE PLAY** (flycast core, Flycast, on by default) sets the game without coins: START is enough to play. When off, add credits with **SELECT**.
+* **EMULATION > REGION** (flycast core) picks the cabinet region (Japan, USA, Europe): it changes the language and sometimes the game content.
+
+These settings are written to the cabinet memory at launch. If a game keeps the former setting, change it in its test menu too.
+
+### Other useful options
+
+<table><thead><tr><th width="320.25">Option</th><th>Effect</th></tr></thead><tbody><tr><td><strong>INTERNAL RESOLUTION</strong></td><td>Raises the rendering resolution (the three emulators).</td></tr><tr><td><strong>GAME ASPECT RATIO</strong></td><td>Flycast, Demul: 4:3, 16:9 or stretched.</td></tr><tr><td><strong>VISUAL RENDERING > WIDESCREEN PATCHES</strong> / <strong>WIDESCREEN HACK</strong></td><td>16:9 display: the patches fix compatible games, the hack stretches the picture of every game (with glitches).</td></tr><tr><td><strong>NETWORK > NETWORK TYPE</strong> (Flycast)</td><td>GGPO for online fighting games, or <strong>NAOMI</strong> to link several cabinets (Club Kart, Initial D, The King of Route 66); <strong>HOST GAME</strong> and <strong>SERVER</strong> tell who hosts.</td></tr><tr><td><strong>NETWORK > BROADCAST DIGITAL OUTPUTS</strong></td><td>Sends the cabinet outputs (lamps…) to MameHooker (flycast core, Flycast).</td></tr></tbody></table>
+
+## Known issues
+
+<table><thead><tr><th width="332.75">Issue</th><th>Solution</th></tr></thead><tbody><tr><td>The game does not start</td><td>Check <code>naomi2.zip</code> in <code>bios\dc</code> (<code>naomi.zip</code> does not fit), and the parent game for a clone.</td></tr><tr><td>A GD-ROM game does not start</td><td>Check the <code>.chd</code> in the folder named after the <code>.zip</code> (see <a href="sega-naomi-2.md#gd-rom-games-chd-files"><strong>Guides</strong></a>).</td></tr><tr><td>The game is slow or badly displayed with Demul</td><td>Use the flycast core or Flycast, more compatible for NAOMI 2.</td></tr><tr><td>The buttons are not in the right place</td><td>With Demul, the layout is the same for every game: use the flycast core or Flycast.</td></tr></tbody></table>
