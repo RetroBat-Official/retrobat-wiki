@@ -173,7 +173,7 @@ Dans `controller_hotkeys.yml`, chaque ligne s'écrit `bouton: action`.
 <table><thead><tr><th width="272.75">Nom du bouton</th><th>Bouton</th></tr></thead><tbody><tr><td><code>a</code></td><td>Sud</td></tr><tr><td><code>x</code></td><td>Nord</td></tr><tr><td><code>y</code></td><td>Ouest</td></tr><tr><td><code>start</code></td><td>START</td></tr><tr><td><code>pageup</code> / <code>pagedown</code></td><td>L1 / R1</td></tr><tr><td><code>l2</code> / <code>r2</code></td><td>L2 / R2</td></tr><tr><td><code>l3</code> / <code>r3</code></td><td>Clic stick gauche / droit</td></tr><tr><td><code>up</code> / <code>down</code> / <code>left</code> / <code>right</code></td><td>Croix directionnelle</td></tr></tbody></table>
 
 {% hint style="info" %}
-Le bouton `b` (Est) ne peut pas être utilisé : HOTKEY + Est est réservé au Game Control Center.
+Le bouton `b` (EST) est réservé au Game Control Center : il n'est utilisable que si vous activez **DÉSACTIVER LE GAME CONTROL CENTER** (voir [Game Control Center](game-control-center.md)).
 {% endhint %}
 
 | Nom de l'action                               | Action                                         |

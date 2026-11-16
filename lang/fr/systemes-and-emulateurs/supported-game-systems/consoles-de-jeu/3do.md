@@ -6,7 +6,7 @@ description: The 3do Company
 
 <div align="left"><figure><img src="../../../.gitbook/assets/image (611).png" alt=""><figcaption></figcaption></figure></div>
 
-### Présentation
+## Présentation
 
 La **3DO Interactive Multiplayer** est une console de salon sortie en 1993. The 3DO Company, fondée par Trip Hawkins (créateur d'Electronic Arts), ne la fabrique pas elle-même : elle vend une licence à des constructeurs, comme Panasonic (FZ-1, FZ-10), Goldstar ou Sanyo. Elle repose sur un processeur ARM60 à 12,5 MHz et lit ses jeux sur CD-ROM. Vendue cher, elle disparaît en 1996.
 
@@ -16,15 +16,15 @@ RetroBat propose deux émulateurs : le core libretro **opera** (par défaut) et 
 
 {% embed url="https://fr.wikipedia.org/wiki/3DO_Interactive_Multiplayer" %}
 
-### En bref
+## En bref
 
 <table><thead><tr><th width="270.25"></th><th></th></tr></thead><tbody><tr><td><strong>Dossier des jeux</strong></td><td><code>roms\3do</code></td></tr><tr><td><strong>Extensions</strong></td><td>.cue .iso .chd</td></tr><tr><td><strong>Émulateur par défaut</strong></td><td>libretro: opera</td></tr><tr><td><strong>BIOS</strong></td><td>Aucun obligatoire (BIOS intégré au core opera)</td></tr><tr><td><strong>Configuration des manettes</strong></td><td>Automatique, tous les émulateurs</td></tr><tr><td><strong>Sauvegardes instantanées</strong></td><td>core libretro</td></tr><tr><td><strong>RetroAchievements</strong></td><td>core libretro</td></tr><tr><td><strong>Jeu en réseau</strong></td><td>core libretro</td></tr><tr><td><strong>Pistolets</strong></td><td>core libretro (jusqu'à 4)</td></tr><tr><td><strong>BIOS optionnels</strong></td><td>BIOS des consoles (<code>panafz1.bin</code>, <code>panafz10.bin</code>…) et ROM Kanji dans <code>bios</code> ; <code>panafz10.bin</code> nécessaire à Phoenix</td></tr></tbody></table>
 
-### Quel émulateur choisir ?
+## Quel émulateur choisir ?
 
 <table><thead><tr><th width="162">Émulateur</th><th>Points forts</th><th>Limites</th></tr></thead><tbody><tr><td><strong>libretro: opera</strong> (défaut)</td><td>Fonctionne sans BIOS, sauvegardes instantanées, RetroAchievements, jeu en réseau, pistolets, souris et manche de vol, shaders et raccourcis de RetroArch.</td><td>—</td></tr><tr><td><strong>phoenix</strong></td><td>Émulateur autonome, plusieurs moteurs de rendu.</td><td>Demande <code>panafz10.bin</code>. Pas de sauvegardes instantanées gérées par RetroBat, pas de pistolets.</td></tr></tbody></table>
 
-### BIOS
+## BIOS
 
 Le core opera intègre **Opera Boot**, un BIOS libre : aucun fichier n'est nécessaire.
 
@@ -40,15 +40,15 @@ Certains jeux japonais ont aussi besoin d'une ROM de police Kanji, à choisir av
 
 Tous ces fichiers vont dans `bios`.
 
-### Quel format de jeu ?
+## Quel format de jeu ?
 
 <table><thead><tr><th width="162.75">Format</th><th>Remarques</th></tr></thead><tbody><tr><td><strong>.cue</strong> / <strong>.bin</strong></td><td>Format le plus courant. Gardez le <code>.cue</code> et ses <code>.bin</code> ensemble.</td></tr><tr><td><strong>.iso</strong></td><td>Image d'une seule piste.</td></tr><tr><td><strong>.chd</strong></td><td>Format compressé, recommandé pour gagner de la place.</td></tr></tbody></table>
 
 Le core opera ne gère pas les `.m3u` : chaque disque d'un jeu sur plusieurs disques se lance séparément (voir [**Jeux sur plusieurs disques**](3do.md#jeux-sur-plusieurs-disques) plus bas).
 
-### Contrôles
+## Contrôles
 
-#### Configuration automatique
+### Configuration automatique
 
 RetroBat configure automatiquement les manettes pour les deux émulateurs. L'option **AUTOCONFIGURER LES MANETTES** permet de garder sa propre configuration.
 
@@ -58,7 +58,7 @@ RetroBat configure automatiquement les manettes pour les deux émulateurs. L'opt
 
 Avec Phoenix, les directions sont sur le stick gauche ; activez **CONTRÔLES > UTILISER PAD DIRECTIONNEL** pour jouer avec la croix.
 
-#### Core opera : périphériques
+### Core opera : périphériques
 
 Le menu **CONTRÔLES** choisit le périphérique de chaque joueur avec **TYPE DE CONTRÔLEUR JOUEUR 1** (à 4) :
 
@@ -69,11 +69,11 @@ Le menu **CONTRÔLES** choisit le périphérique de chaque joueur avec **TYPE DE
 
 **NOMBRE DE CONTRÔLEURS CONNECTÉS** fixe le nombre de périphériques vus par la console (1 par défaut) : certains jeux plantent quand plusieurs périphériques sont branchés.
 
-#### Manettes six boutons
+### Manettes six boutons
 
 Avec une manette de type Mega Drive (8BitDo M30, manettes Retro-bit 2.4 GHz), RetroBat place A, B et C sur la rangée du bas. Pour certaines de ces manettes, il faut activer **CONTRÔLES > UTILISER UNE MANETTE DE TYPE 3DO**.
 
-#### Pistolets
+### Pistolets
 
 Les jeux au pistolet (Mad Dog McCree, Crime Patrol, Corpse Killer, Drug Wars, Space Pirates, Who Shot Johnny Rock?…) fonctionnent avec le core opera, jusqu'à 4 pistolets. Activez **PISTOLETS > ACTIVER LES PISTOLETS**.
 
@@ -84,39 +84,41 @@ Les jeux au pistolet (Mad Dog McCree, Crime Patrol, Corpse Killer, Drug Wars, Sp
 
 Pour plus de détails sur les pistolets, voir la page [**Pistolets**](../../../controleurs/supported-controllers/lightguns/).
 
-#### Raccourcis
+### Raccourcis
 
-**Core opera** : raccourcis RetroArch habituels (sauvegarde, chargement, rembobinage…). Pour plus de détails, voir la page [**Raccourcis**](../../../navigation/hotkeys.md).
+#### **Core opera**
 
-**Phoenix**
+Raccourcis RetroArch habituels (sauvegarde, chargement, rembobinage…). Pour plus de détails, voir la page [**Raccourcis**](../../../navigation/hotkeys.md).
+
+#### **Phoenix**
 
 <table><thead><tr><th width="220.25">Raccourci</th><th>Action</th></tr></thead><tbody><tr><td><strong>HOTKEY + START</strong></td><td>Quitter</td></tr></tbody></table>
 
 RetroBat allume la console et passe Phoenix en plein écran automatiquement au lancement.
 
-### Dossiers
+## Dossiers
 
 <table><thead><tr><th width="381.5">Contenu</th><th>Dossier</th></tr></thead><tbody><tr><td>BIOS et ROM Kanji</td><td><code>bios</code></td></tr><tr><td>Core opera : sauvegardes des jeux (NVRAM, une par jeu)</td><td><code>saves\3do\opera\per_game</code></td></tr><tr><td>Core opera : sauvegardes des jeux (NVRAM partagée)</td><td><code>saves\3do\opera\shared</code></td></tr><tr><td>Core opera : sauvegardes instantanées</td><td><code>saves\3do\libretro.opera</code></td></tr><tr><td>Captures d'écran</td><td><code>screenshots</code></td></tr><tr><td>Phoenix : configuration</td><td><code>emulators\phoenix\phoenix.config.xml</code></td></tr></tbody></table>
 
-### Guides
+## Guides
 
-#### Jeux sur plusieurs disques
+### Jeux sur plusieurs disques
 
 Le core opera ne change pas de disque en cours de partie : lancez chaque disque séparément. Pour retrouver sa progression d'un disque à l'autre, les disques doivent partager la même NVRAM :
 
 * Si le nom du fichier contient « Disc » (par exemple `Wing Commander III (Disc 1).cue`), RetroBat utilise automatiquement la NVRAM partagée.
 * Sinon, réglez **ÉMULATION > STOCKAGE NVRAM** sur **PARTAGÉ** pour ce jeu.
 
-#### Améliorer la fluidité
+### Améliorer la fluidité
 
 La 3DO affiche souvent peu d'images par seconde. **ÉMULATION > FRÉQUENCE DU PROCESSEUR** augmente la vitesse du processeur émulé (jusqu'à 4x) : de nombreux jeux deviennent plus fluides, au prix des performances, et quelques jeux peuvent présenter des bugs.
 
-#### Autres options utiles (core opera)
+### Autres options utiles (core opera)
 
 <table><thead><tr><th width="334">Option</th><th>Effet</th></tr></thead><tbody><tr><td><strong>ÉMULATION > FORMAT VIDÉO ÉMULÉ</strong></td><td>NTSC (60 Hz) ou PAL (50 Hz). Certains jeux européens demandent un BIOS européen.</td></tr><tr><td><strong>ÉMULATION > VITESSE DE LECTURE CD</strong></td><td>Lecture plus rapide des disques (2x d'origine) ; certains jeux ne la supportent pas.</td></tr><tr><td><strong>ÉMULATION > HLE DE L'OS</strong></td><td>Émulation haut niveau de fonctions du système, peut améliorer les performances.</td></tr><tr><td><strong>ÉMULATION > DSP MULTITHREAD</strong></td><td>Le son est calculé sur un autre cœur du processeur (activé par défaut).</td></tr><tr><td><strong>VIDÉO > HAUTE RÉSOLUTION</strong></td><td>Rendu en résolution doublée (activé par défaut).</td></tr></tbody></table>
 
 **Phoenix** : **PILOTES > VIDÉO** (logiciel approximatif, logiciel original ou matériel expérimental), **SYNCHRONISATION VERTICALE**, **RENDU VISUEL > FILTRAGE BILINÉAIRE**.
 
-### Problèmes connus
+## Problèmes connus
 
 <table><thead><tr><th width="347.75">Problème</th><th>Solution</th></tr></thead><tbody><tr><td>Un jeu ne démarre pas ou se bloque avec le BIOS intégré</td><td>Ajoutez un BIOS d'origine dans <code>bios</code> (par exemple <code>panafz10.bin</code>), ou choisissez-le avec <strong>ÉMULATION > BIOS</strong>.</td></tr><tr><td>Un jeu plante quand plusieurs manettes sont branchées</td><td>Laissez <strong>CONTRÔLES > NOMBRE DE CONTRÔLEURS CONNECTÉS</strong> sur 1.</td></tr><tr><td>Textes manquants dans un jeu japonais</td><td>Ajoutez une ROM Kanji dans <code>bios</code> et choisissez-la avec <strong>ÉMULATION > ROM DE POLICE KANJI</strong>.</td></tr><tr><td>Une sauvegarde instantanée ancienne ne se charge plus</td><td>Le core opera a changé de format de sauvegarde instantanée fin 2026 : les anciennes ne sont plus compatibles. Les sauvegardes des jeux (NVRAM) ne sont pas concernées.</td></tr><tr><td>Phoenix ne démarre pas</td><td>Placez <code>panafz10.bin</code> dans <code>bios</code>.</td></tr><tr><td>Avec Phoenix, la croix ne répond pas</td><td>Activez <strong>CONTRÔLES > UTILISER PAD DIRECTIONNEL</strong>.</td></tr></tbody></table>

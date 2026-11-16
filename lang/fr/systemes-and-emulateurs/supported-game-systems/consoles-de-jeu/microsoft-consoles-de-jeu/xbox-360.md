@@ -112,7 +112,7 @@ Le profil doit se trouver dans `saves\xbox360\xenia\content`, sinon RetroBat l'i
 
 ### Utiliser la configuration de Xenia Manager
 
-1. Installez les versions de Xenia depuis Xenia Manager (`emulators\xenia-manager`), puis ajoutez vos jeux et réglez-les dans Xenia Manager.
+1. Ouvrez Xenia Manager (`emulators\xenia-manager`), ajoutez vos jeux et réglez-les (les versions canary, mousehook et netplay sont fournies avec RetroBat).
 2. Dans RetroBat, choisissez l'émulateur **xenia-manager** et la version (**canary**, **mousehook** ou **netplay**) pour le système ou le jeu.
 
 <div align="left"><figure><img src="../../../../.gitbook/assets/image (603).png" alt=""><figcaption></figcaption></figure></div>

@@ -6,7 +6,7 @@ description: Apple
 
 <div align="left"><figure><img src="../../../../.gitbook/assets/image (616).png" alt="" width="540"><figcaption></figcaption></figure></div>
 
-### Présentation
+## Présentation
 
 L'**Apple IIGS** est le dernier modèle de la gamme Apple II. Sorti en 1986, il repose sur un processeur 16 bits 65C816, une palette de 4 096 couleurs et la puce sonore Ensoniq à 32 voix, la même que dans les synthétiseurs de la marque. Il reste compatible avec les programmes de l'Apple II et lit des disquettes 3,5 pouces de 800 Ko. Sa production s'arrête en 1992.
 
@@ -16,15 +16,15 @@ RetroBat propose trois émulateurs : **GSplus** (par défaut), le core libretro 
 
 {% embed url="https://fr.wikipedia.org/wiki/Apple_IIGS" %}
 
-### En bref
+## En bref
 
 <table><thead><tr><th width="261.5"></th><th></th></tr></thead><tbody><tr><td><strong>Dossier des jeux</strong></td><td><code>roms\apple2gs</code></td></tr><tr><td><strong>Extensions</strong></td><td>.2mg .woz .m3u .hdv .zip</td></tr><tr><td><strong>Émulateur par défaut</strong></td><td>gsplus</td></tr><tr><td><strong>BIOS</strong></td><td>ROM de l'Apple IIGS dans <code>bios</code> : <code>APPLE2GS.ROM</code> (ou <code>ROM</code>, <code>ROM.01</code>, <code>ROM.03</code>) pour GSplus, <code>apple2gs.zip</code> pour MAME</td></tr><tr><td><strong>Configuration des manettes</strong></td><td>GSplus : la première manette sert de joystick ; MAME : PadToKey</td></tr><tr><td><strong>Sauvegardes instantanées</strong></td><td>core libretro mame</td></tr><tr><td><strong>RetroAchievements</strong></td><td>Non</td></tr><tr><td><strong>Jeu en réseau</strong></td><td>core libretro mame</td></tr><tr><td><strong>BIOS optionnels</strong></td><td><code>votrsc01a.zip</code> et listes logicielles MAME</td></tr></tbody></table>
 
-### Quel émulateur choisir ?
+## Quel émulateur choisir ?
 
 <table><thead><tr><th width="162">Émulateur</th><th>Points forts</th><th>Limites</th></tr></thead><tbody><tr><td><strong>gsplus</strong> (défaut)</td><td>Léger et rapide, monte tous les disques d'un <code>.m3u</code> en même temps, disques durs, scanlines.</td><td>Ne lit pas les <code>.woz</code>. Pas de sauvegardes instantanées gérées par RetroBat.</td></tr><tr><td><strong>libretro: mame</strong></td><td>Lit les <code>.woz</code>, sauvegardes instantanées, shaders et raccourcis de RetroArch, listes logicielles MAME.</td><td>Demande <code>apple2gs.zip</code>. Pas de configuration automatique de la manette.</td></tr><tr><td><strong>mame</strong></td><td>Même émulation que le core mame, en émulateur autonome.</td><td>Demande <code>apple2gs.zip</code>. Pas de configuration automatique de la manette.</td></tr></tbody></table>
 
-### BIOS
+## BIOS
 
 <table><thead><tr><th width="177">Émulateur</th><th>Fichiers</th><th>Dossier</th></tr></thead><tbody><tr><td>GSplus</td><td>ROM de l'Apple IIGS (ROM 01 ou ROM 03) sous l'un de ces noms : <code>ROM</code>, <code>ROM.01</code>, <code>ROM.03</code> ou <code>APPLE2GS.ROM</code></td><td><code>bios</code></td></tr><tr><td>MAME, core mame</td><td><code>apple2gs.zip</code> ; <code>votrsc01a.zip</code> en option</td><td><code>bios</code></td></tr></tbody></table>
 
@@ -46,24 +46,26 @@ Les listes logicielles MAME (`apple2gs_flop_clcracked.xml`, `apple2gs_flop_misc.
 
 </details>
 
-### Quel format de jeu ?
+## Quel format de jeu ?
 
 <table><thead><tr><th width="119">Format</th><th>Remarques</th></tr></thead><tbody><tr><td><strong>.2mg</strong></td><td>Image de disquette 3,5 pouces (800 Ko) ou de disque dur. Le format le plus courant.</td></tr><tr><td><strong>.woz</strong></td><td>Copie fidèle de la disquette, protections comprises. Lu uniquement par MAME et le core mame.</td></tr><tr><td><strong>.hdv</strong></td><td>Image de disque dur ProDOS.</td></tr><tr><td><strong>.m3u</strong></td><td>Liste des disques d'un jeu sur plusieurs disquettes.</td></tr><tr><td><strong>.zip</strong></td><td>Archive contenant l'image du jeu.</td></tr></tbody></table>
 
-### Contrôles
+## Contrôles
 
-#### Configuration par émulateur
+### Configuration par émulateur
 
 L'Apple IIGS se joue au clavier, à la souris et au joystick analogique à deux boutons. Pour les touches du clavier, créez un profil **PadToKey** (voir la page [**PadToKey**](../../../../controleurs/pad2key.md)).
 
 * **GSplus** : la première manette branchée sert de joystick (stick analogique et deux boutons). La souris de l'Apple IIGS suit la souris du PC. **CONTRÔLES > INTERVERTIR LES PADDLES** et **INVERSER LES PADDLES** pour les quelques jeux qui attendent les axes dans l'autre sens.
 * **MAME, core mame** : **CONTRÔLES > TYPE DE JOYSTICK** (Apple ou Gizmo).
 
-#### Raccourcis
+### Raccourcis
 
-**Core mame, MAME** : raccourcis par défaut de RetroBat (sauvegarde, chargement, capture…). Pour plus de détails, voir la page [**Raccourcis**](../../../../navigation/hotkeys.md).
+#### **Core mame, MAME**
 
-**GSplus**
+Raccourcis par défaut de RetroBat (sauvegarde, chargement, capture…). Pour plus de détails, voir la page [**Raccourcis**](../../../../navigation/hotkeys.md).
+
+#### **GSplus**
 
 | Raccourci          | Action  |
 | ------------------ | ------- |
@@ -71,7 +73,7 @@ L'Apple IIGS se joue au clavier, à la souris et au joystick analogique à deux 
 
 Au clavier, `F4` ouvre le menu de configuration de GSplus.
 
-### Écriture sur les disquettes
+## Écriture sur les disquettes
 
 Avec GSplus, l'option **ÉMULATION > AUTORISER LES JEUX À ÉCRIRE SUR LES IMAGES DISQUE** décide si un jeu peut enregistrer sur sa disquette :
 
@@ -79,7 +81,7 @@ Avec GSplus, l'option **ÉMULATION > AUTORISER LES JEUX À ÉCRIRE SUR LES IMAGE
 
 Les fichiers de `roms\apple2gs` ne sont jamais modifiés.
 
-### Dossiers
+## Dossiers
 
 | Contenu                                   | Dossier                        |
 | ----------------------------------------- | ------------------------------ |
@@ -90,20 +92,20 @@ Les fichiers de `roms\apple2gs` ne sont jamais modifiés.
 | GSplus : captures d'écran                 | `screenshots`                  |
 | Core mame : sauvegardes instantanées      | `saves\apple2gs\libretro.mame` |
 
-### Guides
+## Guides
 
-#### Jeux sur plusieurs disquettes
+### Jeux sur plusieurs disquettes
 
 Créez un fichier `.m3u` dans `roms\apple2gs`, avec une ligne par disquette, dans l'ordre. Les images doivent être dans le même dossier que le `.m3u`. Exemple pour Silpheed :
 
 * **GSplus** monte toutes les disquettes en même temps : le jeu trouve lui-même le disque suivant, sans manipulation.
 * **MAME** et le **core mame** chargent les deux premières disquettes dans les deux lecteurs 3,5 pouces.
 
-#### Le jeu ne démarre pas avec GSplus
+### Le jeu ne démarre pas avec GSplus
 
 GSplus choisit le lecteur d'après la taille de l'image : les disquettes 5,25 pouces vont dans le slot 6, les disquettes 3,5 pouces et les disques durs dans le slot 7. Si un jeu refuse de démarrer, essayez un autre choix dans **ÉMULATION > SLOT DU DISQUE**.
 
-#### Autres options utiles
+### Autres options utiles
 
 | Option                                                | Effet                                                     |
 | ----------------------------------------------------- | --------------------------------------------------------- |
@@ -113,6 +115,6 @@ GSplus choisit le lecteur d'après la taille de l'image : les disquettes 5,25 po
 | **ÉMULATION > TAILLE DE LA MÉMOIRE RAM** (MAME)       | De 1 à 8 Mo.                                              |
 | **SLOTS D'EXTENSION** (MAME)                          | Carte son Mockingboard, carte joystick 4play, carte MIDI. |
 
-### Problèmes connus
+## Problèmes connus
 
 <table><thead><tr><th width="345.25">Problème</th><th>Solution</th></tr></thead><tbody><tr><td>Un <code>.woz</code> ne démarre pas avec GSplus</td><td>GSplus ne lit pas ce format : choisissez le core mame ou MAME pour ce jeu.</td></tr><tr><td>GSplus démarre sur un écran vide ou sans système</td><td>Vérifiez la ROM de l'Apple IIGS dans <code>bios</code> (voir <a href="apple-iigs.md#bios"><strong>BIOS</strong></a>).</td></tr><tr><td>Un jeu refuse de démarrer avec GSplus</td><td>Changez <strong>ÉMULATION > SLOT DU DISQUE</strong>.</td></tr><tr><td>Le jeu ne garde pas la partie</td><td>Activez <strong>ÉMULATION > AUTORISER LES JEUX À ÉCRIRE SUR LES IMAGES DISQUE</strong> (GSplus).</td></tr></tbody></table>
