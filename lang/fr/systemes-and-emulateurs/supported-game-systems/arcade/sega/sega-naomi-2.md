@@ -4,29 +4,35 @@ description: Sega
 
 # Sega NAOMI 2
 
-<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/naomi2-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/naomi2.svg" alt=""></picture><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (633).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-Arcade - Date de création : 2000&#x20;
+## Présentation
+
+La **NAOMI 2** est la version plus puissante de la NAOMI, sortie par Sega en 2000. Elle double les processeurs et les puces graphiques (deux SH-4, deux PowerVR2) et ajoute une puce de calcul géométrique, l'Elan, pour des scènes 3D bien plus riches. Ses jeux sont sur cartouches ou sur GD-ROM. Sa ludothèque est courte mais marquante, notamment des jeux de course reliés en réseau.
+
+Parmi ses jeux : **Virtua Fighter 4** (et Evolution, Final Tuned), **Initial D Arcade Stage** (1 à 3), **Beach Spikers**, **Club Kart**, **Wild Riders**, **Soul Surfer**, **The King of Route 66**, **Virtua Striker 3**.
+
+RetroBat propose trois émulateurs : le core libretro **flycast** (par défaut), **Flycast** en version autonome et **Demul**.
 
 {% embed url="https://fr.wikipedia.org/wiki/Naomi_2" %}
 
-## Information
+## En bref
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro : flycast</li><li>flycast</li><li>demul</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> naomi2</td></tr><tr><td><strong>Extensions</strong></td><td>.zip .7z .decomp</td></tr></tbody></table>
+<table><thead><tr><th width="265.25"></th><th></th></tr></thead><tbody><tr><td><strong>Dossier des jeux</strong></td><td><code>roms\naomi2</code></td></tr><tr><td><strong>Extensions</strong></td><td>.zip .7z .decomp</td></tr><tr><td><strong>Émulateur par défaut</strong></td><td>libretro: flycast</td></tr><tr><td><strong>BIOS</strong></td><td><code>naomi2.zip</code> dans <code>bios\dc</code></td></tr><tr><td><strong>Configuration des manettes</strong></td><td>Automatique, tous les émulateurs (mappage par jeu pour les cores flycast)</td></tr><tr><td><strong>Sauvegardes instantanées</strong></td><td>core flycast, Flycast (gérées par RetroBat) ; Demul par raccourcis</td></tr><tr><td><strong>RetroAchievements</strong></td><td>Non</td></tr><tr><td><strong>Jeu en réseau</strong></td><td>Non (Flycast : GGPO et réseau NAOMI, propres à l'émulateur)</td></tr><tr><td><strong>Pistolets</strong></td><td>—</td></tr><tr><td><strong>Volants</strong></td><td>Flycast</td></tr><tr><td><strong>BIOS optionnels</strong></td><td>—</td></tr></tbody></table>
 
-## Fonctionnalités
+## Quel émulateur choisir ?
 
-<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-flycast: OUI<br>Flycast: OUI<br>Demul: NON</td><td>NON</td><td>lr-flycast: OUI<br>Flycast: OUI<br>Demul: OUI</td></tr></tbody></table>
+<table><thead><tr><th width="167">Émulateur</th><th>Points forts</th><th>Limites</th></tr></thead><tbody><tr><td><strong>libretro: flycast</strong> (défaut)</td><td>Très bonne compatibilité, boutons placés comme sur la borne pour chaque jeu, sauvegardes instantanées, shaders et raccourcis de RetroArch.</td><td>Pas de fichier de mappage fourni pour les volants.</td></tr><tr><td><strong>flycast</strong></td><td>Même base que le core, avec ses propres menus. Mappage par jeu, sauvegardes instantanées, volants (Initial D, Club Kart, The King of Route 66, Wild Riders), jeu en ligne GGPO et réseau NAOMI (bornes reliées).</td><td>—</td></tr><tr><td><strong>demul</strong></td><td>Émulateur historique, aussi utilisé pour la NAOMI et l'Atomiswave.</td><td>Compatibilité plus faible. Disposition des boutons identique pour tous les jeux. Sauvegardes instantanées non gérées par RetroBat.</td></tr></tbody></table>
 
-## Bios
+## BIOS
 
-<table><thead><tr><th width="160.55555555555557">Fichier BIOS</th><th width="155">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>naomi2.zip</td><td><code>\bios\dc</code></td><td>Voir ci-dessous</td></tr></tbody></table>
+<table><thead><tr><th width="164.5">Fichier</th><th width="151">Dossier</th><th>Utilisé par</th></tr></thead><tbody><tr><td><code>naomi2.zip</code></td><td><code>bios\dc</code></td><td>Tous les jeux, tous les émulateurs</td></tr></tbody></table>
 
-{% hint style="info" %}
-Pour Flycast standalone, les fichiers BIOS doivent être placés dans le dossier `emulators\flycast\data`.
-{% endhint %}
+`naomi2.zip` est le BIOS de la NAOMI 2 au format MAME, différent de celui de la NAOMI. Le core flycast et Flycast autonome le cherchent tous les deux dans `bios\dc` ; Demul le trouve dans `bios\dc`, `bios` ou le dossier des jeux. Son contenu dépend de la version de MAME.
 
-### Contenu du fichier BIOS
+<details>
+
+<summary>Contenu de naomi2.zip</summary>
 
 ```
 naomi2.zip
@@ -53,36 +59,93 @@ naomi2.zip
 - x76f100_eeprom.bin "960ece0dc22a7c5ff81c812a2993e7cc"
 ```
 
+</details>
+
+## Quel format de jeu ?
+
+<table><thead><tr><th width="156.5">Format</th><th>Remarques</th></tr></thead><tbody><tr><td><strong>.zip</strong>, <strong>.7z</strong></td><td>Jeux au format MAME, à garder tels quels, sans les décompresser ni les renommer (<code>vf4.zip</code>, <code>initdv3e.zip</code>, <code>clubkrt.zip</code>…). Les clones ont besoin du jeu parent dans le même dossier. Les jeux sur GD-ROM ont aussi un fichier <code>.chd</code> (voir <a href="sega-naomi-2.md#jeux-sur-gd-rom-fichiers-chd"><strong>Guides</strong></a>).</td></tr><tr><td><strong>.decomp</strong></td><td>Portage PC, voir la page <a href="../../autres/recomp.md"><strong>Recompilations</strong></a>.</td></tr></tbody></table>
+
 ## Contrôles
 
-{% hint style="danger" %}
-En construction.
-{% endhint %}
+### Configuration automatique
 
-## Informations spécifiques au système
+RetroBat configure les manettes pour les trois émulateurs. Les commandes communes à tous les jeux :
 
-### Fichiers CHD
+<table><thead><tr><th width="195.25">Borne</th><th>Manette</th></tr></thead><tbody><tr><td>Joystick</td><td>Croix directionnelle, stick gauche</td></tr><tr><td>Start</td><td>START</td></tr><tr><td>Crédit</td><td>SELECT</td></tr><tr><td>Test</td><td>R3 (avec le menu service activé, voir <a href="sega-naomi-2.md#menu-service-et-menu-de-test"><strong>Guides</strong></a>)</td></tr><tr><td>Service</td><td>L3 (avec le menu service activé, voir <a href="sega-naomi-2.md#menu-service-et-menu-de-test"><strong>Guides</strong></a>)</td></tr></tbody></table>
 
-La plupart des jeux NAOMI2 ne nécessitent qu'une ROM au format zip pour fonctionner, d'autres ont besoin de la présence de fichiers CHD.
+* **Core flycast** et **Flycast** : la position des boutons d'action est définie jeu par jeu, pour retrouver la disposition de la borne. Les fichiers utilisés sont `libretro_flycast_naomi2.yml` (core) et `flycast_Arcade.yml` (Flycast), voir la page [**Configuration des touches par émulateur**](../../../../controleurs/controller-configuration.md#adapter-les-controles-sans-desactiver-lautoconfiguration). **CONTRÔLES > DISPOSITION DES BOUTONS** choisit une autre disposition quand le fichier en propose une.
+* **Flycast** : **CONTRÔLES > UTILISER PAD DIRECTIONNEL** déplace les commandes analogiques sur la croix.
+* **Demul** : même disposition pour tous les jeux : boutons 1 à 4 sur SUD, EST, OUEST, NORD, boutons 5 à 8 sur L1, R1, L2, R2.
 
-Les fichiers CHD doivent être placés dans le dossier des jeux, dans un répertoire dont le nom est identique au fichier .zip.
+### Volants
+
+Flycast gère les volants (**VOLANTS DE COURSE > ACTIVER LES VOLANTS**) pour **Initial D**, **Club Kart**, **The King of Route 66**, **Wild Riders** et **Sega Driving Simulator**. **VOLANTS DE COURSE > DISPOSITION DES BOUTONS DU VOLANT** adapte les boutons au jeu : vitesses sur A / B pour Initial D, marche arrière sur X pour The King of Route 66. Le core flycast gère aussi les volants, mais RetroBat ne fournit pas encore son fichier de mappage. Pour les volants pris en charge, voir la page [**Volants**](../../../../controleurs/supported-controllers/volants.md).
+
+### Raccourcis
+
+Le core flycast utilise les raccourcis standards de RetroArch (voir la page [**Raccourcis**](../../../../navigation/hotkeys.md)).
+
+#### **Flycast**
+
+| Raccourci           | Action                    | Clavier |
+| ------------------- | ------------------------- | ------- |
+| **HOTKEY + START**  | Quitter                   | Échap   |
+| **HOTKEY + SUD**    | Menu de Flycast           | F1      |
+| **HOTKEY + OUEST**  | Sauvegarde instantanée    | F2      |
+| **HOTKEY + NORD**   | Chargement instantané     | F4      |
+| **HOTKEY + DROITE** | Avance rapide (maintenir) | L       |
+| **HOTKEY + R3**     | Capture d'écran           | F8      |
+
+#### **Demul**
+
+| Raccourci          | Action                          | Clavier |
+| ------------------ | ------------------------------- | ------- |
+| **HOTKEY + START** | Quitter                         |         |
+| **HOTKEY + OUEST** | Sauvegarde instantanée de Demul | F2      |
+| **HOTKEY + NORD**  | Chargement instantané de Demul  | F4      |
+
+Les sauvegardes instantanées de Demul restent dans Demul : elles n'apparaissent pas dans le gestionnaire de sauvegardes.
+
+## Dossiers
+
+<table><thead><tr><th width="337.75">Contenu</th><th>Dossier</th></tr></thead><tbody><tr><td>BIOS</td><td><code>bios\dc</code></td></tr><tr><td>Core flycast : sauvegardes instantanées</td><td><code>saves\naomi2\libretro.flycast</code></td></tr><tr><td>Flycast : sauvegardes des jeux (NVRAM, EEPROM)</td><td><code>saves\naomi2\reicast</code></td></tr><tr><td>Flycast : sauvegardes instantanées</td><td><code>saves\naomi2\flycast\sstates</code> (copiées depuis <code>saves\naomi2\reicast\states</code>)</td></tr><tr><td>Flycast : configuration</td><td><code>emulators\flycast\emu.cfg</code></td></tr><tr><td>Demul : sauvegardes des jeux (NVRAM)</td><td><code>saves\naomi2\demul</code></td></tr><tr><td>Demul : configuration</td><td><code>emulators\demul\Demul.ini</code>, <code>emulators\demul\padDemul.ini</code></td></tr><tr><td>Mappage par jeu (core flycast, Flycast)</td><td><code>system\resources\inputmapping</code> (copie modifiable dans <code>user\inputmapping</code>)</td></tr></tbody></table>
+
+## Guides
+
+### Jeux sur GD-ROM (fichiers CHD)
+
+Les jeux sur GD-ROM (**Virtua Fighter 4**, **Initial D**…) ont besoin, en plus de leur `.zip`, de l'image du disque au format `.chd`. Placez le `.chd` dans un dossier qui porte le nom du `.zip`, sans renommer ni l'un ni l'autre :
 
 ```
 roms\
-└─ naomi\
-   ├─ vtennis2\
-   │  └─ gds-0015a.chd
-   └─ vtennis2.zip
+└─ naomi2\
+   ├─ vf4tuned\
+   │  └─ gds-0036f.chd
+   └─ vf4tuned.zip
 ```
 
-### Service Menu
+Seul le `.zip` apparaît dans la liste des jeux.
 
-Certains jeux disposent d'un menu qui permet de régler des paramètres avancés de la machine tels que les "dip switches", le diagnostic système ou encore des fonctionnalités de réglage des contrôles.
+### Menu service et menu de test
 
-Pour accéder au Service Menu des jeux NAOMI 2, il est nécessaire dans un premier temps d'activer le SERVICE MODE dans les paramètres avancés du système dans RetroBat (mettre OUI):
+Le menu de test de la borne permet de régler le nombre de crédits, la difficulté, le nombre de rounds, et de vérifier les commandes.
 
-<div align="left"><figure><img src="https://i.imgur.com/puIdIxb.png" alt=""><figcaption></figcaption></figure></div>
+1. Activez **ÉMULATION > MODE SERVICE** (core flycast) ou **ÉMULATION > ACTIVER LE MENU SERVICE** (Flycast). Avec Demul, les boutons sont toujours actifs.
+2. En jeu, appuyez sur **R3** (Test) pour ouvrir le menu, puis naviguez avec les boutons de la borne. **L3** (Service) ajoute un crédit de service.
 
-<div align="left"><figure><img src="https://i.imgur.com/Hxj2lbG.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (634).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-Dès lors, l'accès au Service Menu se fait en pressant les boutons  L3 + R3 buttons de contrôleur.
+### Jeu gratuit et région
+
+* **ÉMULATION > JEU GRATUIT** (core flycast, Flycast, activé par défaut) configure le jeu sans pièces : START suffit pour jouer. Désactivé, ajoutez des crédits avec **SELECT**.
+* **ÉMULATION > RÉGION** (core flycast) choisit la région de la borne (Japon, USA, Europe) : elle change la langue et parfois le contenu du jeu.
+
+Ces réglages sont écrits dans la mémoire de la borne au lancement. Si un jeu garde l'ancien réglage, changez-le aussi dans son menu de test.
+
+### Autres options utiles
+
+<table><thead><tr><th width="331.5">Option</th><th>Effet</th></tr></thead><tbody><tr><td><strong>RÉSOLUTION INTERNE</strong></td><td>Augmente la résolution de rendu (les trois émulateurs).</td></tr><tr><td><strong>RAPPORT D'ASPECT</strong></td><td>Flycast, Demul : 4:3, 16:9 ou étiré.</td></tr><tr><td><strong>RENDU VISUEL > PATCH ÉCRAN LARGE</strong> / <strong>HACK ÉCRAN LARGE</strong></td><td>Affichage en 16:9 : les patchs corrigent les jeux compatibles, le hack étend l'image de tous les jeux (avec des défauts).</td></tr><tr><td><strong>RÉSEAU > MODE RÉSEAU</strong> (Flycast)</td><td>GGPO pour les jeux de combat en ligne, ou <strong>NAOMI</strong> pour relier plusieurs bornes (Club Kart, Initial D, The King of Route 66) ; <strong>MODE HÔTE</strong> et <strong>SERVEUR</strong> indiquent qui héberge.</td></tr><tr><td><strong>RÉSEAU > DIFFUSER LES SORTIES NUMÉRIQUES</strong></td><td>Envoie les sorties de la borne (lampes…) vers MameHooker (core flycast, Flycast).</td></tr></tbody></table>
+
+## Problèmes connus
+
+<table><thead><tr><th width="319">Problème</th><th>Solution</th></tr></thead><tbody><tr><td>Le jeu ne démarre pas</td><td>Vérifiez <code>naomi2.zip</code> dans <code>bios\dc</code> (<code>naomi.zip</code> ne convient pas), et le jeu parent pour un clone.</td></tr><tr><td>Un jeu GD-ROM ne démarre pas</td><td>Vérifiez le <code>.chd</code> dans le dossier qui porte le nom du <code>.zip</code> (voir <a href="sega-naomi-2.md#jeux-sur-gd-rom-fichiers-chd"><strong>Guides</strong></a>).</td></tr><tr><td>Le jeu est lent ou mal affiché avec Demul</td><td>Utilisez le core flycast ou Flycast, plus compatibles pour la NAOMI 2.</td></tr><tr><td>Les boutons ne sont pas à la bonne place</td><td>Avec Demul, la disposition est la même pour tous les jeux : utilisez le core flycast ou Flycast.</td></tr></tbody></table>
