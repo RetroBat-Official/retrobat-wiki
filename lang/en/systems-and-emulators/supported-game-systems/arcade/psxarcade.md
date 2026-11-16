@@ -70,9 +70,11 @@ ArcadeDuck supports light guns and the mouse for the light gun games of these bo
 
 ### Hotkeys
 
-**ArcadeDuck**, **mame core**, **MAME**: RetroBat default hotkeys (save, load, menu, screenshot…). For more details, see the [**Hotkeys**](../../../navigation/hotkeys.md) page.
+#### **ArcadeDuck**, **mame core**, **MAME**
 
-**PSXMame**, **Zinc**
+RetroBat default hotkeys (save, load, menu, screenshot…). For more details, see the [**Hotkeys**](../../../navigation/hotkeys.md) page.
+
+#### **PSXMame**, **Zinc**
 
 <table><thead><tr><th width="202.75">Hotkey</th><th>Action</th></tr></thead><tbody><tr><td><strong>HOTKEY + START</strong></td><td>Quit</td></tr></tbody></table>
 

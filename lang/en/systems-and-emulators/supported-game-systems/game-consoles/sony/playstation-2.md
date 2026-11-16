@@ -6,7 +6,7 @@ description: Sony
 
 <div align="left"><figure><img src="../../../../.gitbook/assets/image (383).png" alt=""><figcaption></figcaption></figure></div>
 
-### Presentation
+## Presentation
 
 The PlayStation 2 is the second home console from Sony, after the first PlayStation (1994). It was released in Japan on March 4, 2000, then in North America in October and in Europe in November of the same year. The launch was a huge event: stocks sold out in a few days, and the console was hard to find for months.
 
@@ -30,7 +30,7 @@ With more than 155 million units sold, the PS2 is the best-selling home console 
 
 **If you are not sure, keep pcsx2.**
 
-### BIOS
+## BIOS
 
 **One of these files is enough** for pcsx2, lr-pcsx2 and pcsx2-16:
 
