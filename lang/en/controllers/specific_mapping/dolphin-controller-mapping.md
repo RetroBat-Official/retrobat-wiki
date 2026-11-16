@@ -25,7 +25,7 @@ RetroBat configures controllers at each launch. The settings are in the advanced
 
 * **Wii**: **WIIMOTE TYPE** and **EMULATED DEVICES**, to choose how the Wiimote is held, and real Wiimotes with a DolphinBar. See the [**Wii**](../../systems-and-emulators/supported-game-systems/game-consoles/nintendo-game-consoles/wii.md#controls) page.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 In most cases, these options are enough.
 
@@ -81,7 +81,7 @@ With Dolphin, the `ControllerInfo` field must be present, as well as `HotKeyMapp
 5. Close Dolphin and open `emulators\dolphin-emu\User\Config\GCPadNew.ini`: the `[GCPad1]` section holds the lines to copy into `Mapping`, and the `Device` line gives the driver and the exact name (`DInput/0/MAYFLASH GameCube Controller Adapter`).
 6. Turn **AUTOCONFIGURE CONTROLLERS** back on.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ## Per-game controller profile
 
@@ -96,12 +96,12 @@ This method only works with Dolphin, not with lr-dolphin.
    * **GameCube Controllers** for a GameCube game;
    * **Wii Remotes** (emulated Wiimote) for a Wii game.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 3. Choose your controller in the **Device** list and set the buttons.
 4. In the **Profile** area, type a name, for example `Mario Kart DD`, then click **Save**.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 The profile keeps the controller chosen in **Device**. It will only work with this controller.
 

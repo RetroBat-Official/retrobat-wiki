@@ -4,7 +4,7 @@ description: Atari
 
 # Jaguar
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (1).png" alt="" width="425"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt="" width="425"><figcaption></figcaption></figure></div>
 
 ## Presentation
 
@@ -62,9 +62,9 @@ RetroBat automatically configures the controllers for all emulators. The three a
 | \*                | —                                | L3                                          | L3                |
 | #                 | —                                | R3                                          | R3                |
 
-| Libretro : VirtualJaguar                             | BigPEmu                                          |
-| ---------------------------------------------------- | ------------------------------------------------ |
-| ![](<../../../../.gitbook/assets/image (1) (1).png>) | ![](<../../../../.gitbook/assets/image (2).png>) |
+| Libretro : VirtualJaguar                                 | BigPEmu                                              |
+| -------------------------------------------------------- | ---------------------------------------------------- |
+| ![](<../../../../.gitbook/assets/image (1) (1) (1).png>) | ![](<../../../../.gitbook/assets/image (2) (1).png>) |
 
 On the Jaguar Pro controller, the X, Y, Z, L and R buttons duplicate keys 7, 8, 9, 4 and 6: the **MAP JAGUAR PRO CONTROLLER** option therefore puts them on L1, NORTH, R1, L2 and R2.
 
@@ -106,7 +106,7 @@ A few games accept more than two players through the Team Tap adapter, for examp
 * **libretro: virtualjaguar**: set **CONTROLS > PLAYER 1 CONTROLLER TYPE** to **TEAM TAP**.
 * **BigPEmu**: set **CONTROLS > ENABLE MULTITAP** to **IN PORT 1**.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Tempest 2000 with the rotary controller
 

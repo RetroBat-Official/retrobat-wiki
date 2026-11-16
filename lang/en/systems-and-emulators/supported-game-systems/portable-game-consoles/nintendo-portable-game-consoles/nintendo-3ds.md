@@ -4,119 +4,111 @@ description: Nintendo
 
 # Nintendo 3DS
 
-<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/3ds-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/3ds.svg" alt="" width="563"></picture><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
 
-Portable Game Console - Lifespan: 2011 - 2020
+## Overview
+
+The **Nintendo 3DS** is a handheld console released by Nintendo in 2011. It has two screens: the top one shows glasses-free 3D, the bottom one is a touch screen used with a stylus. It also has a circle pad, a gyroscope and three cameras. The **New 3DS** (2014) adds a small stick (C-stick), the ZL and ZR triggers and a faster CPU: a few games only run on this model (**Xenoblade Chronicles 3D**).
+
+Its games include **Mario Kart 7**, **Super Mario 3D Land**, **The Legend of Zelda: A Link Between Worlds**, **Ocarina of Time 3D**, **Pokémon X / Y**, **Pokémon Sun / Moon**, **Animal Crossing: New Leaf**, **Fire Emblem Awakening**, **Monster Hunter 4 Ultimate**, **Kid Icarus: Uprising** and **Luigi's Mansion 2**.
+
+RetroBat offers several emulators: **Azahar** (default), the **azahar** libretro core, **Azahar Plus**, **Mandarine**, **Citra** and **BizHawk** (Encore core).
 
 {% embed url="https://en.wikipedia.org/wiki/Nintendo_3DS" %}
 
-## Information
+## At a glance
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>azahar</li><li>libretro-azahar</li><li>mandarine</li><li>citra</li><li>bizhawk: encore</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> 3ds</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.3ds .3dsx .z3dsx .cia .zcia .elf .axf .cci .zcci .cxi .zcxi .app .m3u .zip .7z .squashfs</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="232.75"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\3ds</code></td></tr><tr><td><strong>Extensions</strong></td><td>.3ds .3dsx .z3dsx .cia .zcia .elf .axf .cci .zcci .cxi .zcxi .app .m3u .zip .7z .squashfs .decomp</td></tr><tr><td><strong>Default emulator</strong></td><td>azahar</td></tr><tr><td><strong>BIOS</strong></td><td>None</td></tr><tr><td><strong>Controller setup</strong></td><td>Automatic, every emulator</td></tr><tr><td><strong>Save states</strong></td><td>Azahar, Azahar Plus, azahar core, BizHawk</td></tr><tr><td><strong>RetroAchievements</strong></td><td>No</td></tr><tr><td><strong>Netplay</strong></td><td>No</td></tr><tr><td><strong>Light guns</strong></td><td>—</td></tr><tr><td><strong>Wheels</strong></td><td>—</td></tr><tr><td><strong>Optional BIOS</strong></td><td><code>aes_keys.txt</code>, <code>seeddb.bin</code> in <code>bios</code> (BizHawk)</td></tr></tbody></table>
 
-{% hint style="info" %}
-RetroBat uses the neo version of Mandarine: [https://github.com/ptyfyre/mandarine-neo](https://github.com/ptyfyre/mandarine-neo)
-{% endhint %}
+## Which emulator should I use?
 
-## System Features
-
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>Azahar: YES<br>lr-azahar: YES<br>Mandarine: YES<br>Citra: YES<br>BizHawk: YES</td></tr></tbody></table>
+<table><thead><tr><th width="183.25">Emulator</th><th>Strengths</th><th>Limitations</th></tr></thead><tbody><tr><td><strong>azahar</strong> (default)</td><td>Official successor of Citra, the most up to date. Up to 18x resolution, Vulkan or OpenGL, compressed formats (.zcci, .zcia…), save states managed by RetroBat, controller hotkeys aligned with RetroBat.</td><td>Only reads decrypted games.</td></tr><tr><td><strong>libretro: azahar</strong></td><td>Same emulation in RetroArch: shaders, RetroArch hotkeys, touch screen with the mouse or the right stick.</td><td>No launch through <code>.m3u</code> (installed games).</td></tr><tr><td><strong>azahar-plus</strong></td><td>Modified Azahar that reads every file accepted by the older Citra versions.</td><td>Unofficial project.</td></tr><tr><td><strong>mandarine</strong></td><td>Another Citra-based version (Mandarine Neo).</td><td>No Azahar compressed formats. Save states not managed by RetroBat.</td></tr><tr><td><strong>citra</strong></td><td>The original Citra.</td><td>No longer developed since 2024. No Azahar compressed formats.</td></tr><tr><td><strong>bizhawk</strong> (Encore)</td><td>BizHawk tools (recording, TAS), touch screen with the right stick.</td><td>No Azahar compressed formats.</td></tr></tbody></table>
 
 ## BIOS
 
-No BIOS required.
+No BIOS is needed.
+
+BizHawk also uses, when present in `bios`, `aes_keys.txt` (decryption keys) and `seeddb.bin` (keys of some downloaded games).
+
+## Which game format?
+
+<table><thead><tr><th width="241.5">Format</th><th>Description</th></tr></thead><tbody><tr><td><strong>.cci</strong> / <strong>.3ds</strong></td><td>Cartridge dump. It must be decrypted. If Azahar refuses a <code>.3ds</code>, rename it to <code>.cci</code> (same format) or use Azahar Plus.</td></tr><tr><td><strong>.cxi</strong></td><td>Standalone application (executable content of a game).</td></tr><tr><td><strong>.3dsx</strong> / <strong>.elf</strong> / <strong>.axf</strong></td><td>Homebrew.</td></tr><tr><td><strong>.cia</strong></td><td>Installation file: it is installed into the emulated console (see <a href="nintendo-3ds.md#running-an-installed-game-.cia-eshop"><strong>Guides</strong></a>), it does not start directly.</td></tr><tr><td><strong>.zcci</strong> / <strong>.zcxi</strong> / <strong>.z3dsx</strong> / <strong>.zcia</strong></td><td>Azahar compressed formats (Azahar <strong>Tools > Compress ROM File</strong> menu). Read by Azahar, Azahar Plus and the azahar core.</td></tr><tr><td><strong>.app</strong> / <strong>.m3u</strong></td><td>Game installed in the emulated console; the <code>.m3u</code> holds the path of the <code>.app</code> (see <a href="nintendo-3ds.md#running-an-installed-game-.cia-eshop"><strong>Guides</strong></a>).</td></tr><tr><td><strong>.zip</strong> / <strong>.7z</strong> / <strong>.squashfs</strong></td><td>Archive holding the game, extracted at launch.</td></tr><tr><td><strong>.decomp</strong></td><td>PC port, see the <a href="../../others/recomp.md"><strong>Recompilations</strong></a> page.</td></tr></tbody></table>
+
+Games must be decrypted: dumped from your console with GodMode9, for example. An encrypted game does not start with Azahar.
 
 ## Controls
 
-{% hint style="info" %}
-The 3DS has a touchpad that is difficult to emulate, the best way to use it is with a mouse connected.
+### Automatic setup
 
-With some emulators, it is possible to use the right joystick for the touchpad screen.
-{% endhint %}
+Buttons are mapped by position, as on the console:
 
-### Standard control layout
+<table><thead><tr><th width="299">RetroBat controller</th><th>3DS</th></tr></thead><tbody><tr><td>EAST / SOUTH / NORTH / WEST</td><td>A / B / X / Y</td></tr><tr><td>D-pad</td><td>D-pad</td></tr><tr><td>Left stick</td><td>Circle pad</td></tr><tr><td>Right stick</td><td>C-stick (New 3DS); touch screen pointer with the azahar core and BizHawk (see below)</td></tr><tr><td>L1 / R1</td><td>L / R</td></tr><tr><td>L2 / R2</td><td>ZL / ZR (New 3DS)</td></tr><tr><td>START / SELECT</td><td>START / SELECT</td></tr></tbody></table>
 
-<div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/3ds.png?raw=true" alt="" width="375"><figcaption></figcaption></figure></div>
+**CONTROLS > INVERT FACE BUTTONS** places the buttons by their name on an Xbox controller (A on SOUTH, B on EAST…).
 
-The following option can be used to invert face buttons to match XBOX button names:
+| Standard                                         | Inverted                                         |
+| ------------------------------------------------ | ------------------------------------------------ |
+| ![](<../../../../.gitbook/assets/image (1).png>) | ![](<../../../../.gitbook/assets/image (2).png>) |
 
-<div align="left"><figure><img src="https://i.imgur.com/IKTTaQo.png" alt=""><figcaption></figcaption></figure></div>
+### Touch screen
 
-<div align="left"><figure><img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/3ds_revert.png?raw=true" alt="" width="375"><figcaption></figcaption></figure></div>
+* **Azahar, Azahar Plus, Mandarine, Citra**: click in the bottom screen with the mouse. With Azahar and Azahar Plus, **CONTROLS > TOUCH DEVICE** can also use a CemuHook device. **CONTROLS > USE TOUCH PROFILE** loads a "touch from button" profile created in the emulator (a controller button touches a point of the screen): enter the exact profile name.
+* **azahar core**: mouse (unless **CONTROLS > DISABLE MOUSE** is on) or pointer on the right stick, depending on **CONTROLS > RIGHT STICK FUNCTION** (C-STICK AND TOUCHSCREEN POINTER by default, TOUCHSCREEN POINTER, C-STICK). **L3** touches the screen where the pointer is. **CONTROLS > HIDE TOUCHSCREEN POINTER** hides it when it does not move.
+* **BizHawk**: pointer on the right stick, depending on **CONTROLS > RIGHT STICK FUNCTION**.
 
-### Touchscreen Management:
+With the azahar core and BizHawk, the tattoo shown follows the function chosen for the right stick.
 
-Depending on the emulator and options selected in RetroBat, mouse or rightstick can be used to simulate touchscreen movement.
+<table><thead><tr><th width="364">Option</th><th>Control layout</th></tr></thead><tbody><tr><td><strong>Right-Stick as Touchscreen Pointer</strong></td><td><img src="../../../../.gitbook/assets/3ds_stylus.png" alt="" data-size="original"></td></tr><tr><td><strong>Right-Stick as Touchscreen Pointer (inverted)</strong></td><td><img src="../../../../.gitbook/assets/3ds_stylus_revert.png" alt="" data-size="original"></td></tr><tr><td><strong>Right-Stick as C-Stick &#x26; Touchscreen Pointer</strong></td><td><img src="../../../../.gitbook/assets/3ds_stylus_cstick.png" alt="" data-size="original"></td></tr><tr><td><strong>Right-Stick as C-Stick &#x26; Touchscreen Pointer (inverted)</strong></td><td><img src="../../../../.gitbook/assets/3ds_stylus_cstick_revert.png" alt="" data-size="original"></td></tr></tbody></table>
 
-Azahar, Mandarine and Citra also allow to select dedicated Touch Profiles that can be created within the emulator:
+### Gyroscope
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+* **Azahar, Azahar Plus, Mandarine, Citra**: **CONTROLS > USE MOTION**: MOUSE (default), CONTROLLER (controller with a gyroscope: DualShock 4, DualSense, Switch Pro…) or CEMUHOOK.
+* **azahar core**: **CONTROLS > ENABLE MOTION** (controller with a gyroscope).
 
-{% hint style="info" %}
-You need to remember the name of the created profile and enter it in RetroBat.
-{% endhint %}
+### Hotkeys
 
-### Additional button layouts
+Azahar and Azahar Plus use the RetroBat hotkeys:
 
-Additional button layouts are available for some emulators, they can be accessed from the advanced settings > controls menu:
+<table><thead><tr><th width="223.25">Action</th><th>Controller</th><th>Keyboard</th></tr></thead><tbody><tr><td>Exit</td><td>HOTKEY + START</td><td><code>Esc</code></td></tr><tr><td>Save state</td><td>HOTKEY + WEST</td><td><code>F2</code></td></tr><tr><td>Load state</td><td>HOTKEY + NORTH</td><td><code>F4</code></td></tr><tr><td>Screenshot</td><td>HOTKEY + R3</td><td><code>F8</code></td></tr><tr><td>Pause</td><td>HOTKEY + SOUTH</td><td><code>P</code></td></tr><tr><td>Fast forward (hold)</td><td>HOTKEY + Right</td><td>—</td></tr><tr><td>Swap screens</td><td>HOTKEY + L1</td><td>—</td></tr><tr><td>Change screen layout</td><td>HOTKEY + R1</td><td>—</td></tr><tr><td>Fullscreen</td><td>—</td><td><code>F1</code></td></tr></tbody></table>
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+* **Mandarine**: HOTKEY + START (exit), HOTKEY + SOUTH (pause), HOTKEY + R3 (screenshot), HOTKEY + L3 (fullscreen).
+* **Citra**: HOTKEY + START (exit).
+* **azahar core**, **BizHawk**: RetroArch and BizHawk hotkeys.
 
-| Option                                                                                                                 | Control layout                                                                                   |
-| ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
-| <p><strong>Right-Stick as Touchscreen Pointer</strong></p><p></p><p>Libretro-Azahar<br>Bizhawk</p>                     | <img src="../../../../.gitbook/assets/3ds_stylus.png" alt="" data-size="original">               |
-| <p><strong>Right-Stick as Touchscreen Pointer (inverted)</strong><br></p><p>Libretro-Azahar<br>Bizhawk</p>             | <img src="../../../../.gitbook/assets/3ds_stylus_revert.png" alt="" data-size="original">        |
-| <p><strong>Right-Stick as C-Stick &#x26; Touchscreen Pointer</strong><br><br>Libretro-Azahar<br>Bizhawk</p>            | <img src="../../../../.gitbook/assets/3ds_stylus_cstick.png" alt="" data-size="original">        |
-| <p><strong>Right-Stick as C-Stick &#x26; Touchscreen Pointer (inverted)</strong><br><br>Libretro-Azahar<br>Bizhawk</p> | <img src="../../../../.gitbook/assets/3ds_stylus_cstick_revert.png" alt="" data-size="original"> |
+For more details, see the [**Hotkeys**](../../../../navigation/hotkeys.md) page.
 
-## Specific System Information
+## Folders
 
-### Files location
+<table><thead><tr><th width="364">Content</th><th>Folder</th></tr></thead><tbody><tr><td>Azahar, Azahar Plus, azahar core: internal memory and SD card</td><td><code>saves\3ds\azahar\nand</code>, <code>saves\3ds\azahar\sdmc</code> (shared by all three)</td></tr><tr><td>Azahar: save states</td><td><code>saves\3ds\azahar\states</code> (Azahar Plus: <code>saves\3ds\azahar-plus\states</code>)</td></tr><tr><td>azahar core: save states</td><td><code>saves\3ds\libretro.azahar</code></td></tr><tr><td>Mandarine</td><td><code>saves\3ds\mandarine\nand</code>, <code>saves\3ds\mandarine\sdmc</code></td></tr><tr><td>Citra</td><td><code>saves\3ds\Citra\nand</code>, <code>saves\3ds\Citra\sdmc</code></td></tr><tr><td>BizHawk</td><td><code>saves\3ds\bizhawk\user</code></td></tr><tr><td>Configuration (Azahar, Azahar Plus, Mandarine, Citra)</td><td><code>emulators\&#x3C;emulator>\user\config\qt-config.ini</code></td></tr><tr><td>Screenshots</td><td><code>screenshots\azahar</code> (Azahar, Azahar Plus), <code>screenshots\mandarine</code>, <code>screenshots\citra</code></td></tr></tbody></table>
 
-<table><thead><tr><th width="254">Data</th><th>Path (relative to retrobat root path)</th></tr></thead><tbody><tr><td>nand path</td><td>saves\3ds\&#x3C;emulator>\nand</td></tr><tr><td>sdmc path</td><td>saves\3ds\&#x3C;emulator>\sdmc</td></tr><tr><td>config file</td><td>emulators\&#x3C;emulator>\user\config\qt-config.ini</td></tr></tbody></table>
+## Guides
 
-### Running installed apps
+### Running an installed game (.cia, eShop)
 
-It is possible to use a .m3u file to run games that have been installed to the console NAND, the .m3u file must contain the full path to the .app file of the game.
+A `.cia` is installed into the memory of the emulated console, then the installed game is launched with a `.m3u` file (Azahar, Azahar Plus, Mandarine, Citra).
 
-Example of a game installed in the console NAND:
+1. Start the emulator from the `emulators` folder, **File > Install CIA** menu, and choose the `.cia`.
+2. Right-click the installed game, **Create Shortcut > Add to Desktop**.
+3. Copy the path of the `.app` shown in the shortcut (last part of the target, without the quotes) to a text file.
+4. Save this file with the `.m3u` extension in `roms\3ds`, then update the game list.
 
-<div align="left"><figure><img src="https://i.imgur.com/PF0szhC.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (3).png" alt="" width="428"><figcaption></figcaption></figure></div>
 
-Create a shortcut to the desktop for the installed game (right-click):
+### Custom textures
 
-<div align="left"><figure><img src="https://i.imgur.com/ZEajnv8.png" alt=""><figcaption></figcaption></figure></div>
+1. Put the texture pack in `emulators\<emulator>\user\load\textures\<game ID>` (azahar core: `saves\3ds\azahar\load\textures\<game ID>`). The game ID is shown in the emulator: right-click the game, **Open Custom Texture Location**.
+2. Turn on **VISUAL RENDERING > CUSTOM TEXTURES**, and if needed **VISUAL RENDERING > PREFETCH CUSTOM TEXTURES** (Azahar, Mandarine, Citra: loads the whole pack at startup).
 
-On the windows desktop, right-click on the the shortcut to copy its path and paste it in a .txt file (only keep the last part which is the path to the installed app, without the ""):
+### Screen layout
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/o7E5uFQ.png" alt=""><figcaption></figcaption></figure></div>
+**VIDEO > SCREEN LAYOUT POSITIONING** chooses the layout: TOP-BOTTOM SCREEN (default), SINGLE SCREEN ONLY, LARGE SCREEN / SMALL SCREEN, SIDE BY SIDE, SEPARATED WINDOWS and HYBRID (Azahar, Mandarine, Citra). **VIDEO > SWAP SCREEN** puts the bottom screen first.
 
-Save the text file with the .m3u extension and place it in the roms\3ds folder:
+With the RetroBat default decorations, Azahar places both screens inside the decoration: the chosen layout is then ignored.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/g2xUhcm.png" alt=""><figcaption></figcaption></figure></div>
+### Region and language
 
-### Custom Textures
+**EMULATION > REGION** forces the console region (automatic by default, from the game). **EMULATION > LANGUAGE** changes the console language, used by games that offer it; by default, the RetroBat language.
 
-It is possible to launch Custom Texture packs with the Citra standalone Emulator and Lime3DS.
+## Known issues
 
-The texture pack needs to be placed in the `\emulators\`<mark style="color:purple;">`<emulator>`</mark>`\User\Load\Textures\<gameID>` folder, example for Super Mario 3D Land:
-
-<div align="left"><figure><img src="https://i.imgur.com/6dLxUWC.png" alt=""><figcaption></figcaption></figure></div>
-
-{% hint style="info" %}
-When using the libretro core, textures must be placed in:
-
-`\saves\3ds\citra\Load\Textures\<gameID>`
-{% endhint %}
-
-The name of the custom texture folder can be found by right-clicking on the game in the emulator and selecting "Open Custom Texture Location".
-
-<div align="left"><figure><img src="https://i.imgur.com/xijuvR0.png" alt=""><figcaption></figcaption></figure></div>
-
-Once the custom texture pack is correctly named and placed, activate the **CUSTOM TEXTURES** setting.
-
-<div align="left"><figure><img src="../../../../.gitbook/assets/R5SWtvS.png" alt=""><figcaption><p>Go to the View Options from the Citra System</p></figcaption></figure></div>
-
-<div align="left"><figure><img src="https://i.imgur.com/Q0aI7p0.png" alt=""><figcaption></figcaption></figure></div>
-
-<div align="left"><figure><img src="https://i.imgur.com/WIDc4VR.png" alt=""><figcaption></figcaption></figure></div>
+<table><thead><tr><th width="364">Issue</th><th>Solution</th></tr></thead><tbody><tr><td>Azahar shows an error at launch (encrypted or unsupported game)</td><td>The game must be decrypted. Try renaming the <code>.3ds</code> to <code>.cci</code>, or use Azahar Plus.</td></tr><tr><td>A <code>.cia</code> does not start</td><td>Install it first in the emulator (see <a href="nintendo-3ds.md#running-an-installed-game-.cia-eshop"><strong>Guides</strong></a>).</td></tr><tr><td>A game requires a New 3DS</td><td>With the azahar core, set <strong>EMULATION > 3DS MODEL</strong> to NEW 3DS (default value).</td></tr><tr><td>The game stutters the first time an effect is shown</td><td>Keep <strong>VIDEO > USE ASYNCHRONOUS SHADER COMPILATION</strong> on (default with Azahar).</td></tr><tr><td>An Azahar save state launched from RetroBat does not load</td><td>Azahar cannot load a state at launch: RetroBat sends the load key (<code>F4</code>) once the game has started. Do not touch the keyboard meanwhile, or load it with HOTKEY + NORTH.</td></tr></tbody></table>

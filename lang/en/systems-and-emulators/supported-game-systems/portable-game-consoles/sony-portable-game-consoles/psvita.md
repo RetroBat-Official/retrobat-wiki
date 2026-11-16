@@ -4,7 +4,7 @@ description: Sony
 
 # PlayStation Vita
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (4).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 ## Overview
 
