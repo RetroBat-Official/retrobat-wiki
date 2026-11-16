@@ -45,6 +45,7 @@ cdimono1.zip
 - zx405042p__cdi_slave_2.0__b43t__zzmk9213.mc68hc705c8a_withtestrom.7206 "3d20cf7550f1b723158b42a1fd5bac62"
 
 vmpega.rom "53ba3bf7443187a657baa272d01d3771"
+impega.rom "05130da2e9fbb72d6e761534973d09fc"
 
 ```
 
