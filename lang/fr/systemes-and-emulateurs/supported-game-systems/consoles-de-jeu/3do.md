@@ -117,7 +117,9 @@ La 3DO affiche souvent peu d'images par seconde. **ÉMULATION > FRÉQUENCE DU PR
 
 <table><thead><tr><th width="334">Option</th><th>Effet</th></tr></thead><tbody><tr><td><strong>ÉMULATION > FORMAT VIDÉO ÉMULÉ</strong></td><td>NTSC (60 Hz) ou PAL (50 Hz). Certains jeux européens demandent un BIOS européen.</td></tr><tr><td><strong>ÉMULATION > VITESSE DE LECTURE CD</strong></td><td>Lecture plus rapide des disques (2x d'origine) ; certains jeux ne la supportent pas.</td></tr><tr><td><strong>ÉMULATION > HLE DE L'OS</strong></td><td>Émulation haut niveau de fonctions du système, peut améliorer les performances.</td></tr><tr><td><strong>ÉMULATION > DSP MULTITHREAD</strong></td><td>Le son est calculé sur un autre cœur du processeur (activé par défaut).</td></tr><tr><td><strong>VIDÉO > HAUTE RÉSOLUTION</strong></td><td>Rendu en résolution doublée (activé par défaut).</td></tr></tbody></table>
 
-**Phoenix** : **PILOTES > VIDÉO** (logiciel approximatif, logiciel original ou matériel expérimental), **SYNCHRONISATION VERTICALE**, **RENDU VISUEL > FILTRAGE BILINÉAIRE**.
+#### **Phoenix**
+
+**PILOTES > VIDÉO** (logiciel approximatif, logiciel original ou matériel expérimental), **SYNCHRONISATION VERTICALE**, **RENDU VISUEL > FILTRAGE BILINÉAIRE**.
 
 ## Problèmes connus
 
