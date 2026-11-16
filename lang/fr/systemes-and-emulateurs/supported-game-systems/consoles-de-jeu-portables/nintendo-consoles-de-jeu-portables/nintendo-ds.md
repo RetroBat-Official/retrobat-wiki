@@ -4,95 +4,167 @@ description: Nintendo
 
 # Nintendo DS
 
-<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/master/art/logos/nds.svg" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-Console de jeu portable - Durée de vie : 2004- 2011
+## Présentation
+
+La **Nintendo DS** est une console portable de Nintendo, sortie en 2004. Elle a deux écrans : celui du bas est tactile et se joue au stylet. Elle a aussi un microphone et une liaison sans fil (jeu à plusieurs, Téléchargement DS, Nintendo Wi-Fi Connection). Suivent la **DS Lite** (2006) et la **DSi** (2008), qui ajoute des caméras, une boutique en ligne (**DSiWare**) et quelques jeux qui ne fonctionnent que sur ce modèle.
+
+Parmi ses jeux : **New Super Mario Bros.**, **Mario Kart DS**, **Pokémon Diamant / Perle**, **Pokémon Or HeartGold / Argent SoulSilver**, **Pokémon Noir / Blanc**, **The Legend of Zelda: Phantom Hourglass**, **Professeur Layton**, **Phoenix Wright: Ace Attorney**, **Animal Crossing: Wild World**, **Nintendogs**, **Chrono Trigger**, **Dragon Quest IX**.
+
+RetroBat propose plusieurs émulateurs : le core libretro **melondsds** (par défaut), les cores **desmume**, **desmume2015**, **melonds** et **noods**, **melonDS**, **DeSmuME** et **BizHawk** (core melonDS).
 
 {% embed url="https://fr.wikipedia.org/wiki/Nintendo_DS" %}
 
-## Information
+## En bref
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>libretro: melonds DS</li><li>libretro : desmume</li><li>libretro : desmume2015</li><li>libretro : melonds</li><li>libretro: noods</li><li>melonds</li><li>bizhawk: melonDS</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> nds</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.nds .bin .zip .7z</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="245.25"></th><th></th></tr></thead><tbody><tr><td><strong>Dossier des jeux</strong></td><td><code>roms\nds</code></td></tr><tr><td><strong>Extensions</strong></td><td>.nds .bin .zip .7z .decomp</td></tr><tr><td><strong>Émulateur par défaut</strong></td><td>libretro: melondsds</td></tr><tr><td><strong>BIOS</strong></td><td>Aucun obligatoire (DSi : voir plus bas)</td></tr><tr><td><strong>Configuration des manettes</strong></td><td>Automatique, tous les émulateurs</td></tr><tr><td><strong>Sauvegardes instantanées</strong></td><td>cores libretro, DeSmuME, BizHawk ; melonDS par raccourcis (non gérées par RetroBat)</td></tr><tr><td><strong>RetroAchievements</strong></td><td>cores libretro, BizHawk</td></tr><tr><td><strong>Jeu en réseau</strong></td><td>cores desmume, desmume2015</td></tr><tr><td><strong>Pistolets</strong></td><td>—</td></tr><tr><td><strong>Volants</strong></td><td>—</td></tr><tr><td><strong>BIOS optionnels</strong></td><td><code>bios7.bin</code>, <code>bios9.bin</code>, <code>firmware.bin</code> (DS) ; <code>dsi_bios7.bin</code>, <code>dsi_bios9.bin</code>, <code>dsi_firmware.bin</code>, <code>dsi_nand.bin</code> (DSi), dans <code>bios</code></td></tr></tbody></table>
 
-## Fonctionnalités
+## Quel émulateur choisir ?
 
-<table><thead><tr><th width="256">Succès Rétro</th><th width="243">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td><p>lr-melondsds : OUI<br>lr-desmume : OUI<br>lr-desmume2015 : OUI<br>lr-melonds : OUI</p><p>lr-noods : OUI<br>MelonDS : NON<br>DesMume: NON<br>BizHawk : OUI</p></td><td><p>lr-melondsds : NON<br>lr-desmume : OUI<br>lr-desmume2015 : OUI<br>lr-melonds : NON</p><p>lr-noods : NON<br>MelonDS : NON<br>DesMume: NON<br>BizHawk : NON</p></td><td><p>lr-melondsds : OUI<br>lr-desmume : OUI<br>lr-desmume2015 : OUI<br>lr-melonds : OUI</p><p>lr-noods : OUI<br>MelonDS : OUI<br>DesMume: OUI<br>BizHawk : OUI</p></td></tr></tbody></table>
+| Émulateur                        | Points forts                                                                                                                                                                                                                       | Limites                                                                      |
+| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| **libretro: melondsds** (défaut) | Suit l'émulateur melonDS au plus près. Résolution augmentée (OpenGL), deux dispositions d'écrans à alterner en jeu, DSi automatique pour les jeux qui l'exigent, DSiWare, micro réel, sauvegardes instantanées, RetroAchievements. | Ne lance pas un fichier NAND `.bin`.                                         |
+| **libretro: desmume**            | Jeu en réseau, sauvegardes instantanées, RetroAchievements, résolution augmentée.                                                                                                                                                  | Émulation moins précise que melonDS. Pas de mode DSi.                        |
+| **libretro: desmume2015**        | Ancienne version de DeSmuME, plus légère, pour les PC modestes.                                                                                                                                                                    | Peu d'options. Pas de mode DSi.                                              |
+| **libretro: melonds**            | Ancien core melonDS.                                                                                                                                                                                                               | N'évolue plus, remplacé par melondsds. Pas de fichier NAND `.bin`.           |
+| **libretro: noods**              | Émulateur récent et léger.                                                                                                                                                                                                         | Pas de fichier NAND `.bin`.                                                  |
+| **melonds**                      | Dernière version de melonDS. Lance un fichier NAND `.bin` et gère les titres installés dans la NAND.                                                                                                                               | Sauvegardes instantanées non gérées par RetroBat. Écran tactile à la souris. |
+| **desmume**                      | Sauvegardes instantanées gérées par RetroBat, filtres d'image.                                                                                                                                                                     | Écran tactile à la souris. Pas de mode DSi.                                  |
+| **bizhawk** (melonDS)            | Outils de BizHawk (enregistrement, TAS), stylet au stick droit ou à la souris, RetroAchievements.                                                                                                                                  | Plus lourd que les autres.                                                   |
 
 ## BIOS
 
-<table><thead><tr><th width="187">Fichier BIOS</th><th width="98">Dossier</th><th>md5</th></tr></thead><tbody><tr><td>firmware.bin</td><td><code>\bios</code></td><td>145eaef5bd3037cbc247c213bb3da1b3</td></tr><tr><td>bios7.bin</td><td><code>\bios</code></td><td>df692a80a5b1bc90728bc3dfc76cd948</td></tr><tr><td>bios9.bin</td><td><code>\bios</code></td><td>a392174eb3e572fed6447e956bde4b25</td></tr><tr><td>dsi_bios9.bin</td><td><code>\bios</code></td><td></td></tr><tr><td>dsi_bios7.bin</td><td><code>\bios</code></td><td></td></tr><tr><td>dsi_firmware.bin</td><td><code>\bios</code></td><td></td></tr><tr><td>dsi_nand.bin</td><td><code>\bios</code></td><td></td></tr></tbody></table>
+Aucun BIOS n'est nécessaire pour les jeux DS : les émulateurs ont un BIOS intégré. Les fichiers de la console restent utiles pour démarrer sur le menu de la DS (**ÉMULATION > DÉMARRER DANS LE BIOS**) et pour le **Téléchargement DS**.
+
+**DS** :
+
+| Fichier        | Dossier |
+| -------------- | ------- |
+| `bios7.bin`    | `bios`  |
+| `bios9.bin`    | `bios`  |
+| `firmware.bin` | `bios`  |
+
+* **Core melondsds** : les fichiers sont utilisés s'ils sont présents ; **ÉMULATION > UTILISER LE BIOS INTERNE** force le BIOS intégré.
+* **melonDS, core desmume, DeSmuME, BizHawk** : activez **ÉMULATION > UTILISER LE BIOS EXTERNE** (DeSmuME : aussi **ÉMULATION > UTILISER LE FIRMWARE EXTERNE**).
+
+**DSi** (jeux DSi, DSiWare, menu de la DSi) :
+
+<table><thead><tr><th width="225.25">Fichier</th><th>Dossier</th></tr></thead><tbody><tr><td><code>dsi_bios7.bin</code></td><td><code>bios</code></td></tr><tr><td><code>dsi_bios9.bin</code></td><td><code>bios</code></td></tr><tr><td><code>dsi_firmware.bin</code></td><td><code>bios</code></td></tr><tr><td><code>dsi_nand.bin</code></td><td><code>bios</code></td></tr></tbody></table>
+
+Plusieurs NAND peuvent cohabiter : ajoutez la région au nom du fichier (`dsi_nand_EUR.bin`, `dsi_nand_USA.bin`, `dsi_nand_JPN.bin`, `KOR`, `AUS`, `CHN`), puis choisissez-la avec **ÉMULATION > RÉGION DE LA NAND DSI** (core melondsds, melonDS). Avec le core melondsds, AUTO choisit la NAND d'après la région du jeu.
+
+## Quel format de jeu ?
+
+<table><thead><tr><th width="171.5">Format</th><th>Description</th></tr></thead><tbody><tr><td><strong>.nds</strong></td><td>Copie d'une cartouche DS ou DSi, ou d'un DSiWare.</td></tr><tr><td><strong>.bin</strong></td><td>Fichier NAND d'une DSi : lance le menu de la console et ses titres installés (voir <a href="nintendo-ds.md#lancer-le-menu-dune-nand-dsi-.bin"><strong>Guides</strong></a>). Seulement avec melonDS et BizHawk.</td></tr><tr><td><strong>.zip</strong> / <strong>.7z</strong></td><td>Archive contenant un <code>.nds</code>.</td></tr><tr><td><strong>.decomp</strong></td><td>Portage PC, voir la page <a href="../../autres/recomp.md"><strong>Recompilations</strong></a>.</td></tr></tbody></table>
 
 ## Contrôles
 
-En dehors de l'émulateur standalone MelonDS, la plupart des émulateurs permettent de simuler l'écran tactile avec le joystick droit, cette option doit être activée depuis **OPTIONS AVANCÉES DU SYSTÈME > CONTRÔLES** :
+### Configuration automatique
 
-<div align="left"><figure><img src="https://i.imgur.com/3SNiUdQ.png" alt=""><figcaption></figcaption></figure></div>
+Les boutons sont associés par position, comme sur la console :
 
-| Option / émulateur                                            | Schéma de contrôles                                                                                                                                    |
-| ------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| lr-melondsds                                                  | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_melondsds.png?raw=true" alt="" data-size="original">             |
-| <p>lr-desmume<br>lr-desmume2015</p>                           | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds.png?raw=true" alt="" data-size="original">                       |
-| lr-melonds                                                    | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_melonds.png?raw=true" alt="" data-size="original">               |
-| MelonDS                                                       | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_melonds_standalone.png?raw=true" alt="" data-size="original">    |
-| MelonDS (stick gauche)                                        | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_melonds_standalone_ls.png?raw=true" alt="" data-size="original"> |
-| <p>BizHawk standard<br>(L2 permet d'émuler le microphone)</p> | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_bizhawk.png?raw=true" alt="" data-size="original">               |
-| <p>BizHawk (souris)<br>(L2 permet d'émuler le microphone)</p> | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_bizhawk_mouse.png?raw=true" alt="" data-size="original">         |
-| lr-noods                                                      | <img src="../../../../.gitbook/assets/image (22).png" alt="" data-size="original">                                                                     |
+| Manette RetroBat         | DS                   |
+| ------------------------ | -------------------- |
+| EST / SUD / NORD / OUEST | A / B / X / Y        |
+| Croix directionnelle     | Croix directionnelle |
+| L1 / R1                  | L / R                |
+| START / SELECT           | START / SELECT       |
 
-MelonDS propose également une option pour intervertir les boutons pour correspondre avec la disposition XBOX. L'option est activable depuis **OPTIONS AVANCÉES DU SYSTÈME > CONTRÔLES**
+Les fonctions propres à la DS (stylet, micro, couvercle, écrans) changent selon l'émulateur :
 
-<figure><img src="../../../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+| Émulateur                      | Stylet                                   | Micro | Couvercle | Écrans                    |
+| ------------------------------ | ---------------------------------------- | ----- | --------- | ------------------------- |
+| **Core melondsds**             | Stick droit, R3 pour toucher             | L2    | L3        | R2 : disposition suivante |
+| **Core melonds**               | Stick droit, R3 pour toucher             | L2    | L3        | R2 : inverser             |
+| **Cores desmume, desmume2015** | Stick droit, R2 pour toucher             | L3    | L2        | R3 : inverser             |
+| **Core noods**                 | Stick droit, R3 pour toucher             | L2    | —         | R2 : inverser             |
+| **melonDS**                    | Souris                                   | L2    | L3        | R2 : inverser             |
+| **DeSmuME**                    | Souris                                   | —     | —         | —                         |
+| **BizHawk**                    | Stick droit, R2 pour toucher (ou souris) | L2    | —         | —                         |
 
-## Information spécifique au système
+| Émulateur                  | Tatouage                                                                                                                                               |
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Core melondsds             | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_melondsds.png?raw=true" alt="" data-size="original">             |
+| Cores desmume, desmume2015 | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds.png?raw=true" alt="" data-size="original">                       |
+| Core melonds               | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_melonds.png?raw=true" alt="" data-size="original">               |
+| Core noods                 | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_noods.png?raw=true" alt="" data-size="original">                 |
+| melonDS                    | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_melonds_standalone.png?raw=true" alt="" data-size="original">    |
+| melonDS (stick gauche)     | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_melonds_standalone_ls.png?raw=true" alt="" data-size="original"> |
+| BizHawk                    | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_bizhawk.png?raw=true" alt="" data-size="original">               |
+| BizHawk (souris)           | <img src="https://github.com/RetroBat-Official/retrobat-tattoos/blob/main/default/nds_bizhawk_mouse.png?raw=true" alt="" data-size="original">         |
 
-### Lancer des jeux DSi
+### Options de contrôle
 
-Le core libretro melonDS\_DS permet de lancer la nativement les jeux DSiWare.
+* **Core melondsds** : **CONTRÔLES > ÉMULATION DE L'ÉCRAN TACTILE** (POINTEUR : souris ; JOYSTICK : stick droit), **CONTRÔLES > MODE D'AFFICHAGE DU CURSEUR**, **CONTRÔLES > ÉMULATION DU MICROPHONE** (micro réel, souffle, bruit, silence) et **CONTRÔLES > MODE DU BOUTON MICROPHONE**.
+* **Core melonds** : **CONTRÔLES > ÉMULATION DE L'ÉCRAN TACTILE** (JOYSTICK par défaut) et **CONTRÔLES > ÉMULATION DU MICROPHONE**.
+* **Cores desmume, desmume2015** : **CONTRÔLES > ÉMULER LE STYLET AVEC LE STICK DROIT** (activé par défaut).
+* **Core noods** : **CONTRÔLES > ÉMULATION DE L'ÉCRAN TACTILE**, **CONTRÔLES > AFFICHER LE POINTEUR**, **CONTRÔLES > MODE DU BOUTON D'INVERSION DES ÉCRANS**.
+* **melonDS** : **CONTRÔLES > UTILISER LE STICK ANALOGIQUE** (stick gauche à la place de la croix), **CONTRÔLES > DISPOSITION XBOX** (boutons d'après leur nom sur une manette Xbox), **CONTRÔLES > ÉMULATION DU MICROPHONE**.
+* **DeSmuME** : **CONTRÔLES > UTILISER LE STICK ANALOGIQUE**, **CONTRÔLES > INVERSER LES BOUTONS A/B/X/Y**.
+* **BizHawk** : **CONTRÔLES > UTILISER LA SOURIS** (stylet à la souris au lieu du stick droit).
 
-Pour MelonDS et libretro:melonDS, RetroBat permet de lancer des fichiers "nand" DSi (.bin) (cela permet notamment de jouer à des jeux de type DSiware, qui étaient installés directement dans la mémoire de la console).
+### Raccourcis
 
-Pour cela, il est nécessaire de disposer d'un fichier "nand" de la console et de déposer ce fichier '.bin' dans le dossier `roms\nds` de votre installation RetroBat. Lors du lancement de ce type de fichier, RetroBat va automatiquement lancer le menu d'accueil de la console et monter le fichier "nand", permettant ainsi de sélectionner les jeux installés sur cette "nand":
+melonDS, DeSmuME et BizHawk utilisent les raccourcis de RetroBat (par PadToKey) :
 
-#### Exemple d'un fichier "NAND":
+| Action                                   | Manette             | melonDS       | DeSmuME, BizHawk |
+| ---------------------------------------- | ------------------- | ------------- | ---------------- |
+| Quitter                                  | HOTKEY + START      | oui           | oui              |
+| Pause                                    | HOTKEY + SUD        | oui           | oui              |
+| Sauvegarde instantanée                   | HOTKEY + OUEST      | emplacement 1 | oui              |
+| Chargement                               | HOTKEY + NORD       | emplacement 1 | oui              |
+| Emplacement précédent / suivant          | HOTKEY + Bas / Haut | —             | oui              |
+| Ralenti (melonDS) / rembobiner (BizHawk) | HOTKEY + Gauche     | oui           | BizHawk          |
+| Avance rapide (maintenir)                | HOTKEY + Droite     | oui           | oui              |
+| Capture d'écran                          | HOTKEY + R3         | —             | oui              |
+| Plein écran                              | HOTKEY + L3         | oui           | BizHawk          |
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/gzpnw8S.png" alt=""><figcaption></figcaption></figure></div>
+Les cores libretro utilisent les raccourcis de RetroArch.
 
-Lors du lancement depuis RetroBat, l'émulateur charge directement le menu de la console:
+Pour plus de détails, voir la page [**Raccourcis**](../../../../navigation/hotkeys.md).
 
-<div align="left"><figure><img src="https://i.imgur.com/m2XG9ZQ.png" alt=""><figcaption></figcaption></figure></div>
+## Dossiers
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/CUHgynR.png" alt=""><figcaption></figcaption></figure></div>
+<table><thead><tr><th width="317.75">Contenu</th><th>Dossier</th></tr></thead><tbody><tr><td>Cores libretro, melonDS : sauvegardes</td><td><code>saves\nds</code></td></tr><tr><td>Cores libretro : sauvegardes instantanées</td><td><code>saves\nds\libretro.&#x3C;core></code></td></tr><tr><td>melonDS : sauvegardes instantanées</td><td><code>saves\nds\melonds\sstates</code></td></tr><tr><td>DeSmuME : sauvegardes</td><td><code>saves\nds\DeSmuME</code> (sauvegardes instantanées : <code>saves\nds\DeSmuME\stateslots</code>)</td></tr><tr><td>BizHawk : sauvegardes</td><td><code>saves\nds\bizhawk</code> (sauvegardes instantanées : <code>saves\nds\bizhawk\sstates\melonDS</code>)</td></tr><tr><td>Codes de triche</td><td><code>cheats\melonds</code> (melonDS), <code>cheats\desmume</code> (DeSmuME)</td></tr><tr><td>DeSmuME : captures d'écran</td><td><code>screenshots\DeSmuME</code></td></tr></tbody></table>
 
-<div align="left"><figure><img src="https://i.imgur.com/sPQNh6q.png" alt=""><figcaption></figcaption></figure></div>
+## Guides
 
-{% hint style="info" %}
-Noter que melonDS permet le lancement direct d'un fichier "nand" sans aucun prérequis,  libretro:melonds par contre, nécessite la présence d'au moins 1 fichier de jeu .nds dans le dossier `roms\nds` (la présence d'un jeu est nécessaire pour permettre à RetroArch de charger le core libretro).
-{% endhint %}
+### Jouer aux jeux DSi et aux DSiWare
 
-### Comment ajouter des jeux à un fichier "nand" ?
+1. Placez les fichiers DSi dans `bios` (voir **BIOS**).
+2. **Core melondsds** : laissez **ÉMULATION > TYPE DE CONSOLE** sur AUTO, la DSi est choisie pour les jeux qui l'exigent. Pour un DSiWare, choisissez DSI pour ce jeu.
+3. **melonDS** : choisissez **ÉMULATION > TYPE DE CONSOLE** DSi pour ce jeu.
 
-Seul l'émulateur melonDS permet de modifier un fichier "nand" en ajoutant ou supprimant des jeux, pour cela, procéder comme suit
+### Lancer le menu d'une NAND DSi (.bin)
 
-* Exécuter melonDS (`emulators\melonds`)
-* Naviguer dans config > emu settings, puis dans l'onglet DSi-mode :
+Un fichier NAND contient le menu de la DSi et les titres installés dans sa mémoire (DSiWare). Placez-le dans `roms\nds`, avec l'extension `.bin`, puis lancez-le avec **melonDS** (le plus simple) ou **BizHawk** : la console démarre sur son menu. La NAND est utilisée telle quelle : les sauvegardes de DSiWare et les titres installés y restent.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/KlcN2nS.png" alt=""><figcaption></figcaption></figure></div>
+* Les fichiers DSi (`dsi_bios7.bin`, `dsi_bios9.bin`, `dsi_firmware.bin`) doivent être dans `bios`.
+* Au moins un jeu `.nds` doit être présent : dans `roms\nds` pour melonDS, dans le même dossier que la NAND pour BizHawk (la console démarre avec cette cartouche insérée).
+* Les cores libretro ne lancent pas les NAND : RetroBat le signale au lancement, choisissez melonDS ou BizHawk pour ce fichier.
 
-* Cliquer sur "Browse..." et sélectionner le chemin vers le fichier "nand" à modifier, puis cliquer sur "OK"
-* Fermer le menu et naviguer vers system > Manage DSi titles
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (638).png" alt="" width="544"><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/z8t4zHy.png" alt=""><figcaption></figcaption></figure></div>
+### Ajouter des titres dans une NAND
 
-* Dans le prochain écran, il est possible de supprimer ou d'ajouter des titres sur la "nand"
+Seul melonDS peut ajouter ou supprimer des titres dans une NAND :
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/1Y5RUtd.png" alt=""><figcaption></figcaption></figure></div>
+1. Lancez melonDS depuis le dossier `emulators\melonds`.
+2. Menu **Config > Emu settings**, onglet **DSi mode** : choisissez la NAND à modifier avec **Browse…**, puis **OK**.
+3. Menu **System > Manage DSi titles** : **Import title…**, choisissez le DSiWare à installer, puis **OK**.
 
-* Presser "import title..." puis, dans l'écran suivant, sélectionner le jeu à installer sur la "nand"
-
-<div align="left"><figure><img src="https://i.imgur.com/tGcMnSu.png" alt=""><figcaption></figcaption></figure></div>
-
-* Confirmer en pressant "OK", le jeu est désormais installé dans la "nand" et est disponible lorsque la "nand" est chargée depuis RetroBat
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (637).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="danger" %}
-Les fichiers "nand" sont très sensibles et peuvent rapidement être corrompus en cas de fausse manipulation, ils ont notamment une limite de taille. Si lors du lancement d'un fichier nand melonDS affiche un écran noir, cela signifie que le fichier nand est invalide.
+Une NAND se corrompt facilement en cas de mauvaise manipulation, et sa taille est limitée : gardez une copie. Si melonDS affiche un écran noir au lancement d'une NAND, elle n'est pas valide.
 {% endhint %}
+
+### Dispositions des écrans
+
+* **Core melondsds** : **VIDÉO > POSITIONNEMENT DES ÉCRANS 1** et **VIDÉO > POSITIONNEMENT DES ÉCRANS 2** définissent deux dispositions (haut-bas et droite-gauche par défaut) ; R2 passe de l'une à l'autre en jeu.
+* **Autres émulateurs** : **VIDÉO > POSITIONNEMENT DES ÉCRANS** et **VIDÉO > INVERSER LES ÉCRANS**.
+
+## Problèmes connus
+
+<table><thead><tr><th width="359">Problème</th><th>Solution</th></tr></thead><tbody><tr><td>RetroBat signale que l'émulateur ne prend pas en charge ce format au lancement d'un <code>.bin</code></td><td>Les NAND ne se lancent qu'avec melonDS ou BizHawk : choisissez l'un d'eux pour ce fichier.</td></tr><tr><td>melonDS refuse de lancer un jeu en mode DSi (« dsi bios files are missing »)</td><td>Placez <code>dsi_bios7.bin</code>, <code>dsi_bios9.bin</code>, <code>dsi_firmware.bin</code> et la NAND dans <code>bios</code>.</td></tr><tr><td>melonDS refuse de lancer une NAND (aucun jeu <code>.nds</code> trouvé)</td><td>Ajoutez au moins un jeu <code>.nds</code> (voir <a href="nintendo-ds.md#lancer-le-menu-dune-nand-dsi-.bin"><strong>Lancer le menu d'une NAND DSi</strong></a>).</td></tr><tr><td><strong>ÉMULATION > DÉMARRER DANS LE BIOS</strong> n'a pas d'effet</td><td>Placez <code>bios7.bin</code>, <code>bios9.bin</code> et <code>firmware.bin</code> dans <code>bios</code>, et activez <strong>ÉMULATION > UTILISER LE BIOS EXTERNE</strong> (melonDS, DeSmuME, BizHawk).</td></tr><tr><td>Le stylet ne répond pas à la manette avec melonDS ou DeSmuME</td><td>Ces émulateurs utilisent la souris : utilisez un core libretro ou BizHawk pour jouer au stick droit.</td></tr></tbody></table>

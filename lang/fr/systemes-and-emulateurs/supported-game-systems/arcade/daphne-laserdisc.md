@@ -86,7 +86,7 @@ Pour configurer vous-même les touches de Hypseus, désactivez **AUTOCONFIGURER 
 4. Vérifiez que le dossier contient un fichier `.txt` du même nom : `lair.txt`.
 5. Mettez à jour la liste des jeux dans RetroBat.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 Au premier lancement, l'émulateur analyse les vidéos et crée des fichiers `.dat` dans le dossier du jeu : le démarrage est plus long cette fois-là.
 
