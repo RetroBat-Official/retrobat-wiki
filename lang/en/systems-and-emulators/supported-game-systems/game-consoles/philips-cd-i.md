@@ -74,7 +74,8 @@ With the mame core and MAME, RetroBat does not set up the controller: use the MA
 ### Mouse and second player
 
 * **zcdi core**: **CONTROLS > PLAYER 1 CONTROLLER TYPE**: gamepad (default) or mouse. **PLAYER 2 CONTROLLER TYPE**: none, gamepad or mouse; a second gamepad is used automatically when connected.
-* **OpenCDi**: **CONTROLS > POINTING DEVICE**: gamepad (the controller and the keyboard move the cursor) or mouse (the PC mouse moves the cursor, the controller only keeps its buttons). **HOTKEY + L3** switches mode in game. **MOUSE SENSITIVITY** sets the cursor speed.
+* **OpenCDi**: **CONTROLS > POINTING DEVICE**: gamepad (the controller and the keyboard move the cursor) or mouse (the PC mouse moves the cursor, the controller only keeps its buttons). **HOTKEY + L3** switches mode in game.\
+  **MOUSE SENSITIVITY** sets the cursor speed (100% by default).
 
 ### Light guns
 
@@ -109,7 +110,7 @@ The zcdi core emulates the **Peacekeeper** light gun on port 1 (American Laser G
 Full-motion video games (**Dragon's Lair**, **Space Ace**, **Mad Dog McCree**, **Who Shot Johnny Rock?**, **Burn:Cycle**…) and Video CDs need the Digital Video Cartridge. Only **zcdi** and **OpenCDi** emulate it, with the `vmpega.rom` file in `bios`:
 
 * **zcdi** uses it automatically when the file is present;
-* **OpenCDi** also looks for it inside `cdimono1.zip`; **EMULATION > DIGITAL VIDEO CARTRIDGE** removes it.
+* **OpenCDi** also looks for it inside `cdimono1.zip`; with the CD-i 490 BIOS (`cdi490a.rom`), it needs `impega.rom` instead. **EMULATION > DIGITAL VIDEO CARTRIDGE** removes it.
 
 With same\_cdi, the mame core and MAME, these games do not start: pick zcdi or OpenCDi for them.
 

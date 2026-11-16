@@ -64,7 +64,7 @@ The list is the `emulationstation\resources\gamesdb.xml` file (games marked `<wh
 
 TeknoParrot and Linuxloader also have a mapping for many other wheels (Logitech G Pro, Thrustmaster T150 / TMX / T248 / T300RS PS4 / T500RS / TX / TS-XW, Fanatec, Moza R9 / R12 / R16, Simucube, Simagic, Asetek, Cammus, PXN V9) and a `default` mapping used for the other detected wheels.
 
-Supermodel, Model3-Vulkan and Odin use the same `model3_wheels.yml` file. Model3-Vulkan and Odin first read `model3vulkan_wheels.yml` / `odin_wheels.yml` when it exists (not provided by RetroBat).
+Supermodel, Model3-Vulkan and Odin use the same `model3_wheels.yml` file. Model3-Vulkan and Odin first read `model3vulkan_wheels.yml` / `odin_wheels.yml` when it exists (not provided by RetroBat). With a wheel set up by RetroBat, Model3-Vulkan turns off the steering smoothing and sensitivity meant for gamepads: the steering follows the wheel without filtering.
 
 {% hint style="info" %}
 **Thrustmaster T300RS**: set the pedals to **split** in the Thrustmaster Control Panel, and make sure they are not inverted (fixed by holding **MODE + L3 + R3**).

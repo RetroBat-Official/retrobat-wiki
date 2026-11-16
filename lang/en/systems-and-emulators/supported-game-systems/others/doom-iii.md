@@ -24,12 +24,7 @@ The game files are not provided: use the ones from your own copy (CD, Steam, GOG
 
 ## Which emulator should I use?
 
-| Emulator                      | Strengths                                                                                                                 | Limitations                                                                      |
-| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
-| **libretro: boom3** (default) | RetroArch hotkeys, OpenGL or Vulkan rendering, frame rates above 60 fps, also accepts unpatched data (1.0, 1.1).          | No mods in RetroBat. The core's controller layouts are less handy than dhewm3's. |
-| **dhewm3**                    | Engine the core is based on, mods, controller set up like Doom 3 BFG, many options (quality, brightness, surround sound). | Requires game data patched to 1.3.1.                                             |
-
-To change the emulator, for the whole system or for a single game, see the **Configuration of systems and games** page.
+<table><thead><tr><th width="178.25">Emulator</th><th>Strengths</th><th>Limitations</th></tr></thead><tbody><tr><td><strong>libretro: boom3</strong> (default)</td><td>RetroArch hotkeys, OpenGL or Vulkan rendering, frame rates above 60 fps, also accepts unpatched data (1.0, 1.1).</td><td>No mods in RetroBat. The core's controller layouts are less handy than dhewm3's.</td></tr><tr><td><strong>dhewm3</strong></td><td>Engine the core is based on, mods, controller set up like Doom 3 BFG, many options (quality, brightness, surround sound).</td><td>Requires game data patched to 1.3.1.</td></tr></tbody></table>
 
 ## BIOS
 

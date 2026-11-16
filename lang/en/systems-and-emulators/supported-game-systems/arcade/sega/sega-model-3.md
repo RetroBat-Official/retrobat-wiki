@@ -84,7 +84,7 @@ With Supermodel, Model3-Vulkan and the libretro core, gun games must be calibrat
 
 Supermodel, Keisho and Model3-Vulkan support wheels, with the **WHEELS > ENABLE WHEEL** option.
 
-* Supermodel and Model3-Vulkan: **ENABLE FORCE FEEDBACK**, separate shifter; buttons set per wheel type in `model3_wheels.yml` (Model3-Vulkan first reads `model3vulkan_wheels.yml` if there is one). **FORCE WHEEL INDEX** selects the wheel if it is not detected.
+* Supermodel and Model3-Vulkan: **ENABLE FORCE FEEDBACK**, separate shifter; buttons set per wheel type in `model3_wheels.yml` (Model3-Vulkan first reads `model3vulkan_wheels.yml` if there is one). **FORCE WHEEL INDEX** selects the wheel if it is not detected. With Model3-Vulkan, the controller steering smoothing and sensitivity are turned off when a wheel is set up by RetroBat: the steering follows the wheel without filtering.
 * Keisho: **ENABLE FORCE FEEDBACK** and **FORCE FEEDBACK STRENGTH**; buttons set per wheel type in `keisho_wheels.yml`, steering and pedals detected by Keisho.
 * libretro core: **ENABLE FORCE FEEDBACK**.
 
@@ -139,7 +139,7 @@ Model3-Vulkan can replace the original textures with HD texture packs. Put the p
 
 <table><thead><tr><th width="352.75">Option</th><th>Effect</th></tr></thead><tbody><tr><td><strong>INTERNAL RESOLUTION</strong></td><td>Increases the rendering resolution.</td></tr><tr><td><strong>WIDESCREEN HACK</strong></td><td>Displays games in 16:9 (or stretched).</td></tr><tr><td><strong>VISUAL RENDERING > CRT FILTER</strong> / <strong>CRT COLORS</strong></td><td>Look and colors of a CRT screen.</td></tr><tr><td><strong>VISUAL RENDERING > DISABLE WHITE FLASH</strong></td><td>Removes the white flash of the shots.</td></tr><tr><td><strong>CONTROLS > STEERING SMOOTHING</strong> / <strong>STEERING SENSITIVITY</strong></td><td>Controller steering settings in driving games (no effect on a wheel).</td></tr><tr><td><strong>CONTROLS > CHASE CAMERA STABILIZER</strong></td><td>Damps the chase camera swing in driving games, whatever the controller.</td></tr><tr><td><strong>AUDIO > AUDIO CHANNELS</strong></td><td><strong>QUADRAPHONIC</strong> (default, folded down to stereo on a 2-channel output), <strong>STEREO</strong> or <strong>SURROUND 5.1</strong>.</td></tr><tr><td><strong>VIDEO > LOW LATENCY</strong></td><td>Reduces display lag.</td></tr></tbody></table>
 
-**Keisho**: **INTERNAL RESOLUTION**, **GAME ASPECT RATIO**, **VISUAL RENDERING > CRT FILTER**, **ADJUST BRIGHTNESS** (also on Model 3), **EMULATION > REWIND**. **TRANSLUCENCY** and **DRAW DISTANCE** only apply to Model 1 and Model 2. See also the [**Sega Model 1**](sega-model-1.md) page.
+**Keisho**: **INTERNAL RESOLUTION**, **GAME ASPECT RATIO**, **VISUAL RENDERING > CRT FILTER**, **ADJUST BRIGHTNESS** (also on Model 3), **EMULATION > REWIND**, **AUDIO > AUDIO CHANNELS** (**SURROUND 4.0**: the rear speakers of the four-speaker Scud Race, Daytona USA 2, Sega Rally 2 and The Lost World cabinets play on rear speakers; the other games stay in stereo). **TRANSLUCENCY** and **DRAW DISTANCE** only apply to Model 1 and Model 2. See also the [**Sega Model 1**](sega-model-1.md) page.
 
 **libretro core**: **INTERNAL RESOLUTION**, **VIDEO > WIDESCREEN HACK**, **EMULATION > POWERPC FREQUENCY**.
 
