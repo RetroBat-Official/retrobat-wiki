@@ -4,7 +4,7 @@ description: Sega
 
 # Sega Model 2
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (1).png" alt="" width="259"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt="" width="259"><figcaption></figcaption></figure></div>
 
 ## Présentation
 
@@ -53,7 +53,7 @@ L'option **AUTOCONFIGURER LES MANETTES** permet de garder sa propre configuratio
 
 m2emulator utilise par défaut le pilote XInput. Si votre manette n'est pas compatible XInput, choisissez **PILOTES > CONTRÔLEUR > DINPUT** dans les options avancées du système. RetroBat passe aussi en DInput tout seul s'il ne trouve aucune manette XInput.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Contrôles par jeu (m2emulator)
 
@@ -186,7 +186,7 @@ Le menu de test de chaque borne donne accès aux réglages du jeu (difficulté, 
 * **Core libretro sm2** : L3 / R3, activé par défaut (**CONTRÔLES > TEST/SERVICE SUR L3/R3**).
 * **Keisho**, **Supermodel** : voir la page [**Sega Model 1**](sega-model-1.md).
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Calibrer les pistolets
 
