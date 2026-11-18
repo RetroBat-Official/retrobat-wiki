@@ -4,37 +4,128 @@ description: Capcom
 
 # CPS I
 
-<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/cps1.svg" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (623).png" alt=""><figcaption></figcaption></figure></div>
 
-Arcade - Lifespan: 1988 - 1995
+## Overview
+
+The **CP System** (Capcom Play System, or **CPS-1**) is Capcom's first arcade board, released in 1988. About thirty games use it until 1995, including many classics:
+
+* the fighting games **Street Fighter II** (The World Warrior, Champion Edition, Hyper Fighting);
+* the beat'em ups **Final Fight**, **Captain Commando**, **Knights of the Round**, **The King of Dragons**;
+* the action and shooting games **Strider**, **Ghouls'n Ghosts**, **Forgotten Worlds**, **1941**, **Mercs**, **U.N. Squadron**.
+
+The last games (sometimes called "CPS-1.5") add the QSound chip: **Cadillacs and Dinosaurs**, **The Punisher**, **Warriors of Fate**, **Saturday Night Slam Masters**.
+
+In RetroBat, these games can also be stored in the FinalBurn Neo system (see the [**FinalBurn Neo**](../final-burn-neo.md) page).
 
 {% embed url="https://en.wikipedia.org/wiki/CP_System" %}
 
-## Information
+## At a glance
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: fbneo</li><li>Libretro: fbalpha2012_cps1</li><li>Libretro: fbalpha</li><li>Libretro: fbalpha2012</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> cps1</td></tr><tr><td><strong>File extension</strong></td><td>.fba .zip .7z</td></tr></tbody></table>
+<table><thead><tr><th width="231.5"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\cps1</code></td></tr><tr><td><strong>Extensions</strong></td><td>.zip .7z</td></tr><tr><td><strong>Default emulator</strong></td><td>libretro: fbneo</td></tr><tr><td><strong>BIOS</strong></td><td>None</td></tr><tr><td><strong>Controller setup</strong></td><td>Automatic</td></tr><tr><td><strong>Save states</strong></td><td>libretro cores; FBNeo with hotkeys</td></tr><tr><td><strong>RetroAchievements</strong></td><td>libretro cores (fbneo recommended)</td></tr><tr><td><strong>Netplay</strong></td><td>libretro cores</td></tr></tbody></table>
 
-## Bios Information
+## Which emulator should I choose?
 
-No BIOS necessary for CPS systems.
+| Emulator                        | For whom?                     | Strengths                                                                                                                                   | Limits                                                     |
+| ------------------------------- | ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| **libretro: fbneo** (default)   | Everyone                      | The current FinalBurn Neo in RetroArch: very compatible, layouts for 6-button games, dip switches, high scores, RetroAchievements, netplay. | —                                                          |
+| **libretro: fbalpha2012\_cps1** | Very low-end PCs, old romsets | FB Alpha 2012 core dedicated to the CPS-1, very light.                                                                                      | FB Alpha 0.2.97.28 romset. Does not read `.7z`.            |
+| **libretro: fbalpha**           | Old romsets                   | FB Alpha 0.2.97.44.                                                                                                                         | Romset of its own version, no longer updated.              |
+| **libretro: fbalpha2012**       | Old romsets                   | FB Alpha 0.2.97.29.                                                                                                                         | Romset of its own version.                                 |
+| **fbneo** (standalone)          | Cabinets, arcade sticks       | The official FBNeo, buttons set game by game by RetroBat (see the [**FinalBurn Neo**](../final-burn-neo.md) page).                          | No RetroAchievements or netplay. Save states with hotkeys. |
+
+**If in doubt, keep libretro: fbneo.**
+
+## BIOS
+
+No BIOS is needed.
+
+## Which game format should I use?
+
+Games are `.zip` or `.7z` romsets, to keep compressed and under their original name (`sf2ce.zip`…). The romset must match the emulator version:
+
+<table><thead><tr><th width="306.5">Emulator</th><th>Romset version</th></tr></thead><tbody><tr><td>libretro: fbneo, fbneo (standalone)</td><td>Latest FBNeo version</td></tr><tr><td>libretro: fbalpha2012_cps1</td><td>FB Alpha 0.2.97.28 (<code>.zip</code> only)</td></tr><tr><td>libretro: fbalpha</td><td>FB Alpha 0.2.97.44</td></tr><tr><td>libretro: fbalpha2012</td><td>FB Alpha 0.2.97.29</td></tr></tbody></table>
+
+The fbalpha2012\_cps1 core is not offered for a `.7z` game. For details about romsets (non-merged, split, merged), see the [**Arcade Guide**](../../../arcade-guide.md) page.
 
 ## Controls
 
-### Arcade stick mapping
+RetroBat sets up the controllers automatically. **SELECT** inserts a coin, **START** starts the game, the left stick and the d-pad move the player.
 
-Mapping can be found in the [notice](http://retrobat.ovh/notice/notice.pdf).
+### fbneo core
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/c_eng.png" alt=""><figcaption></figcaption></figure></div>
+The **CONTROLS > CONTROLLER TYPE** option picks the layout. For 6-button fighting games (Street Fighter II):
 
-### Controller mapping
+| RetroBat controller | CLASSIC (default) | MODERN       |
+| ------------------- | ----------------- | ------------ |
+| WEST                | Light punch       | Light punch  |
+| NORTH               | Medium punch      | Medium punch |
+| L1                  | Heavy punch       | —            |
+| R1                  | Heavy kick        | Heavy punch  |
+| R2                  | —                 | Heavy kick   |
+| SOUTH               | Light kick        | Light kick   |
+| EAST                | Medium kick       | Medium kick  |
 
-For FBNEO and FBALPHA cores, 2 controller layouts are available:
+The other games use the face buttons in order: SOUTH = button 1, EAST = button 2, WEST = button 3, NORTH = button 4.
 
-* CLASSIC
-* MODERN
+**6-BUTTON PANEL** suits an arcade stick with two rows of three buttons. The other choices are described on the [**FinalBurn Neo**](../final-burn-neo.md) page.
 
-<table><thead><tr><th width="219">Retrobat Button</th><th>CLASSIC</th><th>MODERN</th></tr></thead><tbody><tr><td>START</td><td>START</td><td>START</td></tr><tr><td>SELECT</td><td>COIN</td><td>COIN</td></tr><tr><td>Left analog stick</td><td>Stick</td><td>Stick</td></tr><tr><td>Right analog stick</td><td></td><td></td></tr><tr><td>D-PAD</td><td>Stick</td><td>Stick</td></tr><tr><td><img src="../../../../.gitbook/assets/image (48).png" alt=""></td><td>3</td><td>3</td></tr><tr><td><img src="../../../../.gitbook/assets/image (30).png" alt=""></td><td>1</td><td>1</td></tr><tr><td><img src="../../../../.gitbook/assets/image (16) (1).png" alt=""></td><td>2</td><td>2</td></tr><tr><td><img src="../../../../.gitbook/assets/image (50).png" alt=""></td><td>4</td><td>4</td></tr><tr><td>L1</td><td>5</td><td></td></tr><tr><td>R1</td><td>6</td><td>5</td></tr><tr><td>L2</td><td></td><td></td></tr><tr><td>R2</td><td></td><td>6</td></tr><tr><td>L3</td><td></td><td></td></tr><tr><td>R3</td><td></td><td></td></tr></tbody></table>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (624).png" alt=""><figcaption></figcaption></figure></div>
 
-## Specific system information
+### fbalpha2012\_cps1 core
 
-There is no specific System information documented here yet.
+Buttons are placed as with the fbneo core in CLASSIC. This core has no layout option.
+
+### FBNeo (standalone)
+
+RetroBat sets the buttons game by game with the `fbneo.yml` mapping file: see the [**FinalBurn Neo**](../final-burn-neo.md) page.
+
+### Hotkeys
+
+The libretro cores use the standard RetroArch hotkeys (see the [**Hotkeys**](../../../../navigation/hotkeys.md) page). For standalone FBNeo, see the [**FinalBurn Neo**](../final-burn-neo.md) page.
+
+## Folders
+
+| Content                                                   | Folder                                                                                                                                                                             |
+| --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Games                                                     | `roms\cps1`                                                                                                                                                                        |
+| fbneo core: NVRAM, EEPROM, high scores                    | `saves\cps1\fbneo`                                                                                                                                                                 |
+| fbalpha2012\_cps1, fbalpha, fbalpha2012 cores: game saves | `saves\cps1`                                                                                                                                                                       |
+| libretro cores: save states                               | `saves\cps1\libretro.<core>`                                                                                                                                                       |
+| High score file (`hiscore.dat`)                           | <p><code>bios\fbneo</code> (fbneo)</p><p><code>bios\fba</code> (fbalpha), copied to <code>bios\fbalpha2012</code> (fbalpha2012_cps1) and <code>saves\cps1</code> (fbalpha2012)</p> |
+| Standalone FBNeo                                          | See the [**FinalBurn Neo**](../final-burn-neo.md) page                                                                                                                             |
+
+## Guides
+
+### Service menu and dip switches
+
+The cabinet service menu sets the difficulty, the number of lives, free play…
+
+* fbneo core: **START + L1 + R1**, or another combination with **EMULATION > DIAGNOSTIC MENU INPUT**.
+* **R3** opens the service menu (fbalpha2012\_cps1 core).
+
+The board **dip switches** are set in the RetroArch menu (**HOTKEY + SOUTH**), **Core Options > Dip switches** (fbneo core). **EMULATION > ENABLE FREE PLAY** (fbneo core) sets free play directly when the game allows it.
+
+### Vertical games
+
+Vertical shoot'em ups (1941, Mercs, Varth) are displayed the right way up, with a vertical decoration.
+
+* fbneo core: **VIDEO > TATE MODE** rotates the picture for a screen standing vertically.
+* fbalpha2012\_cps1 core: **VIDEO > AUTO ROTATE**, on by default, rotates the picture of vertical games. When off, the directions are rotated for a screen standing vertically.
+* Standalone FBNeo: **VIDEO > VERTICAL MONITOR INDEX** shows vertical games on another screen.
+
+### High scores
+
+**EMULATION > ENABLE HISCORES**, on by default, keeps the high scores of compatible games. RetroBat provides the `hiscore.dat` file to each core (see [**Folders**](cp-system.md#folders)).
+
+### RetroAchievements
+
+The fbneo core is the best supported by RetroAchievements for arcade. In hardcore mode, keep **EMULATION > CPU OVERCLOCK** at 100% or more. For more details, see the [**RetroAchievements**](../../../../advanced-features/retroachievements.md) page.
+
+### Other useful options
+
+<table><thead><tr><th width="218.25">Emulator</th><th width="241.5">Option</th><th>Effect</th></tr></thead><tbody><tr><td>fbneo, fbalpha2012_cps1</td><td><strong>EMULATION > CPU OVERCLOCK</strong></td><td>Reduces the original slowdowns of some games. Can cause glitches.</td></tr><tr><td>fbneo</td><td><strong>VIDEO > FORCE 60HZ</strong></td><td>Forces games to 60 Hz (original rate: about 59.6 Hz).</td></tr><tr><td>fbalpha2012_cps1</td><td><strong>VIDEO > FRAMESKIP</strong></td><td>Skips frames on a PC that is too slow.</td></tr><tr><td>fbneo</td><td><strong>AUDIO > LOWPASS FILTER</strong></td><td>Softens the sound.</td></tr><tr><td>fbalpha2012_cps1</td><td><strong>AUDIO > AUDIO FILTER</strong></td><td>Softens the sound (from 0 to 95%).</td></tr></tbody></table>
+
+## Known issues
+
+<table><thead><tr><th width="356.5">Issue</th><th>Solution</th></tr></thead><tbody><tr><td>The game does not start, or a file is missing</td><td>The romset does not match the emulator version (see <a href="cp-system.md#which-game-format-should-i-use"><strong>Which game format should I use?</strong></a>).</td></tr><tr><td>The fbalpha2012_cps1 core is not offered</td><td>The game is a <code>.7z</code>: this core only reads <code>.zip</code>.</td></tr><tr><td>High scores are not kept</td><td>The game is not in <code>hiscore.dat</code>, or <strong>ENABLE HISCORES</strong> is off. They are not kept in netplay.</td></tr><tr><td>RetroAchievements switches to normal mode</td><td><strong>CPU OVERCLOCK</strong> is below 100%, or cheats are active.</td></tr></tbody></table>
