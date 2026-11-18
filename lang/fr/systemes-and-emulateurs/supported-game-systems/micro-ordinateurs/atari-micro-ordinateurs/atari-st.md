@@ -4,82 +4,162 @@ description: Atari
 
 # Atari ST
 
-<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/atarist-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/atarist.svg" alt=""></picture><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (647).png" alt=""><figcaption></figcaption></figure></div>
 
-Micro-ordinateur - Durée de vie : 1985 - 1993
+## Présentation
+
+L'**Atari ST** sort en 1985 (520 ST, puis 1040 ST). Il a un processeur Motorola 68000 et l'interface graphique GEM, avec une souris, et coûte bien moins cher que ses concurrents. Ses prises MIDI intégrées en font l'ordinateur des musiciens. En Europe, et surtout en France, c'est l'un des ordinateurs de jeu les plus populaires de la fin des années 1980. Viennent ensuite le Mega ST, le STE (1989 : plus de couleurs, son numérique, ports de manettes améliorés), le Mega STE, le TT et le Falcon.
+
+Sa ludothèque est immense : Dungeon Master, Xenon 2, Populous, Captain Blood, Carrier Command, Starglider, Another World, Lemmings, Kick Off… La plupart des jeux sont sur disquette.
 
 {% embed url="https://fr.wikipedia.org/wiki/Atari_ST" %}
 
-## Information
+## En bref
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>libretro: hatari</li><li>libretro: hatarib</li><li>hatari</li></ul></td><td></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> atarist</td><td></td></tr><tr><td><strong>Extensions</strong></td><td>.st .msa .stx .dim .ipf .m3u .gemdos .zip .7z</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="269"></th><th></th></tr></thead><tbody><tr><td><strong>Dossier des jeux</strong></td><td><code>roms\atarist</code></td></tr><tr><td><strong>Extensions</strong></td><td>.st .msa .stx .dim .ipf .ctr .gz .m3u .gem .gemdos .acsi .ahd .vhd .scsi .shd .ide .zip .7z</td></tr><tr><td><strong>Émulateur par défaut</strong></td><td>libretro: hatarib</td></tr><tr><td><strong>BIOS</strong></td><td>Aucun (TOS facultatif ; obligatoire pour hatari2014)</td></tr><tr><td><strong>Configuration des manettes</strong></td><td>Automatique</td></tr><tr><td><strong>Sauvegardes instantanées</strong></td><td>cores libretro ; Hatari par raccourcis (une par jeu)</td></tr><tr><td><strong>RetroAchievements</strong></td><td>Non</td></tr><tr><td><strong>Jeu en réseau</strong></td><td>core libretro hatarib</td></tr></tbody></table>
 
-## Fonctionnalités
+## Quel émulateur choisir ?
 
-<table><thead><tr><th width="245">Succès Rétro</th><th width="200">Parties en Réseau</th><th>Auto configuration des contrôles</th></tr></thead><tbody><tr><td>lr-hatari : NON<br>lr-hatarib : NON<br>Hatari : NON</td><td>lr-hatari : NON<br>lr-hatarib : NON<br>Hatari : NON</td><td>lr-hatari : NON<br>lr-hatarib : NON<br>Hatari : NON</td></tr></tbody></table>
+<table><thead><tr><th width="139">Émulateur</th><th width="137.25">Pour qui ?</th><th>Points forts</th><th>Limites</th></tr></thead><tbody><tr><td><strong>libretro: hatarib</strong> (défaut)</td><td>Tout le monde</td><td>hatariB, une version libretro récente de Hatari : EmuTOS intégré, clavier à l'écran, souris au stick droit, disques durs, sauvegardes instantanées, jeu en réseau.</td><td>—</td></tr><tr><td><strong>libretro: hatari2014</strong></td><td>Dépannage</td><td>Ancienne version libretro de Hatari (1.8).</td><td>Demande <code>tos.img</code>. Ni disques durs, ni <code>.ctr</code> / <code>.gz</code>.</td></tr><tr><td><strong>hatari</strong> (autonome)</td><td>Puristes</td><td>Hatari dans sa version d'origine, avec son menu complet : ST, Mega ST, STE, Mega STE, manettes Jaguar du STE, enregistrement vidéo.</td><td>Demande un TOS (voir <a href="atari-st.md#bios"><strong>BIOS</strong></a>). Une seule sauvegarde instantanée par jeu, par raccourcis.</td></tr></tbody></table>
+
+**En cas de doute, gardez libretro: hatarib.**
 
 ## BIOS
 
-<table><thead><tr><th width="149">Fichier BIOS</th><th width="209.03610108303252">Dossier</th><th>md5 hash / remark</th></tr></thead><tbody><tr><td>tos.img</td><td><code>\bios</code></td><td>b2a8570de2e850c5acf81cb80512d9f6</td></tr><tr><td>emutos.img</td><td><code>\bios\hatari\tos</code><br><code>\bios\hatarib</code></td><td></td></tr><tr><td>tos102.img</td><td><code>\bios\hatari\tos</code><br><code>\bios\hatarib</code></td><td></td></tr><tr><td>tos106.img</td><td><code>\bios\hatari\tos</code><br><code>\bios\hatarib</code></td><td></td></tr><tr><td>tos104.img</td><td><code>\bios\hatari\tos</code><br><code>\bios\hatarib</code></td><td></td></tr><tr><td>tos206.img</td><td><code>\bios\hatari\tos</code><br><code>\bios\hatarib</code></td><td></td></tr></tbody></table>
+Le système de l'Atari ST, le **TOS**, est dans la ROM de la machine. hatariB a **EmuTOS** intégré, un TOS libre compatible avec la plupart des jeux : aucun fichier n'est nécessaire. Un TOS d'origine reste plus compatible avec certains jeux.
+
+<table><thead><tr><th width="219.5">Fichier</th><th width="174">Dossier</th><th>Utilisé par</th></tr></thead><tbody><tr><td><code>tos.img</code></td><td><code>bios</code></td><td>TOS par défaut : hatarib, hatari2014 (obligatoire), hatari</td></tr><tr><td><code>tos102.img</code>, <code>tos104.img</code>, <code>tos106.img</code>, <code>tos206.img</code></td><td><code>bios\hatari\tos</code></td><td>Choix de <strong>ÉMULATION > TOS</strong> (hatarib, hatari2014, hatari)</td></tr><tr><td><code>emutos.img</code></td><td><code>bios\hatari\tos</code></td><td>hatari, hatari2014 : EmuTOS</td></tr></tbody></table>
+
+La vérification des BIOS de RetroBat les liste comme optionnels. Il existe plusieurs versions de chaque TOS (pays, révisions) : RetroBat ne vérifie pas le MD5. Les fichiers doivent porter exactement ces noms.
+
+* **hatarib** : `tos.img` s'il est présent, sinon EmuTOS. Un TOS choisi dans **ÉMULATION > TOS** est copié automatiquement de `bios\hatari\tos` vers `bios\hatarib`, le dossier lu par le core.
+* **hatari** : `tos.img`, sinon `emutos.img`. Sans l'un des deux, Hatari ne démarre pas (message « Missing TOS file »).
+* **hatari2014** : `tos.img`, ou le TOS choisi dans **ÉMULATION > TOS**.
+
+Quel TOS choisir ?
+
+<table><thead><tr><th width="157">TOS</th><th width="161.25">Machines</th><th>Remarques</th></tr></thead><tbody><tr><td>1.00, 1.02, 1.04</td><td>ST, Mega ST</td><td>Le plus compatible avec les jeux sur disquette. 1.04 est conseillé pour les jeux installés sur disque dur.</td></tr><tr><td>1.06, 1.62</td><td>STE uniquement</td><td>Avec Hatari, RetroBat choisit alors la machine STE automatiquement.</td></tr><tr><td>2.06</td><td>ST et STE</td><td>Meilleure gestion des disques durs, moins compatible avec quelques vieux jeux.</td></tr><tr><td>EmuTOS</td><td>Toutes</td><td>Libre, gère les disques durs. Compatible avec la plupart des jeux, pas tous.</td></tr></tbody></table>
+
+RetroBat évite les combinaisons qui ne marchent pas : le démarrage automatique et les disques durs GEMDOS demandent un TOS 1.04 ou plus récent, les images de disque dur demandent un pilote que seul EmuTOS a intégré. Dans ces cas, RetroBat prend un TOS compatible (TOS 1.04, 2.06 ou EmuTOS).
+
+## Quel format de jeu ?
+
+<table><thead><tr><th width="190.75">Type</th><th>Extensions</th><th>Remarques</th></tr></thead><tbody><tr><td>Disquette</td><td><code>.st</code>, <code>.msa</code></td><td>Les formats les plus courants.</td></tr><tr><td>Disquette protégée</td><td><code>.stx</code>, <code>.ipf</code>, <code>.ctr</code></td><td>Gardent les protections contre la copie. <code>.ipf</code> et <code>.ctr</code> se lisent avec la bibliothèque CAPS, fournie par RetroBat.</td></tr><tr><td>Disquette</td><td><code>.dim</code>, <code>.gz</code></td><td><code>.gz</code> : disquette compressée.</td></tr><tr><td>Plusieurs disquettes</td><td><code>.m3u</code></td><td>Liste des disquettes d'un jeu (voir <a href="atari-st.md#jeux-installes-sur-disque-dur-gemdos"><strong>Guides</strong></a>).</td></tr><tr><td>Disque dur (image)</td><td><code>.acsi</code>, <code>.ahd</code>, <code>.vhd</code>, <code>.scsi</code>, <code>.shd</code>, <code>.ide</code></td><td>Le type de disque dépend de l'extension. hatarib et hatari.</td></tr><tr><td>Disque dur (dossier)</td><td><code>.gem</code>, <code>.gemdos</code></td><td>Un dossier du PC vu comme un disque dur (GEMDOS, voir <a href="atari-st.md#jeux-installes-sur-disque-dur-gemdos"><strong>Guides</strong></a>).</td></tr></tbody></table>
+
+Les fichiers peuvent être compressés en `.zip` ou `.7z`. Les formats de disque dur, `.ctr` et `.gz` ne marchent pas avec hatari2014.
 
 ## Contrôles
 
-Utiliser la fonctionnalité [Pad2Key](../../../../controleurs/pad2key.md).
+RetroBat configure automatiquement les manettes. Le joystick de l'Atari ST a un seul bouton. La souris du PC sert de souris Atari, et le clavier du PC de clavier Atari.
 
-Le mapping par défaut est le suivant:
+| Manette RetroBat     | libretro: hatarib              | libretro: hatari2014      | hatari                                     |
+| -------------------- | ------------------------------ | ------------------------- | ------------------------------------------ |
+| Croix directionnelle | Joystick                       | Joystick                  | Joystick                                   |
+| Stick gauche         | Joystick                       | —                         | Joystick                                   |
+| Stick droit          | Souris                         | —                         | —                                          |
+| SUD                  | Tir                            | —                         | Tir                                        |
+| EST                  | Tir automatique                | Tir                       | Barre espace ou saut (option **BOUTON 2**) |
+| OUEST                | Clic gauche                    | Menu de l'émulateur       | Tir automatique                            |
+| NORD                 | Clic droit                     | —                         | —                                          |
+| SELECT               | Choix du lecteur A ou B        | Bascule souris / joystick | —                                          |
+| START                | Écran d'aide                   | Clavier à l'écran         | —                                          |
+| L1                   | Clavier à l'écran              | Numéro du joystick        | —                                          |
+| R1                   | Clavier à l'écran (une touche) | Vitesse de la souris      | —                                          |
+| L2                   | Souris lente                   | Affichage de l'état       | —                                          |
+| R2                   | Souris rapide                  | —                         | —                                          |
+| L3                   | Espace                         | —                         | —                                          |
+| R3                   | Return                         | —                         | —                                          |
 
-<table><thead><tr><th width="263">Retrobat</th><th>Atari ST (libretro)</th></tr></thead><tbody><tr><td>START</td><td>Afficher/masquer le clavier virtuel</td></tr><tr><td>SELECT</td><td>Basculer entre le mode joystick et le mode clavier</td></tr><tr><td>D-PAD</td><td></td></tr><tr><td>Stick analogique gauche</td><td>Directions (haut, bas, gauche, droite)</td></tr><tr><td>Stick analogique droit</td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (33).png" alt=""></td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/image (20) (1).png" alt=""></td><td>Bouton B de la souris</td></tr><tr><td><img src="../../../../.gitbook/assets/image (7) (1).png" alt=""></td><td>Fire / Bouton A de la souris / appuyer sur le bouton du clavier virtuel</td></tr><tr><td><img src="../../../../.gitbook/assets/image (35).png" alt=""></td><td>Ouvrir l'émulateur</td></tr><tr><td>L1</td><td>Toggle Num Joy</td></tr><tr><td>R1</td><td>Modifier la vitesse de la souris entre 1 et 6</td></tr><tr><td>L2</td><td>Afficher / masquer le statut</td></tr><tr><td>R2</td><td>Activer / désactiver le son</td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
+Le **clavier à l'écran** de hatarib : L1 l'affiche, choisissez une touche à la croix, L1 l'appuie, R1 ferme le clavier. R1 seul ouvre le clavier en mode « une touche » : le jeu est en pause jusqu'à l'appui. NORD déplace le clavier en haut ou en bas.
 
-### Hatari
+Avec hatari2014, le bouton OUEST ouvre le menu du core et SELECT bascule entre souris et joystick sur la croix.
 
-<table><thead><tr><th width="263">Retrobat</th><th>Hatari</th></tr></thead><tbody><tr><td>SELECT</td><td>Ouvrir le menu de l'émulateur</td></tr><tr><td>D-PAD</td><td>Joystick - D-pad</td></tr><tr><td><img src="../../../../.gitbook/assets/image (20) (1).png" alt=""></td><td>Joystick - FIRE</td></tr><tr><td>F11</td><td>Plein écran</td></tr><tr><td>F12</td><td>Ouvrir le menu de l'émulateur</td></tr><tr><td>ALTGr + Q</td><td>Quitter l'émulateur</td></tr></tbody></table>
+Avec les cores libretro, appuyez sur `Arrêt défil` pour activer le **Game Focus** de RetroArch : toutes les touches du clavier vont à l'Atari. Pour mettre des touches du clavier sur la manette, voir la page [**Pad2Key**](../../../../controleurs/pad2key.md).
 
-## Information spécifique au système
+**OPTIONS AVANCÉES > CONTRÔLES** :
 
-### Configuration de l'émulateur hatari
+* **UTILISER LA SOURIS** (hatarib, activé par défaut) : souris branchée sur le port 1. Désactivez-la pour les jeux à deux joysticks.
+* **ACTIVER JOYSTICK 2** (hatari2014, activé par défaut) : peut gêner la souris.
+* **ACTIVER LE TIR AUTOMATIQUE**, **BOUTON 2**, **UTILISER LES JOYPADS JAGUAR (STE)** (hatari) : tir automatique, rôle du 2e bouton (**BARRE ESPACE**, pour Xenon 2, ou **SAUT (HAUT)**, pour les jeux de plateforme), manettes du STE.
 
-RetroBat force l'émulateur standalone hatari à utiliser le fichier de configuration situé dans le dossier `\emulators\hatari` de l'installation RetroBat.
+### Raccourcis
 
-Pour configurer hatari hors RetroBat, utiliser le fichier "Configure hatari.bat":
+Les cores libretro utilisent les raccourcis standards de RetroArch. Hatari utilise les raccourcis communs de RetroBat :
 
-<div align="left"><figure><img src="https://i.imgur.com/gMsQpbA.png" alt=""><figcaption></figcaption></figure></div>
+<table><thead><tr><th width="205.75">Raccourci</th><th width="121">Touche</th><th>Hatari</th></tr></thead><tbody><tr><td>HOTKEY + SUD</td><td><code>F12</code></td><td>Menu de l'émulateur</td></tr><tr><td>HOTKEY + OUEST</td><td><code>F2</code></td><td>Sauvegarde instantanée</td></tr><tr><td>HOTKEY + NORD</td><td><code>F4</code></td><td>Chargement instantané</td></tr><tr><td>HOTKEY + R3</td><td><code>F8</code></td><td>Capture d'écran</td></tr><tr><td>HOTKEY + L3</td><td><code>F11</code></td><td>Plein écran</td></tr><tr><td>HOTKEY + START</td><td>—</td><td>Quitter</td></tr></tbody></table>
 
-{% hint style="warning" %}
-Par défaut, hatari.exe sauvegarde la configuration dans les dossiers utilisateurs de windows, les modifications effectuées dans ce fichier ne sont pas prises en compte lors du lancement d'un jeu depuis RetroBat.
-{% endhint %}
+Au clavier : `AltGr` + `Q` quitte Hatari (`Échap` est une touche de l'Atari). `Pause` met en pause. Les touches `F1` à `F10` existent sur le clavier de l'Atari : avec **CONTRÔLES > TOUCHES DE FONCTION = CLAVIER ATARI**, `F2`, `F4` et `F8` vont au jeu, et les sauvegardes et captures passent sur `AltGr` + `K`, `L` et `G` (les raccourcis manette envoient toujours `F2`, `F4` et `F8`). Voir la page [**Raccourcis**](../../../../navigation/hotkeys.md).
 
-### Lancer une image disque dur "gemdos"
+## Dossiers
 
-Le coeur libretro Hatari-B permet de charger une image disque dur au format "gemdos", pour cela le fichier de jeu doit être un dossier d'image de disque:
+| Contenu                                         | Dossier                                                      |
+| ----------------------------------------------- | ------------------------------------------------------------ |
+| Jeux                                            | `roms\atarist`                                               |
+| TOS                                             | `bios` (`tos.img`), `bios\hatari\tos`                        |
+| hatarib : TOS copiés, NVRAM du TT et du Falcon  | `bios\hatarib`, `bios\hatarib.nvram`                         |
+| hatarib : disquettes modifiées par les jeux     | `saves\atarist`                                              |
+| Cores libretro : sauvegardes instantanées       | `saves\atarist\libretro.<core>`                              |
+| Hatari : sauvegardes instantanées (une par jeu) | `saves\atarist\hatari` (`<jeu>.sav`, `<jeu>.auto.sav`)       |
+| Hatari : captures d'écran                       | `screenshots`                                                |
+| Hatari : vidéos                                 | `records\output\hatari`                                      |
+| Hatari : configuration et journal               | `emulators\hatari\hatari.cfg`, `emulators\hatari\hatari.log` |
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/RscLeZw.png" alt=""><figcaption></figcaption></figure></div>
+hatarib ne modifie jamais vos disquettes : il écrit une copie de la disquette modifiée dans `saves\atarist`, et la reprend au lancement suivant. Supprimez cette copie pour revenir à la disquette d'origine. Hatari autonome écrit directement dans la disquette.
 
-Ensuite,créer dans le même dossier un fichier texte vide du même nom que le dossier gemdos, puis sauvegarder le fichier avec l'extension .GEM:
+## Guides
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/VAu6Ce9.png" alt=""><figcaption></figcaption></figure></div>
+### Jeux sur plusieurs disquettes : le fichier m3u
 
-Il est également possible d'automatiquement lancer un programme se trouvant sur le disque dur qui a été monté.
+Créez un fichier `.m3u` qui liste les disquettes, une par ligne, puis lancez le `.m3u`. hatarib et Hatari lisent le même format. Lignes facultatives :
 
-Pour cela, créer un fichier texte nommé de la même façon que le dossier gemdos, puis à l'intérieur de ce fichier, spécifier les informations suivantes:
+<table><thead><tr><th width="275.25">Ligne</th><th>Effet</th></tr></thead><tbody><tr><td><code>#AUTO:C:\JEU\JEU.PRG</code></td><td>Lance ce programme au démarrage (TOS 1.04 ou plus récent).</td></tr><tr><td><code>#RES:low</code>, <code>#RES:med</code>, <code>#RES:high</code></td><td>Résolution au démarrage.</td></tr><tr><td><code>#BOOTA:2</code>, <code>#BOOTB:0</code></td><td>Disquette mise dans le lecteur A ou B au démarrage (1 = première de la liste, 0 = lecteur vide).</td></tr></tbody></table>
 
-<pre><code>#EXTM3U
-#AUTO:<a data-footnote-ref href="#user-content-fn-1">&#x3C;nom du programme à lancer></a>
-&#x3C;nom du fichier .GEM>
-</code></pre>
+Exemple :
 
-<div align="left"><figure><img src="https://i.imgur.com/SvXLkHs.png" alt=""><figcaption></figcaption></figure></div>
+```
+Jeu (Disk 1).st
+Jeu (Disk 2).st
+```
 
-Enfin: sauvegarder le fichier avec l'extension ".m3u", dans le même dossier que le gemdos:
+Avec hatarib, changez de disquette dans le menu de RetroArch (**Contrôle du disque**) ; SELECT choisit le lecteur A ou B. Avec Hatari, changez de disquette dans son menu (HOTKEY + SUD).
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/03PB7np.png" alt=""><figcaption></figcaption></figure></div>
+### Jeux installés sur disque dur (GEMDOS)
 
-Dans l'exemple ci-dessus, RetroBat va automatiquement:
+Beaucoup de jeux existent en version « installée », dans un dossier (versions adaptées au disque dur). Le dossier est vu comme un disque dur par l'Atari :
 
-* Lancer l'émulateur lr-hatarib en montant le disque dur "The New Zealand Story" dans l'émulateur
-* Lancé le programme RUNME.TOS depuis le disque dur (emplacement `C:\AUTO`)
+1. Placez le dossier du jeu dans `roms\atarist`, par exemple `roms\atarist\Jeu`.
+2. Créez à côté un fichier vide du même nom, avec l'extension `.gem` : `roms\atarist\Jeu.gem`.
+3. Pour lancer le jeu automatiquement, créez un fichier `Jeu.m3u` qui contient :
 
-{% hint style="warning" %}
-Les images gemdos nécessitent l'utilisation d'un TOS 2.06 ou de emuTOS pour fonctionner correctement.
-{% endhint %}
+```
+#AUTO:C:\JEU.PRG
+Jeu.gem
+```
 
-[^1]: 
+en remplaçant `JEU.PRG` par le programme du jeu, avec son chemin dans le dossier.
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (649).png" alt=""><figcaption></figcaption></figure></div>
+
+4. Lancez le `.m3u` (ou le `.gem` sans démarrage automatique).
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (648).png" alt=""><figcaption></figcaption></figure></div>
+
+Avec Hatari autonome, vous pouvez aussi nommer le dossier `Jeu.gemdos`, ou mettre un fichier `Jeu.autorun` à côté du jeu, avec le programme à lancer (`C:\JEU.PRG`).
+
+Avec hatarib, **ÉMULATION > DÉMARRAGE SUR DISQUE DUR** est automatique : la machine démarre sur le disque dur quand le jeu a un disque dur et pas de disquette.
+
+### Choisir la machine
+
+Par défaut, RetroBat émule un **ST** avec 1 Mo de mémoire. Quelques jeux demandent un **STE** (jeux STE « enhanced », manettes Jaguar) : **ÉMULATION > MACHINE ÉMULÉE**. Avec Hatari, choisir TOS 1.06 ou les manettes Jaguar passe automatiquement en STE (4 Mo). **ÉMULATION > TAILLE DE LA MÉMOIRE** (hatarib) ou **TAILLE DE LA MÉMOIRE RAM** (hatari) change la mémoire.
+
+### Jeux en haute résolution
+
+Les programmes en haute résolution (640 × 400, noir et blanc) demandent le moniteur monochrome d'Atari : **RENDU VISUEL > TYPE DE MONITEUR > MONOCHROME HAUTE RÉSOLUTION** (hatarib) ou **VIDÉO > TYPE DE MONITEUR > MONOCHROME** (hatari).
+
+### Autres options utiles
+
+<table><thead><tr><th width="119.5">Émulateur</th><th>Option</th><th>Effet</th></tr></thead><tbody><tr><td>hatarib</td><td><strong>ÉMULATION > ACCÈS DISQUETTE RAPIDE</strong></td><td>Chargements plus rapides (activé par défaut). Désactivez-le pour un jeu protégé qui ne démarre pas.</td></tr><tr><td>hatarib</td><td><strong>ÉMULATION > CYCLE EXACT</strong></td><td>Émulation exacte, nécessaire à certaines démos et jeux (activé par défaut).</td></tr><tr><td>hatarib</td><td><strong>ÉMULATION > RÉGION EMUTOS</strong>, <strong>FRÉQUENCE D'AFFICHAGE EMUTOS</strong></td><td>Langue d'EmuTOS, 50 Hz ou 60 Hz.</td></tr><tr><td>hatarib</td><td><strong>VIDÉO > BORDURES DE L'ÉCRAN</strong></td><td>Taille des bordures, ou image rognée en 720p / 1080p.</td></tr><tr><td>hatarib</td><td><strong>VIDÉO > RATIO D'ASPECT DES PIXELS</strong></td><td>Pixels carrés (défaut) ou forme d'origine (moniteur Atari, téléviseur).</td></tr><tr><td>hatarib</td><td><strong>INTERFACE UTILISATEUR > AFFICHER LA BARRE DE STATUT</strong></td><td>Barre d'état de Hatari, ou seulement la LED du lecteur.</td></tr><tr><td>hatari</td><td><strong>ÉMULATION > DÉMARRAGE RAPIDE</strong></td><td>Démarrage plus rapide du TOS.</td></tr><tr><td>hatari</td><td><strong>ÉMULATION > SAUVEGARDE AUTOMATIQUE</strong></td><td>Sauvegarde la partie en quittant et la reprend au lancement suivant.</td></tr></tbody></table>
+
+## Problèmes connus
+
+<table><thead><tr><th width="350.25">Problème</th><th>Solution</th></tr></thead><tbody><tr><td>Hatari affiche « Missing TOS file »</td><td>Ajoutez <code>tos.img</code> dans <code>bios</code>, ou <code>emutos.img</code> dans <code>bios\hatari\tos</code>. Ou utilisez hatarib, qui a EmuTOS intégré.</td></tr><tr><td>Message « Panic » au démarrage, ou le jeu s'arrête sur le bureau GEM</td><td>Le jeu n'est pas compatible avec EmuTOS : ajoutez un TOS d'origine (<code>tos.img</code>, de préférence TOS 1.02 ou 1.04).</td></tr><tr><td>Un jeu protégé <code>.st</code> ne démarre pas</td><td>Désactivez <strong>ACCÈS DISQUETTE RAPIDE</strong>, ou utilisez la version <code>.stx</code> / <code>.ipf</code> du jeu.</td></tr><tr><td>Le jeu demande la disquette 2</td><td>Utilisez un fichier <code>.m3u</code> (voir <a href="atari-st.md#jeux-sur-plusieurs-disquettes-le-fichier-m3u"><strong>Guides</strong></a>), puis changez de disquette.</td></tr><tr><td>Le joystick ne répond pas, la souris bouge à la place</td><td>Le jeu lit le joystick sur le port 1 (port de la souris) : désactivez <strong>UTILISER LA SOURIS</strong> (hatarib).</td></tr><tr><td>Les touches F1 à F10 ne répondent pas dans un jeu (Hatari)</td><td>Réglez <strong>TOUCHES DE FONCTION</strong> sur <strong>CLAVIER ATARI</strong>.</td></tr><tr><td>Écran noir avec un programme en haute résolution</td><td>Choisissez le moniteur monochrome (voir <a href="atari-st.md#jeux-en-haute-resolution"><strong>Jeux en haute résolution</strong></a>).</td></tr></tbody></table>
