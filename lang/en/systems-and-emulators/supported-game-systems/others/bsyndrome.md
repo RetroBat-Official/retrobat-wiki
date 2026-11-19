@@ -1,57 +1,82 @@
 # Bermuda Syndrome
 
-<div align="left"><figure><img src="https://github.com/RetroBat-Official/es-theme-carbon/blob/master/art/logos/bsyndrome.png?raw=true" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (643).png" alt="" width="514"><figcaption></figcaption></figure></div>
 
-Decompilation project of the Bermuda Syndrome game.
+## Overview
+
+**Bermuda Syndrome** (Century Interactive / BMG, 1995) is a 2D action-adventure game: pilot Jack Thompson crashes into a world of dinosaurs, in the heart of the Bermuda Triangle.
+
+RetroBat uses **Bermuda**, a free rewrite of the game engine.
+
+The game files are not provided: use the ones from your own copy.
 
 {% embed url="https://github.com/cyxx/bermuda" %}
 
-## Information
+## At a glance
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>bsyndrome</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> bsyndrome</td></tr><tr><td><strong>File extension</strong></td><td>.game</td></tr></tbody></table>
+<table><thead><tr><th width="260.25"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\bsyndrome</code></td></tr><tr><td><strong>Extensions</strong></td><td>.game</td></tr><tr><td><strong>Default emulator</strong></td><td>bsyndrome</td></tr><tr><td><strong>BIOS</strong></td><td>None (game files to provide)</td></tr><tr><td><strong>Controller setup</strong></td><td>No: keyboard</td></tr><tr><td><strong>Save states</strong></td><td>No: in-game saves (S / L keys)</td></tr><tr><td><strong>RetroAchievements</strong></td><td>No</td></tr><tr><td><strong>Netplay</strong></td><td>No</td></tr><tr><td><strong>Light guns</strong></td><td>—</td></tr><tr><td><strong>Wheels</strong></td><td>—</td></tr><tr><td><strong>Optional BIOS</strong></td><td>—</td></tr></tbody></table>
 
-## Bios Information
+## BIOS
 
-No BIOS required.
+No BIOS is needed. The music files (`.ogg`) go to `bios\bsyndrome\MUSIC`.
+
+## Which game format?
+
+An empty `.game` file placed in `roms\bsyndrome` starts the game of the `roms\bsyndrome\DATA` folder.
 
 ## Controls
 
+The game is played with the keyboard:
+
+| Key           | Action                    |
+| ------------- | ------------------------- |
+| Arrows        | Move Jack                 |
+| Tab           | Show the bag              |
+| Ctrl          | Show the status bar       |
+| Shift / Space | Use the weapon            |
+| Enter         | Skip dialogs              |
+| C             | Screenshot (`.tga`)       |
+| S             | Save                      |
+| L             | Load a save               |
+| + / -         | Next / previous save slot |
+| F             | Fast mode                 |
+| W             | Fullscreen / window       |
+
+### Hotkeys
+
+| Hotkey         | Action |
+| -------------- | ------ |
+| HOTKEY + START | Quit   |
+
+## Folders
+
+| Content   | Folder                 |
+| --------- | ---------------------- |
+| Game data | `roms\bsyndrome\DATA`  |
+| Music     | `bios\bsyndrome\MUSIC` |
+| Saves     | `saves\bsyndrome`      |
+
+## Guides
+
+### File layout
+
 ```
-Game controls :
+roms\bsyndrome\
+├── DATA\                    (files of the game's BERMUDA folder)
+│   ├── (subfolders)
+│   ├── BERMUDA.OVR
+│   ├── BERMUDA.SPR
+│   └── BERMUDA.WGP
+└── Bermuda Syndrome.game    (empty file)
 
-	Arrow Keys      move Jack
-	Tab             display bag
-	Ctrl            display status bar
-	Shift/Space     use weapon
-	Enter           skip dialogue speech
-
-Other hotkeys:
-
-	C		capture screenshot as .tga
-	S               save game state
-	L               load game state
-	+               increase game state slot
-	-               decrease game state slot
-	F               enable fast mode
-	W               toggle fullscreen/windowed display
+bios\bsyndrome\
+└── MUSIC\                   (.ogg files)
 ```
 
-## Specific system information
+**GAME ASPECT RATIO** switches the picture to 4/3 or 16/9.
 
-### File organization
+## Known issues
 
-Here is the structure organization for your game files:
-
-<pre><code>└── roms\
-<strong>│  └── bsyndrome\
-</strong>│       ├── DATA\    &#x3C;== files from original game "BERMUDA" folder
-<strong>│       │   └── lots of folders
-</strong>│       │   └── BERMUDA.OVR
-│       │   └── BERMUDA.SPR
-│       │   └── BERMUDA.WGP
-│       └── Bermuda Syndrome.game
-└── bios\
-    └── bsyndrome\
-        └── MUSIC\    &#x3C;== music files
-</code></pre>
-
+| Issue                                           | Solution                                                                |
+| ----------------------------------------------- | ----------------------------------------------------------------------- |
+| "DATA folder not found in roms\bsyndrome\DATA." | Copy the files of the game's `BERMUDA` folder to `roms\bsyndrome\DATA`. |
