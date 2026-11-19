@@ -68,6 +68,7 @@ Emulators marked with ✏️ can be customized (see Customizing hotkeys).
 * DeSmuME ✏️ (uses PadToKey)
 * Dhewm3
 * Dolphin ✏️
+* DOSBox Pure (save/load state only, uses PadToKey)
 * DuckStation ✏️
 * Eden
 * FBNeo (standalone) ✏️ (uses PadToKey, rewind only when enabled in FBNeo)

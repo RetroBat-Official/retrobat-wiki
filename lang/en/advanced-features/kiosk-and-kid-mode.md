@@ -82,3 +82,22 @@ InterfaceMode=2
 <table><thead><tr><th width="187.75">Value</th><th>Mode</th></tr></thead><tbody><tr><td>0</td><td>Normal (uses the USER INTERFACE MODE setting)</td></tr><tr><td>1</td><td>Kiosk</td></tr><tr><td>2</td><td>Kid</td></tr></tbody></table>
 
 > **Warning:** When `InterfaceMode` is 1 or 2, the mode is **forced at every start**, and the unlock code has no effect. To get Full mode back, close RetroBat and set `InterfaceMode=0`.
+
+## Arcade cabinet: prevent quitting RetroBat
+
+In `retrobat.ini`:
+
+```ini
+[RetroBat]
+DisableWindowsInterface=3
+
+[EmulationStation]
+InterfaceMode=1
+NoExitMenu=1
+```
+
+* `InterfaceMode=1`: forced Kiosk mode, cannot be unlocked from the cabinet.
+* `NoExitMenu=1`: the **QUIT** menu no longer offers **QUIT EMULATIONSTATION**, only **RESTART SYSTEM** and **SHUTDOWN SYSTEM** (plus **SUSPEND SYSTEM**, which hibernates the PC, when hibernation is enabled in Windows).
+* `DisableWindowsInterface=3`: hides the taskbar, the notifications and the crash dialogs, and blocks the Windows key, Alt+Tab, Ctrl+Esc and Alt+F4 on the interface.
+
+Ctrl+Alt+Del is always available (Windows does not allow blocking it). To get a normal PC back, set these three settings back to 0.

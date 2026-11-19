@@ -33,11 +33,13 @@ No BIOS is needed: Lindbergh games hold everything they need.
 
 ## Which game format?
 
-A Lindbergh game is a folder holding a `disk0` folder. RetroBat recognizes it in two ways:
+A Lindbergh game is a folder, which usually holds a `disk0` folder. RetroBat recognizes it in two ways:
 
-<table><thead><tr><th width="167.75">Method</th><th>How to do it</th></tr></thead><tbody><tr><td><strong><code>.game</code> folder</strong></td><td>Rename the game folder with the <code>.game</code> extension (for example <code>hotd4.game</code>). RetroBat looks for the game program in <code>disk0</code>, or in the right subfolder for known games (see below).</td></tr><tr><td><strong><code>.game</code> file</strong></td><td>Create an empty file with the <code>.game</code> extension next to the game program (the <code>elf</code> file).</td></tr></tbody></table>
+<table><thead><tr><th width="131.5">Method</th><th>How to do it</th></tr></thead><tbody><tr><td><strong><code>.game</code> folder</strong></td><td>Rename the game folder with the <code>.game</code> extension (for example <code>hotd4.game</code>). RetroBat looks for the game program in <code>disk0</code> if it exists, otherwise directly in the folder, and in the right subfolder for known games (see below).</td></tr><tr><td><strong><code>.game</code> file</strong></td><td>Create an empty file with the <code>.game</code> extension (for example <code>hummerxt.game</code>) next to the game program (the <code>elf</code> file). The game folder must not have the <code>.game</code> extension.</td></tr></tbody></table>
 
-For a `.game` folder, keep the short name of the game: it lets RetroBat find the program when it is not at the root of `disk0`, and lets DemulShooter recognize the game.
+<table><thead><tr><th width="450.25">Example</th><th>Explanation</th></tr></thead><tbody><tr><td>roms\lindbergh\hotd4.game\disk0\elf\hod4M.elf</td><td>.game folder with disk0</td></tr><tr><td>roms\lindbergh\hummerxt.game\hummer_master.elf</td><td>.game folder without disk0</td></tr><tr><td>roms\lindbergh\hummerxt\hummerxt.game</td><td>.game file next to the elf file</td></tr></tbody></table>
+
+Give the `.game` folder or file the short name of the game: it lets DemulShooter recognize the game and, for a folder, lets RetroBat find the program when it is in a subfolder (for example `disk0\elf`).
 
 <details>
 
@@ -135,7 +137,7 @@ Light gun games (**The House of the Dead 4**, **Let's Go Jungle!**, **2 Spicy**,
 
 <table><thead><tr><th width="231.5">Cabinet</th><th>Light gun / mouse</th></tr></thead><tbody><tr><td>Trigger</td><td>Left click</td></tr><tr><td>Reload</td><td>Right click (<strong>RELOAD MAPPING</strong>)</td></tr><tr><td>Gun button</td><td>Middle click (<strong>GUN BUTTON MAPPING</strong>)</td></tr><tr><td>Action button</td><td>Start (<strong>ACTION BUTTON MAPPING</strong>)</td></tr><tr><td>Left / right pedals</td><td>Left / right arrows</td></tr></tbody></table>
 
-Linuxloader supports only one light gun. To play with several, enable **GUNS > USE DEMULSHOOTER** (DemulShooter is installed from the RetroBat download menu): the `.game` folder name must then be the one in the list (`hotd4`, `lgj`, `2spicy`…). With a Sinden light gun, RetroBat enables the Linuxloader white border (**ENABLE WHITE BORDER**). For more details, see the [**Light gun controls**](../../../../controllers/gun_controls.md) page.
+Linuxloader supports only one light gun. To play with several, enable **GUNS > USE DEMULSHOOTER** (DemulShooter is installed from the RetroBat download menu): the `.game` folder or file name must then be the one in the list (`hotd4`, `lgj`, `2spicy`…). With a Sinden light gun, RetroBat enables the Linuxloader white border (**ENABLE WHITE BORDER**). For more details, see the [**Light gun controls**](../../../../controllers/gun_controls.md) page.
 
 ### Wheels
 
@@ -173,11 +175,4 @@ The cabinet test menu lets you calibrate light guns, pick the difficulty or chec
 
 ## Known issues
 
-<table><thead><tr><th width="329">Issue</th><th>Solution</th></tr></thead><tbody><tr><td>The game does not start (<code>.game</code> folder)</td><td>Check that the folder holds <code>disk0</code>, and use the short name of the game (see <a href="lindbergh.md#which-game-format"><strong>Which game format?</strong></a>).</td></tr><tr><td>The House of the Dead 4 runs too fast</td><td>Set <strong>EMULATION > CPU FREQUENCY</strong>.</td></tr><tr><td>DemulShooter does not recognize the game</td><td>Rename the folder with the expected name (<code>hotd4</code>, <code>lgj</code>, <code>rambo</code>…).</td></tr><tr><td>Players 1 and 2 are swapped</td><td>Enable <strong>CONTROLS > INVERT P1 AND P2</strong>.</td></tr><tr><td>Outrun 2 SP SDX stops on a cabinet error</td><td>Enable <strong>GAME FIXES > OUTRUN SKIP CABINET CHECK</strong>.</td></tr></tbody></table>
-
-
-
-
-
-
-
+<table><thead><tr><th width="285.25">Issue</th><th>Solution</th></tr></thead><tbody><tr><td>The game goes straight back to the game list</td><td>Check that the <code>.game</code> folder or file has the short name of the game. If the game program is in an unusual subfolder, put a <code>.game</code> file next to it. See the <a href="lindbergh.md#which-game-format"><strong>Which game format?</strong></a> section.</td></tr><tr><td>The House of the Dead 4 runs too fast</td><td>Set <strong>EMULATION > CPU FREQUENCY</strong>.</td></tr><tr><td>DemulShooter does not recognize the game</td><td>Rename the <code>.game</code> folder or file with the expected name (<code>hotd4</code>, <code>lgj</code>, <code>rambo</code>…).</td></tr><tr><td>Players 1 and 2 are swapped</td><td>Enable <strong>CONTROLS > INVERT P1 AND P2</strong>.</td></tr><tr><td>Outrun 2 SP SDX stops on a cabinet error</td><td>Enable <strong>GAME FIXES > OUTRUN SKIP CABINET CHECK</strong>.</td></tr></tbody></table>
