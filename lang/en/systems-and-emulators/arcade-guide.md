@@ -98,19 +98,15 @@ RetroBat uses the same arcade controls for most arcade emulators:
 
 <table><thead><tr><th width="302.75">Function</th><th width="220.75">Controller</th><th>Keyboard</th></tr></thead><tbody><tr><td>Insert a coin (player 1 / player 2)</td><td>SELECT</td><td><code>5</code> / <code>6</code></td></tr><tr><td>Start (player 1 / player 2)</td><td>START</td><td><code>1</code> / <code>2</code></td></tr><tr><td>Test (operator menu)</td><td>R3</td><td><code>0</code></td></tr><tr><td>Service (free credit)</td><td>L3</td><td><code>9</code></td></tr><tr><td>Quit the game</td><td>HOTKEY + START</td><td><code>Esc</code></td></tr></tbody></table>
 
-{% hint style="info" %}
-With TeknoParrot, Test is on L3 and Service on R3.
-{% endhint %}
-
 {% hint style="warning" %}
-Test and Service on the controller (R3 / L3) can be enabled or disabled in the [ADVANCED SYSTEM OPTIONS](../navigation/configuration-of-systems-and-games.md#for-a-system) of some emulators, to avoid opening the operator menu by mistake:
+Test and Service on the controller (R3 / L3) can be enabled or disabled in the ADVANCED SYSTEM OPTIONS of some emulators, to avoid opening the operator menu by mistake:
 
 * MAME, HBMAME, GroovyMAME and lr-sm2: **CONTROLS** > **TEST/SERVICE ON L3/R3** (enabled by default);
 * lr-supermodel: **CONTROLS** > **SERVICE BUTTONS** (on L3 / R3 by default, or on the shoulder buttons);
 * m2emulator, Supermodel, Model3-Vulkan, Flycast, PCSX2x6, lr-kronos: **EMULATION** > **ENABLE SERVICE MENU** (disabled by default);
 * lr-flycast: **EMULATION** > **SERVICE MODE** (disabled by default).
 
-The keyboard keys `0` (Test) and `9` (Service) always work. With Keisho, L3 / R3 are always active. With Play! (Namco 246/256), Test is always active on R3 (no keyboard key and no Service).
+The keyboard keys `0` (Test) and `9` (Service) always work. With Keisho, L3 / R3 are always active. With Play! (Namco 246/256), Test is always active on R3 (no keyboard key and no Service). With TeknoParrot, Test is on L3 and Service on R3.
 {% endhint %}
 
 ### Arcade stick layouts
