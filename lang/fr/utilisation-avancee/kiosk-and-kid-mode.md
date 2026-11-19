@@ -4,7 +4,7 @@ RetroBat (EmulationStation) propose trois **modes d'interface** :
 
 <table><thead><tr><th width="104.5">Mode</th><th width="167.25">Pour</th><th>Effet</th></tr></thead><tbody><tr><td><strong>Complet</strong></td><td>Vous (par défaut)</td><td>Tout est accessible.</td></tr><tr><td><strong>Kiosque</strong></td><td>Invités, bornes d'arcade</td><td>Tous les jeux sont jouables, mais les paramètres, les métadonnées, les collections et la suppression de jeux sont verrouillés. Les jeux cachés restent cachés.</td></tr><tr><td><strong>Enfant</strong></td><td>Enfants</td><td>Mêmes verrous que Kiosque, et <strong>seuls les jeux marqués « Jeu enfant »</strong> sont affichés. Les favoris ne peuvent pas être modifiés.</td></tr></tbody></table>
 
-### Avant de passer en mode Enfant : marquer les jeux
+## Avant de passer en mode Enfant : marquer les jeux
 
 Le mode Enfant n'affiche que les jeux dont la métadonnée **Jeu enfant** est activée. À faire tant que vous êtes en mode **Complet** :
 

@@ -61,8 +61,6 @@ roms\doom\
 
 Les commandes se changent dans le menu d'UZDoom (**Options > Customize Controls**). Avec GZDoom, moins de boutons sont associés par défaut : complétez-les dans le même menu.
 
-> 📷 **Capture à ajouter** : vérifier ce tableau en jeu avec UZDoom (manette Xbox).
-
 **Core prboom** : **CONTRÔLES > TYPE DE CONTRÔLEUR** choisit la disposition, MANETTE CLASSIQUE (par défaut, inspirée de Doom sur PlayStation) ou MANETTE MODERNE (sticks, inspirée de Doom 3 sur Xbox).
 
 <table><thead><tr><th width="200.75">Manette RetroBat</th><th width="249.25">Manette classique</th><th>Manette moderne</th></tr></thead><tbody><tr><td>Croix</td><td>Se déplacer</td><td>—</td></tr><tr><td>Stick gauche</td><td>—</td><td>Avancer, reculer, pas de côté</td></tr><tr><td>Stick droit</td><td>—</td><td>Tourner</td></tr><tr><td>NORD</td><td>Tirer</td><td>Arme précédente</td></tr><tr><td>EST</td><td>Utiliser</td><td>Arme suivante</td></tr><tr><td>SUD</td><td>Pas de côté (maintenir)</td><td>Dernier message</td></tr><tr><td>OUEST</td><td>Courir</td><td>Utiliser</td></tr><tr><td>L1 / R1</td><td>Pas de côté gauche / droite</td><td>Chargement / sauvegarde rapide</td></tr><tr><td>L2 / R2</td><td>Arme précédente / suivante</td><td>Courir / tirer</td></tr><tr><td>L3</td><td>Courir (activer / désactiver)</td><td>Courir (activer / désactiver)</td></tr><tr><td>R3</td><td>Demi-tour</td><td>Demi-tour</td></tr><tr><td>START</td><td>Menu</td><td>Menu</td></tr><tr><td>SELECT</td><td>Carte</td><td>Carte</td></tr></tbody></table>
