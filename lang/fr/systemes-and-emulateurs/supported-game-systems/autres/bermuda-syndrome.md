@@ -26,9 +26,26 @@ Un fichier `.game` vide placé dans `roms\bsyndrome` lance le jeu du dossier `ro
 
 ## Contrôles
 
-Le jeu se joue au clavier :
+Le jeu lit lui-même la **première manette** reconnue, avec des boutons fixes : RetroBat ne la configure pas. Le clavier reste actif.
 
-<table><thead><tr><th width="224">Touche</th><th>Action</th></tr></thead><tbody><tr><td>Flèches</td><td>Déplacer Jack</td></tr><tr><td>Tab</td><td>Afficher le sac</td></tr><tr><td>Ctrl</td><td>Afficher la barre d'état</td></tr><tr><td>Maj / Espace</td><td>Utiliser l'arme</td></tr><tr><td>Entrée</td><td>Passer les dialogues</td></tr><tr><td>C</td><td>Capture d'écran (<code>.tga</code>)</td></tr><tr><td>S</td><td>Sauvegarder</td></tr><tr><td>L</td><td>Charger une sauvegarde</td></tr><tr><td>+ / -</td><td>Emplacement de sauvegarde suivant / précédent</td></tr><tr><td>F</td><td>Mode rapide</td></tr><tr><td>W</td><td>Plein écran / fenêtre</td></tr></tbody></table>
+| Manette                      | Clavier      | Action                                        |
+| ---------------------------- | ------------ | --------------------------------------------- |
+| Croix, stick gauche ou droit | Flèches      | Déplacer Jack                                 |
+| START                        | Tab          | Afficher le sac                               |
+| NORD                         | Ctrl         | Afficher la barre d'état                      |
+| EST / OUEST                  | Espace / Maj | Utiliser l'arme                               |
+| SUD                          | Entrée       | Passer les dialogues                          |
+| SELECT                       | Échap        | Touche Échap                                  |
+| —                            | C            | Capture d'écran (`.tga`)                      |
+| —                            | S            | Sauvegarder                                   |
+| —                            | L            | Charger une sauvegarde                        |
+| —                            | + / -        | Emplacement de sauvegarde suivant / précédent |
+| —                            | F            | Mode rapide                                   |
+| —                            | W            | Plein écran / fenêtre                         |
+
+{% hint style="warning" %}
+Le jeu utilise le fichier gamecontrollerdb.txt situé à côté de l'exécutable `\emulators\bsyndrome`. Sans ce fichier seules les manettes XInput sont reconnues.naomi
+{% endhint %}
 
 ### Raccourcis
 
