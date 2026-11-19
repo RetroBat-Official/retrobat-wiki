@@ -40,7 +40,7 @@ These archives are in MAME format. The flycast core and standalone Flycast both 
 
 RetroBat sets up the controllers for the three emulators. The controls shared by every game:
 
-<table><thead><tr><th width="124">Cabinet</th><th>Controller</th></tr></thead><tbody><tr><td>Joystick</td><td>D-pad, left stick</td></tr><tr><td>Start</td><td>START</td></tr><tr><td>Coin</td><td>SELECT</td></tr><tr><td>Test</td><td>R3 (with the service menu enabled, see <strong>Guides</strong>)</td></tr><tr><td>Service</td><td>L3 (with the service menu enabled, see <strong>Guides</strong>)</td></tr></tbody></table>
+<table><thead><tr><th width="124">Cabinet</th><th>Controller</th></tr></thead><tbody><tr><td>Joystick</td><td>D-pad, left stick</td></tr><tr><td>Start</td><td>START</td></tr><tr><td>Coin</td><td>SELECT</td></tr><tr><td>Test</td><td>R3 (with the service menu enabled, see <a href="sega-naomi.md#service-menu-and-test-menu"><strong>Guides</strong></a>)</td></tr><tr><td>Service</td><td>L3 (with the service menu enabled, see <a href="sega-naomi.md#service-menu-and-test-menu"><strong>Guides</strong></a>)</td></tr></tbody></table>
 
 * **flycast core** and **Flycast**: the position of the action buttons is defined game by game, to match the cabinet layout. The files used are `libretro_flycast_naomi.yml` (core) and `flycast_Arcade.yml` (Flycast), see the [**Emulator specific controller configuration**](../../../../controllers/controller-configuration.md#adapting-the-controls-without-disabling-autoconfiguration) page. **CONTROLS > CONTROLLER LAYOUT** picks another layout when the file offers one (for example for Dead or Alive 2).
 * **Flycast**: **CONTROLS > USE DPAD** moves the analog controls to the d-pad.

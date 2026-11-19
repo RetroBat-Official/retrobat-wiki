@@ -26,21 +26,26 @@ An empty `.game` file placed in `roms\bsyndrome` starts the game of the `roms\bs
 
 ## Controls
 
-The game is played with the keyboard:
+The game reads the **first controller** it recognizes by itself, with fixed buttons: RetroBat does not set it up. The keyboard stays active.
 
-| Key           | Action                    |
-| ------------- | ------------------------- |
-| Arrows        | Move Jack                 |
-| Tab           | Show the bag              |
-| Ctrl          | Show the status bar       |
-| Shift / Space | Use the weapon            |
-| Enter         | Skip dialogs              |
-| C             | Screenshot (`.tga`)       |
-| S             | Save                      |
-| L             | Load a save               |
-| + / -         | Next / previous save slot |
-| F             | Fast mode                 |
-| W             | Fullscreen / window       |
+| Controller                 | Keyboard      | Action                    |
+| -------------------------- | ------------- | ------------------------- |
+| D-pad, left or right stick | Arrows        | Move Jack                 |
+| START                      | Tab           | Show the bag              |
+| NORTH                      | Ctrl          | Show the status bar       |
+| EAST / WEST                | Space / Shift | Use the weapon            |
+| SOUTH                      | Enter         | Skip dialogs              |
+| SELECT                     | Esc           | Esc key                   |
+| —                          | C             | Screenshot (`.tga`)       |
+| —                          | S             | Save                      |
+| —                          | L             | Load a save               |
+| —                          | + / -         | Next / previous save slot |
+| —                          | F             | Fast mode                 |
+| —                          | W             | Fullscreen / window       |
+
+{% hint style="warning" %}
+The game uses the gamecontrollerdb.txt file located near the engine executable `\emulators\bsyndrome`, without such file only Xinput controllers might work.
+{% endhint %}
 
 ### Hotkeys
 
