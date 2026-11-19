@@ -2,13 +2,13 @@
 
 RetroBat (EmulationStation) propose trois **modes d'interface** :
 
-<table><thead><tr><th width="104.5">Mode</th><th width="216">Pour</th><th>Effet</th></tr></thead><tbody><tr><td><strong>Complet</strong></td><td>Vous (par défaut)</td><td>Tout est accessible.</td></tr><tr><td><strong>Kiosque</strong></td><td>Invités, bornes d'arcade</td><td>Tous les jeux sont jouables, mais les paramètres, les métadonnées, les collections et la suppression de jeux sont verrouillés. Les jeux cachés restent cachés.</td></tr><tr><td><strong>Enfant</strong></td><td>Enfants</td><td>Mêmes verrous que Kiosque, et <strong>seuls les jeux marqués « Jeu enfant »</strong> sont affichés. Les favoris ne peuvent pas être modifiés.</td></tr></tbody></table>
+<table><thead><tr><th width="104.5">Mode</th><th width="167.25">Pour</th><th>Effet</th></tr></thead><tbody><tr><td><strong>Complet</strong></td><td>Vous (par défaut)</td><td>Tout est accessible.</td></tr><tr><td><strong>Kiosque</strong></td><td>Invités, bornes d'arcade</td><td>Tous les jeux sont jouables, mais les paramètres, les métadonnées, les collections et la suppression de jeux sont verrouillés. Les jeux cachés restent cachés.</td></tr><tr><td><strong>Enfant</strong></td><td>Enfants</td><td>Mêmes verrous que Kiosque, et <strong>seuls les jeux marqués « Jeu enfant »</strong> sont affichés. Les favoris ne peuvent pas être modifiés.</td></tr></tbody></table>
 
-## Avant de passer en mode Enfant : marquer les jeux
+### Avant de passer en mode Enfant : marquer les jeux
 
 Le mode Enfant n'affiche que les jeux dont la métadonnée **Jeu enfant** est activée. À faire tant que vous êtes en mode **Complet** :
 
-1. Dans une liste de jeux, sélectionnez le jeu et ouvrez le menu [**OPTIONS DU JEU**](../navigation/game-options.md).
+1. Dans une liste de jeux, sélectionnez le jeu et ouvrez le menu [**OPTIONS DU JEU**](../navigation/configuration-des-systemes-et-des-jeux.md#pour-un-jeu).
 2. Choisissez **ÉDITER LES MÉTADONNÉES DU JEU**.
 3. Activez **Jeu enfant**, puis enregistrez.
 
@@ -34,7 +34,7 @@ Si aucun jeu n'est marqué, le mode Enfant n'a rien à afficher, et EmulationSta
 
 ## Ce qui est verrouillé
 
-<table><thead><tr><th width="524.5"></th><th align="center">Kiosque</th><th align="center">Enfant</th></tr></thead><tbody><tr><td>Menu principal réduit à RETROACHIEVEMENTS, INFORMATIONS, DÉVERROUILLER L'INTERFACE et QUITTER</td><td align="center">✔</td><td align="center">✔</td></tr><tr><td>Options du jeu : pas d'édition des métadonnées, pas de collections, pas de suppression</td><td align="center">✔</td><td align="center">✔</td></tr><tr><td>Filtres et options des listes de jeux réduits</td><td align="center">✔</td><td align="center">✔</td></tr><tr><td>Systèmes et collections vides masqués</td><td align="center">✔</td><td align="center">✔</td></tr><tr><td>Éditeur PadToKey en lecture seule</td><td align="center">✔</td><td align="center">✔</td></tr><tr><td>Jeux cachés jamais affichés</td><td align="center">✔</td><td align="center"></td></tr><tr><td>Seuls les jeux « Jeu enfant » affichés</td><td align="center"></td><td align="center">✔</td></tr><tr><td>Options SELECT et raccourci favoris désactivés</td><td align="center"></td><td align="center">✔</td></tr><tr><td>Aide « MENU » masquée (START ouvre toujours le menu réduit)</td><td align="center"></td><td align="center">✔</td></tr></tbody></table>
+<table><thead><tr><th width="528.25"></th><th width="81.75" align="center">Kiosque</th><th width="75.5" align="center">Enfant</th></tr></thead><tbody><tr><td>Menu principal réduit à RETROACHIEVEMENTS, INFORMATIONS, DÉVERROUILLER L'INTERFACE et QUITTER</td><td align="center">✔</td><td align="center">✔</td></tr><tr><td>Options du jeu : pas d'édition des métadonnées, pas de collections, pas de suppression</td><td align="center">✔</td><td align="center">✔</td></tr><tr><td>Filtres et options des listes de jeux réduits</td><td align="center">✔</td><td align="center">✔</td></tr><tr><td>Systèmes et collections vides masqués</td><td align="center">✔</td><td align="center">✔</td></tr><tr><td>Éditeur PadToKey en lecture seule</td><td align="center">✔</td><td align="center">✔</td></tr><tr><td>Jeux cachés jamais affichés</td><td align="center">✔</td><td align="center"></td></tr><tr><td>Seuls les jeux « Jeu enfant » affichés</td><td align="center"></td><td align="center">✔</td></tr><tr><td>Options SELECT et raccourci favoris désactivés</td><td align="center"></td><td align="center">✔</td></tr><tr><td>Aide « MENU » masquée (START ouvre toujours le menu réduit)</td><td align="center"></td><td align="center">✔</td></tr></tbody></table>
 
 Les sauvegardes d'état restent accessibles dans les deux modes.
 
@@ -82,3 +82,22 @@ InterfaceMode=2
 <table><thead><tr><th width="114">Valeur</th><th>Mode</th></tr></thead><tbody><tr><td>0</td><td>Normal (utilise le réglage RESTRICTIONS DE L'INTERFACE)</td></tr><tr><td>1</td><td>Kiosque</td></tr><tr><td>2</td><td>Enfant</td></tr></tbody></table>
 
 > **Attention :** quand `InterfaceMode` vaut 1 ou 2, le mode est **forcé à chaque démarrage**, et le code de déverrouillage est sans effet. Pour revenir en mode Complet, fermez RetroBat et remettez `InterfaceMode=0`.
+
+## Borne d'arcade : empêcher de quitter RetroBat
+
+Dans `retrobat.ini` :
+
+```ini
+[RetroBat]
+DisableWindowsInterface=3
+
+[EmulationStation]
+InterfaceMode=1
+NoExitMenu=1
+```
+
+* `InterfaceMode=1` : mode Kiosque forcé, impossible à déverrouiller depuis la borne.
+* `NoExitMenu=1` : le menu **QUITTER** ne propose plus **QUITTER EMULATIONSTATION**, seulement **REDÉMARRER** et **ÉTEINDRE** le PC (et **METTRE EN VEILLE**, qui met le PC en veille prolongée, si la veille prolongée est activée dans Windows).
+* `DisableWindowsInterface=3` : masque la barre des tâches, les notifications et les fenêtres de plantage, et bloque la touche Windows, Alt+Tab, Ctrl+Échap et Alt+F4 sur l'interface.
+
+Ctrl+Alt+Suppr reste toujours disponible (Windows ne permet pas de le bloquer). Pour revenir à un PC normal, remettez ces trois réglages à 0.

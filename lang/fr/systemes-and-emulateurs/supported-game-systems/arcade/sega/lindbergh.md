@@ -30,11 +30,13 @@ Aucun BIOS n'est nécessaire : les jeux Lindbergh contiennent tout ce dont ils o
 
 ## Quel format de jeu ?
 
-Un jeu Lindbergh est un dossier qui contient un dossier `disk0`. RetroBat le reconnaît de deux façons :
+Un jeu Lindbergh est un dossier, qui contient le plus souvent un dossier `disk0`. RetroBat le reconnaît de deux façons :
 
-<table><thead><tr><th width="160.25">Méthode</th><th>Comment faire</th></tr></thead><tbody><tr><td><strong>Dossier <code>.game</code></strong></td><td>Renommez le dossier du jeu avec l'extension <code>.game</code> (par exemple <code>hotd4.game</code>). RetroBat cherche le programme du jeu dans <code>disk0</code>, ou dans le bon sous-dossier pour les jeux connus (voir ci-dessous).</td></tr><tr><td><strong>Fichier <code>.game</code></strong></td><td>Créez un fichier vide avec l'extension <code>.game</code> à côté du programme du jeu (le fichier <code>elf</code>).</td></tr></tbody></table>
+<table><thead><tr><th width="142.75">Méthode</th><th>Comment faire</th></tr></thead><tbody><tr><td><strong>Dossier <code>.game</code></strong></td><td>Renommez le dossier du jeu avec l'extension <code>.game</code> (par exemple <code>hotd4.game</code>). RetroBat cherche le programme du jeu dans <code>disk0</code> s'il existe, sinon directement dans le dossier, et dans le bon sous-dossier pour les jeux connus (voir ci-dessous).</td></tr><tr><td><strong>Fichier <code>.game</code></strong></td><td>Créez un fichier vide avec l'extension <code>.game</code> (par exemple <code>hummerxt.game</code>) à côté du programme du jeu (le fichier <code>elf</code>). Le dossier du jeu ne doit pas porter l'extension <code>.game</code>.</td></tr></tbody></table>
 
-Pour un dossier `.game`, gardez le nom court du jeu : il permet à RetroBat de trouver le programme quand il n'est pas à la racine de `disk0`, et à DemulShooter de reconnaître le jeu.
+<table><thead><tr><th width="450.25">Exemple</th><th>Explication</th></tr></thead><tbody><tr><td>roms\lindbergh\hotd4.game\disk0\elf\hod4M.elf</td><td>dossier .game avec disk0</td></tr><tr><td>roms\lindbergh\hummerxt.game\hummer_master.elf</td><td>dossier .game sans disk0</td></tr><tr><td>roms\lindbergh\hummerxt\hummerxt.game</td><td>fichier .game à côté du fichier elf</td></tr></tbody></table>
+
+Donnez au dossier ou au fichier `.game` le nom court du jeu : il permet à DemulShooter de reconnaître le jeu et, pour un dossier, à RetroBat de trouver le programme quand il est dans un sous-dossier (par exemple `disk0\elf`).
 
 <details>
 
@@ -126,7 +128,7 @@ Les jeux au pistolet (**The House of the Dead 4**, **Let's Go Jungle!**, **2 Spi
 
 <table><thead><tr><th width="225.25">Borne</th><th>Pistolet / souris</th></tr></thead><tbody><tr><td>Gâchette</td><td>Clic gauche</td></tr><tr><td>Recharger</td><td>Clic droit (<strong>MAPPING DU RECHARGEMENT</strong>)</td></tr><tr><td>Bouton du pistolet</td><td>Clic du milieu (<strong>MAPPING DU BOUTON DU PISTOLET</strong>)</td></tr><tr><td>Bouton d'action</td><td>Start (<strong>MAPPING DU BOUTON D'ACTION</strong>)</td></tr><tr><td>Pédales gauche / droite</td><td>Flèches gauche / droite</td></tr></tbody></table>
 
-Linuxloader ne gère qu'un pistolet. Pour jouer à plusieurs, activez **PISTOLETS > UTILISER DEMULSHOOTER** (DemulShooter s'installe depuis le menu de téléchargement de RetroBat) : le nom du dossier `.game` doit alors être celui de la liste (`hotd4`, `lgj`, `2spicy`…). Avec un pistolet Sinden, RetroBat active la bordure blanche de Linuxloader (**ACTIVER LA BORDURE BLANCHE**). Pour plus de détails, voir la page [**Contrôle des pistolets**](../../../../controleurs/pistolets_controles.md).
+Linuxloader ne gère qu'un pistolet. Pour jouer à plusieurs, activez **PISTOLETS > UTILISER DEMULSHOOTER** (DemulShooter s'installe depuis le menu de téléchargement de RetroBat) : le nom du dossier ou du fichier `.game` doit alors être celui de la liste (`hotd4`, `lgj`, `2spicy`…). Avec un pistolet Sinden, RetroBat active la bordure blanche de Linuxloader (**ACTIVER LA BORDURE BLANCHE**). Pour plus de détails, voir la page [**Contrôle des pistolets**](../../../../controleurs/pistolets_controles.md).
 
 ### Volants
 
@@ -158,4 +160,4 @@ Le menu de test de la borne permet de calibrer les pistolets, de choisir la diff
 
 ## Problèmes connus
 
-<table><thead><tr><th width="344">Problème</th><th>Solution</th></tr></thead><tbody><tr><td>Le jeu ne démarre pas (dossier <code>.game</code>)</td><td>Vérifiez que le dossier contient <code>disk0</code>, et utilisez le nom court du jeu (voir <a href="lindbergh.md#quel-format-de-jeu"><strong>Quel format de jeu ?</strong></a>).</td></tr><tr><td>The House of the Dead 4 tourne trop vite</td><td>Réglez <strong>ÉMULATION > FRÉQUENCE DU PROCESSEUR</strong>.</td></tr><tr><td>DemulShooter ne reconnaît pas le jeu</td><td>Renommez le dossier avec le nom attendu (<code>hotd4</code>, <code>lgj</code>, <code>rambo</code>…).</td></tr><tr><td>Les joueurs 1 et 2 sont inversés</td><td>Activez <strong>CONTRÔLES > INVERSER J1 ET J2</strong>.</td></tr><tr><td>Outrun 2 SP SDX s'arrête sur une erreur de borne</td><td>Activez <strong>CORRECTIFS > OUTRUN IGNORER LA VÉRIF. DE LA BORNE</strong>.</td></tr></tbody></table>
+<table><thead><tr><th width="279">Problème</th><th>Solution</th></tr></thead><tbody><tr><td>Le jeu revient aussitôt à la liste des jeux</td><td>Vérifiez que le dossier ou le fichier <code>.game</code> porte le nom court du jeu. Si le programme du jeu est dans un sous-dossier inhabituel, placez un fichier <code>.game</code> à côté de lui. Voir la section <a href="lindbergh.md#quel-format-de-jeu"><strong>Quel format de jeu ?</strong></a>.</td></tr><tr><td>The House of the Dead 4 tourne trop vite</td><td>Réglez <strong>ÉMULATION > FRÉQUENCE DU PROCESSEUR</strong>.</td></tr><tr><td>DemulShooter ne reconnaît pas le jeu</td><td>Renommez le dossier ou le fichier <code>.game</code> avec le nom attendu (<code>hotd4</code>, <code>lgj</code>, <code>rambo</code>…).</td></tr><tr><td>Les joueurs 1 et 2 sont inversés</td><td>Activez <strong>CONTRÔLES > INVERSER J1 ET J2</strong>.</td></tr><tr><td>Outrun 2 SP SDX s'arrête sur une erreur de borne</td><td>Activez <strong>CORRECTIFS > OUTRUN IGNORER LA VÉRIF. DE LA BORNE</strong>.</td></tr></tbody></table>

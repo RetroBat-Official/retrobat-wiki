@@ -98,6 +98,10 @@ RetroBat utilise les mêmes contrôles arcade pour la plupart des émulateurs ar
 
 <table><thead><tr><th width="321.5">Fonction</th><th width="228.25">Manette</th><th>Clavier</th></tr></thead><tbody><tr><td>Insérer une pièce (joueur 1 / joueur 2)</td><td>SELECT</td><td><code>5</code> / <code>6</code></td></tr><tr><td>Start (joueur 1 / joueur 2)</td><td>START</td><td><code>1</code> / <code>2</code></td></tr><tr><td>Test (menu opérateur)</td><td>R3</td><td><code>0</code></td></tr><tr><td>Service (crédit gratuit)</td><td>L3</td><td><code>9</code></td></tr><tr><td>Quitter le jeu</td><td>HOTKEY + START</td><td><code>Échap</code></td></tr></tbody></table>
 
+{% hint style="info" %}
+Avec TeknoParrot, Test est sur L3 et Service sur R3.
+{% endhint %}
+
 {% hint style="warning" %}
 Test et Service à la manette (R3 / L3) peuvent être activés ou désactivés dans la [CONFIGURATION AVANCÉE DU SYSTÈME](../navigation/configuration-des-systemes-et-des-jeux.md#pour-un-systeme) de certains émulateurs, pour éviter d'ouvrir le menu opérateur par erreur :
 

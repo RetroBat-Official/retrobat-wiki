@@ -66,6 +66,7 @@ Les émulateurs marqués ✏️ sont personnalisables (voir Personnaliser les ra
 * DeSmuME ✏️ (utilise PadToKey)
 * Dhewm3
 * Dolphin ✏️
+* DOSBox Pure (uniquement sauvegarde/chargement, utilise PadToKey)
 * DuckStation ✏️
 * Eden
 * FBNeo (standalone) ✏️ (utilise PadToKey, retour arrière seulement s'il est activé)
