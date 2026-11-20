@@ -106,7 +106,7 @@ Test et Service à la manette (R3 / L3) peuvent être activés ou désactivés d
 * m2emulator, Supermodel, Model3-Vulkan, Flycast, PCSX2x6, lr-kronos : **ÉMULATION** > **ACTIVER LE MENU SERVICE** (désactivé par défaut) ;
 * lr-flycast : **ÉMULATION** > **MODE SERVICE** (désactivé par défaut).
 
-Les touches `0` (Test) et `9` (Service) du clavier fonctionnent toujours. Avec Keisho, L3 / R3 sont toujours actifs. Avec Play! (Namco 246/256), Test est toujours actif sur R3 (pas de touche clavier ni de Service). Avec TeknoParrot, Test est sur L3 et Service sur R3.
+Les touches `0` (Test) et `9` (Service) du clavier fonctionnent toujours. Avec Keisho et TeknoParrot, R3 / L3 sont toujours actifs. Avec Play! (Namco 246/256), Test est toujours actif sur R3 (pas de touche clavier ni de Service).
 {% endhint %}
 
 ### Dispositions pour sticks arcade

@@ -38,8 +38,16 @@ Un aperçu de chaque pack est affiché dans la liste.
 <div align="left"><figure><img src="../.gitbook/assets/image (394).png" alt=""><figcaption></figcaption></figure></div>
 
 * **Jeux d'arcade verticaux** (MAME, FBNeo) : avec les packs par défaut, RetroBat utilise automatiquement un bezel vertical.
-* **Émulateurs standalone** : selon l'émulateur, le bezel est affiché avec ReShade ou avec une fenêtre derrière l'émulateur. L'option **MENU PRINCIPAL > PARAMÈTRES DES JEUX > RESHADE** règle l'utilisation de ReShade : **DÉSACTIVÉ** (le bezel est alors affiché avec une fenêtre), **UTILISER LE MIEN** (RetroBat n'installe, ne modifie ni ne supprime jamais les fichiers ReShade dans les dossiers des émulateurs).
+* **Émulateurs standalone** : selon l'émulateur et son pilote vidéo, le bezel est affiché avec ReShade (dessiné dans l'image de l'émulateur, en OpenGL, DirectX ou Vulkan) ou avec une fenêtre transparente affichée par-dessus l'émulateur (toujours au premier plan, elle ne prend ni le focus ni les clics). L'option **MENU PRINCIPAL > PARAMÈTRES DES JEUX > RESHADE** règle l'utilisation de ReShade : **DÉSACTIVÉ** (le bezel est alors affiché avec une fenêtre), **UTILISER LE MIEN** (RetroBat n'installe, ne modifie ni ne supprime jamais les fichiers ReShade dans les dossiers des émulateurs).
 * L'option DÉCORATIONS n'apparaît que pour les émulateurs capables d'afficher des bezels.
+
+{% hint style="info" %}
+**ReShade en Vulkan** : DuckStation (pilote VULKAN), Play! (VULKAN), RMG (plugin PARALLEL) et Ikemen GO (VULKAN, expérimental). RetroBat n'installe rien dans Windows : ReShade est chargé uniquement pour l'émulateur lancé. Si RetroBat est lancé en administrateur, ReShade ne peut pas être chargé en Vulkan : le bezel est alors affiché avec la fenêtre par-dessus.
+{% endhint %}
+
+{% hint style="warning" %}
+**Plein écran exclusif** : la fenêtre par-dessus ne peut pas s'afficher sur un plein écran exclusif. Avec un bezel, Dolphin, Mesen et Altirra restent donc en plein écran sans bordure, même si l'option **PRÉFÉRER LE PLEIN ÉCRAN EXCLUSIF** est activée. ReShade, lui, fonctionne aussi en plein écran exclusif.
+{% endhint %}
 
 ## Bezels par jeu
 
