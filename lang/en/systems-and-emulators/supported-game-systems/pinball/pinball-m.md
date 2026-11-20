@@ -2,9 +2,9 @@
 description: Zen Studios
 ---
 
-# Pinball M
+# Pinball FX Midnight
 
-<div align="left"><figure><img src="https://github.com/fabricecaruso/es-theme-carbon/blob/master/art/logos/pinballm.png?raw=true" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/pinballm.png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Pinball Simulation Software - Released 2023
 
