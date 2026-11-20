@@ -1,78 +1,88 @@
 # Commander Genius
 
-<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/421cec038116fe7b6711fa35683470884a28ed55/art/logos/cgenius.svg" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (653).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-Game engine to play Commander Keen games.
+## Overview
+
+**Commander Keen** (id Software / Apogee, 1990-1991) is a PC platform game series. **Commander Genius** is a modern engine that runs episodes 1 to 6, **Keen Dreams** and fan games.
+
+Commander Genius adds high resolution, picture filters, controller play and quick save.
+
+Games (Keen Dreams, fan games…) can be downloaded from Commander Genius; the episodes of the series come from your own copies.
 
 {% embed url="https://clonekeenplus.sourceforge.io/" %}
 
-## Information
+## At a glance
 
-<table data-header-hidden><thead><tr><th width="240"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>cgenius</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> cgenius</td></tr><tr><td><strong>File extension</strong></td><td>.cgenius</td></tr><tr><td><strong>Saves location</strong></td><td><em>emulators\cgenius\save</em><br>Copied to <em>saves\cgenius</em></td></tr></tbody></table>
+<table><thead><tr><th width="240.25"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\cgenius\games</code></td></tr><tr><td><strong>Extensions</strong></td><td>.cgenius</td></tr><tr><td><strong>Default emulator</strong></td><td>cgenius</td></tr><tr><td><strong>BIOS</strong></td><td>None</td></tr><tr><td><strong>Controller setup</strong></td><td>Automatic</td></tr><tr><td><strong>Save states</strong></td><td>No: quick save / load with hotkeys</td></tr><tr><td><strong>RetroAchievements</strong></td><td>No</td></tr><tr><td><strong>Netplay</strong></td><td>No</td></tr><tr><td><strong>Light guns</strong></td><td>—</td></tr><tr><td><strong>Wheels</strong></td><td>—</td></tr><tr><td><strong>Optional BIOS</strong></td><td>—</td></tr></tbody></table>
 
-## BIOS
+## Which game format?
 
-No BIOS required.
+Each game is a folder of `roms\cgenius\games`. An empty `.cgenius` file placed in the game folder starts it directly.
+
+```
+roms\cgenius\
+└── games\
+    ├── keen1\
+    │   ├── ...
+    │   └── Commander Keen.cgenius
+    ├── keen2\
+    │   ├── ...
+    │   └── Commander Keen 2.cgenius
+    └── keen7\
+        ├── ...
+        └── Commander Keen 7.cgenius
+```
 
 ## Controls
 
-<table><thead><tr><th width="246">Retrobat</th><th>Commander Keen</th></tr></thead><tbody><tr><td>START</td><td>Help</td></tr><tr><td>SELECT</td><td>Back</td></tr><tr><td>D-PAD</td><td>Directions</td></tr><tr><td><img src="../../../.gitbook/assets/image (48).png" alt=""></td><td>Run</td></tr><tr><td><img src="../../../.gitbook/assets/image (30).png" alt=""></td><td>Jump</td></tr><tr><td><img src="../../../.gitbook/assets/image (16) (1).png" alt=""></td><td>Fire</td></tr><tr><td><img src="../../../.gitbook/assets/image (50).png" alt=""></td><td>Pogo</td></tr><tr><td>L1</td><td>Status</td></tr><tr><td>R1</td><td>Camlead</td></tr><tr><td>Hotkey + <img src="../../../.gitbook/assets/image (48).png" alt=""></td><td>Quicksave</td></tr><tr><td>Hotkey + <img src="../../../.gitbook/assets/image (50).png" alt=""></td><td>Quickload</td></tr></tbody></table>
+### Automatic configuration
 
-## System Features
+<table><thead><tr><th width="200.25">RetroBat controller</th><th>Commander Keen</th></tr></thead><tbody><tr><td>D-pad</td><td>Directions</td></tr><tr><td>SOUTH</td><td>Jump</td></tr><tr><td>EAST</td><td>Fire</td></tr><tr><td>WEST</td><td>Run</td></tr><tr><td>NORTH</td><td>Pogo</td></tr><tr><td>L1</td><td>Status</td></tr><tr><td>R1</td><td>Camera (Camlead)</td></tr><tr><td>START</td><td>Help</td></tr><tr><td>SELECT</td><td>Back</td></tr></tbody></table>
 
-### Cgenius configuration file
+**CONTROLS > TWO BUTTON FIRE**, **SUPER POGO**, **IMPOSSIBLE POGO** and **AUTO FIRE** change the game.
 
-By default, RetroBat will use the cgenius.cfg file located within the `\emulators\cgenius\` folder of the RetroBat installation in order to apply game settings.
+### Hotkeys
 
-However, if you previously installer cgenius without RetroBat, it is possible that the settings files already exist in your user documents folder. If this is the case, this will render RetroBat settings ineffective.
+<table><thead><tr><th width="235.25">Hotkey</th><th>Action</th></tr></thead><tbody><tr><td>HOTKEY + START</td><td>Quit</td></tr><tr><td>HOTKEY + WEST</td><td>Quick save</td></tr><tr><td>HOTKEY + NORTH</td><td>Quick load</td></tr></tbody></table>
 
-To prevent this issue from happening, you can simply delete the cgenius files located in your user\documents folder.
+## Folders
 
-### Game files organization
+<table><thead><tr><th width="210.25">Content</th><th>Folder</th></tr></thead><tbody><tr><td>Games</td><td><code>roms\cgenius\games</code></td></tr><tr><td>Saves</td><td><code>emulators\cgenius\save</code> (copied to <code>saves\cgenius</code>)</td></tr><tr><td>Configuration</td><td><code>emulators\cgenius\cgenius.cfg</code></td></tr></tbody></table>
 
-The engine requires the games to be located in a "**games**" subfolder inside the `roms\cgenius` folder .
+{% hint style="info" %}
+If Commander Genius was used outside RetroBat, its `Documents\Commander Genius\cgenius.cfg` file would take priority: RetroBat renames it during the game, then puts it back.
+{% endhint %}
 
-For RetroBat to detect the game, create in the individual game folder a text file and change the extension to ".cgenius".
+## Guides
 
-The folder organization is the following:
+### Download games from Commander Genius
 
-```
-└── roms\
-    └── cgenius\
-        └── games\
-            ├── keen1\
-            │   └── ...
-            │   └── Commander Keen.cgenius
-            └── keen2\
-            │   └── ...
-            │   └── Commander Keen 2.cgenius
-            └── keen7\
-            │   └── ...
-            │   └── Commander Keen 7.cgenius
-```
+1. Start `CGenius.exe` in `emulators\cgenius`:
 
-### How to add a game
+<div align="left"><figure><img src="../../../.gitbook/assets/image (658).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-The files can be downloaded from the engine itself:
+2. Click **+ MORE**:
 
-#### **Run cgenius.exe from the emulators\cgenius folder:**
+<div align="left"><figure><img src="../../../.gitbook/assets/image (657).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/AzAGLU1.png" alt="" width="375"><figcaption></figcaption></figure></div>
+3. Select the game and click **Download**. The game is downloaded to `emulators\cgenius\games`:
 
-#### Click on "+ MORE":
+<div align="left"><figure><img src="../../../.gitbook/assets/image (656).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/kytdlOg.png" alt="" width="375"><figcaption></figcaption></figure></div>
+4. Copy the game folder (KeenDreams in the example) to `roms\cgenius\games`:
 
-#### Select the game and click "download"
+<div align="left"><figure><img src="../../../.gitbook/assets/image (655).png" alt=""><figcaption></figcaption></figure></div>
 
-The game will be downloaded within the emulators\cgenius\games folder:
+5. Create a `.cgenius` file in the game folder:
 
-<div align="left"><figure><img src="https://i.imgur.com/ZZdiAKJ.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (654).png" alt=""><figcaption></figcaption></figure></div>
 
-#### Copy the last folder (KeenDreams in the example) to the roms\cgenius\games folder:
+### Options
 
-<div align="left"><figure><img src="https://i.imgur.com/tqAORuQ.png" alt=""><figcaption></figcaption></figure></div>
+* **SHADER SET** (SCALE2X to SCALE4X) smooths the picture, **INTERNAL GAME RESOLUTION** widens the view.
+* The bezel is only displayed with the 4/3 **GAME ASPECT RATIO**.
 
-#### Create an empty .cgenius file in the game folder:
+## Known issues
 
-<div align="left"><figure><img src="https://i.imgur.com/DYoPbqt.png" alt=""><figcaption></figcaption></figure></div>
+<table><thead><tr><th width="289">Issue</th><th>Solution</th></tr></thead><tbody><tr><td>The game does not start directly</td><td>The game must be in a subfolder of <code>roms\cgenius\games</code>.</td></tr></tbody></table>

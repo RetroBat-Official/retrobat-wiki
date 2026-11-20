@@ -1,36 +1,41 @@
 # Dinothawr
 
-Dinothawr is a block pushing puzzle game on slippery surfaces.
+## Overview
+
+**Dinothawr** is a free puzzle game: push blocks on the ice to free your frozen dinosaur friends.
+
+RetroBat runs it with the **Dinothawr** libretro core. The game is free.
 
 {% embed url="https://docs.libretro.com/library/dinothawr/" %}
 
-## Information
+## At a glance
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: dinothawr</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> dinothawr</td></tr><tr><td><strong>File extension</strong></td><td>.game</td></tr><tr><td><strong>Group</strong></td><td>ports</td></tr></tbody></table>
+<table><thead><tr><th width="227.75"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\dinothawr</code></td></tr><tr><td><strong>Extensions</strong></td><td>.game</td></tr><tr><td><strong>Default emulator</strong></td><td>libretro: dinothawr</td></tr><tr><td><strong>BIOS</strong></td><td>None</td></tr><tr><td><strong>Controller setup</strong></td><td>Automatic</td></tr><tr><td><strong>Save states</strong></td><td>No</td></tr><tr><td><strong>RetroAchievements</strong></td><td>No</td></tr><tr><td><strong>Netplay</strong></td><td>No</td></tr><tr><td><strong>Light guns</strong></td><td>—</td></tr><tr><td><strong>Wheels</strong></td><td>—</td></tr><tr><td><strong>Optional BIOS</strong></td><td>—</td></tr></tbody></table>
 
-## Bios Information
+## Which game format?
 
-No BIOS required.
+Copy the game files to `roms\dinothawr`, with the `dinothawr.game` file:
+
+```
+roms\dinothawr\
+├── assets\             (.png files, bg, sfx, sfxr folders)
+├── dinothawr.game
+├── *.cfg
+├── *.font
+├── *.glsl
+├── *.glslp
+├── *.png
+└── *.tmx
+```
 
 ## Controls
 
-<table><thead><tr><th width="205">Retrobat Button</th><th>Dinothawr</th></tr></thead><tbody><tr><td>START</td><td></td></tr><tr><td>SELECT</td><td></td></tr><tr><td>D-PAD</td><td>D-PAD</td></tr><tr><td>Left analog stick</td><td></td></tr><tr><td>Reft analog stick</td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (48).png" alt=""></td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (30).png" alt=""></td><td>Push</td></tr><tr><td><img src="../../../.gitbook/assets/image (16) (1).png" alt=""></td><td>Menu</td></tr><tr><td><img src="../../../.gitbook/assets/image (50).png" alt=""></td><td>Reset</td></tr><tr><td>L1</td><td></td></tr><tr><td>R1</td><td></td></tr><tr><td>L2</td><td></td></tr><tr><td>R2</td><td></td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="247.75">RetroBat controller</th><th>Action</th></tr></thead><tbody><tr><td>D-pad</td><td>Move</td></tr><tr><td>SOUTH</td><td>Push</td></tr><tr><td>EAST</td><td>Menu</td></tr><tr><td>NORTH</td><td>Restart the level</td></tr></tbody></table>
 
-## Specific system information
+### Hotkeys
 
-### File organization
+RetroArch hotkeys. See the [**Hotkeys**](../../../navigation/hotkeys.md) page.
 
-Place the Dinothawr core files directly in the `\roms\dinothawr` folder of the RetroBat installation:
+## Folders
 
-<pre><code>└── roms\
-    └── dinothawr\
-        ├── assets\
-<strong>        │   └── .png files &#x26; bg, sfx, sfxr subfolders
-</strong>        └── dinothawr.game
-        └── '.cfg' files
-        └── '.font' files
-        └── '.glsl' files
-        └── '.glslp' files
-        └── '.png' files
-        └── '.tmx' files
-</code></pre>
+<table><thead><tr><th width="227.75">Content</th><th>Folder</th></tr></thead><tbody><tr><td>Game</td><td><code>roms\dinothawr</code></td></tr></tbody></table>
