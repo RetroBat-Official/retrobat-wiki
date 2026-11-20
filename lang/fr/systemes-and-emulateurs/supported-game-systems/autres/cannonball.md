@@ -1,43 +1,47 @@
+---
+description: Port OutRun
+---
+
 # Cannonball
 
-<div align="left"><figure><img src="https://raw.githubusercontent.com/RetroBat-Official/es-theme-carbon/545a1cc682836ea1e0e5e1ff9b8b9f9874367159/art/logos/cannonball.svg" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (679).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-Moteur de jeu permettant de jouer à Outrun.
+## Présentation
+
+**OutRun** (Sega, 1986) est un jeu de course d'arcade : une Ferrari, une passagère et des routes à embranchements jusqu'à la ligne d'arrivée.
+
+RetroBat le lance avec le core libretro **Cannonball**, un moteur qui reprend le jeu d'arcade : haute résolution, écran large, 60 images par seconde.
+
+La ROM du jeu n'est pas fournie : il faut la ROM d'OutRun (révision B) du romset MAME.
 
 {% embed url="https://docs.libretro.com/library/cannonball/" %}
 
-## Informations
+## En bref
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>Libretro : cannonball</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> cannonball</td></tr><tr><td><strong>Extensions</strong></td><td>.game</td></tr></tbody></table>
+<table><thead><tr><th width="276.5"></th><th></th></tr></thead><tbody><tr><td><strong>Dossier des jeux</strong></td><td><code>roms\cannonball</code></td></tr><tr><td><strong>Extensions</strong></td><td>.game</td></tr><tr><td><strong>Émulateur par défaut</strong></td><td>libretro: cannonball</td></tr><tr><td><strong>BIOS</strong></td><td>Aucun (ROM d'OutRun à fournir)</td></tr><tr><td><strong>Configuration des manettes</strong></td><td>Automatique</td></tr><tr><td><strong>Sauvegardes instantanées</strong></td><td>Non</td></tr><tr><td><strong>RetroAchievements</strong></td><td>Non</td></tr><tr><td><strong>Jeu en réseau</strong></td><td>Non</td></tr><tr><td><strong>Pistolets</strong></td><td>—</td></tr><tr><td><strong>Volants</strong></td><td>—</td></tr><tr><td><strong>BIOS optionnels</strong></td><td>—</td></tr></tbody></table>
 
-## Bios
+## Quel format de jeu ?
 
-Aucun BIOS nécessaire.
+Extrayez `outrun.zip` (OutRun révision B, romset MAME) dans `roms\cannonball`, puis créez un fichier vide `CannonBall.game` dans le même dossier :
+
+<div align="left"><figure><img src="../../../.gitbook/assets/image (680).png" alt=""><figcaption></figcaption></figure></div>
 
 ## Contrôles
 
-| Retrobat                                           | Cannonball        |
-| -------------------------------------------------- | ----------------- |
-| START                                              | START             |
-| SELECT                                             | COIN              |
-| D-PAD                                              | D-PAD             |
-| Left analog stick                                  | Directions        |
-| Right analog stick                                 |                   |
-| ![](<../../../.gitbook/assets/image (33).png>)     | Freiner           |
-| ![](<../../../.gitbook/assets/image (20) (1).png>) | Accélerer         |
-| ![](<../../../.gitbook/assets/image (7) (1).png>)  |                   |
-| ![](<../../../.gitbook/assets/image (35).png>)     |                   |
-| L1                                                 | Changer de vue    |
-| R1                                                 | Retourner au menu |
-| L2                                                 |                   |
-| R2                                                 |                   |
+### Configuration automatique
 
-## Information spécifique au système
+<table><thead><tr><th width="239">Manette RetroBat</th><th>Action</th></tr></thead><tbody><tr><td>Croix, stick gauche</td><td>Diriger</td></tr><tr><td>SUD</td><td>Accélérer</td></tr><tr><td>OUEST</td><td>Freiner</td></tr><tr><td>R2 / L2</td><td>Accélérateur / frein analogiques</td></tr><tr><td>EST / NORD</td><td>Rapport haut / bas (<strong>MODE DES VITESSES</strong> sur MANUEL 2 BOUTONS)</td></tr><tr><td>L1</td><td>Changer de vue</td></tr><tr><td>R1</td><td>Retour au menu</td></tr><tr><td>SELECT</td><td>Pièce</td></tr><tr><td>START</td><td>Start</td></tr></tbody></table>
 
-### Organisation des fichiers de jeux
+**CONTRÔLES > MODE DES VITESSES** : AUTOMATIQUE (défaut), MANUEL, MANUEL BORNE ou MANUEL 2 BOUTONS.
 
-Cannonball fonctionne avec une rom du jeu Outrun (Rev. B) du romset Mame.&#x20;
+### Raccourcis
 
-Décompresser le fichier outrun.zip dans le dossier `roms\cannonball` de votre installation RetroBat et créez un fichier vide nommé _**CannonBall.game**_ dans le même dossier:
+Raccourcis de RetroArch. Voir la page [**Raccourcis**](../../../navigation/hotkeys.md).
 
-<div align="left"><figure><img src="https://i.imgur.com/vGBwlYm.png" alt=""><figcaption></figcaption></figure></div>
+## Dossiers
+
+<table><thead><tr><th width="282.75">Contenu</th><th>Dossier</th></tr></thead><tbody><tr><td>ROM et fichier de lancement</td><td><code>roms\cannonball</code></td></tr></tbody></table>
+
+## Options
+
+**VIDÉO > HAUTE RÉSOLUTION** et **ÉCRAN LARGE** (activés par défaut), **CONTRÔLES > CONTRÔLES ANALOGIQUES**.
