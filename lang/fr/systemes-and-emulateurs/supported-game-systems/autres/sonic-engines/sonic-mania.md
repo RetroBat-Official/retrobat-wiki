@@ -1,38 +1,72 @@
 # Sonic Mania
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/sonic-mania.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (693).png" alt="" width="269"><figcaption></figcaption></figure></div>
 
-Moteur de jeu permettant de jouer à Sonic Mania.
+## Présentation
+
+**Sonic Mania** (Sega, 2017) est un Sonic en 2D développé par Christian Whitehead, Headcannon et PagodaWest Games, dans l'esprit des épisodes Mega Drive. RetroBat le lance avec **RSDKv5U**, la version PC du moteur Retro Engine issue de la décompilation du jeu (projet RSDKModding).
+
+Le jeu n'est pas fourni : il faut le fichier de données `Data.rsdk` de votre propre version du jeu.
 
 {% embed url="https://github.com/Rubberduckycooly/Sonic-Mania-Decompilation" %}
 
-## Information
+## En bref
 
-<table data-header-hidden><thead><tr><th width="305"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>sonicmania</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> sonic-mania</td></tr><tr><td><strong>Extensions</strong></td><td>.rsdk</td></tr><tr><td><strong>Emplacement des sauvegardes</strong></td><td><em>roms\sonicmania</em><br>Copié dans <em>saves\sonicmania</em></td></tr></tbody></table>
+<table><thead><tr><th width="292.75"></th><th></th></tr></thead><tbody><tr><td><strong>Dossier des jeux</strong></td><td><code>roms\sonic-mania</code></td></tr><tr><td><strong>Extensions</strong></td><td>.rsdk</td></tr><tr><td><strong>Émulateur par défaut</strong></td><td>sonicmania</td></tr><tr><td><strong>BIOS</strong></td><td>Aucun (<code>Data.rsdk</code> du jeu à fournir)</td></tr><tr><td><strong>Configuration des manettes</strong></td><td>Gérée par le jeu</td></tr><tr><td><strong>Sauvegardes instantanées</strong></td><td>Non (sauvegardes du jeu)</td></tr><tr><td><strong>RetroAchievements</strong></td><td>Non</td></tr><tr><td><strong>Jeu en réseau</strong></td><td>Non</td></tr></tbody></table>
 
 ## BIOS
 
-Aucun BIOS nécessaire.
+Aucun BIOS n'est nécessaire.
+
+## Quel format de jeu ?
+
+Le fichier **Data.rsdk** de Sonic Mania (version PC, Steam ou Epic Games Store, avec ou sans Sonic Mania Plus). Copiez-le dans `roms\sonic-mania` :
+
+```
+roms\
+└── sonic-mania\
+    └── Data.rsdk
+```
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (694).png" alt=""><figcaption></figcaption></figure></div>
 
 ## Contrôles
 
-A venir.
+La manette est reconnue directement par le moteur : RetroBat ne la configure pas. Croix ou stick gauche = déplacement, boutons de façade = saut, START = pause.
 
-## Information spécifique au système
+### Raccourcis
 
-### Organisation des fichiers de jeux
+<table><thead><tr><th width="194">Action</th><th>Manette</th></tr></thead><tbody><tr><td>Quitter</td><td>HOTKEY + START</td></tr></tbody></table>
 
-Le moteur de jeu nécessite l'utilisation du fichier "Data.rsdk" issue du jeu Sonic Mania pour fonctionner.
+Pas de sauvegardes instantanées : la progression est enregistrée par le jeu.
 
-Ce fichier peut être obtenu depuis différentes sources :
+## Dossiers
 
-* Windows
-  * [Via Steam](https://store.steampowered.com/app/584400/Sonic_Mania/)
-  * [Via la boutique Epic Games](https://store.epicgames.com/fr/p/sonic-mania)
-* [Switch, via the eShop](https://www.nintendo.com/games/detail/sonic-mania-switch/)
-* [PS4, via le Playstation Store](https://store.playstation.com/fr-fr/product/EP0177-CUSA07010_00-SONICMANIA000000)
-* [Xbox One, via the Store](https://www.xbox.com/en-US/games/store/sonic-mania/BXH46NQT9W4Q/0001)
+<table><thead><tr><th width="277.75">Contenu</th><th>Dossier</th></tr></thead><tbody><tr><td>Sauvegardes du jeu</td><td><code>roms\sonic-mania</code> (<code>SaveData.bin</code>, <code>Achievements.bin</code>), copiées par RetroBat dans <code>saves\sonicmania</code></td></tr><tr><td>Réglages (écrits par RetroBat)</td><td><code>roms\sonic-mania\Settings.ini</code></td></tr><tr><td>Mods</td><td><code>roms\sonic-mania\mods</code></td></tr></tbody></table>
 
-Copier le fichier `Data.rsdk` dans le dossier `roms\sonic-mania`.
+## Guides
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (57).png" alt=""><figcaption></figcaption></figure></div>
+### Mods
+
+Les mods prévus pour la décompilation (RSDKv5) se placent dans `roms\sonic-mania\mods`, un dossier par mod, avec un fichier `mod.ini` dedans :
+
+```
+roms\
+└── sonic-mania\
+    ├── Data.rsdk
+    └── mods\
+        └── MonMod\
+            └── mod.ini
+```
+
+Avec **ÉMULATION > ACTIVER LES MODS** (activé par défaut), RetroBat active tous les mods du dossier ; désactivé, le jeu se lance sans mods. Pour ne pas charger un mod, sortez son dossier de `mods`. Les mods sont chargés dans l'ordre du fichier `mods\modconfig.ini` ; les nouveaux mods sont ajoutés à la fin.
+
+Les mods faits pour la version Steam d'origine (Mania Mod Loader) ne fonctionnent pas avec ce moteur.
+
+### Options utiles
+
+<table><thead><tr><th width="259">Option</th><th>Effet</th></tr></thead><tbody><tr><td><strong>ÉMULATION > LANGUE</strong></td><td>Langue du jeu.</td></tr><tr><td><strong>SHADERS</strong></td><td>Filtre d'image (net, CRT).</td></tr></tbody></table>
+
+## Problèmes connus
+
+<table><thead><tr><th width="269">Problème</th><th>Solution</th></tr></thead><tbody><tr><td>Le jeu ne démarre pas</td><td>Vérifiez que <code>Data.rsdk</code> est bien dans <code>roms\sonic-mania</code>.</td></tr><tr><td>Un mod n'est pas chargé</td><td>Vérifiez qu'il a un <code>mod.ini</code> dans son dossier, qu'il est fait pour la décompilation (RSDKv5) et que <strong>ACTIVER LES MODS</strong> n'est pas désactivé.</td></tr></tbody></table>
