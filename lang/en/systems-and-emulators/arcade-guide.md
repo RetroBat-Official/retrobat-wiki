@@ -106,7 +106,7 @@ Test and Service on the controller (R3 / L3) can be enabled or disabled in the A
 * m2emulator, Supermodel, Model3-Vulkan, Flycast, PCSX2x6, lr-kronos: **EMULATION** > **ENABLE SERVICE MENU** (disabled by default);
 * lr-flycast: **EMULATION** > **SERVICE MODE** (disabled by default).
 
-The keyboard keys `0` (Test) and `9` (Service) always work. With Keisho, L3 / R3 are always active. With Play! (Namco 246/256), Test is always active on R3 (no keyboard key and no Service). With TeknoParrot, Test is on L3 and Service on R3.
+The keyboard keys `0` (Test) and `9` (Service) always work. With Keisho and TeknoParrot, R3 / L3 are always active. With Play! (Namco 246/256), Test is always active on R3 (no keyboard key and no Service).
 {% endhint %}
 
 ### Arcade stick layouts

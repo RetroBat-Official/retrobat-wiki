@@ -18,9 +18,9 @@ First, it contains :
 * then follows, in order and “by column” :&#x20;
   * the value present in the gameprofile, between the \<InputMapping> tags
   * lthe button that performs the action on the controller
-  * the corresponding action in the game<br>
+  * the corresponding action in the game
 
-<div align="left"><figure><img src="../../.gitbook/assets/2025-04-12_19h31_22.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (648).png" alt=""><figcaption></figcaption></figure></div>
 
 Each line thus contains all the InputMapping values present in the gameprofile.
 
@@ -32,6 +32,19 @@ You can also customize the buttons to suit your needs.\
 The list of values that can be set for the controller are :\
 r3, l3, select, start, righttrigger, lefttrigger, rightshoulder, leftshoulder, south, east, west, north, up, down, left, right, leftstickleft, leftstickright, leftstickup, leftstickdown, rightstickleft, rightstickright, rightstickup, rightstickdown
 
+{% hint style="info" %}
+Test and Service follow the standard of the other RetroBat arcade emulators: `r3` for Test, `l3` for Service (and `kb_0` / `kb_9` on the keyboard for light guns).
+{% endhint %}
+
+A game can have several containers, searched in this order:
+
+* `<game>_<layout>` when **CONTROLS > CONTROLLER LAYOUT** is set (e.g. `mkdx_modern8`), otherwise `<game>_pad`;
+* then `<game>`.
+
+The optional `Players: 2` line sets the number of players to configure.
+
+
+
 It's also possible to create a specific setting if you're using a lightgun. To do this, simply repeat the operation, but add `_gun` to the container name.
 
 Gun games often have 3 buttons recognized as mouse actions.\
@@ -40,11 +53,11 @@ mouseleft, mousemiddle, mouseright, button4, button5
 
 Taking the example of hotd4 :&#x20;
 
-<div align="left"><figure><img src="../../.gitbook/assets/2025-04-12_23h01_34.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (647).png" alt=""><figcaption></figcaption></figure></div>
 
 Other buttons for lightguns are usually identified as keyboard keys. In this case, use the following values:\
-kb\_x or x equals the keyboard key\
-kb\_dy or y equals a number on the keyboard
+kb\_x where x is the keyboard key (e.g. `kb_S`)\
+kb\_y where y is a keyboard number (`kb_0` to `kb_9`)
 
 {% hint style="info" %}
 When changing the teknoparrot.yml file, you can place it in the `user\inputmapping` folder at the root of the retrobat folder. This way it will not be overriden when updating RetroBat.

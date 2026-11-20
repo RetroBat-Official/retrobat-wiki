@@ -38,8 +38,16 @@ A preview of each set is displayed in the list.
 <div align="left"><figure><img src="../.gitbook/assets/image (364).png" alt=""><figcaption></figcaption></figure></div>
 
 * **Vertical arcade games** (MAME, FBNeo): with the default sets, RetroBat automatically uses a vertical bezel.
-* **Standalone emulators**: the bezel is displayed with ReShade or with a window behind the emulator, depending on the emulator. The **MAIN MENU > GAME SETTINGS > RESHADE** option sets how ReShade is used: **DISABLED** (the bezel is displayed with a window instead), **USE MY OWN** (RetroBat never installs, changes or deletes ReShade files in the emulator folders).
+* **Standalone emulators**: depending on the emulator and its video driver, the bezel is displayed with ReShade (drawn in the emulator picture, with OpenGL, DirectX or Vulkan) or with a transparent window displayed over the emulator (always on top, it takes neither the focus nor the clicks). The **MAIN MENU > GAME SETTINGS > RESHADE** option sets how ReShade is used: **DISABLED** (the bezel is displayed with a window instead), **USE MY OWN** (RetroBat never installs, changes or deletes ReShade files in the emulator folders).
 * The DECORATIONS option appears only for the emulators that can display bezels.
+
+{% hint style="info" %}
+**ReShade with Vulkan**: DuckStation (VULKAN driver), Play! (VULKAN), RMG (PARALLEL plugin) and Ikemen GO (VULKAN, experimental). RetroBat installs nothing in Windows: ReShade is loaded only for the emulator being started. If RetroBat runs as administrator, ReShade cannot be loaded with Vulkan: the bezel is then displayed with the window over the emulator.
+{% endhint %}
+
+{% hint style="warning" %}
+**Exclusive fullscreen**: the window over the emulator cannot be displayed on an exclusive fullscreen. With a bezel, Dolphin, Mesen and Altirra therefore stay in borderless fullscreen, even when the **PREFER EXCLUSIVE FULLSCREEN** option is enabled. ReShade also works in exclusive fullscreen.
+{% endhint %}
 
 ## Bezels per game
 
