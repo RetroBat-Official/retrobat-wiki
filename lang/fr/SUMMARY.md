@@ -249,7 +249,7 @@
     * [Pinball FX](systemes-and-emulateurs/supported-game-systems/flipper/pinball-fx.md)
     * [Pinball FX2](systemes-and-emulateurs/supported-game-systems/flipper/pinball-fx2.md)
     * [Pinball FX3](systemes-and-emulateurs/supported-game-systems/flipper/pinball-fx3.md)
-    * [Pinball M](systemes-and-emulateurs/supported-game-systems/flipper/pinball-m.md)
+    * [Pinball FX Midnight](systemes-and-emulateurs/supported-game-systems/flipper/pinball-m.md)
     * [Visual Pinball](systemes-and-emulateurs/supported-game-systems/flipper/visual-pinball.md)
     * [Zaccaria Pinball](systemes-and-emulateurs/supported-game-systems/flipper/zaccaria-pinball.md)
   * [Autres](systemes-and-emulateurs/supported-game-systems/autres/README.md)

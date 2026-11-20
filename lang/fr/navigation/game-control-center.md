@@ -44,5 +44,5 @@ Si vous ne l'utilisez pas, vous pouvez le désactiver dans **MENU PRINCIPAL** > 
 <div align="left"><figure><img src="../.gitbook/assets/image (329).png" alt=""><figcaption></figcaption></figure></div>
 
 {% hint style="info" %}
-Le Game Control Center n'est pas disponible pour Pinball FX et pour les jeux Windows.
+Le Game Control Center n'est pas disponible pour Pinball FX, FX2, FX3, FX Midnight et pour les jeux Windows.
 {% endhint %}

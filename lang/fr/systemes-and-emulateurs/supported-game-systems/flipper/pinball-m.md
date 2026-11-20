@@ -2,9 +2,9 @@
 description: Zen Studios
 ---
 
-# Pinball M
+# Pinball FX Midnight
 
-<div align="left"><figure><img src="https://github.com/fabricecaruso/es-theme-carbon/blob/master/art/logos/pinballm.png?raw=true" alt="" width="563"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (676).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
 Simulation de Flipper sortie en 2023.
 
