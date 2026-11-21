@@ -1,51 +1,68 @@
 # The Force Engine
 
-<div align="left"><figure><img src="https://github.com/fabricecaruso/es-theme-carbon/blob/master/art/logos/darkforces.png?raw=true" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (700).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-Moteur de jeu permettant de jouer à Dark Forces.
+## Présentation
+
+**Star Wars: Dark Forces** (LucasArts, 1995) est un jeu de tir à la première personne dans l'univers de Star Wars.
+
+RetroBat utilise **The Force Engine**, un moteur moderne qui reprend le jeu d'origine : haute résolution, écran large, rendu OpenGL, mods.
+
+Les fichiers du jeu ne sont pas fournis : utilisez ceux de votre propre exemplaire (CD DOS, Steam, GOG).
 
 {% embed url="https://theforceengine.github.io/" %}
 
-## Information
+## En bref
 
-<table data-header-hidden><thead><tr><th width="224"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>theforceengine</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> theforceengine</td></tr><tr><td><strong>Extensions</strong></td><td>.game</td></tr></tbody></table>
+<table><thead><tr><th width="275.25"></th><th></th></tr></thead><tbody><tr><td><strong>Dossier des jeux</strong></td><td><code>roms\theforceengine</code></td></tr><tr><td><strong>Extensions</strong></td><td>.game</td></tr><tr><td><strong>Émulateur par défaut</strong></td><td>theforceengine</td></tr><tr><td><strong>BIOS</strong></td><td>Aucun (fichiers du jeu à fournir)</td></tr><tr><td><strong>Configuration des manettes</strong></td><td>Non : commandes de The Force Engine</td></tr><tr><td><strong>Sauvegardes instantanées</strong></td><td>Non : sauvegardes du jeu</td></tr><tr><td><strong>RetroAchievements</strong></td><td>Non</td></tr><tr><td><strong>Jeu en réseau</strong></td><td>Non</td></tr><tr><td><strong>Pistolets</strong></td><td>—</td></tr><tr><td><strong>Volants</strong></td><td>—</td></tr><tr><td><strong>BIOS optionnels</strong></td><td>—</td></tr></tbody></table>
 
-## Bios
+## BIOS
 
-Aucun BIOS nécessaire.
+Aucun BIOS n'est nécessaire. Copiez les fichiers de Dark Forces (dont `DARK.GOB`) dans `roms\theforceengine`.
+
+## Quel format de jeu ?
+
+Un fichier `.game` placé dans le dossier des fichiers du jeu lance Dark Forces. S'il contient le nom d'un mod sur sa première ligne, le mod est lancé (voir [**Guides**](the-force-engine.md#lancer-un-mod)).
 
 ## Contrôles
 
-{% hint style="warning" %}
-Il n'y a pas de configuration automatique des contrôles pour Dark Forces, les touches peuvent être paramétrées depuis l'émulateur.
-{% endhint %}
+RetroBat ne configure pas la manette : The Force Engine la reconnaît et ses commandes se changent dans ses options.
 
-## Information spécifique au système
+**CONTRÔLES > DÉSACTIVER L'AIDE À LA VISÉE** et **DÉSACTIVER LA CIBLE** sont réglables dans RetroBat.
+
+### Raccourcis
+
+<table><thead><tr><th width="221.5">Raccourci</th><th>Action</th></tr></thead><tbody><tr><td>HOTKEY + START</td><td>Quitter</td></tr></tbody></table>
+
+## Dossiers
+
+<table><thead><tr><th width="261.5">Contenu</th><th>Dossier</th></tr></thead><tbody><tr><td>Jeu</td><td><code>roms\theforceengine</code></td></tr><tr><td>Mods</td><td><code>roms\theforceengine\Mods</code></td></tr><tr><td>Sauvegardes et configuration</td><td><code>emulators\theforceengine</code> (<code>settings.ini</code> rend l'installation portable)</td></tr></tbody></table>
+
+## Guides
 
 ### Organisation des fichiers
 
-Le jeu DOS original (ou une des versions disponibles sur STEAM ou GOG) doivent être copiées dans le dossier `roms\theforceengine` de votre installation RetroBat.
+Copiez le jeu DOS d'origine (ou la version Steam / GOG) dans `roms\theforceengine`. Exemple avec la version DOS :
 
-#### Exemple de structure de jeu :
+<div align="left"><figure><img src="../../../.gitbook/assets/image (703).png" alt=""><figcaption></figcaption></figure></div>
 
-L'exemple suivant contient la version original DOS du jeu:
+Créez un fichier texte dans le même dossier que l'exécutable du jeu, puis changez son extension en `.game`.
 
-<div align="left"><figure><img src="https://i.imgur.com/78m6LKz.png" alt=""><figcaption></figcaption></figure></div>
+### Lancer un mod
 
-Créer un fichier texte dans le même dossier que l'exécutable du jeu puis renommer le fichier avec l'extension ".game".\
-<br>
+Placez le mod dans `roms\theforceengine\Mods` :
 
-### Lancer des mods
+Créez un fichier texte avec un nom facile à reconnaître (il est affiché dans la liste des jeux), écrivez le nom complet du mod (avec son extension) sur la première ligne, puis changez l'extension en `.game` :
 
-RetroBat permet le lancement de mods pour TheForceEngine.\
-Les mods doivent être placés dans le dossier `roms\theforceengine\Mods` de RetroBat.
+<div align="left"><figure><img src="../../../.gitbook/assets/image (702).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../../../.gitbook/assets/2024-03-10_21h13_26.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (701).png" alt=""><figcaption></figcaption></figure></div>
 
-Pour activer le mod dans RetroBat, créer un fichier texte avec un nom facilement identifiable (ce nom sera affiché dans la liste de jeux RetroBat).
+### Options
 
-A l'intérieur du fichier .txt, indiquer le nom complet du mod (avec son extension).
+* **RÉSOLUTION INTERNE** de 200p à 2160p (par défaut : résolution de l'écran), **VIDÉO > ÉCRAN LARGE**.
+* **ÉMULATION > DÉSACTIVER LES VIDÉOS INTERMÉDIAIRES**, **INTERFACE UTILISATEUR > AFFICHER LES SOUS-TITRES**.
 
-Sauvegarder le fichier, et renommer l'extension `.txt` en `.game`
+## Problèmes connus
 
-<div align="left"><figure><img src="../../../.gitbook/assets/2024-03-10_21h36_04.png" alt=""><figcaption></figcaption></figure></div>
+<table><thead><tr><th width="327.75">Problème</th><th>Solution</th></tr></thead><tbody><tr><td>The Force Engine ne trouve pas le jeu</td><td>Le fichier <code>.game</code> doit être dans le dossier qui contient <code>DARK.GOB</code>.</td></tr></tbody></table>
