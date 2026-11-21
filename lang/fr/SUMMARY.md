@@ -43,6 +43,7 @@
       * [Jaguar](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu/atari-consoles-de-jeu/jaguar.md)
       * [Jaguar CD](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu/atari-consoles-de-jeu/jaguarcd.md)
     * [Bally Astrocade](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu/bally-astrocade.md)
+    * [Bandai Playdia](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu/playdia.md)
     * [Casio Loopy](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu/casio-loopy.md)
     * [Channel F](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu/channel-f.md)
     * [ColecoVision](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu/colecovision.md)
