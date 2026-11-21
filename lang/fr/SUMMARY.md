@@ -130,6 +130,7 @@
       * [Game Boy Advance](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu-portables/nintendo-consoles-de-jeu-portables/game-boy-advance.md)
       * [Game Boy Advance 2 players](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu-portables/nintendo-consoles-de-jeu-portables/game-boy-advance-2-players.md)
       * [Nintendo DS](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu-portables/nintendo-consoles-de-jeu-portables/nintendo-ds.md)
+      * [Nintendo DS Multiplayer](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu-portables/nintendo-consoles-de-jeu-portables/nintendo-ds-multiplayer.md)
       * [Pokémon Mini](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu-portables/nintendo-consoles-de-jeu-portables/pokemon-mini.md)
       * [Nintendo 3DS](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu-portables/nintendo-consoles-de-jeu-portables/nintendo-3ds.md)
     * [Nokia](systemes-and-emulateurs/supported-game-systems/consoles-de-jeu-portables/nokia/README.md)
