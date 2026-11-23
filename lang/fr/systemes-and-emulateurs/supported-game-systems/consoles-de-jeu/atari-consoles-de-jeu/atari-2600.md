@@ -4,7 +4,7 @@ description: Atari
 
 # Atari 2600
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image.png" alt="" width="425"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (13).png" alt="" width="425"><figcaption></figcaption></figure></div>
 
 ## Présentation
 

@@ -4,7 +4,7 @@ description: Atari
 
 # Atari 5200
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (1).png" alt="" width="425"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt="" width="425"><figcaption></figcaption></figure></div>
 
 ## Présentation
 

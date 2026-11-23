@@ -24,12 +24,12 @@ Aucun BIOS nécessaire.
 
 ### &#x20;Controls <a href="#controles" id="controles"></a>
 
-| RetroBat                                            | SG-1000                              |
-| --------------------------------------------------- | ------------------------------------ |
-| SELECT / BACK                                       | PAUSE (bouton sur la console de jeu) |
-| D-PAD, stick analogique gauche                      | D-PAD                                |
-| ![A](<../../../.gitbook/assets/image (20) (1).png>) | B                                    |
-| ![B](<../../../.gitbook/assets/image (7) (1).png>)  | A                                    |
+| RetroBat                                               | SG-1000                              |
+| ------------------------------------------------------ | ------------------------------------ |
+| SELECT / BACK                                          | PAUSE (bouton sur la console de jeu) |
+| D-PAD, stick analogique gauche                         | D-PAD                                |
+| ![A](<../../../.gitbook/assets/image (20) (1).png>)    | B                                    |
+| ![B](<../../../.gitbook/assets/image (7) (1) (1).png>) | A                                    |
 
 <div align="left"><figure><img src="https://i.imgur.com/diLUXXB.png" alt=""><figcaption></figcaption></figure></div>
 

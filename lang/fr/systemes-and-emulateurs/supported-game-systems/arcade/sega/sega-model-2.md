@@ -4,7 +4,7 @@ description: Sega
 
 # Sega Model 2
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1).png" alt="" width="259"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1) (1).png" alt="" width="259"><figcaption></figcaption></figure></div>
 
 ## Présentation
 
@@ -53,7 +53,7 @@ L'option **AUTOCONFIGURER LES MANETTES** permet de garder sa propre configuratio
 
 m2emulator utilise par défaut le pilote XInput. Si votre manette n'est pas compatible XInput, choisissez **PILOTES > CONTRÔLEUR > DINPUT** dans les options avancées du système. RetroBat passe aussi en DInput tout seul s'il ne trouve aucune manette XInput.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Contrôles par jeu (m2emulator)
 
@@ -186,7 +186,7 @@ Le menu de test de chaque borne donne accès aux réglages du jeu (difficulté, 
 * **Core libretro sm2** : L3 / R3, activé par défaut (**CONTRÔLES > TEST/SERVICE SUR L3/R3**).
 * **Keisho**, **Supermodel** : voir la page [**Sega Model 1**](sega-model-1.md).
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Calibrer les pistolets
 
@@ -223,12 +223,12 @@ Pour les options de Keisho et de Supermodel, voir aussi la page [**Sega Model 1*
 
 ## Problèmes connus
 
-| Problème                                                | Solution                                                                                                                                                                          |
-| ------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Message « Network Board Not Present »                   | <p>Ouvrez le menu de test, puis <strong>Game System > Link ID</strong>, et choisissez <strong>Single</strong><br><img src="../../../../.gitbook/assets/image (3).png" alt=""></p> |
-| Un clone ne démarre pas                                 | Placez le jeu parent dans `roms\model2`, ou utilisez un [romset non-merged](../../../arcade-guide.md#types-de-romsets).                                                           |
-| La manette ne répond pas avec m2emulator                | Choisissez **PILOTES > CONTRÔLEUR > DINPUT**.                                                                                                                                     |
-| Les manettes des joueurs 1 et 2 sont inversées          | Activez **CONTRÔLES > INVERSER LES INDEX MANETTES**, ou forcez l'index de chaque manette.                                                                                         |
-| Un jeu plante ou reste noir avec m2emulator             | Activez **RENDU VISUEL > FORCER LA GESTION DES TEXTURES**, ou essayez la version **singlecpu**.                                                                                   |
-| Des fichiers ont disparu de `emulators\m2emulator\roms` | Ce dossier est vidé à chaque lancement : rangez vos jeux dans `roms\model2`.                                                                                                      |
-| Le core libretro sm2 ne lance aucun jeu                 | Vérifiez que `bios\sm2-emu\games.xml` est présent ; mettez le core à jour si besoin.                                                                                              |
+| Problème                                                | Solution                                                                                                                                                                              |
+| ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Message « Network Board Not Present »                   | <p>Ouvrez le menu de test, puis <strong>Game System > Link ID</strong>, et choisissez <strong>Single</strong><br><img src="../../../../.gitbook/assets/image (3) (1).png" alt=""></p> |
+| Un clone ne démarre pas                                 | Placez le jeu parent dans `roms\model2`, ou utilisez un [romset non-merged](../../../arcade-guide.md#types-de-romsets).                                                               |
+| La manette ne répond pas avec m2emulator                | Choisissez **PILOTES > CONTRÔLEUR > DINPUT**.                                                                                                                                         |
+| Les manettes des joueurs 1 et 2 sont inversées          | Activez **CONTRÔLES > INVERSER LES INDEX MANETTES**, ou forcez l'index de chaque manette.                                                                                             |
+| Un jeu plante ou reste noir avec m2emulator             | Activez **RENDU VISUEL > FORCER LA GESTION DES TEXTURES**, ou essayez la version **singlecpu**.                                                                                       |
+| Des fichiers ont disparu de `emulators\m2emulator\roms` | Ce dossier est vidé à chaque lancement : rangez vos jeux dans `roms\model2`.                                                                                                          |
+| Le core libretro sm2 ne lance aucun jeu                 | Vérifiez que `bios\sm2-emu\games.xml` est présent ; mettez le core à jour si besoin.                                                                                                  |

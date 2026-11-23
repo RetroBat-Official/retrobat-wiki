@@ -4,272 +4,214 @@ description: Zen Studios
 
 # Pinball FX3
 
-<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/55ff14aa79c95ecc70133072e6ac19fed3555b56/art/logos/pinballfx3.svg" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (5).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-Simulation de Flipper sortie en 2017.
+## Présentation
+
+**Pinball FX3** est la plateforme de flipper de **Zen Studios** sortie en 2017. Sur Steam, elle s'appelle **Pinball FX Classic** depuis mars 2026. Elle reprend les tables achetées dans Pinball FX2. Son successeur est Pinball FX.
 
 {% embed url="https://fr.wikipedia.org/wiki/Pinball_FX" %}
 
-## Information
+## En bref
 
-<table data-header-hidden><thead><tr><th width="197"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Émulateur</strong></td><td><ul><li>Steam</li><li>nonSteam</li></ul></td><td></td></tr><tr><td><strong>Dossier des tables</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span>roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> pinballfx3</td><td></td></tr><tr><td><strong>Extension</strong></td><td>.pxp .table</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="280.25"></th><th></th></tr></thead><tbody><tr><td><strong>Dossier des jeux</strong></td><td><code>roms\pinballfx3</code></td></tr><tr><td><strong>Extensions</strong></td><td>.pxp .table</td></tr><tr><td><strong>Émulateur par défaut</strong></td><td>pinballfx (version steam)</td></tr><tr><td><strong>BIOS</strong></td><td>Aucun</td></tr><tr><td><strong>Configuration des manettes</strong></td><td>Par le jeu (RetroBat ne la modifie pas)</td></tr><tr><td><strong>Sauvegardes instantanées</strong></td><td>Non</td></tr><tr><td><strong>RetroAchievements</strong></td><td>Non</td></tr><tr><td><strong>Jeu en réseau</strong></td><td>Non</td></tr></tbody></table>
+
+## Quel émulateur choisir ?
+
+L'émulateur `pinballfx` a deux versions (core) :
+
+<table><thead><tr><th width="168.25">Version</th><th>Points forts</th><th>Limites</th></tr></thead><tbody><tr><td><strong>steam</strong> (par défaut)</td><td>Le jeu installé avec Steam est lancé par Steam, directement sur la table choisie.</td><td>Steam doit être installé, avec le jeu.</td></tr><tr><td><strong>nonsteam</strong></td><td>Lance directement l'exécutable du jeu, sans passer par Steam.</td><td>Le jeu doit se trouver dans <code>emulators\pinballfx3</code>.</td></tr></tbody></table>
+
+Pour **nonsteam**, RetroBat cherche `Pinball FX Classic.exe` ou `Pinball FX3.exe` dans le dossier `emulators\pinballfx3`. Si le jeu n'y est pas, un message indique le dossier attendu.
 
 ## BIOS
 
-Aucun BIOS nécessaire
+Aucun BIOS nécessaire.
 
-## Contrôles
+## Mode cabinet
 
-<table><thead><tr><th width="258">RetroBat</th><th width="443">Pinball FX3</th></tr></thead><tbody><tr><td>START</td><td>Ouvrir menu</td></tr><tr><td>SELECT</td><td>Ouvrir menu</td></tr><tr><td>D-PAD</td><td></td></tr><tr><td>Left Analog stick</td><td>Bousculer le flipper</td></tr><tr><td>Right Analog stick</td><td>Haut: Vue back box / Bas: Lancer la bille</td></tr><tr><td><img src="../../../.gitbook/assets/image (20) (1).png" alt="A"></td><td>Lancement automatique de la bille</td></tr><tr><td><img src="../../../.gitbook/assets/image (7) (1).png" alt="B"></td><td>Extras visuels</td></tr><tr><td><img src="../../../.gitbook/assets/image (35).png" alt="" data-size="original"></td><td>Pouvoir de magicien</td></tr><tr><td><img src="../../../.gitbook/assets/image (33).png" alt="" data-size="line"></td><td>Modifier la vue</td></tr><tr><td>L1</td><td>Flipper gauche</td></tr><tr><td>R1</td><td>Flipper droit</td></tr><tr><td>L2</td><td>Flipper gauche</td></tr><tr><td>R2</td><td>Flipper droit</td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
+Pour lancer une table depuis RetroBat, il faut :
 
-## Information spécifique au système
-
-### Mode Cabinet
-
-Les prérequis suivants sont indispensables pour pouvoir lancer des tables Pinball FX3 depuis Retrobat:
-
-* [x] Détenir une version officielle Steam de Pinball FX3
-* [x] Détenir une licence pour au moins une table
-* [x] Détenir un code d'activation du mode "CABINET"
+* [x] le jeu Pinball FX3 ;
+* [x] au moins une table achetée ;
+* [x] le **mode cabinet** activé avec un code d'activation personnel, demandé à Zen Studios.
 
 {% hint style="info" %}
-Pour obtenir un code d'activation, effectuer une demande auprès de Zen Studios:
-
-[https://zenstudios.com/home/pinball-cabinet-support-request/](https://zenstudios.com/home/pinball-cabinet-support-request/)
+Demande du code : [formulaire de Zen Studios](https://zenstudios.com/home/pinball-cabinet-support-request/). Plus d'informations sur le [mode cabinet](https://www.pinballfx.com/?page_id=7754#end-anchor).
 {% endhint %}
 
-{% hint style="info" %}
-Plus d'information sur le mode "Cabinet" disponible ici:
+## Ajouter des tables
 
-[https://www.pinballfx.com/?page\_id=7754#end-anchor](https://www.pinballfx.com/?page_id=7754#end-anchor)
-{% endhint %}
+Une fois le mode cabinet activé, chaque table est un fichier placé dans `roms\pinballfx3` :
 
-### Tables
+* soit le fichier `.pxp` de la table, copié depuis le dossier `data\steam` du jeu ;
+* soit un fichier vide `.table` qui porte exactement le nom de la table (par exemple `Western.table`).
 
-Une fois le mode "CABINET" activé, copier les tables au format `.pxp` pour lesquelles vous possédez une licence dans le dossier :open\_file\_folder:`roms\`:open\_file\_folder:`pinballfx3`.&#x20;
+<div align="left"><figure><img src="../../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure></div>
 
-Le système Pinball FX3 apparaît dans la [Vue Système](../../../navigation/system-view-and-game-view.md#vue-systemes) à partir du moment où des tables sont présentes.
+Pour ouvrir le dossier du jeu :
 
-Les fichiers des tables `.pxp` se trouvent dans le répertoire d'installation STEAM de Pinball FX3.
+* Dans Steam, ouvrez la **Bibliothèque**.
 
-Voici comment les trouver:&#x20;
+<div align="left"><figure><img src="../../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure></div>
 
-* Lancer le client Steam et sélectionner l'onglet "Bibliothèque:
+* Faites un clic droit sur le jeu, puis **Gérer > Parcourir les fichiers locaux**.
 
-<div align="left"><figure><img src="https://i.imgur.com/UNgNbly.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure></div>
 
-* Effectuer un clic droit sur le jeu Pinball FX3, puis sélectionner "Gérer > Parcourir les fichiers locaux". L'explorateur windows s'ouvre dans le dossier d'installation du jeu..
+<div align="left"><figure><img src="../../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/RN1bANJ.png" alt=""><figcaption></figcaption></figure></div>
+* Ouvrez le dossier `data\steam` : il contient les fichiers `.pxp` de toutes les tables.
 
-<div align="left"><figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FexdzL60ZuqPLldz2AYta%2Fuploads%2FzG8RlVpQJDMY3bXtkHoL%2Fimage.png?alt=media&#x26;token=fc638d58-c6a5-42d9-bc17-d3c0f4fbe5ab" alt=""><figcaption></figcaption></figure></div>
-
-* Aller dans le dossier :open\_file\_folder:`data\`:open\_file\_folder:`steam` pour afficher tous les fichiers des tables `.pxp`. Vous pouvez sélectionner les tables pour lesquelles vous possédez une licence et les copier dans le dossier :open\_file\_folder:`roms\`:open\_file\_folder:`pinballfx3` de votre installation Retrobat.
-
-{% hint style="info" %}
-Par défaut, le dossier \steam contient toutes les tables existantes. Vous ne pourrez utiliser que celles pour lesquelles vous possédez une licence.
+{% hint style="warning" %}
+Le dossier `data\steam` contient toutes les tables : seules celles que vous possédez se lancent.
 {% endhint %}
 
 <details>
 
-<summary>Nom des tables</summary>
-
-Aliens&#x20;
-
-Alien\_Isolation&#x20;
-
-Alien\_vs\_Predator&#x20;
-
-AmericanDad&#x20;
-
-Amusement\_Park&#x20;
-
-Archer&#x20;
-
-Atlantis&#x20;
-
-BALLY\_Attack\_from\_Mars&#x20;
-
-BALLY\_BlackRose&#x20;
-
-BALLY\_Champion\_Pub&#x20;
-
-BALLY\_Cirqus\_Voltaire&#x20;
-
-BALLY\_Creature\_from\_the\_Black\_Lagoon&#x20;
-
-BALLY\_Dr\_Dude&#x20;
-
-BALLY\_Party\_Zone&#x20;
-
-BALLY\_Safe\_Cracker&#x20;
-
-BALLY\_TheatreOfMagic
-
-&#x20;BETHESDA\_Doom&#x20;
-
-BETHESDA\_Fallout&#x20;
-
-BETHESDA\_Skyrim&#x20;
-
-BioLab&#x20;
-
-BobsBurgers&#x20;
-
-CastleStorm&#x20;
-
-Citadel&#x20;
-
-EarthDefense&#x20;
-
-Eldorado&#x20;
-
-Excalibur&#x20;
-
-FamilyGuy&#x20;
-
-Hercules&#x20;
-
-Looter&#x20;
-
-Mars&#x20;
-
-MARVEL\_Age\_of\_Ultron&#x20;
-
-MARVEL\_Ant-Man&#x20;
-
-MARVEL\_Avengers&#x20;
-
-MARVEL\_Blade&#x20;
-
-MARVEL\_CaptainAmerica&#x20;
-
-MARVEL\_CivilWar&#x20;
-
-MARVEL\_Deadpool&#x20;
-
-MARVEL\_DrStrange&#x20;
-
-MARVEL\_FantasticFour&#x20;
-
-MARVEL\_FearItSelf&#x20;
-
-MARVEL\_GhostRider&#x20;
-
-MARVEL\_Guardians&#x20;
-
-MARVEL\_InfinityGauntlet&#x20;
-
-MARVEL\_IronMan&#x20;
-
-MARVEL\_MoonKnight&#x20;
-
-MARVEL\_MsMarvel&#x20;
-
-MARVEL\_SpiderMan&#x20;
-
-MARVEL\_Thor&#x20;
-
-MARVEL\_Venom&#x20;
-
-MARVEL\_Wolverine&#x20;
-
-MARVEL\_WOP\_TheNextGeneration&#x20;
-
-MARVEL\_WWH&#x20;
-
-MARVEL\_XMen
-
-Paranormal&#x20;
-
-Pasha&#x20;
-
-Portal&#x20;
-
-RedCup1&#x20;
-
-RedCup2&#x20;
-
-RedCup3&#x20;
-
-Rome&#x20;
-
-Shaman&#x20;
-
-SpaceBear1&#x20;
-
-SpaceBear2&#x20;
-
-STARWARS\_AVCO2&#x20;
-
-STARWARS\_Boba\_Fett&#x20;
-
-STARWARS\_CloneWars&#x20;
-
-STARWARS\_Darth\_Vader&#x20;
-
-STARWARS\_Droids
-
-STARWARS\_Episode7&#x20;
-
-STARWARS\_Episode\_4&#x20;
-
-STARWARS\_Episode\_5&#x20;
-
-STARWARS\_Episode\_6&#x20;
-
-STARWARS\_Han\_Solo&#x20;
-
-STARWARS\_LAPB&#x20;
-
-STARWARS\_Light\_VS\_Dark&#x20;
-
-STARWARS\_Rebels&#x20;
-
-STARWARS\_SFA&#x20;
-
-Tesla&#x20;
-
-TheWalkingDead&#x20;
-
-UNIVERSAL\_BTTF&#x20;
-
-UNIVERSAL\_ET&#x20;
-
-UNIVERSAL\_Jaws&#x20;
-
-UNIVERSAL\_Jurassic\_Park&#x20;
-
-UNIVERSAL\_Jurassic\_Theme\_Park&#x20;
-
-UNIVERSAL\_Jurassic\_World&#x20;
-
-V12&#x20;
-
-Western&#x20;
-
-WMS\_Funhouse&#x20;
-
-WMS\_Getaway&#x20;
-
-WMS\_Hurricane&#x20;
-
-WMS\_Indiana\_Jones&#x20;
-
-WMS\_Junkyard&#x20;
-
-WMS\_Medieval\_Madness&#x20;
-
-WMS\_Monster\_Bash&#x20;
-
-WMS\_No\_Good\_Gofers&#x20;
-
-WMS\_Roadshow&#x20;
-
-WMS\_Space\_Station&#x20;
-
-WMS\_Tales\_of\_the\_Arabian\_Nights&#x20;
-
-WMS\_White\_Water
+<summary>Noms des tables</summary>
+
+* `Alien_Isolation`
+* `Alien_vs_Predator`
+* `Aliens`
+* `AmericanDad`
+* `Amusement_Park`
+* `Archer`
+* `Atlantis`
+* `BALLY_Attack_from_Mars`
+* `BALLY_BlackRose`
+* `BALLY_Champion_Pub`
+* `BALLY_Cirqus_Voltaire`
+* `BALLY_Creature_from_the_Black_Lagoon`
+* `BALLY_Dr_Dude`
+* `BALLY_Party_Zone`
+* `BALLY_Safe_Cracker`
+* `BALLY_TheatreOfMagic`
+* `BETHESDA_Doom`
+* `BETHESDA_Fallout`
+* `BETHESDA_Skyrim`
+* `BioLab`
+* `BobsBurgers`
+* `CastleStorm`
+* `Citadel`
+* `EarthDefense`
+* `Eldorado`
+* `Excalibur`
+* `FamilyGuy`
+* `Hercules`
+* `Looter`
+* `Mars`
+* `MARVEL_Age_of_Ultron`
+* `MARVEL_Ant-Man`
+* `MARVEL_Avengers`
+* `MARVEL_Blade`
+* `MARVEL_CaptainAmerica`
+* `MARVEL_CivilWar`
+* `MARVEL_Deadpool`
+* `MARVEL_DrStrange`
+* `MARVEL_FantasticFour`
+* `MARVEL_FearItSelf`
+* `MARVEL_GhostRider`
+* `MARVEL_Guardians`
+* `MARVEL_InfinityGauntlet`
+* `MARVEL_IronMan`
+* `MARVEL_MoonKnight`
+* `MARVEL_MsMarvel`
+* `MARVEL_SpiderMan`
+* `MARVEL_Thor`
+* `MARVEL_Venom`
+* `MARVEL_Wolverine`
+* `MARVEL_WOP_TheNextGeneration`
+* `MARVEL_WWH`
+* `MARVEL_XMen`
+* `Paranormal`
+* `Pasha`
+* `Portal`
+* `RedCup1`
+* `RedCup2`
+* `RedCup3`
+* `Rome`
+* `Shaman`
+* `SpaceBear1`
+* `SpaceBear2`
+* `STARWARS_AVCO2`
+* `STARWARS_Boba_Fett`
+* `STARWARS_CloneWars`
+* `STARWARS_Darth_Vader`
+* `STARWARS_Droids`
+* `STARWARS_Episode7`
+* `STARWARS_Episode_4`
+* `STARWARS_Episode_5`
+* `STARWARS_Episode_6`
+* `STARWARS_Han_Solo`
+* `STARWARS_LAPB`
+* `STARWARS_Light_VS_Dark`
+* `STARWARS_Rebels`
+* `STARWARS_SFA`
+* `Tesla`
+* `TheWalkingDead`
+* `UNIVERSAL_BTTF`
+* `UNIVERSAL_ET`
+* `UNIVERSAL_Jaws`
+* `UNIVERSAL_Jurassic_Park`
+* `UNIVERSAL_Jurassic_Theme_Park`
+* `UNIVERSAL_Jurassic_World`
+* `V12`
+* `Western`
+* `WMS_Funhouse`
+* `WMS_Getaway`
+* `WMS_Hurricane`
+* `WMS_Indiana_Jones`
+* `WMS_Junkyard`
+* `WMS_Medieval_Madness`
+* `WMS_Monster_Bash`
+* `WMS_No_Good_Gofers`
+* `WMS_Roadshow`
+* `WMS_Space_Station`
+* `WMS_Tales_of_the_Arabian_Nights`
+* `WMS_White_Water`
 
 </details>
+
+## Contrôles
+
+Le jeu gère la manette lui-même (manette XInput conseillée) : RetroBat ne change pas sa configuration. Les commandes se modifient dans les options du jeu.
+
+| Action                            | Manette                                       |
+| --------------------------------- | --------------------------------------------- |
+| Flipper gauche                    | L1 ou L2                                      |
+| Flipper droit                     | R1 ou R2                                      |
+| Lancer la bille                   | Stick droit vers le bas (tirer puis relâcher) |
+| Lancement automatique de la bille | SUD                                           |
+| Vue du fronton                    | Stick droit vers le haut                      |
+| Bousculer la table                | Stick gauche                                  |
+| Extras visuels                    | EST                                           |
+| Pouvoir de magicien               | OUEST                                         |
+| Changer de vue                    | NORD                                          |
+| Menu                              | START ou SELECT                               |
+
+## Raccourcis
+
+<table><thead><tr><th width="204">Action</th><th>Manette</th></tr></thead><tbody><tr><td>Quitter le jeu</td><td>HOTKEY + START</td></tr></tbody></table>
+
+Le Game Control Center n'est pas disponible pour ces systèmes.
+
+## Options utiles
+
+Dans les options avancées du système ou du jeu :
+
+* **OPTIONS DU JEU > NOMBRE DE JOUEURS** : de 1 à 4, chacun son tour.
+* **OPTIONS DU JEU > MODE CLASSIQUE** : partie classique, sans améliorations de table.
+* **OPTIONS DU JEU > MODE HORS LIGNE** : lance le jeu hors ligne.
+* **VIDÉO > RÉSOLUTION DE L'ÉCRAN** : résolution de Windows pendant la partie.
+* **ÉMULATION > FERMER LE LAUNCHER EN QUITTANT** : ferme Steam en quittant le jeu (version steam).
+
+## Dossiers
+
+<table><thead><tr><th width="289">Contenu</th><th>Dossier</th></tr></thead><tbody><tr><td>Tables</td><td><code>roms\pinballfx3</code></td></tr><tr><td>Jeu (version nonsteam)</td><td><code>emulators\pinballfx3</code></td></tr><tr><td>Sauvegardes, scores, réglages</td><td>Gérés par le jeu (et par Steam)</td></tr></tbody></table>
+
+## Problèmes connus
+
+* **Le jeu s'ouvre sur son menu, sans la table** : mode cabinet non activé (voir plus haut), ou table non possédée.
+* **« Game not found: copy it in '…' »** (version nonsteam) : le jeu n'est pas dans le dossier indiqué, ou son exécutable porte un autre nom.
+* **« Steam is not installed. »** (version steam) : Steam est introuvable.

@@ -4,7 +4,7 @@ description: Sega
 
 # Sega Model 3
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (4).png" alt="" width="482"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (4) (1).png" alt="" width="482"><figcaption></figcaption></figure></div>
 
 ## Présentation
 
@@ -119,7 +119,7 @@ Le menu de test de chaque borne donne accès aux réglages du jeu (difficulté, 
 * Au clavier : **9** (Service) et **0** (Test), avec tous les émulateurs autonomes.
 * À la manette : **L3** (Service) et **R3** (Test). Avec Supermodel et Model3-Vulkan, activez d'abord **ÉMULATION > ACTIVER LE MENU SERVICE** ; avec le core libretro, c'est le réglage par défaut de **CONTRÔLES > BOUTONS SERVICE**.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Calibrer les pistolets
 
