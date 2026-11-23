@@ -4,221 +4,231 @@ description: Nintendo
 
 # WiiU
 
-<div align="left"><figure><picture><source srcset="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/91d85c7849cc550b0cac4e75cb8e0923d3b61b5e/art/logos/wiiu-w.svg" media="(prefers-color-scheme: dark)"><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/wiiu.svg" alt=""></picture><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (688).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-Hybrid Game Console - Lifespan: 2012 - 2017
+## Overview
+
+The **Wii U** is Nintendo's home console that succeeded the Wii (2012-2017). Its distinctive feature is the **Wii U GamePad**, a controller with a touch screen used as a second screen or as the main screen. It remains compatible with Wiimotes and also accepts a classic controller, the **Wii U Pro Controller**.
+
+Its sales (about 13.5 million consoles) were low, but many of its games remained famous: Mario Kart 8, Super Mario 3D World, Splatoon, The Legend of Zelda: Breath of the Wild or Xenoblade Chronicles X.
+
+RetroBat uses **Cemu**, the reference Wii U emulator.
 
 {% embed url="https://en.wikipedia.org/wiki/Wii_U" %}
 
-## Information
+## At a glance
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>cemu</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> wiiu</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.iso .rpx .wud .wux .wua .m3u</td><td></td></tr></tbody></table>
-
-## System Features
-
-<table><thead><tr><th width="256">Retroachievements</th><th width="243">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>NO</td><td>NO</td><td>YES</td></tr></tbody></table>
+<table><thead><tr><th width="231.5"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\wiiu</code></td></tr><tr><td><strong>Extensions</strong></td><td>.iso .rpx .wud .wux .wua .m3u .decomp</td></tr><tr><td><strong>Default emulator</strong></td><td>cemu</td></tr><tr><td><strong>BIOS</strong></td><td>None (<code>keys.txt</code> for encrypted games)</td></tr><tr><td><strong>Controller setup</strong></td><td>Automatic (GamePad, Pro Controller, Wiimotes)</td></tr><tr><td><strong>Save states</strong></td><td>No</td></tr><tr><td><strong>RetroAchievements</strong></td><td>No</td></tr><tr><td><strong>Netplay</strong></td><td>No</td></tr><tr><td><strong>Light guns</strong></td><td>—</td></tr><tr><td><strong>Wheels</strong></td><td>—</td></tr><tr><td><strong>Optional BIOS</strong></td><td><code>keys.txt</code> in <code>bios\cemu</code></td></tr></tbody></table>
 
 ## BIOS
 
-There is no BIOS files needed to run games, however, when using .wud or .wux game files, it is necessary to have a keys.txt file in the emulator folder with the right game keys.
+No BIOS is needed to play. However, **encrypted** games (`.wud`, `.wux` and disc `.iso` images) need the decryption keys of each game, in a `keys.txt` file. Without them, Cemu shows "Could not decrypt title".
 
-The Game keys can be dumped from your WiiU console, see [CEMU guide](https://wiki.cemu.info/wiki/Obtaining_Keys_for_Keys.txt) for more information.
+<table><thead><tr><th width="139.5">File</th><th width="137.75">Folder</th><th>Required</th></tr></thead><tbody><tr><td><code>keys.txt</code></td><td><code>bios\cemu</code></td><td>No (encrypted games only)</td></tr></tbody></table>
+
+RetroBat copies `bios\cemu\keys.txt` to the Cemu folder (`emulators\cemu\portable\keys.txt`) at each launch, when it is newer. You can also put it directly in `emulators\cemu\portable`.
+
+The `keys.txt` file is dumped from your Wii U console: see the [Cemu guide](https://wiki.cemu.info/wiki/Obtaining_Keys_for_Keys.txt).
+
+Games in `.wua` format and decrypted game folders (`.rpx`) do not need keys.
+
+## Which game format?
+
+| Format              | Description                                                                                                                                                                                                                                                            |
+| ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **.rpx**            | Decrypted game in "Loadiine" (or "Bootloader") format: a folder with the `code`, `content` and `meta` subfolders, as dumped from your console with the Dumpling tool. The `.rpx` file is in `code`. Recommended format (see [**Adding games**](wiiu.md#adding-games)). |
+| **.wua**            | Cemu archive: game, update and DLC in a single file, not encrypted.                                                                                                                                                                                                    |
+| **.wud** / **.wux** | Disc image (`.wux` = compressed). Encrypted: needs `keys.txt`.                                                                                                                                                                                                         |
+| **.iso**            | Disc image. Encrypted: needs `keys.txt`.                                                                                                                                                                                                                               |
+| **.m3u**            | Text file giving the path of the `.rpx` to launch (see [**Adding games**](wiiu.md#adding-games)).                                                                                                                                                                      |
+| **.decomp**         | PC port, see the [**Recompilations**](../../others/recomp.md) page.                                                                                                                                                                                                    |
 
 ## Controls
 
-{% hint style="info" %}
-The following controllers can be autoconfigured from Retrobat to Cemu:
+### Automatic configuration
 
-* XInput controllers
-* Dualshock & DualSense controllers
-* Nintendo Switch Pro controller
+{% hint style="info" %}
+RetroBat automatically configures for Cemu:
+
+* XInput controllers;
+* DualShock and DualSense controllers;
+* the Nintendo Switch Pro controller.
 {% endhint %}
 
-| RetroBat key                                                                       | WiiU Key                              |
-| ---------------------------------------------------------------------------------- | ------------------------------------- |
-| START                                                                              | +                                     |
-| SELECT / BACK                                                                      | -                                     |
-| D-PAD                                                                              | D-PAD                                 |
-| Left Analog Stick                                                                  | Left stick                            |
-| Right Analog Stick                                                                 | Right stick                           |
-| ![A](<../../../../.gitbook/assets/image (30).png>)                                 | <p>B<br>Or A with inverted option</p> |
-| ![B](<../../../../.gitbook/assets/image (16) (1).png>)                             | <p>A<br>Or B with inverted option</p> |
-| <img src="../../../../.gitbook/assets/image (50).png" alt="" data-size="original"> | <p>X<br>Or Y with inverted option</p> |
-| <img src="../../../../.gitbook/assets/image (48).png" alt="" data-size="line">     | <p>Y<br>Or X with inverted option</p> |
-| LB (L1)                                                                            | L                                     |
-| RB (R1)                                                                            | R                                     |
-| L2                                                                                 | ZL                                    |
-| R2                                                                                 | ZR                                    |
-| L3                                                                                 | Left Thumb                            |
-| R3                                                                                 | Right Thumb                           |
+Player 1 plays with an emulated Wii U **GamePad**, players 2 to 4 with a **Pro Controller**. **CONTROLS > PLAYER 1 CONTROLLER TYPE** (to 4) changes this choice: GAMEPAD, PRO CONTROLLER or HORIZONTAL WIIMOTE. Some multiplayer games reject the GamePad for player 1: switch it to Pro Controller.
 
-The option to invert face buttons can be found here:
+Buttons are placed as on a Nintendo controller (position, not letter):
 
-<div align="left"><figure><img src="https://i.imgur.com/BstocFZ.png" alt=""><figcaption></figcaption></figure></div>
+<table><thead><tr><th width="230.25">RetroBat controller</th><th>Wii U</th></tr></thead><tbody><tr><td>START</td><td>+</td></tr><tr><td>SELECT</td><td>−</td></tr><tr><td>D-pad</td><td>D-pad</td></tr><tr><td>Left stick / right stick</td><td>Left stick / right stick</td></tr><tr><td>SOUTH</td><td>B (or A when inverted)</td></tr><tr><td>EAST</td><td>A (or B when inverted)</td></tr><tr><td>WEST</td><td>Y (or X when inverted)</td></tr><tr><td>NORTH</td><td>X (or Y when inverted)</td></tr><tr><td>L1 / R1</td><td>L / R</td></tr><tr><td>L2 / R2</td><td>ZL / ZR</td></tr><tr><td>L3 / R3</td><td>Left / right stick click</td></tr></tbody></table>
+
+The **CONTROLS > INVERT FACE BUTTONS** option inverts the buttons (A on SOUTH, following the printed letters):
+
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (705).png" alt=""><figcaption></figcaption></figure></div>
 
 ### Playing with Wiimotes
 
-Cemu allows playing with real wiimotes when they are paired with your computer.
+Cemu allows playing with real Wiimotes connected to the PC (DolphinBar or Bluetooth).
 
-To play with wiimote, select the "**REAL WIIMOTES**" option in RetroBat advanced configuration:
+Select the number of Wiimotes in **CONTROLS > REAL WIIMOTES** (advanced system or game options). Other controllers are then no longer used.
 
-<div align="left"><figure><img src="https://i.imgur.com/UH3Acs9.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (704).png" alt=""><figcaption></figcaption></figure></div>
 
-Each player can define the type of wiimote that is connected.
+**CONTROLS > WIIMOTE 1 TYPE** (to 4) gives, for each player, the connected Wiimote: MOTION PLUS, MOTION PLUS + NUNCHUK, STANDARD or STANDARD + NUNCHUK.
 
 ### Motion controls
 
-Some Games do require motion control to play in some levels (e.g. Zelda Breath of The Wild contains dungeons which can only be beaten using motion).
+Some games require the controller gyroscope to progress (for example some shrines of Zelda: Breath of the Wild).
 
-There are several options to manage motion control, [CEMU wiki](https://wiki.cemu.info/wiki/Motion_controls) has great documentation to cover motion control.
+Enable **CONTROLS > MOTION CONTROL** in the advanced system or game options. Tested controllers: Switch Pro, 8BitDo (in Switch / Pro Controller mode) and DualSense.
 
-DualSense and Switch Pro controllers are tested options.
-
-{% hint style="info" %}
-If you own a controller that supports motion control, you can activate motion controls in the Advanced system options or advanced game options.
-{% endhint %}
+The [Cemu wiki](https://wiki.cemu.info/wiki/Motion_controls) covers the other solutions.
 
 ### Microphone
 
-Cemu allows to map a button to the Microphone button, the button to map can be managed in RetroBat advanced options:
+Games that ask you to blow into the GamePad microphone:
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (134).png" alt=""><figcaption></figcaption></figure></div>
+* **CONTROLS > MAP BUTTON TO MICROPHONE BLOW** maps a button to the microphone (L3 or R3);
+* **AUDIO > ENABLE COMPUTER MICROPHONE** uses the PC microphone.
 
 {% hint style="info" %}
-The option is only available when using WIIU Gamepad as emulated controller.
+The microphone button only works with the Wii U GamePad as emulated controller.
 {% endhint %}
 
-### Show Gamepad Screen&#x20;
+### Show the GamePad screen
 
-Cemu allows to map a button to switch from main screen to WiiU Gamepad screen, the button can be managed in RetroBat advanced options, it is also possible to choose whether the mapped button must remain pushed or whether it acts as a toggle:
+The GamePad has its own screen. Two ways to show it:
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (135).png" alt=""><figcaption></figcaption></figure></div>
+* **CONTROLS > DISPLAY GAMEPAD SCREEN** selects a button (L3, R3 or SELECT) that shows the GamePad screen instead of the main screen, as long as it is held. With **CONTROLS > GAMEPAD SCREEN TOGGLE**, each press switches between the screens.
+* **USER INTERFACE > SEPARATE GAMEPAD VIEW** opens the GamePad screen in a second window (handy with two displays).
 
 {% hint style="info" %}
-The option is only available when using WIIU Gamepad as emulated controller.
+The screen button only works with the Wii U GamePad as emulated controller.
 {% endhint %}
 
-## Specific system information
+### Hotkeys
 
-### Files location
+HOTKEY + START quits the game. Cemu has no save states: save in the game. See the [**Hotkeys**](../../../../navigation/hotkeys.md) page.
 
-<table><thead><tr><th width="276">Files</th><th>Path (relative to the RetroBat root folder)</th></tr></thead><tbody><tr><td>mlc01</td><td>saves\wiiu\cemu\mlc01</td></tr><tr><td>Config file</td><td>emulators\cemu\portable\settings.xml</td></tr><tr><td>Controller config file</td><td>emulators\cemu\portable\controllerProfiles<br>Each controller in its own .xml file</td></tr></tbody></table>
+## Folders
 
-### Adding Games in Loadiine format
+<table><thead><tr><th width="321.5">Content</th><th>Folder</th></tr></thead><tbody><tr><td>Games</td><td><code>roms\wiiu</code></td></tr><tr><td>mlc01 (saves, installed games, updates and DLC)</td><td><code>saves\wiiu\cemu\mlc01</code></td></tr><tr><td>Keys of encrypted games</td><td><code>bios\cemu\keys.txt</code> (copied to <code>emulators\cemu\portable</code>)</td></tr><tr><td>Config file</td><td><code>emulators\cemu\portable\settings.xml</code></td></tr><tr><td>Controller config</td><td><code>emulators\cemu\portable\controllerProfiles</code> (one <code>.xml</code> file per controller)</td></tr><tr><td>Graphic packs</td><td><code>emulators\cemu\portable\graphicPacks</code></td></tr></tbody></table>
 
-The best way to add WiiU games is to use the format known as "Bootloader" format. This is the format of games dumped from your console with Dumpling tool.
+## Adding games
 
-This consists of a game folder with 3 subfolders
+The recommended format is the **Loadiine** (or "Bootloader") format: this is the format of games dumped from your Wii U console with Dumpling. The game is a folder with 3 subfolders, `code`, `content` and `meta`. For example:
 
-<div align="left"><figure><img src="https://i.imgur.com/CIYaICX.png" alt=""><figcaption><p>Example of dumped Zelda game</p></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (703).png" alt=""><figcaption><p>Example of dumped Zelda game</p></figcaption></figure></div>
 
-There are 2 options to add these games in Retrobat
+There are two ways to add these games to RetroBat.
 
-#### Install the game in Cemu and use m3u file
+### Method 1: install the game in Cemu and use a .m3u file
 
-This method will simulate the installation of the game in the NAND of the WiiU.
+This method simulates the installation of the game in the Wii U memory, as for a game bought in digital version. The original game folder is no longer needed after the installation.
 
-From the Retrobat Game View, open the CEMU emulator
+1. Open Cemu from the RetroBat emulators menu (or directly `emulators\cemu\Cemu.exe`).
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (702).png" alt=""><figcaption></figcaption></figure></div>
 
-Navigate to the \meta folder of your dumped game directory and install the meta.xml file
+2. Select **File > Install game title, update or DLC**, go to the `meta` folder of the game and select the `meta.xml` file.
 
-<div align="left"><figure><img src="https://i.imgur.com/C1KGhKQ.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (701).png" alt=""><figcaption></figcaption></figure></div>
 
-Wait for the installation to finish and you will see the game added to Cemu
+3. Wait for the installation to finish: the game appears in the Cemu list.
 
-<div align="left"><figure><img src="https://i.imgur.com/rG2IJvR.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (700).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure></div>
+4. Right-click on the game and select **Game directory**.
 
-Right-click on the Game and select **Game directory**
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (699).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/6ALGNnR.png" alt=""><figcaption></figcaption></figure></div>
+5. Windows Explorer opens the game folder, which contains the `.rpx` file (in `code`).
 
-This will show you the path of the game executable .rpx file
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (698).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/EN9JEKf.png" alt=""><figcaption></figcaption></figure></div>
+6. Quit Cemu. In `roms\wiiu`, create a `<game name>.m3u` text file containing the path of the `.rpx`:
 
-Exit Cemu and open you `\roms\wiiu` folder and create a `Breath of the wild.m3u` file with the following content
+`\..\..\saves\wiiu\cemu\mlc01\usr\title\`<mark style="color:red;">`<path to the game>`</mark>`\code\`<mark style="color:red;">`<file name>`</mark>`.rpx`
 
-`\..\..\saves\wiiu\cemu\mlc01\usr\title\`<mark style="color:red;">`<path to the game>`</mark>`\`<mark style="color:red;">`*`</mark>`.rpx`
+For example for Zelda: Breath of the Wild:
 
-For example for Zelda Breath of the Wild:
+The path can also be absolute (`C:\...`), or relative to the folder of the `.m3u` file. The `example-to-edit.m3u.txt` file of the `roms\wiiu` folder is a template.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure></div>
+7. Save the `.m3u` file: the game is available in RetroBat, ready to be scraped and played.
 
-The game will now be available in Retrobat for scraping and playing.
+### Method 2: place the game folder in roms\wiiu
 
-#### Place the Game folder in the roms directory
+This method simulates the presence of the disc in the console.
 
-This method will simulate the presence of a WiiU cartridge.&#x20;
+Copy the game folder (Loadiine format) to `roms\wiiu`:
 
-Place the game folder in the `\roms\wiiu` folder
+RetroBat finds the **.rpx** file of the `code` folder: the game is available in RetroBat, ready to be scraped and played.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (136).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (697).png" alt=""><figcaption></figcaption></figure></div>
 
-The game will now be available in Retrobat for scraping and playing.
+ScreenScraper recognizes the file name: for example, `U-King` is Zelda: Breath of the Wild.
 
-Retrobat will detect the **.rpx** file in the `\code` folder
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (696).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/iSQdk4o.png" alt=""><figcaption></figcaption></figure></div>
+### Other formats
 
-The Screenscraper service will recognize U-King as Zelda Breath of the Wild
+`.wua`, `.wud`, `.wux` and `.iso` files go directly in `roms\wiiu`. For `.wud`, `.wux` and `.iso`, add the game keys to `bios\cemu\keys.txt` (see **BIOS**).
 
-<div align="left"><figure><img src="https://i.imgur.com/9srVWOF.png" alt=""><figcaption></figcaption></figure></div>
+## Game updates and DLC
 
-### Game Updates & DLC
+Updates and DLC are installed in Cemu with the **Install game title, update or DLC** option. They come in the same format as games: Loadiine folders. With the `.wua` format, they are already in the game file.
 
-Updates & DLC must be installed in the Cemu emulator directory using the install title, update or DLC option, they come in the same structure as the game itself
+1. Open Cemu from the RetroBat emulators menu and select **Install game title, update or DLC**.
 
-Open Cemu and choose **install game title, update or DLC**
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (695).png" alt=""><figcaption><p>Select the install option</p></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/Y53KGT4.png" alt=""><figcaption><p>Select the install option</p></figcaption></figure></div>
+2. Go to the `meta` folder of the update or DLC and select the `meta.xml` file.
 
-Navigate to the \meta folder of your dumped DLC or Update directory and install the meta.xml file
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (694).png" alt=""><figcaption><p>search for the meta.xml file in the meta folder</p></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/Y6adbtz.png" alt=""><figcaption><p>search for the meta.xml file in the meta folder</p></figcaption></figure></div>
+3. Wait until the installation finishes.
 
-Wait until the installation finishes
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (693).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/8U7YvAk.png" alt=""><figcaption></figcaption></figure></div>
+4. Cemu shows the version and DLC level in the **Version** and **DLC** columns.
 
-You should now see the Update or DLC information in the gamelist
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (692).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/OY3g3cd.png" alt=""><figcaption></figcaption></figure></div>
+Everything is installed in `saves\wiiu\cemu\mlc01`.
 
-### Graphic packs
+## Graphic packs
 
-Cemu emulator uses Graphic Packs to enhance games graphics but also to fix bugs in some games.
+Cemu graphic packs enhance rendering (resolution, 60 frames per second) and also fix bugs in some games.
 
-Graphic Packs are not managed automatically from RetroBat and need to be enabled in the emulator, once enabled, they will be used when launching the game from RetroBat.
+RetroBat does not manage them: enable them in Cemu. They are then applied each time the game is launched from RetroBat.
 
-Proceed as follows to enable Graphic Packs.
+1. Open Cemu and select **Options > Graphic packs**:
 
-* Open CEMU and select "Graphic Packs":
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (691).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/6706fCT.png" alt=""><figcaption></figcaption></figure></div>
+2. Click **Download latest community graphic packs** (bottom of the window) and wait for the download to finish.
 
-* Click the "Download latest community graphic packs" in the bottom left corner of the screen:
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (690).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/Y98rMBK.png" alt=""><figcaption></figcaption></figure></div>
+3. Check the packs available for your game and enable the ones you need.
 
-This will automatically download the graphic packs for the games you own
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (689).png" alt=""><figcaption></figcaption></figure></div>
 
-* Check the list of items available and enable the ones required for the game (or the ones you want to activate)
+In this example, the "Title Screen Crash Fix" pack is mandatory to avoid a crash after the title screen of New Super Mario Bros. U.
 
-<div align="left"><figure><img src="https://i.imgur.com/CKKBWGK.png" alt=""><figcaption></figcaption></figure></div>
-
-In this example, the option ticked is mandatory to avoid a crash after the title screen in the game "New Super Mario Bros WiiU"
-
-* Once done: quit the emulator
-
-The settings will automatically be saved
+4. Quit Cemu: the pack settings are saved automatically.
 
 {% hint style="info" %}
-You can check the specific requirements on the CEMU compatibility wiki:
+The Cemu compatibility page gives, for each game, the useful settings and packs:
 
 [https://compat.cemu.info/](https://compat.cemu.info/)
 {% endhint %}
 
+## Known issues
+
+| Issue                                          | Solution                                                                                                         |
+| ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| "Could not decrypt title"                      | The game is encrypted: add its keys to `bios\cemu\keys.txt`, or use the Loadiine or `.wua` format.               |
+| A multiplayer game does not recognize player 1 | Set **CONTROLS > PLAYER 1 CONTROLLER TYPE** to PRO CONTROLLER.                                                   |
+| Game profiles created in Cemu are not applied  | Expected: RetroBat disables them during the game to apply its own options. Set the game in the RetroBat options. |
+| A game crashes or displays badly               | Check [compat.cemu.info](https://compat.cemu.info/): many games need a graphic pack (see **Graphic packs**).     |
+| Stutter on the first play                      | Cemu compiles its shaders. With Vulkan, **VISUAL RENDERING > ASYNCHRONOUS TEXTURE COMPILATION** reduces it.      |
