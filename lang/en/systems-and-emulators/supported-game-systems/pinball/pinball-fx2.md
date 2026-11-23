@@ -4,206 +4,165 @@ description: Zen Studios
 
 # Pinball FX2
 
-<div align="left"><figure><img src="https://github.com/fabricecaruso/es-theme-carbon/blob/master/art/logos/pinballfx2.png?raw=true" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (709).png" alt=""><figcaption></figcaption></figure></div>
 
-Pinball Simulation Software - Released 2010
+## Overview
+
+**Pinball FX2** is the **Zen Studios** pinball platform released in 2010 on Xbox 360, then in 2013 on PC. Removed from sale on Steam in 2017, replaced by Pinball FX3, it can still be downloaded by its owners.
 
 {% embed url="https://en.wikipedia.org/wiki/Pinball_FX_2" %}
 
-## Information
+## At a glance
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Steam</li><li>nonSteam</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> pinballfx2</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.pxp .table</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="235.25"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\pinballfx2</code></td></tr><tr><td><strong>Extensions</strong></td><td>.pxp .table</td></tr><tr><td><strong>Default emulator</strong></td><td>pinballfx (steam version)</td></tr><tr><td><strong>BIOS</strong></td><td>None</td></tr><tr><td><strong>Controller setup</strong></td><td>By the game (not changed by RetroBat)</td></tr><tr><td><strong>Save states</strong></td><td>No</td></tr><tr><td><strong>RetroAchievements</strong></td><td>No</td></tr><tr><td><strong>Netplay</strong></td><td>No</td></tr></tbody></table>
 
-## Controls
+## Which emulator to choose?
 
-<table><thead><tr><th width="258">RetroBat key</th><th width="443">Pinball FX2 Action</th></tr></thead><tbody><tr><td>START</td><td>Open Menu</td></tr><tr><td>SELECT</td><td>Open Menu</td></tr><tr><td>D-PAD</td><td></td></tr><tr><td>Left Analog Stick</td><td>Nudge Flipper</td></tr><tr><td>Right Analog Stick</td><td>Up: Back Box View / Down: Ball Launch</td></tr><tr><td><img src="../../../.gitbook/assets/image (30).png" alt="A"></td><td>Auto Ball Launch</td></tr><tr><td><img src="../../../.gitbook/assets/image (16) (1).png" alt="B"></td><td>Visual Extras</td></tr><tr><td><img src="../../../.gitbook/assets/image (50).png" alt="" data-size="original"></td><td>Wizard Power</td></tr><tr><td><img src="../../../.gitbook/assets/image (48).png" alt="" data-size="line"></td><td>Change View</td></tr><tr><td>L1</td><td>Flipper Left</td></tr><tr><td>R1</td><td>Flipper Right</td></tr><tr><td>L2</td><td>Flipper Left</td></tr><tr><td>R2</td><td>Flipper Right</td></tr><tr><td>L3</td><td></td></tr><tr><td>R3</td><td></td></tr></tbody></table>
+The `pinballfx` emulator has two versions (core):
 
-## System Features
+<table><thead><tr><th width="158.25">Version</th><th>Strengths</th><th>Limits</th></tr></thead><tbody><tr><td><strong>steam</strong> (default)</td><td>The game installed with Steam is started by Steam, directly on the chosen table.</td><td>Steam must be installed, with the game.</td></tr><tr><td><strong>nonsteam</strong></td><td>Starts the game executable directly, without Steam.</td><td>The game must be in <code>emulators\pinballfx2</code>.</td></tr></tbody></table>
 
-### Cabinet Mode
+With **nonsteam**, RetroBat looks for `Pinball FX2.exe` in the `emulators\pinballfx2` folder. If the game is not there, a message gives the expected folder.
 
-To be able to launch Pinball FX2 tables from RetroBat you must meet the following requirements:
+## BIOS
 
-* [x] Own a legit copy of Pinball FX2.
-* [x] Own a licence for at least one collection of tables.
-* [x] Own a Personal Activation Code to enable Cabinet Mode.
+No BIOS needed.
+
+## Cabinet Mode
+
+To start a table from RetroBat, you need:
+
+* [x] the Pinball FX2 game;
+* [x] at least one table you bought;
+* [x] **Cabinet Mode** enabled with a Personal Activation Code, requested from Zen Studios.
 
 {% hint style="info" %}
-To get a Personal Activation Code you need to make a request to Zen Studios by fullfilling a form on their Website:\
-[https://zenstudios.com/home/pinball-cabinet-support-request/](https://zenstudios.com/home/pinball-cabinet-support-request/)
+Code request: [Zen Studios form](https://zenstudios.com/home/pinball-cabinet-support-request/). More information about [Cabinet Mode](https://www.pinballfx.com/?page_id=7754#end-anchor).
 {% endhint %}
 
-{% hint style="info" %}
-More information about Cabinet Mode here:\
-[https://www.pinballfx.com/?page\_id=7754#end-anchor](https://www.pinballfx.com/?page_id=7754#end-anchor)
-{% endhint %}
+## Add tables
 
-### Tables
+Once Cabinet Mode is enabled, each table is a file placed in `roms\pinballfx2`:
 
-Once you have the Cabinet Mode activated, you can copy the `.pxp` files of the Tables for which you own a licence in the :open\_file\_folder:`roms\`:open\_file\_folder:`pinballfx2` folder of your RetroBat installation. Then the Pinball FX2 system will appear when you navigate in the System View.
+* either the `.pxp` file of the table, copied from the `data_steam` folder of the game;
+* or an empty `.table` file named exactly like the table (for example `Citadel.table`).
 
-You will find the Tables `.pxp` files you need to copy in the folder of your Pinball FX2 installation.&#x20;
+<div align="left"><figure><img src="../../../.gitbook/assets/image (710).png" alt=""><figcaption></figcaption></figure></div>
+
+The `.pxp` files of all the tables are in the `data_steam` folder of the game (in Steam: right-click on the game, **Manage > Browse local files**).
 
 {% hint style="warning" %}
-Even if all the Tables files exist, only the Tables for which you own a licence will play when you launch them in RetroBat.
-{% endhint %}
-
-{% hint style="info" %}
-It is also possible to create an empty .table file named after the same name as the .pxp table and to save it in the roms\pinballfx2 folder.
+The `data_steam` folder contains all the tables: only the ones you own will start.
 {% endhint %}
 
 <details>
 
 <summary>Table names</summary>
 
-Alien\_Isolation&#x20;
-
-Alien\_vs\_Predator&#x20;
-
-Aliens&#x20;
-
-AmericanDad&#x20;
-
-MARVEL\_Ant-Man&#x20;
-
-Archer&#x20;
-
-MARVEL\_Avengers&#x20;
-
-MARVEL\_Age\_of\_Ultron&#x20;
-
-BETHESDA\_Doom&#x20;
-
-BETHESDA\_Fallout&#x20;
-
-BETHESDA\_Skyrim&#x20;
-
-BioLab&#x20;
-
-MARVEL\_Blade&#x20;
-
-STARWARS\_Boba\_Fett&#x20;
-
-BobsBurgers&#x20;
-
-MARVEL\_CaptainAmerica&#x20;
-
-CastleStorm&#x20;
-
-MARVEL\_CivilWar&#x20;
-
-STARWARS\_Darth\_Vader&#x20;
-
-MARVEL\_Deadpool&#x20;
-
-MARVEL\_DrStrange&#x20;
-
-STARWARS\_Droids&#x20;
-
-EarthDefense&#x20;
-
-Eldorado&#x20;
-
-Looter&#x20;
-
-STARWARS\_Episode\_4&#x20;
-
-STARWARS\_Episode\_5&#x20;
-
-STARWARS\_Episode\_6&#x20;
-
-Excalibur&#x20;
-
-FamilyGuy&#x20;
-
-MARVEL\_FantasticFour&#x20;
-
-MARVEL\_FearItSelf&#x20;
-
-STARWARS\_MFO&#x20;
-
-MARVEL\_GhostRider&#x20;
-
-MARVEL\_Guardians&#x20;
-
-STARWARS\_Han\_Solo&#x20;
-
-MARVEL\_IronMan Mars&#x20;
-
-STARWARS\_Light\_VS\_Dark&#x20;
-
-MARVEL\_MoonKnight&#x20;
-
-MARVEL\_MsMarvel&#x20;
-
-SplosionMan&#x20;
-
-Paranormal&#x20;
-
-Pasha&#x20;
-
-PlantsVsZombies&#x20;
-
-Portal&#x20;
-
-STARWARS\_Rebels&#x20;
-
-Rome&#x20;
-
-Atlantis&#x20;
-
-Shaman&#x20;
-
-Citadel&#x20;
-
-SouthPark2&#x20;
-
-SouthPark1&#x20;
-
-MARVEL\_SpiderMan&#x20;
-
-STARWARS\_SFA&#x20;
-
-Football\_Milan
-
-&#x20;Football\_Roma&#x20;
-
-Football\_Arsenal&#x20;
-
-Football\_Barcelona&#x20;
-
-Football\_Juventus
-
-Football\_Liverpool&#x20;
-
-Football\_RealMadrid&#x20;
-
-Football&#x20;
-
-Tesla&#x20;
-
-STARWARS\_CloneWars&#x20;
-
-STARWARS\_Episode\_7&#x20;
-
-MARVEL\_InfinityGauntlet&#x20;
-
-TheWalkingDead&#x20;
-
-MARVEL\_Thor&#x20;
-
-V12&#x20;
-
-MARVEL\_Venom&#x20;
-
-Western&#x20;
-
-MARVEL\_Wolverine&#x20;
-
-MARVEL\_WOP\_TheNextGeneration&#x20;
-
-MARVEL\_WWH&#x20;
-
-MARVEL\_XMen
+* `Alien_Isolation`
+* `Alien_vs_Predator`
+* `Aliens`
+* `AmericanDad`
+* `Archer`
+* `Atlantis`
+* `BETHESDA_Doom`
+* `BETHESDA_Fallout`
+* `BETHESDA_Skyrim`
+* `BioLab`
+* `BobsBurgers`
+* `CastleStorm`
+* `Citadel`
+* `EarthDefense`
+* `Eldorado`
+* `Excalibur`
+* `FamilyGuy`
+* `Football`
+* `Football_Arsenal`
+* `Football_Barcelona`
+* `Football_Juventus`
+* `Football_Liverpool`
+* `Football_Milan`
+* `Football_RealMadrid`
+* `Football_Roma`
+* `Looter`
+* `Mars`
+* `MARVEL_Age_of_Ultron`
+* `MARVEL_Ant-Man`
+* `MARVEL_Avengers`
+* `MARVEL_Blade`
+* `MARVEL_CaptainAmerica`
+* `MARVEL_CivilWar`
+* `MARVEL_Deadpool`
+* `MARVEL_DrStrange`
+* `MARVEL_FantasticFour`
+* `MARVEL_FearItSelf`
+* `MARVEL_GhostRider`
+* `MARVEL_Guardians`
+* `MARVEL_InfinityGauntlet`
+* `MARVEL_IronMan`
+* `MARVEL_MoonKnight`
+* `MARVEL_MsMarvel`
+* `MARVEL_SpiderMan`
+* `MARVEL_Thor`
+* `MARVEL_Venom`
+* `MARVEL_Wolverine`
+* `MARVEL_WOP_TheNextGeneration`
+* `MARVEL_WWH`
+* `MARVEL_XMen`
+* `Paranormal`
+* `Pasha`
+* `PlantsVsZombies`
+* `Portal`
+* `Rome`
+* `Shaman`
+* `SouthPark1`
+* `SouthPark2`
+* `SplosionMan`
+* `STARWARS_Boba_Fett`
+* `STARWARS_CloneWars`
+* `STARWARS_Darth_Vader`
+* `STARWARS_Droids`
+* `STARWARS_Episode_4`
+* `STARWARS_Episode_5`
+* `STARWARS_Episode_6`
+* `STARWARS_Episode_7`
+* `STARWARS_Han_Solo`
+* `STARWARS_Light_VS_Dark`
+* `STARWARS_MFO`
+* `STARWARS_Rebels`
+* `STARWARS_SFA`
+* `Tesla`
+* `TheWalkingDead`
+* `V12`
+* `Western`
 
 </details>
+
+## Controls
+
+The game handles the controller itself (XInput controller recommended): RetroBat does not change its configuration. Controls are changed in the game options.
+
+<table><thead><tr><th width="204">Action</th><th>Controller</th></tr></thead><tbody><tr><td>Left flipper</td><td>L1 or L2</td></tr><tr><td>Right flipper</td><td>R1 or R2</td></tr><tr><td>Launch the ball</td><td>Right stick down (pull, then release)</td></tr><tr><td>Auto launch the ball</td><td>SOUTH</td></tr><tr><td>Backbox view</td><td>Right stick up</td></tr><tr><td>Nudge the table</td><td>Left stick</td></tr><tr><td>Visual extras</td><td>EAST</td></tr><tr><td>Wizard power</td><td>WEST</td></tr><tr><td>Change view</td><td>NORTH</td></tr><tr><td>Menu</td><td>START or SELECT</td></tr></tbody></table>
+
+## Hotkeys
+
+<table><thead><tr><th width="180.25">Action</th><th>Controller</th></tr></thead><tbody><tr><td>Quit the game</td><td>HOTKEY + START</td></tr></tbody></table>
+
+The Game Control Center is not available for these systems.
+
+## Useful options
+
+In the advanced system or game settings:
+
+* **VIDEO > VIDEO MODE**: Windows resolution during the game.
+* **EMULATION > KILL LAUNCHER WHEN EXIT**: closes Steam when quitting the game (steam version).
+
+## Folders
+
+<table><thead><tr><th width="254">Content</th><th>Folder</th></tr></thead><tbody><tr><td>Tables</td><td><code>roms\pinballfx2</code></td></tr><tr><td>Game (nonsteam version)</td><td><code>emulators\pinballfx2</code></td></tr><tr><td>Saves, scores, settings</td><td>Handled by the game (and by Steam)</td></tr></tbody></table>
+
+## Known issues
+
+* **The game opens on its menu, without the table**: Cabinet Mode not activated (see above), or table not owned.
+* **"Game not found: copy it in '…'"** (nonsteam version): the game is not in the given folder, or its executable has another name.
+* **"Steam is not installed."** (steam version): Steam was not found.
