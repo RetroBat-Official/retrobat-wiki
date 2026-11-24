@@ -344,6 +344,7 @@
 ## Tutoriels
 
 * [Problèmes connus et solutions](tutoriels/problemes-connus-et-solutions.md)
+* [Créer des sous-dossiers de jeux](tutoriels/creer-des-sous-dossiers-de-jeux.md)
 * [Liens symboliques](tutoriels/liens-symboliques.md)
 * [Ajouter des filtres vidéos Retroarch à Retrobat](tutoriels/ajouter-des-filtres-videos-retroarch-a-retrobat.md)
 * [Adapter et personnaliser les Mega-Bezels](tutoriels/adapter-et-personnaliser-les-mega-bezels.md)
