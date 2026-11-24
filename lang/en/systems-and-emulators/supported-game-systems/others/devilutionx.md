@@ -1,43 +1,83 @@
+---
+description: Diablo
+---
+
 # DevilutionX
 
-<div align="left"><figure><picture><source srcset="../../../.gitbook/assets/devilutionX_W.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/devilutionX_B.png" alt=""></picture><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (731).png" alt="" width="416"><figcaption></figcaption></figure></div>
 
-Game engine to play Diablo and Hellfire game.
+## Overview
+
+**Diablo** (Blizzard, 1996) is an action role-playing game that started the "hack and slash" genre. Its **Hellfire** add-on (Sierra, 1997) adds a character, quests and two areas.
+
+RetroBat uses **DevilutionX**, a port of the original game: high resolution, widescreen, controller play, quality of life improvements.
+
+The game files are not provided: use the ones from your own copy (CD, [GOG](https://www.gog.com/game/diablo), [Battle.net](https://eu.shop.battle.net/fr-fr/family/diablo)) or the [demo](http://ftp.blizzard.com/pub/demos/diablosw.exe).
 
 {% embed url="https://github.com/diasurgical/devilutionX" %}
 
-## Information
+## At a glance
 
-<table data-header-hidden><thead><tr><th width="240"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>devilutionx</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> devilutionx</td></tr><tr><td><strong>File extension</strong></td><td>.game .win</td></tr></tbody></table>
+<table><thead><tr><th width="237.75"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\devilutionx</code></td></tr><tr><td><strong>Extensions</strong></td><td>.game .win</td></tr><tr><td><strong>Default emulator</strong></td><td>devilutionx</td></tr><tr><td><strong>BIOS</strong></td><td>None (game files to provide)</td></tr><tr><td><strong>Controller setup</strong></td><td>Automatic (DevilutionX controls)</td></tr><tr><td><strong>Save states</strong></td><td>No: in-game saves, quick save / load with the controller</td></tr><tr><td><strong>RetroAchievements</strong></td><td>No</td></tr><tr><td><strong>Netplay</strong></td><td>No</td></tr><tr><td><strong>Light guns</strong></td><td>—</td></tr><tr><td><strong>Wheels</strong></td><td>—</td></tr><tr><td><strong>Optional BIOS</strong></td><td>—</td></tr></tbody></table>
 
 ## BIOS
 
-No BIOS required.
+No BIOS is needed. You need the game files:
+
+<table><thead><tr><th width="217.75">Game</th><th>Files</th></tr></thead><tbody><tr><td>Diablo</td><td><code>diabdat.mpq</code></td></tr><tr><td>Diablo (demo)</td><td><code>spawn.mpq</code></td></tr><tr><td>Hellfire</td><td><code>hellfire.mpq</code>, <code>hfmonk.mpq</code>, <code>hfmusic.mpq</code>, <code>hfvoice.mpq</code> (with <code>diabdat.mpq</code>)</td></tr></tbody></table>
+
+## Which game format?
+
+Each game is a `.game` folder of `roms\devilutionx` holding its `.mpq` files.
+
+With Diablo and Hellfire in the same folder, Diablo is started, unless the folder name contains "hellfire". **GAME** selects DIABLO or HELLFIRE.
 
 ## Controls
 
-To be completed
+### Automatic configuration
 
-## System Features
+DevilutionX recognizes the controller and its default controls. All connected controllers move the hero: **CONTROLS > PLAYER 1 CONTROLLER ONLY** limits them to the player 1 one (for example if another controller drifts).
 
-### Game files organization
+### Hotkeys
 
-DevilutionX requires original Diablo (and Hellfire) game files to work.&#x20;
+<table><thead><tr><th width="264">Hotkey</th><th>Action</th></tr></thead><tbody><tr><td>HOTKEY + START</td><td>Quit</td></tr><tr><td>SELECT + L3</td><td>Quick save</td></tr><tr><td>START + L3</td><td>Quick load</td></tr><tr><td>START + R3</td><td>Screenshot</td></tr></tbody></table>
 
-You can extract the file from the original CD, or purchase the game on [GOG](https://www.gog.com/game/diablo), [Battle.net](https://eu.shop.battle.net/fr-fr/family/diablo)[ ](https://www.gog.com/game/flashback)or [STEAM](https://store.steampowered.com/app/961620/Flashback/).
+The controller shortcuts can be disabled with **CONTROLS > GAMEPAD SHORTCUTS**.
 
-Inside the `roms\devilutionx` folder, create a folder named `diablo.game`.&#x20;
+## Folders
 
-<div align="left"><figure><img src="../../../.gitbook/assets/OG2qShd.png" alt=""><figcaption></figcaption></figure></div>
+<table><thead><tr><th width="166.5">Content</th><th>Folder</th></tr></thead><tbody><tr><td>Games</td><td><code>roms\devilutionx\&#x3C;game>.game</code></td></tr><tr><td>Saves</td><td><code>saves\devilutionx\&#x3C;game></code></td></tr><tr><td>Configuration</td><td><code>roms\devilutionx\&#x3C;game>.game\diablo.ini</code></td></tr></tbody></table>
 
-Inside this folder, copy `diabdat.mpq` from the CD or Diablo-installation (or [extract it from the GoG installer](https://github.com/diasurgical/devilutionX/wiki/Extracting-the-.MPQs-from-the-GoG-installer)) to the `devilutionx` folder.
+## Guides
 
-To run the Diablo: Hellfire expansion you will need to also copy `hellfire.mpq`, `hfmonk.mpq`, `hfmusic.mpq`, `hfvoice.mpq`.
+### File layout
 
-<div align="left"><figure><img src="https://i.imgur.com/ePQsgna.png" alt=""><figcaption></figcaption></figure></div>
+In `roms\devilutionx`, create a `diablo.game` folder:
 
-Alternately you can use `spawn.mpq` from the [shareware](https://github.com/diasurgical/devilutionx-assets/releases/latest/download/spawn.mpq) [\[2\]](http://ftp.blizzard.com/pub/demos/diablosw.exe) version, in place of `diabdat.mpq`, to play the shareware version of the game.<br>
+Copy into it the `diabdat.mpq` file of your CD or install folder (or extract it from the GOG installer):
+
+{% embed url="https://github.com/diasurgical/devilutionX/wiki/Extracting-the-.MPQs-from-the-GoG-installer" %}
+
+For Hellfire, also copy `hellfire.mpq`, `hfmonk.mpq`, `hfmusic.mpq` and `hfvoice.mpq`:
+
+<div align="left"><figure><img src="../../../.gitbook/assets/image (732).png" alt=""><figcaption></figcaption></figure></div>
+
+The demo is started with `spawn.mpq` instead of `diabdat.mpq`:
+
+{% embed url="https://github.com/diasurgical/devilutionx-assets/releases/latest/download/spawn.mpq" %}
+
+### Options
+
+* **INTERNAL GAME RESOLUTION** up to 1280x960, **WIDESCREEN** to fill widescreen displays.
+* **EMULATION > RUN IN TOWN**, **AUTO GOLD PICKUP**, **AUTO REFILL BELT**.
+* **USER INTERFACE > EXPERIENCE BAR**, **ENEMY HEALTH BAR**, **ITEM LABELS**.
 
 ### Mods
 
-Mods exist for DevilutionX. You can find some of them on the [GitHub project](https://github.com/diasurgical/devilutionX/wiki/Mods-and-related-projects).&#x20;
+DevilutionX mods are listed on the project wiki:
+
+{% embed url="https://github.com/diasurgical/devilutionX/wiki/Mods-and-related-projects" %}
+
+## Known issues
+
+<table><thead><tr><th width="340.25">Issue</th><th>Solution</th></tr></thead><tbody><tr><td>The hero moves on its own</td><td>Another controller drifts: enable <strong>PLAYER 1 CONTROLLER ONLY</strong>, or increase <strong>STICK DEADZONE</strong>.</td></tr><tr><td>The game asks to choose between Diablo and Hellfire</td><td>Set <strong>GAME</strong>.</td></tr></tbody></table>
