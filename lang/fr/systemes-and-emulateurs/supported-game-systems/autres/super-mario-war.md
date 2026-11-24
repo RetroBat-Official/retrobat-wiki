@@ -1,33 +1,47 @@
 # Super Mario War
 
-<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/0ab5d8cd36c673c827b022c2ae53042a38df33da/art/logos/superbroswar.svg" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (751).png" alt="" width="221"><figcaption></figcaption></figure></div>
 
-Jeu Open-Source - Année de création : 2004
+## Présentation
+
+**Super Mario War** (2004) est un jeu de combat de plates-formes libre, inspiré de Super Mario : jusqu'à 4 joueurs s'affrontent en sautant sur la tête des autres, dans de nombreux modes de jeu.
+
+RetroBat le lance avec le core libretro **superbroswar**. Le jeu est gratuit.
 
 {% embed url="https://en.wikipedia.org/wiki/Super_Mario_War" %}
 
-## Information
+## En bref
 
-<table data-header-hidden><thead><tr><th width="240"></th><th></th></tr></thead><tbody><tr><td><strong>Émulateurs</strong></td><td><ul><li>Libretro : superbroswar</li></ul></td></tr><tr><td><strong>Dossier des jeux</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> superbroswar</td></tr><tr><td><strong>Extensions</strong></td><td>.sbw</td></tr></tbody></table>
+<table><thead><tr><th width="262.75"></th><th></th></tr></thead><tbody><tr><td><strong>Dossier des jeux</strong></td><td><code>roms\superbroswar</code></td></tr><tr><td><strong>Extensions</strong></td><td>.sbw</td></tr><tr><td><strong>Émulateur par défaut</strong></td><td>libretro: superbroswar</td></tr><tr><td><strong>BIOS</strong></td><td>Aucun</td></tr><tr><td><strong>Configuration des manettes</strong></td><td>Automatique, 4 joueurs</td></tr><tr><td><strong>Sauvegardes instantanées</strong></td><td>Non</td></tr><tr><td><strong>RetroAchievements</strong></td><td>Non</td></tr><tr><td><strong>Jeu en réseau</strong></td><td>Non</td></tr><tr><td><strong>Pistolets</strong></td><td>—</td></tr><tr><td><strong>Volants</strong></td><td>—</td></tr><tr><td><strong>BIOS optionnels</strong></td><td>—</td></tr></tbody></table>
 
-## BIOS
+## Quel format de jeu ?
 
-Aucun BIOS nécessaire.
+Un fichier `.sbw` vide placé dans le dossier des fichiers du jeu le lance (voir [**Guides**](super-mario-war.md#ajouter-le-jeu)).
 
 ## Contrôles
 
-<table><thead><tr><th width="246">Retrobat</th><th>Super Mario War</th></tr></thead><tbody><tr><td>START</td><td>Pause</td></tr><tr><td>SELECT</td><td>Sortie</td></tr><tr><td>D-PAD</td><td>Directions</td></tr><tr><td><img src="../../../.gitbook/assets/image (33).png" alt=""></td><td>Power Up</td></tr><tr><td><img src="../../../.gitbook/assets/image (20) (1).png" alt=""></td><td>Turbo</td></tr><tr><td><img src="../../../.gitbook/assets/image (7) (1) (1).png" alt=""></td><td>Saut</td></tr><tr><td><img src="../../../.gitbook/assets/image (35).png" alt=""></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="195.25">Manette RetroBat</th><th>Action</th></tr></thead><tbody><tr><td>Croix</td><td>Se déplacer</td></tr><tr><td>EST</td><td>Sauter / valider (menus)</td></tr><tr><td>SUD</td><td>Turbo / retour (menus)</td></tr><tr><td>OUEST</td><td>Utiliser le bonus</td></tr><tr><td>START</td><td>Pause</td></tr><tr><td>SELECT</td><td>Quitter la partie</td></tr></tbody></table>
 
-## Information spécifique au système
+### Raccourcis
+
+Raccourcis de RetroArch. Voir la page [**Raccourcis**](../../../navigation/hotkeys.md).
+
+## Dossiers
+
+<table><thead><tr><th width="157.75">Contenu</th><th>Dossier</th></tr></thead><tbody><tr><td>Jeu</td><td><code>roms\superbroswar</code></td></tr></tbody></table>
+
+## Guides
 
 ### Ajouter le jeu
 
-Dans un premier temps, télécharger la dernière version (beta 1.8 Custom Content Collection) du jeu ici : [https://github.com/mmatyas/supermariowar/releases/tag/continuous](https://github.com/mmatyas/supermariowar/releases/tag/continuous)
+1. Téléchargez la dernière version du jeu (1.8 beta, Custom Content Collection) :
 
-Puis décompresser le fichier zip à l'interieur du dossier `\roms\superbroswar` :
+{% embed url="https://github.com/mmatyas/supermariowar/releases/tag/continuous" %}
 
-<div align="left"><figure><img src="https://i.imgur.com/J5hvgIf.png" alt=""><figcaption></figcaption></figure></div>
+2. Extrayez le fichier zip dans `roms\superbroswar` :
 
-Enfin, créer un fichier texte vide à l'intérieur de ce dossier, et changer l'extension en .sbw :
+<div align="left"><figure><img src="../../../.gitbook/assets/image (753).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/HkofXzH.png" alt=""><figcaption></figcaption></figure></div>
+3. Créez un fichier texte vide dans ce dossier, puis changez son extension en `.sbw` :
+
+<div align="left"><figure><img src="../../../.gitbook/assets/image (752).png" alt=""><figcaption></figcaption></figure></div>
