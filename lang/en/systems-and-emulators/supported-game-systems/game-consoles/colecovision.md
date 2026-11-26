@@ -4,39 +4,91 @@ description: Coleco
 
 # ColecoVision
 
-<div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/52ff37c9e265587d006945a2ba695b5a962b3a3d/art/logos/colecovision.svg" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (738).png" alt="" width="425"><figcaption></figcaption></figure></div>
 
-Game Console - Lifespan: 1982 - 1985
+## Overview
+
+The **ColecoVision** is **Coleco**'s home console, released in 1982. It came with Donkey Kong and offered very faithful arcade conversions for the time. Its controller has a joystick, two side buttons and a 12-key keypad, on which game-specific overlays are slid. Expansion modules add a steering wheel, the Super Action Controller or Atari 2600 games. It was discontinued in 1985.
+
+Its library has about 150 games: Donkey Kong, Zaxxon, Venture, Lady Bug, Mr. Do!, Burgertime, Pitfall II, Q\*bert, Frogger, Turbo, Smurf: Rescue in Gargamel's Castle…
+
+The **Coleco ADAM** computer has its own system in RetroBat (see the [**Coleco Adam**](../home-computer/coleco-adam.md) page).
 
 {% embed url="https://en.wikipedia.org/wiki/ColecoVision" %}
 
-## Information
+## At a glance
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>libretro: gearcoleco</li><li>libretro: jollycv</li><li>libretro: bluemsx</li><li>libretro: fbneo</li><li>openmsx</li><li>ares</li><li>bizhawk</li><li>mesen</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c1">📁</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> colecovision</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.rom .ri .mx1 .mx2 .col .dsk .ddp .cas .sg .sc .m3u .zip .7z</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="236.5"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\colecovision</code></td></tr><tr><td><strong>Extensions</strong></td><td>.col .rom .ri .mx1 .mx2 .dsk .ddp .cas .sg .sc .m3u .zip .7z</td></tr><tr><td><strong>Default emulator</strong></td><td>libretro: gearcoleco</td></tr><tr><td><strong>BIOS</strong></td><td><code>colecovision.rom</code> (required)</td></tr><tr><td><strong>Controller setup</strong></td><td>Automatic, all emulators</td></tr><tr><td><strong>Save states</strong></td><td>libretro cores, BizHawk, standalone emulators (hotkeys)</td></tr><tr><td><strong>RetroAchievements</strong></td><td>libretro cores, BizHawk</td></tr><tr><td><strong>Netplay</strong></td><td>libretro cores gearcoleco, jollycv and fbneo</td></tr></tbody></table>
 
-## System Features
+## Which emulator should I choose?
 
-<table><thead><tr><th width="245">Retroachievements</th><th width="200">Netplay</th><th>Controller autoconfig</th></tr></thead><tbody><tr><td>lr-gearcoleco: YES<br>lr-jollycv: YES<br>lr-bluemsx: YES<br>lr-fbneo: YES<br>OpenMSX: NO<br>Ares: NO<br>BizHawk: YES<br>Mesen : NO</td><td>lr-gearcoleco: YES<br>lr-jollycv: YES<br>lr-bluemsx: NO<br>lr-fbneo: YES<br>OpenMSX: NO<br>Ares: NO<br>BizHawk: NO<br>Mesen : NO</td><td>lr-gearcoleco: YES<br>lr-jollycv: YES<br>lr-bluemsx: YES<br>lr-fbneo: YES<br>OpenMSX: YES<br>Ares: YES<br>BizHawk: YES<br>Mesen : YES</td></tr></tbody></table>
+| Emulator                           | For whom?     | Strengths                                                                                                                                                                   | Limits                                                            |
+| ---------------------------------- | ------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| **libretro: gearcoleco** (default) | Everyone      | Very compatible, MegaCart and Activision cartridges, SGM expansion, spinner (Super Action Controller, steering wheel, Roller Controller) with the mouse, RetroAchievements. | —                                                                 |
+| **libretro: jollycv**              | JollyCV users | Accurate emulation, palette choice.                                                                                                                                         | —                                                                 |
+| **libretro: bluemsx**              | blueMSX users | Emulated keyboard.                                                                                                                                                          | No netplay.                                                       |
+| **libretro: fbneo**                | FBNeo users   | Same settings as FBNeo arcade games.                                                                                                                                        | Only `.zip` or `.7z` games named like FBNeo ColecoVision sets.    |
+| **openmsx**                        | openMSX users | ColecoVision machine with Super Game Module.                                                                                                                                | BIOS in a separate folder (see [**BIOS**](colecovision.md#bios)). |
+| **ares**                           | Purists       | Very accurate emulation.                                                                                                                                                    | Save states with hotkeys.                                         |
+| **bizhawk: Coleco**                | BizHawk users | RetroAchievements, save states in the RetroBat menu.                                                                                                                        | —                                                                 |
+| **mesen**                          | Mesen users   | Region choice.                                                                                                                                                              | Save states with hotkeys.                                         |
+
+**If in doubt, keep libretro: gearcoleco.**
 
 ## BIOS
 
-<table><thead><tr><th width="175.55555555555557">bios file</th><th width="232">Folder</th><th>md5</th></tr></thead><tbody><tr><td>colecovision.rom</td><td><code>\bios</code></td><td>2c66f5911e5b42b8ebe113403548eee7</td></tr><tr><td>coleco.rom</td><td><code>\bios</code></td><td>2c66f5911e5b42b8ebe113403548eee7</td></tr><tr><td>coleco.rom</td><td><code>\bios\openMSX\share\systemroms</code></td><td>2c66f5911e5b42b8ebe113403548eee7</td></tr></tbody></table>
+<table><thead><tr><th width="167.75">File</th><th width="188.5">Folder</th><th width="203.75">MD5</th><th>Used by</th></tr></thead><tbody><tr><td><code>colecovision.rom</code></td><td><code>bios</code></td><td>2c66f5911e5b42b8ebe113403548eee7</td><td>gearcoleco, ares, BizHawk, Mesen</td></tr><tr><td><code>coleco.rom</code></td><td><code>bios</code></td><td>2c66f5911e5b42b8ebe113403548eee7</td><td>jollycv (created by RetroBat from <code>colecovision.rom</code> when missing)</td></tr><tr><td><code>coleco.rom</code></td><td><code>bios\openMSX\share\systemroms</code></td><td>2c66f5911e5b42b8ebe113403548eee7</td><td>openMSX</td></tr><tr><td><code>coleco.zip</code></td><td><code>roms\colecovision</code></td><td>—</td><td>fbneo (BIOS in FBNeo format)</td></tr></tbody></table>
+
+It is the same file under three names. blueMSX uses the BIOS of its machines (`bios\Machines`, provided with RetroBat).
+
+## Which game format?
+
+<table><thead><tr><th width="236.5">Format</th><th>Description</th></tr></thead><tbody><tr><td><strong>.col</strong>, <strong>.rom</strong></td><td>Cartridge image. Read by all emulators, except FBNeo.</td></tr><tr><td><strong>.zip</strong>, <strong>.7z</strong></td><td>Compressed game (one game per archive). With fbneo: FBNeo ColecoVision sets only (see the FBNeo game list).</td></tr><tr><td><strong>.ri .mx1 .mx2 .dsk .ddp .cas .sg .sc .m3u</strong></td><td>MSX and SG-1000 formats, read by blueMSX and openMSX.</td></tr></tbody></table>
 
 ## Controls
 
-<table><thead><tr><th width="171.5">Retrobat Button</th><th>Gearcoleco</th><th>JollyCV</th></tr></thead><tbody><tr><td>START</td><td>*</td><td>#</td></tr><tr><td>SELECT</td><td>#</td><td>*</td></tr><tr><td>D-PAD</td><td>D-PAD</td><td>D-PAD</td></tr><tr><td>Left analog stick</td><td>x-axis: 0<br>y-axis: 9</td><td></td></tr><tr><td>Right analog stick</td><td>x-axis: BLUE<br>y-axis: PURPLE</td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (48).png" alt=""></td><td>1</td><td>PURPLE</td></tr><tr><td><img src="../../../.gitbook/assets/image (30).png" alt=""></td><td>Left button (YELLOW)</td><td>Left button (YELLOW)</td></tr><tr><td><img src="../../../.gitbook/assets/image (16) (1).png" alt=""></td><td>Right button (RED)</td><td>Right button (RED)</td></tr><tr><td><img src="../../../.gitbook/assets/image (50).png" alt=""></td><td>2</td><td>BLUE</td></tr><tr><td>L1</td><td>4</td><td>Spinner -</td></tr><tr><td>R1</td><td>3</td><td>Spinner +</td></tr><tr><td>L2</td><td>6</td><td>+<img src="../../../.gitbook/assets/image (107).png" alt=""> : 1<br>+<img src="../../../.gitbook/assets/image (110).png" alt=""> : 2<br>+<img src="../../../.gitbook/assets/image (111).png" alt=""> : 3<br>+<img src="../../../.gitbook/assets/image (112).png" alt=""> : 4<br>+SELECT: 9</td></tr><tr><td>R2</td><td>5</td><td>+<img src="../../../.gitbook/assets/image (109).png" alt=""> : 5<br>+<img src="../../../.gitbook/assets/image (113).png" alt=""> : 6<br>+<img src="../../../.gitbook/assets/image (114).png" alt=""> : 7<br>+<img src="../../../.gitbook/assets/image (115).png" alt=""> : 8<br>+SELECT: 0</td></tr><tr><td>L3</td><td>8</td><td></td></tr><tr><td>R3</td><td>7</td><td></td></tr><tr><td>Keyboard 1</td><td>0 (player 1)</td><td></td></tr><tr><td>Keyboard 2</td><td>9 (player 1)</td><td></td></tr><tr><td>Keyboard 3</td><td>0 (player 2)</td><td></td></tr><tr><td>Keyboard 4</td><td>9 (player 2)</td><td></td></tr></tbody></table>
+RetroBat sets up controllers automatically for all emulators, for two players. The keypad keys are spread over the controller.
 
-### Bluemsx
+| RetroBat controller                 | gearcoleco           | jollycv                                       |
+| ----------------------------------- | -------------------- | --------------------------------------------- |
+| D-pad                               | Joystick             | Joystick                                      |
+| SOUTH                               | Left button (yellow) | Left button (yellow); with L2: 1; with R2: 5  |
+| EAST                                | Right button (red)   | Right button (orange); with L2: 2; with R2: 6 |
+| WEST                                | 1                    | Purple; with L2: 3; with R2: 7                |
+| NORTH                               | 2                    | Blue; with L2: 4; with R2: 8                  |
+| L1                                  | 3                    | Spinner -                                     |
+| R1                                  | 4                    | Spinner +                                     |
+| L2                                  | 5                    | Shift key 1                                   |
+| R2                                  | 6                    | Shift key 2                                   |
+| L3                                  | 7                    | —                                             |
+| R3                                  | 8                    | —                                             |
+| Left stick (horizontal / vertical)  | 0 / 9                | —                                             |
+| Right stick (horizontal / vertical) | Blue / Purple        | —                                             |
+| START                               | \*                   | #                                             |
+| SELECT                              | #                    | \*; with L2: 9; with R2: 0                    |
 
-Bluemsx core allows you to choose between the following controller types:
+The purple and blue buttons are used by the Super Action Controller (Super Action Baseball, Football…).
 
-* RETROPAD
-* KEYBOARD
+With blueMSX, **CONTROLLER TYPE** chooses the emulated controller or keyboard.
 
-### OpenMSX keyboard
+### Hotkeys
 
-<table><thead><tr><th width="283">Keyboard player 1</th><th>Keyboard player 2</th><th>Colecovision</th></tr></thead><tbody><tr><td>Arrow keys</td><td>W, S, A, D</td><td>Arrow keys</td></tr><tr><td>SPACE<br>Right CTRL</td><td>Left CTRL</td><td>Left button</td></tr><tr><td>Left ALT<br>Right ALT<br>Right SHIFT</td><td>Left SHIFT</td><td>Right button</td></tr><tr><td>1</td><td>R</td><td>1</td></tr><tr><td>2</td><td>T</td><td>2</td></tr><tr><td>3</td><td>Y</td><td>3</td></tr><tr><td>4</td><td>F</td><td>4</td></tr><tr><td>5</td><td>G</td><td>5</td></tr><tr><td>6</td><td>H</td><td>6</td></tr><tr><td>7</td><td>V</td><td>7</td></tr><tr><td>8</td><td>B</td><td>8</td></tr><tr><td>9</td><td>N</td><td>9</td></tr><tr><td>0</td><td>U</td><td>0</td></tr><tr><td>-<br>Numpad * or -</td><td>J</td><td>*</td></tr><tr><td>=<br>Numpad / or +</td><td>M</td><td>#</td></tr></tbody></table>
+libretro cores use the standard RetroArch hotkeys. openMSX, ares, BizHawk and Mesen use the common RetroBat hotkeys. See the [**Hotkeys**](../../../navigation/hotkeys.md) page.
 
-## Specific system information
+## Folders
 
-There is no specific System information documented here yet.
+<table><thead><tr><th width="231.5">Content</th><th>Folder</th></tr></thead><tbody><tr><td>Games</td><td><code>roms\colecovision</code></td></tr><tr><td>BIOS</td><td><code>bios</code>, <code>bios\openMSX\share\systemroms</code> (openMSX)</td></tr><tr><td>libretro cores: save states</td><td><p><code>saves\colecovision\libretro.&#x3C;core></code></p><p>(e.g. <code>saves\colecovision\libretro.gearcoleco</code>)</p></td></tr><tr><td>BizHawk: save states</td><td><code>saves\colecovision\bizhawk\sstates\Coleco</code></td></tr><tr><td>BizHawk: screenshots</td><td><code>screenshots\bizhawk\colecovision</code></td></tr></tbody></table>
+
+## Guides
+
+### Spinner and steering wheel
+
+With **libretro: gearcoleco**, **CONTROLS > SPINNER SUPPORT** emulates the **SUPER ACTION CONTROLLER**, the **WHEEL CONTROLLER** (Turbo, Destructor) or the **ROLLER CONTROLLER** (Slither) with the mouse. Mouse buttons are the left and right buttons. **SPINNER SENSITIVITY** sets the speed.
+
+### Other useful options
+
+<table><thead><tr><th width="178.25">Emulator</th><th>Option</th><th>Effect</th></tr></thead><tbody><tr><td>gearcoleco, jollycv</td><td><strong>VIDEO > NO SPRITE LIMIT</strong></td><td>Removes flickering when too many sprites are on a line.</td></tr><tr><td>gearcoleco</td><td><strong>EMULATION > MAPPER</strong></td><td>Forces the cartridge type if a game does not start.</td></tr><tr><td>gearcoleco</td><td><strong>EMULATION > REFRESH RATE</strong></td><td>NTSC (60 Hz) or PAL (50 Hz).</td></tr><tr><td>jollycv</td><td><strong>VISUAL RENDERING > PALETTE</strong></td><td>Colors of the video chip.</td></tr><tr><td>Mesen</td><td><strong>EMULATION > SYSTEM REGION</strong></td><td>NTSC or PAL.</td></tr></tbody></table>
+
+## Known issues
+
+<table><thead><tr><th width="319">Problem</th><th>Solution</th></tr></thead><tbody><tr><td>Black screen or missing BIOS message</td><td><code>colecovision.rom</code> is missing from <code>bios</code> (see <a href="colecovision.md#bios"><strong>BIOS</strong></a>). For openMSX, copy it as <code>coleco.rom</code> into <code>bios\openMSX\share\systemroms</code>.</td></tr><tr><td>A game does not start with fbneo</td><td>fbneo only reads FBNeo ColecoVision sets, with <code>coleco.zip</code>: use gearcoleco.</td></tr><tr><td>The game waits for a keypad choice (level, number of players)</td><td>Keys 1 to 8 on the controller (see <a href="colecovision.md#controls"><strong>Controls</strong></a>): usually 1 to 4 for one player, 5 to 8 for two.</td></tr></tbody></table>
