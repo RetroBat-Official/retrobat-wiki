@@ -6,226 +6,165 @@ description: Microsoft
 
 <div align="left"><figure><img src="https://raw.githubusercontent.com/fabricecaruso/es-theme-carbon/5149a33eed46b2af638b06119397d4023b75131f/art/logos/windows.svg" alt=""><figcaption></figcaption></figure></div>
 
-Computer Operating System - Lifespan: 1992 - now
+## Overview
+
+RetroBat is not only for emulators: it also starts your **PC games**. A Windows game needs no emulator. RetroBat starts it, waits until it closes, then goes back to the game list.
+
+Games are sorted into several systems:
+
+<table><thead><tr><th width="231.25">System</th><th width="147">Folder</th><th>Content</th></tr></thead><tbody><tr><td><strong>Windows</strong></td><td><code>roms\windows</code></td><td>Your games: shortcuts, executables, <code>.game</code> files, folders…</td></tr><tr><td><strong>Steam</strong></td><td><code>roms\steam</code></td><td>Steam games</td></tr><tr><td><strong>Epic Games</strong></td><td><code>roms\epic</code></td><td>Epic Games Store games</td></tr><tr><td><strong>GOG.com</strong></td><td><code>roms\gog</code></td><td>GOG Galaxy games</td></tr><tr><td><strong>Amazon Prime Gaming</strong></td><td><code>roms\amazon</code></td><td>Amazon Games games</td></tr><tr><td><strong>EA Games</strong></td><td><code>roms\eagames</code></td><td>EA games (EA app)</td></tr></tbody></table>
+
+The store folders can be filled automatically by RetroBat (see [**Guides**](windows.md#guides)). You can also put everything in `roms\windows`.
 
 {% embed url="https://en.wikipedia.org/wiki/Microsoft_Windows" %}
 
-## Information
+## At a glance
 
-Windows games don't need any emulator to function, they can be run natively from the RetroBat interface.
+<table><thead><tr><th width="245.25"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\windows</code> (and <code>roms\steam</code>, <code>roms\epic</code>, <code>roms\gog</code>, <code>roms\amazon</code>, <code>roms\eagames</code>)</td></tr><tr><td><strong>Extensions</strong></td><td>.exe .bat .cmd .lnk .url .game .pc .win .windows .wine .zip .7z .rar .wsquashfs (stores: .url .bat, and .lnk except Steam)</td></tr><tr><td><strong>Default emulator</strong></td><td>windows (the game is started directly)</td></tr><tr><td><strong>BIOS</strong></td><td>None</td></tr><tr><td><strong>Controller setup</strong></td><td>No: set them in the game or in Steam</td></tr><tr><td><strong>Save states</strong></td><td>No</td></tr><tr><td><strong>RetroAchievements</strong></td><td>No</td></tr><tr><td><strong>Netplay</strong></td><td>No (depends on the game)</td></tr><tr><td><strong>Light guns</strong></td><td>DemulShooter compatible games</td></tr></tbody></table>
 
-<table data-header-hidden><thead><tr><th width="167"></th><th></th></tr></thead><tbody><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> windows<br><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> amazon (for amazon store games)<br><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> eagames (for EA store EA games)<br><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> epic (for EPIC store games)<br><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> gog (for GOG games)<br><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> steam (for Steam games)</td></tr><tr><td><strong>File extension</strong></td><td>.exe .bat .cmd .lnk .game .url .pc .win .windows .wine .7z .zip .rar .wsquashfs</td></tr></tbody></table>
+## Which emulator should I choose?
 
-## Special note for Store games
+There is nothing to choose: the game is started directly by Windows.
 
-RetroBat can be set up to automatically scan games from amazon, eagames (only EA games), epic, gog and steam with every launch, this feature can be enabled with this setting in the MAIN MENU > GAME SETTINGS > WINDOWS GAMES:
+## BIOS
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (175).png" alt=""><figcaption></figcaption></figure></div>
+No BIOS is needed.
+
+## Which game format?
+
+| Format                                          | Example                                  | What RetroBat does                                                                                               |
+| ----------------------------------------------- | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| **Shortcut** `.lnk`                             | `My game.lnk`                            | Starts the shortcut target, with its parameters.                                                                 |
+| **Internet shortcut** `.url`                    | `My game.url` (Steam, Epic, GOG, Amazon) | Starts the game through its store, then waits for the game itself.                                               |
+| **`.game` file**                                | `My game.game`                           | Text file: line 1 = executable path, next lines = parameters.                                                    |
+| **Executable** `.exe`                           | `My game.exe`                            | Starts the executable.                                                                                           |
+| **Script** `.bat`, `.cmd`                       | `My game.bat`                            | Starts the script, and looks for the executable it starts to wait for the end of the game.                       |
+| **Folder** `.pc`, `.win`, `.windows`, `.wine`   | `My game.pc\`                            | Starts `autorun.cmd`, `autorun.bat`, `autoexec.cmd` or `autoexec.bat`, otherwise the first `.exe` of the folder. |
+| **Archive** `.zip`, `.7z`, `.rar`, `.wsquashfs` | `My game.zip`                            | Extracts (or mounts) the game, then starts it like a folder.                                                     |
+
+The `.lnk` shortcut and the `.game` file are the simplest for a game installed anywhere on the PC.
 
 ## Controls
 
-The controllers configurations are done in-game or in Steam.
+RetroBat does not set up controllers for Windows games: set them in the game, or in Steam for Steam games.
 
-## System Features
+The RetroBat control center is not available during a Windows game.
 
-### Adding a game
+### Hotkeys
 
-Create a text file with the full path to the game executable and save the file with the ".game" extension, place the file in the following folder:   `\roms\windows`
+<table><thead><tr><th width="214">Hotkey</th><th>Action</th></tr></thead><tbody><tr><td><strong>HOTKEY + START</strong></td><td>Closes the game (when RetroBat found its executable)</td></tr></tbody></table>
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure></div>
+### Light guns
 
-### Adding a Steam game
+For shooting games compatible with **DemulShooter** (The House of the Dead 2, 3 and Overkill, Heavy Fire, Big Buck Hunter, Operation Wolf Returns…), RetroBat starts DemulShooter from two light guns, when **GUNS > ENABLE GUN** is on. The game file name must match the expected name (for example `The House of the Dead 2.lnk`). The other options are in the same menu (**USE DEMULSHOOTER** to force it with a single gun, hide the crosshair or the weapon…). For more details, see the [**Light guns**](../../../controllers/supported-controllers/lightguns/) page.
 
-Simply place the Steam Game shortcut url file in the `roms\windows` folder of your RetroBat installation:
+## Folders
 
-<div align="left"><figure><img src="https://i.imgur.com/QBLRBGX.png" alt=""><figcaption></figcaption></figure></div>
+<table><thead><tr><th width="332.75">Content</th><th>Folder</th></tr></thead><tbody><tr><td>Games</td><td><code>roms\windows</code></td></tr><tr><td>Store games</td><td><code>roms\steam</code>, <code>roms\epic</code>, <code>roms\gog</code>, <code>roms\amazon</code>, <code>roms\eagames</code></td></tr><tr><td>Games to ignore when scanning a store</td><td><code>roms\&#x3C;store>\&#x3C;store>_ignore.txt</code></td></tr></tbody></table>
 
-{% hint style="warning" %}
-If RetroBat menu music is playing while the game is still running, apply the method described [here](https://wiki.retrobat.org/systems-and-emulators/supported-game-systems/others/windows#what-to-do-if-retrobat-music-is-heard-in-the-background-while-playing)
-{% endhint %}
+Saves stay those of the game (usually in the Windows Documents or AppData folders).
 
-### Adding a game from EPIC Game Store
+## Guides
 
-Simply place the EPIC Game shortcut url file in the `roms\windows` folder of your RetroBat installation:
+### Add an installed game
 
-<div align="left"><figure><img src="https://i.imgur.com/rh6uCHs.png" alt=""><figcaption></figcaption></figure></div>
+1. Right-click the game executable, then **Send to > Desktop (create shortcut)**.
+2. Move the shortcut to `roms\windows`, and rename it if needed: its name is shown in the game list.
 
-{% hint style="warning" %}
-If RetroBat menu music is playing while the game is still running, apply the method described [here](https://wiki.retrobat.org/systems-and-emulators/supported-game-systems/others/windows#what-to-do-if-retrobat-music-is-heard-in-the-background-while-playing)
-{% endhint %}
+Other method: create a text file `My game.game` in `roms\windows`, with the executable path on the first line (and, if needed, its parameters on the next lines). A path starting with `.\` starts from the folder of the `.game` file.
 
-### Adding an Amazon Game
+<div align="left"><figure><img src="../../../.gitbook/assets/image (760).png" alt=""><figcaption></figcaption></figure></div>
 
-Simply place the Amazon Game shortcut url file in the `roms\windows` folder of your RetroBat installation:
+### Add a store game (Steam, Epic, GOG, Amazon, EA)
 
-<div align="left"><figure><img src="https://i.imgur.com/mW5Xme7.png" alt=""><figcaption></figcaption></figure></div>
+**Automatically**: enable **GAME SETTINGS > WINDOWS GAMES > SCAN INSTALLED STORE GAMES (STEAM, EPIC...)** (**GAME STORES AND LAUNCHERS** section). At startup, RetroBat creates a shortcut for each installed game in `roms\steam`, `roms\epic`, `roms\gog`, `roms\amazon` and `roms\eagames`, and removes those of uninstalled games.
 
-{% hint style="warning" %}
-If RetroBat menu music is playing while the game is still running, apply the method described [here](https://wiki.retrobat.org/systems-and-emulators/supported-game-systems/others/windows#what-to-do-if-retrobat-music-is-heard-in-the-background-while-playing)
-{% endhint %}
+| Option (WINDOWS GAMES)                          | Effect                                                                                                   |
+| ----------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| **SCAN INSTALLED STORE GAMES (STEAM, EPIC...)** | Creates shortcuts for installed games at RetroBat startup.                                               |
+| **INCLUDE UNINSTALLED GAMES**                   | Also adds the Steam games of your library that are not installed.                                        |
+| **KEEP GAMES ADDED MANUALLY**                   | Does not delete the shortcuts you added yourself to the store folders.                                   |
+| **KILL LAUNCHER WHEN EXIT**                     | Closes Steam, Epic… when quitting the game. By default, the store is closed only if the game started it. |
+| **TRY TO READ EXECUTABLE IN BAT FILES**         | Looks for the executable started by a `.bat` or `.cmd` file (on by default).                             |
 
-### Adding a Microsoft Gamepass game
+To stop a game from being added by the scan, write its ID in `roms\<store>\<store>_ignore.txt` (one per line, for example `roms\steam\steam_ignore.txt`).
 
-Locate the game installation folder on the computer (usually in `C:\XboxGames`).
+<div align="left"><figure><img src="../../../.gitbook/assets/image (761).png" alt=""><figcaption></figcaption></figure></div>
 
-Open the "**Content**" folder and find the game executable file:
+**Manually**: copy the game shortcut created by the store (`.url`) to `roms\windows` or to the store folder.
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (46) (1).png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (762).png" alt=""><figcaption></figcaption></figure></div>
 
-{% hint style="info" %}
-It is also possible to run the game and press CTRL+ALT+DEL to find the game executable through the task manager.
-{% endhint %}
+### Add an Xbox / Game Pass game
 
-Create a shortcut to this executable file (_right click > send to > Desktop (shortcut)_)
+Microsoft Store and Game Pass games are protected applications.
 
-Cut the shortcut and paste it into the `roms\windows` folder of the RetroBat installation.
+* **Game installed in `C:\XboxGames`**: open its `Content` folder, make a shortcut to the game executable and put it in `roms\windows`.
+* **Shortcut created by the Xbox app**: put it in `roms\windows`.
 
-You can rename the shortcut if desired.
+<div align="left"><figure><img src="../../../.gitbook/assets/image (763).png" alt="" width="342"><figcaption></figcaption></figure></div>
 
-{% hint style="warning" %}
-If RetroBat menu music is playing while the game is still running, apply the method described [here](https://wiki.retrobat.org/systems-and-emulators/supported-game-systems/others/windows#what-to-do-if-retrobat-music-is-heard-in-the-background-while-playing)
-{% endhint %}
+RetroBat does not always find the game behind this shortcut. Then create next to it a text file with the same name and the `.uwp` extension, holding the application name (shown in the shortcut properties, for example `Microsoft.SeaofThieves`). RetroBat deduces the game executable from it.
 
-### Adding a Microsoft Gamepass game (UWP format)
+<div align="left"><figure><img src="../../../.gitbook/assets/image (764).png" alt=""><figcaption></figcaption></figure></div>
 
-From the XBOX app, create a desktop shortcut:
+<div align="left"><figure><img src="../../../.gitbook/assets/image (765).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/ZHP8OUv.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (766).png" alt=""><figcaption></figcaption></figure></div>
 
-Cut and paste the shortcut into the `roms\windows` folder:
+### Add an Ubisoft Connect game
 
-<div align="left"><figure><img src="https://i.imgur.com/CTOgYjI.png" alt=""><figcaption></figcaption></figure></div>
-
-Then, right-click on the shortcut and retrieve the UWP application name:
-
-<div align="left"><figure><img src="https://i.imgur.com/SQzxKUS.png" alt=""><figcaption></figcaption></figure></div>
-
-Next : create a text file with your favorite text editor and write the app name inside the file:
-
-<div align="left"><figure><img src="https://i.imgur.com/bly0vZ8.png" alt=""><figcaption></figcaption></figure></div>
-
-Finally, save the file in the same folder as the game shortcut with the '.uwp' file extension:
-
-<div align="left"><figure><img src="https://i.imgur.com/iWX2oXO.png" alt=""><figcaption></figcaption></figure></div>
-
-{% hint style="info" %}
-This second part (the uwp file) is necessary, else RetroBat will not wait for the game to finish and the music from the front-end will be heard during the game.
-{% endhint %}
-
-### Adding an UBISOFT game (Ubisoft Connect)
-
-{% hint style="info" %}
-You need to ensure that the Ubisoft Connect Launcher is set to automatically login, else the login window might appear.
-{% endhint %}
-
-Create a .bat file with a scrapable name for your game.
-
-You have 2 possibilities, quit Ubisoft Connect at the end of each game or not, both work since emulationstation is waiting on the end of the execution of the script to reactivate.
-
-The solution without switching off Unbisoft Connect launches the games faster since the connection step is no longer required once launched for the first time, same if Ubisoft Connect is launched when Windows starts.
-
-This is code of your .bat file **with Ubisoft Connect kill**:
+Create a `.bat` file in `roms\windows` that starts the game through its Ubisoft address (`uplay://launch/<id>/0`, shown in a shortcut created by Ubisoft Connect), then waits for the end of the game:
 
 ```batch
 @echo OFF
-
-REM HERE MODIFY YOUR UBISOFT APPID:
+REM Ubisoft game id
 START uplay://launch/00000/0
-
 TIMEOUT /t 30
 :RUNNING
-
-REM HERE YOU MUST ENTER THE Right NAME of THE EXECUTABLE, FOR EXAMPLE: "MyGame.exe"
+REM Exact name of the game executable
 tasklist|findstr "MyGame.exe" > nul
-
-IF %errorlevel%==1 timeout /t 5 & taskkill /F /IM upc.exe /T & GOTO ENDLOOP
-timeout /t 2
-GOTO RUNNING
-:ENDLOOP
-```
-
-This is code of your .bat file **without Ubisoft Connect kill**:
-
-```batch
-@echo OFF
-
-REM HERE MODIFY YOUR UBISOFT APPID:
-START uplay://launch/00000/0
-
-TIMEOUT /t 30
-:RUNNING
-
-REM HERE YOU MUST ENTER THE Right NAME of THE EXECUTABLE, FOR EXAMPLE: "MyGame.exe"
-tasklist|findstr "MyGame.exe" > nul
-
 IF %errorlevel%==1 timeout /t 5 & GOTO ENDLOOP
 timeout /t 2
 GOTO RUNNING
 :ENDLOOP
 ```
 
-**All you need is to inquire Ubisoft game launch command and executable name, proceed as follows:**
+Replace `00000` with the game ID...
 
-Open Ubisoft Connect, then select your installed game and choose to "Create desktop shortcut":
+<div align="left"><figure><img src="../../../.gitbook/assets/image (767).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://i.imgur.com/BlqMJIB.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (768).png" alt=""><figcaption></figcaption></figure></div>
 
-Right-click the created shortcut and retrieve the launch command from the shortcut properties:
+... and `MyGame.exe` with the name of its executable (shown in Task Manager while playing or available in the game data folder).
 
-<div align="left"><figure><img src="https://i.imgur.com/MmzV6ec.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (769).png" alt=""><figcaption></figcaption></figure></div>
 
-Next find the game executable as follows:
+To also close Ubisoft Connect when quitting, replace the `IF` line with:
 
-From Ubisoft Connect, open Game details and go to properties:
+```batch
+IF %errorlevel%==1 timeout /t 5 & taskkill /F /IM upc.exe /T & GOTO ENDLOOP
+```
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (143).png" alt=""><figcaption></figcaption></figure></div>
+Set Ubisoft Connect to sign you in automatically.
 
-Click the "Open folder" button in the Local files section and find the game executable name:
+### RetroBat music plays during the game
 
-<div align="left"><figure><img src="../../../.gitbook/assets/image (144).png" alt=""><figcaption></figcaption></figure></div>
+RetroBat waits for the end of the game before going back to the game list. If it does not find the game (game started by a launcher, wrong executable detected in a store), it comes back too early and its music plays.
 
-{% hint style="info" %}
-Alternatively you could run the game and open the task manager to find the executable name.
-{% endhint %}
+1. Start the game outside RetroBat, until you are in game.
+2. Open Task Manager (**CTRL + SHIFT + ESC**) and note the name of the game executable.
+3. Next to the game file (for example `My game.lnk`), create a text file with the same name and the `.gameexe` extension: `My game.gameexe`.
+4. Write the executable name in it, with or without `.exe`. If the game starts a second program (launcher then game), write the second name on a second line.
 
-Next, report these two pieces of information in your.bat file as follows:
+RetroBat then waits for the end of this program. The `.gameexe` file works with all game formats.
 
-<div align="left"><figure><img src="https://i.imgur.com/BAx77xx.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (770).png" alt=""><figcaption></figcaption></figure></div>
 
-Finally save the bat file in the `roms\windows` folder of your RetroBat installation.
+<div align="left"><figure><img src="../../../.gitbook/assets/image (771).png" alt=""><figcaption></figcaption></figure></div>
 
-### What to do if RetroBat music is heard in the background while playing ?
+If the game takes long to start, increase **EMULATION > WAIT TIME** in the game options (30 seconds by default).
 
-This usually happens when RetroBat was not able to detect the actual game process (executable) of the game, it might be caused by:
+## Known issues
 
-* the game having a launcher before the actual game process starts
-* RetroBat not being able to find the executable in Steam, Epic or Amazon databases
-
-In such case, the solution is to detect the actual game executable by running the game outside of RetroBat:
-
-* Run the game
-* Wait to be actually in-game
-* Press CTRL + ALT + DEL to open task explorer
-* Find the actual executable name of the game process:
-
-<div align="left"><figure><img src="https://i.imgur.com/XXTVidn.png" alt=""><figcaption></figcaption></figure></div>
-
-* Create a text file near the game shortcut (in roms\windows folder) and paste the process name inside the file (without the .exe extension):
-
-<div align="left"><figure><img src="https://i.imgur.com/gWOi36k.png" alt=""><figcaption></figcaption></figure></div>
-
-* Save the file and name it exactly the same as the game shortcut, change the extension to ".gameexe":
-
-<div align="left"><figure><img src="https://i.imgur.com/Wr1vqVP.png" alt=""><figcaption></figcaption></figure></div>
-
-RetroBat will now wait for the process specified within the file to stop to return to the gamelist !
-
-{% hint style="info" %}
-The .gameexe file method is compatible with shortcuts (.lnk) and .url files.
-{% endhint %}
-
-{% hint style="info" %}
-You can also specify 2 executables to monitor, this will enable monitoring 2 processes and can be used for games that switch processes during game (or games with 2 subgames with different executables).
-
-Simply put the second executable to monitor in the second line of the file.
-{% endhint %}
+<table><thead><tr><th width="347.75">Problem</th><th>Solution</th></tr></thead><tbody><tr><td>RetroBat music plays in game, or RetroBat goes back to the list too early</td><td>See <a href="windows.md#retrobat-music-plays-during-the-game"><strong>RetroBat music plays during the game</strong></a>.</td></tr><tr><td>HOTKEY + START does not close the game</td><td>RetroBat did not find the game executable: add a <code>.gameexe</code> file.</td></tr><tr><td>A store game disappears from the list</td><td>The scan removes the shortcuts of uninstalled games: enable <strong>KEEP GAMES ADDED MANUALLY</strong> for shortcuts you added yourself.</td></tr><tr><td>Steam stays open after the game</td><td>Enable <strong>KILL LAUNCHER WHEN EXIT</strong>.</td></tr><tr><td>The controller does not work in game</td><td>The game does not detect the controller: set it in the game, or add the game to Steam and use the Steam configuration.</td></tr></tbody></table>

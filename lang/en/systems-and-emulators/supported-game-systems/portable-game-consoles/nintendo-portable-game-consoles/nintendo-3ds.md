@@ -4,7 +4,7 @@ description: Nintendo
 
 # Nintendo 3DS
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure></div>
 
 ## Overview
 
@@ -46,9 +46,9 @@ Buttons are mapped by position, as on the console:
 
 **CONTROLS > INVERT FACE BUTTONS** places the buttons by their name on an Xbox controller (A on SOUTH, B on EAST…).
 
-| Standard                                         | Inverted                                         |
-| ------------------------------------------------ | ------------------------------------------------ |
-| ![](<../../../../.gitbook/assets/image (1).png>) | ![](<../../../../.gitbook/assets/image (2).png>) |
+| Standard                                             | Inverted                                             |
+| ---------------------------------------------------- | ---------------------------------------------------- |
+| ![](<../../../../.gitbook/assets/image (1) (1).png>) | ![](<../../../../.gitbook/assets/image (2) (1).png>) |
 
 ### Touch screen
 
@@ -92,7 +92,7 @@ A `.cia` is installed into the memory of the emulated console, then the installe
 3. Copy the path of the `.app` shown in the shortcut (last part of the target, without the quotes) to a text file.
 4. Save this file with the `.m3u` extension in `roms\3ds`, then update the game list.
 
-<div align="left"><figure><img src="../../../../.gitbook/assets/image (3).png" alt="" width="428"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (3) (1).png" alt="" width="428"><figcaption></figcaption></figure></div>
 
 ### Custom textures
 
