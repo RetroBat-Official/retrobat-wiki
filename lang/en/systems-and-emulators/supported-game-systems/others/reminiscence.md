@@ -1,41 +1,57 @@
 # REminiscence
 
-<div align="left"><figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FCgoewyw8Sagl6SNUMrCG%2Fuploads%2FWdeoVQeQmWfl08QMWN1a%2Freminiscence.png?alt=media&#x26;token=7d562935-b45b-47df-ab18-6b16c4b98ad8" alt=""><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../../.gitbook/assets/image (788).png" alt="" width="563"><figcaption></figcaption></figure></div>
 
-Game engine to play Flashback game.
+## Overview
+
+**Flashback** (Delphine Software, 1992) is a 2D action-adventure game, with rotoscoped animations, in a science fiction world.
+
+RetroBat runs it with the **REminiscence** libretro core, a rewrite of the game engine.
+
+The game files are not provided: use the ones from your own copy, **PC version (DOS or CD)**, or the files of the [GOG](https://www.gog.com/game/flashback) / [Steam](https://store.steampowered.com/app/961620/Flashback/) versions.
 
 {% embed url="https://docs.libretro.com/library/reminiscence/" %}
 
-## Information
+## At a glance
 
-<table data-header-hidden><thead><tr><th width="240"></th><th></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>Libretro: reminiscence</li></ul></td></tr><tr><td><strong>File folder</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> reminiscence</td></tr><tr><td><strong>File extension</strong></td><td>.rem</td></tr></tbody></table>
+<table><thead><tr><th width="235.25"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\reminiscence</code></td></tr><tr><td><strong>Extensions</strong></td><td>.rem</td></tr><tr><td><strong>Default emulator</strong></td><td>libretro: reminiscence</td></tr><tr><td><strong>BIOS</strong></td><td>None (game files to provide)</td></tr><tr><td><strong>Controller setup</strong></td><td>Automatic</td></tr><tr><td><strong>Save states</strong></td><td>No</td></tr><tr><td><strong>RetroAchievements</strong></td><td>No</td></tr><tr><td><strong>Netplay</strong></td><td>No</td></tr><tr><td><strong>Light guns</strong></td><td>—</td></tr><tr><td><strong>Wheels</strong></td><td>—</td></tr><tr><td><strong>Optional BIOS</strong></td><td>—</td></tr></tbody></table>
 
-## BIOS
+{% hint style="warning" %}
+The core only runs the PC (DOS) version of the game: Amiga or Macintosh files are not recognized.
+{% endhint %}
 
-No BIOS required.
+## Which game format?
+
+An empty `.rem` file starts the game whose files are in its folder or its subfolders.
 
 ## Controls
 
-<table><thead><tr><th width="246">Retrobat</th><th>Reminiscence</th></tr></thead><tbody><tr><td>D-PAD</td><td>Directions</td></tr><tr><td>Left analog stick</td><td>Directions</td></tr><tr><td>START</td><td></td></tr><tr><td>SELECT</td><td></td></tr><tr><td><img src="../../../.gitbook/assets/image (48).png" alt=""></td><td>Inventory</td></tr><tr><td><img src="../../../.gitbook/assets/image (30).png" alt=""></td><td>Draw/Holster</td></tr><tr><td><img src="../../../.gitbook/assets/image (16) (1).png" alt=""></td><td>Use</td></tr><tr><td><img src="../../../.gitbook/assets/image (50).png" alt=""></td><td>Action</td></tr></tbody></table>
+<table><thead><tr><th width="226.5">RetroBat controller</th><th>Action</th></tr></thead><tbody><tr><td>D-pad, left stick</td><td>Move</td></tr><tr><td>SOUTH</td><td>Draw / holster the weapon</td></tr><tr><td>EAST</td><td>Use the item</td></tr><tr><td>NORTH</td><td>Action</td></tr><tr><td>WEST</td><td>Inventory / skip</td></tr></tbody></table>
 
-## System Features
+### Hotkeys
 
-### Game files organization
+RetroArch hotkeys. See the [**Hotkeys**](../../../navigation/hotkeys.md) page.
 
-REminiscence requires original Flashback game files from Delphine Software to work.&#x20;
+## Folders
 
-DOS, PC-CD, Amiga, Macintosh, or [GOG ](https://www.gog.com/game/flashback)or [STEAM](https://store.steampowered.com/app/961620/Flashback/) versions can be used.
+<table><thead><tr><th width="201.5">Content</th><th>Folder</th></tr></thead><tbody><tr><td>Game</td><td><code>roms\reminiscence\Flashback</code></td></tr></tbody></table>
 
-Inside the `roms\reminiscence` folder, create a folder named `Flashback`.&#x20;
+## Guides
 
-Inside this folder, copy all the files that can be found in the `Flashback_Data\StreamingAssets\data` folder of the Flashback source game:
+### File layout
 
-<div align="left"><figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FCgoewyw8Sagl6SNUMrCG%2Fuploads%2FHSBxilak9WLJaoiyh5pj%2F2024-05-05_20h19_06.png?alt=media&#x26;token=cc17be04-a963-4310-9123-5089fd34bb09" alt=""><figcaption></figcaption></figure></div>
+In `roms\reminiscence`, create a `Flashback` folder. Copy the game files into it; for the GOG and Steam versions, these are the files of the `Flashback_Data\StreamingAssets\data` folder:
 
-The game can be launched, but some voices and musics will not work. To add them, one can get the audio files from Raphaël Gesqua and copy them inside the `Flashback` folder:
+<div align="left"><figure><img src="../../../.gitbook/assets/image (791).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FCgoewyw8Sagl6SNUMrCG%2Fuploads%2FizF6z0EYPMkJSzryVqNu%2F2024-05-05_21h42_28.png?alt=media&#x26;token=29ef3747-5c78-4c68-a043-6083e83f88d1" alt=""><figcaption></figcaption></figure></div>
+Some voices and music may be missing. The Amiga music by Raphaël Gesqua can be added to the `Flashback` folder:
 
-Finally, for RetroBat to see the game and be able to launch it, create an empty text file inside the  `roms\reminiscence` folder, and rename the file to `Flashback.rem` (.rem file extension).
+<div align="left"><figure><img src="../../../.gitbook/assets/image (789).png" alt=""><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FCgoewyw8Sagl6SNUMrCG%2Fuploads%2FrL4VgTmOOqxZBT22BZnb%2F2024-05-05_20h22_19.png?alt=media&#x26;token=31116637-e545-4ca8-b152-0ac7b1435c10" alt=""><figcaption></figcaption></figure></div>
+Finally, create an empty text file in `roms\reminiscence`, named `Flashback`, with the `.rem` extension (`Flashback.rem`):
+
+<div align="left"><figure><img src="../../../.gitbook/assets/image (790).png" alt=""><figcaption></figcaption></figure></div>
+
+## Known issues
+
+<table><thead><tr><th width="275.25">Issue</th><th>Solution</th></tr></thead><tbody><tr><td>The game does not start</td><td>The files are not the PC (DOS) version ones, or they are not in the folder of the <code>.rem</code> file or one of its subfolders.</td></tr></tbody></table>

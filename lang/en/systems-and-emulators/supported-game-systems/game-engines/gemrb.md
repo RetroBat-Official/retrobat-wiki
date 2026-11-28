@@ -1,113 +1,88 @@
 # GemRB
 
-<div align="left">
+<div align="left"><figure><img src="../../../.gitbook/assets/image (781).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-<figure><picture><source srcset="../../../.gitbook/assets/gemrb.png" media="(prefers-color-scheme: dark)"><img src="../../../.gitbook/assets/gemrb (1).png" alt="GemRB" width="375"></picture><figcaption></figcaption></figure>
+## Overview
 
-</div>
+**GemRB** is a free version of BioWare's **Infinity Engine**. It runs the role-playing games **Baldur's Gate**, **Baldur's Gate II**, **Icewind Dale**, **Icewind Dale II** and **Planescape: Torment**, with their add-ons and mods.
 
-GemRB - Infinity Engine Open-Source Implementation
+GemRB has been developed for more than 20 years: compatibility is good, but games may still have flaws.
+
+The games are not provided: you need the original releases (BioWare, Black Isle), from your own copies.
 
 {% embed url="https://gemrb.org/" %}
 
-## Information
+## At a glance
 
-<table data-header-hidden><thead><tr><th width="184"></th><th></th><th data-hidden></th></tr></thead><tbody><tr><td><strong>Emulators</strong></td><td><ul><li>gemrb</li></ul></td><td></td></tr><tr><td><strong>Games Location</strong></td><td><span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span>roms \ <span data-gb-custom-inline data-tag="emoji" data-code="1f4c2">📂</span> gemrb</td><td></td></tr><tr><td><strong>File extensions</strong></td><td>.auto .bg1 .bg2 .how .iwd .iwd2 .pst</td><td></td></tr></tbody></table>
+<table><thead><tr><th width="244"></th><th></th></tr></thead><tbody><tr><td><strong>Games folder</strong></td><td><code>roms\gemrb</code></td></tr><tr><td><strong>Extensions</strong></td><td>.auto .bg1 .bg2 .how .iwd .iwd2 .pst</td></tr><tr><td><strong>Default emulator</strong></td><td>gemrb</td></tr><tr><td><strong>BIOS</strong></td><td>None (game files to provide)</td></tr><tr><td><strong>Controller setup</strong></td><td>Automatic: the left stick moves the pointer</td></tr><tr><td><strong>Save states</strong></td><td>No: in-game saves</td></tr><tr><td><strong>RetroAchievements</strong></td><td>No</td></tr><tr><td><strong>Netplay</strong></td><td>No</td></tr><tr><td><strong>Light guns</strong></td><td>—</td></tr><tr><td><strong>Wheels</strong></td><td>—</td></tr><tr><td><strong>Optional BIOS</strong></td><td>—</td></tr></tbody></table>
 
-## BIOS information
+## Compatibility
 
-No BIOS required
+<table><thead><tr><th>Game</th><th width="119">Playable</th><th width="143">Complete</th><th>Polished</th></tr></thead><tbody><tr><td>Baldur's Gate</td><td>YES</td><td>YES</td><td>YES</td></tr><tr><td>Baldur's Gate II</td><td>YES</td><td>YES</td><td>YES</td></tr><tr><td>Icewind Dale</td><td>YES</td><td>YES</td><td>YES</td></tr><tr><td>Icewind Dale II</td><td>YES</td><td>NO</td><td>NO</td></tr><tr><td>Planescape: Torment</td><td>YES</td><td>YES</td><td>NO</td></tr><tr><td>Enhanced Editions (Beamdog)</td><td>NO</td><td>NO</td><td>NO</td></tr></tbody></table>
+
+## BIOS
+
+No BIOS is needed.
+
+## Which game format?
+
+Each game is a folder holding all the files of the installed game. The folder name ends with a dot followed by the game identifier:
+
+<table><thead><tr><th width="454">Game</th><th>Identifier</th></tr></thead><tbody><tr><td>Baldur's Gate (with or without Tales of the Sword Coast)</td><td><code>bg1</code></td></tr><tr><td>Baldur's Gate II: Shadows of Amn (with or without Throne of Bhaal)</td><td><code>bg2</code></td></tr><tr><td>Icewind Dale (without add-on)</td><td><code>iwd</code></td></tr><tr><td>Icewind Dale: Heart of Winter (with or without Trials of the Luremaster)</td><td><code>how</code></td></tr><tr><td>Icewind Dale II</td><td><code>iwd2</code></td></tr><tr><td>Planescape: Torment</td><td><code>pst</code></td></tr><tr><td>Automatic detection (to try)</td><td><code>auto</code></td></tr></tbody></table>
+
+Example for Baldur's Gate:
+
+<div align="left"><figure><img src="../../../.gitbook/assets/image (783).png" alt=""><figcaption></figcaption></figure></div>
 
 ## Controls
 
-Controls are managed in-game.&#x20;
+The games are played with mouse and keyboard (point and click). Touch screens work as a mouse.
 
-GemRB / Infinity Engine games are designed for mouse and keyboard controls.&#x20;
+RetroBat enables the controller: the left stick moves the pointer, the right stick scrolls the map. **CONTROLS > POINTER SPEED** and **STICK DEADZONE** adjust it. With several controllers, only the player 1 one is used.
 
-Touchscreens are compatible as mouse-replacement.&#x20;
+### Hotkeys
 
-The gameplay consists of point and click actions and shortcut keys, like the most of C-RPG and RTS games.
+<table><thead><tr><th width="301.5">Hotkey</th><th>Action</th></tr></thead><tbody><tr><td>HOTKEY + START</td><td>Quit</td></tr></tbody></table>
 
-## Specific system information
+## Folders
 
-GemRB is an open-source implementation of the Bioware's Infinity Engine. It runs Baldur's Gate, Icewind Dale and Planescape Torment games, their expansions, sequels and mods.
+<table><thead><tr><th width="285.25">Content</th><th>Folder</th></tr></thead><tbody><tr><td>Games</td><td><code>roms\gemrb\&#x3C;game>.&#x3C;identifier></code></td></tr><tr><td>Saves</td><td><code>saves\gemrb\&#x3C;game></code></td></tr><tr><td>Configuration</td><td><code>emulators\gemrb\GemRB.cfg</code></td></tr></tbody></table>
 
-GemRB is in heavy development since more than 20 years, a lot of effort has been put for games compatibility though it is not yet perfect.
+## Guides
 
-Here is a table showing compatibility status:
+### Change the resolution
 
-<table><thead><tr><th width="253">Games</th><th width="159" align="center">Playable</th><th width="157" align="center">Completable</th><th align="center">Polished</th></tr></thead><tbody><tr><td>Baldur's Gate</td><td align="center">YES</td><td align="center">YES</td><td align="center">YES</td></tr><tr><td>Baldur's Gate II</td><td align="center">YES</td><td align="center">YES</td><td align="center">YES</td></tr><tr><td>Icewind Dale</td><td align="center">YES</td><td align="center">YES</td><td align="center">YES</td></tr><tr><td>Icewind Dale II</td><td align="center">YES</td><td align="center"><mark style="color:red;">NO</mark></td><td align="center"><mark style="color:red;">NO</mark></td></tr><tr><td>Planescape Torment</td><td align="center">YES</td><td align="center">YES</td><td align="center"><mark style="color:red;">NO</mark></td></tr><tr><td>Any Enhanced Edition</td><td align="center"><mark style="color:red;">NO</mark></td><td align="center"><mark style="color:red;">NO</mark></td><td align="center"><mark style="color:red;">NO</mark></td></tr><tr><td>New games</td><td align="center"><mark style="color:red;">NO</mark></td><td align="center"><mark style="color:red;">NO</mark></td><td align="center"><mark style="color:red;">NO</mark></td></tr></tbody></table>
+Without a widescreen mod, the games are displayed in their original resolutions:
 
-### Adding GemRB games
+| Game                                                     | Original resolutions                 |
+| -------------------------------------------------------- | ------------------------------------ |
+| Baldur's Gate (with or without Tales of the Sword Coast) | 640x480                              |
+| Baldur's Gate II (with or without Throne of Bhaal)       | 640x480, 800x600, 1024x768, 1280x960 |
+| Icewind Dale (without add-on)                            | 640x480                              |
+| Icewind Dale: Heart of Winter                            | 640x480, 800x600, 1024x768, 1280x960 |
+| Icewind Dale II                                          | 800x600, 1024x768, 1280x960          |
+| Planescape: Torment                                      | 640x480                              |
 
-GemRB needs the original game files published by Bioware and Black Isle. It is not yet compatible with the Enhanced Editions by Beamdog.&#x20;
+Select the resolution in **INTERNAL GAME RESOLUTION** (DESKTOP = screen resolution):
 
-For each games, you need to create a folder where all the files of the game need to be copied.
+<div align="left"><figure><img src="../../../.gitbook/assets/image (782).png" alt=""><figcaption></figcaption></figure></div>
 
-&#x20;The folder name must contain an extension that identifies the game type you want to run and each game has its own identifier:&#x20;
+### Widescreen mods
 
-<table><thead><tr><th width="474">Games</th><th align="center">Identifiers</th></tr></thead><tbody><tr><td>Baldur's Gate<br>+/- Tales of the Sword Coast</td><td align="center">bg1</td></tr><tr><td>Baldur's Gate II - Shadows of Amn<br>+/- Throne of Bhaal</td><td align="center">bg2</td></tr><tr><td>Icewind Dale (without any extension)</td><td align="center">iwd</td></tr><tr><td>Icewind Dale - Heart of Winter<br>+/- Trial of the Luremaster</td><td align="center">how</td></tr><tr><td>Icewind Dale II</td><td align="center">iwd2</td></tr><tr><td>Planescape Torment</td><td align="center">pst</td></tr><tr><td>To try game autodetection</td><td align="center">auto</td></tr></tbody></table>
+For a widescreen resolution, apply a widescreen mod to the game (depending on the game, other mods may be needed for the interface to display correctly):
 
-For example for the game Baldur's Gate:
+{% embed url="https://www.gibberlings3.net/mods/tools/widescreen/" %}
 
-<div align="left">
+Follow the mod instructions, then select in **INTERNAL GAME RESOLUTION** the resolution set with the mod (DESKTOP if it is the screen one).
 
-<figure><img src="../../../.gitbook/assets/gemrb_game_folder.png" alt=""><figcaption><p>Example of GemRB game folder</p></figcaption></figure>
+### Options
 
-</div>
+* **VISUAL RENDERING > ZOOM**: map zoom with the mouse wheel, like the Enhanced Editions.
+* **EMULATION > LANGUAGE ENCODING**: only for the Asian versions of the games.
 
-### Change game resolution
+## Known issues
 
-Without any widescreen mod installed, games are only compatible with their native resolution(s).
-
-Here is the native resolutions compatibility list:
-
-<table data-header-hidden><thead><tr><th width="329">Games</th><th>Native resolutions</th></tr></thead><tbody><tr><td>Baldur's Gate<br>+/- Tales of the Sword Coast</td><td>640x480</td></tr><tr><td>Baldur's Gate II - Shadows of Amn<br>+/- Throne of Bhaal</td><td>640x480 / 800x600 / 1024x768 / 1280x960</td></tr><tr><td>Icewind Dale (without any extension)</td><td>640x480</td></tr><tr><td>Icewind Dale - Heart of Winter<br>+/- Trial of the Luremaster</td><td>640x480 / 800x600 / 1024x768 / 1280x960</td></tr><tr><td>Icewind Dale II</td><td>800x600 / 1024x768 / 1280x960</td></tr><tr><td>Planescape Torment</td><td>640x480</td></tr></tbody></table>
-
-To change the game resolution you need to edit the **Internal Resolution** option in RetroBat:
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/system_options_en.png" alt="" width="539"><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/gemrb_options_en.png" alt="" width="543"><figcaption></figcaption></figure>
-
-</div>
-
-Unlike usual, you will need here to manually type the compatible resolution you want for your game, for example 800x600 in the edit box, then validate it:
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/resolution_input_en.png" alt="" width="563"><figcaption></figcaption></figure>
-
-</div>
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/gemrb_resolution_en.png" alt="" width="545"><figcaption></figcaption></figure>
-
-</div>
-
-If you leave the edit box empty, it will default to the lower game's native resolution.
-
-### Widescreen Mod
-
-For a more modern widescreen resolution you will need to apply a widescreen patch to your game. Depending on the game, it may require also additional mods for the game interface to fit the screen.
-
-You can download the widescreen mods [here](https://www.gibberlings3.net/mods/tools/widescreen/).
-
-Follow the instruction of the mod then repeat the step above to change the resolution to the one you specified when applying the widescreen mod.
-
-{% hint style="info" %}
-If this resolution is the same than your desktop's, simply type "desktop" instead of the full resolution.
-{% endhint %}
-
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/gemrb_desktop_en.png" alt="" width="542"><figcaption></figcaption></figure>
-
-</div>
+| Issue                                                | Solution                                            |
+| ---------------------------------------------------- | --------------------------------------------------- |
+| The wrong game is started or the game does not start | Check the identifier at the end of the folder name. |
+| The pointer moves on its own                         | Increase **STICK DEADZONE**.                        |
